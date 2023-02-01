@@ -195,7 +195,11 @@ Future _writeKeys(
   bool? skipUnnecessaryKeys,
   String? prefix,
 ) async {
-  var file = 'abstract class ${prefix}LocaleKeys {\n';
+  var file = '''
+// ignore_for_file: constant_identifier_names
+
+abstract class ${prefix}LocaleKeys {
+''';
 
   final fileData = File(files.first.path);
 
