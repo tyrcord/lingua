@@ -4,5 +4,11 @@
     "action": "Activer les annonces personnalisées",
     "description": "En autorisant la personnalisation de vos annonces, vous bénéficierez d'une expérience publicitaire plus adaptée à vos centres d'intérêt.",
     "notes": "Nous accordons une grande importance à votre vie privée et nous nous engageons à utiliser vos informations que dans le but d'améliorer votre expérience et de vous présenter des annonces pertinentes."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "action": "Autoriser les notifications",
+    "description": "Restez à jour avec les dernières mises à jour, nouvelles et informations importantes.",
+    "notes": "Nous nous engageons à ne vous envoyer que des notifications utiles et importantes. Et, vous avez la possibilité de modifier vos préférences de notification à tout moment."
   }
 }

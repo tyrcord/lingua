@@ -7,6 +7,12 @@ scripts:
   analyze:
     exec: dart analyze .
 
+  generate:onboarding:
+    run: cd $PACKAGE && flutter pub run lingua_core:generate -p $PREFIX
+    env:
+      PACKAGE: packages/onboarding
+      PREFIX: "Onboarding"
+
 ide:
   intellij:
     enabled: false
