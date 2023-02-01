@@ -1,0 +1,12 @@
+name: lingua
+
+packages:
+  - packages/**
+
+scripts:
+  analyze:
+    exec: dart analyze .
+
+ide:
+  intellij:
+    enabled: false
