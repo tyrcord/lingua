@@ -16,22 +16,25 @@ class LinguaLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static mergeMapLocales(
+  static Map<String, Map<String, dynamic>> mergeMapLocales(
     List<Map<String, Map<String, dynamic>>> mapLocales,
   ) {
-    return mapLocales.fold({}, (combinedMap, mapLocale) {
-      mapLocale.forEach((localeKey, map) {
-        if (combinedMap.containsKey(localeKey)) {
-          combinedMap[localeKey] = {
-            ...combinedMap[localeKey]!,
-            ...map,
-          };
-        } else {
-          combinedMap[localeKey] = map;
-        }
-      });
+    return mapLocales.fold(
+      <String, Map<String, dynamic>>{},
+      (combinedMap, mapLocale) {
+        mapLocale.forEach((localeKey, map) {
+          if (combinedMap.containsKey(localeKey)) {
+            combinedMap[localeKey] = {
+              ...combinedMap[localeKey]!,
+              ...map,
+            };
+          } else {
+            combinedMap[localeKey] = map;
+          }
+        });
 
-      return combinedMap;
-    });
+        return combinedMap;
+      },
+    );
   }
 }
