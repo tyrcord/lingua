@@ -8,10 +8,12 @@ scripts:
     exec: dart analyze .
 
   generate:onboarding:
-    run: cd $PACKAGE && flutter pub run lingua_core:generate -p $PREFIX
+    run: cd $PACKAGE && $COMMAND -p $PREFIX && $COMMAND -p $PREFIX -f keys -o $FILE
     env:
+      COMMAND: "flutter pub run lingua_core:generate"
       PACKAGE: packages/onboarding
       PREFIX: "Onboarding"
+      FILE: "locale_keys.g.dart"
 
 ide:
   intellij:
