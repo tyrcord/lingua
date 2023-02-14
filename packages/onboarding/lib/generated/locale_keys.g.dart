@@ -11,4 +11,5 @@ abstract class OnboardingLocaleKeys {
   static const notifications_description = 'notifications.description';
   static const notifications_notes = 'notifications.notes';
   static const notifications = 'notifications';
+
 }
