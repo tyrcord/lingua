@@ -1,1 +1,1 @@
-library languages;
+library lingua_languages;
