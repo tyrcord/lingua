@@ -1,0 +1,21 @@
+name: lingua_settings
+description: Library for internal settings localization.
+version: 0.0.1
+repository: https://github.com/tyrcord/lingua/tree/main/packages/settings
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: ">=3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  easy_localization: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  dart_code_metrics: ^5.5.0
+  lingua_core: ^0.0.1+1

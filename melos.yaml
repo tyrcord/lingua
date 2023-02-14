@@ -3,6 +3,10 @@ name: lingua
 packages:
   - packages/**
 
+command:
+  bootstrap:
+    usePubspecOverrides: true
+
 scripts:
   analyze:
     exec: dart analyze .
@@ -13,6 +17,14 @@ scripts:
       COMMAND: "flutter pub run lingua_core:generate"
       PACKAGE: packages/onboarding
       PREFIX: "Onboarding"
+      FILE: "locale_keys.g.dart"
+
+  generate:settings:
+    run: cd $PACKAGE && $COMMAND -p $PREFIX && $COMMAND -p $PREFIX -f keys -o $FILE
+    env:
+      COMMAND: "flutter pub run lingua_core:generate"
+      PACKAGE: packages/settings
+      PREFIX: "Settings"
       FILE: "locale_keys.g.dart"
 
 ide:

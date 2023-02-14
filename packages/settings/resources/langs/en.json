@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "labels": {
+      "appearance": "Appearance",
+      "default": "Default",
+      "light": "Light",
+      "dark": "Dark",
+      "language": "Language",
+      "languages": "Languages"
+    }
+  }
+}
