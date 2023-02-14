@@ -6,7 +6,8 @@
       "light": "Light",
       "dark": "Dark",
       "language": "Language",
-      "languages": "Languages"
+      "languages": "Languages",
+      "system": "System"
     }
   }
 }
