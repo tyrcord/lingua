@@ -19,7 +19,8 @@ class SettingsCodegenLoader extends AssetLoader {
       "light": "Light",
       "dark": "Dark",
       "language": "Language",
-      "languages": "Languages"
+      "languages": "Languages",
+      "system": "System"
     }
   }
 };
@@ -31,7 +32,8 @@ static const Map<String,dynamic> fr = {
       "dark": "Sombre",
       "light": "Clair",
       "language": "Langue",
-      "Languages": "Langues"
+      "Languages": "Langues",
+      "system": "Système"
     }
   }
 };
