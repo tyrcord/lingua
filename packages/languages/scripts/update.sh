@@ -1,6 +1,8 @@
 dir="$(basename $PWD)"
 
-mkdir -p ./resources/langs
+rm -rf ./resources/langs
+
+mkdir ./resources/langs
 mkdir -p ./.tmp
 
 cd .tmp && git clone https://github.com/tyrcord/localization.git

@@ -11,7 +11,14 @@ class HelpCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> ja = {
+  static const Map<String,dynamic> zh = {
+  "help": {
+    "title": {
+      "manual": "说明"
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
   "help": {
     "title": {
       "manual": "説明"
@@ -60,13 +67,6 @@ static const Map<String,dynamic> fr = {
     }
   }
 };
-static const Map<String,dynamic> zh_Hans = {
-  "help": {
-    "title": {
-      "manual": "说明"
-    }
-  }
-};
 static const Map<String,dynamic> es = {
   "help": {
     "title": {
@@ -74,5 +74,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "zh_Hans": zh_Hans, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
 }

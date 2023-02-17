@@ -11,7 +11,35 @@ class NumberCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> ja = {
+  static const Map<String,dynamic> zh = {
+  "number": {
+    "ordinal": {
+      "short": {
+        "first": {
+          "male": "第{num}个",
+          "female": "第{num}个",
+          "other": "第{num}个"
+        },
+        "second": {
+          "male": "第{num}个",
+          "female": "第{num}个",
+          "other": "第{num}个"
+        },
+        "third": {
+          "male": "第{num}个",
+          "female": "第{num}个",
+          "other": "第{num}个"
+        },
+        "others": {
+          "male": "第{num}个",
+          "female": "第{num}个",
+          "other": "第{num}个"
+        }
+      }
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
   "number": {
     "ordinal": {
       "short": {
@@ -207,34 +235,6 @@ static const Map<String,dynamic> fr = {
     }
   }
 };
-static const Map<String,dynamic> zh_Hans = {
-  "number": {
-    "ordinal": {
-      "short": {
-        "first": {
-          "male": "第{num}个",
-          "female": "第{num}个",
-          "other": "第{num}个"
-        },
-        "second": {
-          "male": "第{num}个",
-          "female": "第{num}个",
-          "other": "第{num}个"
-        },
-        "third": {
-          "male": "第{num}个",
-          "female": "第{num}个",
-          "other": "第{num}个"
-        },
-        "others": {
-          "male": "第{num}个",
-          "female": "第{num}个",
-          "other": "第{num}个"
-        }
-      }
-    }
-  }
-};
 static const Map<String,dynamic> es = {
   "number": {
     "ordinal": {
@@ -263,5 +263,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "zh_Hans": zh_Hans, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
 }

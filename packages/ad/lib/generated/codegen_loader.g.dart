@@ -11,7 +11,14 @@ class AdCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> ja = {
+  static const Map<String,dynamic> zh = {
+  "ad": {
+    "disclaimer": {
+      "user_tracking": "此标识符将用于根据您感兴趣的内容向您投放定向广告。"
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
   "ad": {
     "disclaimer": {
       "user_tracking": "この識別子は、あなたの興味に基づき、ターゲット広告を提案するために使用されます。"
@@ -60,13 +67,6 @@ static const Map<String,dynamic> fr = {
     }
   }
 };
-static const Map<String,dynamic> zh_Hans = {
-  "ad": {
-    "disclaimer": {
-      "user_tracking": "此标识符将用于根据您感兴趣的内容向您投放定向广告。"
-    }
-  }
-};
 static const Map<String,dynamic> es = {
   "ad": {
     "disclaimer": {
@@ -74,5 +74,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "zh_Hans": zh_Hans, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
 }
