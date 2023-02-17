@@ -1,3 +1,9 @@
+## 0.0.2
+
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: add ad package.
+
 ## 0.0.1
 
 - initial release.
