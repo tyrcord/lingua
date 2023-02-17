@@ -1,28 +1,28 @@
 {
-  "number": {
-    "ordinal": {
-      "short": {
-        "first": {
-          "male": "{num}st",
-          "female": "{num}st",
-          "other": "{num}st"
-        },
-        "second": {
-          "male": "{num}nd",
-          "female": "{num}nd",
-          "other": "{num}nd"
-        },
-        "third": {
-          "male": "{num}rd",
-          "female": "{num}rd",
-          "other": "{num}rd"
-        },
-        "others": {
-          "male": "{num}th",
-          "female": "{num}th",
-          "other": "{num}th"
+    "number": {
+        "ordinal": {
+            "short": {
+                "first": {
+                    "male": "{num}st",
+                    "female": "{num}st",
+                    "other": "{num}st"
+                },
+                "second": {
+                    "male": "{num}nd",
+                    "female": "{num}nd",
+                    "other": "{num}nd"
+                },
+                "third": {
+                    "male": "{num}rd",
+                    "female": "{num}rd",
+                    "other": "{num}rd"
+                },
+                "others": {
+                    "male": "{num}th",
+                    "female": "{num}th",
+                    "other": "{num}th"
+                }
+            }
         }
-      }
     }
-  }
 }

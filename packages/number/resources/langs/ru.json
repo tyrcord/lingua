@@ -1,28 +1,28 @@
 {
-  "number": {
-    "ordinal": {
-      "short": {
-        "first": {
-          "male": "{num}-й",
-          "female": "{num}-я",
-          "other": "{num}-е"
-        },
-        "second": {
-          "male": "{num}-й",
-          "female": "{num}-я",
-          "other": "{num}-е"
-        },
-        "third": {
-          "male": "{номер}-й",
-          "female": "{номер}-я",
-          "other": "{номер}-е"
-        },
-        "others": {
-          "male": "{num}-й",
-          "female": "{num}-я",
-          "other": "{num}-е"
+    "number": {
+        "ordinal": {
+            "short": {
+                "first": {
+                    "male": "{num}-й",
+                    "female": "{num}-я",
+                    "other": "{num}-е"
+                },
+                "second": {
+                    "male": "{num}-й",
+                    "female": "{num}-я",
+                    "other": "{num}-е"
+                },
+                "third": {
+                    "male": "{номер}-й",
+                    "female": "{номер}-я",
+                    "other": "{номер}-е"
+                },
+                "others": {
+                    "male": "{num}-й",
+                    "female": "{num}-я",
+                    "other": "{num}-е"
+                }
+            }
         }
-      }
     }
-  }
 }

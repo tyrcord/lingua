@@ -1,22 +1,22 @@
 {
-  "finance": {
-    "disclaimer": {
-      "incorrect_results": "Wenn Sie der Meinung sind, dass die Ergebnisse falsch sind, ist es möglich, dass die Einstellungen je nach Broker und den von Ihnen verwendeten Finanzinstrumenten unterschiedlich sind. Bei Bedarf können Sie diese Einstellungen im Abschnitt Erweitert anpassen.",
-      "intervening_markets": "Die Teilnahme an den Finanzmärkten birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich auf der Grundlage dieser Informationen."
-    },
-    "select": {
-      "financial_instrument": "Finanzinstrument auswählen",
-      "pip_precision": "Dezimalstelle auswählen"
-    },
-    "label": {
-      "pip_precision": "Pip Dezimalzeichen",
-      "financial_instrument": "Finanz­instrument"
-    },
-    "title": {
-      "results_information": "Informationen zu den Ergebnissen"
-    },
-    "error": {
-      "quote_refresh": "Das Angebot des ausgewählten Finanzinstruments kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
+    "finance": {
+        "disclaimer": {
+            "incorrect_results": "Wenn Sie der Meinung sind, dass die Ergebnisse falsch sind, ist es möglich, dass die Einstellungen je nach Broker und den von Ihnen verwendeten Finanzinstrumenten unterschiedlich sind. Bei Bedarf können Sie diese Einstellungen im Abschnitt Erweitert anpassen.",
+            "intervening_markets": "Die Teilnahme an den Finanzmärkten birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich auf der Grundlage dieser Informationen."
+        },
+        "select": {
+            "financial_instrument": "Finanzinstrument auswählen",
+            "pip_precision": "Dezimalstelle auswählen"
+        },
+        "label": {
+            "pip_precision": "Pip Dezimalzeichen",
+            "financial_instrument": "Finanz­instrument"
+        },
+        "title": {
+            "results_information": "Informationen zu den Ergebnissen"
+        },
+        "error": {
+            "quote_refresh": "Das Angebot des ausgewählten Finanzinstruments kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
+        }
     }
-  }
 }

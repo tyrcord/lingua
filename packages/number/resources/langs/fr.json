@@ -1,28 +1,28 @@
 {
-  "number": {
-    "ordinal": {
-      "short": {
-        "first": {
-          "male": "{num}er",
-          "other": "{num}er",
-          "female": "{num}ère"
-        },
-        "second": {
-          "male": "{num}ème",
-          "female": "{num}ème",
-          "other": "{num}ème"
-        },
-        "third": {
-          "male": "{num}ème",
-          "female": "{num}ème",
-          "other": "{num}ème"
-        },
-        "others": {
-          "male": "{num}ème",
-          "female": "{num}ème",
-          "other": "{num}ème"
+    "number": {
+        "ordinal": {
+            "short": {
+                "first": {
+                    "male": "{num}er",
+                    "other": "{num}er",
+                    "female": "{num}ère"
+                },
+                "second": {
+                    "male": "{num}ème",
+                    "female": "{num}ème",
+                    "other": "{num}ème"
+                },
+                "third": {
+                    "male": "{num}ème",
+                    "female": "{num}ème",
+                    "other": "{num}ème"
+                },
+                "others": {
+                    "male": "{num}ème",
+                    "female": "{num}ème",
+                    "other": "{num}ème"
+                }
+            }
         }
-      }
     }
-  }
 }

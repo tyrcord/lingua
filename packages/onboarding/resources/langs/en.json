@@ -1,14 +1,14 @@
 {
-  "personalized_ads": {
-    "title": "Personalized ads",
-    "action": "Turn On Personalized Ads",
-    "description": "By allowing us to personalize your ads, you'll receive a more personalized experience with advertisements that are tailored to your interests.",
-    "notes": "Your privacy is important to us and we promise to only use your information to enhance your experience and show you ads that matter to you."
-  },
-  "notifications": {
-    "title": "Notifications",
-    "action": "Allow Notifications",
-    "description": "Stay up to date with the latest updates, news and important information.",
-    "notes": "We promise to only send notifications that are relevant and important to you. Plus, you can always adjust your notification preferences at any time."
-  }
+    "notifications": {
+        "description": "Stay up to date with the latest updates, news and important information.",
+        "title": "Notifications",
+        "action": "Allow Notifications",
+        "notes": "We promise to only send notifications that are relevant and important to you. Plus, you can always adjust your notification preferences at any time."
+    },
+    "personalized_ads": {
+        "title": "Personalized ads",
+        "action": "Turn On Personalized Ads",
+        "description": "By allowing us to personalize your ads, you'll receive a more personalized experience with advertisements that are tailored to your interests.",
+        "notes": "Your privacy is important to us and we promise to only use your information to enhance your experience and show you ads that matter to you."
+    }
 }

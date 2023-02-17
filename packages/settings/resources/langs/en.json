@@ -1,13 +1,13 @@
 {
-  "settings": {
-    "labels": {
-      "appearance": "Appearance",
-      "default": "Default",
-      "light": "Light",
-      "dark": "Dark",
-      "language": "Language",
-      "languages": "Languages",
-      "system": "System"
+    "settings": {
+        "labels": {
+            "appearance": "Appearance",
+            "default": "Default",
+            "light": "Light",
+            "dark": "Dark",
+            "language": "Language",
+            "languages": "Languages",
+            "system": "System"
+        }
     }
-  }
 }

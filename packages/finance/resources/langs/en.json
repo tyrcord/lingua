@@ -1,22 +1,22 @@
 {
-  "finance": {
-    "select": {
-      "financial_instrument": "Select a financial instrument",
-      "pip_precision": "Select a decimal"
-    },
-    "label": {
-      "pip_precision": "Pip decimal point",
-      "financial_instrument": "Financial Instrument"
-    },
-    "disclaimer": {
-      "incorrect_results": "If you think the results are incorrect, it is possible that the settings may differ depending on your broker and the financial instruments that you use. If necessary, you may adjust these settings in the advanced section.",
-      "intervening_markets": "Participating in financial markets involves risks that may lead to financial losses. Please do not make trading or investment decisions based solely on this information."
-    },
-    "title": {
-      "results_information": "Information regarding the results"
-    },
-    "error": {
-      "quote_refresh": "The quote of the selected financial instrument cannot be updated. Please try again later."
+    "finance": {
+        "select": {
+            "financial_instrument": "Select a financial instrument",
+            "pip_precision": "Select a decimal"
+        },
+        "label": {
+            "pip_precision": "Pip decimal point",
+            "financial_instrument": "Financial Instrument"
+        },
+        "disclaimer": {
+            "incorrect_results": "If you think the results are incorrect, it is possible that the settings may differ depending on your broker and the financial instruments that you use. If necessary, you may adjust these settings in the advanced section.",
+            "intervening_markets": "Participating in financial markets involves risks that may lead to financial losses. Please do not make trading or investment decisions based solely on this information."
+        },
+        "title": {
+            "results_information": "Information regarding the results"
+        },
+        "error": {
+            "quote_refresh": "The quote of the selected financial instrument cannot be updated. Please try again later."
+        }
     }
-  }
 }

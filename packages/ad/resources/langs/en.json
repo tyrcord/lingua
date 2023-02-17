@@ -1,7 +1,7 @@
 {
-  "ad": {
-    "disclaimer": {
-      "user_tracking": "This identifier will be used to suggest targeted advertising to you based on your interests."
+    "ad": {
+        "disclaimer": {
+            "user_tracking": "This identifier will be used to suggest targeted advertising to you based on your interests."
+        }
     }
-  }
 }

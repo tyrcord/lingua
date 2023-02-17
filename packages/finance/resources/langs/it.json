@@ -1,22 +1,22 @@
 {
-  "finance": {
-    "select": {
-      "financial_instrument": "Seleziona uno strumento finanziario",
-      "pip_precision": "Seleziona un decimale"
-    },
-    "label": {
-      "pip_precision": "Percentuale decimale in punti",
-      "financial_instrument": "Strumento finanziario"
-    },
-    "disclaimer": {
-      "incorrect_results": "Se ritieni che i risultati non siano corretti, è possibile che le impostazioni possano differire a seconda del tuo broker e degli strumenti finanziari che utilizzi. Se necessario, puoi modificare queste impostazioni nella sezione avanzata.",
-      "intervening_markets": "L'attività sui mercati finanziari comporta rischi che possono portare a perdite pecuniarie. Ti invitiamo a non prendere decisioni di trading o di investimento esclusivamente basate sulle presenti informazioni."
-    },
-    "title": {
-      "results_information": "Informazioni relative ai risultati"
-    },
-    "error": {
-      "quote_refresh": "La quotazione dello strumento finanziario selezionato non può essere aggiornata. Riprova più tardi."
+    "finance": {
+        "select": {
+            "financial_instrument": "Seleziona uno strumento finanziario",
+            "pip_precision": "Seleziona un decimale"
+        },
+        "label": {
+            "pip_precision": "Percentuale decimale in punti",
+            "financial_instrument": "Strumento finanziario"
+        },
+        "disclaimer": {
+            "incorrect_results": "Se ritieni che i risultati non siano corretti, è possibile che le impostazioni possano differire a seconda del tuo broker e degli strumenti finanziari che utilizzi. Se necessario, puoi modificare queste impostazioni nella sezione avanzata.",
+            "intervening_markets": "L'attività sui mercati finanziari comporta rischi che possono portare a perdite pecuniarie. Ti invitiamo a non prendere decisioni di trading o di investimento esclusivamente basate sulle presenti informazioni."
+        },
+        "title": {
+            "results_information": "Informazioni relative ai risultati"
+        },
+        "error": {
+            "quote_refresh": "La quotazione dello strumento finanziario selezionato non può essere aggiornata. Riprova più tardi."
+        }
     }
-  }
 }
