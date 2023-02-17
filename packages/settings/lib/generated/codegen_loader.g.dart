@@ -29,10 +29,10 @@ static const Map<String,dynamic> fr = {
     "labels": {
       "appearance": "Apparence",
       "default": "Par défaut",
-      "dark": "Sombre",
       "light": "Clair",
+      "dark": "Sombre",
       "language": "Langue",
-      "Languages": "Langues",
+      "languages": "Langues",
       "system": "Système"
     }
   }
