@@ -1,0 +1,28 @@
+{
+  "number": {
+    "ordinal": {
+      "short": {
+        "first": {
+          "male": "第{num}位",
+          "female": "第{num}位",
+          "other": "第{num}位"
+        },
+        "second": {
+          "male": "第{num}位",
+          "female": "第{num}位",
+          "other": "第{num}位"
+        },
+        "third": {
+          "male": "第{num}位",
+          "female": "第{num}位",
+          "other": "第{num}位"
+        },
+        "others": {
+          "male": "第{num}位",
+          "female": "第{num}位",
+          "other": "第{num}位"
+        }
+      }
+    }
+  }
+}

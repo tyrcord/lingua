@@ -1,0 +1,28 @@
+{
+  "number": {
+    "ordinal": {
+      "short": {
+        "second": {
+          "male": "{num}.º",
+          "female": "{num}.ª",
+          "other": "{num}.º"
+        },
+        "third": {
+          "male": "{num}.º",
+          "female": "{num}.ª",
+          "other": "{num}.º"
+        },
+        "others": {
+          "male": "{num}.º",
+          "female": "{num}.ª",
+          "other": "{num}.º"
+        },
+        "first": {
+          "other": "{num}.º",
+          "male": "{num}.º",
+          "female": "{num}.ª"
+        }
+      }
+    }
+  }
+}
