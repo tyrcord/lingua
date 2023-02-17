@@ -10,10 +10,11 @@ command:
 scripts:
   analyze:
     exec: dart analyze .
-  update:
+  update:scripts:
+    exec: $PWD/scripts/copy.sh
+  update:resources:
     exec: $PWD/scripts/update.sh
-
-  generate:
+  generate:keys:
     exec: $PWD/scripts/generate.sh
 
 ide:
