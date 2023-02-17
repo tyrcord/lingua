@@ -1,0 +1,22 @@
+{
+  "finance": {
+    "select": {
+      "financial_instrument": "金融商品を選択する",
+      "pip_precision": "小数を選択する"
+    },
+    "label": {
+      "pip_precision": "ピップ小数点",
+      "financial_instrument": "金融商品"
+    },
+    "error": {
+      "quote_refresh": "選択された金融商品の気配値を更新することができません。後でもう一度お試しください。"
+    },
+    "disclaimer": {
+      "incorrect_results": "結果が正しくないと思われる場合は、ご利用の証券会社や金融商品によって設定が異なる可能性があります。必要に応じて、これらの設定を詳細セクションで調整できます。",
+      "intervening_markets": "金融市場に参加することで、金銭的損失を被る可能性があります。この情報に全面的に依拠して取引や投資の判断を下すことはお控えください。"
+    },
+    "title": {
+      "results_information": "実績に関する情報"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "finance": {
+    "select": {
+      "financial_instrument": "Seleccione un instrumento financiero",
+      "pip_precision": "Seleccione un decimal"
+    },
+    "label": {
+      "pip_precision": "Punto decimal pip",
+      "financial_instrument": "Instrumento financiero"
+    },
+    "disclaimer": {
+      "incorrect_results": "Si cree que los resultados son incorrectos, es posible que los ajustes varíen en función de su corredor y de los instrumentos financieros que utilice. En caso de ser necesario, puede ajustar estos parámetros en la sección avanzada.",
+      "intervening_markets": "La participación en mercados financieros implica riesgos que pueden provocar pérdidas financieras. No tome decisiones comerciales o de inversión basadas únicamente en esta información."
+    },
+    "title": {
+      "results_information": "Información sobre los resultados"
+    },
+    "error": {
+      "quote_refresh": "No se puede actualizar la cotización del instrumento financiero seleccionado. Inténtelo más tarde."
+    }
+  }
+}

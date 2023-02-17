@@ -1,0 +1,22 @@
+{
+  "finance": {
+    "select": {
+      "pip_precision": "请选择一个小数",
+      "financial_instrument": "请选择金融工具"
+    },
+    "label": {
+      "pip_precision": "小数点",
+      "financial_instrument": "金融工具"
+    },
+    "disclaimer": {
+      "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅根据这些信息做出交易或投资决策。",
+      "incorrect_results": "如果您认为结果不正确，则可能是因为您的券商以及您使用的金融工具有不同的设置。如有必要，您可以在“高级”部分调整这些设置。"
+    },
+    "error": {
+      "quote_refresh": "无法更新所选金融工具的报价。请稍后再试。"
+    },
+    "title": {
+      "results_information": "有关结果的信息"
+    }
+  }
+}

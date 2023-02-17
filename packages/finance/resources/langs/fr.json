@@ -1,0 +1,22 @@
+{
+  "finance": {
+    "select": {
+      "financial_instrument": "Sélectionnez un instrument financier",
+      "pip_precision": "Sélectionnez une décimale"
+    },
+    "label": {
+      "pip_precision": "Point décimal du pip",
+      "financial_instrument": "Instrument financier"
+    },
+    "disclaimer": {
+      "incorrect_results": "Si vous pensez que les résultats sont erronés, il se peut que les paramètres diffèrent selon votre courtier et les instruments financiers que vous utilisez. Si nécessaire, vous pouvez ajuster ces paramètres dans la section avancée.",
+      "intervening_markets": "Intervenir sur les marchés financiers comporte des risques pouvant entraîner des pertes financières. Veuillez ne pas prendre de décisions de trading ou d'investissement basées uniquement sur ces informations."
+    },
+    "title": {
+      "results_information": "Informations sur les résultats"
+    },
+    "error": {
+      "quote_refresh": "La cotation de l'instrument financier sélectionné ne peut pas être mise à jour. Veuillez réessayer plus tard."
+    }
+  }
+}
