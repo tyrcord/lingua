@@ -1,6 +1,6 @@
 name: lingua_finance
 description: Library for internal finance localization.
-version: 0.0.2
+version: 0.0.2+1
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance
 
 environment:
@@ -17,4 +17,4 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
   dart_code_metrics: ^5.5.0
-  lingua_core: ^0.0.1+2
+  lingua_core: ^0.0.1+3
