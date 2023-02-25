@@ -1,0 +1,7 @@
+{
+    "purchases": {
+        "errors": {
+            "cannot_connect_store": "The store is unavailable. You can continue to use this app, but you won't be able to make any purchases."
+        }
+    }
+}
