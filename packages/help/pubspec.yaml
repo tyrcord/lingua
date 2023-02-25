@@ -1,6 +1,6 @@
 name: lingua_help
 description: Library for internal help localization.
-version: 0.0.2
+version: 0.0.2+1
 repository: https://github.com/tyrcord/lingua/tree/main/packages/help
 
 environment:
