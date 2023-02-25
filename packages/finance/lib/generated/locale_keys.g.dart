@@ -9,6 +9,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label = 'finance.label';
   static const finance_disclaimer_intervening_markets = 'finance.disclaimer.intervening_markets';
   static const finance_disclaimer_incorrect_results = 'finance.disclaimer.incorrect_results';
+  static const finance_disclaimer_trading = 'finance.disclaimer.trading';
   static const finance_disclaimer = 'finance.disclaimer';
   static const finance_error_quote_refresh = 'finance.error.quote_refresh';
   static const finance_error = 'finance.error';

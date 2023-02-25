@@ -6,11 +6,14 @@
         },
         "label": {
             "pip_precision": "Pip decimal point",
-            "financial_instrument": "Financial Instrument"
+            "financial_instrument": "Financial Instrument",
+            "real_time_quotes": "Real-time quotes",
+            "number_plus_currency": "{number}+ currencies"
         },
         "disclaimer": {
             "incorrect_results": "If you think the results are incorrect, it is possible that the settings may differ depending on your broker and the financial instruments that you use. If necessary, you may adjust these settings in the advanced section.",
-            "intervening_markets": "Participating in financial markets involves risks that may lead to financial losses. Please do not make trading or investment decisions based solely on this information."
+            "intervening_markets": "Participating in financial markets involves risks that may lead to financial losses. Please do not make trading or investment decisions based solely on this information.",
+            "trading": "Financial markets carry significant risks to your invested capital. The information and results provided by this application should only be considered as an indication and do not constitute advice or recommendations. {company} declines all responsibility for losses incurred by any person acting on the basis of this information or results."
         },
         "title": {
             "results_information": "Information regarding the results"

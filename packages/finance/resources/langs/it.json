@@ -10,7 +10,8 @@
         },
         "disclaimer": {
             "incorrect_results": "Se ritieni che i risultati non siano corretti, è possibile che le impostazioni possano differire a seconda del tuo broker e degli strumenti finanziari che utilizzi. Se necessario, puoi modificare queste impostazioni nella sezione avanzata.",
-            "intervening_markets": "L'attività sui mercati finanziari comporta rischi che possono portare a perdite pecuniarie. Ti invitiamo a non prendere decisioni di trading o di investimento esclusivamente basate sulle presenti informazioni."
+            "intervening_markets": "L'attività sui mercati finanziari comporta rischi che possono portare a perdite pecuniarie. Ti invitiamo a non prendere decisioni di trading o di investimento esclusivamente basate sulle presenti informazioni.",
+            "trading": "I mercati finanziari comportano rischi significativi per il capitale investito. Le informazioni e i risultati forniti da questa applicazione devono essere considerati solo come un'indicazione e non costituiscono consigli o raccomandazioni. {company} declina ogni responsabilità per le perdite subite da qualsiasi persona che agisca sulla base di tali informazioni o risultati."
         },
         "title": {
             "results_information": "Informazioni relative ai risultati"

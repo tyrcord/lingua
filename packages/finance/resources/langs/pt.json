@@ -16,7 +16,8 @@
         },
         "disclaimer": {
             "intervening_markets": "A participação em mercados financeiros envolve riscos que podem levar a perdas financeiras. Não tome decisões de negociação ou investimento com base apenas nestas informações.",
-            "incorrect_results": "Se pensa que os resultados estão incorretos, é possível que as definições sejam diferentes dependendo do seu corretor e dos instrumentos financeiros que usar. Se necessário, pode ajustar estas definições na secção avançada."
+            "incorrect_results": "Se pensa que os resultados estão incorretos, é possível que as definições sejam diferentes dependendo do seu corretor e dos instrumentos financeiros que usar. Se necessário, pode ajustar estas definições na secção avançada.",
+            "trading": "Os mercados financeiros acarretam riscos significativos para o seu capital investido. As informações e os resultados fornecidos por esta aplicação devem ser considerados apenas como uma indicação e não constituem conselhos ou recomendações. A {company} declina qualquer responsabilidade por perdas incorridas por qualquer pessoa que atue com base nessas informações ou resultados."
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "settings": {
+        "labels": {
+            "appearance": "外観",
+            "default": "初期設定",
+            "light": "明るい",
+            "dark": "暗い",
+            "language": "言語",
+            "languages": "言語",
+            "system": "システム"
+        }
+    }
+}

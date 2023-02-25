@@ -6,11 +6,14 @@
         },
         "label": {
             "pip_precision": "Point décimal du pip",
-            "financial_instrument": "Instrument financier"
+            "financial_instrument": "Instrument financier",
+            "real_time_quotes": "Cours en temps réel",
+            "number_plus_currency": "{number}+ devises"
         },
         "disclaimer": {
             "incorrect_results": "Si vous pensez que les résultats sont erronés, il se peut que les paramètres diffèrent selon votre courtier et les instruments financiers que vous utilisez. Si nécessaire, vous pouvez ajuster ces paramètres dans la section avancée.",
-            "intervening_markets": "Intervenir sur les marchés financiers comporte des risques pouvant entraîner des pertes financières. Veuillez ne pas prendre de décisions de trading ou d'investissement basées uniquement sur ces informations."
+            "intervening_markets": "Intervenir sur les marchés financiers comporte des risques pouvant entraîner des pertes financières. Veuillez ne pas prendre de décisions de trading ou d'investissement basées uniquement sur ces informations.",
+            "trading": "Les marchés financiers comportent des risques importants pour votre capital investi. Les informations et les résultats fournis par cette application ne doivent être considérés qu'à titre indicatif et ne constituent en aucun cas des conseils ou des recommandations. {company} décline toute responsabilité quant aux pertes encourues par toute personne agissant sur la base de ces informations ou résultats."
         },
         "title": {
             "results_information": "Informations sur les résultats"

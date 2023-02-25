@@ -7,7 +7,33 @@
             "dark": "Dark",
             "language": "Language",
             "languages": "Languages",
-            "system": "System"
+            "system": "System",
+            "privacy_policy": "Privacy Policy",
+            "app_preferences": "Application Preferences",
+            "app_settings": "Application Settings",
+            "customer_support": "Customer Service",
+            "help_and_support": "Help & Support",
+            "rate_us": "Rate us",
+            "reset_settings": "Restore Defaults",
+            "share_this_app": "Share this app",
+            "submit_bug_report": "Submit a Bug Report",
+            "terms_of_service": "Terms of Service",
+            "version": "Version: {version}",
+            "about": "About",
+            "disclaimer": "Disclaimer",
+            "homepage": "Home",
+            "legal": "Legal",
+            "preferences": "Preferences",
+            "settings": "Settings"
+        },
+        "questions": {
+            "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
+            "do_you_like_our_app": "Do you like our app?"
+        },
+        "messages": {
+            "thanks_support": "Thanks for your support!",
+            "select_language": "Select the language you would like to use.",
+            "change_later_note": "Note that you can always change it later."
         }
     }
 }

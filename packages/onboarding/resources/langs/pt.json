@@ -1,0 +1,16 @@
+{
+    "onboarding": {
+        "notifications": {
+            "action": "Permitir notificações",
+            "description": "Mantenha-se a par das últimas atualizações, notícias e informações importantes.",
+            "title": "Notificações",
+            "notes": "Comprometemo-nos a enviar-lhe apenas notificações úteis e importantes. E tem a opção de alterar as suas preferências de notificação a qualquer momento."
+        },
+        "personalized_ads": {
+            "description": "Ao permitir que os seus anúncios sejam personalizados, beneficiará de uma experiência de publicidade mais adaptada aos seus interesses.",
+            "action": "Ativar anúncios personalizados",
+            "notes": "Valorizamos a sua privacidade e comprometemo-nos a utilizar as suas informações apenas com o objetivo de melhorar a sua experiência e apresentar-lhe anúncios relevantes.",
+            "title": "Anúncios personalizados"
+        }
+    }
+}

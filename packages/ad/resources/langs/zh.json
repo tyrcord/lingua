@@ -1,7 +1,7 @@
 {
-  "ad": {
-    "disclaimer": {
-      "user_tracking": "此标识符将用于根据您感兴趣的内容向您投放定向广告。"
+    "ad": {
+        "disclaimer": {
+            "user_tracking": "此标识符将用于根据您感兴趣的内容向您投放定向广告。"
+        }
     }
-  }
 }

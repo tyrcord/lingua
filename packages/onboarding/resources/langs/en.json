@@ -1,14 +1,16 @@
 {
-    "notifications": {
-        "description": "Stay up to date with the latest updates, news and important information.",
-        "title": "Notifications",
-        "action": "Allow Notifications",
-        "notes": "We promise to only send notifications that are relevant and important to you. Plus, you can always adjust your notification preferences at any time."
-    },
-    "personalized_ads": {
-        "title": "Personalized ads",
-        "action": "Turn On Personalized Ads",
-        "description": "By allowing us to personalize your ads, you'll receive a more personalized experience with advertisements that are tailored to your interests.",
-        "notes": "Your privacy is important to us and we promise to only use your information to enhance your experience and show you ads that matter to you."
+    "onboarding": {
+        "notifications": {
+            "action": "Allow Notifications",
+            "description": "Stay up to date with the latest updates, news and important information.",
+            "notes": "We are committed to sending you only useful and important notifications. And, you have the option to change your notification preferences at any time.",
+            "title": "Notifications"
+        },
+        "personalized_ads": {
+            "action": "Turn On Personalized Ads",
+            "description": "By allowing your ads to be personalized, you will benefit from an advertising experience that is more tailored to your interests.",
+            "notes": "We value your privacy and are committed to using your information only for the purpose of improving your experience and presenting you with relevant ads.",
+            "title": "Personalized ads"
+        }
     }
 }

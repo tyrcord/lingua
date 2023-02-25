@@ -10,7 +10,8 @@
         },
         "disclaimer": {
             "incorrect_results": "Si cree que los resultados son incorrectos, es posible que los ajustes varíen en función de su corredor y de los instrumentos financieros que utilice. En caso de ser necesario, puede ajustar estos parámetros en la sección avanzada.",
-            "intervening_markets": "La participación en mercados financieros implica riesgos que pueden provocar pérdidas financieras. No tome decisiones comerciales o de inversión basadas únicamente en esta información."
+            "intervening_markets": "La participación en mercados financieros implica riesgos que pueden provocar pérdidas financieras. No tome decisiones comerciales o de inversión basadas únicamente en esta información.",
+            "trading": "Los mercados financieros conllevan un riesgo importante para el capital invertido. La información y los resultados que ofrece esta aplicación deben interpretarse a título orientativo y no constituyen consejos ni recomendaciones. {company} no se hará responsable de las pérdidas que sufra ninguna persona por actuar sobre la base de esta información o estos resultados."
         },
         "title": {
             "results_information": "Información sobre los resultados"

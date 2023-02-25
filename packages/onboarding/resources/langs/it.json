@@ -1,0 +1,16 @@
+{
+    "onboarding": {
+        "personalized_ads": {
+            "description": "Consentendo che ti vengano inviati degli annunci personalizzati, trarrai vantaggio da un'esperienza pubblicitaria più consona ai tuoi interessi.",
+            "action": "Attiva gli annunci personalizzati",
+            "notes": "La tua privacy ci sta molto a cuore e ci impegniamo a utilizzare le tue informazioni solo allo scopo di migliorare la tua esperienza e di presentarti degli annunci pubblicitari pertinenti.",
+            "title": "Pubblicità personalizzate"
+        },
+        "notifications": {
+            "action": "Consenti le notifiche",
+            "description": "Rimani aggiornato con gli ultimi aggiornamenti, news e informazioni importanti.",
+            "notes": "Ci impegniamo a inviarti solo notifiche utili e importanti. Inoltre, hai la possibilità di modificare le preferenze relative alle notifiche in qualsiasi momento.",
+            "title": "Notifiche"
+        }
+    }
+}

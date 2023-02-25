@@ -1,0 +1,13 @@
+{
+    "settings": {
+        "labels": {
+            "system": "Система",
+            "appearance": "Внешний вид",
+            "default": "По умолчанию",
+            "light": "Светлая тема",
+            "dark": "Темная тема",
+            "language": "Язык",
+            "languages": "Языки"
+        }
+    }
+}

@@ -2,7 +2,8 @@
     "finance": {
         "disclaimer": {
             "incorrect_results": "Wenn Sie der Meinung sind, dass die Ergebnisse falsch sind, ist es möglich, dass die Einstellungen je nach Broker und den von Ihnen verwendeten Finanzinstrumenten unterschiedlich sind. Bei Bedarf können Sie diese Einstellungen im Abschnitt Erweitert anpassen.",
-            "intervening_markets": "Die Teilnahme an den Finanzmärkten birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich auf der Grundlage dieser Informationen."
+            "intervening_markets": "Die Teilnahme an den Finanzmärkten birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich auf der Grundlage dieser Informationen.",
+            "trading": "Die Finanzmärkte bergen erhebliche Risiken für Ihr investiertes Kapital. Die durch diese Anwendung bereitgestellten Informationen und Ergebnisse sollten nur als Hinweis betrachtet werden und keine Ratschläge oder Empfehlungen darstellen. {company} lehnt jede Haftung für Verluste ab, die einer Person entstehen, die auf der Grundlage dieser Informationen oder Ergebnisse handelt."
         },
         "select": {
             "financial_instrument": "Finanzinstrument auswählen",

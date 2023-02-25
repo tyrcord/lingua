@@ -1,0 +1,13 @@
+{
+    "settings": {
+        "labels": {
+            "appearance": "外观",
+            "default": "默认",
+            "light": "浅色",
+            "dark": "深色",
+            "language": "语言",
+            "languages": "语言",
+            "system": "系统"
+        }
+    }
+}

@@ -1,6 +1,12 @@
 // ignore_for_file: constant_identifier_names
 
 abstract class LanguagesLocaleKeys {
+  static const languages_locale_iso_639_1_hi = 'languages.locale.iso_639_1.hi';
+  static const languages_locale_iso_639_1_hu = 'languages.locale.iso_639_1.hu';
+  static const languages_locale_iso_639_1_id = 'languages.locale.iso_639_1.id';
+  static const languages_locale_iso_639_1_it = 'languages.locale.iso_639_1.it';
+  static const languages_locale_iso_639_1_ja = 'languages.locale.iso_639_1.ja';
+  static const languages_locale_iso_639_1_ko = 'languages.locale.iso_639_1.ko';
   static const languages_locale_iso_639_1_ar = 'languages.locale.iso_639_1.ar';
   static const languages_locale_iso_639_1_cs = 'languages.locale.iso_639_1.cs';
   static const languages_locale_iso_639_1_da = 'languages.locale.iso_639_1.da';
@@ -11,12 +17,6 @@ abstract class LanguagesLocaleKeys {
   static const languages_locale_iso_639_1_fi = 'languages.locale.iso_639_1.fi';
   static const languages_locale_iso_639_1_fr = 'languages.locale.iso_639_1.fr';
   static const languages_locale_iso_639_1_he = 'languages.locale.iso_639_1.he';
-  static const languages_locale_iso_639_1_hi = 'languages.locale.iso_639_1.hi';
-  static const languages_locale_iso_639_1_hu = 'languages.locale.iso_639_1.hu';
-  static const languages_locale_iso_639_1_id = 'languages.locale.iso_639_1.id';
-  static const languages_locale_iso_639_1_it = 'languages.locale.iso_639_1.it';
-  static const languages_locale_iso_639_1_ja = 'languages.locale.iso_639_1.ja';
-  static const languages_locale_iso_639_1_ko = 'languages.locale.iso_639_1.ko';
   static const languages_locale_iso_639_1_nl = 'languages.locale.iso_639_1.nl';
   static const languages_locale_iso_639_1_no = 'languages.locale.iso_639_1.no';
   static const languages_locale_iso_639_1_pl = 'languages.locale.iso_639_1.pl';
