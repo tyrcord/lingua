@@ -6,6 +6,7 @@ repository: https://github.com/tyrcord/lingua/tree/main/packages/languages
 environment:
   sdk: ">=2.19.0 <3.0.0"
   flutter: ">=3.7.0"
+
 dependencies:
   flutter:
     sdk: flutter
