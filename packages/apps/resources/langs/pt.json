@@ -1,0 +1,18 @@
+{
+    "apps": {
+        "fx_pos_qal": {
+            "promo": {
+                "short": "Determinar o tamanho das suas posições nunca foi tão fácil!",
+                "comply_risk_management": "Respeite facilmente a sua gestão de riscos"
+            },
+            "intro": {
+                "title": "Vamos gerir riscos, e não perdas!",
+                "description": "Esta aplicação sugerir-lhe-á um montante ideal a investir para maximizar os seus ganhos e minimizar as suas perdas."
+            },
+            "store": {
+                "description": "O sucesso das suas futuras negociações dependerá em grande parte da sua capacidade de gerir eficazmente o risco. Na verdade, é essencial não arriscar todo o seu capital numa única transação. Para isso, é importante calcular o tamanho da sua posição antes de cada negociação. Para o ajudar a não relaxar a sua vigilância na gestão de riscos, a nossa calculadora está lá para acompanhá-lo! Basta preencher os campos da nossa ferramenta e ela sugerirá um montante ideal a investir para maximizar os seus ganhos e minimizar as suas perdas.",
+                "promo": "Não vai querer perder todo o seu capital numa única transação!"
+            }
+        }
+    }
+}

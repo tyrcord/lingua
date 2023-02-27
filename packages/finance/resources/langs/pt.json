@@ -6,7 +6,9 @@
         },
         "label": {
             "pip_precision": "Ponto decimal pip",
-            "financial_instrument": "Instrumento financeiro"
+            "financial_instrument": "Instrumento financeiro",
+            "real_time_quotes": "Orçamentos em tempo real",
+            "number_plus_currency": "Mais de {number} moedas"
         },
         "error": {
             "quote_refresh": "A cotação do instrumento financeiro selecionado não pode ser atualizada. Tente novamente mais tarde."

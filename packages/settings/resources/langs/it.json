@@ -7,7 +7,33 @@
             "dark": "Scuro",
             "language": "Lingua",
             "languages": "Lingue",
-            "system": "Sistema"
+            "system": "Sistema",
+            "rate_us": "Valuta il nostro servizio",
+            "reset_settings": "Ripristina le impostazioni predefinite",
+            "share_this_app": "Condividi questa app",
+            "submit_bug_report": "Invia una segnalazione di bug",
+            "version": "Versione: {version}",
+            "about": "Chi siamo",
+            "disclaimer": "Disclaimer",
+            "homepage": "Home",
+            "legal": "Note legali",
+            "preferences": "Preferenze",
+            "settings": "Impostazioni",
+            "privacy_policy": "Informativa sulla privacy",
+            "app_preferences": "Preferenze per l'applicazione",
+            "app_settings": "Impostazioni dell'applicazione",
+            "customer_support": "Assistenza clienti",
+            "help_and_support": "Guida e supporto",
+            "terms_of_service": "Termini di servizio"
+        },
+        "messages": {
+            "thanks_support": "Grazie per il tuo sostegno!",
+            "select_language": "Seleziona la lingua che si desideri utilizzare.",
+            "change_later_note": "Tieni presente che potrai apportare delle modifiche in qualsiasi momento."
+        },
+        "questions": {
+            "do_you_enjoy_our_app": "Se trovi utile la nostra app, saresti disposto a dedicare qualche minuto alla sua valutazione?",
+            "do_you_like_our_app": "Ti piace la nostra app?"
         }
     }
 }

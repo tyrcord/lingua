@@ -6,7 +6,9 @@
         },
         "label": {
             "pip_precision": "Percentuale decimale in punti",
-            "financial_instrument": "Strumento finanziario"
+            "financial_instrument": "Strumento finanziario",
+            "real_time_quotes": "Quotazioni in tempo reale",
+            "number_plus_currency": "{number}+ valute"
         },
         "disclaimer": {
             "incorrect_results": "Se ritieni che i risultati non siano corretti, è possibile che le impostazioni possano differire a seconda del tuo broker e degli strumenti finanziari che utilizzi. Se necessario, puoi modificare queste impostazioni nella sezione avanzata.",

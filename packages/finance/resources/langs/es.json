@@ -6,7 +6,9 @@
         },
         "label": {
             "pip_precision": "Punto decimal pip",
-            "financial_instrument": "Instrumento financiero"
+            "financial_instrument": "Instrumento financiero",
+            "real_time_quotes": "Cotizaciones en tiempo real",
+            "number_plus_currency": "Más de {number} divisas"
         },
         "disclaimer": {
             "incorrect_results": "Si cree que los resultados son incorrectos, es posible que los ajustes varíen en función de su corredor y de los instrumentos financieros que utilice. En caso de ser necesario, puede ajustar estos parámetros en la sección avanzada.",

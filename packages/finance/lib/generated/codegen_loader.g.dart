@@ -19,7 +19,9 @@ class FinanceCodegenLoader extends AssetLoader {
     },
     "label": {
       "pip_precision": "小数点",
-      "financial_instrument": "金融工具"
+      "financial_instrument": "金融工具",
+      "real_time_quotes": "实时报价",
+      "number_plus_currency": "{number}个以上的币种"
     },
     "disclaimer": {
       "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅根据这些信息做出交易或投资决策。",
@@ -42,7 +44,9 @@ static const Map<String,dynamic> ja = {
     },
     "label": {
       "pip_precision": "ピップ小数点",
-      "financial_instrument": "金融商品"
+      "financial_instrument": "金融商品",
+      "real_time_quotes": "リアルタイムの気配値",
+      "number_plus_currency": "{number}以上の通貨"
     },
     "error": {
       "quote_refresh": "選択された金融商品の気配値を更新することができません。後でもう一度お試しください。"
@@ -70,7 +74,9 @@ static const Map<String,dynamic> de = {
     },
     "label": {
       "pip_precision": "Pip Dezimalzeichen",
-      "financial_instrument": "Finanz­instrument"
+      "financial_instrument": "Finanz­instrument",
+      "real_time_quotes": "Echtzeit-Notierungen",
+      "number_plus_currency": "{number}+ Währungen"
     },
     "title": {
       "results_information": "Informationen zu den Ergebnissen"
@@ -88,7 +94,9 @@ static const Map<String,dynamic> ru = {
     },
     "label": {
       "pip_precision": "Десятичный знак (пипс)",
-      "financial_instrument": "Финансовый инструмент"
+      "financial_instrument": "Финансовый инструмент",
+      "real_time_quotes": "Котировки в режиме реального времени",
+      "number_plus_currency": "Более {number} валют"
     },
     "disclaimer": {
       "intervening_markets": "Операции на финансовых рынках сопряжены с рисками, которые могут привести к материальным убыткам. Не принимайте решения в области трейдинга или инвестиций, основываясь исключительно на этой информации.",
@@ -111,7 +119,9 @@ static const Map<String,dynamic> pt = {
     },
     "label": {
       "pip_precision": "Ponto decimal pip",
-      "financial_instrument": "Instrumento financeiro"
+      "financial_instrument": "Instrumento financeiro",
+      "real_time_quotes": "Orçamentos em tempo real",
+      "number_plus_currency": "Mais de {number} moedas"
     },
     "error": {
       "quote_refresh": "A cotação do instrumento financeiro selecionado não pode ser atualizada. Tente novamente mais tarde."
@@ -159,7 +169,9 @@ static const Map<String,dynamic> it = {
     },
     "label": {
       "pip_precision": "Percentuale decimale in punti",
-      "financial_instrument": "Strumento finanziario"
+      "financial_instrument": "Strumento finanziario",
+      "real_time_quotes": "Quotazioni in tempo reale",
+      "number_plus_currency": "{number}+ valute"
     },
     "disclaimer": {
       "incorrect_results": "Se ritieni che i risultati non siano corretti, è possibile che le impostazioni possano differire a seconda del tuo broker e degli strumenti finanziari che utilizzi. Se necessario, puoi modificare queste impostazioni nella sezione avanzata.",
@@ -207,7 +219,9 @@ static const Map<String,dynamic> es = {
     },
     "label": {
       "pip_precision": "Punto decimal pip",
-      "financial_instrument": "Instrumento financiero"
+      "financial_instrument": "Instrumento financiero",
+      "real_time_quotes": "Cotizaciones en tiempo real",
+      "number_plus_currency": "Más de {number} divisas"
     },
     "disclaimer": {
       "incorrect_results": "Si cree que los resultados son incorrectos, es posible que los ajustes varíen en función de su corredor y de los instrumentos financieros que utilice. En caso de ser necesario, puede ajustar estos parámetros en la sección avanzada.",

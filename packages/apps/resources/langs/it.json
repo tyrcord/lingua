@@ -1,0 +1,18 @@
+{
+    "apps": {
+        "fx_pos_qal": {
+            "intro": {
+                "description": "Questa app ti suggerirà un importo ottimale da investire per massimizzare i guadagni e ridurre al minimo le perdite.",
+                "title": "Gestiamo il rischio, non le perdite!"
+            },
+            "promo": {
+                "short": "Stabilire l'entità giusta delle tue posizioni non è mai stato così facile!",
+                "comply_risk_management": "Rispettare senza difficoltà la gestione del rischio"
+            },
+            "store": {
+                "promo": "Non puoi rischiare di perdere tutto il capitale su una singola transazione!",
+                "description": "Il successo delle tue operazioni future dipenderà in gran parte dalla tua capacità di gestire efficacemente il rischio. In effetti, è essenziale non rischiare tutto il capitale su una singola transazione. Per questo è importante calcolare l'entità ideale della tua posizione prima di ogni operazione. Per non allentare la vigilanza nella gestione del rischio, puoi contare sull'ausilio del nostro calcolatore! Devi solo compilare i campi nel nostro strumento, che ti suggerirà un importo ottimale da investire per massimizzare i guadagni e ridurre al minimo le perdite."
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "apps": {
+        "fx_pos_qal": {
+            "intro": {
+                "title": "Gérons les risques, pas les pertes !",
+                "description": "Cette application vous suggèrera une taille optimale à investir afin de maximiser vos gains et de minimiser vos pertes."
+            },
+            "store": {
+                "description": "La réussite de vos futurs trades dépendra en grande partie de votre capacité à gérer efficacement les risques. En effet, il est essentiel de ne pas risquer tout votre capital sur une seule transaction. Pour cela, il est important de calculer la taille de votre position avant chaque transaction. Afin de vous aider à ne pas relâcher votre vigilance dans la gestion du risque, notre calculatrice est là pour vous accompagner ! Remplissez simplement les champs de notre outil et il vous suggèrera une taille optimale à investir afin de maximiser vos gains et de minimiser vos pertes.",
+                "promo": "Vous ne voulez pas perdre tout votre capital sur une seule transaction !"
+            },
+            "promo": {
+                "short": "Déterminer la taille de vos positions n'a jamais été aussi simple !",
+                "comply_risk_management": "Respectez facilement votre gestion du risque"
+            }
+        }
+    }
+}

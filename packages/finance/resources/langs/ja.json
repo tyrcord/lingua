@@ -6,7 +6,9 @@
         },
         "label": {
             "pip_precision": "ピップ小数点",
-            "financial_instrument": "金融商品"
+            "financial_instrument": "金融商品",
+            "real_time_quotes": "リアルタイムの気配値",
+            "number_plus_currency": "{number}以上の通貨"
         },
         "error": {
             "quote_refresh": "選択された金融商品の気配値を更新することができません。後でもう一度お試しください。"

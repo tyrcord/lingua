@@ -1,0 +1,18 @@
+{
+    "apps": {
+        "fx_pos_qal": {
+            "intro": {
+                "description": "Diese App schlägt Ihnen einen optimalen Investitionsbetrag vor, um Ihre Gewinne zu maximieren und Ihre Verluste zu minimieren.",
+                "title": "Lassen Sie uns das Risiko managen, nicht den Verlust!"
+            },
+            "store": {
+                "description": "Der Erfolg Ihrer zukünftigen Trades hängt weitgehend von Ihrer Fähigkeit ab, das Risiko effektiv zu managen. In der Tat ist es wichtig, nicht Ihr gesamtes Kapital bei einer einzigen Transaktion zu riskieren. Dazu ist es wichtig, die Größe Ihrer Position vor jedem Handel zu berechnen. Unser Rechner hilft Ihnen, Ihre Wachsamkeit im Risikomanagement nicht zu vernachlässigen! Füllen Sie einfach die Felder in unserem Tool aus und es schlägt Ihnen einen optimalen Investitionsbetrag vor, um Ihre Gewinne zu maximieren und Ihre Verluste zu minimieren.",
+                "promo": "Sie möchten nicht Ihr gesamtes Kapital bei einer einzigen Transaktion riskieren!"
+            },
+            "promo": {
+                "short": "Die Bestimmung der Größe Ihrer Positionen war noch nie so einfach!",
+                "comply_risk_management": "Managen Sie ganz einfach Ihr Risikomanagement"
+            }
+        }
+    }
+}

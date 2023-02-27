@@ -1,1 +1,7 @@
-{}
+{
+    "purchases": {
+        "errors": {
+            "cannot_connect_store": "Lo store non è disponibile. Puoi continuare a utilizzare questa app, ma non potrai effettuare acquisti."
+        }
+    }
+}

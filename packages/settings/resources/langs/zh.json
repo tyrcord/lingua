@@ -7,7 +7,33 @@
             "dark": "深色",
             "language": "语言",
             "languages": "语言",
-            "system": "系统"
+            "system": "系统",
+            "rate_us": "给我们评分",
+            "reset_settings": "恢复默认",
+            "about": "关于",
+            "privacy_policy": "隐私政策",
+            "app_settings": "应用程序设置",
+            "app_preferences": "应用程序首选项",
+            "customer_support": "客户服务",
+            "help_and_support": "帮助与支持",
+            "share_this_app": "分享此应用",
+            "submit_bug_report": "提交错误报告",
+            "terms_of_service": "服务条款",
+            "version": "版本：{version}",
+            "disclaimer": "免责声明",
+            "homepage": "首页",
+            "legal": "法律信息",
+            "preferences": "首选项",
+            "settings": "设置"
+        },
+        "questions": {
+            "do_you_like_our_app": "您是否喜欢我们的应用程序？",
+            "do_you_enjoy_our_app": "如果您觉得我们的应用很有用，是否愿意花一点时间对其进行评分？"
+        },
+        "messages": {
+            "thanks_support": "感谢您的支持！",
+            "select_language": "选择您想要使用的语言。",
+            "change_later_note": "请注意，您可在以后随时对其进行更改。"
         }
     }
 }

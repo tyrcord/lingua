@@ -1,1 +1,7 @@
-{}
+{
+    "purchases": {
+        "errors": {
+            "cannot_connect_store": "商店不可用。您可以继续使用此应用，但无法进行任何购买。"
+        }
+    }
+}

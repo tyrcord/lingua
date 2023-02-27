@@ -1,0 +1,18 @@
+{
+    "apps": {
+        "fx_pos_qal": {
+            "intro": {
+                "title": "¡Gestionemos el riesgo, no las pérdidas!",
+                "description": "Esta aplicación te sugerirá un importe óptimo que invertir para maximizar las ganancias y minimizar las pérdidas."
+            },
+            "store": {
+                "description": "El éxito de tus operaciones futuras dependerá en gran medida de tu capacidad para gestionar el riesgo de forma eficaz. De hecho, es fundamental no arriesgar todo el capital en una sola transacción. Por eso, es importante calcular el volumen de tu posición antes de cada operación. No relajes la vigilancia al gestionar el riesgo: nuestra calculadora está a tu disposición para ayudarte. Solo tienes que rellenar los campos y nuestra herramienta te sugerirá un importe óptimo que invertir para maximizar las ganancias y minimizar las pérdidas.",
+                "promo": "¡No es cuestión de que pierdas todo tu capital en una sola transacción!"
+            },
+            "promo": {
+                "short": "¡Determinar el volumen de tus posiciones nunca fue tan fácil!",
+                "comply_risk_management": "Respeta fácilmente tu gestión del riesgo"
+            }
+        }
+    }
+}

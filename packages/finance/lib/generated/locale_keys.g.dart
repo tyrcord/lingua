@@ -6,6 +6,8 @@ abstract class FinanceLocaleKeys {
   static const finance_select = 'finance.select';
   static const finance_label_pip_precision = 'finance.label.pip_precision';
   static const finance_label_financial_instrument = 'finance.label.financial_instrument';
+  static const finance_label_real_time_quotes = 'finance.label.real_time_quotes';
+  static const finance_label_number_plus_currency = 'finance.label.number_plus_currency';
   static const finance_label = 'finance.label';
   static const finance_disclaimer_intervening_markets = 'finance.disclaimer.intervening_markets';
   static const finance_disclaimer_incorrect_results = 'finance.disclaimer.incorrect_results';

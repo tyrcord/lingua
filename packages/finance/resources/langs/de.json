@@ -11,7 +11,9 @@
         },
         "label": {
             "pip_precision": "Pip Dezimalzeichen",
-            "financial_instrument": "Finanz­instrument"
+            "financial_instrument": "Finanz­instrument",
+            "real_time_quotes": "Echtzeit-Notierungen",
+            "number_plus_currency": "{number}+ Währungen"
         },
         "title": {
             "results_information": "Informationen zu den Ergebnissen"

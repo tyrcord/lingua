@@ -6,7 +6,9 @@
         },
         "label": {
             "pip_precision": "小数点",
-            "financial_instrument": "金融工具"
+            "financial_instrument": "金融工具",
+            "real_time_quotes": "实时报价",
+            "number_plus_currency": "{number}个以上的币种"
         },
         "disclaimer": {
             "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅根据这些信息做出交易或投资决策。",
