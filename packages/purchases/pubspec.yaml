@@ -4,7 +4,7 @@ version: 0.0.3
 repository: https://github.com/tyrcord/lingua/tree/main/packages/purchases
 
 environment:
-  sdk: ">=2.19.0 <3.0.0"
+  sdk: ">=2.19.6 <3.0.0"
   flutter: ">=3.7.0"
 
 dependencies:
@@ -16,6 +16,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
-  dart_code_metrics: ^5.5.0
+  flutter_lints: ^2.0.1
+  dart_code_metrics: ^5.7.2
   lingua_core: ^0.0.1+3
