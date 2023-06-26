@@ -1,3 +1,7 @@
+## 0.0.4
+
+ - **FEAT**: update onboarding.
+
 ## 0.0.3+2
 
  - **FIX**: scripts.
