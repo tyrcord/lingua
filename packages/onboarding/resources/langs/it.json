@@ -1,16 +1,28 @@
 {
-    "onboarding": {
-        "personalized_ads": {
-            "description": "Consentendo che ti vengano inviati degli annunci personalizzati, trarrai vantaggio da un'esperienza pubblicitaria più consona ai tuoi interessi.",
-            "action": "Attiva gli annunci personalizzati",
-            "notes": "La tua privacy ci sta molto a cuore e ci impegniamo a utilizzare le tue informazioni solo allo scopo di migliorare la tua esperienza e di presentarti degli annunci pubblicitari pertinenti.",
-            "title": "Pubblicità personalizzate"
-        },
-        "notifications": {
-            "action": "Consenti le notifiche",
-            "description": "Rimani aggiornato con gli ultimi aggiornamenti, news e informazioni importanti.",
-            "notes": "Ci impegniamo a inviarti solo notifiche utili e importanti. Inoltre, hai la possibilità di modificare le preferenze relative alle notifiche in qualsiasi momento.",
-            "title": "Notifiche"
-        }
+  "onboarding": {
+    "personalized_ads": {
+      "description": "Consentendo che ti vengano inviati degli annunci personalizzati, trarrai vantaggio da un'esperienza pubblicitaria più consona ai tuoi interessi.",
+      "action": "Attiva gli annunci personalizzati",
+      "notes": "La tua privacy ci sta molto a cuore e ci impegniamo a utilizzare le tue informazioni solo allo scopo di migliorare la tua esperienza e di presentarti degli annunci pubblicitari pertinenti.",
+      "title": "Pubblicità personalizzate"
+    },
+    "notifications": {
+      "action": "Consenti le notifiche",
+      "description": "Rimani aggiornato con gli ultimi aggiornamenti, news e informazioni importanti.",
+      "notes": "Ci impegniamo a inviarti solo notifiche utili e importanti. Inoltre, hai la possibilità di modificare le preferenze relative alle notifiche in qualsiasi momento.",
+      "title": "Notifiche"
+    },
+    "user_currency": {
+      "action": "Scegli la tua valuta",
+      "description": "Seleziona la tua valuta preferita per visualizzare i prezzi nella tua valuta locale.",
+      "notes": "Si prega di notare che hai la flessibilità di cambiare la tua valuta in qualsiasi momento nelle impostazioni.",
+      "title": "Valuta"
+    },
+    "restore_premium": {
+      "action": "Ripristina acquisti",
+      "description": "Se hai precedentemente acquisito la versione premium, ti consigliamo gentilmente di ripristinare i tuoi acquisti per riottenere l'accesso a tutte le funzionalità premium.",
+      "notes": "Ricorda che hai la possibilità di ripristinare i tuoi acquisti in qualsiasi momento.",
+      "title": "Ripristina le tue funzionalità premium"
     }
+  }
 }

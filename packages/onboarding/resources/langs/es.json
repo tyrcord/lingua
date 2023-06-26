@@ -1,16 +1,28 @@
 {
-    "onboarding": {
-        "personalized_ads": {
-            "action": "Activar anuncios personalizados",
-            "title": "Anuncios personalizados",
-            "description": "Si permites la publicidad personalizada, verás anuncios más adaptados a tus intereses.",
-            "notes": "Tu privacidad es importante para nosotros, por lo que nos comprometemos a utilizar tus datos con el único fin de mejorar tu experiencia y presentarte anuncios relevantes para ti."
-        },
-        "notifications": {
-            "action": "Permitir notificaciones",
-            "description": "Mantente al día con las últimas novedades, noticias e información importante.",
-            "title": "Notificaciones",
-            "notes": "Nos comprometemos a enviarte únicamente notificaciones útiles e importantes. Puedes cambiar tus preferencias en cuanto a notificaciones cuando quieras."
-        }
+  "onboarding": {
+    "personalized_ads": {
+      "action": "Activar anuncios personalizados",
+      "title": "Anuncios personalizados",
+      "description": "Si permites la publicidad personalizada, verás anuncios más adaptados a tus intereses.",
+      "notes": "Tu privacidad es importante para nosotros, por lo que nos comprometemos a utilizar tus datos con el único fin de mejorar tu experiencia y presentarte anuncios relevantes para ti."
+    },
+    "notifications": {
+      "action": "Permitir notificaciones",
+      "description": "Mantente al día con las últimas novedades, noticias e información importante.",
+      "title": "Notificaciones",
+      "notes": "Nos comprometemos a enviarte únicamente notificaciones útiles e importantes. Puedes cambiar tus preferencias en cuanto a notificaciones cuando quieras."
+    },
+    "user_currency": {
+      "action": "Elige tu moneda",
+      "description": "Selecciona tu moneda preferida para ver los precios en tu moneda local.",
+      "notes": "Ten en cuenta que tienes la flexibilidad de cambiar tu moneda en cualquier momento dentro de la configuración.",
+      "title": "Moneda"
+    },
+    "restore_premium": {
+      "action": "Restaurar compras",
+      "description": "Si has adquirido previamente la versión premium, te recomendamos amablemente que restaures tus compras para volver a tener acceso a todas las funciones premium.",
+      "notes": "Ten en cuenta que tienes la opción de restaurar tus compras en cualquier momento.",
+      "title": "Restaurar tus funciones premium"
     }
+  }
 }

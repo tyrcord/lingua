@@ -1,16 +1,28 @@
 {
-    "onboarding": {
-        "personalized_ads": {
-            "action": "Aktivieren Sie personalisierte Anzeigen",
-            "description": "Wenn Sie personalisierte Anzeigen zulassen, profitieren Sie von einem Werbeerlebnis, das besser auf Ihre Interessen zugeschnitten ist.",
-            "notes": "Wir schätzen Ihre Privatsphäre und verpflichten uns, Ihre Daten nur zu dem Zweck zu verwenden, Ihre Erfahrung zu verbessern und Ihnen relevante Anzeigen zu präsentieren.",
-            "title": "Personalisierte Werbung"
-        },
-        "notifications": {
-            "action": "Benachrichtigungen aktivieren",
-            "description": "Bleiben Sie auf dem Laufenden mit den neuesten Updates, Neuigkeiten und wichtigen Informationen.",
-            "notes": "Wir verpflichten uns, Ihnen nur nützliche und wichtige Benachrichtigungen zu senden. Sie haben die Möglichkeit, Ihre Benachrichtigungseinstellungen jederzeit zu ändern.",
-            "title": "Benachrichtigungen"
-        }
+  "onboarding": {
+    "personalized_ads": {
+      "action": "Aktivieren Sie personalisierte Anzeigen",
+      "description": "Wenn Sie personalisierte Anzeigen zulassen, profitieren Sie von einem Werbeerlebnis, das besser auf Ihre Interessen zugeschnitten ist.",
+      "notes": "Wir schätzen Ihre Privatsphäre und verpflichten uns, Ihre Daten nur zu dem Zweck zu verwenden, Ihre Erfahrung zu verbessern und Ihnen relevante Anzeigen zu präsentieren.",
+      "title": "Personalisierte Werbung"
+    },
+    "notifications": {
+      "action": "Benachrichtigungen aktivieren",
+      "description": "Bleiben Sie auf dem Laufenden mit den neuesten Updates, Neuigkeiten und wichtigen Informationen.",
+      "notes": "Wir verpflichten uns, Ihnen nur nützliche und wichtige Benachrichtigungen zu senden. Sie haben die Möglichkeit, Ihre Benachrichtigungseinstellungen jederzeit zu ändern.",
+      "title": "Benachrichtigungen"
+    },
+    "user_currency": {
+      "action": "Wählen Sie Ihre Währung",
+      "description": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
+      "notes": "Bitte beachten Sie, dass Sie jederzeit die Möglichkeit haben, Ihre Währung in den Einstellungen zu ändern.",
+      "title": "Währung"
+    },
+    "restore_premium": {
+      "action": "Käufe wiederherstellen",
+      "description": "Wenn Sie zuvor die Premium-Version erworben haben, empfehlen wir Ihnen dringend, Ihre Käufe wiederherzustellen, um wieder Zugriff auf alle Premium-Funktionen zu erhalten.",
+      "notes": "Bitte beachten Sie, dass Sie Ihre Käufe jederzeit wiederherstellen können.",
+      "title": "Stellen Sie Ihre Premium-Funktionen wieder her"
     }
+  }
 }

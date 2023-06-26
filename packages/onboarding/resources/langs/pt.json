@@ -1,16 +1,28 @@
 {
-    "onboarding": {
-        "notifications": {
-            "action": "Permitir notificações",
-            "description": "Mantenha-se a par das últimas atualizações, notícias e informações importantes.",
-            "title": "Notificações",
-            "notes": "Comprometemo-nos a enviar-lhe apenas notificações úteis e importantes. E tem a opção de alterar as suas preferências de notificação a qualquer momento."
-        },
-        "personalized_ads": {
-            "description": "Ao permitir que os seus anúncios sejam personalizados, beneficiará de uma experiência de publicidade mais adaptada aos seus interesses.",
-            "action": "Ativar anúncios personalizados",
-            "notes": "Valorizamos a sua privacidade e comprometemo-nos a utilizar as suas informações apenas com o objetivo de melhorar a sua experiência e apresentar-lhe anúncios relevantes.",
-            "title": "Anúncios personalizados"
-        }
+  "onboarding": {
+    "notifications": {
+      "action": "Permitir notificações",
+      "description": "Mantenha-se a par das últimas atualizações, notícias e informações importantes.",
+      "title": "Notificações",
+      "notes": "Comprometemo-nos a enviar-lhe apenas notificações úteis e importantes. E tem a opção de alterar as suas preferências de notificação a qualquer momento."
+    },
+    "personalized_ads": {
+      "description": "Ao permitir que os seus anúncios sejam personalizados, beneficiará de uma experiência de publicidade mais adaptada aos seus interesses.",
+      "action": "Ativar anúncios personalizados",
+      "notes": "Valorizamos a sua privacidade e comprometemo-nos a utilizar as suas informações apenas com o objetivo de melhorar a sua experiência e apresentar-lhe anúncios relevantes.",
+      "title": "Anúncios personalizados"
+    },
+    "user_currency": {
+      "action": "Escolha sua moeda",
+      "description": "Selecione sua moeda preferida para ver os preços na sua moeda local.",
+      "notes": "Observe que você tem a flexibilidade de alterar sua moeda a qualquer momento nas configurações.",
+      "title": "Moeda"
+    },
+    "restore_premium": {
+      "action": "Restaurar compras",
+      "description": "Se você adquiriu anteriormente a versão premium, recomendamos que restaure suas compras para recuperar o acesso a todos os recursos premium.",
+      "notes": "Esteja ciente de que você tem a opção de restaurar suas compras a qualquer momento.",
+      "title": "Restaurar seus recursos premium"
     }
+  }
 }
