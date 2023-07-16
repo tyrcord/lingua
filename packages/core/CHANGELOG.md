@@ -1,3 +1,7 @@
+## 0.0.2
+
+ - **FEAT**: update localization.
+
 ## 0.0.1+3
 
  - **FIX**: scripts.
