@@ -35,14 +35,20 @@
       "version": "Version : {version}"
     },
     "message": {
-      "change_later_note": "Notez que vous pouvez toujours le modifier ultérieurement.",
-      "select_language": "Sélectionnez la langue que vous souhaitez utiliser.",
-      "set_settings_info": "Améliorez votre expérience d'application en ajustant vos préférences.",
       "thanks_support": "Merci pour votre soutien !"
+    },
+    "note": {
+      "appearance": "Personnalisez votre expérience en sélectionnant un thème qui correspond à votre style.",
+      "change_later": "Notez que vous pouvez toujours le modifier ultérieurement.",
+      "restart_required": "Redémarrez l'application pour que les modifications prennent effet.",
+      "settings": "Améliorez votre expérience d'application en ajustant vos préférences."
     },
     "question": {
       "do_you_enjoy_our_app": "Si vous trouvez notre application utile, seriez-vous prêt à prendre quelques instants pour la noter ?",
       "do_you_like_our_app": "Appréciez-vous notre application ?"
+    },
+    "select": {
+      "language": "Sélectionnez la langue que vous souhaitez utiliser."
     }
   }
 }

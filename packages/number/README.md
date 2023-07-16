@@ -1,3 +1,3 @@
 # lingua_number
 
-Library for number internal localization.
+Library for internal number localization.

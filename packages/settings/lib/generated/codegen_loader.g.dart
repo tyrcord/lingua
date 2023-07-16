@@ -48,14 +48,20 @@ class SettingsCodegenLoader extends AssetLoader {
       "version": "版本：{version}"
     },
     "message": {
-      "change_later_note": "请注意，您随时可以稍后更改它。",
-      "select_language": "选择您想要使用的语言。",
-      "set_settings_info": "通过调整您的偏好设置来提升应用体验。",
       "thanks_support": "感谢您的支持！"
+    },
+    "note": {
+      "appearance": "通过选择适合您风格的主题来个性化您的体验。",
+      "change_later": "请注意，您随时可以稍后更改它。",
+      "restart_required": "重新启动应用程序以使更改生效。",
+      "settings": "通过调整您的偏好设置来提升应用体验。"
     },
     "question": {
       "do_you_enjoy_our_app": "如果您发现我们的应用程序有用，您是否愿意花费一些时间对其进行评级？",
       "do_you_like_our_app": "您喜欢我们的应用程序吗？"
+    },
+    "select": {
+      "language": "选择您想要使用的语言。"
     }
   }
 };
@@ -96,14 +102,20 @@ static const Map<String,dynamic> ja = {
       "version": "バージョン: {version}"
     },
     "message": {
-      "change_later_note": "後でいつでも変更できることに注意してください。",
-      "select_language": "使用する言語を選択してください。",
-      "set_settings_info": "好みに合わせてアプリの設定を調整して、アプリの体験を向上させましょう。",
       "thanks_support": "ご支援ありがとうございます！"
+    },
+    "note": {
+      "appearance": "スタイルに合ったテーマを選択して、体験をカスタマイズしましょう。",
+      "change_later": "後でいつでも変更できることに注意してください。",
+      "restart_required": "変更が反映されるように、アプリを再起動してください。",
+      "settings": "好みに合わせてアプリの設定を調整して、アプリの体験を向上させましょう。"
     },
     "question": {
       "do_you_enjoy_our_app": "当社のアプリがお役に立つ場合、数分お時間をいただき、評価していただけますか？",
       "do_you_like_our_app": "当社のアプリをお楽しみいただいていますか？"
+    },
+    "select": {
+      "language": "使用する言語を選択してください。"
     }
   }
 };
@@ -144,14 +156,20 @@ static const Map<String,dynamic> de = {
       "version": "Version: {version}"
     },
     "message": {
-      "change_later_note": "Beachten Sie, dass Sie es jederzeit später ändern können.",
-      "select_language": "Wählen Sie die gewünschte Sprache aus.",
-      "set_settings_info": "Verbessern Sie Ihr App-Erlebnis, indem Sie Ihre Einstellungen anpassen.",
       "thanks_support": "Vielen Dank für Ihre Unterstützung!"
+    },
+    "note": {
+      "appearance": "Personalisieren Sie Ihr Erlebnis, indem Sie ein Design auswählen, das zu Ihrem Stil passt.",
+      "change_later": "Beachten Sie, dass Sie es jederzeit später ändern können.",
+      "restart_required": "Starten Sie die App neu, damit die Änderungen wirksam werden.",
+      "settings": "Verbessern Sie Ihr App-Erlebnis, indem Sie Ihre Einstellungen anpassen."
     },
     "question": {
       "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
       "do_you_like_our_app": "Gefällt Ihnen unsere App?"
+    },
+    "select": {
+      "language": "Wählen Sie die gewünschte Sprache aus."
     }
   }
 };
@@ -192,14 +210,20 @@ static const Map<String,dynamic> ru = {
       "version": "Версия: {version}"
     },
     "message": {
-      "change_later_note": "Обратите внимание, что вы всегда можете изменить это позже.",
-      "select_language": "Выберите язык, который хотите использовать.",
-      "set_settings_info": "Улучшите свой опыт использования приложения, настроив свои предпочтения.",
       "thanks_support": "Спасибо за вашу поддержку!"
+    },
+    "note": {
+      "appearance": "Настройте свой опыт, выбрав тему, которая подходит вашему стилю.",
+      "change_later": "Обратите внимание, что вы всегда можете изменить это позже.",
+      "restart_required": "Перезапустите приложение, чтобы изменения вступили в силу.",
+      "settings": "Улучшите свой опыт использования приложения, настроив свои предпочтения."
     },
     "question": {
       "do_you_enjoy_our_app": "Если наше приложение вам понравилось, не могли бы вы уделить несколько минут, чтобы оценить его?",
       "do_you_like_our_app": "Вам нравится наше приложение?"
+    },
+    "select": {
+      "language": "Выберите язык, который хотите использовать."
     }
   }
 };
@@ -240,14 +264,20 @@ static const Map<String,dynamic> pt = {
       "version": "Versão: {version}"
     },
     "message": {
-      "change_later_note": "Observe que você sempre pode alterá-lo posteriormente.",
-      "select_language": "Selecione o idioma que você gostaria de usar.",
-      "set_settings_info": "Melhore sua experiência no aplicativo ajustando suas preferências.",
       "thanks_support": "Obrigado pelo seu apoio!"
+    },
+    "note": {
+      "appearance": "Personalize sua experiência selecionando um tema que combine com seu estilo.",
+      "change_later": "Observe que você sempre pode alterá-lo posteriormente.",
+      "restart_required": "Reinicie o aplicativo para que as alterações tenham efeito.",
+      "settings": "Melhore sua experiência no aplicativo ajustando suas preferências."
     },
     "question": {
       "do_you_enjoy_our_app": "Se você achar nosso aplicativo útil, você estaria disposto a dedicar alguns momentos para avaliá-lo?",
       "do_you_like_our_app": "Você está gostando do nosso aplicativo?"
+    },
+    "select": {
+      "language": "Selecione o idioma que você gostaria de usar."
     }
   }
 };
@@ -288,14 +318,20 @@ static const Map<String,dynamic> en = {
       "version": "Version: {version}"
     },
     "message": {
-      "change_later_note": "Note that you can always change it later.",
-      "select_language": "Select the language you would like to use.",
-      "set_settings_info": "Enhance your app experience by adjusting your preferences.",
       "thanks_support": "Thanks for your support!"
+    },
+    "note": {
+      "appearance": "Personalize your experience by selecting a theme that suits your style.",
+      "change_later": "Note that you can always change it later.",
+      "restart_required": "Restart the app for the changes to take effect.",
+      "settings": "Enhance your app experience by adjusting your preferences."
     },
     "question": {
       "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
       "do_you_like_our_app": "Are you enjoying our app?"
+    },
+    "select": {
+      "language": "Select the language you would like to use."
     }
   }
 };
@@ -336,14 +372,20 @@ static const Map<String,dynamic> it = {
       "version": "Versione: {version}"
     },
     "message": {
-      "change_later_note": "Tieni presente che puoi sempre cambiarlo in seguito.",
-      "select_language": "Seleziona la lingua che desideri utilizzare.",
-      "set_settings_info": "Migliora la tua esperienza dell'app personalizzando le preferenze.",
       "thanks_support": "Grazie per il tuo supporto!"
+    },
+    "note": {
+      "appearance": "Personalizza la tua esperienza selezionando un tema che si adatta al tuo stile.",
+      "change_later": "Tieni presente che puoi sempre cambiarlo in seguito.",
+      "restart_required": "Riavvia l'app affinché le modifiche abbiano effetto.",
+      "settings": "Migliora la tua esperienza dell'app personalizzando le preferenze."
     },
     "question": {
       "do_you_enjoy_our_app": "Se trovi la nostra app utile, saresti disposto a dedicare qualche istante per valutarla?",
       "do_you_like_our_app": "Ti sta piacendo la nostra app?"
+    },
+    "select": {
+      "language": "Seleziona la lingua che desideri utilizzare."
     }
   }
 };
@@ -384,14 +426,20 @@ static const Map<String,dynamic> fr = {
       "version": "Version : {version}"
     },
     "message": {
-      "change_later_note": "Notez que vous pouvez toujours le modifier ultérieurement.",
-      "select_language": "Sélectionnez la langue que vous souhaitez utiliser.",
-      "set_settings_info": "Améliorez votre expérience d'application en ajustant vos préférences.",
       "thanks_support": "Merci pour votre soutien !"
+    },
+    "note": {
+      "appearance": "Personnalisez votre expérience en sélectionnant un thème qui correspond à votre style.",
+      "change_later": "Notez que vous pouvez toujours le modifier ultérieurement.",
+      "restart_required": "Redémarrez l'application pour que les modifications prennent effet.",
+      "settings": "Améliorez votre expérience d'application en ajustant vos préférences."
     },
     "question": {
       "do_you_enjoy_our_app": "Si vous trouvez notre application utile, seriez-vous prêt à prendre quelques instants pour la noter ?",
       "do_you_like_our_app": "Appréciez-vous notre application ?"
+    },
+    "select": {
+      "language": "Sélectionnez la langue que vous souhaitez utiliser."
     }
   }
 };
@@ -432,14 +480,20 @@ static const Map<String,dynamic> es = {
       "version": "Versión: {version}"
     },
     "message": {
-      "change_later_note": "Tenga en cuenta que siempre puede cambiarlo más tarde.",
-      "select_language": "Seleccione el idioma que desea utilizar.",
-      "set_settings_info": "Mejore su experiencia en la aplicación ajustando sus preferencias.",
       "thanks_support": "¡Gracias por su apoyo!"
+    },
+    "note": {
+      "appearance": "Personaliza tu experiencia seleccionando un tema que se adapte a tu estilo.",
+      "change_later": "Tenga en cuenta que siempre puede cambiarlo más tarde.",
+      "restart_required": "Reinicia la aplicación para que los cambios surtan efecto.",
+      "settings": "Mejore su experiencia en la aplicación ajustando sus preferencias."
     },
     "question": {
       "do_you_enjoy_our_app": "Si encuentra útil nuestra aplicación, ¿estaría dispuesto a dedicar unos minutos para calificarla?",
       "do_you_like_our_app": "¿Le gusta nuestra aplicación?"
+    },
+    "select": {
+      "language": "Seleccione el idioma que desea utilizar."
     }
   }
 };

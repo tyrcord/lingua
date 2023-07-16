@@ -32,14 +32,18 @@ abstract class SettingsLocaleKeys {
   static const settings_label_user_settings = 'settings.label.user_settings';
   static const settings_label_version = 'settings.label.version';
   static const settings_label = 'settings.label';
-  static const settings_message_change_later_note = 'settings.message.change_later_note';
-  static const settings_message_select_language = 'settings.message.select_language';
-  static const settings_message_set_settings_info = 'settings.message.set_settings_info';
   static const settings_message_thanks_support = 'settings.message.thanks_support';
   static const settings_message = 'settings.message';
+  static const settings_note_appearance = 'settings.note.appearance';
+  static const settings_note_change_later = 'settings.note.change_later';
+  static const settings_note_restart_required = 'settings.note.restart_required';
+  static const settings_note_settings = 'settings.note.settings';
+  static const settings_note = 'settings.note';
   static const settings_question_do_you_enjoy_our_app = 'settings.question.do_you_enjoy_our_app';
   static const settings_question_do_you_like_our_app = 'settings.question.do_you_like_our_app';
   static const settings_question = 'settings.question';
+  static const settings_select_language = 'settings.select.language';
+  static const settings_select = 'settings.select';
   static const settings = 'settings';
 
 }
