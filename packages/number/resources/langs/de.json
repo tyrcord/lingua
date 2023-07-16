@@ -1,28 +1,32 @@
 {
-    "number": {
-        "ordinal": {
-            "short": {
-                "first": {
-                    "male": "{num}.",
-                    "female": "{num}.",
-                    "other": "{num}."
-                },
-                "second": {
-                    "male": "{num}.",
-                    "female": "{num}.",
-                    "other": "{num}."
-                },
-                "third": {
-                    "male": "{num}.",
-                    "female": "{num}.",
-                    "other": "{num}."
-                },
-                "others": {
-                    "male": "{num}.",
-                    "female": "{num}.",
-                    "other": "{num}."
-                }
-            }
+  "number": {
+    "label": {
+      "amount": "Betrag",
+      "percentage": "Prozentsatz"
+    },
+    "ordinal": {
+      "short": {
+        "first": {
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
+        },
+        "others": {
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
+        },
+        "second": {
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
+        },
+        "third": {
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
         }
+      }
     }
+  }
 }

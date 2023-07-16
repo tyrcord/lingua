@@ -1,0 +1,109 @@
+{
+  "core": {
+    "error": {
+      "cannot_reach_server": "We apologize for the inconvenience, but there is currently a connection issue with the server. Please try again at a later time.",
+      "error_occurred": "Apologies, an error has occurred. Please try again later."
+    },
+    "label": {
+      "advanced": "Advanced",
+      "all": {
+        "female": "All",
+        "male": "All",
+        "other": "All"
+      },
+      "annually": "Annually",
+      "at": "At",
+      "auto_save": "Auto-save",
+      "back": "Back",
+      "behavior": "Behavior",
+      "cancel": "Cancel",
+      "clear": {
+        "selection": "Clear Selection",
+        "text": "Clear"
+      },
+      "close": "Close",
+      "confirm": "Confirm",
+      "confirmation": "Confirmation",
+      "continue": "Continue",
+      "daily": "Daily",
+      "date": "Date",
+      "default": {
+        "text": "Default",
+        "values": "Default Values"
+      },
+      "delete": "Delete",
+      "description": "Description",
+      "details": "Details",
+      "display": "Display",
+      "done": "Done",
+      "error": "Error",
+      "exotics": "Exotic",
+      "favorites": "Favorites",
+      "frequency": "Frequency",
+      "home": "Home",
+      "learn_more": "Learn more",
+      "majors": "Major",
+      "menu": "Menu",
+      "method": "Method",
+      "minors": "Minor",
+      "monthly": "Monthly",
+      "next": "Next",
+      "no": "No",
+      "none": {
+        "female": "None",
+        "male": "None",
+        "other": "None"
+      },
+      "offline_mode": "Offline Mode",
+      "ok": "OK",
+      "optional": "Optional",
+      "quantity": "Quantity",
+      "quarterly": "Quarterly",
+      "results": "Results",
+      "search": "Search",
+      "semi_annually": "Semi-annually",
+      "share": "Share",
+      "skip": "Skip",
+      "try_again": "Try Again",
+      "unlocked": "Unlocked",
+      "weekly": "Weekly",
+      "yearly": "Yearly",
+      "yes": "Yes"
+    },
+    "message": {
+      "action": {
+        "canceled": "Action canceled.",
+        "completed": "Action completed."
+      },
+      "bugs_fixes_improvements": "Minor bug fixes and improvements.",
+      "congratulations": "Congratulations!",
+      "dark_mode_support": "Dark Mode support.",
+      "finally": "Finally!",
+      "have_wonderful_day": "Have a wonderful day!",
+      "last_updated_on": "Last updated on {date}",
+      "let_get_started": "Let's get started!",
+      "loading": "Loading...",
+      "modern_design": "Modern Look.",
+      "no_favorites": "No favorites.",
+      "please_wait": "Please wait...",
+      "search": "Search...",
+      "sorry": "Sorry...",
+      "success": "Success!",
+      "thank_you": "Thank you!",
+      "warning": "Warning!",
+      "welcome": "Welcome!",
+      "whats_new": "What's new?",
+      "whoops": "Whoops!"
+    },
+    "question": {
+      "are_you_sure": "Are you sure?"
+    },
+    "select": {
+      "frequency": "Select a frequency",
+      "method": "Select a method"
+    },
+    "warning": {
+      "offline": "The application is currently operating in offline mode, which means that the data may not be up to date"
+    }
+  }
+}

@@ -1,39 +1,48 @@
 {
-    "settings": {
-        "labels": {
-            "appearance": "Appearance",
-            "default": "Default",
-            "light": "Light",
-            "dark": "Dark",
-            "language": "Language",
-            "languages": "Languages",
-            "system": "System",
-            "privacy_policy": "Privacy Policy",
-            "app_preferences": "Application Preferences",
-            "app_settings": "Application Settings",
-            "customer_support": "Customer Service",
-            "help_and_support": "Help & Support",
-            "rate_us": "Rate us",
-            "reset_settings": "Restore Defaults",
-            "share_this_app": "Share this app",
-            "submit_bug_report": "Submit a Bug Report",
-            "terms_of_service": "Terms of Service",
-            "version": "Version: {version}",
-            "about": "About",
-            "disclaimer": "Disclaimer",
-            "homepage": "Home",
-            "legal": "Legal",
-            "preferences": "Preferences",
-            "settings": "Settings"
-        },
-        "questions": {
-            "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
-            "do_you_like_our_app": "Do you like our app?"
-        },
-        "messages": {
-            "thanks_support": "Thanks for your support!",
-            "select_language": "Select the language you would like to use.",
-            "change_later_note": "Note that you can always change it later."
-        }
+  "settings": {
+    "label": {
+      "about": "About",
+      "app": {
+        "preferences": "Application Preferences",
+        "settings": "Application Settings"
+      },
+      "appearance": "Appearance",
+      "change": {
+        "language": "Change Language",
+        "theme": "Change Theme"
+      },
+      "customer_support": "Customer Service",
+      "dark": "Dark",
+      "default": "Default",
+      "disclaimer": "Disclaimer",
+      "help_and_support": "Help & Support",
+      "homepage": "Home",
+      "language": "Language",
+      "languages": "Languages",
+      "legal": "Legal",
+      "light": "Light",
+      "preferences": "Preferences",
+      "privacy_policy": "Privacy Policy",
+      "rate_us": "Rate us",
+      "reset_settings": "Restore Defaults",
+      "settings": "Settings",
+      "submit_bug_report": "Submit a Bug Report",
+      "system": "System",
+      "terms_of_service": "Terms of Service",
+      "user_input": "User Input",
+      "user_inputs": "User Inputs",
+      "user_settings": "User Settings",
+      "version": "Version: {version}"
+    },
+    "message": {
+      "change_later_note": "Note that you can always change it later.",
+      "select_language": "Select the language you would like to use.",
+      "set_settings_info": "Enhance your app experience by adjusting your preferences.",
+      "thanks_support": "Thanks for your support!"
+    },
+    "question": {
+      "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
+      "do_you_like_our_app": "Are you enjoying our app?"
     }
+  }
 }

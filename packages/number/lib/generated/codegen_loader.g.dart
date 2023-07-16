@@ -13,26 +13,30 @@ class NumberCodegenLoader extends AssetLoader {
 
   static const Map<String,dynamic> zh = {
   "number": {
+    "label": {
+      "amount": "金额",
+      "percentage": "百分比"
+    },
     "ordinal": {
       "short": {
         "first": {
-          "male": "第{num}个",
           "female": "第{num}个",
-          "other": "第{num}个"
-        },
-        "second": {
           "male": "第{num}个",
-          "female": "第{num}个",
-          "other": "第{num}个"
-        },
-        "third": {
-          "male": "第{num}个",
-          "female": "第{num}个",
           "other": "第{num}个"
         },
         "others": {
-          "male": "第{num}个",
           "female": "第{num}个",
+          "male": "第{num}个",
+          "other": "第{num}个"
+        },
+        "second": {
+          "female": "第{num}个",
+          "male": "第{num}个",
+          "other": "第{num}个"
+        },
+        "third": {
+          "female": "第{num}个",
+          "male": "第{num}个",
           "other": "第{num}个"
         }
       }
@@ -41,26 +45,30 @@ class NumberCodegenLoader extends AssetLoader {
 };
 static const Map<String,dynamic> ja = {
   "number": {
+    "label": {
+      "amount": "金額",
+      "percentage": "割合"
+    },
     "ordinal": {
       "short": {
         "first": {
-          "male": "第{num}位",
           "female": "第{num}位",
-          "other": "第{num}位"
-        },
-        "second": {
           "male": "第{num}位",
-          "female": "第{num}位",
-          "other": "第{num}位"
-        },
-        "third": {
-          "male": "第{num}位",
-          "female": "第{num}位",
           "other": "第{num}位"
         },
         "others": {
-          "male": "第{num}位",
           "female": "第{num}位",
+          "male": "第{num}位",
+          "other": "第{num}位"
+        },
+        "second": {
+          "female": "第{num}位",
+          "male": "第{num}位",
+          "other": "第{num}位"
+        },
+        "third": {
+          "female": "第{num}位",
+          "male": "第{num}位",
           "other": "第{num}位"
         }
       }
@@ -69,26 +77,30 @@ static const Map<String,dynamic> ja = {
 };
 static const Map<String,dynamic> de = {
   "number": {
+    "label": {
+      "amount": "Betrag",
+      "percentage": "Prozentsatz"
+    },
     "ordinal": {
       "short": {
         "first": {
-          "male": "{num}.",
           "female": "{num}.",
-          "other": "{num}."
-        },
-        "second": {
           "male": "{num}.",
-          "female": "{num}.",
-          "other": "{num}."
-        },
-        "third": {
-          "male": "{num}.",
-          "female": "{num}.",
           "other": "{num}."
         },
         "others": {
-          "male": "{num}.",
           "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
+        },
+        "second": {
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
+        },
+        "third": {
+          "female": "{num}.",
+          "male": "{num}.",
           "other": "{num}."
         }
       }
@@ -97,27 +109,31 @@ static const Map<String,dynamic> de = {
 };
 static const Map<String,dynamic> ru = {
   "number": {
+    "label": {
+      "amount": "Сумма",
+      "percentage": "Процент"
+    },
     "ordinal": {
       "short": {
         "first": {
-          "male": "{num}-й",
           "female": "{num}-я",
+          "male": "{num}-й",
+          "other": "{num}-е"
+        },
+        "others": {
+          "female": "{num}-я",
+          "male": "{num}-й",
           "other": "{num}-е"
         },
         "second": {
-          "male": "{num}-й",
           "female": "{num}-я",
+          "male": "{num}-й",
           "other": "{num}-е"
         },
         "third": {
-          "male": "{номер}-й",
           "female": "{номер}-я",
+          "male": "{номер}-й",
           "other": "{номер}-е"
-        },
-        "others": {
-          "male": "{num}-й",
-          "female": "{num}-я",
-          "other": "{num}-е"
         }
       }
     }
@@ -125,26 +141,30 @@ static const Map<String,dynamic> ru = {
 };
 static const Map<String,dynamic> pt = {
   "number": {
+    "label": {
+      "amount": "Valor",
+      "percentage": "Percentagem"
+    },
     "ordinal": {
       "short": {
-        "third": {
-          "other": "{num}.º",
+        "first": {
+          "female": "{num}.º",
           "male": "{num}.º",
-          "female": "{num}.º"
+          "other": "{num}.º"
         },
         "others": {
-          "male": "{num}.º",
           "female": "{num}.º",
+          "male": "{num}.º",
           "other": "{num}.º"
         },
         "second": {
-          "male": "{num}.º",
           "female": "{num}.º",
+          "male": "{num}.º",
           "other": "{num}.º"
         },
-        "first": {
-          "male": "{num}.º",
+        "third": {
           "female": "{num}.º",
+          "male": "{num}.º",
           "other": "{num}.º"
         }
       }
@@ -153,27 +173,31 @@ static const Map<String,dynamic> pt = {
 };
 static const Map<String,dynamic> en = {
   "number": {
+    "label": {
+      "amount": "Amount",
+      "percentage": "Percentage"
+    },
     "ordinal": {
       "short": {
         "first": {
-          "male": "{num}st",
           "female": "{num}st",
+          "male": "{num}st",
           "other": "{num}st"
         },
+        "others": {
+          "female": "{num}th",
+          "male": "{num}th",
+          "other": "{num}th"
+        },
         "second": {
-          "male": "{num}nd",
           "female": "{num}nd",
+          "male": "{num}nd",
           "other": "{num}nd"
         },
         "third": {
-          "male": "{num}rd",
           "female": "{num}rd",
+          "male": "{num}rd",
           "other": "{num}rd"
-        },
-        "others": {
-          "male": "{num}th",
-          "female": "{num}th",
-          "other": "{num}th"
         }
       }
     }
@@ -181,26 +205,30 @@ static const Map<String,dynamic> en = {
 };
 static const Map<String,dynamic> it = {
   "number": {
+    "label": {
+      "amount": "Importo",
+      "percentage": "Percentuale"
+    },
     "ordinal": {
       "short": {
-        "second": {
-          "male": "{num}°",
+        "first": {
           "female": "{num}°",
-          "other": "{num}°"
-        },
-        "third": {
           "male": "{num}°",
-          "female": "{num}°",
           "other": "{num}°"
         },
         "others": {
-          "male": "{num}°",
           "female": "{num}°",
+          "male": "{num}°",
           "other": "{num}°"
         },
-        "first": {
-          "male": "{num}°",
+        "second": {
           "female": "{num}°",
+          "male": "{num}°",
+          "other": "{num}°"
+        },
+        "third": {
+          "female": "{num}°",
+          "male": "{num}°",
           "other": "{num}°"
         }
       }
@@ -209,26 +237,30 @@ static const Map<String,dynamic> it = {
 };
 static const Map<String,dynamic> fr = {
   "number": {
+    "label": {
+      "amount": "Montant",
+      "percentage": "Pourcentage"
+    },
     "ordinal": {
       "short": {
         "first": {
+          "female": "{num}ère",
           "male": "{num}er",
-          "other": "{num}er",
-          "female": "{num}ère"
+          "other": "{num}er"
+        },
+        "others": {
+          "female": "{num}ème",
+          "male": "{num}ème",
+          "other": "{num}ème"
         },
         "second": {
-          "male": "{num}ème",
           "female": "{num}ème",
+          "male": "{num}ème",
           "other": "{num}ème"
         },
         "third": {
-          "male": "{num}ème",
           "female": "{num}ème",
-          "other": "{num}ème"
-        },
-        "others": {
           "male": "{num}ème",
-          "female": "{num}ème",
           "other": "{num}ème"
         }
       }
@@ -237,27 +269,31 @@ static const Map<String,dynamic> fr = {
 };
 static const Map<String,dynamic> es = {
   "number": {
+    "label": {
+      "amount": "Monto",
+      "percentage": "Porcentaje"
+    },
     "ordinal": {
       "short": {
-        "second": {
-          "male": "{num}.º",
+        "first": {
           "female": "{num}.ª",
-          "other": "{num}.º"
-        },
-        "third": {
           "male": "{num}.º",
-          "female": "{num}.ª",
           "other": "{num}.º"
         },
         "others": {
-          "male": "{num}.º",
           "female": "{num}.ª",
+          "male": "{num}.º",
           "other": "{num}.º"
         },
-        "first": {
-          "other": "{num}.º",
+        "second": {
+          "female": "{num}.ª",
           "male": "{num}.º",
-          "female": "{num}.ª"
+          "other": "{num}.º"
+        },
+        "third": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
         }
       }
     }

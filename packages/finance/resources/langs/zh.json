@@ -1,25 +1,210 @@
 {
-    "finance": {
-        "select": {
-            "pip_precision": "请选择一个小数",
-            "financial_instrument": "请选择金融工具"
+  "finance": {
+    "disclaimer": {
+      "incorrect_results": "如果您认为结果不正确，可能是由于您的经纪人和您使用的金融工具的某些参数可能有所不同。如果需要，您可以在高级部分调整这些设置。",
+      "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅基于此信息进行交易或投资决策。",
+      "trading": "金融市场对您的投资资本存在重大风险。本应用程序提供的信息和结果仅供参考，不构成建议或推荐。{company}不对任何根据此信息或结果采取行动的人所遭受的损失承担责任。"
+    },
+    "error": {
+      "close_price_between_low_high_price": "收盘价必须在最低价和最高价之间。",
+      "high_price_higher_low_price": "最高价必须超过最低价。",
+      "open_price_between_low_high_price": "开盘价必须在最低价和最高价之间。",
+      "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。"
+    },
+    "label": {
+      "account": {
+        "balance": {
+          "help": "指定您资本的当前价值。",
+          "label": "账户余额"
         },
-        "label": {
-            "pip_precision": "小数点",
-            "financial_instrument": "金融工具",
-            "real_time_quotes": "实时报价",
-            "number_plus_currency": "{number}个以上的币种"
-        },
-        "disclaimer": {
-            "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅根据这些信息做出交易或投资决策。",
-            "incorrect_results": "如果您认为结果不正确，则可能是因为您的券商以及您使用的金融工具有不同的设置。如有必要，您可以在“高级”部分调整这些设置。",
-            "trading": "对于您的投资资本来说，金融市场存在着巨大的风险。本应用程序提供的信息和结果仅供参考，不构成意见或建议。如有任何人员根据这些信息或结果采取行动而遭受损失，{company}拒绝承担任何责任。"
-        },
-        "error": {
-            "quote_refresh": "无法更新所选金融工具的报价。请稍后再试。"
-        },
-        "title": {
-            "results_information": "有关结果的信息"
+        "currency": "账户货币",
+        "size": "账户规模"
+      },
+      "after": {
+        "tax": {
+          "amount": "税后金额",
+          "price": "税后价格"
         }
+      },
+      "amount_at_risk": "风险金额",
+      "annual_contribution": "年度贡献",
+      "average_annual_return": "年均回报",
+      "before": {
+        "tax": {
+          "amount": "税前金额",
+          "price": "税前价格"
+        }
+      },
+      "break_even": {
+        "price": "保本价格",
+        "units": "保本单位"
+      },
+      "buy": {
+        "commission": "买入佣金",
+        "costs": "买入成本",
+        "price": "买入价格",
+        "price_per_unit": "买入单价"
+      },
+      "close_price": "收盘价",
+      "compound_interest": "复利",
+      "currencies": "货币",
+      "currency": "货币",
+      "discount": {
+        "amount": "折扣金额",
+        "label": "折扣",
+        "per_unit": "单位折扣"
+      },
+      "duration_years": "年份持续时间",
+      "ending": {
+        "balance": "结余",
+        "principal": "结余本金"
+      },
+      "entry": {
+        "fees": "入场费用",
+        "price": "入场价格",
+        "price_at": "入场价位"
+      },
+      "exit": {
+        "fees": "出场费用",
+        "price": "出场价格",
+        "price_at": "出场价位"
+      },
+      "expected_unit_sales": "预期销售单位",
+      "extension": "扩展",
+      "fibonacci": {
+        "level": "斐波那契水平",
+        "levels": "斐波那契水平"
+      },
+      "financial_instrument": "金融工具",
+      "fixed_costs": "固定成本",
+      "gain": "盈利",
+      "gain_per_trade": "每笔交易盈利",
+      "gross_profit": "毛利",
+      "high_price": "最高价",
+      "indices": "指数",
+      "initial_investment": "初始投资",
+      "interest_rate": "利率",
+      "leverage": "杠杆",
+      "loss": "亏损",
+      "loss_per_trade": "每笔交易亏损",
+      "low_price": "最低价",
+      "margin": "保证金",
+      "net": {
+        "buy_price": "净买入价格",
+        "income": "净收入",
+        "profit": {
+          "after_tax": "税后净利润",
+          "before_tax": "税前净利润",
+          "text": "净利润"
+        }
+      },
+      "number": {
+        "of_trades": "交易次数",
+        "plus_currency": "{number}+种货币"
+      },
+      "open_price": "开盘价",
+      "pivot_point": {
+        "camarilla": "Camarilla",
+        "demark": "DeMark",
+        "fibonacci": "斐波那契",
+        "method": "中枢点方法",
+        "standard": "标准",
+        "text": "中枢点",
+        "woodie": "Woodie"
+      },
+      "pivot_points": "中枢点",
+      "position": {
+        "long": "多头",
+        "short": "空头",
+        "size": "仓位规模",
+        "text": "仓位"
+      },
+      "price": {
+        "a": "价格A",
+        "b": "价格B",
+        "per_unit": "单价",
+        "per_unit_after_tax": "税后单价",
+        "per_unit_before_tax": "税前单价",
+        "text": "价格"
+      },
+      "primary_currency": "主要货币",
+      "profit": "利润",
+      "profit_and_loss": "利润和损失",
+      "profit_or_loss": "利润或损失",
+      "purchase_costs_per_unit": "购买成本每单位",
+      "real_time_quotes": "实时行情",
+      "regular_addition": "定期增加",
+      "required_margin": "所需保证金",
+      "resistance_level": "阻力位 {level}",
+      "retracement": "回撤",
+      "return_on_investment": "投资回报率",
+      "risk": "风险",
+      "risk_amount": "风险金额",
+      "risk_ratio": "风险比例",
+      "risk_reward_ratio": "风险-回报比",
+      "secondary_currency": "次要货币",
+      "sell": {
+        "commission": "卖出佣金",
+        "costs": "卖出成本",
+        "costs_per_unit": "卖出成本每单位",
+        "price": "卖出价格",
+        "price_per_unit": "卖出单价"
+      },
+      "slippage": "滑点",
+      "starting": {
+        "balance": "初始余额",
+        "principal": "初始本金"
+      },
+      "stop_loss": {
+        "amount": "止损金额",
+        "at": "止损于",
+        "text": "止损"
+      },
+      "stop_loss_take_profit": "止损/获利",
+      "support_level": "支撑位 {level}",
+      "take_profit": {
+        "amount": "获利金额",
+        "at": "获利于",
+        "text": "获利"
+      },
+      "tax": {
+        "amount": "税额",
+        "exempt_amount_per_year": "免税金额每年",
+        "rate": "税率"
+      },
+      "total": {
+        "costs": "总成本",
+        "gain": "总盈利",
+        "loss": "总亏损",
+        "return": "总回报",
+        "revenue": "总收入",
+        "taxes": "总税额"
+      },
+      "trade": {
+        "size": {
+          "oz": "交易规模（盎司）",
+          "text": "交易规模",
+          "units": "交易规模（单位）"
+        }
+      },
+      "trend": {
+        "down": "下跌趋势",
+        "sideways": "横盘",
+        "text": "趋势",
+        "up": "上升趋势"
+      },
+      "user_currency": "用户货币"
+    },
+    "select": {
+      "account_currency": "选择您的账户货币",
+      "currency": "选择一种货币",
+      "interest_rate": "选择一个利率",
+      "leverage": "选择一个杠杆",
+      "primary_currency": "选择一种主要货币",
+      "secondary_currency": "选择一种次要货币"
+    },
+    "warning": {
+      "risk_reward_ratio": "风险-回报比小于2。"
     }
+  }
 }

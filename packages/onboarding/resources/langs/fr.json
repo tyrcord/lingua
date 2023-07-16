@@ -1,28 +1,28 @@
 {
   "onboarding": {
-    "personalized_ads": {
-      "title": "Annonces personnalisées",
-      "description": "En autorisant la personnalisation de vos annonces, vous bénéficierez d'une expérience publicitaire plus adaptée à vos centres d'intérêt.",
-      "notes": "Nous accordons une grande importance à votre vie privée et nous nous engageons à utiliser vos informations que dans le but d'améliorer votre expérience et de vous présenter des annonces pertinentes.",
-      "action": "Activer les annonces personnalisées"
-    },
     "notifications": {
       "action": "Autoriser les notifications",
-      "description": "Restez à jour avec les dernières mises à jour, nouvelles et informations importantes.",
-      "notes": "Nous nous engageons à ne vous envoyer que des notifications utiles et importantes. Et, vous avez la possibilité de modifier vos préférences de notification à tout moment.",
+      "description": "Restez informé des dernières mises à jour, actualités et informations importantes.",
+      "notes": "Nous nous engageons à ne vous envoyer que des notifications utiles et importantes. De plus, vous avez la possibilité de modifier vos préférences de notification à tout moment.",
       "title": "Notifications"
     },
-    "user_currency": {
-      "action": "Sélectionnez votre devise",
-      "description": "Veuillez sélectionner votre devise préférée pour afficher les prix dans votre devise locale.",
-      "notes": "Veuillez noter que vous avez la possibilité de changer votre devise à tout moment dans les paramètres.",
-      "title": "Devise"
+    "personalized_ads": {
+      "action": "Activer les publicités personnalisées",
+      "description": "En autorisant la personnalisation de vos publicités, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
+      "notes": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
+      "title": "Publicités personnalisées"
     },
     "restore_premium": {
       "action": "Restaurer les achats",
-      "description": "Si vous avez précédemment acquis la version premium, nous vous recommandons vivement de restaurer vos achats afin de retrouver l'accès à toutes les fonctionnalités premium.",
+      "description": "Si vous avez précédemment acquis la version premium, nous vous recommandons de restaurer vos achats pour retrouver l'accès à toutes vos fonctionnalités premium.",
       "notes": "Veuillez noter que vous avez la possibilité de restaurer vos achats à tout moment.",
-      "title": "Restaurer vos fonctionnalités premium"
+      "title": "Restaurer les fonctionnalités premium"
+    },
+    "user_currency": {
+      "action": "Choisissez votre devise",
+      "description": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
+      "notes": "Veuillez noter que vous avez la possibilité de changer de devise à tout moment dans les paramètres.",
+      "title": "Devise"
     }
   }
 }

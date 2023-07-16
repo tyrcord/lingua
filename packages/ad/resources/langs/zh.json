@@ -1,7 +1,17 @@
 {
-    "ad": {
-        "disclaimer": {
-            "user_tracking": "此标识符将用于根据您感兴趣的内容向您投放定向广告。"
-        }
+  "ad": {
+    "label": {
+      "ad": "广告",
+      "advertisement": "广告",
+      "personalized_ads": "个性化广告",
+      "sponsored": "赞助"
+    },
+    "message": {
+      "disclaimer": {
+        "user_tracking": "此标识符将根据您的兴趣为您推荐定向广告。"
+      },
+      "discover_other_app": "请查看我们的其他免费应用！",
+      "no_ads": "无广告"
     }
+  }
 }

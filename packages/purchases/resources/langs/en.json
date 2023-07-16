@@ -1,7 +1,47 @@
 {
-    "purchases": {
-        "errors": {
-            "cannot_connect_store": "The store is unavailable. You can continue to use this app, but you won't be able to make any purchases."
-        }
+  "purchases": {
+    "error": {
+      "cannot_connect_store": "We apologize for the inconvenience. The store is currently unavailable, and as a result, you won't be able to make any purchases at this time."
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "Auto-refresh exchange rates",
+        "refresh_stock_prices": "Auto-refresh stock prices"
+      },
+      "no_ads": {
+        "text": "Enjoy an ad-free experience."
+      },
+      "unlimited": {
+        "pdf": "Experience limitless PDF generation."
+      }
+    },
+    "label": {
+      "available_products": "Available Products",
+      "free_version": "Free Version",
+      "go_premium": "Go Premium!",
+      "premium": "Premium",
+      "premium_price": "{price} Premium",
+      "premium_version": "Premium Version",
+      "purchases": "Purchases",
+      "restore_purchases": "Restore Purchases"
+    },
+    "message": {
+      "enjoy_premium_version": "Unleash the full potential of this application with its Premium features, ensuring an enhanced user experience!",
+      "go_premium_description": "By upgrading to the premium version, you not only support ongoing development but also gain access to additional features.",
+      "item": {
+        "already_owned": "You already own this item."
+      },
+      "premium_version_restored": "Your premium features have been successfully reinstated.",
+      "purchase": {
+        "cancelled": "Purchase cancelled.",
+        "failed": "Purchase failed.",
+        "pending": "Purchase pending.",
+        "successful": "Purchase successful."
+      },
+      "purchased_items": "List of purchased items::",
+      "purchases_restored": "Purchases Restored.",
+      "thanks_purchase": "Thank you for your purchase.",
+      "unlock_premium_features": "Access a multitude of premium features."
     }
+  }
 }

@@ -1,28 +1,28 @@
 {
   "onboarding": {
-    "personalized_ads": {
-      "action": "Activar anuncios personalizados",
-      "title": "Anuncios personalizados",
-      "description": "Si permites la publicidad personalizada, verás anuncios más adaptados a tus intereses.",
-      "notes": "Tu privacidad es importante para nosotros, por lo que nos comprometemos a utilizar tus datos con el único fin de mejorar tu experiencia y presentarte anuncios relevantes para ti."
-    },
     "notifications": {
       "action": "Permitir notificaciones",
-      "description": "Mantente al día con las últimas novedades, noticias e información importante.",
-      "title": "Notificaciones",
-      "notes": "Nos comprometemos a enviarte únicamente notificaciones útiles e importantes. Puedes cambiar tus preferencias en cuanto a notificaciones cuando quieras."
+      "description": "Manténgase informado sobre las últimas actualizaciones, noticias e información importante.",
+      "notes": "Nos comprometemos a enviarle solo notificaciones útiles e importantes. Además, tiene la opción de modificar sus preferencias de notificación en cualquier momento.",
+      "title": "Notificaciones"
     },
-    "user_currency": {
-      "action": "Elige tu moneda",
-      "description": "Selecciona tu moneda preferida para ver los precios en tu moneda local.",
-      "notes": "Ten en cuenta que tienes la flexibilidad de cambiar tu moneda en cualquier momento dentro de la configuración.",
-      "title": "Moneda"
+    "personalized_ads": {
+      "action": "Habilitar anuncios personalizados",
+      "description": "Al permitir la personalización de sus anuncios, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
+      "notes": "Respetamos su privacidad y nos dedicamos a utilizar su información únicamente con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
+      "title": "Anuncios personalizados"
     },
     "restore_premium": {
       "action": "Restaurar compras",
-      "description": "Si has adquirido previamente la versión premium, te recomendamos amablemente que restaures tus compras para volver a tener acceso a todas las funciones premium.",
-      "notes": "Ten en cuenta que tienes la opción de restaurar tus compras en cualquier momento.",
-      "title": "Restaurar tus funciones premium"
+      "description": "Si adquirió previamente la versión premium, le recomendamos restaurar sus compras para recuperar el acceso a todas las funciones premium.",
+      "notes": "Tenga en cuenta que tiene la opción de restaurar sus compras en cualquier momento.",
+      "title": "Restaurar funciones premium"
+    },
+    "user_currency": {
+      "action": "Seleccione su moneda",
+      "description": "Seleccione su moneda preferida para mostrar los precios en su moneda local.",
+      "notes": "Tenga en cuenta que tiene la opción de cambiar su moneda en cualquier momento en la configuración.",
+      "title": "Moneda"
     }
   }
 }

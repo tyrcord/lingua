@@ -2,27 +2,27 @@
   "onboarding": {
     "notifications": {
       "action": "Allow Notifications",
-      "description": "Stay up to date with the latest updates, news and important information.",
-      "notes": "We are committed to sending you only useful and important notifications. And, you have the option to change your notification preferences at any time.",
+      "description": "Stay informed about the latest updates, news, and important information.",
+      "notes": "We are committed to sending you only useful and important notifications. Additionally, you have the option to modify your notification preferences at any time.",
       "title": "Notifications"
     },
     "personalized_ads": {
-      "action": "Turn On Personalized Ads",
-      "description": "By allowing your ads to be personalized, you will benefit from an advertising experience that is more tailored to your interests.",
-      "notes": "We value your privacy and are committed to using your information only for the purpose of improving your experience and presenting you with relevant ads.",
-      "title": "Personalized ads"
-    },
-    "user_currency": {
-      "action": "Choose your currency",
-      "description": "Select your preferred currency to view prices in your local currency.",
-      "notes": "Please note that you have the flexibility to change your currency anytime within the settings.",
-      "title": "Currency"
+      "action": "Enable Personalized Ads",
+      "description": "By allowing the customization of your ads, you will benefit from an advertising experience tailored to your interests.",
+      "notes": "We respect your privacy and are dedicated to using your information solely for the purpose of enhancing your experience and presenting relevant ads.",
+      "title": "Personalized Ads"
     },
     "restore_premium": {
       "action": "Restore Purchases",
-      "description": "If you have previously acquired the premium version, we kindly recommend restoring your purchases in order to regain access to all your premium features.",
-      "notes": "Please be aware that you have the option to restore your purchases at any time.",
-      "title": "Restore Your Premium Features"
+      "description": "If you previously acquired the premium version, we recommend restoring your purchases to regain access to all your premium features.",
+      "notes": "Please note that you have the option to restore your purchases at any time.",
+      "title": "Restore Premium Features"
+    },
+    "user_currency": {
+      "action": "Choose Your Currency",
+      "description": "Select your preferred currency to display prices in your local currency.",
+      "notes": "Please note that you have the option to change your currency at any time in the settings.",
+      "title": "Currency"
     }
   }
 }

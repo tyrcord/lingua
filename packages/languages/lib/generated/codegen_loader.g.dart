@@ -13,14 +13,11 @@ class LanguagesCodegenLoader extends AssetLoader {
 
   static const Map<String,dynamic> zh = {
   "languages": {
+    "label": {
+      "english_or_french": "英文或法文"
+    },
     "locale": {
       "iso_639_1": {
-        "hi": "हिन्दी",
-        "hu": "Magyar",
-        "id": "Bahasa Indonesia",
-        "it": "Italiano",
-        "ja": "日本語",
-        "ko": "한국어",
         "ar": "العربية",
         "cs": "Čeština",
         "da": "Dansk",
@@ -31,6 +28,12 @@ class LanguagesCodegenLoader extends AssetLoader {
         "fi": "Suomi",
         "fr": "Français",
         "he": "עברית",
+        "hi": "हिन्दी",
+        "hu": "Magyar",
+        "id": "Bahasa Indonesia",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
         "nl": "Nederlands",
         "no": "Norsk",
         "pl": "Polski",
@@ -40,7 +43,7 @@ class LanguagesCodegenLoader extends AssetLoader {
         "tr": "Türkçe",
         "zh": "中文"
       },
-      "names": {
+      "name": {
         "arabic": "العربية",
         "chinese_simplified": "简体中文",
         "chinese_traditional": "繁體中文",
@@ -72,6 +75,9 @@ class LanguagesCodegenLoader extends AssetLoader {
 };
 static const Map<String,dynamic> ja = {
   "languages": {
+    "label": {
+      "english_or_french": "英語またはフランス語"
+    },
     "locale": {
       "iso_639_1": {
         "ar": "العربية",
@@ -99,7 +105,7 @@ static const Map<String,dynamic> ja = {
         "tr": "Türkçe",
         "zh": "中文"
       },
-      "names": {
+      "name": {
         "arabic": "العربية",
         "chinese_simplified": "简体中文",
         "chinese_traditional": "繁體中文",
@@ -131,34 +137,10 @@ static const Map<String,dynamic> ja = {
 };
 static const Map<String,dynamic> de = {
   "languages": {
+    "label": {
+      "english_or_french": "Englisch oder Französisch"
+    },
     "locale": {
-      "names": {
-        "portuguese": "Português",
-        "russian": "Русский",
-        "spanish": "Español",
-        "swedish": "Svenska",
-        "turkish": "Türkçe",
-        "arabic": "العربية",
-        "chinese_simplified": "简体中文",
-        "chinese_traditional": "繁體中文",
-        "czech": "Čeština",
-        "danish": "Dansk",
-        "dutch": "Nederlands",
-        "english": "English",
-        "finnish": "Suomi",
-        "french": "Français",
-        "german": "Deutsch",
-        "greek": "Ελληνικά",
-        "hebrew": "עברית",
-        "hindi": "हिन्दी",
-        "hungarian": "Magyar",
-        "indonesian": "Bahasa Indonesia",
-        "italian": "Italiano",
-        "japanese": "日本語",
-        "korean": "한국어",
-        "norwegian": "Norsk",
-        "polski": "Polski"
-      },
       "iso_639_1": {
         "ar": "العربية",
         "cs": "Čeština",
@@ -184,23 +166,44 @@ static const Map<String,dynamic> de = {
         "sv": "Svenska",
         "tr": "Türkçe",
         "zh": "中文"
+      },
+      "name": {
+        "arabic": "العربية",
+        "chinese_simplified": "简体中文",
+        "chinese_traditional": "繁體中文",
+        "czech": "Čeština",
+        "danish": "Dansk",
+        "dutch": "Nederlands",
+        "english": "English",
+        "finnish": "Suomi",
+        "french": "Français",
+        "german": "Deutsch",
+        "greek": "Ελληνικά",
+        "hebrew": "עברית",
+        "hindi": "हिन्दी",
+        "hungarian": "Magyar",
+        "indonesian": "Bahasa Indonesia",
+        "italian": "Italiano",
+        "japanese": "日本語",
+        "korean": "한국어",
+        "norwegian": "Norsk",
+        "polski": "Polski",
+        "portuguese": "Português",
+        "russian": "Русский",
+        "spanish": "Español",
+        "swedish": "Svenska",
+        "turkish": "Türkçe"
       }
     }
   }
 };
 static const Map<String,dynamic> ru = {
   "languages": {
+    "label": {
+      "english_or_french": "Английский или французский"
+    },
     "locale": {
       "iso_639_1": {
-        "ko": "한국어",
-        "nl": "Nederlands",
-        "no": "Norsk",
-        "pl": "Polski",
-        "pt": "Português",
-        "ru": "Русский",
-        "sv": "Svenska",
-        "tr": "Türkçe",
-        "zh": "中文",
         "ar": "العربية",
         "cs": "Čeština",
         "da": "Dansk",
@@ -215,9 +218,18 @@ static const Map<String,dynamic> ru = {
         "hu": "Magyar",
         "id": "Bahasa Indonesia",
         "it": "Italiano",
-        "ja": "日本語"
+        "ja": "日本語",
+        "ko": "한국어",
+        "nl": "Nederlands",
+        "no": "Norsk",
+        "pl": "Polski",
+        "pt": "Português",
+        "ru": "Русский",
+        "sv": "Svenska",
+        "tr": "Türkçe",
+        "zh": "中文"
       },
-      "names": {
+      "name": {
         "arabic": "العربية",
         "chinese_simplified": "简体中文",
         "chinese_traditional": "繁體中文",
@@ -249,8 +261,13 @@ static const Map<String,dynamic> ru = {
 };
 static const Map<String,dynamic> pt = {
   "languages": {
+    "label": {
+      "english_or_french": "Inglês ou Francês"
+    },
     "locale": {
       "iso_639_1": {
+        "ar": "العربية",
+        "cs": "Čeština",
         "da": "Dansk",
         "de": "Deutsch",
         "el": "Ελληνικά",
@@ -272,11 +289,9 @@ static const Map<String,dynamic> pt = {
         "ru": "Русский",
         "sv": "Svenska",
         "tr": "Türkçe",
-        "zh": "中文",
-        "ar": "العربية",
-        "cs": "Čeština"
+        "zh": "中文"
       },
-      "names": {
+      "name": {
         "arabic": "العربية",
         "chinese_simplified": "简体中文",
         "chinese_traditional": "繁體中文",
@@ -308,6 +323,9 @@ static const Map<String,dynamic> pt = {
 };
 static const Map<String,dynamic> en = {
   "languages": {
+    "label": {
+      "english_or_french": "English or French"
+    },
     "locale": {
       "iso_639_1": {
         "ar": "العربية",
@@ -335,7 +353,7 @@ static const Map<String,dynamic> en = {
         "tr": "Türkçe",
         "zh": "中文"
       },
-      "names": {
+      "name": {
         "arabic": "العربية",
         "chinese_simplified": "简体中文",
         "chinese_traditional": "繁體中文",
@@ -367,6 +385,9 @@ static const Map<String,dynamic> en = {
 };
 static const Map<String,dynamic> it = {
   "languages": {
+    "label": {
+      "english_or_french": "Inglese o francese"
+    },
     "locale": {
       "iso_639_1": {
         "ar": "العربية",
@@ -394,7 +415,7 @@ static const Map<String,dynamic> it = {
         "tr": "Türkçe",
         "zh": "中文"
       },
-      "names": {
+      "name": {
         "arabic": "العربية",
         "chinese_simplified": "简体中文",
         "chinese_traditional": "繁體中文",
@@ -426,6 +447,9 @@ static const Map<String,dynamic> it = {
 };
 static const Map<String,dynamic> fr = {
   "languages": {
+    "label": {
+      "english_or_french": "Anglais ou français"
+    },
     "locale": {
       "iso_639_1": {
         "ar": "العربية",
@@ -438,8 +462,8 @@ static const Map<String,dynamic> fr = {
         "fi": "Suomi",
         "fr": "Français",
         "he": "עברית",
-        "hu": "Magyar",
         "hi": "हिन्दी",
+        "hu": "Magyar",
         "id": "Bahasa Indonesia",
         "it": "Italiano",
         "ja": "日本語",
@@ -453,7 +477,7 @@ static const Map<String,dynamic> fr = {
         "tr": "Türkçe",
         "zh": "中文"
       },
-      "names": {
+      "name": {
         "arabic": "العربية",
         "chinese_simplified": "简体中文",
         "chinese_traditional": "繁體中文",
@@ -485,34 +509,10 @@ static const Map<String,dynamic> fr = {
 };
 static const Map<String,dynamic> es = {
   "languages": {
+    "label": {
+      "english_or_french": "Inglés o francés"
+    },
     "locale": {
-      "names": {
-        "norwegian": "Norsk",
-        "arabic": "العربية",
-        "chinese_simplified": "简体中文",
-        "chinese_traditional": "繁體中文",
-        "czech": "Čeština",
-        "danish": "Dansk",
-        "dutch": "Nederlands",
-        "english": "English",
-        "finnish": "Suomi",
-        "polski": "Polski",
-        "portuguese": "Português",
-        "russian": "Русский",
-        "spanish": "Español",
-        "swedish": "Svenska",
-        "turkish": "Türkçe",
-        "french": "Français",
-        "german": "Deutsch",
-        "greek": "Ελληνικά",
-        "hebrew": "עברית",
-        "hindi": "हिन्दी",
-        "hungarian": "Magyar",
-        "indonesian": "Bahasa Indonesia",
-        "italian": "Italiano",
-        "japanese": "日本語",
-        "korean": "한국어"
-      },
       "iso_639_1": {
         "ar": "العربية",
         "cs": "Čeština",
@@ -521,7 +521,6 @@ static const Map<String,dynamic> es = {
         "el": "Ελληνικά",
         "en": "English",
         "es": "Español",
-        "zh": "中文",
         "fi": "Suomi",
         "fr": "Français",
         "he": "עברית",
@@ -537,7 +536,35 @@ static const Map<String,dynamic> es = {
         "pt": "Português",
         "ru": "Русский",
         "sv": "Svenska",
-        "tr": "Türkçe"
+        "tr": "Türkçe",
+        "zh": "中文"
+      },
+      "name": {
+        "arabic": "العربية",
+        "chinese_simplified": "简体中文",
+        "chinese_traditional": "繁體中文",
+        "czech": "Čeština",
+        "danish": "Dansk",
+        "dutch": "Nederlands",
+        "english": "English",
+        "finnish": "Suomi",
+        "french": "Français",
+        "german": "Deutsch",
+        "greek": "Ελληνικά",
+        "hebrew": "עברית",
+        "hindi": "हिन्दी",
+        "hungarian": "Magyar",
+        "indonesian": "Bahasa Indonesia",
+        "italian": "Italiano",
+        "japanese": "日本語",
+        "korean": "한국어",
+        "norwegian": "Norsk",
+        "polski": "Polski",
+        "portuguese": "Português",
+        "russian": "Русский",
+        "spanish": "Español",
+        "swedish": "Svenska",
+        "turkish": "Türkçe"
       }
     }
   }

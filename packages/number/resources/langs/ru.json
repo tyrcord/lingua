@@ -1,28 +1,32 @@
 {
-    "number": {
-        "ordinal": {
-            "short": {
-                "first": {
-                    "male": "{num}-й",
-                    "female": "{num}-я",
-                    "other": "{num}-е"
-                },
-                "second": {
-                    "male": "{num}-й",
-                    "female": "{num}-я",
-                    "other": "{num}-е"
-                },
-                "third": {
-                    "male": "{номер}-й",
-                    "female": "{номер}-я",
-                    "other": "{номер}-е"
-                },
-                "others": {
-                    "male": "{num}-й",
-                    "female": "{num}-я",
-                    "other": "{num}-е"
-                }
-            }
+  "number": {
+    "label": {
+      "amount": "Сумма",
+      "percentage": "Процент"
+    },
+    "ordinal": {
+      "short": {
+        "first": {
+          "female": "{num}-я",
+          "male": "{num}-й",
+          "other": "{num}-е"
+        },
+        "others": {
+          "female": "{num}-я",
+          "male": "{num}-й",
+          "other": "{num}-е"
+        },
+        "second": {
+          "female": "{num}-я",
+          "male": "{num}-й",
+          "other": "{num}-е"
+        },
+        "third": {
+          "female": "{номер}-я",
+          "male": "{номер}-й",
+          "other": "{номер}-е"
         }
+      }
     }
+  }
 }

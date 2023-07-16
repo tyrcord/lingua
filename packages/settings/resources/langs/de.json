@@ -1,39 +1,48 @@
 {
-    "settings": {
-        "labels": {
-            "appearance": "Aussehen",
-            "default": "Standard",
-            "light": "Helligkeit",
-            "dark": "Dunkel",
-            "language": "Sprache",
-            "languages": "Sprachen",
-            "system": "System",
-            "app_settings": "Anwendungseinstellungen",
-            "customer_support": "Kundenservice",
-            "help_and_support": "Hilfe & Support",
-            "reset_settings": "Voreinstellung wiederherstellen",
-            "share_this_app": "Diese App freigeben",
-            "submit_bug_report": "Problembericht einreichen",
-            "terms_of_service": "Nutzungsbedingungen",
-            "version": "Version: {version}",
-            "about": "Über uns",
-            "disclaimer": "Haftungsausschluss",
-            "homepage": "Home",
-            "legal": "Rechtliches",
-            "preferences": "Präferenzen",
-            "settings": "Einstellungen",
-            "privacy_policy": "Datenschutzerklärung",
-            "app_preferences": "Anwendungspräferenzen",
-            "rate_us": "Bewerten Sie uns"
-        },
-        "questions": {
-            "do_you_enjoy_our_app": "Wenn Sie unsere App nützlich finden, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
-            "do_you_like_our_app": "Gefällt Ihnen unsere App?"
-        },
-        "messages": {
-            "thanks_support": "Danke für Ihre Unterstützung!",
-            "select_language": "Wählen Sie die Sprache, die Sie verwenden möchten.",
-            "change_later_note": "Sie können es später jederzeit anpassen."
-        }
+  "settings": {
+    "label": {
+      "about": "Über",
+      "app": {
+        "preferences": "App-Einstellungen",
+        "settings": "App-Einstellungen"
+      },
+      "appearance": "Erscheinungsbild",
+      "change": {
+        "language": "Sprache ändern",
+        "theme": "Thema ändern"
+      },
+      "customer_support": "Kundenservice",
+      "dark": "Dunkel",
+      "default": "Standard",
+      "disclaimer": "Haftungsausschluss",
+      "help_and_support": "Hilfe und Support",
+      "homepage": "Startseite",
+      "language": "Sprache",
+      "languages": "Sprachen",
+      "legal": "Rechtliches",
+      "light": "Hell",
+      "preferences": "Einstellungen",
+      "privacy_policy": "Datenschutzrichtlinie",
+      "rate_us": "Bewerten Sie uns",
+      "reset_settings": "Standard wiederherstellen",
+      "settings": "Einstellungen",
+      "submit_bug_report": "Fehlerbericht senden",
+      "system": "System",
+      "terms_of_service": "Nutzungsbedingungen",
+      "user_input": "Benutzereingabe",
+      "user_inputs": "Benutzereingaben",
+      "user_settings": "Benutzereinstellungen",
+      "version": "Version: {version}"
+    },
+    "message": {
+      "change_later_note": "Beachten Sie, dass Sie es jederzeit später ändern können.",
+      "select_language": "Wählen Sie die gewünschte Sprache aus.",
+      "set_settings_info": "Verbessern Sie Ihr App-Erlebnis, indem Sie Ihre Einstellungen anpassen.",
+      "thanks_support": "Vielen Dank für Ihre Unterstützung!"
+    },
+    "question": {
+      "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
+      "do_you_like_our_app": "Gefällt Ihnen unsere App?"
     }
+  }
 }

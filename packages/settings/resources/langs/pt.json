@@ -1,39 +1,48 @@
 {
-    "settings": {
-        "labels": {
-            "appearance": "Aparência",
-            "default": "Predefinido",
-            "light": "Claro",
-            "dark": "Escuro",
-            "language": "Idioma",
-            "languages": "Idiomas",
-            "system": "Sistema",
-            "privacy_policy": "Política De Privacidade",
-            "app_settings": "Configurações da aplicação",
-            "app_preferences": "Preferências da aplicação",
-            "customer_support": "Atendimento ao Cliente",
-            "help_and_support": "Ajuda e apoio",
-            "rate_us": "Avalie-nos",
-            "reset_settings": "Restaurar definições de origem",
-            "share_this_app": "Partilhar esta aplicação",
-            "submit_bug_report": "Enviar um relatório de erros",
-            "terms_of_service": "Termos de Serviço",
-            "version": "Versão: {version}",
-            "about": "Sobre",
-            "disclaimer": "Aviso",
-            "homepage": "Página inicial",
-            "legal": "Jurídico",
-            "preferences": "Preferências",
-            "settings": "Definições"
-        },
-        "messages": {
-            "change_later_note": "Lembramos que pode sempre alterá-las mais tarde.",
-            "thanks_support": "Agradecemos o seu apoio!",
-            "select_language": "Selecione o idioma que pretende utilizar."
-        },
-        "questions": {
-            "do_you_enjoy_our_app": "Se considerar a nossa aplicação útil, estaria disposto a tirar alguns minutos para avaliá-la?",
-            "do_you_like_our_app": "Gostou da nossa aplicação?"
-        }
+  "settings": {
+    "label": {
+      "about": "Sobre",
+      "app": {
+        "preferences": "Preferências do aplicativo",
+        "settings": "Configurações do aplicativo"
+      },
+      "appearance": "Aparência",
+      "change": {
+        "language": "Alterar idioma",
+        "theme": "Alterar tema"
+      },
+      "customer_support": "Atendimento ao cliente",
+      "dark": "Escuro",
+      "default": "Padrão",
+      "disclaimer": "Aviso legal",
+      "help_and_support": "Ajuda e suporte",
+      "homepage": "Página inicial",
+      "language": "Idioma",
+      "languages": "Idiomas",
+      "legal": "Legal",
+      "light": "Claro",
+      "preferences": "Preferências",
+      "privacy_policy": "Política de privacidade",
+      "rate_us": "Avalie-nos",
+      "reset_settings": "Restaurar configurações",
+      "settings": "Configurações",
+      "submit_bug_report": "Enviar relatório de bug",
+      "system": "Sistema",
+      "terms_of_service": "Termos de serviço",
+      "user_input": "Entrada do usuário",
+      "user_inputs": "Entradas do usuário",
+      "user_settings": "Configurações do usuário",
+      "version": "Versão: {version}"
+    },
+    "message": {
+      "change_later_note": "Observe que você sempre pode alterá-lo posteriormente.",
+      "select_language": "Selecione o idioma que você gostaria de usar.",
+      "set_settings_info": "Melhore sua experiência no aplicativo ajustando suas preferências.",
+      "thanks_support": "Obrigado pelo seu apoio!"
+    },
+    "question": {
+      "do_you_enjoy_our_app": "Se você achar nosso aplicativo útil, você estaria disposto a dedicar alguns momentos para avaliá-lo?",
+      "do_you_like_our_app": "Você está gostando do nosso aplicativo?"
     }
+  }
 }

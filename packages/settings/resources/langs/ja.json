@@ -1,39 +1,48 @@
 {
-    "settings": {
-        "labels": {
-            "appearance": "外観",
-            "default": "初期設定",
-            "light": "明るい",
-            "dark": "暗い",
-            "language": "言語",
-            "languages": "言語",
-            "system": "システム",
-            "rate_us": "評価をお願いします",
-            "reset_settings": "初期設定に戻す",
-            "terms_of_service": "サービス利用規約",
-            "version": "バージョン：{version}",
-            "about": "詳細",
-            "homepage": "ホーム",
-            "legal": "法律関連",
-            "preferences": "基本設定",
-            "settings": "設定",
-            "app_preferences": "アプリケーションの基本設定",
-            "privacy_policy": "プライバシーポリシー",
-            "app_settings": "アプリケーションの設定",
-            "customer_support": "カスタマーサービス",
-            "help_and_support": "ヘルプ＆サポート",
-            "share_this_app": "このアプリを共有",
-            "submit_bug_report": "バグレポートの提出",
-            "disclaimer": "免責事項"
-        },
-        "questions": {
-            "do_you_like_our_app": "アプリを気に入りましたか？",
-            "do_you_enjoy_our_app": "アプリは役に立っていますか？簡単な評価にご協力ください。"
-        },
-        "messages": {
-            "thanks_support": "サポートいただきありがとうございます！",
-            "select_language": "使用する言語を選択してください。",
-            "change_later_note": "後でいつでも変更できます。"
-        }
+  "settings": {
+    "label": {
+      "about": "について",
+      "app": {
+        "preferences": "アプリの設定",
+        "settings": "アプリの設定"
+      },
+      "appearance": "外観",
+      "change": {
+        "language": "言語を変更",
+        "theme": "テーマを変更"
+      },
+      "customer_support": "カスタマーサポート",
+      "dark": "ダーク",
+      "default": "デフォルト",
+      "disclaimer": "免責事項",
+      "help_and_support": "ヘルプとサポート",
+      "homepage": "ホーム",
+      "language": "言語",
+      "languages": "言語",
+      "legal": "法的事項",
+      "light": "ライト",
+      "preferences": "設定",
+      "privacy_policy": "プライバシーポリシー",
+      "rate_us": "評価する",
+      "reset_settings": "デフォルトに戻す",
+      "settings": "設定",
+      "submit_bug_report": "バグレポートを送信",
+      "system": "システム",
+      "terms_of_service": "利用規約",
+      "user_input": "ユーザー入力",
+      "user_inputs": "ユーザー入力",
+      "user_settings": "ユーザー設定",
+      "version": "バージョン: {version}"
+    },
+    "message": {
+      "change_later_note": "後でいつでも変更できることに注意してください。",
+      "select_language": "使用する言語を選択してください。",
+      "set_settings_info": "好みに合わせてアプリの設定を調整して、アプリの体験を向上させましょう。",
+      "thanks_support": "ご支援ありがとうございます！"
+    },
+    "question": {
+      "do_you_enjoy_our_app": "当社のアプリがお役に立つ場合、数分お時間をいただき、評価していただけますか？",
+      "do_you_like_our_app": "当社のアプリをお楽しみいただいていますか？"
     }
+  }
 }

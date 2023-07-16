@@ -1,0 +1,109 @@
+{
+  "core": {
+    "error": {
+      "cannot_reach_server": "申し訳ありませんが、現在サーバーに接続できません。後でもう一度お試しください。",
+      "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
+    },
+    "label": {
+      "advanced": "高度な設定",
+      "all": {
+        "female": "全て",
+        "male": "全て",
+        "other": "全て"
+      },
+      "annually": "毎年",
+      "at": "場所",
+      "auto_save": "自動保存",
+      "back": "戻る",
+      "behavior": "動作",
+      "cancel": "キャンセル",
+      "clear": {
+        "selection": "選択のクリア",
+        "text": "クリア"
+      },
+      "close": "閉じる",
+      "confirm": "確認",
+      "confirmation": "確認",
+      "continue": "続ける",
+      "daily": "毎日",
+      "date": "日付",
+      "default": {
+        "text": "デフォルト",
+        "values": "デフォルト値"
+      },
+      "delete": "削除",
+      "description": "説明",
+      "details": "詳細",
+      "display": "表示",
+      "done": "完了",
+      "error": "エラー",
+      "exotics": "エキゾチック",
+      "favorites": "お気に入り",
+      "frequency": "頻度",
+      "home": "ホーム",
+      "learn_more": "詳細を確認",
+      "majors": "成人",
+      "menu": "メニュー",
+      "method": "メソッド",
+      "minors": "未成年",
+      "monthly": "毎月",
+      "next": "次へ",
+      "no": "いいえ",
+      "none": {
+        "female": "なし",
+        "male": "なし",
+        "other": "なし"
+      },
+      "offline_mode": "オフラインモード",
+      "ok": "OK",
+      "optional": "任意",
+      "quantity": "数量",
+      "quarterly": "四半期ごとに",
+      "results": "結果",
+      "search": "検索",
+      "semi_annually": "半年ごとに",
+      "share": "共有",
+      "skip": "スキップ",
+      "try_again": "再試行",
+      "unlocked": "ロック解除",
+      "weekly": "毎週",
+      "yearly": "毎年",
+      "yes": "はい"
+    },
+    "message": {
+      "action": {
+        "canceled": "アクションがキャンセルされました。",
+        "completed": "アクションが完了しました。"
+      },
+      "bugs_fixes_improvements": "マイナーなバグ修正と改善。",
+      "congratulations": "おめでとうございます！",
+      "dark_mode_support": "ダークモードのサポート。",
+      "finally": "ついに！",
+      "have_wonderful_day": "素敵な一日を！",
+      "last_updated_on": "{date} に最終更新",
+      "let_get_started": "はじめましょう！",
+      "loading": "読み込み中...",
+      "modern_design": "モダンなデザイン。",
+      "no_favorites": "お気に入りはありません。",
+      "please_wait": "お待ちください...",
+      "search": "検索...",
+      "sorry": "申し訳ありません...",
+      "success": "成功しました！",
+      "thank_you": "ありがとうございます！",
+      "warning": "警告！",
+      "welcome": "ようこそ！",
+      "whats_new": "新機能のご紹介",
+      "whoops": "おっと！"
+    },
+    "question": {
+      "are_you_sure": "本当によろしいですか？"
+    },
+    "select": {
+      "frequency": "頻度を選択",
+      "method": "方法を選択"
+    },
+    "warning": {
+      "offline": "アプリは現在オフラインモードで動作しています。データが最新でない場合があります。"
+    }
+  }
+}

@@ -1,18 +1,48 @@
 {
-    "apps": {
-        "fx_pos_qal": {
-            "intro": {
-                "description": "This app will suggest you an optimal amount to invest in order to maximize your gains and minimize your losses.",
-                "title": "Let's manage risk, not loss !"
-            },
-            "store": {
-                "description": "The success of your future trades will largely depend on your ability to effectively manage risk. Indeed, it is essential not to risk all your capital on a single transaction. For this, it is important to calculate the size of your position before each trade. In order to help you not to relax your vigilance in risk management, our calculator is there to accompany you! Simply fill in the fields in our tool and it will suggest for you an optimal amount to invest in order to maximize your gains and minimize your losses.",
-                "promo": "You don't want to lose all your capital on a single transaction!"
-            },
-            "promo": {
-                "short": "Determining the size of your positions has never been easier!",
-                "comply_risk_management": "Easily respect your risk management"
-            }
-        }
+  "apps": {
+    "div_qal": {
+      "intro": {
+        "description": "This app is designed to assist you in choosing dividend stocks.",
+        "title": "Unlock the potential of your finances and watch your wealth flourish!"
+      }
+    },
+    "expressions_quebecoises": {
+      "intro": {
+        "description": "Discover over 500 unique Quebecois expressions that await you!",
+        "title": "Let's embark on a journey of learning!"
+      }
+    },
+    "fx_pos_qal": {
+      "intro": {
+        "description": "This app will suggest you an optimal amount to invest in order to maximize your gains and minimize your losses.",
+        "title": "Let's focus on risk management rather than incurring losses!"
+      },
+      "promo": {
+        "comply_risk_management": "Easily respect your risk management",
+        "short": "Determining the size of your positions has never been easier!"
+      },
+      "store": {
+        "description": "The success of your future trades will largely depend on your ability to effectively manage risk. Indeed, it is essential not to risk all your capital on a single transaction. For this, it is important to calculate the size of your position before each trade. In order to help you not to relax your vigilance in risk management, our calculator is there to accompany you! Simply fill in the fields in our tool and it will suggest for you an optimal amount to invest in order to maximize your gains and minimize your losses.",
+        "promo": "You don't want to lose all your capital on a single transaction!"
+      }
+    },
+    "fx_qal": {
+      "intro": {
+        "description": "TThis application empowers you in risk management and decision-making through a comprehensive suite of straightforward and impactful tools.",
+        "title": "Let's focus on risk management rather than incurring losses!"
+      }
+    },
+    "pip_qal": {
+      "intro": {
+        "description": "This application is designed to assist you in determining the pip value for each of your trades.",
+        "title": "Let's focus on risk management rather than incurring losses!"
+      }
+    },
+    "profit_and_loss_qal": {
+      "intro": {
+        "description": "Our app enables you to promptly determine whether your income is sufficient to meet your expenses.",
+        "title": "Let's focus on minimizing losses and maximizing gains for optimal results!"
+      }
     }
+  }
 }

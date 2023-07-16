@@ -1,7 +1,47 @@
 {
-    "purchases": {
-        "errors": {
-            "cannot_connect_store": "Der Shop ist nicht verfügbar. Sie können diese App weiterhin verwenden, aber Sie können keine Einkäufe tätigen."
-        }
+  "purchases": {
+    "error": {
+      "cannot_connect_store": "Wir entschuldigen uns für die Unannehmlichkeiten. Der Store ist derzeit nicht verfügbar, und daher können Sie derzeit keine Käufe tätigen."
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "Automatisches Aktualisieren der Wechselkurse",
+        "refresh_stock_prices": "Automatisches Aktualisieren der Aktienkurse"
+      },
+      "no_ads": {
+        "text": "Genießen Sie eine werbefreie Erfahrung."
+      },
+      "unlimited": {
+        "pdf": "Erleben Sie grenzenlose PDF-Erstellung."
+      }
+    },
+    "label": {
+      "available_products": "Verfügbare Produkte",
+      "free_version": "Kostenlose Version",
+      "go_premium": "Premium aktivieren!",
+      "premium": "Premium",
+      "premium_price": "{price} Premium",
+      "premium_version": "Premium-Version",
+      "purchases": "Käufe",
+      "restore_purchases": "Käufe wiederherstellen"
+    },
+    "message": {
+      "enjoy_premium_version": "Entfesseln Sie das volle Potenzial dieser Anwendung mit ihren Premium-Funktionen und gewährleisten Sie ein verbessertes Benutzererlebnis!",
+      "go_premium_description": "Durch ein Upgrade auf die Premium-Version unterstützen Sie nicht nur die laufende Entwicklung, sondern erhalten auch Zugriff auf zusätzliche Funktionen.",
+      "item": {
+        "already_owned": "Sie besitzen dieses Element bereits."
+      },
+      "premium_version_restored": "Ihre Premium-Funktionen wurden erfolgreich wiederhergestellt.",
+      "purchase": {
+        "cancelled": "Kauf abgebrochen.",
+        "failed": "Kauf fehlgeschlagen.",
+        "pending": "Kauf ausstehend.",
+        "successful": "Kauf erfolgreich."
+      },
+      "purchased_items": "Liste der gekauften Artikel:",
+      "purchases_restored": "Käufe wiederhergestellt.",
+      "thanks_purchase": "Vielen Dank für Ihren Kauf.",
+      "unlock_premium_features": "Greifen Sie auf eine Vielzahl von Premium-Funktionen zu."
     }
+  }
 }

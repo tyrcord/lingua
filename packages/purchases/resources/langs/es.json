@@ -1,7 +1,47 @@
 {
-    "purchases": {
-        "errors": {
-            "cannot_connect_store": "La tienda no está disponible. Puedes seguir usando esta aplicación, pero no podrás efectuar compras."
-        }
+  "purchases": {
+    "error": {
+      "cannot_connect_store": "Lamentamos las molestias. La tienda no está disponible en este momento, por lo que no podrá realizar compras en este momento."
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "Actualizar automáticamente los tipos de cambio",
+        "refresh_stock_prices": "Actualizar automáticamente los precios de las acciones"
+      },
+      "no_ads": {
+        "text": "Disfruta de una experiencia sin anuncios."
+      },
+      "unlimited": {
+        "pdf": "Disfruta de la generación ilimitada de PDF."
+      }
+    },
+    "label": {
+      "available_products": "Productos disponibles",
+      "free_version": "Versión gratuita",
+      "go_premium": "¡Obtén Premium!",
+      "premium": "Premium",
+      "premium_price": "{price} Premium",
+      "premium_version": "Versión Premium",
+      "purchases": "Compras",
+      "restore_purchases": "Restaurar compras"
+    },
+    "message": {
+      "enjoy_premium_version": "¡Libera todo el potencial de esta aplicación con sus funciones Premium, asegurando una experiencia de usuario mejorada!",
+      "go_premium_description": "Al actualizar a la versión Premium, no solo apoyas el desarrollo continuo, sino que también obtienes acceso a funciones adicionales.",
+      "item": {
+        "already_owned": "Ya tienes este elemento."
+      },
+      "premium_version_restored": "Se han restaurado correctamente tus funciones Premium.",
+      "purchase": {
+        "cancelled": "Compra cancelada.",
+        "failed": "Compra fallida.",
+        "pending": "Compra pendiente.",
+        "successful": "Compra exitosa."
+      },
+      "purchased_items": "Lista de artículos comprados:",
+      "purchases_restored": "Compras restauradas.",
+      "thanks_purchase": "Gracias por tu compra.",
+      "unlock_premium_features": "Accede a una variedad de funciones Premium."
     }
+  }
 }

@@ -1,18 +1,48 @@
 {
-    "apps": {
-        "fx_pos_qal": {
-            "promo": {
-                "short": "Determinar o tamanho das suas posições nunca foi tão fácil!",
-                "comply_risk_management": "Respeite facilmente a sua gestão de riscos"
-            },
-            "intro": {
-                "title": "Vamos gerir riscos, e não perdas!",
-                "description": "Esta aplicação sugerir-lhe-á um montante ideal a investir para maximizar os seus ganhos e minimizar as suas perdas."
-            },
-            "store": {
-                "description": "O sucesso das suas futuras negociações dependerá em grande parte da sua capacidade de gerir eficazmente o risco. Na verdade, é essencial não arriscar todo o seu capital numa única transação. Para isso, é importante calcular o tamanho da sua posição antes de cada negociação. Para o ajudar a não relaxar a sua vigilância na gestão de riscos, a nossa calculadora está lá para acompanhá-lo! Basta preencher os campos da nossa ferramenta e ela sugerirá um montante ideal a investir para maximizar os seus ganhos e minimizar as suas perdas.",
-                "promo": "Não vai querer perder todo o seu capital numa única transação!"
-            }
-        }
+  "apps": {
+    "div_qal": {
+      "intro": {
+        "description": "Este aplicativo foi desenvolvido para ajudá-lo a escolher ações pagadoras de dividendos.",
+        "title": "Desbloqueie o potencial de suas finanças e veja sua riqueza florescer!"
+      }
+    },
+    "expressions_quebecoises": {
+      "intro": {
+        "description": "Descubra mais de 500 expressões únicas do Quebec que estão esperando por você!",
+        "title": "Vamos embarcar em uma jornada de aprendizado!"
+      }
+    },
+    "fx_pos_qal": {
+      "intro": {
+        "description": "Este aplicativo sugere um valor ótimo para investir, a fim de maximizar seus ganhos e minimizar suas perdas.",
+        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+      },
+      "promo": {
+        "comply_risk_management": "Respeite facilmente seu gerenciamento de riscos",
+        "short": "Determinar o tamanho de suas posições nunca foi tão fácil!"
+      },
+      "store": {
+        "description": "O sucesso de suas futuras negociações dependerá em grande parte de sua capacidade de gerenciar o risco de forma eficaz. De fato, é essencial não arriscar todo o seu capital em uma única transação. Para isso, é importante calcular o tamanho de sua posição antes de cada negociação. Para ajudá-lo a não relaxar sua vigilância na gestão de riscos, nossa calculadora está lá para acompanhá-lo! Basta preencher os campos em nossa ferramenta e ela sugerirá um valor ótimo para investir, a fim de maximizar seus ganhos e minimizar suas perdas.",
+        "promo": "Você não quer perder todo o seu capital em uma única transação!"
+      }
+    },
+    "fx_qal": {
+      "intro": {
+        "description": "Este aplicativo capacita você na gestão de riscos e tomada de decisões por meio de um conjunto abrangente de ferramentas simples e impactantes.",
+        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+      }
+    },
+    "pip_qal": {
+      "intro": {
+        "description": "Este aplicativo foi desenvolvido para ajudá-lo a determinar o valor do pip para cada uma de suas negociações.",
+        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+      }
+    },
+    "profit_and_loss_qal": {
+      "intro": {
+        "description": "Nosso aplicativo permite que você determine rapidamente se sua renda é suficiente para cobrir suas despesas.",
+        "title": "Vamos focar na minimização de perdas e maximização de ganhos para resultados ótimos!"
+      }
     }
+  }
 }

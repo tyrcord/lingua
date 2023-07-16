@@ -1,7 +1,47 @@
 {
-    "purchases": {
-        "errors": {
-            "cannot_connect_store": "商店不可用。您可以继续使用此应用，但无法进行任何购买。"
-        }
+  "purchases": {
+    "error": {
+      "cannot_connect_store": "不便之处，我们深感抱歉。商店当前不可用，因此您暂时无法进行购买。"
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "自动刷新汇率",
+        "refresh_stock_prices": "自动刷新股票价格"
+      },
+      "no_ads": {
+        "text": "享受无广告体验。"
+      },
+      "unlimited": {
+        "pdf": "体验无限的PDF生成。"
+      }
+    },
+    "label": {
+      "available_products": "可用产品",
+      "free_version": "免费版本",
+      "go_premium": "升级到高级版！",
+      "premium": "高级",
+      "premium_price": "{price} 高级",
+      "premium_version": "高级版",
+      "purchases": "购买",
+      "restore_purchases": "恢复购买"
+    },
+    "message": {
+      "enjoy_premium_version": "通过高级功能发挥该应用程序的全部潜力，提供卓越的用户体验！",
+      "go_premium_description": "升级到高级版不仅支持持续开发，还能获得额外功能。",
+      "item": {
+        "already_owned": "您已拥有此项目。"
+      },
+      "premium_version_restored": "已成功恢复高级功能。",
+      "purchase": {
+        "cancelled": "购买已取消。",
+        "failed": "购买失败。",
+        "pending": "购买待处理。",
+        "successful": "购买成功。"
+      },
+      "purchased_items": "已购买项目列表：",
+      "purchases_restored": "购买已恢复。",
+      "thanks_purchase": "感谢您的购买。",
+      "unlock_premium_features": "享受众多高级功能。"
     }
+  }
 }

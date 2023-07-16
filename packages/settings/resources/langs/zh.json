@@ -1,39 +1,48 @@
 {
-    "settings": {
-        "labels": {
-            "appearance": "外观",
-            "default": "默认",
-            "light": "浅色",
-            "dark": "深色",
-            "language": "语言",
-            "languages": "语言",
-            "system": "系统",
-            "rate_us": "给我们评分",
-            "reset_settings": "恢复默认",
-            "about": "关于",
-            "privacy_policy": "隐私政策",
-            "app_settings": "应用程序设置",
-            "app_preferences": "应用程序首选项",
-            "customer_support": "客户服务",
-            "help_and_support": "帮助与支持",
-            "share_this_app": "分享此应用",
-            "submit_bug_report": "提交错误报告",
-            "terms_of_service": "服务条款",
-            "version": "版本：{version}",
-            "disclaimer": "免责声明",
-            "homepage": "首页",
-            "legal": "法律信息",
-            "preferences": "首选项",
-            "settings": "设置"
-        },
-        "questions": {
-            "do_you_like_our_app": "您是否喜欢我们的应用程序？",
-            "do_you_enjoy_our_app": "如果您觉得我们的应用很有用，是否愿意花一点时间对其进行评分？"
-        },
-        "messages": {
-            "thanks_support": "感谢您的支持！",
-            "select_language": "选择您想要使用的语言。",
-            "change_later_note": "请注意，您可在以后随时对其进行更改。"
-        }
+  "settings": {
+    "label": {
+      "about": "关于",
+      "app": {
+        "preferences": "应用偏好",
+        "settings": "应用设置"
+      },
+      "appearance": "外观",
+      "change": {
+        "language": "更改语言",
+        "theme": "更改主题"
+      },
+      "customer_support": "客户支持",
+      "dark": "深色",
+      "default": "默认",
+      "disclaimer": "免责声明",
+      "help_and_support": "帮助与支持",
+      "homepage": "主页",
+      "language": "语言",
+      "languages": "语言",
+      "legal": "法律条款",
+      "light": "亮色",
+      "preferences": "偏好设置",
+      "privacy_policy": "隐私政策",
+      "rate_us": "评价我们",
+      "reset_settings": "恢复默认设置",
+      "settings": "设置",
+      "submit_bug_report": "提交错误报告",
+      "system": "系统",
+      "terms_of_service": "服务条款",
+      "user_input": "用户输入",
+      "user_inputs": "用户输入",
+      "user_settings": "用户设置",
+      "version": "版本：{version}"
+    },
+    "message": {
+      "change_later_note": "请注意，您随时可以稍后更改它。",
+      "select_language": "选择您想要使用的语言。",
+      "set_settings_info": "通过调整您的偏好设置来提升应用体验。",
+      "thanks_support": "感谢您的支持！"
+    },
+    "question": {
+      "do_you_enjoy_our_app": "如果您发现我们的应用程序有用，您是否愿意花费一些时间对其进行评级？",
+      "do_you_like_our_app": "您喜欢我们的应用程序吗？"
     }
+  }
 }

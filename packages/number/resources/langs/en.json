@@ -1,28 +1,32 @@
 {
-    "number": {
-        "ordinal": {
-            "short": {
-                "first": {
-                    "male": "{num}st",
-                    "female": "{num}st",
-                    "other": "{num}st"
-                },
-                "second": {
-                    "male": "{num}nd",
-                    "female": "{num}nd",
-                    "other": "{num}nd"
-                },
-                "third": {
-                    "male": "{num}rd",
-                    "female": "{num}rd",
-                    "other": "{num}rd"
-                },
-                "others": {
-                    "male": "{num}th",
-                    "female": "{num}th",
-                    "other": "{num}th"
-                }
-            }
+  "number": {
+    "label": {
+      "amount": "Amount",
+      "percentage": "Percentage"
+    },
+    "ordinal": {
+      "short": {
+        "first": {
+          "female": "{num}st",
+          "male": "{num}st",
+          "other": "{num}st"
+        },
+        "others": {
+          "female": "{num}th",
+          "male": "{num}th",
+          "other": "{num}th"
+        },
+        "second": {
+          "female": "{num}nd",
+          "male": "{num}nd",
+          "other": "{num}nd"
+        },
+        "third": {
+          "female": "{num}rd",
+          "male": "{num}rd",
+          "other": "{num}rd"
         }
+      }
     }
+  }
 }

@@ -1,7 +1,17 @@
 {
-    "ad": {
-        "disclaimer": {
-            "user_tracking": "Questo identificatore verrà utilizzato per suggerirti pubblicità mirate in base ai tuoi interessi."
-        }
+  "ad": {
+    "label": {
+      "ad": "Annuncio",
+      "advertisement": "Pubblicità",
+      "personalized_ads": "Pubblicità personalizzate",
+      "sponsored": "Sponsorizzato"
+    },
+    "message": {
+      "disclaimer": {
+        "user_tracking": "Questo identificatore verrà utilizzato per suggerirti pubblicità mirate in base ai tuoi interessi."
+      },
+      "discover_other_app": "Scopri le nostre altre app gratuite!",
+      "no_ads": "Nessuna pubblicità"
     }
+  }
 }

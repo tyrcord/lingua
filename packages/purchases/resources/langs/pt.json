@@ -1,7 +1,47 @@
 {
-    "purchases": {
-        "errors": {
-            "cannot_connect_store": "A loja não está disponível. Pode continuar a usar esta aplicação, mas não poderá fazer compras."
-        }
+  "purchases": {
+    "error": {
+      "cannot_connect_store": "Pedimos desculpas pelo inconveniente. A loja está indisponível no momento e, portanto, você não poderá fazer compras neste momento."
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "Atualização automática das taxas de câmbio",
+        "refresh_stock_prices": "Atualização automática dos preços das ações"
+      },
+      "no_ads": {
+        "text": "Desfrute de uma experiência sem anúncios."
+      },
+      "unlimited": {
+        "pdf": "Experimente a geração ilimitada de PDF."
+      }
+    },
+    "label": {
+      "available_products": "Produtos disponíveis",
+      "free_version": "Versão gratuita",
+      "go_premium": "Obtenha Premium!",
+      "premium": "Premium",
+      "premium_price": "{price} Premium",
+      "premium_version": "Versão Premium",
+      "purchases": "Compras",
+      "restore_purchases": "Restaurar compras"
+    },
+    "message": {
+      "enjoy_premium_version": "Libere todo o potencial deste aplicativo com seus recursos Premium, garantindo uma experiência aprimorada para o usuário!",
+      "go_premium_description": "Ao fazer o upgrade para a versão premium, você não apenas apoia o desenvolvimento contínuo, mas também obtém acesso a recursos adicionais.",
+      "item": {
+        "already_owned": "Você já possui este item."
+      },
+      "premium_version_restored": "Seus recursos Premium foram restaurados com sucesso.",
+      "purchase": {
+        "cancelled": "Compra cancelada.",
+        "failed": "Falha na compra.",
+        "pending": "Compra pendente.",
+        "successful": "Compra realizada com sucesso."
+      },
+      "purchased_items": "Lista de itens comprados:",
+      "purchases_restored": "Compras restauradas.",
+      "thanks_purchase": "Obrigado por sua compra.",
+      "unlock_premium_features": "Acesse uma variedade de recursos Premium."
     }
+  }
 }

@@ -1,25 +1,210 @@
 {
-    "finance": {
-        "select": {
-            "financial_instrument": "金融商品を選択する",
-            "pip_precision": "小数を選択する"
+  "finance": {
+    "disclaimer": {
+      "incorrect_results": "結果が正しくないと思われる場合、特定のパラメータがブローカーや使用している金融商品によって異なる可能性があります。必要な場合は、詳細セクションでこれらの設定を調整できます。",
+      "intervening_markets": "金融市場への参加には、金融損失につながるリスクが伴います。この情報のみをもとに取引や投資の決定をしないでください。",
+      "trading": "金融市場には、投資資本に対する重要なリスクがあります。このアプリケーションによって提供される情報や結果は、あくまで目安として考えるべきであり、アドバイスや推奨事項ではありません。{company}は、この情報や結果に基づいて行動したことによる損失に対して一切の責任を負いません。"
+    },
+    "error": {
+      "close_price_between_low_high_price": "終値は最低価格と最高価格の間である必要があります。",
+      "high_price_higher_low_price": "最高価格は最低価格を上回る必要があります。",
+      "open_price_between_low_high_price": "始値は最低価格と最高価格の間である必要があります。",
+      "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。"
+    },
+    "label": {
+      "account": {
+        "balance": {
+          "help": "現在の資本の価値を指定してください。",
+          "label": "口座残高"
         },
-        "label": {
-            "pip_precision": "ピップ小数点",
-            "financial_instrument": "金融商品",
-            "real_time_quotes": "リアルタイムの気配値",
-            "number_plus_currency": "{number}以上の通貨"
-        },
-        "error": {
-            "quote_refresh": "選択された金融商品の気配値を更新することができません。後でもう一度お試しください。"
-        },
-        "disclaimer": {
-            "incorrect_results": "結果が正しくないと思われる場合は、ご利用の証券会社や金融商品によって設定が異なる可能性があります。必要に応じて、これらの設定を詳細セクションで調整できます。",
-            "intervening_markets": "金融市場に参加することで、金銭的損失を被る可能性があります。この情報に全面的に依拠して取引や投資の判断を下すことはお控えください。",
-            "trading": "金融市場は、お客様の投資資本に大きなリスクをもたらします。本アプリで提供される情報および結果は、あくまで指標であり、アドバイスや推奨を意味するものではありません。この情報や結果に基づいて行動した人が被った損失について、{company}は一切の責任を負いません。"
-        },
-        "title": {
-            "results_information": "実績に関する情報"
+        "currency": "口座の通貨",
+        "size": "口座のサイズ"
+      },
+      "after": {
+        "tax": {
+          "amount": "税金後の金額",
+          "price": "税金後の価格"
         }
+      },
+      "amount_at_risk": "リスク金額",
+      "annual_contribution": "年間の貢献",
+      "average_annual_return": "平均年間利回り",
+      "before": {
+        "tax": {
+          "amount": "税金前の金額",
+          "price": "税金前の価格"
+        }
+      },
+      "break_even": {
+        "price": "損益分岐点の価格",
+        "units": "損益分岐点のユニット"
+      },
+      "buy": {
+        "commission": "購入手数料",
+        "costs": "購入コスト",
+        "price": "購入価格",
+        "price_per_unit": "ユニットごとの購入価格"
+      },
+      "close_price": "終値",
+      "compound_interest": "複利",
+      "currencies": "通貨",
+      "currency": "通貨",
+      "discount": {
+        "amount": "割引金額",
+        "label": "割引",
+        "per_unit": "ユニットごとの割引"
+      },
+      "duration_years": "年単位の期間",
+      "ending": {
+        "balance": "最終残高",
+        "principal": "最終元本"
+      },
+      "entry": {
+        "fees": "入場手数料",
+        "price": "入場価格",
+        "price_at": "次の価格での入場"
+      },
+      "exit": {
+        "fees": "出場手数料",
+        "price": "出場価格",
+        "price_at": "次の価格での出場"
+      },
+      "expected_unit_sales": "予想ユニット売上高",
+      "extension": "延長",
+      "fibonacci": {
+        "level": "フィボナッチレベル",
+        "levels": "フィボナッチレベル"
+      },
+      "financial_instrument": "金融商品",
+      "fixed_costs": "固定コスト",
+      "gain": "利益",
+      "gain_per_trade": "トレードごとの利益",
+      "gross_profit": "総利益",
+      "high_price": "最高価格",
+      "indices": "インデックス",
+      "initial_investment": "初期投資",
+      "interest_rate": "利率",
+      "leverage": "レバレッジ",
+      "loss": "損失",
+      "loss_per_trade": "トレードごとの損失",
+      "low_price": "最低価格",
+      "margin": "証拠金",
+      "net": {
+        "buy_price": "純購入価格",
+        "income": "純収入",
+        "profit": {
+          "after_tax": "税金後の純利益",
+          "before_tax": "税金前の純利益",
+          "text": "純利益"
+        }
+      },
+      "number": {
+        "of_trades": "トレード数",
+        "plus_currency": "{number}以上の通貨"
+      },
+      "open_price": "始値",
+      "pivot_point": {
+        "camarilla": "キャマリラ",
+        "demark": "デマーク",
+        "fibonacci": "フィボナッチ",
+        "method": "ピボットポイントメソッド",
+        "standard": "スタンダード",
+        "text": "ピボットポイント",
+        "woodie": "ウッディ"
+      },
+      "pivot_points": "ピボットポイント",
+      "position": {
+        "long": "ロング",
+        "short": "ショート",
+        "size": "ポジションのサイズ",
+        "text": "ポジション"
+      },
+      "price": {
+        "a": "価格A",
+        "b": "価格B",
+        "per_unit": "ユニットごとの価格",
+        "per_unit_after_tax": "税金後のユニットごとの価格",
+        "per_unit_before_tax": "税金前のユニットごとの価格",
+        "text": "価格"
+      },
+      "primary_currency": "主要通貨",
+      "profit": "利益",
+      "profit_and_loss": "利益と損失",
+      "profit_or_loss": "利益または損失",
+      "purchase_costs_per_unit": "ユニットごとの購入コスト",
+      "real_time_quotes": "リアルタイムの見積もり",
+      "regular_addition": "定期的な追加",
+      "required_margin": "必要な証拠金",
+      "resistance_level": "抵抗レベル{level}",
+      "retracement": "リトレースメント",
+      "return_on_investment": "投資利益率",
+      "risk": "リスク",
+      "risk_amount": "リスク金額",
+      "risk_ratio": "リスク比率",
+      "risk_reward_ratio": "リスクリワード比率",
+      "secondary_currency": "副次通貨",
+      "sell": {
+        "commission": "売却手数料",
+        "costs": "売却コスト",
+        "costs_per_unit": "ユニットごとの売却コスト",
+        "price": "売却価格",
+        "price_per_unit": "ユニットごとの売却価格"
+      },
+      "slippage": "スリッページ",
+      "starting": {
+        "balance": "初期残高",
+        "principal": "初期元本"
+      },
+      "stop_loss": {
+        "amount": "ストップロス金額",
+        "at": "ストップロス時",
+        "text": "ストップロス"
+      },
+      "stop_loss_take_profit": "ストップロス/利益確定",
+      "support_level": "サポートレベル{level}",
+      "take_profit": {
+        "amount": "利益確定金額",
+        "at": "利益確定時",
+        "text": "利益確定"
+      },
+      "tax": {
+        "amount": "税金金額",
+        "exempt_amount_per_year": "年間非課税金額",
+        "rate": "税率"
+      },
+      "total": {
+        "costs": "総コスト",
+        "gain": "総利益",
+        "loss": "総損失",
+        "return": "総収益",
+        "revenue": "総収入",
+        "taxes": "税金総額"
+      },
+      "trade": {
+        "size": {
+          "oz": "トレードサイズ（オンス）",
+          "text": "トレードサイズ",
+          "units": "トレードサイズ（ユニット）"
+        }
+      },
+      "trend": {
+        "down": "下降ト",
+        "sideways": "横ばい",
+        "text": "トレンド",
+        "up": "上昇ト"
+      },
+      "user_currency": "ユーザーの通貨"
+    },
+    "select": {
+      "account_currency": "口座の通貨を選択してください",
+      "currency": "通貨を選択してください",
+      "interest_rate": "利率を選択してください",
+      "leverage": "レバレッジを選択してください",
+      "primary_currency": "主要通貨を選択してください",
+      "secondary_currency": "副次通貨を選択してください"
+    },
+    "warning": {
+      "risk_reward_ratio": "リスクリワード比率が2未満です。"
     }
+  }
 }

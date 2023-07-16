@@ -1,0 +1,109 @@
+{
+  "core": {
+    "error": {
+      "cannot_reach_server": "对不起，目前与服务器的连接存在问题。请稍后再试。",
+      "error_occurred": "抱歉，发生错误。请稍后再试。"
+    },
+    "label": {
+      "advanced": "高级",
+      "all": {
+        "female": "全部",
+        "male": "全部",
+        "other": "全部"
+      },
+      "annually": "每年",
+      "at": "在",
+      "auto_save": "自动保存",
+      "back": "返回",
+      "behavior": "行为",
+      "cancel": "取消",
+      "clear": {
+        "selection": "清除选择",
+        "text": "清除"
+      },
+      "close": "关闭",
+      "confirm": "确认",
+      "confirmation": "确认",
+      "continue": "继续",
+      "daily": "每天",
+      "date": "日期",
+      "default": {
+        "text": "默认",
+        "values": "默认值"
+      },
+      "delete": "删除",
+      "description": "描述",
+      "details": "详细信息",
+      "display": "显示",
+      "done": "完成",
+      "error": "错误",
+      "exotics": "异国情调",
+      "favorites": "收藏",
+      "frequency": "频率",
+      "home": "首页",
+      "learn_more": "了解更多",
+      "majors": "成年人",
+      "menu": "菜单",
+      "method": "方法",
+      "minors": "未成年人",
+      "monthly": "每月",
+      "next": "下一步",
+      "no": "否",
+      "none": {
+        "female": "无",
+        "male": "无",
+        "other": "无"
+      },
+      "offline_mode": "离线模式",
+      "ok": "确定",
+      "optional": "可选",
+      "quantity": "数量",
+      "quarterly": "每季度",
+      "results": "结果",
+      "search": "搜索",
+      "semi_annually": "半年一次",
+      "share": "分享",
+      "skip": "跳过",
+      "try_again": "重试",
+      "unlocked": "已解锁",
+      "weekly": "每周",
+      "yearly": "每年",
+      "yes": "是"
+    },
+    "message": {
+      "action": {
+        "canceled": "操作已取消。",
+        "completed": "操作已完成。"
+      },
+      "bugs_fixes_improvements": "小错误修复和改进。",
+      "congratulations": "恭喜！",
+      "dark_mode_support": "支持暗黑模式。",
+      "finally": "终于！",
+      "have_wonderful_day": "祝您有美好的一天！",
+      "last_updated_on": "最后更新于{date}",
+      "let_get_started": "让我们开始吧！",
+      "loading": "加载中...",
+      "modern_design": "现代外观。",
+      "no_favorites": "无收藏。",
+      "please_wait": "请稍候...",
+      "search": "搜索...",
+      "sorry": "抱歉...",
+      "success": "成功！",
+      "thank_you": "谢谢！",
+      "warning": "警告！",
+      "welcome": "欢迎！",
+      "whats_new": "有什么新功能？",
+      "whoops": "哎呀！"
+    },
+    "question": {
+      "are_you_sure": "确定吗？"
+    },
+    "select": {
+      "frequency": "选择频率",
+      "method": "选择方法"
+    },
+    "warning": {
+      "offline": "该应用当前处于离线模式，这意味着数据可能不是最新的。"
+    }
+  }
+}

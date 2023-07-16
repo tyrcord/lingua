@@ -1,7 +1,17 @@
 {
-    "ad": {
-        "disclaimer": {
-            "user_tracking": "Этот идентификатор будет использоваться для предоставления рекламы, таргетированной на основе ваших интересов."
-        }
+  "ad": {
+    "label": {
+      "ad": "Anuncio",
+      "advertisement": "Publicidad",
+      "personalized_ads": "Anuncios personalizados",
+      "sponsored": "Patrocinado"
+    },
+    "message": {
+      "disclaimer": {
+        "user_tracking": "Este identificador se utilizará para sugerirle publicidad dirigida en función de sus intereses."
+      },
+      "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
+      "no_ads": "Sin anuncios"
     }
+  }
 }

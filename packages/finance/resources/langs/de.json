@@ -1,25 +1,210 @@
 {
-    "finance": {
-        "disclaimer": {
-            "incorrect_results": "Wenn Sie der Meinung sind, dass die Ergebnisse falsch sind, ist es möglich, dass die Einstellungen je nach Broker und den von Ihnen verwendeten Finanzinstrumenten unterschiedlich sind. Bei Bedarf können Sie diese Einstellungen im Abschnitt Erweitert anpassen.",
-            "intervening_markets": "Die Teilnahme an den Finanzmärkten birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich auf der Grundlage dieser Informationen.",
-            "trading": "Die Finanzmärkte bergen erhebliche Risiken für Ihr investiertes Kapital. Die durch diese Anwendung bereitgestellten Informationen und Ergebnisse sollten nur als Hinweis betrachtet werden und keine Ratschläge oder Empfehlungen darstellen. {company} lehnt jede Haftung für Verluste ab, die einer Person entstehen, die auf der Grundlage dieser Informationen oder Ergebnisse handelt."
+  "finance": {
+    "disclaimer": {
+      "incorrect_results": "Falls Sie der Meinung sind, dass die Ergebnisse inkorrekt sind, kann es sein, dass bestimmte Parameter je nach Ihrem Broker und den von Ihnen verwendeten Finanzinstrumenten abweichen. Wenn erforderlich, können Sie diese Einstellungen im erweiterten Bereich anpassen.",
+      "intervening_markets": "Die Teilnahme am Finanzmarkt birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich aufgrund dieser Informationen.",
+      "trading": "Finanzmärkte bergen erhebliche Risiken für Ihr investiertes Kapital. Die Informationen und Ergebnisse, die von dieser Anwendung bereitgestellt werden, sollten nur als Hinweis betrachtet werden und stellen keine Anlageberatung oder Empfehlung dar. {company} lehnt jede Verantwortung für Verluste ab, die durch Handlungen auf der Grundlage dieser Informationen oder Ergebnisse entstehen."
+    },
+    "error": {
+      "close_price_between_low_high_price": "Der Schlusskurs muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
+      "high_price_higher_low_price": "Der höchste Preis muss über dem niedrigsten Preis liegen.",
+      "open_price_between_low_high_price": "Der Eröffnungspreis muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
+      "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
+    },
+    "label": {
+      "account": {
+        "balance": {
+          "help": "Geben Sie den aktuellen Wert Ihres Kapitals an.",
+          "label": "Kontostand"
         },
-        "select": {
-            "financial_instrument": "Finanzinstrument auswählen",
-            "pip_precision": "Dezimalstelle auswählen"
-        },
-        "label": {
-            "pip_precision": "Pip Dezimalzeichen",
-            "financial_instrument": "Finanz­instrument",
-            "real_time_quotes": "Echtzeit-Notierungen",
-            "number_plus_currency": "{number}+ Währungen"
-        },
-        "title": {
-            "results_information": "Informationen zu den Ergebnissen"
-        },
-        "error": {
-            "quote_refresh": "Das Angebot des ausgewählten Finanzinstruments kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
+        "currency": "Kontowährung",
+        "size": "Kontogröße"
+      },
+      "after": {
+        "tax": {
+          "amount": "Betrag nach Steuern",
+          "price": "Preis nach Steuern"
         }
+      },
+      "amount_at_risk": "Risikobetrag",
+      "annual_contribution": "Jährlicher Beitrag",
+      "average_annual_return": "Durchschnittliche jährliche Rendite",
+      "before": {
+        "tax": {
+          "amount": "Betrag vor Steuern",
+          "price": "Preis vor Steuern"
+        }
+      },
+      "break_even": {
+        "price": "Break-even-Preis",
+        "units": "Break-even-Einheiten"
+      },
+      "buy": {
+        "commission": "Kaufkommission",
+        "costs": "Kaufkosten",
+        "price": "Kaufpreis",
+        "price_per_unit": "Kaufpreis pro Einheit"
+      },
+      "close_price": "Schlusskurs",
+      "compound_interest": "Zinseszins",
+      "currencies": "Währungen",
+      "currency": "Währung",
+      "discount": {
+        "amount": "Rabattbetrag",
+        "label": "Rabatt",
+        "per_unit": "Rabatt pro Einheit"
+      },
+      "duration_years": "Dauer in Jahren",
+      "ending": {
+        "balance": "Endguthaben",
+        "principal": "Endkapital"
+      },
+      "entry": {
+        "fees": "Einstiegsgebühren",
+        "price": "Einstiegspreis",
+        "price_at": "Einstiegspreis bei"
+      },
+      "exit": {
+        "fees": "Ausstiegsgebühren",
+        "price": "Ausstiegspreis",
+        "price_at": "Ausstiegspreis bei"
+      },
+      "expected_unit_sales": "Erwartete Stückverkäufe",
+      "extension": "Erweiterung",
+      "fibonacci": {
+        "level": "Fibonacci-Level",
+        "levels": "Fibonacci-Levels"
+      },
+      "financial_instrument": "Finanzinstrument",
+      "fixed_costs": "Fixkosten",
+      "gain": "Gewinn",
+      "gain_per_trade": "Gewinn pro Trade",
+      "gross_profit": "Bruttogewinn",
+      "high_price": "Höchstpreis",
+      "indices": "Indizes",
+      "initial_investment": "Erstinvestition",
+      "interest_rate": "Zinssatz",
+      "leverage": "Hebelwirkung",
+      "loss": "Verlust",
+      "loss_per_trade": "Verlust pro Trade",
+      "low_price": "Tiefstpreis",
+      "margin": "Marge",
+      "net": {
+        "buy_price": "Netto-Kaufpreis",
+        "income": "Nettoeinkommen",
+        "profit": {
+          "after_tax": "Nettogewinn nach Steuern",
+          "before_tax": "Nettogewinn vor Steuern",
+          "text": "Nettogewinn"
+        }
+      },
+      "number": {
+        "of_trades": "Anzahl der Trades",
+        "plus_currency": "{number}+ Währungen"
+      },
+      "open_price": "Eröffnungspreis",
+      "pivot_point": {
+        "camarilla": "Camarilla",
+        "demark": "DeMark",
+        "fibonacci": "Fibonacci",
+        "method": "Pivot-Punkt-Methode",
+        "standard": "Standard",
+        "text": "Pivot-Punkt",
+        "woodie": "Woodie"
+      },
+      "pivot_points": "Pivot-Punkte",
+      "position": {
+        "long": "Long",
+        "short": "Short",
+        "size": "Positionsgröße",
+        "text": "Position"
+      },
+      "price": {
+        "a": "Preis A",
+        "b": "Preis B",
+        "per_unit": "Preis pro Einheit",
+        "per_unit_after_tax": "Preis pro Einheit nach Steuern",
+        "per_unit_before_tax": "Preis pro Einheit vor Steuern",
+        "text": "Preis"
+      },
+      "primary_currency": "Hauptwährung",
+      "profit": "Gewinn",
+      "profit_and_loss": "Gewinn und Verlust",
+      "profit_or_loss": "Gewinn oder Verlust",
+      "purchase_costs_per_unit": "Kaufkosten pro Einheit",
+      "real_time_quotes": "Echtzeitkurse",
+      "regular_addition": "Regelmäßige Hinzufügung",
+      "required_margin": "Erforderliche Marge",
+      "resistance_level": "Widerstand {level}",
+      "retracement": "Retracement",
+      "return_on_investment": "Return on Investment",
+      "risk": "Risiko",
+      "risk_amount": "Risikobetrag",
+      "risk_ratio": "Risikoverhältnis",
+      "risk_reward_ratio": "Risiko-Rendite-Verhältnis",
+      "secondary_currency": "Sekundärwährung",
+      "sell": {
+        "commission": "Verkaufskommission",
+        "costs": "Verkaufskosten",
+        "costs_per_unit": "Verkaufskosten pro Einheit",
+        "price": "Verkaufspreis",
+        "price_per_unit": "Verkaufspreis pro Einheit"
+      },
+      "slippage": "Slippage",
+      "starting": {
+        "balance": "Anfangsguthaben",
+        "principal": "Anfangskapital"
+      },
+      "stop_loss": {
+        "amount": "Stop-Loss-Betrag",
+        "at": "Stop-Loss bei",
+        "text": "Stop-Loss"
+      },
+      "stop_loss_take_profit": "Stop-Loss/Take-Profit",
+      "support_level": "Unterstützung {level}",
+      "take_profit": {
+        "amount": "Take-Profit-Betrag",
+        "at": "Take-Profit bei",
+        "text": "Take-Profit"
+      },
+      "tax": {
+        "amount": "Steuerbetrag",
+        "exempt_amount_per_year": "Steuerfreibetrag pro Jahr",
+        "rate": "Steuersatz"
+      },
+      "total": {
+        "costs": "Gesamtkosten",
+        "gain": "Gesamtgewinn",
+        "loss": "Gesamtverlust",
+        "return": "Gesamtrendite",
+        "revenue": "Gesamteinnahmen",
+        "taxes": "Gesamtsteuerbetrag"
+      },
+      "trade": {
+        "size": {
+          "oz": "Handelsgröße (Unzen)",
+          "text": "Handelsgröße",
+          "units": "Handelsgröße (Einheiten)"
+        }
+      },
+      "trend": {
+        "down": "Abwärts",
+        "sideways": "Seitwärts",
+        "text": "Trend",
+        "up": "Aufwärts"
+      },
+      "user_currency": "Benutzerwährung"
+    },
+    "select": {
+      "account_currency": "Wählen Sie Ihre Kontowährung",
+      "currency": "Wählen Sie eine Währung",
+      "interest_rate": "Wählen Sie einen Zinssatz",
+      "leverage": "Wählen Sie eine Hebelwirkung",
+      "primary_currency": "Wählen Sie eine Hauptwährung",
+      "secondary_currency": "Wählen Sie eine Sekundärwährung"
+    },
+    "warning": {
+      "risk_reward_ratio": "Das Risiko-Rendite-Verhältnis ist geringer als 2."
     }
+  }
 }

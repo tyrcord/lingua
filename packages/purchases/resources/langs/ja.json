@@ -1,7 +1,47 @@
 {
-    "purchases": {
-        "errors": {
-            "cannot_connect_store": "ショップは現在利用できません。このアプリを引き続きご利用になれますが、購入はできません。"
-        }
+  "purchases": {
+    "error": {
+      "cannot_connect_store": "ご迷惑をおかけして申し訳ありません。現在、ストアは利用できませんので、この時点では購入をすることができません。"
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "為替レートを自動更新",
+        "refresh_stock_prices": "株価を自動更新"
+      },
+      "no_ads": {
+        "text": "広告なしでお楽しみください。"
+      },
+      "unlimited": {
+        "pdf": "無制限のPDF生成を体験しましょう。"
+      }
+    },
+    "label": {
+      "available_products": "利用可能な商品",
+      "free_version": "無料版",
+      "go_premium": "プレミアムにアップグレード！",
+      "premium": "プレミアム",
+      "premium_price": "{price} プレミアム",
+      "premium_version": "プレミアム版",
+      "purchases": "購入",
+      "restore_purchases": "購入を復元"
+    },
+    "message": {
+      "enjoy_premium_version": "プレミアム機能を備えたこのアプリケーションのフルポテンシャルを引き出し、より充実したユーザーエクスペリエンスをお楽しみください！",
+      "go_premium_description": "プレミアム版にアップグレードすることで、継続的な開発をサポートするだけでなく、追加の機能にアクセスすることもできます。",
+      "item": {
+        "already_owned": "このアイテムは既に購入済みです。"
+      },
+      "premium_version_restored": "プレミアム機能が正常に復元されました。",
+      "purchase": {
+        "cancelled": "購入がキャンセルされました。",
+        "failed": "購入に失敗しました。",
+        "pending": "購入保留中。",
+        "successful": "購入が成功しました。"
+      },
+      "purchased_items": "購入済みアイテムのリスト：",
+      "purchases_restored": "購入が復元されました。",
+      "thanks_purchase": "ご購入いただきありがとうございます。",
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
     }
+  }
 }

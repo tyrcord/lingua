@@ -1,0 +1,109 @@
+{
+  "core": {
+    "error": {
+      "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Per favore, riprova più tardi.",
+      "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
+    },
+    "label": {
+      "advanced": "Avanzate",
+      "all": {
+        "female": "Tutte",
+        "male": "Tutti",
+        "other": "Tutti"
+      },
+      "annually": "Annualmente",
+      "at": "A",
+      "auto_save": "Salvataggio automatico",
+      "back": "Indietro",
+      "behavior": "Comportamento",
+      "cancel": "Annulla",
+      "clear": {
+        "selection": "Cancella selezione",
+        "text": "Cancella"
+      },
+      "close": "Chiudi",
+      "confirm": "Conferma",
+      "confirmation": "Conferma",
+      "continue": "Continua",
+      "daily": "Giornalmente",
+      "date": "Data",
+      "default": {
+        "text": "Predefinito",
+        "values": "Valori predefiniti"
+      },
+      "delete": "Elimina",
+      "description": "Descrizione",
+      "details": "Dettagli",
+      "display": "Visualizza",
+      "done": "Fatto",
+      "error": "Errore",
+      "exotics": "Esotiche",
+      "favorites": "Preferiti",
+      "frequency": "Frequenza",
+      "home": "Home",
+      "learn_more": "Maggiori informazioni",
+      "majors": "Maggiori",
+      "menu": "Menu",
+      "method": "Metodo",
+      "minors": "Minori",
+      "monthly": "Mensilmente",
+      "next": "Avanti",
+      "no": "No",
+      "none": {
+        "female": "Nessuna",
+        "male": "Nessuno",
+        "other": "Nessuno"
+      },
+      "offline_mode": "Modalità offline",
+      "ok": "OK",
+      "optional": "Opzionale",
+      "quantity": "Quantità",
+      "quarterly": "Trimestralmente",
+      "results": "Risultati",
+      "search": "Cerca",
+      "semi_annually": "semestralmente",
+      "share": "Condividi",
+      "skip": "Salta",
+      "try_again": "Riprova",
+      "unlocked": "Sbloccato",
+      "weekly": "Settimanalmente",
+      "yearly": "Annualmente",
+      "yes": "Sì"
+    },
+    "message": {
+      "action": {
+        "canceled": "Azione annullata.",
+        "completed": "Azione completata."
+      },
+      "bugs_fixes_improvements": "Correzioni di bug minori e miglioramenti.",
+      "congratulations": "Congratulazioni!",
+      "dark_mode_support": "Supporto per la modalità scura.",
+      "finally": "Finalmente!",
+      "have_wonderful_day": "Buona giornata!",
+      "last_updated_on": "Ultimo aggiornamento il {date}",
+      "let_get_started": "Iniziamo!",
+      "loading": "Caricamento...",
+      "modern_design": "Design moderno.",
+      "no_favorites": "Nessun preferito.",
+      "please_wait": "Attendere prego...",
+      "search": "Ricerca...",
+      "sorry": "Scusa...",
+      "success": "Successo!",
+      "thank_you": "Grazie!",
+      "warning": "Attenzione!",
+      "welcome": "Benvenuto!",
+      "whats_new": "Cosa c'è di nuovo?",
+      "whoops": "Ops!"
+    },
+    "question": {
+      "are_you_sure": "Sei sicuro?"
+    },
+    "select": {
+      "frequency": "Seleziona una frequenza",
+      "method": "Seleziona un metodo"
+    },
+    "warning": {
+      "offline": "L'applicazione è attualmente in modalità offline, il che significa che i dati potrebbero non essere aggiornati."
+    }
+  }
+}
