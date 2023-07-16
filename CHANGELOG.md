@@ -15,6 +15,111 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_ad` - `v0.0.4+1`](#lingua_ad---v0041)
+ - [`lingua_apps` - `v0.0.5+1`](#lingua_apps---v0051)
+ - [`lingua_calculator` - `v0.0.2+1`](#lingua_calculator---v0021)
+ - [`lingua_core` - `v0.0.3+1`](#lingua_core---v0031)
+ - [`lingua_finance` - `v0.0.5+1`](#lingua_finance---v0051)
+ - [`lingua_finance_dividend` - `v0.0.2+1`](#lingua_finance_dividend---v0021)
+ - [`lingua_finance_forex` - `v0.0.2+1`](#lingua_finance_forex---v0021)
+ - [`lingua_finance_instrument` - `v0.0.2`](#lingua_finance_instrument---v002)
+ - [`lingua_finance_stock` - `v0.0.2+1`](#lingua_finance_stock---v0021)
+ - [`lingua_help` - `v0.0.4+1`](#lingua_help---v0041)
+ - [`lingua_languages` - `v0.0.4+1`](#lingua_languages---v0041)
+ - [`lingua_number` - `v0.0.5`](#lingua_number---v005)
+ - [`lingua_onboarding` - `v0.0.6+1`](#lingua_onboarding---v0061)
+ - [`lingua_purchases` - `v0.0.5+1`](#lingua_purchases---v0051)
+ - [`lingua_settings` - `v0.0.7`](#lingua_settings---v007)
+ - [`lingua_share` - `v0.0.2+1`](#lingua_share---v0021)
+ - [`lingua_units` - `v0.0.2+1`](#lingua_units---v0021)
+
+---
+
+#### `lingua_ad` - `v0.0.4+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_apps` - `v0.0.5+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_calculator` - `v0.0.2+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_core` - `v0.0.3+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_finance` - `v0.0.5+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_finance_dividend` - `v0.0.2+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_finance_forex` - `v0.0.2+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_finance_instrument` - `v0.0.2`
+
+ - **FIX**: generate script.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance instrument localization.
+
+#### `lingua_finance_stock` - `v0.0.2+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_help` - `v0.0.4+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_languages` - `v0.0.4+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_number` - `v0.0.5`
+
+ - **FIX**: generate script.
+ - **FEAT**: update localization.
+
+#### `lingua_onboarding` - `v0.0.6+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_purchases` - `v0.0.5+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_settings` - `v0.0.7`
+
+ - **FIX**: generate script.
+ - **FEAT**: update localization.
+
+#### `lingua_share` - `v0.0.2+1`
+
+ - **FIX**: generate script.
+
+#### `lingua_units` - `v0.0.2+1`
+
+ - **FIX**: generate script.
+
+
+## 2023-07-16
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_ad` - `v0.0.4`](#lingua_ad---v004)
  - [`lingua_apps` - `v0.0.5`](#lingua_apps---v005)
  - [`lingua_calculator` - `v0.0.2`](#lingua_calculator---v002)

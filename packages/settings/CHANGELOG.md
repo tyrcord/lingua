@@ -1,3 +1,8 @@
+## 0.0.7
+
+ - **FIX**: generate script.
+ - **FEAT**: update localization.
+
 ## 0.0.6
 
  - **FEAT**: add new packages.

@@ -1,3 +1,7 @@
+## 0.0.3+1
+
+ - **FIX**: generate script.
+
 ## 0.0.3
 
  - **FEAT**: add new packages.
