@@ -1,0 +1,35 @@
+{
+  "dividend": {
+    "label": {
+      "annual": {
+        "dividend_income": "Annual Dividend Income",
+        "dividend_per_share": "Annual Dividend Per Share",
+        "net_dividend_income": "Annual Net Dividend Income"
+      },
+      "current_dividend_yield": "Current Dividend Yield",
+      "dividend": {
+        "amount": "Dividend Amount",
+        "payment_frequency": "Dividend Payment Frequency",
+        "payout_ratio": "Dividend Payout Ratio",
+        "reinvestment": "Dividend Reinvestment",
+        "reinvestment_plan": "Dividend Reinvestment Plan",
+        "text": "Dividend",
+        "yield": "Dividend Yield"
+      },
+      "expected_annual_dividend_increase": "Expected Annual Dividend Increase",
+      "gross_dividend_paid": "Gross Dividend Paid",
+      "high_dividend": "High Dividend",
+      "low_dividend": "Low Dividend",
+      "net_dividend_paid": "Net Dividend Paid",
+      "normal_dividend": "Normal Dividend",
+      "total": {
+        "dividend_payments": "Total Dividend Payments",
+        "dividends": "Total Dividends"
+      },
+      "unsustainable_high_dividend": "Unsustainable High Dividend"
+    }
+  },
+  "select": {
+    "distribution_frequency": "Select a distribution frequency"
+  }
+}

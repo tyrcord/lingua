@@ -1,4 +1,4 @@
-library core;
+library lingua_core;
 
 import 'dart:ui';
 

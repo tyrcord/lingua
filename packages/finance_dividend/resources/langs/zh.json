@@ -1,0 +1,35 @@
+{
+  "dividend": {
+    "label": {
+      "annual": {
+        "dividend_income": "年度股息收入",
+        "dividend_per_share": "年度每股股息",
+        "net_dividend_income": "年度净股息收入"
+      },
+      "current_dividend_yield": "当前股息收益率",
+      "dividend": {
+        "amount": "股息金额",
+        "payment_frequency": "股息支付频率",
+        "payout_ratio": "股息支付比率",
+        "reinvestment": "股息再投资",
+        "reinvestment_plan": "股息再投资计划",
+        "text": "股息",
+        "yield": "股息收益率"
+      },
+      "expected_annual_dividend_increase": "预期年度股息增长",
+      "gross_dividend_paid": "总计发放的股息",
+      "high_dividend": "高股息",
+      "low_dividend": "低股息",
+      "net_dividend_paid": "总计净发放的股息",
+      "normal_dividend": "常规股息",
+      "total": {
+        "dividend_payments": "总股息支付额",
+        "dividends": "总股息"
+      },
+      "unsustainable_high_dividend": "不可持续的高股息"
+    }
+  },
+  "select": {
+    "distribution_frequency": "选择分配频率"
+  }
+}

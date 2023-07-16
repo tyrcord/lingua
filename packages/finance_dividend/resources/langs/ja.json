@@ -1,0 +1,35 @@
+{
+  "dividend": {
+    "label": {
+      "annual": {
+        "dividend_income": "年間配当収入",
+        "dividend_per_share": "1株当たり年間配当金",
+        "net_dividend_income": "年間純配当収入"
+      },
+      "current_dividend_yield": "現在の配当利回り",
+      "dividend": {
+        "amount": "配当金額",
+        "payment_frequency": "配当支払い頻度",
+        "payout_ratio": "配当利益率",
+        "reinvestment": "配当再投資",
+        "reinvestment_plan": "配当再投資計画",
+        "text": "配当",
+        "yield": "配当利回り"
+      },
+      "expected_annual_dividend_increase": "予想年間配当増加額",
+      "gross_dividend_paid": "支払われる総配当金",
+      "high_dividend": "高配当",
+      "low_dividend": "低配当",
+      "net_dividend_paid": "支払われる純配当金",
+      "normal_dividend": "通常配当",
+      "total": {
+        "dividend_payments": "総配当支払額",
+        "dividends": "総配当金"
+      },
+      "unsustainable_high_dividend": "持続不可能な高配当"
+    }
+  },
+  "select": {
+    "distribution_frequency": "配布頻度を選択してください"
+  }
+}

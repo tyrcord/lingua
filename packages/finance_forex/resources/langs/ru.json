@@ -1,0 +1,50 @@
+{
+  "forex": {
+    "label": {
+      "commodities": "Товары",
+      "count": {
+        "pips": {
+          "few": "{} Pips",
+          "many": "{} Pips",
+          "one": "{} Pip",
+          "other": "{} Pips",
+          "zero": "{} Pips"
+        }
+      },
+      "cryptos": "Криптовалюты",
+      "currency": {
+        "base": "Базовая валюта",
+        "counter": "Контрольная валюта",
+        "pair": "Валютная пара"
+      },
+      "lot": {
+        "micro": "Микро-лот",
+        "mini": "Мини-лот",
+        "nano": "Нано-лот",
+        "size": "Размер лота",
+        "standard": "Стандартный лот",
+        "text": "Лот"
+      },
+      "pip": {
+        "calculator": "Калькулятор пипсов",
+        "difference": "Разница пипсов",
+        "precision": "Десятичный знак (пипс)",
+        "value": "Стоимость пипа"
+      },
+      "pips": {
+        "number": "Количество пипсов",
+        "text": "Pips"
+      },
+      "stop_loss": {
+        "pips": "Стоп-лосс (Pips)"
+      },
+      "take_profit": {
+        "pips": "Тейк-профит (Pips)"
+      }
+    },
+    "select": {
+      "currency_pair": "Выберите валютную пару",
+      "pip_precision": "Выберите десятичный знак"
+    }
+  }
+}

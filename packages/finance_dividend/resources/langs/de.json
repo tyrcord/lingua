@@ -1,0 +1,35 @@
+{
+  "dividend": {
+    "label": {
+      "annual": {
+        "dividend_income": "Jährliches Dividendeneinkommen",
+        "dividend_per_share": "Jährliche Dividende pro Aktie",
+        "net_dividend_income": "Jährliches Nettodividendeneinkommen"
+      },
+      "current_dividend_yield": "Aktuelle Dividendenrendite",
+      "dividend": {
+        "amount": "Dividendenhöhe",
+        "payment_frequency": "Dividendenzahlungshäufigkeit",
+        "payout_ratio": "Dividendenrendite",
+        "reinvestment": "Dividendenumlage",
+        "reinvestment_plan": "Dividendenumlageplan",
+        "text": "Dividende",
+        "yield": "Dividendenrendite"
+      },
+      "expected_annual_dividend_increase": "Erwartete jährliche Dividendenerhöhung",
+      "gross_dividend_paid": "Bruttoausgeschüttete Dividende",
+      "high_dividend": "Hohe Dividende",
+      "low_dividend": "Niedrige Dividende",
+      "net_dividend_paid": "Nettoausgeschüttete Dividende",
+      "normal_dividend": "Normale Dividende",
+      "total": {
+        "dividend_payments": "Gesamte Dividendenauszahlungen",
+        "dividends": "Gesamtdividenden"
+      },
+      "unsustainable_high_dividend": "Unnachhaltig hohe Dividende"
+    }
+  },
+  "select": {
+    "distribution_frequency": "Wählen Sie eine Verteilungshäufigkeit aus"
+  }
+}

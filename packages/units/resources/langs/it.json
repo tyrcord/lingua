@@ -1,0 +1,44 @@
+{
+  "units": {
+    "label": {
+      "barrel": "barile",
+      "count": {
+        "barrel": {
+          "few": "{} barili",
+          "many": "{} barili",
+          "one": "{} barile",
+          "other": "{} barili",
+          "zero": "{} barile"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtu"
+        },
+        "ounce": {
+          "few": "{} once",
+          "many": "{} once",
+          "one": "{} oncia",
+          "other": "{} once",
+          "zero": "{} oncia"
+        },
+        "unit": {
+          "few": "{} unità",
+          "many": "{} unità",
+          "one": "{} unità",
+          "other": "{} unità",
+          "zero": "{} unità"
+        }
+      },
+      "gallon": "gallone",
+      "gram": "g",
+      "kilogram": "kg",
+      "mmbtu": "MMBtu",
+      "ounce": "oz",
+      "pound": "lb",
+      "unit": "unità"
+    }
+  }
+}

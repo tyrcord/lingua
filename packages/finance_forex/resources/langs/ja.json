@@ -1,0 +1,50 @@
+{
+  "forex": {
+    "label": {
+      "commodities": "コモディティ",
+      "count": {
+        "pips": {
+          "few": "{} Pips",
+          "many": "{} Pips",
+          "one": "{} Pip",
+          "other": "{} Pips",
+          "zero": "{} Pips"
+        }
+      },
+      "cryptos": "仮想通貨",
+      "currency": {
+        "base": "ベースカレンシー",
+        "counter": "カウンターカレンシー",
+        "pair": "通貨ペア"
+      },
+      "lot": {
+        "micro": "マイクロロット",
+        "mini": "ミニロット",
+        "nano": "ナノロット",
+        "size": "ロットサイズ",
+        "standard": "スタンダードロット",
+        "text": "ロット"
+      },
+      "pip": {
+        "calculator": "ピップ計算機",
+        "difference": "ピップの違い",
+        "precision": "ピップ小数点",
+        "value": "ピップの価値"
+      },
+      "pips": {
+        "number": "ピップ数",
+        "text": "Pips"
+      },
+      "stop_loss": {
+        "pips": "ストップロス (Pips)"
+      },
+      "take_profit": {
+        "pips": "テイクプロフィット (Pips)"
+      }
+    },
+    "select": {
+      "currency_pair": "通貨ペアを選択してください",
+      "pip_precision": "小数を選択する"
+    }
+  }
+}

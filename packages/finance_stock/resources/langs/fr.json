@@ -1,0 +1,11 @@
+{
+  "stock": {
+    "label": {
+      "expected_annual_share_price_appreciation": "Appréciation annuelle prévue du prix de l'action",
+      "number_of_shares": "Nombre d'actions",
+      "share_price": "Prix de l'action",
+      "shares_owned": "Actions détenues",
+      "stock": "Action"
+    }
+  }
+}

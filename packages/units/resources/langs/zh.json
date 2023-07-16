@@ -1,0 +1,44 @@
+{
+  "units": {
+    "label": {
+      "barrel": "桶",
+      "count": {
+        "barrel": {
+          "few": "{} 桶",
+          "many": "{} 桶",
+          "one": "{} 桶",
+          "other": "{} 桶",
+          "zero": "{} 桶"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtus"
+        },
+        "ounce": {
+          "few": "{} 盎司",
+          "many": "{} 盎司",
+          "one": "{} 盎司",
+          "other": "{} 盎司",
+          "zero": "{} 盎司"
+        },
+        "unit": {
+          "few": "{} 单位",
+          "many": "{} 单位",
+          "one": "{} 单位",
+          "other": "{} 单位",
+          "zero": "{} 单位"
+        }
+      },
+      "gallon": "加仑",
+      "gram": "克",
+      "kilogram": "千克",
+      "mmbtu": "MMBtu",
+      "ounce": "盎司",
+      "pound": "磅",
+      "unit": "单位"
+    }
+  }
+}

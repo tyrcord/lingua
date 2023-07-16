@@ -1,0 +1,35 @@
+{
+  "dividend": {
+    "label": {
+      "annual": {
+        "dividend_income": "Ежегодный дивидендный доход",
+        "dividend_per_share": "Ежегодный дивиденд на акцию",
+        "net_dividend_income": "Ежегодный чистый дивидендный доход"
+      },
+      "current_dividend_yield": "Текущая дивидендная доходность",
+      "dividend": {
+        "amount": "Сумма дивиденда",
+        "payment_frequency": "Частота выплаты дивидендов",
+        "payout_ratio": "Коэффициент выплаты дивидендов",
+        "reinvestment": "Реинвестирование дивидендов",
+        "reinvestment_plan": "План реинвестирования дивидендов",
+        "text": "Дивиденд",
+        "yield": "Дивидендная доходность"
+      },
+      "expected_annual_dividend_increase": "Ожидаемое ежегодное увеличение дивиденда",
+      "gross_dividend_paid": "Всего выплаченных дивидендов",
+      "high_dividend": "Высокий дивиденд",
+      "low_dividend": "Низкий дивиденд",
+      "net_dividend_paid": "Всего чистых выплаченных дивидендов",
+      "normal_dividend": "Обычный дивиденд",
+      "total": {
+        "dividend_payments": "Общая сумма выплат дивидендов",
+        "dividends": "Общая сумма дивидендов"
+      },
+      "unsustainable_high_dividend": "Несустоятельно высокий дивиденд"
+    }
+  },
+  "select": {
+    "distribution_frequency": "Выберите частоту распределения"
+  }
+}

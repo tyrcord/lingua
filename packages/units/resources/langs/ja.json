@@ -1,0 +1,44 @@
+{
+  "units": {
+    "label": {
+      "barrel": "バレル",
+      "count": {
+        "barrel": {
+          "few": "{} バレル",
+          "many": "{} バレル",
+          "one": "{} バレル",
+          "other": "{} バレル",
+          "zero": "{} バレル"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtus"
+        },
+        "ounce": {
+          "few": "{} オンス",
+          "many": "{} オンス",
+          "one": "{} オンス",
+          "other": "{} オンス",
+          "zero": "{} オンス"
+        },
+        "unit": {
+          "few": "{} ユニット",
+          "many": "{} ユニット",
+          "one": "{} ユニット",
+          "other": "{} ユニット",
+          "zero": "{} ユニット"
+        }
+      },
+      "gallon": "ガロン",
+      "gram": "グラム",
+      "kilogram": "キログラム",
+      "mmbtu": "MMBtu",
+      "ounce": "オンス",
+      "pound": "ポンド",
+      "unit": "ユニット"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stock": {
+    "label": {
+      "expected_annual_share_price_appreciation": "预计年度股价增长",
+      "number_of_shares": "股票数量",
+      "share_price": "股价",
+      "shares_owned": "持有股票",
+      "stock": "股票"
+    }
+  }
+}

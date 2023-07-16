@@ -1,0 +1,44 @@
+{
+  "units": {
+    "label": {
+      "barrel": "баррель",
+      "count": {
+        "barrel": {
+          "few": "{} барреля",
+          "many": "{} баррелей",
+          "one": "{} баррель",
+          "other": "{} баррелей",
+          "zero": "{} баррелей"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtus"
+        },
+        "ounce": {
+          "few": "{} унции",
+          "many": "{} унций",
+          "one": "{} унция",
+          "other": "{} унций",
+          "zero": "{} унций"
+        },
+        "unit": {
+          "few": "{} единицы",
+          "many": "{} единиц",
+          "one": "{} единица",
+          "other": "{} единицы",
+          "zero": "{} единиц"
+        }
+      },
+      "gallon": "галлон",
+      "gram": "г",
+      "kilogram": "кг",
+      "mmbtu": "MMBtu",
+      "ounce": "унция",
+      "pound": "фунт",
+      "unit": "единица"
+    }
+  }
+}

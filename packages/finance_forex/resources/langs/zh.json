@@ -1,0 +1,50 @@
+{
+  "forex": {
+    "label": {
+      "commodities": "大宗商品",
+      "count": {
+        "pips": {
+          "few": "{} Pips",
+          "many": "{} Pips",
+          "one": "{} Pip",
+          "other": "{} Pips",
+          "zero": "{} Pips"
+        }
+      },
+      "cryptos": "加密货币",
+      "currency": {
+        "base": "基础货币",
+        "counter": "交易货币",
+        "pair": "货币对"
+      },
+      "lot": {
+        "micro": "微型手",
+        "mini": "迷你手",
+        "nano": "纳米手",
+        "size": "手数",
+        "standard": "标准手",
+        "text": "手"
+      },
+      "pip": {
+        "calculator": "点差计算器",
+        "difference": "点差差额",
+        "precision": "小数点",
+        "value": "点值"
+      },
+      "pips": {
+        "number": "点数",
+        "text": "Pips"
+      },
+      "stop_loss": {
+        "pips": "止损（Pips）"
+      },
+      "take_profit": {
+        "pips": "止盈（Pips）"
+      }
+    },
+    "select": {
+      "currency_pair": "选择货币对",
+      "pip_precision": "请选择一个小数"
+    }
+  }
+}

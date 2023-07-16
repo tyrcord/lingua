@@ -1,0 +1,50 @@
+{
+  "forex": {
+    "label": {
+      "commodities": "Matières premières",
+      "count": {
+        "pips": {
+          "few": "{} Pips",
+          "many": "{} Pips",
+          "one": "{} Pip",
+          "other": "{} Pips",
+          "zero": "{} Pip"
+        }
+      },
+      "cryptos": "Cryptomonnaies",
+      "currency": {
+        "base": "Devise de base",
+        "counter": "Devise de contrepartie",
+        "pair": "Paire de devises"
+      },
+      "lot": {
+        "micro": "Micro lot",
+        "mini": "Mini lot",
+        "nano": "Nano lot",
+        "size": "Taille du lot",
+        "standard": "Lot standard",
+        "text": "Lot"
+      },
+      "pip": {
+        "calculator": "Calculatrice de Pips",
+        "difference": "Différence de Pips",
+        "precision": "Point décimal du pip",
+        "value": "Valeur du pip"
+      },
+      "pips": {
+        "number": "Nombre de Pips",
+        "text": "Pips"
+      },
+      "stop_loss": {
+        "pips": "Stop de protection (Pips)"
+      },
+      "take_profit": {
+        "pips": "Prise de bénéfices (Pips)"
+      }
+    },
+    "select": {
+      "currency_pair": "Sélectionnez une paire de devises",
+      "pip_precision": "Sélectionnez une décimale"
+    }
+  }
+}
