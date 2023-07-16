@@ -1,6 +1,6 @@
 // ignore_for_file: constant_identifier_names
 
-abstract class Finance_instrumentLocaleKeys {
+abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_algerian_dinar = 'instrument.label.algerian_dinar';
   static const instrument_label_american_dollar = 'instrument.label.american_dollar';
   static const instrument_label_argentine_peso = 'instrument.label.argentine_peso';

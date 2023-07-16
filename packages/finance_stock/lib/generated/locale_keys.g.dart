@@ -1,6 +1,6 @@
 // ignore_for_file: constant_identifier_names
 
-abstract class Finance_stockLocaleKeys {
+abstract class FinanceStockLocaleKeys {
   static const stock_label_expected_annual_share_price_appreciation = 'stock.label.expected_annual_share_price_appreciation';
   static const stock_label_number_of_shares = 'stock.label.number_of_shares';
   static const stock_label_share_price = 'stock.label.share_price';

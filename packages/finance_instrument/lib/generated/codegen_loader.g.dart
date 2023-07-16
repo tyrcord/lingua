@@ -3,8 +3,8 @@ import 'dart:ui';
 
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
-class Finance_instrumentCodegenLoader extends AssetLoader {
-  const Finance_instrumentCodegenLoader();
+class FinanceInstrumentCodegenLoader extends AssetLoader {
+  const FinanceInstrumentCodegenLoader();
 
   @override
   Future<Map<String, dynamic>> load(String path, Locale locale ) {

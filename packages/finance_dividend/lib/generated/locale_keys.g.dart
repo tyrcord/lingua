@@ -1,6 +1,6 @@
 // ignore_for_file: constant_identifier_names
 
-abstract class Finance_dividendLocaleKeys {
+abstract class FinanceDividendLocaleKeys {
   static const dividend_label_annual_dividend_income = 'dividend.label.annual.dividend_income';
   static const dividend_label_annual_dividend_per_share = 'dividend.label.annual.dividend_per_share';
   static const dividend_label_annual_net_dividend_income = 'dividend.label.annual.net_dividend_income';

@@ -1,6 +1,6 @@
 // ignore_for_file: constant_identifier_names
 
-abstract class Finance_forexLocaleKeys {
+abstract class FinanceForexLocaleKeys {
   static const forex_label_commodities = 'forex.label.commodities';
   static const forex_label_count_pips = 'forex.label.count.pips';
   static const forex_label_count = 'forex.label.count';

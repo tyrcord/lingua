@@ -3,6 +3,7 @@ library lingua_core;
 import 'dart:ui';
 
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
+import 'package:lingua_core/generated/codegen_loader.g.dart';
 
 class LinguaLoader extends AssetLoader {
   final Map<String, Map<String, dynamic>> mapLocales;
@@ -19,7 +20,7 @@ class LinguaLoader extends AssetLoader {
   static Map<String, Map<String, dynamic>> mergeMapLocales(
     List<Map<String, Map<String, dynamic>>> mapLocales,
   ) {
-    return mapLocales.fold(
+    return [CoreCodegenLoader.mapLocales, ...mapLocales].fold(
       <String, Map<String, dynamic>>{},
       (combinedMap, mapLocale) {
         mapLocale.forEach((localeKey, map) {
