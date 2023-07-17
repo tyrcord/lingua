@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_core` - `v0.0.5`](#lingua_core---v005)
+
+---
+
+#### `lingua_core` - `v0.0.5`
+
+ - **FEAT**: escape special chars.
+
+
+## 2023-07-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_ad` - `v0.0.5`](#lingua_ad---v005)
  - [`lingua_core` - `v0.0.4`](#lingua_core---v004)
  - [`lingua_finance` - `v0.0.6`](#lingua_finance---v006)

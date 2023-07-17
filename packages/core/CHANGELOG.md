@@ -1,3 +1,7 @@
+## 0.0.5
+
+ - **FEAT**: escape special chars.
+
 ## 0.0.4
 
  - **FEAT**: update localization.
