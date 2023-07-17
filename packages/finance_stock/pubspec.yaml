@@ -1,6 +1,6 @@
 name: lingua_finance_stock
 description: Library for internal finance stock localization.
-version: 0.0.3
+version: 0.0.3+1
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance_stock
 
 environment:
