@@ -4,8 +4,16 @@
       "expected_annual_share_price_appreciation": "Erwartete jährliche Aktienkurssteigerung",
       "number_of_shares": "Anzahl der Aktien",
       "share_price": "Aktienkurs",
+      "shares": "Anteile",
       "shares_owned": "Gehaltene Aktien",
-      "stock": "Aktie"
+      "stock": "Aktien",
+      "stock_options": "Aktienoptionen"
+    },
+    "help": {
+      "slippage": {
+        "example": "Nehmen wir an, Sie möchten in den Markt eintreten, indem Sie eine Stop-Order zum Kauf einer Aktie zu $100 pro Aktie platzieren. Aufgrund der vorherrschenden Marktbedingungen und der begrenzten Verfügbarkeit von Verkäufern wird die Order jedoch zu einem leicht höheren Preis von $101 pro Aktie ausgeführt. In einem solchen Szenario beträgt die Slippage 1% ([$101 - $100] / $100 * 100%). Wenn Sie also eine Slippage von 1% beim Eintritt in den Markt erwarten, geben Sie bitte den Wert 1 ein.",
+        "text": "Stellt die erwartete Abweichung dar, auf die Sie beim Ein- oder Ausstieg aus dem Markt stoßen können. Bei Aufträgen mit Stop-Orders oder Stop-Losses kommt es häufig vor, dass sie nicht zum angegebenen Preis ausgeführt werden. Die Slippage, die als Prozentsatz ausgedrückt wird, berücksichtigt potenzielle Abweichungen, die sowohl für Ihre Einstiegs- als auch Ausstiegspreise auftreten können."
+      }
     }
   }
 }

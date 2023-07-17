@@ -11,12 +11,39 @@
       "open_price_between_low_high_price": "The opening price must be between the lowest price and the highest price.",
       "quote_refresh": "The quote for the selected financial instrument cannot be updated. Please try again later."
     },
+    "help": {
+      "account_balance": {
+        "example": "If you have $50,000 allocated for trading, please enter that amount here.",
+        "text": "Specify the current value of your capital."
+      },
+      "amount_at_risk": {
+        "example": "If your total capital is $50,000 and you wish to risk $1,000, enter $1,000 as the value",
+        "text": "This represents the specific amount of risk you desire to undertake for this trade, expressed as a monetary value relative to your capital."
+      },
+      "entry_fees": {
+        "example": "If your broker charges 0.1% of the total value of the position when you enter, enter 0.1 as the value.",
+        "text": "Represents the percentage of fees charged by your broker when opening a position."
+      },
+      "entry_price": {
+        "example": "If you intend to enter the market at the current price, please enter the current price as the value. However, if the current market price is $50 per share and you plan to enter at a different price, such as $55 per share, please enter $55 as the value.",
+        "text": "Represents the price at which you intend to enter the market, whether it is the current price or the price at which you plan to enter."
+      },
+      "exit_fees": {
+        "example": "If your broker charges 0.1% of the total value of the position when you exit, enter 0.1 as the value.",
+        "text": "Represents the percentage of fees charged by your broker when leaving a position."
+      },
+      "risk": {
+        "example": "If you are willing to risk 2% of your capital, and your total capital is $50,000, enter 2% ($1,000) as the value.",
+        "text": "Refers to the level of risk you are willing to assume for this transaction, expressed as a percentage relative to your capital."
+      },
+      "risk_reward_ratio": {
+        "example": "For example, if you enter 2, it means you are willing to risk $1 to potentially gain $2.",
+        "text": "Represents the ratio between the amount of risk and the amount of reward you are willing to assume for this trade."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Specify the current value of your capital.",
-          "label": "Account Balance"
-        },
+        "balance": "Account Balance",
         "currency": "Account Currency",
         "size": "Account Size"
       },
@@ -60,14 +87,26 @@
         "principal": "Ending Principal"
       },
       "entry": {
-        "fees": "Entry Fees",
-        "price": "Entry Price",
-        "price_at": "Entry Price at"
+        "fees": {
+          "amount": "Amount of entry fees",
+          "text": "Entry Fees"
+        },
+        "price": {
+          "at": "Entry Price at",
+          "text": "Entry Price",
+          "with_slippage": "Entry Price with Slippage"
+        }
       },
       "exit": {
-        "fees": "Exit Fees",
-        "price": "Exit Price",
-        "price_at": "Exit Price at"
+        "fees": {
+          "amount": "Amount of exit fees",
+          "text": "Exit Fees"
+        },
+        "price": {
+          "at": "Exit Price at",
+          "text": "Exit Price",
+          "with_slippage": "Exit Price with Slippage"
+        }
       },
       "expected_unit_sales": "Expected Unit Sales",
       "extension": "Extension",
@@ -81,6 +120,7 @@
       "gain_per_trade": "Gain per Trade",
       "gross_profit": "Gross Profit",
       "high_price": "High Price",
+      "iinvolved_capital": "Involved Capital",
       "indices": "Indices",
       "initial_investment": "Initial Investment",
       "interest_rate": "Interest Rate",
@@ -114,6 +154,7 @@
       },
       "pivot_points": "Pivot Points",
       "position": {
+        "amount": "Position Amount",
         "long": "Long",
         "short": "Short",
         "size": "Position Size",
@@ -138,10 +179,18 @@
       "resistance_level": "Resistance {level}",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
-      "risk": "Risk",
-      "risk_amount": "Risk Amount",
-      "risk_ratio": "Risk Ratio",
-      "risk_reward_ratio": "Risk-Reward Ratio",
+      "risk": {
+        "amount": "Amount at risk",
+        "effective": "Effective Risk",
+        "in_percentage": "Risk in Percentage",
+        "ratio": "Risk Ratio",
+        "reward": {
+          "ratio": "Risk-Reward Ratio",
+          "text": "Risk-Reward"
+        },
+        "text": "Risk",
+        "tolerated": "Tolerated Risk"
+      },
       "secondary_currency": "Secondary Currency",
       "sell": {
         "commission": "Sell Commission",
@@ -158,6 +207,19 @@
       "stop_loss": {
         "amount": "Stop Loss Amount",
         "at": "Stop Loss at",
+        "fees": {
+          "amount": "Stop Loss Fees Amount",
+          "text": "Stop Loss Fees"
+        },
+        "in_percentage": {
+          "text": "Stop Loss in Percentage",
+          "with_slippage": "Stop Loss in Percentage with Slippage"
+        },
+        "price": {
+          "at": "Stop Loss at",
+          "text": "Stop Loss",
+          "with_slippage": "Stop Loss with Slippage"
+        },
         "text": "Stop Loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
@@ -165,6 +227,15 @@
       "take_profit": {
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
+        "fees": {
+          "amount": "Amount of take profit fees",
+          "text": "Take Profit Fees"
+        },
+        "price": {
+          "at": "Take Profit at",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit with Slippage"
+        },
         "text": "Take Profit"
       },
       "tax": {
@@ -173,7 +244,11 @@
         "rate": "Tax Rate"
       },
       "total": {
-        "costs": "Total Costs",
+        "costs": {
+          "losing_position": "Total costs for a losing position.",
+          "profit_position": "Total costs for a winning position",
+          "text": "Total Costs"
+        },
         "gain": "Total Gain",
         "loss": "Total Loss",
         "return": "Total Return",

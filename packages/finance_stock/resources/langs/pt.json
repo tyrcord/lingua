@@ -1,11 +1,19 @@
 {
   "stock": {
     "label": {
-      "expected_annual_share_price_appreciation": "Valorização esperada anual das ações",
+      "expected_annual_share_price_appreciation": "Valorização anual esperada das ações",
       "number_of_shares": "Número de ações",
       "share_price": "Preço da ação",
+      "shares": "Cotas",
       "shares_owned": "Ações possuídas",
-      "stock": "Ação"
+      "stock": "Ações",
+      "stock_options": "Opções de ações"
+    },
+    "help": {
+      "slippage": {
+        "example": "Vamos supor que você pretende entrar no mercado colocando uma ordem de stop para comprar uma ação a $100 por ação. No entanto, devido às condições de mercado prevalecentes e à disponibilidade limitada de vendedores, a ordem acaba sendo executada a um preço ligeiramente mais alto de $101 por ação. Nesse cenário, a slippage seria de 1% ([$101 - $100] / $100 * 100%). Portanto, se você antecipar uma slippage de 1% ao entrar no mercado, por favor, insira o valor 1.",
+        "text": "Representa a variação esperada que você pode encontrar ao entrar ou sair do mercado. É comum que ordens colocadas com ordens de stop ou stop loss não sejam executadas no preço indicado exatamente. A slippage, expressa como uma porcentagem, considera as possíveis variações que podem ocorrer tanto para os preços de entrada quanto para os preços de saída."
+      }
     }
   }
 }

@@ -11,12 +11,39 @@
       "open_price_between_low_high_price": "Der Eröffnungspreis muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
       "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
     },
+    "help": {
+      "account_balance": {
+        "example": "Wenn Sie $50.000 für den Handel zur Verfügung haben, geben Sie bitte diesen Betrag hier ein.",
+        "text": "Geben Sie den aktuellen Wert Ihres Kapitals an."
+      },
+      "amount_at_risk": {
+        "example": "Wenn Ihr Gesamtkapital $50.000 beträgt und Sie $1.000 riskieren möchten, geben Sie $1.000 als Wert ein.",
+        "text": "Dies stellt den spezifischen Betrag des Risikos dar, den Sie für diesen Trade eingehen möchten, ausgedrückt als Geldbetrag in Bezug auf Ihr Kapital."
+      },
+      "entry_fees": {
+        "example": "Wenn Ihr Broker 0,1% des Gesamtwerts der Position berechnet, wenn Sie eintreten, geben Sie 0,1 als Wert ein.",
+        "text": "Stellt den Prozentsatz der Gebühren dar, die Ihr Broker beim Eröffnen einer Position erhebt."
+      },
+      "entry_price": {
+        "example": "Wenn Sie zum aktuellen Preis in den Markt eintreten möchten, geben Sie bitte den aktuellen Preis als Wert ein. Wenn jedoch der aktuelle Marktpreis $50 pro Aktie beträgt und Sie zu einem anderen Preis, z. B. $55 pro Aktie, eintreten möchten, geben Sie bitte $55 als Wert ein.",
+        "text": "Stellt den Preis dar, zu dem Sie beabsichtigen, in den Markt einzusteigen, unabhängig davon, ob es sich um den aktuellen Preis oder den Preis handelt, zu dem Sie eintreten möchten."
+      },
+      "exit_fees": {
+        "example": "Wenn Ihr Broker 0,1% des Gesamtwerts der Position berechnet, wenn Sie austreten, geben Sie 0,1 als Wert ein.",
+        "text": "Stellt den Prozentsatz der Gebühren dar, die Ihr Broker beim Verlassen einer Position erhebt."
+      },
+      "risk": {
+        "example": "Wenn Sie bereit sind, 2% Ihres Kapitals zu riskieren und Ihr Gesamtkapital $50.000 beträgt, geben Sie 2% ($1.000) als Wert ein.",
+        "text": "Bezieht sich auf das Risikoniveau, das Sie für diese Transaktion eingehen möchten, ausgedrückt als Prozentsatz in Bezug auf Ihr Kapital."
+      },
+      "risk_reward_ratio": {
+        "example": "Wenn Sie z. B. 2 eingeben, bedeutet dies, dass Sie bereit sind, $1 zu riskieren, um potenziell $2 zu gewinnen.",
+        "text": "Stellt das Verhältnis zwischen dem Risiko und der Belohnung dar, die Sie für diesen Trade eingehen möchten."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Geben Sie den aktuellen Wert Ihres Kapitals an.",
-          "label": "Kontostand"
-        },
+        "balance": "Kontostand",
         "currency": "Kontowährung",
         "size": "Kontogröße"
       },
@@ -60,14 +87,26 @@
         "principal": "Endkapital"
       },
       "entry": {
-        "fees": "Einstiegsgebühren",
-        "price": "Einstiegspreis",
-        "price_at": "Einstiegspreis bei"
+        "fees": {
+          "amount": "Höhe der Einstiegsgebühren",
+          "text": "Einstiegsgebühren"
+        },
+        "price": {
+          "at": "Einstiegspreis bei",
+          "text": "Einstiegspreis",
+          "with_slippage": "Einstiegspreis mit Schlupf"
+        }
       },
       "exit": {
-        "fees": "Ausstiegsgebühren",
-        "price": "Ausstiegspreis",
-        "price_at": "Ausstiegspreis bei"
+        "fees": {
+          "amount": "Höhe der Ausstiegsgebühren",
+          "text": "Ausstiegsgebühren"
+        },
+        "price": {
+          "at": "Ausstiegspreis bei",
+          "text": "Ausstiegspreis",
+          "with_slippage": "Ausstiegspreis mit Schlupf"
+        }
       },
       "expected_unit_sales": "Erwartete Stückverkäufe",
       "extension": "Erweiterung",
@@ -84,6 +123,7 @@
       "indices": "Indizes",
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
+      "involved_capital": "Investiertes Kapital",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",
       "loss_per_trade": "Verlust pro Trade",
@@ -114,9 +154,10 @@
       },
       "pivot_points": "Pivot-Punkte",
       "position": {
+        "amount": "Positionsgröße",
         "long": "Long",
         "short": "Short",
-        "size": "Positionsgröße",
+        "size": "Positionsumfang",
         "text": "Position"
       },
       "price": {
@@ -138,10 +179,18 @@
       "resistance_level": "Widerstand {level}",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
-      "risk": "Risiko",
-      "risk_amount": "Risikobetrag",
-      "risk_ratio": "Risikoverhältnis",
-      "risk_reward_ratio": "Risiko-Rendite-Verhältnis",
+      "risk": {
+        "amount": "Risikobetrag",
+        "effective": "Effektives Risiko",
+        "in_percentage": "Risiko in Prozent",
+        "ratio": "Risikoverhältnis",
+        "reward": {
+          "ratio": "Risiko-Rendite-Verhältnis",
+          "text": "Risiko-Rendite"
+        },
+        "text": "Risiko",
+        "tolerated": "Akzeptiertes Risiko"
+      },
       "secondary_currency": "Sekundärwährung",
       "sell": {
         "commission": "Verkaufskommission",
@@ -158,14 +207,36 @@
       "stop_loss": {
         "amount": "Stop-Loss-Betrag",
         "at": "Stop-Loss bei",
+        "fees": {
+          "amount": "Stop-Loss-Gebührenbetrag",
+          "text": "Stop-Loss-Gebühren"
+        },
+        "in_percentage": {
+          "text": "Stop-Loss in Prozent",
+          "with_slippage": "Stop-Loss in Prozent mit Slippage"
+        },
+        "price": {
+          "at": "Stop-Loss bei",
+          "text": "Stop-Loss",
+          "with_slippage": "Stop-Loss mit Slippage"
+        },
         "text": "Stop-Loss"
       },
       "stop_loss_take_profit": "Stop-Loss/Take-Profit",
       "support_level": "Unterstützung {level}",
       "take_profit": {
-        "amount": "Take-Profit-Betrag",
-        "at": "Take-Profit bei",
-        "text": "Take-Profit"
+        "amount": "Take Profit Betrag",
+        "at": "Take Profit bei",
+        "fees": {
+          "amount": "Höhe der Take Profit Gebühren",
+          "text": "Take Profit Gebühren"
+        },
+        "price": {
+          "at": "Take Profit bei",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit mit Slippage"
+        },
+        "text": "Take Profit"
       },
       "tax": {
         "amount": "Steuerbetrag",
@@ -173,7 +244,11 @@
         "rate": "Steuersatz"
       },
       "total": {
-        "costs": "Gesamtkosten",
+        "costs": {
+          "losing_position": "Gesamtkosten für eine Verlustposition.",
+          "profit_position": "Gesamtkosten für eine Gewinnposition.",
+          "text": "Gesamtkosten"
+        },
         "gain": "Gesamtgewinn",
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",

@@ -1,5 +1,8 @@
 {
   "ad": {
+    "disclaimer": {
+      "user_tracking": "Este identificador será usado para sugerir publicidade direcionada a você com base em seus interesses."
+    },
     "label": {
       "ad": "Anúncio",
       "advertisement": "Publicidade",
@@ -7,9 +10,6 @@
       "sponsored": "Patrocinado"
     },
     "message": {
-      "disclaimer": {
-        "user_tracking": "Este identificador será usado para sugerir publicidade direcionada a você com base em seus interesses."
-      },
       "discover_other_app": "Confira nossos outros aplicativos gratuitos!",
       "no_ads": "Sem anúncios"
     }

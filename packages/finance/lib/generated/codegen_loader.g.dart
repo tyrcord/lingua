@@ -24,12 +24,39 @@ class FinanceCodegenLoader extends AssetLoader {
       "open_price_between_low_high_price": "开盘价必须在最低价和最高价之间。",
       "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。"
     },
+    "help": {
+      "account_balance": {
+        "example": "如果您有$50,000用于交易，请在此处输入该金额。",
+        "text": "指定您当前资本的价值。"
+      },
+      "amount_at_risk": {
+        "example": "如果您的总资本为$50,000，您希望承担$1,000的风险，请将$1,000作为值输入。",
+        "text": "这代表您希望承担的特定交易风险金额，以您的资本为基础的货币价值表示。"
+      },
+      "entry_fees": {
+        "example": "如果您的经纪人在您进入时收取总持仓价值的0.1%，请输入0.1作为值。",
+        "text": "表示开仓时您的经纪人收取的费用百分比。"
+      },
+      "entry_price": {
+        "example": "如果您计划以当前价格进入市场，请将当前价格作为值输入。但是，如果当前市场价格为每股$50，您计划以不同的价格进入，例如每股$55，请将$55作为值输入。",
+        "text": "表示您计划进入市场的价格，无论是当前价格还是计划进入的价格。"
+      },
+      "exit_fees": {
+        "example": "如果您的经纪人在您退出时收取总持仓价值的0.1%，请输入0.1作为值。",
+        "text": "表示平仓时您的经纪人收取的费用百分比。"
+      },
+      "risk": {
+        "example": "如果您愿意承担2%的风险，并且您的总资本为$50,000，请输入2%（$1,000）作为值。",
+        "text": "指的是您愿意为此交易承担的风险级别，以您的资本为基础的百分比表达。"
+      },
+      "risk_reward_ratio": {
+        "example": "例如，如果您输入2，意味着您愿意冒险$1，以潜在地获得$2的回报。",
+        "text": "表示您愿意为此交易承担的风险和回报之间的比率。"
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "指定您资本的当前价值。",
-          "label": "账户余额"
-        },
+        "balance": "账户余额",
         "currency": "账户货币",
         "size": "账户规模"
       },
@@ -73,14 +100,26 @@ class FinanceCodegenLoader extends AssetLoader {
         "principal": "结余本金"
       },
       "entry": {
-        "fees": "入场费用",
-        "price": "入场价格",
-        "price_at": "入场价位"
+        "fees": {
+          "amount": "入场费金额",
+          "text": "入场费"
+        },
+        "price": {
+          "at": "入场价格为",
+          "text": "入场价格",
+          "with_slippage": "带滑点的入场价格"
+        }
       },
       "exit": {
-        "fees": "出场费用",
-        "price": "出场价格",
-        "price_at": "出场价位"
+        "fees": {
+          "amount": "退出费用金额",
+          "text": "退出费用"
+        },
+        "price": {
+          "at": "退出价格为",
+          "text": "退出价格",
+          "with_slippage": "带滑点的退出价格"
+        }
       },
       "expected_unit_sales": "预期销售单位",
       "extension": "扩展",
@@ -97,6 +136,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "indices": "指数",
       "initial_investment": "初始投资",
       "interest_rate": "利率",
+      "involved_capital": "参与资本",
       "leverage": "杠杆",
       "loss": "亏损",
       "loss_per_trade": "每笔交易亏损",
@@ -127,10 +167,11 @@ class FinanceCodegenLoader extends AssetLoader {
       },
       "pivot_points": "中枢点",
       "position": {
+        "amount": "持仓金额",
         "long": "多头",
         "short": "空头",
-        "size": "仓位规模",
-        "text": "仓位"
+        "size": "持仓规模",
+        "text": "持仓"
       },
       "price": {
         "a": "价格A",
@@ -151,10 +192,18 @@ class FinanceCodegenLoader extends AssetLoader {
       "resistance_level": "阻力位 {level}",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
-      "risk": "风险",
-      "risk_amount": "风险金额",
-      "risk_ratio": "风险比例",
-      "risk_reward_ratio": "风险-回报比",
+      "risk": {
+        "amount": "风险金额",
+        "effective": "有效风险",
+        "in_percentage": "百分比风险",
+        "ratio": "风险比率",
+        "reward": {
+          "ratio": "风险-回报比",
+          "text": "风险-回报"
+        },
+        "text": "风险",
+        "tolerated": "可容忍风险"
+      },
       "secondary_currency": "次要货币",
       "sell": {
         "commission": "卖出佣金",
@@ -170,15 +219,37 @@ class FinanceCodegenLoader extends AssetLoader {
       },
       "stop_loss": {
         "amount": "止损金额",
-        "at": "止损于",
+        "at": "止损位置",
+        "fees": {
+          "amount": "止损费用金额",
+          "text": "止损费用"
+        },
+        "in_percentage": {
+          "text": "百分比止损",
+          "with_slippage": "带滑点的百分比止损"
+        },
+        "price": {
+          "at": "止损位置",
+          "text": "止损",
+          "with_slippage": "滑点止损"
+        },
         "text": "止损"
       },
       "stop_loss_take_profit": "止损/获利",
       "support_level": "支撑位 {level}",
       "take_profit": {
-        "amount": "获利金额",
-        "at": "获利于",
-        "text": "获利"
+        "amount": "止盈金额",
+        "at": "止盈于",
+        "fees": {
+          "amount": "止盈费用金额",
+          "text": "止盈费用"
+        },
+        "price": {
+          "at": "止盈于",
+          "text": "止盈",
+          "with_slippage": "含滑点的止盈"
+        },
+        "text": "止盈"
       },
       "tax": {
         "amount": "税额",
@@ -186,7 +257,11 @@ class FinanceCodegenLoader extends AssetLoader {
         "rate": "税率"
       },
       "total": {
-        "costs": "总成本",
+        "costs": {
+          "losing_position": "亏损头寸的总成本。",
+          "profit_position": "盈利头寸的总成本。",
+          "text": "总成本"
+        },
         "gain": "总盈利",
         "loss": "总亏损",
         "return": "总回报",
@@ -234,12 +309,39 @@ static const Map<String,dynamic> ja = {
       "open_price_between_low_high_price": "始値は最低価格と最高価格の間である必要があります。",
       "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。"
     },
+    "help": {
+      "account_balance": {
+        "example": "トレード用に割り当てられた$50,000がある場合、ここにその金額を入力してください。",
+        "text": "現在の資本の価値を指定します。"
+      },
+      "amount_at_risk": {
+        "example": "総資本が$50,000であり、$1,000をリスクとしたい場合、値として$1,000を入力してください。",
+        "text": "資本に対する金銭的な価値として表される、この取引で望む特定のリスクの金額を示します。"
+      },
+      "entry_fees": {
+        "example": "ブローカーが建てる際にポジションの総額の0.1%を請求する場合は、値として0.1を入力してください。",
+        "text": "ポジションを建てる際にブローカーが請求する手数料の割合を表します。"
+      },
+      "entry_price": {
+        "example": "現在の価格で市場に参入する場合は、その価格を値として入力してください。ただし、現在の市場価格が1株あたり$50であり、$55などの異なる価格で参入する場合は、$55を値として入力してください。",
+        "text": "市場に参入する意図のある価格を表します。現在の価格である場合も、参入する価格である場合も構いません。"
+      },
+      "exit_fees": {
+        "example": "ブローカーが解消する際にポジションの総額の0.1%を請求する場合は、値として0.1を入力してください。",
+        "text": "ポジションを解消する際にブローカーが請求する手数料の割合を表します。"
+      },
+      "risk": {
+        "example": "資本の2%をリスクとして引き受ける覚悟があり、総資本が$50,000である場合、その値として2% ($1,000) を入力してください。",
+        "text": "この取引に対して引き受けるリスクのレベルを示し、資本に対する割合として表します。"
+      },
+      "risk_reward_ratio": {
+        "example": "例えば、2を入力すると、$1をリスクにして$2を得る覚悟があることを意味します。",
+        "text": "この取引に対して引き受けるリスクと報酬の量の比率を表します。"
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "現在の資本の価値を指定してください。",
-          "label": "口座残高"
-        },
+        "balance": "口座残高",
         "currency": "口座の通貨",
         "size": "口座のサイズ"
       },
@@ -283,14 +385,26 @@ static const Map<String,dynamic> ja = {
         "principal": "最終元本"
       },
       "entry": {
-        "fees": "入場手数料",
-        "price": "入場価格",
-        "price_at": "次の価格での入場"
+        "fees": {
+          "amount": "参加費の金額",
+          "text": "参加費"
+        },
+        "price": {
+          "at": "参加価格（現在）",
+          "text": "参加価格",
+          "with_slippage": "スリッページを考慮した参加価格"
+        }
       },
       "exit": {
-        "fees": "出場手数料",
-        "price": "出場価格",
-        "price_at": "次の価格での出場"
+        "fees": {
+          "amount": "退出費の金額",
+          "text": "退出費"
+        },
+        "price": {
+          "at": "退出価格（現在）",
+          "text": "退出価格",
+          "with_slippage": "スリッページを考慮した退出価格"
+        }
       },
       "expected_unit_sales": "予想ユニット売上高",
       "extension": "延長",
@@ -307,6 +421,7 @@ static const Map<String,dynamic> ja = {
       "indices": "インデックス",
       "initial_investment": "初期投資",
       "interest_rate": "利率",
+      "involved_capital": "関与する資本",
       "leverage": "レバレッジ",
       "loss": "損失",
       "loss_per_trade": "トレードごとの損失",
@@ -337,9 +452,10 @@ static const Map<String,dynamic> ja = {
       },
       "pivot_points": "ピボットポイント",
       "position": {
+        "amount": "ポジションの金額",
         "long": "ロング",
         "short": "ショート",
-        "size": "ポジションのサイズ",
+        "size": "ポジションサイズ",
         "text": "ポジション"
       },
       "price": {
@@ -361,10 +477,18 @@ static const Map<String,dynamic> ja = {
       "resistance_level": "抵抗レベル{level}",
       "retracement": "リトレースメント",
       "return_on_investment": "投資利益率",
-      "risk": "リスク",
-      "risk_amount": "リスク金額",
-      "risk_ratio": "リスク比率",
-      "risk_reward_ratio": "リスクリワード比率",
+      "risk": {
+        "amount": "リスク額",
+        "effective": "有効リスク",
+        "in_percentage": "パーセンテージ表示のリスク",
+        "ratio": "リスク比率",
+        "reward": {
+          "ratio": "リスクリワード比率",
+          "text": "リスクリワード"
+        },
+        "text": "リスク",
+        "tolerated": "許容リスク"
+      },
       "secondary_currency": "副次通貨",
       "sell": {
         "commission": "売却手数料",
@@ -380,14 +504,36 @@ static const Map<String,dynamic> ja = {
       },
       "stop_loss": {
         "amount": "ストップロス金額",
-        "at": "ストップロス時",
+        "at": "ストップロス位置",
+        "fees": {
+          "amount": "ストップロス手数料金額",
+          "text": "ストップロス手数料"
+        },
+        "in_percentage": {
+          "text": "パーセンテージでのストップロス",
+          "with_slippage": "スリッページ付きパーセンテージでのストップロス"
+        },
+        "price": {
+          "at": "ストップロス位置",
+          "text": "ストップロス",
+          "with_slippage": "スリッページ付きストップロス"
+        },
         "text": "ストップロス"
       },
       "stop_loss_take_profit": "ストップロス/利益確定",
       "support_level": "サポートレベル{level}",
       "take_profit": {
-        "amount": "利益確定金額",
-        "at": "利益確定時",
+        "amount": "利益確定額",
+        "at": "利益確定",
+        "fees": {
+          "amount": "利益確定手数料額",
+          "text": "利益確定手数料"
+        },
+        "price": {
+          "at": "利益確定",
+          "text": "利益確定",
+          "with_slippage": "スリッページを考慮した利益確定"
+        },
         "text": "利益確定"
       },
       "tax": {
@@ -396,7 +542,11 @@ static const Map<String,dynamic> ja = {
         "rate": "税率"
       },
       "total": {
-        "costs": "総コスト",
+        "costs": {
+          "losing_position": "敗北したポジションの総コスト。",
+          "profit_position": "勝利したポジションの総コスト。",
+          "text": "総コスト"
+        },
         "gain": "総利益",
         "loss": "総損失",
         "return": "総収益",
@@ -444,12 +594,39 @@ static const Map<String,dynamic> de = {
       "open_price_between_low_high_price": "Der Eröffnungspreis muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
       "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
     },
+    "help": {
+      "account_balance": {
+        "example": "Wenn Sie $50.000 für den Handel zur Verfügung haben, geben Sie bitte diesen Betrag hier ein.",
+        "text": "Geben Sie den aktuellen Wert Ihres Kapitals an."
+      },
+      "amount_at_risk": {
+        "example": "Wenn Ihr Gesamtkapital $50.000 beträgt und Sie $1.000 riskieren möchten, geben Sie $1.000 als Wert ein.",
+        "text": "Dies stellt den spezifischen Betrag des Risikos dar, den Sie für diesen Trade eingehen möchten, ausgedrückt als Geldbetrag in Bezug auf Ihr Kapital."
+      },
+      "entry_fees": {
+        "example": "Wenn Ihr Broker 0,1% des Gesamtwerts der Position berechnet, wenn Sie eintreten, geben Sie 0,1 als Wert ein.",
+        "text": "Stellt den Prozentsatz der Gebühren dar, die Ihr Broker beim Eröffnen einer Position erhebt."
+      },
+      "entry_price": {
+        "example": "Wenn Sie zum aktuellen Preis in den Markt eintreten möchten, geben Sie bitte den aktuellen Preis als Wert ein. Wenn jedoch der aktuelle Marktpreis $50 pro Aktie beträgt und Sie zu einem anderen Preis, z. B. $55 pro Aktie, eintreten möchten, geben Sie bitte $55 als Wert ein.",
+        "text": "Stellt den Preis dar, zu dem Sie beabsichtigen, in den Markt einzusteigen, unabhängig davon, ob es sich um den aktuellen Preis oder den Preis handelt, zu dem Sie eintreten möchten."
+      },
+      "exit_fees": {
+        "example": "Wenn Ihr Broker 0,1% des Gesamtwerts der Position berechnet, wenn Sie austreten, geben Sie 0,1 als Wert ein.",
+        "text": "Stellt den Prozentsatz der Gebühren dar, die Ihr Broker beim Verlassen einer Position erhebt."
+      },
+      "risk": {
+        "example": "Wenn Sie bereit sind, 2% Ihres Kapitals zu riskieren und Ihr Gesamtkapital $50.000 beträgt, geben Sie 2% ($1.000) als Wert ein.",
+        "text": "Bezieht sich auf das Risikoniveau, das Sie für diese Transaktion eingehen möchten, ausgedrückt als Prozentsatz in Bezug auf Ihr Kapital."
+      },
+      "risk_reward_ratio": {
+        "example": "Wenn Sie z. B. 2 eingeben, bedeutet dies, dass Sie bereit sind, $1 zu riskieren, um potenziell $2 zu gewinnen.",
+        "text": "Stellt das Verhältnis zwischen dem Risiko und der Belohnung dar, die Sie für diesen Trade eingehen möchten."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Geben Sie den aktuellen Wert Ihres Kapitals an.",
-          "label": "Kontostand"
-        },
+        "balance": "Kontostand",
         "currency": "Kontowährung",
         "size": "Kontogröße"
       },
@@ -493,14 +670,26 @@ static const Map<String,dynamic> de = {
         "principal": "Endkapital"
       },
       "entry": {
-        "fees": "Einstiegsgebühren",
-        "price": "Einstiegspreis",
-        "price_at": "Einstiegspreis bei"
+        "fees": {
+          "amount": "Höhe der Einstiegsgebühren",
+          "text": "Einstiegsgebühren"
+        },
+        "price": {
+          "at": "Einstiegspreis bei",
+          "text": "Einstiegspreis",
+          "with_slippage": "Einstiegspreis mit Schlupf"
+        }
       },
       "exit": {
-        "fees": "Ausstiegsgebühren",
-        "price": "Ausstiegspreis",
-        "price_at": "Ausstiegspreis bei"
+        "fees": {
+          "amount": "Höhe der Ausstiegsgebühren",
+          "text": "Ausstiegsgebühren"
+        },
+        "price": {
+          "at": "Ausstiegspreis bei",
+          "text": "Ausstiegspreis",
+          "with_slippage": "Ausstiegspreis mit Schlupf"
+        }
       },
       "expected_unit_sales": "Erwartete Stückverkäufe",
       "extension": "Erweiterung",
@@ -517,6 +706,7 @@ static const Map<String,dynamic> de = {
       "indices": "Indizes",
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
+      "involved_capital": "Investiertes Kapital",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",
       "loss_per_trade": "Verlust pro Trade",
@@ -547,9 +737,10 @@ static const Map<String,dynamic> de = {
       },
       "pivot_points": "Pivot-Punkte",
       "position": {
+        "amount": "Positionsgröße",
         "long": "Long",
         "short": "Short",
-        "size": "Positionsgröße",
+        "size": "Positionsumfang",
         "text": "Position"
       },
       "price": {
@@ -571,10 +762,18 @@ static const Map<String,dynamic> de = {
       "resistance_level": "Widerstand {level}",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
-      "risk": "Risiko",
-      "risk_amount": "Risikobetrag",
-      "risk_ratio": "Risikoverhältnis",
-      "risk_reward_ratio": "Risiko-Rendite-Verhältnis",
+      "risk": {
+        "amount": "Risikobetrag",
+        "effective": "Effektives Risiko",
+        "in_percentage": "Risiko in Prozent",
+        "ratio": "Risikoverhältnis",
+        "reward": {
+          "ratio": "Risiko-Rendite-Verhältnis",
+          "text": "Risiko-Rendite"
+        },
+        "text": "Risiko",
+        "tolerated": "Akzeptiertes Risiko"
+      },
       "secondary_currency": "Sekundärwährung",
       "sell": {
         "commission": "Verkaufskommission",
@@ -591,14 +790,36 @@ static const Map<String,dynamic> de = {
       "stop_loss": {
         "amount": "Stop-Loss-Betrag",
         "at": "Stop-Loss bei",
+        "fees": {
+          "amount": "Stop-Loss-Gebührenbetrag",
+          "text": "Stop-Loss-Gebühren"
+        },
+        "in_percentage": {
+          "text": "Stop-Loss in Prozent",
+          "with_slippage": "Stop-Loss in Prozent mit Slippage"
+        },
+        "price": {
+          "at": "Stop-Loss bei",
+          "text": "Stop-Loss",
+          "with_slippage": "Stop-Loss mit Slippage"
+        },
         "text": "Stop-Loss"
       },
       "stop_loss_take_profit": "Stop-Loss/Take-Profit",
       "support_level": "Unterstützung {level}",
       "take_profit": {
-        "amount": "Take-Profit-Betrag",
-        "at": "Take-Profit bei",
-        "text": "Take-Profit"
+        "amount": "Take Profit Betrag",
+        "at": "Take Profit bei",
+        "fees": {
+          "amount": "Höhe der Take Profit Gebühren",
+          "text": "Take Profit Gebühren"
+        },
+        "price": {
+          "at": "Take Profit bei",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit mit Slippage"
+        },
+        "text": "Take Profit"
       },
       "tax": {
         "amount": "Steuerbetrag",
@@ -606,7 +827,11 @@ static const Map<String,dynamic> de = {
         "rate": "Steuersatz"
       },
       "total": {
-        "costs": "Gesamtkosten",
+        "costs": {
+          "losing_position": "Gesamtkosten für eine Verlustposition.",
+          "profit_position": "Gesamtkosten für eine Gewinnposition.",
+          "text": "Gesamtkosten"
+        },
         "gain": "Gesamtgewinn",
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",
@@ -654,12 +879,39 @@ static const Map<String,dynamic> ru = {
       "open_price_between_low_high_price": "Цена открытия должна находиться между самой низкой и самой высокой ценой.",
       "quote_refresh": "Не удалось обновить котировку выбранного финансового инструмента. Пожалуйста, попробуйте еще раз позже."
     },
+    "help": {
+      "account_balance": {
+        "example": "Если у вас есть $50 000 для торговли, пожалуйста, введите эту сумму здесь.",
+        "text": "Укажите текущую стоимость вашего капитала."
+      },
+      "amount_at_risk": {
+        "example": "Если ваш общий капитал составляет $50 000, и вы хотите рискнуть $1 000, введите $1 000 в качестве значения.",
+        "text": "Представляет собой конкретную сумму риска, которую вы хотите взять на себя для этой сделки, выраженную в денежном выражении относительно вашего капитала."
+      },
+      "entry_fees": {
+        "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при входе, введите 0,1 в качестве значения.",
+        "text": "Представляет собой процент комиссии, взимаемой вашим брокером при открытии позиции."
+      },
+      "entry_price": {
+        "example": "Если вы планируете войти на рынок по текущей цене, пожалуйста, введите текущую цену в качестве значения. Однако, если текущая рыночная цена составляет $50 за акцию, и вы планируете войти по другой цене, например, $55 за акцию, пожалуйста, введите $55 в качестве значения.",
+        "text": "Представляет собой цену, по которой вы планируете войти на рынок, будь то текущая цена или цена, по которой вы планируете войти."
+      },
+      "exit_fees": {
+        "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при выходе, введите 0,1 в качестве значения.",
+        "text": "Представляет собой процент комиссии, взимаемой вашим брокером при закрытии позиции."
+      },
+      "risk": {
+        "example": "Если вы готовы рисковать 2% от вашего капитала, и ваш общий капитал составляет $50 000, введите 2% ($1 000) в качестве значения.",
+        "text": "Относится к уровню риска, который вы готовы принять для этой сделки, выраженному в процентах относительно вашего капитала."
+      },
+      "risk_reward_ratio": {
+        "example": "Например, если вы вводите 2, это означает, что вы готовы рискнуть $1, чтобы потенциально получить $2.",
+        "text": "Представляет собой соотношение между количеством риска и количеством вознаграждения, которое вы готовы принять для этой сделки."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Укажите текущую стоимость вашего капитала.",
-          "label": "Баланс счета"
-        },
+        "balance": "Баланс счета",
         "currency": "Валюта счета",
         "size": "Размер счета"
       },
@@ -703,14 +955,26 @@ static const Map<String,dynamic> ru = {
         "principal": "Конечный основной капитал"
       },
       "entry": {
-        "fees": "Входные комиссии",
-        "price": "Цена входа",
-        "price_at": "Цена входа на"
+        "fees": {
+          "amount": "Сумма входных комиссий",
+          "text": "Входные комиссии"
+        },
+        "price": {
+          "at": "Цена при входе на",
+          "text": "Цена при входе",
+          "with_slippage": "Цена при входе с проскальзыванием"
+        }
       },
       "exit": {
-        "fees": "Выходные комиссии",
-        "price": "Цена выхода",
-        "price_at": "Цена выхода на"
+        "fees": {
+          "amount": "Сумма выходных комиссий",
+          "text": "Выходные комиссии"
+        },
+        "price": {
+          "at": "Цена при выходе на",
+          "text": "Цена при выходе",
+          "with_slippage": "Цена при выходе с проскальзыванием"
+        }
       },
       "expected_unit_sales": "Ожидаемые единицы продажи",
       "extension": "Расширение",
@@ -727,6 +991,7 @@ static const Map<String,dynamic> ru = {
       "indices": "Индексы",
       "initial_investment": "Начальные инвестиции",
       "interest_rate": "Процентная ставка",
+      "involved_capital": "Вовлеченный капитал",
       "leverage": "Плечо",
       "loss": "Убыток",
       "loss_per_trade": "Убыток с каждой сделки",
@@ -757,6 +1022,7 @@ static const Map<String,dynamic> ru = {
       },
       "pivot_points": "Точки пивота",
       "position": {
+        "amount": "Сумма позиции",
         "long": "Длинная позиция",
         "short": "Короткая позиция",
         "size": "Размер позиции",
@@ -781,10 +1047,18 @@ static const Map<String,dynamic> ru = {
       "resistance_level": "Уровень сопротивления {level}",
       "retracement": "Ретрейсмент",
       "return_on_investment": "Рентабельность инвестиций",
-      "risk": "Риск",
-      "risk_amount": "Сумма риска",
-      "risk_ratio": "Отношение риска",
-      "risk_reward_ratio": "Отношение риска и вознаграждения",
+      "risk": {
+        "amount": "Сумма риска",
+        "effective": "Эффективный риск",
+        "in_percentage": "Риск в процентах",
+        "ratio": "Риск-отношение",
+        "reward": {
+          "ratio": "Отношение риск-награда",
+          "text": "Риск-награда"
+        },
+        "text": "Риск",
+        "tolerated": "Приемлемый риск"
+      },
       "secondary_currency": "Вторичная валюта",
       "sell": {
         "commission": "Комиссия за продажу",
@@ -801,14 +1075,36 @@ static const Map<String,dynamic> ru = {
       "stop_loss": {
         "amount": "Сумма стоп-лосса",
         "at": "Стоп-лосс на",
+        "fees": {
+          "amount": "Сумма комиссии стоп-лосса",
+          "text": "Комиссия стоп-лосса"
+        },
+        "in_percentage": {
+          "text": "Стоп-лосс в процентах",
+          "with_slippage": "Стоп-лосс в процентах со слиппажем"
+        },
+        "price": {
+          "at": "Стоп-лосс на",
+          "text": "Стоп-лосс",
+          "with_slippage": "Стоп-лосс со слиппажем"
+        },
         "text": "Стоп-лосс"
       },
       "stop_loss_take_profit": "Стоп-лосс/Тейк-профит",
       "support_level": "Уровень поддержки {level}",
       "take_profit": {
-        "amount": "Сумма тейк-профита",
-        "at": "Тейк-профит на",
-        "text": "Тейк-профит"
+        "amount": "Сумма Take Profit",
+        "at": "Take Profit при",
+        "fees": {
+          "amount": "Сумма комиссии Take Profit",
+          "text": "Комиссия Take Profit"
+        },
+        "price": {
+          "at": "Take Profit при",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit с проскальзыванием"
+        },
+        "text": "Take Profit"
       },
       "tax": {
         "amount": "Сумма налога",
@@ -816,7 +1112,11 @@ static const Map<String,dynamic> ru = {
         "rate": "Ставка налога"
       },
       "total": {
-        "costs": "Общие затраты",
+        "costs": {
+          "losing_position": "Общие затраты на убыточную позицию.",
+          "profit_position": "Общие затраты на прибыльную позицию.",
+          "text": "Общие затраты"
+        },
         "gain": "Общая прибыль",
         "loss": "Общий убыток",
         "return": "Общий доход",
@@ -864,12 +1164,39 @@ static const Map<String,dynamic> pt = {
       "open_price_between_low_high_price": "O preço de abertura deve estar entre o preço mais baixo e o preço mais alto.",
       "quote_refresh": "A cotação do instrumento financeiro selecionado não pode ser atualizada. Por favor, tente novamente mais tarde."
     },
+    "help": {
+      "account_balance": {
+        "example": "Se você possui $50.000 alocados para negociação, por favor, insira esse valor aqui.",
+        "text": "Especifique o valor atual do seu capital."
+      },
+      "amount_at_risk": {
+        "example": "Se seu capital total é de $50.000 e você deseja arriscar $1.000, insira $1.000 como valor.",
+        "text": "Isso representa a quantidade específica de risco que você deseja assumir para essa negociação, expressa como um valor monetário em relação ao seu capital."
+      },
+      "entry_fees": {
+        "example": "Se sua corretora cobra 0,1% do valor total da posição ao entrar, insira 0,1 como valor.",
+        "text": "Representa a porcentagem de taxas cobradas pela sua corretora ao abrir uma posição."
+      },
+      "entry_price": {
+        "example": "Se você pretende entrar no mercado pelo preço atual, por favor insira o preço atual como valor. No entanto, se o preço atual de mercado for de $50 por ação e você planeja entrar em um preço diferente, como $55 por ação, por favor insira $55 como valor.",
+        "text": "Representa o preço pelo qual você pretende entrar no mercado, seja o preço atual ou o preço pelo qual você planeja entrar."
+      },
+      "exit_fees": {
+        "example": "Se sua corretora cobra 0,1% do valor total da posição ao sair, insira 0,1 como valor.",
+        "text": "Representa a porcentagem de taxas cobradas pela sua corretora ao sair de uma posição."
+      },
+      "risk": {
+        "example": "Se você está disposto a arriscar 2% do seu capital, e seu capital total é de $50.000, insira 2% ($1.000) como valor.",
+        "text": "Refere-se ao nível de risco que você está disposto a assumir para essa transação, expresso como uma porcentagem em relação ao seu capital."
+      },
+      "risk_reward_ratio": {
+        "example": "Por exemplo, se você inserir 2, significa que você está disposto a arriscar $1 para potencialmente ganhar $2.",
+        "text": "Representa a proporção entre a quantidade de risco e a quantidade de recompensa que você está disposto a assumir para essa negociação."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Especifique o valor atual do seu capital.",
-          "label": "Saldo da conta"
-        },
+        "balance": "Saldo da conta",
         "currency": "Moeda da conta",
         "size": "Tamanho da conta"
       },
@@ -913,14 +1240,26 @@ static const Map<String,dynamic> pt = {
         "principal": "Principal final"
       },
       "entry": {
-        "fees": "Taxas de entrada",
-        "price": "Preço de entrada",
-        "price_at": "Preço de entrada em"
+        "fees": {
+          "amount": "Valor das taxas de entrada",
+          "text": "Taxas de entrada"
+        },
+        "price": {
+          "at": "Preço de entrada em",
+          "text": "Preço de entrada",
+          "with_slippage": "Preço de entrada com deslizamento"
+        }
       },
       "exit": {
-        "fees": "Taxas de saída",
-        "price": "Preço de saída",
-        "price_at": "Preço de saída em"
+        "fees": {
+          "amount": "Valor das taxas de saída",
+          "text": "Taxas de saída"
+        },
+        "price": {
+          "at": "Preço de saída em",
+          "text": "Preço de saída",
+          "with_slippage": "Preço de saída com deslizamento"
+        }
       },
       "expected_unit_sales": "Vendas unitárias esperadas",
       "extension": "Extensão",
@@ -937,6 +1276,7 @@ static const Map<String,dynamic> pt = {
       "indices": "Índices",
       "initial_investment": "Investimento inicial",
       "interest_rate": "Taxa de juros",
+      "involved_capital": "Capital envolvido",
       "leverage": "Alavancagem",
       "loss": "Perda",
       "loss_per_trade": "Perda por operação",
@@ -967,6 +1307,7 @@ static const Map<String,dynamic> pt = {
       },
       "pivot_points": "Pontos de Pivô",
       "position": {
+        "amount": "Valor da posição",
         "long": "Longo",
         "short": "Curto",
         "size": "Tamanho da posição",
@@ -991,10 +1332,18 @@ static const Map<String,dynamic> pt = {
       "resistance_level": "Nível de resistência {level}",
       "retracement": "Retração",
       "return_on_investment": "Retorno sobre o investimento",
-      "risk": "Risco",
-      "risk_amount": "Valor do risco",
-      "risk_ratio": "Razão de risco",
-      "risk_reward_ratio": "Razão de Risco-Retorno",
+      "risk": {
+        "amount": "Valor em risco",
+        "effective": "Risco Efetivo",
+        "in_percentage": "Risco em Percentagem",
+        "ratio": "Razão de Risco",
+        "reward": {
+          "ratio": "Razão Risco-Recompensa",
+          "text": "Risco-Recompensa"
+        },
+        "text": "Risco",
+        "tolerated": "Risco Tolerado"
+      },
       "secondary_currency": "Moeda secundária",
       "sell": {
         "commission": "Comissão de venda",
@@ -1009,15 +1358,37 @@ static const Map<String,dynamic> pt = {
         "principal": "Principal inicial"
       },
       "stop_loss": {
-        "amount": "Valor do stop loss",
+        "amount": "Valor de Stop Loss",
         "at": "Stop Loss em",
+        "fees": {
+          "amount": "Valor de taxas de Stop Loss",
+          "text": "Taxas de Stop Loss"
+        },
+        "in_percentage": {
+          "text": "Stop Loss em porcentagem",
+          "with_slippage": "Stop Loss em porcentagem com derrapagem"
+        },
+        "price": {
+          "at": "Stop Loss em",
+          "text": "Stop Loss",
+          "with_slippage": "Stop Loss com derrapagem"
+        },
         "text": "Stop Loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "support_level": "Nível de suporte {level}",
       "take_profit": {
-        "amount": "Valor do take profit",
+        "amount": "Valor de Take Profit",
         "at": "Take Profit em",
+        "fees": {
+          "amount": "Valor das taxas de Take Profit",
+          "text": "Taxas de Take Profit"
+        },
+        "price": {
+          "at": "Take Profit em",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit com Deslizamento"
+        },
         "text": "Take Profit"
       },
       "tax": {
@@ -1026,7 +1397,11 @@ static const Map<String,dynamic> pt = {
         "rate": "Taxa de imposto"
       },
       "total": {
-        "costs": "Custos totais",
+        "costs": {
+          "losing_position": "Custos totais para uma posição perdedora.",
+          "profit_position": "Custos totais para uma posição vencedora.",
+          "text": "Custos Totais"
+        },
         "gain": "Ganho total",
         "loss": "Perda total",
         "return": "Retorno total",
@@ -1074,12 +1449,39 @@ static const Map<String,dynamic> en = {
       "open_price_between_low_high_price": "The opening price must be between the lowest price and the highest price.",
       "quote_refresh": "The quote for the selected financial instrument cannot be updated. Please try again later."
     },
+    "help": {
+      "account_balance": {
+        "example": "If you have $50,000 allocated for trading, please enter that amount here.",
+        "text": "Specify the current value of your capital."
+      },
+      "amount_at_risk": {
+        "example": "If your total capital is $50,000 and you wish to risk $1,000, enter $1,000 as the value",
+        "text": "This represents the specific amount of risk you desire to undertake for this trade, expressed as a monetary value relative to your capital."
+      },
+      "entry_fees": {
+        "example": "If your broker charges 0.1% of the total value of the position when you enter, enter 0.1 as the value.",
+        "text": "Represents the percentage of fees charged by your broker when opening a position."
+      },
+      "entry_price": {
+        "example": "If you intend to enter the market at the current price, please enter the current price as the value. However, if the current market price is $50 per share and you plan to enter at a different price, such as $55 per share, please enter $55 as the value.",
+        "text": "Represents the price at which you intend to enter the market, whether it is the current price or the price at which you plan to enter."
+      },
+      "exit_fees": {
+        "example": "If your broker charges 0.1% of the total value of the position when you exit, enter 0.1 as the value.",
+        "text": "Represents the percentage of fees charged by your broker when leaving a position."
+      },
+      "risk": {
+        "example": "If you are willing to risk 2% of your capital, and your total capital is $50,000, enter 2% ($1,000) as the value.",
+        "text": "Refers to the level of risk you are willing to assume for this transaction, expressed as a percentage relative to your capital."
+      },
+      "risk_reward_ratio": {
+        "example": "For example, if you enter 2, it means you are willing to risk $1 to potentially gain $2.",
+        "text": "Represents the ratio between the amount of risk and the amount of reward you are willing to assume for this trade."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Specify the current value of your capital.",
-          "label": "Account Balance"
-        },
+        "balance": "Account Balance",
         "currency": "Account Currency",
         "size": "Account Size"
       },
@@ -1123,14 +1525,26 @@ static const Map<String,dynamic> en = {
         "principal": "Ending Principal"
       },
       "entry": {
-        "fees": "Entry Fees",
-        "price": "Entry Price",
-        "price_at": "Entry Price at"
+        "fees": {
+          "amount": "Amount of entry fees",
+          "text": "Entry Fees"
+        },
+        "price": {
+          "at": "Entry Price at",
+          "text": "Entry Price",
+          "with_slippage": "Entry Price with Slippage"
+        }
       },
       "exit": {
-        "fees": "Exit Fees",
-        "price": "Exit Price",
-        "price_at": "Exit Price at"
+        "fees": {
+          "amount": "Amount of exit fees",
+          "text": "Exit Fees"
+        },
+        "price": {
+          "at": "Exit Price at",
+          "text": "Exit Price",
+          "with_slippage": "Exit Price with Slippage"
+        }
       },
       "expected_unit_sales": "Expected Unit Sales",
       "extension": "Extension",
@@ -1144,6 +1558,7 @@ static const Map<String,dynamic> en = {
       "gain_per_trade": "Gain per Trade",
       "gross_profit": "Gross Profit",
       "high_price": "High Price",
+      "iinvolved_capital": "Involved Capital",
       "indices": "Indices",
       "initial_investment": "Initial Investment",
       "interest_rate": "Interest Rate",
@@ -1177,6 +1592,7 @@ static const Map<String,dynamic> en = {
       },
       "pivot_points": "Pivot Points",
       "position": {
+        "amount": "Position Amount",
         "long": "Long",
         "short": "Short",
         "size": "Position Size",
@@ -1201,10 +1617,18 @@ static const Map<String,dynamic> en = {
       "resistance_level": "Resistance {level}",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
-      "risk": "Risk",
-      "risk_amount": "Risk Amount",
-      "risk_ratio": "Risk Ratio",
-      "risk_reward_ratio": "Risk-Reward Ratio",
+      "risk": {
+        "amount": "Amount at risk",
+        "effective": "Effective Risk",
+        "in_percentage": "Risk in Percentage",
+        "ratio": "Risk Ratio",
+        "reward": {
+          "ratio": "Risk-Reward Ratio",
+          "text": "Risk-Reward"
+        },
+        "text": "Risk",
+        "tolerated": "Tolerated Risk"
+      },
       "secondary_currency": "Secondary Currency",
       "sell": {
         "commission": "Sell Commission",
@@ -1221,6 +1645,19 @@ static const Map<String,dynamic> en = {
       "stop_loss": {
         "amount": "Stop Loss Amount",
         "at": "Stop Loss at",
+        "fees": {
+          "amount": "Stop Loss Fees Amount",
+          "text": "Stop Loss Fees"
+        },
+        "in_percentage": {
+          "text": "Stop Loss in Percentage",
+          "with_slippage": "Stop Loss in Percentage with Slippage"
+        },
+        "price": {
+          "at": "Stop Loss at",
+          "text": "Stop Loss",
+          "with_slippage": "Stop Loss with Slippage"
+        },
         "text": "Stop Loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
@@ -1228,6 +1665,15 @@ static const Map<String,dynamic> en = {
       "take_profit": {
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
+        "fees": {
+          "amount": "Amount of take profit fees",
+          "text": "Take Profit Fees"
+        },
+        "price": {
+          "at": "Take Profit at",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit with Slippage"
+        },
         "text": "Take Profit"
       },
       "tax": {
@@ -1236,7 +1682,11 @@ static const Map<String,dynamic> en = {
         "rate": "Tax Rate"
       },
       "total": {
-        "costs": "Total Costs",
+        "costs": {
+          "losing_position": "Total costs for a losing position.",
+          "profit_position": "Total costs for a winning position",
+          "text": "Total Costs"
+        },
         "gain": "Total Gain",
         "loss": "Total Loss",
         "return": "Total Return",
@@ -1284,12 +1734,39 @@ static const Map<String,dynamic> it = {
       "open_price_between_low_high_price": "Il prezzo di apertura deve essere compreso tra il prezzo più basso e il prezzo più alto.",
       "quote_refresh": "La quotazione dello strumento finanziario selezionato non può essere aggiornata. Riprova più tardi."
     },
+    "help": {
+      "account_balance": {
+        "example": "Se hai $50.000 destinati al trading, inserisci qui tale importo.",
+        "text": "Specifica il valore attuale del tuo capitale."
+      },
+      "amount_at_risk": {
+        "example": "Se il tuo capitale totale è di $50.000 e desideri rischiare $1.000, inserisci $1.000 come valore.",
+        "text": "Rappresenta la specifica quantità di rischio che desideri assumere per questo trade, espressa come valore monetario relativo al tuo capitale."
+      },
+      "entry_fees": {
+        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'ingresso, inserisci 0,1 come valore.",
+        "text": "Rappresenta la percentuale di commissioni addebitate dal tuo broker all'apertura di una posizione."
+      },
+      "entry_price": {
+        "example": "Se intendi entrare sul mercato al prezzo corrente, inserisci il prezzo corrente come valore. Tuttavia, se il prezzo di mercato corrente è di $50 per azione e prevedi di entrare a un prezzo diverso, come $55 per azione, inserisci $55 come valore.",
+        "text": "Rappresenta il prezzo a cui intendi entrare sul mercato, che sia il prezzo corrente o il prezzo a cui prevedi di entrare."
+      },
+      "exit_fees": {
+        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'uscita, inserisci 0,1 come valore.",
+        "text": "Rappresenta la percentuale di commissioni addebitate dal tuo broker all'uscita di una posizione."
+      },
+      "risk": {
+        "example": "Se sei disposto a rischiare il 2% del tuo capitale e il tuo capitale totale è di $50.000, inserisci il 2% ($1.000) come valore.",
+        "text": "Si riferisce al livello di rischio che sei disposto ad assumere per questa transazione, espresso come percentuale relativa al tuo capitale."
+      },
+      "risk_reward_ratio": {
+        "example": "Ad esempio, se inserisci 2, significa che sei disposto a rischiare $1 per potenzialmente guadagnare $2.",
+        "text": "Rappresenta il rapporto tra la quantità di rischio e la quantità di ricompensa che sei disposto ad assumere per questo trade."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Specifica il valore attuale del tuo capitale.",
-          "label": "Saldo conto"
-        },
+        "balance": "Saldo conto",
         "currency": "Valuta del conto",
         "size": "Dimensione conto"
       },
@@ -1333,14 +1810,26 @@ static const Map<String,dynamic> it = {
         "principal": "Capitale finale"
       },
       "entry": {
-        "fees": "Commissioni di ingresso",
-        "price": "Prezzo di ingresso",
-        "price_at": "Prezzo di ingresso a"
+        "fees": {
+          "amount": "Importo delle commissioni di ingresso",
+          "text": "Commissioni di ingresso"
+        },
+        "price": {
+          "at": "Prezzo di ingresso a",
+          "text": "Prezzo di ingresso",
+          "with_slippage": "Prezzo di ingresso con slippage"
+        }
       },
       "exit": {
-        "fees": "Commissioni di uscita",
-        "price": "Prezzo di uscita",
-        "price_at": "Prezzo di uscita a"
+        "fees": {
+          "amount": "Importo delle commissioni di uscita",
+          "text": "Commissioni di uscita"
+        },
+        "price": {
+          "at": "Prezzo di uscita a",
+          "text": "Prezzo di uscita",
+          "with_slippage": "Prezzo di uscita con slippage"
+        }
       },
       "expected_unit_sales": "Vendite unitarie previste",
       "extension": "Estensione",
@@ -1357,6 +1846,7 @@ static const Map<String,dynamic> it = {
       "indices": "Indici",
       "initial_investment": "Investimento iniziale",
       "interest_rate": "Tasso di interesse",
+      "involved_capital": "Capitale coinvolto",
       "leverage": "Leverage",
       "loss": "Perdita",
       "loss_per_trade": "Perdita per operazione",
@@ -1387,6 +1877,7 @@ static const Map<String,dynamic> it = {
       },
       "pivot_points": "Punti di svolta",
       "position": {
+        "amount": "Importo della posizione",
         "long": "Lungo",
         "short": "Corto",
         "size": "Dimensione posizione",
@@ -1411,10 +1902,18 @@ static const Map<String,dynamic> it = {
       "resistance_level": "Livello di resistenza {level}",
       "retracement": "Ritracimento",
       "return_on_investment": "Rendimento dell'investimento",
-      "risk": "Rischio",
-      "risk_amount": "Importo del rischio",
-      "risk_ratio": "Rapporto di rischio",
-      "risk_reward_ratio": "Rapporto rischio-rendimento",
+      "risk": {
+        "amount": "Importo a rischio",
+        "effective": "Rischio Effettivo",
+        "in_percentage": "Rischio in Percentuale",
+        "ratio": "Rapporto di Rischio",
+        "reward": {
+          "ratio": "Rapporto Rischio-Rendimento",
+          "text": "Rischio-Rendimento"
+        },
+        "text": "Rischio",
+        "tolerated": "Rischio Tollerato"
+      },
       "secondary_currency": "Valuta secondaria",
       "sell": {
         "commission": "Commissione vendita",
@@ -1430,14 +1929,36 @@ static const Map<String,dynamic> it = {
       },
       "stop_loss": {
         "amount": "Importo stop loss",
-        "at": "Stop Loss a",
-        "text": "Stop Loss"
+        "at": "Stop loss a",
+        "fees": {
+          "amount": "Importo commissioni stop loss",
+          "text": "Commissioni stop loss"
+        },
+        "in_percentage": {
+          "text": "Stop loss in percentuale",
+          "with_slippage": "Stop loss in percentuale con slippage"
+        },
+        "price": {
+          "at": "Stop loss a",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss con slippage"
+        },
+        "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "support_level": "Livello di supporto {level}",
       "take_profit": {
-        "amount": "Importo take profit",
+        "amount": "Importo del Take Profit",
         "at": "Take Profit a",
+        "fees": {
+          "amount": "Importo delle commissioni del Take Profit",
+          "text": "Commissioni del Take Profit"
+        },
+        "price": {
+          "at": "Take Profit a",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit con slippage"
+        },
         "text": "Take Profit"
       },
       "tax": {
@@ -1446,7 +1967,11 @@ static const Map<String,dynamic> it = {
         "rate": "Aliquota fiscale"
       },
       "total": {
-        "costs": "Costi totali",
+        "costs": {
+          "losing_position": "Costi totali per una posizione perdente.",
+          "profit_position": "Costi totali per una posizione vincente.",
+          "text": "Costi totali"
+        },
         "gain": "Guadagno totale",
         "loss": "Perdita totale",
         "return": "Rendimento totale",
@@ -1494,12 +2019,39 @@ static const Map<String,dynamic> fr = {
       "open_price_between_low_high_price": "Le prix d'ouverture doit être compris entre le prix le plus bas et le prix le plus élevé.",
       "quote_refresh": "La cotation de l'instrument financier sélectionné ne peut pas être actualisée. Veuillez réessayer ultérieurement."
     },
+    "help": {
+      "account_balance": {
+        "example": "Si vous avez $50 000 alloués au trading, veuillez entrer ce montant ici.",
+        "text": "Indiquez la valeur actuelle de votre capital."
+      },
+      "amount_at_risk": {
+        "example": "Si votre capital total est de $50 000 et que vous souhaitez risquer $1 000, entrez $1 000 comme valeur.",
+        "text": "Représente le montant spécifique de risque que vous souhaitez prendre pour ce trade, exprimé en valeur monétaire par rapport à votre capital."
+      },
+      "entry_fees": {
+        "example": "Si votre courtier facture 0,1% de la valeur totale de la position lorsque vous entrez, entrez 0,1 comme valeur.",
+        "text": "Représente le pourcentage de frais facturé par votre courtier lors de l'ouverture d'une position."
+      },
+      "entry_price": {
+        "example": "Si vous prévoyez d'entrer sur le marché au prix actuel, veuillez entrer le prix actuel comme valeur. Cependant, si le prix actuel du marché est de $50 par action et que vous prévoyez d'entrer à un autre prix, comme $55 par action, veuillez entrer $55 comme valeur.",
+        "text": "Représente le prix auquel vous envisagez d'entrer sur le marché, qu'il s'agisse du prix actuel ou du prix auquel vous prévoyez d'entrer."
+      },
+      "exit_fees": {
+        "example": "Si votre courtier facture 0,1% de la valeur totale de la position lorsque vous sortez, entrez 0,1 comme valeur.",
+        "text": "Représente le pourcentage de frais facturé par votre courtier lors de la clôture d'une position."
+      },
+      "risk": {
+        "example": "Si vous êtes prêt à risquer 2% de votre capital et que votre capital total est de $50 000, saisissez 2% ($1 000) comme valeur.",
+        "text": "Fait référence au niveau de risque que vous êtes prêt à assumer pour cette transaction, exprimé en pourcentage par rapport à votre capital."
+      },
+      "risk_reward_ratio": {
+        "example": "Par exemple, si vous entrez 2, cela signifie que vous êtes prêt à risquer $1 pour potentiellement gagner $2.",
+        "text": "Représente le rapport entre la quantité de risque et la quantité de récompense que vous êtes prêt à assumer pour ce trade."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Indiquez la valeur actuelle de votre capital.",
-          "label": "Solde du compte"
-        },
+        "balance": "Solde du compte",
         "currency": "Devise du compte",
         "size": "Taille du compte"
       },
@@ -1543,14 +2095,26 @@ static const Map<String,dynamic> fr = {
         "principal": "Capital final"
       },
       "entry": {
-        "fees": "Frais d'entrée",
-        "price": "Prix d'entrée",
-        "price_at": "Prix d'entrée à"
+        "fees": {
+          "amount": "Montant des frais d'entrée",
+          "text": "Frais d'entrée"
+        },
+        "price": {
+          "at": "Prix d'entrée à",
+          "text": "Prix d'entrée",
+          "with_slippage": "Prix d'entrée avec glissement"
+        }
       },
       "exit": {
-        "fees": "Frais de sortie",
-        "price": "Prix de sortie",
-        "price_at": "Prix de sortie à"
+        "fees": {
+          "amount": "Montant des frais de sortie",
+          "text": "Frais de sortie"
+        },
+        "price": {
+          "at": "Prix de sortie à",
+          "text": "Prix de sortie",
+          "with_slippage": "Prix de sortie avec glissement"
+        }
       },
       "expected_unit_sales": "Ventes unitaires prévues",
       "extension": "Extension",
@@ -1567,6 +2131,7 @@ static const Map<String,dynamic> fr = {
       "indices": "Indices",
       "initial_investment": "Investissement initial",
       "interest_rate": "Taux d'intérêt",
+      "involved_capital": "Capital engagé",
       "leverage": "Effet de levier",
       "loss": "Perte",
       "loss_per_trade": "Perte par transaction",
@@ -1597,8 +2162,9 @@ static const Map<String,dynamic> fr = {
       },
       "pivot_points": "Points pivots",
       "position": {
+        "amount": "Montant de la position",
         "long": "Achat",
-        "short": "Vente à découvert",
+        "short": "Vente",
         "size": "Taille de la position",
         "text": "Position"
       },
@@ -1621,10 +2187,18 @@ static const Map<String,dynamic> fr = {
       "resistance_level": "Niveau de résistance {level}",
       "retracement": "Retracement",
       "return_on_investment": "Retour sur investissement",
-      "risk": "Risque",
-      "risk_amount": "Montant du risque",
-      "risk_ratio": "Ratio de risque",
-      "risk_reward_ratio": "Ratio risque-rendement",
+      "risk": {
+        "amount": "Montant à risque",
+        "effective": "Risque Effectif",
+        "in_percentage": "Risque en Pourcentage",
+        "ratio": "Ratio de Risque",
+        "reward": {
+          "ratio": "Ratio Risque-Rendement",
+          "text": "Risque-Rendement"
+        },
+        "text": "Risque",
+        "tolerated": "Risque Toléré"
+      },
       "secondary_currency": "Devise secondaire",
       "sell": {
         "commission": "Commission de vente",
@@ -1641,6 +2215,19 @@ static const Map<String,dynamic> fr = {
       "stop_loss": {
         "amount": "Montant du stop de protection",
         "at": "Stop de protection à",
+        "fees": {
+          "amount": "Montant des frais du stop de protection",
+          "text": "Frais du stop de protection"
+        },
+        "in_percentage": {
+          "text": "Stop de protection en pourcentage",
+          "with_slippage": "Stop de protection en pourcentage avec glissement"
+        },
+        "price": {
+          "at": "Stop de protection à",
+          "text": "Stop de protection",
+          "with_slippage": "Stop de protection avec glissement"
+        },
         "text": "Stop de protection"
       },
       "stop_loss_take_profit": "Stop de protection/Prise de bénéfices",
@@ -1648,6 +2235,15 @@ static const Map<String,dynamic> fr = {
       "take_profit": {
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
+        "fees": {
+          "amount": "Montant des frais de prise de bénéfices",
+          "text": "Frais de prise de bénéfices"
+        },
+        "price": {
+          "at": "Prise de bénéfices à",
+          "text": "Prise de bénéfices",
+          "with_slippage": "Prise de bénéfices avec glissement"
+        },
         "text": "Prise de bénéfices"
       },
       "tax": {
@@ -1656,7 +2252,11 @@ static const Map<String,dynamic> fr = {
         "rate": "Taux d'imposition"
       },
       "total": {
-        "costs": "Coûts totaux",
+        "costs": {
+          "losing_position": "Coûts totaux pour une position perdante.",
+          "profit_position": "Coûts totaux pour une position gagnante.",
+          "text": "Coûts totaux"
+        },
         "gain": "Gain total",
         "loss": "Perte totale",
         "return": "Rendement total",
@@ -1704,12 +2304,39 @@ static const Map<String,dynamic> es = {
       "open_price_between_low_high_price": "El precio de apertura debe estar entre el precio más bajo y el precio más alto.",
       "quote_refresh": "No se puede actualizar la cotización del instrumento financiero seleccionado. Por favor, inténtelo de nuevo más tarde."
     },
+    "help": {
+      "account_balance": {
+        "example": "Si tienes $50.000 asignados para operar, por favor ingresa esa cantidad aquí.",
+        "text": "Especifica el valor actual de tu capital."
+      },
+      "amount_at_risk": {
+        "example": "Si tu capital total es de $50.000 y deseas arriesgar $1.000, ingresa $1.000 como valor.",
+        "text": "Esto representa la cantidad específica de riesgo que deseas asumir para esta operación, expresada como un valor monetario relativo a tu capital."
+      },
+      "entry_fees": {
+        "example": "Si tu corredor cobra el 0,1% del valor total de la posición al ingresar, ingresa 0,1 como valor.",
+        "text": "Representa el porcentaje de comisiones que cobra tu corredor al abrir una posición."
+      },
+      "entry_price": {
+        "example": "Si pretendes ingresar al mercado al precio actual, por favor ingresa el precio actual como valor. Sin embargo, si el precio de mercado actual es de $50 por acción y planeas ingresar a un precio diferente, como $55 por acción, por favor ingresa $55 como valor.",
+        "text": "Representa el precio al que pretendes ingresar al mercado, ya sea el precio actual o el precio al que planeas ingresar."
+      },
+      "exit_fees": {
+        "example": "Si tu corredor cobra el 0,1% del valor total de la posición al salir, ingresa 0,1 como valor.",
+        "text": "Representa el porcentaje de comisiones que cobra tu corredor al cerrar una posición."
+      },
+      "risk": {
+        "example": "Si estás dispuesto a arriesgar el 2% de tu capital y tu capital total es de $50.000, ingresa el 2% ($1.000) como valor.",
+        "text": "Se refiere al nivel de riesgo que estás dispuesto a asumir para esta transacción, expresado como un porcentaje relativo a tu capital."
+      },
+      "risk_reward_ratio": {
+        "example": "Por ejemplo, si ingresas 2, significa que estás dispuesto a arriesgar $1 para potencialmente ganar $2.",
+        "text": "Representa la relación entre la cantidad de riesgo y la cantidad de recompensa que estás dispuesto a asumir para este trade."
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "Especifique el valor actual de su capital.",
-          "label": "Saldo de la cuenta"
-        },
+        "balance": "Saldo de la cuenta",
         "currency": "Moneda de la cuenta",
         "size": "Tamaño de la cuenta"
       },
@@ -1753,14 +2380,26 @@ static const Map<String,dynamic> es = {
         "principal": "Capital final"
       },
       "entry": {
-        "fees": "Comisiones de entrada",
-        "price": "Precio de entrada",
-        "price_at": "Precio de entrada en"
+        "fees": {
+          "amount": "Monto de las tarifas de entrada",
+          "text": "Tarifas de entrada"
+        },
+        "price": {
+          "at": "Precio de entrada en",
+          "text": "Precio de entrada",
+          "with_slippage": "Precio de entrada con deslizamiento"
+        }
       },
       "exit": {
-        "fees": "Comisiones de salida",
-        "price": "Precio de salida",
-        "price_at": "Precio de salida en"
+        "fees": {
+          "amount": "Monto de las tarifas de salida",
+          "text": "Tarifas de salida"
+        },
+        "price": {
+          "at": "Precio de salida en",
+          "text": "Precio de salida",
+          "with_slippage": "Precio de salida con deslizamiento"
+        }
       },
       "expected_unit_sales": "Ventas unitarias esperadas",
       "extension": "Extensión",
@@ -1777,6 +2416,7 @@ static const Map<String,dynamic> es = {
       "indices": "Índices",
       "initial_investment": "Inversión inicial",
       "interest_rate": "Tasa de interés",
+      "involved_capital": "Capital involucrado",
       "leverage": "Apalancamiento",
       "loss": "Pérdida",
       "loss_per_trade": "Pérdida por operación",
@@ -1807,6 +2447,7 @@ static const Map<String,dynamic> es = {
       },
       "pivot_points": "Puntos pivote",
       "position": {
+        "amount": "Monto de la posición",
         "long": "Largo",
         "short": "Corto",
         "size": "Tamaño de la posición",
@@ -1831,10 +2472,18 @@ static const Map<String,dynamic> es = {
       "resistance_level": "Nivel de resistencia {level}",
       "retracement": "Retracción",
       "return_on_investment": "Retorno de la inversión",
-      "risk": "Riesgo",
-      "risk_amount": "Monto de riesgo",
-      "risk_ratio": "Ratio de riesgo",
-      "risk_reward_ratio": "Ratio riesgo-recompensa",
+      "risk": {
+        "amount": "Monto en riesgo",
+        "effective": "Riesgo Efectivo",
+        "in_percentage": "Riesgo en Porcentaje",
+        "ratio": "Ratio de Riesgo",
+        "reward": {
+          "ratio": "Ratio Riesgo-Recompensa",
+          "text": "Riesgo-Recompensa"
+        },
+        "text": "Riesgo",
+        "tolerated": "Riesgo Tolerado"
+      },
       "secondary_currency": "Moneda secundaria",
       "sell": {
         "commission": "Comisión de venta",
@@ -1849,15 +2498,37 @@ static const Map<String,dynamic> es = {
         "principal": "Capital inicial"
       },
       "stop_loss": {
-        "amount": "Monto de stop loss",
+        "amount": "Monto de Stop Loss",
         "at": "Stop Loss en",
+        "fees": {
+          "amount": "Monto de comisiones de Stop Loss",
+          "text": "Comisiones de Stop Loss"
+        },
+        "in_percentage": {
+          "text": "Stop Loss en porcentaje",
+          "with_slippage": "Stop Loss en porcentaje con deslizamiento"
+        },
+        "price": {
+          "at": "Stop Loss en",
+          "text": "Stop Loss",
+          "with_slippage": "Stop Loss con deslizamiento"
+        },
         "text": "Stop Loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "support_level": "Nivel de soporte {level}",
       "take_profit": {
-        "amount": "Monto de take profit",
+        "amount": "Monto de Take Profit",
         "at": "Take Profit en",
+        "fees": {
+          "amount": "Monto de las tarifas de Take Profit",
+          "text": "Tarifas de Take Profit"
+        },
+        "price": {
+          "at": "Take Profit en",
+          "text": "Take Profit",
+          "with_slippage": "Take Profit con Slippage"
+        },
         "text": "Take Profit"
       },
       "tax": {
@@ -1866,7 +2537,11 @@ static const Map<String,dynamic> es = {
         "rate": "Tasa de impuestos"
       },
       "total": {
-        "costs": "Costos totales",
+        "costs": {
+          "losing_position": "Costos totales para una posición perdedora.",
+          "profit_position": "Costos totales para una posición ganadora.",
+          "text": "Costos totales"
+        },
         "gain": "Ganancia total",
         "loss": "Pérdida total",
         "return": "Retorno total",

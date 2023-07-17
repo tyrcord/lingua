@@ -11,12 +11,39 @@
       "open_price_between_low_high_price": "开盘价必须在最低价和最高价之间。",
       "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。"
     },
+    "help": {
+      "account_balance": {
+        "example": "如果您有$50,000用于交易，请在此处输入该金额。",
+        "text": "指定您当前资本的价值。"
+      },
+      "amount_at_risk": {
+        "example": "如果您的总资本为$50,000，您希望承担$1,000的风险，请将$1,000作为值输入。",
+        "text": "这代表您希望承担的特定交易风险金额，以您的资本为基础的货币价值表示。"
+      },
+      "entry_fees": {
+        "example": "如果您的经纪人在您进入时收取总持仓价值的0.1%，请输入0.1作为值。",
+        "text": "表示开仓时您的经纪人收取的费用百分比。"
+      },
+      "entry_price": {
+        "example": "如果您计划以当前价格进入市场，请将当前价格作为值输入。但是，如果当前市场价格为每股$50，您计划以不同的价格进入，例如每股$55，请将$55作为值输入。",
+        "text": "表示您计划进入市场的价格，无论是当前价格还是计划进入的价格。"
+      },
+      "exit_fees": {
+        "example": "如果您的经纪人在您退出时收取总持仓价值的0.1%，请输入0.1作为值。",
+        "text": "表示平仓时您的经纪人收取的费用百分比。"
+      },
+      "risk": {
+        "example": "如果您愿意承担2%的风险，并且您的总资本为$50,000，请输入2%（$1,000）作为值。",
+        "text": "指的是您愿意为此交易承担的风险级别，以您的资本为基础的百分比表达。"
+      },
+      "risk_reward_ratio": {
+        "example": "例如，如果您输入2，意味着您愿意冒险$1，以潜在地获得$2的回报。",
+        "text": "表示您愿意为此交易承担的风险和回报之间的比率。"
+      }
+    },
     "label": {
       "account": {
-        "balance": {
-          "help": "指定您资本的当前价值。",
-          "label": "账户余额"
-        },
+        "balance": "账户余额",
         "currency": "账户货币",
         "size": "账户规模"
       },
@@ -60,14 +87,26 @@
         "principal": "结余本金"
       },
       "entry": {
-        "fees": "入场费用",
-        "price": "入场价格",
-        "price_at": "入场价位"
+        "fees": {
+          "amount": "入场费金额",
+          "text": "入场费"
+        },
+        "price": {
+          "at": "入场价格为",
+          "text": "入场价格",
+          "with_slippage": "带滑点的入场价格"
+        }
       },
       "exit": {
-        "fees": "出场费用",
-        "price": "出场价格",
-        "price_at": "出场价位"
+        "fees": {
+          "amount": "退出费用金额",
+          "text": "退出费用"
+        },
+        "price": {
+          "at": "退出价格为",
+          "text": "退出价格",
+          "with_slippage": "带滑点的退出价格"
+        }
       },
       "expected_unit_sales": "预期销售单位",
       "extension": "扩展",
@@ -84,6 +123,7 @@
       "indices": "指数",
       "initial_investment": "初始投资",
       "interest_rate": "利率",
+      "involved_capital": "参与资本",
       "leverage": "杠杆",
       "loss": "亏损",
       "loss_per_trade": "每笔交易亏损",
@@ -114,10 +154,11 @@
       },
       "pivot_points": "中枢点",
       "position": {
+        "amount": "持仓金额",
         "long": "多头",
         "short": "空头",
-        "size": "仓位规模",
-        "text": "仓位"
+        "size": "持仓规模",
+        "text": "持仓"
       },
       "price": {
         "a": "价格A",
@@ -138,10 +179,18 @@
       "resistance_level": "阻力位 {level}",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
-      "risk": "风险",
-      "risk_amount": "风险金额",
-      "risk_ratio": "风险比例",
-      "risk_reward_ratio": "风险-回报比",
+      "risk": {
+        "amount": "风险金额",
+        "effective": "有效风险",
+        "in_percentage": "百分比风险",
+        "ratio": "风险比率",
+        "reward": {
+          "ratio": "风险-回报比",
+          "text": "风险-回报"
+        },
+        "text": "风险",
+        "tolerated": "可容忍风险"
+      },
       "secondary_currency": "次要货币",
       "sell": {
         "commission": "卖出佣金",
@@ -157,15 +206,37 @@
       },
       "stop_loss": {
         "amount": "止损金额",
-        "at": "止损于",
+        "at": "止损位置",
+        "fees": {
+          "amount": "止损费用金额",
+          "text": "止损费用"
+        },
+        "in_percentage": {
+          "text": "百分比止损",
+          "with_slippage": "带滑点的百分比止损"
+        },
+        "price": {
+          "at": "止损位置",
+          "text": "止损",
+          "with_slippage": "滑点止损"
+        },
         "text": "止损"
       },
       "stop_loss_take_profit": "止损/获利",
       "support_level": "支撑位 {level}",
       "take_profit": {
-        "amount": "获利金额",
-        "at": "获利于",
-        "text": "获利"
+        "amount": "止盈金额",
+        "at": "止盈于",
+        "fees": {
+          "amount": "止盈费用金额",
+          "text": "止盈费用"
+        },
+        "price": {
+          "at": "止盈于",
+          "text": "止盈",
+          "with_slippage": "含滑点的止盈"
+        },
+        "text": "止盈"
       },
       "tax": {
         "amount": "税额",
@@ -173,7 +244,11 @@
         "rate": "税率"
       },
       "total": {
-        "costs": "总成本",
+        "costs": {
+          "losing_position": "亏损头寸的总成本。",
+          "profit_position": "盈利头寸的总成本。",
+          "text": "总成本"
+        },
         "gain": "总盈利",
         "loss": "总亏损",
         "return": "总回报",
