@@ -284,7 +284,9 @@ class ${prefix}CodegenLoader extends AssetLoader {
     Map<String, dynamic>? data = json.decode(await fileData.readAsString());
 
     final mapString = const JsonEncoder.withIndent('  ').convert(data);
-    gFile += 'static const Map<String,dynamic> $localeName = $mapString;\n';
+    final mapStringEscaped = escapeSpecialCharacters(mapString);
+    gFile +=
+        'static const Map<String,dynamic> $localeName = $mapStringEscaped;\n';
   }
 
   gFile +=
@@ -298,4 +300,14 @@ void printInfo(String info) {
 
 void printError(String error) {
   log('\u001b[31m[ERROR] easy localization: $error\u001b[0m');
+}
+
+String escapeSpecialCharacters(String input) {
+  const specialCharacters = r'\$';
+  const escapeCharacter = r'\';
+
+  return input.replaceAll(
+    RegExp('([$specialCharacters])'),
+    '$escapeCharacter\$1',
+  );
 }
