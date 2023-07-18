@@ -1,3 +1,7 @@
+## 0.0.6
+
+ - **FEAT**: add helper.
+
 ## 0.0.5
 
  - **FEAT**: escape special chars.
