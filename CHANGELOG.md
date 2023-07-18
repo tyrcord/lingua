@@ -15,6 +15,32 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_finance_stock` - `v0.0.4`](#lingua_finance_stock---v004)
+ - [`lingua_settings` - `v0.0.8`](#lingua_settings---v008)
+
+---
+
+#### `lingua_finance_stock` - `v0.0.4`
+
+ - **FEAT**: update localization.
+
+#### `lingua_settings` - `v0.0.8`
+
+ - **FEAT**: update localization.
+
+
+## 2023-07-18
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_core` - `v0.0.6`](#lingua_core---v006)
 
 ---

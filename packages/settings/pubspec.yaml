@@ -1,6 +1,6 @@
 name: lingua_settings
 description: Library for internal settings localization.
-version: 0.0.7
+version: 0.0.8
 repository: https://github.com/tyrcord/lingua/tree/main/packages/settings
 
 environment:
