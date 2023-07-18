@@ -1,6 +1,7 @@
 {
   "finance": {
     "disclaimer": {
+      "invest_warning": "Por favor, no realice operaciones o invierta únicamente en base a esta información.",
       "incorrect_results": "Si considera que los resultados son incorrectos, es posible que ciertos parámetros varíen según su corredor y los instrumentos financieros que esté utilizando. Si es necesario, puede ajustar estas configuraciones en la sección avanzada.",
       "intervening_markets": "Participar en los mercados financieros conlleva riesgos que pueden generar pérdidas financieras. Por favor, no tome decisiones de trading o inversión basadas únicamente en esta información.",
       "trading": "Los mercados financieros conllevan riesgos significativos para su capital invertido. La información y los resultados proporcionados por esta aplicación solo deben considerarse como una indicación y no constituyen asesoramiento ni recomendaciones. {company} declina toda responsabilidad por las pérdidas incurridas por cualquier persona que actúe en función de esta información o estos resultados."

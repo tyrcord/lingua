@@ -1,6 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 abstract class FinanceLocaleKeys {
+  static const finance_disclaimer_invest_warning = 'finance.disclaimer.invest_warning';
   static const finance_disclaimer_incorrect_results = 'finance.disclaimer.incorrect_results';
   static const finance_disclaimer_intervening_markets = 'finance.disclaimer.intervening_markets';
   static const finance_disclaimer_trading = 'finance.disclaimer.trading';
