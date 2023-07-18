@@ -1,5 +1,9 @@
 {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "Você reconhece e concorda que o uso de {appName} é de sua responsabilidade exclusiva, e não nos responsabilizamos por perdas ou danos relacionados ao uso do serviço.",
+      "data": "Quaisquer dados e informações são fornecidos \"como estão\" exclusivamente para fins informativos e educacionais."
+    },
     "label": {
       "about": "Sobre",
       "app": {
@@ -35,6 +39,7 @@
       "version": "Versão: {version}"
     },
     "message": {
+      "last_modified": "Última modificação: {date}",
       "thanks_support": "Obrigado pelo seu apoio!"
     },
     "note": {

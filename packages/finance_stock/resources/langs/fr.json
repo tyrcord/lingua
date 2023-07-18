@@ -1,5 +1,11 @@
 {
   "stock": {
+    "help": {
+      "slippage": {
+        "example": "Supposons que vous envisagiez d'entrer sur le marché en passant un ordre stop pour acheter une action à $100 par action. Cependant, en raison des conditions du marché et de la disponibilité limitée des vendeurs, l'ordre est finalement exécuté à un prix légèrement plus élevé, à $101 par action. Dans un tel scénario, le slippage serait de 1% ([$101 - $100] / $100 * 100%). Par conséquent, si vous anticipez un slippage de 1% lors de l'entrée sur le marché, veuillez entrer la valeur 1.",
+        "text": "Représente l'écart attendu que vous pouvez rencontrer lors de l'entrée ou de la sortie du marché. Il est courant que les ordres passés avec des ordres stop ou des stop loss ne soient pas exécutés au prix indiqué exactement. Le slippage (Glissement), exprimée en pourcentage, prend en compte les écarts potentiels qui peuvent se produire à la fois pour vos prix d'entrée et de sortie."
+      }
+    },
     "label": {
       "expected_annual_share_price_appreciation": "Appréciation annuelle prévue du prix de l'action",
       "number_of_shares": "Nombre d'actions",
@@ -8,12 +14,6 @@
       "shares_owned": "Actions possédées",
       "stock": "Actions",
       "stock_options": "Options sur actions"
-    },
-    "help": {
-      "slippage": {
-        "example": "Supposons que vous envisagiez d'entrer sur le marché en passant un ordre stop pour acheter une action à $100 par action. Cependant, en raison des conditions du marché et de la disponibilité limitée des vendeurs, l'ordre est finalement exécuté à un prix légèrement plus élevé, à $101 par action. Dans un tel scénario, le slippage serait de 1% ([$101 - $100] / $100 * 100%). Par conséquent, si vous anticipez un slippage de 1% lors de l'entrée sur le marché, veuillez entrer la valeur 1.",
-        "text": "Représente l'écart attendu que vous pouvez rencontrer lors de l'entrée ou de la sortie du marché. Il est courant que les ordres passés avec des ordres stop ou des stop loss ne soient pas exécutés au prix indiqué exactement. Le slippage (Glissement), exprimée en pourcentage, prend en compte les écarts potentiels qui peuvent se produire à la fois pour vos prix d'entrée et de sortie."
-      }
     }
   }
 }

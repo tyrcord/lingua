@@ -13,6 +13,10 @@ class SettingsCodegenLoader extends AssetLoader {
 
   static const Map<String,dynamic> zh = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "您确认并同意使用{appName}完全由您自己承担风险，我们对于与使用该服务相关的损失或损害不承担任何责任。",
+      "data": "所有数据和信息均仅供纯粹信息和教育目的\"如实\"提供。"
+    },
     "label": {
       "about": "关于",
       "app": {
@@ -48,6 +52,7 @@ class SettingsCodegenLoader extends AssetLoader {
       "version": "版本：{version}"
     },
     "message": {
+      "last_modified": "最后修改时间：{date}",
       "thanks_support": "感谢您的支持！"
     },
     "note": {
@@ -67,6 +72,10 @@ class SettingsCodegenLoader extends AssetLoader {
 };
 static const Map<String,dynamic> ja = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "{appName}の利用は、お客様自身の責任において行われることを認識し、利用に関連する損失や損害については、当社は一切の責任を負わないことをご了承ください。",
+      "data": "すべてのデータと情報は、純粋に情報提供と教育目的で、「現状のまま」提供されます。"
+    },
     "label": {
       "about": "について",
       "app": {
@@ -102,6 +111,7 @@ static const Map<String,dynamic> ja = {
       "version": "バージョン: {version}"
     },
     "message": {
+      "last_modified": "最終更新日：{date}",
       "thanks_support": "ご支援ありがとうございます！"
     },
     "note": {
@@ -121,6 +131,10 @@ static const Map<String,dynamic> ja = {
 };
 static const Map<String,dynamic> de = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "Sie erkennen an und stimmen zu, dass die Nutzung von {appName} ausschließlich auf Ihr eigenes Risiko erfolgt und wir jegliche Haftung für Verluste oder Schäden im Zusammenhang mit der Nutzung des Dienstes ablehnen.",
+      "data": "Alle Daten und Informationen werden ausschließlich zu Informations- und Bildungszwecken bereitgestellt und gelten als \"wie sie sind\"."
+    },
     "label": {
       "about": "Über",
       "app": {
@@ -156,6 +170,7 @@ static const Map<String,dynamic> de = {
       "version": "Version: {version}"
     },
     "message": {
+      "last_modified": "Zuletzt geändert: {date}",
       "thanks_support": "Vielen Dank für Ihre Unterstützung!"
     },
     "note": {
@@ -175,6 +190,10 @@ static const Map<String,dynamic> de = {
 };
 static const Map<String,dynamic> ru = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "Вы признаете и соглашаетесь с тем, что использование {appName} осуществляется на ваш собственный страх и риск, и мы не несем ответственности за потери или ущерб, связанные с использованием Сервиса.",
+      "data": "Вся предоставленная информация и данные предоставляются \"как есть\" исключительно для информационных и образовательных целей."
+    },
     "label": {
       "about": "О приложении",
       "app": {
@@ -210,6 +229,7 @@ static const Map<String,dynamic> ru = {
       "version": "Версия: {version}"
     },
     "message": {
+      "last_modified": "Последнее изменение: {date}",
       "thanks_support": "Спасибо за вашу поддержку!"
     },
     "note": {
@@ -229,6 +249,10 @@ static const Map<String,dynamic> ru = {
 };
 static const Map<String,dynamic> pt = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "Você reconhece e concorda que o uso de {appName} é de sua responsabilidade exclusiva, e não nos responsabilizamos por perdas ou danos relacionados ao uso do serviço.",
+      "data": "Quaisquer dados e informações são fornecidos \"como estão\" exclusivamente para fins informativos e educacionais."
+    },
     "label": {
       "about": "Sobre",
       "app": {
@@ -264,6 +288,7 @@ static const Map<String,dynamic> pt = {
       "version": "Versão: {version}"
     },
     "message": {
+      "last_modified": "Última modificação: {date}",
       "thanks_support": "Obrigado pelo seu apoio!"
     },
     "note": {
@@ -283,6 +308,10 @@ static const Map<String,dynamic> pt = {
 };
 static const Map<String,dynamic> en = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "You acknowledge and agree that the use of {appName} is at your own sole risk, and we disclaim any liability for losses or damages related to the use of the Service.",
+      "data": "Any data and information are provided \"as is\" for purely informational and educational purposes."
+    },
     "label": {
       "about": "About",
       "app": {
@@ -318,6 +347,7 @@ static const Map<String,dynamic> en = {
       "version": "Version: {version}"
     },
     "message": {
+      "last_modified": "Last modified: {date}",
       "thanks_support": "Thanks for your support!"
     },
     "note": {
@@ -337,6 +367,10 @@ static const Map<String,dynamic> en = {
 };
 static const Map<String,dynamic> it = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "Riconosci e accetti che l'uso di {appName} è a tuo solo rischio, e decliniamo ogni responsabilità per perdite o danni correlati all'uso del Servizio.",
+      "data": "Tutti i dati e le informazioni vengono forniti \"così come sono\" esclusivamente a scopo informativo ed educativo."
+    },
     "label": {
       "about": "Informazioni",
       "app": {
@@ -372,6 +406,7 @@ static const Map<String,dynamic> it = {
       "version": "Versione: {version}"
     },
     "message": {
+      "last_modified": "Ultima modifica: {date}",
       "thanks_support": "Grazie per il tuo supporto!"
     },
     "note": {
@@ -391,6 +426,10 @@ static const Map<String,dynamic> it = {
 };
 static const Map<String,dynamic> fr = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "Vous reconnaissez et acceptez que l'utilisation de {appName} se fait à vos propres risques, et nous déclinons toute responsabilité pour les pertes ou dommages liés à l'utilisation du service.",
+      "data": "Toutes les données et informations sont fournies \"telles quelles\" à des fins purement informatives et éducatives."
+    },
     "label": {
       "about": "À propos",
       "app": {
@@ -426,6 +465,7 @@ static const Map<String,dynamic> fr = {
       "version": "Version : {version}"
     },
     "message": {
+      "last_modified": "Dernière modification : {date}",
       "thanks_support": "Merci pour votre soutien !"
     },
     "note": {
@@ -445,6 +485,10 @@ static const Map<String,dynamic> fr = {
 };
 static const Map<String,dynamic> es = {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "Usted reconoce y acepta que el uso de {appName} es bajo su propio riesgo, y renunciamos a cualquier responsabilidad por pérdidas o daños relacionados con el uso del servicio.",
+      "data": "Cualquier dato e información se proporcionan \"tal cual\" con fines puramente informativos y educativos."
+    },
     "label": {
       "about": "Acerca de",
       "app": {
@@ -480,6 +524,7 @@ static const Map<String,dynamic> es = {
       "version": "Versión: {version}"
     },
     "message": {
+      "last_modified": "Última modificación: {date}",
       "thanks_support": "¡Gracias por su apoyo!"
     },
     "note": {

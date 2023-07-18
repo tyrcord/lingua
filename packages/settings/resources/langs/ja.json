@@ -1,5 +1,9 @@
 {
   "settings": {
+    "disclaimer": {
+      "accept_risk": "{appName}の利用は、お客様自身の責任において行われることを認識し、利用に関連する損失や損害については、当社は一切の責任を負わないことをご了承ください。",
+      "data": "すべてのデータと情報は、純粋に情報提供と教育目的で、「現状のまま」提供されます。"
+    },
     "label": {
       "about": "について",
       "app": {
@@ -35,6 +39,7 @@
       "version": "バージョン: {version}"
     },
     "message": {
+      "last_modified": "最終更新日：{date}",
       "thanks_support": "ご支援ありがとうございます！"
     },
     "note": {

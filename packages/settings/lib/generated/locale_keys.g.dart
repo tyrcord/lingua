@@ -1,6 +1,9 @@
 // ignore_for_file: constant_identifier_names
 
 abstract class SettingsLocaleKeys {
+  static const settings_disclaimer_accept_risk = 'settings.disclaimer.accept_risk';
+  static const settings_disclaimer_data = 'settings.disclaimer.data';
+  static const settings_disclaimer = 'settings.disclaimer';
   static const settings_label_about = 'settings.label.about';
   static const settings_label_app_preferences = 'settings.label.app.preferences';
   static const settings_label_app_settings = 'settings.label.app.settings';
@@ -32,6 +35,7 @@ abstract class SettingsLocaleKeys {
   static const settings_label_user_settings = 'settings.label.user_settings';
   static const settings_label_version = 'settings.label.version';
   static const settings_label = 'settings.label';
+  static const settings_message_last_modified = 'settings.message.last_modified';
   static const settings_message_thanks_support = 'settings.message.thanks_support';
   static const settings_message = 'settings.message';
   static const settings_note_appearance = 'settings.note.appearance';
