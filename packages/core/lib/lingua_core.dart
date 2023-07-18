@@ -5,6 +5,8 @@ import 'dart:ui';
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 import 'package:lingua_core/generated/codegen_loader.g.dart';
 
+export './logic/logic.dart';
+
 class LinguaLoader extends AssetLoader {
   final Map<String, Map<String, dynamic>> mapLocales;
 
