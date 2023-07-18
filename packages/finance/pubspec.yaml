@@ -1,6 +1,6 @@
 name: lingua_finance
 description: Library for internal finance localization.
-version: 0.0.6+1
+version: 0.0.7
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance
 
 environment:
