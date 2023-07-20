@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_core` - `v0.0.9+1`](#lingua_core---v0091)
+
+---
+
+#### `lingua_core` - `v0.0.9+1`
+
+ - **FIX**: wrong default.
+
+
+## 2023-07-20
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_core` - `v0.0.9`](#lingua_core---v009)
 
 ---

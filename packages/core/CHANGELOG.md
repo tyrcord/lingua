@@ -1,3 +1,7 @@
+## 0.0.9+1
+
+ - **FIX**: wrong default.
+
 ## 0.0.9
 
  - **FEAT**: add a default value for LinguaLoader.
