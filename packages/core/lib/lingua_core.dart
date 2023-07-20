@@ -11,7 +11,7 @@ class LinguaLoader extends AssetLoader {
   final Map<String, Map<String, dynamic>> mapLocales;
 
   const LinguaLoader({
-    required this.mapLocales,
+    this.mapLocales = const {},
   });
 
   @override
