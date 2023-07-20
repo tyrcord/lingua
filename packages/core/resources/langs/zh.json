@@ -42,6 +42,7 @@
       "exit": "出口",
       "exotics": "异国情调",
       "favorites": "收藏",
+      "follow_us": "关注我们",
       "frequency": "频率",
       "home": "首页",
       "inputs": "输入",
@@ -67,11 +68,17 @@
       "results": "结果",
       "search": "搜索",
       "semi_annually": "半年一次",
-      "share": "分享",
+      "share": {
+        "app": "分享此应用",
+        "text": "分享"
+      },
       "skip": "跳过",
+      "submit": "提交",
+      "success": "成功",
       "try_again": "重试",
       "unlocked": "已解锁",
       "user_inputs": "用户输入",
+      "website": "网站",
       "weekly": "每周",
       "yearly": "每年",
       "yes": "是"
@@ -93,6 +100,9 @@
       "no_favorites": "无收藏。",
       "please_wait": "请稍候...",
       "search": "搜索...",
+      "share": {
+        "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"
+      },
       "sorry": "抱歉...",
       "success": "成功！",
       "thank_you": "谢谢！",

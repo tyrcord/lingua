@@ -42,6 +42,7 @@
       "exit": "Saída",
       "exotics": "Exóticas",
       "favorites": "Favoritos",
+      "follow_us": "Siga-nos",
       "frequency": "Frequência",
       "home": "Início",
       "inputs": "Entradas",
@@ -67,11 +68,17 @@
       "results": "Resultados",
       "search": "Pesquisar",
       "semi_annually": "semestralmente",
-      "share": "Compartilhar",
+      "share": {
+        "app": "Compartilhar este aplicativo",
+        "text": "Compartilhar"
+      },
       "skip": "Pular",
+      "submit": "Enviar",
+      "success": "Sucesso",
       "try_again": "Tentar novamente",
       "unlocked": "Desbloqueado",
       "user_inputs": "Entradas do usuário",
+      "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
       "yes": "Sim"
@@ -93,6 +100,9 @@
       "no_favorites": "Sem favoritos.",
       "please_wait": "Aguarde, por favor...",
       "search": "Pesquisar...",
+      "share": {
+        "invite": "Oi, descobri este incrível aplicativo que vai facilitar a sua vida. Confira!"
+      },
       "sorry": "Desculpe...",
       "success": "Sucesso!",
       "thank_you": "Obrigado!",

@@ -55,6 +55,7 @@ class CoreCodegenLoader extends AssetLoader {
       "exit": "出口",
       "exotics": "异国情调",
       "favorites": "收藏",
+      "follow_us": "关注我们",
       "frequency": "频率",
       "home": "首页",
       "inputs": "输入",
@@ -80,11 +81,17 @@ class CoreCodegenLoader extends AssetLoader {
       "results": "结果",
       "search": "搜索",
       "semi_annually": "半年一次",
-      "share": "分享",
+      "share": {
+        "app": "分享此应用",
+        "text": "分享"
+      },
       "skip": "跳过",
+      "submit": "提交",
+      "success": "成功",
       "try_again": "重试",
       "unlocked": "已解锁",
       "user_inputs": "用户输入",
+      "website": "网站",
       "weekly": "每周",
       "yearly": "每年",
       "yes": "是"
@@ -106,6 +113,9 @@ class CoreCodegenLoader extends AssetLoader {
       "no_favorites": "无收藏。",
       "please_wait": "请稍候...",
       "search": "搜索...",
+      "share": {
+        "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"
+      },
       "sorry": "抱歉...",
       "success": "成功！",
       "thank_you": "谢谢！",
@@ -170,6 +180,7 @@ static const Map<String,dynamic> ja = {
       "exit": "出口",
       "exotics": "エキゾチック",
       "favorites": "お気に入り",
+      "follow_us": "フォローする",
       "frequency": "頻度",
       "home": "ホーム",
       "inputs": "入力",
@@ -195,11 +206,17 @@ static const Map<String,dynamic> ja = {
       "results": "結果",
       "search": "検索",
       "semi_annually": "半年ごとに",
-      "share": "共有",
+      "share": {
+        "app": "このアプリを共有",
+        "text": "共有"
+      },
       "skip": "スキップ",
+      "submit": "送信",
+      "success": "成功",
       "try_again": "再試行",
       "unlocked": "ロック解除",
       "user_inputs": "ユーザー入力",
+      "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
       "yes": "はい"
@@ -221,6 +238,9 @@ static const Map<String,dynamic> ja = {
       "no_favorites": "お気に入りはありません。",
       "please_wait": "お待ちください...",
       "search": "検索...",
+      "share": {
+        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
+      },
       "sorry": "申し訳ありません...",
       "success": "成功しました！",
       "thank_you": "ありがとうございます！",
@@ -285,6 +305,7 @@ static const Map<String,dynamic> de = {
       "exit": "Ausgang",
       "exotics": "Exotische",
       "favorites": "Favoriten",
+      "follow_us": "Folgen Sie uns",
       "frequency": "Häufigkeit",
       "home": "Startseite",
       "inputs": "Eingaben",
@@ -310,11 +331,17 @@ static const Map<String,dynamic> de = {
       "results": "Ergebnisse",
       "search": "Suche",
       "semi_annually": "halbjährlich",
-      "share": "Teilen",
+      "share": {
+        "app": "Diese App teilen",
+        "text": "Teilen"
+      },
       "skip": "Überspringen",
+      "submit": "Senden",
+      "success": "Erfolg",
       "try_again": "Erneut versuchen",
       "unlocked": "Entsperrt",
       "user_inputs": "Benutzereingaben",
+      "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",
       "yes": "Ja"
@@ -336,6 +363,9 @@ static const Map<String,dynamic> de = {
       "no_favorites": "Keine Favoriten.",
       "please_wait": "Bitte warten...",
       "search": "Suche...",
+      "share": {
+        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
+      },
       "sorry": "Entschuldigung...",
       "success": "Erfolg!",
       "thank_you": "Vielen Dank!",
@@ -400,6 +430,7 @@ static const Map<String,dynamic> ru = {
       "exit": "Выход",
       "exotics": "Экзотические",
       "favorites": "Избранное",
+      "follow_us": "Подписывайтесь на нас",
       "frequency": "Частота",
       "home": "Главная",
       "inputs": "Ввод",
@@ -425,11 +456,17 @@ static const Map<String,dynamic> ru = {
       "results": "Результаты",
       "search": "Поиск",
       "semi_annually": "полугодовой",
-      "share": "Поделиться",
+      "share": {
+        "app": "Поделиться этим приложением",
+        "text": "Поделиться"
+      },
       "skip": "Пропустить",
+      "submit": "Отправить",
+      "success": "Успех",
       "try_again": "Попробовать снова",
       "unlocked": "Разблокировано",
       "user_inputs": "Ввод пользователя",
+      "website": "Веб-сайт",
       "weekly": "Еженедельно",
       "yearly": "Ежегодно",
       "yes": "Да"
@@ -451,6 +488,9 @@ static const Map<String,dynamic> ru = {
       "no_favorites": "Нет избранных.",
       "please_wait": "Пожалуйста, подождите...",
       "search": "Поиск...",
+      "share": {
+        "invite": "Привет! Я обнаружил удивительное приложение, которое сделает твою жизнь проще. Проверь его!"
+      },
       "sorry": "Извините...",
       "success": "Успешно!",
       "thank_you": "Спасибо!",
@@ -515,6 +555,7 @@ static const Map<String,dynamic> pt = {
       "exit": "Saída",
       "exotics": "Exóticas",
       "favorites": "Favoritos",
+      "follow_us": "Siga-nos",
       "frequency": "Frequência",
       "home": "Início",
       "inputs": "Entradas",
@@ -540,11 +581,17 @@ static const Map<String,dynamic> pt = {
       "results": "Resultados",
       "search": "Pesquisar",
       "semi_annually": "semestralmente",
-      "share": "Compartilhar",
+      "share": {
+        "app": "Compartilhar este aplicativo",
+        "text": "Compartilhar"
+      },
       "skip": "Pular",
+      "submit": "Enviar",
+      "success": "Sucesso",
       "try_again": "Tentar novamente",
       "unlocked": "Desbloqueado",
       "user_inputs": "Entradas do usuário",
+      "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
       "yes": "Sim"
@@ -566,6 +613,9 @@ static const Map<String,dynamic> pt = {
       "no_favorites": "Sem favoritos.",
       "please_wait": "Aguarde, por favor...",
       "search": "Pesquisar...",
+      "share": {
+        "invite": "Oi, descobri este incrível aplicativo que vai facilitar a sua vida. Confira!"
+      },
       "sorry": "Desculpe...",
       "success": "Sucesso!",
       "thank_you": "Obrigado!",
@@ -630,6 +680,7 @@ static const Map<String,dynamic> en = {
       "exit": "Exit",
       "exotics": "Exotic",
       "favorites": "Favorites",
+      "follow_us": "Follow us",
       "frequency": "Frequency",
       "home": "Home",
       "inputs": "Inputs",
@@ -655,11 +706,17 @@ static const Map<String,dynamic> en = {
       "results": "Results",
       "search": "Search",
       "semi_annually": "Semi-annually",
-      "share": "Share",
+      "share": {
+        "app": "Share this app",
+        "text": "Share"
+      },
       "skip": "Skip",
+      "submit": "Submit",
+      "success": "Success",
       "try_again": "Try Again",
       "unlocked": "Unlocked",
       "user_inputs": "User Inputs",
+      "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
       "yes": "Yes"
@@ -681,6 +738,9 @@ static const Map<String,dynamic> en = {
       "no_favorites": "No favorites.",
       "please_wait": "Please wait...",
       "search": "Search...",
+      "share": {
+        "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
+      },
       "sorry": "Sorry...",
       "success": "Success!",
       "thank_you": "Thank you!",
@@ -745,6 +805,7 @@ static const Map<String,dynamic> it = {
       "exit": "Uscita",
       "exotics": "Esotiche",
       "favorites": "Preferiti",
+      "follow_us": "Seguici",
       "frequency": "Frequenza",
       "home": "Home",
       "inputs": "Inserimenti",
@@ -770,11 +831,17 @@ static const Map<String,dynamic> it = {
       "results": "Risultati",
       "search": "Cerca",
       "semi_annually": "semestralmente",
-      "share": "Condividi",
+      "share": {
+        "app": "Condividi questa app",
+        "text": "Condividi"
+      },
       "skip": "Salta",
+      "submit": "Invia",
+      "success": "Successo",
       "try_again": "Riprova",
       "unlocked": "Sbloccato",
       "user_inputs": "Inserimenti utente",
+      "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
       "yes": "Sì"
@@ -796,6 +863,9 @@ static const Map<String,dynamic> it = {
       "no_favorites": "Nessun preferito.",
       "please_wait": "Attendere prego...",
       "search": "Ricerca...",
+      "share": {
+        "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
+      },
       "sorry": "Scusa...",
       "success": "Successo!",
       "thank_you": "Grazie!",
@@ -860,6 +930,7 @@ static const Map<String,dynamic> fr = {
       "exit": "Sortie",
       "exotics": "Exotiques",
       "favorites": "Favoris",
+      "follow_us": "Suivez-nous",
       "frequency": "Fréquence",
       "home": "Accueil",
       "inputs": "Entrées",
@@ -885,11 +956,17 @@ static const Map<String,dynamic> fr = {
       "results": "Résultats",
       "search": "Rechercher",
       "semi_annually": "semi-annuellement",
-      "share": "Partager",
+      "share": {
+        "app": "Partager cette application",
+        "text": "Partager"
+      },
       "skip": "Passer",
+      "submit": "Envoyer",
+      "success": "Succès",
       "try_again": "Réessayer",
       "unlocked": "Débloqué",
       "user_inputs": "Entrées utilisateur",
+      "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
       "yes": "Oui"
@@ -911,6 +988,9 @@ static const Map<String,dynamic> fr = {
       "no_favorites": "Aucun favori.",
       "please_wait": "Veuillez patienter...",
       "search": "Rechercher...",
+      "share": {
+        "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
+      },
       "sorry": "Désolé...",
       "success": "Succès !",
       "thank_you": "Merci !",
@@ -975,6 +1055,7 @@ static const Map<String,dynamic> es = {
       "exit": "Salida",
       "exotics": "Exóticas",
       "favorites": "Favoritos",
+      "follow_us": "Síganos",
       "frequency": "Frecuencia",
       "home": "Inicio",
       "inputs": "Entradas",
@@ -1000,11 +1081,17 @@ static const Map<String,dynamic> es = {
       "results": "Resultados",
       "search": "Buscar",
       "semi_annually": "semestralmente",
-      "share": "Compartir",
+      "share": {
+        "app": "Compartir esta aplicación",
+        "text": "Compartir"
+      },
       "skip": "Omitir",
+      "submit": "Enviar",
+      "success": "Éxito",
       "try_again": "Reintentar",
       "unlocked": "Desbloqueado",
       "user_inputs": "Entradas del usuario",
+      "website": "Sitio web",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
       "yes": "Sí"
@@ -1026,6 +1113,9 @@ static const Map<String,dynamic> es = {
       "no_favorites": "No hay favoritos.",
       "please_wait": "Por favor, espera...",
       "search": "Buscar...",
+      "share": {
+        "invite": "¡Hola! He descubierto esta increíble aplicación que hará tu vida más fácil. ¡Échale un vistazo!"
+      },
       "sorry": "Lo siento...",
       "success": "¡Éxito!",
       "thank_you": "¡Gracias!",

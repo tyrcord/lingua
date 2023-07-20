@@ -42,6 +42,7 @@
       "exit": "出口",
       "exotics": "エキゾチック",
       "favorites": "お気に入り",
+      "follow_us": "フォローする",
       "frequency": "頻度",
       "home": "ホーム",
       "inputs": "入力",
@@ -67,11 +68,17 @@
       "results": "結果",
       "search": "検索",
       "semi_annually": "半年ごとに",
-      "share": "共有",
+      "share": {
+        "app": "このアプリを共有",
+        "text": "共有"
+      },
       "skip": "スキップ",
+      "submit": "送信",
+      "success": "成功",
       "try_again": "再試行",
       "unlocked": "ロック解除",
       "user_inputs": "ユーザー入力",
+      "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
       "yes": "はい"
@@ -93,6 +100,9 @@
       "no_favorites": "お気に入りはありません。",
       "please_wait": "お待ちください...",
       "search": "検索...",
+      "share": {
+        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
+      },
       "sorry": "申し訳ありません...",
       "success": "成功しました！",
       "thank_you": "ありがとうございます！",

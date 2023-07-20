@@ -35,6 +35,7 @@ abstract class CoreLocaleKeys {
   static const core_label_exit = 'core.label.exit';
   static const core_label_exotics = 'core.label.exotics';
   static const core_label_favorites = 'core.label.favorites';
+  static const core_label_follow_us = 'core.label.follow_us';
   static const core_label_frequency = 'core.label.frequency';
   static const core_label_home = 'core.label.home';
   static const core_label_inputs = 'core.label.inputs';
@@ -56,11 +57,16 @@ abstract class CoreLocaleKeys {
   static const core_label_results = 'core.label.results';
   static const core_label_search = 'core.label.search';
   static const core_label_semi_annually = 'core.label.semi_annually';
+  static const core_label_share_app = 'core.label.share.app';
+  static const core_label_share_text = 'core.label.share.text';
   static const core_label_share = 'core.label.share';
   static const core_label_skip = 'core.label.skip';
+  static const core_label_submit = 'core.label.submit';
+  static const core_label_success = 'core.label.success';
   static const core_label_try_again = 'core.label.try_again';
   static const core_label_unlocked = 'core.label.unlocked';
   static const core_label_user_inputs = 'core.label.user_inputs';
+  static const core_label_website = 'core.label.website';
   static const core_label_weekly = 'core.label.weekly';
   static const core_label_yearly = 'core.label.yearly';
   static const core_label_yes = 'core.label.yes';
@@ -80,6 +86,8 @@ abstract class CoreLocaleKeys {
   static const core_message_no_favorites = 'core.message.no_favorites';
   static const core_message_please_wait = 'core.message.please_wait';
   static const core_message_search = 'core.message.search';
+  static const core_message_share_invite = 'core.message.share.invite';
+  static const core_message_share = 'core.message.share';
   static const core_message_sorry = 'core.message.sorry';
   static const core_message_success = 'core.message.success';
   static const core_message_thank_you = 'core.message.thank_you';

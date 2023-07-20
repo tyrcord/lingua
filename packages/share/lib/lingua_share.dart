@@ -1,1 +1,0 @@
-library lingua_share;

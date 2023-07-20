@@ -14,9 +14,9 @@ class FinanceCodegenLoader extends AssetLoader {
   static const Map<String,dynamic> zh = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "请不要仅根据这些信息进行交易或投资。",
       "incorrect_results": "如果您认为结果不正确，可能是由于您的经纪人和您使用的金融工具的某些参数可能有所不同。如果需要，您可以在高级部分调整这些设置。",
       "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅基于此信息进行交易或投资决策。",
+      "invest_warning": "请不要仅根据这些信息进行交易或投资。",
       "trading": "金融市场对您的投资资本存在重大风险。本应用程序提供的信息和结果仅供参考，不构成建议或推荐。{company}不对任何根据此信息或结果采取行动的人所遭受的损失承担责任。"
     },
     "error": {
@@ -300,9 +300,9 @@ class FinanceCodegenLoader extends AssetLoader {
 static const Map<String,dynamic> ja = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "この情報だけに基づいて取引や投資を行わないでください。",
       "incorrect_results": "結果が正しくないと思われる場合、特定のパラメータがブローカーや使用している金融商品によって異なる可能性があります。必要な場合は、詳細セクションでこれらの設定を調整できます。",
       "intervening_markets": "金融市場への参加には、金融損失につながるリスクが伴います。この情報のみをもとに取引や投資の決定をしないでください。",
+      "invest_warning": "この情報だけに基づいて取引や投資を行わないでください。",
       "trading": "金融市場には、投資資本に対する重要なリスクがあります。このアプリケーションによって提供される情報や結果は、あくまで目安として考えるべきであり、アドバイスや推奨事項ではありません。{company}は、この情報や結果に基づいて行動したことによる損失に対して一切の責任を負いません。"
     },
     "error": {
@@ -586,9 +586,9 @@ static const Map<String,dynamic> ja = {
 static const Map<String,dynamic> de = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "Bitte handeln oder investieren Sie nicht ausschließlich aufgrund dieser Informationen.",
       "incorrect_results": "Falls Sie der Meinung sind, dass die Ergebnisse inkorrekt sind, kann es sein, dass bestimmte Parameter je nach Ihrem Broker und den von Ihnen verwendeten Finanzinstrumenten abweichen. Wenn erforderlich, können Sie diese Einstellungen im erweiterten Bereich anpassen.",
       "intervening_markets": "Die Teilnahme am Finanzmarkt birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich aufgrund dieser Informationen.",
+      "invest_warning": "Bitte handeln oder investieren Sie nicht ausschließlich aufgrund dieser Informationen.",
       "trading": "Finanzmärkte bergen erhebliche Risiken für Ihr investiertes Kapital. Die Informationen und Ergebnisse, die von dieser Anwendung bereitgestellt werden, sollten nur als Hinweis betrachtet werden und stellen keine Anlageberatung oder Empfehlung dar. {company} lehnt jede Verantwortung für Verluste ab, die durch Handlungen auf der Grundlage dieser Informationen oder Ergebnisse entstehen."
     },
     "error": {
@@ -872,9 +872,9 @@ static const Map<String,dynamic> de = {
 static const Map<String,dynamic> ru = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "Пожалуйста, не совершайте сделок или инвестиций исключительно на основе этой информации.",
       "incorrect_results": "Если вы считаете, что результаты неверны, возможно, некоторые параметры могут отличаться в зависимости от вашего брокера и используемых финансовых инструментов. При необходимости вы можете настроить эти параметры в разделе \"Дополнительно\".",
       "intervening_markets": "Участие в финансовых рынках связано с рисками, которые могут привести к финансовым потерям. Пожалуйста, не принимайте решения о торговле или инвестициях исключительно на основе этой информации.",
+      "invest_warning": "Пожалуйста, не совершайте сделок или инвестиций исключительно на основе этой информации.",
       "trading": "Финансовые рынки несут значительные риски для вашего инвестированного капитала. Информация и результаты, предоставленные этим приложением, должны рассматриваться только как индикатор и не являются советом или рекомендациями. {company} не несет ответственности за убытки, понесенные любым лицом, действующим на основе этой информации или результатов."
     },
     "error": {
@@ -1158,9 +1158,9 @@ static const Map<String,dynamic> ru = {
 static const Map<String,dynamic> pt = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "Por favor, não faça transações ou invista exclusivamente com base nessas informações.",
       "incorrect_results": "Se você acredita que os resultados estão incorretos, é possível que certos parâmetros possam variar com base na corretora e nos instrumentos financeiros que você está utilizando. Se necessário, você pode ajustar essas configurações na seção avançada.",
       "intervening_markets": "Participar dos mercados financeiros envolve riscos que podem resultar em perdas financeiras. Por favor, não tome decisões de negociação ou investimento com base apenas nessas informações.",
+      "invest_warning": "Por favor, não faça transações ou invista exclusivamente com base nessas informações.",
       "trading": "Os mercados financeiros apresentam riscos significativos para o seu capital investido. As informações e resultados fornecidos por este aplicativo devem ser considerados apenas como uma indicação e não constituem aconselhamento ou recomendações. A {company} declina toda a responsabilidade por perdas incorridas por qualquer pessoa que aja com base nessas informações ou resultados."
     },
     "error": {
@@ -1444,9 +1444,9 @@ static const Map<String,dynamic> pt = {
 static const Map<String,dynamic> en = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "Please do not trade or invest solely based on this information.",
       "incorrect_results": "If you believe the results are incorrect, it's possible that certain parameters may differ based on your broker and the financial instruments you are using. If necessary, you can adjust these settings in the advanced section.",
       "intervening_markets": "Participating in financial markets involves risks that may lead to financial losses. Please do not make trading or investment decisions based solely on this information.",
+      "invest_warning": "Please do not trade or invest solely based on this information.",
       "trading": "Financial markets carry significant risks to your invested capital. The information and results provided by this application should only be considered as an indication and do not constitute advice or recommendations. {company} declines all responsibility for losses incurred by any person acting on the basis of this information or results."
     },
     "error": {
@@ -1730,9 +1730,9 @@ static const Map<String,dynamic> en = {
 static const Map<String,dynamic> it = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "Si prega di non effettuare operazioni o investimenti basandosi unicamente su queste informazioni.",
       "incorrect_results": "Se ritieni che i risultati siano errati, è possibile che alcuni parametri possano variare in base al tuo broker e agli strumenti finanziari che stai utilizzando. Se necessario, puoi regolare queste impostazioni nella sezione avanzata.",
       "intervening_markets": "Partecipare ai mercati finanziari comporta rischi che possono portare a perdite finanziarie. Si prega di non prendere decisioni di trading o di investimento basate esclusivamente su queste informazioni.",
+      "invest_warning": "Si prega di non effettuare operazioni o investimenti basandosi unicamente su queste informazioni.",
       "trading": "I mercati finanziari comportano rischi significativi per il tuo capitale investito. Le informazioni e i risultati forniti da questa applicazione devono essere considerati solo come un'indicazione e non costituiscono consigli o raccomandazioni. {company} declina ogni responsabilità per le perdite subite da chiunque agisca sulla base di queste informazioni o risultati."
     },
     "error": {
@@ -2016,9 +2016,9 @@ static const Map<String,dynamic> it = {
 static const Map<String,dynamic> fr = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "Veuillez ne pas effectuer de transactions ou d'investissements uniquement sur la base de ces informations.",
       "incorrect_results": "Si vous estimez que les résultats sont incorrects, il est possible que certains paramètres diffèrent en fonction de votre courtier et des instruments financiers que vous utilisez. Si nécessaire, vous pouvez ajuster ces paramètres dans la section avancée.",
       "intervening_markets": "La participation aux marchés financiers comporte des risques pouvant entraîner des pertes financières. Veuillez ne pas prendre de décisions de trading ou d'investissement basées uniquement sur ces informations.",
+      "invest_warning": "Veuillez ne pas effectuer de transactions ou d'investissements uniquement sur la base de ces informations.",
       "trading": "Les marchés financiers comportent des risques importants pour votre capital investi. Les informations et les résultats fournis par cette application ne doivent être considérés que comme une indication et ne constituent pas des conseils ou des recommandations. {company} décline toute responsabilité en cas de pertes encourues par toute personne agissant sur la base de ces informations ou résultats."
     },
     "error": {
@@ -2302,9 +2302,9 @@ static const Map<String,dynamic> fr = {
 static const Map<String,dynamic> es = {
   "finance": {
     "disclaimer": {
-      "invest_warning": "Por favor, no realice operaciones o invierta únicamente en base a esta información.",
       "incorrect_results": "Si considera que los resultados son incorrectos, es posible que ciertos parámetros varíen según su corredor y los instrumentos financieros que esté utilizando. Si es necesario, puede ajustar estas configuraciones en la sección avanzada.",
       "intervening_markets": "Participar en los mercados financieros conlleva riesgos que pueden generar pérdidas financieras. Por favor, no tome decisiones de trading o inversión basadas únicamente en esta información.",
+      "invest_warning": "Por favor, no realice operaciones o invierta únicamente en base a esta información.",
       "trading": "Los mercados financieros conllevan riesgos significativos para su capital invertido. La información y los resultados proporcionados por esta aplicación solo deben considerarse como una indicación y no constituyen asesoramiento ni recomendaciones. {company} declina toda responsabilidad por las pérdidas incurridas por cualquier persona que actúe en función de esta información o estos resultados."
     },
     "error": {
