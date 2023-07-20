@@ -79,6 +79,9 @@ class CoreCodegenLoader extends AssetLoader {
       "quantity": "数量",
       "quarterly": "每季度",
       "results": "结果",
+      "retry": "重试",
+      "save": "保存",
+      "saved": "已保存",
       "search": "搜索",
       "semi_annually": "半年一次",
       "share": {
@@ -115,6 +118,7 @@ class CoreCodegenLoader extends AssetLoader {
       "modern_design": "现代外观。",
       "no_favorites": "无收藏。",
       "please_wait": "请稍候...",
+      "saving": "保存中...",
       "search": "搜索...",
       "share": {
         "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"
@@ -207,6 +211,9 @@ static const Map<String,dynamic> ja = {
       "quantity": "数量",
       "quarterly": "四半期ごとに",
       "results": "結果",
+      "retry": "再試行",
+      "save": "保存",
+      "saved": "保存済み",
       "search": "検索",
       "semi_annually": "半年ごとに",
       "share": {
@@ -243,6 +250,7 @@ static const Map<String,dynamic> ja = {
       "modern_design": "モダンなデザイン。",
       "no_favorites": "お気に入りはありません。",
       "please_wait": "お待ちください...",
+      "saving": "保存中...",
       "search": "検索...",
       "share": {
         "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
@@ -335,6 +343,9 @@ static const Map<String,dynamic> de = {
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
       "results": "Ergebnisse",
+      "retry": "Erneut versuchen",
+      "save": "Speichern",
+      "saved": "Gespeichert",
       "search": "Suche",
       "semi_annually": "halbjährlich",
       "share": {
@@ -371,6 +382,7 @@ static const Map<String,dynamic> de = {
       "modern_design": "Modernes Design.",
       "no_favorites": "Keine Favoriten.",
       "please_wait": "Bitte warten...",
+      "saving": "Speichern...",
       "search": "Suche...",
       "share": {
         "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
@@ -463,6 +475,9 @@ static const Map<String,dynamic> ru = {
       "quantity": "Количество",
       "quarterly": "Ежеквартально",
       "results": "Результаты",
+      "retry": "Повторить",
+      "save": "Сохранить",
+      "saved": "Сохранено",
       "search": "Поиск",
       "semi_annually": "полугодовой",
       "share": {
@@ -499,6 +514,7 @@ static const Map<String,dynamic> ru = {
       "modern_design": "Современный дизайн.",
       "no_favorites": "Нет избранных.",
       "please_wait": "Пожалуйста, подождите...",
+      "saving": "Сохранение...",
       "search": "Поиск...",
       "share": {
         "invite": "Привет! Я обнаружил удивительное приложение, которое сделает твою жизнь проще. Проверь его!"
@@ -591,6 +607,9 @@ static const Map<String,dynamic> pt = {
       "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
       "results": "Resultados",
+      "retry": "Tentar novamente",
+      "save": "Salvar",
+      "saved": "Salvo",
       "search": "Pesquisar",
       "semi_annually": "semestralmente",
       "share": {
@@ -627,6 +646,7 @@ static const Map<String,dynamic> pt = {
       "modern_design": "Visual moderno.",
       "no_favorites": "Sem favoritos.",
       "please_wait": "Aguarde, por favor...",
+      "saving": "Salvando...",
       "search": "Pesquisar...",
       "share": {
         "invite": "Oi, descobri este incrível aplicativo que vai facilitar a sua vida. Confira!"
@@ -719,6 +739,9 @@ static const Map<String,dynamic> en = {
       "quantity": "Quantity",
       "quarterly": "Quarterly",
       "results": "Results",
+      "retry": "Retry",
+      "save": "Save",
+      "saved": "Saved",
       "search": "Search",
       "semi_annually": "Semi-annually",
       "share": {
@@ -755,6 +778,7 @@ static const Map<String,dynamic> en = {
       "modern_design": "Modern Look.",
       "no_favorites": "No favorites.",
       "please_wait": "Please wait...",
+      "saving": "Saving...",
       "search": "Search...",
       "share": {
         "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
@@ -847,6 +871,9 @@ static const Map<String,dynamic> it = {
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
       "results": "Risultati",
+      "retry": "Riprova",
+      "save": "Salva",
+      "saved": "Salvato",
       "search": "Cerca",
       "semi_annually": "semestralmente",
       "share": {
@@ -883,6 +910,7 @@ static const Map<String,dynamic> it = {
       "modern_design": "Design moderno.",
       "no_favorites": "Nessun preferito.",
       "please_wait": "Attendere prego...",
+      "saving": "Salvataggio in corso...",
       "search": "Ricerca...",
       "share": {
         "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
@@ -975,6 +1003,9 @@ static const Map<String,dynamic> fr = {
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
       "results": "Résultats",
+      "retry": "Réessayer",
+      "save": "Enregistrer",
+      "saved": "Enregistré",
       "search": "Rechercher",
       "semi_annually": "semi-annuellement",
       "share": {
@@ -1011,6 +1042,7 @@ static const Map<String,dynamic> fr = {
       "modern_design": "Design moderne.",
       "no_favorites": "Aucun favori.",
       "please_wait": "Veuillez patienter...",
+      "saving": "Enregistrement en cours...",
       "search": "Rechercher...",
       "share": {
         "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
@@ -1103,6 +1135,9 @@ static const Map<String,dynamic> es = {
       "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
       "results": "Resultados",
+      "retry": "Reintentar",
+      "save": "Guardar",
+      "saved": "Guardado",
       "search": "Buscar",
       "semi_annually": "semestralmente",
       "share": {
@@ -1139,6 +1174,7 @@ static const Map<String,dynamic> es = {
       "modern_design": "Diseño moderno.",
       "no_favorites": "No hay favoritos.",
       "please_wait": "Por favor, espera...",
+      "saving": "Guardando...",
       "search": "Buscar...",
       "share": {
         "invite": "¡Hola! He descubierto esta increíble aplicación que hará tu vida más fácil. ¡Échale un vistazo!"

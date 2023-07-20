@@ -66,6 +66,9 @@
       "quantity": "Quantity",
       "quarterly": "Quarterly",
       "results": "Results",
+      "retry": "Retry",
+      "save": "Save",
+      "saved": "Saved",
       "search": "Search",
       "semi_annually": "Semi-annually",
       "share": {
@@ -102,6 +105,7 @@
       "modern_design": "Modern Look.",
       "no_favorites": "No favorites.",
       "please_wait": "Please wait...",
+      "saving": "Saving...",
       "search": "Search...",
       "share": {
         "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"

@@ -55,6 +55,9 @@ abstract class CoreLocaleKeys {
   static const core_label_quantity = 'core.label.quantity';
   static const core_label_quarterly = 'core.label.quarterly';
   static const core_label_results = 'core.label.results';
+  static const core_label_retry = 'core.label.retry';
+  static const core_label_save = 'core.label.save';
+  static const core_label_saved = 'core.label.saved';
   static const core_label_search = 'core.label.search';
   static const core_label_semi_annually = 'core.label.semi_annually';
   static const core_label_share_app = 'core.label.share.app';
@@ -88,6 +91,7 @@ abstract class CoreLocaleKeys {
   static const core_message_modern_design = 'core.message.modern_design';
   static const core_message_no_favorites = 'core.message.no_favorites';
   static const core_message_please_wait = 'core.message.please_wait';
+  static const core_message_saving = 'core.message.saving';
   static const core_message_search = 'core.message.search';
   static const core_message_share_invite = 'core.message.share.invite';
   static const core_message_share = 'core.message.share';

@@ -66,6 +66,9 @@
       "quantity": "数量",
       "quarterly": "四半期ごとに",
       "results": "結果",
+      "retry": "再試行",
+      "save": "保存",
+      "saved": "保存済み",
       "search": "検索",
       "semi_annually": "半年ごとに",
       "share": {
@@ -102,6 +105,7 @@
       "modern_design": "モダンなデザイン。",
       "no_favorites": "お気に入りはありません。",
       "please_wait": "お待ちください...",
+      "saving": "保存中...",
       "search": "検索...",
       "share": {
         "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"

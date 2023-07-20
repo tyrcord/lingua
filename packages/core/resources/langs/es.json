@@ -66,6 +66,9 @@
       "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
       "results": "Resultados",
+      "retry": "Reintentar",
+      "save": "Guardar",
+      "saved": "Guardado",
       "search": "Buscar",
       "semi_annually": "semestralmente",
       "share": {
@@ -102,6 +105,7 @@
       "modern_design": "Diseño moderno.",
       "no_favorites": "No hay favoritos.",
       "please_wait": "Por favor, espera...",
+      "saving": "Guardando...",
       "search": "Buscar...",
       "share": {
         "invite": "¡Hola! He descubierto esta increíble aplicación que hará tu vida más fácil. ¡Échale un vistazo!"

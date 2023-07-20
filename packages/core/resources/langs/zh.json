@@ -66,6 +66,9 @@
       "quantity": "数量",
       "quarterly": "每季度",
       "results": "结果",
+      "retry": "重试",
+      "save": "保存",
+      "saved": "已保存",
       "search": "搜索",
       "semi_annually": "半年一次",
       "share": {
@@ -102,6 +105,7 @@
       "modern_design": "现代外观。",
       "no_favorites": "无收藏。",
       "please_wait": "请稍候...",
+      "saving": "保存中...",
       "search": "搜索...",
       "share": {
         "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"

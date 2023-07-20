@@ -66,6 +66,9 @@
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
       "results": "Ergebnisse",
+      "retry": "Erneut versuchen",
+      "save": "Speichern",
+      "saved": "Gespeichert",
       "search": "Suche",
       "semi_annually": "halbjährlich",
       "share": {
@@ -102,6 +105,7 @@
       "modern_design": "Modernes Design.",
       "no_favorites": "Keine Favoriten.",
       "please_wait": "Bitte warten...",
+      "saving": "Speichern...",
       "search": "Suche...",
       "share": {
         "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
