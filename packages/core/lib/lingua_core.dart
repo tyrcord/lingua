@@ -11,7 +11,7 @@ class LinguaLoader extends AssetLoader {
   final Map<String, Map<String, dynamic>> mapLocales;
 
   const LinguaLoader({
-    this.mapLocales = const {},
+    this.mapLocales = CoreCodegenLoader.mapLocales,
   });
 
   @override
@@ -22,6 +22,10 @@ class LinguaLoader extends AssetLoader {
   static Map<String, Map<String, dynamic>> mergeMapLocales(
     List<Map<String, Map<String, dynamic>>> mapLocales,
   ) {
+    if (mapLocales.isEmpty) {
+      return CoreCodegenLoader.mapLocales;
+    }
+
     return [CoreCodegenLoader.mapLocales, ...mapLocales].fold(
       <String, Map<String, dynamic>>{},
       (combinedMap, mapLocale) {
