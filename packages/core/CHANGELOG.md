@@ -1,3 +1,7 @@
+## 0.0.9
+
+ - **FEAT**: add a default value for LinguaLoader.
+
 ## 0.0.8
 
  - **FEAT**: update core.

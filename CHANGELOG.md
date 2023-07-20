@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_core` - `v0.0.9`](#lingua_core---v009)
+
+---
+
+#### `lingua_core` - `v0.0.9`
+
+ - **FEAT**: add a default value for LinguaLoader.
+
+
+## 2023-07-20
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_core` - `v0.0.8`](#lingua_core---v008)
 
 ---
