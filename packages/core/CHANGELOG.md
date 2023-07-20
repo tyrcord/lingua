@@ -1,3 +1,7 @@
+## 0.0.10
+
+ - **FEAT**: update core.
+
 ## 0.0.9+1
 
  - **FIX**: wrong default.
