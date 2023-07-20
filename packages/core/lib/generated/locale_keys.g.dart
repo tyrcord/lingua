@@ -76,6 +76,9 @@ abstract class CoreLocaleKeys {
   static const core_message_action = 'core.message.action';
   static const core_message_bugs_fixes_improvements = 'core.message.bugs_fixes_improvements';
   static const core_message_congratulations = 'core.message.congratulations';
+  static const core_message_copied = 'core.message.copied';
+  static const core_message_copied_to_clipboard = 'core.message.copied_to_clipboard';
+  static const core_message_copied_value_to_clipboard = 'core.message.copied_value_to_clipboard';
   static const core_message_dark_mode_support = 'core.message.dark_mode_support';
   static const core_message_finally = 'core.message.finally';
   static const core_message_have_wonderful_day = 'core.message.have_wonderful_day';
