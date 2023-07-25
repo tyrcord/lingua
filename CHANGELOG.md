@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_core` - `v0.0.13`](#lingua_core---v0013)
+
+---
+
+#### `lingua_core` - `v0.0.13`
+
+ - **FEAT**: update localization.
+
+
+## 2023-07-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_core` - `v0.0.12`](#lingua_core---v0012)
 
 ---
