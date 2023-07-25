@@ -24,9 +24,15 @@
         "text": "清除"
       },
       "close": "关闭",
+      "collapse": {
+        "all": "全部折叠",
+        "text": "折叠"
+      },
       "confirm": "确认",
       "confirmation": "确认",
       "continue": "继续",
+      "copy": "复制",
+      "cut": "剪切",
       "daily": "每天",
       "date": "日期",
       "default": {
@@ -38,26 +44,61 @@
       "details": "详细信息",
       "display": "显示",
       "done": "完成",
+      "download": "下载",
       "edit": "编辑",
       "entries": "入口",
       "entry": "入口",
       "error": "错误",
       "exit": "出口",
       "exotics": "异国情调",
+      "expand": {
+        "all": "全部展开",
+        "text": "展开"
+      },
+      "export": {
+        "all": "全部导出",
+        "as": "导出为",
+        "text": "导出"
+      },
       "favorites": "收藏",
+      "find": {
+        "and_replace": "查找和替换",
+        "next": "查找下一个",
+        "previous": "查找上一个",
+        "text": "查找"
+      },
       "follow_us": "关注我们",
       "frequency": "频率",
       "go": "前往",
+      "help": "帮助",
       "home": "首页",
+      "import": {
+        "all": "全部导入",
+        "from": "导入自",
+        "text": "导入"
+      },
       "inputs": "输入",
       "install": "安装",
       "learn_more": "了解更多",
+      "loading": "加载中",
       "majors": "成年人",
       "menu": "菜单",
       "method": "方法",
       "minors": "未成年人",
       "monthly": "每月",
       "name": "名称",
+      "new": {
+        "bookmark": "新建书签",
+        "document": "新建文档",
+        "file": "新建文件",
+        "folder": "新建文件夹",
+        "note": "新建笔记",
+        "project": "新建项目",
+        "tab": "新建标签页",
+        "text": "新建",
+        "window": "新建窗口",
+        "workspace": "新建工作区"
+      },
       "next": "下一步",
       "no": "否",
       "none": {
@@ -67,18 +108,45 @@
       },
       "offline_mode": "离线模式",
       "ok": "确定",
-      "open": "打开",
+      "open": {
+        "all": "全部打开",
+        "in_new": {
+          "tab": "在新标签页打开",
+          "window": "在新窗口打开"
+        },
+        "text": "打开"
+      },
       "optional": "可选",
+      "paste": "粘贴",
       "quantity": "数量",
       "quarterly": "每季度",
+      "redo": "重做",
       "refresh": "刷新",
       "remove": "移除",
+      "replace": {
+        "all": "全部替换",
+        "text": "替换"
+      },
       "reset": "重置",
       "results": "结果",
       "retry": "重试",
-      "save": "保存",
+      "save": {
+        "all": "全部保存",
+        "and": {
+          "close": "保存并关闭",
+          "exit": "保存并退出"
+        },
+        "as": "另存为",
+        "text": "保存"
+      },
       "saved": "已保存",
       "search": "搜索",
+      "select": {
+        "all": "全选",
+        "none": "取消选择",
+        "text": "选择"
+      },
+      "selection": "选择",
       "sell": "出售",
       "semi_annually": "半年一次",
       "share": {
@@ -88,16 +156,28 @@
       "skip": "跳过",
       "submit": "提交",
       "success": "成功",
+      "toggle": {
+        "all": "全部切换",
+        "text": "切换"
+      },
       "try_again": "重试",
+      "undo": "撤销",
       "uninstall": "卸载",
       "unlocked": "已解锁",
       "update": "更新",
+      "upload": "上传",
       "user_inputs": "用户输入",
       "website": "网站",
       "weekly": "每周",
       "yearly": "每年",
       "yes": "是",
-      "yesterday": "昨天"
+      "yesterday": "昨天",
+      "zoom": {
+        "in": "放大",
+        "out": "缩小",
+        "reset": "重置缩放",
+        "text": "缩放"
+      }
     },
     "message": {
       "action": {

@@ -24,9 +24,15 @@
         "text": "Borrar"
       },
       "close": "Cerrar",
+      "collapse": {
+        "all": "Colapsar todo",
+        "text": "Colapsar"
+      },
       "confirm": "Confirmar",
       "confirmation": "Confirmación",
       "continue": "Continuar",
+      "copy": "Copiar",
+      "cut": "Cortar",
       "daily": "Diariamente",
       "date": "Fecha",
       "default": {
@@ -38,26 +44,61 @@
       "details": "Detalles",
       "display": "Mostrar",
       "done": "Hecho",
+      "download": "Descargar",
       "edit": "Editar",
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Error",
       "exit": "Salida",
       "exotics": "Exóticas",
+      "expand": {
+        "all": "Expandir todo",
+        "text": "Expandir"
+      },
+      "export": {
+        "all": "Exportar todo",
+        "as": "Exportar como",
+        "text": "Exportar"
+      },
       "favorites": "Favoritos",
+      "find": {
+        "and_replace": "Buscar y reemplazar",
+        "next": "Buscar siguiente",
+        "previous": "Buscar anterior",
+        "text": "Buscar"
+      },
       "follow_us": "Síganos",
       "frequency": "Frecuencia",
       "go": "Ir",
+      "help": "Ayuda",
       "home": "Inicio",
+      "import": {
+        "all": "Importar todo",
+        "from": "Importar desde",
+        "text": "Importar"
+      },
       "inputs": "Entradas",
       "install": "Instalar",
       "learn_more": "Más información",
+      "loading": "Cargando",
       "majors": "Mayores",
       "menu": "Menú",
       "method": "Método",
       "minors": "Menores",
       "monthly": "Mensualmente",
       "name": "Nombre",
+      "new": {
+        "bookmark": "Nuevo marcador",
+        "document": "Nuevo documento",
+        "file": "Nuevo archivo",
+        "folder": "Nueva carpeta",
+        "note": "Nueva nota",
+        "project": "Nuevo proyecto",
+        "tab": "Nueva pestaña",
+        "text": "Nuevo",
+        "window": "Nueva ventana",
+        "workspace": "Nuevo espacio de trabajo"
+      },
       "next": "Siguiente",
       "no": "No",
       "none": {
@@ -67,18 +108,45 @@
       },
       "offline_mode": "Modo sin conexión",
       "ok": "OK",
-      "open": "Abrir",
+      "open": {
+        "all": "Abrir todo",
+        "in_new": {
+          "tab": "Abrir en nueva pestaña",
+          "window": "Abrir en nueva ventana"
+        },
+        "text": "Abrir"
+      },
       "optional": "Opcional",
+      "paste": "Pegar",
       "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
+      "redo": "Rehacer",
       "refresh": "Actualizar",
       "remove": "Eliminar",
+      "replace": {
+        "all": "Reemplazar todo",
+        "text": "Reemplazar"
+      },
       "reset": "Restablecer",
       "results": "Resultados",
       "retry": "Reintentar",
-      "save": "Guardar",
+      "save": {
+        "all": "Guardar todo",
+        "and": {
+          "close": "Guardar y cerrar",
+          "exit": "Guardar y salir"
+        },
+        "as": "Guardar como",
+        "text": "Guardar"
+      },
       "saved": "Guardado",
       "search": "Buscar",
+      "select": {
+        "all": "Seleccionar todo",
+        "none": "Seleccionar ninguno",
+        "text": "Seleccionar"
+      },
+      "selection": "Selección",
       "sell": "Vender",
       "semi_annually": "semestralmente",
       "share": {
@@ -88,16 +156,28 @@
       "skip": "Omitir",
       "submit": "Enviar",
       "success": "Éxito",
+      "toggle": {
+        "all": "Alternar todo",
+        "text": "Alternar"
+      },
       "try_again": "Reintentar",
+      "undo": "Deshacer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "update": "Actualizar",
+      "upload": "Subir",
       "user_inputs": "Entradas del usuario",
       "website": "Sitio web",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
       "yes": "Sí",
-      "yesterday": "Ayer"
+      "yesterday": "Ayer",
+      "zoom": {
+        "in": "Acercar",
+        "out": "Alejar",
+        "reset": "Restablecer zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {

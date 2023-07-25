@@ -24,9 +24,15 @@
         "text": "Cancella"
       },
       "close": "Chiudi",
+      "collapse": {
+        "all": "Comprimi tutto",
+        "text": "Comprimi"
+      },
       "confirm": "Conferma",
       "confirmation": "Conferma",
       "continue": "Continua",
+      "copy": "Copia",
+      "cut": "Taglia",
       "daily": "Giornalmente",
       "date": "Data",
       "default": {
@@ -38,26 +44,61 @@
       "details": "Dettagli",
       "display": "Visualizza",
       "done": "Fatto",
+      "download": "Scarica",
       "edit": "Modificare",
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
       "exit": "Uscita",
       "exotics": "Esotiche",
+      "expand": {
+        "all": "Espandi tutto",
+        "text": "Espandi"
+      },
+      "export": {
+        "all": "Esporta tutto",
+        "as": "Esporta come",
+        "text": "Esporta"
+      },
       "favorites": "Preferiti",
+      "find": {
+        "and_replace": "Trova e sostituisci",
+        "next": "Trova successivo",
+        "previous": "Trova precedente",
+        "text": "Trova"
+      },
       "follow_us": "Seguici",
       "frequency": "Frequenza",
       "go": "Vai",
+      "help": "Aiuto",
       "home": "Home",
+      "import": {
+        "all": "Importa tutto",
+        "from": "Importa da",
+        "text": "Importa"
+      },
       "inputs": "Inserimenti",
       "install": "Installare",
       "learn_more": "Maggiori informazioni",
+      "loading": "Caricamento",
       "majors": "Maggiori",
       "menu": "Menu",
       "method": "Metodo",
       "minors": "Minori",
       "monthly": "Mensilmente",
       "name": "Nome",
+      "new": {
+        "bookmark": "Nuovo segnalibro",
+        "document": "Nuovo documento",
+        "file": "Nuovo file",
+        "folder": "Nuova cartella",
+        "note": "Nuova nota",
+        "project": "Nuovo progetto",
+        "tab": "Nuova scheda",
+        "text": "Nuovo",
+        "window": "Nuova finestra",
+        "workspace": "Nuovo spazio di lavoro"
+      },
       "next": "Avanti",
       "no": "No",
       "none": {
@@ -67,18 +108,45 @@
       },
       "offline_mode": "Modalità offline",
       "ok": "OK",
-      "open": "Aprire",
+      "open": {
+        "all": "Apri tutto",
+        "in_new": {
+          "tab": "Apri in una nuova scheda",
+          "window": "Apri in una nuova finestra"
+        },
+        "text": "Apri"
+      },
       "optional": "Opzionale",
+      "paste": "Incolla",
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
+      "redo": "Ripristina",
       "refresh": "Aggiornare",
       "remove": "Rimuovere",
+      "replace": {
+        "all": "Sostituisci tutto",
+        "text": "Sostituisci"
+      },
       "reset": "Reimpostare",
       "results": "Risultati",
       "retry": "Riprova",
-      "save": "Salva",
+      "save": {
+        "all": "Salva tutto",
+        "and": {
+          "close": "Salva e chiudi",
+          "exit": "Salva e esci"
+        },
+        "as": "Salva come",
+        "text": "Salva"
+      },
       "saved": "Salvato",
       "search": "Cerca",
+      "select": {
+        "all": "Seleziona tutto",
+        "none": "Deseleziona tutto",
+        "text": "Seleziona"
+      },
+      "selection": "Selezione",
       "sell": "Vendere",
       "semi_annually": "semestralmente",
       "share": {
@@ -88,16 +156,28 @@
       "skip": "Salta",
       "submit": "Invia",
       "success": "Successo",
+      "toggle": {
+        "all": "Attiva/Disattiva tutto",
+        "text": "Attiva/Disattiva"
+      },
       "try_again": "Riprova",
+      "undo": "Annulla",
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
       "update": "Aggiornare",
+      "upload": "Carica",
       "user_inputs": "Inserimenti utente",
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
       "yes": "Sì",
-      "yesterday": "Ieri"
+      "yesterday": "Ieri",
+      "zoom": {
+        "in": "Ingrandisci",
+        "out": "Riduci",
+        "reset": "Reimposta zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {

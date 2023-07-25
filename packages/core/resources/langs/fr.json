@@ -24,9 +24,15 @@
         "text": "Effacer"
       },
       "close": "Fermer",
+      "collapse": {
+        "all": "Tout réduire",
+        "text": "Réduire"
+      },
       "confirm": "Confirmer",
       "confirmation": "Confirmation",
       "continue": "Continuer",
+      "copy": "Copier",
+      "cut": "Couper",
       "daily": "Quotidiennement",
       "date": "Date",
       "default": {
@@ -38,26 +44,61 @@
       "details": "Détails",
       "display": "Affichage",
       "done": "Terminé",
+      "download": "Télécharger",
       "edit": "Modifier",
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
       "exit": "Sortie",
       "exotics": "Exotiques",
+      "expand": {
+        "all": "Tout développer",
+        "text": "Développer"
+      },
+      "export": {
+        "all": "Tout exporter",
+        "as": "Exporter sous",
+        "text": "Exporter"
+      },
       "favorites": "Favoris",
+      "find": {
+        "and_replace": "Rechercher et remplacer",
+        "next": "Rechercher suivant",
+        "previous": "Rechercher précédent",
+        "text": "Rechercher"
+      },
       "follow_us": "Suivez-nous",
       "frequency": "Fréquence",
       "go": "Aller",
+      "help": "Aide",
       "home": "Accueil",
+      "import": {
+        "all": "Tout importer",
+        "from": "Importer depuis",
+        "text": "Importer"
+      },
       "inputs": "Entrées",
       "install": "Installer",
       "learn_more": "En savoir plus",
+      "loading": "Chargement",
       "majors": "Majeures",
       "menu": "Menu",
       "method": "Méthode",
       "minors": "Mineures",
       "monthly": "Mensuellement",
       "name": "Nom",
+      "new": {
+        "bookmark": "Nouveau signet",
+        "document": "Nouveau document",
+        "file": "Nouveau fichier",
+        "folder": "Nouveau dossier",
+        "note": "Nouvelle note",
+        "project": "Nouveau projet",
+        "tab": "Nouvel onglet",
+        "text": "Nouveau",
+        "window": "Nouvelle fenêtre",
+        "workspace": "Nouvel espace de travail"
+      },
       "next": "Suivant",
       "no": "Non",
       "none": {
@@ -67,18 +108,45 @@
       },
       "offline_mode": "Mode hors ligne",
       "ok": "OK",
-      "open": "Ouvrir",
+      "open": {
+        "all": "Tout ouvrir",
+        "in_new": {
+          "tab": "Ouvrir dans un nouvel onglet",
+          "window": "Ouvrir dans une nouvelle fenêtre"
+        },
+        "text": "Ouvrir"
+      },
       "optional": "Optionnel",
+      "paste": "Coller",
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
+      "redo": "Rétablir",
       "refresh": "Actualiser",
       "remove": "Supprimer",
+      "replace": {
+        "all": "Tout remplacer",
+        "text": "Remplacer"
+      },
       "reset": "Réinitialiser",
       "results": "Résultats",
       "retry": "Réessayer",
-      "save": "Enregistrer",
+      "save": {
+        "all": "Tout enregistrer",
+        "and": {
+          "close": "Enregistrer et fermer",
+          "exit": "Enregistrer et quitter"
+        },
+        "as": "Enregistrer sous",
+        "text": "Enregistrer"
+      },
       "saved": "Enregistré",
       "search": "Rechercher",
+      "select": {
+        "all": "Tout sélectionner",
+        "none": "Ne rien sélectionner",
+        "text": "Sélectionner"
+      },
+      "selection": "Sélection",
       "sell": "Vendre",
       "semi_annually": "semi-annuellement",
       "share": {
@@ -88,16 +156,28 @@
       "skip": "Passer",
       "submit": "Envoyer",
       "success": "Succès",
+      "toggle": {
+        "all": "Tout basculer",
+        "text": "Basculer"
+      },
       "try_again": "Réessayer",
+      "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
       "update": "Mettre à jour",
+      "upload": "Téléverser",
       "user_inputs": "Entrées utilisateur",
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
       "yes": "Oui",
-      "yesterday": "Hier"
+      "yesterday": "Hier",
+      "zoom": {
+        "in": "Zoom avant",
+        "out": "Zoom arrière",
+        "reset": "Réinitialiser le zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {

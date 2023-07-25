@@ -24,9 +24,15 @@
         "text": "Clear"
       },
       "close": "Close",
+      "collapse": {
+        "all": "Collapse All",
+        "text": "Collapse"
+      },
       "confirm": "Confirm",
       "confirmation": "Confirmation",
       "continue": "Continue",
+      "copy": "Copy",
+      "cut": "Cut",
       "daily": "Daily",
       "date": "Date",
       "default": {
@@ -38,26 +44,61 @@
       "details": "Details",
       "display": "Display",
       "done": "Done",
+      "download": "Download",
       "edit": "Edit",
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
       "exit": "Exit",
       "exotics": "Exotic",
+      "expand": {
+        "all": "Expand All",
+        "text": "Expand"
+      },
+      "export": {
+        "all": "Export All",
+        "as": "Export As",
+        "text": "Export"
+      },
       "favorites": "Favorites",
+      "find": {
+        "and_replace": "Find and Replace",
+        "next": "Find Next",
+        "previous": "Find Previous",
+        "text": "Find"
+      },
       "follow_us": "Follow us",
       "frequency": "Frequency",
       "go": "Go",
+      "help": "Help",
       "home": "Home",
+      "import": {
+        "all": "Import All",
+        "from": "Import From",
+        "text": "Import"
+      },
       "inputs": "Inputs",
       "install": "Install",
       "learn_more": "Learn more",
+      "loading": "Loading",
       "majors": "Major",
       "menu": "Menu",
       "method": "Method",
       "minors": "Minor",
       "monthly": "Monthly",
       "name": "Name",
+      "new": {
+        "bookmark": "New Bookmark",
+        "document": "New Document",
+        "file": "New File",
+        "folder": "New Folder",
+        "note": "New Note",
+        "project": "New Project",
+        "tab": "New Tab",
+        "text": "New",
+        "window": "New Window",
+        "workspace": "New Workspace"
+      },
       "next": "Next",
       "no": "No",
       "none": {
@@ -67,18 +108,45 @@
       },
       "offline_mode": "Offline Mode",
       "ok": "OK",
-      "open": "Open",
+      "open": {
+        "all": "Open All",
+        "in_new": {
+          "tab": "Open in New Tab",
+          "window": "Open in New Window"
+        },
+        "text": "Open"
+      },
       "optional": "Optional",
+      "paste": "Paste",
       "quantity": "Quantity",
       "quarterly": "Quarterly",
+      "redo": "Redo",
       "refresh": "Refresh",
       "remove": "Remove",
+      "replace": {
+        "all": "Replace All",
+        "text": "Replace"
+      },
       "reset": "Reset",
       "results": "Results",
       "retry": "Retry",
-      "save": "Save",
+      "save": {
+        "all": "Save All",
+        "and": {
+          "close": "Save and Close",
+          "exit": "Save and Exit"
+        },
+        "as": "Save As",
+        "text": "Save"
+      },
       "saved": "Saved",
       "search": "Search",
+      "select": {
+        "all": "Select All",
+        "none": "Select None",
+        "text": "Select"
+      },
+      "selection": "Selection",
       "sell": "Sell",
       "semi_annually": "Semi-annually",
       "share": {
@@ -88,16 +156,28 @@
       "skip": "Skip",
       "submit": "Submit",
       "success": "Success",
+      "toggle": {
+        "all": "Toggle All",
+        "text": "Toggle"
+      },
       "try_again": "Try Again",
+      "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
       "update": "Update",
+      "upload": "Upload",
       "user_inputs": "User Inputs",
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
       "yes": "Yes",
-      "yesterday": "Yesterday"
+      "yesterday": "Yesterday",
+      "zoom": {
+        "in": "Zoom In",
+        "out": "Zoom Out",
+        "reset": "Reset Zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {

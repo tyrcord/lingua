@@ -24,9 +24,15 @@
         "text": "クリア"
       },
       "close": "閉じる",
+      "collapse": {
+        "all": "すべて折りたたむ",
+        "text": "折りたたむ"
+      },
       "confirm": "確認",
       "confirmation": "確認",
       "continue": "続ける",
+      "copy": "コピー",
+      "cut": "カット",
       "daily": "毎日",
       "date": "日付",
       "default": {
@@ -38,26 +44,61 @@
       "details": "詳細",
       "display": "表示",
       "done": "完了",
+      "download": "ダウンロード",
       "edit": "編集",
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
       "exit": "出口",
       "exotics": "エキゾチック",
+      "expand": {
+        "all": "すべて展開",
+        "text": "展開"
+      },
+      "export": {
+        "all": "すべてエクスポート",
+        "as": "としてエクスポート",
+        "text": "エクスポート"
+      },
       "favorites": "お気に入り",
+      "find": {
+        "and_replace": "検索と置換",
+        "next": "次を検索",
+        "previous": "前を検索",
+        "text": "検索"
+      },
       "follow_us": "フォローする",
       "frequency": "頻度",
       "go": "移動",
+      "help": "ヘルプ",
       "home": "ホーム",
+      "import": {
+        "all": "すべてインポート",
+        "from": "からインポート",
+        "text": "インポート"
+      },
       "inputs": "入力",
       "install": "インストール",
       "learn_more": "詳細を確認",
+      "loading": "読み込み中",
       "majors": "成人",
       "menu": "メニュー",
       "method": "メソッド",
       "minors": "未成年",
       "monthly": "毎月",
       "name": "名前",
+      "new": {
+        "bookmark": "新しいブックマーク",
+        "document": "新しいドキュメント",
+        "file": "新しいファイル",
+        "folder": "新しいフォルダー",
+        "note": "新しいノート",
+        "project": "新しいプロジェクト",
+        "tab": "新しいタブ",
+        "text": "新規",
+        "window": "新しいウィンドウ",
+        "workspace": "新しいワークスペース"
+      },
       "next": "次へ",
       "no": "いいえ",
       "none": {
@@ -67,18 +108,45 @@
       },
       "offline_mode": "オフラインモード",
       "ok": "OK",
-      "open": "開く",
+      "open": {
+        "all": "すべて開く",
+        "in_new": {
+          "tab": "新しいタブで開く",
+          "window": "新しいウィンドウで開く"
+        },
+        "text": "開く"
+      },
       "optional": "任意",
+      "paste": "ペースト",
       "quantity": "数量",
       "quarterly": "四半期ごとに",
+      "redo": "やり直す",
       "refresh": "リフレッシュ",
       "remove": "削除",
+      "replace": {
+        "all": "すべて置換",
+        "text": "置換"
+      },
       "reset": "リセット",
       "results": "結果",
       "retry": "再試行",
-      "save": "保存",
+      "save": {
+        "all": "すべて保存",
+        "and": {
+          "close": "保存して閉じる",
+          "exit": "保存して終了"
+        },
+        "as": "名前を付けて保存",
+        "text": "保存"
+      },
       "saved": "保存済み",
       "search": "検索",
+      "select": {
+        "all": "すべて選択",
+        "none": "選択解除",
+        "text": "選択"
+      },
+      "selection": "選択",
       "sell": "売却",
       "semi_annually": "半年ごとに",
       "share": {
@@ -88,16 +156,28 @@
       "skip": "スキップ",
       "submit": "送信",
       "success": "成功",
+      "toggle": {
+        "all": "すべて切り替え",
+        "text": "切り替え"
+      },
       "try_again": "再試行",
+      "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
       "update": "更新",
+      "upload": "アップロード",
       "user_inputs": "ユーザー入力",
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
       "yes": "はい",
-      "yesterday": "昨日"
+      "yesterday": "昨日",
+      "zoom": {
+        "in": "ズームイン",
+        "out": "ズームアウト",
+        "reset": "ズームリセット",
+        "text": "ズーム"
+      }
     },
     "message": {
       "action": {

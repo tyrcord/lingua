@@ -37,9 +37,15 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "清除"
       },
       "close": "关闭",
+      "collapse": {
+        "all": "全部折叠",
+        "text": "折叠"
+      },
       "confirm": "确认",
       "confirmation": "确认",
       "continue": "继续",
+      "copy": "复制",
+      "cut": "剪切",
       "daily": "每天",
       "date": "日期",
       "default": {
@@ -51,26 +57,61 @@ class CoreCodegenLoader extends AssetLoader {
       "details": "详细信息",
       "display": "显示",
       "done": "完成",
+      "download": "下载",
       "edit": "编辑",
       "entries": "入口",
       "entry": "入口",
       "error": "错误",
       "exit": "出口",
       "exotics": "异国情调",
+      "expand": {
+        "all": "全部展开",
+        "text": "展开"
+      },
+      "export": {
+        "all": "全部导出",
+        "as": "导出为",
+        "text": "导出"
+      },
       "favorites": "收藏",
+      "find": {
+        "and_replace": "查找和替换",
+        "next": "查找下一个",
+        "previous": "查找上一个",
+        "text": "查找"
+      },
       "follow_us": "关注我们",
       "frequency": "频率",
       "go": "前往",
+      "help": "帮助",
       "home": "首页",
+      "import": {
+        "all": "全部导入",
+        "from": "导入自",
+        "text": "导入"
+      },
       "inputs": "输入",
       "install": "安装",
       "learn_more": "了解更多",
+      "loading": "加载中",
       "majors": "成年人",
       "menu": "菜单",
       "method": "方法",
       "minors": "未成年人",
       "monthly": "每月",
       "name": "名称",
+      "new": {
+        "bookmark": "新建书签",
+        "document": "新建文档",
+        "file": "新建文件",
+        "folder": "新建文件夹",
+        "note": "新建笔记",
+        "project": "新建项目",
+        "tab": "新建标签页",
+        "text": "新建",
+        "window": "新建窗口",
+        "workspace": "新建工作区"
+      },
       "next": "下一步",
       "no": "否",
       "none": {
@@ -80,18 +121,45 @@ class CoreCodegenLoader extends AssetLoader {
       },
       "offline_mode": "离线模式",
       "ok": "确定",
-      "open": "打开",
+      "open": {
+        "all": "全部打开",
+        "in_new": {
+          "tab": "在新标签页打开",
+          "window": "在新窗口打开"
+        },
+        "text": "打开"
+      },
       "optional": "可选",
+      "paste": "粘贴",
       "quantity": "数量",
       "quarterly": "每季度",
+      "redo": "重做",
       "refresh": "刷新",
       "remove": "移除",
+      "replace": {
+        "all": "全部替换",
+        "text": "替换"
+      },
       "reset": "重置",
       "results": "结果",
       "retry": "重试",
-      "save": "保存",
+      "save": {
+        "all": "全部保存",
+        "and": {
+          "close": "保存并关闭",
+          "exit": "保存并退出"
+        },
+        "as": "另存为",
+        "text": "保存"
+      },
       "saved": "已保存",
       "search": "搜索",
+      "select": {
+        "all": "全选",
+        "none": "取消选择",
+        "text": "选择"
+      },
+      "selection": "选择",
       "sell": "出售",
       "semi_annually": "半年一次",
       "share": {
@@ -101,16 +169,28 @@ class CoreCodegenLoader extends AssetLoader {
       "skip": "跳过",
       "submit": "提交",
       "success": "成功",
+      "toggle": {
+        "all": "全部切换",
+        "text": "切换"
+      },
       "try_again": "重试",
+      "undo": "撤销",
       "uninstall": "卸载",
       "unlocked": "已解锁",
       "update": "更新",
+      "upload": "上传",
       "user_inputs": "用户输入",
       "website": "网站",
       "weekly": "每周",
       "yearly": "每年",
       "yes": "是",
-      "yesterday": "昨天"
+      "yesterday": "昨天",
+      "zoom": {
+        "in": "放大",
+        "out": "缩小",
+        "reset": "重置缩放",
+        "text": "缩放"
+      }
     },
     "message": {
       "action": {
@@ -182,9 +262,15 @@ static const Map<String,dynamic> ja = {
         "text": "クリア"
       },
       "close": "閉じる",
+      "collapse": {
+        "all": "すべて折りたたむ",
+        "text": "折りたたむ"
+      },
       "confirm": "確認",
       "confirmation": "確認",
       "continue": "続ける",
+      "copy": "コピー",
+      "cut": "カット",
       "daily": "毎日",
       "date": "日付",
       "default": {
@@ -196,26 +282,61 @@ static const Map<String,dynamic> ja = {
       "details": "詳細",
       "display": "表示",
       "done": "完了",
+      "download": "ダウンロード",
       "edit": "編集",
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
       "exit": "出口",
       "exotics": "エキゾチック",
+      "expand": {
+        "all": "すべて展開",
+        "text": "展開"
+      },
+      "export": {
+        "all": "すべてエクスポート",
+        "as": "としてエクスポート",
+        "text": "エクスポート"
+      },
       "favorites": "お気に入り",
+      "find": {
+        "and_replace": "検索と置換",
+        "next": "次を検索",
+        "previous": "前を検索",
+        "text": "検索"
+      },
       "follow_us": "フォローする",
       "frequency": "頻度",
       "go": "移動",
+      "help": "ヘルプ",
       "home": "ホーム",
+      "import": {
+        "all": "すべてインポート",
+        "from": "からインポート",
+        "text": "インポート"
+      },
       "inputs": "入力",
       "install": "インストール",
       "learn_more": "詳細を確認",
+      "loading": "読み込み中",
       "majors": "成人",
       "menu": "メニュー",
       "method": "メソッド",
       "minors": "未成年",
       "monthly": "毎月",
       "name": "名前",
+      "new": {
+        "bookmark": "新しいブックマーク",
+        "document": "新しいドキュメント",
+        "file": "新しいファイル",
+        "folder": "新しいフォルダー",
+        "note": "新しいノート",
+        "project": "新しいプロジェクト",
+        "tab": "新しいタブ",
+        "text": "新規",
+        "window": "新しいウィンドウ",
+        "workspace": "新しいワークスペース"
+      },
       "next": "次へ",
       "no": "いいえ",
       "none": {
@@ -225,18 +346,45 @@ static const Map<String,dynamic> ja = {
       },
       "offline_mode": "オフラインモード",
       "ok": "OK",
-      "open": "開く",
+      "open": {
+        "all": "すべて開く",
+        "in_new": {
+          "tab": "新しいタブで開く",
+          "window": "新しいウィンドウで開く"
+        },
+        "text": "開く"
+      },
       "optional": "任意",
+      "paste": "ペースト",
       "quantity": "数量",
       "quarterly": "四半期ごとに",
+      "redo": "やり直す",
       "refresh": "リフレッシュ",
       "remove": "削除",
+      "replace": {
+        "all": "すべて置換",
+        "text": "置換"
+      },
       "reset": "リセット",
       "results": "結果",
       "retry": "再試行",
-      "save": "保存",
+      "save": {
+        "all": "すべて保存",
+        "and": {
+          "close": "保存して閉じる",
+          "exit": "保存して終了"
+        },
+        "as": "名前を付けて保存",
+        "text": "保存"
+      },
       "saved": "保存済み",
       "search": "検索",
+      "select": {
+        "all": "すべて選択",
+        "none": "選択解除",
+        "text": "選択"
+      },
+      "selection": "選択",
       "sell": "売却",
       "semi_annually": "半年ごとに",
       "share": {
@@ -246,16 +394,28 @@ static const Map<String,dynamic> ja = {
       "skip": "スキップ",
       "submit": "送信",
       "success": "成功",
+      "toggle": {
+        "all": "すべて切り替え",
+        "text": "切り替え"
+      },
       "try_again": "再試行",
+      "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
       "update": "更新",
+      "upload": "アップロード",
       "user_inputs": "ユーザー入力",
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
       "yes": "はい",
-      "yesterday": "昨日"
+      "yesterday": "昨日",
+      "zoom": {
+        "in": "ズームイン",
+        "out": "ズームアウト",
+        "reset": "ズームリセット",
+        "text": "ズーム"
+      }
     },
     "message": {
       "action": {
@@ -327,9 +487,15 @@ static const Map<String,dynamic> de = {
         "text": "Löschen"
       },
       "close": "Schließen",
+      "collapse": {
+        "all": "Alle zusammenklappen",
+        "text": "Zusammenklappen"
+      },
       "confirm": "Bestätigen",
       "confirmation": "Bestätigung",
       "continue": "Weiter",
+      "copy": "Kopieren",
+      "cut": "Ausschneiden",
       "daily": "Täglich",
       "date": "Datum",
       "default": {
@@ -341,26 +507,61 @@ static const Map<String,dynamic> de = {
       "details": "Details",
       "display": "Anzeige",
       "done": "Fertig",
+      "download": "Herunterladen",
       "edit": "Bearbeiten",
       "entries": "Eingänge",
       "entry": "Eingang",
       "error": "Fehler",
       "exit": "Ausgang",
       "exotics": "Exotische",
+      "expand": {
+        "all": "Alle erweitern",
+        "text": "Erweitern"
+      },
+      "export": {
+        "all": "Alle exportieren",
+        "as": "Exportieren als",
+        "text": "Exportieren"
+      },
       "favorites": "Favoriten",
+      "find": {
+        "and_replace": "Suchen und Ersetzen",
+        "next": "Nächste suchen",
+        "previous": "Vorherige suchen",
+        "text": "Suchen"
+      },
       "follow_us": "Folgen Sie uns",
       "frequency": "Häufigkeit",
       "go": "Gehe zu",
+      "help": "Hilfe",
       "home": "Startseite",
+      "import": {
+        "all": "Alle importieren",
+        "from": "Importieren von",
+        "text": "Importieren"
+      },
       "inputs": "Eingaben",
       "install": "Installieren",
       "learn_more": "Weitere Informationen",
+      "loading": "Wird geladen",
       "majors": "Volljährige",
       "menu": "Menü",
       "method": "Methode",
       "minors": "Minderjährige",
       "monthly": "Monatlich",
       "name": "Name",
+      "new": {
+        "bookmark": "Neues Lesezeichen",
+        "document": "Neues Dokument",
+        "file": "Neue Datei",
+        "folder": "Neuer Ordner",
+        "note": "Neue Notiz",
+        "project": "Neues Projekt",
+        "tab": "Neuer Tab",
+        "text": "Neu",
+        "window": "Neues Fenster",
+        "workspace": "Neuer Arbeitsbereich"
+      },
       "next": "Weiter",
       "no": "Nein",
       "none": {
@@ -370,18 +571,45 @@ static const Map<String,dynamic> de = {
       },
       "offline_mode": "Offline-Modus",
       "ok": "OK",
-      "open": "Öffnen",
+      "open": {
+        "all": "Alle öffnen",
+        "in_new": {
+          "tab": "In neuem Tab öffnen",
+          "window": "In neuem Fenster öffnen"
+        },
+        "text": "Öffnen"
+      },
       "optional": "Optional",
+      "paste": "Einfügen",
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
+      "redo": "Wiederholen",
       "refresh": "Aktualisieren",
       "remove": "Entfernen",
+      "replace": {
+        "all": "Alle ersetzen",
+        "text": "Ersetzen"
+      },
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",
       "retry": "Erneut versuchen",
-      "save": "Speichern",
+      "save": {
+        "all": "Alle speichern",
+        "and": {
+          "close": "Speichern und schließen",
+          "exit": "Speichern und beenden"
+        },
+        "as": "Speichern als",
+        "text": "Speichern"
+      },
       "saved": "Gespeichert",
       "search": "Suche",
+      "select": {
+        "all": "Alle auswählen",
+        "none": "Keine auswählen",
+        "text": "Auswählen"
+      },
+      "selection": "Auswahl",
       "sell": "Verkaufen",
       "semi_annually": "halbjährlich",
       "share": {
@@ -391,16 +619,28 @@ static const Map<String,dynamic> de = {
       "skip": "Überspringen",
       "submit": "Senden",
       "success": "Erfolg",
+      "toggle": {
+        "all": "Alle umschalten",
+        "text": "Umschalten"
+      },
       "try_again": "Erneut versuchen",
+      "undo": "Rückgängig machen",
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
       "update": "Aktualisieren",
+      "upload": "Hochladen",
       "user_inputs": "Benutzereingaben",
       "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",
       "yes": "Ja",
-      "yesterday": "Gestern"
+      "yesterday": "Gestern",
+      "zoom": {
+        "in": "Hineinzoomen",
+        "out": "Herauszoomen",
+        "reset": "Zoom zurücksetzen",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {
@@ -472,9 +712,15 @@ static const Map<String,dynamic> ru = {
         "text": "Очистить"
       },
       "close": "Закрыть",
+      "collapse": {
+        "all": "Свернуть все",
+        "text": "Свернуть"
+      },
       "confirm": "Подтвердить",
       "confirmation": "Подтверждение",
       "continue": "Продолжить",
+      "copy": "Копировать",
+      "cut": "Вырезать",
       "daily": "Ежедневно",
       "date": "Дата",
       "default": {
@@ -486,26 +732,61 @@ static const Map<String,dynamic> ru = {
       "details": "Детали",
       "display": "Отображение",
       "done": "Готово",
+      "download": "Скачать",
       "edit": "Редактировать",
       "entries": "Входы",
       "entry": "Вход",
       "error": "Ошибка",
       "exit": "Выход",
       "exotics": "Экзотические",
+      "expand": {
+        "all": "Развернуть все",
+        "text": "Развернуть"
+      },
+      "export": {
+        "all": "Экспортировать все",
+        "as": "Экспортировать как",
+        "text": "Экспорт"
+      },
       "favorites": "Избранное",
+      "find": {
+        "and_replace": "Найти и заменить",
+        "next": "Найти далее",
+        "previous": "Найти ранее",
+        "text": "Найти"
+      },
       "follow_us": "Подписывайтесь на нас",
       "frequency": "Частота",
       "go": "Перейти",
+      "help": "Помощь",
       "home": "Главная",
+      "import": {
+        "all": "Импортировать все",
+        "from": "Импортировать из",
+        "text": "Импорт"
+      },
       "inputs": "Ввод",
       "install": "Установить",
       "learn_more": "Узнать больше",
+      "loading": "Загрузка",
       "majors": "Совершеннолетние",
       "menu": "Меню",
       "method": "Метод",
       "minors": "Несовершеннолетние",
       "monthly": "Ежемесячно",
       "name": "Имя",
+      "new": {
+        "bookmark": "Новая закладка",
+        "document": "Новый документ",
+        "file": "Новый файл",
+        "folder": "Новая папка",
+        "note": "Новая заметка",
+        "project": "Новый проект",
+        "tab": "Новая вкладка",
+        "text": "Новый",
+        "window": "Новое окно",
+        "workspace": "Новое рабочее пространство"
+      },
       "next": "Далее",
       "no": "Нет",
       "none": {
@@ -515,18 +796,45 @@ static const Map<String,dynamic> ru = {
       },
       "offline_mode": "Режим офлайн",
       "ok": "OK",
-      "open": "Открыть",
+      "open": {
+        "all": "Открыть все",
+        "in_new": {
+          "tab": "Открыть в новой вкладке",
+          "window": "Открыть в новом окне"
+        },
+        "text": "Открыть"
+      },
       "optional": "Необязательно",
+      "paste": "Вставить",
       "quantity": "Количество",
       "quarterly": "Ежеквартально",
+      "redo": "Повторить действие",
       "refresh": "Обновить",
       "remove": "Удалить",
+      "replace": {
+        "all": "Заменить все",
+        "text": "Заменить"
+      },
       "reset": "Сбросить",
       "results": "Результаты",
       "retry": "Повторить",
-      "save": "Сохранить",
+      "save": {
+        "all": "Сохранить все",
+        "and": {
+          "close": "Сохранить и закрыть",
+          "exit": "Сохранить и выйти"
+        },
+        "as": "Сохранить как",
+        "text": "Сохранить"
+      },
       "saved": "Сохранено",
       "search": "Поиск",
+      "select": {
+        "all": "Выбрать все",
+        "none": "Отменить выбор",
+        "text": "Выбрать"
+      },
+      "selection": "Выбор",
       "sell": "Продать",
       "semi_annually": "полугодовой",
       "share": {
@@ -536,16 +844,28 @@ static const Map<String,dynamic> ru = {
       "skip": "Пропустить",
       "submit": "Отправить",
       "success": "Успех",
+      "toggle": {
+        "all": "Переключить все",
+        "text": "Переключить"
+      },
       "try_again": "Попробовать снова",
+      "undo": "Отменить действие",
       "uninstall": "Удалить",
       "unlocked": "Разблокировано",
       "update": "Обновить",
+      "upload": "Загрузить",
       "user_inputs": "Ввод пользователя",
       "website": "Веб-сайт",
       "weekly": "Еженедельно",
       "yearly": "Ежегодно",
       "yes": "Да",
-      "yesterday": "Вчера"
+      "yesterday": "Вчера",
+      "zoom": {
+        "in": "Приблизить",
+        "out": "Отдалить",
+        "reset": "Сбросить масштаб",
+        "text": "Масштаб"
+      }
     },
     "message": {
       "action": {
@@ -617,9 +937,15 @@ static const Map<String,dynamic> pt = {
         "text": "Limpar"
       },
       "close": "Fechar",
+      "collapse": {
+        "all": "Recolher Todos",
+        "text": "Recolher"
+      },
       "confirm": "Confirmar",
       "confirmation": "Confirmação",
       "continue": "Continuar",
+      "copy": "Copiar",
+      "cut": "Recortar",
       "daily": "Diariamente",
       "date": "Data",
       "default": {
@@ -631,26 +957,61 @@ static const Map<String,dynamic> pt = {
       "details": "Detalhes",
       "display": "Exibição",
       "done": "Concluído",
+      "download": "Baixar",
       "edit": "Editar",
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Erro",
       "exit": "Saída",
       "exotics": "Exóticas",
+      "expand": {
+        "all": "Expandir Todos",
+        "text": "Expandir"
+      },
+      "export": {
+        "all": "Exportar Todos",
+        "as": "Exportar Como",
+        "text": "Exportar"
+      },
       "favorites": "Favoritos",
+      "find": {
+        "and_replace": "Localizar e Substituir",
+        "next": "Localizar Próximo",
+        "previous": "Localizar Anterior",
+        "text": "Localizar"
+      },
       "follow_us": "Siga-nos",
       "frequency": "Frequência",
       "go": "Ir",
+      "help": "Ajuda",
       "home": "Início",
+      "import": {
+        "all": "Importar Todos",
+        "from": "Importar de",
+        "text": "Importar"
+      },
       "inputs": "Entradas",
       "install": "Instalar",
       "learn_more": "Saiba mais",
+      "loading": "Carregando",
       "majors": "Maiores",
       "menu": "Menu",
       "method": "Método",
       "minors": "Menores",
       "monthly": "Mensalmente",
       "name": "Nome",
+      "new": {
+        "bookmark": "Novo Favorito",
+        "document": "Novo Documento",
+        "file": "Novo Arquivo",
+        "folder": "Nova Pasta",
+        "note": "Nova Anotação",
+        "project": "Novo Projeto",
+        "tab": "Nova Aba",
+        "text": "Novo",
+        "window": "Nova Janela",
+        "workspace": "Novo Espaço de Trabalho"
+      },
       "next": "Próximo",
       "no": "Não",
       "none": {
@@ -660,18 +1021,45 @@ static const Map<String,dynamic> pt = {
       },
       "offline_mode": "Modo offline",
       "ok": "OK",
-      "open": "Abrir",
+      "open": {
+        "all": "Abrir Todos",
+        "in_new": {
+          "tab": "Abrir em Nova Aba",
+          "window": "Abrir em Nova Janela"
+        },
+        "text": "Abrir"
+      },
       "optional": "Opcional",
+      "paste": "Colar",
       "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
+      "redo": "Refazer",
       "refresh": "Atualizar",
       "remove": "Remover",
+      "replace": {
+        "all": "Substituir Todos",
+        "text": "Substituir"
+      },
       "reset": "Resetar",
       "results": "Resultados",
       "retry": "Tentar novamente",
-      "save": "Salvar",
+      "save": {
+        "all": "Salvar Todos",
+        "and": {
+          "close": "Salvar e Fechar",
+          "exit": "Salvar e Sair"
+        },
+        "as": "Salvar Como",
+        "text": "Salvar"
+      },
       "saved": "Salvo",
       "search": "Pesquisar",
+      "select": {
+        "all": "Selecionar Tudo",
+        "none": "Desmarcar Tudo",
+        "text": "Selecionar"
+      },
+      "selection": "Seleção",
       "sell": "Vender",
       "semi_annually": "semestralmente",
       "share": {
@@ -681,16 +1069,28 @@ static const Map<String,dynamic> pt = {
       "skip": "Pular",
       "submit": "Enviar",
       "success": "Sucesso",
+      "toggle": {
+        "all": "Alternar Todos",
+        "text": "Alternar"
+      },
       "try_again": "Tentar novamente",
+      "undo": "Desfazer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "update": "Atualizar",
+      "upload": "Carregar",
       "user_inputs": "Entradas do usuário",
       "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
       "yes": "Sim",
-      "yesterday": "Ontem"
+      "yesterday": "Ontem",
+      "zoom": {
+        "in": "Aumentar Zoom",
+        "out": "Diminuir Zoom",
+        "reset": "Redefinir Zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {
@@ -762,9 +1162,15 @@ static const Map<String,dynamic> en = {
         "text": "Clear"
       },
       "close": "Close",
+      "collapse": {
+        "all": "Collapse All",
+        "text": "Collapse"
+      },
       "confirm": "Confirm",
       "confirmation": "Confirmation",
       "continue": "Continue",
+      "copy": "Copy",
+      "cut": "Cut",
       "daily": "Daily",
       "date": "Date",
       "default": {
@@ -776,26 +1182,61 @@ static const Map<String,dynamic> en = {
       "details": "Details",
       "display": "Display",
       "done": "Done",
+      "download": "Download",
       "edit": "Edit",
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
       "exit": "Exit",
       "exotics": "Exotic",
+      "expand": {
+        "all": "Expand All",
+        "text": "Expand"
+      },
+      "export": {
+        "all": "Export All",
+        "as": "Export As",
+        "text": "Export"
+      },
       "favorites": "Favorites",
+      "find": {
+        "and_replace": "Find and Replace",
+        "next": "Find Next",
+        "previous": "Find Previous",
+        "text": "Find"
+      },
       "follow_us": "Follow us",
       "frequency": "Frequency",
       "go": "Go",
+      "help": "Help",
       "home": "Home",
+      "import": {
+        "all": "Import All",
+        "from": "Import From",
+        "text": "Import"
+      },
       "inputs": "Inputs",
       "install": "Install",
       "learn_more": "Learn more",
+      "loading": "Loading",
       "majors": "Major",
       "menu": "Menu",
       "method": "Method",
       "minors": "Minor",
       "monthly": "Monthly",
       "name": "Name",
+      "new": {
+        "bookmark": "New Bookmark",
+        "document": "New Document",
+        "file": "New File",
+        "folder": "New Folder",
+        "note": "New Note",
+        "project": "New Project",
+        "tab": "New Tab",
+        "text": "New",
+        "window": "New Window",
+        "workspace": "New Workspace"
+      },
       "next": "Next",
       "no": "No",
       "none": {
@@ -805,18 +1246,45 @@ static const Map<String,dynamic> en = {
       },
       "offline_mode": "Offline Mode",
       "ok": "OK",
-      "open": "Open",
+      "open": {
+        "all": "Open All",
+        "in_new": {
+          "tab": "Open in New Tab",
+          "window": "Open in New Window"
+        },
+        "text": "Open"
+      },
       "optional": "Optional",
+      "paste": "Paste",
       "quantity": "Quantity",
       "quarterly": "Quarterly",
+      "redo": "Redo",
       "refresh": "Refresh",
       "remove": "Remove",
+      "replace": {
+        "all": "Replace All",
+        "text": "Replace"
+      },
       "reset": "Reset",
       "results": "Results",
       "retry": "Retry",
-      "save": "Save",
+      "save": {
+        "all": "Save All",
+        "and": {
+          "close": "Save and Close",
+          "exit": "Save and Exit"
+        },
+        "as": "Save As",
+        "text": "Save"
+      },
       "saved": "Saved",
       "search": "Search",
+      "select": {
+        "all": "Select All",
+        "none": "Select None",
+        "text": "Select"
+      },
+      "selection": "Selection",
       "sell": "Sell",
       "semi_annually": "Semi-annually",
       "share": {
@@ -826,16 +1294,28 @@ static const Map<String,dynamic> en = {
       "skip": "Skip",
       "submit": "Submit",
       "success": "Success",
+      "toggle": {
+        "all": "Toggle All",
+        "text": "Toggle"
+      },
       "try_again": "Try Again",
+      "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
       "update": "Update",
+      "upload": "Upload",
       "user_inputs": "User Inputs",
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
       "yes": "Yes",
-      "yesterday": "Yesterday"
+      "yesterday": "Yesterday",
+      "zoom": {
+        "in": "Zoom In",
+        "out": "Zoom Out",
+        "reset": "Reset Zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {
@@ -907,9 +1387,15 @@ static const Map<String,dynamic> it = {
         "text": "Cancella"
       },
       "close": "Chiudi",
+      "collapse": {
+        "all": "Comprimi tutto",
+        "text": "Comprimi"
+      },
       "confirm": "Conferma",
       "confirmation": "Conferma",
       "continue": "Continua",
+      "copy": "Copia",
+      "cut": "Taglia",
       "daily": "Giornalmente",
       "date": "Data",
       "default": {
@@ -921,26 +1407,61 @@ static const Map<String,dynamic> it = {
       "details": "Dettagli",
       "display": "Visualizza",
       "done": "Fatto",
+      "download": "Scarica",
       "edit": "Modificare",
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
       "exit": "Uscita",
       "exotics": "Esotiche",
+      "expand": {
+        "all": "Espandi tutto",
+        "text": "Espandi"
+      },
+      "export": {
+        "all": "Esporta tutto",
+        "as": "Esporta come",
+        "text": "Esporta"
+      },
       "favorites": "Preferiti",
+      "find": {
+        "and_replace": "Trova e sostituisci",
+        "next": "Trova successivo",
+        "previous": "Trova precedente",
+        "text": "Trova"
+      },
       "follow_us": "Seguici",
       "frequency": "Frequenza",
       "go": "Vai",
+      "help": "Aiuto",
       "home": "Home",
+      "import": {
+        "all": "Importa tutto",
+        "from": "Importa da",
+        "text": "Importa"
+      },
       "inputs": "Inserimenti",
       "install": "Installare",
       "learn_more": "Maggiori informazioni",
+      "loading": "Caricamento",
       "majors": "Maggiori",
       "menu": "Menu",
       "method": "Metodo",
       "minors": "Minori",
       "monthly": "Mensilmente",
       "name": "Nome",
+      "new": {
+        "bookmark": "Nuovo segnalibro",
+        "document": "Nuovo documento",
+        "file": "Nuovo file",
+        "folder": "Nuova cartella",
+        "note": "Nuova nota",
+        "project": "Nuovo progetto",
+        "tab": "Nuova scheda",
+        "text": "Nuovo",
+        "window": "Nuova finestra",
+        "workspace": "Nuovo spazio di lavoro"
+      },
       "next": "Avanti",
       "no": "No",
       "none": {
@@ -950,18 +1471,45 @@ static const Map<String,dynamic> it = {
       },
       "offline_mode": "Modalità offline",
       "ok": "OK",
-      "open": "Aprire",
+      "open": {
+        "all": "Apri tutto",
+        "in_new": {
+          "tab": "Apri in una nuova scheda",
+          "window": "Apri in una nuova finestra"
+        },
+        "text": "Apri"
+      },
       "optional": "Opzionale",
+      "paste": "Incolla",
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
+      "redo": "Ripristina",
       "refresh": "Aggiornare",
       "remove": "Rimuovere",
+      "replace": {
+        "all": "Sostituisci tutto",
+        "text": "Sostituisci"
+      },
       "reset": "Reimpostare",
       "results": "Risultati",
       "retry": "Riprova",
-      "save": "Salva",
+      "save": {
+        "all": "Salva tutto",
+        "and": {
+          "close": "Salva e chiudi",
+          "exit": "Salva e esci"
+        },
+        "as": "Salva come",
+        "text": "Salva"
+      },
       "saved": "Salvato",
       "search": "Cerca",
+      "select": {
+        "all": "Seleziona tutto",
+        "none": "Deseleziona tutto",
+        "text": "Seleziona"
+      },
+      "selection": "Selezione",
       "sell": "Vendere",
       "semi_annually": "semestralmente",
       "share": {
@@ -971,16 +1519,28 @@ static const Map<String,dynamic> it = {
       "skip": "Salta",
       "submit": "Invia",
       "success": "Successo",
+      "toggle": {
+        "all": "Attiva/Disattiva tutto",
+        "text": "Attiva/Disattiva"
+      },
       "try_again": "Riprova",
+      "undo": "Annulla",
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
       "update": "Aggiornare",
+      "upload": "Carica",
       "user_inputs": "Inserimenti utente",
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
       "yes": "Sì",
-      "yesterday": "Ieri"
+      "yesterday": "Ieri",
+      "zoom": {
+        "in": "Ingrandisci",
+        "out": "Riduci",
+        "reset": "Reimposta zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {
@@ -1052,9 +1612,15 @@ static const Map<String,dynamic> fr = {
         "text": "Effacer"
       },
       "close": "Fermer",
+      "collapse": {
+        "all": "Tout réduire",
+        "text": "Réduire"
+      },
       "confirm": "Confirmer",
       "confirmation": "Confirmation",
       "continue": "Continuer",
+      "copy": "Copier",
+      "cut": "Couper",
       "daily": "Quotidiennement",
       "date": "Date",
       "default": {
@@ -1066,26 +1632,61 @@ static const Map<String,dynamic> fr = {
       "details": "Détails",
       "display": "Affichage",
       "done": "Terminé",
+      "download": "Télécharger",
       "edit": "Modifier",
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
       "exit": "Sortie",
       "exotics": "Exotiques",
+      "expand": {
+        "all": "Tout développer",
+        "text": "Développer"
+      },
+      "export": {
+        "all": "Tout exporter",
+        "as": "Exporter sous",
+        "text": "Exporter"
+      },
       "favorites": "Favoris",
+      "find": {
+        "and_replace": "Rechercher et remplacer",
+        "next": "Rechercher suivant",
+        "previous": "Rechercher précédent",
+        "text": "Rechercher"
+      },
       "follow_us": "Suivez-nous",
       "frequency": "Fréquence",
       "go": "Aller",
+      "help": "Aide",
       "home": "Accueil",
+      "import": {
+        "all": "Tout importer",
+        "from": "Importer depuis",
+        "text": "Importer"
+      },
       "inputs": "Entrées",
       "install": "Installer",
       "learn_more": "En savoir plus",
+      "loading": "Chargement",
       "majors": "Majeures",
       "menu": "Menu",
       "method": "Méthode",
       "minors": "Mineures",
       "monthly": "Mensuellement",
       "name": "Nom",
+      "new": {
+        "bookmark": "Nouveau signet",
+        "document": "Nouveau document",
+        "file": "Nouveau fichier",
+        "folder": "Nouveau dossier",
+        "note": "Nouvelle note",
+        "project": "Nouveau projet",
+        "tab": "Nouvel onglet",
+        "text": "Nouveau",
+        "window": "Nouvelle fenêtre",
+        "workspace": "Nouvel espace de travail"
+      },
       "next": "Suivant",
       "no": "Non",
       "none": {
@@ -1095,18 +1696,45 @@ static const Map<String,dynamic> fr = {
       },
       "offline_mode": "Mode hors ligne",
       "ok": "OK",
-      "open": "Ouvrir",
+      "open": {
+        "all": "Tout ouvrir",
+        "in_new": {
+          "tab": "Ouvrir dans un nouvel onglet",
+          "window": "Ouvrir dans une nouvelle fenêtre"
+        },
+        "text": "Ouvrir"
+      },
       "optional": "Optionnel",
+      "paste": "Coller",
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
+      "redo": "Rétablir",
       "refresh": "Actualiser",
       "remove": "Supprimer",
+      "replace": {
+        "all": "Tout remplacer",
+        "text": "Remplacer"
+      },
       "reset": "Réinitialiser",
       "results": "Résultats",
       "retry": "Réessayer",
-      "save": "Enregistrer",
+      "save": {
+        "all": "Tout enregistrer",
+        "and": {
+          "close": "Enregistrer et fermer",
+          "exit": "Enregistrer et quitter"
+        },
+        "as": "Enregistrer sous",
+        "text": "Enregistrer"
+      },
       "saved": "Enregistré",
       "search": "Rechercher",
+      "select": {
+        "all": "Tout sélectionner",
+        "none": "Ne rien sélectionner",
+        "text": "Sélectionner"
+      },
+      "selection": "Sélection",
       "sell": "Vendre",
       "semi_annually": "semi-annuellement",
       "share": {
@@ -1116,16 +1744,28 @@ static const Map<String,dynamic> fr = {
       "skip": "Passer",
       "submit": "Envoyer",
       "success": "Succès",
+      "toggle": {
+        "all": "Tout basculer",
+        "text": "Basculer"
+      },
       "try_again": "Réessayer",
+      "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
       "update": "Mettre à jour",
+      "upload": "Téléverser",
       "user_inputs": "Entrées utilisateur",
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
       "yes": "Oui",
-      "yesterday": "Hier"
+      "yesterday": "Hier",
+      "zoom": {
+        "in": "Zoom avant",
+        "out": "Zoom arrière",
+        "reset": "Réinitialiser le zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {
@@ -1197,9 +1837,15 @@ static const Map<String,dynamic> es = {
         "text": "Borrar"
       },
       "close": "Cerrar",
+      "collapse": {
+        "all": "Colapsar todo",
+        "text": "Colapsar"
+      },
       "confirm": "Confirmar",
       "confirmation": "Confirmación",
       "continue": "Continuar",
+      "copy": "Copiar",
+      "cut": "Cortar",
       "daily": "Diariamente",
       "date": "Fecha",
       "default": {
@@ -1211,26 +1857,61 @@ static const Map<String,dynamic> es = {
       "details": "Detalles",
       "display": "Mostrar",
       "done": "Hecho",
+      "download": "Descargar",
       "edit": "Editar",
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Error",
       "exit": "Salida",
       "exotics": "Exóticas",
+      "expand": {
+        "all": "Expandir todo",
+        "text": "Expandir"
+      },
+      "export": {
+        "all": "Exportar todo",
+        "as": "Exportar como",
+        "text": "Exportar"
+      },
       "favorites": "Favoritos",
+      "find": {
+        "and_replace": "Buscar y reemplazar",
+        "next": "Buscar siguiente",
+        "previous": "Buscar anterior",
+        "text": "Buscar"
+      },
       "follow_us": "Síganos",
       "frequency": "Frecuencia",
       "go": "Ir",
+      "help": "Ayuda",
       "home": "Inicio",
+      "import": {
+        "all": "Importar todo",
+        "from": "Importar desde",
+        "text": "Importar"
+      },
       "inputs": "Entradas",
       "install": "Instalar",
       "learn_more": "Más información",
+      "loading": "Cargando",
       "majors": "Mayores",
       "menu": "Menú",
       "method": "Método",
       "minors": "Menores",
       "monthly": "Mensualmente",
       "name": "Nombre",
+      "new": {
+        "bookmark": "Nuevo marcador",
+        "document": "Nuevo documento",
+        "file": "Nuevo archivo",
+        "folder": "Nueva carpeta",
+        "note": "Nueva nota",
+        "project": "Nuevo proyecto",
+        "tab": "Nueva pestaña",
+        "text": "Nuevo",
+        "window": "Nueva ventana",
+        "workspace": "Nuevo espacio de trabajo"
+      },
       "next": "Siguiente",
       "no": "No",
       "none": {
@@ -1240,18 +1921,45 @@ static const Map<String,dynamic> es = {
       },
       "offline_mode": "Modo sin conexión",
       "ok": "OK",
-      "open": "Abrir",
+      "open": {
+        "all": "Abrir todo",
+        "in_new": {
+          "tab": "Abrir en nueva pestaña",
+          "window": "Abrir en nueva ventana"
+        },
+        "text": "Abrir"
+      },
       "optional": "Opcional",
+      "paste": "Pegar",
       "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
+      "redo": "Rehacer",
       "refresh": "Actualizar",
       "remove": "Eliminar",
+      "replace": {
+        "all": "Reemplazar todo",
+        "text": "Reemplazar"
+      },
       "reset": "Restablecer",
       "results": "Resultados",
       "retry": "Reintentar",
-      "save": "Guardar",
+      "save": {
+        "all": "Guardar todo",
+        "and": {
+          "close": "Guardar y cerrar",
+          "exit": "Guardar y salir"
+        },
+        "as": "Guardar como",
+        "text": "Guardar"
+      },
       "saved": "Guardado",
       "search": "Buscar",
+      "select": {
+        "all": "Seleccionar todo",
+        "none": "Seleccionar ninguno",
+        "text": "Seleccionar"
+      },
+      "selection": "Selección",
       "sell": "Vender",
       "semi_annually": "semestralmente",
       "share": {
@@ -1261,16 +1969,28 @@ static const Map<String,dynamic> es = {
       "skip": "Omitir",
       "submit": "Enviar",
       "success": "Éxito",
+      "toggle": {
+        "all": "Alternar todo",
+        "text": "Alternar"
+      },
       "try_again": "Reintentar",
+      "undo": "Deshacer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "update": "Actualizar",
+      "upload": "Subir",
       "user_inputs": "Entradas del usuario",
       "website": "Sitio web",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
       "yes": "Sí",
-      "yesterday": "Ayer"
+      "yesterday": "Ayer",
+      "zoom": {
+        "in": "Acercar",
+        "out": "Alejar",
+        "reset": "Restablecer zoom",
+        "text": "Zoom"
+      }
     },
     "message": {
       "action": {
