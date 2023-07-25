@@ -23,7 +23,13 @@
         "selection": "Cancella selezione",
         "text": "Cancella"
       },
-      "close": "Chiudi",
+      "close": {
+        "all": "Chiudi tutto",
+        "others": "Chiudi altri",
+        "tab": "Chiudi scheda",
+        "text": "Chiudi",
+        "window": "Chiudi finestra"
+      },
       "collapse": {
         "all": "Comprimi tutto",
         "text": "Comprimi"
@@ -46,10 +52,19 @@
       "done": "Fatto",
       "download": "Scarica",
       "edit": "Modificare",
+      "enter": {
+        "fullscreen": "Entra in modalità schermo intero",
+        "pip": "Entra in modalità immagine in immagine",
+        "text": "Entra"
+      },
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
-      "exit": "Uscita",
+      "exit": {
+        "fullscreen": "Esci dallo schermo intero",
+        "pip": "Esci dall'immagine in immagine",
+        "text": "Esci"
+      },
       "exotics": "Esotiche",
       "expand": {
         "all": "Espandi tutto",
@@ -60,6 +75,7 @@
         "as": "Esporta come",
         "text": "Esporta"
       },
+      "fast_forward": "Avanzamento rapido",
       "favorites": "Preferiti",
       "find": {
         "and_replace": "Trova e sostituisci",
@@ -68,7 +84,9 @@
         "text": "Trova"
       },
       "follow_us": "Seguici",
+      "frame": "Cornice",
       "frequency": "Frequenza",
+      "fullscreen": "Schermo intero",
       "go": "Vai",
       "help": "Aiuto",
       "home": "Home",
@@ -81,11 +99,13 @@
       "install": "Installare",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
+      "loop": "Ripeti in loop",
       "majors": "Maggiori",
       "menu": "Menu",
       "method": "Metodo",
       "minors": "Minori",
       "monthly": "Mensilmente",
+      "mute": "Silenzia",
       "name": "Nome",
       "new": {
         "bookmark": "Nuovo segnalibro",
@@ -99,7 +119,12 @@
         "window": "Nuova finestra",
         "workspace": "Nuovo spazio di lavoro"
       },
-      "next": "Avanti",
+      "next": {
+        "chapter": "Capitolo successivo",
+        "page": "Pagina successiva",
+        "text": "Successivo",
+        "track": "Brano successivo"
+      },
       "no": "No",
       "none": {
         "female": "Nessuna",
@@ -110,26 +135,46 @@
       "ok": "OK",
       "open": {
         "all": "Apri tutto",
+        "directory": "Apri directory",
+        "file": "Apri file",
         "in_new": {
           "tab": "Apri in una nuova scheda",
           "window": "Apri in una nuova finestra"
         },
-        "text": "Apri"
+        "text": "Apri",
+        "url": "Apri URL"
       },
       "optional": "Opzionale",
       "paste": "Incolla",
+      "pause": "Pausa",
+      "play": "Riproduci",
+      "play_pause": "Riproduci/Pausa",
+      "previous": {
+        "chapter": "Capitolo precedente",
+        "page": "Pagina precedente",
+        "text": "Precedente",
+        "track": "Brano precedente"
+      },
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
       "redo": "Ripristina",
       "refresh": "Aggiornare",
       "remove": "Rimuovere",
+      "repeat": {
+        "all": "Ripeti tutto",
+        "none": "Nessuna ripetizione",
+        "one": "Ripeti uno",
+        "text": "Ripeti"
+      },
       "replace": {
         "all": "Sostituisci tutto",
         "text": "Sostituisci"
       },
+      "replay": "Ripeti",
       "reset": "Reimpostare",
       "results": "Risultati",
       "retry": "Riprova",
+      "rewind": "Riavvolgi",
       "save": {
         "all": "Salva tutto",
         "and": {
@@ -153,9 +198,18 @@
         "app": "Condividi questa app",
         "text": "Condividi"
       },
-      "skip": "Salta",
+      "shuffle": "Riproduzione casuale",
+      "skip": {
+        "backward": "Salta indietro",
+        "forward": "Salta in avanti",
+        "next": "Salta il prossimo",
+        "previous": "Salta il precedente",
+        "text": "Salta"
+      },
+      "stop": "Stop",
       "submit": "Invia",
       "success": "Successo",
+      "template": "Modello",
       "toggle": {
         "all": "Attiva/Disattiva tutto",
         "text": "Attiva/Disattiva"
@@ -164,9 +218,11 @@
       "undo": "Annulla",
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
+      "unmute": "Ripristina audio",
       "update": "Aggiornare",
       "upload": "Carica",
       "user_inputs": "Inserimenti utente",
+      "volume": "Volume",
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",

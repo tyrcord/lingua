@@ -23,7 +23,13 @@
         "selection": "Auswahl löschen",
         "text": "Löschen"
       },
-      "close": "Schließen",
+      "close": {
+        "all": "Alle schließen",
+        "others": "Andere schließen",
+        "tab": "Tab schließen",
+        "text": "Schließen",
+        "window": "Fenster schließen"
+      },
       "collapse": {
         "all": "Alle zusammenklappen",
         "text": "Zusammenklappen"
@@ -46,10 +52,19 @@
       "done": "Fertig",
       "download": "Herunterladen",
       "edit": "Bearbeiten",
+      "enter": {
+        "fullscreen": "Vollbildmodus betreten",
+        "pip": "Bild-in-Bild betreten",
+        "text": "Betreten"
+      },
       "entries": "Eingänge",
       "entry": "Eingang",
       "error": "Fehler",
-      "exit": "Ausgang",
+      "exit": {
+        "fullscreen": "Vollbild beenden",
+        "pip": "Bild-in-Bild beenden",
+        "text": "Beenden"
+      },
       "exotics": "Exotische",
       "expand": {
         "all": "Alle erweitern",
@@ -60,6 +75,7 @@
         "as": "Exportieren als",
         "text": "Exportieren"
       },
+      "fast_forward": "Vorwärts spulen",
       "favorites": "Favoriten",
       "find": {
         "and_replace": "Suchen und Ersetzen",
@@ -68,7 +84,9 @@
         "text": "Suchen"
       },
       "follow_us": "Folgen Sie uns",
+      "frame": "Rahmen",
       "frequency": "Häufigkeit",
+      "fullscreen": "Vollbild",
       "go": "Gehe zu",
       "help": "Hilfe",
       "home": "Startseite",
@@ -81,11 +99,13 @@
       "install": "Installieren",
       "learn_more": "Weitere Informationen",
       "loading": "Wird geladen",
+      "loop": "Schleife",
       "majors": "Volljährige",
       "menu": "Menü",
       "method": "Methode",
       "minors": "Minderjährige",
       "monthly": "Monatlich",
+      "mute": "Stumm",
       "name": "Name",
       "new": {
         "bookmark": "Neues Lesezeichen",
@@ -99,7 +119,12 @@
         "window": "Neues Fenster",
         "workspace": "Neuer Arbeitsbereich"
       },
-      "next": "Weiter",
+      "next": {
+        "chapter": "Nächstes Kapitel",
+        "page": "Nächste Seite",
+        "text": "Nächste",
+        "track": "Nächster Titel"
+      },
       "no": "Nein",
       "none": {
         "female": "Keine",
@@ -110,26 +135,46 @@
       "ok": "OK",
       "open": {
         "all": "Alle öffnen",
+        "directory": "Verzeichnis öffnen",
+        "file": "Datei öffnen",
         "in_new": {
           "tab": "In neuem Tab öffnen",
           "window": "In neuem Fenster öffnen"
         },
-        "text": "Öffnen"
+        "text": "Öffnen",
+        "url": "URL öffnen"
       },
       "optional": "Optional",
       "paste": "Einfügen",
+      "pause": "Pause",
+      "play": "Wiedergabe",
+      "play_pause": "Wiedergabe/Pause",
+      "previous": {
+        "chapter": "Vorheriges Kapitel",
+        "page": "Vorherige Seite",
+        "text": "Vorherige",
+        "track": "Vorheriger Titel"
+      },
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
       "redo": "Wiederholen",
       "refresh": "Aktualisieren",
       "remove": "Entfernen",
+      "repeat": {
+        "all": "Alle wiederholen",
+        "none": "Keine Wiederholung",
+        "one": "Einzelnes wiederholen",
+        "text": "Wiederholung"
+      },
       "replace": {
         "all": "Alle ersetzen",
         "text": "Ersetzen"
       },
+      "replay": "Erneut abspielen",
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",
       "retry": "Erneut versuchen",
+      "rewind": "Zurückspulen",
       "save": {
         "all": "Alle speichern",
         "and": {
@@ -153,9 +198,18 @@
         "app": "Diese App teilen",
         "text": "Teilen"
       },
-      "skip": "Überspringen",
+      "shuffle": "Zufällige Wiedergabe",
+      "skip": {
+        "backward": "Rückwärts überspringen",
+        "forward": "Vorwärts überspringen",
+        "next": "Nächster überspringen",
+        "previous": "Vorheriger überspringen",
+        "text": "Überspringen"
+      },
+      "stop": "Stop",
       "submit": "Senden",
       "success": "Erfolg",
+      "template": "Vorlage",
       "toggle": {
         "all": "Alle umschalten",
         "text": "Umschalten"
@@ -164,9 +218,11 @@
       "undo": "Rückgängig machen",
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
+      "unmute": "Ton an",
       "update": "Aktualisieren",
       "upload": "Hochladen",
       "user_inputs": "Benutzereingaben",
+      "volume": "Lautstärke",
       "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",

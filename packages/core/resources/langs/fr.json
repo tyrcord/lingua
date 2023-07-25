@@ -23,7 +23,13 @@
         "selection": "Effacer la sélection",
         "text": "Effacer"
       },
-      "close": "Fermer",
+      "close": {
+        "all": "Tout fermer",
+        "others": "Fermer les autres",
+        "tab": "Fermer l'onglet",
+        "text": "Fermer",
+        "window": "Fermer la fenêtre"
+      },
       "collapse": {
         "all": "Tout réduire",
         "text": "Réduire"
@@ -46,10 +52,19 @@
       "done": "Terminé",
       "download": "Télécharger",
       "edit": "Modifier",
+      "enter": {
+        "fullscreen": "Passer en plein écran",
+        "pip": "Passer en image dans l'image",
+        "text": "Entrer"
+      },
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
-      "exit": "Sortie",
+      "exit": {
+        "fullscreen": "Quitter le plein écran",
+        "pip": "Quitter l'image dans l'image",
+        "text": "Quitter"
+      },
       "exotics": "Exotiques",
       "expand": {
         "all": "Tout développer",
@@ -60,6 +75,7 @@
         "as": "Exporter sous",
         "text": "Exporter"
       },
+      "fast_forward": "Avance rapide",
       "favorites": "Favoris",
       "find": {
         "and_replace": "Rechercher et remplacer",
@@ -68,7 +84,9 @@
         "text": "Rechercher"
       },
       "follow_us": "Suivez-nous",
+      "frame": "Cadre",
       "frequency": "Fréquence",
+      "fullscreen": "Plein écran",
       "go": "Aller",
       "help": "Aide",
       "home": "Accueil",
@@ -81,11 +99,13 @@
       "install": "Installer",
       "learn_more": "En savoir plus",
       "loading": "Chargement",
+      "loop": "Boucle",
       "majors": "Majeures",
       "menu": "Menu",
       "method": "Méthode",
       "minors": "Mineures",
       "monthly": "Mensuellement",
+      "mute": "Muet",
       "name": "Nom",
       "new": {
         "bookmark": "Nouveau signet",
@@ -99,7 +119,12 @@
         "window": "Nouvelle fenêtre",
         "workspace": "Nouvel espace de travail"
       },
-      "next": "Suivant",
+      "next": {
+        "chapter": "Chapitre suivant",
+        "page": "Page suivante",
+        "text": "Suivant",
+        "track": "Piste suivante"
+      },
       "no": "Non",
       "none": {
         "female": "Aucune",
@@ -110,26 +135,46 @@
       "ok": "OK",
       "open": {
         "all": "Tout ouvrir",
+        "directory": "Ouvrir un répertoire",
+        "file": "Ouvrir un fichier",
         "in_new": {
           "tab": "Ouvrir dans un nouvel onglet",
           "window": "Ouvrir dans une nouvelle fenêtre"
         },
-        "text": "Ouvrir"
+        "text": "Ouvrir",
+        "url": "Ouvrir une URL"
       },
       "optional": "Optionnel",
       "paste": "Coller",
+      "pause": "Pause",
+      "play": "Lire",
+      "play_pause": "Lire/Pause",
+      "previous": {
+        "chapter": "Chapitre précédent",
+        "page": "Page précédente",
+        "text": "Précédent",
+        "track": "Piste précédente"
+      },
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
       "redo": "Rétablir",
       "refresh": "Actualiser",
       "remove": "Supprimer",
+      "repeat": {
+        "all": "Répéter tout",
+        "none": "Ne pas répéter",
+        "one": "Répéter un",
+        "text": "Répétition"
+      },
       "replace": {
         "all": "Tout remplacer",
         "text": "Remplacer"
       },
+      "replay": "Rejouer",
       "reset": "Réinitialiser",
       "results": "Résultats",
       "retry": "Réessayer",
+      "rewind": "Reculer",
       "save": {
         "all": "Tout enregistrer",
         "and": {
@@ -153,9 +198,18 @@
         "app": "Partager cette application",
         "text": "Partager"
       },
-      "skip": "Passer",
+      "shuffle": "Lecture aléatoire",
+      "skip": {
+        "backward": "Passer en arrière",
+        "forward": "Passer en avant",
+        "next": "Passer au suivant",
+        "previous": "Passer au précédent",
+        "text": "Passer"
+      },
+      "stop": "Arrêter",
       "submit": "Envoyer",
       "success": "Succès",
+      "template": "Modèle",
       "toggle": {
         "all": "Tout basculer",
         "text": "Basculer"
@@ -164,9 +218,11 @@
       "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
+      "unmute": "Réactiver le son",
       "update": "Mettre à jour",
       "upload": "Téléverser",
       "user_inputs": "Entrées utilisateur",
+      "volume": "Volume",
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",

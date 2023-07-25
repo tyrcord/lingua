@@ -23,7 +23,13 @@
         "selection": "選択のクリア",
         "text": "クリア"
       },
-      "close": "閉じる",
+      "close": {
+        "all": "すべてを閉じる",
+        "others": "他を閉じる",
+        "tab": "タブを閉じる",
+        "text": "閉じる",
+        "window": "ウィンドウを閉じる"
+      },
       "collapse": {
         "all": "すべて折りたたむ",
         "text": "折りたたむ"
@@ -46,10 +52,19 @@
       "done": "完了",
       "download": "ダウンロード",
       "edit": "編集",
+      "enter": {
+        "fullscreen": "フルスクリーンに入る",
+        "pip": "ピクチャ・イン・ピクチャに入る",
+        "text": "入る"
+      },
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
-      "exit": "出口",
+      "exit": {
+        "fullscreen": "フルスクリーンを終了",
+        "pip": "ピクチャ・イン・ピクチャを終了",
+        "text": "終了"
+      },
       "exotics": "エキゾチック",
       "expand": {
         "all": "すべて展開",
@@ -60,6 +75,7 @@
         "as": "としてエクスポート",
         "text": "エクスポート"
       },
+      "fast_forward": "早送り",
       "favorites": "お気に入り",
       "find": {
         "and_replace": "検索と置換",
@@ -68,7 +84,9 @@
         "text": "検索"
       },
       "follow_us": "フォローする",
+      "frame": "フレーム",
       "frequency": "頻度",
+      "fullscreen": "フルスクリーン",
       "go": "移動",
       "help": "ヘルプ",
       "home": "ホーム",
@@ -81,11 +99,13 @@
       "install": "インストール",
       "learn_more": "詳細を確認",
       "loading": "読み込み中",
+      "loop": "ループ",
       "majors": "成人",
       "menu": "メニュー",
       "method": "メソッド",
       "minors": "未成年",
       "monthly": "毎月",
+      "mute": "ミュート",
       "name": "名前",
       "new": {
         "bookmark": "新しいブックマーク",
@@ -99,7 +119,12 @@
         "window": "新しいウィンドウ",
         "workspace": "新しいワークスペース"
       },
-      "next": "次へ",
+      "next": {
+        "chapter": "次の章",
+        "page": "次のページ",
+        "text": "次へ",
+        "track": "次のトラック"
+      },
       "no": "いいえ",
       "none": {
         "female": "なし",
@@ -110,26 +135,46 @@
       "ok": "OK",
       "open": {
         "all": "すべて開く",
+        "directory": "ディレクトリを開く",
+        "file": "ファイルを開く",
         "in_new": {
           "tab": "新しいタブで開く",
           "window": "新しいウィンドウで開く"
         },
-        "text": "開く"
+        "text": "開く",
+        "url": "URLを開く"
       },
       "optional": "任意",
       "paste": "ペースト",
+      "pause": "一時停止",
+      "play": "再生",
+      "play_pause": "再生/一時停止",
+      "previous": {
+        "chapter": "前の章",
+        "page": "前のページ",
+        "text": "前へ",
+        "track": "前のトラック"
+      },
       "quantity": "数量",
       "quarterly": "四半期ごとに",
       "redo": "やり直す",
       "refresh": "リフレッシュ",
       "remove": "削除",
+      "repeat": {
+        "all": "すべてを繰り返す",
+        "none": "繰り返さない",
+        "one": "1つを繰り返す",
+        "text": "リピート"
+      },
       "replace": {
         "all": "すべて置換",
         "text": "置換"
       },
+      "replay": "リプレイ",
       "reset": "リセット",
       "results": "結果",
       "retry": "再試行",
+      "rewind": "巻き戻し",
       "save": {
         "all": "すべて保存",
         "and": {
@@ -153,9 +198,18 @@
         "app": "このアプリを共有",
         "text": "共有"
       },
-      "skip": "スキップ",
+      "shuffle": "シャッフル再生",
+      "skip": {
+        "backward": "後ろへスキップ",
+        "forward": "前へスキップ",
+        "next": "次をスキップ",
+        "previous": "前をスキップ",
+        "text": "スキップ"
+      },
+      "stop": "停止",
       "submit": "送信",
       "success": "成功",
+      "template": "テンプレート",
       "toggle": {
         "all": "すべて切り替え",
         "text": "切り替え"
@@ -164,9 +218,11 @@
       "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
+      "unmute": "ミュート解除",
       "update": "更新",
       "upload": "アップロード",
       "user_inputs": "ユーザー入力",
+      "volume": "音量",
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",

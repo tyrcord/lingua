@@ -23,7 +23,13 @@
         "selection": "Clear Selection",
         "text": "Clear"
       },
-      "close": "Close",
+      "close": {
+        "all": "Close All",
+        "others": "Close Others",
+        "tab": "Close Tab",
+        "text": "Close",
+        "window": "Close Window"
+      },
       "collapse": {
         "all": "Collapse All",
         "text": "Collapse"
@@ -46,10 +52,19 @@
       "done": "Done",
       "download": "Download",
       "edit": "Edit",
+      "enter": {
+        "fullscreen": "Enter Fullscreen",
+        "pip": "Enter Picture-in-Picture",
+        "text": "Enter"
+      },
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
-      "exit": "Exit",
+      "exit": {
+        "fullscreen": "Exit Fullscreen",
+        "pip": "Exit Picture-in-Picture",
+        "text": "Exit"
+      },
       "exotics": "Exotic",
       "expand": {
         "all": "Expand All",
@@ -60,6 +75,7 @@
         "as": "Export As",
         "text": "Export"
       },
+      "fast_forward": "Fast Forward",
       "favorites": "Favorites",
       "find": {
         "and_replace": "Find and Replace",
@@ -68,7 +84,9 @@
         "text": "Find"
       },
       "follow_us": "Follow us",
+      "frame": "Frame",
       "frequency": "Frequency",
+      "fullscreen": "Fullscreen",
       "go": "Go",
       "help": "Help",
       "home": "Home",
@@ -81,11 +99,13 @@
       "install": "Install",
       "learn_more": "Learn more",
       "loading": "Loading",
+      "loop": "Loop",
       "majors": "Major",
       "menu": "Menu",
       "method": "Method",
       "minors": "Minor",
       "monthly": "Monthly",
+      "mute": "Mute",
       "name": "Name",
       "new": {
         "bookmark": "New Bookmark",
@@ -99,7 +119,12 @@
         "window": "New Window",
         "workspace": "New Workspace"
       },
-      "next": "Next",
+      "next": {
+        "chapter": "Next Chapter",
+        "page": "Next Page",
+        "text": "Next",
+        "track": "Next Track"
+      },
       "no": "No",
       "none": {
         "female": "None",
@@ -110,26 +135,46 @@
       "ok": "OK",
       "open": {
         "all": "Open All",
+        "directory": "Open Directory",
+        "file": "Open File",
         "in_new": {
           "tab": "Open in New Tab",
           "window": "Open in New Window"
         },
-        "text": "Open"
+        "text": "Open",
+        "url": "Open URL"
       },
       "optional": "Optional",
       "paste": "Paste",
+      "pause": "Pause",
+      "play": "Play",
+      "play_pause": "Play/Pause",
+      "previous": {
+        "chapter": "Previous Chapter",
+        "page": "Previous Page",
+        "text": "Previous",
+        "track": "Previous Track"
+      },
       "quantity": "Quantity",
       "quarterly": "Quarterly",
       "redo": "Redo",
       "refresh": "Refresh",
       "remove": "Remove",
+      "repeat": {
+        "all": "Repeat All",
+        "none": "Repeat None",
+        "one": "Repeat One",
+        "text": "Repeat"
+      },
       "replace": {
         "all": "Replace All",
         "text": "Replace"
       },
+      "replay": "Replay",
       "reset": "Reset",
       "results": "Results",
       "retry": "Retry",
+      "rewind": "Rewind",
       "save": {
         "all": "Save All",
         "and": {
@@ -153,9 +198,18 @@
         "app": "Share this app",
         "text": "Share"
       },
-      "skip": "Skip",
+      "shuffle": "Shuffle",
+      "skip": {
+        "backward": "Skip Backward",
+        "forward": "Skip Forward",
+        "next": "Skip Next",
+        "previous": "Skip Previous",
+        "text": "Skip"
+      },
+      "stop": "Stop",
       "submit": "Submit",
       "success": "Success",
+      "template": "template",
       "toggle": {
         "all": "Toggle All",
         "text": "Toggle"
@@ -164,9 +218,11 @@
       "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
+      "unmute": "Unmute",
       "update": "Update",
       "upload": "Upload",
       "user_inputs": "User Inputs",
+      "volume": "Volume",
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",

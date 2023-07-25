@@ -36,7 +36,13 @@ class CoreCodegenLoader extends AssetLoader {
         "selection": "清除选择",
         "text": "清除"
       },
-      "close": "关闭",
+      "close": {
+        "all": "关闭全部",
+        "others": "关闭其他",
+        "tab": "关闭标签页",
+        "text": "关闭",
+        "window": "关闭窗口"
+      },
       "collapse": {
         "all": "全部折叠",
         "text": "折叠"
@@ -59,10 +65,19 @@ class CoreCodegenLoader extends AssetLoader {
       "done": "完成",
       "download": "下载",
       "edit": "编辑",
+      "enter": {
+        "fullscreen": "进入全屏模式",
+        "pip": "进入画中画模式",
+        "text": "进入"
+      },
       "entries": "入口",
       "entry": "入口",
       "error": "错误",
-      "exit": "出口",
+      "exit": {
+        "fullscreen": "退出全屏",
+        "pip": "退出画中画",
+        "text": "退出"
+      },
       "exotics": "异国情调",
       "expand": {
         "all": "全部展开",
@@ -73,6 +88,7 @@ class CoreCodegenLoader extends AssetLoader {
         "as": "导出为",
         "text": "导出"
       },
+      "fast_forward": "快进",
       "favorites": "收藏",
       "find": {
         "and_replace": "查找和替换",
@@ -81,7 +97,9 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "查找"
       },
       "follow_us": "关注我们",
+      "frame": "帧",
       "frequency": "频率",
+      "fullscreen": "全屏",
       "go": "前往",
       "help": "帮助",
       "home": "首页",
@@ -94,11 +112,13 @@ class CoreCodegenLoader extends AssetLoader {
       "install": "安装",
       "learn_more": "了解更多",
       "loading": "加载中",
+      "loop": "循环",
       "majors": "成年人",
       "menu": "菜单",
       "method": "方法",
       "minors": "未成年人",
       "monthly": "每月",
+      "mute": "静音",
       "name": "名称",
       "new": {
         "bookmark": "新建书签",
@@ -112,7 +132,12 @@ class CoreCodegenLoader extends AssetLoader {
         "window": "新建窗口",
         "workspace": "新建工作区"
       },
-      "next": "下一步",
+      "next": {
+        "chapter": "下一章",
+        "page": "下一页",
+        "text": "下一项",
+        "track": "下一首"
+      },
       "no": "否",
       "none": {
         "female": "无",
@@ -123,26 +148,46 @@ class CoreCodegenLoader extends AssetLoader {
       "ok": "确定",
       "open": {
         "all": "全部打开",
+        "directory": "打开目录",
+        "file": "打开文件",
         "in_new": {
           "tab": "在新标签页打开",
           "window": "在新窗口打开"
         },
-        "text": "打开"
+        "text": "打开",
+        "url": "打开网址"
       },
       "optional": "可选",
       "paste": "粘贴",
+      "pause": "暂停",
+      "play": "播放",
+      "play_pause": "播放/暂停",
+      "previous": {
+        "chapter": "上一章",
+        "page": "上一页",
+        "text": "上一项",
+        "track": "上一首"
+      },
       "quantity": "数量",
       "quarterly": "每季度",
       "redo": "重做",
       "refresh": "刷新",
       "remove": "移除",
+      "repeat": {
+        "all": "全部重复",
+        "none": "不重复",
+        "one": "单曲重复",
+        "text": "重复"
+      },
       "replace": {
         "all": "全部替换",
         "text": "替换"
       },
+      "replay": "重新播放",
       "reset": "重置",
       "results": "结果",
       "retry": "重试",
+      "rewind": "倒带",
       "save": {
         "all": "全部保存",
         "and": {
@@ -166,9 +211,18 @@ class CoreCodegenLoader extends AssetLoader {
         "app": "分享此应用",
         "text": "分享"
       },
-      "skip": "跳过",
+      "shuffle": "随机播放",
+      "skip": {
+        "backward": "快退",
+        "forward": "快进",
+        "next": "跳至下一个",
+        "previous": "跳至上一个",
+        "text": "跳过"
+      },
+      "stop": "停止",
       "submit": "提交",
       "success": "成功",
+      "template": "模板",
       "toggle": {
         "all": "全部切换",
         "text": "切换"
@@ -177,9 +231,11 @@ class CoreCodegenLoader extends AssetLoader {
       "undo": "撤销",
       "uninstall": "卸载",
       "unlocked": "已解锁",
+      "unmute": "取消静音",
       "update": "更新",
       "upload": "上传",
       "user_inputs": "用户输入",
+      "volume": "音量",
       "website": "网站",
       "weekly": "每周",
       "yearly": "每年",
@@ -261,7 +317,13 @@ static const Map<String,dynamic> ja = {
         "selection": "選択のクリア",
         "text": "クリア"
       },
-      "close": "閉じる",
+      "close": {
+        "all": "すべてを閉じる",
+        "others": "他を閉じる",
+        "tab": "タブを閉じる",
+        "text": "閉じる",
+        "window": "ウィンドウを閉じる"
+      },
       "collapse": {
         "all": "すべて折りたたむ",
         "text": "折りたたむ"
@@ -284,10 +346,19 @@ static const Map<String,dynamic> ja = {
       "done": "完了",
       "download": "ダウンロード",
       "edit": "編集",
+      "enter": {
+        "fullscreen": "フルスクリーンに入る",
+        "pip": "ピクチャ・イン・ピクチャに入る",
+        "text": "入る"
+      },
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
-      "exit": "出口",
+      "exit": {
+        "fullscreen": "フルスクリーンを終了",
+        "pip": "ピクチャ・イン・ピクチャを終了",
+        "text": "終了"
+      },
       "exotics": "エキゾチック",
       "expand": {
         "all": "すべて展開",
@@ -298,6 +369,7 @@ static const Map<String,dynamic> ja = {
         "as": "としてエクスポート",
         "text": "エクスポート"
       },
+      "fast_forward": "早送り",
       "favorites": "お気に入り",
       "find": {
         "and_replace": "検索と置換",
@@ -306,7 +378,9 @@ static const Map<String,dynamic> ja = {
         "text": "検索"
       },
       "follow_us": "フォローする",
+      "frame": "フレーム",
       "frequency": "頻度",
+      "fullscreen": "フルスクリーン",
       "go": "移動",
       "help": "ヘルプ",
       "home": "ホーム",
@@ -319,11 +393,13 @@ static const Map<String,dynamic> ja = {
       "install": "インストール",
       "learn_more": "詳細を確認",
       "loading": "読み込み中",
+      "loop": "ループ",
       "majors": "成人",
       "menu": "メニュー",
       "method": "メソッド",
       "minors": "未成年",
       "monthly": "毎月",
+      "mute": "ミュート",
       "name": "名前",
       "new": {
         "bookmark": "新しいブックマーク",
@@ -337,7 +413,12 @@ static const Map<String,dynamic> ja = {
         "window": "新しいウィンドウ",
         "workspace": "新しいワークスペース"
       },
-      "next": "次へ",
+      "next": {
+        "chapter": "次の章",
+        "page": "次のページ",
+        "text": "次へ",
+        "track": "次のトラック"
+      },
       "no": "いいえ",
       "none": {
         "female": "なし",
@@ -348,26 +429,46 @@ static const Map<String,dynamic> ja = {
       "ok": "OK",
       "open": {
         "all": "すべて開く",
+        "directory": "ディレクトリを開く",
+        "file": "ファイルを開く",
         "in_new": {
           "tab": "新しいタブで開く",
           "window": "新しいウィンドウで開く"
         },
-        "text": "開く"
+        "text": "開く",
+        "url": "URLを開く"
       },
       "optional": "任意",
       "paste": "ペースト",
+      "pause": "一時停止",
+      "play": "再生",
+      "play_pause": "再生/一時停止",
+      "previous": {
+        "chapter": "前の章",
+        "page": "前のページ",
+        "text": "前へ",
+        "track": "前のトラック"
+      },
       "quantity": "数量",
       "quarterly": "四半期ごとに",
       "redo": "やり直す",
       "refresh": "リフレッシュ",
       "remove": "削除",
+      "repeat": {
+        "all": "すべてを繰り返す",
+        "none": "繰り返さない",
+        "one": "1つを繰り返す",
+        "text": "リピート"
+      },
       "replace": {
         "all": "すべて置換",
         "text": "置換"
       },
+      "replay": "リプレイ",
       "reset": "リセット",
       "results": "結果",
       "retry": "再試行",
+      "rewind": "巻き戻し",
       "save": {
         "all": "すべて保存",
         "and": {
@@ -391,9 +492,18 @@ static const Map<String,dynamic> ja = {
         "app": "このアプリを共有",
         "text": "共有"
       },
-      "skip": "スキップ",
+      "shuffle": "シャッフル再生",
+      "skip": {
+        "backward": "後ろへスキップ",
+        "forward": "前へスキップ",
+        "next": "次をスキップ",
+        "previous": "前をスキップ",
+        "text": "スキップ"
+      },
+      "stop": "停止",
       "submit": "送信",
       "success": "成功",
+      "template": "テンプレート",
       "toggle": {
         "all": "すべて切り替え",
         "text": "切り替え"
@@ -402,9 +512,11 @@ static const Map<String,dynamic> ja = {
       "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
+      "unmute": "ミュート解除",
       "update": "更新",
       "upload": "アップロード",
       "user_inputs": "ユーザー入力",
+      "volume": "音量",
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
@@ -486,7 +598,13 @@ static const Map<String,dynamic> de = {
         "selection": "Auswahl löschen",
         "text": "Löschen"
       },
-      "close": "Schließen",
+      "close": {
+        "all": "Alle schließen",
+        "others": "Andere schließen",
+        "tab": "Tab schließen",
+        "text": "Schließen",
+        "window": "Fenster schließen"
+      },
       "collapse": {
         "all": "Alle zusammenklappen",
         "text": "Zusammenklappen"
@@ -509,10 +627,19 @@ static const Map<String,dynamic> de = {
       "done": "Fertig",
       "download": "Herunterladen",
       "edit": "Bearbeiten",
+      "enter": {
+        "fullscreen": "Vollbildmodus betreten",
+        "pip": "Bild-in-Bild betreten",
+        "text": "Betreten"
+      },
       "entries": "Eingänge",
       "entry": "Eingang",
       "error": "Fehler",
-      "exit": "Ausgang",
+      "exit": {
+        "fullscreen": "Vollbild beenden",
+        "pip": "Bild-in-Bild beenden",
+        "text": "Beenden"
+      },
       "exotics": "Exotische",
       "expand": {
         "all": "Alle erweitern",
@@ -523,6 +650,7 @@ static const Map<String,dynamic> de = {
         "as": "Exportieren als",
         "text": "Exportieren"
       },
+      "fast_forward": "Vorwärts spulen",
       "favorites": "Favoriten",
       "find": {
         "and_replace": "Suchen und Ersetzen",
@@ -531,7 +659,9 @@ static const Map<String,dynamic> de = {
         "text": "Suchen"
       },
       "follow_us": "Folgen Sie uns",
+      "frame": "Rahmen",
       "frequency": "Häufigkeit",
+      "fullscreen": "Vollbild",
       "go": "Gehe zu",
       "help": "Hilfe",
       "home": "Startseite",
@@ -544,11 +674,13 @@ static const Map<String,dynamic> de = {
       "install": "Installieren",
       "learn_more": "Weitere Informationen",
       "loading": "Wird geladen",
+      "loop": "Schleife",
       "majors": "Volljährige",
       "menu": "Menü",
       "method": "Methode",
       "minors": "Minderjährige",
       "monthly": "Monatlich",
+      "mute": "Stumm",
       "name": "Name",
       "new": {
         "bookmark": "Neues Lesezeichen",
@@ -562,7 +694,12 @@ static const Map<String,dynamic> de = {
         "window": "Neues Fenster",
         "workspace": "Neuer Arbeitsbereich"
       },
-      "next": "Weiter",
+      "next": {
+        "chapter": "Nächstes Kapitel",
+        "page": "Nächste Seite",
+        "text": "Nächste",
+        "track": "Nächster Titel"
+      },
       "no": "Nein",
       "none": {
         "female": "Keine",
@@ -573,26 +710,46 @@ static const Map<String,dynamic> de = {
       "ok": "OK",
       "open": {
         "all": "Alle öffnen",
+        "directory": "Verzeichnis öffnen",
+        "file": "Datei öffnen",
         "in_new": {
           "tab": "In neuem Tab öffnen",
           "window": "In neuem Fenster öffnen"
         },
-        "text": "Öffnen"
+        "text": "Öffnen",
+        "url": "URL öffnen"
       },
       "optional": "Optional",
       "paste": "Einfügen",
+      "pause": "Pause",
+      "play": "Wiedergabe",
+      "play_pause": "Wiedergabe/Pause",
+      "previous": {
+        "chapter": "Vorheriges Kapitel",
+        "page": "Vorherige Seite",
+        "text": "Vorherige",
+        "track": "Vorheriger Titel"
+      },
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
       "redo": "Wiederholen",
       "refresh": "Aktualisieren",
       "remove": "Entfernen",
+      "repeat": {
+        "all": "Alle wiederholen",
+        "none": "Keine Wiederholung",
+        "one": "Einzelnes wiederholen",
+        "text": "Wiederholung"
+      },
       "replace": {
         "all": "Alle ersetzen",
         "text": "Ersetzen"
       },
+      "replay": "Erneut abspielen",
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",
       "retry": "Erneut versuchen",
+      "rewind": "Zurückspulen",
       "save": {
         "all": "Alle speichern",
         "and": {
@@ -616,9 +773,18 @@ static const Map<String,dynamic> de = {
         "app": "Diese App teilen",
         "text": "Teilen"
       },
-      "skip": "Überspringen",
+      "shuffle": "Zufällige Wiedergabe",
+      "skip": {
+        "backward": "Rückwärts überspringen",
+        "forward": "Vorwärts überspringen",
+        "next": "Nächster überspringen",
+        "previous": "Vorheriger überspringen",
+        "text": "Überspringen"
+      },
+      "stop": "Stop",
       "submit": "Senden",
       "success": "Erfolg",
+      "template": "Vorlage",
       "toggle": {
         "all": "Alle umschalten",
         "text": "Umschalten"
@@ -627,9 +793,11 @@ static const Map<String,dynamic> de = {
       "undo": "Rückgängig machen",
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
+      "unmute": "Ton an",
       "update": "Aktualisieren",
       "upload": "Hochladen",
       "user_inputs": "Benutzereingaben",
+      "volume": "Lautstärke",
       "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",
@@ -711,7 +879,13 @@ static const Map<String,dynamic> ru = {
         "selection": "Очистить выбор",
         "text": "Очистить"
       },
-      "close": "Закрыть",
+      "close": {
+        "all": "Закрыть все",
+        "others": "Закрыть другие",
+        "tab": "Закрыть вкладку",
+        "text": "Закрыть",
+        "window": "Закрыть окно"
+      },
       "collapse": {
         "all": "Свернуть все",
         "text": "Свернуть"
@@ -734,10 +908,19 @@ static const Map<String,dynamic> ru = {
       "done": "Готово",
       "download": "Скачать",
       "edit": "Редактировать",
+      "enter": {
+        "fullscreen": "Войти в полноэкранный режим",
+        "pip": "Войти в режим Picture-in-Picture",
+        "text": "Войти"
+      },
       "entries": "Входы",
       "entry": "Вход",
       "error": "Ошибка",
-      "exit": "Выход",
+      "exit": {
+        "fullscreen": "Выйти из полноэкранного режима",
+        "pip": "Выйти из режима Picture-in-Picture",
+        "text": "Выйти"
+      },
       "exotics": "Экзотические",
       "expand": {
         "all": "Развернуть все",
@@ -748,6 +931,7 @@ static const Map<String,dynamic> ru = {
         "as": "Экспортировать как",
         "text": "Экспорт"
       },
+      "fast_forward": "Перемотка вперед",
       "favorites": "Избранное",
       "find": {
         "and_replace": "Найти и заменить",
@@ -756,7 +940,9 @@ static const Map<String,dynamic> ru = {
         "text": "Найти"
       },
       "follow_us": "Подписывайтесь на нас",
+      "frame": "Кадр",
       "frequency": "Частота",
+      "fullscreen": "На весь экран",
       "go": "Перейти",
       "help": "Помощь",
       "home": "Главная",
@@ -769,11 +955,13 @@ static const Map<String,dynamic> ru = {
       "install": "Установить",
       "learn_more": "Узнать больше",
       "loading": "Загрузка",
+      "loop": "Зациклить",
       "majors": "Совершеннолетние",
       "menu": "Меню",
       "method": "Метод",
       "minors": "Несовершеннолетние",
       "monthly": "Ежемесячно",
+      "mute": "Выключить звук",
       "name": "Имя",
       "new": {
         "bookmark": "Новая закладка",
@@ -787,7 +975,12 @@ static const Map<String,dynamic> ru = {
         "window": "Новое окно",
         "workspace": "Новое рабочее пространство"
       },
-      "next": "Далее",
+      "next": {
+        "chapter": "Следующая глава",
+        "page": "Следующая страница",
+        "text": "Следующее",
+        "track": "Следующий трек"
+      },
       "no": "Нет",
       "none": {
         "female": "Нет",
@@ -798,26 +991,46 @@ static const Map<String,dynamic> ru = {
       "ok": "OK",
       "open": {
         "all": "Открыть все",
+        "directory": "Открыть каталог",
+        "file": "Открыть файл",
         "in_new": {
           "tab": "Открыть в новой вкладке",
           "window": "Открыть в новом окне"
         },
-        "text": "Открыть"
+        "text": "Открыть",
+        "url": "Открыть URL"
       },
       "optional": "Необязательно",
       "paste": "Вставить",
+      "pause": "Пауза",
+      "play": "Воспроизвести",
+      "play_pause": "Воспроизведение/Пауза",
+      "previous": {
+        "chapter": "Предыдущая глава",
+        "page": "Предыдущая страница",
+        "text": "Предыдущее",
+        "track": "Предыдущий трек"
+      },
       "quantity": "Количество",
       "quarterly": "Ежеквартально",
       "redo": "Повторить действие",
       "refresh": "Обновить",
       "remove": "Удалить",
+      "repeat": {
+        "all": "Повторить все",
+        "none": "Не повторять",
+        "one": "Повторить один раз",
+        "text": "Повторение"
+      },
       "replace": {
         "all": "Заменить все",
         "text": "Заменить"
       },
+      "replay": "Повторить",
       "reset": "Сбросить",
       "results": "Результаты",
       "retry": "Повторить",
+      "rewind": "Перемотка назад",
       "save": {
         "all": "Сохранить все",
         "and": {
@@ -841,9 +1054,18 @@ static const Map<String,dynamic> ru = {
         "app": "Поделиться этим приложением",
         "text": "Поделиться"
       },
-      "skip": "Пропустить",
+      "shuffle": "Случайный порядок",
+      "skip": {
+        "backward": "Пропустить назад",
+        "forward": "Пропустить вперед",
+        "next": "Пропустить следующее",
+        "previous": "Пропустить предыдущее",
+        "text": "Пропуск"
+      },
+      "stop": "Стоп",
       "submit": "Отправить",
       "success": "Успех",
+      "template": "Шаблон",
       "toggle": {
         "all": "Переключить все",
         "text": "Переключить"
@@ -852,9 +1074,11 @@ static const Map<String,dynamic> ru = {
       "undo": "Отменить действие",
       "uninstall": "Удалить",
       "unlocked": "Разблокировано",
+      "unmute": "Включить звук",
       "update": "Обновить",
       "upload": "Загрузить",
       "user_inputs": "Ввод пользователя",
+      "volume": "Громкость",
       "website": "Веб-сайт",
       "weekly": "Еженедельно",
       "yearly": "Ежегодно",
@@ -936,7 +1160,13 @@ static const Map<String,dynamic> pt = {
         "selection": "Limpar seleção",
         "text": "Limpar"
       },
-      "close": "Fechar",
+      "close": {
+        "all": "Fechar tudo",
+        "others": "Fechar outros",
+        "tab": "Fechar aba",
+        "text": "Fechar",
+        "window": "Fechar janela"
+      },
       "collapse": {
         "all": "Recolher Todos",
         "text": "Recolher"
@@ -959,10 +1189,19 @@ static const Map<String,dynamic> pt = {
       "done": "Concluído",
       "download": "Baixar",
       "edit": "Editar",
+      "enter": {
+        "fullscreen": "Entrar em tela inteira",
+        "pip": "Entrar em Imagem dentro da imagem",
+        "text": "Entrar"
+      },
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Erro",
-      "exit": "Saída",
+      "exit": {
+        "fullscreen": "Sair da tela inteira",
+        "pip": "Sair do modo Imagem dentro da imagem",
+        "text": "Sair"
+      },
       "exotics": "Exóticas",
       "expand": {
         "all": "Expandir Todos",
@@ -973,6 +1212,7 @@ static const Map<String,dynamic> pt = {
         "as": "Exportar Como",
         "text": "Exportar"
       },
+      "fast_forward": "Avançar rapidamente",
       "favorites": "Favoritos",
       "find": {
         "and_replace": "Localizar e Substituir",
@@ -981,7 +1221,9 @@ static const Map<String,dynamic> pt = {
         "text": "Localizar"
       },
       "follow_us": "Siga-nos",
+      "frame": "Quadro",
       "frequency": "Frequência",
+      "fullscreen": "Tela inteira",
       "go": "Ir",
       "help": "Ajuda",
       "home": "Início",
@@ -994,11 +1236,13 @@ static const Map<String,dynamic> pt = {
       "install": "Instalar",
       "learn_more": "Saiba mais",
       "loading": "Carregando",
+      "loop": "Repetir em loop",
       "majors": "Maiores",
       "menu": "Menu",
       "method": "Método",
       "minors": "Menores",
       "monthly": "Mensalmente",
+      "mute": "Silenciar",
       "name": "Nome",
       "new": {
         "bookmark": "Novo Favorito",
@@ -1012,7 +1256,12 @@ static const Map<String,dynamic> pt = {
         "window": "Nova Janela",
         "workspace": "Novo Espaço de Trabalho"
       },
-      "next": "Próximo",
+      "next": {
+        "chapter": "Próximo capítulo",
+        "page": "Próxima página",
+        "text": "Próximo",
+        "track": "Próxima faixa"
+      },
       "no": "Não",
       "none": {
         "female": "Nenhum",
@@ -1023,26 +1272,46 @@ static const Map<String,dynamic> pt = {
       "ok": "OK",
       "open": {
         "all": "Abrir Todos",
+        "directory": "Abrir diretório",
+        "file": "Abrir arquivo",
         "in_new": {
           "tab": "Abrir em Nova Aba",
           "window": "Abrir em Nova Janela"
         },
-        "text": "Abrir"
+        "text": "Abrir",
+        "url": "Abrir URL"
       },
       "optional": "Opcional",
       "paste": "Colar",
+      "pause": "Pausa",
+      "play": "Reproduzir",
+      "play_pause": "Reproduzir/Pausar",
+      "previous": {
+        "chapter": "Capítulo anterior",
+        "page": "Página anterior",
+        "text": "Anterior",
+        "track": "Faixa anterior"
+      },
       "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
       "redo": "Refazer",
       "refresh": "Atualizar",
       "remove": "Remover",
+      "repeat": {
+        "all": "Repetir tudo",
+        "none": "Não repetir",
+        "one": "Repetir um",
+        "text": "Repetir"
+      },
       "replace": {
         "all": "Substituir Todos",
         "text": "Substituir"
       },
+      "replay": "Repetir",
       "reset": "Resetar",
       "results": "Resultados",
       "retry": "Tentar novamente",
+      "rewind": "Retroceder",
       "save": {
         "all": "Salvar Todos",
         "and": {
@@ -1066,9 +1335,18 @@ static const Map<String,dynamic> pt = {
         "app": "Compartilhar este aplicativo",
         "text": "Compartilhar"
       },
-      "skip": "Pular",
+      "shuffle": "Reprodução aleatória",
+      "skip": {
+        "backward": "Retroceder",
+        "forward": "Avançar",
+        "next": "Pular para o próximo",
+        "previous": "Pular para o anterior",
+        "text": "Pular"
+      },
+      "stop": "Parar",
       "submit": "Enviar",
       "success": "Sucesso",
+      "template": "Modelo",
       "toggle": {
         "all": "Alternar Todos",
         "text": "Alternar"
@@ -1077,9 +1355,11 @@ static const Map<String,dynamic> pt = {
       "undo": "Desfazer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
+      "unmute": "Ativar som",
       "update": "Atualizar",
       "upload": "Carregar",
       "user_inputs": "Entradas do usuário",
+      "volume": "Volume",
       "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
@@ -1161,7 +1441,13 @@ static const Map<String,dynamic> en = {
         "selection": "Clear Selection",
         "text": "Clear"
       },
-      "close": "Close",
+      "close": {
+        "all": "Close All",
+        "others": "Close Others",
+        "tab": "Close Tab",
+        "text": "Close",
+        "window": "Close Window"
+      },
       "collapse": {
         "all": "Collapse All",
         "text": "Collapse"
@@ -1184,10 +1470,19 @@ static const Map<String,dynamic> en = {
       "done": "Done",
       "download": "Download",
       "edit": "Edit",
+      "enter": {
+        "fullscreen": "Enter Fullscreen",
+        "pip": "Enter Picture-in-Picture",
+        "text": "Enter"
+      },
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
-      "exit": "Exit",
+      "exit": {
+        "fullscreen": "Exit Fullscreen",
+        "pip": "Exit Picture-in-Picture",
+        "text": "Exit"
+      },
       "exotics": "Exotic",
       "expand": {
         "all": "Expand All",
@@ -1198,6 +1493,7 @@ static const Map<String,dynamic> en = {
         "as": "Export As",
         "text": "Export"
       },
+      "fast_forward": "Fast Forward",
       "favorites": "Favorites",
       "find": {
         "and_replace": "Find and Replace",
@@ -1206,7 +1502,9 @@ static const Map<String,dynamic> en = {
         "text": "Find"
       },
       "follow_us": "Follow us",
+      "frame": "Frame",
       "frequency": "Frequency",
+      "fullscreen": "Fullscreen",
       "go": "Go",
       "help": "Help",
       "home": "Home",
@@ -1219,11 +1517,13 @@ static const Map<String,dynamic> en = {
       "install": "Install",
       "learn_more": "Learn more",
       "loading": "Loading",
+      "loop": "Loop",
       "majors": "Major",
       "menu": "Menu",
       "method": "Method",
       "minors": "Minor",
       "monthly": "Monthly",
+      "mute": "Mute",
       "name": "Name",
       "new": {
         "bookmark": "New Bookmark",
@@ -1237,7 +1537,12 @@ static const Map<String,dynamic> en = {
         "window": "New Window",
         "workspace": "New Workspace"
       },
-      "next": "Next",
+      "next": {
+        "chapter": "Next Chapter",
+        "page": "Next Page",
+        "text": "Next",
+        "track": "Next Track"
+      },
       "no": "No",
       "none": {
         "female": "None",
@@ -1248,26 +1553,46 @@ static const Map<String,dynamic> en = {
       "ok": "OK",
       "open": {
         "all": "Open All",
+        "directory": "Open Directory",
+        "file": "Open File",
         "in_new": {
           "tab": "Open in New Tab",
           "window": "Open in New Window"
         },
-        "text": "Open"
+        "text": "Open",
+        "url": "Open URL"
       },
       "optional": "Optional",
       "paste": "Paste",
+      "pause": "Pause",
+      "play": "Play",
+      "play_pause": "Play/Pause",
+      "previous": {
+        "chapter": "Previous Chapter",
+        "page": "Previous Page",
+        "text": "Previous",
+        "track": "Previous Track"
+      },
       "quantity": "Quantity",
       "quarterly": "Quarterly",
       "redo": "Redo",
       "refresh": "Refresh",
       "remove": "Remove",
+      "repeat": {
+        "all": "Repeat All",
+        "none": "Repeat None",
+        "one": "Repeat One",
+        "text": "Repeat"
+      },
       "replace": {
         "all": "Replace All",
         "text": "Replace"
       },
+      "replay": "Replay",
       "reset": "Reset",
       "results": "Results",
       "retry": "Retry",
+      "rewind": "Rewind",
       "save": {
         "all": "Save All",
         "and": {
@@ -1291,9 +1616,18 @@ static const Map<String,dynamic> en = {
         "app": "Share this app",
         "text": "Share"
       },
-      "skip": "Skip",
+      "shuffle": "Shuffle",
+      "skip": {
+        "backward": "Skip Backward",
+        "forward": "Skip Forward",
+        "next": "Skip Next",
+        "previous": "Skip Previous",
+        "text": "Skip"
+      },
+      "stop": "Stop",
       "submit": "Submit",
       "success": "Success",
+      "template": "template",
       "toggle": {
         "all": "Toggle All",
         "text": "Toggle"
@@ -1302,9 +1636,11 @@ static const Map<String,dynamic> en = {
       "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
+      "unmute": "Unmute",
       "update": "Update",
       "upload": "Upload",
       "user_inputs": "User Inputs",
+      "volume": "Volume",
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
@@ -1386,7 +1722,13 @@ static const Map<String,dynamic> it = {
         "selection": "Cancella selezione",
         "text": "Cancella"
       },
-      "close": "Chiudi",
+      "close": {
+        "all": "Chiudi tutto",
+        "others": "Chiudi altri",
+        "tab": "Chiudi scheda",
+        "text": "Chiudi",
+        "window": "Chiudi finestra"
+      },
       "collapse": {
         "all": "Comprimi tutto",
         "text": "Comprimi"
@@ -1409,10 +1751,19 @@ static const Map<String,dynamic> it = {
       "done": "Fatto",
       "download": "Scarica",
       "edit": "Modificare",
+      "enter": {
+        "fullscreen": "Entra in modalità schermo intero",
+        "pip": "Entra in modalità immagine in immagine",
+        "text": "Entra"
+      },
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
-      "exit": "Uscita",
+      "exit": {
+        "fullscreen": "Esci dallo schermo intero",
+        "pip": "Esci dall'immagine in immagine",
+        "text": "Esci"
+      },
       "exotics": "Esotiche",
       "expand": {
         "all": "Espandi tutto",
@@ -1423,6 +1774,7 @@ static const Map<String,dynamic> it = {
         "as": "Esporta come",
         "text": "Esporta"
       },
+      "fast_forward": "Avanzamento rapido",
       "favorites": "Preferiti",
       "find": {
         "and_replace": "Trova e sostituisci",
@@ -1431,7 +1783,9 @@ static const Map<String,dynamic> it = {
         "text": "Trova"
       },
       "follow_us": "Seguici",
+      "frame": "Cornice",
       "frequency": "Frequenza",
+      "fullscreen": "Schermo intero",
       "go": "Vai",
       "help": "Aiuto",
       "home": "Home",
@@ -1444,11 +1798,13 @@ static const Map<String,dynamic> it = {
       "install": "Installare",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
+      "loop": "Ripeti in loop",
       "majors": "Maggiori",
       "menu": "Menu",
       "method": "Metodo",
       "minors": "Minori",
       "monthly": "Mensilmente",
+      "mute": "Silenzia",
       "name": "Nome",
       "new": {
         "bookmark": "Nuovo segnalibro",
@@ -1462,7 +1818,12 @@ static const Map<String,dynamic> it = {
         "window": "Nuova finestra",
         "workspace": "Nuovo spazio di lavoro"
       },
-      "next": "Avanti",
+      "next": {
+        "chapter": "Capitolo successivo",
+        "page": "Pagina successiva",
+        "text": "Successivo",
+        "track": "Brano successivo"
+      },
       "no": "No",
       "none": {
         "female": "Nessuna",
@@ -1473,26 +1834,46 @@ static const Map<String,dynamic> it = {
       "ok": "OK",
       "open": {
         "all": "Apri tutto",
+        "directory": "Apri directory",
+        "file": "Apri file",
         "in_new": {
           "tab": "Apri in una nuova scheda",
           "window": "Apri in una nuova finestra"
         },
-        "text": "Apri"
+        "text": "Apri",
+        "url": "Apri URL"
       },
       "optional": "Opzionale",
       "paste": "Incolla",
+      "pause": "Pausa",
+      "play": "Riproduci",
+      "play_pause": "Riproduci/Pausa",
+      "previous": {
+        "chapter": "Capitolo precedente",
+        "page": "Pagina precedente",
+        "text": "Precedente",
+        "track": "Brano precedente"
+      },
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
       "redo": "Ripristina",
       "refresh": "Aggiornare",
       "remove": "Rimuovere",
+      "repeat": {
+        "all": "Ripeti tutto",
+        "none": "Nessuna ripetizione",
+        "one": "Ripeti uno",
+        "text": "Ripeti"
+      },
       "replace": {
         "all": "Sostituisci tutto",
         "text": "Sostituisci"
       },
+      "replay": "Ripeti",
       "reset": "Reimpostare",
       "results": "Risultati",
       "retry": "Riprova",
+      "rewind": "Riavvolgi",
       "save": {
         "all": "Salva tutto",
         "and": {
@@ -1516,9 +1897,18 @@ static const Map<String,dynamic> it = {
         "app": "Condividi questa app",
         "text": "Condividi"
       },
-      "skip": "Salta",
+      "shuffle": "Riproduzione casuale",
+      "skip": {
+        "backward": "Salta indietro",
+        "forward": "Salta in avanti",
+        "next": "Salta il prossimo",
+        "previous": "Salta il precedente",
+        "text": "Salta"
+      },
+      "stop": "Stop",
       "submit": "Invia",
       "success": "Successo",
+      "template": "Modello",
       "toggle": {
         "all": "Attiva/Disattiva tutto",
         "text": "Attiva/Disattiva"
@@ -1527,9 +1917,11 @@ static const Map<String,dynamic> it = {
       "undo": "Annulla",
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
+      "unmute": "Ripristina audio",
       "update": "Aggiornare",
       "upload": "Carica",
       "user_inputs": "Inserimenti utente",
+      "volume": "Volume",
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
@@ -1611,7 +2003,13 @@ static const Map<String,dynamic> fr = {
         "selection": "Effacer la sélection",
         "text": "Effacer"
       },
-      "close": "Fermer",
+      "close": {
+        "all": "Tout fermer",
+        "others": "Fermer les autres",
+        "tab": "Fermer l'onglet",
+        "text": "Fermer",
+        "window": "Fermer la fenêtre"
+      },
       "collapse": {
         "all": "Tout réduire",
         "text": "Réduire"
@@ -1634,10 +2032,19 @@ static const Map<String,dynamic> fr = {
       "done": "Terminé",
       "download": "Télécharger",
       "edit": "Modifier",
+      "enter": {
+        "fullscreen": "Passer en plein écran",
+        "pip": "Passer en image dans l'image",
+        "text": "Entrer"
+      },
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
-      "exit": "Sortie",
+      "exit": {
+        "fullscreen": "Quitter le plein écran",
+        "pip": "Quitter l'image dans l'image",
+        "text": "Quitter"
+      },
       "exotics": "Exotiques",
       "expand": {
         "all": "Tout développer",
@@ -1648,6 +2055,7 @@ static const Map<String,dynamic> fr = {
         "as": "Exporter sous",
         "text": "Exporter"
       },
+      "fast_forward": "Avance rapide",
       "favorites": "Favoris",
       "find": {
         "and_replace": "Rechercher et remplacer",
@@ -1656,7 +2064,9 @@ static const Map<String,dynamic> fr = {
         "text": "Rechercher"
       },
       "follow_us": "Suivez-nous",
+      "frame": "Cadre",
       "frequency": "Fréquence",
+      "fullscreen": "Plein écran",
       "go": "Aller",
       "help": "Aide",
       "home": "Accueil",
@@ -1669,11 +2079,13 @@ static const Map<String,dynamic> fr = {
       "install": "Installer",
       "learn_more": "En savoir plus",
       "loading": "Chargement",
+      "loop": "Boucle",
       "majors": "Majeures",
       "menu": "Menu",
       "method": "Méthode",
       "minors": "Mineures",
       "monthly": "Mensuellement",
+      "mute": "Muet",
       "name": "Nom",
       "new": {
         "bookmark": "Nouveau signet",
@@ -1687,7 +2099,12 @@ static const Map<String,dynamic> fr = {
         "window": "Nouvelle fenêtre",
         "workspace": "Nouvel espace de travail"
       },
-      "next": "Suivant",
+      "next": {
+        "chapter": "Chapitre suivant",
+        "page": "Page suivante",
+        "text": "Suivant",
+        "track": "Piste suivante"
+      },
       "no": "Non",
       "none": {
         "female": "Aucune",
@@ -1698,26 +2115,46 @@ static const Map<String,dynamic> fr = {
       "ok": "OK",
       "open": {
         "all": "Tout ouvrir",
+        "directory": "Ouvrir un répertoire",
+        "file": "Ouvrir un fichier",
         "in_new": {
           "tab": "Ouvrir dans un nouvel onglet",
           "window": "Ouvrir dans une nouvelle fenêtre"
         },
-        "text": "Ouvrir"
+        "text": "Ouvrir",
+        "url": "Ouvrir une URL"
       },
       "optional": "Optionnel",
       "paste": "Coller",
+      "pause": "Pause",
+      "play": "Lire",
+      "play_pause": "Lire/Pause",
+      "previous": {
+        "chapter": "Chapitre précédent",
+        "page": "Page précédente",
+        "text": "Précédent",
+        "track": "Piste précédente"
+      },
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
       "redo": "Rétablir",
       "refresh": "Actualiser",
       "remove": "Supprimer",
+      "repeat": {
+        "all": "Répéter tout",
+        "none": "Ne pas répéter",
+        "one": "Répéter un",
+        "text": "Répétition"
+      },
       "replace": {
         "all": "Tout remplacer",
         "text": "Remplacer"
       },
+      "replay": "Rejouer",
       "reset": "Réinitialiser",
       "results": "Résultats",
       "retry": "Réessayer",
+      "rewind": "Reculer",
       "save": {
         "all": "Tout enregistrer",
         "and": {
@@ -1741,9 +2178,18 @@ static const Map<String,dynamic> fr = {
         "app": "Partager cette application",
         "text": "Partager"
       },
-      "skip": "Passer",
+      "shuffle": "Lecture aléatoire",
+      "skip": {
+        "backward": "Passer en arrière",
+        "forward": "Passer en avant",
+        "next": "Passer au suivant",
+        "previous": "Passer au précédent",
+        "text": "Passer"
+      },
+      "stop": "Arrêter",
       "submit": "Envoyer",
       "success": "Succès",
+      "template": "Modèle",
       "toggle": {
         "all": "Tout basculer",
         "text": "Basculer"
@@ -1752,9 +2198,11 @@ static const Map<String,dynamic> fr = {
       "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
+      "unmute": "Réactiver le son",
       "update": "Mettre à jour",
       "upload": "Téléverser",
       "user_inputs": "Entrées utilisateur",
+      "volume": "Volume",
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
@@ -1836,7 +2284,13 @@ static const Map<String,dynamic> es = {
         "selection": "Borrar selección",
         "text": "Borrar"
       },
-      "close": "Cerrar",
+      "close": {
+        "all": "Cerrar todo",
+        "others": "Cerrar otros",
+        "tab": "Cerrar pestaña",
+        "text": "Cerrar",
+        "window": "Cerrar ventana"
+      },
       "collapse": {
         "all": "Colapsar todo",
         "text": "Colapsar"
@@ -1859,10 +2313,19 @@ static const Map<String,dynamic> es = {
       "done": "Hecho",
       "download": "Descargar",
       "edit": "Editar",
+      "enter": {
+        "fullscreen": "Entrar a pantalla completa",
+        "pip": "Entrar a imagen sobre imagen",
+        "text": "Entrar"
+      },
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Error",
-      "exit": "Salida",
+      "exit": {
+        "fullscreen": "Salir de pantalla completa",
+        "pip": "Salir de imagen sobre imagen",
+        "text": "Salir"
+      },
       "exotics": "Exóticas",
       "expand": {
         "all": "Expandir todo",
@@ -1873,6 +2336,7 @@ static const Map<String,dynamic> es = {
         "as": "Exportar como",
         "text": "Exportar"
       },
+      "fast_forward": "Avance rápido",
       "favorites": "Favoritos",
       "find": {
         "and_replace": "Buscar y reemplazar",
@@ -1881,7 +2345,9 @@ static const Map<String,dynamic> es = {
         "text": "Buscar"
       },
       "follow_us": "Síganos",
+      "frame": "Cuadro",
       "frequency": "Frecuencia",
+      "fullscreen": "Pantalla completa",
       "go": "Ir",
       "help": "Ayuda",
       "home": "Inicio",
@@ -1894,11 +2360,13 @@ static const Map<String,dynamic> es = {
       "install": "Instalar",
       "learn_more": "Más información",
       "loading": "Cargando",
+      "loop": "Repetición",
       "majors": "Mayores",
       "menu": "Menú",
       "method": "Método",
       "minors": "Menores",
       "monthly": "Mensualmente",
+      "mute": "Silenciar",
       "name": "Nombre",
       "new": {
         "bookmark": "Nuevo marcador",
@@ -1912,7 +2380,12 @@ static const Map<String,dynamic> es = {
         "window": "Nueva ventana",
         "workspace": "Nuevo espacio de trabajo"
       },
-      "next": "Siguiente",
+      "next": {
+        "chapter": "Siguiente capítulo",
+        "page": "Página siguiente",
+        "text": "Siguiente",
+        "track": "Siguiente pista"
+      },
       "no": "No",
       "none": {
         "female": "Ninguna",
@@ -1923,26 +2396,46 @@ static const Map<String,dynamic> es = {
       "ok": "OK",
       "open": {
         "all": "Abrir todo",
+        "directory": "Abrir directorio",
+        "file": "Abrir archivo",
         "in_new": {
           "tab": "Abrir en nueva pestaña",
           "window": "Abrir en nueva ventana"
         },
-        "text": "Abrir"
+        "text": "Abrir",
+        "url": "Abrir URL"
       },
       "optional": "Opcional",
       "paste": "Pegar",
+      "pause": "Pausa",
+      "play": "Reproducir",
+      "play_pause": "Reproducir/Pausar",
+      "previous": {
+        "chapter": "Capítulo anterior",
+        "page": "Página anterior",
+        "text": "Anterior",
+        "track": "Pista anterior"
+      },
       "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
       "redo": "Rehacer",
       "refresh": "Actualizar",
       "remove": "Eliminar",
+      "repeat": {
+        "all": "Repetir todo",
+        "none": "No repetir",
+        "one": "Repetir uno",
+        "text": "Repetir"
+      },
       "replace": {
         "all": "Reemplazar todo",
         "text": "Reemplazar"
       },
+      "replay": "Repetir",
       "reset": "Restablecer",
       "results": "Resultados",
       "retry": "Reintentar",
+      "rewind": "Rebobinar",
       "save": {
         "all": "Guardar todo",
         "and": {
@@ -1966,9 +2459,18 @@ static const Map<String,dynamic> es = {
         "app": "Compartir esta aplicación",
         "text": "Compartir"
       },
-      "skip": "Omitir",
+      "shuffle": "Reproducción aleatoria",
+      "skip": {
+        "backward": "Saltar atrás",
+        "forward": "Saltar adelante",
+        "next": "Saltar siguiente",
+        "previous": "Saltar anterior",
+        "text": "Saltar"
+      },
+      "stop": "Detener",
       "submit": "Enviar",
       "success": "Éxito",
+      "template": "Plantilla",
       "toggle": {
         "all": "Alternar todo",
         "text": "Alternar"
@@ -1977,9 +2479,11 @@ static const Map<String,dynamic> es = {
       "undo": "Deshacer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
+      "unmute": "Activar sonido",
       "update": "Actualizar",
       "upload": "Subir",
       "user_inputs": "Entradas del usuario",
+      "volume": "Volumen",
       "website": "Sitio web",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",

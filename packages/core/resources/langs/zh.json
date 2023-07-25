@@ -23,7 +23,13 @@
         "selection": "清除选择",
         "text": "清除"
       },
-      "close": "关闭",
+      "close": {
+        "all": "关闭全部",
+        "others": "关闭其他",
+        "tab": "关闭标签页",
+        "text": "关闭",
+        "window": "关闭窗口"
+      },
       "collapse": {
         "all": "全部折叠",
         "text": "折叠"
@@ -46,10 +52,19 @@
       "done": "完成",
       "download": "下载",
       "edit": "编辑",
+      "enter": {
+        "fullscreen": "进入全屏模式",
+        "pip": "进入画中画模式",
+        "text": "进入"
+      },
       "entries": "入口",
       "entry": "入口",
       "error": "错误",
-      "exit": "出口",
+      "exit": {
+        "fullscreen": "退出全屏",
+        "pip": "退出画中画",
+        "text": "退出"
+      },
       "exotics": "异国情调",
       "expand": {
         "all": "全部展开",
@@ -60,6 +75,7 @@
         "as": "导出为",
         "text": "导出"
       },
+      "fast_forward": "快进",
       "favorites": "收藏",
       "find": {
         "and_replace": "查找和替换",
@@ -68,7 +84,9 @@
         "text": "查找"
       },
       "follow_us": "关注我们",
+      "frame": "帧",
       "frequency": "频率",
+      "fullscreen": "全屏",
       "go": "前往",
       "help": "帮助",
       "home": "首页",
@@ -81,11 +99,13 @@
       "install": "安装",
       "learn_more": "了解更多",
       "loading": "加载中",
+      "loop": "循环",
       "majors": "成年人",
       "menu": "菜单",
       "method": "方法",
       "minors": "未成年人",
       "monthly": "每月",
+      "mute": "静音",
       "name": "名称",
       "new": {
         "bookmark": "新建书签",
@@ -99,7 +119,12 @@
         "window": "新建窗口",
         "workspace": "新建工作区"
       },
-      "next": "下一步",
+      "next": {
+        "chapter": "下一章",
+        "page": "下一页",
+        "text": "下一项",
+        "track": "下一首"
+      },
       "no": "否",
       "none": {
         "female": "无",
@@ -110,26 +135,46 @@
       "ok": "确定",
       "open": {
         "all": "全部打开",
+        "directory": "打开目录",
+        "file": "打开文件",
         "in_new": {
           "tab": "在新标签页打开",
           "window": "在新窗口打开"
         },
-        "text": "打开"
+        "text": "打开",
+        "url": "打开网址"
       },
       "optional": "可选",
       "paste": "粘贴",
+      "pause": "暂停",
+      "play": "播放",
+      "play_pause": "播放/暂停",
+      "previous": {
+        "chapter": "上一章",
+        "page": "上一页",
+        "text": "上一项",
+        "track": "上一首"
+      },
       "quantity": "数量",
       "quarterly": "每季度",
       "redo": "重做",
       "refresh": "刷新",
       "remove": "移除",
+      "repeat": {
+        "all": "全部重复",
+        "none": "不重复",
+        "one": "单曲重复",
+        "text": "重复"
+      },
       "replace": {
         "all": "全部替换",
         "text": "替换"
       },
+      "replay": "重新播放",
       "reset": "重置",
       "results": "结果",
       "retry": "重试",
+      "rewind": "倒带",
       "save": {
         "all": "全部保存",
         "and": {
@@ -153,9 +198,18 @@
         "app": "分享此应用",
         "text": "分享"
       },
-      "skip": "跳过",
+      "shuffle": "随机播放",
+      "skip": {
+        "backward": "快退",
+        "forward": "快进",
+        "next": "跳至下一个",
+        "previous": "跳至上一个",
+        "text": "跳过"
+      },
+      "stop": "停止",
       "submit": "提交",
       "success": "成功",
+      "template": "模板",
       "toggle": {
         "all": "全部切换",
         "text": "切换"
@@ -164,9 +218,11 @@
       "undo": "撤销",
       "uninstall": "卸载",
       "unlocked": "已解锁",
+      "unmute": "取消静音",
       "update": "更新",
       "upload": "上传",
       "user_inputs": "用户输入",
+      "volume": "音量",
       "website": "网站",
       "weekly": "每周",
       "yearly": "每年",

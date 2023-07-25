@@ -23,7 +23,13 @@
         "selection": "Limpar seleção",
         "text": "Limpar"
       },
-      "close": "Fechar",
+      "close": {
+        "all": "Fechar tudo",
+        "others": "Fechar outros",
+        "tab": "Fechar aba",
+        "text": "Fechar",
+        "window": "Fechar janela"
+      },
       "collapse": {
         "all": "Recolher Todos",
         "text": "Recolher"
@@ -46,10 +52,19 @@
       "done": "Concluído",
       "download": "Baixar",
       "edit": "Editar",
+      "enter": {
+        "fullscreen": "Entrar em tela inteira",
+        "pip": "Entrar em Imagem dentro da imagem",
+        "text": "Entrar"
+      },
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Erro",
-      "exit": "Saída",
+      "exit": {
+        "fullscreen": "Sair da tela inteira",
+        "pip": "Sair do modo Imagem dentro da imagem",
+        "text": "Sair"
+      },
       "exotics": "Exóticas",
       "expand": {
         "all": "Expandir Todos",
@@ -60,6 +75,7 @@
         "as": "Exportar Como",
         "text": "Exportar"
       },
+      "fast_forward": "Avançar rapidamente",
       "favorites": "Favoritos",
       "find": {
         "and_replace": "Localizar e Substituir",
@@ -68,7 +84,9 @@
         "text": "Localizar"
       },
       "follow_us": "Siga-nos",
+      "frame": "Quadro",
       "frequency": "Frequência",
+      "fullscreen": "Tela inteira",
       "go": "Ir",
       "help": "Ajuda",
       "home": "Início",
@@ -81,11 +99,13 @@
       "install": "Instalar",
       "learn_more": "Saiba mais",
       "loading": "Carregando",
+      "loop": "Repetir em loop",
       "majors": "Maiores",
       "menu": "Menu",
       "method": "Método",
       "minors": "Menores",
       "monthly": "Mensalmente",
+      "mute": "Silenciar",
       "name": "Nome",
       "new": {
         "bookmark": "Novo Favorito",
@@ -99,7 +119,12 @@
         "window": "Nova Janela",
         "workspace": "Novo Espaço de Trabalho"
       },
-      "next": "Próximo",
+      "next": {
+        "chapter": "Próximo capítulo",
+        "page": "Próxima página",
+        "text": "Próximo",
+        "track": "Próxima faixa"
+      },
       "no": "Não",
       "none": {
         "female": "Nenhum",
@@ -110,26 +135,46 @@
       "ok": "OK",
       "open": {
         "all": "Abrir Todos",
+        "directory": "Abrir diretório",
+        "file": "Abrir arquivo",
         "in_new": {
           "tab": "Abrir em Nova Aba",
           "window": "Abrir em Nova Janela"
         },
-        "text": "Abrir"
+        "text": "Abrir",
+        "url": "Abrir URL"
       },
       "optional": "Opcional",
       "paste": "Colar",
+      "pause": "Pausa",
+      "play": "Reproduzir",
+      "play_pause": "Reproduzir/Pausar",
+      "previous": {
+        "chapter": "Capítulo anterior",
+        "page": "Página anterior",
+        "text": "Anterior",
+        "track": "Faixa anterior"
+      },
       "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
       "redo": "Refazer",
       "refresh": "Atualizar",
       "remove": "Remover",
+      "repeat": {
+        "all": "Repetir tudo",
+        "none": "Não repetir",
+        "one": "Repetir um",
+        "text": "Repetir"
+      },
       "replace": {
         "all": "Substituir Todos",
         "text": "Substituir"
       },
+      "replay": "Repetir",
       "reset": "Resetar",
       "results": "Resultados",
       "retry": "Tentar novamente",
+      "rewind": "Retroceder",
       "save": {
         "all": "Salvar Todos",
         "and": {
@@ -153,9 +198,18 @@
         "app": "Compartilhar este aplicativo",
         "text": "Compartilhar"
       },
-      "skip": "Pular",
+      "shuffle": "Reprodução aleatória",
+      "skip": {
+        "backward": "Retroceder",
+        "forward": "Avançar",
+        "next": "Pular para o próximo",
+        "previous": "Pular para o anterior",
+        "text": "Pular"
+      },
+      "stop": "Parar",
       "submit": "Enviar",
       "success": "Sucesso",
+      "template": "Modelo",
       "toggle": {
         "all": "Alternar Todos",
         "text": "Alternar"
@@ -164,9 +218,11 @@
       "undo": "Desfazer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
+      "unmute": "Ativar som",
       "update": "Atualizar",
       "upload": "Carregar",
       "user_inputs": "Entradas do usuário",
+      "volume": "Volume",
       "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
