@@ -5,6 +5,7 @@
       "error_occurred": "Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde."
     },
     "label": {
+      "add": "Adicionar",
       "advanced": "Avançado",
       "all": {
         "female": "Todos",
@@ -16,6 +17,7 @@
       "auto_save": "Salvar automaticamente",
       "back": "Voltar",
       "behavior": "Comportamento",
+      "buy": "Comprar",
       "cancel": "Cancelar",
       "clear": {
         "selection": "Limpar seleção",
@@ -36,6 +38,7 @@
       "details": "Detalhes",
       "display": "Exibição",
       "done": "Concluído",
+      "edit": "Editar",
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Erro",
@@ -44,8 +47,10 @@
       "favorites": "Favoritos",
       "follow_us": "Siga-nos",
       "frequency": "Frequência",
+      "go": "Ir",
       "home": "Início",
       "inputs": "Entradas",
+      "install": "Instalar",
       "learn_more": "Saiba mais",
       "majors": "Maiores",
       "menu": "Menu",
@@ -62,14 +67,19 @@
       },
       "offline_mode": "Modo offline",
       "ok": "OK",
+      "open": "Abrir",
       "optional": "Opcional",
       "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
+      "refresh": "Atualizar",
+      "remove": "Remover",
+      "reset": "Resetar",
       "results": "Resultados",
       "retry": "Tentar novamente",
       "save": "Salvar",
       "saved": "Salvo",
       "search": "Pesquisar",
+      "sell": "Vender",
       "semi_annually": "semestralmente",
       "share": {
         "app": "Compartilhar este aplicativo",
@@ -79,12 +89,15 @@
       "submit": "Enviar",
       "success": "Sucesso",
       "try_again": "Tentar novamente",
+      "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
+      "update": "Atualizar",
       "user_inputs": "Entradas do usuário",
       "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
-      "yes": "Sim"
+      "yes": "Sim",
+      "yesterday": "Ontem"
     },
     "message": {
       "action": {

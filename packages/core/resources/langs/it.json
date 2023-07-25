@@ -5,6 +5,7 @@
       "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
     },
     "label": {
+      "add": "Aggiungere",
       "advanced": "Avanzate",
       "all": {
         "female": "Tutte",
@@ -16,6 +17,7 @@
       "auto_save": "Salvataggio automatico",
       "back": "Indietro",
       "behavior": "Comportamento",
+      "buy": "Acquistare",
       "cancel": "Annulla",
       "clear": {
         "selection": "Cancella selezione",
@@ -36,6 +38,7 @@
       "details": "Dettagli",
       "display": "Visualizza",
       "done": "Fatto",
+      "edit": "Modificare",
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
@@ -44,8 +47,10 @@
       "favorites": "Preferiti",
       "follow_us": "Seguici",
       "frequency": "Frequenza",
+      "go": "Vai",
       "home": "Home",
       "inputs": "Inserimenti",
+      "install": "Installare",
       "learn_more": "Maggiori informazioni",
       "majors": "Maggiori",
       "menu": "Menu",
@@ -62,14 +67,19 @@
       },
       "offline_mode": "Modalità offline",
       "ok": "OK",
+      "open": "Aprire",
       "optional": "Opzionale",
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
+      "refresh": "Aggiornare",
+      "remove": "Rimuovere",
+      "reset": "Reimpostare",
       "results": "Risultati",
       "retry": "Riprova",
       "save": "Salva",
       "saved": "Salvato",
       "search": "Cerca",
+      "sell": "Vendere",
       "semi_annually": "semestralmente",
       "share": {
         "app": "Condividi questa app",
@@ -79,12 +89,15 @@
       "submit": "Invia",
       "success": "Successo",
       "try_again": "Riprova",
+      "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
+      "update": "Aggiornare",
       "user_inputs": "Inserimenti utente",
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
-      "yes": "Sì"
+      "yes": "Sì",
+      "yesterday": "Ieri"
     },
     "message": {
       "action": {

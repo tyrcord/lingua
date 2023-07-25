@@ -5,6 +5,7 @@
       "error_occurred": "Apologies, an error has occurred. Please try again later."
     },
     "label": {
+      "add": "Add",
       "advanced": "Advanced",
       "all": {
         "female": "All",
@@ -16,6 +17,7 @@
       "auto_save": "Auto-save",
       "back": "Back",
       "behavior": "Behavior",
+      "buy": "Buy",
       "cancel": "Cancel",
       "clear": {
         "selection": "Clear Selection",
@@ -36,6 +38,7 @@
       "details": "Details",
       "display": "Display",
       "done": "Done",
+      "edit": "Edit",
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
@@ -44,8 +47,10 @@
       "favorites": "Favorites",
       "follow_us": "Follow us",
       "frequency": "Frequency",
+      "go": "Go",
       "home": "Home",
       "inputs": "Inputs",
+      "install": "Install",
       "learn_more": "Learn more",
       "majors": "Major",
       "menu": "Menu",
@@ -62,14 +67,19 @@
       },
       "offline_mode": "Offline Mode",
       "ok": "OK",
+      "open": "Open",
       "optional": "Optional",
       "quantity": "Quantity",
       "quarterly": "Quarterly",
+      "refresh": "Refresh",
+      "remove": "Remove",
+      "reset": "Reset",
       "results": "Results",
       "retry": "Retry",
       "save": "Save",
       "saved": "Saved",
       "search": "Search",
+      "sell": "Sell",
       "semi_annually": "Semi-annually",
       "share": {
         "app": "Share this app",
@@ -79,12 +89,15 @@
       "submit": "Submit",
       "success": "Success",
       "try_again": "Try Again",
+      "uninstall": "Uninstall",
       "unlocked": "Unlocked",
+      "update": "Update",
       "user_inputs": "User Inputs",
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
-      "yes": "Yes"
+      "yes": "Yes",
+      "yesterday": "Yesterday"
     },
     "message": {
       "action": {

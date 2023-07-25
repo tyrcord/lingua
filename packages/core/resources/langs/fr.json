@@ -5,6 +5,7 @@
       "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
     },
     "label": {
+      "add": "Ajouter",
       "advanced": "Avancé",
       "all": {
         "female": "Toutes",
@@ -16,6 +17,7 @@
       "auto_save": "Sauvegarde automatique",
       "back": "Retour",
       "behavior": "Comportement",
+      "buy": "Acheter",
       "cancel": "Annuler",
       "clear": {
         "selection": "Effacer la sélection",
@@ -36,6 +38,7 @@
       "details": "Détails",
       "display": "Affichage",
       "done": "Terminé",
+      "edit": "Modifier",
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
@@ -44,8 +47,10 @@
       "favorites": "Favoris",
       "follow_us": "Suivez-nous",
       "frequency": "Fréquence",
+      "go": "Aller",
       "home": "Accueil",
       "inputs": "Entrées",
+      "install": "Installer",
       "learn_more": "En savoir plus",
       "majors": "Majeures",
       "menu": "Menu",
@@ -62,14 +67,19 @@
       },
       "offline_mode": "Mode hors ligne",
       "ok": "OK",
+      "open": "Ouvrir",
       "optional": "Optionnel",
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
+      "refresh": "Actualiser",
+      "remove": "Supprimer",
+      "reset": "Réinitialiser",
       "results": "Résultats",
       "retry": "Réessayer",
       "save": "Enregistrer",
       "saved": "Enregistré",
       "search": "Rechercher",
+      "sell": "Vendre",
       "semi_annually": "semi-annuellement",
       "share": {
         "app": "Partager cette application",
@@ -79,12 +89,15 @@
       "submit": "Envoyer",
       "success": "Succès",
       "try_again": "Réessayer",
+      "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
+      "update": "Mettre à jour",
       "user_inputs": "Entrées utilisateur",
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
-      "yes": "Oui"
+      "yes": "Oui",
+      "yesterday": "Hier"
     },
     "message": {
       "action": {

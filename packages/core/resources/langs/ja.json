@@ -5,6 +5,7 @@
       "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
     },
     "label": {
+      "add": "追加",
       "advanced": "高度な設定",
       "all": {
         "female": "全て",
@@ -16,6 +17,7 @@
       "auto_save": "自動保存",
       "back": "戻る",
       "behavior": "動作",
+      "buy": "購入",
       "cancel": "キャンセル",
       "clear": {
         "selection": "選択のクリア",
@@ -36,6 +38,7 @@
       "details": "詳細",
       "display": "表示",
       "done": "完了",
+      "edit": "編集",
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
@@ -44,8 +47,10 @@
       "favorites": "お気に入り",
       "follow_us": "フォローする",
       "frequency": "頻度",
+      "go": "移動",
       "home": "ホーム",
       "inputs": "入力",
+      "install": "インストール",
       "learn_more": "詳細を確認",
       "majors": "成人",
       "menu": "メニュー",
@@ -62,14 +67,19 @@
       },
       "offline_mode": "オフラインモード",
       "ok": "OK",
+      "open": "開く",
       "optional": "任意",
       "quantity": "数量",
       "quarterly": "四半期ごとに",
+      "refresh": "リフレッシュ",
+      "remove": "削除",
+      "reset": "リセット",
       "results": "結果",
       "retry": "再試行",
       "save": "保存",
       "saved": "保存済み",
       "search": "検索",
+      "sell": "売却",
       "semi_annually": "半年ごとに",
       "share": {
         "app": "このアプリを共有",
@@ -79,12 +89,15 @@
       "submit": "送信",
       "success": "成功",
       "try_again": "再試行",
+      "uninstall": "アンインストール",
       "unlocked": "ロック解除",
+      "update": "更新",
       "user_inputs": "ユーザー入力",
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
-      "yes": "はい"
+      "yes": "はい",
+      "yesterday": "昨日"
     },
     "message": {
       "action": {

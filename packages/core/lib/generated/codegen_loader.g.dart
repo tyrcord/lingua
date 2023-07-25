@@ -18,6 +18,7 @@ class CoreCodegenLoader extends AssetLoader {
       "error_occurred": "抱歉，发生错误。请稍后再试。"
     },
     "label": {
+      "add": "添加",
       "advanced": "高级",
       "all": {
         "female": "全部",
@@ -29,6 +30,7 @@ class CoreCodegenLoader extends AssetLoader {
       "auto_save": "自动保存",
       "back": "返回",
       "behavior": "行为",
+      "buy": "购买",
       "cancel": "取消",
       "clear": {
         "selection": "清除选择",
@@ -49,6 +51,7 @@ class CoreCodegenLoader extends AssetLoader {
       "details": "详细信息",
       "display": "显示",
       "done": "完成",
+      "edit": "编辑",
       "entries": "入口",
       "entry": "入口",
       "error": "错误",
@@ -57,8 +60,10 @@ class CoreCodegenLoader extends AssetLoader {
       "favorites": "收藏",
       "follow_us": "关注我们",
       "frequency": "频率",
+      "go": "前往",
       "home": "首页",
       "inputs": "输入",
+      "install": "安装",
       "learn_more": "了解更多",
       "majors": "成年人",
       "menu": "菜单",
@@ -75,14 +80,19 @@ class CoreCodegenLoader extends AssetLoader {
       },
       "offline_mode": "离线模式",
       "ok": "确定",
+      "open": "打开",
       "optional": "可选",
       "quantity": "数量",
       "quarterly": "每季度",
+      "refresh": "刷新",
+      "remove": "移除",
+      "reset": "重置",
       "results": "结果",
       "retry": "重试",
       "save": "保存",
       "saved": "已保存",
       "search": "搜索",
+      "sell": "出售",
       "semi_annually": "半年一次",
       "share": {
         "app": "分享此应用",
@@ -92,12 +102,15 @@ class CoreCodegenLoader extends AssetLoader {
       "submit": "提交",
       "success": "成功",
       "try_again": "重试",
+      "uninstall": "卸载",
       "unlocked": "已解锁",
+      "update": "更新",
       "user_inputs": "用户输入",
       "website": "网站",
       "weekly": "每周",
       "yearly": "每年",
-      "yes": "是"
+      "yes": "是",
+      "yesterday": "昨天"
     },
     "message": {
       "action": {
@@ -150,6 +163,7 @@ static const Map<String,dynamic> ja = {
       "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
     },
     "label": {
+      "add": "追加",
       "advanced": "高度な設定",
       "all": {
         "female": "全て",
@@ -161,6 +175,7 @@ static const Map<String,dynamic> ja = {
       "auto_save": "自動保存",
       "back": "戻る",
       "behavior": "動作",
+      "buy": "購入",
       "cancel": "キャンセル",
       "clear": {
         "selection": "選択のクリア",
@@ -181,6 +196,7 @@ static const Map<String,dynamic> ja = {
       "details": "詳細",
       "display": "表示",
       "done": "完了",
+      "edit": "編集",
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
@@ -189,8 +205,10 @@ static const Map<String,dynamic> ja = {
       "favorites": "お気に入り",
       "follow_us": "フォローする",
       "frequency": "頻度",
+      "go": "移動",
       "home": "ホーム",
       "inputs": "入力",
+      "install": "インストール",
       "learn_more": "詳細を確認",
       "majors": "成人",
       "menu": "メニュー",
@@ -207,14 +225,19 @@ static const Map<String,dynamic> ja = {
       },
       "offline_mode": "オフラインモード",
       "ok": "OK",
+      "open": "開く",
       "optional": "任意",
       "quantity": "数量",
       "quarterly": "四半期ごとに",
+      "refresh": "リフレッシュ",
+      "remove": "削除",
+      "reset": "リセット",
       "results": "結果",
       "retry": "再試行",
       "save": "保存",
       "saved": "保存済み",
       "search": "検索",
+      "sell": "売却",
       "semi_annually": "半年ごとに",
       "share": {
         "app": "このアプリを共有",
@@ -224,12 +247,15 @@ static const Map<String,dynamic> ja = {
       "submit": "送信",
       "success": "成功",
       "try_again": "再試行",
+      "uninstall": "アンインストール",
       "unlocked": "ロック解除",
+      "update": "更新",
       "user_inputs": "ユーザー入力",
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
-      "yes": "はい"
+      "yes": "はい",
+      "yesterday": "昨日"
     },
     "message": {
       "action": {
@@ -282,6 +308,7 @@ static const Map<String,dynamic> de = {
       "error_occurred": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
     },
     "label": {
+      "add": "Hinzufügen",
       "advanced": "Erweitert",
       "all": {
         "female": "Alle",
@@ -293,6 +320,7 @@ static const Map<String,dynamic> de = {
       "auto_save": "Automatisch speichern",
       "back": "Zurück",
       "behavior": "Verhalten",
+      "buy": "Kaufen",
       "cancel": "Abbrechen",
       "clear": {
         "selection": "Auswahl löschen",
@@ -313,6 +341,7 @@ static const Map<String,dynamic> de = {
       "details": "Details",
       "display": "Anzeige",
       "done": "Fertig",
+      "edit": "Bearbeiten",
       "entries": "Eingänge",
       "entry": "Eingang",
       "error": "Fehler",
@@ -321,8 +350,10 @@ static const Map<String,dynamic> de = {
       "favorites": "Favoriten",
       "follow_us": "Folgen Sie uns",
       "frequency": "Häufigkeit",
+      "go": "Gehe zu",
       "home": "Startseite",
       "inputs": "Eingaben",
+      "install": "Installieren",
       "learn_more": "Weitere Informationen",
       "majors": "Volljährige",
       "menu": "Menü",
@@ -339,14 +370,19 @@ static const Map<String,dynamic> de = {
       },
       "offline_mode": "Offline-Modus",
       "ok": "OK",
+      "open": "Öffnen",
       "optional": "Optional",
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
+      "refresh": "Aktualisieren",
+      "remove": "Entfernen",
+      "reset": "Zurücksetzen",
       "results": "Ergebnisse",
       "retry": "Erneut versuchen",
       "save": "Speichern",
       "saved": "Gespeichert",
       "search": "Suche",
+      "sell": "Verkaufen",
       "semi_annually": "halbjährlich",
       "share": {
         "app": "Diese App teilen",
@@ -356,12 +392,15 @@ static const Map<String,dynamic> de = {
       "submit": "Senden",
       "success": "Erfolg",
       "try_again": "Erneut versuchen",
+      "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
+      "update": "Aktualisieren",
       "user_inputs": "Benutzereingaben",
       "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",
-      "yes": "Ja"
+      "yes": "Ja",
+      "yesterday": "Gestern"
     },
     "message": {
       "action": {
@@ -414,6 +453,7 @@ static const Map<String,dynamic> ru = {
       "error_occurred": "Извините, произошла ошибка. Пожалуйста, попробуйте еще раз позже."
     },
     "label": {
+      "add": "Добавить",
       "advanced": "Расширенные",
       "all": {
         "female": "Все",
@@ -425,6 +465,7 @@ static const Map<String,dynamic> ru = {
       "auto_save": "Автосохранение",
       "back": "Назад",
       "behavior": "Поведение",
+      "buy": "Купить",
       "cancel": "Отмена",
       "clear": {
         "selection": "Очистить выбор",
@@ -445,6 +486,7 @@ static const Map<String,dynamic> ru = {
       "details": "Детали",
       "display": "Отображение",
       "done": "Готово",
+      "edit": "Редактировать",
       "entries": "Входы",
       "entry": "Вход",
       "error": "Ошибка",
@@ -453,8 +495,10 @@ static const Map<String,dynamic> ru = {
       "favorites": "Избранное",
       "follow_us": "Подписывайтесь на нас",
       "frequency": "Частота",
+      "go": "Перейти",
       "home": "Главная",
       "inputs": "Ввод",
+      "install": "Установить",
       "learn_more": "Узнать больше",
       "majors": "Совершеннолетние",
       "menu": "Меню",
@@ -471,14 +515,19 @@ static const Map<String,dynamic> ru = {
       },
       "offline_mode": "Режим офлайн",
       "ok": "OK",
+      "open": "Открыть",
       "optional": "Необязательно",
       "quantity": "Количество",
       "quarterly": "Ежеквартально",
+      "refresh": "Обновить",
+      "remove": "Удалить",
+      "reset": "Сбросить",
       "results": "Результаты",
       "retry": "Повторить",
       "save": "Сохранить",
       "saved": "Сохранено",
       "search": "Поиск",
+      "sell": "Продать",
       "semi_annually": "полугодовой",
       "share": {
         "app": "Поделиться этим приложением",
@@ -488,12 +537,15 @@ static const Map<String,dynamic> ru = {
       "submit": "Отправить",
       "success": "Успех",
       "try_again": "Попробовать снова",
+      "uninstall": "Удалить",
       "unlocked": "Разблокировано",
+      "update": "Обновить",
       "user_inputs": "Ввод пользователя",
       "website": "Веб-сайт",
       "weekly": "Еженедельно",
       "yearly": "Ежегодно",
-      "yes": "Да"
+      "yes": "Да",
+      "yesterday": "Вчера"
     },
     "message": {
       "action": {
@@ -546,6 +598,7 @@ static const Map<String,dynamic> pt = {
       "error_occurred": "Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde."
     },
     "label": {
+      "add": "Adicionar",
       "advanced": "Avançado",
       "all": {
         "female": "Todos",
@@ -557,6 +610,7 @@ static const Map<String,dynamic> pt = {
       "auto_save": "Salvar automaticamente",
       "back": "Voltar",
       "behavior": "Comportamento",
+      "buy": "Comprar",
       "cancel": "Cancelar",
       "clear": {
         "selection": "Limpar seleção",
@@ -577,6 +631,7 @@ static const Map<String,dynamic> pt = {
       "details": "Detalhes",
       "display": "Exibição",
       "done": "Concluído",
+      "edit": "Editar",
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Erro",
@@ -585,8 +640,10 @@ static const Map<String,dynamic> pt = {
       "favorites": "Favoritos",
       "follow_us": "Siga-nos",
       "frequency": "Frequência",
+      "go": "Ir",
       "home": "Início",
       "inputs": "Entradas",
+      "install": "Instalar",
       "learn_more": "Saiba mais",
       "majors": "Maiores",
       "menu": "Menu",
@@ -603,14 +660,19 @@ static const Map<String,dynamic> pt = {
       },
       "offline_mode": "Modo offline",
       "ok": "OK",
+      "open": "Abrir",
       "optional": "Opcional",
       "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
+      "refresh": "Atualizar",
+      "remove": "Remover",
+      "reset": "Resetar",
       "results": "Resultados",
       "retry": "Tentar novamente",
       "save": "Salvar",
       "saved": "Salvo",
       "search": "Pesquisar",
+      "sell": "Vender",
       "semi_annually": "semestralmente",
       "share": {
         "app": "Compartilhar este aplicativo",
@@ -620,12 +682,15 @@ static const Map<String,dynamic> pt = {
       "submit": "Enviar",
       "success": "Sucesso",
       "try_again": "Tentar novamente",
+      "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
+      "update": "Atualizar",
       "user_inputs": "Entradas do usuário",
       "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
-      "yes": "Sim"
+      "yes": "Sim",
+      "yesterday": "Ontem"
     },
     "message": {
       "action": {
@@ -678,6 +743,7 @@ static const Map<String,dynamic> en = {
       "error_occurred": "Apologies, an error has occurred. Please try again later."
     },
     "label": {
+      "add": "Add",
       "advanced": "Advanced",
       "all": {
         "female": "All",
@@ -689,6 +755,7 @@ static const Map<String,dynamic> en = {
       "auto_save": "Auto-save",
       "back": "Back",
       "behavior": "Behavior",
+      "buy": "Buy",
       "cancel": "Cancel",
       "clear": {
         "selection": "Clear Selection",
@@ -709,6 +776,7 @@ static const Map<String,dynamic> en = {
       "details": "Details",
       "display": "Display",
       "done": "Done",
+      "edit": "Edit",
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
@@ -717,8 +785,10 @@ static const Map<String,dynamic> en = {
       "favorites": "Favorites",
       "follow_us": "Follow us",
       "frequency": "Frequency",
+      "go": "Go",
       "home": "Home",
       "inputs": "Inputs",
+      "install": "Install",
       "learn_more": "Learn more",
       "majors": "Major",
       "menu": "Menu",
@@ -735,14 +805,19 @@ static const Map<String,dynamic> en = {
       },
       "offline_mode": "Offline Mode",
       "ok": "OK",
+      "open": "Open",
       "optional": "Optional",
       "quantity": "Quantity",
       "quarterly": "Quarterly",
+      "refresh": "Refresh",
+      "remove": "Remove",
+      "reset": "Reset",
       "results": "Results",
       "retry": "Retry",
       "save": "Save",
       "saved": "Saved",
       "search": "Search",
+      "sell": "Sell",
       "semi_annually": "Semi-annually",
       "share": {
         "app": "Share this app",
@@ -752,12 +827,15 @@ static const Map<String,dynamic> en = {
       "submit": "Submit",
       "success": "Success",
       "try_again": "Try Again",
+      "uninstall": "Uninstall",
       "unlocked": "Unlocked",
+      "update": "Update",
       "user_inputs": "User Inputs",
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
-      "yes": "Yes"
+      "yes": "Yes",
+      "yesterday": "Yesterday"
     },
     "message": {
       "action": {
@@ -810,6 +888,7 @@ static const Map<String,dynamic> it = {
       "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
     },
     "label": {
+      "add": "Aggiungere",
       "advanced": "Avanzate",
       "all": {
         "female": "Tutte",
@@ -821,6 +900,7 @@ static const Map<String,dynamic> it = {
       "auto_save": "Salvataggio automatico",
       "back": "Indietro",
       "behavior": "Comportamento",
+      "buy": "Acquistare",
       "cancel": "Annulla",
       "clear": {
         "selection": "Cancella selezione",
@@ -841,6 +921,7 @@ static const Map<String,dynamic> it = {
       "details": "Dettagli",
       "display": "Visualizza",
       "done": "Fatto",
+      "edit": "Modificare",
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
@@ -849,8 +930,10 @@ static const Map<String,dynamic> it = {
       "favorites": "Preferiti",
       "follow_us": "Seguici",
       "frequency": "Frequenza",
+      "go": "Vai",
       "home": "Home",
       "inputs": "Inserimenti",
+      "install": "Installare",
       "learn_more": "Maggiori informazioni",
       "majors": "Maggiori",
       "menu": "Menu",
@@ -867,14 +950,19 @@ static const Map<String,dynamic> it = {
       },
       "offline_mode": "Modalità offline",
       "ok": "OK",
+      "open": "Aprire",
       "optional": "Opzionale",
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
+      "refresh": "Aggiornare",
+      "remove": "Rimuovere",
+      "reset": "Reimpostare",
       "results": "Risultati",
       "retry": "Riprova",
       "save": "Salva",
       "saved": "Salvato",
       "search": "Cerca",
+      "sell": "Vendere",
       "semi_annually": "semestralmente",
       "share": {
         "app": "Condividi questa app",
@@ -884,12 +972,15 @@ static const Map<String,dynamic> it = {
       "submit": "Invia",
       "success": "Successo",
       "try_again": "Riprova",
+      "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
+      "update": "Aggiornare",
       "user_inputs": "Inserimenti utente",
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
-      "yes": "Sì"
+      "yes": "Sì",
+      "yesterday": "Ieri"
     },
     "message": {
       "action": {
@@ -942,6 +1033,7 @@ static const Map<String,dynamic> fr = {
       "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
     },
     "label": {
+      "add": "Ajouter",
       "advanced": "Avancé",
       "all": {
         "female": "Toutes",
@@ -953,6 +1045,7 @@ static const Map<String,dynamic> fr = {
       "auto_save": "Sauvegarde automatique",
       "back": "Retour",
       "behavior": "Comportement",
+      "buy": "Acheter",
       "cancel": "Annuler",
       "clear": {
         "selection": "Effacer la sélection",
@@ -973,6 +1066,7 @@ static const Map<String,dynamic> fr = {
       "details": "Détails",
       "display": "Affichage",
       "done": "Terminé",
+      "edit": "Modifier",
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
@@ -981,8 +1075,10 @@ static const Map<String,dynamic> fr = {
       "favorites": "Favoris",
       "follow_us": "Suivez-nous",
       "frequency": "Fréquence",
+      "go": "Aller",
       "home": "Accueil",
       "inputs": "Entrées",
+      "install": "Installer",
       "learn_more": "En savoir plus",
       "majors": "Majeures",
       "menu": "Menu",
@@ -999,14 +1095,19 @@ static const Map<String,dynamic> fr = {
       },
       "offline_mode": "Mode hors ligne",
       "ok": "OK",
+      "open": "Ouvrir",
       "optional": "Optionnel",
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
+      "refresh": "Actualiser",
+      "remove": "Supprimer",
+      "reset": "Réinitialiser",
       "results": "Résultats",
       "retry": "Réessayer",
       "save": "Enregistrer",
       "saved": "Enregistré",
       "search": "Rechercher",
+      "sell": "Vendre",
       "semi_annually": "semi-annuellement",
       "share": {
         "app": "Partager cette application",
@@ -1016,12 +1117,15 @@ static const Map<String,dynamic> fr = {
       "submit": "Envoyer",
       "success": "Succès",
       "try_again": "Réessayer",
+      "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
+      "update": "Mettre à jour",
       "user_inputs": "Entrées utilisateur",
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
-      "yes": "Oui"
+      "yes": "Oui",
+      "yesterday": "Hier"
     },
     "message": {
       "action": {
@@ -1074,6 +1178,7 @@ static const Map<String,dynamic> es = {
       "error_occurred": "Disculpa, ha ocurrido un error. Por favor, inténtalo nuevamente más tarde."
     },
     "label": {
+      "add": "Agregar",
       "advanced": "Avanzado",
       "all": {
         "female": "Todas",
@@ -1085,6 +1190,7 @@ static const Map<String,dynamic> es = {
       "auto_save": "Guardar automáticamente",
       "back": "Volver",
       "behavior": "Comportamiento",
+      "buy": "Comprar",
       "cancel": "Cancelar",
       "clear": {
         "selection": "Borrar selección",
@@ -1105,6 +1211,7 @@ static const Map<String,dynamic> es = {
       "details": "Detalles",
       "display": "Mostrar",
       "done": "Hecho",
+      "edit": "Editar",
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Error",
@@ -1113,8 +1220,10 @@ static const Map<String,dynamic> es = {
       "favorites": "Favoritos",
       "follow_us": "Síganos",
       "frequency": "Frecuencia",
+      "go": "Ir",
       "home": "Inicio",
       "inputs": "Entradas",
+      "install": "Instalar",
       "learn_more": "Más información",
       "majors": "Mayores",
       "menu": "Menú",
@@ -1131,14 +1240,19 @@ static const Map<String,dynamic> es = {
       },
       "offline_mode": "Modo sin conexión",
       "ok": "OK",
+      "open": "Abrir",
       "optional": "Opcional",
       "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
+      "refresh": "Actualizar",
+      "remove": "Eliminar",
+      "reset": "Restablecer",
       "results": "Resultados",
       "retry": "Reintentar",
       "save": "Guardar",
       "saved": "Guardado",
       "search": "Buscar",
+      "sell": "Vender",
       "semi_annually": "semestralmente",
       "share": {
         "app": "Compartir esta aplicación",
@@ -1148,12 +1262,15 @@ static const Map<String,dynamic> es = {
       "submit": "Enviar",
       "success": "Éxito",
       "try_again": "Reintentar",
+      "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
+      "update": "Actualizar",
       "user_inputs": "Entradas del usuario",
       "website": "Sitio web",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
-      "yes": "Sí"
+      "yes": "Sí",
+      "yesterday": "Ayer"
     },
     "message": {
       "action": {

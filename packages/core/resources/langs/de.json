@@ -5,6 +5,7 @@
       "error_occurred": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
     },
     "label": {
+      "add": "Hinzufügen",
       "advanced": "Erweitert",
       "all": {
         "female": "Alle",
@@ -16,6 +17,7 @@
       "auto_save": "Automatisch speichern",
       "back": "Zurück",
       "behavior": "Verhalten",
+      "buy": "Kaufen",
       "cancel": "Abbrechen",
       "clear": {
         "selection": "Auswahl löschen",
@@ -36,6 +38,7 @@
       "details": "Details",
       "display": "Anzeige",
       "done": "Fertig",
+      "edit": "Bearbeiten",
       "entries": "Eingänge",
       "entry": "Eingang",
       "error": "Fehler",
@@ -44,8 +47,10 @@
       "favorites": "Favoriten",
       "follow_us": "Folgen Sie uns",
       "frequency": "Häufigkeit",
+      "go": "Gehe zu",
       "home": "Startseite",
       "inputs": "Eingaben",
+      "install": "Installieren",
       "learn_more": "Weitere Informationen",
       "majors": "Volljährige",
       "menu": "Menü",
@@ -62,14 +67,19 @@
       },
       "offline_mode": "Offline-Modus",
       "ok": "OK",
+      "open": "Öffnen",
       "optional": "Optional",
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
+      "refresh": "Aktualisieren",
+      "remove": "Entfernen",
+      "reset": "Zurücksetzen",
       "results": "Ergebnisse",
       "retry": "Erneut versuchen",
       "save": "Speichern",
       "saved": "Gespeichert",
       "search": "Suche",
+      "sell": "Verkaufen",
       "semi_annually": "halbjährlich",
       "share": {
         "app": "Diese App teilen",
@@ -79,12 +89,15 @@
       "submit": "Senden",
       "success": "Erfolg",
       "try_again": "Erneut versuchen",
+      "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
+      "update": "Aktualisieren",
       "user_inputs": "Benutzereingaben",
       "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",
-      "yes": "Ja"
+      "yes": "Ja",
+      "yesterday": "Gestern"
     },
     "message": {
       "action": {
