@@ -1,5 +1,3 @@
-dir="$(basename $PWD)"
-
 mkdir -p ./scripts
 
 cp ../../scripts/generate.sh ./scripts
