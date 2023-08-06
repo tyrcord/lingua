@@ -1,3 +1,7 @@
+## 0.0.14
+
+ - **FEAT**: add withLocales constructor.
+
 ## 0.0.13
 
  - **FEAT**: update localization.

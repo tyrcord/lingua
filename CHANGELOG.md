@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-08-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_core` - `v0.0.14`](#lingua_core---v0014)
+
+---
+
+#### `lingua_core` - `v0.0.14`
+
+ - **FEAT**: add withLocales constructor.
+
+
 ## 2023-07-25
 
 ### Changes
