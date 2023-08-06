@@ -14,9 +14,10 @@ class LinguaLoader extends AssetLoader {
     this.mapLocales = CoreCodegenLoader.mapLocales,
   });
 
-  @override
-  Future<Map<String, dynamic>> load(String path, Locale locale) {
-    return Future.value(mapLocales[locale.toString()]);
+  factory LinguaLoader.withLocales({
+    List<Map<String, Map<String, dynamic>>> mapLocales = const [],
+  }) {
+    return LinguaLoader(mapLocales: mergeMapLocales(mapLocales));
   }
 
   static Map<String, Map<String, dynamic>> mergeMapLocales(
@@ -43,5 +44,10 @@ class LinguaLoader extends AssetLoader {
         return combinedMap;
       },
     );
+  }
+
+  @override
+  Future<Map<String, dynamic>> load(String path, Locale locale) {
+    return Future.value(mapLocales[locale.toString()]);
   }
 }
