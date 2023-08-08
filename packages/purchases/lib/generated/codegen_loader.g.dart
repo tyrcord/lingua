@@ -62,7 +62,7 @@ class PurchasesCodegenLoader extends AssetLoader {
       "restore_purchases": "恢复购买"
     },
     "message": {
-      "enjoy_premium_version": "通过高级功能发挥该应用程序的全部潜力，提供卓越的用户体验！",
+      "enjoy_premium_version": "感谢您选择高级版本！享受增强功能和无广告体验。您的支持对我们意义重大！",
       "go_premium_description": "升级到高级版不仅支持持续开发，还能获得额外功能。",
       "premium_version_restored": "已成功恢复高级功能。",
       "purchase": {
@@ -131,7 +131,7 @@ static const Map<String,dynamic> ja = {
       "restore_purchases": "購入を復元"
     },
     "message": {
-      "enjoy_premium_version": "プレミアム機能を備えたこのアプリケーションのフルポテンシャルを引き出し、より充実したユーザーエクスペリエンスをお楽しみください！",
+      "enjoy_premium_version": "プレミアムバージョンを選んでいただき、ありがとうございます！強化された機能と広告なしの体験をお楽しみください。あなたのサポートは、私たちにとって非常に意味があります！",
       "go_premium_description": "プレミアム版にアップグレードすることで、継続的な開発をサポートするだけでなく、追加の機能にアクセスすることもできます。",
       "premium_version_restored": "プレミアム機能が正常に復元されました。",
       "purchase": {
@@ -198,7 +198,7 @@ static const Map<String,dynamic> de = {
       "restore_purchases": "Käufe wiederherstellen"
     },
     "message": {
-      "enjoy_premium_version": "Entfesseln Sie das volle Potenzial dieser Anwendung mit ihren Premium-Funktionen und gewährleisten Sie ein verbessertes Benutzererlebnis!",
+      "enjoy_premium_version": "Vielen Dank, dass Sie sich für die Premium-Version entschieden haben! Genießen Sie erweiterte Funktionen und ein werbefreies Erlebnis. Ihre Unterstützung bedeutet uns sehr viel!",
       "go_premium_description": "Durch ein Upgrade auf die Premium-Version unterstützen Sie nicht nur die laufende Entwicklung, sondern erhalten auch Zugriff auf zusätzliche Funktionen.",
       "premium_version_restored": "Ihre Premium-Funktionen wurden erfolgreich wiederhergestellt.",
       "purchase": {
@@ -265,7 +265,7 @@ static const Map<String,dynamic> ru = {
       "restore_purchases": "Восстановить покупки"
     },
     "message": {
-      "enjoy_premium_version": "Раскройте полный потенциал этого приложения с функциями Премиум, обеспечивая улучшенный пользовательский опыт!",
+      "enjoy_premium_version": "Спасибо за выбор премиум-версии! Наслаждайтесь расширенными функциями и опытом без рекламы. Ваша поддержка очень важна для нас!",
       "go_premium_description": "Обновившись до Премиум-версии, вы не только поддерживаете разработку, но также получаете доступ к дополнительным функциям.",
       "premium_version_restored": "Ваши функции Премиум успешно восстановлены.",
       "purchase": {
@@ -332,7 +332,7 @@ static const Map<String,dynamic> pt = {
       "restore_purchases": "Restaurar compras"
     },
     "message": {
-      "enjoy_premium_version": "Libere todo o potencial deste aplicativo com seus recursos Premium, garantindo uma experiência aprimorada para o usuário!",
+      "enjoy_premium_version": "Obrigado por escolher a versão premium! Aproveite os recursos aprimorados e uma experiência sem anúncios. Seu apoio significa muito para nós!",
       "go_premium_description": "Ao fazer o upgrade para a versão premium, você não apenas apoia o desenvolvimento contínuo, mas também obtém acesso a recursos adicionais.",
       "premium_version_restored": "Seus recursos Premium foram restaurados com sucesso.",
       "purchase": {
@@ -399,7 +399,7 @@ static const Map<String,dynamic> en = {
       "restore_purchases": "Restore Purchases"
     },
     "message": {
-      "enjoy_premium_version": "Unleash the full potential of this application with its Premium features, ensuring an enhanced user experience!",
+      "enjoy_premium_version": "Thank you for choosing the premium version! Enjoy enhanced features and an ad-free experience. Your support means a lot to us!",
       "go_premium_description": "By upgrading to the premium version, you not only support ongoing development but also gain access to additional features.",
       "premium_version_restored": "Your premium features have been successfully reinstated.",
       "purchase": {
@@ -466,7 +466,7 @@ static const Map<String,dynamic> it = {
       "restore_purchases": "Ripristina acquisti"
     },
     "message": {
-      "enjoy_premium_version": "Sfrutta appieno il potenziale di questa applicazione con le sue funzionalità Premium, garantendo un'esperienza utente migliorata!",
+      "enjoy_premium_version": "Grazie per aver scelto la versione premium! Goditi funzioni avanzate e un'esperienza senza pubblicità. Il tuo supporto è molto importante per noi!",
       "go_premium_description": "Effettuando l'upgrade alla versione Premium, non solo supporti lo sviluppo in corso, ma ottieni anche accesso a funzionalità aggiuntive.",
       "premium_version_restored": "Le tue funzionalità Premium sono state ripristinate correttamente.",
       "purchase": {
@@ -533,7 +533,7 @@ static const Map<String,dynamic> fr = {
       "restore_purchases": "Restaurer les achats"
     },
     "message": {
-      "enjoy_premium_version": "Libérez tout le potentiel de cette application avec ses fonctionnalités Premium, garantissant une expérience utilisateur améliorée !",
+      "enjoy_premium_version": "Merci d'avoir choisi la version premium ! Profitez de fonctionnalités améliorées et d'une expérience sans publicité. Votre soutien compte énormément pour nous !",
       "go_premium_description": "En passant à la version Premium, vous soutenez non seulement le développement continu, mais vous accédez également à des fonctionnalités supplémentaires.",
       "premium_version_restored": "Vos fonctionnalités Premium ont été restaurées avec succès.",
       "purchase": {
@@ -600,7 +600,7 @@ static const Map<String,dynamic> es = {
       "restore_purchases": "Restaurar compras"
     },
     "message": {
-      "enjoy_premium_version": "¡Libera todo el potencial de esta aplicación con sus funciones Premium, asegurando una experiencia de usuario mejorada!",
+      "enjoy_premium_version": "¡Gracias por elegir la versión premium! Disfruta de funciones mejoradas y una experiencia sin anuncios. ¡Tu apoyo significa mucho para nosotros!",
       "go_premium_description": "Al actualizar a la versión Premium, no solo apoyas el desarrollo continuo, sino que también obtienes acceso a funciones adicionales.",
       "premium_version_restored": "Se han restaurado correctamente tus funciones Premium.",
       "purchase": {
