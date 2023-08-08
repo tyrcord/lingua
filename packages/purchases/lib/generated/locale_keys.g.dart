@@ -2,6 +2,28 @@
 
 abstract class PurchasesLocaleKeys {
   static const purchases_error_cannot_connect_store = 'purchases.error.cannot_connect_store';
+  static const purchases_error_purchase_unknown = 'purchases.error.purchase.unknown';
+  static const purchases_error_purchase_client_invalid = 'purchases.error.purchase.client_invalid';
+  static const purchases_error_purchase_payment_cancelled = 'purchases.error.purchase.payment_cancelled';
+  static const purchases_error_purchase_payment_invalid = 'purchases.error.purchase.payment_invalid';
+  static const purchases_error_purchase_payment_not_allowed = 'purchases.error.purchase.payment_not_allowed';
+  static const purchases_error_purchase_store_product_not_available = 'purchases.error.purchase.store_product_not_available';
+  static const purchases_error_purchase_cloud_service_permission_denied = 'purchases.error.purchase.cloud_service_permission_denied';
+  static const purchases_error_purchase_cloud_service_network_connection_failed = 'purchases.error.purchase.cloud_service_network_connection_failed';
+  static const purchases_error_purchase_cloud_service_revoked = 'purchases.error.purchase.cloud_service_revoked';
+  static const purchases_error_purchase_privacy_acknowledgement_required = 'purchases.error.purchase.privacy_acknowledgement_required';
+  static const purchases_error_purchase_unauthorized_request_data = 'purchases.error.purchase.unauthorized_request_data';
+  static const purchases_error_purchase_invalid_offer_identifier = 'purchases.error.purchase.invalid_offer_identifier';
+  static const purchases_error_purchase_invalid_signature = 'purchases.error.purchase.invalid_signature';
+  static const purchases_error_purchase_missing_offer_params = 'purchases.error.purchase.missing_offer_params';
+  static const purchases_error_purchase_invalid_offer_price = 'purchases.error.purchase.invalid_offer_price';
+  static const purchases_error_purchase_overlay_cancelled = 'purchases.error.purchase.overlay_cancelled';
+  static const purchases_error_purchase_overlay_invalid_configuration = 'purchases.error.purchase.overlay_invalid_configuration';
+  static const purchases_error_purchase_overlay_timeout = 'purchases.error.purchase.overlay_timeout';
+  static const purchases_error_purchase_ineligible_for_offer = 'purchases.error.purchase.ineligible_for_offer';
+  static const purchases_error_purchase_unsupported_platform = 'purchases.error.purchase.unsupported_platform';
+  static const purchases_error_purchase_overlay_presented_in_background_scene = 'purchases.error.purchase.overlay_presented_in_background_scene';
+  static const purchases_error_purchase = 'purchases.error.purchase';
   static const purchases_error = 'purchases.error';
   static const purchases_feature_auto_refresh_exchange_rates = 'purchases.feature.auto.refresh_exchange_rates';
   static const purchases_feature_auto_refresh_stock_prices = 'purchases.feature.auto.refresh_stock_prices';

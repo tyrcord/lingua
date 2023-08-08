@@ -1,7 +1,30 @@
 {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Lamentamos las molestias. La tienda no está disponible en este momento, por lo que no podrá realizar compras en este momento."
+      "cannot_connect_store": "Lamentamos las molestias. La tienda no está disponible en este momento, por lo que no podrá realizar compras en este momento.",
+      "purchase": {
+        "unknown": "Lo siento, la compra no está disponible por una razón desconocida. Intente de nuevo más tarde.",
+        "client_invalid": "La compra no puede completarse. Por favor, cambie su cuenta o dispositivo.",
+        "payment_cancelled": "La compra ha sido cancelada.",
+        "payment_invalid": "La compra no puede completarse. Por favor, verifique su información de pago.",
+        "payment_not_allowed": "La compra no está disponible para el método de pago seleccionado. Asegúrese de que su método de pago le permita hacer compras en línea.",
+        "store_product_not_available": "Este producto no está disponible en su región. Por favor, cambie la tienda e intente de nuevo.",
+        "cloud_service_permission_denied": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
+        "cloud_service_network_connection_failed": "La compra no puede completarse. Por favor, verifique su conexión de red e intente de nuevo.",
+        "cloud_service_revoked": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
+        "privacy_acknowledgement_required": "La compra no puede completarse porque no ha aceptado los términos de uso de la AppStore. Por favor, confirme su consentimiento en los ajustes y vuelva a la compra.",
+        "unauthorized_request_data": "Ha ocurrido un error. Por favor, intente de nuevo más tarde.",
+        "invalid_offer_identifier": "La oferta promocional es inválida o ha caducado.",
+        "invalid_signature": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
+        "missing_offer_params": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
+        "invalid_offer_price": "Lo siento, su compra no puede completarse. Intente de nuevo más tarde.",
+        "overlay_cancelled": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "overlay_invalid_configuration": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "overlay_timeout": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "ineligible_for_offer": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "unsupported_platform": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "overlay_presented_in_background_scene": "Ha ocurrido un error. Intente de nuevo más tarde."
+      }
     },
     "feature": {
       "auto": {

@@ -1,7 +1,30 @@
 {
   "purchases": {
     "error": {
-      "cannot_connect_store": "不便之处，我们深感抱歉。商店当前不可用，因此您暂时无法进行购买。"
+      "cannot_connect_store": "不便之处，我们深感抱歉。商店当前不可用，因此您暂时无法进行购买。",
+      "purchase": {
+        "unknown": "抱歉，由于未知原因，购买不可用。请稍后再试。",
+        "client_invalid": "无法完成购买。请更换您的帐户或设备。",
+        "payment_cancelled": "购买已取消。",
+        "payment_invalid": "无法完成购买。请检查您的支付信息。",
+        "payment_not_allowed": "所选的支付方法不支持此购买。请确保您的支付方式允许在线购买。",
+        "store_product_not_available": "该产品在您所在的地区不可用。请更换商店后再试。",
+        "cloud_service_permission_denied": "购买被拒绝。请稍后再试。",
+        "cloud_service_network_connection_failed": "无法完成购买。请检查您的网络连接后再试。",
+        "cloud_service_revoked": "购买被拒绝。请稍后再试。",
+        "privacy_acknowledgement_required": "由于您没有接受AppStore的使用条款，购买无法完成。请在设置中确认您的同意，然后返回购买。",
+        "unauthorized_request_data": "发生错误。请稍后再试。",
+        "invalid_offer_identifier": "促销优惠无效或已过期。",
+        "invalid_signature": "抱歉，应用促销代码时出错。请稍后再试。",
+        "missing_offer_params": "抱歉，应用促销代码时出错。请稍后再试。",
+        "invalid_offer_price": "抱歉，无法完成您的购买。请稍后再试。",
+        "overlay_cancelled": "发生错误。请稍后再试。",
+        "overlay_invalid_configuration": "发生错误。请稍后再试。",
+        "overlay_timeout": "发生错误。请稍后再试。",
+        "ineligible_for_offer": "发生错误。请稍后再试。",
+        "unsupported_platform": "发生错误。请稍后再试。",
+        "overlay_presented_in_background_scene": "发生错误。请稍后再试。"
+      }
     },
     "feature": {
       "auto": {

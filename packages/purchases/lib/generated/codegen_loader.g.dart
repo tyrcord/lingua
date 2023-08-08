@@ -14,7 +14,30 @@ class PurchasesCodegenLoader extends AssetLoader {
   static const Map<String,dynamic> zh = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "不便之处，我们深感抱歉。商店当前不可用，因此您暂时无法进行购买。"
+      "cannot_connect_store": "不便之处，我们深感抱歉。商店当前不可用，因此您暂时无法进行购买。",
+      "purchase": {
+        "unknown": "抱歉，由于未知原因，购买不可用。请稍后再试。",
+        "client_invalid": "无法完成购买。请更换您的帐户或设备。",
+        "payment_cancelled": "购买已取消。",
+        "payment_invalid": "无法完成购买。请检查您的支付信息。",
+        "payment_not_allowed": "所选的支付方法不支持此购买。请确保您的支付方式允许在线购买。",
+        "store_product_not_available": "该产品在您所在的地区不可用。请更换商店后再试。",
+        "cloud_service_permission_denied": "购买被拒绝。请稍后再试。",
+        "cloud_service_network_connection_failed": "无法完成购买。请检查您的网络连接后再试。",
+        "cloud_service_revoked": "购买被拒绝。请稍后再试。",
+        "privacy_acknowledgement_required": "由于您没有接受AppStore的使用条款，购买无法完成。请在设置中确认您的同意，然后返回购买。",
+        "unauthorized_request_data": "发生错误。请稍后再试。",
+        "invalid_offer_identifier": "促销优惠无效或已过期。",
+        "invalid_signature": "抱歉，应用促销代码时出错。请稍后再试。",
+        "missing_offer_params": "抱歉，应用促销代码时出错。请稍后再试。",
+        "invalid_offer_price": "抱歉，无法完成您的购买。请稍后再试。",
+        "overlay_cancelled": "发生错误。请稍后再试。",
+        "overlay_invalid_configuration": "发生错误。请稍后再试。",
+        "overlay_timeout": "发生错误。请稍后再试。",
+        "ineligible_for_offer": "发生错误。请稍后再试。",
+        "unsupported_platform": "发生错误。请稍后再试。",
+        "overlay_presented_in_background_scene": "发生错误。请稍后再试。"
+      }
     },
     "feature": {
       "auto": {
@@ -61,7 +84,30 @@ class PurchasesCodegenLoader extends AssetLoader {
 static const Map<String,dynamic> ja = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "ご迷惑をおかけして申し訳ありません。現在、ストアは利用できませんので、この時点では購入をすることができません。"
+      "cannot_connect_store": "ご迷惑をおかけして申し訳ありません。現在、ストアは利用できませんので、この時点では購入をすることができません。",
+      "purchase": {
+        "unknown": "申し訳ございませんが、不明な理由で購入ができません。後ほど再試行してください。",
+        "client_invalid": "購入を完了することができません。アカウントまたはデバイスを変更してください。",
+        "payment_cancelled": "購入がキャンセルされました。",
+        "payment_invalid": "購入を完了することができません。お支払い情報を確認してください。",
+        "payment_not_allowed": "選択した支払い方法では購入できません。オンライン購入が可能な支払い方法をご確認ください。",
+        "store_product_not_available": "この商品はお住まいの地域では利用できません。ストアを変更して再試行してください。",
+        "cloud_service_permission_denied": "購入が拒否されました。後ほど再試行してください。",
+        "cloud_service_network_connection_failed": "購入を完了することができません。ネットワーク接続を確認して再試行してください。",
+        "cloud_service_revoked": "購入が拒否されました。後ほど再試行してください。",
+        "privacy_acknowledgement_required": "AppStoreの利用規約を受け入れていないため、購入を完了することができません。設定で同意を確認してから購入に戻ってください。",
+        "unauthorized_request_data": "エラーが発生しました。後ほど再試行してください。",
+        "invalid_offer_identifier": "プロモーションオファーは無効または期限切れです。",
+        "invalid_signature": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
+        "missing_offer_params": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
+        "invalid_offer_price": "申し訳ございませんが、購入を完了することができません。後ほど再試行してください。",
+        "overlay_cancelled": "エラーが発生しました。後ほど再試行してください。",
+        "overlay_invalid_configuration": "エラーが発生しました。後ほど再試行してください。",
+        "overlay_timeout": "エラーが発生しました。後ほど再試行してください。",
+        "ineligible_for_offer": "エラーが発生しました。後ほど再試行してください。",
+        "unsupported_platform": "エラーが発生しました。後ほど再試行してください。",
+        "overlay_presented_in_background_scene": "エラーが発生しました。後ほど再試行してください。"
+      }
     },
     "feature": {
       "auto": {
@@ -108,7 +154,30 @@ static const Map<String,dynamic> ja = {
 static const Map<String,dynamic> de = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Wir entschuldigen uns für die Unannehmlichkeiten. Der Store ist derzeit nicht verfügbar, und daher können Sie derzeit keine Käufe tätigen."
+      "cannot_connect_store": "Wir entschuldigen uns für die Unannehmlichkeiten. Der Store ist derzeit nicht verfügbar, und daher können Sie derzeit keine Käufe tätigen.",
+      "purchase": {
+        "unknown": "Entschuldigung, der Kauf ist aus unbekannten Gründen nicht verfügbar. Bitte versuchen Sie es später erneut.",
+        "client_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte wechseln Sie Ihr Konto oder Gerät.",
+        "payment_cancelled": "Der Kauf wurde abgebrochen.",
+        "payment_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Zahlungsinformationen.",
+        "payment_not_allowed": "Der Kauf ist für die gewählte Zahlungsmethode nicht verfügbar. Bitte stellen Sie sicher, dass Ihre Zahlungsmethode Online-Käufe zulässt.",
+        "store_product_not_available": "Dieses Produkt ist in Ihrer Region nicht verfügbar. Bitte wechseln Sie den Store und versuchen Sie es erneut.",
+        "cloud_service_permission_denied": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
+        "cloud_service_network_connection_failed": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.",
+        "cloud_service_revoked": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
+        "privacy_acknowledgement_required": "Der Kauf kann nicht abgeschlossen werden, da Sie die Nutzungsbedingungen des AppStores nicht akzeptiert haben. Bitte bestätigen Sie Ihre Zustimmung in den Einstellungen und kehren Sie dann zum Kauf zurück.",
+        "unauthorized_request_data": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "invalid_offer_identifier": "Das Werbeangebot ist ungültig oder abgelaufen.",
+        "invalid_signature": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+        "missing_offer_params": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+        "invalid_offer_price": "Entschuldigung, Ihr Kauf kann nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.",
+        "overlay_cancelled": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "overlay_invalid_configuration": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "overlay_timeout": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "ineligible_for_offer": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "unsupported_platform": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "overlay_presented_in_background_scene": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+      }
     },
     "feature": {
       "auto": {
@@ -155,7 +224,30 @@ static const Map<String,dynamic> de = {
 static const Map<String,dynamic> ru = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Приносим извинения за неудобства. Магазин временно недоступен, поэтому вы не сможете совершать покупки в данный момент."
+      "cannot_connect_store": "Приносим извинения за неудобства. Магазин временно недоступен, поэтому вы не сможете совершать покупки в данный момент.",
+      "purchase": {
+        "unknown": "Извините, покупка недоступна по неизвестной причине. Пожалуйста, попробуйте позже.",
+        "client_invalid": "Покупка не может быть завершена. Пожалуйста, смените аккаунт или устройство.",
+        "payment_cancelled": "Покупка была отменена.",
+        "payment_invalid": "Покупка не может быть завершена. Пожалуйста, проверьте свои платежные данные.",
+        "payment_not_allowed": "Покупка недоступна для выбранного способа оплаты. Убедитесь, что ваш способ оплаты разрешает онлайн-покупки.",
+        "store_product_not_available": "Этот продукт недоступен в вашем регионе. Пожалуйста, смените магазин и попробуйте снова.",
+        "cloud_service_permission_denied": "Покупка была отклонена. Пожалуйста, попробуйте позже.",
+        "cloud_service_network_connection_failed": "Покупка не может быть завершена. Пожалуйста, проверьте ваше интернет-соединение и попробуйте снова.",
+        "cloud_service_revoked": "Покупка была отклонена. Пожалуйста, попробуйте позже.",
+        "privacy_acknowledgement_required": "Покупка не может быть завершена, так как вы не приняли условия использования AppStore. Пожалуйста, подтвердите свое согласие в настройках и вернитесь к покупке.",
+        "unauthorized_request_data": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+        "invalid_offer_identifier": "Промо-предложение недействительно или истекло.",
+        "invalid_signature": "Извините, произошла ошибка при применении промокода. Пожалуйста, попробуйте позже.",
+        "missing_offer_params": "Извините, произошла ошибка при применении промокода. Пожалуйста, попробуйте позже.",
+        "invalid_offer_price": "Извините, ваша покупка не может быть завершена. Пожалуйста, попробуйте позже.",
+        "overlay_cancelled": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+        "overlay_invalid_configuration": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+        "overlay_timeout": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+        "ineligible_for_offer": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+        "unsupported_platform": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+        "overlay_presented_in_background_scene": "Произошла ошибка. Пожалуйста, попробуйте позже."
+      }
     },
     "feature": {
       "auto": {
@@ -202,7 +294,30 @@ static const Map<String,dynamic> ru = {
 static const Map<String,dynamic> pt = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Pedimos desculpas pelo inconveniente. A loja está indisponível no momento e, portanto, você não poderá fazer compras neste momento."
+      "cannot_connect_store": "Pedimos desculpas pelo inconveniente. A loja está indisponível no momento e, portanto, você não poderá fazer compras neste momento.",
+      "purchase": {
+        "unknown": "Desculpe, a compra não está disponível por uma razão desconhecida. Tente novamente mais tarde.",
+        "client_invalid": "A compra não pode ser concluída. Por favor, altere sua conta ou dispositivo.",
+        "payment_cancelled": "A compra foi cancelada.",
+        "payment_invalid": "A compra não pode ser concluída. Por favor, verifique suas informações de pagamento.",
+        "payment_not_allowed": "A compra não está disponível para o método de pagamento selecionado. Certifique-se de que seu método de pagamento permite compras online.",
+        "store_product_not_available": "Este produto não está disponível em sua região. Por favor, mude a loja e tente novamente.",
+        "cloud_service_permission_denied": "A compra foi recusada. Tente novamente mais tarde.",
+        "cloud_service_network_connection_failed": "A compra não pode ser concluída. Por favor, verifique sua conexão de rede e tente novamente.",
+        "cloud_service_revoked": "A compra foi recusada. Tente novamente mais tarde.",
+        "privacy_acknowledgement_required": "A compra não pode ser concluída porque você não aceitou os termos de uso da AppStore. Por favor, confirme seu consentimento nas configurações e retorne à compra.",
+        "unauthorized_request_data": "Ocorreu um erro. Por favor, tente novamente mais tarde.",
+        "invalid_offer_identifier": "A oferta promocional é inválida ou expirou.",
+        "invalid_signature": "Desculpe, ocorreu um erro ao aplicar o código promocional. Tente novamente mais tarde.",
+        "missing_offer_params": "Desculpe, ocorreu um erro ao aplicar o código promocional. Tente novamente mais tarde.",
+        "invalid_offer_price": "Desculpe, sua compra não pode ser concluída. Tente novamente mais tarde.",
+        "overlay_cancelled": "Ocorreu um erro. Tente novamente mais tarde.",
+        "overlay_invalid_configuration": "Ocorreu um erro. Tente novamente mais tarde.",
+        "overlay_timeout": "Ocorreu um erro. Tente novamente mais tarde.",
+        "ineligible_for_offer": "Ocorreu um erro. Tente novamente mais tarde.",
+        "unsupported_platform": "Ocorreu um erro. Tente novamente mais tarde.",
+        "overlay_presented_in_background_scene": "Ocorreu um erro. Tente novamente mais tarde."
+      }
     },
     "feature": {
       "auto": {
@@ -249,7 +364,30 @@ static const Map<String,dynamic> pt = {
 static const Map<String,dynamic> en = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "We apologize for the inconvenience. The store is currently unavailable, and as a result, you won't be able to make any purchases at this time."
+      "cannot_connect_store": "We apologize for the inconvenience. The store is currently unavailable, and as a result, you won't be able to make any purchases at this time.",
+      "purchase": {
+        "unknown": "Sorry, the purchase is unavailable for an unknown reason. Please try again later.",
+        "client_invalid": "The purchase cannot be completed. Please, change your account or device.",
+        "payment_cancelled": "The purchase has been cancelled.",
+        "payment_invalid": "The purchase cannot be completed. Please, check your payment information.",
+        "payment_not_allowed": "The purchase is not available for the selected payment method. Please, make sure your payment method allows you to make online purchases.",
+        "store_product_not_available": "This product is not available in your region. Please, change the store and try again.",
+        "cloud_service_permission_denied": "The purchase was declined. Please, try again later.",
+        "cloud_service_network_connection_failed": "The purchase cannot be completed. Please, check your network connection and try again.",
+        "cloud_service_revoked": "The purchase was declined. Please, try again later.",
+        "privacy_acknowledgement_required": "The purchase cannot be completed, because you have not accepted the terms of use of the AppStore. Please, confirm your consent in the settings and then return to the purchase.",
+        "unauthorized_request_data": "An error has occurred. Please, try again later.",
+        "invalid_offer_identifier": "The promotional offer is invalid or expired.",
+        "invalid_signature": "Sorry, an error has occurred when applying the promo code. Please, try again later.",
+        "missing_offer_params": "Sorry, an error has occurred when applying the promo code. Please, try again later.",
+        "invalid_offer_price": "Sorry, your purchase cannot be completed. Please, try again later.",
+        "overlay_cancelled": "An error has occurred. Please, try again later.",
+        "overlay_invalid_configuration": "An error has occurred. Please, try again later.",
+        "overlay_timeout": "An error has occurred. Please, try again later.",
+        "ineligible_for_offer": "An error has occurred. Please, try again later.",
+        "unsupported_platform": "An error has occurred. Please, try again later.",
+        "overlay_presented_in_background_scene": "An error has occurred. Please, try again later."
+      }
     },
     "feature": {
       "auto": {
@@ -296,7 +434,30 @@ static const Map<String,dynamic> en = {
 static const Map<String,dynamic> it = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Ci scusiamo per l'inconveniente. Il negozio non è al momento disponibile, pertanto non sarà possibile effettuare acquisti in questo momento."
+      "cannot_connect_store": "Ci scusiamo per l'inconveniente. Il negozio non è al momento disponibile, pertanto non sarà possibile effettuare acquisti in questo momento.",
+      "purchase": {
+        "unknown": "Mi dispiace, l'acquisto non è disponibile per un motivo sconosciuto. Riprova più tardi.",
+        "client_invalid": "L'acquisto non può essere completato. Per favore, cambia il tuo account o dispositivo.",
+        "payment_cancelled": "L'acquisto è stato annullato.",
+        "payment_invalid": "L'acquisto non può essere completato. Si prega di controllare le informazioni di pagamento.",
+        "payment_not_allowed": "L'acquisto non è disponibile per il metodo di pagamento selezionato. Assicurati che il tuo metodo di pagamento ti permetta di fare acquisti online.",
+        "store_product_not_available": "Questo prodotto non è disponibile nella tua regione. Per favore, cambia negozio e riprova.",
+        "cloud_service_permission_denied": "L'acquisto è stato rifiutato. Riprova più tardi.",
+        "cloud_service_network_connection_failed": "L'acquisto non può essere completato. Controlla la tua connessione di rete e riprova.",
+        "cloud_service_revoked": "L'acquisto è stato rifiutato. Riprova più tardi.",
+        "privacy_acknowledgement_required": "L'acquisto non può essere completato perché non hai accettato le condizioni d'uso dell'AppStore. Conferma il tuo consenso nelle impostazioni e poi torna all'acquisto.",
+        "unauthorized_request_data": "Si è verificato un errore. Riprova più tardi.",
+        "invalid_offer_identifier": "L'offerta promozionale è invalida o scaduta.",
+        "invalid_signature": "Mi dispiace, si è verificato un errore applicando il codice promozionale. Riprova più tardi.",
+        "missing_offer_params": "Mi dispiace, si è verificato un errore applicando il codice promozionale. Riprova più tardi.",
+        "invalid_offer_price": "Mi dispiace, il tuo acquisto non può essere completato. Riprova più tardi.",
+        "overlay_cancelled": "Si è verificato un errore. Riprova più tardi.",
+        "overlay_invalid_configuration": "Si è verificato un errore. Riprova più tardi.",
+        "overlay_timeout": "Si è verificato un errore. Riprova più tardi.",
+        "ineligible_for_offer": "Si è verificato un errore. Riprova più tardi.",
+        "unsupported_platform": "Si è verificato un errore. Riprova più tardi.",
+        "overlay_presented_in_background_scene": "Si è verificato un errore. Riprova più tardi."
+      }
     },
     "feature": {
       "auto": {
@@ -343,7 +504,30 @@ static const Map<String,dynamic> it = {
 static const Map<String,dynamic> fr = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Nous nous excusons pour la gêne occasionnée. La boutique est actuellement indisponible, vous ne pourrez donc pas effectuer d'achats pour le moment."
+      "cannot_connect_store": "Nous nous excusons pour la gêne occasionnée. La boutique est actuellement indisponible, vous ne pourrez donc pas effectuer d'achats pour le moment.",
+      "purchase": {
+        "unknown": "Désolé, l'achat est indisponible pour une raison inconnue. Veuillez réessayer plus tard.",
+        "client_invalid": "L'achat ne peut pas être finalisé. Veuillez, changer de compte ou d'appareil.",
+        "payment_cancelled": "L'achat a été annulé.",
+        "payment_invalid": "L'achat ne peut pas être finalisé. Veuillez vérifier vos informations de paiement.",
+        "payment_not_allowed": "L'achat n'est pas disponible pour le mode de paiement choisi. Assurez-vous que votre méthode de paiement vous permet de faire des achats en ligne.",
+        "store_product_not_available": "Ce produit n'est pas disponible dans votre région. Veuillez changer de magasin et réessayer.",
+        "cloud_service_permission_denied": "L'achat a été refusé. Veuillez réessayer plus tard.",
+        "cloud_service_network_connection_failed": "L'achat ne peut pas être finalisé. Veuillez vérifier votre connexion internet et réessayer.",
+        "cloud_service_revoked": "L'achat a été refusé. Veuillez réessayer plus tard.",
+        "privacy_acknowledgement_required": "L'achat ne peut pas être finalisé, car vous n'avez pas accepté les conditions d'utilisation de l'AppStore. Veuillez confirmer votre consentement dans les paramètres, puis revenir à l'achat.",
+        "unauthorized_request_data": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+        "invalid_offer_identifier": "L'offre promotionnelle est invalide ou expirée.",
+        "invalid_signature": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
+        "missing_offer_params": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
+        "invalid_offer_price": "Désolé, votre achat ne peut pas être finalisé. Veuillez réessayer plus tard.",
+        "overlay_cancelled": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+        "overlay_invalid_configuration": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+        "overlay_timeout": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+        "ineligible_for_offer": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+        "unsupported_platform": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+        "overlay_presented_in_background_scene": "Une erreur s'est produite. Veuillez réessayer plus tard."
+      }
     },
     "feature": {
       "auto": {
@@ -390,7 +574,30 @@ static const Map<String,dynamic> fr = {
 static const Map<String,dynamic> es = {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Lamentamos las molestias. La tienda no está disponible en este momento, por lo que no podrá realizar compras en este momento."
+      "cannot_connect_store": "Lamentamos las molestias. La tienda no está disponible en este momento, por lo que no podrá realizar compras en este momento.",
+      "purchase": {
+        "unknown": "Lo siento, la compra no está disponible por una razón desconocida. Intente de nuevo más tarde.",
+        "client_invalid": "La compra no puede completarse. Por favor, cambie su cuenta o dispositivo.",
+        "payment_cancelled": "La compra ha sido cancelada.",
+        "payment_invalid": "La compra no puede completarse. Por favor, verifique su información de pago.",
+        "payment_not_allowed": "La compra no está disponible para el método de pago seleccionado. Asegúrese de que su método de pago le permita hacer compras en línea.",
+        "store_product_not_available": "Este producto no está disponible en su región. Por favor, cambie la tienda e intente de nuevo.",
+        "cloud_service_permission_denied": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
+        "cloud_service_network_connection_failed": "La compra no puede completarse. Por favor, verifique su conexión de red e intente de nuevo.",
+        "cloud_service_revoked": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
+        "privacy_acknowledgement_required": "La compra no puede completarse porque no ha aceptado los términos de uso de la AppStore. Por favor, confirme su consentimiento en los ajustes y vuelva a la compra.",
+        "unauthorized_request_data": "Ha ocurrido un error. Por favor, intente de nuevo más tarde.",
+        "invalid_offer_identifier": "La oferta promocional es inválida o ha caducado.",
+        "invalid_signature": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
+        "missing_offer_params": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
+        "invalid_offer_price": "Lo siento, su compra no puede completarse. Intente de nuevo más tarde.",
+        "overlay_cancelled": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "overlay_invalid_configuration": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "overlay_timeout": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "ineligible_for_offer": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "unsupported_platform": "Ha ocurrido un error. Intente de nuevo más tarde.",
+        "overlay_presented_in_background_scene": "Ha ocurrido un error. Intente de nuevo más tarde."
+      }
     },
     "feature": {
       "auto": {

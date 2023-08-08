@@ -1,7 +1,30 @@
 {
   "purchases": {
     "error": {
-      "cannot_connect_store": "Wir entschuldigen uns für die Unannehmlichkeiten. Der Store ist derzeit nicht verfügbar, und daher können Sie derzeit keine Käufe tätigen."
+      "cannot_connect_store": "Wir entschuldigen uns für die Unannehmlichkeiten. Der Store ist derzeit nicht verfügbar, und daher können Sie derzeit keine Käufe tätigen.",
+      "purchase": {
+        "unknown": "Entschuldigung, der Kauf ist aus unbekannten Gründen nicht verfügbar. Bitte versuchen Sie es später erneut.",
+        "client_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte wechseln Sie Ihr Konto oder Gerät.",
+        "payment_cancelled": "Der Kauf wurde abgebrochen.",
+        "payment_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Zahlungsinformationen.",
+        "payment_not_allowed": "Der Kauf ist für die gewählte Zahlungsmethode nicht verfügbar. Bitte stellen Sie sicher, dass Ihre Zahlungsmethode Online-Käufe zulässt.",
+        "store_product_not_available": "Dieses Produkt ist in Ihrer Region nicht verfügbar. Bitte wechseln Sie den Store und versuchen Sie es erneut.",
+        "cloud_service_permission_denied": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
+        "cloud_service_network_connection_failed": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.",
+        "cloud_service_revoked": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
+        "privacy_acknowledgement_required": "Der Kauf kann nicht abgeschlossen werden, da Sie die Nutzungsbedingungen des AppStores nicht akzeptiert haben. Bitte bestätigen Sie Ihre Zustimmung in den Einstellungen und kehren Sie dann zum Kauf zurück.",
+        "unauthorized_request_data": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "invalid_offer_identifier": "Das Werbeangebot ist ungültig oder abgelaufen.",
+        "invalid_signature": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+        "missing_offer_params": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+        "invalid_offer_price": "Entschuldigung, Ihr Kauf kann nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.",
+        "overlay_cancelled": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "overlay_invalid_configuration": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "overlay_timeout": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "ineligible_for_offer": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "unsupported_platform": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+        "overlay_presented_in_background_scene": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+      }
     },
     "feature": {
       "auto": {
