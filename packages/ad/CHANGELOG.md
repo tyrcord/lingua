@@ -1,3 +1,7 @@
+## 0.0.6
+
+ - **FEAT**: update localization.
+
 ## 0.0.5
 
  - **FEAT**: update localization.
