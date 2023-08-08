@@ -2,29 +2,29 @@
   "purchases": {
     "error": {
       "cannot_connect_store": "Ci scusiamo per l'inconveniente. Il negozio non è al momento disponibile, pertanto non sarà possibile effettuare acquisti in questo momento.",
-      "purchase": {
-        "unknown": "Mi dispiace, l'acquisto non è disponibile per un motivo sconosciuto. Riprova più tardi.",
-        "client_invalid": "L'acquisto non può essere completato. Per favore, cambia il tuo account o dispositivo.",
-        "payment_cancelled": "L'acquisto è stato annullato.",
-        "payment_invalid": "L'acquisto non può essere completato. Si prega di controllare le informazioni di pagamento.",
-        "payment_not_allowed": "L'acquisto non è disponibile per il metodo di pagamento selezionato. Assicurati che il tuo metodo di pagamento ti permetta di fare acquisti online.",
-        "store_product_not_available": "Questo prodotto non è disponibile nella tua regione. Per favore, cambia negozio e riprova.",
-        "cloud_service_permission_denied": "L'acquisto è stato rifiutato. Riprova più tardi.",
-        "cloud_service_network_connection_failed": "L'acquisto non può essere completato. Controlla la tua connessione di rete e riprova.",
-        "cloud_service_revoked": "L'acquisto è stato rifiutato. Riprova più tardi.",
-        "privacy_acknowledgement_required": "L'acquisto non può essere completato perché non hai accettato le condizioni d'uso dell'AppStore. Conferma il tuo consenso nelle impostazioni e poi torna all'acquisto.",
-        "unauthorized_request_data": "Si è verificato un errore. Riprova più tardi.",
-        "invalid_offer_identifier": "L'offerta promozionale è invalida o scaduta.",
-        "invalid_signature": "Mi dispiace, si è verificato un errore applicando il codice promozionale. Riprova più tardi.",
-        "missing_offer_params": "Mi dispiace, si è verificato un errore applicando il codice promozionale. Riprova più tardi.",
-        "invalid_offer_price": "Mi dispiace, il tuo acquisto non può essere completato. Riprova più tardi.",
-        "overlay_cancelled": "Si è verificato un errore. Riprova più tardi.",
-        "overlay_invalid_configuration": "Si è verificato un errore. Riprova più tardi.",
-        "overlay_timeout": "Si è verificato un errore. Riprova più tardi.",
-        "ineligible_for_offer": "Si è verificato un errore. Riprova più tardi.",
-        "unsupported_platform": "Si è verificato un errore. Riprova più tardi.",
-        "overlay_presented_in_background_scene": "Si è verificato un errore. Riprova più tardi."
-      }
+      "unknown": "Mi dispiace, l'acquisto non è disponibile per un motivo sconosciuto. Riprova più tardi.",
+      "client_invalid": "L'acquisto non può essere completato. Per favore, cambia il tuo account o dispositivo.",
+      "payment_cancelled": "L'acquisto è stato annullato.",
+      "payment_invalid": "L'acquisto non può essere completato. Si prega di controllare le informazioni di pagamento.",
+      "payment_not_allowed": "L'acquisto non è disponibile per il metodo di pagamento selezionato. Assicurati che il tuo metodo di pagamento ti permetta di fare acquisti online.",
+      "store_product_not_available": "Questo prodotto non è disponibile nella tua regione. Per favore, cambia negozio e riprova.",
+      "cloud_service_permission_denied": "L'acquisto è stato rifiutato. Riprova più tardi.",
+      "cloud_service_network_connection_failed": "L'acquisto non può essere completato. Controlla la tua connessione di rete e riprova.",
+      "cloud_service_revoked": "L'acquisto è stato rifiutato. Riprova più tardi.",
+      "privacy_acknowledgement_required": "L'acquisto non può essere completato perché non hai accettato le condizioni d'uso dell'AppStore. Conferma il tuo consenso nelle impostazioni e poi torna all'acquisto.",
+      "unauthorized_request_data": "Si è verificato un errore. Riprova più tardi.",
+      "invalid_offer_identifier": "L'offerta promozionale è invalida o scaduta.",
+      "invalid_signature": "Mi dispiace, si è verificato un errore applicando il codice promozionale. Riprova più tardi.",
+      "missing_offer_params": "Mi dispiace, si è verificato un errore applicando il codice promozionale. Riprova più tardi.",
+      "invalid_offer_price": "Mi dispiace, il tuo acquisto non può essere completato. Riprova più tardi.",
+      "overlay_cancelled": "Si è verificato un errore. Riprova più tardi.",
+      "overlay_invalid_configuration": "Si è verificato un errore. Riprova più tardi.",
+      "overlay_timeout": "Si è verificato un errore. Riprova più tardi.",
+      "ineligible_for_offer": "Si è verificato un errore. Riprova più tardi.",
+      "unsupported_platform": "Si è verificato un errore. Riprova più tardi.",
+      "overlay_presented_in_background_scene": "Si è verificato un errore. Riprova più tardi.",
+      "already_owned": "Possiedi già questo elemento.",
+      "no_purchases_to_restore": "Nessun acquisto da ripristinare."
     },
     "feature": {
       "auto": {
@@ -51,9 +51,6 @@
     "message": {
       "enjoy_premium_version": "Sfrutta appieno il potenziale di questa applicazione con le sue funzionalità Premium, garantendo un'esperienza utente migliorata!",
       "go_premium_description": "Effettuando l'upgrade alla versione Premium, non solo supporti lo sviluppo in corso, ma ottieni anche accesso a funzionalità aggiuntive.",
-      "item": {
-        "already_owned": "Possiedi già questo elemento."
-      },
       "premium_version_restored": "Le tue funzionalità Premium sono state ripristinate correttamente.",
       "purchase": {
         "cancelled": "Acquisto annullato.",

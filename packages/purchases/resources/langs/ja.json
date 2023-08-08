@@ -23,7 +23,9 @@
         "overlay_timeout": "エラーが発生しました。後ほど再試行してください。",
         "ineligible_for_offer": "エラーが発生しました。後ほど再試行してください。",
         "unsupported_platform": "エラーが発生しました。後ほど再試行してください。",
-        "overlay_presented_in_background_scene": "エラーが発生しました。後ほど再試行してください。"
+        "overlay_presented_in_background_scene": "エラーが発生しました。後ほど再試行してください。",
+        "already_owned": "このアイテムは既に購入済みです。",
+        "no_purchases_to_restore": "復元する購入はありません。"
       }
     },
     "feature": {
@@ -51,9 +53,6 @@
     "message": {
       "enjoy_premium_version": "プレミアム機能を備えたこのアプリケーションのフルポテンシャルを引き出し、より充実したユーザーエクスペリエンスをお楽しみください！",
       "go_premium_description": "プレミアム版にアップグレードすることで、継続的な開発をサポートするだけでなく、追加の機能にアクセスすることもできます。",
-      "item": {
-        "already_owned": "このアイテムは既に購入済みです。"
-      },
       "premium_version_restored": "プレミアム機能が正常に復元されました。",
       "purchase": {
         "cancelled": "購入がキャンセルされました。",

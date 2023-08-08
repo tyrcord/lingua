@@ -2,29 +2,29 @@
   "purchases": {
     "error": {
       "cannot_connect_store": "We apologize for the inconvenience. The store is currently unavailable, and as a result, you won't be able to make any purchases at this time.",
-      "purchase": {
-        "unknown": "Sorry, the purchase is unavailable for an unknown reason. Please try again later.",
-        "client_invalid": "The purchase cannot be completed. Please, change your account or device.",
-        "payment_cancelled": "The purchase has been cancelled.",
-        "payment_invalid": "The purchase cannot be completed. Please, check your payment information.",
-        "payment_not_allowed": "The purchase is not available for the selected payment method. Please, make sure your payment method allows you to make online purchases.",
-        "store_product_not_available": "This product is not available in your region. Please, change the store and try again.",
-        "cloud_service_permission_denied": "The purchase was declined. Please, try again later.",
-        "cloud_service_network_connection_failed": "The purchase cannot be completed. Please, check your network connection and try again.",
-        "cloud_service_revoked": "The purchase was declined. Please, try again later.",
-        "privacy_acknowledgement_required": "The purchase cannot be completed, because you have not accepted the terms of use of the AppStore. Please, confirm your consent in the settings and then return to the purchase.",
-        "unauthorized_request_data": "An error has occurred. Please, try again later.",
-        "invalid_offer_identifier": "The promotional offer is invalid or expired.",
-        "invalid_signature": "Sorry, an error has occurred when applying the promo code. Please, try again later.",
-        "missing_offer_params": "Sorry, an error has occurred when applying the promo code. Please, try again later.",
-        "invalid_offer_price": "Sorry, your purchase cannot be completed. Please, try again later.",
-        "overlay_cancelled": "An error has occurred. Please, try again later.",
-        "overlay_invalid_configuration": "An error has occurred. Please, try again later.",
-        "overlay_timeout": "An error has occurred. Please, try again later.",
-        "ineligible_for_offer": "An error has occurred. Please, try again later.",
-        "unsupported_platform": "An error has occurred. Please, try again later.",
-        "overlay_presented_in_background_scene": "An error has occurred. Please, try again later."
-      }
+      "unknown": "Sorry, the purchase is unavailable for an unknown reason. Please try again later.",
+      "client_invalid": "The purchase cannot be completed. Please, change your account or device.",
+      "payment_cancelled": "The purchase has been cancelled.",
+      "payment_invalid": "The purchase cannot be completed. Please, check your payment information.",
+      "payment_not_allowed": "The purchase is not available for the selected payment method. Please, make sure your payment method allows you to make online purchases.",
+      "store_product_not_available": "This product is not available in your region. Please, change the store and try again.",
+      "cloud_service_permission_denied": "The purchase was declined. Please, try again later.",
+      "cloud_service_network_connection_failed": "The purchase cannot be completed. Please, check your network connection and try again.",
+      "cloud_service_revoked": "The purchase was declined. Please, try again later.",
+      "privacy_acknowledgement_required": "The purchase cannot be completed, because you have not accepted the terms of use of the AppStore. Please, confirm your consent in the settings and then return to the purchase.",
+      "unauthorized_request_data": "An error has occurred. Please, try again later.",
+      "invalid_offer_identifier": "The promotional offer is invalid or expired.",
+      "invalid_signature": "Sorry, an error has occurred when applying the promo code. Please, try again later.",
+      "missing_offer_params": "Sorry, an error has occurred when applying the promo code. Please, try again later.",
+      "invalid_offer_price": "Sorry, your purchase cannot be completed. Please, try again later.",
+      "overlay_cancelled": "An error has occurred. Please, try again later.",
+      "overlay_invalid_configuration": "An error has occurred. Please, try again later.",
+      "overlay_timeout": "An error has occurred. Please, try again later.",
+      "ineligible_for_offer": "An error has occurred. Please, try again later.",
+      "unsupported_platform": "An error has occurred. Please, try again later.",
+      "overlay_presented_in_background_scene": "An error has occurred. Please, try again later.",
+      "already_purchased": "You already own this item.",
+      "no_purchases_to_restore": "No purchases to restore."
     },
     "feature": {
       "auto": {
@@ -51,9 +51,6 @@
     "message": {
       "enjoy_premium_version": "Unleash the full potential of this application with its Premium features, ensuring an enhanced user experience!",
       "go_premium_description": "By upgrading to the premium version, you not only support ongoing development but also gain access to additional features.",
-      "item": {
-        "already_owned": "You already own this item."
-      },
       "premium_version_restored": "Your premium features have been successfully reinstated.",
       "purchase": {
         "cancelled": "Purchase cancelled.",
