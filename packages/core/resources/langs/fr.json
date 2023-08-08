@@ -241,15 +241,15 @@
         "completed": "Action terminée."
       },
       "bugs_fixes_improvements": "Correction de bugs mineurs et améliorations.",
-      "congratulations": "Félicitations !",
-      "copied": "Copié !",
-      "copied_to_clipboard": "Copié dans le presse-papiers !",
-      "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
+      "congratulations": "Félicitations !",
+      "copied": "Copié !",
+      "copied_to_clipboard": "Copié dans le presse-papiers !",
+      "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
       "dark_mode_support": "Prise en charge du mode sombre.",
-      "finally": "Enfin !",
-      "have_wonderful_day": "Passez une merveilleuse journée !",
+      "finally": "Enfin !",
+      "have_wonderful_day": "Passez une merveilleuse journée !",
       "last_updated_on": "Dernière mise à jour le {date}",
-      "let_get_started": "Commençons !",
+      "let_get_started": "Commençons !",
       "loading": "Chargement...",
       "modern_design": "Design moderne.",
       "no_favorites": "Aucun favori.",
@@ -257,18 +257,18 @@
       "saving": "Enregistrement en cours...",
       "search": "Rechercher...",
       "share": {
-        "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
+        "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
       },
       "sorry": "Désolé...",
-      "success": "Succès !",
-      "thank_you": "Merci !",
-      "warning": "Attention !",
-      "welcome": "Bienvenue !",
-      "whats_new": "Quoi de neuf ?",
-      "whoops": "Oups !"
+      "success": "Succès !",
+      "thank_you": "Merci !",
+      "warning": "Attention !",
+      "welcome": "Bienvenue !",
+      "whats_new": "Quoi de neuf ?",
+      "whoops": "Oups !"
     },
     "question": {
-      "are_you_sure": "Êtes-vous sûr(e) ?"
+      "are_you_sure": "Êtes-vous sûr(e) ?"
     },
     "select": {
       "frequency": "Sélectionnez une fréquence",

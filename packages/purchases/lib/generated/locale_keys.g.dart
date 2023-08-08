@@ -1,30 +1,30 @@
 // ignore_for_file: constant_identifier_names
 
 abstract class PurchasesLocaleKeys {
+  static const purchases_error_already_owned = 'purchases.error.already_owned';
   static const purchases_error_cannot_connect_store = 'purchases.error.cannot_connect_store';
-  static const purchases_error_unknown = 'purchases.error.unknown';
   static const purchases_error_client_invalid = 'purchases.error.client_invalid';
+  static const purchases_error_cloud_service_network_connection_failed = 'purchases.error.cloud_service_network_connection_failed';
+  static const purchases_error_cloud_service_permission_denied = 'purchases.error.cloud_service_permission_denied';
+  static const purchases_error_cloud_service_revoked = 'purchases.error.cloud_service_revoked';
+  static const purchases_error_ineligible_for_offer = 'purchases.error.ineligible_for_offer';
+  static const purchases_error_invalid_offer_identifier = 'purchases.error.invalid_offer_identifier';
+  static const purchases_error_invalid_offer_price = 'purchases.error.invalid_offer_price';
+  static const purchases_error_invalid_signature = 'purchases.error.invalid_signature';
+  static const purchases_error_missing_offer_params = 'purchases.error.missing_offer_params';
+  static const purchases_error_no_purchases_to_restore = 'purchases.error.no_purchases_to_restore';
+  static const purchases_error_overlay_cancelled = 'purchases.error.overlay_cancelled';
+  static const purchases_error_overlay_invalid_configuration = 'purchases.error.overlay_invalid_configuration';
+  static const purchases_error_overlay_presented_in_background_scene = 'purchases.error.overlay_presented_in_background_scene';
+  static const purchases_error_overlay_timeout = 'purchases.error.overlay_timeout';
   static const purchases_error_payment_cancelled = 'purchases.error.payment_cancelled';
   static const purchases_error_payment_invalid = 'purchases.error.payment_invalid';
   static const purchases_error_payment_not_allowed = 'purchases.error.payment_not_allowed';
-  static const purchases_error_store_product_not_available = 'purchases.error.store_product_not_available';
-  static const purchases_error_cloud_service_permission_denied = 'purchases.error.cloud_service_permission_denied';
-  static const purchases_error_cloud_service_network_connection_failed = 'purchases.error.cloud_service_network_connection_failed';
-  static const purchases_error_cloud_service_revoked = 'purchases.error.cloud_service_revoked';
   static const purchases_error_privacy_acknowledgement_required = 'purchases.error.privacy_acknowledgement_required';
+  static const purchases_error_store_product_not_available = 'purchases.error.store_product_not_available';
   static const purchases_error_unauthorized_request_data = 'purchases.error.unauthorized_request_data';
-  static const purchases_error_invalid_offer_identifier = 'purchases.error.invalid_offer_identifier';
-  static const purchases_error_invalid_signature = 'purchases.error.invalid_signature';
-  static const purchases_error_missing_offer_params = 'purchases.error.missing_offer_params';
-  static const purchases_error_invalid_offer_price = 'purchases.error.invalid_offer_price';
-  static const purchases_error_overlay_cancelled = 'purchases.error.overlay_cancelled';
-  static const purchases_error_overlay_invalid_configuration = 'purchases.error.overlay_invalid_configuration';
-  static const purchases_error_overlay_timeout = 'purchases.error.overlay_timeout';
-  static const purchases_error_ineligible_for_offer = 'purchases.error.ineligible_for_offer';
+  static const purchases_error_unknown = 'purchases.error.unknown';
   static const purchases_error_unsupported_platform = 'purchases.error.unsupported_platform';
-  static const purchases_error_overlay_presented_in_background_scene = 'purchases.error.overlay_presented_in_background_scene';
-  static const purchases_error_already_owned = 'purchases.error.already_owned';
-  static const purchases_error_no_purchases_to_restore = 'purchases.error.no_purchases_to_restore';
   static const purchases_error = 'purchases.error';
   static const purchases_feature_auto_refresh_exchange_rates = 'purchases.feature.auto.refresh_exchange_rates';
   static const purchases_feature_auto_refresh_stock_prices = 'purchases.feature.auto.refresh_stock_prices';

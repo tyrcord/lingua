@@ -142,7 +142,7 @@ static const Map<String,dynamic> fr = {
       "sponsored": "Sponsorisé"
     },
     "message": {
-      "discover_other_app": "Découvrez nos autres applications gratuites !",
+      "discover_other_app": "Découvrez nos autres applications gratuites !",
       "no_ads": "Pas de publicité"
     }
   }

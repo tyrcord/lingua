@@ -462,11 +462,11 @@ static const Map<String,dynamic> fr = {
       "user_input": "Entrée utilisateur",
       "user_inputs": "Entrées utilisateur",
       "user_settings": "Paramètres utilisateur",
-      "version": "Version : {version}"
+      "version": "Version : {version}"
     },
     "message": {
-      "last_modified": "Dernière modification : {date}",
-      "thanks_support": "Merci pour votre soutien !"
+      "last_modified": "Dernière modification : {date}",
+      "thanks_support": "Merci pour votre soutien !"
     },
     "note": {
       "appearance": "Personnalisez votre expérience en sélectionnant un thème qui correspond à votre style.",
@@ -475,8 +475,8 @@ static const Map<String,dynamic> fr = {
       "settings": "Améliorez votre expérience d'application en ajustant vos préférences."
     },
     "question": {
-      "do_you_enjoy_our_app": "Si vous trouvez notre application utile, seriez-vous prêt à prendre quelques instants pour la noter ?",
-      "do_you_like_our_app": "Appréciez-vous notre application ?"
+      "do_you_enjoy_our_app": "Si vous trouvez notre application utile, seriez-vous prêt à prendre quelques instants pour la noter ?",
+      "do_you_like_our_app": "Appréciez-vous notre application ?"
     },
     "select": {
       "language": "Sélectionnez la langue que vous souhaitez utiliser."

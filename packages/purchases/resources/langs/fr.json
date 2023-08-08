@@ -1,30 +1,30 @@
 {
   "purchases": {
     "error": {
+      "already_owned": "Vous possédez déjà cet élément.",
       "cannot_connect_store": "Nous nous excusons pour la gêne occasionnée. La boutique est actuellement indisponible, vous ne pourrez donc pas effectuer d'achats pour le moment.",
-      "unknown": "Désolé, l'achat est indisponible pour une raison inconnue. Veuillez réessayer plus tard.",
       "client_invalid": "L'achat ne peut pas être finalisé. Veuillez, changer de compte ou d'appareil.",
+      "cloud_service_network_connection_failed": "L'achat ne peut pas être finalisé. Veuillez vérifier votre connexion internet et réessayer.",
+      "cloud_service_permission_denied": "L'achat a été refusé. Veuillez réessayer plus tard.",
+      "cloud_service_revoked": "L'achat a été refusé. Veuillez réessayer plus tard.",
+      "ineligible_for_offer": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "invalid_offer_identifier": "L'offre promotionnelle est invalide ou expirée.",
+      "invalid_offer_price": "Désolé, votre achat ne peut pas être finalisé. Veuillez réessayer plus tard.",
+      "invalid_signature": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
+      "missing_offer_params": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
+      "no_purchases_to_restore": "Aucun achat à restaurer.",
+      "overlay_cancelled": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "overlay_invalid_configuration": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "overlay_presented_in_background_scene": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "overlay_timeout": "Une erreur s'est produite. Veuillez réessayer plus tard.",
       "payment_cancelled": "L'achat a été annulé.",
       "payment_invalid": "L'achat ne peut pas être finalisé. Veuillez vérifier vos informations de paiement.",
       "payment_not_allowed": "L'achat n'est pas disponible pour le mode de paiement choisi. Assurez-vous que votre méthode de paiement vous permet de faire des achats en ligne.",
-      "store_product_not_available": "Ce produit n'est pas disponible dans votre région. Veuillez changer de magasin et réessayer.",
-      "cloud_service_permission_denied": "L'achat a été refusé. Veuillez réessayer plus tard.",
-      "cloud_service_network_connection_failed": "L'achat ne peut pas être finalisé. Veuillez vérifier votre connexion internet et réessayer.",
-      "cloud_service_revoked": "L'achat a été refusé. Veuillez réessayer plus tard.",
       "privacy_acknowledgement_required": "L'achat ne peut pas être finalisé, car vous n'avez pas accepté les conditions d'utilisation de l'AppStore. Veuillez confirmer votre consentement dans les paramètres, puis revenir à l'achat.",
+      "store_product_not_available": "Ce produit n'est pas disponible dans votre région. Veuillez changer de magasin et réessayer.",
       "unauthorized_request_data": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "invalid_offer_identifier": "L'offre promotionnelle est invalide ou expirée.",
-      "invalid_signature": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
-      "missing_offer_params": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
-      "invalid_offer_price": "Désolé, votre achat ne peut pas être finalisé. Veuillez réessayer plus tard.",
-      "overlay_cancelled": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "overlay_invalid_configuration": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "overlay_timeout": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "ineligible_for_offer": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "unsupported_platform": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "overlay_presented_in_background_scene": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "already_owned": "Vous possédez déjà cet élément.",
-      "no_purchases_to_restore": "Aucun achat à restaurer."
+      "unknown": "Désolé, l'achat est indisponible pour une raison inconnue. Veuillez réessayer plus tard.",
+      "unsupported_platform": "Une erreur s'est produite. Veuillez réessayer plus tard."
     },
     "feature": {
       "auto": {
@@ -41,7 +41,7 @@
     "label": {
       "available_products": "Produits disponibles",
       "free_version": "Version gratuite",
-      "go_premium": "Passez à la version Premium !",
+      "go_premium": "Passez à la version Premium !",
       "premium": "Premium",
       "premium_price": "{price} Premium",
       "premium_version": "Version Premium",
@@ -49,7 +49,7 @@
       "restore_purchases": "Restaurer les achats"
     },
     "message": {
-      "enjoy_premium_version": "Libérez tout le potentiel de cette application avec ses fonctionnalités Premium, garantissant une expérience utilisateur améliorée !",
+      "enjoy_premium_version": "Libérez tout le potentiel de cette application avec ses fonctionnalités Premium, garantissant une expérience utilisateur améliorée !",
       "go_premium_description": "En passant à la version Premium, vous soutenez non seulement le développement continu, mais vous accédez également à des fonctionnalités supplémentaires.",
       "premium_version_restored": "Vos fonctionnalités Premium ont été restaurées avec succès.",
       "purchase": {
@@ -58,7 +58,7 @@
         "pending": "Achat en attente.",
         "successful": "Achat réussi."
       },
-      "purchased_items": "Liste des articles achetés :",
+      "purchased_items": "Liste des articles achetés :",
       "purchases_restored": "Achats restaurés.",
       "thanks_purchase": "Merci pour votre achat.",
       "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."

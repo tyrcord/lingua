@@ -3,45 +3,45 @@
     "div_qal": {
       "intro": {
         "description": "Cette application est conçue pour vous aider à choisir des actions à dividendes.",
-        "title": "Débloquez le potentiel de vos finances et voyez votre richesse s'épanouir !"
+        "title": "Débloquez le potentiel de vos finances et voyez votre richesse s'épanouir !"
       }
     },
     "expressions_quebecoises": {
       "intro": {
-        "description": "Découvrez plus de 500 expressions uniques québécoises qui vous attendent !",
-        "title": "Lançons-nous dans un voyage d'apprentissage !"
+        "description": "Découvrez plus de 500 expressions uniques québécoises qui vous attendent !",
+        "title": "Lançons-nous dans un voyage d'apprentissage !"
       }
     },
     "fx_pos_qal": {
       "intro": {
         "description": "Cette application vous suggérera un montant optimal à investir afin de maximiser vos gains et minimiser vos pertes.",
-        "title": "Concentrons-nous sur la gestion des risques plutôt que d'encourir des pertes !"
+        "title": "Concentrons-nous sur la gestion des risques plutôt que d'encourir des pertes !"
       },
       "promo": {
         "comply_risk_management": "Respectez facilement votre gestion des risques",
-        "short": "Déterminer la taille de vos positions n'a jamais été aussi facile !"
+        "short": "Déterminer la taille de vos positions n'a jamais été aussi facile !"
       },
       "store": {
-        "description": "Le succès de vos futures transactions dépendra largement de votre capacité à gérer efficacement le risque. En effet, il est essentiel de ne pas risquer l'ensemble de votre capital sur une seule transaction. Pour cela, il est important de calculer la taille de votre position avant chaque transaction. Pour vous aider à ne pas relâcher votre vigilance dans la gestion des risques, notre calculatrice est là pour vous accompagner ! Il vous suffit de remplir les champs de notre outil et il vous suggérera un montant optimal à investir afin de maximiser vos gains et minimiser vos pertes.",
-        "promo": "Vous ne voulez pas perdre l'ensemble de votre capital sur une seule transaction !"
+        "description": "Le succès de vos futures transactions dépendra largement de votre capacité à gérer efficacement le risque. En effet, il est essentiel de ne pas risquer l'ensemble de votre capital sur une seule transaction. Pour cela, il est important de calculer la taille de votre position avant chaque transaction. Pour vous aider à ne pas relâcher votre vigilance dans la gestion des risques, notre calculatrice est là pour vous accompagner ! Il vous suffit de remplir les champs de notre outil et il vous suggérera un montant optimal à investir afin de maximiser vos gains et minimiser vos pertes.",
+        "promo": "Vous ne voulez pas perdre l'ensemble de votre capital sur une seule transaction !"
       }
     },
     "fx_qal": {
       "intro": {
         "description": "Cette application vous permet de renforcer votre gestion des risques et vos prises de décision grâce à une gamme complète d'outils simples et percutants.",
-        "title": "Concentrons-nous sur la gestion des risques plutôt que d'encourir des pertes !"
+        "title": "Concentrons-nous sur la gestion des risques plutôt que d'encourir des pertes !"
       }
     },
     "pip_qal": {
       "intro": {
         "description": "Cette application est conçue pour vous aider à déterminer la valeur d'un pip pour chacune de vos transactions.",
-        "title": "Concentrons-nous sur la gestion des risques plutôt que d'encourir des pertes !"
+        "title": "Concentrons-nous sur la gestion des risques plutôt que d'encourir des pertes !"
       }
     },
     "profit_and_loss_qal": {
       "intro": {
         "description": "Notre application vous permet de déterminer rapidement si vos revenus sont suffisants pour couvrir vos dépenses.",
-        "title": "Concentrons-nous sur la minimisation des pertes et la maximisation des gains pour des résultats optimaux !"
+        "title": "Concentrons-nous sur la minimisation des pertes et la maximisation des gains pour des résultats optimaux !"
       }
     }
   }
