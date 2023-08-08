@@ -1,3 +1,7 @@
+## 0.0.9
+
+ - **FEAT**: update purchases.
+
 ## 0.0.8
 
  - **FEAT**: update localization.

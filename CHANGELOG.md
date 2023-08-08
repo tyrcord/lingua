@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_purchases` - `v0.0.9`](#lingua_purchases---v009)
+
+---
+
+#### `lingua_purchases` - `v0.0.9`
+
+ - **FEAT**: update purchases.
+
+
+## 2023-08-08
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_ad` - `v0.0.6`](#lingua_ad---v006)
  - [`lingua_apps` - `v0.0.6`](#lingua_apps---v006)
  - [`lingua_core` - `v0.0.15`](#lingua_core---v0015)
