@@ -23,6 +23,11 @@
       "description": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
       "notes": "Veuillez noter que vous avez la possibilité de changer de devise à tout moment dans les paramètres.",
       "title": "Devise"
+    },
+    "welcome_finance_traders": {
+      "description": "Optimisez votre stratégie de trading à l'aide de nos outils sophistiqués de gestion des risques pour des résultats optimaux.",
+      "notes": "Prenez le contrôle et tradez en toute sérénité.",
+      "title": "Bienvenue, Traders"
     }
   }
 }

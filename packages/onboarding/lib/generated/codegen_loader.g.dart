@@ -36,6 +36,11 @@ class OnboardingCodegenLoader extends AssetLoader {
       "description": "选择您偏好的货币以在本地货币中显示价格。",
       "notes": "请注意，您随时可以在设置中更改您的货币。",
       "title": "货币"
+    },
+    "welcome_finance_traders": {
+      "description": "利用我们精密的风险管理工具，优化您的交易策略，实现最佳效果。",
+      "notes": "掌控局面，放心交易。",
+      "title": "欢迎，交易者"
     }
   }
 };
@@ -64,6 +69,11 @@ static const Map<String,dynamic> ja = {
       "description": "価格を現地通貨で表示するために、お好みの通貨を選択してください。",
       "notes": "設定でいつでも通貨を変更することができることにご注意ください。",
       "title": "通貨"
+    },
+    "welcome_finance_traders": {
+      "description": "最適な結果を得るため、洗練されたリスク管理ツールを使用してトレーディング戦略を向上させます。",
+      "notes": "コントロールを取り、安心してトレードを行いましょう。",
+      "title": "ようこそ、トレーダーの皆様"
     }
   }
 };
@@ -92,6 +102,11 @@ static const Map<String,dynamic> de = {
       "description": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
       "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihre Währung jederzeit in den Einstellungen zu ändern.",
       "title": "Währung"
+    },
+    "welcome_finance_traders": {
+      "description": "Optimieren Sie Ihre Handelsstrategie mit unseren anspruchsvollen Risikomanagement-Tools für optimale Ergebnisse.",
+      "notes": "Übernehmen Sie die Kontrolle und handeln Sie mit einem beruhigten Gemüt.",
+      "title": "Willkommen, Händler"
     }
   }
 };
@@ -120,6 +135,11 @@ static const Map<String,dynamic> ru = {
       "description": "Выберите предпочитаемую валюту для отображения цен в вашей местной валюте.",
       "notes": "Обратите внимание, что у вас есть возможность изменить валюту в любое время в настройках.",
       "title": "Валюта"
+    },
+    "welcome_finance_traders": {
+      "description": "Улучшите свою торговую стратегию, используя наши сложные инструменты управления рисками для оптимальных результатов.",
+      "notes": "Возьмите контроль и торгуйте с уверенностью.",
+      "title": "Добро пожаловать, Трейдеры"
     }
   }
 };
@@ -148,6 +168,11 @@ static const Map<String,dynamic> pt = {
       "description": "Selecione a moeda de sua preferência para exibir os preços em sua moeda local.",
       "notes": "Observe que você tem a opção de alterar sua moeda a qualquer momento nas configurações.",
       "title": "Moeda"
+    },
+    "welcome_finance_traders": {
+      "description": "Aprimore sua estratégia de negociação usando nossas sofisticadas ferramentas de gerenciamento de riscos para resultados ótimos.",
+      "notes": "Assuma o controle e negocie com tranquilidade.",
+      "title": "Bem-vindos, Traders"
     }
   }
 };
@@ -176,6 +201,11 @@ static const Map<String,dynamic> en = {
       "description": "Select your preferred currency to display prices in your local currency.",
       "notes": "Please note that you have the option to change your currency at any time in the settings.",
       "title": "Currency"
+    },
+    "welcome_finance_traders": {
+      "description": "Enhance your trading strategy using our sophisticated risk management tools for optimal results.",
+      "notes": "Take control and trade with peace of mind.",
+      "title": "Welcome, Traders"
     }
   }
 };
@@ -204,6 +234,11 @@ static const Map<String,dynamic> it = {
       "description": "Seleziona la tua valuta preferita per visualizzare i prezzi nella tua valuta locale.",
       "notes": "Tieni presente che hai la possibilità di cambiare la tua valuta in qualsiasi momento nelle impostazioni.",
       "title": "Valuta"
+    },
+    "welcome_finance_traders": {
+      "description": "Migliora la tua strategia di trading utilizzando i nostri sofisticati strumenti di gestione del rischio per risultati ottimali.",
+      "notes": "Prendi il controllo e fai trading con tranquillità.",
+      "title": "Benvenuti, Traders"
     }
   }
 };
@@ -232,6 +267,11 @@ static const Map<String,dynamic> fr = {
       "description": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
       "notes": "Veuillez noter que vous avez la possibilité de changer de devise à tout moment dans les paramètres.",
       "title": "Devise"
+    },
+    "welcome_finance_traders": {
+      "description": "Optimisez votre stratégie de trading à l'aide de nos outils sophistiqués de gestion des risques pour des résultats optimaux.",
+      "notes": "Prenez le contrôle et tradez en toute sérénité.",
+      "title": "Bienvenue, Traders"
     }
   }
 };
@@ -260,6 +300,11 @@ static const Map<String,dynamic> es = {
       "description": "Seleccione su moneda preferida para mostrar los precios en su moneda local.",
       "notes": "Tenga en cuenta que tiene la opción de cambiar su moneda en cualquier momento en la configuración.",
       "title": "Moneda"
+    },
+    "welcome_finance_traders": {
+      "description": "Mejora tu estrategia de trading utilizando nuestras sofisticadas herramientas de gestión de riesgos para resultados óptimos.",
+      "notes": "Toma el control y opera con tranquilidad.",
+      "title": "¡Bienvenidos, Traders!"
     }
   }
 };

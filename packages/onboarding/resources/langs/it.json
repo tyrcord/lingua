@@ -23,6 +23,11 @@
       "description": "Seleziona la tua valuta preferita per visualizzare i prezzi nella tua valuta locale.",
       "notes": "Tieni presente che hai la possibilità di cambiare la tua valuta in qualsiasi momento nelle impostazioni.",
       "title": "Valuta"
+    },
+    "welcome_finance_traders": {
+      "description": "Migliora la tua strategia di trading utilizzando i nostri sofisticati strumenti di gestione del rischio per risultati ottimali.",
+      "notes": "Prendi il controllo e fai trading con tranquillità.",
+      "title": "Benvenuti, Traders"
     }
   }
 }

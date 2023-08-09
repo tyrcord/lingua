@@ -23,6 +23,11 @@
       "description": "Select your preferred currency to display prices in your local currency.",
       "notes": "Please note that you have the option to change your currency at any time in the settings.",
       "title": "Currency"
+    },
+    "welcome_finance_traders": {
+      "description": "Enhance your trading strategy using our sophisticated risk management tools for optimal results.",
+      "notes": "Take control and trade with peace of mind.",
+      "title": "Welcome, Traders"
     }
   }
 }

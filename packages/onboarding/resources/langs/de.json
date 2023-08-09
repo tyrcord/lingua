@@ -23,6 +23,11 @@
       "description": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
       "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihre Währung jederzeit in den Einstellungen zu ändern.",
       "title": "Währung"
+    },
+    "welcome_finance_traders": {
+      "description": "Optimieren Sie Ihre Handelsstrategie mit unseren anspruchsvollen Risikomanagement-Tools für optimale Ergebnisse.",
+      "notes": "Übernehmen Sie die Kontrolle und handeln Sie mit einem beruhigten Gemüt.",
+      "title": "Willkommen, Händler"
     }
   }
 }

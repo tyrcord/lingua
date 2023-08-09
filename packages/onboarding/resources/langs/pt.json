@@ -23,6 +23,11 @@
       "description": "Selecione a moeda de sua preferência para exibir os preços em sua moeda local.",
       "notes": "Observe que você tem a opção de alterar sua moeda a qualquer momento nas configurações.",
       "title": "Moeda"
+    },
+    "welcome_finance_traders": {
+      "description": "Aprimore sua estratégia de negociação usando nossas sofisticadas ferramentas de gerenciamento de riscos para resultados ótimos.",
+      "notes": "Assuma o controle e negocie com tranquilidade.",
+      "title": "Bem-vindos, Traders"
     }
   }
 }

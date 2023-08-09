@@ -21,6 +21,10 @@ abstract class OnboardingLocaleKeys {
   static const onboarding_user_currency_notes = 'onboarding.user_currency.notes';
   static const onboarding_user_currency_title = 'onboarding.user_currency.title';
   static const onboarding_user_currency = 'onboarding.user_currency';
+  static const onboarding_welcome_finance_traders_description = 'onboarding.welcome_finance_traders.description';
+  static const onboarding_welcome_finance_traders_notes = 'onboarding.welcome_finance_traders.notes';
+  static const onboarding_welcome_finance_traders_title = 'onboarding.welcome_finance_traders.title';
+  static const onboarding_welcome_finance_traders = 'onboarding.welcome_finance_traders';
   static const onboarding = 'onboarding';
 
 }
