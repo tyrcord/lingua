@@ -7,11 +7,22 @@
       "ad": "広告",
       "advertisement": "広告",
       "personalized_ads": "パーソナライズ広告",
-      "sponsored": "スポンサー"
+      "sponsored": "スポンサー",
+      "no_ads_available": "利用できる広告はありません",
+      "watch_ad": "広告を見る"
     },
     "message": {
-      "discover_other_app": "他の無料アプリをご覧ください！",
-      "no_ads": "広告なし"
+      "discover_other_app": "私たちの他の無料アプリをご覧ください！",
+      "no_ads_available": "現在、広告は利用できません。後で再度確認してください。",
+      "watch_ad": {
+        "unlock_pdf": "短い広告を見ると、データをPDFとしてエクスポートする機能をアンロックできます！"
+      },
+      "enjoy_your_reward": "ご褒美をお楽しみください！"
+    },
+    "error": {
+      "no_ads_available": "現在、広告は利用できません。後で再度確認してください。",
+      "failed_to_load_ad": "広告をロードできませんでした。後で再度お試しください。",
+      "dimissed_ad": "広告を早めに閉じたため、報酬を受け取ることはできません。後でもう一度お試しください。"
     }
   }
 }

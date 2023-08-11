@@ -61,7 +61,9 @@
       "purchased_items": "Elenco degli articoli acquistati:",
       "purchases_restored": "Acquisti ripristinati.",
       "thanks_purchase": "Grazie per il tuo acquisto.",
-      "unlock_premium_features": "Accedi a una serie di funzionalità Premium."
+      "unlock_premium_features": "Accedi a una serie di funzionalità Premium.",
+      "have_not_acquired_premium_version": "Non hai acquisito la versione premium.",
+      "do_have_premium_version": "Non hai la versione premium."
     }
   }
 }

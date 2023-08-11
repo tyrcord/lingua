@@ -7,11 +7,22 @@
       "ad": "Annuncio",
       "advertisement": "Pubblicità",
       "personalized_ads": "Pubblicità personalizzate",
-      "sponsored": "Sponsorizzato"
+      "sponsored": "Sponsorizzato",
+      "no_ads_available": "Nessun annuncio disponibile",
+      "watch_ad": "Guarda un annuncio"
     },
     "message": {
-      "discover_other_app": "Scopri le nostre altre app gratuite!",
-      "no_ads": "Nessuna pubblicità"
+      "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
+      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi.",
+      "watch_ad": {
+        "unlock_pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"
+      },
+      "enjoy_your_reward": "Goditi il tuo premio!"
+    },
+    "error": {
+      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi.",
+      "failed_to_load_ad": "Impossibile caricare l'annuncio. Si prega di riprovare più tardi.",
+      "dimissed_ad": "Poiché hai chiuso l'annuncio in anticipo, non riceverai una ricompensa. Si prega di riprovare più tardi."
     }
   }
 }

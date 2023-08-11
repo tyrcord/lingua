@@ -7,11 +7,22 @@
       "ad": "广告",
       "advertisement": "广告",
       "personalized_ads": "个性化广告",
-      "sponsored": "赞助"
+      "sponsored": "赞助",
+      "no_ads_available": "没有广告可用",
+      "watch_ad": "观看广告"
     },
     "message": {
-      "discover_other_app": "请查看我们的其他免费应用！",
-      "no_ads": "无广告"
+      "discover_other_app": "看看我们的其他免费应用程序！",
+      "no_ads_available": "当前没有广告可用。请稍后再查看。",
+      "watch_ad": {
+        "unlock_pdf": "观看短片广告以解锁将数据导出为PDF的功能！"
+      },
+      "enjoy_your_reward": "享受您的奖励！"
+    },
+    "error": {
+      "no_ads_available": "当前没有广告可用。请稍后再查看。",
+      "failed_to_load_ad": "无法加载广告。请稍后再试。",
+      "dimissed_ad": "由于您提前关闭了广告，您将不会获得奖励。请稍后再试。"
     }
   }
 }

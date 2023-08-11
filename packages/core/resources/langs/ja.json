@@ -73,6 +73,7 @@
       "export": {
         "all": "すべてエクスポート",
         "as": "としてエクスポート",
+        "pdf": "PDFとしてエクスポート",
         "text": "エクスポート"
       },
       "fast_forward": "早送り",
@@ -214,7 +215,6 @@
         "all": "すべて切り替え",
         "text": "切り替え"
       },
-      "try_again": "再試行",
       "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
@@ -233,6 +233,38 @@
         "out": "ズームアウト",
         "reset": "ズームリセット",
         "text": "ズーム"
+      },
+      "time": {
+        "elapsed": "経過時間",
+        "remaining": "残り時間",
+        "text": "時間"
+      },
+      "upgrade": {
+        "now": "今すぐアップグレード",
+        "text": "アップグレード"
+      },
+      "watch": {
+        "later": "後で見る",
+        "now": "今すぐ見る",
+        "text": "見る"
+      },
+      "operation": {
+        "canceled": "操作がキャンセルされました",
+        "completed": "操作が完了しました",
+        "failed": "操作が失敗しました",
+        "in_progress": "操作中",
+        "pending": "操作待ち",
+        "started": "操作を開始しました",
+        "succeeded": "操作が成功しました",
+        "timed_out": "操作がタイムアウトしました",
+        "text": "操作"
+      },
+      "generate": "生成",
+      "perform": "実行",
+      "try": {
+        "again": "再試行",
+        "later": "後で試す",
+        "text": "試す"
       }
     },
     "message": {
@@ -250,7 +282,6 @@
       "have_wonderful_day": "素敵な一日を！",
       "last_updated_on": "{date} に最終更新",
       "let_get_started": "はじめましょう！",
-      "loading": "読み込み中...",
       "modern_design": "モダンなデザイン。",
       "no_favorites": "お気に入りはありません。",
       "please_wait": "お待ちください...",
@@ -265,10 +296,39 @@
       "warning": "警告！",
       "welcome": "ようこそ！",
       "whats_new": "新機能のご紹介",
-      "whoops": "おっと！"
+      "whoops": "おっと！",
+      "generating": {
+        "pdf": "PDFを生成中...",
+        "text": "生成中..."
+      },
+      "performing": "実行中...",
+      "processing": "処理中...",
+      "loading": {
+        "data": "データを読み込み中...",
+        "pdf": "PDFを読み込み中...",
+        "text": "読み込み中..."
+      },
+      "pdf_ready": "PDFが準備できました！",
+      "failed_to": {
+        "load": {
+          "data": "データの読み込みに失敗しました。",
+          "pdf": "PDFの読み込みに失敗しました。"
+        },
+        "generate": {
+          "pdf": "PDFの生成に失敗しました。"
+        },
+        "perform": {
+          "action": "アクションの実行に失敗しました。"
+        },
+        "save": {
+          "data": "データの保存に失敗しました。",
+          "pdf": "PDFの保存に失敗しました。"
+        }
+      }
     },
     "question": {
-      "are_you_sure": "本当によろしいですか？"
+      "are_you_sure": "本当によろしいですか？",
+      "export_data_pdf": "このデータのPDFバージョンを生成しますか？"
     },
     "select": {
       "frequency": "頻度を選択",

@@ -7,10 +7,19 @@ abstract class AdLocaleKeys {
   static const ad_label_advertisement = 'ad.label.advertisement';
   static const ad_label_personalized_ads = 'ad.label.personalized_ads';
   static const ad_label_sponsored = 'ad.label.sponsored';
+  static const ad_label_no_ads_available = 'ad.label.no_ads_available';
+  static const ad_label_watch_ad = 'ad.label.watch_ad';
   static const ad_label = 'ad.label';
   static const ad_message_discover_other_app = 'ad.message.discover_other_app';
-  static const ad_message_no_ads = 'ad.message.no_ads';
+  static const ad_message_no_ads_available = 'ad.message.no_ads_available';
+  static const ad_message_watch_ad_unlock_pdf = 'ad.message.watch_ad.unlock_pdf';
+  static const ad_message_watch_ad = 'ad.message.watch_ad';
+  static const ad_message_enjoy_your_reward = 'ad.message.enjoy_your_reward';
   static const ad_message = 'ad.message';
+  static const ad_error_no_ads_available = 'ad.error.no_ads_available';
+  static const ad_error_failed_to_load_ad = 'ad.error.failed_to_load_ad';
+  static const ad_error_dimissed_ad = 'ad.error.dimissed_ad';
+  static const ad_error = 'ad.error';
   static const ad = 'ad';
 
 }

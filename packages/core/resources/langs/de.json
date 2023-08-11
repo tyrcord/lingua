@@ -73,6 +73,7 @@
       "export": {
         "all": "Alle exportieren",
         "as": "Exportieren als",
+        "pdf": "Als PDF exportieren",
         "text": "Exportieren"
       },
       "fast_forward": "Vorwärts spulen",
@@ -214,7 +215,6 @@
         "all": "Alle umschalten",
         "text": "Umschalten"
       },
-      "try_again": "Erneut versuchen",
       "undo": "Rückgängig machen",
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
@@ -233,6 +233,38 @@
         "out": "Herauszoomen",
         "reset": "Zoom zurücksetzen",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Verstrichene Zeit",
+        "remaining": "Verbleibende Zeit",
+        "text": "Zeit"
+      },
+      "upgrade": {
+        "now": "Jetzt aktualisieren",
+        "text": "Aktualisieren"
+      },
+      "watch": {
+        "later": "Später ansehen",
+        "now": "Jetzt ansehen",
+        "text": "Ansehen"
+      },
+      "operation": {
+        "canceled": "Vorgang abgebrochen",
+        "completed": "Vorgang abgeschlossen",
+        "failed": "Vorgang fehlgeschlagen",
+        "in_progress": "Vorgang in Bearbeitung",
+        "pending": "Vorgang ausstehend",
+        "started": "Vorgang gestartet",
+        "succeeded": "Vorgang erfolgreich",
+        "timed_out": "Vorgang abgelaufen",
+        "text": "Vorgang"
+      },
+      "generate": "Generieren",
+      "perform": "Ausführen",
+      "try": {
+        "again": "Erneut versuchen",
+        "later": "Später versuchen",
+        "text": "Versuchen"
       }
     },
     "message": {
@@ -250,7 +282,6 @@
       "have_wonderful_day": "Einen wundervollen Tag!",
       "last_updated_on": "Zuletzt aktualisiert am {date}",
       "let_get_started": "Lassen Sie uns beginnen!",
-      "loading": "Laden...",
       "modern_design": "Modernes Design.",
       "no_favorites": "Keine Favoriten.",
       "please_wait": "Bitte warten...",
@@ -265,10 +296,39 @@
       "warning": "Achtung!",
       "welcome": "Willkommen!",
       "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!"
+      "whoops": "Hoppla!",
+      "generating": {
+        "pdf": "PDF wird erstellt...",
+        "text": "Wird erstellt..."
+      },
+      "performing": "Wird durchgeführt...",
+      "processing": "Wird verarbeitet...",
+      "loading": {
+        "data": "Daten werden geladen...",
+        "pdf": "PDF wird geladen...",
+        "text": "Wird geladen..."
+      },
+      "pdf_ready": "PDF fertig!",
+      "failed_to": {
+        "load": {
+          "data": "Daten konnten nicht geladen werden.",
+          "pdf": "PDF konnte nicht geladen werden."
+        },
+        "generate": {
+          "pdf": "PDF konnte nicht erstellt werden."
+        },
+        "perform": {
+          "action": "Aktion konnte nicht durchgeführt werden."
+        },
+        "save": {
+          "data": "Daten konnten nicht gespeichert werden.",
+          "pdf": "PDF konnte nicht gespeichert werden."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Sind Sie sicher?"
+      "are_you_sure": "Sind Sie sicher?",
+      "export_data_pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
     },
     "select": {
       "frequency": "Wählen Sie eine Häufigkeit",

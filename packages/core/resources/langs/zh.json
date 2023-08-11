@@ -73,6 +73,7 @@
       "export": {
         "all": "全部导出",
         "as": "导出为",
+        "pdf": "导出为PDF",
         "text": "导出"
       },
       "fast_forward": "快进",
@@ -214,7 +215,6 @@
         "all": "全部切换",
         "text": "切换"
       },
-      "try_again": "重试",
       "undo": "撤销",
       "uninstall": "卸载",
       "unlocked": "已解锁",
@@ -233,6 +233,38 @@
         "out": "缩小",
         "reset": "重置缩放",
         "text": "缩放"
+      },
+      "time": {
+        "elapsed": "已过时间",
+        "remaining": "剩余时间",
+        "text": "时间"
+      },
+      "upgrade": {
+        "now": "现在升级",
+        "text": "更新"
+      },
+      "watch": {
+        "later": "稍后观看",
+        "now": "立即观看",
+        "text": "观看"
+      },
+      "operation": {
+        "canceled": "操作已取消",
+        "completed": "操作已完成",
+        "failed": "操作失败",
+        "in_progress": "操作进行中",
+        "pending": "操作待定",
+        "started": "操作已开始",
+        "succeeded": "操作成功",
+        "timed_out": "操作超时",
+        "text": "操作"
+      },
+      "generate": "生成",
+      "perform": "执行",
+      "try": {
+        "again": "再试一次",
+        "later": "稍后再试",
+        "text": "尝试"
       }
     },
     "message": {
@@ -250,7 +282,6 @@
       "have_wonderful_day": "祝您有美好的一天！",
       "last_updated_on": "最后更新于{date}",
       "let_get_started": "让我们开始吧！",
-      "loading": "加载中...",
       "modern_design": "现代外观。",
       "no_favorites": "无收藏。",
       "please_wait": "请稍候...",
@@ -265,10 +296,39 @@
       "warning": "警告！",
       "welcome": "欢迎！",
       "whats_new": "有什么新功能？",
-      "whoops": "哎呀！"
+      "whoops": "哎呀！",
+      "generating": {
+        "pdf": "生成PDF中...",
+        "text": "生成中..."
+      },
+      "performing": "执行中...",
+      "processing": "处理中...",
+      "loading": {
+        "data": "正在加载数据...",
+        "pdf": "正在加载PDF...",
+        "text": "加载中..."
+      },
+      "pdf_ready": "PDF已准备就绪！",
+      "failed_to": {
+        "load": {
+          "data": "加载数据失败。",
+          "pdf": "加载PDF失败。"
+        },
+        "generate": {
+          "pdf": "生成PDF失败。"
+        },
+        "perform": {
+          "action": "执行操作失败。"
+        },
+        "save": {
+          "data": "保存数据失败。",
+          "pdf": "保存PDF失败。"
+        }
+      }
     },
     "question": {
-      "are_you_sure": "确定吗？"
+      "are_you_sure": "确定吗？",
+      "export_data_pdf": "您想要生成此数据的PDF版本吗？"
     },
     "select": {
       "frequency": "选择频率",

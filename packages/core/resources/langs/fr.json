@@ -73,6 +73,7 @@
       "export": {
         "all": "Tout exporter",
         "as": "Exporter sous",
+        "pdf": "Exporter au format PDF",
         "text": "Exporter"
       },
       "fast_forward": "Avance rapide",
@@ -214,7 +215,6 @@
         "all": "Tout basculer",
         "text": "Basculer"
       },
-      "try_again": "Réessayer",
       "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
@@ -233,6 +233,38 @@
         "out": "Zoom arrière",
         "reset": "Réinitialiser le zoom",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Temps écoulé",
+        "remaining": "Temps restant",
+        "text": "Temps"
+      },
+      "upgrade": {
+        "now": "Mettre à jour maintenant",
+        "text": "Mettre à jour"
+      },
+      "watch": {
+        "later": "Regarder plus tard",
+        "now": "Regarder maintenant",
+        "text": "Regarder"
+      },
+      "operation": {
+        "canceled": "Opération annulée",
+        "completed": "Opération terminée",
+        "failed": "Opération échouée",
+        "in_progress": "Opération en cours",
+        "pending": "Opération en attente",
+        "started": "Opération commencée",
+        "succeeded": "Opération réussie",
+        "timed_out": "Opération expirée",
+        "text": "Opération"
+      },
+      "generate": "Générer",
+      "perform": "Effectuer",
+      "try": {
+        "again": "Essayer à nouveau",
+        "later": "Essayer plus tard",
+        "text": "Essayer"
       }
     },
     "message": {
@@ -250,7 +282,6 @@
       "have_wonderful_day": "Passez une merveilleuse journée !",
       "last_updated_on": "Dernière mise à jour le {date}",
       "let_get_started": "Commençons !",
-      "loading": "Chargement...",
       "modern_design": "Design moderne.",
       "no_favorites": "Aucun favori.",
       "please_wait": "Veuillez patienter...",
@@ -265,10 +296,39 @@
       "warning": "Attention !",
       "welcome": "Bienvenue !",
       "whats_new": "Quoi de neuf ?",
-      "whoops": "Oups !"
+      "whoops": "Oups !",
+      "generating": {
+        "pdf": "Génération du PDF...",
+        "text": "Génération..."
+      },
+      "performing": "Exécution...",
+      "processing": "Traitement...",
+      "loading": {
+        "data": "Chargement des données...",
+        "pdf": "Chargement du PDF...",
+        "text": "Chargement..."
+      },
+      "pdf_ready": "PDF prêt!",
+      "failed_to": {
+        "load": {
+          "data": "Échec du chargement des données.",
+          "pdf": "Échec du chargement du PDF."
+        },
+        "generate": {
+          "pdf": "Échec de la génération du PDF."
+        },
+        "perform": {
+          "action": "Échec de l'exécution de l'action."
+        },
+        "save": {
+          "data": "Échec de la sauvegarde des données.",
+          "pdf": "Échec de la sauvegarde du PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Êtes-vous sûr(e) ?"
+      "are_you_sure": "Êtes-vous sûr(e) ?",
+      "export_data_pdf": "Souhaitez-vous générer une version PDF de ces données?"
     },
     "select": {
       "frequency": "Sélectionnez une fréquence",

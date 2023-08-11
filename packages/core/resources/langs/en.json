@@ -73,6 +73,7 @@
       "export": {
         "all": "Export All",
         "as": "Export As",
+        "pdf": "Export As PDF",
         "text": "Export"
       },
       "fast_forward": "Fast Forward",
@@ -214,7 +215,6 @@
         "all": "Toggle All",
         "text": "Toggle"
       },
-      "try_again": "Try Again",
       "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
@@ -233,6 +233,38 @@
         "out": "Zoom Out",
         "reset": "Reset Zoom",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Time Elapsed",
+        "remaining": "Time Remaining",
+        "text": "Time"
+      },
+      "upgrade": {
+        "now": "Upgrade Now",
+        "text": "Upgrade"
+      },
+      "watch": {
+        "later": "Watch Later",
+        "now": "Watch Now",
+        "text": "Watch"
+      },
+      "operation": {
+        "canceled": "Operation canceled",
+        "completed": "Operation completed",
+        "failed": "Operation failed",
+        "in_progress": "Operation in progress",
+        "pending": "Operation pending",
+        "started": "Operation started",
+        "succeeded": "Operation succeeded",
+        "timed_out": "Operation timed out",
+        "text": "Operation"
+      },
+      "generate": "Generate",
+      "perform": "Perform",
+      "try": {
+        "again": "Try Again",
+        "later": "Try Later",
+        "text": "Try"
       }
     },
     "message": {
@@ -250,7 +282,6 @@
       "have_wonderful_day": "Have a wonderful day!",
       "last_updated_on": "Last updated on {date}",
       "let_get_started": "Let's get started!",
-      "loading": "Loading...",
       "modern_design": "Modern Look.",
       "no_favorites": "No favorites.",
       "please_wait": "Please wait...",
@@ -265,10 +296,39 @@
       "warning": "Warning!",
       "welcome": "Welcome!",
       "whats_new": "What's new?",
-      "whoops": "Whoops!"
+      "whoops": "Whoops!",
+      "generating": {
+        "pdf": "Generating PDF...",
+        "text": "Generating..."
+      },
+      "performing": "Performing...",
+      "processing": "Processing...",
+      "loading": {
+        "data": "Loading data...",
+        "pdf": "Loading PDF...",
+        "text": "Loading..."
+      },
+      "pdf_ready": "PDF ready!",
+      "failed_to": {
+        "load": {
+          "data": "Failed to load data.",
+          "pdf": "Failed to load PDF."
+        },
+        "generate": {
+          "pdf": "Failed to generate PDF."
+        },
+        "perform": {
+          "action": "Failed to perform action."
+        },
+        "save": {
+          "data": "Failed to save data.",
+          "pdf": "Failed to save PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Are you sure?"
+      "are_you_sure": "Are you sure?",
+      "export_data_pdf": "Would you like to generate a PDF version of this data?"
     },
     "select": {
       "frequency": "Select a frequency",

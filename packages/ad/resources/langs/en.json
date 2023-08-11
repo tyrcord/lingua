@@ -7,11 +7,22 @@
       "ad": "Ad",
       "advertisement": "Advertisement",
       "personalized_ads": "Personalized ads",
-      "sponsored": "Sponsored"
+      "sponsored": "Sponsored",
+      "no_ads_available": "No ads available",
+      "watch_ad": "Watch an ad"
     },
     "message": {
       "discover_other_app": "Take a look at our other free apps!",
-      "no_ads": "No ads"
+      "no_ads_available": "Currently, there are no ads available. Please check back later.",
+      "watch_ad": {
+        "unlock_pdf": "Watch a short ad to unlock the ability to export your data as a PDF!"
+      },
+      "enjoy_your_reward": "Enjoy your reward!"
+    },
+    "error": {
+      "no_ads_available": "Currently, there are no ads available. Please check back later.",
+      "failed_to_load_ad": "Unable to load the ad. Please try again later.",
+      "dimissed_ad": "Since you dismissed the ad early, you will not receive a reward. Please try again later."
     }
   }
 }

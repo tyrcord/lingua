@@ -63,7 +63,9 @@
       "purchased_items": "購入済みアイテムのリスト：",
       "purchases_restored": "購入が復元されました。",
       "thanks_purchase": "ご購入いただきありがとうございます。",
-      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。",
+      "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
+      "do_have_premium_version": "プレミアムバージョンを持っていません。"
     }
   }
 }

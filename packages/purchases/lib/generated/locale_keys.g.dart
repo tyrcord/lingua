@@ -55,6 +55,8 @@ abstract class PurchasesLocaleKeys {
   static const purchases_message_purchases_restored = 'purchases.message.purchases_restored';
   static const purchases_message_thanks_purchase = 'purchases.message.thanks_purchase';
   static const purchases_message_unlock_premium_features = 'purchases.message.unlock_premium_features';
+  static const purchases_message_have_not_acquired_premium_version = 'purchases.message.have_not_acquired_premium_version';
+  static const purchases_message_do_have_premium_version = 'purchases.message.do_have_premium_version';
   static const purchases_message = 'purchases.message';
   static const purchases = 'purchases';
 

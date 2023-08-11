@@ -7,11 +7,22 @@
       "ad": "Annonce",
       "advertisement": "Publicité",
       "personalized_ads": "Publicités personnalisées",
-      "sponsored": "Sponsorisé"
+      "sponsored": "Sponsorisé",
+      "no_ads_available": "Pas de publicités disponibles",
+      "watch_ad": "Regarder une publicité"
     },
     "message": {
-      "discover_other_app": "Découvrez nos autres applications gratuites !",
-      "no_ads": "Pas de publicité"
+      "discover_other_app": "Jetez un œil à nos autres applications gratuites!",
+      "no_ads_available": "Actuellement, il n'y a pas de publicités disponibles. Veuillez vérifier à nouveau plus tard.",
+      "watch_ad": {
+        "unlock_pdf": "Regardez une courte publicité pour débloquer la possibilité d'exporter vos données au format PDF!"
+      },
+      "enjoy_your_reward": "Profitez de votre récompense!"
+    },
+    "error": {
+      "no_ads_available": "Actuellement, il n'y a pas de publicités disponibles. Veuillez vérifier à nouveau plus tard.",
+      "failed_to_load_ad": "Impossible de charger la publicité. Veuillez réessayer plus tard.",
+      "dimissed_ad": "Comme vous avez interomptu la publicité prématurément, vous ne recevrez pas de récompense. Veuillez réessayer plus tard."
     }
   }
 }

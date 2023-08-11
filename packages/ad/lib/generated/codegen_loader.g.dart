@@ -20,11 +20,22 @@ class AdCodegenLoader extends AssetLoader {
       "ad": "广告",
       "advertisement": "广告",
       "personalized_ads": "个性化广告",
-      "sponsored": "赞助"
+      "sponsored": "赞助",
+      "no_ads_available": "没有广告可用",
+      "watch_ad": "观看广告"
     },
     "message": {
-      "discover_other_app": "请查看我们的其他免费应用！",
-      "no_ads": "无广告"
+      "discover_other_app": "看看我们的其他免费应用程序！",
+      "no_ads_available": "当前没有广告可用。请稍后再查看。",
+      "watch_ad": {
+        "unlock_pdf": "观看短片广告以解锁将数据导出为PDF的功能！"
+      },
+      "enjoy_your_reward": "享受您的奖励！"
+    },
+    "error": {
+      "no_ads_available": "当前没有广告可用。请稍后再查看。",
+      "failed_to_load_ad": "无法加载广告。请稍后再试。",
+      "dimissed_ad": "由于您提前关闭了广告，您将不会获得奖励。请稍后再试。"
     }
   }
 };
@@ -37,11 +48,22 @@ static const Map<String,dynamic> ja = {
       "ad": "広告",
       "advertisement": "広告",
       "personalized_ads": "パーソナライズ広告",
-      "sponsored": "スポンサー"
+      "sponsored": "スポンサー",
+      "no_ads_available": "利用できる広告はありません",
+      "watch_ad": "広告を見る"
     },
     "message": {
-      "discover_other_app": "他の無料アプリをご覧ください！",
-      "no_ads": "広告なし"
+      "discover_other_app": "私たちの他の無料アプリをご覧ください！",
+      "no_ads_available": "現在、広告は利用できません。後で再度確認してください。",
+      "watch_ad": {
+        "unlock_pdf": "短い広告を見ると、データをPDFとしてエクスポートする機能をアンロックできます！"
+      },
+      "enjoy_your_reward": "ご褒美をお楽しみください！"
+    },
+    "error": {
+      "no_ads_available": "現在、広告は利用できません。後で再度確認してください。",
+      "failed_to_load_ad": "広告をロードできませんでした。後で再度お試しください。",
+      "dimissed_ad": "広告を早めに閉じたため、報酬を受け取ることはできません。後でもう一度お試しください。"
     }
   }
 };
@@ -54,11 +76,22 @@ static const Map<String,dynamic> de = {
       "ad": "Anzeige",
       "advertisement": "Werbeanzeige",
       "personalized_ads": "Personalisierte Anzeigen",
-      "sponsored": "Gesponsert"
+      "sponsored": "Gesponsert",
+      "no_ads_available": "Keine Anzeigen verfügbar",
+      "watch_ad": "Eine Anzeige ansehen"
     },
     "message": {
-      "discover_other_app": "Schauen Sie sich unsere anderen kostenlosen Apps an!",
-      "no_ads": "Keine Anzeigen"
+      "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
+      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut.",
+      "watch_ad": {
+        "unlock_pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!"
+      },
+      "enjoy_your_reward": "Genießen Sie Ihre Belohnung!"
+    },
+    "error": {
+      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut.",
+      "failed_to_load_ad": "Die Anzeige konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
+      "dimissed_ad": "Da Sie die Anzeige frühzeitig geschlossen haben, erhalten Sie keine Belohnung. Bitte versuchen Sie es später erneut."
     }
   }
 };
@@ -71,11 +104,22 @@ static const Map<String,dynamic> ru = {
       "ad": "Объявление",
       "advertisement": "Реклама",
       "personalized_ads": "Персонализированная реклама",
-      "sponsored": "Спонсируется"
+      "sponsored": "Спонсируется",
+      "no_ads_available": "Объявлений нет",
+      "watch_ad": "Посмотреть рекламу"
     },
     "message": {
       "discover_other_app": "Ознакомьтесь с нашими другими бесплатными приложениями!",
-      "no_ads": "Нет рекламы"
+      "no_ads_available": "В настоящее время объявлений нет. Пожалуйста, проверьте позже.",
+      "watch_ad": {
+        "unlock_pdf": "Посмотрите короткую рекламу, чтобы разблокировать возможность экспорта ваших данных в формате PDF!"
+      },
+      "enjoy_your_reward": "Наслаждайтесь вашей наградой!"
+    },
+    "error": {
+      "no_ads_available": "В настоящее время объявлений нет. Пожалуйста, проверьте позже.",
+      "failed_to_load_ad": "Не удалось загрузить рекламу. Пожалуйста, попробуйте позже.",
+      "dimissed_ad": "Так как вы закрыли объявление рано, вы не получите вознаграждение. Пожалуйста, попробуйте позже."
     }
   }
 };
@@ -88,11 +132,22 @@ static const Map<String,dynamic> pt = {
       "ad": "Anúncio",
       "advertisement": "Publicidade",
       "personalized_ads": "Anúncios personalizados",
-      "sponsored": "Patrocinado"
+      "sponsored": "Patrocinado",
+      "no_ads_available": "Nenhum anúncio disponível",
+      "watch_ad": "Assistir a um anúncio"
     },
     "message": {
-      "discover_other_app": "Confira nossos outros aplicativos gratuitos!",
-      "no_ads": "Sem anúncios"
+      "discover_other_app": "Dê uma olhada em nossos outros aplicativos gratuitos!",
+      "no_ads_available": "Atualmente, não há anúncios disponíveis. Por favor, verifique novamente mais tarde.",
+      "watch_ad": {
+        "unlock_pdf": "Assista a um anúncio curto para desbloquear a capacidade de exportar seus dados como PDF!"
+      },
+      "enjoy_your_reward": "Aproveite sua recompensa!"
+    },
+    "error": {
+      "no_ads_available": "Atualmente, não há anúncios disponíveis. Por favor, verifique novamente mais tarde.",
+      "failed_to_load_ad": "Não foi possível carregar o anúncio. Por favor, tente novamente mais tarde.",
+      "dimissed_ad": "Como você fechou o anúncio antecipadamente, não receberá uma recompensa. Por favor, tente novamente mais tarde."
     }
   }
 };
@@ -105,11 +160,22 @@ static const Map<String,dynamic> en = {
       "ad": "Ad",
       "advertisement": "Advertisement",
       "personalized_ads": "Personalized ads",
-      "sponsored": "Sponsored"
+      "sponsored": "Sponsored",
+      "no_ads_available": "No ads available",
+      "watch_ad": "Watch an ad"
     },
     "message": {
       "discover_other_app": "Take a look at our other free apps!",
-      "no_ads": "No ads"
+      "no_ads_available": "Currently, there are no ads available. Please check back later.",
+      "watch_ad": {
+        "unlock_pdf": "Watch a short ad to unlock the ability to export your data as a PDF!"
+      },
+      "enjoy_your_reward": "Enjoy your reward!"
+    },
+    "error": {
+      "no_ads_available": "Currently, there are no ads available. Please check back later.",
+      "failed_to_load_ad": "Unable to load the ad. Please try again later.",
+      "dimissed_ad": "Since you dismissed the ad early, you will not receive a reward. Please try again later."
     }
   }
 };
@@ -122,11 +188,22 @@ static const Map<String,dynamic> it = {
       "ad": "Annuncio",
       "advertisement": "Pubblicità",
       "personalized_ads": "Pubblicità personalizzate",
-      "sponsored": "Sponsorizzato"
+      "sponsored": "Sponsorizzato",
+      "no_ads_available": "Nessun annuncio disponibile",
+      "watch_ad": "Guarda un annuncio"
     },
     "message": {
-      "discover_other_app": "Scopri le nostre altre app gratuite!",
-      "no_ads": "Nessuna pubblicità"
+      "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
+      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi.",
+      "watch_ad": {
+        "unlock_pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"
+      },
+      "enjoy_your_reward": "Goditi il tuo premio!"
+    },
+    "error": {
+      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi.",
+      "failed_to_load_ad": "Impossibile caricare l'annuncio. Si prega di riprovare più tardi.",
+      "dimissed_ad": "Poiché hai chiuso l'annuncio in anticipo, non riceverai una ricompensa. Si prega di riprovare più tardi."
     }
   }
 };
@@ -139,11 +216,22 @@ static const Map<String,dynamic> fr = {
       "ad": "Annonce",
       "advertisement": "Publicité",
       "personalized_ads": "Publicités personnalisées",
-      "sponsored": "Sponsorisé"
+      "sponsored": "Sponsorisé",
+      "no_ads_available": "Pas de publicités disponibles",
+      "watch_ad": "Regarder une publicité"
     },
     "message": {
-      "discover_other_app": "Découvrez nos autres applications gratuites !",
-      "no_ads": "Pas de publicité"
+      "discover_other_app": "Jetez un œil à nos autres applications gratuites!",
+      "no_ads_available": "Actuellement, il n'y a pas de publicités disponibles. Veuillez vérifier à nouveau plus tard.",
+      "watch_ad": {
+        "unlock_pdf": "Regardez une courte publicité pour débloquer la possibilité d'exporter vos données au format PDF!"
+      },
+      "enjoy_your_reward": "Profitez de votre récompense!"
+    },
+    "error": {
+      "no_ads_available": "Actuellement, il n'y a pas de publicités disponibles. Veuillez vérifier à nouveau plus tard.",
+      "failed_to_load_ad": "Impossible de charger la publicité. Veuillez réessayer plus tard.",
+      "dimissed_ad": "Comme vous avez interomptu la publicité prématurément, vous ne recevrez pas de récompense. Veuillez réessayer plus tard."
     }
   }
 };
@@ -156,11 +244,22 @@ static const Map<String,dynamic> es = {
       "ad": "Anuncio",
       "advertisement": "Publicidad",
       "personalized_ads": "Anuncios personalizados",
-      "sponsored": "Patrocinado"
+      "sponsored": "Patrocinado",
+      "no_ads_available": "No hay anuncios disponibles",
+      "watch_ad": "Ver un anuncio"
     },
     "message": {
       "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
-      "no_ads": "Sin anuncios"
+      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde.",
+      "watch_ad": {
+        "unlock_pdf": "¡Vea un anuncio breve para desbloquear la capacidad de exportar sus datos como PDF!"
+      },
+      "enjoy_your_reward": "¡Disfruta tu recompensa!"
+    },
+    "error": {
+      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde.",
+      "failed_to_load_ad": "No se pudo cargar el anuncio. Por favor, inténtelo de nuevo más tarde.",
+      "dimissed_ad": "Dado que cerró el anuncio antes de tiempo, no recibirá una recompensa. Por favor, inténtelo de nuevo más tarde."
     }
   }
 };

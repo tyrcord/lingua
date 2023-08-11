@@ -7,11 +7,22 @@
       "ad": "Anzeige",
       "advertisement": "Werbeanzeige",
       "personalized_ads": "Personalisierte Anzeigen",
-      "sponsored": "Gesponsert"
+      "sponsored": "Gesponsert",
+      "no_ads_available": "Keine Anzeigen verfügbar",
+      "watch_ad": "Eine Anzeige ansehen"
     },
     "message": {
-      "discover_other_app": "Schauen Sie sich unsere anderen kostenlosen Apps an!",
-      "no_ads": "Keine Anzeigen"
+      "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
+      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut.",
+      "watch_ad": {
+        "unlock_pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!"
+      },
+      "enjoy_your_reward": "Genießen Sie Ihre Belohnung!"
+    },
+    "error": {
+      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut.",
+      "failed_to_load_ad": "Die Anzeige konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
+      "dimissed_ad": "Da Sie die Anzeige frühzeitig geschlossen haben, erhalten Sie keine Belohnung. Bitte versuchen Sie es später erneut."
     }
   }
 }

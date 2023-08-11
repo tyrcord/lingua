@@ -74,7 +74,9 @@ class PurchasesCodegenLoader extends AssetLoader {
       "purchased_items": "已购买项目列表：",
       "purchases_restored": "购买已恢复。",
       "thanks_purchase": "感谢您的购买。",
-      "unlock_premium_features": "享受众多高级功能。"
+      "unlock_premium_features": "享受众多高级功能。",
+      "have_not_acquired_premium_version": "您尚未购买高级版本。",
+      "do_have_premium_version": "您没有高级版本。"
     }
   }
 };
@@ -143,7 +145,9 @@ static const Map<String,dynamic> ja = {
       "purchased_items": "購入済みアイテムのリスト：",
       "purchases_restored": "購入が復元されました。",
       "thanks_purchase": "ご購入いただきありがとうございます。",
-      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。",
+      "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
+      "do_have_premium_version": "プレミアムバージョンを持っていません。"
     }
   }
 };
@@ -210,7 +214,9 @@ static const Map<String,dynamic> de = {
       "purchased_items": "Liste der gekauften Artikel:",
       "purchases_restored": "Käufe wiederhergestellt.",
       "thanks_purchase": "Vielen Dank für Ihren Kauf.",
-      "unlock_premium_features": "Greifen Sie auf eine Vielzahl von Premium-Funktionen zu."
+      "unlock_premium_features": "Greifen Sie auf eine Vielzahl von Premium-Funktionen zu.",
+      "have_not_acquired_premium_version": "Sie haben die Premium-Version nicht erworben.",
+      "do_have_premium_version": "Sie haben die Premium-Version nicht."
     }
   }
 };
@@ -277,7 +283,9 @@ static const Map<String,dynamic> ru = {
       "purchased_items": "Список приобретенных товаров:",
       "purchases_restored": "Покупки восстановлены.",
       "thanks_purchase": "Спасибо за покупку.",
-      "unlock_premium_features": "Получите доступ к множеству функций Премиум."
+      "unlock_premium_features": "Получите доступ к множеству функций Премиум.",
+      "have_not_acquired_premium_version": "Вы не приобрели премиум-версию.",
+      "do_have_premium_version": "У вас нет премиум-версии."
     }
   }
 };
@@ -344,7 +352,9 @@ static const Map<String,dynamic> pt = {
       "purchased_items": "Lista de itens comprados:",
       "purchases_restored": "Compras restauradas.",
       "thanks_purchase": "Obrigado por sua compra.",
-      "unlock_premium_features": "Acesse uma variedade de recursos Premium."
+      "unlock_premium_features": "Acesse uma variedade de recursos Premium.",
+      "have_not_acquired_premium_version": "Você não adquiriu a versão premium.",
+      "do_have_premium_version": "Você não tem a versão premium."
     }
   }
 };
@@ -411,7 +421,9 @@ static const Map<String,dynamic> en = {
       "purchased_items": "List of purchased items::",
       "purchases_restored": "Purchases Restored.",
       "thanks_purchase": "Thank you for your purchase.",
-      "unlock_premium_features": "Access a multitude of premium features."
+      "unlock_premium_features": "Access a multitude of premium features.",
+      "have_not_acquired_premium_version": "You haven't acquired the premium version.",
+      "do_have_premium_version": "You don't have the premium version."
     }
   }
 };
@@ -478,7 +490,9 @@ static const Map<String,dynamic> it = {
       "purchased_items": "Elenco degli articoli acquistati:",
       "purchases_restored": "Acquisti ripristinati.",
       "thanks_purchase": "Grazie per il tuo acquisto.",
-      "unlock_premium_features": "Accedi a una serie di funzionalità Premium."
+      "unlock_premium_features": "Accedi a una serie di funzionalità Premium.",
+      "have_not_acquired_premium_version": "Non hai acquisito la versione premium.",
+      "do_have_premium_version": "Non hai la versione premium."
     }
   }
 };
@@ -545,7 +559,9 @@ static const Map<String,dynamic> fr = {
       "purchased_items": "Liste des articles achetés :",
       "purchases_restored": "Achats restaurés.",
       "thanks_purchase": "Merci pour votre achat.",
-      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."
+      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium.",
+      "have_not_acquired_premium_version": "Vous n'avez pas acquis la version premium.",
+      "do_have_premium_version": "Vous n'avez pas la version premium."
     }
   }
 };
@@ -612,7 +628,9 @@ static const Map<String,dynamic> es = {
       "purchased_items": "Lista de artículos comprados:",
       "purchases_restored": "Compras restauradas.",
       "thanks_purchase": "Gracias por tu compra.",
-      "unlock_premium_features": "Accede a una variedad de funciones Premium."
+      "unlock_premium_features": "Accede a una variedad de funciones Premium.",
+      "have_not_acquired_premium_version": "No ha adquirido la versión premium.",
+      "do_have_premium_version": "No tiene la versión premium."
     }
   }
 };

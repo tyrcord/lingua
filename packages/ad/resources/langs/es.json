@@ -7,11 +7,22 @@
       "ad": "Anuncio",
       "advertisement": "Publicidad",
       "personalized_ads": "Anuncios personalizados",
-      "sponsored": "Patrocinado"
+      "sponsored": "Patrocinado",
+      "no_ads_available": "No hay anuncios disponibles",
+      "watch_ad": "Ver un anuncio"
     },
     "message": {
       "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
-      "no_ads": "Sin anuncios"
+      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde.",
+      "watch_ad": {
+        "unlock_pdf": "¡Vea un anuncio breve para desbloquear la capacidad de exportar sus datos como PDF!"
+      },
+      "enjoy_your_reward": "¡Disfruta tu recompensa!"
+    },
+    "error": {
+      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde.",
+      "failed_to_load_ad": "No se pudo cargar el anuncio. Por favor, inténtelo de nuevo más tarde.",
+      "dimissed_ad": "Dado que cerró el anuncio antes de tiempo, no recibirá una recompensa. Por favor, inténtelo de nuevo más tarde."
     }
   }
 }

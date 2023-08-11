@@ -86,6 +86,7 @@ class CoreCodegenLoader extends AssetLoader {
       "export": {
         "all": "全部导出",
         "as": "导出为",
+        "pdf": "导出为PDF",
         "text": "导出"
       },
       "fast_forward": "快进",
@@ -227,7 +228,6 @@ class CoreCodegenLoader extends AssetLoader {
         "all": "全部切换",
         "text": "切换"
       },
-      "try_again": "重试",
       "undo": "撤销",
       "uninstall": "卸载",
       "unlocked": "已解锁",
@@ -246,6 +246,38 @@ class CoreCodegenLoader extends AssetLoader {
         "out": "缩小",
         "reset": "重置缩放",
         "text": "缩放"
+      },
+      "time": {
+        "elapsed": "已过时间",
+        "remaining": "剩余时间",
+        "text": "时间"
+      },
+      "upgrade": {
+        "now": "现在升级",
+        "text": "更新"
+      },
+      "watch": {
+        "later": "稍后观看",
+        "now": "立即观看",
+        "text": "观看"
+      },
+      "operation": {
+        "canceled": "操作已取消",
+        "completed": "操作已完成",
+        "failed": "操作失败",
+        "in_progress": "操作进行中",
+        "pending": "操作待定",
+        "started": "操作已开始",
+        "succeeded": "操作成功",
+        "timed_out": "操作超时",
+        "text": "操作"
+      },
+      "generate": "生成",
+      "perform": "执行",
+      "try": {
+        "again": "再试一次",
+        "later": "稍后再试",
+        "text": "尝试"
       }
     },
     "message": {
@@ -263,7 +295,6 @@ class CoreCodegenLoader extends AssetLoader {
       "have_wonderful_day": "祝您有美好的一天！",
       "last_updated_on": "最后更新于{date}",
       "let_get_started": "让我们开始吧！",
-      "loading": "加载中...",
       "modern_design": "现代外观。",
       "no_favorites": "无收藏。",
       "please_wait": "请稍候...",
@@ -278,10 +309,39 @@ class CoreCodegenLoader extends AssetLoader {
       "warning": "警告！",
       "welcome": "欢迎！",
       "whats_new": "有什么新功能？",
-      "whoops": "哎呀！"
+      "whoops": "哎呀！",
+      "generating": {
+        "pdf": "生成PDF中...",
+        "text": "生成中..."
+      },
+      "performing": "执行中...",
+      "processing": "处理中...",
+      "loading": {
+        "data": "正在加载数据...",
+        "pdf": "正在加载PDF...",
+        "text": "加载中..."
+      },
+      "pdf_ready": "PDF已准备就绪！",
+      "failed_to": {
+        "load": {
+          "data": "加载数据失败。",
+          "pdf": "加载PDF失败。"
+        },
+        "generate": {
+          "pdf": "生成PDF失败。"
+        },
+        "perform": {
+          "action": "执行操作失败。"
+        },
+        "save": {
+          "data": "保存数据失败。",
+          "pdf": "保存PDF失败。"
+        }
+      }
     },
     "question": {
-      "are_you_sure": "确定吗？"
+      "are_you_sure": "确定吗？",
+      "export_data_pdf": "您想要生成此数据的PDF版本吗？"
     },
     "select": {
       "frequency": "选择频率",
@@ -367,6 +427,7 @@ static const Map<String,dynamic> ja = {
       "export": {
         "all": "すべてエクスポート",
         "as": "としてエクスポート",
+        "pdf": "PDFとしてエクスポート",
         "text": "エクスポート"
       },
       "fast_forward": "早送り",
@@ -508,7 +569,6 @@ static const Map<String,dynamic> ja = {
         "all": "すべて切り替え",
         "text": "切り替え"
       },
-      "try_again": "再試行",
       "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
@@ -527,6 +587,38 @@ static const Map<String,dynamic> ja = {
         "out": "ズームアウト",
         "reset": "ズームリセット",
         "text": "ズーム"
+      },
+      "time": {
+        "elapsed": "経過時間",
+        "remaining": "残り時間",
+        "text": "時間"
+      },
+      "upgrade": {
+        "now": "今すぐアップグレード",
+        "text": "アップグレード"
+      },
+      "watch": {
+        "later": "後で見る",
+        "now": "今すぐ見る",
+        "text": "見る"
+      },
+      "operation": {
+        "canceled": "操作がキャンセルされました",
+        "completed": "操作が完了しました",
+        "failed": "操作が失敗しました",
+        "in_progress": "操作中",
+        "pending": "操作待ち",
+        "started": "操作を開始しました",
+        "succeeded": "操作が成功しました",
+        "timed_out": "操作がタイムアウトしました",
+        "text": "操作"
+      },
+      "generate": "生成",
+      "perform": "実行",
+      "try": {
+        "again": "再試行",
+        "later": "後で試す",
+        "text": "試す"
       }
     },
     "message": {
@@ -544,7 +636,6 @@ static const Map<String,dynamic> ja = {
       "have_wonderful_day": "素敵な一日を！",
       "last_updated_on": "{date} に最終更新",
       "let_get_started": "はじめましょう！",
-      "loading": "読み込み中...",
       "modern_design": "モダンなデザイン。",
       "no_favorites": "お気に入りはありません。",
       "please_wait": "お待ちください...",
@@ -559,10 +650,39 @@ static const Map<String,dynamic> ja = {
       "warning": "警告！",
       "welcome": "ようこそ！",
       "whats_new": "新機能のご紹介",
-      "whoops": "おっと！"
+      "whoops": "おっと！",
+      "generating": {
+        "pdf": "PDFを生成中...",
+        "text": "生成中..."
+      },
+      "performing": "実行中...",
+      "processing": "処理中...",
+      "loading": {
+        "data": "データを読み込み中...",
+        "pdf": "PDFを読み込み中...",
+        "text": "読み込み中..."
+      },
+      "pdf_ready": "PDFが準備できました！",
+      "failed_to": {
+        "load": {
+          "data": "データの読み込みに失敗しました。",
+          "pdf": "PDFの読み込みに失敗しました。"
+        },
+        "generate": {
+          "pdf": "PDFの生成に失敗しました。"
+        },
+        "perform": {
+          "action": "アクションの実行に失敗しました。"
+        },
+        "save": {
+          "data": "データの保存に失敗しました。",
+          "pdf": "PDFの保存に失敗しました。"
+        }
+      }
     },
     "question": {
-      "are_you_sure": "本当によろしいですか？"
+      "are_you_sure": "本当によろしいですか？",
+      "export_data_pdf": "このデータのPDFバージョンを生成しますか？"
     },
     "select": {
       "frequency": "頻度を選択",
@@ -648,6 +768,7 @@ static const Map<String,dynamic> de = {
       "export": {
         "all": "Alle exportieren",
         "as": "Exportieren als",
+        "pdf": "Als PDF exportieren",
         "text": "Exportieren"
       },
       "fast_forward": "Vorwärts spulen",
@@ -789,7 +910,6 @@ static const Map<String,dynamic> de = {
         "all": "Alle umschalten",
         "text": "Umschalten"
       },
-      "try_again": "Erneut versuchen",
       "undo": "Rückgängig machen",
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
@@ -808,6 +928,38 @@ static const Map<String,dynamic> de = {
         "out": "Herauszoomen",
         "reset": "Zoom zurücksetzen",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Verstrichene Zeit",
+        "remaining": "Verbleibende Zeit",
+        "text": "Zeit"
+      },
+      "upgrade": {
+        "now": "Jetzt aktualisieren",
+        "text": "Aktualisieren"
+      },
+      "watch": {
+        "later": "Später ansehen",
+        "now": "Jetzt ansehen",
+        "text": "Ansehen"
+      },
+      "operation": {
+        "canceled": "Vorgang abgebrochen",
+        "completed": "Vorgang abgeschlossen",
+        "failed": "Vorgang fehlgeschlagen",
+        "in_progress": "Vorgang in Bearbeitung",
+        "pending": "Vorgang ausstehend",
+        "started": "Vorgang gestartet",
+        "succeeded": "Vorgang erfolgreich",
+        "timed_out": "Vorgang abgelaufen",
+        "text": "Vorgang"
+      },
+      "generate": "Generieren",
+      "perform": "Ausführen",
+      "try": {
+        "again": "Erneut versuchen",
+        "later": "Später versuchen",
+        "text": "Versuchen"
       }
     },
     "message": {
@@ -825,7 +977,6 @@ static const Map<String,dynamic> de = {
       "have_wonderful_day": "Einen wundervollen Tag!",
       "last_updated_on": "Zuletzt aktualisiert am {date}",
       "let_get_started": "Lassen Sie uns beginnen!",
-      "loading": "Laden...",
       "modern_design": "Modernes Design.",
       "no_favorites": "Keine Favoriten.",
       "please_wait": "Bitte warten...",
@@ -840,10 +991,39 @@ static const Map<String,dynamic> de = {
       "warning": "Achtung!",
       "welcome": "Willkommen!",
       "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!"
+      "whoops": "Hoppla!",
+      "generating": {
+        "pdf": "PDF wird erstellt...",
+        "text": "Wird erstellt..."
+      },
+      "performing": "Wird durchgeführt...",
+      "processing": "Wird verarbeitet...",
+      "loading": {
+        "data": "Daten werden geladen...",
+        "pdf": "PDF wird geladen...",
+        "text": "Wird geladen..."
+      },
+      "pdf_ready": "PDF fertig!",
+      "failed_to": {
+        "load": {
+          "data": "Daten konnten nicht geladen werden.",
+          "pdf": "PDF konnte nicht geladen werden."
+        },
+        "generate": {
+          "pdf": "PDF konnte nicht erstellt werden."
+        },
+        "perform": {
+          "action": "Aktion konnte nicht durchgeführt werden."
+        },
+        "save": {
+          "data": "Daten konnten nicht gespeichert werden.",
+          "pdf": "PDF konnte nicht gespeichert werden."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Sind Sie sicher?"
+      "are_you_sure": "Sind Sie sicher?",
+      "export_data_pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
     },
     "select": {
       "frequency": "Wählen Sie eine Häufigkeit",
@@ -929,6 +1109,7 @@ static const Map<String,dynamic> ru = {
       "export": {
         "all": "Экспортировать все",
         "as": "Экспортировать как",
+        "pdf": "Экспортировать как PDF",
         "text": "Экспорт"
       },
       "fast_forward": "Перемотка вперед",
@@ -1070,7 +1251,6 @@ static const Map<String,dynamic> ru = {
         "all": "Переключить все",
         "text": "Переключить"
       },
-      "try_again": "Попробовать снова",
       "undo": "Отменить действие",
       "uninstall": "Удалить",
       "unlocked": "Разблокировано",
@@ -1089,6 +1269,38 @@ static const Map<String,dynamic> ru = {
         "out": "Отдалить",
         "reset": "Сбросить масштаб",
         "text": "Масштаб"
+      },
+      "time": {
+        "elapsed": "Прошло времени",
+        "remaining": "Оставшееся время",
+        "text": "Время"
+      },
+      "upgrade": {
+        "now": "Обновить сейчас",
+        "text": "Обновить"
+      },
+      "watch": {
+        "later": "Смотреть позже",
+        "now": "Смотреть сейчас",
+        "text": "Смотреть"
+      },
+      "operation": {
+        "canceled": "Операция отменена",
+        "completed": "Операция завершена",
+        "failed": "Операция не удалась",
+        "in_progress": "Операция в процессе",
+        "pending": "Операция ожидает",
+        "started": "Операция началась",
+        "succeeded": "Операция успешно завершена",
+        "timed_out": "Время операции истекло",
+        "text": "Операция"
+      },
+      "generate": "Генерировать",
+      "perform": "Выполнить",
+      "try": {
+        "again": "Попробовать снова",
+        "later": "Попробовать позже",
+        "text": "Попробовать"
       }
     },
     "message": {
@@ -1106,7 +1318,6 @@ static const Map<String,dynamic> ru = {
       "have_wonderful_day": "Хорошего дня!",
       "last_updated_on": "Последнее обновление {date}",
       "let_get_started": "Начнем!",
-      "loading": "Загрузка...",
       "modern_design": "Современный дизайн.",
       "no_favorites": "Нет избранных.",
       "please_wait": "Пожалуйста, подождите...",
@@ -1121,10 +1332,39 @@ static const Map<String,dynamic> ru = {
       "warning": "Предупреждение!",
       "welcome": "Добро пожаловать!",
       "whats_new": "Что нового?",
-      "whoops": "Упс!"
+      "whoops": "Упс!",
+      "generating": {
+        "pdf": "Генерация PDF...",
+        "text": "Генерация..."
+      },
+      "performing": "Выполнение...",
+      "processing": "Обработка...",
+      "loading": {
+        "data": "Загрузка данных...",
+        "pdf": "Загрузка PDF...",
+        "text": "Загрузка..."
+      },
+      "pdf_ready": "PDF готово!",
+      "failed_to": {
+        "load": {
+          "data": "Не удалось загрузить данные.",
+          "pdf": "Не удалось загрузить PDF."
+        },
+        "generate": {
+          "pdf": "Не удалось сгенерировать PDF."
+        },
+        "perform": {
+          "action": "Не удалось выполнить действие."
+        },
+        "save": {
+          "data": "Не удалось сохранить данные.",
+          "pdf": "Не удалось сохранить PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Вы уверены?"
+      "are_you_sure": "Вы уверены?",
+      "export_data_pdf": "Хотите создать PDF-версию этих данных?"
     },
     "select": {
       "frequency": "Выберите частоту",
@@ -1210,6 +1450,7 @@ static const Map<String,dynamic> pt = {
       "export": {
         "all": "Exportar Todos",
         "as": "Exportar Como",
+        "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
       "fast_forward": "Avançar rapidamente",
@@ -1351,7 +1592,6 @@ static const Map<String,dynamic> pt = {
         "all": "Alternar Todos",
         "text": "Alternar"
       },
-      "try_again": "Tentar novamente",
       "undo": "Desfazer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
@@ -1370,6 +1610,38 @@ static const Map<String,dynamic> pt = {
         "out": "Diminuir Zoom",
         "reset": "Redefinir Zoom",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Tempo decorrido",
+        "remaining": "Tempo restante",
+        "text": "Tempo"
+      },
+      "upgrade": {
+        "now": "Atualizar agora",
+        "text": "Atualizar"
+      },
+      "watch": {
+        "later": "Assistir mais tarde",
+        "now": "Assistir agora",
+        "text": "Assistir"
+      },
+      "operation": {
+        "canceled": "Operação cancelada",
+        "completed": "Operação concluída",
+        "failed": "Operação falhou",
+        "in_progress": "Operação em progresso",
+        "pending": "Operação pendente",
+        "started": "Operação iniciada",
+        "succeeded": "Operação bem-sucedida",
+        "timed_out": "Operação expirou",
+        "text": "Operação"
+      },
+      "generate": "Gerar",
+      "perform": "Realizar",
+      "try": {
+        "again": "Tentar novamente",
+        "later": "Tentar mais tarde",
+        "text": "Tentar"
       }
     },
     "message": {
@@ -1387,7 +1659,6 @@ static const Map<String,dynamic> pt = {
       "have_wonderful_day": "Tenha um ótimo dia!",
       "last_updated_on": "Última atualização em {date}",
       "let_get_started": "Vamos começar!",
-      "loading": "Carregando...",
       "modern_design": "Visual moderno.",
       "no_favorites": "Sem favoritos.",
       "please_wait": "Aguarde, por favor...",
@@ -1402,10 +1673,39 @@ static const Map<String,dynamic> pt = {
       "warning": "Aviso!",
       "welcome": "Bem-vindo!",
       "whats_new": "O que há de novo?",
-      "whoops": "Ops!"
+      "whoops": "Ops!",
+      "generating": {
+        "pdf": "Gerando PDF...",
+        "text": "Gerando..."
+      },
+      "performing": "Executando...",
+      "processing": "Processando...",
+      "loading": {
+        "data": "Carregando dados...",
+        "pdf": "Carregando PDF...",
+        "text": "Carregando..."
+      },
+      "pdf_ready": "PDF pronto!",
+      "failed_to": {
+        "load": {
+          "data": "Falha ao carregar os dados.",
+          "pdf": "Falha ao carregar o PDF."
+        },
+        "generate": {
+          "pdf": "Falha ao gerar o PDF."
+        },
+        "perform": {
+          "action": "Falha ao executar a ação."
+        },
+        "save": {
+          "data": "Falha ao salvar os dados.",
+          "pdf": "Falha ao salvar o PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Tem certeza?"
+      "are_you_sure": "Tem certeza?",
+      "export_data_pdf": "Deseja gerar uma versão em PDF destes dados?"
     },
     "select": {
       "frequency": "Selecione uma frequência",
@@ -1491,6 +1791,7 @@ static const Map<String,dynamic> en = {
       "export": {
         "all": "Export All",
         "as": "Export As",
+        "pdf": "Export As PDF",
         "text": "Export"
       },
       "fast_forward": "Fast Forward",
@@ -1632,7 +1933,6 @@ static const Map<String,dynamic> en = {
         "all": "Toggle All",
         "text": "Toggle"
       },
-      "try_again": "Try Again",
       "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
@@ -1651,6 +1951,38 @@ static const Map<String,dynamic> en = {
         "out": "Zoom Out",
         "reset": "Reset Zoom",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Time Elapsed",
+        "remaining": "Time Remaining",
+        "text": "Time"
+      },
+      "upgrade": {
+        "now": "Upgrade Now",
+        "text": "Upgrade"
+      },
+      "watch": {
+        "later": "Watch Later",
+        "now": "Watch Now",
+        "text": "Watch"
+      },
+      "operation": {
+        "canceled": "Operation canceled",
+        "completed": "Operation completed",
+        "failed": "Operation failed",
+        "in_progress": "Operation in progress",
+        "pending": "Operation pending",
+        "started": "Operation started",
+        "succeeded": "Operation succeeded",
+        "timed_out": "Operation timed out",
+        "text": "Operation"
+      },
+      "generate": "Generate",
+      "perform": "Perform",
+      "try": {
+        "again": "Try Again",
+        "later": "Try Later",
+        "text": "Try"
       }
     },
     "message": {
@@ -1668,7 +2000,6 @@ static const Map<String,dynamic> en = {
       "have_wonderful_day": "Have a wonderful day!",
       "last_updated_on": "Last updated on {date}",
       "let_get_started": "Let's get started!",
-      "loading": "Loading...",
       "modern_design": "Modern Look.",
       "no_favorites": "No favorites.",
       "please_wait": "Please wait...",
@@ -1683,10 +2014,39 @@ static const Map<String,dynamic> en = {
       "warning": "Warning!",
       "welcome": "Welcome!",
       "whats_new": "What's new?",
-      "whoops": "Whoops!"
+      "whoops": "Whoops!",
+      "generating": {
+        "pdf": "Generating PDF...",
+        "text": "Generating..."
+      },
+      "performing": "Performing...",
+      "processing": "Processing...",
+      "loading": {
+        "data": "Loading data...",
+        "pdf": "Loading PDF...",
+        "text": "Loading..."
+      },
+      "pdf_ready": "PDF ready!",
+      "failed_to": {
+        "load": {
+          "data": "Failed to load data.",
+          "pdf": "Failed to load PDF."
+        },
+        "generate": {
+          "pdf": "Failed to generate PDF."
+        },
+        "perform": {
+          "action": "Failed to perform action."
+        },
+        "save": {
+          "data": "Failed to save data.",
+          "pdf": "Failed to save PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Are you sure?"
+      "are_you_sure": "Are you sure?",
+      "export_data_pdf": "Would you like to generate a PDF version of this data?"
     },
     "select": {
       "frequency": "Select a frequency",
@@ -1772,6 +2132,7 @@ static const Map<String,dynamic> it = {
       "export": {
         "all": "Esporta tutto",
         "as": "Esporta come",
+        "pdf": "Esporta come PDF",
         "text": "Esporta"
       },
       "fast_forward": "Avanzamento rapido",
@@ -1913,7 +2274,6 @@ static const Map<String,dynamic> it = {
         "all": "Attiva/Disattiva tutto",
         "text": "Attiva/Disattiva"
       },
-      "try_again": "Riprova",
       "undo": "Annulla",
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
@@ -1932,6 +2292,38 @@ static const Map<String,dynamic> it = {
         "out": "Riduci",
         "reset": "Reimposta zoom",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Tempo trascorso",
+        "remaining": "Tempo rimanente",
+        "text": "Tempo"
+      },
+      "upgrade": {
+        "now": "Aggiorna ora",
+        "text": "Aggiornare"
+      },
+      "watch": {
+        "later": "Guarda più tardi",
+        "now": "Guarda ora",
+        "text": "Guarda"
+      },
+      "operation": {
+        "canceled": "Operazione annullata",
+        "completed": "Operazione completata",
+        "failed": "Operazione fallita",
+        "in_progress": "Operazione in corso",
+        "pending": "Operazione in attesa",
+        "started": "Operazione iniziata",
+        "succeeded": "Operazione riuscita",
+        "timed_out": "Operazione scaduta",
+        "text": "Operazione"
+      },
+      "generate": "Genera",
+      "perform": "Esegui",
+      "try": {
+        "again": "Prova di nuovo",
+        "later": "Prova più tardi",
+        "text": "Prova"
       }
     },
     "message": {
@@ -1949,7 +2341,6 @@ static const Map<String,dynamic> it = {
       "have_wonderful_day": "Buona giornata!",
       "last_updated_on": "Ultimo aggiornamento il {date}",
       "let_get_started": "Iniziamo!",
-      "loading": "Caricamento...",
       "modern_design": "Design moderno.",
       "no_favorites": "Nessun preferito.",
       "please_wait": "Attendere prego...",
@@ -1964,10 +2355,39 @@ static const Map<String,dynamic> it = {
       "warning": "Attenzione!",
       "welcome": "Benvenuto!",
       "whats_new": "Cosa c'è di nuovo?",
-      "whoops": "Ops!"
+      "whoops": "Ops!",
+      "generating": {
+        "pdf": "Generazione PDF...",
+        "text": "Generazione in corso..."
+      },
+      "performing": "In esecuzione...",
+      "processing": "Elaborazione in corso...",
+      "loading": {
+        "data": "Caricamento dati...",
+        "pdf": "Caricamento PDF...",
+        "text": "Caricamento in corso..."
+      },
+      "pdf_ready": "PDF pronto!",
+      "failed_to": {
+        "load": {
+          "data": "Impossibile caricare i dati.",
+          "pdf": "Impossibile caricare il PDF."
+        },
+        "generate": {
+          "pdf": "Generazione del PDF non riuscita."
+        },
+        "perform": {
+          "action": "Impossibile eseguire l'azione."
+        },
+        "save": {
+          "data": "Impossibile salvare i dati.",
+          "pdf": "Impossibile salvare il PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Sei sicuro?"
+      "are_you_sure": "Sei sicuro?",
+      "export_data_pdf": "Desideri generare una versione PDF di questi dati?"
     },
     "select": {
       "frequency": "Seleziona una frequenza",
@@ -2053,6 +2473,7 @@ static const Map<String,dynamic> fr = {
       "export": {
         "all": "Tout exporter",
         "as": "Exporter sous",
+        "pdf": "Exporter au format PDF",
         "text": "Exporter"
       },
       "fast_forward": "Avance rapide",
@@ -2194,7 +2615,6 @@ static const Map<String,dynamic> fr = {
         "all": "Tout basculer",
         "text": "Basculer"
       },
-      "try_again": "Réessayer",
       "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
@@ -2213,6 +2633,38 @@ static const Map<String,dynamic> fr = {
         "out": "Zoom arrière",
         "reset": "Réinitialiser le zoom",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Temps écoulé",
+        "remaining": "Temps restant",
+        "text": "Temps"
+      },
+      "upgrade": {
+        "now": "Mettre à jour maintenant",
+        "text": "Mettre à jour"
+      },
+      "watch": {
+        "later": "Regarder plus tard",
+        "now": "Regarder maintenant",
+        "text": "Regarder"
+      },
+      "operation": {
+        "canceled": "Opération annulée",
+        "completed": "Opération terminée",
+        "failed": "Opération échouée",
+        "in_progress": "Opération en cours",
+        "pending": "Opération en attente",
+        "started": "Opération commencée",
+        "succeeded": "Opération réussie",
+        "timed_out": "Opération expirée",
+        "text": "Opération"
+      },
+      "generate": "Générer",
+      "perform": "Effectuer",
+      "try": {
+        "again": "Essayer à nouveau",
+        "later": "Essayer plus tard",
+        "text": "Essayer"
       }
     },
     "message": {
@@ -2230,7 +2682,6 @@ static const Map<String,dynamic> fr = {
       "have_wonderful_day": "Passez une merveilleuse journée !",
       "last_updated_on": "Dernière mise à jour le {date}",
       "let_get_started": "Commençons !",
-      "loading": "Chargement...",
       "modern_design": "Design moderne.",
       "no_favorites": "Aucun favori.",
       "please_wait": "Veuillez patienter...",
@@ -2245,10 +2696,39 @@ static const Map<String,dynamic> fr = {
       "warning": "Attention !",
       "welcome": "Bienvenue !",
       "whats_new": "Quoi de neuf ?",
-      "whoops": "Oups !"
+      "whoops": "Oups !",
+      "generating": {
+        "pdf": "Génération du PDF...",
+        "text": "Génération..."
+      },
+      "performing": "Exécution...",
+      "processing": "Traitement...",
+      "loading": {
+        "data": "Chargement des données...",
+        "pdf": "Chargement du PDF...",
+        "text": "Chargement..."
+      },
+      "pdf_ready": "PDF prêt!",
+      "failed_to": {
+        "load": {
+          "data": "Échec du chargement des données.",
+          "pdf": "Échec du chargement du PDF."
+        },
+        "generate": {
+          "pdf": "Échec de la génération du PDF."
+        },
+        "perform": {
+          "action": "Échec de l'exécution de l'action."
+        },
+        "save": {
+          "data": "Échec de la sauvegarde des données.",
+          "pdf": "Échec de la sauvegarde du PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "Êtes-vous sûr(e) ?"
+      "are_you_sure": "Êtes-vous sûr(e) ?",
+      "export_data_pdf": "Souhaitez-vous générer une version PDF de ces données?"
     },
     "select": {
       "frequency": "Sélectionnez une fréquence",
@@ -2334,6 +2814,7 @@ static const Map<String,dynamic> es = {
       "export": {
         "all": "Exportar todo",
         "as": "Exportar como",
+        "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
       "fast_forward": "Avance rápido",
@@ -2475,7 +2956,6 @@ static const Map<String,dynamic> es = {
         "all": "Alternar todo",
         "text": "Alternar"
       },
-      "try_again": "Reintentar",
       "undo": "Deshacer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
@@ -2494,6 +2974,38 @@ static const Map<String,dynamic> es = {
         "out": "Alejar",
         "reset": "Restablecer zoom",
         "text": "Zoom"
+      },
+      "time": {
+        "elapsed": "Tiempo transcurrido",
+        "remaining": "Tiempo restante",
+        "text": "Tiempo"
+      },
+      "upgrade": {
+        "now": "Actualizar ahora",
+        "text": "Actualizar"
+      },
+      "watch": {
+        "later": "Ver más tarde",
+        "now": "Ver ahora",
+        "text": "Ver"
+      },
+      "operation": {
+        "canceled": "Operación cancelada",
+        "completed": "Operación completada",
+        "failed": "Operación fallida",
+        "in_progress": "Operación en progreso",
+        "pending": "Operación pendiente",
+        "started": "Operación iniciada",
+        "succeeded": "Operación exitosa",
+        "timed_out": "Operación expirada",
+        "text": "Operación"
+      },
+      "generate": "Generar",
+      "perform": "Realizar",
+      "try": {
+        "again": "Intentar de nuevo",
+        "later": "Intentar más tarde",
+        "text": "Intentar"
       }
     },
     "message": {
@@ -2511,7 +3023,6 @@ static const Map<String,dynamic> es = {
       "have_wonderful_day": "¡Que tengas un día maravilloso!",
       "last_updated_on": "Última actualización el {date}",
       "let_get_started": "¡Empecemos!",
-      "loading": "Cargando...",
       "modern_design": "Diseño moderno.",
       "no_favorites": "No hay favoritos.",
       "please_wait": "Por favor, espera...",
@@ -2526,10 +3037,39 @@ static const Map<String,dynamic> es = {
       "warning": "¡Advertencia!",
       "welcome": "¡Bienvenido!",
       "whats_new": "¿Qué hay de nuevo?",
-      "whoops": "¡Ups!"
+      "whoops": "¡Ups!",
+      "generating": {
+        "pdf": "Generando PDF...",
+        "text": "Generando..."
+      },
+      "performing": "Realizando...",
+      "processing": "Procesando...",
+      "loading": {
+        "data": "Cargando datos...",
+        "pdf": "Cargando PDF...",
+        "text": "Cargando..."
+      },
+      "pdf_ready": "¡PDF listo!",
+      "failed_to": {
+        "load": {
+          "data": "Error al cargar los datos.",
+          "pdf": "Error al cargar el PDF."
+        },
+        "generate": {
+          "pdf": "Error al generar el PDF."
+        },
+        "perform": {
+          "action": "Error al realizar la acción."
+        },
+        "save": {
+          "data": "Error al guardar los datos.",
+          "pdf": "Error al guardar el PDF."
+        }
+      }
     },
     "question": {
-      "are_you_sure": "¿Estás seguro?"
+      "are_you_sure": "¿Estás seguro?",
+      "export_data_pdf": "¿Desea generar una versión en PDF de estos datos?"
     },
     "select": {
       "frequency": "Selecciona una frecuencia",

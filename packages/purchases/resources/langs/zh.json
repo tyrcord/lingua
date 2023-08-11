@@ -61,7 +61,9 @@
       "purchased_items": "已购买项目列表：",
       "purchases_restored": "购买已恢复。",
       "thanks_purchase": "感谢您的购买。",
-      "unlock_premium_features": "享受众多高级功能。"
+      "unlock_premium_features": "享受众多高级功能。",
+      "have_not_acquired_premium_version": "您尚未购买高级版本。",
+      "do_have_premium_version": "您没有高级版本。"
     }
   }
 }
