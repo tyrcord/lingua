@@ -15,6 +15,42 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_ad` - `v0.0.9`](#lingua_ad---v009)
+ - [`lingua_core` - `v0.0.18`](#lingua_core---v0018)
+ - [`lingua_finance` - `v0.0.9`](#lingua_finance---v009)
+ - [`lingua_purchases` - `v0.0.11`](#lingua_purchases---v0011)
+
+---
+
+#### `lingua_ad` - `v0.0.9`
+
+ - **FEAT**: update localization.
+
+#### `lingua_core` - `v0.0.18`
+
+ - **FEAT**: update localization.
+
+#### `lingua_finance` - `v0.0.9`
+
+ - **FEAT**: update localization.
+
+#### `lingua_purchases` - `v0.0.11`
+
+ - **FEAT**: update localization.
+
+
+## 2023-08-13
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_ad` - `v0.0.8`](#lingua_ad---v008)
  - [`lingua_core` - `v0.0.17`](#lingua_core---v0017)
 
