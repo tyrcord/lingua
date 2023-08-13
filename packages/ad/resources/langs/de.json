@@ -13,9 +13,12 @@
     },
     "message": {
       "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
-      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut.",
       "watch_ad": {
-        "unlock_pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!"
+        "unlock": {
+          "pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!",
+          "feature": "Sehen Sie sich eine kurze Anzeige an, um diese Funktion freizuschalten!",
+          "feature_plural": "Sehen Sie sich eine kurze Anzeige an, um diese Funktionen freizuschalten!"
+        }
       },
       "enjoy_your_reward": "Genießen Sie Ihre Belohnung!"
     },

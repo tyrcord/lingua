@@ -13,9 +13,12 @@
     },
     "message": {
       "discover_other_app": "看看我们的其他免费应用程序！",
-      "no_ads_available": "当前没有广告可用。请稍后再查看。",
       "watch_ad": {
-        "unlock_pdf": "观看短片广告以解锁将数据导出为PDF的功能！"
+        "unlock": {
+          "pdf": "观看短片广告以解锁将数据导出为PDF的功能！",
+          "feature": "观看一个短广告以解锁此功能！",
+          "feature_plural": "观看一个短广告以解锁这些功能！"
+        }
       },
       "enjoy_your_reward": "享受您的奖励！"
     },

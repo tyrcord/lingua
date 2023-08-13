@@ -265,7 +265,48 @@
         "again": "Erneut versuchen",
         "later": "Später versuchen",
         "text": "Versuchen"
-      }
+      },
+      "valid": "Gültig",
+      "invalid": "Ungültig",
+      "accept": "Akzeptieren",
+      "reject": "Ablehnen",
+      "approve": "Genehmigen",
+      "disapprove": "Missbilligen",
+      "complete": "Vollständig",
+      "tip": "Tipp",
+      "hint": "Hinweis",
+      "required": "Erforderlich",
+      "accepted": "Akzeptiert",
+      "rejected": "Abgelehnt",
+      "pending": "Ausstehend",
+      "approved": "Genehmigt",
+      "disapproved": "Missbilligt",
+      "completed": "Abgeschlossen",
+      "incomplete": "Unvollständig",
+      "in_progress": "In Bearbeitung",
+      "paused": "Pausiert",
+      "resumed": "Fortgesetzt",
+      "canceled": "Abgebrochen",
+      "expired": "Abgelaufen",
+      "locked": "Gesperrt",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "enabled": "Aktiviert",
+      "disabled": "Deaktiviert",
+      "hidden": "Versteckt",
+      "visible": "Sichtbar",
+      "public": "Öffentlich",
+      "private": "Privat",
+      "personal": "Persönlich",
+      "commercial": "Kommerziell",
+      "non_commercial": "Nicht-kommerziell",
+      "internal": "Intern",
+      "external": "Extern",
+      "local": "Lokal",
+      "remote": "Fern",
+      "warning": "Warnung",
+      "info": "Info",
+      "question": "Frage"
     },
     "message": {
       "action": {
@@ -324,7 +365,8 @@
           "data": "Daten konnten nicht gespeichert werden.",
           "pdf": "PDF konnte nicht gespeichert werden."
         }
-      }
+      },
+      "searching": "Suche läuft..."
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",

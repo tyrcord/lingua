@@ -265,7 +265,48 @@
         "again": "Prova di nuovo",
         "later": "Prova più tardi",
         "text": "Prova"
-      }
+      },
+      "valid": "Valido",
+      "invalid": "Non valido",
+      "accept": "Accetta",
+      "reject": "Rifiuta",
+      "approve": "Approva",
+      "disapprove": "Disapprova",
+      "complete": "Completo",
+      "tip": "Consiglio",
+      "hint": "Suggerimento",
+      "required": "Richiesto",
+      "accepted": "Accettato",
+      "rejected": "Rifiutato",
+      "pending": "In attesa",
+      "approved": "Approvato",
+      "disapproved": "Disapprovato",
+      "completed": "Completato",
+      "incomplete": "Incompleto",
+      "in_progress": "In corso",
+      "paused": "In pausa",
+      "resumed": "Ripreso",
+      "canceled": "Annullato",
+      "expired": "Scaduto",
+      "locked": "Bloccato",
+      "active": "Attivo",
+      "inactive": "Inattivo",
+      "enabled": "Abilitato",
+      "disabled": "Disabilitato",
+      "hidden": "Nascosto",
+      "visible": "Visibile",
+      "public": "Pubblico",
+      "private": "Privato",
+      "personal": "Personale",
+      "commercial": "Commerciale",
+      "non_commercial": "Non commerciale",
+      "internal": "Interno",
+      "external": "Esterno",
+      "local": "Locale",
+      "remote": "Remoto",
+      "warning": "Avvertimento",
+      "info": "Informazione",
+      "question": "Domanda"
     },
     "message": {
       "action": {
@@ -324,7 +365,8 @@
           "data": "Impossibile salvare i dati.",
           "pdf": "Impossibile salvare il PDF."
         }
-      }
+      },
+      "searching": "Ricerca in corso..."
     },
     "question": {
       "are_you_sure": "Sei sicuro?",

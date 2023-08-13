@@ -265,7 +265,48 @@
         "again": "Try Again",
         "later": "Try Later",
         "text": "Try"
-      }
+      },
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "accept": "Accept",
+      "reject": "Reject",
+      "approve": "Approve",
+      "disapprove": "Disapprove",
+      "complete": "Complete",
+      "tip": "Tip",
+      "hint": "Hint",
+      "required": "Required",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "pending": "Pending",
+      "approved": "Approved",
+      "disapproved": "Disapproved",
+      "completed": "Completed",
+      "incomplete": "Incomplete",
+      "in_progress": "In Progress",
+      "paused": "Paused",
+      "resumed": "Resumed",
+      "canceled": "Canceled",
+      "expired": "Expired",
+      "locked": "Locked",
+      "active": "Active",
+      "inactive": "Inactive",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "hidden": "Hidden",
+      "visible": "Visible",
+      "public": "Public",
+      "private": "Private",
+      "personal": "Personal",
+      "commercial": "Commercial",
+      "non_commercial": "Non-commercial",
+      "internal": "Internal",
+      "external": "External",
+      "local": "Local",
+      "remote": "Remote",
+      "warning": "Warning",
+      "info": "Info",
+      "question": "Question"
     },
     "message": {
       "action": {
@@ -324,7 +365,8 @@
           "data": "Failed to save data.",
           "pdf": "Failed to save PDF."
         }
-      }
+      },
+      "searching": "Searching..."
     },
     "question": {
       "are_you_sure": "Are you sure?",

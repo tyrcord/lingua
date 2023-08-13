@@ -265,7 +265,48 @@
         "again": "再試行",
         "later": "後で試す",
         "text": "試す"
-      }
+      },
+      "valid": "有効",
+      "invalid": "無効",
+      "accept": "受け入れる",
+      "reject": "拒否",
+      "approve": "承認",
+      "disapprove": "不承認",
+      "complete": "完了",
+      "tip": "ヒント",
+      "hint": "手がかり",
+      "required": "必須",
+      "accepted": "受け入れられた",
+      "rejected": "拒否された",
+      "pending": "保留中",
+      "approved": "承認済み",
+      "disapproved": "不承認",
+      "completed": "完了した",
+      "incomplete": "不完全",
+      "in_progress": "進行中",
+      "paused": "一時停止",
+      "resumed": "再開",
+      "canceled": "キャンセル",
+      "expired": "期限切れ",
+      "locked": "ロックされた",
+      "active": "アクティブ",
+      "inactive": "非アクティブ",
+      "enabled": "有効",
+      "disabled": "無効",
+      "hidden": "非表示",
+      "visible": "表示",
+      "public": "公開",
+      "private": "非公開",
+      "personal": "個人",
+      "commercial": "商業的",
+      "non_commercial": "非商業的",
+      "internal": "内部",
+      "external": "外部",
+      "local": "ローカル",
+      "remote": "リモート",
+      "warning": "警告",
+      "info": "情報",
+      "question": "質問"
     },
     "message": {
       "action": {
@@ -324,7 +365,8 @@
           "data": "データの保存に失敗しました。",
           "pdf": "PDFの保存に失敗しました。"
         }
-      }
+      },
+      "searching": "検索中..."
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",

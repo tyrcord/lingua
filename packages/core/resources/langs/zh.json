@@ -265,7 +265,48 @@
         "again": "再试一次",
         "later": "稍后再试",
         "text": "尝试"
-      }
+      },
+      "valid": "有效",
+      "invalid": "无效",
+      "accept": "接受",
+      "reject": "拒绝",
+      "approve": "批准",
+      "disapprove": "不批准",
+      "complete": "完成",
+      "tip": "提示",
+      "hint": "线索",
+      "required": "必需",
+      "accepted": "已接受",
+      "rejected": "已拒绝",
+      "pending": "待定",
+      "approved": "已批准",
+      "disapproved": "未批准",
+      "completed": "已完成",
+      "incomplete": "未完成",
+      "in_progress": "进行中",
+      "paused": "暂停",
+      "resumed": "已恢复",
+      "canceled": "已取消",
+      "expired": "已过期",
+      "locked": "已锁定",
+      "active": "活跃",
+      "inactive": "不活跃",
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "hidden": "隐藏",
+      "visible": "可见",
+      "public": "公开",
+      "private": "私有",
+      "personal": "个人",
+      "commercial": "商业",
+      "non_commercial": "非商业",
+      "internal": "内部",
+      "external": "外部",
+      "local": "本地",
+      "remote": "远程",
+      "warning": "警告",
+      "info": "信息",
+      "question": "问题"
     },
     "message": {
       "action": {
@@ -324,7 +365,8 @@
           "data": "保存数据失败。",
           "pdf": "保存PDF失败。"
         }
-      }
+      },
+      "searching": "正在搜索..."
     },
     "question": {
       "are_you_sure": "确定吗？",

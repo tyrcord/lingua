@@ -265,7 +265,48 @@
         "again": "Essayer à nouveau",
         "later": "Essayer plus tard",
         "text": "Essayer"
-      }
+      },
+      "valid": "Valide",
+      "invalid": "Invalide",
+      "accept": "Accepter",
+      "reject": "Rejeter",
+      "approve": "Approuver",
+      "disapprove": "Désapprouver",
+      "complete": "Complet",
+      "tip": "Conseil",
+      "hint": "Indice",
+      "required": "Requis",
+      "accepted": "Accepté",
+      "rejected": "Rejeté",
+      "pending": "En attente",
+      "approved": "Approuvé",
+      "disapproved": "Désapprouvé",
+      "completed": "Terminé",
+      "incomplete": "Incomplet",
+      "in_progress": "En cours",
+      "paused": "En pause",
+      "resumed": "Repris",
+      "canceled": "Annulé",
+      "expired": "Expiré",
+      "locked": "Verrouillé",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "enabled": "Activé",
+      "disabled": "Désactivé",
+      "hidden": "Caché",
+      "visible": "Visible",
+      "public": "Public",
+      "private": "Privé",
+      "personal": "Personnel",
+      "commercial": "Commercial",
+      "non_commercial": "Non commercial",
+      "internal": "Interne",
+      "external": "Externe",
+      "local": "Local",
+      "remote": "Distant",
+      "warning": "Avertissement",
+      "info": "Info",
+      "question": "Question"
     },
     "message": {
       "action": {
@@ -324,7 +365,8 @@
           "data": "Échec de la sauvegarde des données.",
           "pdf": "Échec de la sauvegarde du PDF."
         }
-      }
+      },
+      "searching": "Recherche en cours..."
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",

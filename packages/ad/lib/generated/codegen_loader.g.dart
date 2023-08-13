@@ -26,9 +26,12 @@ class AdCodegenLoader extends AssetLoader {
     },
     "message": {
       "discover_other_app": "看看我们的其他免费应用程序！",
-      "no_ads_available": "当前没有广告可用。请稍后再查看。",
       "watch_ad": {
-        "unlock_pdf": "观看短片广告以解锁将数据导出为PDF的功能！"
+        "unlock": {
+          "pdf": "观看短片广告以解锁将数据导出为PDF的功能！",
+          "feature": "观看一个短广告以解锁此功能！",
+          "feature_plural": "观看一个短广告以解锁这些功能！"
+        }
       },
       "enjoy_your_reward": "享受您的奖励！"
     },
@@ -54,9 +57,12 @@ static const Map<String,dynamic> ja = {
     },
     "message": {
       "discover_other_app": "私たちの他の無料アプリをご覧ください！",
-      "no_ads_available": "現在、広告は利用できません。後で再度確認してください。",
       "watch_ad": {
-        "unlock_pdf": "短い広告を見ると、データをPDFとしてエクスポートする機能をアンロックできます！"
+        "unlock": {
+          "pdf": "短い広告を見ると、データをPDFとしてエクスポートする機能をアンロックできます！",
+          "feature": "この機能のロックを解除するために短い広告をご覧ください!",
+          "feature_plural": "これらの機能のロックを解除するために短い広告をご覧ください!"
+        }
       },
       "enjoy_your_reward": "ご褒美をお楽しみください！"
     },
@@ -82,9 +88,12 @@ static const Map<String,dynamic> de = {
     },
     "message": {
       "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
-      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut.",
       "watch_ad": {
-        "unlock_pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!"
+        "unlock": {
+          "pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!",
+          "feature": "Sehen Sie sich eine kurze Anzeige an, um diese Funktion freizuschalten!",
+          "feature_plural": "Sehen Sie sich eine kurze Anzeige an, um diese Funktionen freizuschalten!"
+        }
       },
       "enjoy_your_reward": "Genießen Sie Ihre Belohnung!"
     },
@@ -110,9 +119,12 @@ static const Map<String,dynamic> ru = {
     },
     "message": {
       "discover_other_app": "Ознакомьтесь с нашими другими бесплатными приложениями!",
-      "no_ads_available": "В настоящее время объявлений нет. Пожалуйста, проверьте позже.",
       "watch_ad": {
-        "unlock_pdf": "Посмотрите короткую рекламу, чтобы разблокировать возможность экспорта ваших данных в формате PDF!"
+        "unlock": {
+          "pdf": "Посмотрите короткую рекламу, чтобы разблокировать возможность экспорта ваших данных в формате PDF!",
+          "feature": "Посмотрите короткую рекламу, чтобы разблокировать эту функцию!",
+          "feature_plural": "Посмотрите короткую рекламу, чтобы разблокировать эти функции!"
+        }
       },
       "enjoy_your_reward": "Наслаждайтесь вашей наградой!"
     },
@@ -138,9 +150,12 @@ static const Map<String,dynamic> pt = {
     },
     "message": {
       "discover_other_app": "Dê uma olhada em nossos outros aplicativos gratuitos!",
-      "no_ads_available": "Atualmente, não há anúncios disponíveis. Por favor, verifique novamente mais tarde.",
       "watch_ad": {
-        "unlock_pdf": "Assista a um anúncio curto para desbloquear a capacidade de exportar seus dados como PDF!"
+        "unlock": {
+          "pdf": "Assista a um anúncio curto para desbloquear a capacidade de exportar seus dados como PDF!",
+          "feature": "Assista a um anúncio curto para desbloquear este recurso!",
+          "feature_plural": "Assista a um anúncio curto para desbloquear esses recursos!"
+        }
       },
       "enjoy_your_reward": "Aproveite sua recompensa!"
     },
@@ -166,9 +181,12 @@ static const Map<String,dynamic> en = {
     },
     "message": {
       "discover_other_app": "Take a look at our other free apps!",
-      "no_ads_available": "Currently, there are no ads available. Please check back later.",
       "watch_ad": {
-        "unlock_pdf": "Watch a short ad to unlock the ability to export your data as a PDF!"
+        "unlock": {
+          "pdf": "Watch a short ad to unlock the ability to export your data as a PDF!",
+          "feature": "Watch a short ad to unlock this feature!",
+          "feature_plural": "Watch a short ad to unlock these features!"
+        }
       },
       "enjoy_your_reward": "Enjoy your reward!"
     },
@@ -194,9 +212,12 @@ static const Map<String,dynamic> it = {
     },
     "message": {
       "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
-      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi.",
       "watch_ad": {
-        "unlock_pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"
+        "unlock": {
+          "pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!",
+          "feature": "Guarda un breve annuncio per sbloccare questa funzione!",
+          "feature_plural": "Guarda un breve annuncio per sbloccare queste funzioni!"
+        }
       },
       "enjoy_your_reward": "Goditi il tuo premio!"
     },
@@ -222,9 +243,12 @@ static const Map<String,dynamic> fr = {
     },
     "message": {
       "discover_other_app": "Jetez un œil à nos autres applications gratuites!",
-      "no_ads_available": "Actuellement, il n'y a pas de publicités disponibles. Veuillez vérifier à nouveau plus tard.",
       "watch_ad": {
-        "unlock_pdf": "Regardez une courte publicité pour débloquer la possibilité d'exporter vos données au format PDF!"
+        "unlock": {
+          "pdf": "Regardez une courte publicité pour débloquer la possibilité d'exporter vos données au format PDF!",
+          "feature": "Regardez une courte publicité pour débloquer cette fonction!",
+          "feature_plural": "Regardez une courte publicité pour débloquer ces fonctions!"
+        }
       },
       "enjoy_your_reward": "Profitez de votre récompense!"
     },
@@ -250,9 +274,12 @@ static const Map<String,dynamic> es = {
     },
     "message": {
       "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
-      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde.",
       "watch_ad": {
-        "unlock_pdf": "¡Vea un anuncio breve para desbloquear la capacidad de exportar sus datos como PDF!"
+        "unlock": {
+          "pdf": "¡Vea un anuncio breve para desbloquear la capacidad de exportar sus datos como PDF!",
+          "feature": "¡Mira un anuncio corto para desbloquear esta función!",
+          "feature_plural": "¡Mira un anuncio corto para desbloquear estas funciones!"
+        }
       },
       "enjoy_your_reward": "¡Disfruta tu recompensa!"
     },

@@ -13,9 +13,12 @@
     },
     "message": {
       "discover_other_app": "Jetez un œil à nos autres applications gratuites!",
-      "no_ads_available": "Actuellement, il n'y a pas de publicités disponibles. Veuillez vérifier à nouveau plus tard.",
       "watch_ad": {
-        "unlock_pdf": "Regardez une courte publicité pour débloquer la possibilité d'exporter vos données au format PDF!"
+        "unlock": {
+          "pdf": "Regardez une courte publicité pour débloquer la possibilité d'exporter vos données au format PDF!",
+          "feature": "Regardez une courte publicité pour débloquer cette fonction!",
+          "feature_plural": "Regardez une courte publicité pour débloquer ces fonctions!"
+        }
       },
       "enjoy_your_reward": "Profitez de votre récompense!"
     },

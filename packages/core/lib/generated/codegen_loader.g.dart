@@ -278,7 +278,48 @@ class CoreCodegenLoader extends AssetLoader {
         "again": "再试一次",
         "later": "稍后再试",
         "text": "尝试"
-      }
+      },
+      "valid": "有效",
+      "invalid": "无效",
+      "accept": "接受",
+      "reject": "拒绝",
+      "approve": "批准",
+      "disapprove": "不批准",
+      "complete": "完成",
+      "tip": "提示",
+      "hint": "线索",
+      "required": "必需",
+      "accepted": "已接受",
+      "rejected": "已拒绝",
+      "pending": "待定",
+      "approved": "已批准",
+      "disapproved": "未批准",
+      "completed": "已完成",
+      "incomplete": "未完成",
+      "in_progress": "进行中",
+      "paused": "暂停",
+      "resumed": "已恢复",
+      "canceled": "已取消",
+      "expired": "已过期",
+      "locked": "已锁定",
+      "active": "活跃",
+      "inactive": "不活跃",
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "hidden": "隐藏",
+      "visible": "可见",
+      "public": "公开",
+      "private": "私有",
+      "personal": "个人",
+      "commercial": "商业",
+      "non_commercial": "非商业",
+      "internal": "内部",
+      "external": "外部",
+      "local": "本地",
+      "remote": "远程",
+      "warning": "警告",
+      "info": "信息",
+      "question": "问题"
     },
     "message": {
       "action": {
@@ -337,7 +378,8 @@ class CoreCodegenLoader extends AssetLoader {
           "data": "保存数据失败。",
           "pdf": "保存PDF失败。"
         }
-      }
+      },
+      "searching": "正在搜索..."
     },
     "question": {
       "are_you_sure": "确定吗？",
@@ -619,7 +661,48 @@ static const Map<String,dynamic> ja = {
         "again": "再試行",
         "later": "後で試す",
         "text": "試す"
-      }
+      },
+      "valid": "有効",
+      "invalid": "無効",
+      "accept": "受け入れる",
+      "reject": "拒否",
+      "approve": "承認",
+      "disapprove": "不承認",
+      "complete": "完了",
+      "tip": "ヒント",
+      "hint": "手がかり",
+      "required": "必須",
+      "accepted": "受け入れられた",
+      "rejected": "拒否された",
+      "pending": "保留中",
+      "approved": "承認済み",
+      "disapproved": "不承認",
+      "completed": "完了した",
+      "incomplete": "不完全",
+      "in_progress": "進行中",
+      "paused": "一時停止",
+      "resumed": "再開",
+      "canceled": "キャンセル",
+      "expired": "期限切れ",
+      "locked": "ロックされた",
+      "active": "アクティブ",
+      "inactive": "非アクティブ",
+      "enabled": "有効",
+      "disabled": "無効",
+      "hidden": "非表示",
+      "visible": "表示",
+      "public": "公開",
+      "private": "非公開",
+      "personal": "個人",
+      "commercial": "商業的",
+      "non_commercial": "非商業的",
+      "internal": "内部",
+      "external": "外部",
+      "local": "ローカル",
+      "remote": "リモート",
+      "warning": "警告",
+      "info": "情報",
+      "question": "質問"
     },
     "message": {
       "action": {
@@ -678,7 +761,8 @@ static const Map<String,dynamic> ja = {
           "data": "データの保存に失敗しました。",
           "pdf": "PDFの保存に失敗しました。"
         }
-      }
+      },
+      "searching": "検索中..."
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",
@@ -960,7 +1044,48 @@ static const Map<String,dynamic> de = {
         "again": "Erneut versuchen",
         "later": "Später versuchen",
         "text": "Versuchen"
-      }
+      },
+      "valid": "Gültig",
+      "invalid": "Ungültig",
+      "accept": "Akzeptieren",
+      "reject": "Ablehnen",
+      "approve": "Genehmigen",
+      "disapprove": "Missbilligen",
+      "complete": "Vollständig",
+      "tip": "Tipp",
+      "hint": "Hinweis",
+      "required": "Erforderlich",
+      "accepted": "Akzeptiert",
+      "rejected": "Abgelehnt",
+      "pending": "Ausstehend",
+      "approved": "Genehmigt",
+      "disapproved": "Missbilligt",
+      "completed": "Abgeschlossen",
+      "incomplete": "Unvollständig",
+      "in_progress": "In Bearbeitung",
+      "paused": "Pausiert",
+      "resumed": "Fortgesetzt",
+      "canceled": "Abgebrochen",
+      "expired": "Abgelaufen",
+      "locked": "Gesperrt",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "enabled": "Aktiviert",
+      "disabled": "Deaktiviert",
+      "hidden": "Versteckt",
+      "visible": "Sichtbar",
+      "public": "Öffentlich",
+      "private": "Privat",
+      "personal": "Persönlich",
+      "commercial": "Kommerziell",
+      "non_commercial": "Nicht-kommerziell",
+      "internal": "Intern",
+      "external": "Extern",
+      "local": "Lokal",
+      "remote": "Fern",
+      "warning": "Warnung",
+      "info": "Info",
+      "question": "Frage"
     },
     "message": {
       "action": {
@@ -1019,7 +1144,8 @@ static const Map<String,dynamic> de = {
           "data": "Daten konnten nicht gespeichert werden.",
           "pdf": "PDF konnte nicht gespeichert werden."
         }
-      }
+      },
+      "searching": "Suche läuft..."
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",
@@ -1301,7 +1427,48 @@ static const Map<String,dynamic> ru = {
         "again": "Попробовать снова",
         "later": "Попробовать позже",
         "text": "Попробовать"
-      }
+      },
+      "valid": "Действительно",
+      "invalid": "Недействительно",
+      "accept": "Принять",
+      "reject": "Отклонить",
+      "approve": "Одобрить",
+      "disapprove": "Отклонить",
+      "complete": "Завершено",
+      "tip": "Совет",
+      "hint": "Подсказка",
+      "required": "Обязательно",
+      "accepted": "Принято",
+      "rejected": "Отклонено",
+      "pending": "Ожидание",
+      "approved": "Одобрено",
+      "disapproved": "Не одобрено",
+      "completed": "Выполнено",
+      "incomplete": "Незавершенный",
+      "in_progress": "В процессе",
+      "paused": "Приостановлено",
+      "resumed": "Возобновлено",
+      "canceled": "Отменено",
+      "expired": "Истекло",
+      "locked": "Заблокировано",
+      "active": "Активный",
+      "inactive": "Неактивный",
+      "enabled": "Включено",
+      "disabled": "Выключено",
+      "hidden": "Скрыто",
+      "visible": "Видимый",
+      "public": "Публичный",
+      "private": "Частный",
+      "personal": "Личный",
+      "commercial": "Коммерческий",
+      "non_commercial": "Некоммерческий",
+      "internal": "Внутренний",
+      "external": "Внешний",
+      "local": "Локальный",
+      "remote": "Удаленный",
+      "warning": "Предупреждение",
+      "info": "Информация",
+      "question": "Вопрос"
     },
     "message": {
       "action": {
@@ -1360,7 +1527,8 @@ static const Map<String,dynamic> ru = {
           "data": "Не удалось сохранить данные.",
           "pdf": "Не удалось сохранить PDF."
         }
-      }
+      },
+      "searching": "Поиск..."
     },
     "question": {
       "are_you_sure": "Вы уверены?",
@@ -1642,7 +1810,48 @@ static const Map<String,dynamic> pt = {
         "again": "Tentar novamente",
         "later": "Tentar mais tarde",
         "text": "Tentar"
-      }
+      },
+      "valid": "Válido",
+      "invalid": "Inválido",
+      "accept": "Aceitar",
+      "reject": "Rejeitar",
+      "approve": "Aprovar",
+      "disapprove": "Desaprovar",
+      "complete": "Completo",
+      "tip": "Dica",
+      "hint": "Sugestão",
+      "required": "Obrigatório",
+      "accepted": "Aceito",
+      "rejected": "Rejeitado",
+      "pending": "Pendente",
+      "approved": "Aprovado",
+      "disapproved": "Desaprovado",
+      "completed": "Concluído",
+      "incomplete": "Incompleto",
+      "in_progress": "Em progresso",
+      "paused": "Pausado",
+      "resumed": "Retomado",
+      "canceled": "Cancelado",
+      "expired": "Expirado",
+      "locked": "Bloqueado",
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "enabled": "Habilitado",
+      "disabled": "Desabilitado",
+      "hidden": "Oculto",
+      "visible": "Visível",
+      "public": "Público",
+      "private": "Privado",
+      "personal": "Pessoal",
+      "commercial": "Comercial",
+      "non_commercial": "Não-comercial",
+      "internal": "Interno",
+      "external": "Externo",
+      "local": "Local",
+      "remote": "Remoto",
+      "warning": "Aviso",
+      "info": "Informação",
+      "question": "Questão"
     },
     "message": {
       "action": {
@@ -1701,7 +1910,8 @@ static const Map<String,dynamic> pt = {
           "data": "Falha ao salvar os dados.",
           "pdf": "Falha ao salvar o PDF."
         }
-      }
+      },
+      "searching": "Procurando..."
     },
     "question": {
       "are_you_sure": "Tem certeza?",
@@ -1983,7 +2193,48 @@ static const Map<String,dynamic> en = {
         "again": "Try Again",
         "later": "Try Later",
         "text": "Try"
-      }
+      },
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "accept": "Accept",
+      "reject": "Reject",
+      "approve": "Approve",
+      "disapprove": "Disapprove",
+      "complete": "Complete",
+      "tip": "Tip",
+      "hint": "Hint",
+      "required": "Required",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "pending": "Pending",
+      "approved": "Approved",
+      "disapproved": "Disapproved",
+      "completed": "Completed",
+      "incomplete": "Incomplete",
+      "in_progress": "In Progress",
+      "paused": "Paused",
+      "resumed": "Resumed",
+      "canceled": "Canceled",
+      "expired": "Expired",
+      "locked": "Locked",
+      "active": "Active",
+      "inactive": "Inactive",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "hidden": "Hidden",
+      "visible": "Visible",
+      "public": "Public",
+      "private": "Private",
+      "personal": "Personal",
+      "commercial": "Commercial",
+      "non_commercial": "Non-commercial",
+      "internal": "Internal",
+      "external": "External",
+      "local": "Local",
+      "remote": "Remote",
+      "warning": "Warning",
+      "info": "Info",
+      "question": "Question"
     },
     "message": {
       "action": {
@@ -2042,7 +2293,8 @@ static const Map<String,dynamic> en = {
           "data": "Failed to save data.",
           "pdf": "Failed to save PDF."
         }
-      }
+      },
+      "searching": "Searching..."
     },
     "question": {
       "are_you_sure": "Are you sure?",
@@ -2324,7 +2576,48 @@ static const Map<String,dynamic> it = {
         "again": "Prova di nuovo",
         "later": "Prova più tardi",
         "text": "Prova"
-      }
+      },
+      "valid": "Valido",
+      "invalid": "Non valido",
+      "accept": "Accetta",
+      "reject": "Rifiuta",
+      "approve": "Approva",
+      "disapprove": "Disapprova",
+      "complete": "Completo",
+      "tip": "Consiglio",
+      "hint": "Suggerimento",
+      "required": "Richiesto",
+      "accepted": "Accettato",
+      "rejected": "Rifiutato",
+      "pending": "In attesa",
+      "approved": "Approvato",
+      "disapproved": "Disapprovato",
+      "completed": "Completato",
+      "incomplete": "Incompleto",
+      "in_progress": "In corso",
+      "paused": "In pausa",
+      "resumed": "Ripreso",
+      "canceled": "Annullato",
+      "expired": "Scaduto",
+      "locked": "Bloccato",
+      "active": "Attivo",
+      "inactive": "Inattivo",
+      "enabled": "Abilitato",
+      "disabled": "Disabilitato",
+      "hidden": "Nascosto",
+      "visible": "Visibile",
+      "public": "Pubblico",
+      "private": "Privato",
+      "personal": "Personale",
+      "commercial": "Commerciale",
+      "non_commercial": "Non commerciale",
+      "internal": "Interno",
+      "external": "Esterno",
+      "local": "Locale",
+      "remote": "Remoto",
+      "warning": "Avvertimento",
+      "info": "Informazione",
+      "question": "Domanda"
     },
     "message": {
       "action": {
@@ -2383,7 +2676,8 @@ static const Map<String,dynamic> it = {
           "data": "Impossibile salvare i dati.",
           "pdf": "Impossibile salvare il PDF."
         }
-      }
+      },
+      "searching": "Ricerca in corso..."
     },
     "question": {
       "are_you_sure": "Sei sicuro?",
@@ -2665,7 +2959,48 @@ static const Map<String,dynamic> fr = {
         "again": "Essayer à nouveau",
         "later": "Essayer plus tard",
         "text": "Essayer"
-      }
+      },
+      "valid": "Valide",
+      "invalid": "Invalide",
+      "accept": "Accepter",
+      "reject": "Rejeter",
+      "approve": "Approuver",
+      "disapprove": "Désapprouver",
+      "complete": "Complet",
+      "tip": "Conseil",
+      "hint": "Indice",
+      "required": "Requis",
+      "accepted": "Accepté",
+      "rejected": "Rejeté",
+      "pending": "En attente",
+      "approved": "Approuvé",
+      "disapproved": "Désapprouvé",
+      "completed": "Terminé",
+      "incomplete": "Incomplet",
+      "in_progress": "En cours",
+      "paused": "En pause",
+      "resumed": "Repris",
+      "canceled": "Annulé",
+      "expired": "Expiré",
+      "locked": "Verrouillé",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "enabled": "Activé",
+      "disabled": "Désactivé",
+      "hidden": "Caché",
+      "visible": "Visible",
+      "public": "Public",
+      "private": "Privé",
+      "personal": "Personnel",
+      "commercial": "Commercial",
+      "non_commercial": "Non commercial",
+      "internal": "Interne",
+      "external": "Externe",
+      "local": "Local",
+      "remote": "Distant",
+      "warning": "Avertissement",
+      "info": "Info",
+      "question": "Question"
     },
     "message": {
       "action": {
@@ -2724,7 +3059,8 @@ static const Map<String,dynamic> fr = {
           "data": "Échec de la sauvegarde des données.",
           "pdf": "Échec de la sauvegarde du PDF."
         }
-      }
+      },
+      "searching": "Recherche en cours..."
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",
@@ -3006,7 +3342,48 @@ static const Map<String,dynamic> es = {
         "again": "Intentar de nuevo",
         "later": "Intentar más tarde",
         "text": "Intentar"
-      }
+      },
+      "valid": "Válido",
+      "invalid": "Inválido",
+      "accept": "Aceptar",
+      "reject": "Rechazar",
+      "approve": "Aprobar",
+      "disapprove": "Desaprobar",
+      "complete": "Completado",
+      "tip": "Consejo",
+      "hint": "Pista",
+      "required": "Requerido",
+      "accepted": "Aceptado",
+      "rejected": "Rechazado",
+      "pending": "Pendiente",
+      "approved": "Aprobado",
+      "disapproved": "Desaprobado",
+      "completed": "Finalizado",
+      "incomplete": "Incompleto",
+      "in_progress": "En progreso",
+      "paused": "Pausado",
+      "resumed": "Reanudado",
+      "canceled": "Cancelado",
+      "expired": "Expirado",
+      "locked": "Bloqueado",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "enabled": "Habilitado",
+      "disabled": "Deshabilitado",
+      "hidden": "Oculto",
+      "visible": "Visible",
+      "public": "Público",
+      "private": "Privado",
+      "personal": "Personal",
+      "commercial": "Comercial",
+      "non_commercial": "No comercial",
+      "internal": "Interno",
+      "external": "Externo",
+      "local": "Local",
+      "remote": "Remoto",
+      "warning": "Advertencia",
+      "info": "Información",
+      "question": "Pregunta"
     },
     "message": {
       "action": {
@@ -3065,7 +3442,8 @@ static const Map<String,dynamic> es = {
           "data": "Error al guardar los datos.",
           "pdf": "Error al guardar el PDF."
         }
-      }
+      },
+      "searching": "Buscando..."
     },
     "question": {
       "are_you_sure": "¿Estás seguro?",

@@ -13,9 +13,12 @@
     },
     "message": {
       "discover_other_app": "Dê uma olhada em nossos outros aplicativos gratuitos!",
-      "no_ads_available": "Atualmente, não há anúncios disponíveis. Por favor, verifique novamente mais tarde.",
       "watch_ad": {
-        "unlock_pdf": "Assista a um anúncio curto para desbloquear a capacidade de exportar seus dados como PDF!"
+        "unlock": {
+          "pdf": "Assista a um anúncio curto para desbloquear a capacidade de exportar seus dados como PDF!",
+          "feature": "Assista a um anúncio curto para desbloquear este recurso!",
+          "feature_plural": "Assista a um anúncio curto para desbloquear esses recursos!"
+        }
       },
       "enjoy_your_reward": "Aproveite sua recompensa!"
     },

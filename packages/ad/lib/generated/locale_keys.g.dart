@@ -11,8 +11,10 @@ abstract class AdLocaleKeys {
   static const ad_label_watch_ad = 'ad.label.watch_ad';
   static const ad_label = 'ad.label';
   static const ad_message_discover_other_app = 'ad.message.discover_other_app';
-  static const ad_message_no_ads_available = 'ad.message.no_ads_available';
-  static const ad_message_watch_ad_unlock_pdf = 'ad.message.watch_ad.unlock_pdf';
+  static const ad_message_watch_ad_unlock_pdf = 'ad.message.watch_ad.unlock.pdf';
+  static const ad_message_watch_ad_unlock_feature = 'ad.message.watch_ad.unlock.feature';
+  static const ad_message_watch_ad_unlock_feature_plural = 'ad.message.watch_ad.unlock.feature_plural';
+  static const ad_message_watch_ad_unlock = 'ad.message.watch_ad.unlock';
   static const ad_message_watch_ad = 'ad.message.watch_ad';
   static const ad_message_enjoy_your_reward = 'ad.message.enjoy_your_reward';
   static const ad_message = 'ad.message';

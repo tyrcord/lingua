@@ -13,9 +13,12 @@
     },
     "message": {
       "discover_other_app": "Take a look at our other free apps!",
-      "no_ads_available": "Currently, there are no ads available. Please check back later.",
       "watch_ad": {
-        "unlock_pdf": "Watch a short ad to unlock the ability to export your data as a PDF!"
+        "unlock": {
+          "pdf": "Watch a short ad to unlock the ability to export your data as a PDF!",
+          "feature": "Watch a short ad to unlock this feature!",
+          "feature_plural": "Watch a short ad to unlock these features!"
+        }
       },
       "enjoy_your_reward": "Enjoy your reward!"
     },

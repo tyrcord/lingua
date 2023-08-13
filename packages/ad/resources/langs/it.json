@@ -13,9 +13,12 @@
     },
     "message": {
       "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
-      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi.",
       "watch_ad": {
-        "unlock_pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"
+        "unlock": {
+          "pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!",
+          "feature": "Guarda un breve annuncio per sbloccare questa funzione!",
+          "feature_plural": "Guarda un breve annuncio per sbloccare queste funzioni!"
+        }
       },
       "enjoy_your_reward": "Goditi il tuo premio!"
     },
