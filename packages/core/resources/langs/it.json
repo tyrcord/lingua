@@ -5,6 +5,9 @@
       "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
     },
     "label": {
+      "accept": "Accetta",
+      "accepted": "Accettato",
+      "active": "Attivo",
       "add": "Aggiungere",
       "advanced": "Avanzate",
       "all": {
@@ -13,12 +16,15 @@
         "other": "Tutti"
       },
       "annually": "Annualmente",
+      "approve": "Approva",
+      "approved": "Approvato",
       "at": "A",
       "auto_save": "Salvataggio automatico",
       "back": "Indietro",
       "behavior": "Comportamento",
       "buy": "Acquistare",
       "cancel": "Annulla",
+      "canceled": "Annullato",
       "clear": {
         "selection": "Cancella selezione",
         "text": "Cancella"
@@ -34,6 +40,9 @@
         "all": "Comprimi tutto",
         "text": "Comprimi"
       },
+      "commercial": "Commerciale",
+      "complete": "Completo",
+      "completed": "Completato",
       "confirm": "Conferma",
       "confirmation": "Conferma",
       "continue": "Continua",
@@ -48,10 +57,14 @@
       "delete": "Elimina",
       "description": "Descrizione",
       "details": "Dettagli",
+      "disabled": "Disabilitato",
+      "disapprove": "Disapprova",
+      "disapproved": "Disapprovato",
       "display": "Visualizza",
       "done": "Fatto",
       "download": "Scarica",
       "edit": "Modificare",
+      "enabled": "Abilitato",
       "enter": {
         "fullscreen": "Entra in modalità schermo intero",
         "pip": "Entra in modalità immagine in immagine",
@@ -70,12 +83,14 @@
         "all": "Espandi tutto",
         "text": "Espandi"
       },
+      "expired": "Scaduto",
       "export": {
         "all": "Esporta tutto",
         "as": "Esporta come",
         "pdf": "Esporta come PDF",
         "text": "Esporta"
       },
+      "external": "Esterno",
       "fast_forward": "Avanzamento rapido",
       "favorites": "Preferiti",
       "find": {
@@ -88,18 +103,29 @@
       "frame": "Cornice",
       "frequency": "Frequenza",
       "fullscreen": "Schermo intero",
+      "generate": "Genera",
       "go": "Vai",
       "help": "Aiuto",
+      "hidden": "Nascosto",
+      "hint": "Suggerimento",
       "home": "Home",
       "import": {
         "all": "Importa tutto",
         "from": "Importa da",
         "text": "Importa"
       },
+      "in_progress": "In corso",
+      "inactive": "Inattivo",
+      "incomplete": "Incompleto",
+      "info": "Informazione",
       "inputs": "Inserimenti",
       "install": "Installare",
+      "internal": "Interno",
+      "invalid": "Non valido",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
+      "local": "Locale",
+      "locked": "Bloccato",
       "loop": "Ripeti in loop",
       "majors": "Maggiori",
       "menu": "Menu",
@@ -127,6 +153,7 @@
         "track": "Brano successivo"
       },
       "no": "No",
+      "non_commercial": "Non commerciale",
       "none": {
         "female": "Nessuna",
         "male": "Nessuno",
@@ -145,9 +172,24 @@
         "text": "Apri",
         "url": "Apri URL"
       },
+      "operation": {
+        "canceled": "Operazione annullata",
+        "completed": "Operazione completata",
+        "failed": "Operazione fallita",
+        "in_progress": "Operazione in corso",
+        "pending": "Operazione in attesa",
+        "started": "Operazione iniziata",
+        "succeeded": "Operazione riuscita",
+        "text": "Operazione",
+        "timed_out": "Operazione scaduta"
+      },
       "optional": "Opzionale",
       "paste": "Incolla",
       "pause": "Pausa",
+      "paused": "In pausa",
+      "pending": "In attesa",
+      "perform": "Esegui",
+      "personal": "Personale",
       "play": "Riproduci",
       "play_pause": "Riproduci/Pausa",
       "previous": {
@@ -156,10 +198,16 @@
         "text": "Precedente",
         "track": "Brano precedente"
       },
+      "private": "Privato",
+      "public": "Pubblico",
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
+      "question": "Domanda",
       "redo": "Ripristina",
       "refresh": "Aggiornare",
+      "reject": "Rifiuta",
+      "rejected": "Rifiutato",
+      "remote": "Remoto",
       "remove": "Rimuovere",
       "repeat": {
         "all": "Ripeti tutto",
@@ -172,8 +220,10 @@
         "text": "Sostituisci"
       },
       "replay": "Ripeti",
+      "required": "Richiesto",
       "reset": "Reimpostare",
       "results": "Risultati",
+      "resumed": "Ripreso",
       "retry": "Riprova",
       "rewind": "Riavvolgi",
       "save": {
@@ -211,18 +261,41 @@
       "submit": "Invia",
       "success": "Successo",
       "template": "Modello",
+      "time": {
+        "elapsed": "Tempo trascorso",
+        "remaining": "Tempo rimanente",
+        "text": "Tempo"
+      },
+      "tip": "Consiglio",
       "toggle": {
         "all": "Attiva/Disattiva tutto",
         "text": "Attiva/Disattiva"
+      },
+      "try": {
+        "again": "Prova di nuovo",
+        "later": "Prova più tardi",
+        "text": "Prova"
       },
       "undo": "Annulla",
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
       "unmute": "Ripristina audio",
       "update": "Aggiornare",
+      "upgrade": {
+        "now": "Aggiorna ora",
+        "text": "Aggiornare"
+      },
       "upload": "Carica",
       "user_inputs": "Inserimenti utente",
+      "valid": "Valido",
+      "visible": "Visibile",
       "volume": "Volume",
+      "warning": "Avvertimento",
+      "watch": {
+        "later": "Guarda più tardi",
+        "now": "Guarda ora",
+        "text": "Guarda"
+      },
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
@@ -233,80 +306,7 @@
         "out": "Riduci",
         "reset": "Reimposta zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Tempo trascorso",
-        "remaining": "Tempo rimanente",
-        "text": "Tempo"
-      },
-      "upgrade": {
-        "now": "Aggiorna ora",
-        "text": "Aggiornare"
-      },
-      "watch": {
-        "later": "Guarda più tardi",
-        "now": "Guarda ora",
-        "text": "Guarda"
-      },
-      "operation": {
-        "canceled": "Operazione annullata",
-        "completed": "Operazione completata",
-        "failed": "Operazione fallita",
-        "in_progress": "Operazione in corso",
-        "pending": "Operazione in attesa",
-        "started": "Operazione iniziata",
-        "succeeded": "Operazione riuscita",
-        "timed_out": "Operazione scaduta",
-        "text": "Operazione"
-      },
-      "generate": "Genera",
-      "perform": "Esegui",
-      "try": {
-        "again": "Prova di nuovo",
-        "later": "Prova più tardi",
-        "text": "Prova"
-      },
-      "valid": "Valido",
-      "invalid": "Non valido",
-      "accept": "Accetta",
-      "reject": "Rifiuta",
-      "approve": "Approva",
-      "disapprove": "Disapprova",
-      "complete": "Completo",
-      "tip": "Consiglio",
-      "hint": "Suggerimento",
-      "required": "Richiesto",
-      "accepted": "Accettato",
-      "rejected": "Rifiutato",
-      "pending": "In attesa",
-      "approved": "Approvato",
-      "disapproved": "Disapprovato",
-      "completed": "Completato",
-      "incomplete": "Incompleto",
-      "in_progress": "In corso",
-      "paused": "In pausa",
-      "resumed": "Ripreso",
-      "canceled": "Annullato",
-      "expired": "Scaduto",
-      "locked": "Bloccato",
-      "active": "Attivo",
-      "inactive": "Inattivo",
-      "enabled": "Abilitato",
-      "disabled": "Disabilitato",
-      "hidden": "Nascosto",
-      "visible": "Visibile",
-      "public": "Pubblico",
-      "private": "Privato",
-      "personal": "Personale",
-      "commercial": "Commerciale",
-      "non_commercial": "Non commerciale",
-      "internal": "Interno",
-      "external": "Esterno",
-      "local": "Locale",
-      "remote": "Remoto",
-      "warning": "Avvertimento",
-      "info": "Informazione",
-      "question": "Domanda"
+      }
     },
     "message": {
       "action": {
@@ -319,44 +319,13 @@
       "copied_to_clipboard": "Copiato negli appunti!",
       "copied_value_to_clipboard": "Copiato {value} negli appunti!",
       "dark_mode_support": "Supporto per la modalità scura.",
-      "finally": "Finalmente!",
-      "have_wonderful_day": "Buona giornata!",
-      "last_updated_on": "Ultimo aggiornamento il {date}",
-      "let_get_started": "Iniziamo!",
-      "modern_design": "Design moderno.",
-      "no_favorites": "Nessun preferito.",
-      "please_wait": "Attendere prego...",
-      "saving": "Salvataggio in corso...",
-      "search": "Ricerca...",
-      "share": {
-        "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
-      },
-      "sorry": "Scusa...",
-      "success": "Successo!",
-      "thank_you": "Grazie!",
-      "warning": "Attenzione!",
-      "welcome": "Benvenuto!",
-      "whats_new": "Cosa c'è di nuovo?",
-      "whoops": "Ops!",
-      "generating": {
-        "pdf": "Generazione PDF...",
-        "text": "Generazione in corso..."
-      },
-      "performing": "In esecuzione...",
-      "processing": "Elaborazione in corso...",
-      "loading": {
-        "data": "Caricamento dati...",
-        "pdf": "Caricamento PDF...",
-        "text": "Caricamento in corso..."
-      },
-      "pdf_ready": "PDF pronto!",
       "failed_to": {
+        "generate": {
+          "pdf": "Generazione del PDF non riuscita."
+        },
         "load": {
           "data": "Impossibile caricare i dati.",
           "pdf": "Impossibile caricare il PDF."
-        },
-        "generate": {
-          "pdf": "Generazione del PDF non riuscita."
         },
         "perform": {
           "action": "Impossibile eseguire l'azione."
@@ -366,7 +335,38 @@
           "pdf": "Impossibile salvare il PDF."
         }
       },
-      "searching": "Ricerca in corso..."
+      "finally": "Finalmente!",
+      "generating": {
+        "pdf": "Generazione PDF...",
+        "text": "Generazione in corso..."
+      },
+      "have_wonderful_day": "Buona giornata!",
+      "last_updated_on": "Ultimo aggiornamento il {date}",
+      "let_get_started": "Iniziamo!",
+      "loading": {
+        "data": "Caricamento dati...",
+        "pdf": "Caricamento PDF...",
+        "text": "Caricamento in corso..."
+      },
+      "modern_design": "Design moderno.",
+      "no_favorites": "Nessun preferito.",
+      "pdf_ready": "PDF pronto!",
+      "performing": "In esecuzione...",
+      "please_wait": "Attendere prego...",
+      "processing": "Elaborazione in corso...",
+      "saving": "Salvataggio in corso...",
+      "search": "Ricerca...",
+      "searching": "Ricerca in corso...",
+      "share": {
+        "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
+      },
+      "sorry": "Scusa...",
+      "success": "Successo!",
+      "thank_you": "Grazie!",
+      "warning": "Attenzione!",
+      "welcome": "Benvenuto!",
+      "whats_new": "Cosa c'è di nuovo?",
+      "whoops": "Ops!"
     },
     "question": {
       "are_you_sure": "Sei sicuro?",

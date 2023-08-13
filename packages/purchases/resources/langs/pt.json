@@ -49,8 +49,10 @@
       "restore_purchases": "Restaurar compras"
     },
     "message": {
+      "do_have_premium_version": "Você não tem a versão premium.",
       "enjoy_premium_version": "Obrigado por escolher a versão premium! Aproveite os recursos aprimorados e uma experiência sem anúncios. Seu apoio significa muito para nós!",
       "go_premium_description": "Ao fazer o upgrade para a versão premium, você não apenas apoia o desenvolvimento contínuo, mas também obtém acesso a recursos adicionais.",
+      "have_not_acquired_premium_version": "Você não adquiriu a versão premium.",
       "premium_version_restored": "Seus recursos Premium foram restaurados com sucesso.",
       "purchase": {
         "cancelled": "Compra cancelada.",
@@ -61,9 +63,7 @@
       "purchased_items": "Lista de itens comprados:",
       "purchases_restored": "Compras restauradas.",
       "thanks_purchase": "Obrigado por sua compra.",
-      "unlock_premium_features": "Acesse uma variedade de recursos Premium.",
-      "have_not_acquired_premium_version": "Você não adquiriu a versão premium.",
-      "do_have_premium_version": "Você não tem a versão premium."
+      "unlock_premium_features": "Acesse uma variedade de recursos Premium."
     }
   }
 }

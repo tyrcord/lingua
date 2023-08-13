@@ -5,6 +5,9 @@
       "error_occurred": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
     },
     "label": {
+      "accept": "Akzeptieren",
+      "accepted": "Akzeptiert",
+      "active": "Aktiv",
       "add": "Hinzufügen",
       "advanced": "Erweitert",
       "all": {
@@ -13,12 +16,15 @@
         "other": "Alle"
       },
       "annually": "Jährlich",
+      "approve": "Genehmigen",
+      "approved": "Genehmigt",
       "at": "Bei",
       "auto_save": "Automatisch speichern",
       "back": "Zurück",
       "behavior": "Verhalten",
       "buy": "Kaufen",
       "cancel": "Abbrechen",
+      "canceled": "Abgebrochen",
       "clear": {
         "selection": "Auswahl löschen",
         "text": "Löschen"
@@ -34,6 +40,9 @@
         "all": "Alle zusammenklappen",
         "text": "Zusammenklappen"
       },
+      "commercial": "Kommerziell",
+      "complete": "Vollständig",
+      "completed": "Abgeschlossen",
       "confirm": "Bestätigen",
       "confirmation": "Bestätigung",
       "continue": "Weiter",
@@ -48,10 +57,14 @@
       "delete": "Löschen",
       "description": "Beschreibung",
       "details": "Details",
+      "disabled": "Deaktiviert",
+      "disapprove": "Missbilligen",
+      "disapproved": "Missbilligt",
       "display": "Anzeige",
       "done": "Fertig",
       "download": "Herunterladen",
       "edit": "Bearbeiten",
+      "enabled": "Aktiviert",
       "enter": {
         "fullscreen": "Vollbildmodus betreten",
         "pip": "Bild-in-Bild betreten",
@@ -70,12 +83,14 @@
         "all": "Alle erweitern",
         "text": "Erweitern"
       },
+      "expired": "Abgelaufen",
       "export": {
         "all": "Alle exportieren",
         "as": "Exportieren als",
         "pdf": "Als PDF exportieren",
         "text": "Exportieren"
       },
+      "external": "Extern",
       "fast_forward": "Vorwärts spulen",
       "favorites": "Favoriten",
       "find": {
@@ -88,18 +103,29 @@
       "frame": "Rahmen",
       "frequency": "Häufigkeit",
       "fullscreen": "Vollbild",
+      "generate": "Generieren",
       "go": "Gehe zu",
       "help": "Hilfe",
+      "hidden": "Versteckt",
+      "hint": "Hinweis",
       "home": "Startseite",
       "import": {
         "all": "Alle importieren",
         "from": "Importieren von",
         "text": "Importieren"
       },
+      "in_progress": "In Bearbeitung",
+      "inactive": "Inaktiv",
+      "incomplete": "Unvollständig",
+      "info": "Info",
       "inputs": "Eingaben",
       "install": "Installieren",
+      "internal": "Intern",
+      "invalid": "Ungültig",
       "learn_more": "Weitere Informationen",
       "loading": "Wird geladen",
+      "local": "Lokal",
+      "locked": "Gesperrt",
       "loop": "Schleife",
       "majors": "Volljährige",
       "menu": "Menü",
@@ -127,6 +153,7 @@
         "track": "Nächster Titel"
       },
       "no": "Nein",
+      "non_commercial": "Nicht-kommerziell",
       "none": {
         "female": "Keine",
         "male": "Keine",
@@ -145,9 +172,24 @@
         "text": "Öffnen",
         "url": "URL öffnen"
       },
+      "operation": {
+        "canceled": "Vorgang abgebrochen",
+        "completed": "Vorgang abgeschlossen",
+        "failed": "Vorgang fehlgeschlagen",
+        "in_progress": "Vorgang in Bearbeitung",
+        "pending": "Vorgang ausstehend",
+        "started": "Vorgang gestartet",
+        "succeeded": "Vorgang erfolgreich",
+        "text": "Vorgang",
+        "timed_out": "Vorgang abgelaufen"
+      },
       "optional": "Optional",
       "paste": "Einfügen",
       "pause": "Pause",
+      "paused": "Pausiert",
+      "pending": "Ausstehend",
+      "perform": "Ausführen",
+      "personal": "Persönlich",
       "play": "Wiedergabe",
       "play_pause": "Wiedergabe/Pause",
       "previous": {
@@ -156,10 +198,16 @@
         "text": "Vorherige",
         "track": "Vorheriger Titel"
       },
+      "private": "Privat",
+      "public": "Öffentlich",
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
+      "question": "Frage",
       "redo": "Wiederholen",
       "refresh": "Aktualisieren",
+      "reject": "Ablehnen",
+      "rejected": "Abgelehnt",
+      "remote": "Fern",
       "remove": "Entfernen",
       "repeat": {
         "all": "Alle wiederholen",
@@ -172,8 +220,10 @@
         "text": "Ersetzen"
       },
       "replay": "Erneut abspielen",
+      "required": "Erforderlich",
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",
+      "resumed": "Fortgesetzt",
       "retry": "Erneut versuchen",
       "rewind": "Zurückspulen",
       "save": {
@@ -211,18 +261,41 @@
       "submit": "Senden",
       "success": "Erfolg",
       "template": "Vorlage",
+      "time": {
+        "elapsed": "Verstrichene Zeit",
+        "remaining": "Verbleibende Zeit",
+        "text": "Zeit"
+      },
+      "tip": "Tipp",
       "toggle": {
         "all": "Alle umschalten",
         "text": "Umschalten"
+      },
+      "try": {
+        "again": "Erneut versuchen",
+        "later": "Später versuchen",
+        "text": "Versuchen"
       },
       "undo": "Rückgängig machen",
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
       "unmute": "Ton an",
       "update": "Aktualisieren",
+      "upgrade": {
+        "now": "Jetzt aktualisieren",
+        "text": "Aktualisieren"
+      },
       "upload": "Hochladen",
       "user_inputs": "Benutzereingaben",
+      "valid": "Gültig",
+      "visible": "Sichtbar",
       "volume": "Lautstärke",
+      "warning": "Warnung",
+      "watch": {
+        "later": "Später ansehen",
+        "now": "Jetzt ansehen",
+        "text": "Ansehen"
+      },
       "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",
@@ -233,80 +306,7 @@
         "out": "Herauszoomen",
         "reset": "Zoom zurücksetzen",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Verstrichene Zeit",
-        "remaining": "Verbleibende Zeit",
-        "text": "Zeit"
-      },
-      "upgrade": {
-        "now": "Jetzt aktualisieren",
-        "text": "Aktualisieren"
-      },
-      "watch": {
-        "later": "Später ansehen",
-        "now": "Jetzt ansehen",
-        "text": "Ansehen"
-      },
-      "operation": {
-        "canceled": "Vorgang abgebrochen",
-        "completed": "Vorgang abgeschlossen",
-        "failed": "Vorgang fehlgeschlagen",
-        "in_progress": "Vorgang in Bearbeitung",
-        "pending": "Vorgang ausstehend",
-        "started": "Vorgang gestartet",
-        "succeeded": "Vorgang erfolgreich",
-        "timed_out": "Vorgang abgelaufen",
-        "text": "Vorgang"
-      },
-      "generate": "Generieren",
-      "perform": "Ausführen",
-      "try": {
-        "again": "Erneut versuchen",
-        "later": "Später versuchen",
-        "text": "Versuchen"
-      },
-      "valid": "Gültig",
-      "invalid": "Ungültig",
-      "accept": "Akzeptieren",
-      "reject": "Ablehnen",
-      "approve": "Genehmigen",
-      "disapprove": "Missbilligen",
-      "complete": "Vollständig",
-      "tip": "Tipp",
-      "hint": "Hinweis",
-      "required": "Erforderlich",
-      "accepted": "Akzeptiert",
-      "rejected": "Abgelehnt",
-      "pending": "Ausstehend",
-      "approved": "Genehmigt",
-      "disapproved": "Missbilligt",
-      "completed": "Abgeschlossen",
-      "incomplete": "Unvollständig",
-      "in_progress": "In Bearbeitung",
-      "paused": "Pausiert",
-      "resumed": "Fortgesetzt",
-      "canceled": "Abgebrochen",
-      "expired": "Abgelaufen",
-      "locked": "Gesperrt",
-      "active": "Aktiv",
-      "inactive": "Inaktiv",
-      "enabled": "Aktiviert",
-      "disabled": "Deaktiviert",
-      "hidden": "Versteckt",
-      "visible": "Sichtbar",
-      "public": "Öffentlich",
-      "private": "Privat",
-      "personal": "Persönlich",
-      "commercial": "Kommerziell",
-      "non_commercial": "Nicht-kommerziell",
-      "internal": "Intern",
-      "external": "Extern",
-      "local": "Lokal",
-      "remote": "Fern",
-      "warning": "Warnung",
-      "info": "Info",
-      "question": "Frage"
+      }
     },
     "message": {
       "action": {
@@ -319,44 +319,13 @@
       "copied_to_clipboard": "In die Zwischenablage kopiert!",
       "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
       "dark_mode_support": "Unterstützung für den Dunkelmodus.",
-      "finally": "Endlich!",
-      "have_wonderful_day": "Einen wundervollen Tag!",
-      "last_updated_on": "Zuletzt aktualisiert am {date}",
-      "let_get_started": "Lassen Sie uns beginnen!",
-      "modern_design": "Modernes Design.",
-      "no_favorites": "Keine Favoriten.",
-      "please_wait": "Bitte warten...",
-      "saving": "Speichern...",
-      "search": "Suche...",
-      "share": {
-        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
-      },
-      "sorry": "Entschuldigung...",
-      "success": "Erfolg!",
-      "thank_you": "Vielen Dank!",
-      "warning": "Achtung!",
-      "welcome": "Willkommen!",
-      "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!",
-      "generating": {
-        "pdf": "PDF wird erstellt...",
-        "text": "Wird erstellt..."
-      },
-      "performing": "Wird durchgeführt...",
-      "processing": "Wird verarbeitet...",
-      "loading": {
-        "data": "Daten werden geladen...",
-        "pdf": "PDF wird geladen...",
-        "text": "Wird geladen..."
-      },
-      "pdf_ready": "PDF fertig!",
       "failed_to": {
+        "generate": {
+          "pdf": "PDF konnte nicht erstellt werden."
+        },
         "load": {
           "data": "Daten konnten nicht geladen werden.",
           "pdf": "PDF konnte nicht geladen werden."
-        },
-        "generate": {
-          "pdf": "PDF konnte nicht erstellt werden."
         },
         "perform": {
           "action": "Aktion konnte nicht durchgeführt werden."
@@ -366,7 +335,38 @@
           "pdf": "PDF konnte nicht gespeichert werden."
         }
       },
-      "searching": "Suche läuft..."
+      "finally": "Endlich!",
+      "generating": {
+        "pdf": "PDF wird erstellt...",
+        "text": "Wird erstellt..."
+      },
+      "have_wonderful_day": "Einen wundervollen Tag!",
+      "last_updated_on": "Zuletzt aktualisiert am {date}",
+      "let_get_started": "Lassen Sie uns beginnen!",
+      "loading": {
+        "data": "Daten werden geladen...",
+        "pdf": "PDF wird geladen...",
+        "text": "Wird geladen..."
+      },
+      "modern_design": "Modernes Design.",
+      "no_favorites": "Keine Favoriten.",
+      "pdf_ready": "PDF fertig!",
+      "performing": "Wird durchgeführt...",
+      "please_wait": "Bitte warten...",
+      "processing": "Wird verarbeitet...",
+      "saving": "Speichern...",
+      "search": "Suche...",
+      "searching": "Suche läuft...",
+      "share": {
+        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
+      },
+      "sorry": "Entschuldigung...",
+      "success": "Erfolg!",
+      "thank_you": "Vielen Dank!",
+      "warning": "Achtung!",
+      "welcome": "Willkommen!",
+      "whats_new": "Was gibt's Neues?",
+      "whoops": "Hoppla!"
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",

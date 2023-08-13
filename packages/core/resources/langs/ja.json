@@ -5,6 +5,9 @@
       "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
     },
     "label": {
+      "accept": "受け入れる",
+      "accepted": "受け入れられた",
+      "active": "アクティブ",
       "add": "追加",
       "advanced": "高度な設定",
       "all": {
@@ -13,12 +16,15 @@
         "other": "全て"
       },
       "annually": "毎年",
+      "approve": "承認",
+      "approved": "承認済み",
       "at": "場所",
       "auto_save": "自動保存",
       "back": "戻る",
       "behavior": "動作",
       "buy": "購入",
       "cancel": "キャンセル",
+      "canceled": "キャンセル",
       "clear": {
         "selection": "選択のクリア",
         "text": "クリア"
@@ -34,6 +40,9 @@
         "all": "すべて折りたたむ",
         "text": "折りたたむ"
       },
+      "commercial": "商業的",
+      "complete": "完了",
+      "completed": "完了した",
       "confirm": "確認",
       "confirmation": "確認",
       "continue": "続ける",
@@ -48,10 +57,14 @@
       "delete": "削除",
       "description": "説明",
       "details": "詳細",
+      "disabled": "無効",
+      "disapprove": "不承認",
+      "disapproved": "不承認",
       "display": "表示",
       "done": "完了",
       "download": "ダウンロード",
       "edit": "編集",
+      "enabled": "有効",
       "enter": {
         "fullscreen": "フルスクリーンに入る",
         "pip": "ピクチャ・イン・ピクチャに入る",
@@ -70,12 +83,14 @@
         "all": "すべて展開",
         "text": "展開"
       },
+      "expired": "期限切れ",
       "export": {
         "all": "すべてエクスポート",
         "as": "としてエクスポート",
         "pdf": "PDFとしてエクスポート",
         "text": "エクスポート"
       },
+      "external": "外部",
       "fast_forward": "早送り",
       "favorites": "お気に入り",
       "find": {
@@ -88,18 +103,29 @@
       "frame": "フレーム",
       "frequency": "頻度",
       "fullscreen": "フルスクリーン",
+      "generate": "生成",
       "go": "移動",
       "help": "ヘルプ",
+      "hidden": "非表示",
+      "hint": "手がかり",
       "home": "ホーム",
       "import": {
         "all": "すべてインポート",
         "from": "からインポート",
         "text": "インポート"
       },
+      "in_progress": "進行中",
+      "inactive": "非アクティブ",
+      "incomplete": "不完全",
+      "info": "情報",
       "inputs": "入力",
       "install": "インストール",
+      "internal": "内部",
+      "invalid": "無効",
       "learn_more": "詳細を確認",
       "loading": "読み込み中",
+      "local": "ローカル",
+      "locked": "ロックされた",
       "loop": "ループ",
       "majors": "成人",
       "menu": "メニュー",
@@ -127,6 +153,7 @@
         "track": "次のトラック"
       },
       "no": "いいえ",
+      "non_commercial": "非商業的",
       "none": {
         "female": "なし",
         "male": "なし",
@@ -145,9 +172,24 @@
         "text": "開く",
         "url": "URLを開く"
       },
+      "operation": {
+        "canceled": "操作がキャンセルされました",
+        "completed": "操作が完了しました",
+        "failed": "操作が失敗しました",
+        "in_progress": "操作中",
+        "pending": "操作待ち",
+        "started": "操作を開始しました",
+        "succeeded": "操作が成功しました",
+        "text": "操作",
+        "timed_out": "操作がタイムアウトしました"
+      },
       "optional": "任意",
       "paste": "ペースト",
       "pause": "一時停止",
+      "paused": "一時停止",
+      "pending": "保留中",
+      "perform": "実行",
+      "personal": "個人",
       "play": "再生",
       "play_pause": "再生/一時停止",
       "previous": {
@@ -156,10 +198,16 @@
         "text": "前へ",
         "track": "前のトラック"
       },
+      "private": "非公開",
+      "public": "公開",
       "quantity": "数量",
       "quarterly": "四半期ごとに",
+      "question": "質問",
       "redo": "やり直す",
       "refresh": "リフレッシュ",
+      "reject": "拒否",
+      "rejected": "拒否された",
+      "remote": "リモート",
       "remove": "削除",
       "repeat": {
         "all": "すべてを繰り返す",
@@ -172,8 +220,10 @@
         "text": "置換"
       },
       "replay": "リプレイ",
+      "required": "必須",
       "reset": "リセット",
       "results": "結果",
+      "resumed": "再開",
       "retry": "再試行",
       "rewind": "巻き戻し",
       "save": {
@@ -211,18 +261,41 @@
       "submit": "送信",
       "success": "成功",
       "template": "テンプレート",
+      "time": {
+        "elapsed": "経過時間",
+        "remaining": "残り時間",
+        "text": "時間"
+      },
+      "tip": "ヒント",
       "toggle": {
         "all": "すべて切り替え",
         "text": "切り替え"
+      },
+      "try": {
+        "again": "再試行",
+        "later": "後で試す",
+        "text": "試す"
       },
       "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
       "unmute": "ミュート解除",
       "update": "更新",
+      "upgrade": {
+        "now": "今すぐアップグレード",
+        "text": "アップグレード"
+      },
       "upload": "アップロード",
       "user_inputs": "ユーザー入力",
+      "valid": "有効",
+      "visible": "表示",
       "volume": "音量",
+      "warning": "警告",
+      "watch": {
+        "later": "後で見る",
+        "now": "今すぐ見る",
+        "text": "見る"
+      },
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
@@ -233,80 +306,7 @@
         "out": "ズームアウト",
         "reset": "ズームリセット",
         "text": "ズーム"
-      },
-      "time": {
-        "elapsed": "経過時間",
-        "remaining": "残り時間",
-        "text": "時間"
-      },
-      "upgrade": {
-        "now": "今すぐアップグレード",
-        "text": "アップグレード"
-      },
-      "watch": {
-        "later": "後で見る",
-        "now": "今すぐ見る",
-        "text": "見る"
-      },
-      "operation": {
-        "canceled": "操作がキャンセルされました",
-        "completed": "操作が完了しました",
-        "failed": "操作が失敗しました",
-        "in_progress": "操作中",
-        "pending": "操作待ち",
-        "started": "操作を開始しました",
-        "succeeded": "操作が成功しました",
-        "timed_out": "操作がタイムアウトしました",
-        "text": "操作"
-      },
-      "generate": "生成",
-      "perform": "実行",
-      "try": {
-        "again": "再試行",
-        "later": "後で試す",
-        "text": "試す"
-      },
-      "valid": "有効",
-      "invalid": "無効",
-      "accept": "受け入れる",
-      "reject": "拒否",
-      "approve": "承認",
-      "disapprove": "不承認",
-      "complete": "完了",
-      "tip": "ヒント",
-      "hint": "手がかり",
-      "required": "必須",
-      "accepted": "受け入れられた",
-      "rejected": "拒否された",
-      "pending": "保留中",
-      "approved": "承認済み",
-      "disapproved": "不承認",
-      "completed": "完了した",
-      "incomplete": "不完全",
-      "in_progress": "進行中",
-      "paused": "一時停止",
-      "resumed": "再開",
-      "canceled": "キャンセル",
-      "expired": "期限切れ",
-      "locked": "ロックされた",
-      "active": "アクティブ",
-      "inactive": "非アクティブ",
-      "enabled": "有効",
-      "disabled": "無効",
-      "hidden": "非表示",
-      "visible": "表示",
-      "public": "公開",
-      "private": "非公開",
-      "personal": "個人",
-      "commercial": "商業的",
-      "non_commercial": "非商業的",
-      "internal": "内部",
-      "external": "外部",
-      "local": "ローカル",
-      "remote": "リモート",
-      "warning": "警告",
-      "info": "情報",
-      "question": "質問"
+      }
     },
     "message": {
       "action": {
@@ -319,44 +319,13 @@
       "copied_to_clipboard": "クリップボードにコピーしました！",
       "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
       "dark_mode_support": "ダークモードのサポート。",
-      "finally": "ついに！",
-      "have_wonderful_day": "素敵な一日を！",
-      "last_updated_on": "{date} に最終更新",
-      "let_get_started": "はじめましょう！",
-      "modern_design": "モダンなデザイン。",
-      "no_favorites": "お気に入りはありません。",
-      "please_wait": "お待ちください...",
-      "saving": "保存中...",
-      "search": "検索...",
-      "share": {
-        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
-      },
-      "sorry": "申し訳ありません...",
-      "success": "成功しました！",
-      "thank_you": "ありがとうございます！",
-      "warning": "警告！",
-      "welcome": "ようこそ！",
-      "whats_new": "新機能のご紹介",
-      "whoops": "おっと！",
-      "generating": {
-        "pdf": "PDFを生成中...",
-        "text": "生成中..."
-      },
-      "performing": "実行中...",
-      "processing": "処理中...",
-      "loading": {
-        "data": "データを読み込み中...",
-        "pdf": "PDFを読み込み中...",
-        "text": "読み込み中..."
-      },
-      "pdf_ready": "PDFが準備できました！",
       "failed_to": {
+        "generate": {
+          "pdf": "PDFの生成に失敗しました。"
+        },
         "load": {
           "data": "データの読み込みに失敗しました。",
           "pdf": "PDFの読み込みに失敗しました。"
-        },
-        "generate": {
-          "pdf": "PDFの生成に失敗しました。"
         },
         "perform": {
           "action": "アクションの実行に失敗しました。"
@@ -366,7 +335,38 @@
           "pdf": "PDFの保存に失敗しました。"
         }
       },
-      "searching": "検索中..."
+      "finally": "ついに！",
+      "generating": {
+        "pdf": "PDFを生成中...",
+        "text": "生成中..."
+      },
+      "have_wonderful_day": "素敵な一日を！",
+      "last_updated_on": "{date} に最終更新",
+      "let_get_started": "はじめましょう！",
+      "loading": {
+        "data": "データを読み込み中...",
+        "pdf": "PDFを読み込み中...",
+        "text": "読み込み中..."
+      },
+      "modern_design": "モダンなデザイン。",
+      "no_favorites": "お気に入りはありません。",
+      "pdf_ready": "PDFが準備できました！",
+      "performing": "実行中...",
+      "please_wait": "お待ちください...",
+      "processing": "処理中...",
+      "saving": "保存中...",
+      "search": "検索...",
+      "searching": "検索中...",
+      "share": {
+        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
+      },
+      "sorry": "申し訳ありません...",
+      "success": "成功しました！",
+      "thank_you": "ありがとうございます！",
+      "warning": "警告！",
+      "welcome": "ようこそ！",
+      "whats_new": "新機能のご紹介",
+      "whoops": "おっと！"
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",

@@ -5,6 +5,9 @@
       "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
     },
     "label": {
+      "accept": "Accepter",
+      "accepted": "Accepté",
+      "active": "Actif",
       "add": "Ajouter",
       "advanced": "Avancé",
       "all": {
@@ -13,12 +16,15 @@
         "other": "Tous"
       },
       "annually": "Annuellement",
+      "approve": "Approuver",
+      "approved": "Approuvé",
       "at": "À",
       "auto_save": "Sauvegarde automatique",
       "back": "Retour",
       "behavior": "Comportement",
       "buy": "Acheter",
       "cancel": "Annuler",
+      "canceled": "Annulé",
       "clear": {
         "selection": "Effacer la sélection",
         "text": "Effacer"
@@ -34,6 +40,9 @@
         "all": "Tout réduire",
         "text": "Réduire"
       },
+      "commercial": "Commercial",
+      "complete": "Complet",
+      "completed": "Terminé",
       "confirm": "Confirmer",
       "confirmation": "Confirmation",
       "continue": "Continuer",
@@ -48,10 +57,14 @@
       "delete": "Supprimer",
       "description": "Description",
       "details": "Détails",
+      "disabled": "Désactivé",
+      "disapprove": "Désapprouver",
+      "disapproved": "Désapprouvé",
       "display": "Affichage",
       "done": "Terminé",
       "download": "Télécharger",
       "edit": "Modifier",
+      "enabled": "Activé",
       "enter": {
         "fullscreen": "Passer en plein écran",
         "pip": "Passer en image dans l'image",
@@ -70,12 +83,14 @@
         "all": "Tout développer",
         "text": "Développer"
       },
+      "expired": "Expiré",
       "export": {
         "all": "Tout exporter",
         "as": "Exporter sous",
         "pdf": "Exporter au format PDF",
         "text": "Exporter"
       },
+      "external": "Externe",
       "fast_forward": "Avance rapide",
       "favorites": "Favoris",
       "find": {
@@ -88,18 +103,29 @@
       "frame": "Cadre",
       "frequency": "Fréquence",
       "fullscreen": "Plein écran",
+      "generate": "Générer",
       "go": "Aller",
       "help": "Aide",
+      "hidden": "Caché",
+      "hint": "Indice",
       "home": "Accueil",
       "import": {
         "all": "Tout importer",
         "from": "Importer depuis",
         "text": "Importer"
       },
+      "in_progress": "En cours",
+      "inactive": "Inactif",
+      "incomplete": "Incomplet",
+      "info": "Info",
       "inputs": "Entrées",
       "install": "Installer",
+      "internal": "Interne",
+      "invalid": "Invalide",
       "learn_more": "En savoir plus",
       "loading": "Chargement",
+      "local": "Local",
+      "locked": "Verrouillé",
       "loop": "Boucle",
       "majors": "Majeures",
       "menu": "Menu",
@@ -127,6 +153,7 @@
         "track": "Piste suivante"
       },
       "no": "Non",
+      "non_commercial": "Non commercial",
       "none": {
         "female": "Aucune",
         "male": "Aucun",
@@ -145,9 +172,24 @@
         "text": "Ouvrir",
         "url": "Ouvrir une URL"
       },
+      "operation": {
+        "canceled": "Opération annulée",
+        "completed": "Opération terminée",
+        "failed": "Opération échouée",
+        "in_progress": "Opération en cours",
+        "pending": "Opération en attente",
+        "started": "Opération commencée",
+        "succeeded": "Opération réussie",
+        "text": "Opération",
+        "timed_out": "Opération expirée"
+      },
       "optional": "Optionnel",
       "paste": "Coller",
       "pause": "Pause",
+      "paused": "En pause",
+      "pending": "En attente",
+      "perform": "Effectuer",
+      "personal": "Personnel",
       "play": "Lire",
       "play_pause": "Lire/Pause",
       "previous": {
@@ -156,10 +198,16 @@
         "text": "Précédent",
         "track": "Piste précédente"
       },
+      "private": "Privé",
+      "public": "Public",
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
+      "question": "Question",
       "redo": "Rétablir",
       "refresh": "Actualiser",
+      "reject": "Rejeter",
+      "rejected": "Rejeté",
+      "remote": "Distant",
       "remove": "Supprimer",
       "repeat": {
         "all": "Répéter tout",
@@ -172,8 +220,10 @@
         "text": "Remplacer"
       },
       "replay": "Rejouer",
+      "required": "Requis",
       "reset": "Réinitialiser",
       "results": "Résultats",
+      "resumed": "Repris",
       "retry": "Réessayer",
       "rewind": "Reculer",
       "save": {
@@ -211,18 +261,41 @@
       "submit": "Envoyer",
       "success": "Succès",
       "template": "Modèle",
+      "time": {
+        "elapsed": "Temps écoulé",
+        "remaining": "Temps restant",
+        "text": "Temps"
+      },
+      "tip": "Conseil",
       "toggle": {
         "all": "Tout basculer",
         "text": "Basculer"
+      },
+      "try": {
+        "again": "Essayer à nouveau",
+        "later": "Essayer plus tard",
+        "text": "Essayer"
       },
       "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
       "unmute": "Réactiver le son",
       "update": "Mettre à jour",
+      "upgrade": {
+        "now": "Mettre à jour maintenant",
+        "text": "Mettre à jour"
+      },
       "upload": "Téléverser",
       "user_inputs": "Entrées utilisateur",
+      "valid": "Valide",
+      "visible": "Visible",
       "volume": "Volume",
+      "warning": "Avertissement",
+      "watch": {
+        "later": "Regarder plus tard",
+        "now": "Regarder maintenant",
+        "text": "Regarder"
+      },
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
@@ -233,80 +306,7 @@
         "out": "Zoom arrière",
         "reset": "Réinitialiser le zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Temps écoulé",
-        "remaining": "Temps restant",
-        "text": "Temps"
-      },
-      "upgrade": {
-        "now": "Mettre à jour maintenant",
-        "text": "Mettre à jour"
-      },
-      "watch": {
-        "later": "Regarder plus tard",
-        "now": "Regarder maintenant",
-        "text": "Regarder"
-      },
-      "operation": {
-        "canceled": "Opération annulée",
-        "completed": "Opération terminée",
-        "failed": "Opération échouée",
-        "in_progress": "Opération en cours",
-        "pending": "Opération en attente",
-        "started": "Opération commencée",
-        "succeeded": "Opération réussie",
-        "timed_out": "Opération expirée",
-        "text": "Opération"
-      },
-      "generate": "Générer",
-      "perform": "Effectuer",
-      "try": {
-        "again": "Essayer à nouveau",
-        "later": "Essayer plus tard",
-        "text": "Essayer"
-      },
-      "valid": "Valide",
-      "invalid": "Invalide",
-      "accept": "Accepter",
-      "reject": "Rejeter",
-      "approve": "Approuver",
-      "disapprove": "Désapprouver",
-      "complete": "Complet",
-      "tip": "Conseil",
-      "hint": "Indice",
-      "required": "Requis",
-      "accepted": "Accepté",
-      "rejected": "Rejeté",
-      "pending": "En attente",
-      "approved": "Approuvé",
-      "disapproved": "Désapprouvé",
-      "completed": "Terminé",
-      "incomplete": "Incomplet",
-      "in_progress": "En cours",
-      "paused": "En pause",
-      "resumed": "Repris",
-      "canceled": "Annulé",
-      "expired": "Expiré",
-      "locked": "Verrouillé",
-      "active": "Actif",
-      "inactive": "Inactif",
-      "enabled": "Activé",
-      "disabled": "Désactivé",
-      "hidden": "Caché",
-      "visible": "Visible",
-      "public": "Public",
-      "private": "Privé",
-      "personal": "Personnel",
-      "commercial": "Commercial",
-      "non_commercial": "Non commercial",
-      "internal": "Interne",
-      "external": "Externe",
-      "local": "Local",
-      "remote": "Distant",
-      "warning": "Avertissement",
-      "info": "Info",
-      "question": "Question"
+      }
     },
     "message": {
       "action": {
@@ -319,44 +319,13 @@
       "copied_to_clipboard": "Copié dans le presse-papiers !",
       "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
       "dark_mode_support": "Prise en charge du mode sombre.",
-      "finally": "Enfin !",
-      "have_wonderful_day": "Passez une merveilleuse journée !",
-      "last_updated_on": "Dernière mise à jour le {date}",
-      "let_get_started": "Commençons !",
-      "modern_design": "Design moderne.",
-      "no_favorites": "Aucun favori.",
-      "please_wait": "Veuillez patienter...",
-      "saving": "Enregistrement en cours...",
-      "search": "Rechercher...",
-      "share": {
-        "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
-      },
-      "sorry": "Désolé...",
-      "success": "Succès !",
-      "thank_you": "Merci !",
-      "warning": "Attention !",
-      "welcome": "Bienvenue !",
-      "whats_new": "Quoi de neuf ?",
-      "whoops": "Oups !",
-      "generating": {
-        "pdf": "Génération du PDF...",
-        "text": "Génération..."
-      },
-      "performing": "Exécution...",
-      "processing": "Traitement...",
-      "loading": {
-        "data": "Chargement des données...",
-        "pdf": "Chargement du PDF...",
-        "text": "Chargement..."
-      },
-      "pdf_ready": "PDF prêt!",
       "failed_to": {
+        "generate": {
+          "pdf": "Échec de la génération du PDF."
+        },
         "load": {
           "data": "Échec du chargement des données.",
           "pdf": "Échec du chargement du PDF."
-        },
-        "generate": {
-          "pdf": "Échec de la génération du PDF."
         },
         "perform": {
           "action": "Échec de l'exécution de l'action."
@@ -366,7 +335,38 @@
           "pdf": "Échec de la sauvegarde du PDF."
         }
       },
-      "searching": "Recherche en cours..."
+      "finally": "Enfin !",
+      "generating": {
+        "pdf": "Génération du PDF...",
+        "text": "Génération..."
+      },
+      "have_wonderful_day": "Passez une merveilleuse journée !",
+      "last_updated_on": "Dernière mise à jour le {date}",
+      "let_get_started": "Commençons !",
+      "loading": {
+        "data": "Chargement des données...",
+        "pdf": "Chargement du PDF...",
+        "text": "Chargement..."
+      },
+      "modern_design": "Design moderne.",
+      "no_favorites": "Aucun favori.",
+      "pdf_ready": "PDF prêt!",
+      "performing": "Exécution...",
+      "please_wait": "Veuillez patienter...",
+      "processing": "Traitement...",
+      "saving": "Enregistrement en cours...",
+      "search": "Rechercher...",
+      "searching": "Recherche en cours...",
+      "share": {
+        "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
+      },
+      "sorry": "Désolé...",
+      "success": "Succès !",
+      "thank_you": "Merci !",
+      "warning": "Attention !",
+      "welcome": "Bienvenue !",
+      "whats_new": "Quoi de neuf ?",
+      "whoops": "Oups !"
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",

@@ -3,29 +3,31 @@
     "disclaimer": {
       "user_tracking": "This identifier will be used to suggest targeted advertising to you based on your interests."
     },
+    "error": {
+      "dimissed_ad": "Since you dismissed the ad early, you will not receive a reward. Please try again later.",
+      "failed_to_load_ad": "Unable to load the ad. Please try again later.",
+      "no_ads_available": "Currently, there are no ads available. Please check back later."
+    },
     "label": {
       "ad": "Ad",
       "advertisement": "Advertisement",
+      "no_ads_available": "No ads available",
       "personalized_ads": "Personalized ads",
       "sponsored": "Sponsored",
-      "no_ads_available": "No ads available",
       "watch_ad": "Watch an ad"
     },
     "message": {
       "discover_other_app": "Take a look at our other free apps!",
+      "enjoy_your_reward": "Enjoy your reward!",
+      "go_ad_free": "Go ad-free!",
+      "say_goodbye_to_ads": "Say goodbye to ads!",
       "watch_ad": {
         "unlock": {
-          "pdf": "Watch a short ad to unlock the ability to export your data as a PDF!",
           "feature": "Watch a short ad to unlock this feature!",
-          "feature_plural": "Watch a short ad to unlock these features!"
+          "feature_plural": "Watch a short ad to unlock these features!",
+          "pdf": "Watch a short ad to unlock the ability to export your data as a PDF!"
         }
-      },
-      "enjoy_your_reward": "Enjoy your reward!"
-    },
-    "error": {
-      "no_ads_available": "Currently, there are no ads available. Please check back later.",
-      "failed_to_load_ad": "Unable to load the ad. Please try again later.",
-      "dimissed_ad": "Since you dismissed the ad early, you will not receive a reward. Please try again later."
+      }
     }
   }
 }

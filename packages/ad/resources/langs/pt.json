@@ -3,29 +3,31 @@
     "disclaimer": {
       "user_tracking": "Este identificador será usado para sugerir publicidade direcionada a você com base em seus interesses."
     },
+    "error": {
+      "dimissed_ad": "Como você fechou o anúncio antecipadamente, não receberá uma recompensa. Por favor, tente novamente mais tarde.",
+      "failed_to_load_ad": "Não foi possível carregar o anúncio. Por favor, tente novamente mais tarde.",
+      "no_ads_available": "Atualmente, não há anúncios disponíveis. Por favor, verifique novamente mais tarde."
+    },
     "label": {
       "ad": "Anúncio",
       "advertisement": "Publicidade",
+      "no_ads_available": "Nenhum anúncio disponível",
       "personalized_ads": "Anúncios personalizados",
       "sponsored": "Patrocinado",
-      "no_ads_available": "Nenhum anúncio disponível",
       "watch_ad": "Assistir a um anúncio"
     },
     "message": {
       "discover_other_app": "Dê uma olhada em nossos outros aplicativos gratuitos!",
+      "enjoy_your_reward": "Aproveite sua recompensa!",
+      "go_ad_free": "Experimente sem anúncios!",
+      "say_goodbye_to_ads": "Diga adeus aos anúncios!",
       "watch_ad": {
         "unlock": {
-          "pdf": "Assista a um anúncio curto para desbloquear a capacidade de exportar seus dados como PDF!",
           "feature": "Assista a um anúncio curto para desbloquear este recurso!",
-          "feature_plural": "Assista a um anúncio curto para desbloquear esses recursos!"
+          "feature_plural": "Assista a um anúncio curto para desbloquear esses recursos!",
+          "pdf": "Assista a um anúncio curto para desbloquear a capacidade de exportar seus dados como PDF!"
         }
-      },
-      "enjoy_your_reward": "Aproveite sua recompensa!"
-    },
-    "error": {
-      "no_ads_available": "Atualmente, não há anúncios disponíveis. Por favor, verifique novamente mais tarde.",
-      "failed_to_load_ad": "Não foi possível carregar o anúncio. Por favor, tente novamente mais tarde.",
-      "dimissed_ad": "Como você fechou o anúncio antecipadamente, não receberá uma recompensa. Por favor, tente novamente mais tarde."
+      }
     }
   }
 }

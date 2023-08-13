@@ -3,29 +3,31 @@
     "disclaimer": {
       "user_tracking": "Questo identificatore verrà utilizzato per suggerirti pubblicità mirate in base ai tuoi interessi."
     },
+    "error": {
+      "dimissed_ad": "Poiché hai chiuso l'annuncio in anticipo, non riceverai una ricompensa. Si prega di riprovare più tardi.",
+      "failed_to_load_ad": "Impossibile caricare l'annuncio. Si prega di riprovare più tardi.",
+      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi."
+    },
     "label": {
       "ad": "Annuncio",
       "advertisement": "Pubblicità",
+      "no_ads_available": "Nessun annuncio disponibile",
       "personalized_ads": "Pubblicità personalizzate",
       "sponsored": "Sponsorizzato",
-      "no_ads_available": "Nessun annuncio disponibile",
       "watch_ad": "Guarda un annuncio"
     },
     "message": {
       "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
+      "enjoy_your_reward": "Goditi il tuo premio!",
+      "go_ad_free": "Passa all'esperienza senza annunci!",
+      "say_goodbye_to_ads": "Dì addio alla pubblicità!",
       "watch_ad": {
         "unlock": {
-          "pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!",
           "feature": "Guarda un breve annuncio per sbloccare questa funzione!",
-          "feature_plural": "Guarda un breve annuncio per sbloccare queste funzioni!"
+          "feature_plural": "Guarda un breve annuncio per sbloccare queste funzioni!",
+          "pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"
         }
-      },
-      "enjoy_your_reward": "Goditi il tuo premio!"
-    },
-    "error": {
-      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi.",
-      "failed_to_load_ad": "Impossibile caricare l'annuncio. Si prega di riprovare più tardi.",
-      "dimissed_ad": "Poiché hai chiuso l'annuncio in anticipo, non riceverai una ricompensa. Si prega di riprovare più tardi."
+      }
     }
   }
 }

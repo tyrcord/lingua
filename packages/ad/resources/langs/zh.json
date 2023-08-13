@@ -3,29 +3,31 @@
     "disclaimer": {
       "user_tracking": "此标识符将根据您的兴趣为您推荐定向广告。"
     },
+    "error": {
+      "dimissed_ad": "由于您提前关闭了广告，您将不会获得奖励。请稍后再试。",
+      "failed_to_load_ad": "无法加载广告。请稍后再试。",
+      "no_ads_available": "当前没有广告可用。请稍后再查看。"
+    },
     "label": {
       "ad": "广告",
       "advertisement": "广告",
+      "no_ads_available": "没有广告可用",
       "personalized_ads": "个性化广告",
       "sponsored": "赞助",
-      "no_ads_available": "没有广告可用",
       "watch_ad": "观看广告"
     },
     "message": {
       "discover_other_app": "看看我们的其他免费应用程序！",
+      "enjoy_your_reward": "享受您的奖励！",
+      "go_ad_free": "免广告体验！",
+      "say_goodbye_to_ads": "告别广告！",
       "watch_ad": {
         "unlock": {
-          "pdf": "观看短片广告以解锁将数据导出为PDF的功能！",
           "feature": "观看一个短广告以解锁此功能！",
-          "feature_plural": "观看一个短广告以解锁这些功能！"
+          "feature_plural": "观看一个短广告以解锁这些功能！",
+          "pdf": "观看短片广告以解锁将数据导出为PDF的功能！"
         }
-      },
-      "enjoy_your_reward": "享受您的奖励！"
-    },
-    "error": {
-      "no_ads_available": "当前没有广告可用。请稍后再查看。",
-      "failed_to_load_ad": "无法加载广告。请稍后再试。",
-      "dimissed_ad": "由于您提前关闭了广告，您将不会获得奖励。请稍后再试。"
+      }
     }
   }
 }

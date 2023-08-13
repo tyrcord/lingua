@@ -18,6 +18,9 @@ class CoreCodegenLoader extends AssetLoader {
       "error_occurred": "抱歉，发生错误。请稍后再试。"
     },
     "label": {
+      "accept": "接受",
+      "accepted": "已接受",
+      "active": "活跃",
       "add": "添加",
       "advanced": "高级",
       "all": {
@@ -26,12 +29,15 @@ class CoreCodegenLoader extends AssetLoader {
         "other": "全部"
       },
       "annually": "每年",
+      "approve": "批准",
+      "approved": "已批准",
       "at": "在",
       "auto_save": "自动保存",
       "back": "返回",
       "behavior": "行为",
       "buy": "购买",
       "cancel": "取消",
+      "canceled": "已取消",
       "clear": {
         "selection": "清除选择",
         "text": "清除"
@@ -47,6 +53,9 @@ class CoreCodegenLoader extends AssetLoader {
         "all": "全部折叠",
         "text": "折叠"
       },
+      "commercial": "商业",
+      "complete": "完成",
+      "completed": "已完成",
       "confirm": "确认",
       "confirmation": "确认",
       "continue": "继续",
@@ -61,10 +70,14 @@ class CoreCodegenLoader extends AssetLoader {
       "delete": "删除",
       "description": "描述",
       "details": "详细信息",
+      "disabled": "已禁用",
+      "disapprove": "不批准",
+      "disapproved": "未批准",
       "display": "显示",
       "done": "完成",
       "download": "下载",
       "edit": "编辑",
+      "enabled": "已启用",
       "enter": {
         "fullscreen": "进入全屏模式",
         "pip": "进入画中画模式",
@@ -83,12 +96,14 @@ class CoreCodegenLoader extends AssetLoader {
         "all": "全部展开",
         "text": "展开"
       },
+      "expired": "已过期",
       "export": {
         "all": "全部导出",
         "as": "导出为",
         "pdf": "导出为PDF",
         "text": "导出"
       },
+      "external": "外部",
       "fast_forward": "快进",
       "favorites": "收藏",
       "find": {
@@ -101,18 +116,29 @@ class CoreCodegenLoader extends AssetLoader {
       "frame": "帧",
       "frequency": "频率",
       "fullscreen": "全屏",
+      "generate": "生成",
       "go": "前往",
       "help": "帮助",
+      "hidden": "隐藏",
+      "hint": "线索",
       "home": "首页",
       "import": {
         "all": "全部导入",
         "from": "导入自",
         "text": "导入"
       },
+      "in_progress": "进行中",
+      "inactive": "不活跃",
+      "incomplete": "未完成",
+      "info": "信息",
       "inputs": "输入",
       "install": "安装",
+      "internal": "内部",
+      "invalid": "无效",
       "learn_more": "了解更多",
       "loading": "加载中",
+      "local": "本地",
+      "locked": "已锁定",
       "loop": "循环",
       "majors": "成年人",
       "menu": "菜单",
@@ -140,6 +166,7 @@ class CoreCodegenLoader extends AssetLoader {
         "track": "下一首"
       },
       "no": "否",
+      "non_commercial": "非商业",
       "none": {
         "female": "无",
         "male": "无",
@@ -158,9 +185,24 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "打开",
         "url": "打开网址"
       },
+      "operation": {
+        "canceled": "操作已取消",
+        "completed": "操作已完成",
+        "failed": "操作失败",
+        "in_progress": "操作进行中",
+        "pending": "操作待定",
+        "started": "操作已开始",
+        "succeeded": "操作成功",
+        "text": "操作",
+        "timed_out": "操作超时"
+      },
       "optional": "可选",
       "paste": "粘贴",
       "pause": "暂停",
+      "paused": "暂停",
+      "pending": "待定",
+      "perform": "执行",
+      "personal": "个人",
       "play": "播放",
       "play_pause": "播放/暂停",
       "previous": {
@@ -169,10 +211,16 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "上一项",
         "track": "上一首"
       },
+      "private": "私有",
+      "public": "公开",
       "quantity": "数量",
       "quarterly": "每季度",
+      "question": "问题",
       "redo": "重做",
       "refresh": "刷新",
+      "reject": "拒绝",
+      "rejected": "已拒绝",
+      "remote": "远程",
       "remove": "移除",
       "repeat": {
         "all": "全部重复",
@@ -185,8 +233,10 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "替换"
       },
       "replay": "重新播放",
+      "required": "必需",
       "reset": "重置",
       "results": "结果",
+      "resumed": "已恢复",
       "retry": "重试",
       "rewind": "倒带",
       "save": {
@@ -224,18 +274,41 @@ class CoreCodegenLoader extends AssetLoader {
       "submit": "提交",
       "success": "成功",
       "template": "模板",
+      "time": {
+        "elapsed": "已过时间",
+        "remaining": "剩余时间",
+        "text": "时间"
+      },
+      "tip": "提示",
       "toggle": {
         "all": "全部切换",
         "text": "切换"
+      },
+      "try": {
+        "again": "再试一次",
+        "later": "稍后再试",
+        "text": "尝试"
       },
       "undo": "撤销",
       "uninstall": "卸载",
       "unlocked": "已解锁",
       "unmute": "取消静音",
       "update": "更新",
+      "upgrade": {
+        "now": "现在升级",
+        "text": "更新"
+      },
       "upload": "上传",
       "user_inputs": "用户输入",
+      "valid": "有效",
+      "visible": "可见",
       "volume": "音量",
+      "warning": "警告",
+      "watch": {
+        "later": "稍后观看",
+        "now": "立即观看",
+        "text": "观看"
+      },
       "website": "网站",
       "weekly": "每周",
       "yearly": "每年",
@@ -246,80 +319,7 @@ class CoreCodegenLoader extends AssetLoader {
         "out": "缩小",
         "reset": "重置缩放",
         "text": "缩放"
-      },
-      "time": {
-        "elapsed": "已过时间",
-        "remaining": "剩余时间",
-        "text": "时间"
-      },
-      "upgrade": {
-        "now": "现在升级",
-        "text": "更新"
-      },
-      "watch": {
-        "later": "稍后观看",
-        "now": "立即观看",
-        "text": "观看"
-      },
-      "operation": {
-        "canceled": "操作已取消",
-        "completed": "操作已完成",
-        "failed": "操作失败",
-        "in_progress": "操作进行中",
-        "pending": "操作待定",
-        "started": "操作已开始",
-        "succeeded": "操作成功",
-        "timed_out": "操作超时",
-        "text": "操作"
-      },
-      "generate": "生成",
-      "perform": "执行",
-      "try": {
-        "again": "再试一次",
-        "later": "稍后再试",
-        "text": "尝试"
-      },
-      "valid": "有效",
-      "invalid": "无效",
-      "accept": "接受",
-      "reject": "拒绝",
-      "approve": "批准",
-      "disapprove": "不批准",
-      "complete": "完成",
-      "tip": "提示",
-      "hint": "线索",
-      "required": "必需",
-      "accepted": "已接受",
-      "rejected": "已拒绝",
-      "pending": "待定",
-      "approved": "已批准",
-      "disapproved": "未批准",
-      "completed": "已完成",
-      "incomplete": "未完成",
-      "in_progress": "进行中",
-      "paused": "暂停",
-      "resumed": "已恢复",
-      "canceled": "已取消",
-      "expired": "已过期",
-      "locked": "已锁定",
-      "active": "活跃",
-      "inactive": "不活跃",
-      "enabled": "已启用",
-      "disabled": "已禁用",
-      "hidden": "隐藏",
-      "visible": "可见",
-      "public": "公开",
-      "private": "私有",
-      "personal": "个人",
-      "commercial": "商业",
-      "non_commercial": "非商业",
-      "internal": "内部",
-      "external": "外部",
-      "local": "本地",
-      "remote": "远程",
-      "warning": "警告",
-      "info": "信息",
-      "question": "问题"
+      }
     },
     "message": {
       "action": {
@@ -332,44 +332,13 @@ class CoreCodegenLoader extends AssetLoader {
       "copied_to_clipboard": "已复制到剪贴板！",
       "copied_value_to_clipboard": "已复制 {value} 到剪贴板！",
       "dark_mode_support": "支持暗黑模式。",
-      "finally": "终于！",
-      "have_wonderful_day": "祝您有美好的一天！",
-      "last_updated_on": "最后更新于{date}",
-      "let_get_started": "让我们开始吧！",
-      "modern_design": "现代外观。",
-      "no_favorites": "无收藏。",
-      "please_wait": "请稍候...",
-      "saving": "保存中...",
-      "search": "搜索...",
-      "share": {
-        "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"
-      },
-      "sorry": "抱歉...",
-      "success": "成功！",
-      "thank_you": "谢谢！",
-      "warning": "警告！",
-      "welcome": "欢迎！",
-      "whats_new": "有什么新功能？",
-      "whoops": "哎呀！",
-      "generating": {
-        "pdf": "生成PDF中...",
-        "text": "生成中..."
-      },
-      "performing": "执行中...",
-      "processing": "处理中...",
-      "loading": {
-        "data": "正在加载数据...",
-        "pdf": "正在加载PDF...",
-        "text": "加载中..."
-      },
-      "pdf_ready": "PDF已准备就绪！",
       "failed_to": {
+        "generate": {
+          "pdf": "生成PDF失败。"
+        },
         "load": {
           "data": "加载数据失败。",
           "pdf": "加载PDF失败。"
-        },
-        "generate": {
-          "pdf": "生成PDF失败。"
         },
         "perform": {
           "action": "执行操作失败。"
@@ -379,7 +348,38 @@ class CoreCodegenLoader extends AssetLoader {
           "pdf": "保存PDF失败。"
         }
       },
-      "searching": "正在搜索..."
+      "finally": "终于！",
+      "generating": {
+        "pdf": "生成PDF中...",
+        "text": "生成中..."
+      },
+      "have_wonderful_day": "祝您有美好的一天！",
+      "last_updated_on": "最后更新于{date}",
+      "let_get_started": "让我们开始吧！",
+      "loading": {
+        "data": "正在加载数据...",
+        "pdf": "正在加载PDF...",
+        "text": "加载中..."
+      },
+      "modern_design": "现代外观。",
+      "no_favorites": "无收藏。",
+      "pdf_ready": "PDF已准备就绪！",
+      "performing": "执行中...",
+      "please_wait": "请稍候...",
+      "processing": "处理中...",
+      "saving": "保存中...",
+      "search": "搜索...",
+      "searching": "正在搜索...",
+      "share": {
+        "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"
+      },
+      "sorry": "抱歉...",
+      "success": "成功！",
+      "thank_you": "谢谢！",
+      "warning": "警告！",
+      "welcome": "欢迎！",
+      "whats_new": "有什么新功能？",
+      "whoops": "哎呀！"
     },
     "question": {
       "are_you_sure": "确定吗？",
@@ -401,6 +401,9 @@ static const Map<String,dynamic> ja = {
       "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
     },
     "label": {
+      "accept": "受け入れる",
+      "accepted": "受け入れられた",
+      "active": "アクティブ",
       "add": "追加",
       "advanced": "高度な設定",
       "all": {
@@ -409,12 +412,15 @@ static const Map<String,dynamic> ja = {
         "other": "全て"
       },
       "annually": "毎年",
+      "approve": "承認",
+      "approved": "承認済み",
       "at": "場所",
       "auto_save": "自動保存",
       "back": "戻る",
       "behavior": "動作",
       "buy": "購入",
       "cancel": "キャンセル",
+      "canceled": "キャンセル",
       "clear": {
         "selection": "選択のクリア",
         "text": "クリア"
@@ -430,6 +436,9 @@ static const Map<String,dynamic> ja = {
         "all": "すべて折りたたむ",
         "text": "折りたたむ"
       },
+      "commercial": "商業的",
+      "complete": "完了",
+      "completed": "完了した",
       "confirm": "確認",
       "confirmation": "確認",
       "continue": "続ける",
@@ -444,10 +453,14 @@ static const Map<String,dynamic> ja = {
       "delete": "削除",
       "description": "説明",
       "details": "詳細",
+      "disabled": "無効",
+      "disapprove": "不承認",
+      "disapproved": "不承認",
       "display": "表示",
       "done": "完了",
       "download": "ダウンロード",
       "edit": "編集",
+      "enabled": "有効",
       "enter": {
         "fullscreen": "フルスクリーンに入る",
         "pip": "ピクチャ・イン・ピクチャに入る",
@@ -466,12 +479,14 @@ static const Map<String,dynamic> ja = {
         "all": "すべて展開",
         "text": "展開"
       },
+      "expired": "期限切れ",
       "export": {
         "all": "すべてエクスポート",
         "as": "としてエクスポート",
         "pdf": "PDFとしてエクスポート",
         "text": "エクスポート"
       },
+      "external": "外部",
       "fast_forward": "早送り",
       "favorites": "お気に入り",
       "find": {
@@ -484,18 +499,29 @@ static const Map<String,dynamic> ja = {
       "frame": "フレーム",
       "frequency": "頻度",
       "fullscreen": "フルスクリーン",
+      "generate": "生成",
       "go": "移動",
       "help": "ヘルプ",
+      "hidden": "非表示",
+      "hint": "手がかり",
       "home": "ホーム",
       "import": {
         "all": "すべてインポート",
         "from": "からインポート",
         "text": "インポート"
       },
+      "in_progress": "進行中",
+      "inactive": "非アクティブ",
+      "incomplete": "不完全",
+      "info": "情報",
       "inputs": "入力",
       "install": "インストール",
+      "internal": "内部",
+      "invalid": "無効",
       "learn_more": "詳細を確認",
       "loading": "読み込み中",
+      "local": "ローカル",
+      "locked": "ロックされた",
       "loop": "ループ",
       "majors": "成人",
       "menu": "メニュー",
@@ -523,6 +549,7 @@ static const Map<String,dynamic> ja = {
         "track": "次のトラック"
       },
       "no": "いいえ",
+      "non_commercial": "非商業的",
       "none": {
         "female": "なし",
         "male": "なし",
@@ -541,9 +568,24 @@ static const Map<String,dynamic> ja = {
         "text": "開く",
         "url": "URLを開く"
       },
+      "operation": {
+        "canceled": "操作がキャンセルされました",
+        "completed": "操作が完了しました",
+        "failed": "操作が失敗しました",
+        "in_progress": "操作中",
+        "pending": "操作待ち",
+        "started": "操作を開始しました",
+        "succeeded": "操作が成功しました",
+        "text": "操作",
+        "timed_out": "操作がタイムアウトしました"
+      },
       "optional": "任意",
       "paste": "ペースト",
       "pause": "一時停止",
+      "paused": "一時停止",
+      "pending": "保留中",
+      "perform": "実行",
+      "personal": "個人",
       "play": "再生",
       "play_pause": "再生/一時停止",
       "previous": {
@@ -552,10 +594,16 @@ static const Map<String,dynamic> ja = {
         "text": "前へ",
         "track": "前のトラック"
       },
+      "private": "非公開",
+      "public": "公開",
       "quantity": "数量",
       "quarterly": "四半期ごとに",
+      "question": "質問",
       "redo": "やり直す",
       "refresh": "リフレッシュ",
+      "reject": "拒否",
+      "rejected": "拒否された",
+      "remote": "リモート",
       "remove": "削除",
       "repeat": {
         "all": "すべてを繰り返す",
@@ -568,8 +616,10 @@ static const Map<String,dynamic> ja = {
         "text": "置換"
       },
       "replay": "リプレイ",
+      "required": "必須",
       "reset": "リセット",
       "results": "結果",
+      "resumed": "再開",
       "retry": "再試行",
       "rewind": "巻き戻し",
       "save": {
@@ -607,18 +657,41 @@ static const Map<String,dynamic> ja = {
       "submit": "送信",
       "success": "成功",
       "template": "テンプレート",
+      "time": {
+        "elapsed": "経過時間",
+        "remaining": "残り時間",
+        "text": "時間"
+      },
+      "tip": "ヒント",
       "toggle": {
         "all": "すべて切り替え",
         "text": "切り替え"
+      },
+      "try": {
+        "again": "再試行",
+        "later": "後で試す",
+        "text": "試す"
       },
       "undo": "元に戻す",
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
       "unmute": "ミュート解除",
       "update": "更新",
+      "upgrade": {
+        "now": "今すぐアップグレード",
+        "text": "アップグレード"
+      },
       "upload": "アップロード",
       "user_inputs": "ユーザー入力",
+      "valid": "有効",
+      "visible": "表示",
       "volume": "音量",
+      "warning": "警告",
+      "watch": {
+        "later": "後で見る",
+        "now": "今すぐ見る",
+        "text": "見る"
+      },
       "website": "ウェブサイト",
       "weekly": "毎週",
       "yearly": "毎年",
@@ -629,80 +702,7 @@ static const Map<String,dynamic> ja = {
         "out": "ズームアウト",
         "reset": "ズームリセット",
         "text": "ズーム"
-      },
-      "time": {
-        "elapsed": "経過時間",
-        "remaining": "残り時間",
-        "text": "時間"
-      },
-      "upgrade": {
-        "now": "今すぐアップグレード",
-        "text": "アップグレード"
-      },
-      "watch": {
-        "later": "後で見る",
-        "now": "今すぐ見る",
-        "text": "見る"
-      },
-      "operation": {
-        "canceled": "操作がキャンセルされました",
-        "completed": "操作が完了しました",
-        "failed": "操作が失敗しました",
-        "in_progress": "操作中",
-        "pending": "操作待ち",
-        "started": "操作を開始しました",
-        "succeeded": "操作が成功しました",
-        "timed_out": "操作がタイムアウトしました",
-        "text": "操作"
-      },
-      "generate": "生成",
-      "perform": "実行",
-      "try": {
-        "again": "再試行",
-        "later": "後で試す",
-        "text": "試す"
-      },
-      "valid": "有効",
-      "invalid": "無効",
-      "accept": "受け入れる",
-      "reject": "拒否",
-      "approve": "承認",
-      "disapprove": "不承認",
-      "complete": "完了",
-      "tip": "ヒント",
-      "hint": "手がかり",
-      "required": "必須",
-      "accepted": "受け入れられた",
-      "rejected": "拒否された",
-      "pending": "保留中",
-      "approved": "承認済み",
-      "disapproved": "不承認",
-      "completed": "完了した",
-      "incomplete": "不完全",
-      "in_progress": "進行中",
-      "paused": "一時停止",
-      "resumed": "再開",
-      "canceled": "キャンセル",
-      "expired": "期限切れ",
-      "locked": "ロックされた",
-      "active": "アクティブ",
-      "inactive": "非アクティブ",
-      "enabled": "有効",
-      "disabled": "無効",
-      "hidden": "非表示",
-      "visible": "表示",
-      "public": "公開",
-      "private": "非公開",
-      "personal": "個人",
-      "commercial": "商業的",
-      "non_commercial": "非商業的",
-      "internal": "内部",
-      "external": "外部",
-      "local": "ローカル",
-      "remote": "リモート",
-      "warning": "警告",
-      "info": "情報",
-      "question": "質問"
+      }
     },
     "message": {
       "action": {
@@ -715,44 +715,13 @@ static const Map<String,dynamic> ja = {
       "copied_to_clipboard": "クリップボードにコピーしました！",
       "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
       "dark_mode_support": "ダークモードのサポート。",
-      "finally": "ついに！",
-      "have_wonderful_day": "素敵な一日を！",
-      "last_updated_on": "{date} に最終更新",
-      "let_get_started": "はじめましょう！",
-      "modern_design": "モダンなデザイン。",
-      "no_favorites": "お気に入りはありません。",
-      "please_wait": "お待ちください...",
-      "saving": "保存中...",
-      "search": "検索...",
-      "share": {
-        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
-      },
-      "sorry": "申し訳ありません...",
-      "success": "成功しました！",
-      "thank_you": "ありがとうございます！",
-      "warning": "警告！",
-      "welcome": "ようこそ！",
-      "whats_new": "新機能のご紹介",
-      "whoops": "おっと！",
-      "generating": {
-        "pdf": "PDFを生成中...",
-        "text": "生成中..."
-      },
-      "performing": "実行中...",
-      "processing": "処理中...",
-      "loading": {
-        "data": "データを読み込み中...",
-        "pdf": "PDFを読み込み中...",
-        "text": "読み込み中..."
-      },
-      "pdf_ready": "PDFが準備できました！",
       "failed_to": {
+        "generate": {
+          "pdf": "PDFの生成に失敗しました。"
+        },
         "load": {
           "data": "データの読み込みに失敗しました。",
           "pdf": "PDFの読み込みに失敗しました。"
-        },
-        "generate": {
-          "pdf": "PDFの生成に失敗しました。"
         },
         "perform": {
           "action": "アクションの実行に失敗しました。"
@@ -762,7 +731,38 @@ static const Map<String,dynamic> ja = {
           "pdf": "PDFの保存に失敗しました。"
         }
       },
-      "searching": "検索中..."
+      "finally": "ついに！",
+      "generating": {
+        "pdf": "PDFを生成中...",
+        "text": "生成中..."
+      },
+      "have_wonderful_day": "素敵な一日を！",
+      "last_updated_on": "{date} に最終更新",
+      "let_get_started": "はじめましょう！",
+      "loading": {
+        "data": "データを読み込み中...",
+        "pdf": "PDFを読み込み中...",
+        "text": "読み込み中..."
+      },
+      "modern_design": "モダンなデザイン。",
+      "no_favorites": "お気に入りはありません。",
+      "pdf_ready": "PDFが準備できました！",
+      "performing": "実行中...",
+      "please_wait": "お待ちください...",
+      "processing": "処理中...",
+      "saving": "保存中...",
+      "search": "検索...",
+      "searching": "検索中...",
+      "share": {
+        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
+      },
+      "sorry": "申し訳ありません...",
+      "success": "成功しました！",
+      "thank_you": "ありがとうございます！",
+      "warning": "警告！",
+      "welcome": "ようこそ！",
+      "whats_new": "新機能のご紹介",
+      "whoops": "おっと！"
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",
@@ -784,6 +784,9 @@ static const Map<String,dynamic> de = {
       "error_occurred": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
     },
     "label": {
+      "accept": "Akzeptieren",
+      "accepted": "Akzeptiert",
+      "active": "Aktiv",
       "add": "Hinzufügen",
       "advanced": "Erweitert",
       "all": {
@@ -792,12 +795,15 @@ static const Map<String,dynamic> de = {
         "other": "Alle"
       },
       "annually": "Jährlich",
+      "approve": "Genehmigen",
+      "approved": "Genehmigt",
       "at": "Bei",
       "auto_save": "Automatisch speichern",
       "back": "Zurück",
       "behavior": "Verhalten",
       "buy": "Kaufen",
       "cancel": "Abbrechen",
+      "canceled": "Abgebrochen",
       "clear": {
         "selection": "Auswahl löschen",
         "text": "Löschen"
@@ -813,6 +819,9 @@ static const Map<String,dynamic> de = {
         "all": "Alle zusammenklappen",
         "text": "Zusammenklappen"
       },
+      "commercial": "Kommerziell",
+      "complete": "Vollständig",
+      "completed": "Abgeschlossen",
       "confirm": "Bestätigen",
       "confirmation": "Bestätigung",
       "continue": "Weiter",
@@ -827,10 +836,14 @@ static const Map<String,dynamic> de = {
       "delete": "Löschen",
       "description": "Beschreibung",
       "details": "Details",
+      "disabled": "Deaktiviert",
+      "disapprove": "Missbilligen",
+      "disapproved": "Missbilligt",
       "display": "Anzeige",
       "done": "Fertig",
       "download": "Herunterladen",
       "edit": "Bearbeiten",
+      "enabled": "Aktiviert",
       "enter": {
         "fullscreen": "Vollbildmodus betreten",
         "pip": "Bild-in-Bild betreten",
@@ -849,12 +862,14 @@ static const Map<String,dynamic> de = {
         "all": "Alle erweitern",
         "text": "Erweitern"
       },
+      "expired": "Abgelaufen",
       "export": {
         "all": "Alle exportieren",
         "as": "Exportieren als",
         "pdf": "Als PDF exportieren",
         "text": "Exportieren"
       },
+      "external": "Extern",
       "fast_forward": "Vorwärts spulen",
       "favorites": "Favoriten",
       "find": {
@@ -867,18 +882,29 @@ static const Map<String,dynamic> de = {
       "frame": "Rahmen",
       "frequency": "Häufigkeit",
       "fullscreen": "Vollbild",
+      "generate": "Generieren",
       "go": "Gehe zu",
       "help": "Hilfe",
+      "hidden": "Versteckt",
+      "hint": "Hinweis",
       "home": "Startseite",
       "import": {
         "all": "Alle importieren",
         "from": "Importieren von",
         "text": "Importieren"
       },
+      "in_progress": "In Bearbeitung",
+      "inactive": "Inaktiv",
+      "incomplete": "Unvollständig",
+      "info": "Info",
       "inputs": "Eingaben",
       "install": "Installieren",
+      "internal": "Intern",
+      "invalid": "Ungültig",
       "learn_more": "Weitere Informationen",
       "loading": "Wird geladen",
+      "local": "Lokal",
+      "locked": "Gesperrt",
       "loop": "Schleife",
       "majors": "Volljährige",
       "menu": "Menü",
@@ -906,6 +932,7 @@ static const Map<String,dynamic> de = {
         "track": "Nächster Titel"
       },
       "no": "Nein",
+      "non_commercial": "Nicht-kommerziell",
       "none": {
         "female": "Keine",
         "male": "Keine",
@@ -924,9 +951,24 @@ static const Map<String,dynamic> de = {
         "text": "Öffnen",
         "url": "URL öffnen"
       },
+      "operation": {
+        "canceled": "Vorgang abgebrochen",
+        "completed": "Vorgang abgeschlossen",
+        "failed": "Vorgang fehlgeschlagen",
+        "in_progress": "Vorgang in Bearbeitung",
+        "pending": "Vorgang ausstehend",
+        "started": "Vorgang gestartet",
+        "succeeded": "Vorgang erfolgreich",
+        "text": "Vorgang",
+        "timed_out": "Vorgang abgelaufen"
+      },
       "optional": "Optional",
       "paste": "Einfügen",
       "pause": "Pause",
+      "paused": "Pausiert",
+      "pending": "Ausstehend",
+      "perform": "Ausführen",
+      "personal": "Persönlich",
       "play": "Wiedergabe",
       "play_pause": "Wiedergabe/Pause",
       "previous": {
@@ -935,10 +977,16 @@ static const Map<String,dynamic> de = {
         "text": "Vorherige",
         "track": "Vorheriger Titel"
       },
+      "private": "Privat",
+      "public": "Öffentlich",
       "quantity": "Menge",
       "quarterly": "Vierteljährlich",
+      "question": "Frage",
       "redo": "Wiederholen",
       "refresh": "Aktualisieren",
+      "reject": "Ablehnen",
+      "rejected": "Abgelehnt",
+      "remote": "Fern",
       "remove": "Entfernen",
       "repeat": {
         "all": "Alle wiederholen",
@@ -951,8 +999,10 @@ static const Map<String,dynamic> de = {
         "text": "Ersetzen"
       },
       "replay": "Erneut abspielen",
+      "required": "Erforderlich",
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",
+      "resumed": "Fortgesetzt",
       "retry": "Erneut versuchen",
       "rewind": "Zurückspulen",
       "save": {
@@ -990,18 +1040,41 @@ static const Map<String,dynamic> de = {
       "submit": "Senden",
       "success": "Erfolg",
       "template": "Vorlage",
+      "time": {
+        "elapsed": "Verstrichene Zeit",
+        "remaining": "Verbleibende Zeit",
+        "text": "Zeit"
+      },
+      "tip": "Tipp",
       "toggle": {
         "all": "Alle umschalten",
         "text": "Umschalten"
+      },
+      "try": {
+        "again": "Erneut versuchen",
+        "later": "Später versuchen",
+        "text": "Versuchen"
       },
       "undo": "Rückgängig machen",
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
       "unmute": "Ton an",
       "update": "Aktualisieren",
+      "upgrade": {
+        "now": "Jetzt aktualisieren",
+        "text": "Aktualisieren"
+      },
       "upload": "Hochladen",
       "user_inputs": "Benutzereingaben",
+      "valid": "Gültig",
+      "visible": "Sichtbar",
       "volume": "Lautstärke",
+      "warning": "Warnung",
+      "watch": {
+        "later": "Später ansehen",
+        "now": "Jetzt ansehen",
+        "text": "Ansehen"
+      },
       "website": "Webseite",
       "weekly": "Wöchentlich",
       "yearly": "Jährlich",
@@ -1012,80 +1085,7 @@ static const Map<String,dynamic> de = {
         "out": "Herauszoomen",
         "reset": "Zoom zurücksetzen",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Verstrichene Zeit",
-        "remaining": "Verbleibende Zeit",
-        "text": "Zeit"
-      },
-      "upgrade": {
-        "now": "Jetzt aktualisieren",
-        "text": "Aktualisieren"
-      },
-      "watch": {
-        "later": "Später ansehen",
-        "now": "Jetzt ansehen",
-        "text": "Ansehen"
-      },
-      "operation": {
-        "canceled": "Vorgang abgebrochen",
-        "completed": "Vorgang abgeschlossen",
-        "failed": "Vorgang fehlgeschlagen",
-        "in_progress": "Vorgang in Bearbeitung",
-        "pending": "Vorgang ausstehend",
-        "started": "Vorgang gestartet",
-        "succeeded": "Vorgang erfolgreich",
-        "timed_out": "Vorgang abgelaufen",
-        "text": "Vorgang"
-      },
-      "generate": "Generieren",
-      "perform": "Ausführen",
-      "try": {
-        "again": "Erneut versuchen",
-        "later": "Später versuchen",
-        "text": "Versuchen"
-      },
-      "valid": "Gültig",
-      "invalid": "Ungültig",
-      "accept": "Akzeptieren",
-      "reject": "Ablehnen",
-      "approve": "Genehmigen",
-      "disapprove": "Missbilligen",
-      "complete": "Vollständig",
-      "tip": "Tipp",
-      "hint": "Hinweis",
-      "required": "Erforderlich",
-      "accepted": "Akzeptiert",
-      "rejected": "Abgelehnt",
-      "pending": "Ausstehend",
-      "approved": "Genehmigt",
-      "disapproved": "Missbilligt",
-      "completed": "Abgeschlossen",
-      "incomplete": "Unvollständig",
-      "in_progress": "In Bearbeitung",
-      "paused": "Pausiert",
-      "resumed": "Fortgesetzt",
-      "canceled": "Abgebrochen",
-      "expired": "Abgelaufen",
-      "locked": "Gesperrt",
-      "active": "Aktiv",
-      "inactive": "Inaktiv",
-      "enabled": "Aktiviert",
-      "disabled": "Deaktiviert",
-      "hidden": "Versteckt",
-      "visible": "Sichtbar",
-      "public": "Öffentlich",
-      "private": "Privat",
-      "personal": "Persönlich",
-      "commercial": "Kommerziell",
-      "non_commercial": "Nicht-kommerziell",
-      "internal": "Intern",
-      "external": "Extern",
-      "local": "Lokal",
-      "remote": "Fern",
-      "warning": "Warnung",
-      "info": "Info",
-      "question": "Frage"
+      }
     },
     "message": {
       "action": {
@@ -1098,44 +1098,13 @@ static const Map<String,dynamic> de = {
       "copied_to_clipboard": "In die Zwischenablage kopiert!",
       "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
       "dark_mode_support": "Unterstützung für den Dunkelmodus.",
-      "finally": "Endlich!",
-      "have_wonderful_day": "Einen wundervollen Tag!",
-      "last_updated_on": "Zuletzt aktualisiert am {date}",
-      "let_get_started": "Lassen Sie uns beginnen!",
-      "modern_design": "Modernes Design.",
-      "no_favorites": "Keine Favoriten.",
-      "please_wait": "Bitte warten...",
-      "saving": "Speichern...",
-      "search": "Suche...",
-      "share": {
-        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
-      },
-      "sorry": "Entschuldigung...",
-      "success": "Erfolg!",
-      "thank_you": "Vielen Dank!",
-      "warning": "Achtung!",
-      "welcome": "Willkommen!",
-      "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!",
-      "generating": {
-        "pdf": "PDF wird erstellt...",
-        "text": "Wird erstellt..."
-      },
-      "performing": "Wird durchgeführt...",
-      "processing": "Wird verarbeitet...",
-      "loading": {
-        "data": "Daten werden geladen...",
-        "pdf": "PDF wird geladen...",
-        "text": "Wird geladen..."
-      },
-      "pdf_ready": "PDF fertig!",
       "failed_to": {
+        "generate": {
+          "pdf": "PDF konnte nicht erstellt werden."
+        },
         "load": {
           "data": "Daten konnten nicht geladen werden.",
           "pdf": "PDF konnte nicht geladen werden."
-        },
-        "generate": {
-          "pdf": "PDF konnte nicht erstellt werden."
         },
         "perform": {
           "action": "Aktion konnte nicht durchgeführt werden."
@@ -1145,7 +1114,38 @@ static const Map<String,dynamic> de = {
           "pdf": "PDF konnte nicht gespeichert werden."
         }
       },
-      "searching": "Suche läuft..."
+      "finally": "Endlich!",
+      "generating": {
+        "pdf": "PDF wird erstellt...",
+        "text": "Wird erstellt..."
+      },
+      "have_wonderful_day": "Einen wundervollen Tag!",
+      "last_updated_on": "Zuletzt aktualisiert am {date}",
+      "let_get_started": "Lassen Sie uns beginnen!",
+      "loading": {
+        "data": "Daten werden geladen...",
+        "pdf": "PDF wird geladen...",
+        "text": "Wird geladen..."
+      },
+      "modern_design": "Modernes Design.",
+      "no_favorites": "Keine Favoriten.",
+      "pdf_ready": "PDF fertig!",
+      "performing": "Wird durchgeführt...",
+      "please_wait": "Bitte warten...",
+      "processing": "Wird verarbeitet...",
+      "saving": "Speichern...",
+      "search": "Suche...",
+      "searching": "Suche läuft...",
+      "share": {
+        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
+      },
+      "sorry": "Entschuldigung...",
+      "success": "Erfolg!",
+      "thank_you": "Vielen Dank!",
+      "warning": "Achtung!",
+      "welcome": "Willkommen!",
+      "whats_new": "Was gibt's Neues?",
+      "whoops": "Hoppla!"
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",
@@ -1167,6 +1167,9 @@ static const Map<String,dynamic> ru = {
       "error_occurred": "Извините, произошла ошибка. Пожалуйста, попробуйте еще раз позже."
     },
     "label": {
+      "accept": "Принять",
+      "accepted": "Принято",
+      "active": "Активный",
       "add": "Добавить",
       "advanced": "Расширенные",
       "all": {
@@ -1175,12 +1178,15 @@ static const Map<String,dynamic> ru = {
         "other": "Все"
       },
       "annually": "Ежегодно",
+      "approve": "Одобрить",
+      "approved": "Одобрено",
       "at": "В",
       "auto_save": "Автосохранение",
       "back": "Назад",
       "behavior": "Поведение",
       "buy": "Купить",
       "cancel": "Отмена",
+      "canceled": "Отменено",
       "clear": {
         "selection": "Очистить выбор",
         "text": "Очистить"
@@ -1196,6 +1202,9 @@ static const Map<String,dynamic> ru = {
         "all": "Свернуть все",
         "text": "Свернуть"
       },
+      "commercial": "Коммерческий",
+      "complete": "Завершено",
+      "completed": "Выполнено",
       "confirm": "Подтвердить",
       "confirmation": "Подтверждение",
       "continue": "Продолжить",
@@ -1210,10 +1219,14 @@ static const Map<String,dynamic> ru = {
       "delete": "Удалить",
       "description": "Описание",
       "details": "Детали",
+      "disabled": "Выключено",
+      "disapprove": "Отклонить",
+      "disapproved": "Не одобрено",
       "display": "Отображение",
       "done": "Готово",
       "download": "Скачать",
       "edit": "Редактировать",
+      "enabled": "Включено",
       "enter": {
         "fullscreen": "Войти в полноэкранный режим",
         "pip": "Войти в режим Picture-in-Picture",
@@ -1232,12 +1245,14 @@ static const Map<String,dynamic> ru = {
         "all": "Развернуть все",
         "text": "Развернуть"
       },
+      "expired": "Истекло",
       "export": {
         "all": "Экспортировать все",
         "as": "Экспортировать как",
         "pdf": "Экспортировать как PDF",
         "text": "Экспорт"
       },
+      "external": "Внешний",
       "fast_forward": "Перемотка вперед",
       "favorites": "Избранное",
       "find": {
@@ -1250,18 +1265,29 @@ static const Map<String,dynamic> ru = {
       "frame": "Кадр",
       "frequency": "Частота",
       "fullscreen": "На весь экран",
+      "generate": "Генерировать",
       "go": "Перейти",
       "help": "Помощь",
+      "hidden": "Скрыто",
+      "hint": "Подсказка",
       "home": "Главная",
       "import": {
         "all": "Импортировать все",
         "from": "Импортировать из",
         "text": "Импорт"
       },
+      "in_progress": "В процессе",
+      "inactive": "Неактивный",
+      "incomplete": "Незавершенный",
+      "info": "Информация",
       "inputs": "Ввод",
       "install": "Установить",
+      "internal": "Внутренний",
+      "invalid": "Недействительно",
       "learn_more": "Узнать больше",
       "loading": "Загрузка",
+      "local": "Локальный",
+      "locked": "Заблокировано",
       "loop": "Зациклить",
       "majors": "Совершеннолетние",
       "menu": "Меню",
@@ -1289,6 +1315,7 @@ static const Map<String,dynamic> ru = {
         "track": "Следующий трек"
       },
       "no": "Нет",
+      "non_commercial": "Некоммерческий",
       "none": {
         "female": "Нет",
         "male": "Нет",
@@ -1307,9 +1334,24 @@ static const Map<String,dynamic> ru = {
         "text": "Открыть",
         "url": "Открыть URL"
       },
+      "operation": {
+        "canceled": "Операция отменена",
+        "completed": "Операция завершена",
+        "failed": "Операция не удалась",
+        "in_progress": "Операция в процессе",
+        "pending": "Операция ожидает",
+        "started": "Операция началась",
+        "succeeded": "Операция успешно завершена",
+        "text": "Операция",
+        "timed_out": "Время операции истекло"
+      },
       "optional": "Необязательно",
       "paste": "Вставить",
       "pause": "Пауза",
+      "paused": "Приостановлено",
+      "pending": "Ожидание",
+      "perform": "Выполнить",
+      "personal": "Личный",
       "play": "Воспроизвести",
       "play_pause": "Воспроизведение/Пауза",
       "previous": {
@@ -1318,10 +1360,16 @@ static const Map<String,dynamic> ru = {
         "text": "Предыдущее",
         "track": "Предыдущий трек"
       },
+      "private": "Частный",
+      "public": "Публичный",
       "quantity": "Количество",
       "quarterly": "Ежеквартально",
+      "question": "Вопрос",
       "redo": "Повторить действие",
       "refresh": "Обновить",
+      "reject": "Отклонить",
+      "rejected": "Отклонено",
+      "remote": "Удаленный",
       "remove": "Удалить",
       "repeat": {
         "all": "Повторить все",
@@ -1334,8 +1382,10 @@ static const Map<String,dynamic> ru = {
         "text": "Заменить"
       },
       "replay": "Повторить",
+      "required": "Обязательно",
       "reset": "Сбросить",
       "results": "Результаты",
+      "resumed": "Возобновлено",
       "retry": "Повторить",
       "rewind": "Перемотка назад",
       "save": {
@@ -1373,18 +1423,41 @@ static const Map<String,dynamic> ru = {
       "submit": "Отправить",
       "success": "Успех",
       "template": "Шаблон",
+      "time": {
+        "elapsed": "Прошло времени",
+        "remaining": "Оставшееся время",
+        "text": "Время"
+      },
+      "tip": "Совет",
       "toggle": {
         "all": "Переключить все",
         "text": "Переключить"
+      },
+      "try": {
+        "again": "Попробовать снова",
+        "later": "Попробовать позже",
+        "text": "Попробовать"
       },
       "undo": "Отменить действие",
       "uninstall": "Удалить",
       "unlocked": "Разблокировано",
       "unmute": "Включить звук",
       "update": "Обновить",
+      "upgrade": {
+        "now": "Обновить сейчас",
+        "text": "Обновить"
+      },
       "upload": "Загрузить",
       "user_inputs": "Ввод пользователя",
+      "valid": "Действительно",
+      "visible": "Видимый",
       "volume": "Громкость",
+      "warning": "Предупреждение",
+      "watch": {
+        "later": "Смотреть позже",
+        "now": "Смотреть сейчас",
+        "text": "Смотреть"
+      },
       "website": "Веб-сайт",
       "weekly": "Еженедельно",
       "yearly": "Ежегодно",
@@ -1395,80 +1468,7 @@ static const Map<String,dynamic> ru = {
         "out": "Отдалить",
         "reset": "Сбросить масштаб",
         "text": "Масштаб"
-      },
-      "time": {
-        "elapsed": "Прошло времени",
-        "remaining": "Оставшееся время",
-        "text": "Время"
-      },
-      "upgrade": {
-        "now": "Обновить сейчас",
-        "text": "Обновить"
-      },
-      "watch": {
-        "later": "Смотреть позже",
-        "now": "Смотреть сейчас",
-        "text": "Смотреть"
-      },
-      "operation": {
-        "canceled": "Операция отменена",
-        "completed": "Операция завершена",
-        "failed": "Операция не удалась",
-        "in_progress": "Операция в процессе",
-        "pending": "Операция ожидает",
-        "started": "Операция началась",
-        "succeeded": "Операция успешно завершена",
-        "timed_out": "Время операции истекло",
-        "text": "Операция"
-      },
-      "generate": "Генерировать",
-      "perform": "Выполнить",
-      "try": {
-        "again": "Попробовать снова",
-        "later": "Попробовать позже",
-        "text": "Попробовать"
-      },
-      "valid": "Действительно",
-      "invalid": "Недействительно",
-      "accept": "Принять",
-      "reject": "Отклонить",
-      "approve": "Одобрить",
-      "disapprove": "Отклонить",
-      "complete": "Завершено",
-      "tip": "Совет",
-      "hint": "Подсказка",
-      "required": "Обязательно",
-      "accepted": "Принято",
-      "rejected": "Отклонено",
-      "pending": "Ожидание",
-      "approved": "Одобрено",
-      "disapproved": "Не одобрено",
-      "completed": "Выполнено",
-      "incomplete": "Незавершенный",
-      "in_progress": "В процессе",
-      "paused": "Приостановлено",
-      "resumed": "Возобновлено",
-      "canceled": "Отменено",
-      "expired": "Истекло",
-      "locked": "Заблокировано",
-      "active": "Активный",
-      "inactive": "Неактивный",
-      "enabled": "Включено",
-      "disabled": "Выключено",
-      "hidden": "Скрыто",
-      "visible": "Видимый",
-      "public": "Публичный",
-      "private": "Частный",
-      "personal": "Личный",
-      "commercial": "Коммерческий",
-      "non_commercial": "Некоммерческий",
-      "internal": "Внутренний",
-      "external": "Внешний",
-      "local": "Локальный",
-      "remote": "Удаленный",
-      "warning": "Предупреждение",
-      "info": "Информация",
-      "question": "Вопрос"
+      }
     },
     "message": {
       "action": {
@@ -1481,44 +1481,13 @@ static const Map<String,dynamic> ru = {
       "copied_to_clipboard": "Скопировано в буфер обмена!",
       "copied_value_to_clipboard": "Скопировано {value} в буфер обмена!",
       "dark_mode_support": "Поддержка темного режима.",
-      "finally": "Наконец-то!",
-      "have_wonderful_day": "Хорошего дня!",
-      "last_updated_on": "Последнее обновление {date}",
-      "let_get_started": "Начнем!",
-      "modern_design": "Современный дизайн.",
-      "no_favorites": "Нет избранных.",
-      "please_wait": "Пожалуйста, подождите...",
-      "saving": "Сохранение...",
-      "search": "Поиск...",
-      "share": {
-        "invite": "Привет! Я обнаружил удивительное приложение, которое сделает твою жизнь проще. Проверь его!"
-      },
-      "sorry": "Извините...",
-      "success": "Успешно!",
-      "thank_you": "Спасибо!",
-      "warning": "Предупреждение!",
-      "welcome": "Добро пожаловать!",
-      "whats_new": "Что нового?",
-      "whoops": "Упс!",
-      "generating": {
-        "pdf": "Генерация PDF...",
-        "text": "Генерация..."
-      },
-      "performing": "Выполнение...",
-      "processing": "Обработка...",
-      "loading": {
-        "data": "Загрузка данных...",
-        "pdf": "Загрузка PDF...",
-        "text": "Загрузка..."
-      },
-      "pdf_ready": "PDF готово!",
       "failed_to": {
+        "generate": {
+          "pdf": "Не удалось сгенерировать PDF."
+        },
         "load": {
           "data": "Не удалось загрузить данные.",
           "pdf": "Не удалось загрузить PDF."
-        },
-        "generate": {
-          "pdf": "Не удалось сгенерировать PDF."
         },
         "perform": {
           "action": "Не удалось выполнить действие."
@@ -1528,7 +1497,38 @@ static const Map<String,dynamic> ru = {
           "pdf": "Не удалось сохранить PDF."
         }
       },
-      "searching": "Поиск..."
+      "finally": "Наконец-то!",
+      "generating": {
+        "pdf": "Генерация PDF...",
+        "text": "Генерация..."
+      },
+      "have_wonderful_day": "Хорошего дня!",
+      "last_updated_on": "Последнее обновление {date}",
+      "let_get_started": "Начнем!",
+      "loading": {
+        "data": "Загрузка данных...",
+        "pdf": "Загрузка PDF...",
+        "text": "Загрузка..."
+      },
+      "modern_design": "Современный дизайн.",
+      "no_favorites": "Нет избранных.",
+      "pdf_ready": "PDF готово!",
+      "performing": "Выполнение...",
+      "please_wait": "Пожалуйста, подождите...",
+      "processing": "Обработка...",
+      "saving": "Сохранение...",
+      "search": "Поиск...",
+      "searching": "Поиск...",
+      "share": {
+        "invite": "Привет! Я обнаружил удивительное приложение, которое сделает твою жизнь проще. Проверь его!"
+      },
+      "sorry": "Извините...",
+      "success": "Успешно!",
+      "thank_you": "Спасибо!",
+      "warning": "Предупреждение!",
+      "welcome": "Добро пожаловать!",
+      "whats_new": "Что нового?",
+      "whoops": "Упс!"
     },
     "question": {
       "are_you_sure": "Вы уверены?",
@@ -1550,6 +1550,9 @@ static const Map<String,dynamic> pt = {
       "error_occurred": "Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde."
     },
     "label": {
+      "accept": "Aceitar",
+      "accepted": "Aceito",
+      "active": "Ativo",
       "add": "Adicionar",
       "advanced": "Avançado",
       "all": {
@@ -1558,12 +1561,15 @@ static const Map<String,dynamic> pt = {
         "other": "Todos"
       },
       "annually": "Anualmente",
+      "approve": "Aprovar",
+      "approved": "Aprovado",
       "at": "Em",
       "auto_save": "Salvar automaticamente",
       "back": "Voltar",
       "behavior": "Comportamento",
       "buy": "Comprar",
       "cancel": "Cancelar",
+      "canceled": "Cancelado",
       "clear": {
         "selection": "Limpar seleção",
         "text": "Limpar"
@@ -1579,6 +1585,9 @@ static const Map<String,dynamic> pt = {
         "all": "Recolher Todos",
         "text": "Recolher"
       },
+      "commercial": "Comercial",
+      "complete": "Completo",
+      "completed": "Concluído",
       "confirm": "Confirmar",
       "confirmation": "Confirmação",
       "continue": "Continuar",
@@ -1593,10 +1602,14 @@ static const Map<String,dynamic> pt = {
       "delete": "Excluir",
       "description": "Descrição",
       "details": "Detalhes",
+      "disabled": "Desabilitado",
+      "disapprove": "Desaprovar",
+      "disapproved": "Desaprovado",
       "display": "Exibição",
       "done": "Concluído",
       "download": "Baixar",
       "edit": "Editar",
+      "enabled": "Habilitado",
       "enter": {
         "fullscreen": "Entrar em tela inteira",
         "pip": "Entrar em Imagem dentro da imagem",
@@ -1615,12 +1628,14 @@ static const Map<String,dynamic> pt = {
         "all": "Expandir Todos",
         "text": "Expandir"
       },
+      "expired": "Expirado",
       "export": {
         "all": "Exportar Todos",
         "as": "Exportar Como",
         "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
+      "external": "Externo",
       "fast_forward": "Avançar rapidamente",
       "favorites": "Favoritos",
       "find": {
@@ -1633,18 +1648,29 @@ static const Map<String,dynamic> pt = {
       "frame": "Quadro",
       "frequency": "Frequência",
       "fullscreen": "Tela inteira",
+      "generate": "Gerar",
       "go": "Ir",
       "help": "Ajuda",
+      "hidden": "Oculto",
+      "hint": "Sugestão",
       "home": "Início",
       "import": {
         "all": "Importar Todos",
         "from": "Importar de",
         "text": "Importar"
       },
+      "in_progress": "Em progresso",
+      "inactive": "Inativo",
+      "incomplete": "Incompleto",
+      "info": "Informação",
       "inputs": "Entradas",
       "install": "Instalar",
+      "internal": "Interno",
+      "invalid": "Inválido",
       "learn_more": "Saiba mais",
       "loading": "Carregando",
+      "local": "Local",
+      "locked": "Bloqueado",
       "loop": "Repetir em loop",
       "majors": "Maiores",
       "menu": "Menu",
@@ -1672,6 +1698,7 @@ static const Map<String,dynamic> pt = {
         "track": "Próxima faixa"
       },
       "no": "Não",
+      "non_commercial": "Não-comercial",
       "none": {
         "female": "Nenhum",
         "male": "Nenhum",
@@ -1690,9 +1717,24 @@ static const Map<String,dynamic> pt = {
         "text": "Abrir",
         "url": "Abrir URL"
       },
+      "operation": {
+        "canceled": "Operação cancelada",
+        "completed": "Operação concluída",
+        "failed": "Operação falhou",
+        "in_progress": "Operação em progresso",
+        "pending": "Operação pendente",
+        "started": "Operação iniciada",
+        "succeeded": "Operação bem-sucedida",
+        "text": "Operação",
+        "timed_out": "Operação expirou"
+      },
       "optional": "Opcional",
       "paste": "Colar",
       "pause": "Pausa",
+      "paused": "Pausado",
+      "pending": "Pendente",
+      "perform": "Realizar",
+      "personal": "Pessoal",
       "play": "Reproduzir",
       "play_pause": "Reproduzir/Pausar",
       "previous": {
@@ -1701,10 +1743,16 @@ static const Map<String,dynamic> pt = {
         "text": "Anterior",
         "track": "Faixa anterior"
       },
+      "private": "Privado",
+      "public": "Público",
       "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
+      "question": "Questão",
       "redo": "Refazer",
       "refresh": "Atualizar",
+      "reject": "Rejeitar",
+      "rejected": "Rejeitado",
+      "remote": "Remoto",
       "remove": "Remover",
       "repeat": {
         "all": "Repetir tudo",
@@ -1717,8 +1765,10 @@ static const Map<String,dynamic> pt = {
         "text": "Substituir"
       },
       "replay": "Repetir",
+      "required": "Obrigatório",
       "reset": "Resetar",
       "results": "Resultados",
+      "resumed": "Retomado",
       "retry": "Tentar novamente",
       "rewind": "Retroceder",
       "save": {
@@ -1756,18 +1806,41 @@ static const Map<String,dynamic> pt = {
       "submit": "Enviar",
       "success": "Sucesso",
       "template": "Modelo",
+      "time": {
+        "elapsed": "Tempo decorrido",
+        "remaining": "Tempo restante",
+        "text": "Tempo"
+      },
+      "tip": "Dica",
       "toggle": {
         "all": "Alternar Todos",
         "text": "Alternar"
+      },
+      "try": {
+        "again": "Tentar novamente",
+        "later": "Tentar mais tarde",
+        "text": "Tentar"
       },
       "undo": "Desfazer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "unmute": "Ativar som",
       "update": "Atualizar",
+      "upgrade": {
+        "now": "Atualizar agora",
+        "text": "Atualizar"
+      },
       "upload": "Carregar",
       "user_inputs": "Entradas do usuário",
+      "valid": "Válido",
+      "visible": "Visível",
       "volume": "Volume",
+      "warning": "Aviso",
+      "watch": {
+        "later": "Assistir mais tarde",
+        "now": "Assistir agora",
+        "text": "Assistir"
+      },
       "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
@@ -1778,80 +1851,7 @@ static const Map<String,dynamic> pt = {
         "out": "Diminuir Zoom",
         "reset": "Redefinir Zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Tempo decorrido",
-        "remaining": "Tempo restante",
-        "text": "Tempo"
-      },
-      "upgrade": {
-        "now": "Atualizar agora",
-        "text": "Atualizar"
-      },
-      "watch": {
-        "later": "Assistir mais tarde",
-        "now": "Assistir agora",
-        "text": "Assistir"
-      },
-      "operation": {
-        "canceled": "Operação cancelada",
-        "completed": "Operação concluída",
-        "failed": "Operação falhou",
-        "in_progress": "Operação em progresso",
-        "pending": "Operação pendente",
-        "started": "Operação iniciada",
-        "succeeded": "Operação bem-sucedida",
-        "timed_out": "Operação expirou",
-        "text": "Operação"
-      },
-      "generate": "Gerar",
-      "perform": "Realizar",
-      "try": {
-        "again": "Tentar novamente",
-        "later": "Tentar mais tarde",
-        "text": "Tentar"
-      },
-      "valid": "Válido",
-      "invalid": "Inválido",
-      "accept": "Aceitar",
-      "reject": "Rejeitar",
-      "approve": "Aprovar",
-      "disapprove": "Desaprovar",
-      "complete": "Completo",
-      "tip": "Dica",
-      "hint": "Sugestão",
-      "required": "Obrigatório",
-      "accepted": "Aceito",
-      "rejected": "Rejeitado",
-      "pending": "Pendente",
-      "approved": "Aprovado",
-      "disapproved": "Desaprovado",
-      "completed": "Concluído",
-      "incomplete": "Incompleto",
-      "in_progress": "Em progresso",
-      "paused": "Pausado",
-      "resumed": "Retomado",
-      "canceled": "Cancelado",
-      "expired": "Expirado",
-      "locked": "Bloqueado",
-      "active": "Ativo",
-      "inactive": "Inativo",
-      "enabled": "Habilitado",
-      "disabled": "Desabilitado",
-      "hidden": "Oculto",
-      "visible": "Visível",
-      "public": "Público",
-      "private": "Privado",
-      "personal": "Pessoal",
-      "commercial": "Comercial",
-      "non_commercial": "Não-comercial",
-      "internal": "Interno",
-      "external": "Externo",
-      "local": "Local",
-      "remote": "Remoto",
-      "warning": "Aviso",
-      "info": "Informação",
-      "question": "Questão"
+      }
     },
     "message": {
       "action": {
@@ -1864,44 +1864,13 @@ static const Map<String,dynamic> pt = {
       "copied_to_clipboard": "Copiado para a área de transferência!",
       "copied_value_to_clipboard": "Copiado {value} para a área de transferência!",
       "dark_mode_support": "Suporte ao modo escuro.",
-      "finally": "Finalmente!",
-      "have_wonderful_day": "Tenha um ótimo dia!",
-      "last_updated_on": "Última atualização em {date}",
-      "let_get_started": "Vamos começar!",
-      "modern_design": "Visual moderno.",
-      "no_favorites": "Sem favoritos.",
-      "please_wait": "Aguarde, por favor...",
-      "saving": "Salvando...",
-      "search": "Pesquisar...",
-      "share": {
-        "invite": "Oi, descobri este incrível aplicativo que vai facilitar a sua vida. Confira!"
-      },
-      "sorry": "Desculpe...",
-      "success": "Sucesso!",
-      "thank_you": "Obrigado!",
-      "warning": "Aviso!",
-      "welcome": "Bem-vindo!",
-      "whats_new": "O que há de novo?",
-      "whoops": "Ops!",
-      "generating": {
-        "pdf": "Gerando PDF...",
-        "text": "Gerando..."
-      },
-      "performing": "Executando...",
-      "processing": "Processando...",
-      "loading": {
-        "data": "Carregando dados...",
-        "pdf": "Carregando PDF...",
-        "text": "Carregando..."
-      },
-      "pdf_ready": "PDF pronto!",
       "failed_to": {
+        "generate": {
+          "pdf": "Falha ao gerar o PDF."
+        },
         "load": {
           "data": "Falha ao carregar os dados.",
           "pdf": "Falha ao carregar o PDF."
-        },
-        "generate": {
-          "pdf": "Falha ao gerar o PDF."
         },
         "perform": {
           "action": "Falha ao executar a ação."
@@ -1911,7 +1880,38 @@ static const Map<String,dynamic> pt = {
           "pdf": "Falha ao salvar o PDF."
         }
       },
-      "searching": "Procurando..."
+      "finally": "Finalmente!",
+      "generating": {
+        "pdf": "Gerando PDF...",
+        "text": "Gerando..."
+      },
+      "have_wonderful_day": "Tenha um ótimo dia!",
+      "last_updated_on": "Última atualização em {date}",
+      "let_get_started": "Vamos começar!",
+      "loading": {
+        "data": "Carregando dados...",
+        "pdf": "Carregando PDF...",
+        "text": "Carregando..."
+      },
+      "modern_design": "Visual moderno.",
+      "no_favorites": "Sem favoritos.",
+      "pdf_ready": "PDF pronto!",
+      "performing": "Executando...",
+      "please_wait": "Aguarde, por favor...",
+      "processing": "Processando...",
+      "saving": "Salvando...",
+      "search": "Pesquisar...",
+      "searching": "Procurando...",
+      "share": {
+        "invite": "Oi, descobri este incrível aplicativo que vai facilitar a sua vida. Confira!"
+      },
+      "sorry": "Desculpe...",
+      "success": "Sucesso!",
+      "thank_you": "Obrigado!",
+      "warning": "Aviso!",
+      "welcome": "Bem-vindo!",
+      "whats_new": "O que há de novo?",
+      "whoops": "Ops!"
     },
     "question": {
       "are_you_sure": "Tem certeza?",
@@ -1933,6 +1933,9 @@ static const Map<String,dynamic> en = {
       "error_occurred": "Apologies, an error has occurred. Please try again later."
     },
     "label": {
+      "accept": "Accept",
+      "accepted": "Accepted",
+      "active": "Active",
       "add": "Add",
       "advanced": "Advanced",
       "all": {
@@ -1941,12 +1944,15 @@ static const Map<String,dynamic> en = {
         "other": "All"
       },
       "annually": "Annually",
+      "approve": "Approve",
+      "approved": "Approved",
       "at": "At",
       "auto_save": "Auto-save",
       "back": "Back",
       "behavior": "Behavior",
       "buy": "Buy",
       "cancel": "Cancel",
+      "canceled": "Canceled",
       "clear": {
         "selection": "Clear Selection",
         "text": "Clear"
@@ -1962,6 +1968,9 @@ static const Map<String,dynamic> en = {
         "all": "Collapse All",
         "text": "Collapse"
       },
+      "commercial": "Commercial",
+      "complete": "Complete",
+      "completed": "Completed",
       "confirm": "Confirm",
       "confirmation": "Confirmation",
       "continue": "Continue",
@@ -1976,10 +1985,14 @@ static const Map<String,dynamic> en = {
       "delete": "Delete",
       "description": "Description",
       "details": "Details",
+      "disabled": "Disabled",
+      "disapprove": "Disapprove",
+      "disapproved": "Disapproved",
       "display": "Display",
       "done": "Done",
       "download": "Download",
       "edit": "Edit",
+      "enabled": "Enabled",
       "enter": {
         "fullscreen": "Enter Fullscreen",
         "pip": "Enter Picture-in-Picture",
@@ -1998,12 +2011,14 @@ static const Map<String,dynamic> en = {
         "all": "Expand All",
         "text": "Expand"
       },
+      "expired": "Expired",
       "export": {
         "all": "Export All",
         "as": "Export As",
         "pdf": "Export As PDF",
         "text": "Export"
       },
+      "external": "External",
       "fast_forward": "Fast Forward",
       "favorites": "Favorites",
       "find": {
@@ -2016,18 +2031,29 @@ static const Map<String,dynamic> en = {
       "frame": "Frame",
       "frequency": "Frequency",
       "fullscreen": "Fullscreen",
+      "generate": "Generate",
       "go": "Go",
       "help": "Help",
+      "hidden": "Hidden",
+      "hint": "Hint",
       "home": "Home",
       "import": {
         "all": "Import All",
         "from": "Import From",
         "text": "Import"
       },
+      "in_progress": "In Progress",
+      "inactive": "Inactive",
+      "incomplete": "Incomplete",
+      "info": "Info",
       "inputs": "Inputs",
       "install": "Install",
+      "internal": "Internal",
+      "invalid": "Invalid",
       "learn_more": "Learn more",
       "loading": "Loading",
+      "local": "Local",
+      "locked": "Locked",
       "loop": "Loop",
       "majors": "Major",
       "menu": "Menu",
@@ -2055,6 +2081,7 @@ static const Map<String,dynamic> en = {
         "track": "Next Track"
       },
       "no": "No",
+      "non_commercial": "Non-commercial",
       "none": {
         "female": "None",
         "male": "None",
@@ -2073,9 +2100,24 @@ static const Map<String,dynamic> en = {
         "text": "Open",
         "url": "Open URL"
       },
+      "operation": {
+        "canceled": "Operation canceled",
+        "completed": "Operation completed",
+        "failed": "Operation failed",
+        "in_progress": "Operation in progress",
+        "pending": "Operation pending",
+        "started": "Operation started",
+        "succeeded": "Operation succeeded",
+        "text": "Operation",
+        "timed_out": "Operation timed out"
+      },
       "optional": "Optional",
       "paste": "Paste",
       "pause": "Pause",
+      "paused": "Paused",
+      "pending": "Pending",
+      "perform": "Perform",
+      "personal": "Personal",
       "play": "Play",
       "play_pause": "Play/Pause",
       "previous": {
@@ -2084,10 +2126,16 @@ static const Map<String,dynamic> en = {
         "text": "Previous",
         "track": "Previous Track"
       },
+      "private": "Private",
+      "public": "Public",
       "quantity": "Quantity",
       "quarterly": "Quarterly",
+      "question": "Question",
       "redo": "Redo",
       "refresh": "Refresh",
+      "reject": "Reject",
+      "rejected": "Rejected",
+      "remote": "Remote",
       "remove": "Remove",
       "repeat": {
         "all": "Repeat All",
@@ -2100,8 +2148,10 @@ static const Map<String,dynamic> en = {
         "text": "Replace"
       },
       "replay": "Replay",
+      "required": "Required",
       "reset": "Reset",
       "results": "Results",
+      "resumed": "Resumed",
       "retry": "Retry",
       "rewind": "Rewind",
       "save": {
@@ -2139,18 +2189,41 @@ static const Map<String,dynamic> en = {
       "submit": "Submit",
       "success": "Success",
       "template": "template",
+      "time": {
+        "elapsed": "Time Elapsed",
+        "remaining": "Time Remaining",
+        "text": "Time"
+      },
+      "tip": "Tip",
       "toggle": {
         "all": "Toggle All",
         "text": "Toggle"
+      },
+      "try": {
+        "again": "Try Again",
+        "later": "Try Later",
+        "text": "Try"
       },
       "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
       "unmute": "Unmute",
       "update": "Update",
+      "upgrade": {
+        "now": "Upgrade Now",
+        "text": "Upgrade"
+      },
       "upload": "Upload",
       "user_inputs": "User Inputs",
+      "valid": "Valid",
+      "visible": "Visible",
       "volume": "Volume",
+      "warning": "Warning",
+      "watch": {
+        "later": "Watch Later",
+        "now": "Watch Now",
+        "text": "Watch"
+      },
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
@@ -2161,80 +2234,7 @@ static const Map<String,dynamic> en = {
         "out": "Zoom Out",
         "reset": "Reset Zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Time Elapsed",
-        "remaining": "Time Remaining",
-        "text": "Time"
-      },
-      "upgrade": {
-        "now": "Upgrade Now",
-        "text": "Upgrade"
-      },
-      "watch": {
-        "later": "Watch Later",
-        "now": "Watch Now",
-        "text": "Watch"
-      },
-      "operation": {
-        "canceled": "Operation canceled",
-        "completed": "Operation completed",
-        "failed": "Operation failed",
-        "in_progress": "Operation in progress",
-        "pending": "Operation pending",
-        "started": "Operation started",
-        "succeeded": "Operation succeeded",
-        "timed_out": "Operation timed out",
-        "text": "Operation"
-      },
-      "generate": "Generate",
-      "perform": "Perform",
-      "try": {
-        "again": "Try Again",
-        "later": "Try Later",
-        "text": "Try"
-      },
-      "valid": "Valid",
-      "invalid": "Invalid",
-      "accept": "Accept",
-      "reject": "Reject",
-      "approve": "Approve",
-      "disapprove": "Disapprove",
-      "complete": "Complete",
-      "tip": "Tip",
-      "hint": "Hint",
-      "required": "Required",
-      "accepted": "Accepted",
-      "rejected": "Rejected",
-      "pending": "Pending",
-      "approved": "Approved",
-      "disapproved": "Disapproved",
-      "completed": "Completed",
-      "incomplete": "Incomplete",
-      "in_progress": "In Progress",
-      "paused": "Paused",
-      "resumed": "Resumed",
-      "canceled": "Canceled",
-      "expired": "Expired",
-      "locked": "Locked",
-      "active": "Active",
-      "inactive": "Inactive",
-      "enabled": "Enabled",
-      "disabled": "Disabled",
-      "hidden": "Hidden",
-      "visible": "Visible",
-      "public": "Public",
-      "private": "Private",
-      "personal": "Personal",
-      "commercial": "Commercial",
-      "non_commercial": "Non-commercial",
-      "internal": "Internal",
-      "external": "External",
-      "local": "Local",
-      "remote": "Remote",
-      "warning": "Warning",
-      "info": "Info",
-      "question": "Question"
+      }
     },
     "message": {
       "action": {
@@ -2247,44 +2247,13 @@ static const Map<String,dynamic> en = {
       "copied_to_clipboard": "Copied to clipboard!",
       "copied_value_to_clipboard": "Copied {value} to clipboard!",
       "dark_mode_support": "Dark Mode support.",
-      "finally": "Finally!",
-      "have_wonderful_day": "Have a wonderful day!",
-      "last_updated_on": "Last updated on {date}",
-      "let_get_started": "Let's get started!",
-      "modern_design": "Modern Look.",
-      "no_favorites": "No favorites.",
-      "please_wait": "Please wait...",
-      "saving": "Saving...",
-      "search": "Search...",
-      "share": {
-        "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
-      },
-      "sorry": "Sorry...",
-      "success": "Success!",
-      "thank_you": "Thank you!",
-      "warning": "Warning!",
-      "welcome": "Welcome!",
-      "whats_new": "What's new?",
-      "whoops": "Whoops!",
-      "generating": {
-        "pdf": "Generating PDF...",
-        "text": "Generating..."
-      },
-      "performing": "Performing...",
-      "processing": "Processing...",
-      "loading": {
-        "data": "Loading data...",
-        "pdf": "Loading PDF...",
-        "text": "Loading..."
-      },
-      "pdf_ready": "PDF ready!",
       "failed_to": {
+        "generate": {
+          "pdf": "Failed to generate PDF."
+        },
         "load": {
           "data": "Failed to load data.",
           "pdf": "Failed to load PDF."
-        },
-        "generate": {
-          "pdf": "Failed to generate PDF."
         },
         "perform": {
           "action": "Failed to perform action."
@@ -2294,7 +2263,38 @@ static const Map<String,dynamic> en = {
           "pdf": "Failed to save PDF."
         }
       },
-      "searching": "Searching..."
+      "finally": "Finally!",
+      "generating": {
+        "pdf": "Generating PDF...",
+        "text": "Generating..."
+      },
+      "have_wonderful_day": "Have a wonderful day!",
+      "last_updated_on": "Last updated on {date}",
+      "let_get_started": "Let's get started!",
+      "loading": {
+        "data": "Loading data...",
+        "pdf": "Loading PDF...",
+        "text": "Loading..."
+      },
+      "modern_design": "Modern Look.",
+      "no_favorites": "No favorites.",
+      "pdf_ready": "PDF ready!",
+      "performing": "Performing...",
+      "please_wait": "Please wait...",
+      "processing": "Processing...",
+      "saving": "Saving...",
+      "search": "Search...",
+      "searching": "Searching...",
+      "share": {
+        "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
+      },
+      "sorry": "Sorry...",
+      "success": "Success!",
+      "thank_you": "Thank you!",
+      "warning": "Warning!",
+      "welcome": "Welcome!",
+      "whats_new": "What's new?",
+      "whoops": "Whoops!"
     },
     "question": {
       "are_you_sure": "Are you sure?",
@@ -2316,6 +2316,9 @@ static const Map<String,dynamic> it = {
       "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
     },
     "label": {
+      "accept": "Accetta",
+      "accepted": "Accettato",
+      "active": "Attivo",
       "add": "Aggiungere",
       "advanced": "Avanzate",
       "all": {
@@ -2324,12 +2327,15 @@ static const Map<String,dynamic> it = {
         "other": "Tutti"
       },
       "annually": "Annualmente",
+      "approve": "Approva",
+      "approved": "Approvato",
       "at": "A",
       "auto_save": "Salvataggio automatico",
       "back": "Indietro",
       "behavior": "Comportamento",
       "buy": "Acquistare",
       "cancel": "Annulla",
+      "canceled": "Annullato",
       "clear": {
         "selection": "Cancella selezione",
         "text": "Cancella"
@@ -2345,6 +2351,9 @@ static const Map<String,dynamic> it = {
         "all": "Comprimi tutto",
         "text": "Comprimi"
       },
+      "commercial": "Commerciale",
+      "complete": "Completo",
+      "completed": "Completato",
       "confirm": "Conferma",
       "confirmation": "Conferma",
       "continue": "Continua",
@@ -2359,10 +2368,14 @@ static const Map<String,dynamic> it = {
       "delete": "Elimina",
       "description": "Descrizione",
       "details": "Dettagli",
+      "disabled": "Disabilitato",
+      "disapprove": "Disapprova",
+      "disapproved": "Disapprovato",
       "display": "Visualizza",
       "done": "Fatto",
       "download": "Scarica",
       "edit": "Modificare",
+      "enabled": "Abilitato",
       "enter": {
         "fullscreen": "Entra in modalità schermo intero",
         "pip": "Entra in modalità immagine in immagine",
@@ -2381,12 +2394,14 @@ static const Map<String,dynamic> it = {
         "all": "Espandi tutto",
         "text": "Espandi"
       },
+      "expired": "Scaduto",
       "export": {
         "all": "Esporta tutto",
         "as": "Esporta come",
         "pdf": "Esporta come PDF",
         "text": "Esporta"
       },
+      "external": "Esterno",
       "fast_forward": "Avanzamento rapido",
       "favorites": "Preferiti",
       "find": {
@@ -2399,18 +2414,29 @@ static const Map<String,dynamic> it = {
       "frame": "Cornice",
       "frequency": "Frequenza",
       "fullscreen": "Schermo intero",
+      "generate": "Genera",
       "go": "Vai",
       "help": "Aiuto",
+      "hidden": "Nascosto",
+      "hint": "Suggerimento",
       "home": "Home",
       "import": {
         "all": "Importa tutto",
         "from": "Importa da",
         "text": "Importa"
       },
+      "in_progress": "In corso",
+      "inactive": "Inattivo",
+      "incomplete": "Incompleto",
+      "info": "Informazione",
       "inputs": "Inserimenti",
       "install": "Installare",
+      "internal": "Interno",
+      "invalid": "Non valido",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
+      "local": "Locale",
+      "locked": "Bloccato",
       "loop": "Ripeti in loop",
       "majors": "Maggiori",
       "menu": "Menu",
@@ -2438,6 +2464,7 @@ static const Map<String,dynamic> it = {
         "track": "Brano successivo"
       },
       "no": "No",
+      "non_commercial": "Non commerciale",
       "none": {
         "female": "Nessuna",
         "male": "Nessuno",
@@ -2456,9 +2483,24 @@ static const Map<String,dynamic> it = {
         "text": "Apri",
         "url": "Apri URL"
       },
+      "operation": {
+        "canceled": "Operazione annullata",
+        "completed": "Operazione completata",
+        "failed": "Operazione fallita",
+        "in_progress": "Operazione in corso",
+        "pending": "Operazione in attesa",
+        "started": "Operazione iniziata",
+        "succeeded": "Operazione riuscita",
+        "text": "Operazione",
+        "timed_out": "Operazione scaduta"
+      },
       "optional": "Opzionale",
       "paste": "Incolla",
       "pause": "Pausa",
+      "paused": "In pausa",
+      "pending": "In attesa",
+      "perform": "Esegui",
+      "personal": "Personale",
       "play": "Riproduci",
       "play_pause": "Riproduci/Pausa",
       "previous": {
@@ -2467,10 +2509,16 @@ static const Map<String,dynamic> it = {
         "text": "Precedente",
         "track": "Brano precedente"
       },
+      "private": "Privato",
+      "public": "Pubblico",
       "quantity": "Quantità",
       "quarterly": "Trimestralmente",
+      "question": "Domanda",
       "redo": "Ripristina",
       "refresh": "Aggiornare",
+      "reject": "Rifiuta",
+      "rejected": "Rifiutato",
+      "remote": "Remoto",
       "remove": "Rimuovere",
       "repeat": {
         "all": "Ripeti tutto",
@@ -2483,8 +2531,10 @@ static const Map<String,dynamic> it = {
         "text": "Sostituisci"
       },
       "replay": "Ripeti",
+      "required": "Richiesto",
       "reset": "Reimpostare",
       "results": "Risultati",
+      "resumed": "Ripreso",
       "retry": "Riprova",
       "rewind": "Riavvolgi",
       "save": {
@@ -2522,18 +2572,41 @@ static const Map<String,dynamic> it = {
       "submit": "Invia",
       "success": "Successo",
       "template": "Modello",
+      "time": {
+        "elapsed": "Tempo trascorso",
+        "remaining": "Tempo rimanente",
+        "text": "Tempo"
+      },
+      "tip": "Consiglio",
       "toggle": {
         "all": "Attiva/Disattiva tutto",
         "text": "Attiva/Disattiva"
+      },
+      "try": {
+        "again": "Prova di nuovo",
+        "later": "Prova più tardi",
+        "text": "Prova"
       },
       "undo": "Annulla",
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
       "unmute": "Ripristina audio",
       "update": "Aggiornare",
+      "upgrade": {
+        "now": "Aggiorna ora",
+        "text": "Aggiornare"
+      },
       "upload": "Carica",
       "user_inputs": "Inserimenti utente",
+      "valid": "Valido",
+      "visible": "Visibile",
       "volume": "Volume",
+      "warning": "Avvertimento",
+      "watch": {
+        "later": "Guarda più tardi",
+        "now": "Guarda ora",
+        "text": "Guarda"
+      },
       "website": "Sito web",
       "weekly": "Settimanalmente",
       "yearly": "Annualmente",
@@ -2544,80 +2617,7 @@ static const Map<String,dynamic> it = {
         "out": "Riduci",
         "reset": "Reimposta zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Tempo trascorso",
-        "remaining": "Tempo rimanente",
-        "text": "Tempo"
-      },
-      "upgrade": {
-        "now": "Aggiorna ora",
-        "text": "Aggiornare"
-      },
-      "watch": {
-        "later": "Guarda più tardi",
-        "now": "Guarda ora",
-        "text": "Guarda"
-      },
-      "operation": {
-        "canceled": "Operazione annullata",
-        "completed": "Operazione completata",
-        "failed": "Operazione fallita",
-        "in_progress": "Operazione in corso",
-        "pending": "Operazione in attesa",
-        "started": "Operazione iniziata",
-        "succeeded": "Operazione riuscita",
-        "timed_out": "Operazione scaduta",
-        "text": "Operazione"
-      },
-      "generate": "Genera",
-      "perform": "Esegui",
-      "try": {
-        "again": "Prova di nuovo",
-        "later": "Prova più tardi",
-        "text": "Prova"
-      },
-      "valid": "Valido",
-      "invalid": "Non valido",
-      "accept": "Accetta",
-      "reject": "Rifiuta",
-      "approve": "Approva",
-      "disapprove": "Disapprova",
-      "complete": "Completo",
-      "tip": "Consiglio",
-      "hint": "Suggerimento",
-      "required": "Richiesto",
-      "accepted": "Accettato",
-      "rejected": "Rifiutato",
-      "pending": "In attesa",
-      "approved": "Approvato",
-      "disapproved": "Disapprovato",
-      "completed": "Completato",
-      "incomplete": "Incompleto",
-      "in_progress": "In corso",
-      "paused": "In pausa",
-      "resumed": "Ripreso",
-      "canceled": "Annullato",
-      "expired": "Scaduto",
-      "locked": "Bloccato",
-      "active": "Attivo",
-      "inactive": "Inattivo",
-      "enabled": "Abilitato",
-      "disabled": "Disabilitato",
-      "hidden": "Nascosto",
-      "visible": "Visibile",
-      "public": "Pubblico",
-      "private": "Privato",
-      "personal": "Personale",
-      "commercial": "Commerciale",
-      "non_commercial": "Non commerciale",
-      "internal": "Interno",
-      "external": "Esterno",
-      "local": "Locale",
-      "remote": "Remoto",
-      "warning": "Avvertimento",
-      "info": "Informazione",
-      "question": "Domanda"
+      }
     },
     "message": {
       "action": {
@@ -2630,44 +2630,13 @@ static const Map<String,dynamic> it = {
       "copied_to_clipboard": "Copiato negli appunti!",
       "copied_value_to_clipboard": "Copiato {value} negli appunti!",
       "dark_mode_support": "Supporto per la modalità scura.",
-      "finally": "Finalmente!",
-      "have_wonderful_day": "Buona giornata!",
-      "last_updated_on": "Ultimo aggiornamento il {date}",
-      "let_get_started": "Iniziamo!",
-      "modern_design": "Design moderno.",
-      "no_favorites": "Nessun preferito.",
-      "please_wait": "Attendere prego...",
-      "saving": "Salvataggio in corso...",
-      "search": "Ricerca...",
-      "share": {
-        "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
-      },
-      "sorry": "Scusa...",
-      "success": "Successo!",
-      "thank_you": "Grazie!",
-      "warning": "Attenzione!",
-      "welcome": "Benvenuto!",
-      "whats_new": "Cosa c'è di nuovo?",
-      "whoops": "Ops!",
-      "generating": {
-        "pdf": "Generazione PDF...",
-        "text": "Generazione in corso..."
-      },
-      "performing": "In esecuzione...",
-      "processing": "Elaborazione in corso...",
-      "loading": {
-        "data": "Caricamento dati...",
-        "pdf": "Caricamento PDF...",
-        "text": "Caricamento in corso..."
-      },
-      "pdf_ready": "PDF pronto!",
       "failed_to": {
+        "generate": {
+          "pdf": "Generazione del PDF non riuscita."
+        },
         "load": {
           "data": "Impossibile caricare i dati.",
           "pdf": "Impossibile caricare il PDF."
-        },
-        "generate": {
-          "pdf": "Generazione del PDF non riuscita."
         },
         "perform": {
           "action": "Impossibile eseguire l'azione."
@@ -2677,7 +2646,38 @@ static const Map<String,dynamic> it = {
           "pdf": "Impossibile salvare il PDF."
         }
       },
-      "searching": "Ricerca in corso..."
+      "finally": "Finalmente!",
+      "generating": {
+        "pdf": "Generazione PDF...",
+        "text": "Generazione in corso..."
+      },
+      "have_wonderful_day": "Buona giornata!",
+      "last_updated_on": "Ultimo aggiornamento il {date}",
+      "let_get_started": "Iniziamo!",
+      "loading": {
+        "data": "Caricamento dati...",
+        "pdf": "Caricamento PDF...",
+        "text": "Caricamento in corso..."
+      },
+      "modern_design": "Design moderno.",
+      "no_favorites": "Nessun preferito.",
+      "pdf_ready": "PDF pronto!",
+      "performing": "In esecuzione...",
+      "please_wait": "Attendere prego...",
+      "processing": "Elaborazione in corso...",
+      "saving": "Salvataggio in corso...",
+      "search": "Ricerca...",
+      "searching": "Ricerca in corso...",
+      "share": {
+        "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
+      },
+      "sorry": "Scusa...",
+      "success": "Successo!",
+      "thank_you": "Grazie!",
+      "warning": "Attenzione!",
+      "welcome": "Benvenuto!",
+      "whats_new": "Cosa c'è di nuovo?",
+      "whoops": "Ops!"
     },
     "question": {
       "are_you_sure": "Sei sicuro?",
@@ -2699,6 +2699,9 @@ static const Map<String,dynamic> fr = {
       "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
     },
     "label": {
+      "accept": "Accepter",
+      "accepted": "Accepté",
+      "active": "Actif",
       "add": "Ajouter",
       "advanced": "Avancé",
       "all": {
@@ -2707,12 +2710,15 @@ static const Map<String,dynamic> fr = {
         "other": "Tous"
       },
       "annually": "Annuellement",
+      "approve": "Approuver",
+      "approved": "Approuvé",
       "at": "À",
       "auto_save": "Sauvegarde automatique",
       "back": "Retour",
       "behavior": "Comportement",
       "buy": "Acheter",
       "cancel": "Annuler",
+      "canceled": "Annulé",
       "clear": {
         "selection": "Effacer la sélection",
         "text": "Effacer"
@@ -2728,6 +2734,9 @@ static const Map<String,dynamic> fr = {
         "all": "Tout réduire",
         "text": "Réduire"
       },
+      "commercial": "Commercial",
+      "complete": "Complet",
+      "completed": "Terminé",
       "confirm": "Confirmer",
       "confirmation": "Confirmation",
       "continue": "Continuer",
@@ -2742,10 +2751,14 @@ static const Map<String,dynamic> fr = {
       "delete": "Supprimer",
       "description": "Description",
       "details": "Détails",
+      "disabled": "Désactivé",
+      "disapprove": "Désapprouver",
+      "disapproved": "Désapprouvé",
       "display": "Affichage",
       "done": "Terminé",
       "download": "Télécharger",
       "edit": "Modifier",
+      "enabled": "Activé",
       "enter": {
         "fullscreen": "Passer en plein écran",
         "pip": "Passer en image dans l'image",
@@ -2764,12 +2777,14 @@ static const Map<String,dynamic> fr = {
         "all": "Tout développer",
         "text": "Développer"
       },
+      "expired": "Expiré",
       "export": {
         "all": "Tout exporter",
         "as": "Exporter sous",
         "pdf": "Exporter au format PDF",
         "text": "Exporter"
       },
+      "external": "Externe",
       "fast_forward": "Avance rapide",
       "favorites": "Favoris",
       "find": {
@@ -2782,18 +2797,29 @@ static const Map<String,dynamic> fr = {
       "frame": "Cadre",
       "frequency": "Fréquence",
       "fullscreen": "Plein écran",
+      "generate": "Générer",
       "go": "Aller",
       "help": "Aide",
+      "hidden": "Caché",
+      "hint": "Indice",
       "home": "Accueil",
       "import": {
         "all": "Tout importer",
         "from": "Importer depuis",
         "text": "Importer"
       },
+      "in_progress": "En cours",
+      "inactive": "Inactif",
+      "incomplete": "Incomplet",
+      "info": "Info",
       "inputs": "Entrées",
       "install": "Installer",
+      "internal": "Interne",
+      "invalid": "Invalide",
       "learn_more": "En savoir plus",
       "loading": "Chargement",
+      "local": "Local",
+      "locked": "Verrouillé",
       "loop": "Boucle",
       "majors": "Majeures",
       "menu": "Menu",
@@ -2821,6 +2847,7 @@ static const Map<String,dynamic> fr = {
         "track": "Piste suivante"
       },
       "no": "Non",
+      "non_commercial": "Non commercial",
       "none": {
         "female": "Aucune",
         "male": "Aucun",
@@ -2839,9 +2866,24 @@ static const Map<String,dynamic> fr = {
         "text": "Ouvrir",
         "url": "Ouvrir une URL"
       },
+      "operation": {
+        "canceled": "Opération annulée",
+        "completed": "Opération terminée",
+        "failed": "Opération échouée",
+        "in_progress": "Opération en cours",
+        "pending": "Opération en attente",
+        "started": "Opération commencée",
+        "succeeded": "Opération réussie",
+        "text": "Opération",
+        "timed_out": "Opération expirée"
+      },
       "optional": "Optionnel",
       "paste": "Coller",
       "pause": "Pause",
+      "paused": "En pause",
+      "pending": "En attente",
+      "perform": "Effectuer",
+      "personal": "Personnel",
       "play": "Lire",
       "play_pause": "Lire/Pause",
       "previous": {
@@ -2850,10 +2892,16 @@ static const Map<String,dynamic> fr = {
         "text": "Précédent",
         "track": "Piste précédente"
       },
+      "private": "Privé",
+      "public": "Public",
       "quantity": "Quantité",
       "quarterly": "Trimestriellement",
+      "question": "Question",
       "redo": "Rétablir",
       "refresh": "Actualiser",
+      "reject": "Rejeter",
+      "rejected": "Rejeté",
+      "remote": "Distant",
       "remove": "Supprimer",
       "repeat": {
         "all": "Répéter tout",
@@ -2866,8 +2914,10 @@ static const Map<String,dynamic> fr = {
         "text": "Remplacer"
       },
       "replay": "Rejouer",
+      "required": "Requis",
       "reset": "Réinitialiser",
       "results": "Résultats",
+      "resumed": "Repris",
       "retry": "Réessayer",
       "rewind": "Reculer",
       "save": {
@@ -2905,18 +2955,41 @@ static const Map<String,dynamic> fr = {
       "submit": "Envoyer",
       "success": "Succès",
       "template": "Modèle",
+      "time": {
+        "elapsed": "Temps écoulé",
+        "remaining": "Temps restant",
+        "text": "Temps"
+      },
+      "tip": "Conseil",
       "toggle": {
         "all": "Tout basculer",
         "text": "Basculer"
+      },
+      "try": {
+        "again": "Essayer à nouveau",
+        "later": "Essayer plus tard",
+        "text": "Essayer"
       },
       "undo": "Annuler",
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
       "unmute": "Réactiver le son",
       "update": "Mettre à jour",
+      "upgrade": {
+        "now": "Mettre à jour maintenant",
+        "text": "Mettre à jour"
+      },
       "upload": "Téléverser",
       "user_inputs": "Entrées utilisateur",
+      "valid": "Valide",
+      "visible": "Visible",
       "volume": "Volume",
+      "warning": "Avertissement",
+      "watch": {
+        "later": "Regarder plus tard",
+        "now": "Regarder maintenant",
+        "text": "Regarder"
+      },
       "website": "Site web",
       "weekly": "Hebdomadairement",
       "yearly": "Annuellement",
@@ -2927,80 +3000,7 @@ static const Map<String,dynamic> fr = {
         "out": "Zoom arrière",
         "reset": "Réinitialiser le zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Temps écoulé",
-        "remaining": "Temps restant",
-        "text": "Temps"
-      },
-      "upgrade": {
-        "now": "Mettre à jour maintenant",
-        "text": "Mettre à jour"
-      },
-      "watch": {
-        "later": "Regarder plus tard",
-        "now": "Regarder maintenant",
-        "text": "Regarder"
-      },
-      "operation": {
-        "canceled": "Opération annulée",
-        "completed": "Opération terminée",
-        "failed": "Opération échouée",
-        "in_progress": "Opération en cours",
-        "pending": "Opération en attente",
-        "started": "Opération commencée",
-        "succeeded": "Opération réussie",
-        "timed_out": "Opération expirée",
-        "text": "Opération"
-      },
-      "generate": "Générer",
-      "perform": "Effectuer",
-      "try": {
-        "again": "Essayer à nouveau",
-        "later": "Essayer plus tard",
-        "text": "Essayer"
-      },
-      "valid": "Valide",
-      "invalid": "Invalide",
-      "accept": "Accepter",
-      "reject": "Rejeter",
-      "approve": "Approuver",
-      "disapprove": "Désapprouver",
-      "complete": "Complet",
-      "tip": "Conseil",
-      "hint": "Indice",
-      "required": "Requis",
-      "accepted": "Accepté",
-      "rejected": "Rejeté",
-      "pending": "En attente",
-      "approved": "Approuvé",
-      "disapproved": "Désapprouvé",
-      "completed": "Terminé",
-      "incomplete": "Incomplet",
-      "in_progress": "En cours",
-      "paused": "En pause",
-      "resumed": "Repris",
-      "canceled": "Annulé",
-      "expired": "Expiré",
-      "locked": "Verrouillé",
-      "active": "Actif",
-      "inactive": "Inactif",
-      "enabled": "Activé",
-      "disabled": "Désactivé",
-      "hidden": "Caché",
-      "visible": "Visible",
-      "public": "Public",
-      "private": "Privé",
-      "personal": "Personnel",
-      "commercial": "Commercial",
-      "non_commercial": "Non commercial",
-      "internal": "Interne",
-      "external": "Externe",
-      "local": "Local",
-      "remote": "Distant",
-      "warning": "Avertissement",
-      "info": "Info",
-      "question": "Question"
+      }
     },
     "message": {
       "action": {
@@ -3013,44 +3013,13 @@ static const Map<String,dynamic> fr = {
       "copied_to_clipboard": "Copié dans le presse-papiers !",
       "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
       "dark_mode_support": "Prise en charge du mode sombre.",
-      "finally": "Enfin !",
-      "have_wonderful_day": "Passez une merveilleuse journée !",
-      "last_updated_on": "Dernière mise à jour le {date}",
-      "let_get_started": "Commençons !",
-      "modern_design": "Design moderne.",
-      "no_favorites": "Aucun favori.",
-      "please_wait": "Veuillez patienter...",
-      "saving": "Enregistrement en cours...",
-      "search": "Rechercher...",
-      "share": {
-        "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
-      },
-      "sorry": "Désolé...",
-      "success": "Succès !",
-      "thank_you": "Merci !",
-      "warning": "Attention !",
-      "welcome": "Bienvenue !",
-      "whats_new": "Quoi de neuf ?",
-      "whoops": "Oups !",
-      "generating": {
-        "pdf": "Génération du PDF...",
-        "text": "Génération..."
-      },
-      "performing": "Exécution...",
-      "processing": "Traitement...",
-      "loading": {
-        "data": "Chargement des données...",
-        "pdf": "Chargement du PDF...",
-        "text": "Chargement..."
-      },
-      "pdf_ready": "PDF prêt!",
       "failed_to": {
+        "generate": {
+          "pdf": "Échec de la génération du PDF."
+        },
         "load": {
           "data": "Échec du chargement des données.",
           "pdf": "Échec du chargement du PDF."
-        },
-        "generate": {
-          "pdf": "Échec de la génération du PDF."
         },
         "perform": {
           "action": "Échec de l'exécution de l'action."
@@ -3060,7 +3029,38 @@ static const Map<String,dynamic> fr = {
           "pdf": "Échec de la sauvegarde du PDF."
         }
       },
-      "searching": "Recherche en cours..."
+      "finally": "Enfin !",
+      "generating": {
+        "pdf": "Génération du PDF...",
+        "text": "Génération..."
+      },
+      "have_wonderful_day": "Passez une merveilleuse journée !",
+      "last_updated_on": "Dernière mise à jour le {date}",
+      "let_get_started": "Commençons !",
+      "loading": {
+        "data": "Chargement des données...",
+        "pdf": "Chargement du PDF...",
+        "text": "Chargement..."
+      },
+      "modern_design": "Design moderne.",
+      "no_favorites": "Aucun favori.",
+      "pdf_ready": "PDF prêt!",
+      "performing": "Exécution...",
+      "please_wait": "Veuillez patienter...",
+      "processing": "Traitement...",
+      "saving": "Enregistrement en cours...",
+      "search": "Rechercher...",
+      "searching": "Recherche en cours...",
+      "share": {
+        "invite": "Hé, j'ai découvert cette application incroyable qui facilitera votre vie. Jetez-y un coup d'œil !"
+      },
+      "sorry": "Désolé...",
+      "success": "Succès !",
+      "thank_you": "Merci !",
+      "warning": "Attention !",
+      "welcome": "Bienvenue !",
+      "whats_new": "Quoi de neuf ?",
+      "whoops": "Oups !"
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",
@@ -3082,6 +3082,9 @@ static const Map<String,dynamic> es = {
       "error_occurred": "Disculpa, ha ocurrido un error. Por favor, inténtalo nuevamente más tarde."
     },
     "label": {
+      "accept": "Aceptar",
+      "accepted": "Aceptado",
+      "active": "Activo",
       "add": "Agregar",
       "advanced": "Avanzado",
       "all": {
@@ -3090,12 +3093,15 @@ static const Map<String,dynamic> es = {
         "other": "Todos"
       },
       "annually": "Anualmente",
+      "approve": "Aprobar",
+      "approved": "Aprobado",
       "at": "En",
       "auto_save": "Guardar automáticamente",
       "back": "Volver",
       "behavior": "Comportamiento",
       "buy": "Comprar",
       "cancel": "Cancelar",
+      "canceled": "Cancelado",
       "clear": {
         "selection": "Borrar selección",
         "text": "Borrar"
@@ -3111,6 +3117,9 @@ static const Map<String,dynamic> es = {
         "all": "Colapsar todo",
         "text": "Colapsar"
       },
+      "commercial": "Comercial",
+      "complete": "Completado",
+      "completed": "Finalizado",
       "confirm": "Confirmar",
       "confirmation": "Confirmación",
       "continue": "Continuar",
@@ -3125,10 +3134,14 @@ static const Map<String,dynamic> es = {
       "delete": "Eliminar",
       "description": "Descripción",
       "details": "Detalles",
+      "disabled": "Deshabilitado",
+      "disapprove": "Desaprobar",
+      "disapproved": "Desaprobado",
       "display": "Mostrar",
       "done": "Hecho",
       "download": "Descargar",
       "edit": "Editar",
+      "enabled": "Habilitado",
       "enter": {
         "fullscreen": "Entrar a pantalla completa",
         "pip": "Entrar a imagen sobre imagen",
@@ -3147,12 +3160,14 @@ static const Map<String,dynamic> es = {
         "all": "Expandir todo",
         "text": "Expandir"
       },
+      "expired": "Expirado",
       "export": {
         "all": "Exportar todo",
         "as": "Exportar como",
         "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
+      "external": "Externo",
       "fast_forward": "Avance rápido",
       "favorites": "Favoritos",
       "find": {
@@ -3165,18 +3180,29 @@ static const Map<String,dynamic> es = {
       "frame": "Cuadro",
       "frequency": "Frecuencia",
       "fullscreen": "Pantalla completa",
+      "generate": "Generar",
       "go": "Ir",
       "help": "Ayuda",
+      "hidden": "Oculto",
+      "hint": "Pista",
       "home": "Inicio",
       "import": {
         "all": "Importar todo",
         "from": "Importar desde",
         "text": "Importar"
       },
+      "in_progress": "En progreso",
+      "inactive": "Inactivo",
+      "incomplete": "Incompleto",
+      "info": "Información",
       "inputs": "Entradas",
       "install": "Instalar",
+      "internal": "Interno",
+      "invalid": "Inválido",
       "learn_more": "Más información",
       "loading": "Cargando",
+      "local": "Local",
+      "locked": "Bloqueado",
       "loop": "Repetición",
       "majors": "Mayores",
       "menu": "Menú",
@@ -3204,6 +3230,7 @@ static const Map<String,dynamic> es = {
         "track": "Siguiente pista"
       },
       "no": "No",
+      "non_commercial": "No comercial",
       "none": {
         "female": "Ninguna",
         "male": "Ninguno",
@@ -3222,9 +3249,24 @@ static const Map<String,dynamic> es = {
         "text": "Abrir",
         "url": "Abrir URL"
       },
+      "operation": {
+        "canceled": "Operación cancelada",
+        "completed": "Operación completada",
+        "failed": "Operación fallida",
+        "in_progress": "Operación en progreso",
+        "pending": "Operación pendiente",
+        "started": "Operación iniciada",
+        "succeeded": "Operación exitosa",
+        "text": "Operación",
+        "timed_out": "Operación expirada"
+      },
       "optional": "Opcional",
       "paste": "Pegar",
       "pause": "Pausa",
+      "paused": "Pausado",
+      "pending": "Pendiente",
+      "perform": "Realizar",
+      "personal": "Personal",
       "play": "Reproducir",
       "play_pause": "Reproducir/Pausar",
       "previous": {
@@ -3233,10 +3275,16 @@ static const Map<String,dynamic> es = {
         "text": "Anterior",
         "track": "Pista anterior"
       },
+      "private": "Privado",
+      "public": "Público",
       "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
+      "question": "Pregunta",
       "redo": "Rehacer",
       "refresh": "Actualizar",
+      "reject": "Rechazar",
+      "rejected": "Rechazado",
+      "remote": "Remoto",
       "remove": "Eliminar",
       "repeat": {
         "all": "Repetir todo",
@@ -3249,8 +3297,10 @@ static const Map<String,dynamic> es = {
         "text": "Reemplazar"
       },
       "replay": "Repetir",
+      "required": "Requerido",
       "reset": "Restablecer",
       "results": "Resultados",
+      "resumed": "Reanudado",
       "retry": "Reintentar",
       "rewind": "Rebobinar",
       "save": {
@@ -3288,18 +3338,41 @@ static const Map<String,dynamic> es = {
       "submit": "Enviar",
       "success": "Éxito",
       "template": "Plantilla",
+      "time": {
+        "elapsed": "Tiempo transcurrido",
+        "remaining": "Tiempo restante",
+        "text": "Tiempo"
+      },
+      "tip": "Consejo",
       "toggle": {
         "all": "Alternar todo",
         "text": "Alternar"
+      },
+      "try": {
+        "again": "Intentar de nuevo",
+        "later": "Intentar más tarde",
+        "text": "Intentar"
       },
       "undo": "Deshacer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "unmute": "Activar sonido",
       "update": "Actualizar",
+      "upgrade": {
+        "now": "Actualizar ahora",
+        "text": "Actualizar"
+      },
       "upload": "Subir",
       "user_inputs": "Entradas del usuario",
+      "valid": "Válido",
+      "visible": "Visible",
       "volume": "Volumen",
+      "warning": "Advertencia",
+      "watch": {
+        "later": "Ver más tarde",
+        "now": "Ver ahora",
+        "text": "Ver"
+      },
       "website": "Sitio web",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
@@ -3310,80 +3383,7 @@ static const Map<String,dynamic> es = {
         "out": "Alejar",
         "reset": "Restablecer zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Tiempo transcurrido",
-        "remaining": "Tiempo restante",
-        "text": "Tiempo"
-      },
-      "upgrade": {
-        "now": "Actualizar ahora",
-        "text": "Actualizar"
-      },
-      "watch": {
-        "later": "Ver más tarde",
-        "now": "Ver ahora",
-        "text": "Ver"
-      },
-      "operation": {
-        "canceled": "Operación cancelada",
-        "completed": "Operación completada",
-        "failed": "Operación fallida",
-        "in_progress": "Operación en progreso",
-        "pending": "Operación pendiente",
-        "started": "Operación iniciada",
-        "succeeded": "Operación exitosa",
-        "timed_out": "Operación expirada",
-        "text": "Operación"
-      },
-      "generate": "Generar",
-      "perform": "Realizar",
-      "try": {
-        "again": "Intentar de nuevo",
-        "later": "Intentar más tarde",
-        "text": "Intentar"
-      },
-      "valid": "Válido",
-      "invalid": "Inválido",
-      "accept": "Aceptar",
-      "reject": "Rechazar",
-      "approve": "Aprobar",
-      "disapprove": "Desaprobar",
-      "complete": "Completado",
-      "tip": "Consejo",
-      "hint": "Pista",
-      "required": "Requerido",
-      "accepted": "Aceptado",
-      "rejected": "Rechazado",
-      "pending": "Pendiente",
-      "approved": "Aprobado",
-      "disapproved": "Desaprobado",
-      "completed": "Finalizado",
-      "incomplete": "Incompleto",
-      "in_progress": "En progreso",
-      "paused": "Pausado",
-      "resumed": "Reanudado",
-      "canceled": "Cancelado",
-      "expired": "Expirado",
-      "locked": "Bloqueado",
-      "active": "Activo",
-      "inactive": "Inactivo",
-      "enabled": "Habilitado",
-      "disabled": "Deshabilitado",
-      "hidden": "Oculto",
-      "visible": "Visible",
-      "public": "Público",
-      "private": "Privado",
-      "personal": "Personal",
-      "commercial": "Comercial",
-      "non_commercial": "No comercial",
-      "internal": "Interno",
-      "external": "Externo",
-      "local": "Local",
-      "remote": "Remoto",
-      "warning": "Advertencia",
-      "info": "Información",
-      "question": "Pregunta"
+      }
     },
     "message": {
       "action": {
@@ -3396,44 +3396,13 @@ static const Map<String,dynamic> es = {
       "copied_to_clipboard": "¡Copiado al portapapeles!",
       "copied_value_to_clipboard": "¡Copiado {value} al portapapeles!",
       "dark_mode_support": "Soporte para modo oscuro.",
-      "finally": "¡Por fin!",
-      "have_wonderful_day": "¡Que tengas un día maravilloso!",
-      "last_updated_on": "Última actualización el {date}",
-      "let_get_started": "¡Empecemos!",
-      "modern_design": "Diseño moderno.",
-      "no_favorites": "No hay favoritos.",
-      "please_wait": "Por favor, espera...",
-      "saving": "Guardando...",
-      "search": "Buscar...",
-      "share": {
-        "invite": "¡Hola! He descubierto esta increíble aplicación que hará tu vida más fácil. ¡Échale un vistazo!"
-      },
-      "sorry": "Lo siento...",
-      "success": "¡Éxito!",
-      "thank_you": "¡Gracias!",
-      "warning": "¡Advertencia!",
-      "welcome": "¡Bienvenido!",
-      "whats_new": "¿Qué hay de nuevo?",
-      "whoops": "¡Ups!",
-      "generating": {
-        "pdf": "Generando PDF...",
-        "text": "Generando..."
-      },
-      "performing": "Realizando...",
-      "processing": "Procesando...",
-      "loading": {
-        "data": "Cargando datos...",
-        "pdf": "Cargando PDF...",
-        "text": "Cargando..."
-      },
-      "pdf_ready": "¡PDF listo!",
       "failed_to": {
+        "generate": {
+          "pdf": "Error al generar el PDF."
+        },
         "load": {
           "data": "Error al cargar los datos.",
           "pdf": "Error al cargar el PDF."
-        },
-        "generate": {
-          "pdf": "Error al generar el PDF."
         },
         "perform": {
           "action": "Error al realizar la acción."
@@ -3443,7 +3412,38 @@ static const Map<String,dynamic> es = {
           "pdf": "Error al guardar el PDF."
         }
       },
-      "searching": "Buscando..."
+      "finally": "¡Por fin!",
+      "generating": {
+        "pdf": "Generando PDF...",
+        "text": "Generando..."
+      },
+      "have_wonderful_day": "¡Que tengas un día maravilloso!",
+      "last_updated_on": "Última actualización el {date}",
+      "let_get_started": "¡Empecemos!",
+      "loading": {
+        "data": "Cargando datos...",
+        "pdf": "Cargando PDF...",
+        "text": "Cargando..."
+      },
+      "modern_design": "Diseño moderno.",
+      "no_favorites": "No hay favoritos.",
+      "pdf_ready": "¡PDF listo!",
+      "performing": "Realizando...",
+      "please_wait": "Por favor, espera...",
+      "processing": "Procesando...",
+      "saving": "Guardando...",
+      "search": "Buscar...",
+      "searching": "Buscando...",
+      "share": {
+        "invite": "¡Hola! He descubierto esta increíble aplicación que hará tu vida más fácil. ¡Échale un vistazo!"
+      },
+      "sorry": "Lo siento...",
+      "success": "¡Éxito!",
+      "thank_you": "¡Gracias!",
+      "warning": "¡Advertencia!",
+      "welcome": "¡Bienvenido!",
+      "whats_new": "¿Qué hay de nuevo?",
+      "whoops": "¡Ups!"
     },
     "question": {
       "are_you_sure": "¿Estás seguro?",

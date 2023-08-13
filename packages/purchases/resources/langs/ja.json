@@ -1,32 +1,30 @@
 {
   "purchases": {
     "error": {
+      "already_owned": "このアイテムは既に購入済みです。",
       "cannot_connect_store": "ご迷惑をおかけして申し訳ありません。現在、ストアは利用できませんので、この時点では購入をすることができません。",
-      "purchase": {
-        "already_owned": "このアイテムは既に購入済みです。",
-        "client_invalid": "購入を完了することができません。アカウントまたはデバイスを変更してください。",
-        "cloud_service_network_connection_failed": "購入を完了することができません。ネットワーク接続を確認して再試行してください。",
-        "cloud_service_permission_denied": "購入が拒否されました。後ほど再試行してください。",
-        "cloud_service_revoked": "購入が拒否されました。後ほど再試行してください。",
-        "ineligible_for_offer": "エラーが発生しました。後ほど再試行してください。",
-        "invalid_offer_identifier": "プロモーションオファーは無効または期限切れです。",
-        "invalid_offer_price": "申し訳ございませんが、購入を完了することができません。後ほど再試行してください。",
-        "invalid_signature": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
-        "missing_offer_params": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
-        "no_purchases_to_restore": "復元する購入はありません。",
-        "overlay_cancelled": "エラーが発生しました。後ほど再試行してください。",
-        "overlay_invalid_configuration": "エラーが発生しました。後ほど再試行してください。",
-        "overlay_presented_in_background_scene": "エラーが発生しました。後ほど再試行してください。",
-        "overlay_timeout": "エラーが発生しました。後ほど再試行してください。",
-        "payment_cancelled": "購入がキャンセルされました。",
-        "payment_invalid": "購入を完了することができません。お支払い情報を確認してください。",
-        "payment_not_allowed": "選択した支払い方法では購入できません。オンライン購入が可能な支払い方法をご確認ください。",
-        "privacy_acknowledgement_required": "AppStoreの利用規約を受け入れていないため、購入を完了することができません。設定で同意を確認してから購入に戻ってください。",
-        "store_product_not_available": "この商品はお住まいの地域では利用できません。ストアを変更して再試行してください。",
-        "unauthorized_request_data": "エラーが発生しました。後ほど再試行してください。",
-        "unknown": "申し訳ございませんが、不明な理由で購入ができません。後ほど再試行してください。",
-        "unsupported_platform": "エラーが発生しました。後ほど再試行してください。"
-      }
+      "client_invalid": "購入を完了することができません。アカウントまたはデバイスを変更してください。",
+      "cloud_service_network_connection_failed": "購入を完了することができません。ネットワーク接続を確認して再試行してください。",
+      "cloud_service_permission_denied": "購入が拒否されました。後ほど再試行してください。",
+      "cloud_service_revoked": "購入が拒否されました。後ほど再試行してください。",
+      "ineligible_for_offer": "エラーが発生しました。後ほど再試行してください。",
+      "invalid_offer_identifier": "プロモーションオファーは無効または期限切れです。",
+      "invalid_offer_price": "申し訳ございませんが、購入を完了することができません。後ほど再試行してください。",
+      "invalid_signature": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
+      "missing_offer_params": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
+      "no_purchases_to_restore": "復元する購入はありません。",
+      "overlay_cancelled": "エラーが発生しました。後ほど再試行してください。",
+      "overlay_invalid_configuration": "エラーが発生しました。後ほど再試行してください。",
+      "overlay_presented_in_background_scene": "エラーが発生しました。後ほど再試行してください。",
+      "overlay_timeout": "エラーが発生しました。後ほど再試行してください。",
+      "payment_cancelled": "購入がキャンセルされました。",
+      "payment_invalid": "購入を完了することができません。お支払い情報を確認してください。",
+      "payment_not_allowed": "選択した支払い方法では購入できません。オンライン購入が可能な支払い方法をご確認ください。",
+      "privacy_acknowledgement_required": "AppStoreの利用規約を受け入れていないため、購入を完了することができません。設定で同意を確認してから購入に戻ってください。",
+      "store_product_not_available": "この商品はお住まいの地域では利用できません。ストアを変更して再試行してください。",
+      "unauthorized_request_data": "エラーが発生しました。後ほど再試行してください。",
+      "unknown": "申し訳ございませんが、不明な理由で購入ができません。後ほど再試行してください。",
+      "unsupported_platform": "エラーが発生しました。後ほど再試行してください。"
     },
     "feature": {
       "auto": {
@@ -51,8 +49,10 @@
       "restore_purchases": "購入を復元"
     },
     "message": {
+      "do_have_premium_version": "プレミアムバージョンを持っていません。",
       "enjoy_premium_version": "プレミアムバージョンを選んでいただき、ありがとうございます！強化された機能と広告なしの体験をお楽しみください。あなたのサポートは、私たちにとって非常に意味があります！",
       "go_premium_description": "プレミアム版にアップグレードすることで、継続的な開発をサポートするだけでなく、追加の機能にアクセスすることもできます。",
+      "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
       "premium_version_restored": "プレミアム機能が正常に復元されました。",
       "purchase": {
         "cancelled": "購入がキャンセルされました。",
@@ -63,9 +63,7 @@
       "purchased_items": "購入済みアイテムのリスト：",
       "purchases_restored": "購入が復元されました。",
       "thanks_purchase": "ご購入いただきありがとうございます。",
-      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。",
-      "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
-      "do_have_premium_version": "プレミアムバージョンを持っていません。"
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
     }
   }
 }

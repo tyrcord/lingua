@@ -5,6 +5,9 @@
       "error_occurred": "Apologies, an error has occurred. Please try again later."
     },
     "label": {
+      "accept": "Accept",
+      "accepted": "Accepted",
+      "active": "Active",
       "add": "Add",
       "advanced": "Advanced",
       "all": {
@@ -13,12 +16,15 @@
         "other": "All"
       },
       "annually": "Annually",
+      "approve": "Approve",
+      "approved": "Approved",
       "at": "At",
       "auto_save": "Auto-save",
       "back": "Back",
       "behavior": "Behavior",
       "buy": "Buy",
       "cancel": "Cancel",
+      "canceled": "Canceled",
       "clear": {
         "selection": "Clear Selection",
         "text": "Clear"
@@ -34,6 +40,9 @@
         "all": "Collapse All",
         "text": "Collapse"
       },
+      "commercial": "Commercial",
+      "complete": "Complete",
+      "completed": "Completed",
       "confirm": "Confirm",
       "confirmation": "Confirmation",
       "continue": "Continue",
@@ -48,10 +57,14 @@
       "delete": "Delete",
       "description": "Description",
       "details": "Details",
+      "disabled": "Disabled",
+      "disapprove": "Disapprove",
+      "disapproved": "Disapproved",
       "display": "Display",
       "done": "Done",
       "download": "Download",
       "edit": "Edit",
+      "enabled": "Enabled",
       "enter": {
         "fullscreen": "Enter Fullscreen",
         "pip": "Enter Picture-in-Picture",
@@ -70,12 +83,14 @@
         "all": "Expand All",
         "text": "Expand"
       },
+      "expired": "Expired",
       "export": {
         "all": "Export All",
         "as": "Export As",
         "pdf": "Export As PDF",
         "text": "Export"
       },
+      "external": "External",
       "fast_forward": "Fast Forward",
       "favorites": "Favorites",
       "find": {
@@ -88,18 +103,29 @@
       "frame": "Frame",
       "frequency": "Frequency",
       "fullscreen": "Fullscreen",
+      "generate": "Generate",
       "go": "Go",
       "help": "Help",
+      "hidden": "Hidden",
+      "hint": "Hint",
       "home": "Home",
       "import": {
         "all": "Import All",
         "from": "Import From",
         "text": "Import"
       },
+      "in_progress": "In Progress",
+      "inactive": "Inactive",
+      "incomplete": "Incomplete",
+      "info": "Info",
       "inputs": "Inputs",
       "install": "Install",
+      "internal": "Internal",
+      "invalid": "Invalid",
       "learn_more": "Learn more",
       "loading": "Loading",
+      "local": "Local",
+      "locked": "Locked",
       "loop": "Loop",
       "majors": "Major",
       "menu": "Menu",
@@ -127,6 +153,7 @@
         "track": "Next Track"
       },
       "no": "No",
+      "non_commercial": "Non-commercial",
       "none": {
         "female": "None",
         "male": "None",
@@ -145,9 +172,24 @@
         "text": "Open",
         "url": "Open URL"
       },
+      "operation": {
+        "canceled": "Operation canceled",
+        "completed": "Operation completed",
+        "failed": "Operation failed",
+        "in_progress": "Operation in progress",
+        "pending": "Operation pending",
+        "started": "Operation started",
+        "succeeded": "Operation succeeded",
+        "text": "Operation",
+        "timed_out": "Operation timed out"
+      },
       "optional": "Optional",
       "paste": "Paste",
       "pause": "Pause",
+      "paused": "Paused",
+      "pending": "Pending",
+      "perform": "Perform",
+      "personal": "Personal",
       "play": "Play",
       "play_pause": "Play/Pause",
       "previous": {
@@ -156,10 +198,16 @@
         "text": "Previous",
         "track": "Previous Track"
       },
+      "private": "Private",
+      "public": "Public",
       "quantity": "Quantity",
       "quarterly": "Quarterly",
+      "question": "Question",
       "redo": "Redo",
       "refresh": "Refresh",
+      "reject": "Reject",
+      "rejected": "Rejected",
+      "remote": "Remote",
       "remove": "Remove",
       "repeat": {
         "all": "Repeat All",
@@ -172,8 +220,10 @@
         "text": "Replace"
       },
       "replay": "Replay",
+      "required": "Required",
       "reset": "Reset",
       "results": "Results",
+      "resumed": "Resumed",
       "retry": "Retry",
       "rewind": "Rewind",
       "save": {
@@ -211,18 +261,41 @@
       "submit": "Submit",
       "success": "Success",
       "template": "template",
+      "time": {
+        "elapsed": "Time Elapsed",
+        "remaining": "Time Remaining",
+        "text": "Time"
+      },
+      "tip": "Tip",
       "toggle": {
         "all": "Toggle All",
         "text": "Toggle"
+      },
+      "try": {
+        "again": "Try Again",
+        "later": "Try Later",
+        "text": "Try"
       },
       "undo": "Undo",
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
       "unmute": "Unmute",
       "update": "Update",
+      "upgrade": {
+        "now": "Upgrade Now",
+        "text": "Upgrade"
+      },
       "upload": "Upload",
       "user_inputs": "User Inputs",
+      "valid": "Valid",
+      "visible": "Visible",
       "volume": "Volume",
+      "warning": "Warning",
+      "watch": {
+        "later": "Watch Later",
+        "now": "Watch Now",
+        "text": "Watch"
+      },
       "website": "Website",
       "weekly": "Weekly",
       "yearly": "Yearly",
@@ -233,80 +306,7 @@
         "out": "Zoom Out",
         "reset": "Reset Zoom",
         "text": "Zoom"
-      },
-      "time": {
-        "elapsed": "Time Elapsed",
-        "remaining": "Time Remaining",
-        "text": "Time"
-      },
-      "upgrade": {
-        "now": "Upgrade Now",
-        "text": "Upgrade"
-      },
-      "watch": {
-        "later": "Watch Later",
-        "now": "Watch Now",
-        "text": "Watch"
-      },
-      "operation": {
-        "canceled": "Operation canceled",
-        "completed": "Operation completed",
-        "failed": "Operation failed",
-        "in_progress": "Operation in progress",
-        "pending": "Operation pending",
-        "started": "Operation started",
-        "succeeded": "Operation succeeded",
-        "timed_out": "Operation timed out",
-        "text": "Operation"
-      },
-      "generate": "Generate",
-      "perform": "Perform",
-      "try": {
-        "again": "Try Again",
-        "later": "Try Later",
-        "text": "Try"
-      },
-      "valid": "Valid",
-      "invalid": "Invalid",
-      "accept": "Accept",
-      "reject": "Reject",
-      "approve": "Approve",
-      "disapprove": "Disapprove",
-      "complete": "Complete",
-      "tip": "Tip",
-      "hint": "Hint",
-      "required": "Required",
-      "accepted": "Accepted",
-      "rejected": "Rejected",
-      "pending": "Pending",
-      "approved": "Approved",
-      "disapproved": "Disapproved",
-      "completed": "Completed",
-      "incomplete": "Incomplete",
-      "in_progress": "In Progress",
-      "paused": "Paused",
-      "resumed": "Resumed",
-      "canceled": "Canceled",
-      "expired": "Expired",
-      "locked": "Locked",
-      "active": "Active",
-      "inactive": "Inactive",
-      "enabled": "Enabled",
-      "disabled": "Disabled",
-      "hidden": "Hidden",
-      "visible": "Visible",
-      "public": "Public",
-      "private": "Private",
-      "personal": "Personal",
-      "commercial": "Commercial",
-      "non_commercial": "Non-commercial",
-      "internal": "Internal",
-      "external": "External",
-      "local": "Local",
-      "remote": "Remote",
-      "warning": "Warning",
-      "info": "Info",
-      "question": "Question"
+      }
     },
     "message": {
       "action": {
@@ -319,44 +319,13 @@
       "copied_to_clipboard": "Copied to clipboard!",
       "copied_value_to_clipboard": "Copied {value} to clipboard!",
       "dark_mode_support": "Dark Mode support.",
-      "finally": "Finally!",
-      "have_wonderful_day": "Have a wonderful day!",
-      "last_updated_on": "Last updated on {date}",
-      "let_get_started": "Let's get started!",
-      "modern_design": "Modern Look.",
-      "no_favorites": "No favorites.",
-      "please_wait": "Please wait...",
-      "saving": "Saving...",
-      "search": "Search...",
-      "share": {
-        "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
-      },
-      "sorry": "Sorry...",
-      "success": "Success!",
-      "thank_you": "Thank you!",
-      "warning": "Warning!",
-      "welcome": "Welcome!",
-      "whats_new": "What's new?",
-      "whoops": "Whoops!",
-      "generating": {
-        "pdf": "Generating PDF...",
-        "text": "Generating..."
-      },
-      "performing": "Performing...",
-      "processing": "Processing...",
-      "loading": {
-        "data": "Loading data...",
-        "pdf": "Loading PDF...",
-        "text": "Loading..."
-      },
-      "pdf_ready": "PDF ready!",
       "failed_to": {
+        "generate": {
+          "pdf": "Failed to generate PDF."
+        },
         "load": {
           "data": "Failed to load data.",
           "pdf": "Failed to load PDF."
-        },
-        "generate": {
-          "pdf": "Failed to generate PDF."
         },
         "perform": {
           "action": "Failed to perform action."
@@ -366,7 +335,38 @@
           "pdf": "Failed to save PDF."
         }
       },
-      "searching": "Searching..."
+      "finally": "Finally!",
+      "generating": {
+        "pdf": "Generating PDF...",
+        "text": "Generating..."
+      },
+      "have_wonderful_day": "Have a wonderful day!",
+      "last_updated_on": "Last updated on {date}",
+      "let_get_started": "Let's get started!",
+      "loading": {
+        "data": "Loading data...",
+        "pdf": "Loading PDF...",
+        "text": "Loading..."
+      },
+      "modern_design": "Modern Look.",
+      "no_favorites": "No favorites.",
+      "pdf_ready": "PDF ready!",
+      "performing": "Performing...",
+      "please_wait": "Please wait...",
+      "processing": "Processing...",
+      "saving": "Saving...",
+      "search": "Search...",
+      "searching": "Searching...",
+      "share": {
+        "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
+      },
+      "sorry": "Sorry...",
+      "success": "Success!",
+      "thank_you": "Thank you!",
+      "warning": "Warning!",
+      "welcome": "Welcome!",
+      "whats_new": "What's new?",
+      "whoops": "Whoops!"
     },
     "question": {
       "are_you_sure": "Are you sure?",

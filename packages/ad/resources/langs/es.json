@@ -3,29 +3,31 @@
     "disclaimer": {
       "user_tracking": "Este identificador se utilizará para sugerirle publicidad dirigida en función de sus intereses."
     },
+    "error": {
+      "dimissed_ad": "Dado que cerró el anuncio antes de tiempo, no recibirá una recompensa. Por favor, inténtelo de nuevo más tarde.",
+      "failed_to_load_ad": "No se pudo cargar el anuncio. Por favor, inténtelo de nuevo más tarde.",
+      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde."
+    },
     "label": {
       "ad": "Anuncio",
       "advertisement": "Publicidad",
+      "no_ads_available": "No hay anuncios disponibles",
       "personalized_ads": "Anuncios personalizados",
       "sponsored": "Patrocinado",
-      "no_ads_available": "No hay anuncios disponibles",
       "watch_ad": "Ver un anuncio"
     },
     "message": {
       "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
+      "enjoy_your_reward": "¡Disfruta tu recompensa!",
+      "go_ad_free": "Elimina los anuncios",
+      "say_goodbye_to_ads": "¡Di adiós a los anuncios!",
       "watch_ad": {
         "unlock": {
-          "pdf": "¡Vea un anuncio breve para desbloquear la capacidad de exportar sus datos como PDF!",
           "feature": "¡Mira un anuncio corto para desbloquear esta función!",
-          "feature_plural": "¡Mira un anuncio corto para desbloquear estas funciones!"
+          "feature_plural": "¡Mira un anuncio corto para desbloquear estas funciones!",
+          "pdf": "¡Vea un anuncio breve para desbloquear la capacidad de exportar sus datos como PDF!"
         }
-      },
-      "enjoy_your_reward": "¡Disfruta tu recompensa!"
-    },
-    "error": {
-      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde.",
-      "failed_to_load_ad": "No se pudo cargar el anuncio. Por favor, inténtelo de nuevo más tarde.",
-      "dimissed_ad": "Dado que cerró el anuncio antes de tiempo, no recibirá una recompensa. Por favor, inténtelo de nuevo más tarde."
+      }
     }
   }
 }

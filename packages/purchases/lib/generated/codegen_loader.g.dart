@@ -62,8 +62,10 @@ class PurchasesCodegenLoader extends AssetLoader {
       "restore_purchases": "恢复购买"
     },
     "message": {
+      "do_have_premium_version": "您没有高级版本。",
       "enjoy_premium_version": "感谢您选择高级版本！享受增强功能和无广告体验。您的支持对我们意义重大！",
       "go_premium_description": "升级到高级版不仅支持持续开发，还能获得额外功能。",
+      "have_not_acquired_premium_version": "您尚未购买高级版本。",
       "premium_version_restored": "已成功恢复高级功能。",
       "purchase": {
         "cancelled": "购买已取消。",
@@ -74,41 +76,37 @@ class PurchasesCodegenLoader extends AssetLoader {
       "purchased_items": "已购买项目列表：",
       "purchases_restored": "购买已恢复。",
       "thanks_purchase": "感谢您的购买。",
-      "unlock_premium_features": "享受众多高级功能。",
-      "have_not_acquired_premium_version": "您尚未购买高级版本。",
-      "do_have_premium_version": "您没有高级版本。"
+      "unlock_premium_features": "享受众多高级功能。"
     }
   }
 };
 static const Map<String,dynamic> ja = {
   "purchases": {
     "error": {
+      "already_owned": "このアイテムは既に購入済みです。",
       "cannot_connect_store": "ご迷惑をおかけして申し訳ありません。現在、ストアは利用できませんので、この時点では購入をすることができません。",
-      "purchase": {
-        "already_owned": "このアイテムは既に購入済みです。",
-        "client_invalid": "購入を完了することができません。アカウントまたはデバイスを変更してください。",
-        "cloud_service_network_connection_failed": "購入を完了することができません。ネットワーク接続を確認して再試行してください。",
-        "cloud_service_permission_denied": "購入が拒否されました。後ほど再試行してください。",
-        "cloud_service_revoked": "購入が拒否されました。後ほど再試行してください。",
-        "ineligible_for_offer": "エラーが発生しました。後ほど再試行してください。",
-        "invalid_offer_identifier": "プロモーションオファーは無効または期限切れです。",
-        "invalid_offer_price": "申し訳ございませんが、購入を完了することができません。後ほど再試行してください。",
-        "invalid_signature": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
-        "missing_offer_params": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
-        "no_purchases_to_restore": "復元する購入はありません。",
-        "overlay_cancelled": "エラーが発生しました。後ほど再試行してください。",
-        "overlay_invalid_configuration": "エラーが発生しました。後ほど再試行してください。",
-        "overlay_presented_in_background_scene": "エラーが発生しました。後ほど再試行してください。",
-        "overlay_timeout": "エラーが発生しました。後ほど再試行してください。",
-        "payment_cancelled": "購入がキャンセルされました。",
-        "payment_invalid": "購入を完了することができません。お支払い情報を確認してください。",
-        "payment_not_allowed": "選択した支払い方法では購入できません。オンライン購入が可能な支払い方法をご確認ください。",
-        "privacy_acknowledgement_required": "AppStoreの利用規約を受け入れていないため、購入を完了することができません。設定で同意を確認してから購入に戻ってください。",
-        "store_product_not_available": "この商品はお住まいの地域では利用できません。ストアを変更して再試行してください。",
-        "unauthorized_request_data": "エラーが発生しました。後ほど再試行してください。",
-        "unknown": "申し訳ございませんが、不明な理由で購入ができません。後ほど再試行してください。",
-        "unsupported_platform": "エラーが発生しました。後ほど再試行してください。"
-      }
+      "client_invalid": "購入を完了することができません。アカウントまたはデバイスを変更してください。",
+      "cloud_service_network_connection_failed": "購入を完了することができません。ネットワーク接続を確認して再試行してください。",
+      "cloud_service_permission_denied": "購入が拒否されました。後ほど再試行してください。",
+      "cloud_service_revoked": "購入が拒否されました。後ほど再試行してください。",
+      "ineligible_for_offer": "エラーが発生しました。後ほど再試行してください。",
+      "invalid_offer_identifier": "プロモーションオファーは無効または期限切れです。",
+      "invalid_offer_price": "申し訳ございませんが、購入を完了することができません。後ほど再試行してください。",
+      "invalid_signature": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
+      "missing_offer_params": "プロモーションコードの適用中にエラーが発生しました。後ほど再試行してください。",
+      "no_purchases_to_restore": "復元する購入はありません。",
+      "overlay_cancelled": "エラーが発生しました。後ほど再試行してください。",
+      "overlay_invalid_configuration": "エラーが発生しました。後ほど再試行してください。",
+      "overlay_presented_in_background_scene": "エラーが発生しました。後ほど再試行してください。",
+      "overlay_timeout": "エラーが発生しました。後ほど再試行してください。",
+      "payment_cancelled": "購入がキャンセルされました。",
+      "payment_invalid": "購入を完了することができません。お支払い情報を確認してください。",
+      "payment_not_allowed": "選択した支払い方法では購入できません。オンライン購入が可能な支払い方法をご確認ください。",
+      "privacy_acknowledgement_required": "AppStoreの利用規約を受け入れていないため、購入を完了することができません。設定で同意を確認してから購入に戻ってください。",
+      "store_product_not_available": "この商品はお住まいの地域では利用できません。ストアを変更して再試行してください。",
+      "unauthorized_request_data": "エラーが発生しました。後ほど再試行してください。",
+      "unknown": "申し訳ございませんが、不明な理由で購入ができません。後ほど再試行してください。",
+      "unsupported_platform": "エラーが発生しました。後ほど再試行してください。"
     },
     "feature": {
       "auto": {
@@ -133,8 +131,10 @@ static const Map<String,dynamic> ja = {
       "restore_purchases": "購入を復元"
     },
     "message": {
+      "do_have_premium_version": "プレミアムバージョンを持っていません。",
       "enjoy_premium_version": "プレミアムバージョンを選んでいただき、ありがとうございます！強化された機能と広告なしの体験をお楽しみください。あなたのサポートは、私たちにとって非常に意味があります！",
       "go_premium_description": "プレミアム版にアップグレードすることで、継続的な開発をサポートするだけでなく、追加の機能にアクセスすることもできます。",
+      "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
       "premium_version_restored": "プレミアム機能が正常に復元されました。",
       "purchase": {
         "cancelled": "購入がキャンセルされました。",
@@ -145,9 +145,7 @@ static const Map<String,dynamic> ja = {
       "purchased_items": "購入済みアイテムのリスト：",
       "purchases_restored": "購入が復元されました。",
       "thanks_purchase": "ご購入いただきありがとうございます。",
-      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。",
-      "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
-      "do_have_premium_version": "プレミアムバージョンを持っていません。"
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
     }
   }
 };
@@ -202,8 +200,10 @@ static const Map<String,dynamic> de = {
       "restore_purchases": "Käufe wiederherstellen"
     },
     "message": {
+      "do_have_premium_version": "Sie haben die Premium-Version nicht.",
       "enjoy_premium_version": "Vielen Dank, dass Sie sich für die Premium-Version entschieden haben! Genießen Sie erweiterte Funktionen und ein werbefreies Erlebnis. Ihre Unterstützung bedeutet uns sehr viel!",
       "go_premium_description": "Durch ein Upgrade auf die Premium-Version unterstützen Sie nicht nur die laufende Entwicklung, sondern erhalten auch Zugriff auf zusätzliche Funktionen.",
+      "have_not_acquired_premium_version": "Sie haben die Premium-Version nicht erworben.",
       "premium_version_restored": "Ihre Premium-Funktionen wurden erfolgreich wiederhergestellt.",
       "purchase": {
         "cancelled": "Kauf abgebrochen.",
@@ -214,9 +214,7 @@ static const Map<String,dynamic> de = {
       "purchased_items": "Liste der gekauften Artikel:",
       "purchases_restored": "Käufe wiederhergestellt.",
       "thanks_purchase": "Vielen Dank für Ihren Kauf.",
-      "unlock_premium_features": "Greifen Sie auf eine Vielzahl von Premium-Funktionen zu.",
-      "have_not_acquired_premium_version": "Sie haben die Premium-Version nicht erworben.",
-      "do_have_premium_version": "Sie haben die Premium-Version nicht."
+      "unlock_premium_features": "Greifen Sie auf eine Vielzahl von Premium-Funktionen zu."
     }
   }
 };
@@ -271,8 +269,10 @@ static const Map<String,dynamic> ru = {
       "restore_purchases": "Восстановить покупки"
     },
     "message": {
+      "do_have_premium_version": "У вас нет премиум-версии.",
       "enjoy_premium_version": "Спасибо за выбор премиум-версии! Наслаждайтесь расширенными функциями и опытом без рекламы. Ваша поддержка очень важна для нас!",
       "go_premium_description": "Обновившись до Премиум-версии, вы не только поддерживаете разработку, но также получаете доступ к дополнительным функциям.",
+      "have_not_acquired_premium_version": "Вы не приобрели премиум-версию.",
       "premium_version_restored": "Ваши функции Премиум успешно восстановлены.",
       "purchase": {
         "cancelled": "Покупка отменена.",
@@ -283,9 +283,7 @@ static const Map<String,dynamic> ru = {
       "purchased_items": "Список приобретенных товаров:",
       "purchases_restored": "Покупки восстановлены.",
       "thanks_purchase": "Спасибо за покупку.",
-      "unlock_premium_features": "Получите доступ к множеству функций Премиум.",
-      "have_not_acquired_premium_version": "Вы не приобрели премиум-версию.",
-      "do_have_premium_version": "У вас нет премиум-версии."
+      "unlock_premium_features": "Получите доступ к множеству функций Премиум."
     }
   }
 };
@@ -340,8 +338,10 @@ static const Map<String,dynamic> pt = {
       "restore_purchases": "Restaurar compras"
     },
     "message": {
+      "do_have_premium_version": "Você não tem a versão premium.",
       "enjoy_premium_version": "Obrigado por escolher a versão premium! Aproveite os recursos aprimorados e uma experiência sem anúncios. Seu apoio significa muito para nós!",
       "go_premium_description": "Ao fazer o upgrade para a versão premium, você não apenas apoia o desenvolvimento contínuo, mas também obtém acesso a recursos adicionais.",
+      "have_not_acquired_premium_version": "Você não adquiriu a versão premium.",
       "premium_version_restored": "Seus recursos Premium foram restaurados com sucesso.",
       "purchase": {
         "cancelled": "Compra cancelada.",
@@ -352,16 +352,14 @@ static const Map<String,dynamic> pt = {
       "purchased_items": "Lista de itens comprados:",
       "purchases_restored": "Compras restauradas.",
       "thanks_purchase": "Obrigado por sua compra.",
-      "unlock_premium_features": "Acesse uma variedade de recursos Premium.",
-      "have_not_acquired_premium_version": "Você não adquiriu a versão premium.",
-      "do_have_premium_version": "Você não tem a versão premium."
+      "unlock_premium_features": "Acesse uma variedade de recursos Premium."
     }
   }
 };
 static const Map<String,dynamic> en = {
   "purchases": {
     "error": {
-      "already_purchased": "You already own this item.",
+      "already_owned": "You already own this item.",
       "cannot_connect_store": "We apologize for the inconvenience. The store is currently unavailable, and as a result, you won't be able to make any purchases at this time.",
       "client_invalid": "The purchase cannot be completed. Please, change your account or device.",
       "cloud_service_network_connection_failed": "The purchase cannot be completed. Please, check your network connection and try again.",
@@ -409,8 +407,10 @@ static const Map<String,dynamic> en = {
       "restore_purchases": "Restore Purchases"
     },
     "message": {
+      "do_have_premium_version": "You don't have the premium version.",
       "enjoy_premium_version": "Thank you for choosing the premium version! Enjoy enhanced features and an ad-free experience. Your support means a lot to us!",
       "go_premium_description": "By upgrading to the premium version, you not only support ongoing development but also gain access to additional features.",
+      "have_not_acquired_premium_version": "You haven't acquired the premium version.",
       "premium_version_restored": "Your premium features have been successfully reinstated.",
       "purchase": {
         "cancelled": "Purchase cancelled.",
@@ -421,9 +421,7 @@ static const Map<String,dynamic> en = {
       "purchased_items": "List of purchased items::",
       "purchases_restored": "Purchases Restored.",
       "thanks_purchase": "Thank you for your purchase.",
-      "unlock_premium_features": "Access a multitude of premium features.",
-      "have_not_acquired_premium_version": "You haven't acquired the premium version.",
-      "do_have_premium_version": "You don't have the premium version."
+      "unlock_premium_features": "Access a multitude of premium features."
     }
   }
 };
@@ -478,8 +476,10 @@ static const Map<String,dynamic> it = {
       "restore_purchases": "Ripristina acquisti"
     },
     "message": {
+      "do_have_premium_version": "Non hai la versione premium.",
       "enjoy_premium_version": "Grazie per aver scelto la versione premium! Goditi funzioni avanzate e un'esperienza senza pubblicità. Il tuo supporto è molto importante per noi!",
       "go_premium_description": "Effettuando l'upgrade alla versione Premium, non solo supporti lo sviluppo in corso, ma ottieni anche accesso a funzionalità aggiuntive.",
+      "have_not_acquired_premium_version": "Non hai acquisito la versione premium.",
       "premium_version_restored": "Le tue funzionalità Premium sono state ripristinate correttamente.",
       "purchase": {
         "cancelled": "Acquisto annullato.",
@@ -490,9 +490,7 @@ static const Map<String,dynamic> it = {
       "purchased_items": "Elenco degli articoli acquistati:",
       "purchases_restored": "Acquisti ripristinati.",
       "thanks_purchase": "Grazie per il tuo acquisto.",
-      "unlock_premium_features": "Accedi a una serie di funzionalità Premium.",
-      "have_not_acquired_premium_version": "Non hai acquisito la versione premium.",
-      "do_have_premium_version": "Non hai la versione premium."
+      "unlock_premium_features": "Accedi a una serie di funzionalità Premium."
     }
   }
 };
@@ -547,8 +545,10 @@ static const Map<String,dynamic> fr = {
       "restore_purchases": "Restaurer les achats"
     },
     "message": {
-      "enjoy_premium_version": "Merci d'avoir choisi la version premium ! Profitez de fonctionnalités améliorées et d'une expérience sans publicité. Votre soutien compte énormément pour nous !",
+      "do_have_premium_version": "Vous n'avez pas la version premium.",
+      "enjoy_premium_version": "Merci d'avoir choisi la version premium ! Profitez de fonctionnalités améliorées et d'une expérience sans publicité. Votre soutien compte énormément pour nous !",
       "go_premium_description": "En passant à la version Premium, vous soutenez non seulement le développement continu, mais vous accédez également à des fonctionnalités supplémentaires.",
+      "have_not_acquired_premium_version": "Vous n'avez pas acquis la version premium.",
       "premium_version_restored": "Vos fonctionnalités Premium ont été restaurées avec succès.",
       "purchase": {
         "cancelled": "Achat annulé.",
@@ -559,9 +559,7 @@ static const Map<String,dynamic> fr = {
       "purchased_items": "Liste des articles achetés :",
       "purchases_restored": "Achats restaurés.",
       "thanks_purchase": "Merci pour votre achat.",
-      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium.",
-      "have_not_acquired_premium_version": "Vous n'avez pas acquis la version premium.",
-      "do_have_premium_version": "Vous n'avez pas la version premium."
+      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."
     }
   }
 };
@@ -616,8 +614,10 @@ static const Map<String,dynamic> es = {
       "restore_purchases": "Restaurar compras"
     },
     "message": {
+      "do_have_premium_version": "No tiene la versión premium.",
       "enjoy_premium_version": "¡Gracias por elegir la versión premium! Disfruta de funciones mejoradas y una experiencia sin anuncios. ¡Tu apoyo significa mucho para nosotros!",
       "go_premium_description": "Al actualizar a la versión Premium, no solo apoyas el desarrollo continuo, sino que también obtienes acceso a funciones adicionales.",
+      "have_not_acquired_premium_version": "No ha adquirido la versión premium.",
       "premium_version_restored": "Se han restaurado correctamente tus funciones Premium.",
       "purchase": {
         "cancelled": "Compra cancelada.",
@@ -628,9 +628,7 @@ static const Map<String,dynamic> es = {
       "purchased_items": "Lista de artículos comprados:",
       "purchases_restored": "Compras restauradas.",
       "thanks_purchase": "Gracias por tu compra.",
-      "unlock_premium_features": "Accede a una variedad de funciones Premium.",
-      "have_not_acquired_premium_version": "No ha adquirido la versión premium.",
-      "do_have_premium_version": "No tiene la versión premium."
+      "unlock_premium_features": "Accede a una variedad de funciones Premium."
     }
   }
 };

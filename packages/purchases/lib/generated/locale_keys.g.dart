@@ -43,8 +43,10 @@ abstract class PurchasesLocaleKeys {
   static const purchases_label_purchases = 'purchases.label.purchases';
   static const purchases_label_restore_purchases = 'purchases.label.restore_purchases';
   static const purchases_label = 'purchases.label';
+  static const purchases_message_do_have_premium_version = 'purchases.message.do_have_premium_version';
   static const purchases_message_enjoy_premium_version = 'purchases.message.enjoy_premium_version';
   static const purchases_message_go_premium_description = 'purchases.message.go_premium_description';
+  static const purchases_message_have_not_acquired_premium_version = 'purchases.message.have_not_acquired_premium_version';
   static const purchases_message_premium_version_restored = 'purchases.message.premium_version_restored';
   static const purchases_message_purchase_cancelled = 'purchases.message.purchase.cancelled';
   static const purchases_message_purchase_failed = 'purchases.message.purchase.failed';
@@ -55,8 +57,6 @@ abstract class PurchasesLocaleKeys {
   static const purchases_message_purchases_restored = 'purchases.message.purchases_restored';
   static const purchases_message_thanks_purchase = 'purchases.message.thanks_purchase';
   static const purchases_message_unlock_premium_features = 'purchases.message.unlock_premium_features';
-  static const purchases_message_have_not_acquired_premium_version = 'purchases.message.have_not_acquired_premium_version';
-  static const purchases_message_do_have_premium_version = 'purchases.message.do_have_premium_version';
   static const purchases_message = 'purchases.message';
   static const purchases = 'purchases';
 

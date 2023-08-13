@@ -3,29 +3,31 @@
     "disclaimer": {
       "user_tracking": "Diese Kennung wird verwendet, um Ihnen basierend auf Ihren Interessen gezielte Werbung vorzuschlagen."
     },
+    "error": {
+      "dimissed_ad": "Da Sie die Anzeige frühzeitig geschlossen haben, erhalten Sie keine Belohnung. Bitte versuchen Sie es später erneut.",
+      "failed_to_load_ad": "Die Anzeige konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
+      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut."
+    },
     "label": {
       "ad": "Anzeige",
       "advertisement": "Werbeanzeige",
+      "no_ads_available": "Keine Anzeigen verfügbar",
       "personalized_ads": "Personalisierte Anzeigen",
       "sponsored": "Gesponsert",
-      "no_ads_available": "Keine Anzeigen verfügbar",
       "watch_ad": "Eine Anzeige ansehen"
     },
     "message": {
       "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
+      "enjoy_your_reward": "Genießen Sie Ihre Belohnung!",
+      "go_ad_free": "Werbefrei erleben!",
+      "say_goodbye_to_ads": "Sagen Sie Auf Wiedersehen zu Werbung!",
       "watch_ad": {
         "unlock": {
-          "pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!",
           "feature": "Sehen Sie sich eine kurze Anzeige an, um diese Funktion freizuschalten!",
-          "feature_plural": "Sehen Sie sich eine kurze Anzeige an, um diese Funktionen freizuschalten!"
+          "feature_plural": "Sehen Sie sich eine kurze Anzeige an, um diese Funktionen freizuschalten!",
+          "pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!"
         }
-      },
-      "enjoy_your_reward": "Genießen Sie Ihre Belohnung!"
-    },
-    "error": {
-      "no_ads_available": "Zurzeit sind keine Anzeigen verfügbar. Bitte versuchen Sie es später erneut.",
-      "failed_to_load_ad": "Die Anzeige konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
-      "dimissed_ad": "Da Sie die Anzeige frühzeitig geschlossen haben, erhalten Sie keine Belohnung. Bitte versuchen Sie es später erneut."
+      }
     }
   }
 }
