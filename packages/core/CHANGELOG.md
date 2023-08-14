@@ -1,3 +1,9 @@
+## 0.0.19
+
+ - **FIX**: escaping $ chars.
+ - **FIX**: escaping $ chars.
+ - **FEAT**: update localization.
+
 ## 0.0.18
 
  - **FEAT**: update localization.
