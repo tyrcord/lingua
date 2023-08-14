@@ -307,7 +307,8 @@
         "out": "Diminuir Zoom",
         "reset": "Redefinir Zoom",
         "text": "Zoom"
-      }
+      },
+      "report": "Relatório"
     },
     "message": {
       "action": {
@@ -368,7 +369,8 @@
       "warning": "Aviso!",
       "welcome": "Bem-vindo!",
       "whats_new": "O que há de novo?",
-      "whoops": "Ops!"
+      "whoops": "Ops!",
+      "pdf_generated_by": "PDF gerado por {app_name}"
     },
     "question": {
       "are_you_sure": "Tem certeza?",

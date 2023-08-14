@@ -307,7 +307,8 @@
         "out": "缩小",
         "reset": "重置缩放",
         "text": "缩放"
-      }
+      },
+      "report": "报告"
     },
     "message": {
       "action": {
@@ -368,7 +369,8 @@
       "warning": "警告！",
       "welcome": "欢迎！",
       "whats_new": "有什么新功能？",
-      "whoops": "哎呀！"
+      "whoops": "哎呀！",
+      "pdf_generated_by": "PDF 由{app_name}生成"
     },
     "question": {
       "are_you_sure": "确定吗？",

@@ -307,7 +307,8 @@
         "out": "Отдалить",
         "reset": "Сбросить масштаб",
         "text": "Масштаб"
-      }
+      },
+      "report": "Отчет"
     },
     "message": {
       "action": {
@@ -368,7 +369,8 @@
       "warning": "Предупреждение!",
       "welcome": "Добро пожаловать!",
       "whats_new": "Что нового?",
-      "whoops": "Упс!"
+      "whoops": "Упс!",
+      "pdf_generated_by": "PDF сгенерировано с помощью {app_name}"
     },
     "question": {
       "are_you_sure": "Вы уверены?",

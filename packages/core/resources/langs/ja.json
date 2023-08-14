@@ -307,7 +307,8 @@
         "out": "ズームアウト",
         "reset": "ズームリセット",
         "text": "ズーム"
-      }
+      },
+      "report": "レポート"
     },
     "message": {
       "action": {
@@ -368,7 +369,8 @@
       "warning": "警告！",
       "welcome": "ようこそ！",
       "whats_new": "新機能のご紹介",
-      "whoops": "おっと！"
+      "whoops": "おっと！",
+      "pdf_generated_by": "{app_name} によって生成されたPDF"
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",

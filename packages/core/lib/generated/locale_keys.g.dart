@@ -269,6 +269,7 @@ abstract class CoreLocaleKeys {
   static const core_label_zoom_reset = 'core.label.zoom.reset';
   static const core_label_zoom_text = 'core.label.zoom.text';
   static const core_label_zoom = 'core.label.zoom';
+  static const core_label_report = 'core.label.report';
   static const core_label = 'core.label';
   static const core_message_action_canceled = 'core.message.action.canceled';
   static const core_message_action_completed = 'core.message.action.completed';
@@ -320,6 +321,7 @@ abstract class CoreLocaleKeys {
   static const core_message_welcome = 'core.message.welcome';
   static const core_message_whats_new = 'core.message.whats_new';
   static const core_message_whoops = 'core.message.whoops';
+  static const core_message_pdf_generated_by = 'core.message.pdf_generated_by';
   static const core_message = 'core.message';
   static const core_question_are_you_sure = 'core.question.are_you_sure';
   static const core_question_export_data_pdf = 'core.question.export_data_pdf';

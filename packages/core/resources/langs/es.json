@@ -307,7 +307,8 @@
         "out": "Alejar",
         "reset": "Restablecer zoom",
         "text": "Zoom"
-      }
+      },
+      "report": "Informe"
     },
     "message": {
       "action": {
@@ -368,7 +369,8 @@
       "warning": "¡Advertencia!",
       "welcome": "¡Bienvenido!",
       "whats_new": "¿Qué hay de nuevo?",
-      "whoops": "¡Ups!"
+      "whoops": "¡Ups!",
+      "pdf_generated_by": "PDF generado por {app_name}"
     },
     "question": {
       "are_you_sure": "¿Estás seguro?",

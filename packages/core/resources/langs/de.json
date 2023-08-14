@@ -307,7 +307,8 @@
         "out": "Herauszoomen",
         "reset": "Zoom zurücksetzen",
         "text": "Zoom"
-      }
+      },
+      "report": "Bericht"
     },
     "message": {
       "action": {
@@ -368,7 +369,8 @@
       "warning": "Achtung!",
       "welcome": "Willkommen!",
       "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!"
+      "whoops": "Hoppla!",
+      "pdf_generated_by": "PDF generiert von {app_name}"
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",
