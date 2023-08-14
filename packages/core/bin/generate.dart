@@ -304,10 +304,10 @@ void printError(String error) {
 
 String escapeSpecialCharacters(String input) {
   const specialCharacters = r'\$';
-  const escapeCharacter = r'\';
+  const unicodeEscapeCharacter = '\u0024';
 
   return input.replaceAll(
     RegExp('([$specialCharacters])'),
-    '$escapeCharacter\$1',
+    unicodeEscapeCharacter,
   );
 }
