@@ -73,6 +73,7 @@
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
+      "example": "Exemple",
       "exit": {
         "fullscreen": "Quitter le plein écran",
         "pip": "Quitter l'image dans l'image",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "Copié dans le presse-papiers !",
       "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
       "dark_mode_support": "Prise en charge du mode sombre.",
+      "example": "Exemple:",
       "failed_to": {
         "generate": {
           "pdf": "Échec de la génération du PDF."

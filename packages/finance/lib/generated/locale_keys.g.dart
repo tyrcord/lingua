@@ -75,6 +75,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_entry_price_text = 'finance.label.entry.price.text';
   static const finance_label_entry_price_with_slippage = 'finance.label.entry.price.with_slippage';
   static const finance_label_entry_price = 'finance.label.entry.price';
+  static const finance_label_entry_text = 'finance.label.entry.text';
   static const finance_label_entry = 'finance.label.entry';
   static const finance_label_exit_fees_amount = 'finance.label.exit.fees.amount';
   static const finance_label_exit_fees_text = 'finance.label.exit.fees.text';

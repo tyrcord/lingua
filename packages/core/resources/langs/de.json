@@ -73,6 +73,7 @@
       "entries": "Eingänge",
       "entry": "Eingang",
       "error": "Fehler",
+      "example": "Beispiel",
       "exit": {
         "fullscreen": "Vollbild beenden",
         "pip": "Bild-in-Bild beenden",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "In die Zwischenablage kopiert!",
       "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
       "dark_mode_support": "Unterstützung für den Dunkelmodus.",
+      "example": "Beispiel:",
       "failed_to": {
         "generate": {
           "pdf": "PDF konnte nicht erstellt werden."

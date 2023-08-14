@@ -73,6 +73,7 @@
       "entries": "Входы",
       "entry": "Вход",
       "error": "Ошибка",
+      "example": "Пример",
       "exit": {
         "fullscreen": "Выйти из полноэкранного режима",
         "pip": "Выйти из режима Picture-in-Picture",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "Скопировано в буфер обмена!",
       "copied_value_to_clipboard": "Скопировано {value} в буфер обмена!",
       "dark_mode_support": "Поддержка темного режима.",
+      "example": "Пример:",
       "failed_to": {
         "generate": {
           "pdf": "Не удалось сгенерировать PDF."

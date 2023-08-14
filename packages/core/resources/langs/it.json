@@ -73,6 +73,7 @@
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
+      "example": "Esempio",
       "exit": {
         "fullscreen": "Esci dallo schermo intero",
         "pip": "Esci dall'immagine in immagine",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "Copiato negli appunti!",
       "copied_value_to_clipboard": "Copiato {value} negli appunti!",
       "dark_mode_support": "Supporto per la modalità scura.",
+      "example": "Esempio:",
       "failed_to": {
         "generate": {
           "pdf": "Generazione del PDF non riuscita."

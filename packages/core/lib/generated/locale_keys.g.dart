@@ -63,6 +63,7 @@ abstract class CoreLocaleKeys {
   static const core_label_entries = 'core.label.entries';
   static const core_label_entry = 'core.label.entry';
   static const core_label_error = 'core.label.error';
+  static const core_label_example = 'core.label.example';
   static const core_label_exit_fullscreen = 'core.label.exit.fullscreen';
   static const core_label_exit_pip = 'core.label.exit.pip';
   static const core_label_exit_text = 'core.label.exit.text';
@@ -278,6 +279,7 @@ abstract class CoreLocaleKeys {
   static const core_message_copied_to_clipboard = 'core.message.copied_to_clipboard';
   static const core_message_copied_value_to_clipboard = 'core.message.copied_value_to_clipboard';
   static const core_message_dark_mode_support = 'core.message.dark_mode_support';
+  static const core_message_example = 'core.message.example';
   static const core_message_failed_to_generate_pdf = 'core.message.failed_to.generate.pdf';
   static const core_message_failed_to_generate = 'core.message.failed_to.generate';
   static const core_message_failed_to_load_data = 'core.message.failed_to.load.data';

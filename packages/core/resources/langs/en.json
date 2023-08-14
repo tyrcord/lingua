@@ -73,6 +73,7 @@
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
+      "example": "Example",
       "exit": {
         "fullscreen": "Exit Fullscreen",
         "pip": "Exit Picture-in-Picture",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "Copied to clipboard!",
       "copied_value_to_clipboard": "Copied {value} to clipboard!",
       "dark_mode_support": "Dark Mode support.",
+      "example": "Example:",
       "failed_to": {
         "generate": {
           "pdf": "Failed to generate PDF."

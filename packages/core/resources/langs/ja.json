@@ -73,6 +73,7 @@
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
+      "example": "例",
       "exit": {
         "fullscreen": "フルスクリーンを終了",
         "pip": "ピクチャ・イン・ピクチャを終了",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "クリップボードにコピーしました！",
       "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
       "dark_mode_support": "ダークモードのサポート。",
+      "example": "例:",
       "failed_to": {
         "generate": {
           "pdf": "PDFの生成に失敗しました。"

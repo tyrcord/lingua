@@ -96,7 +96,8 @@
           "at": "Precio de entrada en",
           "text": "Precio de entrada",
           "with_slippage": "Precio de entrada con deslizamiento"
-        }
+        },
+        "text": "Entrada"
       },
       "exit": {
         "fees": {
@@ -246,8 +247,8 @@
       },
       "total": {
         "costs": {
-          "losing_position": "Costos totales para una posición perdedora.",
-          "profit_position": "Costos totales para una posición ganadora.",
+          "losing_position": "Costos totales para una posición perdedora",
+          "profit_position": "Costos totales para una posición ganadora",
           "text": "Costos totales"
         },
         "gain": "Ganancia total",

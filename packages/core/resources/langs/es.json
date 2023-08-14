@@ -73,6 +73,7 @@
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Error",
+      "example": "Ejemplo",
       "exit": {
         "fullscreen": "Salir de pantalla completa",
         "pip": "Salir de imagen sobre imagen",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "¡Copiado al portapapeles!",
       "copied_value_to_clipboard": "¡Copiado {value} al portapapeles!",
       "dark_mode_support": "Soporte para modo oscuro.",
+      "example": "Ejemplo:",
       "failed_to": {
         "generate": {
           "pdf": "Error al generar el PDF."

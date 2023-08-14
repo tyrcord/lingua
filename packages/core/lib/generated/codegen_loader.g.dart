@@ -86,6 +86,7 @@ class CoreCodegenLoader extends AssetLoader {
       "entries": "入口",
       "entry": "入口",
       "error": "错误",
+      "example": "例子",
       "exit": {
         "fullscreen": "退出全屏",
         "pip": "退出画中画",
@@ -332,6 +333,7 @@ class CoreCodegenLoader extends AssetLoader {
       "copied_to_clipboard": "已复制到剪贴板！",
       "copied_value_to_clipboard": "已复制 {value} 到剪贴板！",
       "dark_mode_support": "支持暗黑模式。",
+      "example": "示例:",
       "failed_to": {
         "generate": {
           "pdf": "生成PDF失败。"
@@ -469,6 +471,7 @@ static const Map<String,dynamic> ja = {
       "entries": "エントリー",
       "entry": "エントリー",
       "error": "エラー",
+      "example": "例",
       "exit": {
         "fullscreen": "フルスクリーンを終了",
         "pip": "ピクチャ・イン・ピクチャを終了",
@@ -715,6 +718,7 @@ static const Map<String,dynamic> ja = {
       "copied_to_clipboard": "クリップボードにコピーしました！",
       "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
       "dark_mode_support": "ダークモードのサポート。",
+      "example": "例:",
       "failed_to": {
         "generate": {
           "pdf": "PDFの生成に失敗しました。"
@@ -852,6 +856,7 @@ static const Map<String,dynamic> de = {
       "entries": "Eingänge",
       "entry": "Eingang",
       "error": "Fehler",
+      "example": "Beispiel",
       "exit": {
         "fullscreen": "Vollbild beenden",
         "pip": "Bild-in-Bild beenden",
@@ -1098,6 +1103,7 @@ static const Map<String,dynamic> de = {
       "copied_to_clipboard": "In die Zwischenablage kopiert!",
       "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
       "dark_mode_support": "Unterstützung für den Dunkelmodus.",
+      "example": "Beispiel:",
       "failed_to": {
         "generate": {
           "pdf": "PDF konnte nicht erstellt werden."
@@ -1235,6 +1241,7 @@ static const Map<String,dynamic> ru = {
       "entries": "Входы",
       "entry": "Вход",
       "error": "Ошибка",
+      "example": "Пример",
       "exit": {
         "fullscreen": "Выйти из полноэкранного режима",
         "pip": "Выйти из режима Picture-in-Picture",
@@ -1481,6 +1488,7 @@ static const Map<String,dynamic> ru = {
       "copied_to_clipboard": "Скопировано в буфер обмена!",
       "copied_value_to_clipboard": "Скопировано {value} в буфер обмена!",
       "dark_mode_support": "Поддержка темного режима.",
+      "example": "Пример:",
       "failed_to": {
         "generate": {
           "pdf": "Не удалось сгенерировать PDF."
@@ -1618,6 +1626,7 @@ static const Map<String,dynamic> pt = {
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Erro",
+      "example": "Exemplo",
       "exit": {
         "fullscreen": "Sair da tela inteira",
         "pip": "Sair do modo Imagem dentro da imagem",
@@ -1864,6 +1873,7 @@ static const Map<String,dynamic> pt = {
       "copied_to_clipboard": "Copiado para a área de transferência!",
       "copied_value_to_clipboard": "Copiado {value} para a área de transferência!",
       "dark_mode_support": "Suporte ao modo escuro.",
+      "example": "Exemplo:",
       "failed_to": {
         "generate": {
           "pdf": "Falha ao gerar o PDF."
@@ -2001,6 +2011,7 @@ static const Map<String,dynamic> en = {
       "entries": "Entries",
       "entry": "Entry",
       "error": "Error",
+      "example": "Example",
       "exit": {
         "fullscreen": "Exit Fullscreen",
         "pip": "Exit Picture-in-Picture",
@@ -2247,6 +2258,7 @@ static const Map<String,dynamic> en = {
       "copied_to_clipboard": "Copied to clipboard!",
       "copied_value_to_clipboard": "Copied {value} to clipboard!",
       "dark_mode_support": "Dark Mode support.",
+      "example": "Example:",
       "failed_to": {
         "generate": {
           "pdf": "Failed to generate PDF."
@@ -2384,6 +2396,7 @@ static const Map<String,dynamic> it = {
       "entries": "Ingressi",
       "entry": "Ingresso",
       "error": "Errore",
+      "example": "Esempio",
       "exit": {
         "fullscreen": "Esci dallo schermo intero",
         "pip": "Esci dall'immagine in immagine",
@@ -2630,6 +2643,7 @@ static const Map<String,dynamic> it = {
       "copied_to_clipboard": "Copiato negli appunti!",
       "copied_value_to_clipboard": "Copiato {value} negli appunti!",
       "dark_mode_support": "Supporto per la modalità scura.",
+      "example": "Esempio:",
       "failed_to": {
         "generate": {
           "pdf": "Generazione del PDF non riuscita."
@@ -2767,6 +2781,7 @@ static const Map<String,dynamic> fr = {
       "entries": "Entrées",
       "entry": "Entrée",
       "error": "Erreur",
+      "example": "Exemple",
       "exit": {
         "fullscreen": "Quitter le plein écran",
         "pip": "Quitter l'image dans l'image",
@@ -3013,6 +3028,7 @@ static const Map<String,dynamic> fr = {
       "copied_to_clipboard": "Copié dans le presse-papiers !",
       "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
       "dark_mode_support": "Prise en charge du mode sombre.",
+      "example": "Exemple:",
       "failed_to": {
         "generate": {
           "pdf": "Échec de la génération du PDF."
@@ -3150,6 +3166,7 @@ static const Map<String,dynamic> es = {
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Error",
+      "example": "Ejemplo",
       "exit": {
         "fullscreen": "Salir de pantalla completa",
         "pip": "Salir de imagen sobre imagen",
@@ -3396,6 +3413,7 @@ static const Map<String,dynamic> es = {
       "copied_to_clipboard": "¡Copiado al portapapeles!",
       "copied_value_to_clipboard": "¡Copiado {value} al portapapeles!",
       "dark_mode_support": "Soporte para modo oscuro.",
+      "example": "Ejemplo:",
       "failed_to": {
         "generate": {
           "pdf": "Error al generar el PDF."

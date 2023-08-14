@@ -73,6 +73,7 @@
       "entries": "Entradas",
       "entry": "Entrada",
       "error": "Erro",
+      "example": "Exemplo",
       "exit": {
         "fullscreen": "Sair da tela inteira",
         "pip": "Sair do modo Imagem dentro da imagem",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "Copiado para a área de transferência!",
       "copied_value_to_clipboard": "Copiado {value} para a área de transferência!",
       "dark_mode_support": "Suporte ao modo escuro.",
+      "example": "Exemplo:",
       "failed_to": {
         "generate": {
           "pdf": "Falha ao gerar o PDF."

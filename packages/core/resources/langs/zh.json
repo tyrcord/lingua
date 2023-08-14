@@ -73,6 +73,7 @@
       "entries": "入口",
       "entry": "入口",
       "error": "错误",
+      "example": "例子",
       "exit": {
         "fullscreen": "退出全屏",
         "pip": "退出画中画",
@@ -319,6 +320,7 @@
       "copied_to_clipboard": "已复制到剪贴板！",
       "copied_value_to_clipboard": "已复制 {value} 到剪贴板！",
       "dark_mode_support": "支持暗黑模式。",
+      "example": "示例:",
       "failed_to": {
         "generate": {
           "pdf": "生成PDF失败。"
