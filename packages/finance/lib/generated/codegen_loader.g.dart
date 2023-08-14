@@ -617,11 +617,11 @@ static const Map<String,dynamic> de = {
     },
     "help": {
       "account_balance": {
-        "example": "Wenn Sie \u002450.000 für den Handel zugewiesen haben, geben Sie diesen Betrag ein.",
+        "example": "Wenn Sie 50.000 \u0024 für den Handel zugewiesen haben, geben Sie diesen Betrag ein.",
         "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
       },
       "amount_at_risk": {
-        "example": "Wenn Sie ein Gesamtkapital von \u002450.000 haben und \u00241.000 einsetzen möchten, geben Sie \u00241.000 als Betrag ein.",
+        "example": "Wenn Sie ein Gesamtkapital von 50.000 \u0024 haben und 1.000 \u0024 einsetzen möchten, geben Sie 1.000 \u0024 als Betrag ein.",
         "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, ausgedrückt in einem Geldbetrag im Verhältnis zu Ihrem Kapital."
       },
       "entry_fees": {
@@ -629,7 +629,7 @@ static const Map<String,dynamic> de = {
         "text": "Geben Sie die Prozentsatzgebühr an, die Ihr Broker beim Öffnen einer Position berechnet."
       },
       "entry_price": {
-        "example": "Wenn Sie zum aktuellen Preis kaufen möchten, geben Sie diesen Betrag an. Wenn jedoch der aktuelle Preis pro Aktie \u002450 beträgt und Sie zu \u002455 pro Aktie kaufen möchten, geben Sie \u002455 ein.",
+        "example": "Wenn Sie zum aktuellen Preis kaufen möchten, geben Sie diesen Betrag an. Wenn jedoch der aktuelle Preis pro Aktie 50 \u0024 beträgt und Sie zu 55 \u0024 pro Aktie kaufen möchten, geben Sie 55 \u0024 ein.",
         "text": "Geben Sie den Preis an, zu dem Sie den Markt betreten möchten, sei es der aktuelle Preis oder ein erwarteter."
       },
       "exit_fees": {
@@ -637,7 +637,7 @@ static const Map<String,dynamic> de = {
         "text": "Geben Sie die Prozentsatzgebühr an, die Ihr Broker beim Schließen einer Position berechnet."
       },
       "risk": {
-        "example": "Wenn Sie bereit sind, \u00241.000 zu riskieren, was 2% Ihres Kapitals von \u002450.000 entspricht, geben Sie bitte 2 als Wert ein.",
+        "example": "Wenn Sie bereit sind, 1.000 \u0024 zu riskieren, was 2% Ihres Kapitals von 50.000 \u0024 entspricht, geben Sie bitte 2 als Wert ein.",
         "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2% Ihres Kapitals in einer einzigen Transaktion zu riskieren."
       },
       "risk_reward_ratio": {
@@ -645,11 +645,11 @@ static const Map<String,dynamic> de = {
         "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und der potenziellen Belohnung an, die Sie für diese Transaktion akzeptieren möchten."
       },
       "slippage": {
-        "example": "Wenn Sie einen Marktauftrag platzieren, um eine Aktie im Wert von \u0024100 zu kaufen, die Transaktion jedoch bei \u0024102 stattfindet, entspricht die resultierende Differenz von \u00242, oder 2% vom ursprünglichen Preis, der 'Slippage'. In diesem Szenario sollten Sie '2' als Prozentsatz eingeben.",
+        "example": "Wenn Sie einen Marktauftrag platzieren, um eine Aktie im Wert von 100 \u0024 zu kaufen, die Transaktion jedoch bei 102 \u0024 stattfindet, entspricht die resultierende Differenz von 2 \u0024, oder 2% vom ursprünglichen Preis, der 'Slippage'. In diesem Szenario sollten Sie '2' als Prozentsatz eingeben.",
         "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis eines Geschäfts und dem Preis, zu dem das Geschäft tatsächlich ausgeführt wird. Slippage tritt oft in Zeiten hoher Volatilität auf, wenn Marktaufträge verwendet werden, und kann auch auftreten, wenn große Aufträge ausgeführt werden und es nicht genug Volumen zum gewählten Preisniveau gibt."
       },
       "stop_loss_price": {
-        "example": "Wenn Sie eine Aktie für \u002450 gekauft haben und Ihre Position mit einem Stop-Loss-Auftrag bei \u002445 absichern möchten, geben Sie bitte 45 als Wert ein.",
+        "example": "Wenn Sie eine Aktie für 50 \u0024 gekauft haben und Ihre Position mit einem Stop-Loss-Auftrag bei 45 \u0024 absichern möchten, geben Sie bitte 45 als Wert ein.",
         "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen, um mögliche Verluste zu begrenzen."
       }
     },
@@ -2092,7 +2092,7 @@ static const Map<String,dynamic> fr = {
     },
     "help": {
       "account_balance": {
-        "example": "Si vous avez \u002450,000 pour le trading, veuillez saisir ce montant.",
+        "example": "Si vous avez 50 000 \u0024 pour le trading, veuillez saisir ce montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
       "amount_at_risk": {
@@ -2104,7 +2104,7 @@ static const Map<String,dynamic> fr = {
         "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de l'ouverture d'une position."
       },
       "entry_price": {
-        "example": "Si vous prévoyez d'acheter au prix courant, indiquez ce montant. Toutefois, si le prix courant est de \u002450 par action et que vous prévoyez d'acheter à \u002455 par action, inscrivez \u002455.",
+        "example": "Si vous prévoyez d'acheter au prix courant, indiquez ce montant. Toutefois, si le prix courant est de 50 \u0024 par action et que vous prévoyez d'acheter à 55 \u0024 par action, inscrivez 55 \u0024.",
         "text": "Précisez le prix auquel vous prévoyez d'entrer sur le marché, qu'il s'agisse du prix courant ou d'un prix anticipé."
       },
       "exit_fees": {
@@ -2112,7 +2112,7 @@ static const Map<String,dynamic> fr = {
         "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de la clôture d'une position."
       },
       "risk": {
-        "example": "Si vous êtes prêt à risquer \u00241,000, soit 2% de votre capital de \u002450,000, veuillez entrer la valeur 2.",
+        "example": "Si vous êtes prêt à risquer 1 000 \u0024, soit 2% de votre capital de 50 000 \u0024, veuillez entrer la valeur 2.",
         "text": "Précisez le pourcentage de votre capital que vous êtes disposé à risquer pour cette transaction. Il est recommandé de ne pas risquer plus de 2% de votre capital sur une seule transaction."
       },
       "risk_reward_ratio": {

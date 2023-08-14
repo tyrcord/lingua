@@ -14,7 +14,7 @@
     },
     "help": {
       "account_balance": {
-        "example": "Si vous avez $50,000 pour le trading, veuillez saisir ce montant.",
+        "example": "Si vous avez 50 000 $ pour le trading, veuillez saisir ce montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
       "amount_at_risk": {
@@ -26,7 +26,7 @@
         "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de l'ouverture d'une position."
       },
       "entry_price": {
-        "example": "Si vous prévoyez d'acheter au prix courant, indiquez ce montant. Toutefois, si le prix courant est de $50 par action et que vous prévoyez d'acheter à $55 par action, inscrivez $55.",
+        "example": "Si vous prévoyez d'acheter au prix courant, indiquez ce montant. Toutefois, si le prix courant est de 50 $ par action et que vous prévoyez d'acheter à 55 $ par action, inscrivez 55 $.",
         "text": "Précisez le prix auquel vous prévoyez d'entrer sur le marché, qu'il s'agisse du prix courant ou d'un prix anticipé."
       },
       "exit_fees": {
@@ -34,7 +34,7 @@
         "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de la clôture d'une position."
       },
       "risk": {
-        "example": "Si vous êtes prêt à risquer $1,000, soit 2% de votre capital de $50,000, veuillez entrer la valeur 2.",
+        "example": "Si vous êtes prêt à risquer 1 000 $, soit 2% de votre capital de 50 000 $, veuillez entrer la valeur 2.",
         "text": "Précisez le pourcentage de votre capital que vous êtes disposé à risquer pour cette transaction. Il est recommandé de ne pas risquer plus de 2% de votre capital sur une seule transaction."
       },
       "risk_reward_ratio": {
