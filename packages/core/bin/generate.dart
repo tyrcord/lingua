@@ -304,7 +304,7 @@ void printError(String error) {
 
 String escapeSpecialCharacters(String input) {
   const specialCharacters = r'\$';
-  const unicodeEscapeCharacter = '\u0024';
+  const unicodeEscapeCharacter = r'\u0024';
 
   return input.replaceAll(
     RegExp('([$specialCharacters])'),
