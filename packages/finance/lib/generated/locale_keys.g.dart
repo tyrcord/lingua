@@ -32,6 +32,12 @@ abstract class FinanceLocaleKeys {
   static const finance_help_risk_reward_ratio_example = 'finance.help.risk_reward_ratio.example';
   static const finance_help_risk_reward_ratio_text = 'finance.help.risk_reward_ratio.text';
   static const finance_help_risk_reward_ratio = 'finance.help.risk_reward_ratio';
+  static const finance_help_slippage_example = 'finance.help.slippage.example';
+  static const finance_help_slippage_text = 'finance.help.slippage.text';
+  static const finance_help_slippage = 'finance.help.slippage';
+  static const finance_help_stop_loss_price_example = 'finance.help.stop_loss_price.example';
+  static const finance_help_stop_loss_price_text = 'finance.help.stop_loss_price.text';
+  static const finance_help_stop_loss_price = 'finance.help.stop_loss_price';
   static const finance_help = 'finance.help';
   static const finance_label_account_balance = 'finance.label.account.balance';
   static const finance_label_account_currency = 'finance.label.account.currency';

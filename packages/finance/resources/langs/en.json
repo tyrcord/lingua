@@ -14,32 +14,40 @@
     },
     "help": {
       "account_balance": {
-        "example": "If you have $50,000 allocated for trading, please enter that amount here.",
-        "text": "Specify the current value of your capital."
+        "example": "If you have $50,000 allocated for trading, please enter this amount.",
+        "text": "Indicate the current value of your available capital."
       },
       "amount_at_risk": {
-        "example": "If your total capital is $50,000 and you wish to risk $1,000, enter $1,000 as the value",
-        "text": "This represents the specific amount of risk you desire to undertake for this trade, expressed as a monetary value relative to your capital."
+        "example": "If you have a total capital of $50,000 and wish to stake $1,000 please enter $1,000 as the amount.",
+        "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
       },
       "entry_fees": {
-        "example": "If your broker charges 0.1% of the total value of the position when you enter, enter 0.1 as the value.",
-        "text": "Represents the percentage of fees charged by your broker when opening a position."
+        "example": "If your broker charges 0.1% of the total value of the position upon opening, please enter 0.1 as a percentage.",
+        "text": "Specify the percentage fee charged by your broker when opening a position."
       },
       "entry_price": {
-        "example": "If you intend to enter the market at the current price, please enter the current price as the value. However, if the current market price is $50 per share and you plan to enter at a different price, such as $55 per share, please enter $55 as the value.",
-        "text": "Represents the price at which you intend to enter the market, whether it is the current price or the price at which you plan to enter."
+        "example": "If you plan to buy at the current price, indicate this amount. However, if the current cost is $50 per share and you plan to buy at $55 per share, enter $55.",
+        "text": "Specify the price at which you plan to enter the market, whether it's the current price or an anticipated one."
       },
       "exit_fees": {
-        "example": "If your broker charges 0.1% of the total value of the position when you exit, enter 0.1 as the value.",
-        "text": "Represents the percentage of fees charged by your broker when leaving a position."
+        "example": "If your broker charges 0.1% of the total value of the position upon closing, please enter 0.1 as a percentage.",
+        "text": "Specify the percentage fee charged by your broker when closing a position."
       },
       "risk": {
-        "example": "If you are willing to risk 2% of your capital, and your total capital is $50,000, enter 2% ($1,000) as the value.",
-        "text": "Refers to the level of risk you are willing to assume for this transaction, expressed as a percentage relative to your capital."
+        "example": "If you're willing to risk $1,000, which is 2% of your $50,000 capital, please input the enter 2 as a value.",
+        "text": "Specify the percentage of your capital that you are willing to risk for this transaction. It's recommended not to risk more than 2% of your capital on a single transaction."
       },
       "risk_reward_ratio": {
-        "example": "For example, if you enter 2, it means you are willing to risk $1 to potentially gain $2.",
-        "text": "Represents the ratio between the amount of risk and the amount of reward you are willing to assume for this trade."
+        "example": "If you enter 2, it means that for every dollar risked, you hope for a potential gain of 2 dollars.",
+        "text": "Specify the ratio between the risk amount and the potential reward you are willing to accept for this transaction."
+      },
+      "slippage": {
+        "example": "If you place a market order to purchase a stock valued at $100, but the transaction takes place at $102, the resulting variance of $2, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input '2' as the percentage.",
+        "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, and it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
+      },
+      "stop_loss_price": {
+        "example": "If you purchased a stock at $50 and chose to secure your position with a stop-loss order at $45, please enter 45 as the value.",
+        "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
       }
     },
     "label": {

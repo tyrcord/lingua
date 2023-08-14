@@ -27,32 +27,40 @@ class FinanceCodegenLoader extends AssetLoader {
     },
     "help": {
       "account_balance": {
-        "example": "如果您有\u002450,000用于交易，请在此处输入该金额。",
-        "text": "指定您当前资本的价值。"
+        "example": "如果您分配了\u002450,000用于交易，请输入此金额。",
+        "text": "指示您现有资本的当前值。"
       },
       "amount_at_risk": {
-        "example": "如果您的总资本为\u002450,000，您希望承担\u00241,000的风险，请将\u00241,000作为值输入。",
-        "text": "这代表您希望承担的特定交易风险金额，以您的资本为基础的货币价值表示。"
+        "example": "如果您的总资本为\u002450,000，希望赌\u00241,000，请输入\u00241,000作为金额。",
+        "text": "指定您希望为此交易冒的风险金额，以相对于您的资本的货币值表示。"
       },
       "entry_fees": {
-        "example": "如果您的经纪人在您进入时收取总持仓价值的0.1%，请输入0.1作为值。",
-        "text": "表示开仓时您的经纪人收取的费用百分比。"
+        "example": "如果您的经纪人在开仓时收取总仓位价值的0.1%，请输入0.1作为百分比。",
+        "text": "指定开仓时经纪人收取的百分比费用。"
       },
       "entry_price": {
-        "example": "如果您计划以当前价格进入市场，请将当前价格作为值输入。但是，如果当前市场价格为每股\u002450，您计划以不同的价格进入，例如每股\u002455，请将\u002455作为值输入。",
-        "text": "表示您计划进入市场的价格，无论是当前价格还是计划进入的价格。"
+        "example": "如果您打算按当前价格购买，请指示此金额。但是，如果当前成本为每股\u002450，您计划按每股\u002455的价格购买，请输入\u002455。",
+        "text": "指定您计划进入市场的价格，无论是当前价格还是预期价格。"
       },
       "exit_fees": {
-        "example": "如果您的经纪人在您退出时收取总持仓价值的0.1%，请输入0.1作为值。",
-        "text": "表示平仓时您的经纪人收取的费用百分比。"
+        "example": "如果您的经纪人在平仓时收取总仓位价值的0.1%，请输入0.1作为百分比。",
+        "text": "指定平仓时经纪人收取的百分比费用。"
       },
       "risk": {
-        "example": "如果您愿意承担2%的风险，并且您的总资本为\u002450,000，请输入2%（\u00241,000）作为值。",
-        "text": "指的是您愿意为此交易承担的风险级别，以您的资本为基础的百分比表达。"
+        "example": "如果您愿意冒险\u00241,000，这是您\u002450,000资本的2%，请输入2作为值。",
+        "text": "指定您愿意为此交易冒的资本百分比。建议在单笔交易中不要冒超过2%的资本风险。"
       },
       "risk_reward_ratio": {
-        "example": "例如，如果您输入2，意味着您愿意冒险\u00241，以潜在地获得\u00242的回报。",
-        "text": "表示您愿意为此交易承担的风险和回报之间的比率。"
+        "example": "如果您输入2，这意味着对于每风险的一元，您希望获得潜在的2元收益。",
+        "text": "指定您愿意为此交易接受的风险金额与潜在回报之间的比率。"
+      },
+      "slippage": {
+        "example": "如果您下达市场订单购买估值为\u0024100的股票，但交易以\u0024102的价格进行，那么\u00242的差额，相当于原始价格的2%，被称为'滑点'。在这种情况下，您应该输入'2'作为百分比。",
+        "text": "指的是交易的预期价格与交易实际执行的价格之间的差异。在市场订单被使用的高波动性时段，滑点经常发生，当执行大订单并且在选定的价格级别没有足够的成交量时也可能发生。"
+      },
+      "stop_loss_price": {
+        "example": "如果您以\u002450的价格购买了一支股票，并选择使用\u002445的止损订单来保护您的头寸，请输入45作为值。",
+        "text": "指明您设定止损订单的价格，以限制可能的亏损。"
       }
     },
     "label": {
@@ -314,32 +322,40 @@ static const Map<String,dynamic> ja = {
     },
     "help": {
       "account_balance": {
-        "example": "トレード用に割り当てられた\u002450,000がある場合、ここにその金額を入力してください。",
-        "text": "現在の資本の価値を指定します。"
+        "example": "取引のために\u002450,000を割り当てている場合、この金額を入力してください。",
+        "text": "利用可能な資本の現在の価値を示してください。"
       },
       "amount_at_risk": {
-        "example": "総資本が\u002450,000であり、\u00241,000をリスクとしたい場合、値として\u00241,000を入力してください。",
-        "text": "資本に対する金銭的な価値として表される、この取引で望む特定のリスクの金額を示します。"
+        "example": "合計資本が\u002450,000で、\u00241,000を賭けたい場合、\u00241,000を金額として入力してください。",
+        "text": "この取引のためにリスクを取る金額を指定してください。これを、あなたの資本に対する金額として示してください。"
       },
       "entry_fees": {
-        "example": "ブローカーが建てる際にポジションの総額の0.1%を請求する場合は、値として0.1を入力してください。",
-        "text": "ポジションを建てる際にブローカーが請求する手数料の割合を表します。"
+        "example": "ブローカーがポジションの総価値の0.1%を開設時に請求する場合、0.1をパーセンテージとして入力してください。",
+        "text": "ポジションを開くときにブローカーが請求する手数料の割合を指定してください。"
       },
       "entry_price": {
-        "example": "現在の価格で市場に参入する場合は、その価格を値として入力してください。ただし、現在の市場価格が1株あたり\u002450であり、\u002455などの異なる価格で参入する場合は、\u002455を値として入力してください。",
-        "text": "市場に参入する意図のある価格を表します。現在の価格である場合も、参入する価格である場合も構いません。"
+        "example": "現在の価格で購入する予定の場合、この金額を示してください。ただし、現在のコストが1株当たり\u002450で、1株当たり\u002455で購入する予定の場合は、\u002455を入力してください。",
+        "text": "市場に入る予定の価格、または予想される価格を指定してください。"
       },
       "exit_fees": {
-        "example": "ブローカーが解消する際にポジションの総額の0.1%を請求する場合は、値として0.1を入力してください。",
-        "text": "ポジションを解消する際にブローカーが請求する手数料の割合を表します。"
+        "example": "ブローカーがポジションの総価値の0.1%を閉じるときに請求する場合、0.1をパーセンテージとして入力してください。",
+        "text": "ポジションを閉じる際にブローカーが請求する手数料の割合を指定してください。"
       },
       "risk": {
-        "example": "資本の2%をリスクとして引き受ける覚悟があり、総資本が\u002450,000である場合、その値として2% (\u00241,000) を入力してください。",
-        "text": "この取引に対して引き受けるリスクのレベルを示し、資本に対する割合として表します。"
+        "example": "\u002450,000の資本の2%、\u00241,000をリスクにしたい場合は、2を値として入力してください。",
+        "text": "この取引のためにリスクを取る資本の割合を指定してください。一つの取引で資本の2%以上をリスクにさらすことはお勧めしません。"
       },
       "risk_reward_ratio": {
-        "example": "例えば、2を入力すると、\u00241をリスクにして\u00242を得る覚悟があることを意味します。",
-        "text": "この取引に対して引き受けるリスクと報酬の量の比率を表します。"
+        "example": "2を入力すると、リスク1ドルに対して潜在的な利益として2ドルを期待していることを意味します。",
+        "text": "この取引のリスク金額と潜在的な報酬との間の比率を指定してください。"
+      },
+      "slippage": {
+        "example": "\u0024100の価値の株を市場注文で購入するよう指示した場合、取引が\u0024102で行われた場合、元の価格から2%に相当する\u00242の結果としての差額を「スリッページ」と呼びます。このシナリオでは、'2'をパーセンテージとして入力する必要があります。",
+        "text": "取引の期待価格と実際に取引が実行された価格との差を指します。スリッページは、市場注文が使用されている高ボラティリティの期間中によく発生し、選択された価格レベルでの取引量が不足している場合にも発生することがあります。"
+      },
+      "stop_loss_price": {
+        "example": "\u002450で株を購入し、\u002445でストップロス注文でポジションを確保することを選択した場合、45を値として入力してください。",
+        "text": "潜在的な損失を制限するためのストップロス注文を設定する価格を示してください。"
       }
     },
     "label": {
@@ -601,32 +617,40 @@ static const Map<String,dynamic> de = {
     },
     "help": {
       "account_balance": {
-        "example": "Wenn Sie \u002450.000 für den Handel zur Verfügung haben, geben Sie bitte diesen Betrag hier ein.",
-        "text": "Geben Sie den aktuellen Wert Ihres Kapitals an."
+        "example": "Wenn Sie \u002450.000 für den Handel zugewiesen haben, geben Sie diesen Betrag ein.",
+        "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
       },
       "amount_at_risk": {
-        "example": "Wenn Ihr Gesamtkapital \u002450.000 beträgt und Sie \u00241.000 riskieren möchten, geben Sie \u00241.000 als Wert ein.",
-        "text": "Dies stellt den spezifischen Betrag des Risikos dar, den Sie für diesen Trade eingehen möchten, ausgedrückt als Geldbetrag in Bezug auf Ihr Kapital."
+        "example": "Wenn Sie ein Gesamtkapital von \u002450.000 haben und \u00241.000 einsetzen möchten, geben Sie \u00241.000 als Betrag ein.",
+        "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, ausgedrückt in einem Geldbetrag im Verhältnis zu Ihrem Kapital."
       },
       "entry_fees": {
-        "example": "Wenn Ihr Broker 0,1% des Gesamtwerts der Position berechnet, wenn Sie eintreten, geben Sie 0,1 als Wert ein.",
-        "text": "Stellt den Prozentsatz der Gebühren dar, die Ihr Broker beim Eröffnen einer Position erhebt."
+        "example": "Wenn Ihr Broker 0,1% des Gesamtwertes der Position bei Eröffnung berechnet, geben Sie bitte 0,1 als Prozentsatz ein.",
+        "text": "Geben Sie die Prozentsatzgebühr an, die Ihr Broker beim Öffnen einer Position berechnet."
       },
       "entry_price": {
-        "example": "Wenn Sie zum aktuellen Preis in den Markt eintreten möchten, geben Sie bitte den aktuellen Preis als Wert ein. Wenn jedoch der aktuelle Marktpreis \u002450 pro Aktie beträgt und Sie zu einem anderen Preis, z. B. \u002455 pro Aktie, eintreten möchten, geben Sie bitte \u002455 als Wert ein.",
-        "text": "Stellt den Preis dar, zu dem Sie beabsichtigen, in den Markt einzusteigen, unabhängig davon, ob es sich um den aktuellen Preis oder den Preis handelt, zu dem Sie eintreten möchten."
+        "example": "Wenn Sie zum aktuellen Preis kaufen möchten, geben Sie diesen Betrag an. Wenn jedoch der aktuelle Preis pro Aktie \u002450 beträgt und Sie zu \u002455 pro Aktie kaufen möchten, geben Sie \u002455 ein.",
+        "text": "Geben Sie den Preis an, zu dem Sie den Markt betreten möchten, sei es der aktuelle Preis oder ein erwarteter."
       },
       "exit_fees": {
-        "example": "Wenn Ihr Broker 0,1% des Gesamtwerts der Position berechnet, wenn Sie austreten, geben Sie 0,1 als Wert ein.",
-        "text": "Stellt den Prozentsatz der Gebühren dar, die Ihr Broker beim Verlassen einer Position erhebt."
+        "example": "Wenn Ihr Broker 0,1% des Gesamtwertes der Position bei Schließung berechnet, geben Sie bitte 0,1 als Prozentsatz ein.",
+        "text": "Geben Sie die Prozentsatzgebühr an, die Ihr Broker beim Schließen einer Position berechnet."
       },
       "risk": {
-        "example": "Wenn Sie bereit sind, 2% Ihres Kapitals zu riskieren und Ihr Gesamtkapital \u002450.000 beträgt, geben Sie 2% (\u00241.000) als Wert ein.",
-        "text": "Bezieht sich auf das Risikoniveau, das Sie für diese Transaktion eingehen möchten, ausgedrückt als Prozentsatz in Bezug auf Ihr Kapital."
+        "example": "Wenn Sie bereit sind, \u00241.000 zu riskieren, was 2% Ihres Kapitals von \u002450.000 entspricht, geben Sie bitte 2 als Wert ein.",
+        "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2% Ihres Kapitals in einer einzigen Transaktion zu riskieren."
       },
       "risk_reward_ratio": {
-        "example": "Wenn Sie z. B. 2 eingeben, bedeutet dies, dass Sie bereit sind, \u00241 zu riskieren, um potenziell \u00242 zu gewinnen.",
-        "text": "Stellt das Verhältnis zwischen dem Risiko und der Belohnung dar, die Sie für diesen Trade eingehen möchten."
+        "example": "Wenn Sie 2 eingeben, bedeutet dies, dass Sie für jeden riskierten Dollar einen potenziellen Gewinn von 2 Dollar erhoffen.",
+        "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und der potenziellen Belohnung an, die Sie für diese Transaktion akzeptieren möchten."
+      },
+      "slippage": {
+        "example": "Wenn Sie einen Marktauftrag platzieren, um eine Aktie im Wert von \u0024100 zu kaufen, die Transaktion jedoch bei \u0024102 stattfindet, entspricht die resultierende Differenz von \u00242, oder 2% vom ursprünglichen Preis, der 'Slippage'. In diesem Szenario sollten Sie '2' als Prozentsatz eingeben.",
+        "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis eines Geschäfts und dem Preis, zu dem das Geschäft tatsächlich ausgeführt wird. Slippage tritt oft in Zeiten hoher Volatilität auf, wenn Marktaufträge verwendet werden, und kann auch auftreten, wenn große Aufträge ausgeführt werden und es nicht genug Volumen zum gewählten Preisniveau gibt."
+      },
+      "stop_loss_price": {
+        "example": "Wenn Sie eine Aktie für \u002450 gekauft haben und Ihre Position mit einem Stop-Loss-Auftrag bei \u002445 absichern möchten, geben Sie bitte 45 als Wert ein.",
+        "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen, um mögliche Verluste zu begrenzen."
       }
     },
     "label": {
@@ -888,32 +912,40 @@ static const Map<String,dynamic> ru = {
     },
     "help": {
       "account_balance": {
-        "example": "Если у вас есть \u002450 000 для торговли, пожалуйста, введите эту сумму здесь.",
-        "text": "Укажите текущую стоимость вашего капитала."
+        "example": "Если вы выделили \u002450 000 для торговли, введите эту сумму.",
+        "text": "Укажите текущую стоимость вашего доступного капитала."
       },
       "amount_at_risk": {
-        "example": "Если ваш общий капитал составляет \u002450 000, и вы хотите рискнуть \u00241 000, введите \u00241 000 в качестве значения.",
-        "text": "Представляет собой конкретную сумму риска, которую вы хотите взять на себя для этой сделки, выраженную в денежном выражении относительно вашего капитала."
+        "example": "Если у вас есть общий капитал \u002450 000 и вы хотите поставить \u00241 000, введите \u00241 000 как стоимость.",
+        "text": "Укажите сумму, которую вы хотели бы рискнуть этой сделкой, выражая ее в денежном эквиваленте относительно вашего капитала."
       },
       "entry_fees": {
-        "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при входе, введите 0,1 в качестве значения.",
-        "text": "Представляет собой процент комиссии, взимаемой вашим брокером при открытии позиции."
+        "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при открытии, введите 0,1 в качестве процентной ставки.",
+        "text": "Укажите процентную ставку, взимаемую вашим брокером при открытии позиции."
       },
       "entry_price": {
-        "example": "Если вы планируете войти на рынок по текущей цене, пожалуйста, введите текущую цену в качестве значения. Однако, если текущая рыночная цена составляет \u002450 за акцию, и вы планируете войти по другой цене, например, \u002455 за акцию, пожалуйста, введите \u002455 в качестве значения.",
-        "text": "Представляет собой цену, по которой вы планируете войти на рынок, будь то текущая цена или цена, по которой вы планируете войти."
+        "example": "Если вы планируете купить по текущей цене, укажите эту сумму. Однако, если текущая стоимость составляет \u002450 за акцию, и вы планируете купить по \u002455 за акцию, введите \u002455.",
+        "text": "Укажите цену, по которой вы планируете войти на рынок, будь то текущая цена или ожидаемая."
       },
       "exit_fees": {
-        "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при выходе, введите 0,1 в качестве значения.",
-        "text": "Представляет собой процент комиссии, взимаемой вашим брокером при закрытии позиции."
+        "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при закрытии, введите 0,1 в качестве процентной ставки.",
+        "text": "Укажите процентную ставку, взимаемую вашим брокером при закрытии позиции."
       },
       "risk": {
-        "example": "Если вы готовы рисковать 2% от вашего капитала, и ваш общий капитал составляет \u002450 000, введите 2% (\u00241 000) в качестве значения.",
-        "text": "Относится к уровню риска, который вы готовы принять для этой сделки, выраженному в процентах относительно вашего капитала."
+        "example": "Если вы готовы рискнуть \u00241 000, что составляет 2% от вашего капитала \u002450 000, введите 2 в качестве значения.",
+        "text": "Укажите процент вашего капитала, который вы готовы рискнуть этой сделкой. Рекомендуется не рисковать более чем 2% вашего капитала в одной сделке."
       },
       "risk_reward_ratio": {
-        "example": "Например, если вы вводите 2, это означает, что вы готовы рискнуть \u00241, чтобы потенциально получить \u00242.",
-        "text": "Представляет собой соотношение между количеством риска и количеством вознаграждения, которое вы готовы принять для этой сделки."
+        "example": "Если вы вводите 2, это означает, что на каждый рискованный доллар вы рассчитываете на потенциальный доход в 2 доллара.",
+        "text": "Укажите соотношение между рискованной суммой и потенциальной наградой, которое вы готовы принять для этой сделки."
+      },
+      "slippage": {
+        "example": "Если вы разместили рыночный ордер на покупку акции стоимостью \u0024100, но сделка прошла по цене \u0024102, то возникшая разница в \u00242, равная 2% от первоначальной цены, называется 'скользящим разрывом'. В этом сценарии вы должны ввести '2' в качестве процента.",
+        "text": "Ссылается на разницу между ожидаемой ценой сделки и ценой, по которой сделка была фактически выполнена. Скользящий разрыв часто происходит в периоды высокой волатильности, когда используются рыночные ордера, и это также может произойти, когда выполняются крупные заказы и недостаточно объема по выбранному уровню цен."
+      },
+      "stop_loss_price": {
+        "example": "Если вы купили акцию по цене \u002450 и решили защитить свою позицию стоп-лосс заявкой на \u002445, введите 45 в качестве значения.",
+        "text": "Укажите цену, по которой вы установите вашу стоп-лосс заявку для ограничения возможных убытков."
       }
     },
     "label": {
@@ -1175,32 +1207,40 @@ static const Map<String,dynamic> pt = {
     },
     "help": {
       "account_balance": {
-        "example": "Se você possui \u002450.000 alocados para negociação, por favor, insira esse valor aqui.",
-        "text": "Especifique o valor atual do seu capital."
+        "example": "Se você alocou \u002450.000 para negociação, insira esse valor.",
+        "text": "Indique o valor atual do seu capital disponível."
       },
       "amount_at_risk": {
-        "example": "Se seu capital total é de \u002450.000 e você deseja arriscar \u00241.000, insira \u00241.000 como valor.",
-        "text": "Isso representa a quantidade específica de risco que você deseja assumir para essa negociação, expressa como um valor monetário em relação ao seu capital."
+        "example": "Se você tem um capital total de \u002450.000 e deseja apostar \u00241.000, insira \u00241.000 como o montante.",
+        "text": "Especifique o montante que deseja arriscar para esta transação, expressando-o em valor monetário em relação ao seu capital."
       },
       "entry_fees": {
-        "example": "Se sua corretora cobra 0,1% do valor total da posição ao entrar, insira 0,1 como valor.",
-        "text": "Representa a porcentagem de taxas cobradas pela sua corretora ao abrir uma posição."
+        "example": "Se o seu corretor cobra 0,1% do valor total da posição ao abrir, insira 0,1 como percentagem.",
+        "text": "Especifique a taxa percentual cobrada pelo seu corretor ao abrir uma posição."
       },
       "entry_price": {
-        "example": "Se você pretende entrar no mercado pelo preço atual, por favor insira o preço atual como valor. No entanto, se o preço atual de mercado for de \u002450 por ação e você planeja entrar em um preço diferente, como \u002455 por ação, por favor insira \u002455 como valor.",
-        "text": "Representa o preço pelo qual você pretende entrar no mercado, seja o preço atual ou o preço pelo qual você planeja entrar."
+        "example": "Se planeja comprar ao preço atual, indique esse valor. No entanto, se o custo atual é de \u002450 por ação e você planeja comprar a \u002455 por ação, insira \u002455.",
+        "text": "Especifique o preço ao qual planeja entrar no mercado, seja o preço atual ou um antecipado."
       },
       "exit_fees": {
-        "example": "Se sua corretora cobra 0,1% do valor total da posição ao sair, insira 0,1 como valor.",
-        "text": "Representa a porcentagem de taxas cobradas pela sua corretora ao sair de uma posição."
+        "example": "Se o seu corretor cobra 0,1% do valor total da posição ao fechar, insira 0,1 como percentagem.",
+        "text": "Especifique a taxa percentual cobrada pelo seu corretor ao fechar uma posição."
       },
       "risk": {
-        "example": "Se você está disposto a arriscar 2% do seu capital, e seu capital total é de \u002450.000, insira 2% (\u00241.000) como valor.",
-        "text": "Refere-se ao nível de risco que você está disposto a assumir para essa transação, expresso como uma porcentagem em relação ao seu capital."
+        "example": "Se você está disposto a arriscar \u00241.000, que é 2% do seu capital de \u002450.000, insira 2 como valor.",
+        "text": "Especifique a percentagem do seu capital que está disposto a arriscar para esta transação. É recomendado não arriscar mais de 2% do seu capital numa única transação."
       },
       "risk_reward_ratio": {
-        "example": "Por exemplo, se você inserir 2, significa que você está disposto a arriscar \u00241 para potencialmente ganhar \u00242.",
-        "text": "Representa a proporção entre a quantidade de risco e a quantidade de recompensa que você está disposto a assumir para essa negociação."
+        "example": "Se você inserir 2, significa que para cada dólar arriscado, você espera um ganho potencial de 2 dólares.",
+        "text": "Especifique a relação entre o montante de risco e a recompensa potencial que está disposto a aceitar para esta transação."
+      },
+      "slippage": {
+        "example": "Se você coloca uma ordem de mercado para comprar uma ação avaliada em \u0024100, mas a transação ocorre a \u0024102, a variação resultante de \u00242, equivalente a 2% do preço original, é chamada de 'slippage'. Neste cenário, você deve inserir '2' como a porcentagem.",
+        "text": "Refere-se à diferença entre o preço esperado de uma negociação e o preço pelo qual a negociação é efetivamente executada. O slippage ocorre frequentemente durante períodos de alta volatilidade quando ordens de mercado são utilizadas, e também pode acontecer quando ordens grandes são executadas e não há volume suficiente no nível de preço escolhido."
+      },
+      "stop_loss_price": {
+        "example": "Se você comprou uma ação por \u002450 e escolheu proteger sua posição com uma ordem de stop-loss a \u002445, insira 45 como o valor.",
+        "text": "Indique o preço no qual você definirá sua ordem de stop-loss para limitar possíveis perdas."
       }
     },
     "label": {
@@ -1462,32 +1502,40 @@ static const Map<String,dynamic> en = {
     },
     "help": {
       "account_balance": {
-        "example": "If you have \u002450,000 allocated for trading, please enter that amount here.",
-        "text": "Specify the current value of your capital."
+        "example": "If you have \u002450,000 allocated for trading, please enter this amount.",
+        "text": "Indicate the current value of your available capital."
       },
       "amount_at_risk": {
-        "example": "If your total capital is \u002450,000 and you wish to risk \u00241,000, enter \u00241,000 as the value",
-        "text": "This represents the specific amount of risk you desire to undertake for this trade, expressed as a monetary value relative to your capital."
+        "example": "If you have a total capital of \u002450,000 and wish to stake \u00241,000 please enter \u00241,000 as the amount.",
+        "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
       },
       "entry_fees": {
-        "example": "If your broker charges 0.1% of the total value of the position when you enter, enter 0.1 as the value.",
-        "text": "Represents the percentage of fees charged by your broker when opening a position."
+        "example": "If your broker charges 0.1% of the total value of the position upon opening, please enter 0.1 as a percentage.",
+        "text": "Specify the percentage fee charged by your broker when opening a position."
       },
       "entry_price": {
-        "example": "If you intend to enter the market at the current price, please enter the current price as the value. However, if the current market price is \u002450 per share and you plan to enter at a different price, such as \u002455 per share, please enter \u002455 as the value.",
-        "text": "Represents the price at which you intend to enter the market, whether it is the current price or the price at which you plan to enter."
+        "example": "If you plan to buy at the current price, indicate this amount. However, if the current cost is \u002450 per share and you plan to buy at \u002455 per share, enter \u002455.",
+        "text": "Specify the price at which you plan to enter the market, whether it's the current price or an anticipated one."
       },
       "exit_fees": {
-        "example": "If your broker charges 0.1% of the total value of the position when you exit, enter 0.1 as the value.",
-        "text": "Represents the percentage of fees charged by your broker when leaving a position."
+        "example": "If your broker charges 0.1% of the total value of the position upon closing, please enter 0.1 as a percentage.",
+        "text": "Specify the percentage fee charged by your broker when closing a position."
       },
       "risk": {
-        "example": "If you are willing to risk 2% of your capital, and your total capital is \u002450,000, enter 2% (\u00241,000) as the value.",
-        "text": "Refers to the level of risk you are willing to assume for this transaction, expressed as a percentage relative to your capital."
+        "example": "If you're willing to risk \u00241,000, which is 2% of your \u002450,000 capital, please input the enter 2 as a value.",
+        "text": "Specify the percentage of your capital that you are willing to risk for this transaction. It's recommended not to risk more than 2% of your capital on a single transaction."
       },
       "risk_reward_ratio": {
-        "example": "For example, if you enter 2, it means you are willing to risk \u00241 to potentially gain \u00242.",
-        "text": "Represents the ratio between the amount of risk and the amount of reward you are willing to assume for this trade."
+        "example": "If you enter 2, it means that for every dollar risked, you hope for a potential gain of 2 dollars.",
+        "text": "Specify the ratio between the risk amount and the potential reward you are willing to accept for this transaction."
+      },
+      "slippage": {
+        "example": "If you place a market order to purchase a stock valued at \u0024100, but the transaction takes place at \u0024102, the resulting variance of \u00242, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input '2' as the percentage.",
+        "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, and it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
+      },
+      "stop_loss_price": {
+        "example": "If you purchased a stock at \u002450 and chose to secure your position with a stop-loss order at \u002445, please enter 45 as the value.",
+        "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
       }
     },
     "label": {
@@ -1749,32 +1797,40 @@ static const Map<String,dynamic> it = {
     },
     "help": {
       "account_balance": {
-        "example": "Se hai \u002450.000 destinati al trading, inserisci qui tale importo.",
-        "text": "Specifica il valore attuale del tuo capitale."
+        "example": "Se hai allocato \u002450.000 per il trading, inserisci questa cifra.",
+        "text": "Indica il valore attuale del tuo capitale disponibile."
       },
       "amount_at_risk": {
-        "example": "Se il tuo capitale totale è di \u002450.000 e desideri rischiare \u00241.000, inserisci \u00241.000 come valore.",
-        "text": "Rappresenta la specifica quantità di rischio che desideri assumere per questo trade, espressa come valore monetario relativo al tuo capitale."
+        "example": "Se hai un capitale totale di \u002450.000 e desideri scommettere \u00241.000, inserisci \u00241.000 come importo.",
+        "text": "Specifica l'importo che desideri rischiare per questa transazione, esprimendolo in valore monetario rispetto al tuo capitale."
       },
       "entry_fees": {
-        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'ingresso, inserisci 0,1 come valore.",
-        "text": "Rappresenta la percentuale di commissioni addebitate dal tuo broker all'apertura di una posizione."
+        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
+        "text": "Indica la percentuale di commissione addebitata dal tuo broker all'apertura di una posizione."
       },
       "entry_price": {
-        "example": "Se intendi entrare sul mercato al prezzo corrente, inserisci il prezzo corrente come valore. Tuttavia, se il prezzo di mercato corrente è di \u002450 per azione e prevedi di entrare a un prezzo diverso, come \u002455 per azione, inserisci \u002455 come valore.",
-        "text": "Rappresenta il prezzo a cui intendi entrare sul mercato, che sia il prezzo corrente o il prezzo a cui prevedi di entrare."
+        "example": "Se intendi acquistare al prezzo corrente, indica questo importo. Tuttavia, se il costo attuale è di \u002450 per azione e intendi acquistare a \u002455 per azione, inserisci \u002455.",
+        "text": "Indica il prezzo al quale intendi entrare nel mercato, sia che si tratti del prezzo corrente o di uno previsto."
       },
       "exit_fees": {
-        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'uscita, inserisci 0,1 come valore.",
-        "text": "Rappresenta la percentuale di commissioni addebitate dal tuo broker all'uscita di una posizione."
+        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
+        "text": "Indica la percentuale di commissione addebitata dal tuo broker alla chiusura di una posizione."
       },
       "risk": {
-        "example": "Se sei disposto a rischiare il 2% del tuo capitale e il tuo capitale totale è di \u002450.000, inserisci il 2% (\u00241.000) come valore.",
-        "text": "Si riferisce al livello di rischio che sei disposto ad assumere per questa transazione, espresso come percentuale relativa al tuo capitale."
+        "example": "Se sei disposto a rischiare \u00241.000, che rappresenta il 2% del tuo capitale di \u002450.000, inserisci 2 come valore.",
+        "text": "Indica la percentuale del tuo capitale che sei disposto a rischiare per questa transazione. Si consiglia di non rischiare più del 2% del tuo capitale in una singola transazione."
       },
       "risk_reward_ratio": {
-        "example": "Ad esempio, se inserisci 2, significa che sei disposto a rischiare \u00241 per potenzialmente guadagnare \u00242.",
-        "text": "Rappresenta il rapporto tra la quantità di rischio e la quantità di ricompensa che sei disposto ad assumere per questo trade."
+        "example": "Se inserisci 2, significa che per ogni dollaro rischiato, sperai in un guadagno potenziale di 2 dollari.",
+        "text": "Indica il rapporto tra l'importo del rischio e la potenziale ricompensa che sei disposto ad accettare per questa transazione."
+      },
+      "slippage": {
+        "example": "Se effettui un ordine di mercato per acquistare un'azione valutata \u0024100, ma la transazione avviene a \u0024102, la variazione risultante di \u00242, equivalente al 2% del prezzo originale, è definita 'slippage'. In questo scenario, dovresti inserire '2' come percentuale.",
+        "text": "Si riferisce alla differenza tra il prezzo atteso di una transazione e il prezzo a cui la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante periodi di alta volatilità quando vengono utilizzati ordini di mercato, e può anche succedere quando vengono eseguiti ordini di grande volume e non c'è volume sufficiente al livello di prezzo scelto."
+      },
+      "stop_loss_price": {
+        "example": "Se hai acquistato un'azione a \u002450 e hai scelto di proteggere la tua posizione con un ordine di stop-loss a \u002445, inserisci 45 come valore.",
+        "text": "Indica il prezzo al quale impostare l'ordine di stop-loss per limitare le potenziali perdite."
       }
     },
     "label": {
@@ -2036,32 +2092,40 @@ static const Map<String,dynamic> fr = {
     },
     "help": {
       "account_balance": {
-        "example": "Si vous avez \u002450 000 alloués au trading, veuillez entrer ce montant ici.",
-        "text": "Indiquez la valeur actuelle de votre capital."
+        "example": "Si vous avez \u002450,000 pour le trading, veuillez saisir ce montant.",
+        "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
       "amount_at_risk": {
-        "example": "Si votre capital total est de \u002450 000 et que vous souhaitez risquer \u00241 000, entrez \u00241 000 comme valeur.",
-        "text": "Représente le montant spécifique de risque que vous souhaitez prendre pour ce trade, exprimé en valeur monétaire par rapport à votre capital."
+        "example": "Si votre capital s'élève à 50 000 \u0024 et que vous envisagez de mettre en jeu 1 000 \u0024, veuillez entrer 1 000 \u0024 comme montant.",
+        "text": "Précisez le montant que vous souhaitez risquer pour cette transaction, en l'exprimant en valeur monétaire par rapport à votre capital."
       },
       "entry_fees": {
-        "example": "Si votre courtier facture 0,1% de la valeur totale de la position lorsque vous entrez, entrez 0,1 comme valeur.",
-        "text": "Représente le pourcentage de frais facturé par votre courtier lors de l'ouverture d'une position."
+        "example": "Si votre courtier prélève 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 comme pourcentage.",
+        "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de l'ouverture d'une position."
       },
       "entry_price": {
-        "example": "Si vous prévoyez d'entrer sur le marché au prix actuel, veuillez entrer le prix actuel comme valeur. Cependant, si le prix actuel du marché est de \u002450 par action et que vous prévoyez d'entrer à un autre prix, comme \u002455 par action, veuillez entrer \u002455 comme valeur.",
-        "text": "Représente le prix auquel vous envisagez d'entrer sur le marché, qu'il s'agisse du prix actuel ou du prix auquel vous prévoyez d'entrer."
+        "example": "Si vous prévoyez d'acheter au prix courant, indiquez ce montant. Toutefois, si le prix courant est de \u002450 par action et que vous prévoyez d'acheter à \u002455 par action, inscrivez \u002455.",
+        "text": "Précisez le prix auquel vous prévoyez d'entrer sur le marché, qu'il s'agisse du prix courant ou d'un prix anticipé."
       },
       "exit_fees": {
-        "example": "Si votre courtier facture 0,1% de la valeur totale de la position lorsque vous sortez, entrez 0,1 comme valeur.",
-        "text": "Représente le pourcentage de frais facturé par votre courtier lors de la clôture d'une position."
+        "example": "Si votre courtier prélève 0,1% de la valeur totale de la position à la clôture, veuillez saisir 0,1 comme pourcentage.",
+        "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de la clôture d'une position."
       },
       "risk": {
-        "example": "Si vous êtes prêt à risquer 2% de votre capital et que votre capital total est de \u002450 000, saisissez 2% (\u00241 000) comme valeur.",
-        "text": "Fait référence au niveau de risque que vous êtes prêt à assumer pour cette transaction, exprimé en pourcentage par rapport à votre capital."
+        "example": "Si vous êtes prêt à risquer \u00241,000, soit 2% de votre capital de \u002450,000, veuillez entrer la valeur 2.",
+        "text": "Précisez le pourcentage de votre capital que vous êtes disposé à risquer pour cette transaction. Il est recommandé de ne pas risquer plus de 2% de votre capital sur une seule transaction."
       },
       "risk_reward_ratio": {
-        "example": "Par exemple, si vous entrez 2, cela signifie que vous êtes prêt à risquer \u00241 pour potentiellement gagner \u00242.",
-        "text": "Représente le rapport entre la quantité de risque et la quantité de récompense que vous êtes prêt à assumer pour ce trade."
+        "example": "Si vous saisissez 2, cela signifie que pour chaque dollar risqué, vous espérez un gain potentiel de 2 dollars.",
+        "text": "Précisez le ratio entre le montant du risque et la potentielle récompense que vous êtes prêt à accepter pour cette transaction."
+      },
+      "slippage": {
+        "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 \u0024, mais que l'exécution se fait à 102 \u0024, cet écart de 2 \u0024, équivalent à 2 % du prix initial, est appelé 'glissement'. Dans ce cas, vous devriez entrer '2' en tant que pourcentage.",
+        "text": "Fait référence à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est réellement exécutée. Le 'glissement' (ou 'slippage' en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres de marché sont utilisés, et cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas suffisamment de volume au niveau de prix choisi."
+      },
+      "stop_loss_price": {
+        "example": "Si vous avez acquis une action à 50 \u0024 et choisi de sécuriser votre position avec un ordre de stop-loss à 45 \u0024, veuillez saisir 45 comme valeur.",
+        "text": "Indique le prix auquel vous établirez votre ordre de stop-loss afin de limiter les pertes potentielles."
       }
     },
     "label": {
@@ -2323,32 +2387,40 @@ static const Map<String,dynamic> es = {
     },
     "help": {
       "account_balance": {
-        "example": "Si tienes \u002450.000 asignados para operar, por favor ingresa esa cantidad aquí.",
-        "text": "Especifica el valor actual de tu capital."
+        "example": "Si tienes \u002450,000 asignados para operar, por favor introduce este monto.",
+        "text": "Indica el valor actual de tu capital disponible."
       },
       "amount_at_risk": {
-        "example": "Si tu capital total es de \u002450.000 y deseas arriesgar \u00241.000, ingresa \u00241.000 como valor.",
-        "text": "Esto representa la cantidad específica de riesgo que deseas asumir para esta operación, expresada como un valor monetario relativo a tu capital."
+        "example": "Si tienes un capital total de \u002450,000 y deseas apostar \u00241,000, introduce \u00241,000 como la cantidad.",
+        "text": "Especifica la cantidad que deseas arriesgar para esta transacción, expresándola en valor monetario en relación a tu capital."
       },
       "entry_fees": {
-        "example": "Si tu corredor cobra el 0,1% del valor total de la posición al ingresar, ingresa 0,1 como valor.",
-        "text": "Representa el porcentaje de comisiones que cobra tu corredor al abrir una posición."
+        "example": "Si tu corredor cobra el 0.1% del valor total de la posición al abrirla, introduce 0.1 como porcentaje.",
+        "text": "Especifica el porcentaje de comisión que tu corredor cobra al abrir una posición."
       },
       "entry_price": {
-        "example": "Si pretendes ingresar al mercado al precio actual, por favor ingresa el precio actual como valor. Sin embargo, si el precio de mercado actual es de \u002450 por acción y planeas ingresar a un precio diferente, como \u002455 por acción, por favor ingresa \u002455 como valor.",
-        "text": "Representa el precio al que pretendes ingresar al mercado, ya sea el precio actual o el precio al que planeas ingresar."
+        "example": "Si planeas comprar al precio actual, indica este monto. Sin embargo, si el costo actual es de \u002450 por acción y planeas comprar a \u002455 por acción, introduce \u002455.",
+        "text": "Especifica el precio al cual planeas entrar al mercado, ya sea el precio actual o uno anticipado."
       },
       "exit_fees": {
-        "example": "Si tu corredor cobra el 0,1% del valor total de la posición al salir, ingresa 0,1 como valor.",
-        "text": "Representa el porcentaje de comisiones que cobra tu corredor al cerrar una posición."
+        "example": "Si tu corredor cobra el 0.1% del valor total de la posición al cerrarla, introduce 0.1 como porcentaje.",
+        "text": "Especifica el porcentaje de comisión que tu corredor cobra al cerrar una posición."
       },
       "risk": {
-        "example": "Si estás dispuesto a arriesgar el 2% de tu capital y tu capital total es de \u002450.000, ingresa el 2% (\u00241.000) como valor.",
-        "text": "Se refiere al nivel de riesgo que estás dispuesto a asumir para esta transacción, expresado como un porcentaje relativo a tu capital."
+        "example": "Si estás dispuesto a arriesgar \u00241,000, que es el 2% de tu capital de \u002450,000, introduce 2 como valor.",
+        "text": "Especifica el porcentaje de tu capital que estás dispuesto a arriesgar para esta transacción. Se recomienda no arriesgar más del 2% de tu capital en una sola transacción."
       },
       "risk_reward_ratio": {
-        "example": "Por ejemplo, si ingresas 2, significa que estás dispuesto a arriesgar \u00241 para potencialmente ganar \u00242.",
-        "text": "Representa la relación entre la cantidad de riesgo y la cantidad de recompensa que estás dispuesto a asumir para este trade."
+        "example": "Si introduces 2, significa que por cada dólar arriesgado, esperas una ganancia potencial de 2 dólares.",
+        "text": "Especifica la relación entre el monto de riesgo y la recompensa potencial que estás dispuesto a aceptar para esta transacción."
+      },
+      "slippage": {
+        "example": "Si coloca una orden de mercado para comprar una acción valorada en \u0024100, pero la transacción se realiza a \u0024102, la variación resultante de \u00242, equivalente al 2% del precio original, se conoce como 'slippage'. En este escenario, debería ingresar '2' como el porcentaje.",
+        "text": "Se refiere a la diferencia entre el precio esperado de una operación y el precio al que se ejecuta la operación. El slippage a menudo ocurre durante períodos de alta volatilidad cuando se usan órdenes de mercado, y también puede suceder cuando se ejecutan órdenes grandes y no hay suficiente volumen al nivel de precio elegido."
+      },
+      "stop_loss_price": {
+        "example": "Si compró una acción a \u002450 y decidió proteger su posición con una orden de stop-loss a \u002445, ingrese 45 como el valor.",
+        "text": "Indique el precio al cual establecerá su orden de stop-loss para limitar las posibles pérdidas."
       }
     },
     "label": {

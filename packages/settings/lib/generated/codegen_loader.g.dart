@@ -59,7 +59,7 @@ class SettingsCodegenLoader extends AssetLoader {
       "appearance": "通过选择适合您风格的主题来个性化您的体验。",
       "change_later": "请注意，您随时可以稍后更改它。",
       "restart_required": "重新启动应用程序以使更改生效。",
-      "settings": "通过调整您的偏好设置来提升应用体验。"
+      "settings": "通过调整您的偏好来增强您的体验。"
     },
     "question": {
       "do_you_enjoy_our_app": "如果您发现我们的应用程序有用，您是否愿意花费一些时间对其进行评级？",
@@ -118,7 +118,7 @@ static const Map<String,dynamic> ja = {
       "appearance": "スタイルに合ったテーマを選択して、体験をカスタマイズしましょう。",
       "change_later": "後でいつでも変更できることに注意してください。",
       "restart_required": "変更が反映されるように、アプリを再起動してください。",
-      "settings": "好みに合わせてアプリの設定を調整して、アプリの体験を向上させましょう。"
+      "settings": "設定を調整して、体験を向上させてください。"
     },
     "question": {
       "do_you_enjoy_our_app": "当社のアプリがお役に立つ場合、数分お時間をいただき、評価していただけますか？",
@@ -177,7 +177,7 @@ static const Map<String,dynamic> de = {
       "appearance": "Personalisieren Sie Ihr Erlebnis, indem Sie ein Design auswählen, das zu Ihrem Stil passt.",
       "change_later": "Beachten Sie, dass Sie es jederzeit später ändern können.",
       "restart_required": "Starten Sie die App neu, damit die Änderungen wirksam werden.",
-      "settings": "Verbessern Sie Ihr App-Erlebnis, indem Sie Ihre Einstellungen anpassen."
+      "settings": "Verbessern Sie Ihr Erlebnis, indem Sie Ihre Einstellungen anpassen."
     },
     "question": {
       "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
@@ -236,7 +236,7 @@ static const Map<String,dynamic> ru = {
       "appearance": "Настройте свой опыт, выбрав тему, которая подходит вашему стилю.",
       "change_later": "Обратите внимание, что вы всегда можете изменить это позже.",
       "restart_required": "Перезапустите приложение, чтобы изменения вступили в силу.",
-      "settings": "Улучшите свой опыт использования приложения, настроив свои предпочтения."
+      "settings": "Улучшите свой опыт, настроив ваши предпочтения."
     },
     "question": {
       "do_you_enjoy_our_app": "Если наше приложение вам понравилось, не могли бы вы уделить несколько минут, чтобы оценить его?",
@@ -295,7 +295,7 @@ static const Map<String,dynamic> pt = {
       "appearance": "Personalize sua experiência selecionando um tema que combine com seu estilo.",
       "change_later": "Observe que você sempre pode alterá-lo posteriormente.",
       "restart_required": "Reinicie o aplicativo para que as alterações tenham efeito.",
-      "settings": "Melhore sua experiência no aplicativo ajustando suas preferências."
+      "settings": "Melhore sua experiência ajustando suas preferências."
     },
     "question": {
       "do_you_enjoy_our_app": "Se você achar nosso aplicativo útil, você estaria disposto a dedicar alguns momentos para avaliá-lo?",
@@ -354,7 +354,7 @@ static const Map<String,dynamic> en = {
       "appearance": "Personalize your experience by selecting a theme that suits your style.",
       "change_later": "Note that you can always change it later.",
       "restart_required": "Restart the app for the changes to take effect.",
-      "settings": "Enhance your app experience by adjusting your preferences."
+      "settings": "Enhance your experience by adjusting your preferences."
     },
     "question": {
       "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
@@ -413,7 +413,7 @@ static const Map<String,dynamic> it = {
       "appearance": "Personalizza la tua esperienza selezionando un tema che si adatta al tuo stile.",
       "change_later": "Tieni presente che puoi sempre cambiarlo in seguito.",
       "restart_required": "Riavvia l'app affinché le modifiche abbiano effetto.",
-      "settings": "Migliora la tua esperienza dell'app personalizzando le preferenze."
+      "settings": "Migliora la tua esperienza regolando le tue preferenze."
     },
     "question": {
       "do_you_enjoy_our_app": "Se trovi la nostra app utile, saresti disposto a dedicare qualche istante per valutarla?",
@@ -472,7 +472,7 @@ static const Map<String,dynamic> fr = {
       "appearance": "Personnalisez votre expérience en sélectionnant un thème qui correspond à votre style.",
       "change_later": "Notez que vous pouvez toujours le modifier ultérieurement.",
       "restart_required": "Redémarrez l'application pour que les modifications prennent effet.",
-      "settings": "Améliorez votre expérience d'application en ajustant vos préférences."
+      "settings": "Améliorez votre expérience en ajustant vos préférences."
     },
     "question": {
       "do_you_enjoy_our_app": "Si vous trouvez notre application utile, seriez-vous prêt à prendre quelques instants pour la noter ?",
@@ -531,7 +531,7 @@ static const Map<String,dynamic> es = {
       "appearance": "Personaliza tu experiencia seleccionando un tema que se adapte a tu estilo.",
       "change_later": "Tenga en cuenta que siempre puede cambiarlo más tarde.",
       "restart_required": "Reinicia la aplicación para que los cambios surtan efecto.",
-      "settings": "Mejore su experiencia en la aplicación ajustando sus preferencias."
+      "settings": "Mejore su experiencia ajustando sus preferencias."
     },
     "question": {
       "do_you_enjoy_our_app": "Si encuentra útil nuestra aplicación, ¿estaría dispuesto a dedicar unos minutos para calificarla?",

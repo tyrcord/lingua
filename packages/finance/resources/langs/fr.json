@@ -14,32 +14,40 @@
     },
     "help": {
       "account_balance": {
-        "example": "Si vous avez $50 000 alloués au trading, veuillez entrer ce montant ici.",
-        "text": "Indiquez la valeur actuelle de votre capital."
+        "example": "Si vous avez $50,000 pour le trading, veuillez saisir ce montant.",
+        "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
       "amount_at_risk": {
-        "example": "Si votre capital total est de $50 000 et que vous souhaitez risquer $1 000, entrez $1 000 comme valeur.",
-        "text": "Représente le montant spécifique de risque que vous souhaitez prendre pour ce trade, exprimé en valeur monétaire par rapport à votre capital."
+        "example": "Si votre capital s'élève à 50 000 $ et que vous envisagez de mettre en jeu 1 000 $, veuillez entrer 1 000 $ comme montant.",
+        "text": "Précisez le montant que vous souhaitez risquer pour cette transaction, en l'exprimant en valeur monétaire par rapport à votre capital."
       },
       "entry_fees": {
-        "example": "Si votre courtier facture 0,1% de la valeur totale de la position lorsque vous entrez, entrez 0,1 comme valeur.",
-        "text": "Représente le pourcentage de frais facturé par votre courtier lors de l'ouverture d'une position."
+        "example": "Si votre courtier prélève 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 comme pourcentage.",
+        "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de l'ouverture d'une position."
       },
       "entry_price": {
-        "example": "Si vous prévoyez d'entrer sur le marché au prix actuel, veuillez entrer le prix actuel comme valeur. Cependant, si le prix actuel du marché est de $50 par action et que vous prévoyez d'entrer à un autre prix, comme $55 par action, veuillez entrer $55 comme valeur.",
-        "text": "Représente le prix auquel vous envisagez d'entrer sur le marché, qu'il s'agisse du prix actuel ou du prix auquel vous prévoyez d'entrer."
+        "example": "Si vous prévoyez d'acheter au prix courant, indiquez ce montant. Toutefois, si le prix courant est de $50 par action et que vous prévoyez d'acheter à $55 par action, inscrivez $55.",
+        "text": "Précisez le prix auquel vous prévoyez d'entrer sur le marché, qu'il s'agisse du prix courant ou d'un prix anticipé."
       },
       "exit_fees": {
-        "example": "Si votre courtier facture 0,1% de la valeur totale de la position lorsque vous sortez, entrez 0,1 comme valeur.",
-        "text": "Représente le pourcentage de frais facturé par votre courtier lors de la clôture d'une position."
+        "example": "Si votre courtier prélève 0,1% de la valeur totale de la position à la clôture, veuillez saisir 0,1 comme pourcentage.",
+        "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de la clôture d'une position."
       },
       "risk": {
-        "example": "Si vous êtes prêt à risquer 2% de votre capital et que votre capital total est de $50 000, saisissez 2% ($1 000) comme valeur.",
-        "text": "Fait référence au niveau de risque que vous êtes prêt à assumer pour cette transaction, exprimé en pourcentage par rapport à votre capital."
+        "example": "Si vous êtes prêt à risquer $1,000, soit 2% de votre capital de $50,000, veuillez entrer la valeur 2.",
+        "text": "Précisez le pourcentage de votre capital que vous êtes disposé à risquer pour cette transaction. Il est recommandé de ne pas risquer plus de 2% de votre capital sur une seule transaction."
       },
       "risk_reward_ratio": {
-        "example": "Par exemple, si vous entrez 2, cela signifie que vous êtes prêt à risquer $1 pour potentiellement gagner $2.",
-        "text": "Représente le rapport entre la quantité de risque et la quantité de récompense que vous êtes prêt à assumer pour ce trade."
+        "example": "Si vous saisissez 2, cela signifie que pour chaque dollar risqué, vous espérez un gain potentiel de 2 dollars.",
+        "text": "Précisez le ratio entre le montant du risque et la potentielle récompense que vous êtes prêt à accepter pour cette transaction."
+      },
+      "slippage": {
+        "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 $, mais que l'exécution se fait à 102 $, cet écart de 2 $, équivalent à 2 % du prix initial, est appelé 'glissement'. Dans ce cas, vous devriez entrer '2' en tant que pourcentage.",
+        "text": "Fait référence à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est réellement exécutée. Le 'glissement' (ou 'slippage' en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres de marché sont utilisés, et cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas suffisamment de volume au niveau de prix choisi."
+      },
+      "stop_loss_price": {
+        "example": "Si vous avez acquis une action à 50 $ et choisi de sécuriser votre position avec un ordre de stop-loss à 45 $, veuillez saisir 45 comme valeur.",
+        "text": "Indique le prix auquel vous établirez votre ordre de stop-loss afin de limiter les pertes potentielles."
       }
     },
     "label": {

@@ -14,32 +14,40 @@
     },
     "help": {
       "account_balance": {
-        "example": "Si tienes $50.000 asignados para operar, por favor ingresa esa cantidad aquí.",
-        "text": "Especifica el valor actual de tu capital."
+        "example": "Si tienes $50,000 asignados para operar, por favor introduce este monto.",
+        "text": "Indica el valor actual de tu capital disponible."
       },
       "amount_at_risk": {
-        "example": "Si tu capital total es de $50.000 y deseas arriesgar $1.000, ingresa $1.000 como valor.",
-        "text": "Esto representa la cantidad específica de riesgo que deseas asumir para esta operación, expresada como un valor monetario relativo a tu capital."
+        "example": "Si tienes un capital total de $50,000 y deseas apostar $1,000, introduce $1,000 como la cantidad.",
+        "text": "Especifica la cantidad que deseas arriesgar para esta transacción, expresándola en valor monetario en relación a tu capital."
       },
       "entry_fees": {
-        "example": "Si tu corredor cobra el 0,1% del valor total de la posición al ingresar, ingresa 0,1 como valor.",
-        "text": "Representa el porcentaje de comisiones que cobra tu corredor al abrir una posición."
+        "example": "Si tu corredor cobra el 0.1% del valor total de la posición al abrirla, introduce 0.1 como porcentaje.",
+        "text": "Especifica el porcentaje de comisión que tu corredor cobra al abrir una posición."
       },
       "entry_price": {
-        "example": "Si pretendes ingresar al mercado al precio actual, por favor ingresa el precio actual como valor. Sin embargo, si el precio de mercado actual es de $50 por acción y planeas ingresar a un precio diferente, como $55 por acción, por favor ingresa $55 como valor.",
-        "text": "Representa el precio al que pretendes ingresar al mercado, ya sea el precio actual o el precio al que planeas ingresar."
+        "example": "Si planeas comprar al precio actual, indica este monto. Sin embargo, si el costo actual es de $50 por acción y planeas comprar a $55 por acción, introduce $55.",
+        "text": "Especifica el precio al cual planeas entrar al mercado, ya sea el precio actual o uno anticipado."
       },
       "exit_fees": {
-        "example": "Si tu corredor cobra el 0,1% del valor total de la posición al salir, ingresa 0,1 como valor.",
-        "text": "Representa el porcentaje de comisiones que cobra tu corredor al cerrar una posición."
+        "example": "Si tu corredor cobra el 0.1% del valor total de la posición al cerrarla, introduce 0.1 como porcentaje.",
+        "text": "Especifica el porcentaje de comisión que tu corredor cobra al cerrar una posición."
       },
       "risk": {
-        "example": "Si estás dispuesto a arriesgar el 2% de tu capital y tu capital total es de $50.000, ingresa el 2% ($1.000) como valor.",
-        "text": "Se refiere al nivel de riesgo que estás dispuesto a asumir para esta transacción, expresado como un porcentaje relativo a tu capital."
+        "example": "Si estás dispuesto a arriesgar $1,000, que es el 2% de tu capital de $50,000, introduce 2 como valor.",
+        "text": "Especifica el porcentaje de tu capital que estás dispuesto a arriesgar para esta transacción. Se recomienda no arriesgar más del 2% de tu capital en una sola transacción."
       },
       "risk_reward_ratio": {
-        "example": "Por ejemplo, si ingresas 2, significa que estás dispuesto a arriesgar $1 para potencialmente ganar $2.",
-        "text": "Representa la relación entre la cantidad de riesgo y la cantidad de recompensa que estás dispuesto a asumir para este trade."
+        "example": "Si introduces 2, significa que por cada dólar arriesgado, esperas una ganancia potencial de 2 dólares.",
+        "text": "Especifica la relación entre el monto de riesgo y la recompensa potencial que estás dispuesto a aceptar para esta transacción."
+      },
+      "slippage": {
+        "example": "Si coloca una orden de mercado para comprar una acción valorada en $100, pero la transacción se realiza a $102, la variación resultante de $2, equivalente al 2% del precio original, se conoce como 'slippage'. En este escenario, debería ingresar '2' como el porcentaje.",
+        "text": "Se refiere a la diferencia entre el precio esperado de una operación y el precio al que se ejecuta la operación. El slippage a menudo ocurre durante períodos de alta volatilidad cuando se usan órdenes de mercado, y también puede suceder cuando se ejecutan órdenes grandes y no hay suficiente volumen al nivel de precio elegido."
+      },
+      "stop_loss_price": {
+        "example": "Si compró una acción a $50 y decidió proteger su posición con una orden de stop-loss a $45, ingrese 45 como el valor.",
+        "text": "Indique el precio al cual establecerá su orden de stop-loss para limitar las posibles pérdidas."
       }
     },
     "label": {
