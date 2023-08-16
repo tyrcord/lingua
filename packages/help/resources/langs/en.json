@@ -1,7 +1,8 @@
 {
   "help": {
-    "title": {
-      "manual": "Instructions"
+    "label": {
+      "instructions": "Instructions",
+      "manual": "Manual"
     }
   }
 }

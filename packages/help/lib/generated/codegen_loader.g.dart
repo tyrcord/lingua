@@ -13,64 +13,73 @@ class HelpCodegenLoader extends AssetLoader {
 
   static const Map<String,dynamic> zh = {
   "help": {
-    "title": {
-      "manual": "说明"
+    "label": {
+      "instructions": "说明",
+      "manual": "手册"
     }
   }
 };
 static const Map<String,dynamic> ja = {
   "help": {
-    "title": {
-      "manual": "説明"
+    "label": {
+      "instructions": "指示",
+      "manual": "マニュアル"
     }
   }
 };
 static const Map<String,dynamic> de = {
   "help": {
-    "title": {
-      "manual": "Anleitung"
+    "label": {
+      "instructions": "Anweisungen",
+      "manual": "Handbuch"
     }
   }
 };
 static const Map<String,dynamic> ru = {
   "help": {
-    "title": {
-      "manual": "Инструкции"
+    "label": {
+      "instructions": "Инструкции",
+      "manual": "Руководство"
     }
   }
 };
 static const Map<String,dynamic> pt = {
   "help": {
-    "title": {
-      "manual": "Instruções"
+    "label": {
+      "instructions": "Instruções",
+      "manual": "Manual"
     }
   }
 };
 static const Map<String,dynamic> en = {
   "help": {
-    "title": {
-      "manual": "Instructions"
+    "label": {
+      "instructions": "Instructions",
+      "manual": "Manual"
     }
   }
 };
 static const Map<String,dynamic> it = {
   "help": {
-    "title": {
-      "manual": "Istruzioni"
+    "label": {
+      "instructions": "Istruzioni",
+      "manual": "Manuale"
     }
   }
 };
 static const Map<String,dynamic> fr = {
   "help": {
-    "title": {
+    "label": {
+      "instructions": "Instructions",
       "manual": "Mode d'emploi"
     }
   }
 };
 static const Map<String,dynamic> es = {
   "help": {
-    "title": {
-      "manual": "Instrucciones"
+    "label": {
+      "instructions": "Instrucciones",
+      "manual": "Manual"
     }
   }
 };
