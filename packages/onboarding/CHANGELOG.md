@@ -1,3 +1,7 @@
+## 0.0.8+1
+
+ - **FIX**: wrong localization.
+
 ## 0.0.8
 
  - **FEAT**: update localization.

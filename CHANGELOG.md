@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_onboarding` - `v0.0.8+1`](#lingua_onboarding---v0081)
+
+---
+
+#### `lingua_onboarding` - `v0.0.8+1`
+
+ - **FIX**: wrong localization.
+
+
+## 2023-08-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_core` - `v0.0.21`](#lingua_core---v0021)
  - [`lingua_onboarding` - `v0.0.8`](#lingua_onboarding---v008)
 
