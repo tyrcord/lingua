@@ -221,6 +221,7 @@
         "text": "替换"
       },
       "replay": "重新播放",
+      "report": "报告",
       "required": "必需",
       "reset": "重置",
       "results": "结果",
@@ -307,8 +308,7 @@
         "out": "缩小",
         "reset": "重置缩放",
         "text": "缩放"
-      },
-      "report": "报告"
+      }
     },
     "message": {
       "action": {
@@ -353,6 +353,7 @@
       },
       "modern_design": "现代外观。",
       "no_favorites": "无收藏。",
+      "pdf_generated_by": "PDF 由{app_name}生成",
       "pdf_ready": "PDF已准备就绪！",
       "performing": "执行中...",
       "please_wait": "请稍候...",
@@ -369,8 +370,7 @@
       "warning": "警告！",
       "welcome": "欢迎！",
       "whats_new": "有什么新功能？",
-      "whoops": "哎呀！",
-      "pdf_generated_by": "PDF 由{app_name}生成"
+      "whoops": "哎呀！"
     },
     "question": {
       "are_you_sure": "确定吗？",

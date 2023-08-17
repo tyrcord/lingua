@@ -234,6 +234,7 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "替换"
       },
       "replay": "重新播放",
+      "report": "报告",
       "required": "必需",
       "reset": "重置",
       "results": "结果",
@@ -320,8 +321,7 @@ class CoreCodegenLoader extends AssetLoader {
         "out": "缩小",
         "reset": "重置缩放",
         "text": "缩放"
-      },
-      "report": "报告"
+      }
     },
     "message": {
       "action": {
@@ -366,6 +366,7 @@ class CoreCodegenLoader extends AssetLoader {
       },
       "modern_design": "现代外观。",
       "no_favorites": "无收藏。",
+      "pdf_generated_by": "PDF 由{app_name}生成",
       "pdf_ready": "PDF已准备就绪！",
       "performing": "执行中...",
       "please_wait": "请稍候...",
@@ -382,8 +383,7 @@ class CoreCodegenLoader extends AssetLoader {
       "warning": "警告！",
       "welcome": "欢迎！",
       "whats_new": "有什么新功能？",
-      "whoops": "哎呀！",
-      "pdf_generated_by": "PDF 由{app_name}生成"
+      "whoops": "哎呀！"
     },
     "question": {
       "are_you_sure": "确定吗？",
@@ -621,6 +621,7 @@ static const Map<String,dynamic> ja = {
         "text": "置換"
       },
       "replay": "リプレイ",
+      "report": "レポート",
       "required": "必須",
       "reset": "リセット",
       "results": "結果",
@@ -707,8 +708,7 @@ static const Map<String,dynamic> ja = {
         "out": "ズームアウト",
         "reset": "ズームリセット",
         "text": "ズーム"
-      },
-      "report": "レポート"
+      }
     },
     "message": {
       "action": {
@@ -753,6 +753,7 @@ static const Map<String,dynamic> ja = {
       },
       "modern_design": "モダンなデザイン。",
       "no_favorites": "お気に入りはありません。",
+      "pdf_generated_by": "{app_name} によって生成されたPDF",
       "pdf_ready": "PDFが準備できました！",
       "performing": "実行中...",
       "please_wait": "お待ちください...",
@@ -769,8 +770,7 @@ static const Map<String,dynamic> ja = {
       "warning": "警告！",
       "welcome": "ようこそ！",
       "whats_new": "新機能のご紹介",
-      "whoops": "おっと！",
-      "pdf_generated_by": "{app_name} によって生成されたPDF"
+      "whoops": "おっと！"
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",
@@ -1008,6 +1008,7 @@ static const Map<String,dynamic> de = {
         "text": "Ersetzen"
       },
       "replay": "Erneut abspielen",
+      "report": "Bericht",
       "required": "Erforderlich",
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",
@@ -1094,8 +1095,7 @@ static const Map<String,dynamic> de = {
         "out": "Herauszoomen",
         "reset": "Zoom zurücksetzen",
         "text": "Zoom"
-      },
-      "report": "Bericht"
+      }
     },
     "message": {
       "action": {
@@ -1140,6 +1140,7 @@ static const Map<String,dynamic> de = {
       },
       "modern_design": "Modernes Design.",
       "no_favorites": "Keine Favoriten.",
+      "pdf_generated_by": "PDF generiert von {app_name}",
       "pdf_ready": "PDF fertig!",
       "performing": "Wird durchgeführt...",
       "please_wait": "Bitte warten...",
@@ -1156,8 +1157,7 @@ static const Map<String,dynamic> de = {
       "warning": "Achtung!",
       "welcome": "Willkommen!",
       "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!",
-      "pdf_generated_by": "PDF generiert von {app_name}"
+      "whoops": "Hoppla!"
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",
@@ -1395,6 +1395,7 @@ static const Map<String,dynamic> ru = {
         "text": "Заменить"
       },
       "replay": "Повторить",
+      "report": "Отчет",
       "required": "Обязательно",
       "reset": "Сбросить",
       "results": "Результаты",
@@ -1481,8 +1482,7 @@ static const Map<String,dynamic> ru = {
         "out": "Отдалить",
         "reset": "Сбросить масштаб",
         "text": "Масштаб"
-      },
-      "report": "Отчет"
+      }
     },
     "message": {
       "action": {
@@ -1527,6 +1527,7 @@ static const Map<String,dynamic> ru = {
       },
       "modern_design": "Современный дизайн.",
       "no_favorites": "Нет избранных.",
+      "pdf_generated_by": "PDF сгенерировано с помощью {app_name}",
       "pdf_ready": "PDF готово!",
       "performing": "Выполнение...",
       "please_wait": "Пожалуйста, подождите...",
@@ -1543,8 +1544,7 @@ static const Map<String,dynamic> ru = {
       "warning": "Предупреждение!",
       "welcome": "Добро пожаловать!",
       "whats_new": "Что нового?",
-      "whoops": "Упс!",
-      "pdf_generated_by": "PDF сгенерировано с помощью {app_name}"
+      "whoops": "Упс!"
     },
     "question": {
       "are_you_sure": "Вы уверены?",
@@ -1782,6 +1782,7 @@ static const Map<String,dynamic> pt = {
         "text": "Substituir"
       },
       "replay": "Repetir",
+      "report": "Relatório",
       "required": "Obrigatório",
       "reset": "Resetar",
       "results": "Resultados",
@@ -1868,8 +1869,7 @@ static const Map<String,dynamic> pt = {
         "out": "Diminuir Zoom",
         "reset": "Redefinir Zoom",
         "text": "Zoom"
-      },
-      "report": "Relatório"
+      }
     },
     "message": {
       "action": {
@@ -1914,6 +1914,7 @@ static const Map<String,dynamic> pt = {
       },
       "modern_design": "Visual moderno.",
       "no_favorites": "Sem favoritos.",
+      "pdf_generated_by": "PDF gerado por {app_name}",
       "pdf_ready": "PDF pronto!",
       "performing": "Executando...",
       "please_wait": "Aguarde, por favor...",
@@ -1930,8 +1931,7 @@ static const Map<String,dynamic> pt = {
       "warning": "Aviso!",
       "welcome": "Bem-vindo!",
       "whats_new": "O que há de novo?",
-      "whoops": "Ops!",
-      "pdf_generated_by": "PDF gerado por {app_name}"
+      "whoops": "Ops!"
     },
     "question": {
       "are_you_sure": "Tem certeza?",
@@ -2169,6 +2169,7 @@ static const Map<String,dynamic> en = {
         "text": "Replace"
       },
       "replay": "Replay",
+      "report": "Report",
       "required": "Required",
       "reset": "Reset",
       "results": "Results",
@@ -2255,8 +2256,7 @@ static const Map<String,dynamic> en = {
         "out": "Zoom Out",
         "reset": "Reset Zoom",
         "text": "Zoom"
-      },
-      "report": "Report"
+      }
     },
     "message": {
       "action": {
@@ -2301,6 +2301,7 @@ static const Map<String,dynamic> en = {
       },
       "modern_design": "Modern Look.",
       "no_favorites": "No favorites.",
+      "pdf_generated_by": "PDF generated by {app_name}",
       "pdf_ready": "PDF ready!",
       "performing": "Performing...",
       "please_wait": "Please wait...",
@@ -2317,8 +2318,7 @@ static const Map<String,dynamic> en = {
       "warning": "Warning!",
       "welcome": "Welcome!",
       "whats_new": "What's new?",
-      "whoops": "Whoops!",
-      "pdf_generated_by": "PDF generated by {app_name}"
+      "whoops": "Whoops!"
     },
     "question": {
       "are_you_sure": "Are you sure?",
@@ -2556,6 +2556,7 @@ static const Map<String,dynamic> it = {
         "text": "Sostituisci"
       },
       "replay": "Ripeti",
+      "report": "Rapporto",
       "required": "Richiesto",
       "reset": "Reimpostare",
       "results": "Risultati",
@@ -2642,8 +2643,7 @@ static const Map<String,dynamic> it = {
         "out": "Riduci",
         "reset": "Reimposta zoom",
         "text": "Zoom"
-      },
-      "report": "Rapporto"
+      }
     },
     "message": {
       "action": {
@@ -2688,6 +2688,7 @@ static const Map<String,dynamic> it = {
       },
       "modern_design": "Design moderno.",
       "no_favorites": "Nessun preferito.",
+      "pdf_generated_by": "PDF generato da {app_name}",
       "pdf_ready": "PDF pronto!",
       "performing": "In esecuzione...",
       "please_wait": "Attendere prego...",
@@ -2704,8 +2705,7 @@ static const Map<String,dynamic> it = {
       "warning": "Attenzione!",
       "welcome": "Benvenuto!",
       "whats_new": "Cosa c'è di nuovo?",
-      "whoops": "Ops!",
-      "pdf_generated_by": "PDF generato da {app_name}"
+      "whoops": "Ops!"
     },
     "question": {
       "are_you_sure": "Sei sicuro?",
@@ -2943,6 +2943,7 @@ static const Map<String,dynamic> fr = {
         "text": "Remplacer"
       },
       "replay": "Rejouer",
+      "report": "Rapport",
       "required": "Requis",
       "reset": "Réinitialiser",
       "results": "Résultats",
@@ -3029,8 +3030,7 @@ static const Map<String,dynamic> fr = {
         "out": "Zoom arrière",
         "reset": "Réinitialiser le zoom",
         "text": "Zoom"
-      },
-      "report": "Rapport"
+      }
     },
     "message": {
       "action": {
@@ -3075,6 +3075,7 @@ static const Map<String,dynamic> fr = {
       },
       "modern_design": "Design moderne.",
       "no_favorites": "Aucun favori.",
+      "pdf_generated_by": "PDF généré par {app_name}",
       "pdf_ready": "PDF prêt!",
       "performing": "Exécution...",
       "please_wait": "Veuillez patienter...",
@@ -3091,8 +3092,7 @@ static const Map<String,dynamic> fr = {
       "warning": "Attention !",
       "welcome": "Bienvenue !",
       "whats_new": "Quoi de neuf ?",
-      "whoops": "Oups !",
-      "pdf_generated_by": "PDF généré par {app_name}"
+      "whoops": "Oups !"
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",
@@ -3330,6 +3330,7 @@ static const Map<String,dynamic> es = {
         "text": "Reemplazar"
       },
       "replay": "Repetir",
+      "report": "Informe",
       "required": "Requerido",
       "reset": "Restablecer",
       "results": "Resultados",
@@ -3416,8 +3417,7 @@ static const Map<String,dynamic> es = {
         "out": "Alejar",
         "reset": "Restablecer zoom",
         "text": "Zoom"
-      },
-      "report": "Informe"
+      }
     },
     "message": {
       "action": {
@@ -3462,6 +3462,7 @@ static const Map<String,dynamic> es = {
       },
       "modern_design": "Diseño moderno.",
       "no_favorites": "No hay favoritos.",
+      "pdf_generated_by": "PDF generado por {app_name}",
       "pdf_ready": "¡PDF listo!",
       "performing": "Realizando...",
       "please_wait": "Por favor, espera...",
@@ -3478,8 +3479,7 @@ static const Map<String,dynamic> es = {
       "warning": "¡Advertencia!",
       "welcome": "¡Bienvenido!",
       "whats_new": "¿Qué hay de nuevo?",
-      "whoops": "¡Ups!",
-      "pdf_generated_by": "PDF generado por {app_name}"
+      "whoops": "¡Ups!"
     },
     "question": {
       "are_you_sure": "¿Estás seguro?",

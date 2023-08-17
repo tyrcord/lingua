@@ -2,31 +2,52 @@
   "onboarding": {
     "notifications": {
       "action": "Autoriser les notifications",
-      "description": "Restez informé des dernières mises à jour, actualités et informations importantes.",
-      "notes": "Nous nous engageons à ne vous envoyer que des notifications utiles et importantes. De plus, vous avez la possibilité de modifier vos préférences de notification à tout moment.",
+      "denied": {
+        "description": "Pas de problème! Nous veillerons à ne pas perturber votre tranquillité.",
+        "intro": "Vous avez désactivé les notifications.",
+        "notes": "Vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
+      },
+      "description": "Nous nous engageons à ne vous envoyer que des notifications utiles et significatives.",
+      "granted": {
+        "description": "Vous recevrez désormais des mises à jour et des notifications de notre part.",
+        "intro": "Vous avez activé les notifications.",
+        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+      },
+      "intro": "Restez informé des dernières mises à jour, actualités et informations importantes.",
+      "notes": "Vous avez la possibilité de modifier vos préférences de notification à tout moment dans les paramètres de votre appareil.",
       "title": "Notifications"
     },
     "personalized_ads": {
       "action": "Activer les publicités personnalisées",
-      "description": "En autorisant la personnalisation de vos publicités, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
-      "notes": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
+      "denied": {
+        "description": "Nous respectons votre choix. Vous verrez des publicités génériques à la place.",
+        "intro": "Vous avez désactivé les publicités personnalisées.",
+        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+      },
+      "description": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
+      "granted": {
+        "description": "Vous verrez des publicités adaptées à vos intérêts.",
+        "intro": "Vous avez activé les publicités personnalisées.",
+        "notes": "Vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
+      },
+      "intro": "En autorisant les publicités personnalisées, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
       "title": "Publicités personnalisées"
     },
     "restore_premium": {
       "action": "Restaurer les achats",
-      "description": "Si vous avez précédemment acquis la version premium, nous vous recommandons de restaurer vos achats pour retrouver l'accès à toutes vos fonctionnalités premium.",
+      "intro": "Si vous avez précédemment acquis la version premium, nous vous recommandons de restaurer vos achats pour retrouver l'accès à toutes vos fonctionnalités premium.",
       "notes": "Veuillez noter que vous avez la possibilité de restaurer vos achats à tout moment.",
       "title": "Restaurer les fonctionnalités premium"
     },
     "user_currency": {
       "action": "Choisissez votre devise",
-      "description": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
+      "intro": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
       "notes": "Veuillez noter que vous avez la possibilité de changer de devise à tout moment dans les paramètres.",
       "title": "Devise"
     },
     "welcome_finance_traders": {
-      "description": "Optimisez votre stratégie de trading à l'aide de nos outils sophistiqués de gestion des risques pour des résultats optimaux.",
-      "notes": "Prenez le contrôle et tradez en toute sérénité.",
+      "description": "Prenez le contrôle et tradez en toute sérénité.",
+      "intro": "Optimisez votre stratégie de trading à l'aide de nos outils sophistiqués de gestion des risques pour des résultats optimaux.",
       "title": "Bienvenue, Traders"
     }
   }

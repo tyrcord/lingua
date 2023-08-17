@@ -221,6 +221,7 @@
         "text": "Sostituisci"
       },
       "replay": "Ripeti",
+      "report": "Rapporto",
       "required": "Richiesto",
       "reset": "Reimpostare",
       "results": "Risultati",
@@ -307,8 +308,7 @@
         "out": "Riduci",
         "reset": "Reimposta zoom",
         "text": "Zoom"
-      },
-      "report": "Rapporto"
+      }
     },
     "message": {
       "action": {
@@ -353,6 +353,7 @@
       },
       "modern_design": "Design moderno.",
       "no_favorites": "Nessun preferito.",
+      "pdf_generated_by": "PDF generato da {app_name}",
       "pdf_ready": "PDF pronto!",
       "performing": "In esecuzione...",
       "please_wait": "Attendere prego...",
@@ -369,8 +370,7 @@
       "warning": "Attenzione!",
       "welcome": "Benvenuto!",
       "whats_new": "Cosa c'è di nuovo?",
-      "whoops": "Ops!",
-      "pdf_generated_by": "PDF generato da {app_name}"
+      "whoops": "Ops!"
     },
     "question": {
       "are_you_sure": "Sei sicuro?",

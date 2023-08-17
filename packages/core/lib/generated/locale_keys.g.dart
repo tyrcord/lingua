@@ -193,6 +193,7 @@ abstract class CoreLocaleKeys {
   static const core_label_replace_text = 'core.label.replace.text';
   static const core_label_replace = 'core.label.replace';
   static const core_label_replay = 'core.label.replay';
+  static const core_label_report = 'core.label.report';
   static const core_label_required = 'core.label.required';
   static const core_label_reset = 'core.label.reset';
   static const core_label_results = 'core.label.results';
@@ -269,7 +270,6 @@ abstract class CoreLocaleKeys {
   static const core_label_zoom_reset = 'core.label.zoom.reset';
   static const core_label_zoom_text = 'core.label.zoom.text';
   static const core_label_zoom = 'core.label.zoom';
-  static const core_label_report = 'core.label.report';
   static const core_label = 'core.label';
   static const core_message_action_canceled = 'core.message.action.canceled';
   static const core_message_action_completed = 'core.message.action.completed';
@@ -305,6 +305,7 @@ abstract class CoreLocaleKeys {
   static const core_message_loading = 'core.message.loading';
   static const core_message_modern_design = 'core.message.modern_design';
   static const core_message_no_favorites = 'core.message.no_favorites';
+  static const core_message_pdf_generated_by = 'core.message.pdf_generated_by';
   static const core_message_pdf_ready = 'core.message.pdf_ready';
   static const core_message_performing = 'core.message.performing';
   static const core_message_please_wait = 'core.message.please_wait';
@@ -321,7 +322,6 @@ abstract class CoreLocaleKeys {
   static const core_message_welcome = 'core.message.welcome';
   static const core_message_whats_new = 'core.message.whats_new';
   static const core_message_whoops = 'core.message.whoops';
-  static const core_message_pdf_generated_by = 'core.message.pdf_generated_by';
   static const core_message = 'core.message';
   static const core_question_are_you_sure = 'core.question.are_you_sure';
   static const core_question_export_data_pdf = 'core.question.export_data_pdf';

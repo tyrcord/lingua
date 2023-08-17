@@ -221,6 +221,7 @@
         "text": "Substituir"
       },
       "replay": "Repetir",
+      "report": "Relatório",
       "required": "Obrigatório",
       "reset": "Resetar",
       "results": "Resultados",
@@ -307,8 +308,7 @@
         "out": "Diminuir Zoom",
         "reset": "Redefinir Zoom",
         "text": "Zoom"
-      },
-      "report": "Relatório"
+      }
     },
     "message": {
       "action": {
@@ -353,6 +353,7 @@
       },
       "modern_design": "Visual moderno.",
       "no_favorites": "Sem favoritos.",
+      "pdf_generated_by": "PDF gerado por {app_name}",
       "pdf_ready": "PDF pronto!",
       "performing": "Executando...",
       "please_wait": "Aguarde, por favor...",
@@ -369,8 +370,7 @@
       "warning": "Aviso!",
       "welcome": "Bem-vindo!",
       "whats_new": "O que há de novo?",
-      "whoops": "Ops!",
-      "pdf_generated_by": "PDF gerado por {app_name}"
+      "whoops": "Ops!"
     },
     "question": {
       "are_you_sure": "Tem certeza?",

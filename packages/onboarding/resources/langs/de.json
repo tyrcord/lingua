@@ -1,32 +1,53 @@
 {
   "onboarding": {
     "notifications": {
-      "action": "Benachrichtigungen erlauben",
-      "description": "Bleiben Sie über die neuesten Updates, Nachrichten und wichtige Informationen auf dem Laufenden.",
-      "notes": "Wir senden Ihnen nur nützliche und wichtige Benachrichtigungen. Sie haben außerdem die Möglichkeit, Ihre Benachrichtigungseinstellungen jederzeit zu ändern.",
+      "action": "Benachrichtigungen zulassen",
+      "denied": {
+        "description": "Kein Problem! Wir werden Ihre Ruhe nicht stören.",
+        "intro": "Sie haben Benachrichtigungen deaktiviert.",
+        "notes": "Sie können Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren."
+      },
+      "description": "Wir verpflichten uns, Ihnen nur nützliche und bedeutende Benachrichtigungen zu senden.",
+      "granted": {
+        "description": "Sie erhalten jetzt Updates und Benachrichtigungen von uns.",
+        "intro": "Sie haben Benachrichtigungen aktiviert.",
+        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+      },
+      "intro": "Bleiben Sie informiert über die neuesten Updates, Nachrichten und wichtigen Informationen.",
+      "notes": "Sie haben jederzeit die Möglichkeit, Ihre Benachrichtigungseinstellungen in Ihren Geräteeinstellungen zu ändern.",
       "title": "Benachrichtigungen"
     },
     "personalized_ads": {
-      "action": "Personalisierte Werbung aktivieren",
-      "description": "Durch die Anpassung Ihrer Werbeanzeigen profitieren Sie von einer auf Ihre Interessen zugeschnittenen Werbeerfahrung.",
-      "notes": "Wir respektieren Ihre Privatsphäre und verwenden Ihre Informationen ausschließlich zur Verbesserung Ihrer Erfahrung und zur Anzeige relevanter Werbung.",
-      "title": "Personalisierte Werbung"
+      "action": "Personalisierte Anzeigen aktivieren",
+      "denied": {
+        "description": "Wir respektieren Ihre Entscheidung. Sie werden stattdessen allgemeine Anzeigen sehen.",
+        "intro": "Sie haben personalisierte Anzeigen deaktiviert.",
+        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+      },
+      "description": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Informationen ausschließlich zum Zweck der Verbesserung Ihres Erlebnisses und der Präsentation relevanter Anzeigen zu verwenden.",
+      "granted": {
+        "description": "Sie werden Anzeigen sehen, die auf Ihre Interessen zugeschnitten sind.",
+        "intro": "Sie haben personalisierte Anzeigen aktiviert.",
+        "notes": "Sie können das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren."
+      },
+      "intro": "Mit personalisierten Anzeigen profitieren Sie von einem Werbeerlebnis, das auf Ihre Interessen zugeschnitten ist.",
+      "title": "Personalisierte Anzeigen"
     },
     "restore_premium": {
       "action": "Käufe wiederherstellen",
-      "description": "Wenn Sie zuvor die Premium-Version erworben haben, empfehlen wir Ihnen, Ihre Käufe wiederherzustellen, um Zugriff auf alle Premium-Funktionen zu erhalten.",
+      "intro": "Wenn Sie zuvor die Premium-Version erworben haben, empfehlen wir Ihnen, Ihre Käufe wiederherzustellen, um Zugriff auf alle Premium-Funktionen zu erhalten.",
       "notes": "Bitte beachten Sie, dass Sie jederzeit die Möglichkeit haben, Ihre Käufe wiederherzustellen.",
       "title": "Premium-Funktionen wiederherstellen"
     },
     "user_currency": {
       "action": "Wählen Sie Ihre Währung",
-      "description": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
+      "intro": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
       "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihre Währung jederzeit in den Einstellungen zu ändern.",
       "title": "Währung"
     },
     "welcome_finance_traders": {
-      "description": "Optimieren Sie Ihre Handelsstrategie mit unseren anspruchsvollen Risikomanagement-Tools für optimale Ergebnisse.",
-      "notes": "Übernehmen Sie die Kontrolle und handeln Sie mit einem beruhigten Gemüt.",
+      "description": "Übernehmen Sie die Kontrolle und handeln Sie mit einem beruhigten Gemüt.",
+      "intro": "Optimieren Sie Ihre Handelsstrategie mit unseren anspruchsvollen Risikomanagement-Tools für optimale Ergebnisse.",
       "title": "Willkommen, Händler"
     }
   }

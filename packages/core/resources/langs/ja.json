@@ -221,6 +221,7 @@
         "text": "置換"
       },
       "replay": "リプレイ",
+      "report": "レポート",
       "required": "必須",
       "reset": "リセット",
       "results": "結果",
@@ -307,8 +308,7 @@
         "out": "ズームアウト",
         "reset": "ズームリセット",
         "text": "ズーム"
-      },
-      "report": "レポート"
+      }
     },
     "message": {
       "action": {
@@ -353,6 +353,7 @@
       },
       "modern_design": "モダンなデザイン。",
       "no_favorites": "お気に入りはありません。",
+      "pdf_generated_by": "{app_name} によって生成されたPDF",
       "pdf_ready": "PDFが準備できました！",
       "performing": "実行中...",
       "please_wait": "お待ちください...",
@@ -369,8 +370,7 @@
       "warning": "警告！",
       "welcome": "ようこそ！",
       "whats_new": "新機能のご紹介",
-      "whoops": "おっと！",
-      "pdf_generated_by": "{app_name} によって生成されたPDF"
+      "whoops": "おっと！"
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",

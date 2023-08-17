@@ -221,6 +221,7 @@
         "text": "Заменить"
       },
       "replay": "Повторить",
+      "report": "Отчет",
       "required": "Обязательно",
       "reset": "Сбросить",
       "results": "Результаты",
@@ -307,8 +308,7 @@
         "out": "Отдалить",
         "reset": "Сбросить масштаб",
         "text": "Масштаб"
-      },
-      "report": "Отчет"
+      }
     },
     "message": {
       "action": {
@@ -353,6 +353,7 @@
       },
       "modern_design": "Современный дизайн.",
       "no_favorites": "Нет избранных.",
+      "pdf_generated_by": "PDF сгенерировано с помощью {app_name}",
       "pdf_ready": "PDF готово!",
       "performing": "Выполнение...",
       "please_wait": "Пожалуйста, подождите...",
@@ -369,8 +370,7 @@
       "warning": "Предупреждение!",
       "welcome": "Добро пожаловать!",
       "whats_new": "Что нового?",
-      "whoops": "Упс!",
-      "pdf_generated_by": "PDF сгенерировано с помощью {app_name}"
+      "whoops": "Упс!"
     },
     "question": {
       "are_you_sure": "Вы уверены?",

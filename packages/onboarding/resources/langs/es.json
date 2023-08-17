@@ -2,31 +2,52 @@
   "onboarding": {
     "notifications": {
       "action": "Permitir notificaciones",
-      "description": "Manténgase informado sobre las últimas actualizaciones, noticias e información importante.",
-      "notes": "Nos comprometemos a enviarle solo notificaciones útiles e importantes. Además, tiene la opción de modificar sus preferencias de notificación en cualquier momento.",
+      "denied": {
+        "description": "¡No hay problema! Nos aseguraremos de no molestar su paz.",
+        "intro": "Ha desactivado las notificaciones.",
+        "notes": "Siempre puede habilitar notificaciones en la configuración de su dispositivo."
+      },
+      "description": "Nos comprometemos a enviarle únicamente notificaciones útiles y significativas.",
+      "granted": {
+        "description": "Ahora recibirá actualizaciones y notificaciones de nuestra parte.",
+        "intro": "Ha habilitado las notificaciones.",
+        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+      },
+      "intro": "Mantente informado sobre las últimas actualizaciones, noticias e información importante.",
+      "notes": "Tiene la opción de cambiar sus preferencias de notificación en cualquier momento en la configuración de su dispositivo.",
       "title": "Notificaciones"
     },
     "personalized_ads": {
       "action": "Habilitar anuncios personalizados",
-      "description": "Al permitir la personalización de sus anuncios, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
-      "notes": "Respetamos su privacidad y nos dedicamos a utilizar su información únicamente con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
-      "title": "Anuncios personalizados"
+      "denied": {
+        "description": "Respetamos su elección. Verá anuncios genéricos en su lugar.",
+        "intro": "Ha desactivado los anuncios personalizados.",
+        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+      },
+      "description": "Respetamos su privacidad y nos comprometemos a utilizar su información solo con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
+      "granted": {
+        "description": "Verá anuncios adaptados a sus intereses.",
+        "intro": "Ha habilitado anuncios personalizados.",
+        "notes": "Siempre puede habilitar el seguimiento en la configuración de su dispositivo."
+      },
+      "intro": "Al permitir anuncios personalizados, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
+      "title": "Anuncios Personalizados"
     },
     "restore_premium": {
       "action": "Restaurar compras",
-      "description": "Si adquirió previamente la versión premium, le recomendamos restaurar sus compras para recuperar el acceso a todas las funciones premium.",
+      "intro": "Si adquirió previamente la versión premium, le recomendamos restaurar sus compras para recuperar el acceso a todas las funciones premium.",
       "notes": "Tenga en cuenta que tiene la opción de restaurar sus compras en cualquier momento.",
       "title": "Restaurar funciones premium"
     },
     "user_currency": {
       "action": "Seleccione su moneda",
-      "description": "Seleccione su moneda preferida para mostrar los precios en su moneda local.",
+      "intro": "Seleccione su moneda preferida para mostrar los precios en su moneda local.",
       "notes": "Tenga en cuenta que tiene la opción de cambiar su moneda en cualquier momento en la configuración.",
       "title": "Moneda"
     },
     "welcome_finance_traders": {
-      "description": "Mejora tu estrategia de trading utilizando nuestras sofisticadas herramientas de gestión de riesgos para resultados óptimos.",
-      "notes": "Toma el control y opera con tranquilidad.",
+      "description": "Toma el control y opera con tranquilidad.",
+      "intro": "Mejora tu estrategia de trading utilizando nuestras sofisticadas herramientas de gestión de riesgos para resultados óptimos.",
       "title": "¡Bienvenidos, Traders!"
     }
   }

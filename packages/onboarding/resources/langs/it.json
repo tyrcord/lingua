@@ -1,32 +1,53 @@
 {
   "onboarding": {
     "notifications": {
-      "action": "Abilita notifiche",
-      "description": "Rimani informato sulle ultime novità, notizie e informazioni importanti.",
-      "notes": "Ci impegniamo a inviarti solo notifiche utili e importanti. Inoltre, hai la possibilità di modificare le tue preferenze di notifica in qualsiasi momento.",
+      "action": "Consenti notifiche",
+      "denied": {
+        "description": "Nessun problema! Ci assicureremo di non disturbare la tua pace.",
+        "intro": "Hai disattivato le notifiche.",
+        "notes": "Puoi sempre abilitare le notifiche nelle impostazioni del tuo dispositivo."
+      },
+      "description": "Ci impegniamo a inviarti solo notifiche utili e significative.",
+      "granted": {
+        "description": "Ora riceverai aggiornamenti e notifiche da noi.",
+        "intro": "Hai attivato le notifiche.",
+        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
+      },
+      "intro": "Rimani informato sulle ultime novità, notizie e informazioni importanti.",
+      "notes": "Hai l'opzione di modificare le tue preferenze di notifica in qualsiasi momento nelle impostazioni del tuo dispositivo.",
       "title": "Notifiche"
     },
     "personalized_ads": {
       "action": "Abilita annunci personalizzati",
-      "description": "Permettendo la personalizzazione dei tuoi annunci, beneficerai di un'esperienza pubblicitaria su misura per i tuoi interessi.",
-      "notes": "Rispettiamo la tua privacy e ci impegniamo a utilizzare le tue informazioni esclusivamente per migliorare la tua esperienza e mostrare annunci pertinenti.",
-      "title": "Annunci personalizzati"
+      "denied": {
+        "description": "Rispettiamo la tua scelta. Vedrai annunci generici al loro posto.",
+        "intro": "Hai disattivato gli annunci personalizzati.",
+        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
+      },
+      "description": "Rispettiamo la tua privacy e ci impegniamo ad utilizzare le tue informazioni solo allo scopo di migliorare la tua esperienza e presentarti pubblicità pertinenti.",
+      "granted": {
+        "description": "Vedrai annunci su misura per i tuoi interessi.",
+        "intro": "Hai attivato gli annunci personalizzati.",
+        "notes": "Puoi sempre abilitare il tracciamento nelle impostazioni del tuo dispositivo."
+      },
+      "intro": "Consentendo gli annunci personalizzati, beneficerai di un'esperienza pubblicitaria su misura per i tuoi interessi.",
+      "title": "Annunci Personalizzati"
     },
     "restore_premium": {
       "action": "Ripristina acquisti",
-      "description": "Se hai acquistato in precedenza la versione premium, ti consigliamo di ripristinare i tuoi acquisti per riprendere l'accesso a tutte le tue funzionalità premium.",
+      "intro": "Se hai acquistato in precedenza la versione premium, ti consigliamo di ripristinare i tuoi acquisti per riprendere l'accesso a tutte le tue funzionalità premium.",
       "notes": "Tieni presente che hai la possibilità di ripristinare i tuoi acquisti in qualsiasi momento.",
       "title": "Ripristina funzionalità premium"
     },
     "user_currency": {
       "action": "Scegli la tua valuta",
-      "description": "Seleziona la tua valuta preferita per visualizzare i prezzi nella tua valuta locale.",
+      "intro": "Seleziona la tua valuta preferita per visualizzare i prezzi nella tua valuta locale.",
       "notes": "Tieni presente che hai la possibilità di cambiare la tua valuta in qualsiasi momento nelle impostazioni.",
       "title": "Valuta"
     },
     "welcome_finance_traders": {
-      "description": "Migliora la tua strategia di trading utilizzando i nostri sofisticati strumenti di gestione del rischio per risultati ottimali.",
-      "notes": "Prendi il controllo e fai trading con tranquillità.",
+      "description": "Prendi il controllo e fai trading con tranquillità.",
+      "intro": "Migliora la tua strategia di trading utilizzando i nostri sofisticati strumenti di gestione del rischio per risultati ottimali.",
       "title": "Benvenuti, Traders"
     }
   }
