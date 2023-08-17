@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-08-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_core` - `v0.0.21`](#lingua_core---v0021)
+ - [`lingua_onboarding` - `v0.0.8`](#lingua_onboarding---v008)
+
+---
+
+#### `lingua_core` - `v0.0.21`
+
+ - **FEAT**: update localization.
+
+#### `lingua_onboarding` - `v0.0.8`
+
+ - **FEAT**: update localization.
+
+
 ## 2023-08-16
 
 ### Changes
