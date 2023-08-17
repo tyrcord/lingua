@@ -1,3 +1,7 @@
+## 0.0.10
+
+ - **FEAT**: update ad localization.
+
 ## 0.0.9
 
  - **FEAT**: update localization.

@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_ad` - `v0.0.10`](#lingua_ad---v0010)
+
+---
+
+#### `lingua_ad` - `v0.0.10`
+
+ - **FEAT**: update ad localization.
+
+
+## 2023-08-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_onboarding` - `v0.0.8+1`](#lingua_onboarding---v0081)
 
 ---
