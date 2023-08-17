@@ -22,13 +22,13 @@
       "denied": {
         "description": "We respect your choice. You will see generic ads instead.",
         "intro": "You have disabled personalized ads.",
-        "notes": "You can change this setting in your device settings."
+        "notes": "You can always enable tracking in your device settings."
       },
       "description": "We respect your privacy and commit to using your information solely for the purpose of enhancing your experience and presenting relevant advertisements.",
       "granted": {
         "description": "You will see ads tailored to your interests.",
         "intro": "You have enabled personalized ads.",
-        "notes": "You can always enable tracking in your device settings."
+        "notes": "You can change this setting in your device settings."
       },
       "intro": "By allowing personalized ads, you will benefit from an advertising experience tailored to your interests.",
       "title": "Personalized Ads"

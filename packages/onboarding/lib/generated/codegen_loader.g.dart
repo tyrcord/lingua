@@ -35,13 +35,13 @@ class OnboardingCodegenLoader extends AssetLoader {
       "denied": {
         "description": "我们尊重您的选择。您将看到通用广告。",
         "intro": "您已禁用个性化广告。",
-        "notes": "您可以随时在设备设置中更改此设置。"
+        "notes": "您可以随时在设备设置中启用跟踪。"
       },
       "description": "我们尊重您的隐私，承诺仅为了增强您的体验和展示相关广告而使用您的信息。",
       "granted": {
         "description": "您将看到针对您的兴趣进行定制的广告。",
         "intro": "您已启用个性化广告。",
-        "notes": "您可以随时在设备设置中启用跟踪。"
+        "notes": "您可以随时在设备设置中更改此设置。"
       },
       "intro": "允许个性化广告后，您将受益于针对您的兴趣进行定制的广告体验。",
       "title": "个性化广告"
@@ -89,13 +89,13 @@ static const Map<String,dynamic> ja = {
       "denied": {
         "description": "あなたの選択を尊重します。代わりに汎用的な広告を見ることになります。",
         "intro": "パーソナライズされた広告を無効にしました。",
-        "notes": "デバイスの設定でこの設定を変更することができます。"
+        "notes": "デバイスの設定でいつでもトラッキングを有効にすることができます。"
       },
       "description": "私たちはあなたのプライバシーを尊重し、体験を向上させ広告を関連性のあるものとして表示するためだけに情報を使用することを約束します。",
       "granted": {
         "description": "あなたの興味に合わせた広告を見ることができます。",
         "intro": "パーソナライズされた広告を有効にしました。",
-        "notes": "デバイスの設定でいつでもトラッキングを有効にすることができます。"
+        "notes": "デバイスの設定でこの設定を変更することができます。"
       },
       "intro": "パーソナライズされた広告を許可することで、あなたの興味に合わせた広告体験を受け取ることができます。",
       "title": "パーソナライズされた広告"
@@ -143,13 +143,13 @@ static const Map<String,dynamic> de = {
       "denied": {
         "description": "Wir respektieren Ihre Entscheidung. Sie werden stattdessen allgemeine Anzeigen sehen.",
         "intro": "Sie haben personalisierte Anzeigen deaktiviert.",
-        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+        "notes": "Sie können das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren."
       },
       "description": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Informationen ausschließlich zum Zweck der Verbesserung Ihres Erlebnisses und der Präsentation relevanter Anzeigen zu verwenden.",
       "granted": {
         "description": "Sie werden Anzeigen sehen, die auf Ihre Interessen zugeschnitten sind.",
         "intro": "Sie haben personalisierte Anzeigen aktiviert.",
-        "notes": "Sie können das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren."
+        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
       },
       "intro": "Mit personalisierten Anzeigen profitieren Sie von einem Werbeerlebnis, das auf Ihre Interessen zugeschnitten ist.",
       "title": "Personalisierte Anzeigen"
@@ -197,13 +197,13 @@ static const Map<String,dynamic> ru = {
       "denied": {
         "description": "Мы уважаем ваш выбор. Вместо этого вы увидите стандартную рекламу.",
         "intro": "Вы отключили персонализированную рекламу.",
-        "notes": "Вы можете изменить этот параметр в настройках вашего устройства."
+        "notes": "Вы всегда можете включить отслеживание в настройках вашего устройства."
       },
       "description": "Мы уважаем вашу конфиденциальность и обязуемся использовать вашу информацию только с целью улучшения вашего опыта и показа соответствующей рекламы.",
       "granted": {
         "description": "Вы будете видеть рекламу, адаптированную к вашим интересам.",
         "intro": "Вы включили персонализированную рекламу.",
-        "notes": "Вы всегда можете включить отслеживание в настройках вашего устройства."
+        "notes": "Вы можете изменить этот параметр в настройках вашего устройства."
       },
       "intro": "Разрешив персонализированную рекламу, вы получите рекламный опыт, адаптированный к вашим интересам.",
       "title": "Персонализированная реклама"
@@ -251,13 +251,13 @@ static const Map<String,dynamic> pt = {
       "denied": {
         "description": "Respeitamos sua escolha. Você verá anúncios genéricos em vez disso.",
         "intro": "Você desativou os anúncios personalizados.",
-        "notes": "Você pode alterar esta configuração nas configurações do seu dispositivo."
+        "notes": "Você sempre pode ativar o rastreamento nas configurações do seu dispositivo."
       },
       "description": "Respeitamos sua privacidade e nos comprometemos a usar suas informações apenas para melhorar sua experiência e apresentar anúncios relevantes.",
       "granted": {
         "description": "Você verá anúncios adaptados aos seus interesses.",
         "intro": "Você ativou os anúncios personalizados.",
-        "notes": "Você sempre pode ativar o rastreamento nas configurações do seu dispositivo."
+        "notes": "Você pode alterar esta configuração nas configurações do seu dispositivo."
       },
       "intro": "Ao permitir anúncios personalizados, você se beneficiará de uma experiência de publicidade adaptada aos seus interesses.",
       "title": "Anúncios Personalizados"
@@ -305,13 +305,13 @@ static const Map<String,dynamic> en = {
       "denied": {
         "description": "We respect your choice. You will see generic ads instead.",
         "intro": "You have disabled personalized ads.",
-        "notes": "You can change this setting in your device settings."
+        "notes": "You can always enable tracking in your device settings."
       },
       "description": "We respect your privacy and commit to using your information solely for the purpose of enhancing your experience and presenting relevant advertisements.",
       "granted": {
         "description": "You will see ads tailored to your interests.",
         "intro": "You have enabled personalized ads.",
-        "notes": "You can always enable tracking in your device settings."
+        "notes": "You can change this setting in your device settings."
       },
       "intro": "By allowing personalized ads, you will benefit from an advertising experience tailored to your interests.",
       "title": "Personalized Ads"
@@ -359,13 +359,13 @@ static const Map<String,dynamic> it = {
       "denied": {
         "description": "Rispettiamo la tua scelta. Vedrai annunci generici al loro posto.",
         "intro": "Hai disattivato gli annunci personalizzati.",
-        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
+        "notes": "Puoi sempre abilitare il tracciamento nelle impostazioni del tuo dispositivo."
       },
       "description": "Rispettiamo la tua privacy e ci impegniamo ad utilizzare le tue informazioni solo allo scopo di migliorare la tua esperienza e presentarti pubblicità pertinenti.",
       "granted": {
         "description": "Vedrai annunci su misura per i tuoi interessi.",
         "intro": "Hai attivato gli annunci personalizzati.",
-        "notes": "Puoi sempre abilitare il tracciamento nelle impostazioni del tuo dispositivo."
+        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
       },
       "intro": "Consentendo gli annunci personalizzati, beneficerai di un'esperienza pubblicitaria su misura per i tuoi interessi.",
       "title": "Annunci Personalizzati"
@@ -413,13 +413,13 @@ static const Map<String,dynamic> fr = {
       "denied": {
         "description": "Nous respectons votre choix. Vous verrez des publicités génériques à la place.",
         "intro": "Vous avez désactivé les publicités personnalisées.",
-        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+        "notes": "Vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
       },
       "description": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
       "granted": {
         "description": "Vous verrez des publicités adaptées à vos intérêts.",
         "intro": "Vous avez activé les publicités personnalisées.",
-        "notes": "Vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
+        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
       "intro": "En autorisant les publicités personnalisées, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
       "title": "Publicités personnalisées"
@@ -467,13 +467,13 @@ static const Map<String,dynamic> es = {
       "denied": {
         "description": "Respetamos su elección. Verá anuncios genéricos en su lugar.",
         "intro": "Ha desactivado los anuncios personalizados.",
-        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+        "notes": "Siempre puede habilitar el seguimiento en la configuración de su dispositivo."
       },
       "description": "Respetamos su privacidad y nos comprometemos a utilizar su información solo con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
       "granted": {
         "description": "Verá anuncios adaptados a sus intereses.",
         "intro": "Ha habilitado anuncios personalizados.",
-        "notes": "Siempre puede habilitar el seguimiento en la configuración de su dispositivo."
+        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
       },
       "intro": "Al permitir anuncios personalizados, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
       "title": "Anuncios Personalizados"

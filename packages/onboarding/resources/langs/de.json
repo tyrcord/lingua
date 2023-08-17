@@ -22,13 +22,13 @@
       "denied": {
         "description": "Wir respektieren Ihre Entscheidung. Sie werden stattdessen allgemeine Anzeigen sehen.",
         "intro": "Sie haben personalisierte Anzeigen deaktiviert.",
-        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+        "notes": "Sie können das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren."
       },
       "description": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Informationen ausschließlich zum Zweck der Verbesserung Ihres Erlebnisses und der Präsentation relevanter Anzeigen zu verwenden.",
       "granted": {
         "description": "Sie werden Anzeigen sehen, die auf Ihre Interessen zugeschnitten sind.",
         "intro": "Sie haben personalisierte Anzeigen aktiviert.",
-        "notes": "Sie können das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren."
+        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
       },
       "intro": "Mit personalisierten Anzeigen profitieren Sie von einem Werbeerlebnis, das auf Ihre Interessen zugeschnitten ist.",
       "title": "Personalisierte Anzeigen"

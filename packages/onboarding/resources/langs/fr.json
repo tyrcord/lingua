@@ -22,13 +22,13 @@
       "denied": {
         "description": "Nous respectons votre choix. Vous verrez des publicités génériques à la place.",
         "intro": "Vous avez désactivé les publicités personnalisées.",
-        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+        "notes": "Vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
       },
       "description": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
       "granted": {
         "description": "Vous verrez des publicités adaptées à vos intérêts.",
         "intro": "Vous avez activé les publicités personnalisées.",
-        "notes": "Vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
+        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
       "intro": "En autorisant les publicités personnalisées, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
       "title": "Publicités personnalisées"

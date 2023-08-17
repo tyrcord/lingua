@@ -22,13 +22,13 @@
       "denied": {
         "description": "Respetamos su elección. Verá anuncios genéricos en su lugar.",
         "intro": "Ha desactivado los anuncios personalizados.",
-        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+        "notes": "Siempre puede habilitar el seguimiento en la configuración de su dispositivo."
       },
       "description": "Respetamos su privacidad y nos comprometemos a utilizar su información solo con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
       "granted": {
         "description": "Verá anuncios adaptados a sus intereses.",
         "intro": "Ha habilitado anuncios personalizados.",
-        "notes": "Siempre puede habilitar el seguimiento en la configuración de su dispositivo."
+        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
       },
       "intro": "Al permitir anuncios personalizados, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
       "title": "Anuncios Personalizados"

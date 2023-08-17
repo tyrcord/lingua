@@ -22,13 +22,13 @@
       "denied": {
         "description": "Rispettiamo la tua scelta. Vedrai annunci generici al loro posto.",
         "intro": "Hai disattivato gli annunci personalizzati.",
-        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
+        "notes": "Puoi sempre abilitare il tracciamento nelle impostazioni del tuo dispositivo."
       },
       "description": "Rispettiamo la tua privacy e ci impegniamo ad utilizzare le tue informazioni solo allo scopo di migliorare la tua esperienza e presentarti pubblicità pertinenti.",
       "granted": {
         "description": "Vedrai annunci su misura per i tuoi interessi.",
         "intro": "Hai attivato gli annunci personalizzati.",
-        "notes": "Puoi sempre abilitare il tracciamento nelle impostazioni del tuo dispositivo."
+        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
       },
       "intro": "Consentendo gli annunci personalizzati, beneficerai di un'esperienza pubblicitaria su misura per i tuoi interessi.",
       "title": "Annunci Personalizzati"
