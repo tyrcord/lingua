@@ -33,6 +33,8 @@ class AdCodegenLoader extends AssetLoader {
       "discover_other_app": "看看我们的其他免费应用程序！",
       "enjoy_your_reward": "享受您的奖励！",
       "go_ad_free": "免广告体验！",
+      "lucky_you": "你真幸运！",
+      "no_ads_now": "目前没有广告。享受应用程序吧!",
       "say_goodbye_to_ads": "告别广告！",
       "watch_ad": {
         "unlock": {
@@ -66,6 +68,8 @@ static const Map<String,dynamic> ja = {
       "discover_other_app": "私たちの他の無料アプリをご覧ください！",
       "enjoy_your_reward": "ご褒美をお楽しみください！",
       "go_ad_free": "広告なしで利用する！",
+      "lucky_you": "ラッキーですね！",
+      "no_ads_now": "現在、広告はありません。アプリを楽しんでください!",
       "say_goodbye_to_ads": "広告にさようなら！",
       "watch_ad": {
         "unlock": {
@@ -99,6 +103,8 @@ static const Map<String,dynamic> de = {
       "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
       "enjoy_your_reward": "Genießen Sie Ihre Belohnung!",
       "go_ad_free": "Werbefrei erleben!",
+      "lucky_you": "Glück gehabt!",
+      "no_ads_now": "Aktuell keine Werbung. Viel Spaß mit der Anwendung!",
       "say_goodbye_to_ads": "Sagen Sie Auf Wiedersehen zu Werbung!",
       "watch_ad": {
         "unlock": {
@@ -132,6 +138,8 @@ static const Map<String,dynamic> ru = {
       "discover_other_app": "Ознакомьтесь с нашими другими бесплатными приложениями!",
       "enjoy_your_reward": "Наслаждайтесь вашей наградой!",
       "go_ad_free": "Без рекламы!",
+      "lucky_you": "Вам повезло!",
+      "no_ads_now": "Пока нет рекламы. Наслаждайтесь приложением!",
       "say_goodbye_to_ads": "Прощайте, реклама!",
       "watch_ad": {
         "unlock": {
@@ -165,6 +173,8 @@ static const Map<String,dynamic> pt = {
       "discover_other_app": "Dê uma olhada em nossos outros aplicativos gratuitos!",
       "enjoy_your_reward": "Aproveite sua recompensa!",
       "go_ad_free": "Experimente sem anúncios!",
+      "lucky_you": "Você tem sorte!",
+      "no_ads_now": "Sem anúncios por agora. Aproveite o aplicativo!",
       "say_goodbye_to_ads": "Diga adeus aos anúncios!",
       "watch_ad": {
         "unlock": {
@@ -198,6 +208,8 @@ static const Map<String,dynamic> en = {
       "discover_other_app": "Take a look at our other free apps!",
       "enjoy_your_reward": "Enjoy your reward!",
       "go_ad_free": "Go ad-free!",
+      "lucky_you": "Lucky you!",
+      "no_ads_now": "No advertisements for now. Enjoy the application!",
       "say_goodbye_to_ads": "Say goodbye to ads!",
       "watch_ad": {
         "unlock": {
@@ -231,6 +243,8 @@ static const Map<String,dynamic> it = {
       "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
       "enjoy_your_reward": "Goditi il tuo premio!",
       "go_ad_free": "Passa all'esperienza senza annunci!",
+      "lucky_you": "Sei fortunato!",
+      "no_ads_now": "Nessuna pubblicità per ora. Goditi l'applicazione!",
       "say_goodbye_to_ads": "Dì addio alla pubblicità!",
       "watch_ad": {
         "unlock": {
@@ -264,6 +278,8 @@ static const Map<String,dynamic> fr = {
       "discover_other_app": "Jetez un œil à nos autres applications gratuites!",
       "enjoy_your_reward": "Profitez de votre récompense!",
       "go_ad_free": "Profitez d'une expérience sans publicité !",
+      "lucky_you": "Vous avez de la chance!",
+      "no_ads_now": "Pas de publicités pour le moment. Profitez de l'application!",
       "say_goodbye_to_ads": "Dites adieu aux publicités !",
       "watch_ad": {
         "unlock": {
@@ -297,6 +313,8 @@ static const Map<String,dynamic> es = {
       "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
       "enjoy_your_reward": "¡Disfruta tu recompensa!",
       "go_ad_free": "Elimina los anuncios",
+      "lucky_you": "¡Qué suerte tienes!",
+      "no_ads_now": "Por ahora no hay anuncios. ¡Disfruta la aplicación!",
       "say_goodbye_to_ads": "¡Di adiós a los anuncios!",
       "watch_ad": {
         "unlock": {
