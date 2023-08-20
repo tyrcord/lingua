@@ -17,13 +17,13 @@ class OnboardingCodegenLoader extends AssetLoader {
       "action": "允许通知",
       "denied": {
         "description": "没关系！我们保证不打扰您。",
-        "intro": "您已禁用通知。",
+        "intro": "通知已被关闭。",
         "notes": "您可以随时在设备设置中启用通知。"
       },
-      "description": "我们承诺只发送对您有用和重要的通知。",
+      "description": "我们承诺只向您发送相关和有用的通知。",
       "granted": {
         "description": "您现在将从我们这里收到更新和通知。",
-        "intro": "您已启用通知。",
+        "intro": "通知已被开启。",
         "notes": "您可以在设备设置中更改此设置。"
       },
       "intro": "了解最新的更新、新闻和重要信息。",
@@ -59,8 +59,8 @@ class OnboardingCodegenLoader extends AssetLoader {
       "title": "货币"
     },
     "welcome_finance_traders": {
-      "description": "掌控局面，放心交易。",
-      "intro": "利用我们精密的风险管理工具，优化您的交易策略，实现最佳效果。",
+      "description": "掌握控制权，带着信心和安心进行交易！",
+      "intro": "使用我们的风险管理工具完善您的交易策略，以最大化您的结果。",
       "title": "欢迎，交易者"
     }
   }
@@ -71,13 +71,13 @@ static const Map<String,dynamic> ja = {
       "action": "通知を許可する",
       "denied": {
         "description": "心配無用！私たちがあなたの平和を乱すことはありません。",
-        "intro": "通知が無効になっています。",
+        "intro": "通知は無効にされました。",
         "notes": "デバイスの設定でいつでも通知を有効にすることができます。"
       },
-      "description": "役立つかつ意味のある通知のみを送信することを約束します。",
+      "description": "関連性のある有用な通知のみをお送りすることをお約束します。",
       "granted": {
         "description": "私たちからのアップデートや通知を受け取ることができます。",
-        "intro": "通知が有効になっています。",
+        "intro": "通知が有効になりました。",
         "notes": "デバイスの設定でこの設定を変更することができます。"
       },
       "intro": "最新のアップデート、ニュース、重要な情報を常に受け取れます。",
@@ -113,8 +113,8 @@ static const Map<String,dynamic> ja = {
       "title": "通貨"
     },
     "welcome_finance_traders": {
-      "description": "コントロールを取り、安心してトレードを行いましょう。",
-      "intro": "最適な結果を得るため、洗練されたリスク管理ツールを使用してトレーディング戦略を向上させます。",
+      "description": "自信を持って安心して取引を行いましょう！",
+      "intro": "リスク管理ツールを使用して取引戦略を洗練させ、結果を最大化します。",
       "title": "ようこそ、トレーダーの皆様"
     }
   }
@@ -125,13 +125,13 @@ static const Map<String,dynamic> de = {
       "action": "Benachrichtigungen zulassen",
       "denied": {
         "description": "Kein Problem! Wir werden Ihre Ruhe nicht stören.",
-        "intro": "Sie haben Benachrichtigungen deaktiviert.",
+        "intro": "Benachrichtigungen wurden deaktiviert.",
         "notes": "Sie können Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren."
       },
-      "description": "Wir verpflichten uns, Ihnen nur nützliche und bedeutende Benachrichtigungen zu senden.",
+      "description": "Wir verpflichten uns, Ihnen nur relevante und nützliche Benachrichtigungen zu senden.",
       "granted": {
         "description": "Sie erhalten jetzt Updates und Benachrichtigungen von uns.",
-        "intro": "Sie haben Benachrichtigungen aktiviert.",
+        "intro": "Benachrichtigungen wurden aktiviert.",
         "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
       },
       "intro": "Bleiben Sie informiert über die neuesten Updates, Nachrichten und wichtigen Informationen.",
@@ -167,8 +167,8 @@ static const Map<String,dynamic> de = {
       "title": "Währung"
     },
     "welcome_finance_traders": {
-      "description": "Übernehmen Sie die Kontrolle und handeln Sie mit einem beruhigten Gemüt.",
-      "intro": "Optimieren Sie Ihre Handelsstrategie mit unseren anspruchsvollen Risikomanagement-Tools für optimale Ergebnisse.",
+      "description": "Nehmen Sie die Kontrolle und handeln Sie mit Vertrauen und Ruhe!",
+      "intro": "Verfeinern Sie Ihre Handelsstrategie mit unseren Risikomanagement-Tools, um Ihre Ergebnisse zu maximieren.",
       "title": "Willkommen, Händler"
     }
   }
@@ -179,13 +179,13 @@ static const Map<String,dynamic> ru = {
       "action": "Разрешить уведомления",
       "denied": {
         "description": "Не переживайте! Мы не будем мешать вашему спокойствию.",
-        "intro": "Вы отключили уведомления.",
+        "intro": "Уведомления были отключены.",
         "notes": "Вы всегда можете включить уведомления в настройках вашего устройства."
       },
-      "description": "Мы обязуемся отправлять вам только полезные и значимые уведомления.",
+      "description": "Мы обязуемся отправлять вам только актуальные и полезные уведомления.",
       "granted": {
         "description": "Теперь вы будете получать обновления и уведомления от нас.",
-        "intro": "Вы включили уведомления.",
+        "intro": "Уведомления были включены.",
         "notes": "Вы можете изменить этот параметр в настройках вашего устройства."
       },
       "intro": "Оставайтесь в курсе последних обновлений, новостей и важной информации.",
@@ -221,8 +221,8 @@ static const Map<String,dynamic> ru = {
       "title": "Валюта"
     },
     "welcome_finance_traders": {
-      "description": "Возьмите контроль и торгуйте с уверенностью.",
-      "intro": "Улучшите свою торговую стратегию, используя наши сложные инструменты управления рисками для оптимальных результатов.",
+      "description": "Возьмите контроль и торгуйте с уверенностью и спокойствием!",
+      "intro": "Уточните вашу торговую стратегию с помощью наших инструментов управления рисками для максимизации ваших результатов.",
       "title": "Добро пожаловать, Трейдеры"
     }
   }
@@ -233,13 +233,13 @@ static const Map<String,dynamic> pt = {
       "action": "Permitir notificações",
       "denied": {
         "description": "Sem problemas! Garantimos não perturbar sua paz.",
-        "intro": "Você desativou as notificações.",
+        "intro": "As notificações foram desativadas.",
         "notes": "Você sempre pode ativar notificações nas configurações do seu dispositivo."
       },
-      "description": "Comprometemo-nos a enviar apenas notificações úteis e significativas.",
+      "description": "Comprometemo-nos a enviar-lhe apenas notificações relevantes e úteis.",
       "granted": {
         "description": "Agora você receberá atualizações e notificações de nossa parte.",
-        "intro": "Você ativou as notificações.",
+        "intro": "As notificações foram ativadas.",
         "notes": "Você pode alterar esta configuração nas configurações do seu dispositivo."
       },
       "intro": "Mantenha-se informado sobre as últimas atualizações, notícias e informações importantes.",
@@ -275,8 +275,8 @@ static const Map<String,dynamic> pt = {
       "title": "Moeda"
     },
     "welcome_finance_traders": {
-      "description": "Assuma o controle e negocie com tranquilidade.",
-      "intro": "Aprimore sua estratégia de negociação usando nossas sofisticadas ferramentas de gerenciamento de riscos para resultados ótimos.",
+      "description": "Assuma o controle e negocie com confiança e paz de espírito!",
+      "intro": "Aperfeiçoe sua estratégia de negociação com nossas ferramentas de gestão de risco para maximizar seus resultados.",
       "title": "Bem-vindos, Traders"
     }
   }
@@ -287,13 +287,13 @@ static const Map<String,dynamic> en = {
       "action": "Allow notifications",
       "denied": {
         "description": "No worries! We will ensure not to disturb your peace.",
-        "intro": "You have disabled notifications.",
+        "intro": "Notifications have been deactivated.",
         "notes": "You can always enable notifications in your device settings."
       },
-      "description": "We are committed to only sending you useful and significant notifications.",
+      "description": "We commit to sending you only relevant and useful notifications.",
       "granted": {
         "description": "You will now receive updates and notifications from us.",
-        "intro": "You have enabled notifications.",
+        "intro": "Notifications have been activated.",
         "notes": "You can change this setting in your device settings."
       },
       "intro": "Stay informed about the latest updates, news, and important information.",
@@ -329,8 +329,8 @@ static const Map<String,dynamic> en = {
       "title": "Currency"
     },
     "welcome_finance_traders": {
-      "description": "Take control and trade with peace of mind.",
-      "intro": "Enhance your trading strategy using our sophisticated risk management tools for optimal results.",
+      "description": "Take control and trade with confidence and peace of mind!",
+      "intro": "Refine your trading strategy with our risk management tools to maximize your results.",
       "title": "Welcome, Traders"
     }
   }
@@ -341,13 +341,13 @@ static const Map<String,dynamic> it = {
       "action": "Consenti notifiche",
       "denied": {
         "description": "Nessun problema! Ci assicureremo di non disturbare la tua pace.",
-        "intro": "Hai disattivato le notifiche.",
+        "intro": "Le notifiche sono state disattivate.",
         "notes": "Puoi sempre abilitare le notifiche nelle impostazioni del tuo dispositivo."
       },
-      "description": "Ci impegniamo a inviarti solo notifiche utili e significative.",
+      "description": "Ci impegniamo a inviarti solo notifiche rilevanti e utili.",
       "granted": {
         "description": "Ora riceverai aggiornamenti e notifiche da noi.",
-        "intro": "Hai attivato le notifiche.",
+        "intro": "Le notifiche sono state attivate.",
         "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
       },
       "intro": "Rimani informato sulle ultime novità, notizie e informazioni importanti.",
@@ -383,8 +383,8 @@ static const Map<String,dynamic> it = {
       "title": "Valuta"
     },
     "welcome_finance_traders": {
-      "description": "Prendi il controllo e fai trading con tranquillità.",
-      "intro": "Migliora la tua strategia di trading utilizzando i nostri sofisticati strumenti di gestione del rischio per risultati ottimali.",
+      "description": "Prendi il controllo e fai trading con fiducia e serenità!",
+      "intro": "Affina la tua strategia di trading con i nostri strumenti di gestione del rischio per massimizzare i tuoi risultati.",
       "title": "Benvenuti, Traders"
     }
   }
@@ -395,13 +395,13 @@ static const Map<String,dynamic> fr = {
       "action": "Autoriser les notifications",
       "denied": {
         "description": "Pas de problème! Nous veillerons à ne pas perturber votre tranquillité.",
-        "intro": "Vous avez désactivé les notifications.",
+        "intro": "Les notifications ont été désactivées.",
         "notes": "Vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
       },
-      "description": "Nous nous engageons à ne vous envoyer que des notifications utiles et significatives.",
+      "description": "Nous nous engageons à vous envoyer uniquement des notifications pertinentes et utiles.",
       "granted": {
         "description": "Vous recevrez désormais des mises à jour et des notifications de notre part.",
-        "intro": "Vous avez activé les notifications.",
+        "intro": "Les notifications ont été activées.",
         "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
       "intro": "Restez informé des dernières mises à jour, actualités et informations importantes.",
@@ -437,8 +437,8 @@ static const Map<String,dynamic> fr = {
       "title": "Devise"
     },
     "welcome_finance_traders": {
-      "description": "Prenez le contrôle et tradez en toute sérénité.",
-      "intro": "Optimisez votre stratégie de trading à l'aide de nos outils sophistiqués de gestion des risques pour des résultats optimaux.",
+      "description": "Prenez le contrôle et tradez avec confiance et sérénité !",
+      "intro": "Affinez votre stratégie de trading avec nos outils de gestion des risques pour maximiser vos résultats.",
       "title": "Bienvenue, Traders"
     }
   }
@@ -449,13 +449,13 @@ static const Map<String,dynamic> es = {
       "action": "Permitir notificaciones",
       "denied": {
         "description": "¡No hay problema! Nos aseguraremos de no molestar su paz.",
-        "intro": "Ha desactivado las notificaciones.",
+        "intro": "Las notificaciones han sido desactivadas.",
         "notes": "Siempre puede habilitar notificaciones en la configuración de su dispositivo."
       },
-      "description": "Nos comprometemos a enviarle únicamente notificaciones útiles y significativas.",
+      "description": "Nos comprometemos a enviarle solo notificaciones relevantes y útiles.",
       "granted": {
         "description": "Ahora recibirá actualizaciones y notificaciones de nuestra parte.",
-        "intro": "Ha habilitado las notificaciones.",
+        "intro": "Las notificaciones han sido activadas.",
         "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
       },
       "intro": "Mantente informado sobre las últimas actualizaciones, noticias e información importante.",
@@ -491,8 +491,8 @@ static const Map<String,dynamic> es = {
       "title": "Moneda"
     },
     "welcome_finance_traders": {
-      "description": "Toma el control y opera con tranquilidad.",
-      "intro": "Mejora tu estrategia de trading utilizando nuestras sofisticadas herramientas de gestión de riesgos para resultados óptimos.",
+      "description": "¡Tome el control y opere con confianza y tranquilidad!",
+      "intro": "Refine su estrategia de trading con nuestras herramientas de gestión de riesgos para maximizar sus resultados.",
       "title": "¡Bienvenidos, Traders!"
     }
   }

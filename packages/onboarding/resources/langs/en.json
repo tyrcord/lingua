@@ -4,13 +4,13 @@
       "action": "Allow notifications",
       "denied": {
         "description": "No worries! We will ensure not to disturb your peace.",
-        "intro": "You have disabled notifications.",
+        "intro": "Notifications have been deactivated.",
         "notes": "You can always enable notifications in your device settings."
       },
-      "description": "We are committed to only sending you useful and significant notifications.",
+      "description": "We commit to sending you only relevant and useful notifications.",
       "granted": {
         "description": "You will now receive updates and notifications from us.",
-        "intro": "You have enabled notifications.",
+        "intro": "Notifications have been activated.",
         "notes": "You can change this setting in your device settings."
       },
       "intro": "Stay informed about the latest updates, news, and important information.",
@@ -46,8 +46,8 @@
       "title": "Currency"
     },
     "welcome_finance_traders": {
-      "description": "Take control and trade with peace of mind.",
-      "intro": "Enhance your trading strategy using our sophisticated risk management tools for optimal results.",
+      "description": "Take control and trade with confidence and peace of mind!",
+      "intro": "Refine your trading strategy with our risk management tools to maximize your results.",
       "title": "Welcome, Traders"
     }
   }

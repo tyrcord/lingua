@@ -4,13 +4,13 @@
       "action": "Autoriser les notifications",
       "denied": {
         "description": "Pas de problème! Nous veillerons à ne pas perturber votre tranquillité.",
-        "intro": "Vous avez désactivé les notifications.",
+        "intro": "Les notifications ont été désactivées.",
         "notes": "Vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
       },
-      "description": "Nous nous engageons à ne vous envoyer que des notifications utiles et significatives.",
+      "description": "Nous nous engageons à vous envoyer uniquement des notifications pertinentes et utiles.",
       "granted": {
         "description": "Vous recevrez désormais des mises à jour et des notifications de notre part.",
-        "intro": "Vous avez activé les notifications.",
+        "intro": "Les notifications ont été activées.",
         "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
       "intro": "Restez informé des dernières mises à jour, actualités et informations importantes.",
@@ -46,8 +46,8 @@
       "title": "Devise"
     },
     "welcome_finance_traders": {
-      "description": "Prenez le contrôle et tradez en toute sérénité.",
-      "intro": "Optimisez votre stratégie de trading à l'aide de nos outils sophistiqués de gestion des risques pour des résultats optimaux.",
+      "description": "Prenez le contrôle et tradez avec confiance et sérénité !",
+      "intro": "Affinez votre stratégie de trading avec nos outils de gestion des risques pour maximiser vos résultats.",
       "title": "Bienvenue, Traders"
     }
   }

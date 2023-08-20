@@ -4,13 +4,13 @@
       "action": "Benachrichtigungen zulassen",
       "denied": {
         "description": "Kein Problem! Wir werden Ihre Ruhe nicht stören.",
-        "intro": "Sie haben Benachrichtigungen deaktiviert.",
+        "intro": "Benachrichtigungen wurden deaktiviert.",
         "notes": "Sie können Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren."
       },
-      "description": "Wir verpflichten uns, Ihnen nur nützliche und bedeutende Benachrichtigungen zu senden.",
+      "description": "Wir verpflichten uns, Ihnen nur relevante und nützliche Benachrichtigungen zu senden.",
       "granted": {
         "description": "Sie erhalten jetzt Updates und Benachrichtigungen von uns.",
-        "intro": "Sie haben Benachrichtigungen aktiviert.",
+        "intro": "Benachrichtigungen wurden aktiviert.",
         "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
       },
       "intro": "Bleiben Sie informiert über die neuesten Updates, Nachrichten und wichtigen Informationen.",
@@ -46,8 +46,8 @@
       "title": "Währung"
     },
     "welcome_finance_traders": {
-      "description": "Übernehmen Sie die Kontrolle und handeln Sie mit einem beruhigten Gemüt.",
-      "intro": "Optimieren Sie Ihre Handelsstrategie mit unseren anspruchsvollen Risikomanagement-Tools für optimale Ergebnisse.",
+      "description": "Nehmen Sie die Kontrolle und handeln Sie mit Vertrauen und Ruhe!",
+      "intro": "Verfeinern Sie Ihre Handelsstrategie mit unseren Risikomanagement-Tools, um Ihre Ergebnisse zu maximieren.",
       "title": "Willkommen, Händler"
     }
   }

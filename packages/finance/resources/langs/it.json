@@ -4,7 +4,7 @@
       "incorrect_results": "Se ritieni che i risultati siano errati, è possibile che alcuni parametri possano variare in base al tuo broker e agli strumenti finanziari che stai utilizzando. Se necessario, puoi regolare queste impostazioni nella sezione avanzata.",
       "intervening_markets": "Partecipare ai mercati finanziari comporta rischi che possono portare a perdite finanziarie. Si prega di non prendere decisioni di trading o di investimento basate esclusivamente su queste informazioni.",
       "invest_warning": "Si prega di non effettuare operazioni o investimenti basandosi unicamente su queste informazioni.",
-      "trading": "I mercati finanziari comportano rischi significativi per il tuo capitale investito. Le informazioni e i risultati forniti da questa applicazione devono essere considerati solo come un'indicazione e non costituiscono consigli o raccomandazioni. {company} declina ogni responsabilità per le perdite subite da chiunque agisca sulla base di queste informazioni o risultati."
+      "trading": "I mercati finanziari comportano rischi significativi per il tuo capitale. Le informazioni e i risultati forniti da questa applicazione sono puramente indicativi e non dovrebbero essere interpretati come consigli o raccomandazioni. Assicurati di verificare questi risultati, poiché alcuni parametri possono variare a seconda del tuo broker o degli strumenti finanziari che utilizzi, e l'applicazione potrebbe quindi generare informazioni inesatte. {company} declina ogni responsabilità per perdite subite da qualsiasi persona che agisca sulla base di queste informazioni o risultati."
     },
     "error": {
       "close_price_between_low_high_price": "Il prezzo di chiusura deve essere compreso tra il prezzo più basso e il prezzo più alto.",

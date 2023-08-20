@@ -4,13 +4,13 @@
       "action": "Consenti notifiche",
       "denied": {
         "description": "Nessun problema! Ci assicureremo di non disturbare la tua pace.",
-        "intro": "Hai disattivato le notifiche.",
+        "intro": "Le notifiche sono state disattivate.",
         "notes": "Puoi sempre abilitare le notifiche nelle impostazioni del tuo dispositivo."
       },
-      "description": "Ci impegniamo a inviarti solo notifiche utili e significative.",
+      "description": "Ci impegniamo a inviarti solo notifiche rilevanti e utili.",
       "granted": {
         "description": "Ora riceverai aggiornamenti e notifiche da noi.",
-        "intro": "Hai attivato le notifiche.",
+        "intro": "Le notifiche sono state attivate.",
         "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
       },
       "intro": "Rimani informato sulle ultime novità, notizie e informazioni importanti.",
@@ -46,8 +46,8 @@
       "title": "Valuta"
     },
     "welcome_finance_traders": {
-      "description": "Prendi il controllo e fai trading con tranquillità.",
-      "intro": "Migliora la tua strategia di trading utilizzando i nostri sofisticati strumenti di gestione del rischio per risultati ottimali.",
+      "description": "Prendi il controllo e fai trading con fiducia e serenità!",
+      "intro": "Affina la tua strategia di trading con i nostri strumenti di gestione del rischio per massimizzare i tuoi risultati.",
       "title": "Benvenuti, Traders"
     }
   }

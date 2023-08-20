@@ -4,13 +4,13 @@
       "action": "Permitir notificações",
       "denied": {
         "description": "Sem problemas! Garantimos não perturbar sua paz.",
-        "intro": "Você desativou as notificações.",
+        "intro": "As notificações foram desativadas.",
         "notes": "Você sempre pode ativar notificações nas configurações do seu dispositivo."
       },
-      "description": "Comprometemo-nos a enviar apenas notificações úteis e significativas.",
+      "description": "Comprometemo-nos a enviar-lhe apenas notificações relevantes e úteis.",
       "granted": {
         "description": "Agora você receberá atualizações e notificações de nossa parte.",
-        "intro": "Você ativou as notificações.",
+        "intro": "As notificações foram ativadas.",
         "notes": "Você pode alterar esta configuração nas configurações do seu dispositivo."
       },
       "intro": "Mantenha-se informado sobre as últimas atualizações, notícias e informações importantes.",
@@ -46,8 +46,8 @@
       "title": "Moeda"
     },
     "welcome_finance_traders": {
-      "description": "Assuma o controle e negocie com tranquilidade.",
-      "intro": "Aprimore sua estratégia de negociação usando nossas sofisticadas ferramentas de gerenciamento de riscos para resultados ótimos.",
+      "description": "Assuma o controle e negocie com confiança e paz de espírito!",
+      "intro": "Aperfeiçoe sua estratégia de negociação com nossas ferramentas de gestão de risco para maximizar seus resultados.",
       "title": "Bem-vindos, Traders"
     }
   }
