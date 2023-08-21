@@ -52,6 +52,7 @@
       "do_have_premium_version": "You don't have the premium version.",
       "enjoy_premium_version": "Thank you for choosing the premium version! Enjoy enhanced features and an ad-free experience. Your support means a lot to us!",
       "go_premium_description": "By upgrading to the premium version, you not only support ongoing development but also gain access to additional features.",
+      "require_one_time_payment": "This upgrade requires only a one-time payment, without any recurring charges.",
       "have_not_acquired_premium_version": "You haven't acquired the premium version.",
       "premium_version_restored": "Your premium features have been successfully reinstated.",
       "purchase": {

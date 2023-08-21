@@ -50,6 +50,7 @@
     },
     "message": {
       "do_have_premium_version": "Sie haben die Premium-Version nicht.",
+      "require_one_time_payment": "Dieses Upgrade erfordert nur eine einmalige Zahlung ohne wiederkehrende Gebühren.",
       "enjoy_premium_version": "Vielen Dank, dass Sie sich für die Premium-Version entschieden haben! Genießen Sie erweiterte Funktionen und ein werbefreies Erlebnis. Ihre Unterstützung bedeutet uns sehr viel!",
       "go_premium_description": "Durch ein Upgrade auf die Premium-Version unterstützen Sie nicht nur die laufende Entwicklung, sondern erhalten auch Zugriff auf zusätzliche Funktionen.",
       "have_not_acquired_premium_version": "Sie haben die Premium-Version nicht erworben.",

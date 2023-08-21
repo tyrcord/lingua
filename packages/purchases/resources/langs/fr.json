@@ -63,7 +63,8 @@
       "purchased_items": "Liste des articles achetés :",
       "purchases_restored": "Achats restaurés.",
       "thanks_purchase": "Merci pour votre achat.",
-      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."
+      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium.",
+      "require_one_time_payment": "Cette mise à niveau nécessite uniquement un paiement unique, sans frais récurrents."
     }
   }
 }

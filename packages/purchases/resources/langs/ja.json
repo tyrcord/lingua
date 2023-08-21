@@ -63,7 +63,8 @@
       "purchased_items": "購入済みアイテムのリスト：",
       "purchases_restored": "購入が復元されました。",
       "thanks_purchase": "ご購入いただきありがとうございます。",
-      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。",
+      "require_one_time_payment": "このアップグレードは、定期的な料金なしで一度だけの支払いが必要です。"
     }
   }
 }

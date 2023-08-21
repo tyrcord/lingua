@@ -3,7 +3,7 @@
     "notifications": {
       "action": "Benachrichtigungen zulassen",
       "denied": {
-        "description": "Kein Problem! Wir werden Ihre Ruhe nicht stören.",
+        "description": "Keine Sorge! Wir werden sicherstellen, dass Ihre Ruhe respektiert wird.",
         "intro": "Benachrichtigungen wurden deaktiviert.",
         "notes": "Sie können Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren."
       },

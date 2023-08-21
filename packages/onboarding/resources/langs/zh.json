@@ -3,7 +3,7 @@
     "notifications": {
       "action": "允许通知",
       "denied": {
-        "description": "没关系！我们保证不打扰您。",
+        "description": "别担心！我们会确保尊重您的宁静。",
         "intro": "通知已被关闭。",
         "notes": "您可以随时在设备设置中启用通知。"
       },

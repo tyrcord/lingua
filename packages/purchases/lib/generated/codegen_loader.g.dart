@@ -76,7 +76,8 @@ class PurchasesCodegenLoader extends AssetLoader {
       "purchased_items": "已购买项目列表：",
       "purchases_restored": "购买已恢复。",
       "thanks_purchase": "感谢您的购买。",
-      "unlock_premium_features": "享受众多高级功能。"
+      "unlock_premium_features": "享受众多高级功能。",
+      "require_one_time_payment": "此升级只需要一次性付款，无需任何定期费用。"
     }
   }
 };
@@ -145,7 +146,8 @@ static const Map<String,dynamic> ja = {
       "purchased_items": "購入済みアイテムのリスト：",
       "purchases_restored": "購入が復元されました。",
       "thanks_purchase": "ご購入いただきありがとうございます。",
-      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。",
+      "require_one_time_payment": "このアップグレードは、定期的な料金なしで一度だけの支払いが必要です。"
     }
   }
 };
@@ -201,6 +203,7 @@ static const Map<String,dynamic> de = {
     },
     "message": {
       "do_have_premium_version": "Sie haben die Premium-Version nicht.",
+      "require_one_time_payment": "Dieses Upgrade erfordert nur eine einmalige Zahlung ohne wiederkehrende Gebühren.",
       "enjoy_premium_version": "Vielen Dank, dass Sie sich für die Premium-Version entschieden haben! Genießen Sie erweiterte Funktionen und ein werbefreies Erlebnis. Ihre Unterstützung bedeutet uns sehr viel!",
       "go_premium_description": "Durch ein Upgrade auf die Premium-Version unterstützen Sie nicht nur die laufende Entwicklung, sondern erhalten auch Zugriff auf zusätzliche Funktionen.",
       "have_not_acquired_premium_version": "Sie haben die Premium-Version nicht erworben.",
@@ -283,7 +286,8 @@ static const Map<String,dynamic> ru = {
       "purchased_items": "Список приобретенных товаров:",
       "purchases_restored": "Покупки восстановлены.",
       "thanks_purchase": "Спасибо за покупку.",
-      "unlock_premium_features": "Получите доступ к множеству функций Премиум."
+      "unlock_premium_features": "Получите доступ к множеству функций Премиум.",
+      "require_one_time_payment": "Это обновление требует только одноразового платежа, без повторяющихся сборов."
     }
   }
 };
@@ -352,7 +356,8 @@ static const Map<String,dynamic> pt = {
       "purchased_items": "Lista de itens comprados:",
       "purchases_restored": "Compras restauradas.",
       "thanks_purchase": "Obrigado por sua compra.",
-      "unlock_premium_features": "Acesse uma variedade de recursos Premium."
+      "unlock_premium_features": "Acesse uma variedade de recursos Premium.",
+      "require_one_time_payment": "Esta atualização requer apenas um pagamento único, sem quaisquer encargos recorrentes."
     }
   }
 };
@@ -410,6 +415,7 @@ static const Map<String,dynamic> en = {
       "do_have_premium_version": "You don't have the premium version.",
       "enjoy_premium_version": "Thank you for choosing the premium version! Enjoy enhanced features and an ad-free experience. Your support means a lot to us!",
       "go_premium_description": "By upgrading to the premium version, you not only support ongoing development but also gain access to additional features.",
+      "require_one_time_payment": "This upgrade requires only a one-time payment, without any recurring charges.",
       "have_not_acquired_premium_version": "You haven't acquired the premium version.",
       "premium_version_restored": "Your premium features have been successfully reinstated.",
       "purchase": {
@@ -490,7 +496,8 @@ static const Map<String,dynamic> it = {
       "purchased_items": "Elenco degli articoli acquistati:",
       "purchases_restored": "Acquisti ripristinati.",
       "thanks_purchase": "Grazie per il tuo acquisto.",
-      "unlock_premium_features": "Accedi a una serie di funzionalità Premium."
+      "unlock_premium_features": "Accedi a una serie di funzionalità Premium.",
+      "require_one_time_payment": "Questo aggiornamento richiede solo un pagamento una tantum, senza alcun costo ricorrente."
     }
   }
 };
@@ -559,7 +566,8 @@ static const Map<String,dynamic> fr = {
       "purchased_items": "Liste des articles achetés :",
       "purchases_restored": "Achats restaurés.",
       "thanks_purchase": "Merci pour votre achat.",
-      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."
+      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium.",
+      "require_one_time_payment": "Cette mise à niveau nécessite uniquement un paiement unique, sans frais récurrents."
     }
   }
 };
@@ -614,6 +622,7 @@ static const Map<String,dynamic> es = {
       "restore_purchases": "Restaurar compras"
     },
     "message": {
+      "require_one_time_payment": "Esta actualización requiere solo un pago único, sin cargos recurrentes.",
       "do_have_premium_version": "No tiene la versión premium.",
       "enjoy_premium_version": "¡Gracias por elegir la versión premium! Disfruta de funciones mejoradas y una experiencia sin anuncios. ¡Tu apoyo significa mucho para nosotros!",
       "go_premium_description": "Al actualizar a la versión Premium, no solo apoyas el desarrollo continuo, sino que también obtienes acceso a funciones adicionales.",

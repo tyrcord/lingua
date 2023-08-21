@@ -3,7 +3,7 @@
     "notifications": {
       "action": "Permitir notificaciones",
       "denied": {
-        "description": "¡No hay problema! Nos aseguraremos de no molestar su paz.",
+        "description": "¡No te preocupes! Nos aseguraremos de respetar tu tranquilidad.",
         "intro": "Las notificaciones han sido desactivadas.",
         "notes": "Siempre puede habilitar notificaciones en la configuración de su dispositivo."
       },

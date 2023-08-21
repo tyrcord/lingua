@@ -16,7 +16,7 @@ class OnboardingCodegenLoader extends AssetLoader {
     "notifications": {
       "action": "允许通知",
       "denied": {
-        "description": "没关系！我们保证不打扰您。",
+        "description": "别担心！我们会确保尊重您的宁静。",
         "intro": "通知已被关闭。",
         "notes": "您可以随时在设备设置中启用通知。"
       },
@@ -70,7 +70,7 @@ static const Map<String,dynamic> ja = {
     "notifications": {
       "action": "通知を許可する",
       "denied": {
-        "description": "心配無用！私たちがあなたの平和を乱すことはありません。",
+        "description": "心配いりません！私たちはあなたの静けさを尊重することを確認します。",
         "intro": "通知は無効にされました。",
         "notes": "デバイスの設定でいつでも通知を有効にすることができます。"
       },
@@ -124,7 +124,7 @@ static const Map<String,dynamic> de = {
     "notifications": {
       "action": "Benachrichtigungen zulassen",
       "denied": {
-        "description": "Kein Problem! Wir werden Ihre Ruhe nicht stören.",
+        "description": "Keine Sorge! Wir werden sicherstellen, dass Ihre Ruhe respektiert wird.",
         "intro": "Benachrichtigungen wurden deaktiviert.",
         "notes": "Sie können Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren."
       },
@@ -178,7 +178,7 @@ static const Map<String,dynamic> ru = {
     "notifications": {
       "action": "Разрешить уведомления",
       "denied": {
-        "description": "Не переживайте! Мы не будем мешать вашему спокойствию.",
+        "description": "Не волнуйтесь! Мы убедимся, что уважаем ваше спокойствие.",
         "intro": "Уведомления были отключены.",
         "notes": "Вы всегда можете включить уведомления в настройках вашего устройства."
       },
@@ -232,7 +232,7 @@ static const Map<String,dynamic> pt = {
     "notifications": {
       "action": "Permitir notificações",
       "denied": {
-        "description": "Sem problemas! Garantimos não perturbar sua paz.",
+        "description": "Sem preocupações! Vamos garantir que respeitamos a sua tranquilidade.",
         "intro": "As notificações foram desativadas.",
         "notes": "Você sempre pode ativar notificações nas configurações do seu dispositivo."
       },
@@ -286,7 +286,7 @@ static const Map<String,dynamic> en = {
     "notifications": {
       "action": "Allow notifications",
       "denied": {
-        "description": "No worries! We will ensure not to disturb your peace.",
+        "description": "No worries! We will make sure to respect your tranquility.",
         "intro": "Notifications have been deactivated.",
         "notes": "You can always enable notifications in your device settings."
       },
@@ -330,7 +330,7 @@ static const Map<String,dynamic> en = {
     },
     "welcome_finance_traders": {
       "description": "Take control and trade with confidence and peace of mind!",
-      "intro": "Refine your trading strategy with our risk management tools to maximize your results.",
+      "intro": "Improve your trading strategy with our risk management tools to maximize your results.",
       "title": "Welcome, Traders"
     }
   }
@@ -340,7 +340,7 @@ static const Map<String,dynamic> it = {
     "notifications": {
       "action": "Consenti notifiche",
       "denied": {
-        "description": "Nessun problema! Ci assicureremo di non disturbare la tua pace.",
+        "description": "Nessun problema! Ci assicureremo di rispettare la tua tranquillità.",
         "intro": "Le notifiche sono state disattivate.",
         "notes": "Puoi sempre abilitare le notifiche nelle impostazioni del tuo dispositivo."
       },
@@ -448,7 +448,7 @@ static const Map<String,dynamic> es = {
     "notifications": {
       "action": "Permitir notificaciones",
       "denied": {
-        "description": "¡No hay problema! Nos aseguraremos de no molestar su paz.",
+        "description": "¡No te preocupes! Nos aseguraremos de respetar tu tranquilidad.",
         "intro": "Las notificaciones han sido desactivadas.",
         "notes": "Siempre puede habilitar notificaciones en la configuración de su dispositivo."
       },
