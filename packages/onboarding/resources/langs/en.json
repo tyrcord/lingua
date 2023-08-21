@@ -4,31 +4,31 @@
       "action": "Allow notifications",
       "denied": {
         "description": "No worries! We will make sure to respect your tranquility.",
-        "intro": "Notifications have been deactivated.",
-        "notes": "You can always enable notifications in your device settings."
+        "intro": "Notifications have been disabled.",
+        "notes": "Please note that you can always enable notifications in your device settings."
       },
       "description": "We commit to sending you only relevant and useful notifications.",
       "granted": {
         "description": "You will now receive updates and notifications from us.",
-        "intro": "Notifications have been activated.",
-        "notes": "You can change this setting in your device settings."
+        "intro": "Notifications have been enabled.",
+        "notes": "Please note that you can change this setting in your device settings."
       },
       "intro": "Stay informed about the latest updates, news, and important information.",
-      "notes": "You have the option to change your notification preferences at any time in your device settings.",
+      "notes": "Please note that you have the option to change your notification preferences at any time in your device settings.",
       "title": "Notifications"
     },
     "personalized_ads": {
       "action": "Enable personalized ads",
       "denied": {
         "description": "We respect your choice. You will see generic ads instead.",
-        "intro": "You have disabled personalized ads.",
-        "notes": "You can always enable tracking in your device settings."
+        "intro": "Personalized ads have been disabled.",
+        "notes": "Please note that you can always enable tracking in your device settings."
       },
       "description": "We respect your privacy and commit to using your information solely for the purpose of enhancing your experience and presenting relevant advertisements.",
       "granted": {
         "description": "You will see ads tailored to your interests.",
-        "intro": "You have enabled personalized ads.",
-        "notes": "You can change this setting in your device settings."
+        "intro": "Personalized ads have enabled.",
+        "notes": "Please note that you can change this setting in your device settings."
       },
       "intro": "By allowing personalized ads, you will benefit from an advertising experience tailored to your interests.",
       "title": "Personalized Ads"

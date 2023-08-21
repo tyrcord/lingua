@@ -17,31 +17,31 @@ class OnboardingCodegenLoader extends AssetLoader {
       "action": "允许通知",
       "denied": {
         "description": "别担心！我们会确保尊重您的宁静。",
-        "intro": "通知已被关闭。",
-        "notes": "您可以随时在设备设置中启用通知。"
+        "intro": "通知已被禁用。",
+        "notes": "请注意，您可以随时在设备设置中启用通知。"
       },
       "description": "我们承诺只向您发送相关和有用的通知。",
       "granted": {
         "description": "您现在将从我们这里收到更新和通知。",
-        "intro": "通知已被开启。",
-        "notes": "您可以在设备设置中更改此设置。"
+        "intro": "通知已被启用。",
+        "notes": "请注意，您可以在设备设置中更改此设置。"
       },
       "intro": "了解最新的更新、新闻和重要信息。",
-      "notes": "您可以随时在设备设置中更改您的通知偏好设置。",
+      "notes": "请注意，您可以随时在设备设置中更改通知首选项。",
       "title": "通知"
     },
     "personalized_ads": {
       "action": "启用个性化广告",
       "denied": {
         "description": "我们尊重您的选择。您将看到通用广告。",
-        "intro": "您已禁用个性化广告。",
-        "notes": "您可以随时在设备设置中启用跟踪。"
+        "intro": "个性化广告已被禁用。",
+        "notes": "请注意，您随时可以在设备设置中启用跟踪。"
       },
       "description": "我们尊重您的隐私，承诺仅为了增强您的体验和展示相关广告而使用您的信息。",
       "granted": {
         "description": "您将看到针对您的兴趣进行定制的广告。",
-        "intro": "您已启用个性化广告。",
-        "notes": "您可以随时在设备设置中更改此设置。"
+        "intro": "个性化广告已启用。",
+        "notes": "请注意，您可以随时在设备设置中更改此设置。"
       },
       "intro": "允许个性化广告后，您将受益于针对您的兴趣进行定制的广告体验。",
       "title": "个性化广告"
@@ -71,31 +71,31 @@ static const Map<String,dynamic> ja = {
       "action": "通知を許可する",
       "denied": {
         "description": "心配いりません！私たちはあなたの静けさを尊重することを確認します。",
-        "intro": "通知は無効にされました。",
-        "notes": "デバイスの設定でいつでも通知を有効にすることができます。"
+        "intro": "通知が無効になりました。",
+        "notes": "デバイスの設定でいつでも通知を有効にできることをご注意ください。"
       },
       "description": "関連性のある有用な通知のみをお送りすることをお約束します。",
       "granted": {
         "description": "私たちからのアップデートや通知を受け取ることができます。",
         "intro": "通知が有効になりました。",
-        "notes": "デバイスの設定でこの設定を変更することができます。"
+        "notes": "デバイスの設定でこの設定を変更できることをご注意ください。"
       },
       "intro": "最新のアップデート、ニュース、重要な情報を常に受け取れます。",
-      "notes": "デバイスの設定でいつでも通知の設定を変更することができます。",
+      "notes": "デバイスの設定で通知の設定をいつでも変更できることをご注意ください。",
       "title": "通知"
     },
     "personalized_ads": {
       "action": "パーソナライズされた広告を有効にする",
       "denied": {
         "description": "あなたの選択を尊重します。代わりに汎用的な広告を見ることになります。",
-        "intro": "パーソナライズされた広告を無効にしました。",
-        "notes": "デバイスの設定でいつでもトラッキングを有効にすることができます。"
+        "intro": "パーソナライズされた広告は無効にされました。",
+        "notes": "デバイスの設定でいつでもトラッキングを有効にすることができることをご注意ください。"
       },
       "description": "私たちはあなたのプライバシーを尊重し、体験を向上させ広告を関連性のあるものとして表示するためだけに情報を使用することを約束します。",
       "granted": {
         "description": "あなたの興味に合わせた広告を見ることができます。",
-        "intro": "パーソナライズされた広告を有効にしました。",
-        "notes": "デバイスの設定でこの設定を変更することができます。"
+        "intro": "パーソナライズされた広告が有効にされました。",
+        "notes": "デバイスの設定でこの設定を変更することができることをご注意ください。"
       },
       "intro": "パーソナライズされた広告を許可することで、あなたの興味に合わせた広告体験を受け取ることができます。",
       "title": "パーソナライズされた広告"
@@ -126,30 +126,30 @@ static const Map<String,dynamic> de = {
       "denied": {
         "description": "Keine Sorge! Wir werden sicherstellen, dass Ihre Ruhe respektiert wird.",
         "intro": "Benachrichtigungen wurden deaktiviert.",
-        "notes": "Sie können Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren."
+        "notes": "Bitte beachten Sie, dass Sie Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren können."
       },
       "description": "Wir verpflichten uns, Ihnen nur relevante und nützliche Benachrichtigungen zu senden.",
       "granted": {
         "description": "Sie erhalten jetzt Updates und Benachrichtigungen von uns.",
         "intro": "Benachrichtigungen wurden aktiviert.",
-        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
       },
       "intro": "Bleiben Sie informiert über die neuesten Updates, Nachrichten und wichtigen Informationen.",
-      "notes": "Sie haben jederzeit die Möglichkeit, Ihre Benachrichtigungseinstellungen in Ihren Geräteeinstellungen zu ändern.",
+      "notes": "Bitte beachten Sie, dass Sie Ihre Benachrichtigungspräferenzen jederzeit in Ihren Geräteeinstellungen ändern können.",
       "title": "Benachrichtigungen"
     },
     "personalized_ads": {
       "action": "Personalisierte Anzeigen aktivieren",
       "denied": {
         "description": "Wir respektieren Ihre Entscheidung. Sie werden stattdessen allgemeine Anzeigen sehen.",
-        "intro": "Sie haben personalisierte Anzeigen deaktiviert.",
-        "notes": "Sie können das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren."
+        "intro": "Personalisierte Werbung wurde deaktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren können."
       },
       "description": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Informationen ausschließlich zum Zweck der Verbesserung Ihres Erlebnisses und der Präsentation relevanter Anzeigen zu verwenden.",
       "granted": {
         "description": "Sie werden Anzeigen sehen, die auf Ihre Interessen zugeschnitten sind.",
-        "intro": "Sie haben personalisierte Anzeigen aktiviert.",
-        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+        "intro": "Personalisierte Werbung wurde aktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
       },
       "intro": "Mit personalisierten Anzeigen profitieren Sie von einem Werbeerlebnis, das auf Ihre Interessen zugeschnitten ist.",
       "title": "Personalisierte Anzeigen"
@@ -179,31 +179,31 @@ static const Map<String,dynamic> ru = {
       "action": "Разрешить уведомления",
       "denied": {
         "description": "Не волнуйтесь! Мы убедимся, что уважаем ваше спокойствие.",
-        "intro": "Уведомления были отключены.",
-        "notes": "Вы всегда можете включить уведомления в настройках вашего устройства."
+        "intro": "Уведомления отключены.",
+        "notes": "Пожалуйста, обратите внимание, что вы всегда можете включить уведомления в настройках вашего устройства."
       },
       "description": "Мы обязуемся отправлять вам только актуальные и полезные уведомления.",
       "granted": {
         "description": "Теперь вы будете получать обновления и уведомления от нас.",
-        "intro": "Уведомления были включены.",
-        "notes": "Вы можете изменить этот параметр в настройках вашего устройства."
+        "intro": "Уведомления включены.",
+        "notes": "Обратите внимание, что вы можете изменить эту настройку в параметрах вашего устройства."
       },
       "intro": "Оставайтесь в курсе последних обновлений, новостей и важной информации.",
-      "notes": "Вы можете изменить свои предпочтения по уведомлениям в любое время в настройках вашего устройства.",
+      "notes": "Пожалуйста, обратите внимание, что вы можете изменить ваши настройки уведомлений в любое время в настройках вашего устройства.",
       "title": "Уведомления"
     },
     "personalized_ads": {
       "action": "Включить персонализированную рекламу",
       "denied": {
         "description": "Мы уважаем ваш выбор. Вместо этого вы увидите стандартную рекламу.",
-        "intro": "Вы отключили персонализированную рекламу.",
-        "notes": "Вы всегда можете включить отслеживание в настройках вашего устройства."
+        "intro": "Персонализированная реклама была отключена.",
+        "notes": "Обратите внимание, что вы всегда можете включить отслеживание в настройках вашего устройства."
       },
       "description": "Мы уважаем вашу конфиденциальность и обязуемся использовать вашу информацию только с целью улучшения вашего опыта и показа соответствующей рекламы.",
       "granted": {
         "description": "Вы будете видеть рекламу, адаптированную к вашим интересам.",
-        "intro": "Вы включили персонализированную рекламу.",
-        "notes": "Вы можете изменить этот параметр в настройках вашего устройства."
+        "intro": "Персонализированная реклама была включена.",
+        "notes": "Обратите внимание, что вы можете изменить этот параметр в настройках вашего устройства."
       },
       "intro": "Разрешив персонализированную рекламу, вы получите рекламный опыт, адаптированный к вашим интересам.",
       "title": "Персонализированная реклама"
@@ -233,31 +233,31 @@ static const Map<String,dynamic> pt = {
       "action": "Permitir notificações",
       "denied": {
         "description": "Sem preocupações! Vamos garantir que respeitamos a sua tranquilidade.",
-        "intro": "As notificações foram desativadas.",
-        "notes": "Você sempre pode ativar notificações nas configurações do seu dispositivo."
+        "intro": "Notificações foram desativadas.",
+        "notes": "Lembre-se de que você sempre pode ativar as notificações nas configurações do seu dispositivo."
       },
       "description": "Comprometemo-nos a enviar-lhe apenas notificações relevantes e úteis.",
       "granted": {
         "description": "Agora você receberá atualizações e notificações de nossa parte.",
-        "intro": "As notificações foram ativadas.",
-        "notes": "Você pode alterar esta configuração nas configurações do seu dispositivo."
+        "intro": "Notificações foram ativadas.",
+        "notes": "Por favor, note que você pode alterar esta configuração nas definições do seu dispositivo."
       },
       "intro": "Mantenha-se informado sobre as últimas atualizações, notícias e informações importantes.",
-      "notes": "Você tem a opção de alterar suas preferências de notificação a qualquer momento nas configurações do seu dispositivo.",
+      "notes": "Lembre-se de que você tem a opção de alterar suas preferências de notificação a qualquer momento nas configurações do seu dispositivo.",
       "title": "Notificações"
     },
     "personalized_ads": {
       "action": "Ativar anúncios personalizados",
       "denied": {
         "description": "Respeitamos sua escolha. Você verá anúncios genéricos em vez disso.",
-        "intro": "Você desativou os anúncios personalizados.",
-        "notes": "Você sempre pode ativar o rastreamento nas configurações do seu dispositivo."
+        "intro": "Anúncios personalizados foram desativados.",
+        "notes": "Lembre-se de que você sempre pode habilitar o rastreamento nas configurações do seu dispositivo."
       },
       "description": "Respeitamos sua privacidade e nos comprometemos a usar suas informações apenas para melhorar sua experiência e apresentar anúncios relevantes.",
       "granted": {
         "description": "Você verá anúncios adaptados aos seus interesses.",
-        "intro": "Você ativou os anúncios personalizados.",
-        "notes": "Você pode alterar esta configuração nas configurações do seu dispositivo."
+        "intro": "Anúncios personalizados foram ativados.",
+        "notes": "Por favor, note que você pode alterar esta configuração nas definições do seu dispositivo."
       },
       "intro": "Ao permitir anúncios personalizados, você se beneficiará de uma experiência de publicidade adaptada aos seus interesses.",
       "title": "Anúncios Personalizados"
@@ -287,31 +287,31 @@ static const Map<String,dynamic> en = {
       "action": "Allow notifications",
       "denied": {
         "description": "No worries! We will make sure to respect your tranquility.",
-        "intro": "Notifications have been deactivated.",
-        "notes": "You can always enable notifications in your device settings."
+        "intro": "Notifications have been disabled.",
+        "notes": "Please note that you can always enable notifications in your device settings."
       },
       "description": "We commit to sending you only relevant and useful notifications.",
       "granted": {
         "description": "You will now receive updates and notifications from us.",
-        "intro": "Notifications have been activated.",
-        "notes": "You can change this setting in your device settings."
+        "intro": "Notifications have been enabled.",
+        "notes": "Please note that you can change this setting in your device settings."
       },
       "intro": "Stay informed about the latest updates, news, and important information.",
-      "notes": "You have the option to change your notification preferences at any time in your device settings.",
+      "notes": "Please note that you have the option to change your notification preferences at any time in your device settings.",
       "title": "Notifications"
     },
     "personalized_ads": {
       "action": "Enable personalized ads",
       "denied": {
         "description": "We respect your choice. You will see generic ads instead.",
-        "intro": "You have disabled personalized ads.",
-        "notes": "You can always enable tracking in your device settings."
+        "intro": "Personalized ads have been disabled.",
+        "notes": "Please note that you can always enable tracking in your device settings."
       },
       "description": "We respect your privacy and commit to using your information solely for the purpose of enhancing your experience and presenting relevant advertisements.",
       "granted": {
         "description": "You will see ads tailored to your interests.",
-        "intro": "You have enabled personalized ads.",
-        "notes": "You can change this setting in your device settings."
+        "intro": "Personalized ads have enabled.",
+        "notes": "Please note that you can change this setting in your device settings."
       },
       "intro": "By allowing personalized ads, you will benefit from an advertising experience tailored to your interests.",
       "title": "Personalized Ads"
@@ -342,30 +342,30 @@ static const Map<String,dynamic> it = {
       "denied": {
         "description": "Nessun problema! Ci assicureremo di rispettare la tua tranquillità.",
         "intro": "Le notifiche sono state disattivate.",
-        "notes": "Puoi sempre abilitare le notifiche nelle impostazioni del tuo dispositivo."
+        "notes": "Ricorda che puoi sempre abilitare le notifiche nelle impostazioni del tuo dispositivo."
       },
       "description": "Ci impegniamo a inviarti solo notifiche rilevanti e utili.",
       "granted": {
         "description": "Ora riceverai aggiornamenti e notifiche da noi.",
         "intro": "Le notifiche sono state attivate.",
-        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
+        "notes": "Ricorda che puoi modificare questa impostazione nelle opzioni del tuo dispositivo."
       },
       "intro": "Rimani informato sulle ultime novità, notizie e informazioni importanti.",
-      "notes": "Hai l'opzione di modificare le tue preferenze di notifica in qualsiasi momento nelle impostazioni del tuo dispositivo.",
+      "notes": "Ti preghiamo di notare che hai l'opzione di cambiare le tue preferenze di notifica in qualsiasi momento nelle impostazioni del tuo dispositivo.",
       "title": "Notifiche"
     },
     "personalized_ads": {
       "action": "Abilita annunci personalizzati",
       "denied": {
         "description": "Rispettiamo la tua scelta. Vedrai annunci generici al loro posto.",
-        "intro": "Hai disattivato gli annunci personalizzati.",
-        "notes": "Puoi sempre abilitare il tracciamento nelle impostazioni del tuo dispositivo."
+        "intro": "Gli annunci personalizzati sono stati disabilitati.",
+        "notes": "Si prega di notare che è sempre possibile abilitare il tracciamento nelle impostazioni del dispositivo."
       },
       "description": "Rispettiamo la tua privacy e ci impegniamo ad utilizzare le tue informazioni solo allo scopo di migliorare la tua esperienza e presentarti pubblicità pertinenti.",
       "granted": {
         "description": "Vedrai annunci su misura per i tuoi interessi.",
-        "intro": "Hai attivato gli annunci personalizzati.",
-        "notes": "Puoi modificare questa impostazione nelle impostazioni del tuo dispositivo."
+        "intro": "Gli annunci personalizzati sono stati abilitati.",
+        "notes": "Si prega di notare che è possibile modificare questa impostazione nelle opzioni del dispositivo."
       },
       "intro": "Consentendo gli annunci personalizzati, beneficerai di un'esperienza pubblicitaria su misura per i tuoi interessi.",
       "title": "Annunci Personalizzati"
@@ -396,30 +396,30 @@ static const Map<String,dynamic> fr = {
       "denied": {
         "description": "Pas de problème! Nous veillerons à ne pas perturber votre tranquillité.",
         "intro": "Les notifications ont été désactivées.",
-        "notes": "Vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
+        "notes": "Veuillez noter que vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
       },
       "description": "Nous nous engageons à vous envoyer uniquement des notifications pertinentes et utiles.",
       "granted": {
         "description": "Vous recevrez désormais des mises à jour et des notifications de notre part.",
         "intro": "Les notifications ont été activées.",
-        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+        "notes": "Veuillez noter que vous pouvez modifier ce réglage dans les paramètres de votre appareil."
       },
       "intro": "Restez informé des dernières mises à jour, actualités et informations importantes.",
-      "notes": "Vous avez la possibilité de modifier vos préférences de notification à tout moment dans les paramètres de votre appareil.",
+      "notes": "Veuillez noter que vous avez la possibilité de modifier vos préférences de notification à tout moment dans les paramètres de votre appareil.",
       "title": "Notifications"
     },
     "personalized_ads": {
       "action": "Activer les publicités personnalisées",
       "denied": {
         "description": "Nous respectons votre choix. Vous verrez des publicités génériques à la place.",
-        "intro": "Vous avez désactivé les publicités personnalisées.",
-        "notes": "Vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
+        "intro": "Les publicités personnalisées ont été désactivées.",
+        "notes": "Veuillez noter que vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
       },
       "description": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
       "granted": {
         "description": "Vous verrez des publicités adaptées à vos intérêts.",
-        "intro": "Vous avez activé les publicités personnalisées.",
-        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+        "intro": "Les annonces personnalisées ont été activées.",
+        "notes": "Veuillez noter que vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
       "intro": "En autorisant les publicités personnalisées, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
       "title": "Publicités personnalisées"
@@ -450,30 +450,30 @@ static const Map<String,dynamic> es = {
       "denied": {
         "description": "¡No te preocupes! Nos aseguraremos de respetar tu tranquilidad.",
         "intro": "Las notificaciones han sido desactivadas.",
-        "notes": "Siempre puede habilitar notificaciones en la configuración de su dispositivo."
+        "notes": "Recuerda que siempre puedes activar las notificaciones en la configuración de tu dispositivo."
       },
       "description": "Nos comprometemos a enviarle solo notificaciones relevantes y útiles.",
       "granted": {
         "description": "Ahora recibirá actualizaciones y notificaciones de nuestra parte.",
         "intro": "Las notificaciones han sido activadas.",
-        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
       },
       "intro": "Mantente informado sobre las últimas actualizaciones, noticias e información importante.",
-      "notes": "Tiene la opción de cambiar sus preferencias de notificación en cualquier momento en la configuración de su dispositivo.",
+      "notes": "Por favor, ten en cuenta que puedes cambiar tus preferencias de notificación en cualquier momento en la configuración de tu dispositivo.",
       "title": "Notificaciones"
     },
     "personalized_ads": {
       "action": "Habilitar anuncios personalizados",
       "denied": {
         "description": "Respetamos su elección. Verá anuncios genéricos en su lugar.",
-        "intro": "Ha desactivado los anuncios personalizados.",
-        "notes": "Siempre puede habilitar el seguimiento en la configuración de su dispositivo."
+        "intro": "Los anuncios personalizados han sido desactivados.",
+        "notes": "Recuerda que siempre puedes habilitar el seguimiento en la configuración de tu dispositivo."
       },
       "description": "Respetamos su privacidad y nos comprometemos a utilizar su información solo con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
       "granted": {
         "description": "Verá anuncios adaptados a sus intereses.",
-        "intro": "Ha habilitado anuncios personalizados.",
-        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+        "intro": "Los anuncios personalizados han sido activados.",
+        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
       },
       "intro": "Al permitir anuncios personalizados, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
       "title": "Anuncios Personalizados"

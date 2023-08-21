@@ -5,30 +5,30 @@
       "denied": {
         "description": "¡No te preocupes! Nos aseguraremos de respetar tu tranquilidad.",
         "intro": "Las notificaciones han sido desactivadas.",
-        "notes": "Siempre puede habilitar notificaciones en la configuración de su dispositivo."
+        "notes": "Recuerda que siempre puedes activar las notificaciones en la configuración de tu dispositivo."
       },
       "description": "Nos comprometemos a enviarle solo notificaciones relevantes y útiles.",
       "granted": {
         "description": "Ahora recibirá actualizaciones y notificaciones de nuestra parte.",
         "intro": "Las notificaciones han sido activadas.",
-        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
       },
       "intro": "Mantente informado sobre las últimas actualizaciones, noticias e información importante.",
-      "notes": "Tiene la opción de cambiar sus preferencias de notificación en cualquier momento en la configuración de su dispositivo.",
+      "notes": "Por favor, ten en cuenta que puedes cambiar tus preferencias de notificación en cualquier momento en la configuración de tu dispositivo.",
       "title": "Notificaciones"
     },
     "personalized_ads": {
       "action": "Habilitar anuncios personalizados",
       "denied": {
         "description": "Respetamos su elección. Verá anuncios genéricos en su lugar.",
-        "intro": "Ha desactivado los anuncios personalizados.",
-        "notes": "Siempre puede habilitar el seguimiento en la configuración de su dispositivo."
+        "intro": "Los anuncios personalizados han sido desactivados.",
+        "notes": "Recuerda que siempre puedes habilitar el seguimiento en la configuración de tu dispositivo."
       },
       "description": "Respetamos su privacidad y nos comprometemos a utilizar su información solo con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
       "granted": {
         "description": "Verá anuncios adaptados a sus intereses.",
-        "intro": "Ha habilitado anuncios personalizados.",
-        "notes": "Puede cambiar esta configuración en la configuración de su dispositivo."
+        "intro": "Los anuncios personalizados han sido activados.",
+        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
       },
       "intro": "Al permitir anuncios personalizados, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
       "title": "Anuncios Personalizados"

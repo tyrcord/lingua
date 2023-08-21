@@ -5,30 +5,30 @@
       "denied": {
         "description": "Keine Sorge! Wir werden sicherstellen, dass Ihre Ruhe respektiert wird.",
         "intro": "Benachrichtigungen wurden deaktiviert.",
-        "notes": "Sie können Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren."
+        "notes": "Bitte beachten Sie, dass Sie Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren können."
       },
       "description": "Wir verpflichten uns, Ihnen nur relevante und nützliche Benachrichtigungen zu senden.",
       "granted": {
         "description": "Sie erhalten jetzt Updates und Benachrichtigungen von uns.",
         "intro": "Benachrichtigungen wurden aktiviert.",
-        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
       },
       "intro": "Bleiben Sie informiert über die neuesten Updates, Nachrichten und wichtigen Informationen.",
-      "notes": "Sie haben jederzeit die Möglichkeit, Ihre Benachrichtigungseinstellungen in Ihren Geräteeinstellungen zu ändern.",
+      "notes": "Bitte beachten Sie, dass Sie Ihre Benachrichtigungspräferenzen jederzeit in Ihren Geräteeinstellungen ändern können.",
       "title": "Benachrichtigungen"
     },
     "personalized_ads": {
       "action": "Personalisierte Anzeigen aktivieren",
       "denied": {
         "description": "Wir respektieren Ihre Entscheidung. Sie werden stattdessen allgemeine Anzeigen sehen.",
-        "intro": "Sie haben personalisierte Anzeigen deaktiviert.",
-        "notes": "Sie können das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren."
+        "intro": "Personalisierte Werbung wurde deaktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren können."
       },
       "description": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Informationen ausschließlich zum Zweck der Verbesserung Ihres Erlebnisses und der Präsentation relevanter Anzeigen zu verwenden.",
       "granted": {
         "description": "Sie werden Anzeigen sehen, die auf Ihre Interessen zugeschnitten sind.",
-        "intro": "Sie haben personalisierte Anzeigen aktiviert.",
-        "notes": "Sie können diese Einstellung in Ihren Geräteeinstellungen ändern."
+        "intro": "Personalisierte Werbung wurde aktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
       },
       "intro": "Mit personalisierten Anzeigen profitieren Sie von einem Werbeerlebnis, das auf Ihre Interessen zugeschnitten ist.",
       "title": "Personalisierte Anzeigen"

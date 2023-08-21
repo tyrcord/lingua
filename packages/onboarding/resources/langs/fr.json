@@ -5,30 +5,30 @@
       "denied": {
         "description": "Pas de problème! Nous veillerons à ne pas perturber votre tranquillité.",
         "intro": "Les notifications ont été désactivées.",
-        "notes": "Vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
+        "notes": "Veuillez noter que vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
       },
       "description": "Nous nous engageons à vous envoyer uniquement des notifications pertinentes et utiles.",
       "granted": {
         "description": "Vous recevrez désormais des mises à jour et des notifications de notre part.",
         "intro": "Les notifications ont été activées.",
-        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+        "notes": "Veuillez noter que vous pouvez modifier ce réglage dans les paramètres de votre appareil."
       },
       "intro": "Restez informé des dernières mises à jour, actualités et informations importantes.",
-      "notes": "Vous avez la possibilité de modifier vos préférences de notification à tout moment dans les paramètres de votre appareil.",
+      "notes": "Veuillez noter que vous avez la possibilité de modifier vos préférences de notification à tout moment dans les paramètres de votre appareil.",
       "title": "Notifications"
     },
     "personalized_ads": {
       "action": "Activer les publicités personnalisées",
       "denied": {
         "description": "Nous respectons votre choix. Vous verrez des publicités génériques à la place.",
-        "intro": "Vous avez désactivé les publicités personnalisées.",
-        "notes": "Vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
+        "intro": "Les publicités personnalisées ont été désactivées.",
+        "notes": "Veuillez noter que vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
       },
       "description": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
       "granted": {
         "description": "Vous verrez des publicités adaptées à vos intérêts.",
-        "intro": "Vous avez activé les publicités personnalisées.",
-        "notes": "Vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+        "intro": "Les annonces personnalisées ont été activées.",
+        "notes": "Veuillez noter que vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
       "intro": "En autorisant les publicités personnalisées, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
       "title": "Publicités personnalisées"
