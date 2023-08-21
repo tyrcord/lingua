@@ -1,3 +1,8 @@
+## 0.0.12
+
+ - **FIX**: add missing key.
+ - **FEAT**: update localization.
+
 ## 0.0.11
 
  - **FEAT**: update localization.

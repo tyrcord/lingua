@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-08-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_finance` - `v0.0.12`](#lingua_finance---v0012)
+ - [`lingua_onboarding` - `v0.0.9`](#lingua_onboarding---v009)
+ - [`lingua_purchases` - `v0.0.12`](#lingua_purchases---v0012)
+
+---
+
+#### `lingua_finance` - `v0.0.12`
+
+ - **FEAT**: update localization.
+
+#### `lingua_onboarding` - `v0.0.9`
+
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+
+#### `lingua_purchases` - `v0.0.12`
+
+ - **FIX**: add missing key.
+ - **FEAT**: update localization.
+
+
 ## 2023-08-17
 
 ### Changes
