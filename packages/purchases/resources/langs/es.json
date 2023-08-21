@@ -49,11 +49,11 @@
       "restore_purchases": "Restaurar compras"
     },
     "message": {
-      "require_one_time_payment": "Esta actualización requiere solo un pago único, sin cargos recurrentes.",
       "do_have_premium_version": "No tiene la versión premium.",
       "enjoy_premium_version": "¡Gracias por elegir la versión premium! Disfruta de funciones mejoradas y una experiencia sin anuncios. ¡Tu apoyo significa mucho para nosotros!",
       "go_premium_description": "Al actualizar a la versión Premium, no solo apoyas el desarrollo continuo, sino que también obtienes acceso a funciones adicionales.",
       "have_not_acquired_premium_version": "No ha adquirido la versión premium.",
+      "one_time_payment": "Este es un pago único y no genera cargos recurrentes.",
       "premium_version_restored": "Se han restaurado correctamente tus funciones Premium.",
       "purchase": {
         "cancelled": "Compra cancelada.",

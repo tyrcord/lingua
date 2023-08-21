@@ -53,6 +53,7 @@
       "enjoy_premium_version": "Merci d'avoir choisi la version premium ! Profitez de fonctionnalités améliorées et d'une expérience sans publicité. Votre soutien compte énormément pour nous !",
       "go_premium_description": "En passant à la version Premium, vous soutenez non seulement le développement continu, mais vous accédez également à des fonctionnalités supplémentaires.",
       "have_not_acquired_premium_version": "Vous n'avez pas acquis la version premium.",
+      "one_time_payment": "Il s'agit d'un paiement unique et n'entraîne aucun frais récurrents.",
       "premium_version_restored": "Vos fonctionnalités Premium ont été restaurées avec succès.",
       "purchase": {
         "cancelled": "Achat annulé.",
@@ -63,8 +64,7 @@
       "purchased_items": "Liste des articles achetés :",
       "purchases_restored": "Achats restaurés.",
       "thanks_purchase": "Merci pour votre achat.",
-      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium.",
-      "require_one_time_payment": "Cette mise à niveau nécessite uniquement un paiement unique, sans frais récurrents."
+      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."
     }
   }
 }

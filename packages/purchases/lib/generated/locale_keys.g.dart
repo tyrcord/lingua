@@ -47,6 +47,7 @@ abstract class PurchasesLocaleKeys {
   static const purchases_message_enjoy_premium_version = 'purchases.message.enjoy_premium_version';
   static const purchases_message_go_premium_description = 'purchases.message.go_premium_description';
   static const purchases_message_have_not_acquired_premium_version = 'purchases.message.have_not_acquired_premium_version';
+  static const purchases_message_one_time_payment = 'purchases.message.one_time_payment';
   static const purchases_message_premium_version_restored = 'purchases.message.premium_version_restored';
   static const purchases_message_purchase_cancelled = 'purchases.message.purchase.cancelled';
   static const purchases_message_purchase_failed = 'purchases.message.purchase.failed';
@@ -57,7 +58,6 @@ abstract class PurchasesLocaleKeys {
   static const purchases_message_purchases_restored = 'purchases.message.purchases_restored';
   static const purchases_message_thanks_purchase = 'purchases.message.thanks_purchase';
   static const purchases_message_unlock_premium_features = 'purchases.message.unlock_premium_features';
-  static const purchases_message_require_one_time_payment = 'purchases.message.require_one_time_payment';
   static const purchases_message = 'purchases.message';
   static const purchases = 'purchases';
 

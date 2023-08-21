@@ -53,6 +53,7 @@
       "enjoy_premium_version": "プレミアムバージョンを選んでいただき、ありがとうございます！強化された機能と広告なしの体験をお楽しみください。あなたのサポートは、私たちにとって非常に意味があります！",
       "go_premium_description": "プレミアム版にアップグレードすることで、継続的な開発をサポートするだけでなく、追加の機能にアクセスすることもできます。",
       "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
+      "one_time_payment": "これは一回限りの支払いで、定期的な請求は発生しません。",
       "premium_version_restored": "プレミアム機能が正常に復元されました。",
       "purchase": {
         "cancelled": "購入がキャンセルされました。",
@@ -63,8 +64,7 @@
       "purchased_items": "購入済みアイテムのリスト：",
       "purchases_restored": "購入が復元されました。",
       "thanks_purchase": "ご購入いただきありがとうございます。",
-      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。",
-      "require_one_time_payment": "このアップグレードは、定期的な料金なしで一度だけの支払いが必要です。"
+      "unlock_premium_features": "多数のプレミアム機能にアクセスしてください。"
     }
   }
 }

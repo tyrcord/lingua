@@ -53,6 +53,7 @@
       "enjoy_premium_version": "感谢您选择高级版本！享受增强功能和无广告体验。您的支持对我们意义重大！",
       "go_premium_description": "升级到高级版不仅支持持续开发，还能获得额外功能。",
       "have_not_acquired_premium_version": "您尚未购买高级版本。",
+      "one_time_payment": "这是一次性付款，不会产生任何定期费用。",
       "premium_version_restored": "已成功恢复高级功能。",
       "purchase": {
         "cancelled": "购买已取消。",
@@ -63,8 +64,7 @@
       "purchased_items": "已购买项目列表：",
       "purchases_restored": "购买已恢复。",
       "thanks_purchase": "感谢您的购买。",
-      "unlock_premium_features": "享受众多高级功能。",
-      "require_one_time_payment": "此升级只需要一次性付款，无需任何定期费用。"
+      "unlock_premium_features": "享受众多高级功能。"
     }
   }
 }
