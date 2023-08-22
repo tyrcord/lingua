@@ -240,6 +240,7 @@
         "amount": "Monto de Take Profit",
         "at": "Take Profit en",
         "price": {
+          "after_tax": "Tomar ganancias después de impuestos",
           "at": "Take Profit en",
           "text": "Take Profit",
           "with_slippage": "Take Profit con Slippage"

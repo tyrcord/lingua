@@ -253,6 +253,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "amount": "止盈金额",
         "at": "止盈于",
         "price": {
+          "after_tax": "税后获取利润",
           "at": "止盈于",
           "text": "止盈",
           "with_slippage": "含滑点的止盈"
@@ -546,6 +547,7 @@ static const Map<String,dynamic> ja = {
         "amount": "利益確定額",
         "at": "利益確定",
         "price": {
+          "after_tax": "税後の利益確定",
           "at": "利益確定",
           "text": "利益確定",
           "with_slippage": "スリッページを考慮した利益確定"
@@ -839,6 +841,7 @@ static const Map<String,dynamic> de = {
         "amount": "Take Profit Betrag",
         "at": "Take Profit bei",
         "price": {
+          "after_tax": "Gewinnmitnahme nach Steuern",
           "at": "Take Profit bei",
           "text": "Take Profit",
           "with_slippage": "Take Profit mit Slippage"
@@ -1132,6 +1135,7 @@ static const Map<String,dynamic> ru = {
         "amount": "Сумма Take Profit",
         "at": "Take Profit при",
         "price": {
+          "after_tax": "Взять прибыль после уплаты налогов",
           "at": "Take Profit при",
           "text": "Take Profit",
           "with_slippage": "Take Profit с проскальзыванием"
@@ -1425,6 +1429,7 @@ static const Map<String,dynamic> pt = {
         "amount": "Valor de Take Profit",
         "at": "Take Profit em",
         "price": {
+          "after_tax": "Obter lucro após impostos",
           "at": "Take Profit em",
           "text": "Take Profit",
           "with_slippage": "Take Profit com Deslizamento"
@@ -1718,6 +1723,7 @@ static const Map<String,dynamic> en = {
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
         "price": {
+          "after_tax": "Take Profit After Taxes",
           "at": "Take Profit at",
           "text": "Take Profit",
           "with_slippage": "Take Profit with Slippage"
@@ -2011,6 +2017,7 @@ static const Map<String,dynamic> it = {
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
         "price": {
+          "after_tax": "Prendi profitto dopo le tasse",
           "at": "Take Profit a",
           "text": "Take Profit",
           "with_slippage": "Take Profit con slippage"
@@ -2304,6 +2311,7 @@ static const Map<String,dynamic> fr = {
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
         "price": {
+          "after_tax": "Prise de bénéfices après impôts",
           "at": "Prise de bénéfices à",
           "text": "Prise de bénéfices",
           "with_slippage": "Prise de bénéfices avec glissement"
@@ -2597,6 +2605,7 @@ static const Map<String,dynamic> es = {
         "amount": "Monto de Take Profit",
         "at": "Take Profit en",
         "price": {
+          "after_tax": "Tomar ganancias después de impuestos",
           "at": "Take Profit en",
           "text": "Take Profit",
           "with_slippage": "Take Profit con Slippage"

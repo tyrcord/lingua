@@ -240,6 +240,7 @@
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
         "price": {
+          "after_tax": "Prise de bénéfices après impôts",
           "at": "Prise de bénéfices à",
           "text": "Prise de bénéfices",
           "with_slippage": "Prise de bénéfices avec glissement"

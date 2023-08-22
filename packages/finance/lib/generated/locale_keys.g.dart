@@ -196,6 +196,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_support_level = 'finance.label.support_level';
   static const finance_label_take_profit_amount = 'finance.label.take_profit.amount';
   static const finance_label_take_profit_at = 'finance.label.take_profit.at';
+  static const finance_label_take_profit_price_after_tax = 'finance.label.take_profit.price.after_tax';
   static const finance_label_take_profit_price_at = 'finance.label.take_profit.price.at';
   static const finance_label_take_profit_price_text = 'finance.label.take_profit.price.text';
   static const finance_label_take_profit_price_with_slippage = 'finance.label.take_profit.price.with_slippage';

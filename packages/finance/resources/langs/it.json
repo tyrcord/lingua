@@ -240,6 +240,7 @@
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
         "price": {
+          "after_tax": "Prendi profitto dopo le tasse",
           "at": "Take Profit a",
           "text": "Take Profit",
           "with_slippage": "Take Profit con slippage"

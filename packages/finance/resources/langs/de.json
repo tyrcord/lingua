@@ -240,6 +240,7 @@
         "amount": "Take Profit Betrag",
         "at": "Take Profit bei",
         "price": {
+          "after_tax": "Gewinnmitnahme nach Steuern",
           "at": "Take Profit bei",
           "text": "Take Profit",
           "with_slippage": "Take Profit mit Slippage"

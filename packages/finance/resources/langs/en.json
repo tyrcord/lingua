@@ -240,6 +240,7 @@
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
         "price": {
+          "after_tax": "Take Profit After Taxes",
           "at": "Take Profit at",
           "text": "Take Profit",
           "with_slippage": "Take Profit with Slippage"

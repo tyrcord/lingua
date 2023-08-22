@@ -240,6 +240,7 @@
         "amount": "Valor de Take Profit",
         "at": "Take Profit em",
         "price": {
+          "after_tax": "Obter lucro após impostos",
           "at": "Take Profit em",
           "text": "Take Profit",
           "with_slippage": "Take Profit com Deslizamento"
