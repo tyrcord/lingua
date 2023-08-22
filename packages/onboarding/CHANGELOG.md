@@ -1,3 +1,7 @@
+## 0.0.10
+
+ - **FEAT**: update onboarding localization.
+
 ## 0.0.9
 
  - **FEAT**: update localization.

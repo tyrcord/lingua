@@ -1,3 +1,7 @@
+## 0.0.13
+
+ - **FEAT**: update purchases localization.
+
 ## 0.0.12
 
  - **FIX**: add missing key.
