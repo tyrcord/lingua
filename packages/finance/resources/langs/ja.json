@@ -57,14 +57,14 @@
         "size": "口座のサイズ"
       },
       "after": {
-        "tax": {
-          "amount": "税金後の金額",
-          "price": "税金後の価格"
+        "fee": {
+          "amount": "税後の金額",
+          "price": "税後の価格"
         }
       },
       "amount": {
-        "after_tax": "税後の金額",
-        "before_tax": "税前の金額",
+        "after_fee": "税後の金額",
+        "before_fee": "税前の金額",
         "fee": "手数料の金額",
         "text": "金額"
       },
@@ -72,9 +72,9 @@
       "annual_contribution": "年間の貢献",
       "average_annual_return": "平均年間利回り",
       "before": {
-        "tax": {
-          "amount": "税金前の金額",
-          "price": "税金前の価格"
+        "fee": {
+          "amount": "税前の金額",
+          "price": "税前の価格"
         }
       },
       "break_even": {
@@ -149,8 +149,8 @@
         "buy_price": "純購入価格",
         "income": "純収入",
         "profit": {
-          "after_tax": "税金後の純利益",
-          "before_tax": "税金前の純利益",
+          "after_fee": "税後の純利益",
+          "before_fee": "税前の純利益",
           "text": "純利益"
         }
       },
@@ -180,8 +180,8 @@
         "a": "価格A",
         "b": "価格B",
         "per_unit": "ユニットごとの価格",
-        "per_unit_after_tax": "税金後のユニットごとの価格",
-        "per_unit_before_tax": "税金前のユニットごとの価格",
+        "per_unit_after_fee": "税後の単価",
+        "per_unit_before_fee": "税前の単価",
         "text": "価格"
       },
       "primary_currency": "主要通貨",
@@ -240,7 +240,7 @@
         "amount": "利益確定額",
         "at": "利益確定",
         "price": {
-          "after_tax": "税後の利益確定",
+          "after_fee": "手数料後の利益確定",
           "at": "利益確定",
           "text": "利益確定",
           "with_slippage": "スリッページを考慮した利益確定"
@@ -262,7 +262,7 @@
         "loss": "総損失",
         "return": "総収益",
         "revenue": "総収入",
-        "taxes": "税金総額"
+        "fee": "税の総額"
       },
       "trade": {
         "size": {

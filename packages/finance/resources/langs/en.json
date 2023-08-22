@@ -57,14 +57,14 @@
         "size": "Account Size"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "Amount After Taxes",
           "price": "Price After Taxes"
         }
       },
       "amount": {
-        "after_tax": "Amount After Taxes",
-        "before_tax": "Amount Before Taxes",
+        "after_fee": "Amount After Taxes",
+        "before_fee": "Amount Before Taxes",
         "fee": "Fee Amount",
         "text": "Amount"
       },
@@ -72,7 +72,7 @@
       "annual_contribution": "Annual Contribution",
       "average_annual_return": "Average Annual Return",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "Amount Before Taxes",
           "price": "Price Before Taxes"
         }
@@ -149,8 +149,8 @@
         "buy_price": "Net Buy Price",
         "income": "Net Income",
         "profit": {
-          "after_tax": "Net Profit After Taxes",
-          "before_tax": "Net Profit Before Taxes",
+          "after_fee": "Net Profit After Taxes",
+          "before_fee": "Net Profit Before Taxes",
           "text": "Net Profit"
         }
       },
@@ -180,8 +180,8 @@
         "a": "Price A",
         "b": "Price B",
         "per_unit": "Price per Unit",
-        "per_unit_after_tax": "Price per Unit After Taxes",
-        "per_unit_before_tax": "Price per Unit Before Taxes",
+        "per_unit_after_fee": "Price per Unit After Taxes",
+        "per_unit_before_fee": "Price per Unit Before Taxes",
         "text": "Price"
       },
       "primary_currency": "Primary Currency",
@@ -240,7 +240,7 @@
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
         "price": {
-          "after_tax": "Take Profit After Taxes",
+          "after_fee": "Take Profit After Taxes",
           "at": "Take Profit at",
           "text": "Take Profit",
           "with_slippage": "Take Profit with Slippage"
@@ -262,7 +262,7 @@
         "loss": "Total Loss",
         "return": "Total Return",
         "revenue": "Total Revenue",
-        "taxes": "Total Tax Amount"
+        "fee": "Total Tax Amount"
       },
       "trade": {
         "size": {

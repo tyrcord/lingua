@@ -57,14 +57,14 @@
         "size": "账户规模"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "税后金额",
           "price": "税后价格"
         }
       },
       "amount": {
-        "after_tax": "税后金额",
-        "before_tax": "税前金额",
+        "after_fee": "税后金额",
+        "before_fee": "税前金额",
         "fee": "费用金额",
         "text": "金额"
       },
@@ -72,7 +72,7 @@
       "annual_contribution": "年度贡献",
       "average_annual_return": "年均回报",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "税前金额",
           "price": "税前价格"
         }
@@ -149,8 +149,8 @@
         "buy_price": "净买入价格",
         "income": "净收入",
         "profit": {
-          "after_tax": "税后净利润",
-          "before_tax": "税前净利润",
+          "after_fee": "税后净利润",
+          "before_fee": "税前净利润",
           "text": "净利润"
         }
       },
@@ -180,8 +180,8 @@
         "a": "价格A",
         "b": "价格B",
         "per_unit": "单价",
-        "per_unit_after_tax": "税后单价",
-        "per_unit_before_tax": "税前单价",
+        "per_unit_after_fee": "税后的单位价格",
+        "per_unit_before_fee": "税前的单位价格",
         "text": "价格"
       },
       "primary_currency": "主要货币",
@@ -240,7 +240,7 @@
         "amount": "止盈金额",
         "at": "止盈于",
         "price": {
-          "after_tax": "税后获取利润",
+          "after_fee": "税后获利",
           "at": "止盈于",
           "text": "止盈",
           "with_slippage": "含滑点的止盈"
@@ -262,7 +262,7 @@
         "loss": "总亏损",
         "return": "总回报",
         "revenue": "总收入",
-        "taxes": "总税额"
+        "fee": "税款总额"
       },
       "trade": {
         "size": {

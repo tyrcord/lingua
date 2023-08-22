@@ -57,14 +57,14 @@
         "size": "Kontogröße"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "Betrag nach Steuern",
           "price": "Preis nach Steuern"
         }
       },
       "amount": {
-        "after_tax": "Betrag nach Steuern",
-        "before_tax": "Betrag vor Steuern",
+        "after_fee": "Betrag nach Steuern",
+        "before_fee": "Betrag vor Steuern",
         "fee": "Gebührenbetrag",
         "text": "Betrag"
       },
@@ -72,7 +72,7 @@
       "annual_contribution": "Jährlicher Beitrag",
       "average_annual_return": "Durchschnittliche jährliche Rendite",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "Betrag vor Steuern",
           "price": "Preis vor Steuern"
         }
@@ -149,8 +149,8 @@
         "buy_price": "Netto-Kaufpreis",
         "income": "Nettoeinkommen",
         "profit": {
-          "after_tax": "Nettogewinn nach Steuern",
-          "before_tax": "Nettogewinn vor Steuern",
+          "after_fee": "Nettogewinn nach Steuern",
+          "before_fee": "Nettogewinn vor Steuern",
           "text": "Nettogewinn"
         }
       },
@@ -180,8 +180,8 @@
         "a": "Preis A",
         "b": "Preis B",
         "per_unit": "Preis pro Einheit",
-        "per_unit_after_tax": "Preis pro Einheit nach Steuern",
-        "per_unit_before_tax": "Preis pro Einheit vor Steuern",
+        "per_unit_after_fee": "Preis pro Einheit nach Steuern",
+        "per_unit_before_fee": "Preis pro Einheit vor Steuern",
         "text": "Preis"
       },
       "primary_currency": "Hauptwährung",
@@ -240,7 +240,7 @@
         "amount": "Take Profit Betrag",
         "at": "Take Profit bei",
         "price": {
-          "after_tax": "Gewinnmitnahme nach Steuern",
+          "after_fee": "Gewinnmitnahme nach Gebühren",
           "at": "Take Profit bei",
           "text": "Take Profit",
           "with_slippage": "Take Profit mit Slippage"
@@ -262,7 +262,7 @@
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",
         "revenue": "Gesamteinnahmen",
-        "taxes": "Gesamtsteuerbetrag"
+        "fee": "Gesamte Steuerbetrag"
       },
       "trade": {
         "size": {

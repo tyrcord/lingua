@@ -57,14 +57,14 @@
         "size": "Dimensione conto"
       },
       "after": {
-        "tax": {
-          "amount": "Importo dopo le imposte",
-          "price": "Prezzo dopo le imposte"
+        "fee": {
+          "amount": "Importo dopo le tasse",
+          "price": "Prezzo dopo le tasse"
         }
       },
       "amount": {
-        "after_tax": "Importo dopo le tasse",
-        "before_tax": "Importo prima delle tasse",
+        "after_fee": "Importo dopo le tasse",
+        "before_fee": "Importo prima delle tasse",
         "fee": "Importo della tariffa",
         "text": "Importo"
       },
@@ -72,9 +72,9 @@
       "annual_contribution": "Contributo annuale",
       "average_annual_return": "Rendimento annuale medio",
       "before": {
-        "tax": {
-          "amount": "Importo prima delle imposte",
-          "price": "Prezzo prima delle imposte"
+        "fee": {
+          "amount": "Importo prima delle tasse",
+          "price": "Prezzo prima delle tasse"
         }
       },
       "break_even": {
@@ -149,8 +149,8 @@
         "buy_price": "Prezzo netto di acquisto",
         "income": "Reddito netto",
         "profit": {
-          "after_tax": "Profitto netto dopo le imposte",
-          "before_tax": "Profitto netto prima delle imposte",
+          "after_fee": "Profitto netto dopo tasse",
+          "before_fee": "Profitto netto prima delle tasse",
           "text": "Profitto netto"
         }
       },
@@ -180,8 +180,8 @@
         "a": "Prezzo A",
         "b": "Prezzo B",
         "per_unit": "Prezzo per unità",
-        "per_unit_after_tax": "Prezzo per unità dopo le imposte",
-        "per_unit_before_tax": "Prezzo per unità prima delle imposte",
+        "per_unit_after_fee": "Prezzo per unità dopo tasse",
+        "per_unit_before_fee": "Prezzo per unità prima delle tasse",
         "text": "Prezzo"
       },
       "primary_currency": "Valuta principale",
@@ -240,7 +240,7 @@
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
         "price": {
-          "after_tax": "Prendi profitto dopo le tasse",
+          "after_fee": "Presa di profitto dopo le spese",
           "at": "Take Profit a",
           "text": "Take Profit",
           "with_slippage": "Take Profit con slippage"
@@ -262,7 +262,7 @@
         "loss": "Perdita totale",
         "return": "Rendimento totale",
         "revenue": "Ricavo totale",
-        "taxes": "Importo totale delle tasse"
+        "fee": "Importo totale delle tasse"
       },
       "trade": {
         "size": {

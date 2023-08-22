@@ -70,14 +70,14 @@ class FinanceCodegenLoader extends AssetLoader {
         "size": "账户规模"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "税后金额",
           "price": "税后价格"
         }
       },
       "amount": {
-        "after_tax": "税后金额",
-        "before_tax": "税前金额",
+        "after_fee": "税后金额",
+        "before_fee": "税前金额",
         "fee": "费用金额",
         "text": "金额"
       },
@@ -85,7 +85,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "annual_contribution": "年度贡献",
       "average_annual_return": "年均回报",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "税前金额",
           "price": "税前价格"
         }
@@ -162,8 +162,8 @@ class FinanceCodegenLoader extends AssetLoader {
         "buy_price": "净买入价格",
         "income": "净收入",
         "profit": {
-          "after_tax": "税后净利润",
-          "before_tax": "税前净利润",
+          "after_fee": "税后净利润",
+          "before_fee": "税前净利润",
           "text": "净利润"
         }
       },
@@ -193,8 +193,8 @@ class FinanceCodegenLoader extends AssetLoader {
         "a": "价格A",
         "b": "价格B",
         "per_unit": "单价",
-        "per_unit_after_tax": "税后单价",
-        "per_unit_before_tax": "税前单价",
+        "per_unit_after_fee": "税后的单位价格",
+        "per_unit_before_fee": "税前的单位价格",
         "text": "价格"
       },
       "primary_currency": "主要货币",
@@ -253,7 +253,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "amount": "止盈金额",
         "at": "止盈于",
         "price": {
-          "after_tax": "税后获取利润",
+          "after_fee": "税后获利",
           "at": "止盈于",
           "text": "止盈",
           "with_slippage": "含滑点的止盈"
@@ -275,7 +275,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "loss": "总亏损",
         "return": "总回报",
         "revenue": "总收入",
-        "taxes": "总税额"
+        "fee": "税款总额"
       },
       "trade": {
         "size": {
@@ -364,14 +364,14 @@ static const Map<String,dynamic> ja = {
         "size": "口座のサイズ"
       },
       "after": {
-        "tax": {
-          "amount": "税金後の金額",
-          "price": "税金後の価格"
+        "fee": {
+          "amount": "税後の金額",
+          "price": "税後の価格"
         }
       },
       "amount": {
-        "after_tax": "税後の金額",
-        "before_tax": "税前の金額",
+        "after_fee": "税後の金額",
+        "before_fee": "税前の金額",
         "fee": "手数料の金額",
         "text": "金額"
       },
@@ -379,9 +379,9 @@ static const Map<String,dynamic> ja = {
       "annual_contribution": "年間の貢献",
       "average_annual_return": "平均年間利回り",
       "before": {
-        "tax": {
-          "amount": "税金前の金額",
-          "price": "税金前の価格"
+        "fee": {
+          "amount": "税前の金額",
+          "price": "税前の価格"
         }
       },
       "break_even": {
@@ -456,8 +456,8 @@ static const Map<String,dynamic> ja = {
         "buy_price": "純購入価格",
         "income": "純収入",
         "profit": {
-          "after_tax": "税金後の純利益",
-          "before_tax": "税金前の純利益",
+          "after_fee": "税後の純利益",
+          "before_fee": "税前の純利益",
           "text": "純利益"
         }
       },
@@ -487,8 +487,8 @@ static const Map<String,dynamic> ja = {
         "a": "価格A",
         "b": "価格B",
         "per_unit": "ユニットごとの価格",
-        "per_unit_after_tax": "税金後のユニットごとの価格",
-        "per_unit_before_tax": "税金前のユニットごとの価格",
+        "per_unit_after_fee": "税後の単価",
+        "per_unit_before_fee": "税前の単価",
         "text": "価格"
       },
       "primary_currency": "主要通貨",
@@ -547,7 +547,7 @@ static const Map<String,dynamic> ja = {
         "amount": "利益確定額",
         "at": "利益確定",
         "price": {
-          "after_tax": "税後の利益確定",
+          "after_fee": "手数料後の利益確定",
           "at": "利益確定",
           "text": "利益確定",
           "with_slippage": "スリッページを考慮した利益確定"
@@ -569,7 +569,7 @@ static const Map<String,dynamic> ja = {
         "loss": "総損失",
         "return": "総収益",
         "revenue": "総収入",
-        "taxes": "税金総額"
+        "fee": "税の総額"
       },
       "trade": {
         "size": {
@@ -658,14 +658,14 @@ static const Map<String,dynamic> de = {
         "size": "Kontogröße"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "Betrag nach Steuern",
           "price": "Preis nach Steuern"
         }
       },
       "amount": {
-        "after_tax": "Betrag nach Steuern",
-        "before_tax": "Betrag vor Steuern",
+        "after_fee": "Betrag nach Steuern",
+        "before_fee": "Betrag vor Steuern",
         "fee": "Gebührenbetrag",
         "text": "Betrag"
       },
@@ -673,7 +673,7 @@ static const Map<String,dynamic> de = {
       "annual_contribution": "Jährlicher Beitrag",
       "average_annual_return": "Durchschnittliche jährliche Rendite",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "Betrag vor Steuern",
           "price": "Preis vor Steuern"
         }
@@ -750,8 +750,8 @@ static const Map<String,dynamic> de = {
         "buy_price": "Netto-Kaufpreis",
         "income": "Nettoeinkommen",
         "profit": {
-          "after_tax": "Nettogewinn nach Steuern",
-          "before_tax": "Nettogewinn vor Steuern",
+          "after_fee": "Nettogewinn nach Steuern",
+          "before_fee": "Nettogewinn vor Steuern",
           "text": "Nettogewinn"
         }
       },
@@ -781,8 +781,8 @@ static const Map<String,dynamic> de = {
         "a": "Preis A",
         "b": "Preis B",
         "per_unit": "Preis pro Einheit",
-        "per_unit_after_tax": "Preis pro Einheit nach Steuern",
-        "per_unit_before_tax": "Preis pro Einheit vor Steuern",
+        "per_unit_after_fee": "Preis pro Einheit nach Steuern",
+        "per_unit_before_fee": "Preis pro Einheit vor Steuern",
         "text": "Preis"
       },
       "primary_currency": "Hauptwährung",
@@ -841,7 +841,7 @@ static const Map<String,dynamic> de = {
         "amount": "Take Profit Betrag",
         "at": "Take Profit bei",
         "price": {
-          "after_tax": "Gewinnmitnahme nach Steuern",
+          "after_fee": "Gewinnmitnahme nach Gebühren",
           "at": "Take Profit bei",
           "text": "Take Profit",
           "with_slippage": "Take Profit mit Slippage"
@@ -863,7 +863,7 @@ static const Map<String,dynamic> de = {
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",
         "revenue": "Gesamteinnahmen",
-        "taxes": "Gesamtsteuerbetrag"
+        "fee": "Gesamte Steuerbetrag"
       },
       "trade": {
         "size": {
@@ -952,14 +952,14 @@ static const Map<String,dynamic> ru = {
         "size": "Размер счета"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "Сумма после налогов",
           "price": "Цена после налогов"
         }
       },
       "amount": {
-        "after_tax": "Сумма после налогов",
-        "before_tax": "Сумма до налогов",
+        "after_fee": "Сумма после налогов",
+        "before_fee": "Сумма до налогов",
         "fee": "Сумма комиссии",
         "text": "Сумма"
       },
@@ -967,7 +967,7 @@ static const Map<String,dynamic> ru = {
       "annual_contribution": "Годовой взнос",
       "average_annual_return": "Средний годовой доход",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "Сумма до налогов",
           "price": "Цена до налогов"
         }
@@ -1044,8 +1044,8 @@ static const Map<String,dynamic> ru = {
         "buy_price": "Чистая цена покупки",
         "income": "Чистый доход",
         "profit": {
-          "after_tax": "Чистая прибыль после налогов",
-          "before_tax": "Чистая прибыль до налогов",
+          "after_fee": "Чистая прибыль после налогов",
+          "before_fee": "Чистая прибыль до налогов",
           "text": "Чистая прибыль"
         }
       },
@@ -1075,8 +1075,8 @@ static const Map<String,dynamic> ru = {
         "a": "Цена A",
         "b": "Цена B",
         "per_unit": "Цена за единицу",
-        "per_unit_after_tax": "Цена за единицу после налогов",
-        "per_unit_before_tax": "Цена за единицу до налогов",
+        "per_unit_after_fee": "Цена за единицу после налогов",
+        "per_unit_before_fee": "Цена за единицу до налогов",
         "text": "Цена"
       },
       "primary_currency": "Основная валюта",
@@ -1135,7 +1135,7 @@ static const Map<String,dynamic> ru = {
         "amount": "Сумма Take Profit",
         "at": "Take Profit при",
         "price": {
-          "after_tax": "Взять прибыль после уплаты налогов",
+          "after_fee": "Взятие прибыли после комиссии",
           "at": "Take Profit при",
           "text": "Take Profit",
           "with_slippage": "Take Profit с проскальзыванием"
@@ -1157,7 +1157,7 @@ static const Map<String,dynamic> ru = {
         "loss": "Общий убыток",
         "return": "Общий доход",
         "revenue": "Общий доход",
-        "taxes": "Общая сумма налогов"
+        "fee": "Общая сумма налога"
       },
       "trade": {
         "size": {
@@ -1246,14 +1246,14 @@ static const Map<String,dynamic> pt = {
         "size": "Tamanho da conta"
       },
       "after": {
-        "tax": {
-          "amount": "Valor após impostos",
+        "fee": {
+          "amount": "Quantia após impostos",
           "price": "Preço após impostos"
         }
       },
       "amount": {
-        "after_tax": "Montante após impostos",
-        "before_tax": "Montante antes dos impostos",
+        "after_fee": "Quantia após impostos",
+        "before_fee": "Quantia antes dos impostos",
         "fee": "Montante da taxa",
         "text": "Montante"
       },
@@ -1261,8 +1261,8 @@ static const Map<String,dynamic> pt = {
       "annual_contribution": "Contribuição anual",
       "average_annual_return": "Retorno anual médio",
       "before": {
-        "tax": {
-          "amount": "Valor antes dos impostos",
+        "fee": {
+          "amount": "Quantia antes dos impostos",
           "price": "Preço antes dos impostos"
         }
       },
@@ -1338,8 +1338,8 @@ static const Map<String,dynamic> pt = {
         "buy_price": "Preço líquido de compra",
         "income": "Renda líquida",
         "profit": {
-          "after_tax": "Lucro líquido após impostos",
-          "before_tax": "Lucro líquido antes dos impostos",
+          "after_fee": "Lucro líquido após impostos",
+          "before_fee": "Lucro líquido antes dos impostos",
           "text": "Lucro líquido"
         }
       },
@@ -1369,8 +1369,8 @@ static const Map<String,dynamic> pt = {
         "a": "Preço A",
         "b": "Preço B",
         "per_unit": "Preço por unidade",
-        "per_unit_after_tax": "Preço por unidade após impostos",
-        "per_unit_before_tax": "Preço por unidade antes dos impostos",
+        "per_unit_after_fee": "Preço por unidade após impostos",
+        "per_unit_before_fee": "Preço por unidade antes dos impostos",
         "text": "Preço"
       },
       "primary_currency": "Moeda primária",
@@ -1429,7 +1429,7 @@ static const Map<String,dynamic> pt = {
         "amount": "Valor de Take Profit",
         "at": "Take Profit em",
         "price": {
-          "after_tax": "Obter lucro após impostos",
+          "after_fee": "Tomada de lucro após taxas",
           "at": "Take Profit em",
           "text": "Take Profit",
           "with_slippage": "Take Profit com Deslizamento"
@@ -1451,7 +1451,7 @@ static const Map<String,dynamic> pt = {
         "loss": "Perda total",
         "return": "Retorno total",
         "revenue": "Receita total",
-        "taxes": "Valor total de impostos"
+        "fee": "Montante total de impostos"
       },
       "trade": {
         "size": {
@@ -1540,14 +1540,14 @@ static const Map<String,dynamic> en = {
         "size": "Account Size"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "Amount After Taxes",
           "price": "Price After Taxes"
         }
       },
       "amount": {
-        "after_tax": "Amount After Taxes",
-        "before_tax": "Amount Before Taxes",
+        "after_fee": "Amount After Taxes",
+        "before_fee": "Amount Before Taxes",
         "fee": "Fee Amount",
         "text": "Amount"
       },
@@ -1555,7 +1555,7 @@ static const Map<String,dynamic> en = {
       "annual_contribution": "Annual Contribution",
       "average_annual_return": "Average Annual Return",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "Amount Before Taxes",
           "price": "Price Before Taxes"
         }
@@ -1632,8 +1632,8 @@ static const Map<String,dynamic> en = {
         "buy_price": "Net Buy Price",
         "income": "Net Income",
         "profit": {
-          "after_tax": "Net Profit After Taxes",
-          "before_tax": "Net Profit Before Taxes",
+          "after_fee": "Net Profit After Taxes",
+          "before_fee": "Net Profit Before Taxes",
           "text": "Net Profit"
         }
       },
@@ -1663,8 +1663,8 @@ static const Map<String,dynamic> en = {
         "a": "Price A",
         "b": "Price B",
         "per_unit": "Price per Unit",
-        "per_unit_after_tax": "Price per Unit After Taxes",
-        "per_unit_before_tax": "Price per Unit Before Taxes",
+        "per_unit_after_fee": "Price per Unit After Taxes",
+        "per_unit_before_fee": "Price per Unit Before Taxes",
         "text": "Price"
       },
       "primary_currency": "Primary Currency",
@@ -1723,7 +1723,7 @@ static const Map<String,dynamic> en = {
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
         "price": {
-          "after_tax": "Take Profit After Taxes",
+          "after_fee": "Take Profit After Taxes",
           "at": "Take Profit at",
           "text": "Take Profit",
           "with_slippage": "Take Profit with Slippage"
@@ -1745,7 +1745,7 @@ static const Map<String,dynamic> en = {
         "loss": "Total Loss",
         "return": "Total Return",
         "revenue": "Total Revenue",
-        "taxes": "Total Tax Amount"
+        "fee": "Total Tax Amount"
       },
       "trade": {
         "size": {
@@ -1834,14 +1834,14 @@ static const Map<String,dynamic> it = {
         "size": "Dimensione conto"
       },
       "after": {
-        "tax": {
-          "amount": "Importo dopo le imposte",
-          "price": "Prezzo dopo le imposte"
+        "fee": {
+          "amount": "Importo dopo le tasse",
+          "price": "Prezzo dopo le tasse"
         }
       },
       "amount": {
-        "after_tax": "Importo dopo le tasse",
-        "before_tax": "Importo prima delle tasse",
+        "after_fee": "Importo dopo le tasse",
+        "before_fee": "Importo prima delle tasse",
         "fee": "Importo della tariffa",
         "text": "Importo"
       },
@@ -1849,9 +1849,9 @@ static const Map<String,dynamic> it = {
       "annual_contribution": "Contributo annuale",
       "average_annual_return": "Rendimento annuale medio",
       "before": {
-        "tax": {
-          "amount": "Importo prima delle imposte",
-          "price": "Prezzo prima delle imposte"
+        "fee": {
+          "amount": "Importo prima delle tasse",
+          "price": "Prezzo prima delle tasse"
         }
       },
       "break_even": {
@@ -1926,8 +1926,8 @@ static const Map<String,dynamic> it = {
         "buy_price": "Prezzo netto di acquisto",
         "income": "Reddito netto",
         "profit": {
-          "after_tax": "Profitto netto dopo le imposte",
-          "before_tax": "Profitto netto prima delle imposte",
+          "after_fee": "Profitto netto dopo tasse",
+          "before_fee": "Profitto netto prima delle tasse",
           "text": "Profitto netto"
         }
       },
@@ -1957,8 +1957,8 @@ static const Map<String,dynamic> it = {
         "a": "Prezzo A",
         "b": "Prezzo B",
         "per_unit": "Prezzo per unità",
-        "per_unit_after_tax": "Prezzo per unità dopo le imposte",
-        "per_unit_before_tax": "Prezzo per unità prima delle imposte",
+        "per_unit_after_fee": "Prezzo per unità dopo tasse",
+        "per_unit_before_fee": "Prezzo per unità prima delle tasse",
         "text": "Prezzo"
       },
       "primary_currency": "Valuta principale",
@@ -2017,7 +2017,7 @@ static const Map<String,dynamic> it = {
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
         "price": {
-          "after_tax": "Prendi profitto dopo le tasse",
+          "after_fee": "Presa di profitto dopo le spese",
           "at": "Take Profit a",
           "text": "Take Profit",
           "with_slippage": "Take Profit con slippage"
@@ -2039,7 +2039,7 @@ static const Map<String,dynamic> it = {
         "loss": "Perdita totale",
         "return": "Rendimento totale",
         "revenue": "Ricavo totale",
-        "taxes": "Importo totale delle tasse"
+        "fee": "Importo totale delle tasse"
       },
       "trade": {
         "size": {
@@ -2128,14 +2128,14 @@ static const Map<String,dynamic> fr = {
         "size": "Taille du compte"
       },
       "after": {
-        "tax": {
-          "amount": "Montant après impôts",
-          "price": "Prix après impôts"
+        "fee": {
+          "amount": "Montant après frais",
+          "price": "Prix après frais"
         }
       },
       "amount": {
-        "after_tax": "Montant après impôts",
-        "before_tax": "Montant avant impôts",
+        "after_fee": "Montant après frais",
+        "before_fee": "Montant avant frais",
         "fee": "Montant des frais",
         "text": "Montant"
       },
@@ -2143,9 +2143,9 @@ static const Map<String,dynamic> fr = {
       "annual_contribution": "Contribution annuelle",
       "average_annual_return": "Rendement annuel moyen",
       "before": {
-        "tax": {
-          "amount": "Montant avant impôts",
-          "price": "Prix avant impôts"
+        "fee": {
+          "amount": "Montant avant frais",
+          "price": "Prix avant frais"
         }
       },
       "break_even": {
@@ -2220,8 +2220,8 @@ static const Map<String,dynamic> fr = {
         "buy_price": "Prix net d'achat",
         "income": "Revenu net",
         "profit": {
-          "after_tax": "Bénéfice net après impôts",
-          "before_tax": "Bénéfice net avant impôts",
+          "after_fee": "Bénéfice net après frais",
+          "before_fee": "Bénéfice net avant frais",
           "text": "Bénéfice net"
         }
       },
@@ -2251,8 +2251,8 @@ static const Map<String,dynamic> fr = {
         "a": "Prix A",
         "b": "Prix B",
         "per_unit": "Prix par unité",
-        "per_unit_after_tax": "Prix par unité après impôts",
-        "per_unit_before_tax": "Prix par unité avant impôts",
+        "per_unit_after_fee": "Prix par unité après frais",
+        "per_unit_before_fee": "Prix par unité avant frais",
         "text": "Prix"
       },
       "primary_currency": "Devise principale",
@@ -2311,7 +2311,7 @@ static const Map<String,dynamic> fr = {
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
         "price": {
-          "after_tax": "Prise de bénéfices après impôts",
+          "after_fee": "Prise de bénéfices après frais",
           "at": "Prise de bénéfices à",
           "text": "Prise de bénéfices",
           "with_slippage": "Prise de bénéfices avec glissement"
@@ -2333,7 +2333,7 @@ static const Map<String,dynamic> fr = {
         "loss": "Perte totale",
         "return": "Rendement total",
         "revenue": "Revenu total",
-        "taxes": "Montant total des impôts"
+        "fee": "Montant total des frais"
       },
       "trade": {
         "size": {
@@ -2422,14 +2422,14 @@ static const Map<String,dynamic> es = {
         "size": "Tamaño de la cuenta"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "Monto después de impuestos",
           "price": "Precio después de impuestos"
         }
       },
       "amount": {
-        "after_tax": "Monto después de impuestos",
-        "before_tax": "Monto antes de impuestos",
+        "after_fee": "Monto después de impuestos",
+        "before_fee": "Monto antes de impuestos",
         "fee": "Monto de la tarifa",
         "text": "Monto"
       },
@@ -2437,7 +2437,7 @@ static const Map<String,dynamic> es = {
       "annual_contribution": "Aportación anual",
       "average_annual_return": "Retorno anual promedio",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "Monto antes de impuestos",
           "price": "Precio antes de impuestos"
         }
@@ -2514,9 +2514,9 @@ static const Map<String,dynamic> es = {
         "buy_price": "Precio neto de compra",
         "income": "Ingreso neto",
         "profit": {
-          "after_tax": "Ganancia neta después de impuestos",
-          "before_tax": "Ganancia neta antes de impuestos",
-          "text": "Ganancia neta"
+          "after_fee": "Beneficio neto después de impuestos",
+          "before_fee": "Beneficio neto antes de impuestos",
+          "text": "Beneficio neto"
         }
       },
       "number": {
@@ -2545,8 +2545,8 @@ static const Map<String,dynamic> es = {
         "a": "Precio A",
         "b": "Precio B",
         "per_unit": "Precio por unidad",
-        "per_unit_after_tax": "Precio por unidad después de impuestos",
-        "per_unit_before_tax": "Precio por unidad antes de impuestos",
+        "per_unit_after_fee": "Precio por unidad después de impuestos",
+        "per_unit_before_fee": "Precio por unidad antes de impuestos",
         "text": "Precio"
       },
       "primary_currency": "Moneda principal",
@@ -2605,7 +2605,7 @@ static const Map<String,dynamic> es = {
         "amount": "Monto de Take Profit",
         "at": "Take Profit en",
         "price": {
-          "after_tax": "Tomar ganancias después de impuestos",
+          "after_fee": "Toma de beneficios después de comisiones",
           "at": "Take Profit en",
           "text": "Take Profit",
           "with_slippage": "Take Profit con Slippage"
@@ -2627,7 +2627,7 @@ static const Map<String,dynamic> es = {
         "loss": "Pérdida total",
         "return": "Retorno total",
         "revenue": "Ingresos totales",
-        "taxes": "Monto total de impuestos"
+        "fee": "Monto total de impuestos"
       },
       "trade": {
         "size": {

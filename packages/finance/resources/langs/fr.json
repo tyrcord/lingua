@@ -57,14 +57,14 @@
         "size": "Taille du compte"
       },
       "after": {
-        "tax": {
-          "amount": "Montant après impôts",
-          "price": "Prix après impôts"
+        "fee": {
+          "amount": "Montant après frais",
+          "price": "Prix après frais"
         }
       },
       "amount": {
-        "after_tax": "Montant après impôts",
-        "before_tax": "Montant avant impôts",
+        "after_fee": "Montant après frais",
+        "before_fee": "Montant avant frais",
         "fee": "Montant des frais",
         "text": "Montant"
       },
@@ -72,9 +72,9 @@
       "annual_contribution": "Contribution annuelle",
       "average_annual_return": "Rendement annuel moyen",
       "before": {
-        "tax": {
-          "amount": "Montant avant impôts",
-          "price": "Prix avant impôts"
+        "fee": {
+          "amount": "Montant avant frais",
+          "price": "Prix avant frais"
         }
       },
       "break_even": {
@@ -149,8 +149,8 @@
         "buy_price": "Prix net d'achat",
         "income": "Revenu net",
         "profit": {
-          "after_tax": "Bénéfice net après impôts",
-          "before_tax": "Bénéfice net avant impôts",
+          "after_fee": "Bénéfice net après frais",
+          "before_fee": "Bénéfice net avant frais",
           "text": "Bénéfice net"
         }
       },
@@ -180,8 +180,8 @@
         "a": "Prix A",
         "b": "Prix B",
         "per_unit": "Prix par unité",
-        "per_unit_after_tax": "Prix par unité après impôts",
-        "per_unit_before_tax": "Prix par unité avant impôts",
+        "per_unit_after_fee": "Prix par unité après frais",
+        "per_unit_before_fee": "Prix par unité avant frais",
         "text": "Prix"
       },
       "primary_currency": "Devise principale",
@@ -240,7 +240,7 @@
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
         "price": {
-          "after_tax": "Prise de bénéfices après impôts",
+          "after_fee": "Prise de bénéfices après frais",
           "at": "Prise de bénéfices à",
           "text": "Prise de bénéfices",
           "with_slippage": "Prise de bénéfices avec glissement"
@@ -262,7 +262,7 @@
         "loss": "Perte totale",
         "return": "Rendement total",
         "revenue": "Revenu total",
-        "taxes": "Montant total des impôts"
+        "fee": "Montant total des frais"
       },
       "trade": {
         "size": {

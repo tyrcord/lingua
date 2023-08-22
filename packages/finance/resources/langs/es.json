@@ -57,14 +57,14 @@
         "size": "Tamaño de la cuenta"
       },
       "after": {
-        "tax": {
+        "fee": {
           "amount": "Monto después de impuestos",
           "price": "Precio después de impuestos"
         }
       },
       "amount": {
-        "after_tax": "Monto después de impuestos",
-        "before_tax": "Monto antes de impuestos",
+        "after_fee": "Monto después de impuestos",
+        "before_fee": "Monto antes de impuestos",
         "fee": "Monto de la tarifa",
         "text": "Monto"
       },
@@ -72,7 +72,7 @@
       "annual_contribution": "Aportación anual",
       "average_annual_return": "Retorno anual promedio",
       "before": {
-        "tax": {
+        "fee": {
           "amount": "Monto antes de impuestos",
           "price": "Precio antes de impuestos"
         }
@@ -149,9 +149,9 @@
         "buy_price": "Precio neto de compra",
         "income": "Ingreso neto",
         "profit": {
-          "after_tax": "Ganancia neta después de impuestos",
-          "before_tax": "Ganancia neta antes de impuestos",
-          "text": "Ganancia neta"
+          "after_fee": "Beneficio neto después de impuestos",
+          "before_fee": "Beneficio neto antes de impuestos",
+          "text": "Beneficio neto"
         }
       },
       "number": {
@@ -180,8 +180,8 @@
         "a": "Precio A",
         "b": "Precio B",
         "per_unit": "Precio por unidad",
-        "per_unit_after_tax": "Precio por unidad después de impuestos",
-        "per_unit_before_tax": "Precio por unidad antes de impuestos",
+        "per_unit_after_fee": "Precio por unidad después de impuestos",
+        "per_unit_before_fee": "Precio por unidad antes de impuestos",
         "text": "Precio"
       },
       "primary_currency": "Moneda principal",
@@ -240,7 +240,7 @@
         "amount": "Monto de Take Profit",
         "at": "Take Profit en",
         "price": {
-          "after_tax": "Tomar ganancias después de impuestos",
+          "after_fee": "Toma de beneficios después de comisiones",
           "at": "Take Profit en",
           "text": "Take Profit",
           "with_slippage": "Take Profit con Slippage"
@@ -262,7 +262,7 @@
         "loss": "Pérdida total",
         "return": "Retorno total",
         "revenue": "Ingresos totales",
-        "taxes": "Monto total de impuestos"
+        "fee": "Monto total de impuestos"
       },
       "trade": {
         "size": {
