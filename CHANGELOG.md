@@ -15,6 +15,33 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_core` - `v0.0.22`](#lingua_core---v0022)
+ - [`lingua_finance` - `v0.0.14`](#lingua_finance---v0014)
+
+---
+
+#### `lingua_core` - `v0.0.22`
+
+ - **FEAT**: update localization.
+
+#### `lingua_finance` - `v0.0.14`
+
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+
+
+## 2023-08-22
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_finance` - `v0.0.13`](#lingua_finance---v0013)
  - [`lingua_onboarding` - `v0.0.10`](#lingua_onboarding---v0010)
  - [`lingua_purchases` - `v0.0.13`](#lingua_purchases---v0013)
