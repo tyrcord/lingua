@@ -31,7 +31,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "text": "指示您现有资本的当前值。"
       },
       "amount_at_risk": {
-        "example": "如果您的总资本为\u002450,000，希望赌\u00241,000，请输入\u00241,000作为金额。",
+        "example": "如果您有\u002450,000的资本并计划冒险\u00241,000，请输入\u00241,000作为金额。",
         "text": "指定您希望为此交易冒的风险金额，以相对于您的资本的货币值表示。"
       },
       "entry_fees": {
@@ -74,6 +74,12 @@ class FinanceCodegenLoader extends AssetLoader {
           "amount": "税后金额",
           "price": "税后价格"
         }
+      },
+      "amount": {
+        "after_tax": "税后金额",
+        "before_tax": "税前金额",
+        "fee": "费用金额",
+        "text": "金额"
       },
       "amount_at_risk": "风险金额",
       "annual_contribution": "年度贡献",
@@ -230,10 +236,6 @@ class FinanceCodegenLoader extends AssetLoader {
       "stop_loss": {
         "amount": "止损金额",
         "at": "止损位置",
-        "fees": {
-          "amount": "止损费用金额",
-          "text": "止损费用"
-        },
         "in_percentage": {
           "text": "百分比止损",
           "with_slippage": "带滑点的百分比止损"
@@ -250,10 +252,6 @@ class FinanceCodegenLoader extends AssetLoader {
       "take_profit": {
         "amount": "止盈金额",
         "at": "止盈于",
-        "fees": {
-          "amount": "止盈费用金额",
-          "text": "止盈费用"
-        },
         "price": {
           "at": "止盈于",
           "text": "止盈",
@@ -326,7 +324,7 @@ static const Map<String,dynamic> ja = {
         "text": "利用可能な資本の現在の価値を示してください。"
       },
       "amount_at_risk": {
-        "example": "合計資本が\u002450,000で、\u00241,000を賭けたい場合、\u00241,000を金額として入力してください。",
+        "example": "資本が\u002450,000で、\u00241,000をリスクする予定の場合、金額として\u00241,000を入力してください。",
         "text": "この取引のためにリスクを取る金額を指定してください。これを、あなたの資本に対する金額として示してください。"
       },
       "entry_fees": {
@@ -370,6 +368,12 @@ static const Map<String,dynamic> ja = {
           "price": "税金後の価格"
         }
       },
+      "amount": {
+        "after_tax": "税後の金額",
+        "before_tax": "税前の金額",
+        "fee": "手数料の金額",
+        "text": "金額"
+      },
       "amount_at_risk": "リスク金額",
       "annual_contribution": "年間の貢献",
       "average_annual_return": "平均年間利回り",
@@ -405,7 +409,7 @@ static const Map<String,dynamic> ja = {
       },
       "entry": {
         "fees": {
-          "amount": "参加費の金額",
+          "amount": "入場料の金額",
           "text": "参加費"
         },
         "price": {
@@ -417,7 +421,7 @@ static const Map<String,dynamic> ja = {
       },
       "exit": {
         "fees": {
-          "amount": "退出費の金額",
+          "amount": "出口手数料の金額",
           "text": "退出費"
         },
         "price": {
@@ -525,10 +529,6 @@ static const Map<String,dynamic> ja = {
       "stop_loss": {
         "amount": "ストップロス金額",
         "at": "ストップロス位置",
-        "fees": {
-          "amount": "ストップロス手数料金額",
-          "text": "ストップロス手数料"
-        },
         "in_percentage": {
           "text": "パーセンテージでのストップロス",
           "with_slippage": "スリッページ付きパーセンテージでのストップロス"
@@ -545,10 +545,6 @@ static const Map<String,dynamic> ja = {
       "take_profit": {
         "amount": "利益確定額",
         "at": "利益確定",
-        "fees": {
-          "amount": "利益確定手数料額",
-          "text": "利益確定手数料"
-        },
         "price": {
           "at": "利益確定",
           "text": "利益確定",
@@ -617,11 +613,11 @@ static const Map<String,dynamic> de = {
     },
     "help": {
       "account_balance": {
-        "example": "Wenn Sie 50.000 \u0024 für den Handel zugewiesen haben, geben Sie diesen Betrag ein.",
+        "example": "Wenn Sie \u002450,000 für den Handel zugewiesen haben, geben Sie bitte diesen Betrag ein.",
         "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
       },
       "amount_at_risk": {
-        "example": "Wenn Sie ein Gesamtkapital von 50.000 \u0024 haben und 1.000 \u0024 einsetzen möchten, geben Sie 1.000 \u0024 als Betrag ein.",
+        "example": "Wenn Sie ein Kapital von 50.000 \u0024 haben und planen, 1.000 \u0024 zu riskieren, geben Sie bitte 1.000 \u0024 als den Betrag ein.",
         "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, ausgedrückt in einem Geldbetrag im Verhältnis zu Ihrem Kapital."
       },
       "entry_fees": {
@@ -665,6 +661,12 @@ static const Map<String,dynamic> de = {
           "price": "Preis nach Steuern"
         }
       },
+      "amount": {
+        "after_tax": "Betrag nach Steuern",
+        "before_tax": "Betrag vor Steuern",
+        "fee": "Gebührenbetrag",
+        "text": "Betrag"
+      },
       "amount_at_risk": "Risikobetrag",
       "annual_contribution": "Jährlicher Beitrag",
       "average_annual_return": "Durchschnittliche jährliche Rendite",
@@ -700,7 +702,7 @@ static const Map<String,dynamic> de = {
       },
       "entry": {
         "fees": {
-          "amount": "Höhe der Einstiegsgebühren",
+          "amount": "Eintrittsgebühr Betrag",
           "text": "Einstiegsgebühren"
         },
         "price": {
@@ -712,7 +714,7 @@ static const Map<String,dynamic> de = {
       },
       "exit": {
         "fees": {
-          "amount": "Höhe der Ausstiegsgebühren",
+          "amount": "Ausstiegsgebühr Betrag",
           "text": "Ausstiegsgebühren"
         },
         "price": {
@@ -820,10 +822,6 @@ static const Map<String,dynamic> de = {
       "stop_loss": {
         "amount": "Stop-Loss-Betrag",
         "at": "Stop-Loss bei",
-        "fees": {
-          "amount": "Stop-Loss-Gebührenbetrag",
-          "text": "Stop-Loss-Gebühren"
-        },
         "in_percentage": {
           "text": "Stop-Loss in Prozent",
           "with_slippage": "Stop-Loss in Prozent mit Slippage"
@@ -840,10 +838,6 @@ static const Map<String,dynamic> de = {
       "take_profit": {
         "amount": "Take Profit Betrag",
         "at": "Take Profit bei",
-        "fees": {
-          "amount": "Höhe der Take Profit Gebühren",
-          "text": "Take Profit Gebühren"
-        },
         "price": {
           "at": "Take Profit bei",
           "text": "Take Profit",
@@ -912,11 +906,11 @@ static const Map<String,dynamic> ru = {
     },
     "help": {
       "account_balance": {
-        "example": "Если вы выделили \u002450 000 для торговли, введите эту сумму.",
+        "example": "Если у вас выделено \u002450,000 для торговли, введите эту сумму.",
         "text": "Укажите текущую стоимость вашего доступного капитала."
       },
       "amount_at_risk": {
-        "example": "Если у вас есть общий капитал \u002450 000 и вы хотите поставить \u00241 000, введите \u00241 000 как стоимость.",
+        "example": "Если у вас капитал в размере \u002450,000 и вы планируете рисковать \u00241,000, введите \u00241,000 в качестве суммы.",
         "text": "Укажите сумму, которую вы хотели бы рискнуть этой сделкой, выражая ее в денежном эквиваленте относительно вашего капитала."
       },
       "entry_fees": {
@@ -960,6 +954,12 @@ static const Map<String,dynamic> ru = {
           "price": "Цена после налогов"
         }
       },
+      "amount": {
+        "after_tax": "Сумма после налогов",
+        "before_tax": "Сумма до налогов",
+        "fee": "Сумма комиссии",
+        "text": "Сумма"
+      },
       "amount_at_risk": "Сумма риска",
       "annual_contribution": "Годовой взнос",
       "average_annual_return": "Средний годовой доход",
@@ -995,7 +995,7 @@ static const Map<String,dynamic> ru = {
       },
       "entry": {
         "fees": {
-          "amount": "Сумма входных комиссий",
+          "amount": "Сумма вступительного взноса",
           "text": "Входные комиссии"
         },
         "price": {
@@ -1007,7 +1007,7 @@ static const Map<String,dynamic> ru = {
       },
       "exit": {
         "fees": {
-          "amount": "Сумма выходных комиссий",
+          "amount": "Сумма комиссии за выход",
           "text": "Выходные комиссии"
         },
         "price": {
@@ -1115,10 +1115,6 @@ static const Map<String,dynamic> ru = {
       "stop_loss": {
         "amount": "Сумма стоп-лосса",
         "at": "Стоп-лосс на",
-        "fees": {
-          "amount": "Сумма комиссии стоп-лосса",
-          "text": "Комиссия стоп-лосса"
-        },
         "in_percentage": {
           "text": "Стоп-лосс в процентах",
           "with_slippage": "Стоп-лосс в процентах со слиппажем"
@@ -1135,10 +1131,6 @@ static const Map<String,dynamic> ru = {
       "take_profit": {
         "amount": "Сумма Take Profit",
         "at": "Take Profit при",
-        "fees": {
-          "amount": "Сумма комиссии Take Profit",
-          "text": "Комиссия Take Profit"
-        },
         "price": {
           "at": "Take Profit при",
           "text": "Take Profit",
@@ -1207,11 +1199,11 @@ static const Map<String,dynamic> pt = {
     },
     "help": {
       "account_balance": {
-        "example": "Se você alocou \u002450.000 para negociação, insira esse valor.",
+        "example": "Se você tem \u002450,000 alocados para negociação, por favor insira este montante.",
         "text": "Indique o valor atual do seu capital disponível."
       },
       "amount_at_risk": {
-        "example": "Se você tem um capital total de \u002450.000 e deseja apostar \u00241.000, insira \u00241.000 como o montante.",
+        "example": "Se você tem um capital de \u002450,000 e planeja arriscar \u00241,000, por favor insira \u00241,000 como o montante.",
         "text": "Especifique o montante que deseja arriscar para esta transação, expressando-o em valor monetário em relação ao seu capital."
       },
       "entry_fees": {
@@ -1255,6 +1247,12 @@ static const Map<String,dynamic> pt = {
           "price": "Preço após impostos"
         }
       },
+      "amount": {
+        "after_tax": "Montante após impostos",
+        "before_tax": "Montante antes dos impostos",
+        "fee": "Montante da taxa",
+        "text": "Montante"
+      },
       "amount_at_risk": "Valor em risco",
       "annual_contribution": "Contribuição anual",
       "average_annual_return": "Retorno anual médio",
@@ -1290,7 +1288,7 @@ static const Map<String,dynamic> pt = {
       },
       "entry": {
         "fees": {
-          "amount": "Valor das taxas de entrada",
+          "amount": "Montante da taxa de entrada",
           "text": "Taxas de entrada"
         },
         "price": {
@@ -1302,7 +1300,7 @@ static const Map<String,dynamic> pt = {
       },
       "exit": {
         "fees": {
-          "amount": "Valor das taxas de saída",
+          "amount": "Valor da taxa de saída",
           "text": "Taxas de saída"
         },
         "price": {
@@ -1410,10 +1408,6 @@ static const Map<String,dynamic> pt = {
       "stop_loss": {
         "amount": "Valor de Stop Loss",
         "at": "Stop Loss em",
-        "fees": {
-          "amount": "Valor de taxas de Stop Loss",
-          "text": "Taxas de Stop Loss"
-        },
         "in_percentage": {
           "text": "Stop Loss em porcentagem",
           "with_slippage": "Stop Loss em porcentagem com derrapagem"
@@ -1430,10 +1424,6 @@ static const Map<String,dynamic> pt = {
       "take_profit": {
         "amount": "Valor de Take Profit",
         "at": "Take Profit em",
-        "fees": {
-          "amount": "Valor das taxas de Take Profit",
-          "text": "Taxas de Take Profit"
-        },
         "price": {
           "at": "Take Profit em",
           "text": "Take Profit",
@@ -1506,7 +1496,7 @@ static const Map<String,dynamic> en = {
         "text": "Indicate the current value of your available capital."
       },
       "amount_at_risk": {
-        "example": "If you have a total capital of \u002450,000 and wish to stake \u00241,000 please enter \u00241,000 as the amount.",
+        "example": "If you have a capital of \u002450,000 and you plan to risk \u00241,000 please enter \u00241,000 as the amount.",
         "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
       },
       "entry_fees": {
@@ -1550,6 +1540,12 @@ static const Map<String,dynamic> en = {
           "price": "Price After Taxes"
         }
       },
+      "amount": {
+        "after_tax": "Amount After Taxes",
+        "before_tax": "Amount Before Taxes",
+        "fee": "Fee Amount",
+        "text": "Amount"
+      },
       "amount_at_risk": "Amount at Risk",
       "annual_contribution": "Annual Contribution",
       "average_annual_return": "Average Annual Return",
@@ -1585,7 +1581,7 @@ static const Map<String,dynamic> en = {
       },
       "entry": {
         "fees": {
-          "amount": "Amount of entry fees",
+          "amount": "Entry fee amount",
           "text": "Entry Fees"
         },
         "price": {
@@ -1597,7 +1593,7 @@ static const Map<String,dynamic> en = {
       },
       "exit": {
         "fees": {
-          "amount": "Amount of exit fees",
+          "amount": "Exit fee amount",
           "text": "Exit Fees"
         },
         "price": {
@@ -1705,10 +1701,6 @@ static const Map<String,dynamic> en = {
       "stop_loss": {
         "amount": "Stop Loss Amount",
         "at": "Stop Loss at",
-        "fees": {
-          "amount": "Stop Loss Fees Amount",
-          "text": "Stop Loss Fees"
-        },
         "in_percentage": {
           "text": "Stop Loss in Percentage",
           "with_slippage": "Stop Loss in Percentage with Slippage"
@@ -1725,10 +1717,6 @@ static const Map<String,dynamic> en = {
       "take_profit": {
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
-        "fees": {
-          "amount": "Amount of take profit fees",
-          "text": "Take Profit Fees"
-        },
         "price": {
           "at": "Take Profit at",
           "text": "Take Profit",
@@ -1797,11 +1785,11 @@ static const Map<String,dynamic> it = {
     },
     "help": {
       "account_balance": {
-        "example": "Se hai allocato \u002450.000 per il trading, inserisci questa cifra.",
+        "example": "Se hai allocato \u002450,000 per il trading, inserisci questo importo.",
         "text": "Indica il valore attuale del tuo capitale disponibile."
       },
       "amount_at_risk": {
-        "example": "Se hai un capitale totale di \u002450.000 e desideri scommettere \u00241.000, inserisci \u00241.000 come importo.",
+        "example": "Se hai un capitale di \u002450,000 e prevedi di rischiare \u00241,000, inserisci \u00241,000 come importo.",
         "text": "Specifica l'importo che desideri rischiare per questa transazione, esprimendolo in valore monetario rispetto al tuo capitale."
       },
       "entry_fees": {
@@ -1845,6 +1833,12 @@ static const Map<String,dynamic> it = {
           "price": "Prezzo dopo le imposte"
         }
       },
+      "amount": {
+        "after_tax": "Importo dopo le tasse",
+        "before_tax": "Importo prima delle tasse",
+        "fee": "Importo della tariffa",
+        "text": "Importo"
+      },
       "amount_at_risk": "Importo a rischio",
       "annual_contribution": "Contributo annuale",
       "average_annual_return": "Rendimento annuale medio",
@@ -1880,7 +1874,7 @@ static const Map<String,dynamic> it = {
       },
       "entry": {
         "fees": {
-          "amount": "Importo delle commissioni di ingresso",
+          "amount": "Importo della tariffa d'ingresso",
           "text": "Commissioni di ingresso"
         },
         "price": {
@@ -1892,7 +1886,7 @@ static const Map<String,dynamic> it = {
       },
       "exit": {
         "fees": {
-          "amount": "Importo delle commissioni di uscita",
+          "amount": "Importo della tassa di uscita",
           "text": "Commissioni di uscita"
         },
         "price": {
@@ -2000,10 +1994,6 @@ static const Map<String,dynamic> it = {
       "stop_loss": {
         "amount": "Importo stop loss",
         "at": "Stop loss a",
-        "fees": {
-          "amount": "Importo commissioni stop loss",
-          "text": "Commissioni stop loss"
-        },
         "in_percentage": {
           "text": "Stop loss in percentuale",
           "with_slippage": "Stop loss in percentuale con slippage"
@@ -2020,10 +2010,6 @@ static const Map<String,dynamic> it = {
       "take_profit": {
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
-        "fees": {
-          "amount": "Importo delle commissioni del Take Profit",
-          "text": "Commissioni del Take Profit"
-        },
         "price": {
           "at": "Take Profit a",
           "text": "Take Profit",
@@ -2092,7 +2078,7 @@ static const Map<String,dynamic> fr = {
     },
     "help": {
       "account_balance": {
-        "example": "Si vous avez 50 000 \u0024 pour le trading, veuillez saisir ce montant.",
+        "example": "Si vous avez alloué \u002450,000 pour le trading, veuillez entrer ce montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
       "amount_at_risk": {
@@ -2139,6 +2125,12 @@ static const Map<String,dynamic> fr = {
           "amount": "Montant après impôts",
           "price": "Prix après impôts"
         }
+      },
+      "amount": {
+        "after_tax": "Montant après impôts",
+        "before_tax": "Montant avant impôts",
+        "fee": "Montant des frais",
+        "text": "Montant"
       },
       "amount_at_risk": "Montant à risque",
       "annual_contribution": "Contribution annuelle",
@@ -2295,10 +2287,6 @@ static const Map<String,dynamic> fr = {
       "stop_loss": {
         "amount": "Montant du stop de protection",
         "at": "Stop de protection à",
-        "fees": {
-          "amount": "Montant des frais du stop de protection",
-          "text": "Frais du stop de protection"
-        },
         "in_percentage": {
           "text": "Stop de protection en pourcentage",
           "with_slippage": "Stop de protection en pourcentage avec glissement"
@@ -2315,10 +2303,6 @@ static const Map<String,dynamic> fr = {
       "take_profit": {
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
-        "fees": {
-          "amount": "Montant des frais de prise de bénéfices",
-          "text": "Frais de prise de bénéfices"
-        },
         "price": {
           "at": "Prise de bénéfices à",
           "text": "Prise de bénéfices",
@@ -2387,11 +2371,11 @@ static const Map<String,dynamic> es = {
     },
     "help": {
       "account_balance": {
-        "example": "Si tienes \u002450,000 asignados para operar, por favor introduce este monto.",
+        "example": "Si tienes \u002450,000 asignados para operar, por favor ingresa este monto.",
         "text": "Indica el valor actual de tu capital disponible."
       },
       "amount_at_risk": {
-        "example": "Si tienes un capital total de \u002450,000 y deseas apostar \u00241,000, introduce \u00241,000 como la cantidad.",
+        "example": "Si tienes un capital de \u002450,000 y planeas arriesgar \u00241,000, por favor ingresa \u00241,000 como el monto.",
         "text": "Especifica la cantidad que deseas arriesgar para esta transacción, expresándola en valor monetario en relación a tu capital."
       },
       "entry_fees": {
@@ -2435,6 +2419,12 @@ static const Map<String,dynamic> es = {
           "price": "Precio después de impuestos"
         }
       },
+      "amount": {
+        "after_tax": "Monto después de impuestos",
+        "before_tax": "Monto antes de impuestos",
+        "fee": "Monto de la tarifa",
+        "text": "Monto"
+      },
       "amount_at_risk": "Monto en riesgo",
       "annual_contribution": "Aportación anual",
       "average_annual_return": "Retorno anual promedio",
@@ -2470,7 +2460,7 @@ static const Map<String,dynamic> es = {
       },
       "entry": {
         "fees": {
-          "amount": "Monto de las tarifas de entrada",
+          "amount": "Monto de la tarifa de entrada",
           "text": "Tarifas de entrada"
         },
         "price": {
@@ -2482,7 +2472,7 @@ static const Map<String,dynamic> es = {
       },
       "exit": {
         "fees": {
-          "amount": "Monto de las tarifas de salida",
+          "amount": "Monto de la tarifa de salida",
           "text": "Tarifas de salida"
         },
         "price": {
@@ -2590,10 +2580,6 @@ static const Map<String,dynamic> es = {
       "stop_loss": {
         "amount": "Monto de Stop Loss",
         "at": "Stop Loss en",
-        "fees": {
-          "amount": "Monto de comisiones de Stop Loss",
-          "text": "Comisiones de Stop Loss"
-        },
         "in_percentage": {
           "text": "Stop Loss en porcentaje",
           "with_slippage": "Stop Loss en porcentaje con deslizamiento"
@@ -2610,10 +2596,6 @@ static const Map<String,dynamic> es = {
       "take_profit": {
         "amount": "Monto de Take Profit",
         "at": "Take Profit en",
-        "fees": {
-          "amount": "Monto de las tarifas de Take Profit",
-          "text": "Tarifas de Take Profit"
-        },
         "price": {
           "at": "Take Profit en",
           "text": "Take Profit",

@@ -14,11 +14,11 @@
     },
     "help": {
       "account_balance": {
-        "example": "Si tienes $50,000 asignados para operar, por favor introduce este monto.",
+        "example": "Si tienes $50,000 asignados para operar, por favor ingresa este monto.",
         "text": "Indica el valor actual de tu capital disponible."
       },
       "amount_at_risk": {
-        "example": "Si tienes un capital total de $50,000 y deseas apostar $1,000, introduce $1,000 como la cantidad.",
+        "example": "Si tienes un capital de $50,000 y planeas arriesgar $1,000, por favor ingresa $1,000 como el monto.",
         "text": "Especifica la cantidad que deseas arriesgar para esta transacción, expresándola en valor monetario en relación a tu capital."
       },
       "entry_fees": {
@@ -62,6 +62,12 @@
           "price": "Precio después de impuestos"
         }
       },
+      "amount": {
+        "after_tax": "Monto después de impuestos",
+        "before_tax": "Monto antes de impuestos",
+        "fee": "Monto de la tarifa",
+        "text": "Monto"
+      },
       "amount_at_risk": "Monto en riesgo",
       "annual_contribution": "Aportación anual",
       "average_annual_return": "Retorno anual promedio",
@@ -97,7 +103,7 @@
       },
       "entry": {
         "fees": {
-          "amount": "Monto de las tarifas de entrada",
+          "amount": "Monto de la tarifa de entrada",
           "text": "Tarifas de entrada"
         },
         "price": {
@@ -109,7 +115,7 @@
       },
       "exit": {
         "fees": {
-          "amount": "Monto de las tarifas de salida",
+          "amount": "Monto de la tarifa de salida",
           "text": "Tarifas de salida"
         },
         "price": {
@@ -217,10 +223,6 @@
       "stop_loss": {
         "amount": "Monto de Stop Loss",
         "at": "Stop Loss en",
-        "fees": {
-          "amount": "Monto de comisiones de Stop Loss",
-          "text": "Comisiones de Stop Loss"
-        },
         "in_percentage": {
           "text": "Stop Loss en porcentaje",
           "with_slippage": "Stop Loss en porcentaje con deslizamiento"
@@ -237,10 +239,6 @@
       "take_profit": {
         "amount": "Monto de Take Profit",
         "at": "Take Profit en",
-        "fees": {
-          "amount": "Monto de las tarifas de Take Profit",
-          "text": "Tarifas de Take Profit"
-        },
         "price": {
           "at": "Take Profit en",
           "text": "Take Profit",

@@ -14,11 +14,11 @@
     },
     "help": {
       "account_balance": {
-        "example": "Se hai allocato $50.000 per il trading, inserisci questa cifra.",
+        "example": "Se hai allocato $50,000 per il trading, inserisci questo importo.",
         "text": "Indica il valore attuale del tuo capitale disponibile."
       },
       "amount_at_risk": {
-        "example": "Se hai un capitale totale di $50.000 e desideri scommettere $1.000, inserisci $1.000 come importo.",
+        "example": "Se hai un capitale di $50,000 e prevedi di rischiare $1,000, inserisci $1,000 come importo.",
         "text": "Specifica l'importo che desideri rischiare per questa transazione, esprimendolo in valore monetario rispetto al tuo capitale."
       },
       "entry_fees": {
@@ -62,6 +62,12 @@
           "price": "Prezzo dopo le imposte"
         }
       },
+      "amount": {
+        "after_tax": "Importo dopo le tasse",
+        "before_tax": "Importo prima delle tasse",
+        "fee": "Importo della tariffa",
+        "text": "Importo"
+      },
       "amount_at_risk": "Importo a rischio",
       "annual_contribution": "Contributo annuale",
       "average_annual_return": "Rendimento annuale medio",
@@ -97,7 +103,7 @@
       },
       "entry": {
         "fees": {
-          "amount": "Importo delle commissioni di ingresso",
+          "amount": "Importo della tariffa d'ingresso",
           "text": "Commissioni di ingresso"
         },
         "price": {
@@ -109,7 +115,7 @@
       },
       "exit": {
         "fees": {
-          "amount": "Importo delle commissioni di uscita",
+          "amount": "Importo della tassa di uscita",
           "text": "Commissioni di uscita"
         },
         "price": {
@@ -217,10 +223,6 @@
       "stop_loss": {
         "amount": "Importo stop loss",
         "at": "Stop loss a",
-        "fees": {
-          "amount": "Importo commissioni stop loss",
-          "text": "Commissioni stop loss"
-        },
         "in_percentage": {
           "text": "Stop loss in percentuale",
           "with_slippage": "Stop loss in percentuale con slippage"
@@ -237,10 +239,6 @@
       "take_profit": {
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
-        "fees": {
-          "amount": "Importo delle commissioni del Take Profit",
-          "text": "Commissioni del Take Profit"
-        },
         "price": {
           "at": "Take Profit a",
           "text": "Take Profit",

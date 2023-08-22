@@ -47,6 +47,11 @@ abstract class FinanceLocaleKeys {
   static const finance_label_after_tax_price = 'finance.label.after.tax.price';
   static const finance_label_after_tax = 'finance.label.after.tax';
   static const finance_label_after = 'finance.label.after';
+  static const finance_label_amount_after_tax = 'finance.label.amount.after_tax';
+  static const finance_label_amount_before_tax = 'finance.label.amount.before_tax';
+  static const finance_label_amount_fee = 'finance.label.amount.fee';
+  static const finance_label_amount_text = 'finance.label.amount.text';
+  static const finance_label_amount = 'finance.label.amount';
   static const finance_label_amount_at_risk = 'finance.label.amount_at_risk';
   static const finance_label_annual_contribution = 'finance.label.annual_contribution';
   static const finance_label_average_annual_return = 'finance.label.average_annual_return';
@@ -178,9 +183,6 @@ abstract class FinanceLocaleKeys {
   static const finance_label_starting = 'finance.label.starting';
   static const finance_label_stop_loss_amount = 'finance.label.stop_loss.amount';
   static const finance_label_stop_loss_at = 'finance.label.stop_loss.at';
-  static const finance_label_stop_loss_fees_amount = 'finance.label.stop_loss.fees.amount';
-  static const finance_label_stop_loss_fees_text = 'finance.label.stop_loss.fees.text';
-  static const finance_label_stop_loss_fees = 'finance.label.stop_loss.fees';
   static const finance_label_stop_loss_in_percentage_text = 'finance.label.stop_loss.in_percentage.text';
   static const finance_label_stop_loss_in_percentage_with_slippage = 'finance.label.stop_loss.in_percentage.with_slippage';
   static const finance_label_stop_loss_in_percentage = 'finance.label.stop_loss.in_percentage';
@@ -194,9 +196,6 @@ abstract class FinanceLocaleKeys {
   static const finance_label_support_level = 'finance.label.support_level';
   static const finance_label_take_profit_amount = 'finance.label.take_profit.amount';
   static const finance_label_take_profit_at = 'finance.label.take_profit.at';
-  static const finance_label_take_profit_fees_amount = 'finance.label.take_profit.fees.amount';
-  static const finance_label_take_profit_fees_text = 'finance.label.take_profit.fees.text';
-  static const finance_label_take_profit_fees = 'finance.label.take_profit.fees';
   static const finance_label_take_profit_price_at = 'finance.label.take_profit.price.at';
   static const finance_label_take_profit_price_text = 'finance.label.take_profit.price.text';
   static const finance_label_take_profit_price_with_slippage = 'finance.label.take_profit.price.with_slippage';

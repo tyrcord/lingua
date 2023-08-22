@@ -14,11 +14,11 @@
     },
     "help": {
       "account_balance": {
-        "example": "Se você alocou $50.000 para negociação, insira esse valor.",
+        "example": "Se você tem $50,000 alocados para negociação, por favor insira este montante.",
         "text": "Indique o valor atual do seu capital disponível."
       },
       "amount_at_risk": {
-        "example": "Se você tem um capital total de $50.000 e deseja apostar $1.000, insira $1.000 como o montante.",
+        "example": "Se você tem um capital de $50,000 e planeja arriscar $1,000, por favor insira $1,000 como o montante.",
         "text": "Especifique o montante que deseja arriscar para esta transação, expressando-o em valor monetário em relação ao seu capital."
       },
       "entry_fees": {
@@ -62,6 +62,12 @@
           "price": "Preço após impostos"
         }
       },
+      "amount": {
+        "after_tax": "Montante após impostos",
+        "before_tax": "Montante antes dos impostos",
+        "fee": "Montante da taxa",
+        "text": "Montante"
+      },
       "amount_at_risk": "Valor em risco",
       "annual_contribution": "Contribuição anual",
       "average_annual_return": "Retorno anual médio",
@@ -97,7 +103,7 @@
       },
       "entry": {
         "fees": {
-          "amount": "Valor das taxas de entrada",
+          "amount": "Montante da taxa de entrada",
           "text": "Taxas de entrada"
         },
         "price": {
@@ -109,7 +115,7 @@
       },
       "exit": {
         "fees": {
-          "amount": "Valor das taxas de saída",
+          "amount": "Valor da taxa de saída",
           "text": "Taxas de saída"
         },
         "price": {
@@ -217,10 +223,6 @@
       "stop_loss": {
         "amount": "Valor de Stop Loss",
         "at": "Stop Loss em",
-        "fees": {
-          "amount": "Valor de taxas de Stop Loss",
-          "text": "Taxas de Stop Loss"
-        },
         "in_percentage": {
           "text": "Stop Loss em porcentagem",
           "with_slippage": "Stop Loss em porcentagem com derrapagem"
@@ -237,10 +239,6 @@
       "take_profit": {
         "amount": "Valor de Take Profit",
         "at": "Take Profit em",
-        "fees": {
-          "amount": "Valor das taxas de Take Profit",
-          "text": "Taxas de Take Profit"
-        },
         "price": {
           "at": "Take Profit em",
           "text": "Take Profit",

@@ -14,7 +14,7 @@
     },
     "help": {
       "account_balance": {
-        "example": "Si vous avez 50 000 $ pour le trading, veuillez saisir ce montant.",
+        "example": "Si vous avez alloué $50,000 pour le trading, veuillez entrer ce montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
       "amount_at_risk": {
@@ -61,6 +61,12 @@
           "amount": "Montant après impôts",
           "price": "Prix après impôts"
         }
+      },
+      "amount": {
+        "after_tax": "Montant après impôts",
+        "before_tax": "Montant avant impôts",
+        "fee": "Montant des frais",
+        "text": "Montant"
       },
       "amount_at_risk": "Montant à risque",
       "annual_contribution": "Contribution annuelle",
@@ -217,10 +223,6 @@
       "stop_loss": {
         "amount": "Montant du stop de protection",
         "at": "Stop de protection à",
-        "fees": {
-          "amount": "Montant des frais du stop de protection",
-          "text": "Frais du stop de protection"
-        },
         "in_percentage": {
           "text": "Stop de protection en pourcentage",
           "with_slippage": "Stop de protection en pourcentage avec glissement"
@@ -237,10 +239,6 @@
       "take_profit": {
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
-        "fees": {
-          "amount": "Montant des frais de prise de bénéfices",
-          "text": "Frais de prise de bénéfices"
-        },
         "price": {
           "at": "Prise de bénéfices à",
           "text": "Prise de bénéfices",
