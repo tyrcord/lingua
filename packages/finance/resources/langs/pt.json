@@ -58,24 +58,38 @@
       },
       "after": {
         "fee": {
-          "amount": "Quantia após impostos",
-          "price": "Preço após impostos"
+          "amount": "Quantidade após taxas",
+          "price": "Preço após taxas"
         }
       },
       "amount": {
-        "after_fee": "Quantia após impostos",
-        "before_fee": "Quantia antes dos impostos",
-        "fee": "Montante da taxa",
-        "text": "Montante"
+        "after_fee": "Quantidade após taxas",
+        "before_fee": "Quantidade antes das taxas",
+        "fee": "Quantidade de taxa",
+        "text": "Quantidade"
       },
       "amount_at_risk": "Valor em risco",
       "annual_contribution": "Contribuição anual",
       "average_annual_return": "Retorno anual médio",
       "before": {
         "fee": {
-          "amount": "Quantia antes dos impostos",
-          "price": "Preço antes dos impostos"
+          "amount": "Quantidade antes das taxas",
+          "price": "Preço antes das taxas"
+        },
+        "vat": {
+          "amount": "Quantidade antes do IVA",
+          "price": "Preço antes do IVA"
         }
+      },
+      "tip": {
+        "amount": "Quantidade de gorjeta",
+        "rate": "Taxa de gorjeta",
+        "text": "Gorjeta"
+      },
+      "vat": {
+        "amount": "Quantidade de IVA",
+        "rate": "Taxa de IVA",
+        "text": "IVA"
       },
       "break_even": {
         "price": "Preço de equilíbrio",
@@ -92,10 +106,12 @@
       "currencies": "Moedas",
       "currency": "Moeda",
       "discount": {
-        "amount": "Valor do desconto",
+        "amount": "Quantidade de desconto",
+        "rate": "Taxa de desconto",
         "label": "Desconto",
         "per_unit": "Desconto por unidade"
       },
+      "additional_tax_rate": "Taxa de imposto adicional",
       "duration_years": "Duração em anos",
       "ending": {
         "balance": "Saldo final",
@@ -149,8 +165,8 @@
         "buy_price": "Preço líquido de compra",
         "income": "Renda líquida",
         "profit": {
-          "after_fee": "Lucro líquido após impostos",
-          "before_fee": "Lucro líquido antes dos impostos",
+          "after_fee": "Lucro líquido após taxas",
+          "before_fee": "Lucro líquido antes das taxas",
           "text": "Lucro líquido"
         }
       },
@@ -180,8 +196,8 @@
         "a": "Preço A",
         "b": "Preço B",
         "per_unit": "Preço por unidade",
-        "per_unit_after_fee": "Preço por unidade após impostos",
-        "per_unit_before_fee": "Preço por unidade antes dos impostos",
+        "per_unit_after_fee": "Preço por unidade após taxas",
+        "per_unit_before_fee": "Preço por unidade antes das taxas",
         "text": "Preço"
       },
       "primary_currency": "Moeda primária",

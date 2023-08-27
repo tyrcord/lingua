@@ -58,13 +58,13 @@
       },
       "after": {
         "fee": {
-          "amount": "税后金额",
-          "price": "税后价格"
+          "amount": "扣除费用后的金额",
+          "price": "扣除费用后的价格"
         }
       },
       "amount": {
-        "after_fee": "税后金额",
-        "before_fee": "税前金额",
+        "after_fee": "扣除费用后的金额",
+        "before_fee": "扣费前的金额",
         "fee": "费用金额",
         "text": "金额"
       },
@@ -73,9 +73,23 @@
       "average_annual_return": "年均回报",
       "before": {
         "fee": {
-          "amount": "税前金额",
-          "price": "税前价格"
+          "amount": "费用前金额",
+          "price": "费用前价格"
+        },
+        "vat": {
+          "amount": "增值税前金额",
+          "price": "增值税前价格"
         }
+      },
+      "tip": {
+        "amount": "小费金额",
+        "rate": "小费率",
+        "text": "小费"
+      },
+      "vat": {
+        "amount": "增值税金额",
+        "rate": "增值税率",
+        "text": "增值税"
       },
       "break_even": {
         "price": "保本价格",
@@ -93,9 +107,11 @@
       "currency": "货币",
       "discount": {
         "amount": "折扣金额",
+        "rate": "折扣率",
         "label": "折扣",
-        "per_unit": "单位折扣"
+        "per_unit": "每单位折扣"
       },
+      "additional_tax_rate": "额外税率",
       "duration_years": "年份持续时间",
       "ending": {
         "balance": "结余",
@@ -149,8 +165,8 @@
         "buy_price": "净买入价格",
         "income": "净收入",
         "profit": {
-          "after_fee": "税后净利润",
-          "before_fee": "税前净利润",
+          "after_fee": "扣除费用后的净利润",
+          "before_fee": "扣费前的净利润",
           "text": "净利润"
         }
       },
@@ -180,8 +196,8 @@
         "a": "价格A",
         "b": "价格B",
         "per_unit": "单价",
-        "per_unit_after_fee": "税后的单位价格",
-        "per_unit_before_fee": "税前的单位价格",
+        "per_unit_after_fee": "扣除费用后的单价",
+        "per_unit_before_fee": "扣费前的单价",
         "text": "价格"
       },
       "primary_currency": "主要货币",
@@ -240,7 +256,7 @@
         "amount": "止盈金额",
         "at": "止盈于",
         "price": {
-          "after_fee": "税后获利",
+          "after_fee": "扣除手续费后的利润",
           "at": "止盈于",
           "text": "止盈",
           "with_slippage": "含滑点的止盈"

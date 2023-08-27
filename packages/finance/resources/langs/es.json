@@ -58,24 +58,38 @@
       },
       "after": {
         "fee": {
-          "amount": "Monto después de impuestos",
-          "price": "Precio después de impuestos"
+          "amount": "Cantidad después de comisiones",
+          "price": "Precio después de comisiones"
         }
       },
       "amount": {
-        "after_fee": "Monto después de impuestos",
-        "before_fee": "Monto antes de impuestos",
-        "fee": "Monto de la tarifa",
-        "text": "Monto"
+        "after_fee": "Cantidad después de comisiones",
+        "before_fee": "Cantidad antes de comisiones",
+        "fee": "Cantidad de comisión",
+        "text": "Cantidad"
       },
       "amount_at_risk": "Monto en riesgo",
       "annual_contribution": "Aportación anual",
       "average_annual_return": "Retorno anual promedio",
       "before": {
         "fee": {
-          "amount": "Monto antes de impuestos",
-          "price": "Precio antes de impuestos"
+          "amount": "Cantidad antes de comisiones",
+          "price": "Precio antes de comisiones"
+        },
+        "vat": {
+          "amount": "Cantidad antes de IVA",
+          "price": "Precio antes de IVA"
         }
+      },
+      "tip": {
+        "amount": "Cantidad de propina",
+        "rate": "Tasa de propina",
+        "text": "Propina"
+      },
+      "vat": {
+        "amount": "Cantidad de IVA",
+        "rate": "Tasa de IVA",
+        "text": "IVA"
       },
       "break_even": {
         "price": "Precio de equilibrio",
@@ -92,10 +106,12 @@
       "currencies": "Monedas",
       "currency": "Moneda",
       "discount": {
-        "amount": "Monto de descuento",
+        "amount": "Cantidad de descuento",
+        "rate": "Tasa de descuento",
         "label": "Descuento",
         "per_unit": "Descuento por unidad"
       },
+      "additional_tax_rate": "Tasa de impuesto adicional",
       "duration_years": "Duración en años",
       "ending": {
         "balance": "Saldo final",
@@ -149,8 +165,8 @@
         "buy_price": "Precio neto de compra",
         "income": "Ingreso neto",
         "profit": {
-          "after_fee": "Beneficio neto después de impuestos",
-          "before_fee": "Beneficio neto antes de impuestos",
+          "after_fee": "Beneficio neto después de comisiones",
+          "before_fee": "Beneficio neto antes de comisiones",
           "text": "Beneficio neto"
         }
       },
@@ -180,8 +196,8 @@
         "a": "Precio A",
         "b": "Precio B",
         "per_unit": "Precio por unidad",
-        "per_unit_after_fee": "Precio por unidad después de impuestos",
-        "per_unit_before_fee": "Precio por unidad antes de impuestos",
+        "per_unit_after_fee": "Precio por unidad después de comisiones",
+        "per_unit_before_fee": "Precio por unidad antes de comisiones",
         "text": "Precio"
       },
       "primary_currency": "Moneda principal",

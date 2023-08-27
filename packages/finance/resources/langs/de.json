@@ -58,13 +58,13 @@
       },
       "after": {
         "fee": {
-          "amount": "Betrag nach Steuern",
-          "price": "Preis nach Steuern"
+          "amount": "Betrag nach Gebühren",
+          "price": "Preis nach Gebühren"
         }
       },
       "amount": {
-        "after_fee": "Betrag nach Steuern",
-        "before_fee": "Betrag vor Steuern",
+        "after_fee": "Betrag nach Gebühren",
+        "before_fee": "Betrag vor Gebühren",
         "fee": "Gebührenbetrag",
         "text": "Betrag"
       },
@@ -73,9 +73,23 @@
       "average_annual_return": "Durchschnittliche jährliche Rendite",
       "before": {
         "fee": {
-          "amount": "Betrag vor Steuern",
-          "price": "Preis vor Steuern"
+          "amount": "Betrag vor Gebühren",
+          "price": "Preis vor Gebühren"
+        },
+        "vat": {
+          "amount": "Betrag vor MwSt",
+          "price": "Preis vor MwSt"
         }
+      },
+      "tip": {
+        "amount": "Trinkgeld Betrag",
+        "rate": "Trinkgeldsatz",
+        "text": "Trinkgeld"
+      },
+      "vat": {
+        "amount": "MwSt Betrag",
+        "rate": "MwSt Satz",
+        "text": "MwSt"
       },
       "break_even": {
         "price": "Break-even-Preis",
@@ -93,9 +107,11 @@
       "currency": "Währung",
       "discount": {
         "amount": "Rabattbetrag",
+        "rate": "Rabattsatz",
         "label": "Rabatt",
         "per_unit": "Rabatt pro Einheit"
       },
+      "additional_tax_rate": "Zusätzlicher Steuersatz",
       "duration_years": "Dauer in Jahren",
       "ending": {
         "balance": "Endguthaben",
@@ -149,8 +165,8 @@
         "buy_price": "Netto-Kaufpreis",
         "income": "Nettoeinkommen",
         "profit": {
-          "after_fee": "Nettogewinn nach Steuern",
-          "before_fee": "Nettogewinn vor Steuern",
+          "after_fee": "Nettogewinn nach Gebühren",
+          "before_fee": "Nettogewinn vor Gebühren",
           "text": "Nettogewinn"
         }
       },
@@ -180,8 +196,8 @@
         "a": "Preis A",
         "b": "Preis B",
         "per_unit": "Preis pro Einheit",
-        "per_unit_after_fee": "Preis pro Einheit nach Steuern",
-        "per_unit_before_fee": "Preis pro Einheit vor Steuern",
+        "per_unit_after_fee": "Preis pro Einheit nach Gebühren",
+        "per_unit_before_fee": "Preis pro Einheit vor Gebühren",
         "text": "Preis"
       },
       "primary_currency": "Hauptwährung",

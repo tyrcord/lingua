@@ -58,13 +58,13 @@
       },
       "after": {
         "fee": {
-          "amount": "税後の金額",
-          "price": "税後の価格"
+          "amount": "手数料後の金額",
+          "price": "手数料後の価格"
         }
       },
       "amount": {
-        "after_fee": "税後の金額",
-        "before_fee": "税前の金額",
+        "after_fee": "手数料後の金額",
+        "before_fee": "手数料前の金額",
         "fee": "手数料の金額",
         "text": "金額"
       },
@@ -73,9 +73,23 @@
       "average_annual_return": "平均年間利回り",
       "before": {
         "fee": {
-          "amount": "税前の金額",
-          "price": "税前の価格"
+          "amount": "手数料前の金額",
+          "price": "手数料前の価格"
+        },
+        "vat": {
+          "amount": "VAT前の金額",
+          "price": "VAT前の価格"
         }
+      },
+      "tip": {
+        "amount": "チップの金額",
+        "rate": "チップのレート",
+        "text": "チップ"
+      },
+      "vat": {
+        "amount": "VATの金額",
+        "rate": "VATのレート",
+        "text": "VAT"
       },
       "break_even": {
         "price": "損益分岐点の価格",
@@ -92,10 +106,12 @@
       "currencies": "通貨",
       "currency": "通貨",
       "discount": {
-        "amount": "割引金額",
+        "amount": "割引額",
+        "rate": "割引率",
         "label": "割引",
-        "per_unit": "ユニットごとの割引"
+        "per_unit": "単位あたりの割引"
       },
+      "additional_tax_rate": "追加の税率",
       "duration_years": "年単位の期間",
       "ending": {
         "balance": "最終残高",
@@ -149,8 +165,8 @@
         "buy_price": "純購入価格",
         "income": "純収入",
         "profit": {
-          "after_fee": "税後の純利益",
-          "before_fee": "税前の純利益",
+          "after_fee": "手数料後の純利益",
+          "before_fee": "手数料前の純利益",
           "text": "純利益"
         }
       },
@@ -180,8 +196,8 @@
         "a": "価格A",
         "b": "価格B",
         "per_unit": "ユニットごとの価格",
-        "per_unit_after_fee": "税後の単価",
-        "per_unit_before_fee": "税前の単価",
+        "per_unit_after_fee": "手数料後の単価",
+        "per_unit_before_fee": "手数料前の単価",
         "text": "価格"
       },
       "primary_currency": "主要通貨",

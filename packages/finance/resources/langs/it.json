@@ -58,14 +58,14 @@
       },
       "after": {
         "fee": {
-          "amount": "Importo dopo le tasse",
-          "price": "Prezzo dopo le tasse"
+          "amount": "Importo dopo le commissioni",
+          "price": "Prezzo dopo le commissioni"
         }
       },
       "amount": {
-        "after_fee": "Importo dopo le tasse",
-        "before_fee": "Importo prima delle tasse",
-        "fee": "Importo della tariffa",
+        "after_fee": "Importo dopo le commissioni",
+        "before_fee": "Importo prima delle commissioni",
+        "fee": "Importo delle commissioni",
         "text": "Importo"
       },
       "amount_at_risk": "Importo a rischio",
@@ -73,9 +73,23 @@
       "average_annual_return": "Rendimento annuale medio",
       "before": {
         "fee": {
-          "amount": "Importo prima delle tasse",
-          "price": "Prezzo prima delle tasse"
+          "amount": "Importo prima delle commissioni",
+          "price": "Prezzo prima delle commissioni"
+        },
+        "vat": {
+          "amount": "Importo prima dell'IVA",
+          "price": "Prezzo prima dell'IVA"
         }
+      },
+      "tip": {
+        "amount": "Importo della mancia",
+        "rate": "Tasso della mancia",
+        "text": "Mancia"
+      },
+      "vat": {
+        "amount": "Importo dell'IVA",
+        "rate": "Tasso dell'IVA",
+        "text": "IVA"
       },
       "break_even": {
         "price": "Prezzo di pareggio",
@@ -92,10 +106,12 @@
       "currencies": "Valute",
       "currency": "Valuta",
       "discount": {
-        "amount": "Importo sconto",
+        "amount": "Importo dello sconto",
+        "rate": "Tasso di sconto",
         "label": "Sconto",
         "per_unit": "Sconto per unità"
       },
+      "additional_tax_rate": "Tasso di imposta aggiuntivo",
       "duration_years": "Durata in anni",
       "ending": {
         "balance": "Saldo finale",
@@ -149,8 +165,8 @@
         "buy_price": "Prezzo netto di acquisto",
         "income": "Reddito netto",
         "profit": {
-          "after_fee": "Profitto netto dopo tasse",
-          "before_fee": "Profitto netto prima delle tasse",
+          "after_fee": "Profitto netto dopo le commissioni",
+          "before_fee": "Profitto netto prima delle commissioni",
           "text": "Profitto netto"
         }
       },
@@ -180,8 +196,8 @@
         "a": "Prezzo A",
         "b": "Prezzo B",
         "per_unit": "Prezzo per unità",
-        "per_unit_after_fee": "Prezzo per unità dopo tasse",
-        "per_unit_before_fee": "Prezzo per unità prima delle tasse",
+        "per_unit_after_fee": "Prezzo per unità dopo le commissioni",
+        "per_unit_before_fee": "Prezzo per unità prima delle commissioni",
         "text": "Prezzo"
       },
       "primary_currency": "Valuta principale",
@@ -240,7 +256,7 @@
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
         "price": {
-          "after_fee": "Presa di profitto dopo le spese",
+          "after_fee": "Presa di profitto dopo le Commissioni",
           "at": "Take Profit a",
           "text": "Take Profit",
           "with_slippage": "Take Profit con slippage"

@@ -75,8 +75,23 @@
         "fee": {
           "amount": "Montant avant frais",
           "price": "Prix avant frais"
+        },
+        "vat": {
+          "amount": "Montant avant TVA",
+          "price": "Prix avant TVA"
         }
       },
+      "tip": {
+        "amount": "Montant du pourboire",
+        "rate": "Taux du pourboire",
+        "text": "Pourboire"
+      },
+      "vat": {
+        "amount": "Montant de la TVA",
+        "rate": "Taux de TVA",
+        "text": "TVA"
+      },
+      "additional_tax_rate": "Taux d'imposition supplémentaire",
       "break_even": {
         "price": "Prix de rentabilité",
         "units": "Unités de rentabilité"
@@ -92,9 +107,10 @@
       "currencies": "Devises",
       "currency": "Devise",
       "discount": {
-        "amount": "Montant de réduction",
-        "label": "Réduction",
-        "per_unit": "Réduction par unité"
+        "amount": "Montant de la remise",
+        "rate": "Taux de remise",
+        "label": "Remise",
+        "per_unit": "Remise par unité"
       },
       "duration_years": "Durée en années",
       "ending": {
