@@ -30,9 +30,21 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果您为交易分配了 50,000 欧元，请输入 50,000 作为金额。",
         "text": "请提供您当前可用资金的价值。"
       },
+      "additional_tax_rate": {
+        "example": "如果一个产品适用20%的增值税并增加了额外的2%特定或地方税，请输入2作为该税率。",
+        "text": "指的是在增值税之上应用的额外税款。"
+      },
       "amount_at_risk": {
         "example": "如果您的资本为 50,000 欧元，您计划冒险 1,000 欧元，请输入 1,000 作为金额。",
         "text": "请以与您的资本相关的货币价值表示您希望在此交易中冒险的金额。"
+      },
+      "discount_amount": {
+        "example": "如果一个产品原价为\u0024100，且你可以享受\u002420的折扣，请输入20作为折扣金额。",
+        "text": "代表从商品或服务的初始价格中减去的货币价值的减少。"
+      },
+      "discount_rate": {
+        "example": "如果一个产品的起始价格为\u0024100，且提供了20%的折扣，请输入20作为折扣率。",
+        "text": "代表应用于商品或服务初始价格的百分比减少。"
       },
       "entry_fees": {
         "example": "如果您的经纪人在开仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
@@ -45,6 +57,10 @@ class FinanceCodegenLoader extends AssetLoader {
       "exit_fees": {
         "example": "如果您的经纪人在平仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
         "text": "请提供您的经纪人在平仓时收取的佣金百分比。"
+      },
+      "price_before_vat": {
+        "example": "如果一个产品税前价格为\u002410且适用20%的增值税率，请输入10作为税前价值。",
+        "text": "指的是商品或服务在增值税（VAT）加成之前的价格。增值税是许多国家在销售商品和服务时征收的消费税。"
       },
       "risk": {
         "example": "如果您同意冒险 1,000 欧元，这相当于您 50,000 欧元资本的 2%，请输入 2 作为值。",
@@ -61,6 +77,18 @@ class FinanceCodegenLoader extends AssetLoader {
       "stop_loss_price": {
         "example": "如果您以 50 欧元购买了股票，并选择以 45 欧元设置止损单来保护您的头寸，请输入 45 作为值。",
         "text": "请指定您将设置止损单以限制潜在损失的价格。"
+      },
+      "tip_amount": {
+        "example": "如果你的账单是\u002420且你想给\u00245的小费，你应该输入5作为小费金额。",
+        "text": "代表为表达对高质量服务的感激而额外增加到账单上的金额。"
+      },
+      "tip_rate": {
+        "example": "如果你的账单是\u002450且你想给15%的小费，你应该输入15作为小费率。",
+        "text": "是总账单金额的百分比，作为小费额外给予，以示对高质量服务的感激。"
+      },
+      "vat_rate": {
+        "example": "如果一个产品税前价格为\u002410且适用的增值税率为20%，请将20作为税率值输入。",
+        "text": "指的是应用于商品或服务的增值税（VAT）的百分比。"
       }
     },
     "label": {
@@ -358,9 +386,21 @@ static const Map<String,dynamic> ja = {
         "example": "50,000 円をトレーディングに充当している場合、50,000 を金額として入力してください。",
         "text": "利用可能な現在の資本の価値を指定してください。"
       },
+      "additional_tax_rate": {
+        "example": "製品に20%のVATが適用され、追加の特定税または地方税が2%追加される場合、値として2を入力してください。",
+        "text": "VATの上に適用される追加の税を参照します。"
+      },
       "amount_at_risk": {
         "example": "資本が 50,000 円で、1,000 円をリスクにさらそうとしている場合は、1,000 を金額として入力してください。",
         "text": "この取引でリスクにさらしたい金額を、資本に関連する金銭的価値で指定してください。"
+      },
+      "discount_amount": {
+        "example": "製品がもともと\u0024100で販売されており、\u002420の割引が適用される場合、金額として20を入力してください。",
+        "text": "製品やサービスの初期価格から差し引かれる金額の削減を表します。"
+      },
+      "discount_rate": {
+        "example": "製品の開始価格が\u0024100で、20%の割引が提供される場合、値として20を示してください。",
+        "text": "製品やサービスの初期価格に適用される割引のパーセンテージを表します。"
       },
       "entry_fees": {
         "example": "ポジションの開設時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
@@ -373,6 +413,10 @@ static const Map<String,dynamic> ja = {
       "exit_fees": {
         "example": "ポジションの解 closure 時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
         "text": "ブローカーがポジションの解 closure 時に請求する手数料の割合を指定してください。"
+      },
+      "price_before_vat": {
+        "example": "製品が税抜きで\u002410であり、20%のVATが適用される場合、税抜きの値として10を入力してください。",
+        "text": "製品またはサービスの価格を付加価値税（VAT）の追加前に参照します。VATは、多くの国で商品やサービスが販売される際に課される消費税です。"
       },
       "risk": {
         "example": "50,000 円の資本で 1,000 円をリスクにさらすことに同意する場合は、2 を値として入力してください。これは、50,000 円の資本の 2% に相当します。",
@@ -389,6 +433,18 @@ static const Map<String,dynamic> ja = {
       "stop_loss_price": {
         "example": "50 円で株式を購入した後、45 円の損失を防ぐためにストップロス注文を設定する場合、45 を値として入力してください。",
         "text": "損失を最小限に抑えるためにストップロス注文を設定する価格を指定してください。"
+      },
+      "tip_amount": {
+        "example": "請求額が\u002420で、\u00245のチップを残したい場合、金額として5を入力する必要があります。",
+        "text": "品質の高いサービスに感謝を示すために、請求額に追加される金額としてのチップを表します。"
+      },
+      "tip_rate": {
+        "example": "請求額が\u002450で、15%のチップを残したい場合、値として15を入力する必要があります。",
+        "text": "品質の高いサービスに感謝を示すために、総請求額のパーセンテージとして追加されるチップです。"
+      },
+      "vat_rate": {
+        "example": "製品の税抜き価格が\u002410で、適用されるVATの税率が20%の場合、税率の値として20を入力してください。",
+        "text": "製品やサービスに適用される付加価値税（VAT）の割合を参照します。"
       }
     },
     "label": {
@@ -686,9 +742,21 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie 50.000 € für den Handel bereitgestellt haben, geben Sie 50.000 als Betrag ein.",
         "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
       },
+      "additional_tax_rate": {
+        "example": "Wenn ein Produkt einer 20% MwSt. unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
+        "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. angewendet wird."
+      },
       "amount_at_risk": {
         "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
         "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, und geben Sie ihn in Geldwert relativ zu Ihrem Kapital an."
+      },
+      "discount_amount": {
+        "example": "Wenn ein Produkt ursprünglich für 100 \u0024 verkauft wird und Sie Anspruch auf einen Rabatt von 20 \u0024 haben, geben Sie bitte 20 als den Betrag ein.",
+        "text": "Stellt die Reduzierung des Geldwerts dar, die vom ursprünglichen Preis eines Produkts oder einer Dienstleistung abgezogen wird."
+      },
+      "discount_rate": {
+        "example": "Wenn der Startpreis eines Produkts 100 \u0024 beträgt und ein Rabatt von 20% angeboten wird, geben Sie bitte 20 als den Wert an.",
+        "text": "Stellt die prozentuale Reduzierung dar, die auf den ursprünglichen Tarif eines Produkts oder einer Dienstleistung angewendet wird."
       },
       "entry_fees": {
         "example": "Wenn Ihr Broker bei der Eröffnung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
@@ -701,6 +769,10 @@ static const Map<String,dynamic> de = {
       "exit_fees": {
         "example": "Wenn Ihr Broker bei der Schließung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
         "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Schließung einer Position berechnet."
+      },
+      "price_before_vat": {
+        "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
+        "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
       },
       "risk": {
         "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
@@ -717,6 +789,18 @@ static const Map<String,dynamic> de = {
       "stop_loss_price": {
         "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
         "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
+      },
+      "tip_amount": {
+        "example": "Wenn Ihre Rechnung 20 \u0024 beträgt und Sie ein Trinkgeld von 5 \u0024 hinterlassen möchten, sollten Sie 5 als den Betrag eingeben.",
+        "text": "Stellt einen zusätzlichen Geldbetrag dar, der einer Rechnung als Trinkgeld hinzugefügt wird, um Wertschätzung für einen qualitativ hochwertigen Service zu zeigen."
+      },
+      "tip_rate": {
+        "example": "Wenn Ihre Rechnung 50 \u0024 beträgt und Sie ein Trinkgeld von 15% hinterlassen möchten, sollten Sie 15 als den Wert eingeben.",
+        "text": "Es ist ein Prozentsatz des Gesamtrechnungsbetrags, der als Trinkgeld hinzugefügt wird, um Wertschätzung für einen qualitativ hochwertigen Service zu zeigen."
+      },
+      "vat_rate": {
+        "example": "Wenn der Vorsteuerpreis eines Produkts 10 \u0024 beträgt und der angewandte Mehrwertsteuersatz 20% beträgt, geben Sie bitte 20 als den Satzwert ein.",
+        "text": "Bezieht sich auf den Prozentsatz der Mehrwertsteuer (MwSt.), der auf ein Produkt oder eine Dienstleistung angewendet wird."
       }
     },
     "label": {
@@ -1014,9 +1098,21 @@ static const Map<String,dynamic> ru = {
         "example": "Если вы выделили 50 000 € на торговлю, введите 50 000 в качестве суммы.",
         "text": "Укажите текущий размер вашего доступного капитала."
       },
+      "additional_tax_rate": {
+        "example": "Если на товар распространяется ставка НДС 20% и добавляется дополнительный конкретный или местный налог 2%, введите 2 в качестве значения.",
+        "text": "Относится к дополнительному налогу, который начисляется сверх НДС."
+      },
       "amount_at_risk": {
         "example": "Если у вас капитал 50 000 € и вы планируете рискнуть 1 000 €, введите 1 000 в качестве суммы.",
         "text": "Укажите сумму, которую вы хотите рискнуть в этой транзакции, выражая ее в денежном выражении, относительно вашего капитала."
+      },
+      "discount_amount": {
+        "example": "Если первоначальная стоимость товара составляет \u0024100, и вам предоставляется скидка \u002420, введите 20 в качестве суммы.",
+        "text": "Представляет собой уменьшение денежной стоимости, которое вычитается из первоначальной цены товара или услуги."
+      },
+      "discount_rate": {
+        "example": "Если начальная цена товара составляет \u0024100 и предлагается скидка 20%, укажите 20 в качестве значения.",
+        "text": "Представляет собой процентное уменьшение, применяемое к начальной стоимости товара или услуги."
       },
       "entry_fees": {
         "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при открытии, введите 0,1 в качестве процента.",
@@ -1029,6 +1125,10 @@ static const Map<String,dynamic> ru = {
       "exit_fees": {
         "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при закрытии, введите 0,1 в качестве процента.",
         "text": "Укажите процентную ставку комиссии, взимаемой вашим брокером при закрытии позиции."
+      },
+      "price_before_vat": {
+        "example": "Если стоимость товара до налогов составляет \u002410 и на нее распространяется ставка НДС 20%, введите 10 в качестве значения до налогообложения.",
+        "text": "Относится к цене товара или услуги до начисления налога на добавленную стоимость (НДС). НДС — это потребительский налог, взимаемый при продаже товаров и услуг во многих странах."
       },
       "risk": {
         "example": "Если вы готовы рискнуть 1 000 €, что составляет 2% вашего капитала в размере 50 000 €, введите 2 в качестве значения.",
@@ -1045,6 +1145,18 @@ static const Map<String,dynamic> ru = {
       "stop_loss_price": {
         "example": "Если вы купили акцию по 50 € и решили защитить свою позицию стоп-лосс-приказом на 45 €, введите 45 в качестве значения.",
         "text": "Укажите цену, по которой вы установите свой стоп-лосс, чтобы ограничить возможные убытки."
+      },
+      "tip_amount": {
+        "example": "Если ваш счет составляет \u002420 и вы хотите оставить чаевые в размере \u00245, введите 5 в качестве суммы.",
+        "text": "Представляет собой дополнительную сумму денег, добавленную к счету в виде чаевых, чтобы выразить благодарность за качественное обслуживание."
+      },
+      "tip_rate": {
+        "example": "Если ваш счет составляет \u002450 и вы хотите оставить чаевые в размере 15%, введите 15 в качестве значения.",
+        "text": "Это процент от общей суммы счета, добавленный в виде чаевых, чтобы выразить благодарность за качественное обслуживание."
+      },
+      "vat_rate": {
+        "example": "Если цена товара до налогов составляет \u002410 и на нее применяется ставка НДС 20%, введите 20 в качестве значения ставки.",
+        "text": "Относится к процентной ставке налога на добавленную стоимость (НДС), применяемой к товару или услуге."
       }
     },
     "label": {
@@ -1342,9 +1454,21 @@ static const Map<String,dynamic> pt = {
         "example": "Se você alocou 50.000 € para o trading, insira 50.000 como valor.",
         "text": "Informe o valor atual do seu capital disponível."
       },
+      "additional_tax_rate": {
+        "example": "Se um produto está sujeito a um IVA de 20% e um imposto específico ou local adicional de 2% é adicionado, insira 2 como o valor.",
+        "text": "Refere-se a um imposto adicional que é aplicado em cima do IVA."
+      },
       "amount_at_risk": {
         "example": "Se você tem um capital de 50.000 € e planeja arriscar 1.000 €, insira 1.000 como valor.",
         "text": "Informe o valor que deseja arriscar nesta transação, expressando-o em valor monetário relativo ao seu capital."
+      },
+      "discount_amount": {
+        "example": "Se um produto é originalmente vendido por \u0024100 e você tem direito a um desconto de \u002420, por favor, insira 20 como o valor.",
+        "text": "Representa a redução no valor monetário que é subtraído do preço inicial de um produto ou serviço."
+      },
+      "discount_rate": {
+        "example": "Se o preço inicial de um produto é \u0024100 e é oferecido um desconto de 20%, indique 20 como o valor.",
+        "text": "Representa a percentagem de redução aplicada ao preço inicial de um produto ou serviço."
       },
       "entry_fees": {
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição na abertura, insira 0,1 como porcentagem.",
@@ -1357,6 +1481,10 @@ static const Map<String,dynamic> pt = {
       "exit_fees": {
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição no fechamento, insira 0,1 como porcentagem.",
         "text": "Informe o percentual da taxa cobrada pelo seu corretor no fechamento de uma posição."
+      },
+      "price_before_vat": {
+        "example": "Se um produto custa \u002410 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
+        "text": "Refere-se ao preço de um produto ou serviço antes da adição do imposto sobre o valor acrescentado (IVA). O IVA é um imposto sobre o consumo imposto quando produtos e serviços são vendidos em muitos países."
       },
       "risk": {
         "example": "Se você estiver disposto a arriscar 1.000 €, o que equivale a 2% do seu capital de 50.000 €, insira 2 como valor.",
@@ -1373,6 +1501,18 @@ static const Map<String,dynamic> pt = {
       "stop_loss_price": {
         "example": "Se você comprou uma ação a 50 € e optou por proteger sua posição com um stop-loss a 45 €, insira 45 como valor.",
         "text": "Informe o preço ao qual você definirá seu stop-loss para limitar as perdas potenciais."
+      },
+      "tip_amount": {
+        "example": "Se a sua conta é \u002420 e você deseja deixar uma gorjeta de \u00245, você deve inserir 5 como o valor.",
+        "text": "Representa um valor adicional de dinheiro, adicionado a uma conta como gorjeta, para mostrar apreciação por um serviço de qualidade."
+      },
+      "tip_rate": {
+        "example": "Se a sua conta é \u002450 e você deseja deixar uma gorjeta de 15%, você deve inserir 15 como o valor.",
+        "text": "É uma percentagem do valor total da conta, adicionada como gorjeta, para mostrar apreciação por um serviço de qualidade."
+      },
+      "vat_rate": {
+        "example": "Se o preço antes dos impostos de um produto é \u002410 e a taxa de IVA aplicada é de 20%, por favor, insira 20 como o valor da taxa.",
+        "text": "Refere-se à percentagem do imposto sobre o valor acrescentado (IVA) aplicado a um produto ou serviço."
       }
     },
     "label": {
@@ -1670,9 +1810,21 @@ static const Map<String,dynamic> en = {
         "example": "If you have \u002450,000 allocated for trading, please enter 50,000 as the amount.",
         "text": "Indicate the current value of your available capital."
       },
+      "additional_tax_rate": {
+        "example": "If a product is subject to a 20% VAT and an additional specific or local tax of 2% is added, enter 2 as the value.",
+        "text": "Refers to an additional tax that is applied on top of the VAT."
+      },
       "amount_at_risk": {
         "example": "If you have a capital of \u002450,000 and you plan to risk \u00241,000 please enter 1,000 as the amount.",
         "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
+      },
+      "discount_amount": {
+        "example": "If a product is originally sold for \u0024100, and you are entitled to a \u002420 discount, please enter 20 as the amount.",
+        "text": "Represents the reduction in monetary value that is subtracted from the initial price of a product or service."
+      },
+      "discount_rate": {
+        "example": "If the starting price of a product is \u0024100 and a 20% discount is offered, please indicate 20 as the value.",
+        "text": "Represents the percentage reduction applied to the initial rate of a product or service."
       },
       "entry_fees": {
         "example": "If your broker charges 0.1% of the total value of the position upon opening, please enter 0.1 as a percentage.",
@@ -1685,6 +1837,10 @@ static const Map<String,dynamic> en = {
       "exit_fees": {
         "example": "If your broker charges 0.1% of the total value of the position upon closing, please enter 0.1 as a percentage.",
         "text": "Specify the percentage fee charged by your broker when closing a position."
+      },
+      "price_before_vat": {
+        "example": "If a product costs \u002410 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
+        "text": "Refers to the price of a product or service before the addition of the value-added tax (VAT). VAT is a tax on consumption imposed when products and services are sold in many countries."
       },
       "risk": {
         "example": "If you're willing to risk \u00241,000, which is 2% of your \u002450,000 capital, please enter 2 as the value.",
@@ -1701,6 +1857,18 @@ static const Map<String,dynamic> en = {
       "stop_loss_price": {
         "example": "If you purchased a stock at \u002450 and chose to secure your position with a stop-loss order at \u002445, please enter 45 as the value.",
         "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
+      },
+      "tip_amount": {
+        "example": "If your bill is \u002420 and you wish to leave a \u00245 tip, you should enter 5 as the amount.",
+        "text": "Represents an additional amount of money, added to a bill as a tip, to show appreciation for a quality service."
+      },
+      "tip_rate": {
+        "example": "If your bill is \u002450 and you wish to leave a 15% tip, you should enter 15 as the value.",
+        "text": "It's a percentage of the total bill amount, added as a tip, to show appreciation for a quality service."
+      },
+      "vat_rate": {
+        "example": "If the pre-tax price of a product is \u002410 and the applied VAT rate is 20%, please enter 20 as the rate value.",
+        "text": "Refers to the percentage of the value-added tax (VAT) applied to a product or service."
       }
     },
     "label": {
@@ -1998,9 +2166,21 @@ static const Map<String,dynamic> it = {
         "example": "Se hai stanziato 50.000 € per il trading, inserisci 50.000 come importo.",
         "text": "Indica il valore attuale del tuo capitale disponibile."
       },
+      "additional_tax_rate": {
+        "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
+        "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
+      },
       "amount_at_risk": {
         "example": "Se hai un capitale di 50.000 € e prevedi di rischiare 1.000 €, inserisci 1.000 come importo.",
         "text": "Indica l'importo che vuoi rischiare per questa transazione, esprimendolo in valore monetario relativo al tuo capitale."
+      },
+      "discount_amount": {
+        "example": "Se un prodotto è originariamente venduto per \u0024100 e hai diritto a uno sconto di \u002420, inserisci 20 come importo.",
+        "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
+      },
+      "discount_rate": {
+        "example": "Se il prezzo iniziale di un prodotto è \u0024100 e viene offerto uno sconto del 20%, indica 20 come valore.",
+        "text": "Rappresenta la percentuale di riduzione applicata al prezzo iniziale di un prodotto o servizio."
       },
       "entry_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
@@ -2013,6 +2193,10 @@ static const Map<String,dynamic> it = {
       "exit_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
         "text": "Indica la percentuale della commissione che il tuo broker addebita alla chiusura di una posizione."
+      },
+      "price_before_vat": {
+        "example": "Se un prodotto costa \u002410 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
+        "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
       },
       "risk": {
         "example": "Se sei disposto a rischiare 1.000 €, che equivale al 2% del tuo capitale di 50.000 €, inserisci 2 come valore.",
@@ -2029,6 +2213,18 @@ static const Map<String,dynamic> it = {
       "stop_loss_price": {
         "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
         "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
+      },
+      "tip_amount": {
+        "example": "Se il tuo conto è di \u002420 e desideri lasciare una mancia di \u00245, dovresti inserire 5 come importo.",
+        "text": "Rappresenta un importo aggiuntivo di denaro, aggiunto a un conto come mancia, per mostrare apprezzamento per un servizio di qualità."
+      },
+      "tip_rate": {
+        "example": "Se il tuo conto è di \u002450 e desideri lasciare una mancia del 15%, dovresti inserire 15 come valore.",
+        "text": "È una percentuale dell'importo totale del conto, aggiunta come mancia, per mostrare apprezzamento per un servizio di qualità."
+      },
+      "vat_rate": {
+        "example": "Se il prezzo pre-tassa di un prodotto è \u002410 e l'aliquota IVA applicata è del 20%, inserisci 20 come valore dell'aliquota.",
+        "text": "Si riferisce alla percentuale dell'imposta sul valore aggiunto (IVA) applicata a un prodotto o servizio."
       }
     },
     "label": {
@@ -2326,12 +2522,24 @@ static const Map<String,dynamic> fr = {
         "example": "Si vous avez 50 000 \u0024 alloués au trading, veuillez saisir 50 000 comme montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
+      "additional_tax_rate": {
+        "example": "Si un produit subit une TVA de 20 % et qu'un impôt local ou spécifique supplémentaire de 2 % s'y ajoute, inscrivez 2 comme valeur.",
+        "text": "Fait référence à une taxe supplémentaire qui est appliquée en plus de la TVA."
+      },
       "amount_at_risk": {
         "example": "Si votre capital s'élève à 50 000 \u0024 et que vous envisagez de mettre en jeu 1 000 \u0024, veuillez entrer 1 000 comme montant.",
         "text": "Précisez le montant que vous souhaitez risquer pour cette transaction, en l'exprimant en valeur monétaire relative à votre capital."
       },
+      "discount_amount": {
+        "example": "Si un produit est initialement vendu 100 \u0024, et que vous avez droit à une réduction de 20 \u0024, veuillez entrer 20 en tant que montant.",
+        "text": "Représente la réduction en valeur monétaire qui est soustraite au prix initial d'un produit ou d'un service."
+      },
+      "discount_rate": {
+        "example": "Si le prix de départ d'un produit est de 100 \u0024 et qu'une réduction de 20 % est offerte, veuillez indiquer 20 comme valeur.",
+        "text": "Représente le pourcentage de réduction appliqué au tarif initial d'un produit ou d'un service."
+      },
       "entry_fees": {
-        "example": "Si votre courtier facture 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 en pourcentage.",
+        "example": "Si votre courtier facture 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 comme valeur.",
         "text": "Indiquez le pourcentage de frais facturés par votre courtier lors de l'ouverture d'une position."
       },
       "entry_price": {
@@ -2339,8 +2547,12 @@ static const Map<String,dynamic> fr = {
         "text": "Précisez le prix auquel vous prévoyez d'entrer sur le marché, qu'il s'agisse du prix actuel ou d'un prix anticipé."
       },
       "exit_fees": {
-        "example": "Si votre courtier facture 0,1% de la valeur totale de la position à la clôture, veuillez saisir 0,1 en pourcentage.",
+        "example": "Si votre courtier facture 0,1% de la valeur totale de la position à la clôture, veuillez saisir 0,1 comme valeur.",
         "text": "Indiquez le pourcentage de frais facturés par votre courtier lors de la clôture d'une position."
+      },
+      "price_before_vat": {
+        "example": "Si un produit coûte 10 \u0024 avant taxes et qu'il est soumis à un taux de TVA de 20 %, inscrivez 10 comme valeur hors taxe",
+        "text": "Désigne le prix d'un produit ou service avant l'ajout de la taxe sur la valeur ajoutée (TVA). La TVA est une taxe sur la consommation imposée lors de la vente de produits et services dans de nombreux pays."
       },
       "risk": {
         "example": "Si vous êtes prêt à risquer 1 000 \u0024, soit 2% de votre capital de 50 000 \u0024, veuillez entrer 2 comme valeur.",
@@ -2351,12 +2563,24 @@ static const Map<String,dynamic> fr = {
         "text": "Précisez le ratio entre le montant du risque et le gain potentiel que vous êtes prêt à accepter pour cette transaction."
       },
       "slippage": {
-        "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 \u0024, mais que l'exécution se fait à 102 \u0024, cet écart de 2 \u0024, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 en pourcentage.",
+        "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 \u0024, mais que l'exécution se fait à 102 \u0024, cet écart de 2 \u0024, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 comme valeur.",
         "text": "Se réfère à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est effectivement exécutée. Le glissement (ou slippage en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres au marché sont utilisés ou cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas de volume suffisant au niveau du prix demandé."
       },
       "stop_loss_price": {
         "example": "Si vous avez acquis une action à 50 \u0024 et choisi de sécuriser votre position avec un ordre de stop-loss à 45 \u0024, veuillez saisir 45 comme valeur.",
         "text": "Indique le prix auquel vous établirez votre ordre de stop-loss afin de limiter les pertes potentielles."
+      },
+      "tip_amount": {
+        "example": "Si votre facture est de 20 \u0024 et que vous souhaitez laisser un pourboire de 5 \u0024, vous devriez saisir 5 comme montant.",
+        "text": "Représente un montant supplémentaire d'argent ajouté à une facture en guise de pourboire pour témoigner de sa reconnaissance envers un service de qualité."
+      },
+      "tip_rate": {
+        "example": "Si votre facture est de 50 \u0024 et que vous souhaitez donner un pourboire de 15 %, vous devriez saisir 15 comme valeur.",
+        "text": "Il s'agit d'un pourcentage du montant intégral de la facture, ajouté comme pourboire, pour témoigner de sa reconnaissance envers un service de qualité."
+      },
+      "vat_rate": {
+        "example": "Si le prix hors taxe d'un produit est de 10 \u0024 et que le taux de TVA appliqué est de 20 %, veuillez inscrire 20 comme valeur du taux.",
+        "text": "Désigne le pourcentage de la taxe sur la valeur ajoutée (TVA) appliqué à un produit ou à un service."
       }
     },
     "label": {
@@ -2654,9 +2878,21 @@ static const Map<String,dynamic> es = {
         "example": "Si ha asignado 50.000 € para el trading, introduzca 50.000 como importe.",
         "text": "Indique el valor actual de su capital disponible."
       },
+      "additional_tax_rate": {
+        "example": "Si un producto está sujeto a un IVA del 20% y se agrega un impuesto específico o local adicional del 2%, ingrese 2 como el valor.",
+        "text": "Se refiere a un impuesto adicional que se aplica además del IVA."
+      },
       "amount_at_risk": {
         "example": "Si tiene un capital de 50.000 € y planea arriesgar 1.000 €, introduzca 1.000 como importe.",
         "text": "Indique el importe que desea arriesgar para esta transacción, expresándolo en valor monetario relativo a su capital."
+      },
+      "discount_amount": {
+        "example": "Si un producto se vende originalmente por \u0024100, y tienes derecho a un descuento de \u002420, por favor ingrese 20 como el monto.",
+        "text": "Representa la reducción en valor monetario que se resta del precio inicial de un producto o servicio."
+      },
+      "discount_rate": {
+        "example": "Si el precio inicial de un producto es de \u0024100 y se ofrece un descuento del 20%, por favor indique 20 como el valor.",
+        "text": "Representa la reducción porcentual aplicada a la tarifa inicial de un producto o servicio."
       },
       "entry_fees": {
         "example": "Si su corredor cobra el 0,1 % del valor total de la posición al abrirla, introduzca 0,1 como porcentaje.",
@@ -2669,6 +2905,10 @@ static const Map<String,dynamic> es = {
       "exit_fees": {
         "example": "Si su corredor cobra el 0,1 % del valor total de la posición al cerrarla, introduzca 0,1 como porcentaje.",
         "text": "Indique el porcentaje de la comisión que cobra su corredor al cerrar una posición."
+      },
+      "price_before_vat": {
+        "example": "Si un producto cuesta \u002410 antes de impuestos y está sujeto a una tasa de IVA del 20%, ingrese 10 como el valor antes de impuestos.",
+        "text": "Se refiere al precio de un producto o servicio antes de la adición del impuesto al valor agregado (IVA). El IVA es un impuesto al consumo que se impone cuando se venden productos y servicios en muchos países."
       },
       "risk": {
         "example": "Si está dispuesto a arriesgar 1.000 €, que equivale al 2 % de su capital de 50.000 €, introduzca 2 como valor.",
@@ -2685,6 +2925,18 @@ static const Map<String,dynamic> es = {
       "stop_loss_price": {
         "example": "Si ha comprado una acción a 50 € y ha elegido proteger su posición con una orden de stop-loss a 45 €, introduzca 45 como valor.",
         "text": "Indique el precio al que establecerá su orden de stop-loss para limitar las pérdidas potenciales."
+      },
+      "tip_amount": {
+        "example": "Si su cuenta es de \u002420 y desea dejar una propina de \u00245, debe ingresar 5 como el monto.",
+        "text": "Representa una cantidad adicional de dinero, añadida a una factura como propina, para mostrar aprecio por un servicio de calidad."
+      },
+      "tip_rate": {
+        "example": "Si su cuenta es de \u002450 y desea dejar una propina del 15%, debe ingresar 15 como el valor.",
+        "text": "Es un porcentaje del monto total de la factura, añadido como propina, para mostrar aprecio por un servicio de calidad."
+      },
+      "vat_rate": {
+        "example": "Si el precio antes de impuestos de un producto es de \u002410 y la tasa de IVA aplicada es del 20%, por favor ingrese 20 como el valor de la tasa.",
+        "text": "Se refiere al porcentaje del impuesto al valor agregado (IVA) aplicado a un producto o servicio."
       }
     },
     "label": {

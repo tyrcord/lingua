@@ -17,9 +17,21 @@
         "example": "Se você alocou 50.000 € para o trading, insira 50.000 como valor.",
         "text": "Informe o valor atual do seu capital disponível."
       },
+      "additional_tax_rate": {
+        "example": "Se um produto está sujeito a um IVA de 20% e um imposto específico ou local adicional de 2% é adicionado, insira 2 como o valor.",
+        "text": "Refere-se a um imposto adicional que é aplicado em cima do IVA."
+      },
       "amount_at_risk": {
         "example": "Se você tem um capital de 50.000 € e planeja arriscar 1.000 €, insira 1.000 como valor.",
         "text": "Informe o valor que deseja arriscar nesta transação, expressando-o em valor monetário relativo ao seu capital."
+      },
+      "discount_amount": {
+        "example": "Se um produto é originalmente vendido por $100 e você tem direito a um desconto de $20, por favor, insira 20 como o valor.",
+        "text": "Representa a redução no valor monetário que é subtraído do preço inicial de um produto ou serviço."
+      },
+      "discount_rate": {
+        "example": "Se o preço inicial de um produto é $100 e é oferecido um desconto de 20%, indique 20 como o valor.",
+        "text": "Representa a percentagem de redução aplicada ao preço inicial de um produto ou serviço."
       },
       "entry_fees": {
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição na abertura, insira 0,1 como porcentagem.",
@@ -32,6 +44,10 @@
       "exit_fees": {
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição no fechamento, insira 0,1 como porcentagem.",
         "text": "Informe o percentual da taxa cobrada pelo seu corretor no fechamento de uma posição."
+      },
+      "price_before_vat": {
+        "example": "Se um produto custa $10 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
+        "text": "Refere-se ao preço de um produto ou serviço antes da adição do imposto sobre o valor acrescentado (IVA). O IVA é um imposto sobre o consumo imposto quando produtos e serviços são vendidos em muitos países."
       },
       "risk": {
         "example": "Se você estiver disposto a arriscar 1.000 €, o que equivale a 2% do seu capital de 50.000 €, insira 2 como valor.",
@@ -48,6 +64,18 @@
       "stop_loss_price": {
         "example": "Se você comprou uma ação a 50 € e optou por proteger sua posição com um stop-loss a 45 €, insira 45 como valor.",
         "text": "Informe o preço ao qual você definirá seu stop-loss para limitar as perdas potenciais."
+      },
+      "tip_amount": {
+        "example": "Se a sua conta é $20 e você deseja deixar uma gorjeta de $5, você deve inserir 5 como o valor.",
+        "text": "Representa um valor adicional de dinheiro, adicionado a uma conta como gorjeta, para mostrar apreciação por um serviço de qualidade."
+      },
+      "tip_rate": {
+        "example": "Se a sua conta é $50 e você deseja deixar uma gorjeta de 15%, você deve inserir 15 como o valor.",
+        "text": "É uma percentagem do valor total da conta, adicionada como gorjeta, para mostrar apreciação por um serviço de qualidade."
+      },
+      "vat_rate": {
+        "example": "Se o preço antes dos impostos de um produto é $10 e a taxa de IVA aplicada é de 20%, por favor, insira 20 como o valor da taxa.",
+        "text": "Refere-se à percentagem do imposto sobre o valor acrescentado (IVA) aplicado a um produto ou serviço."
       }
     },
     "label": {

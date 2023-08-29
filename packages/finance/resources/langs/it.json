@@ -17,9 +17,21 @@
         "example": "Se hai stanziato 50.000 € per il trading, inserisci 50.000 come importo.",
         "text": "Indica il valore attuale del tuo capitale disponibile."
       },
+      "additional_tax_rate": {
+        "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
+        "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
+      },
       "amount_at_risk": {
         "example": "Se hai un capitale di 50.000 € e prevedi di rischiare 1.000 €, inserisci 1.000 come importo.",
         "text": "Indica l'importo che vuoi rischiare per questa transazione, esprimendolo in valore monetario relativo al tuo capitale."
+      },
+      "discount_amount": {
+        "example": "Se un prodotto è originariamente venduto per $100 e hai diritto a uno sconto di $20, inserisci 20 come importo.",
+        "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
+      },
+      "discount_rate": {
+        "example": "Se il prezzo iniziale di un prodotto è $100 e viene offerto uno sconto del 20%, indica 20 come valore.",
+        "text": "Rappresenta la percentuale di riduzione applicata al prezzo iniziale di un prodotto o servizio."
       },
       "entry_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
@@ -32,6 +44,10 @@
       "exit_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
         "text": "Indica la percentuale della commissione che il tuo broker addebita alla chiusura di una posizione."
+      },
+      "price_before_vat": {
+        "example": "Se un prodotto costa $10 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
+        "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
       },
       "risk": {
         "example": "Se sei disposto a rischiare 1.000 €, che equivale al 2% del tuo capitale di 50.000 €, inserisci 2 come valore.",
@@ -48,6 +64,18 @@
       "stop_loss_price": {
         "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
         "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
+      },
+      "tip_amount": {
+        "example": "Se il tuo conto è di $20 e desideri lasciare una mancia di $5, dovresti inserire 5 come importo.",
+        "text": "Rappresenta un importo aggiuntivo di denaro, aggiunto a un conto come mancia, per mostrare apprezzamento per un servizio di qualità."
+      },
+      "tip_rate": {
+        "example": "Se il tuo conto è di $50 e desideri lasciare una mancia del 15%, dovresti inserire 15 come valore.",
+        "text": "È una percentuale dell'importo totale del conto, aggiunta come mancia, per mostrare apprezzamento per un servizio di qualità."
+      },
+      "vat_rate": {
+        "example": "Se il prezzo pre-tassa di un prodotto è $10 e l'aliquota IVA applicata è del 20%, inserisci 20 come valore dell'aliquota.",
+        "text": "Si riferisce alla percentuale dell'imposta sul valore aggiunto (IVA) applicata a un prodotto o servizio."
       }
     },
     "label": {

@@ -17,9 +17,21 @@
         "example": "Si ha asignado 50.000 € para el trading, introduzca 50.000 como importe.",
         "text": "Indique el valor actual de su capital disponible."
       },
+      "additional_tax_rate": {
+        "example": "Si un producto está sujeto a un IVA del 20% y se agrega un impuesto específico o local adicional del 2%, ingrese 2 como el valor.",
+        "text": "Se refiere a un impuesto adicional que se aplica además del IVA."
+      },
       "amount_at_risk": {
         "example": "Si tiene un capital de 50.000 € y planea arriesgar 1.000 €, introduzca 1.000 como importe.",
         "text": "Indique el importe que desea arriesgar para esta transacción, expresándolo en valor monetario relativo a su capital."
+      },
+      "discount_amount": {
+        "example": "Si un producto se vende originalmente por $100, y tienes derecho a un descuento de $20, por favor ingrese 20 como el monto.",
+        "text": "Representa la reducción en valor monetario que se resta del precio inicial de un producto o servicio."
+      },
+      "discount_rate": {
+        "example": "Si el precio inicial de un producto es de $100 y se ofrece un descuento del 20%, por favor indique 20 como el valor.",
+        "text": "Representa la reducción porcentual aplicada a la tarifa inicial de un producto o servicio."
       },
       "entry_fees": {
         "example": "Si su corredor cobra el 0,1 % del valor total de la posición al abrirla, introduzca 0,1 como porcentaje.",
@@ -32,6 +44,10 @@
       "exit_fees": {
         "example": "Si su corredor cobra el 0,1 % del valor total de la posición al cerrarla, introduzca 0,1 como porcentaje.",
         "text": "Indique el porcentaje de la comisión que cobra su corredor al cerrar una posición."
+      },
+      "price_before_vat": {
+        "example": "Si un producto cuesta $10 antes de impuestos y está sujeto a una tasa de IVA del 20%, ingrese 10 como el valor antes de impuestos.",
+        "text": "Se refiere al precio de un producto o servicio antes de la adición del impuesto al valor agregado (IVA). El IVA es un impuesto al consumo que se impone cuando se venden productos y servicios en muchos países."
       },
       "risk": {
         "example": "Si está dispuesto a arriesgar 1.000 €, que equivale al 2 % de su capital de 50.000 €, introduzca 2 como valor.",
@@ -48,6 +64,18 @@
       "stop_loss_price": {
         "example": "Si ha comprado una acción a 50 € y ha elegido proteger su posición con una orden de stop-loss a 45 €, introduzca 45 como valor.",
         "text": "Indique el precio al que establecerá su orden de stop-loss para limitar las pérdidas potenciales."
+      },
+      "tip_amount": {
+        "example": "Si su cuenta es de $20 y desea dejar una propina de $5, debe ingresar 5 como el monto.",
+        "text": "Representa una cantidad adicional de dinero, añadida a una factura como propina, para mostrar aprecio por un servicio de calidad."
+      },
+      "tip_rate": {
+        "example": "Si su cuenta es de $50 y desea dejar una propina del 15%, debe ingresar 15 como el valor.",
+        "text": "Es un porcentaje del monto total de la factura, añadido como propina, para mostrar aprecio por un servicio de calidad."
+      },
+      "vat_rate": {
+        "example": "Si el precio antes de impuestos de un producto es de $10 y la tasa de IVA aplicada es del 20%, por favor ingrese 20 como el valor de la tasa.",
+        "text": "Se refiere al porcentaje del impuesto al valor agregado (IVA) aplicado a un producto o servicio."
       }
     },
     "label": {

@@ -17,9 +17,21 @@
         "example": "If you have $50,000 allocated for trading, please enter 50,000 as the amount.",
         "text": "Indicate the current value of your available capital."
       },
+      "additional_tax_rate": {
+        "example": "If a product is subject to a 20% VAT and an additional specific or local tax of 2% is added, enter 2 as the value.",
+        "text": "Refers to an additional tax that is applied on top of the VAT."
+      },
       "amount_at_risk": {
         "example": "If you have a capital of $50,000 and you plan to risk $1,000 please enter 1,000 as the amount.",
         "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
+      },
+      "discount_amount": {
+        "example": "If a product is originally sold for $100, and you are entitled to a $20 discount, please enter 20 as the amount.",
+        "text": "Represents the reduction in monetary value that is subtracted from the initial price of a product or service."
+      },
+      "discount_rate": {
+        "example": "If the starting price of a product is $100 and a 20% discount is offered, please indicate 20 as the value.",
+        "text": "Represents the percentage reduction applied to the initial rate of a product or service."
       },
       "entry_fees": {
         "example": "If your broker charges 0.1% of the total value of the position upon opening, please enter 0.1 as a percentage.",
@@ -32,6 +44,10 @@
       "exit_fees": {
         "example": "If your broker charges 0.1% of the total value of the position upon closing, please enter 0.1 as a percentage.",
         "text": "Specify the percentage fee charged by your broker when closing a position."
+      },
+      "price_before_vat": {
+        "example": "If a product costs $10 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
+        "text": "Refers to the price of a product or service before the addition of the value-added tax (VAT). VAT is a tax on consumption imposed when products and services are sold in many countries."
       },
       "risk": {
         "example": "If you're willing to risk $1,000, which is 2% of your $50,000 capital, please enter 2 as the value.",
@@ -48,6 +64,18 @@
       "stop_loss_price": {
         "example": "If you purchased a stock at $50 and chose to secure your position with a stop-loss order at $45, please enter 45 as the value.",
         "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
+      },
+      "tip_amount": {
+        "example": "If your bill is $20 and you wish to leave a $5 tip, you should enter 5 as the amount.",
+        "text": "Represents an additional amount of money, added to a bill as a tip, to show appreciation for a quality service."
+      },
+      "tip_rate": {
+        "example": "If your bill is $50 and you wish to leave a 15% tip, you should enter 15 as the value.",
+        "text": "It's a percentage of the total bill amount, added as a tip, to show appreciation for a quality service."
+      },
+      "vat_rate": {
+        "example": "If the pre-tax price of a product is $10 and the applied VAT rate is 20%, please enter 20 as the rate value.",
+        "text": "Refers to the percentage of the value-added tax (VAT) applied to a product or service."
       }
     },
     "label": {
