@@ -14,40 +14,40 @@
     },
     "help": {
       "account_balance": {
-        "example": "Se hai allocato $50,000 per il trading, inserisci questo importo.",
+        "example": "Se hai stanziato 50.000 € per il trading, inserisci 50.000 come importo.",
         "text": "Indica il valore attuale del tuo capitale disponibile."
       },
       "amount_at_risk": {
-        "example": "Se hai un capitale di $50,000 e prevedi di rischiare $1,000, inserisci $1,000 come importo.",
-        "text": "Specifica l'importo che desideri rischiare per questa transazione, esprimendolo in valore monetario rispetto al tuo capitale."
+        "example": "Se hai un capitale di 50.000 € e prevedi di rischiare 1.000 €, inserisci 1.000 come importo.",
+        "text": "Indica l'importo che vuoi rischiare per questa transazione, esprimendolo in valore monetario relativo al tuo capitale."
       },
       "entry_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
-        "text": "Indica la percentuale di commissione addebitata dal tuo broker all'apertura di una posizione."
+        "text": "Indica la percentuale della commissione che il tuo broker addebita all'apertura di una posizione."
       },
       "entry_price": {
-        "example": "Se intendi acquistare al prezzo corrente, indica questo importo. Tuttavia, se il costo attuale è di $50 per azione e intendi acquistare a $55 per azione, inserisci $55.",
-        "text": "Indica il prezzo al quale intendi entrare nel mercato, sia che si tratti del prezzo corrente o di uno previsto."
+        "example": "Se prevedi di acquistare al prezzo corrente, indica questo importo. Tuttavia, se il prezzo corrente è di 50 € per azione e prevedi di acquistare a 55 € per azione, inserisci 55 come valore.",
+        "text": "Indica il prezzo al quale prevedi di entrare nel mercato, che si tratti del prezzo corrente o di uno previsto."
       },
       "exit_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
-        "text": "Indica la percentuale di commissione addebitata dal tuo broker alla chiusura di una posizione."
+        "text": "Indica la percentuale della commissione che il tuo broker addebita alla chiusura di una posizione."
       },
       "risk": {
-        "example": "Se sei disposto a rischiare $1.000, che rappresenta il 2% del tuo capitale di $50.000, inserisci 2 come valore.",
-        "text": "Indica la percentuale del tuo capitale che sei disposto a rischiare per questa transazione. Si consiglia di non rischiare più del 2% del tuo capitale in una singola transazione."
+        "example": "Se sei disposto a rischiare 1.000 €, che equivale al 2% del tuo capitale di 50.000 €, inserisci 2 come valore.",
+        "text": "Indica la percentuale del tuo capitale che sei disposto a rischiare per questa transazione. Si consiglia di non rischiare più del 2% del proprio capitale in una singola transazione."
       },
       "risk_reward_ratio": {
-        "example": "Se inserisci 2, significa che per ogni dollaro rischiato, sperai in un guadagno potenziale di 2 dollari.",
-        "text": "Indica il rapporto tra l'importo del rischio e la potenziale ricompensa che sei disposto ad accettare per questa transazione."
+        "example": "Se inserisci 2, significa che per ogni euro che rischi, speri in un potenziale guadagno di 2 euro.",
+        "text": "Indica il rapporto tra l'importo del rischio e il possibile guadagno che sei disposto ad accettare per questa transazione."
       },
       "slippage": {
-        "example": "Se effettui un ordine di mercato per acquistare un'azione valutata $100, ma la transazione avviene a $102, la variazione risultante di $2, equivalente al 2% del prezzo originale, è definita 'slippage'. In questo scenario, dovresti inserire '2' come percentuale.",
-        "text": "Si riferisce alla differenza tra il prezzo atteso di una transazione e il prezzo a cui la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante periodi di alta volatilità quando vengono utilizzati ordini di mercato, e può anche succedere quando vengono eseguiti ordini di grande volume e non c'è volume sufficiente al livello di prezzo scelto."
+        "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
+        "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
       },
       "stop_loss_price": {
-        "example": "Se hai acquistato un'azione a $50 e hai scelto di proteggere la tua posizione con un ordine di stop-loss a $45, inserisci 45 come valore.",
-        "text": "Indica il prezzo al quale impostare l'ordine di stop-loss per limitare le potenziali perdite."
+        "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
+        "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
       }
     },
     "label": {
@@ -55,6 +55,11 @@
         "balance": "Saldo conto",
         "currency": "Valuta del conto",
         "size": "Dimensione conto"
+      },
+      "additional_tax": {
+        "amount": "Importo di tasse aggiuntive",
+        "rate": "Aliquota di tasse aggiuntive",
+        "text": "Tasse aggiuntive"
       },
       "after": {
         "fee": {
@@ -81,15 +86,11 @@
           "price": "Prezzo prima dell'IVA"
         }
       },
-      "tip": {
-        "amount": "Importo della mancia",
-        "rate": "Tasso della mancia",
-        "text": "Mancia"
-      },
-      "vat": {
-        "amount": "Importo dell'IVA",
-        "rate": "Tasso dell'IVA",
-        "text": "IVA"
+      "bill": {
+        "amount": "Importo Fattura",
+        "breakdown": "Dettaglio Fattura",
+        "rate": "Tasso Fattura",
+        "text": "Fattura"
       },
       "break_even": {
         "price": "Prezzo di pareggio",
@@ -107,11 +108,10 @@
       "currency": "Valuta",
       "discount": {
         "amount": "Importo dello sconto",
-        "rate": "Tasso di sconto",
         "label": "Sconto",
-        "per_unit": "Sconto per unità"
+        "per_unit": "Sconto per unità",
+        "rate": "Tasso di sconto"
       },
-      "additional_tax_rate": "Tasso di imposta aggiuntivo",
       "duration_years": "Durata in anni",
       "ending": {
         "balance": "Saldo finale",
@@ -150,6 +150,7 @@
       "fixed_costs": "Costi fissi",
       "gain": "Guadagno",
       "gain_per_trade": "Guadagno per operazione",
+      "grand_total": "Totale Generale",
       "gross_profit": "Profitto lordo",
       "high_price": "Prezzo più alto",
       "indices": "Indici",
@@ -195,6 +196,8 @@
       "price": {
         "a": "Prezzo A",
         "b": "Prezzo B",
+        "base": "Prezzo di base",
+        "breakdown": "Scomposizione del prezzo",
         "per_unit": "Prezzo per unità",
         "per_unit_after_fee": "Prezzo per unità dopo le commissioni",
         "per_unit_before_fee": "Prezzo per unità prima delle commissioni",
@@ -205,6 +208,7 @@
       "profit_and_loss": "Profitto e perdita",
       "profit_or_loss": "Profitto o perdita",
       "purchase_costs_per_unit": "Costi di acquisto per unità",
+      "rate": "Tasso",
       "real_time_quotes": "Quotazioni in tempo reale",
       "regular_addition": "Aggiunta regolare",
       "required_margin": "Margine richiesto",
@@ -251,6 +255,7 @@
         "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
+      "subtotal": "Subtotale",
       "support_level": "Livello di supporto {level}",
       "take_profit": {
         "amount": "Importo del Take Profit",
@@ -268,17 +273,25 @@
         "exempt_amount_per_year": "Importo esentasse annuo",
         "rate": "Aliquota fiscale"
       },
+      "taxes": "Tasse",
+      "tip": {
+        "amount": "Importo della mancia",
+        "rate": "Tasso della mancia",
+        "text": "Mancia"
+      },
       "total": {
         "costs": {
           "losing_position": "Costi totali per una posizione perdente",
           "profit_position": "Costi totali per una posizione vincente",
           "text": "Costi totali"
         },
+        "fee": "Tariffe Totali",
         "gain": "Guadagno totale",
         "loss": "Perdita totale",
         "return": "Rendimento totale",
         "revenue": "Ricavo totale",
-        "fee": "Importo totale delle tasse"
+        "tax": "Tasse Totali",
+        "text": "Totale"
       },
       "trade": {
         "size": {
@@ -293,7 +306,12 @@
         "text": "Tendenza",
         "up": "Positivo"
       },
-      "user_currency": "Valuta utente"
+      "user_currency": "Valuta utente",
+      "vat": {
+        "amount": "Importo dell'IVA",
+        "rate": "Tasso dell'IVA",
+        "text": "IVA"
+      }
     },
     "select": {
       "account_currency": "Seleziona la valuta del tuo conto",

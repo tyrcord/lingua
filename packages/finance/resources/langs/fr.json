@@ -14,36 +14,36 @@
     },
     "help": {
       "account_balance": {
-        "example": "Si vous avez alloué $50,000 pour le trading, veuillez entrer ce montant.",
+        "example": "Si vous avez 50 000 $ alloués au trading, veuillez saisir 50 000 comme montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
       "amount_at_risk": {
-        "example": "Si votre capital s'élève à 50 000 $ et que vous envisagez de mettre en jeu 1 000 $, veuillez entrer 1 000 $ comme montant.",
-        "text": "Précisez le montant que vous souhaitez risquer pour cette transaction, en l'exprimant en valeur monétaire par rapport à votre capital."
+        "example": "Si votre capital s'élève à 50 000 $ et que vous envisagez de mettre en jeu 1 000 $, veuillez entrer 1 000 comme montant.",
+        "text": "Précisez le montant que vous souhaitez risquer pour cette transaction, en l'exprimant en valeur monétaire relative à votre capital."
       },
       "entry_fees": {
-        "example": "Si votre courtier prélève 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 comme pourcentage.",
-        "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de l'ouverture d'une position."
+        "example": "Si votre courtier facture 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 en pourcentage.",
+        "text": "Indiquez le pourcentage de frais facturés par votre courtier lors de l'ouverture d'une position."
       },
       "entry_price": {
-        "example": "Si vous prévoyez d'acheter au prix courant, indiquez ce montant. Toutefois, si le prix courant est de 50 $ par action et que vous prévoyez d'acheter à 55 $ par action, inscrivez 55 $.",
-        "text": "Précisez le prix auquel vous prévoyez d'entrer sur le marché, qu'il s'agisse du prix courant ou d'un prix anticipé."
+        "example": "Si vous prévoyez d'acheter au prix actuel, indiquez ce montant. Cependant, si le prix actuel est de 50 $ par action et que vous prévoyez d'acheter à 55 $ par action, inscrivez 55 comme valeur.",
+        "text": "Précisez le prix auquel vous prévoyez d'entrer sur le marché, qu'il s'agisse du prix actuel ou d'un prix anticipé."
       },
       "exit_fees": {
-        "example": "Si votre courtier prélève 0,1% de la valeur totale de la position à la clôture, veuillez saisir 0,1 comme pourcentage.",
-        "text": "Indiquez le pourcentage des frais facturés par votre courtier lors de la clôture d'une position."
+        "example": "Si votre courtier facture 0,1% de la valeur totale de la position à la clôture, veuillez saisir 0,1 en pourcentage.",
+        "text": "Indiquez le pourcentage de frais facturés par votre courtier lors de la clôture d'une position."
       },
       "risk": {
-        "example": "Si vous êtes prêt à risquer 1 000 $, soit 2% de votre capital de 50 000 $, veuillez entrer la valeur 2.",
+        "example": "Si vous êtes prêt à risquer 1 000 $, soit 2% de votre capital de 50 000 $, veuillez entrer 2 comme valeur.",
         "text": "Précisez le pourcentage de votre capital que vous êtes disposé à risquer pour cette transaction. Il est recommandé de ne pas risquer plus de 2% de votre capital sur une seule transaction."
       },
       "risk_reward_ratio": {
         "example": "Si vous saisissez 2, cela signifie que pour chaque dollar risqué, vous espérez un gain potentiel de 2 dollars.",
-        "text": "Précisez le ratio entre le montant du risque et la potentielle récompense que vous êtes prêt à accepter pour cette transaction."
+        "text": "Précisez le ratio entre le montant du risque et le gain potentiel que vous êtes prêt à accepter pour cette transaction."
       },
       "slippage": {
-        "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 $, mais que l'exécution se fait à 102 $, cet écart de 2 $, équivalent à 2 % du prix initial, est appelé 'glissement'. Dans ce cas, vous devriez entrer '2' en tant que pourcentage.",
-        "text": "Fait référence à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est réellement exécutée. Le 'glissement' (ou 'slippage' en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres de marché sont utilisés, et cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas suffisamment de volume au niveau de prix choisi."
+        "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 $, mais que l'exécution se fait à 102 $, cet écart de 2 $, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 en pourcentage.",
+        "text": "Se réfère à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est effectivement exécutée. Le glissement (ou slippage en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres au marché sont utilisés ou cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas de volume suffisant au niveau du prix demandé."
       },
       "stop_loss_price": {
         "example": "Si vous avez acquis une action à 50 $ et choisi de sécuriser votre position avec un ordre de stop-loss à 45 $, veuillez saisir 45 comme valeur.",
@@ -55,6 +55,11 @@
         "balance": "Solde du compte",
         "currency": "Devise du compte",
         "size": "Taille du compte"
+      },
+      "additional_tax": {
+        "amount": "Montant d'imposition additionnel",
+        "rate": "Taux d'imposition additionnel",
+        "text": "Impôts additionnels"
       },
       "after": {
         "fee": {
@@ -81,17 +86,12 @@
           "price": "Prix avant TVA"
         }
       },
-      "tip": {
-        "amount": "Montant du pourboire",
-        "rate": "Taux du pourboire",
-        "text": "Pourboire"
+      "bill": {
+        "amount": "Montant de la facture",
+        "breakdown": "Détail de la facture",
+        "rate": "Taux de la facture",
+        "text": "Facture"
       },
-      "vat": {
-        "amount": "Montant de la TVA",
-        "rate": "Taux de TVA",
-        "text": "TVA"
-      },
-      "additional_tax_rate": "Taux d'imposition supplémentaire",
       "break_even": {
         "price": "Prix de rentabilité",
         "units": "Unités de rentabilité"
@@ -108,9 +108,9 @@
       "currency": "Devise",
       "discount": {
         "amount": "Montant de la remise",
-        "rate": "Taux de remise",
         "label": "Remise",
-        "per_unit": "Remise par unité"
+        "per_unit": "Remise par unité",
+        "rate": "Taux de remise"
       },
       "duration_years": "Durée en années",
       "ending": {
@@ -150,6 +150,7 @@
       "fixed_costs": "Coûts fixes",
       "gain": "Gain",
       "gain_per_trade": "Gain par transaction",
+      "grand_total": "Total Général",
       "gross_profit": "Bénéfice brut",
       "high_price": "Prix le plus élevé",
       "indices": "Indices",
@@ -195,6 +196,8 @@
       "price": {
         "a": "Prix A",
         "b": "Prix B",
+        "base": "Prix de base",
+        "breakdown": "Détail du prix",
         "per_unit": "Prix par unité",
         "per_unit_after_fee": "Prix par unité après frais",
         "per_unit_before_fee": "Prix par unité avant frais",
@@ -205,6 +208,7 @@
       "profit_and_loss": "Bénéfice et perte",
       "profit_or_loss": "Bénéfice ou perte",
       "purchase_costs_per_unit": "Coûts d'achat par unité",
+      "rate": "Taux",
       "real_time_quotes": "Cotations en temps réel",
       "regular_addition": "Ajout régulier",
       "required_margin": "Marge requise",
@@ -251,6 +255,7 @@
         "text": "Stop de protection"
       },
       "stop_loss_take_profit": "Stop de protection/Prise de bénéfices",
+      "subtotal": "Sous-total",
       "support_level": "Niveau de support {level}",
       "take_profit": {
         "amount": "Montant de la prise de bénéfices",
@@ -268,17 +273,25 @@
         "exempt_amount_per_year": "Montant exonéré d'impôt par an",
         "rate": "Taux d'imposition"
       },
+      "taxes": "Impôts",
+      "tip": {
+        "amount": "Montant du pourboire",
+        "rate": "Taux du pourboire",
+        "text": "Pourboire"
+      },
       "total": {
         "costs": {
           "losing_position": "Coûts totaux pour une position perdante",
           "profit_position": "Coûts totaux pour une position gagnante",
           "text": "Coûts totaux"
         },
+        "fee": "Frais Totaux",
         "gain": "Gain total",
         "loss": "Perte totale",
         "return": "Rendement total",
         "revenue": "Revenu total",
-        "fee": "Montant total des frais"
+        "tax": "Impôts totaux",
+        "text": "Total"
       },
       "trade": {
         "size": {
@@ -293,7 +306,12 @@
         "text": "Tendance",
         "up": "Haussière"
       },
-      "user_currency": "Devise de l'utilisateur"
+      "user_currency": "Devise de l'utilisateur",
+      "vat": {
+        "amount": "Montant de la TVA",
+        "rate": "Taux de TVA",
+        "text": "TVA"
+      }
     },
     "select": {
       "account_currency": "Sélectionnez la devise de votre compte",

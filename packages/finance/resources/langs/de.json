@@ -14,40 +14,40 @@
     },
     "help": {
       "account_balance": {
-        "example": "Wenn Sie $50,000 für den Handel zugewiesen haben, geben Sie bitte diesen Betrag ein.",
+        "example": "Wenn Sie 50.000 € für den Handel bereitgestellt haben, geben Sie 50.000 als Betrag ein.",
         "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
       },
       "amount_at_risk": {
-        "example": "Wenn Sie ein Kapital von 50.000 $ haben und planen, 1.000 $ zu riskieren, geben Sie bitte 1.000 $ als den Betrag ein.",
-        "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, ausgedrückt in einem Geldbetrag im Verhältnis zu Ihrem Kapital."
+        "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
+        "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, und geben Sie ihn in Geldwert relativ zu Ihrem Kapital an."
       },
       "entry_fees": {
-        "example": "Wenn Ihr Broker 0,1% des Gesamtwertes der Position bei Eröffnung berechnet, geben Sie bitte 0,1 als Prozentsatz ein.",
-        "text": "Geben Sie die Prozentsatzgebühr an, die Ihr Broker beim Öffnen einer Position berechnet."
+        "example": "Wenn Ihr Broker bei der Eröffnung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
+        "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Eröffnung einer Position berechnet."
       },
       "entry_price": {
-        "example": "Wenn Sie zum aktuellen Preis kaufen möchten, geben Sie diesen Betrag an. Wenn jedoch der aktuelle Preis pro Aktie 50 $ beträgt und Sie zu 55 $ pro Aktie kaufen möchten, geben Sie 55 $ ein.",
-        "text": "Geben Sie den Preis an, zu dem Sie den Markt betreten möchten, sei es der aktuelle Preis oder ein erwarteter."
+        "example": "Wenn Sie planen, zum aktuellen Preis zu kaufen, geben Sie diesen Betrag an. Wenn der aktuelle Preis jedoch 50 € pro Aktie beträgt und Sie planen, zu 55 € pro Aktie zu kaufen, geben Sie 55 als Wert ein.",
+        "text": "Geben Sie den Preis an, zu dem Sie planen, den Markt zu betreten, sei es der aktuelle Preis oder ein erwarteter Preis."
       },
       "exit_fees": {
-        "example": "Wenn Ihr Broker 0,1% des Gesamtwertes der Position bei Schließung berechnet, geben Sie bitte 0,1 als Prozentsatz ein.",
-        "text": "Geben Sie die Prozentsatzgebühr an, die Ihr Broker beim Schließen einer Position berechnet."
+        "example": "Wenn Ihr Broker bei der Schließung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
+        "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Schließung einer Position berechnet."
       },
       "risk": {
-        "example": "Wenn Sie bereit sind, 1.000 $ zu riskieren, was 2% Ihres Kapitals von 50.000 $ entspricht, geben Sie bitte 2 als Wert ein.",
-        "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2% Ihres Kapitals in einer einzigen Transaktion zu riskieren."
+        "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
+        "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2 % Ihres Kapitals bei einer einzigen Transaktion zu riskieren."
       },
       "risk_reward_ratio": {
-        "example": "Wenn Sie 2 eingeben, bedeutet dies, dass Sie für jeden riskierten Dollar einen potenziellen Gewinn von 2 Dollar erhoffen.",
-        "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und der potenziellen Belohnung an, die Sie für diese Transaktion akzeptieren möchten."
+        "example": "Wenn Sie 2 eingeben, bedeutet dies, dass Sie für jeden Dollar, den Sie riskieren, einen potenziellen Gewinn von 2 Dollar erwarten.",
+        "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und dem potenziellen Gewinn an, den Sie für diese Transaktion bereit sind, zu akzeptieren."
       },
       "slippage": {
-        "example": "Wenn Sie einen Marktauftrag platzieren, um eine Aktie im Wert von 100 $ zu kaufen, die Transaktion jedoch bei 102 $ stattfindet, entspricht die resultierende Differenz von 2 $, oder 2% vom ursprünglichen Preis, der 'Slippage'. In diesem Szenario sollten Sie '2' als Prozentsatz eingeben.",
-        "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis eines Geschäfts und dem Preis, zu dem das Geschäft tatsächlich ausgeführt wird. Slippage tritt oft in Zeiten hoher Volatilität auf, wenn Marktaufträge verwendet werden, und kann auch auftreten, wenn große Aufträge ausgeführt werden und es nicht genug Volumen zum gewählten Preisniveau gibt."
+        "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
+        "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
       },
       "stop_loss_price": {
-        "example": "Wenn Sie eine Aktie für 50 $ gekauft haben und Ihre Position mit einem Stop-Loss-Auftrag bei 45 $ absichern möchten, geben Sie bitte 45 als Wert ein.",
-        "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen, um mögliche Verluste zu begrenzen."
+        "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
+        "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
       }
     },
     "label": {
@@ -55,6 +55,11 @@
         "balance": "Kontostand",
         "currency": "Kontowährung",
         "size": "Kontogröße"
+      },
+      "additional_tax": {
+        "amount": "Zusätzlicher Steuerbetrag",
+        "rate": "Zusätzlicher Steuersatz",
+        "text": "Zusätzliche Steuern"
       },
       "after": {
         "fee": {
@@ -81,15 +86,11 @@
           "price": "Preis vor MwSt"
         }
       },
-      "tip": {
-        "amount": "Trinkgeld Betrag",
-        "rate": "Trinkgeldsatz",
-        "text": "Trinkgeld"
-      },
-      "vat": {
-        "amount": "MwSt Betrag",
-        "rate": "MwSt Satz",
-        "text": "MwSt"
+      "bill": {
+        "amount": "Rechnungsbetrag",
+        "breakdown": "Rechnungsaufschlüsselung",
+        "rate": "Rechnungssatz",
+        "text": "Rechnung"
       },
       "break_even": {
         "price": "Break-even-Preis",
@@ -107,11 +108,10 @@
       "currency": "Währung",
       "discount": {
         "amount": "Rabattbetrag",
-        "rate": "Rabattsatz",
         "label": "Rabatt",
-        "per_unit": "Rabatt pro Einheit"
+        "per_unit": "Rabatt pro Einheit",
+        "rate": "Rabattsatz"
       },
-      "additional_tax_rate": "Zusätzlicher Steuersatz",
       "duration_years": "Dauer in Jahren",
       "ending": {
         "balance": "Endguthaben",
@@ -150,6 +150,7 @@
       "fixed_costs": "Fixkosten",
       "gain": "Gewinn",
       "gain_per_trade": "Gewinn pro Trade",
+      "grand_total": "Gesamtsumme",
       "gross_profit": "Bruttogewinn",
       "high_price": "Höchstpreis",
       "indices": "Indizes",
@@ -195,6 +196,8 @@
       "price": {
         "a": "Preis A",
         "b": "Preis B",
+        "base": "Grundpreis",
+        "breakdown": "Preisaufschlüsselung",
         "per_unit": "Preis pro Einheit",
         "per_unit_after_fee": "Preis pro Einheit nach Gebühren",
         "per_unit_before_fee": "Preis pro Einheit vor Gebühren",
@@ -205,6 +208,7 @@
       "profit_and_loss": "Gewinn und Verlust",
       "profit_or_loss": "Gewinn oder Verlust",
       "purchase_costs_per_unit": "Kaufkosten pro Einheit",
+      "rate": "Satz",
       "real_time_quotes": "Echtzeitkurse",
       "regular_addition": "Regelmäßige Hinzufügung",
       "required_margin": "Erforderliche Marge",
@@ -251,6 +255,7 @@
         "text": "Stop-Loss"
       },
       "stop_loss_take_profit": "Stop-Loss/Take-Profit",
+      "subtotal": "Zwischensumme",
       "support_level": "Unterstützung {level}",
       "take_profit": {
         "amount": "Take Profit Betrag",
@@ -268,17 +273,25 @@
         "exempt_amount_per_year": "Steuerfreibetrag pro Jahr",
         "rate": "Steuersatz"
       },
+      "taxes": "Steuern",
+      "tip": {
+        "amount": "Trinkgeld Betrag",
+        "rate": "Trinkgeldsatz",
+        "text": "Trinkgeld"
+      },
       "total": {
         "costs": {
           "losing_position": "Gesamtkosten für eine Verlustposition",
           "profit_position": "Gesamtkosten für eine Gewinnposition",
           "text": "Gesamtkosten"
         },
+        "fee": "Gesamtgebühren",
         "gain": "Gesamtgewinn",
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",
         "revenue": "Gesamteinnahmen",
-        "fee": "Gesamte Steuerbetrag"
+        "tax": "Gesamtsteuern",
+        "text": "Gesamt"
       },
       "trade": {
         "size": {
@@ -293,7 +306,12 @@
         "text": "Trend",
         "up": "Aufwärts"
       },
-      "user_currency": "Benutzerwährung"
+      "user_currency": "Benutzerwährung",
+      "vat": {
+        "amount": "MwSt Betrag",
+        "rate": "MwSt Satz",
+        "text": "MwSt"
+      }
     },
     "select": {
       "account_currency": "Wählen Sie Ihre Kontowährung",

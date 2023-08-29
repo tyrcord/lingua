@@ -14,11 +14,11 @@
     },
     "help": {
       "account_balance": {
-        "example": "If you have $50,000 allocated for trading, please enter this amount.",
+        "example": "If you have $50,000 allocated for trading, please enter 50,000 as the amount.",
         "text": "Indicate the current value of your available capital."
       },
       "amount_at_risk": {
-        "example": "If you have a capital of $50,000 and you plan to risk $1,000 please enter $1,000 as the amount.",
+        "example": "If you have a capital of $50,000 and you plan to risk $1,000 please enter 1,000 as the amount.",
         "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
       },
       "entry_fees": {
@@ -26,7 +26,7 @@
         "text": "Specify the percentage fee charged by your broker when opening a position."
       },
       "entry_price": {
-        "example": "If you plan to buy at the current price, indicate this amount. However, if the current cost is $50 per share and you plan to buy at $55 per share, enter $55.",
+        "example": "If you plan to buy at the current price, indicate this amount. However, if the current cost is $50 per share and you plan to buy at $55 per share, please enter 55 as the value.",
         "text": "Specify the price at which you plan to enter the market, whether it's the current price or an anticipated one."
       },
       "exit_fees": {
@@ -34,7 +34,7 @@
         "text": "Specify the percentage fee charged by your broker when closing a position."
       },
       "risk": {
-        "example": "If you're willing to risk $1,000, which is 2% of your $50,000 capital, please input the enter 2 as a value.",
+        "example": "If you're willing to risk $1,000, which is 2% of your $50,000 capital, please enter 2 as the value.",
         "text": "Specify the percentage of your capital that you are willing to risk for this transaction. It's recommended not to risk more than 2% of your capital on a single transaction."
       },
       "risk_reward_ratio": {
@@ -42,8 +42,8 @@
         "text": "Specify the ratio between the risk amount and the potential reward you are willing to accept for this transaction."
       },
       "slippage": {
-        "example": "If you place a market order to purchase a stock valued at $100, but the transaction takes place at $102, the resulting variance of $2, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input '2' as the percentage.",
-        "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, and it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
+        "example": "If you place a market order to purchase a stock valued at $100, but the transaction takes place at $102, the resulting variance of $2, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input 2 as a percentage.",
+        "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, or it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
       },
       "stop_loss_price": {
         "example": "If you purchased a stock at $50 and chose to secure your position with a stop-loss order at $45, please enter 45 as the value.",
@@ -55,6 +55,11 @@
         "balance": "Account Balance",
         "currency": "Account Currency",
         "size": "Account Size"
+      },
+      "additional_tax": {
+        "amount": "Additional Tax Amount",
+        "rate": "Additional Tax Rate",
+        "text": "Additional Taxes"
       },
       "after": {
         "fee": {
@@ -81,15 +86,11 @@
           "price": "Price Before VAT"
         }
       },
-      "tip": {
-        "amount": "Tip Amount",
-        "rate": "Tip Rate",
-        "text": "Tip"
-      },
-      "vat": {
-        "amount": "VAT Amount",
-        "rate": "VAT Rate",
-        "text": "VAT"
+      "bill": {
+        "amount": "Bill Amount",
+        "breakdown": "Bill Breakdown",
+        "rate": "Bill Rate",
+        "text": "Bill"
       },
       "break_even": {
         "price": "Break-Even Price",
@@ -107,9 +108,9 @@
       "currency": "Currency",
       "discount": {
         "amount": "Discount Amount",
-        "rate": "Discount Rate",
         "label": "Discount",
-        "per_unit": "Discount per Unit"
+        "per_unit": "Discount per Unit",
+        "rate": "Discount Rate"
       },
       "duration_years": "Duration in years",
       "ending": {
@@ -149,6 +150,7 @@
       "fixed_costs": "Fixed Costs",
       "gain": "Gain",
       "gain_per_trade": "Gain per Trade",
+      "grand_total": "Grand Total",
       "gross_profit": "Gross Profit",
       "high_price": "High Price",
       "indices": "Indices",
@@ -194,6 +196,8 @@
       "price": {
         "a": "Price A",
         "b": "Price B",
+        "base": "Base Price",
+        "breakdown": "Price Breakdown",
         "per_unit": "Price per Unit",
         "per_unit_after_fee": "Price per Unit After Fees",
         "per_unit_before_fee": "Price per Unit Before Fees",
@@ -204,6 +208,7 @@
       "profit_and_loss": "Profit and Loss",
       "profit_or_loss": "Profit or Loss",
       "purchase_costs_per_unit": "Purchase Costs per Unit",
+      "rate": "Rate",
       "real_time_quotes": "Real-Time Quotes",
       "regular_addition": "Regular Addition",
       "required_margin": "Required Margin",
@@ -250,6 +255,7 @@
         "text": "Stop Loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
+      "subtotal": "Subtotal",
       "support_level": "Support {level}",
       "take_profit": {
         "amount": "Take Profit Amount",
@@ -267,17 +273,25 @@
         "exempt_amount_per_year": "Tax-exempt Amount Per Year",
         "rate": "Tax Rate"
       },
+      "taxes": "Taxes",
+      "tip": {
+        "amount": "Tip Amount",
+        "rate": "Tip Rate",
+        "text": "Tip"
+      },
       "total": {
         "costs": {
           "losing_position": "Total costs for a losing position",
           "profit_position": "Total costs for a winning position",
           "text": "Total Costs"
         },
+        "fee": "Total Fees",
         "gain": "Total Gain",
         "loss": "Total Loss",
         "return": "Total Return",
         "revenue": "Total Revenue",
-        "fee": "Total Tax Amount"
+        "tax": "Total Taxes",
+        "text": "Total"
       },
       "trade": {
         "size": {
@@ -293,7 +307,11 @@
         "up": "Up"
       },
       "user_currency": "User Currency",
-      "additional_tax_rate": "Additional Tax Rate"
+      "vat": {
+        "amount": "VAT Amount",
+        "rate": "VAT Rate",
+        "text": "VAT"
+      }
     },
     "select": {
       "account_currency": "Select your account currency",
