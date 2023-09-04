@@ -1,3 +1,8 @@
+## 0.0.16
+
+ - **FEAT**: update finance localization.
+ - **FEAT**: update finance localization.
+
 ## 0.0.15
 
  - **FEAT**: update finance localization.
