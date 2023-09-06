@@ -1,3 +1,7 @@
+## 0.0.17
+
+ - **FEAT**: minor improvements.
+
 ## 0.0.16
 
  - **FEAT**: update finance localization.

@@ -3,6 +3,102 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-09-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_ad` - `v0.0.11`](#lingua_ad---v0011)
+ - [`lingua_apps` - `v0.0.7`](#lingua_apps---v007)
+ - [`lingua_calculator` - `v0.0.3`](#lingua_calculator---v003)
+ - [`lingua_core` - `v0.0.23`](#lingua_core---v0023)
+ - [`lingua_finance` - `v0.0.17`](#lingua_finance---v0017)
+ - [`lingua_finance_dividend` - `v0.0.3`](#lingua_finance_dividend---v003)
+ - [`lingua_finance_forex` - `v0.0.3`](#lingua_finance_forex---v003)
+ - [`lingua_finance_instrument` - `v0.0.3`](#lingua_finance_instrument---v003)
+ - [`lingua_finance_stock` - `v0.0.6`](#lingua_finance_stock---v006)
+ - [`lingua_help` - `v0.0.6`](#lingua_help---v006)
+ - [`lingua_languages` - `v0.0.5`](#lingua_languages---v005)
+ - [`lingua_number` - `v0.0.6`](#lingua_number---v006)
+ - [`lingua_onboarding` - `v0.0.11`](#lingua_onboarding---v0011)
+ - [`lingua_purchases` - `v0.0.14`](#lingua_purchases---v0014)
+ - [`lingua_settings` - `v0.0.11`](#lingua_settings---v0011)
+ - [`lingua_units` - `v0.0.3`](#lingua_units---v003)
+
+---
+
+#### `lingua_ad` - `v0.0.11`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_apps` - `v0.0.7`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_calculator` - `v0.0.3`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_core` - `v0.0.23`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_finance` - `v0.0.17`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_finance_dividend` - `v0.0.3`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_finance_forex` - `v0.0.3`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_finance_instrument` - `v0.0.3`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_finance_stock` - `v0.0.6`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_help` - `v0.0.6`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_languages` - `v0.0.5`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_number` - `v0.0.6`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_onboarding` - `v0.0.11`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_purchases` - `v0.0.14`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_settings` - `v0.0.11`
+
+ - **FEAT**: minor improvements.
+
+#### `lingua_units` - `v0.0.3`
+
+ - **FEAT**: minor improvements.
+
+
 ## 2023-09-04
 
 ### Changes

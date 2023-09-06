@@ -1,6 +1,6 @@
 name: lingua_settings
 description: Library for internal settings localization.
-version: 0.0.10
+version: 0.0.11
 repository: https://github.com/tyrcord/lingua/tree/main/packages/settings
 
 environment:
@@ -17,4 +17,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.2
-  lingua_core: ^0.0.22
+  lingua_core: ^0.0.23

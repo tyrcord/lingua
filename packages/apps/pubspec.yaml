@@ -1,6 +1,6 @@
 name: lingua_apps
 description: Library for internal apps localization.
-version: 0.0.6
+version: 0.0.7
 repository: https://github.com/tyrcord/lingua/tree/main/packages/apps
 
 environment:
@@ -17,4 +17,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.2
-  lingua_core: ^0.0.22
+  lingua_core: ^0.0.23
