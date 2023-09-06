@@ -11,11 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  easy_localization: ^3.0.2
+  easy_localization: ^3.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.2
-  dart_code_metrics: ^5.7.5
   lingua_core: ^0.0.22

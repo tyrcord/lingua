@@ -33,19 +33,20 @@ bool _isHelpCommand(List<String> args) {
 }
 
 void _printHelperDisplay() {
-  var parser = _generateArgParser(null);
+  final parser = _generateArgParser(null);
   log(parser.usage);
 }
 
 GenerateOptions _generateOption(List<String> args) {
-  var generateOptions = GenerateOptions();
-  var parser = _generateArgParser(generateOptions);
+  final generateOptions = GenerateOptions();
+  final parser = _generateArgParser(generateOptions);
   parser.parse(args);
+
   return generateOptions;
 }
 
 ArgParser _generateArgParser(GenerateOptions? generateOptions) {
-  var parser = ArgParser();
+  final parser = ArgParser();
 
   parser.addOption('source-dir',
       abbr: 'S',
@@ -146,11 +147,14 @@ void handleLangFiles(GenerateOptions options) async {
 }
 
 Future<List<FileSystemEntity>> dirContents(Directory dir) {
-  var files = <FileSystemEntity>[];
-  var completer = Completer<List<FileSystemEntity>>();
-  var lister = dir.list(recursive: false);
-  lister.listen((file) => files.add(file),
-      onDone: () => completer.complete(files));
+  final files = <FileSystemEntity>[];
+  final completer = Completer<List<FileSystemEntity>>();
+
+  dir.list(recursive: false).listen(
+        (file) => files.add(file),
+        onDone: () => completer.complete(files),
+      );
+
   return completer.future;
 }
 
@@ -159,18 +163,17 @@ void generateFile(
   Directory outputPath,
   GenerateOptions options,
 ) async {
-  var generatedFile = File(outputPath.path);
+  final generatedFile = File(outputPath.path);
 
   if (!generatedFile.existsSync()) {
     generatedFile.createSync(recursive: true);
   }
 
-  var classBuilder = StringBuffer();
+  final classBuilder = StringBuffer();
 
   switch (options.format) {
     case 'json':
       await _writeJson(classBuilder, files, options.prefix);
-      break;
     case 'keys':
       await _writeKeys(
         classBuilder,
@@ -178,7 +181,6 @@ void generateFile(
         options.skipUnnecessaryKeys,
         options.prefix,
       );
-      break;
     default:
       printError('Format not support');
   }
@@ -203,10 +205,9 @@ abstract class ${prefix}LocaleKeys {
 
   final fileData = File(files.first.path);
 
-  Map<String, dynamic> translations =
-      json.decode(await fileData.readAsString());
+  final translations = json.decode(await fileData.readAsString());
 
-  file += _resolve(translations, skipUnnecessaryKeys);
+  file += _resolve(translations as Map<String, dynamic>, skipUnnecessaryKeys);
 
   classBuilder.writeln(file);
 }
@@ -222,21 +223,22 @@ String _resolve(Map<String, dynamic> translations, bool? skipUnnecessaryKeys,
   bool containsPreservedKeywords(Map<String, dynamic> map) =>
       map.keys.any((element) => _preservedKeywords.contains(element));
 
-  for (var key in sortedKeys) {
+  for (final key in sortedKeys) {
     var ignoreKey = false;
-    if (translations[key] is Map) {
-      // If key does not contain keys for plural(), gender() etc. and option is enabled -> ignore it
-      ignoreKey = !containsPreservedKeywords(
-              translations[key] as Map<String, dynamic>) &&
-          canIgnoreKeys;
+    final translation = translations[key];
+
+    if (translation is Map<String, dynamic>) {
+      // If key does not contain keys for plural(), gender() etc. and option
+      // is enabled -> ignore it
+
+      ignoreKey = !containsPreservedKeywords(translation) && canIgnoreKeys;
 
       var nextAccKey = key;
       if (accKey != null) {
         nextAccKey = '$accKey.$key';
       }
 
-      fileContent +=
-          _resolve(translations[key], skipUnnecessaryKeys, nextAccKey);
+      fileContent += _resolve(translation, skipUnnecessaryKeys, nextAccKey);
     }
 
     if (!_preservedKeywords.contains(key)) {
@@ -275,13 +277,13 @@ class ${prefix}CodegenLoader extends AssetLoader {
 
   final listLocales = [];
 
-  for (var file in files) {
+  for (final file in files) {
     final localeName =
         path.basename(file.path).replaceFirst('.json', '').replaceAll('-', '_');
     listLocales.add('"$localeName": $localeName');
     final fileData = File(file.path);
 
-    Map<String, dynamic>? data = json.decode(await fileData.readAsString());
+    final data = json.decode(await fileData.readAsString());
 
     final mapString = const JsonEncoder.withIndent('  ').convert(data);
     final mapStringEscaped = escapeSpecialCharacters(mapString);
