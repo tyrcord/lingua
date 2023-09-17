@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_countries` - `v0.0.3`](#lingua_countries---v003)
+
+---
+
+#### `lingua_countries` - `v0.0.3`
+
+ - **FEAT**: update countries.
+
+
+## 2023-09-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_countries` - `v0.0.2`](#lingua_countries---v002)
 
 ---
