@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-09-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_countries` - `v0.0.2`](#lingua_countries---v002)
+
+---
+
+#### `lingua_countries` - `v0.0.2`
+
+ - **FEAT**: add lingua_countries.
+
+
 ## 2023-09-06
 
 ### Changes
