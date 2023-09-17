@@ -1,5 +1,5 @@
 name: lingua_languages
-description: Library for internal onboarding localization.
+description: Library for internal languages localization.
 version: 0.0.5
 repository: https://github.com/tyrcord/lingua/tree/main/packages/languages
 
@@ -16,5 +16,5 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.2
+  flutter_lints: ^2.0.3
   lingua_core: ^0.0.23
