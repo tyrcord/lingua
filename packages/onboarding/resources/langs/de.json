@@ -39,6 +39,12 @@
       "notes": "Bitte beachten Sie, dass Sie jederzeit die Möglichkeit haben, Ihre Käufe wiederherzustellen.",
       "title": "Premium-Funktionen wiederherstellen"
     },
+    "user_country": {
+      "action": "Wählen Sie Ihr Land",
+      "intro": "Wählen Sie Ihr Land, um Inhalte an Ihren Standort anzupassen.",
+      "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihr Land jederzeit in den Einstellungen zu ändern.",
+      "title": "Land"
+    },
     "user_currency": {
       "action": "Wählen Sie Ihre Währung",
       "intro": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",

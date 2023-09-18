@@ -39,6 +39,7 @@ abstract class CoreLocaleKeys {
   static const core_label_confirmation = 'core.label.confirmation';
   static const core_label_continue = 'core.label.continue';
   static const core_label_copy = 'core.label.copy';
+  static const core_label_country = 'core.label.country';
   static const core_label_cut = 'core.label.cut';
   static const core_label_daily = 'core.label.daily';
   static const core_label_date = 'core.label.date';
@@ -326,6 +327,7 @@ abstract class CoreLocaleKeys {
   static const core_question_are_you_sure = 'core.question.are_you_sure';
   static const core_question_export_data_pdf = 'core.question.export_data_pdf';
   static const core_question = 'core.question';
+  static const core_select_country = 'core.select.country';
   static const core_select_frequency = 'core.select.frequency';
   static const core_select_method = 'core.select.method';
   static const core_select = 'core.select';

@@ -47,6 +47,7 @@
       "confirmation": "確認",
       "continue": "続ける",
       "copy": "コピー",
+      "country": "国",
       "cut": "カット",
       "daily": "毎日",
       "date": "日付",
@@ -377,6 +378,7 @@
       "export_data_pdf": "このデータのPDFバージョンを生成しますか？"
     },
     "select": {
+      "country": "国を選択してください",
       "frequency": "頻度を選択",
       "method": "方法を選択"
     },

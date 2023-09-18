@@ -39,6 +39,12 @@
       "notes": "Tenga en cuenta que tiene la opción de restaurar sus compras en cualquier momento.",
       "title": "Restaurar funciones premium"
     },
+    "user_country": {
+      "action": "Elige tu país",
+      "intro": "Selecciona tu país para personalizar el contenido según tu ubicación.",
+      "notes": "Ten en cuenta que tienes la opción de cambiar tu país en cualquier momento en la configuración.",
+      "title": "País"
+    },
     "user_currency": {
       "action": "Seleccione su moneda",
       "intro": "Seleccione su moneda preferida para mostrar los precios en su moneda local.",

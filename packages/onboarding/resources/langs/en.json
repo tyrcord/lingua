@@ -39,6 +39,12 @@
       "notes": "Please note that you have the option to restore your purchases at any time.",
       "title": "Restore Premium Features"
     },
+    "user_country": {
+      "action": "Choose Your Country",
+      "intro": "Select your country to customize content based on your location.",
+      "notes": "Please note that you have the option to change your country at any time in the settings.",
+      "title": "Country"
+    },
     "user_currency": {
       "action": "Choose Your Currency",
       "intro": "Select your preferred currency to display prices in your local currency.",

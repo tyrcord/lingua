@@ -47,6 +47,7 @@
       "confirmation": "确认",
       "continue": "继续",
       "copy": "复制",
+      "country": "国家",
       "cut": "剪切",
       "daily": "每天",
       "date": "日期",
@@ -377,6 +378,7 @@
       "export_data_pdf": "您想要生成此数据的PDF版本吗？"
     },
     "select": {
+      "country": "选择一个国家",
       "frequency": "选择频率",
       "method": "选择方法"
     },

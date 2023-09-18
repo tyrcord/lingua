@@ -39,6 +39,12 @@
       "notes": "Tieni presente che hai la possibilità di ripristinare i tuoi acquisti in qualsiasi momento.",
       "title": "Ripristina funzionalità premium"
     },
+    "user_country": {
+      "action": "Scegli il tuo paese",
+      "intro": "Seleziona il tuo paese per personalizzare il contenuto in base alla tua posizione.",
+      "notes": "Si prega di notare che hai l'opzione di cambiare il tuo paese in qualsiasi momento nelle impostazioni.",
+      "title": "Paese"
+    },
     "user_currency": {
       "action": "Scegli la tua valuta",
       "intro": "Seleziona la tua valuta preferita per visualizzare i prezzi nella tua valuta locale.",

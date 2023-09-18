@@ -47,6 +47,7 @@
       "confirmation": "Confirmation",
       "continue": "Continue",
       "copy": "Copy",
+      "country": "Country",
       "cut": "Cut",
       "daily": "Daily",
       "date": "Date",
@@ -377,6 +378,7 @@
       "export_data_pdf": "Would you like to generate a PDF version of this data?"
     },
     "select": {
+      "country": "Select a country",
       "frequency": "Select a frequency",
       "method": "Select a method"
     },

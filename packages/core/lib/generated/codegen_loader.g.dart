@@ -60,6 +60,7 @@ class CoreCodegenLoader extends AssetLoader {
       "confirmation": "确认",
       "continue": "继续",
       "copy": "复制",
+      "country": "国家",
       "cut": "剪切",
       "daily": "每天",
       "date": "日期",
@@ -390,6 +391,7 @@ class CoreCodegenLoader extends AssetLoader {
       "export_data_pdf": "您想要生成此数据的PDF版本吗？"
     },
     "select": {
+      "country": "选择一个国家",
       "frequency": "选择频率",
       "method": "选择方法"
     },
@@ -447,6 +449,7 @@ static const Map<String,dynamic> ja = {
       "confirmation": "確認",
       "continue": "続ける",
       "copy": "コピー",
+      "country": "国",
       "cut": "カット",
       "daily": "毎日",
       "date": "日付",
@@ -777,6 +780,7 @@ static const Map<String,dynamic> ja = {
       "export_data_pdf": "このデータのPDFバージョンを生成しますか？"
     },
     "select": {
+      "country": "国を選択してください",
       "frequency": "頻度を選択",
       "method": "方法を選択"
     },
@@ -834,6 +838,7 @@ static const Map<String,dynamic> de = {
       "confirmation": "Bestätigung",
       "continue": "Weiter",
       "copy": "Kopieren",
+      "country": "Land",
       "cut": "Ausschneiden",
       "daily": "Täglich",
       "date": "Datum",
@@ -1164,6 +1169,7 @@ static const Map<String,dynamic> de = {
       "export_data_pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
     },
     "select": {
+      "country": "Wählen Sie ein Land",
       "frequency": "Wählen Sie eine Häufigkeit",
       "method": "Wählen Sie eine Methode"
     },
@@ -1221,6 +1227,7 @@ static const Map<String,dynamic> ru = {
       "confirmation": "Подтверждение",
       "continue": "Продолжить",
       "copy": "Копировать",
+      "country": "Страна",
       "cut": "Вырезать",
       "daily": "Ежедневно",
       "date": "Дата",
@@ -1551,6 +1558,7 @@ static const Map<String,dynamic> ru = {
       "export_data_pdf": "Хотите создать PDF-версию этих данных?"
     },
     "select": {
+      "country": "Выберите страну",
       "frequency": "Выберите частоту",
       "method": "Выберите метод"
     },
@@ -1608,6 +1616,7 @@ static const Map<String,dynamic> pt = {
       "confirmation": "Confirmação",
       "continue": "Continuar",
       "copy": "Copiar",
+      "country": "País",
       "cut": "Recortar",
       "daily": "Diariamente",
       "date": "Data",
@@ -1938,6 +1947,7 @@ static const Map<String,dynamic> pt = {
       "export_data_pdf": "Deseja gerar uma versão em PDF destes dados?"
     },
     "select": {
+      "country": "Selecione um país",
       "frequency": "Selecione uma frequência",
       "method": "Selecione um método"
     },
@@ -1995,6 +2005,7 @@ static const Map<String,dynamic> en = {
       "confirmation": "Confirmation",
       "continue": "Continue",
       "copy": "Copy",
+      "country": "Country",
       "cut": "Cut",
       "daily": "Daily",
       "date": "Date",
@@ -2325,6 +2336,7 @@ static const Map<String,dynamic> en = {
       "export_data_pdf": "Would you like to generate a PDF version of this data?"
     },
     "select": {
+      "country": "Select a country",
       "frequency": "Select a frequency",
       "method": "Select a method"
     },
@@ -2382,6 +2394,7 @@ static const Map<String,dynamic> it = {
       "confirmation": "Conferma",
       "continue": "Continua",
       "copy": "Copia",
+      "country": "Paese",
       "cut": "Taglia",
       "daily": "Giornalmente",
       "date": "Data",
@@ -2712,6 +2725,7 @@ static const Map<String,dynamic> it = {
       "export_data_pdf": "Desideri generare una versione PDF di questi dati?"
     },
     "select": {
+      "country": "Seleziona un paese",
       "frequency": "Seleziona una frequenza",
       "method": "Seleziona un metodo"
     },
@@ -2769,6 +2783,7 @@ static const Map<String,dynamic> fr = {
       "confirmation": "Confirmation",
       "continue": "Continuer",
       "copy": "Copier",
+      "country": "Pays",
       "cut": "Couper",
       "daily": "Quotidiennement",
       "date": "Date",
@@ -3099,6 +3114,7 @@ static const Map<String,dynamic> fr = {
       "export_data_pdf": "Souhaitez-vous générer une version PDF de ces données?"
     },
     "select": {
+      "country": "Sélectionnez un pays",
       "frequency": "Sélectionnez une fréquence",
       "method": "Sélectionnez une méthode"
     },
@@ -3156,6 +3172,7 @@ static const Map<String,dynamic> es = {
       "confirmation": "Confirmación",
       "continue": "Continuar",
       "copy": "Copiar",
+      "country": "País",
       "cut": "Cortar",
       "daily": "Diariamente",
       "date": "Fecha",
@@ -3486,6 +3503,7 @@ static const Map<String,dynamic> es = {
       "export_data_pdf": "¿Desea generar una versión en PDF de estos datos?"
     },
     "select": {
+      "country": "Seleccione un país",
       "frequency": "Selecciona una frecuencia",
       "method": "Selecciona un método"
     },

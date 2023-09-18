@@ -33,6 +33,11 @@ abstract class OnboardingLocaleKeys {
   static const onboarding_restore_premium_notes = 'onboarding.restore_premium.notes';
   static const onboarding_restore_premium_title = 'onboarding.restore_premium.title';
   static const onboarding_restore_premium = 'onboarding.restore_premium';
+  static const onboarding_user_country_action = 'onboarding.user_country.action';
+  static const onboarding_user_country_intro = 'onboarding.user_country.intro';
+  static const onboarding_user_country_notes = 'onboarding.user_country.notes';
+  static const onboarding_user_country_title = 'onboarding.user_country.title';
+  static const onboarding_user_country = 'onboarding.user_country';
   static const onboarding_user_currency_action = 'onboarding.user_currency.action';
   static const onboarding_user_currency_intro = 'onboarding.user_currency.intro';
   static const onboarding_user_currency_notes = 'onboarding.user_currency.notes';

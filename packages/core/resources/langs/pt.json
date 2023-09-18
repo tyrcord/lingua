@@ -47,6 +47,7 @@
       "confirmation": "Confirmação",
       "continue": "Continuar",
       "copy": "Copiar",
+      "country": "País",
       "cut": "Recortar",
       "daily": "Diariamente",
       "date": "Data",
@@ -377,6 +378,7 @@
       "export_data_pdf": "Deseja gerar uma versão em PDF destes dados?"
     },
     "select": {
+      "country": "Selecione um país",
       "frequency": "Selecione uma frequência",
       "method": "Selecione um método"
     },

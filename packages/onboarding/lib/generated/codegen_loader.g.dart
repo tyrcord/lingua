@@ -52,6 +52,12 @@ class OnboardingCodegenLoader extends AssetLoader {
       "notes": "请注意，您随时可以选择恢复您的购买。",
       "title": "恢复高级功能"
     },
+    "user_country": {
+      "action": "选择您的国家",
+      "intro": "选择您的国家以根据您的位置定制内容。",
+      "notes": "请注意，您可以随时在设置中更改国家。",
+      "title": "国家"
+    },
     "user_currency": {
       "action": "选择您的货币",
       "intro": "选择您偏好的货币以在本地货币中显示价格。",
@@ -105,6 +111,12 @@ static const Map<String,dynamic> ja = {
       "intro": "以前にプレミアム版を購入された場合、すべてのプレミアム機能に再アクセスするために購入を復元することをおすすめします。",
       "notes": "いつでも購入を復元するオプションがあることにご注意ください。",
       "title": "プレミアム機能の復元"
+    },
+    "user_country": {
+      "action": "あなたの国を選択してください",
+      "intro": "位置に基づいてコンテンツをカスタマイズするために、あなたの国を選択してください。",
+      "notes": "設定でいつでも国を変更するオプションがあることに注意してください。",
+      "title": "国"
     },
     "user_currency": {
       "action": "通貨を選択する",
@@ -160,6 +172,12 @@ static const Map<String,dynamic> de = {
       "notes": "Bitte beachten Sie, dass Sie jederzeit die Möglichkeit haben, Ihre Käufe wiederherzustellen.",
       "title": "Premium-Funktionen wiederherstellen"
     },
+    "user_country": {
+      "action": "Wählen Sie Ihr Land",
+      "intro": "Wählen Sie Ihr Land, um Inhalte an Ihren Standort anzupassen.",
+      "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihr Land jederzeit in den Einstellungen zu ändern.",
+      "title": "Land"
+    },
     "user_currency": {
       "action": "Wählen Sie Ihre Währung",
       "intro": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
@@ -213,6 +231,12 @@ static const Map<String,dynamic> ru = {
       "intro": "Если вы ранее приобрели премиум-версию, рекомендуем восстановить ваши покупки, чтобы снова получить доступ ко всем премиум-функциям.",
       "notes": "Обратите внимание, что вы можете восстановить свои покупки в любое время.",
       "title": "Восстановление премиум-функций"
+    },
+    "user_country": {
+      "action": "Выберите вашу страну",
+      "intro": "Выберите свою страну, чтобы настроить контент в соответствии с вашим местоположением.",
+      "notes": "Обратите внимание, что у вас есть возможность изменить страну в настройках в любое время.",
+      "title": "Страна"
     },
     "user_currency": {
       "action": "Выберите свою валюту",
@@ -268,6 +292,12 @@ static const Map<String,dynamic> pt = {
       "notes": "Observe que você tem a opção de restaurar suas compras a qualquer momento.",
       "title": "Restaurar recursos premium"
     },
+    "user_country": {
+      "action": "Escolha o seu país",
+      "intro": "Selecione seu país para personalizar o conteúdo com base na sua localização.",
+      "notes": "Por favor, note que você tem a opção de alterar o seu país a qualquer momento nas configurações.",
+      "title": "País"
+    },
     "user_currency": {
       "action": "Escolha sua moeda",
       "intro": "Selecione a moeda de sua preferência para exibir os preços em sua moeda local.",
@@ -321,6 +351,12 @@ static const Map<String,dynamic> en = {
       "intro": "If you previously acquired the premium version, we recommend restoring your purchases to regain access to all your premium features.",
       "notes": "Please note that you have the option to restore your purchases at any time.",
       "title": "Restore Premium Features"
+    },
+    "user_country": {
+      "action": "Choose Your Country",
+      "intro": "Select your country to customize content based on your location.",
+      "notes": "Please note that you have the option to change your country at any time in the settings.",
+      "title": "Country"
     },
     "user_currency": {
       "action": "Choose Your Currency",
@@ -376,6 +412,12 @@ static const Map<String,dynamic> it = {
       "notes": "Tieni presente che hai la possibilità di ripristinare i tuoi acquisti in qualsiasi momento.",
       "title": "Ripristina funzionalità premium"
     },
+    "user_country": {
+      "action": "Scegli il tuo paese",
+      "intro": "Seleziona il tuo paese per personalizzare il contenuto in base alla tua posizione.",
+      "notes": "Si prega di notare che hai l'opzione di cambiare il tuo paese in qualsiasi momento nelle impostazioni.",
+      "title": "Paese"
+    },
     "user_currency": {
       "action": "Scegli la tua valuta",
       "intro": "Seleziona la tua valuta preferita per visualizzare i prezzi nella tua valuta locale.",
@@ -430,6 +472,12 @@ static const Map<String,dynamic> fr = {
       "notes": "Veuillez noter que vous avez la possibilité de restaurer vos achats à tout moment.",
       "title": "Restaurer les fonctionnalités premium"
     },
+    "user_country": {
+      "action": "Choisissez votre pays",
+      "intro": "Sélectionnez votre pays afin de personnaliser le contenu en fonction de votre emplacement.",
+      "notes": "Veuillez noter que vous avez la possibilité de changer votre pays à tout moment dans les paramètres.",
+      "title": "Pays"
+    },
     "user_currency": {
       "action": "Choisissez votre devise",
       "intro": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
@@ -483,6 +531,12 @@ static const Map<String,dynamic> es = {
       "intro": "Si adquirió previamente la versión premium, le recomendamos restaurar sus compras para recuperar el acceso a todas las funciones premium.",
       "notes": "Tenga en cuenta que tiene la opción de restaurar sus compras en cualquier momento.",
       "title": "Restaurar funciones premium"
+    },
+    "user_country": {
+      "action": "Elige tu país",
+      "intro": "Selecciona tu país para personalizar el contenido según tu ubicación.",
+      "notes": "Ten en cuenta que tienes la opción de cambiar tu país en cualquier momento en la configuración.",
+      "title": "País"
     },
     "user_currency": {
       "action": "Seleccione su moneda",

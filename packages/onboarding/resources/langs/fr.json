@@ -39,6 +39,12 @@
       "notes": "Veuillez noter que vous avez la possibilité de restaurer vos achats à tout moment.",
       "title": "Restaurer les fonctionnalités premium"
     },
+    "user_country": {
+      "action": "Choisissez votre pays",
+      "intro": "Sélectionnez votre pays afin de personnaliser le contenu en fonction de votre emplacement.",
+      "notes": "Veuillez noter que vous avez la possibilité de changer votre pays à tout moment dans les paramètres.",
+      "title": "Pays"
+    },
     "user_currency": {
       "action": "Choisissez votre devise",
       "intro": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",

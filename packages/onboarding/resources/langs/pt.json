@@ -39,6 +39,12 @@
       "notes": "Observe que você tem a opção de restaurar suas compras a qualquer momento.",
       "title": "Restaurar recursos premium"
     },
+    "user_country": {
+      "action": "Escolha o seu país",
+      "intro": "Selecione seu país para personalizar o conteúdo com base na sua localização.",
+      "notes": "Por favor, note que você tem a opção de alterar o seu país a qualquer momento nas configurações.",
+      "title": "País"
+    },
     "user_currency": {
       "action": "Escolha sua moeda",
       "intro": "Selecione a moeda de sua preferência para exibir os preços em sua moeda local.",
