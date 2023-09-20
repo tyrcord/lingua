@@ -45,6 +45,7 @@
       "completed": "Finalizado",
       "confirm": "Confirmar",
       "confirmation": "Confirmación",
+      "connected": "Conectado",
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",
@@ -61,6 +62,7 @@
       "disabled": "Deshabilitado",
       "disapprove": "Desaprobar",
       "disapproved": "Desaprobado",
+      "disconnected": "Desconectado",
       "display": "Mostrar",
       "done": "Hecho",
       "download": "Descargar",
@@ -161,8 +163,10 @@
         "male": "Ninguno",
         "other": "Ninguno"
       },
+      "offline": "Sin conexión",
       "offline_mode": "Modo sin conexión",
       "ok": "OK",
+      "online": "En línea",
       "open": {
         "all": "Abrir todo",
         "directory": "Abrir directorio",
@@ -263,6 +267,8 @@
       "stop": "Detener",
       "submit": "Enviar",
       "success": "Éxito",
+      "sync": "Sincronizar",
+      "synced": "Sincronizado",
       "template": "Plantilla",
       "time": {
         "elapsed": "Tiempo transcurrido",
@@ -283,6 +289,8 @@
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "unmute": "Activar sonido",
+      "unsync": "Desincronizar",
+      "unsynced": "No sincronizado",
       "update": "Actualizar",
       "upgrade": {
         "now": "Actualizar ahora",
@@ -317,6 +325,7 @@
         "completed": "Acción completada."
       },
       "bugs_fixes_improvements": "Correcciones menores y mejoras.",
+      "checking_connection": "Comprobando conexión...",
       "congratulations": "¡Felicidades!",
       "copied": "¡Copiado!",
       "copied_to_clipboard": "¡Copiado al portapapeles!",

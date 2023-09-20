@@ -58,6 +58,7 @@ class CoreCodegenLoader extends AssetLoader {
       "completed": "已完成",
       "confirm": "确认",
       "confirmation": "确认",
+      "connected": "已连接",
       "continue": "继续",
       "copy": "复制",
       "country": "国家",
@@ -74,6 +75,7 @@ class CoreCodegenLoader extends AssetLoader {
       "disabled": "已禁用",
       "disapprove": "不批准",
       "disapproved": "未批准",
+      "disconnected": "已断开",
       "display": "显示",
       "done": "完成",
       "download": "下载",
@@ -174,8 +176,10 @@ class CoreCodegenLoader extends AssetLoader {
         "male": "无",
         "other": "无"
       },
+      "offline": "离线",
       "offline_mode": "离线模式",
       "ok": "确定",
+      "online": "在线",
       "open": {
         "all": "全部打开",
         "directory": "打开目录",
@@ -276,6 +280,8 @@ class CoreCodegenLoader extends AssetLoader {
       "stop": "停止",
       "submit": "提交",
       "success": "成功",
+      "sync": "同步",
+      "synced": "已同步",
       "template": "模板",
       "time": {
         "elapsed": "已过时间",
@@ -296,6 +302,8 @@ class CoreCodegenLoader extends AssetLoader {
       "uninstall": "卸载",
       "unlocked": "已解锁",
       "unmute": "取消静音",
+      "unsync": "取消同步",
+      "unsynced": "未同步",
       "update": "更新",
       "upgrade": {
         "now": "现在升级",
@@ -330,6 +338,7 @@ class CoreCodegenLoader extends AssetLoader {
         "completed": "操作已完成。"
       },
       "bugs_fixes_improvements": "小错误修复和改进。",
+      "checking_connection": "正在检查连接...",
       "congratulations": "恭喜！",
       "copied": "已复制！",
       "copied_to_clipboard": "已复制到剪贴板！",
@@ -447,6 +456,7 @@ static const Map<String,dynamic> ja = {
       "completed": "完了した",
       "confirm": "確認",
       "confirmation": "確認",
+      "connected": "接続済み",
       "continue": "続ける",
       "copy": "コピー",
       "country": "国",
@@ -463,6 +473,7 @@ static const Map<String,dynamic> ja = {
       "disabled": "無効",
       "disapprove": "不承認",
       "disapproved": "不承認",
+      "disconnected": "未接続",
       "display": "表示",
       "done": "完了",
       "download": "ダウンロード",
@@ -563,8 +574,10 @@ static const Map<String,dynamic> ja = {
         "male": "なし",
         "other": "なし"
       },
+      "offline": "オフライン",
       "offline_mode": "オフラインモード",
       "ok": "OK",
+      "online": "オンライン",
       "open": {
         "all": "すべて開く",
         "directory": "ディレクトリを開く",
@@ -665,6 +678,8 @@ static const Map<String,dynamic> ja = {
       "stop": "停止",
       "submit": "送信",
       "success": "成功",
+      "sync": "同期",
+      "synced": "同期済み",
       "template": "テンプレート",
       "time": {
         "elapsed": "経過時間",
@@ -685,6 +700,8 @@ static const Map<String,dynamic> ja = {
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
       "unmute": "ミュート解除",
+      "unsync": "同期解除",
+      "unsynced": "非同期",
       "update": "更新",
       "upgrade": {
         "now": "今すぐアップグレード",
@@ -719,6 +736,7 @@ static const Map<String,dynamic> ja = {
         "completed": "アクションが完了しました。"
       },
       "bugs_fixes_improvements": "マイナーなバグ修正と改善。",
+      "checking_connection": "接続確認中...",
       "congratulations": "おめでとうございます！",
       "copied": "コピーしました！",
       "copied_to_clipboard": "クリップボードにコピーしました！",
@@ -836,6 +854,7 @@ static const Map<String,dynamic> de = {
       "completed": "Abgeschlossen",
       "confirm": "Bestätigen",
       "confirmation": "Bestätigung",
+      "connected": "Verbunden",
       "continue": "Weiter",
       "copy": "Kopieren",
       "country": "Land",
@@ -852,6 +871,7 @@ static const Map<String,dynamic> de = {
       "disabled": "Deaktiviert",
       "disapprove": "Missbilligen",
       "disapproved": "Missbilligt",
+      "disconnected": "Getrennt",
       "display": "Anzeige",
       "done": "Fertig",
       "download": "Herunterladen",
@@ -952,8 +972,10 @@ static const Map<String,dynamic> de = {
         "male": "Keine",
         "other": "Keine"
       },
+      "offline": "Offline",
       "offline_mode": "Offline-Modus",
       "ok": "OK",
+      "online": "Online",
       "open": {
         "all": "Alle öffnen",
         "directory": "Verzeichnis öffnen",
@@ -1054,6 +1076,8 @@ static const Map<String,dynamic> de = {
       "stop": "Stop",
       "submit": "Senden",
       "success": "Erfolg",
+      "sync": "Synchronisieren",
+      "synced": "Synchronisiert",
       "template": "Vorlage",
       "time": {
         "elapsed": "Verstrichene Zeit",
@@ -1074,6 +1098,8 @@ static const Map<String,dynamic> de = {
       "uninstall": "Deinstallieren",
       "unlocked": "Entsperrt",
       "unmute": "Ton an",
+      "unsync": "Desynchronisieren",
+      "unsynced": "Nicht synchronisiert",
       "update": "Aktualisieren",
       "upgrade": {
         "now": "Jetzt aktualisieren",
@@ -1108,6 +1134,7 @@ static const Map<String,dynamic> de = {
         "completed": "Aktion abgeschlossen."
       },
       "bugs_fixes_improvements": "Kleinere Fehlerbehebungen und Verbesserungen.",
+      "checking_connection": "Verbindungsprüfung...",
       "congratulations": "Herzlichen Glückwunsch!",
       "copied": "Kopiert!",
       "copied_to_clipboard": "In die Zwischenablage kopiert!",
@@ -1225,6 +1252,7 @@ static const Map<String,dynamic> ru = {
       "completed": "Выполнено",
       "confirm": "Подтвердить",
       "confirmation": "Подтверждение",
+      "connected": "Подключено",
       "continue": "Продолжить",
       "copy": "Копировать",
       "country": "Страна",
@@ -1241,6 +1269,7 @@ static const Map<String,dynamic> ru = {
       "disabled": "Выключено",
       "disapprove": "Отклонить",
       "disapproved": "Не одобрено",
+      "disconnected": "Отключено",
       "display": "Отображение",
       "done": "Готово",
       "download": "Скачать",
@@ -1341,8 +1370,10 @@ static const Map<String,dynamic> ru = {
         "male": "Нет",
         "other": "Нет"
       },
+      "offline": "Оффлайн",
       "offline_mode": "Режим офлайн",
       "ok": "OK",
+      "online": "Онлайн",
       "open": {
         "all": "Открыть все",
         "directory": "Открыть каталог",
@@ -1443,6 +1474,8 @@ static const Map<String,dynamic> ru = {
       "stop": "Стоп",
       "submit": "Отправить",
       "success": "Успех",
+      "sync": "Синхронизировать",
+      "synced": "Синхронизировано",
       "template": "Шаблон",
       "time": {
         "elapsed": "Прошло времени",
@@ -1463,6 +1496,8 @@ static const Map<String,dynamic> ru = {
       "uninstall": "Удалить",
       "unlocked": "Разблокировано",
       "unmute": "Включить звук",
+      "unsync": "Отменить синхронизацию",
+      "unsynced": "Не синхронизировано",
       "update": "Обновить",
       "upgrade": {
         "now": "Обновить сейчас",
@@ -1497,6 +1532,7 @@ static const Map<String,dynamic> ru = {
         "completed": "Действие завершено."
       },
       "bugs_fixes_improvements": "Исправления небольших ошибок и улучшения.",
+      "checking_connection": "Проверка соединения...",
       "congratulations": "Поздравляем!",
       "copied": "Скопировано!",
       "copied_to_clipboard": "Скопировано в буфер обмена!",
@@ -1614,6 +1650,7 @@ static const Map<String,dynamic> pt = {
       "completed": "Concluído",
       "confirm": "Confirmar",
       "confirmation": "Confirmação",
+      "connected": "Conectado",
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",
@@ -1630,6 +1667,7 @@ static const Map<String,dynamic> pt = {
       "disabled": "Desabilitado",
       "disapprove": "Desaprovar",
       "disapproved": "Desaprovado",
+      "disconnected": "Desconectado",
       "display": "Exibição",
       "done": "Concluído",
       "download": "Baixar",
@@ -1730,8 +1768,10 @@ static const Map<String,dynamic> pt = {
         "male": "Nenhum",
         "other": "Nenhum"
       },
+      "offline": "Offline",
       "offline_mode": "Modo offline",
       "ok": "OK",
+      "online": "Online",
       "open": {
         "all": "Abrir Todos",
         "directory": "Abrir diretório",
@@ -1832,6 +1872,8 @@ static const Map<String,dynamic> pt = {
       "stop": "Parar",
       "submit": "Enviar",
       "success": "Sucesso",
+      "sync": "Sincronizar",
+      "synced": "Sincronizado",
       "template": "Modelo",
       "time": {
         "elapsed": "Tempo decorrido",
@@ -1852,6 +1894,8 @@ static const Map<String,dynamic> pt = {
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "unmute": "Ativar som",
+      "unsync": "Dessincronizar",
+      "unsynced": "Não sincronizado",
       "update": "Atualizar",
       "upgrade": {
         "now": "Atualizar agora",
@@ -1886,6 +1930,7 @@ static const Map<String,dynamic> pt = {
         "completed": "Ação concluída."
       },
       "bugs_fixes_improvements": "Correções de bugs menores e melhorias.",
+      "checking_connection": "Verificando conexão...",
       "congratulations": "Parabéns!",
       "copied": "Copiado!",
       "copied_to_clipboard": "Copiado para a área de transferência!",
@@ -2003,6 +2048,7 @@ static const Map<String,dynamic> en = {
       "completed": "Completed",
       "confirm": "Confirm",
       "confirmation": "Confirmation",
+      "connected": "Connected",
       "continue": "Continue",
       "copy": "Copy",
       "country": "Country",
@@ -2019,6 +2065,7 @@ static const Map<String,dynamic> en = {
       "disabled": "Disabled",
       "disapprove": "Disapprove",
       "disapproved": "Disapproved",
+      "disconnected": "Disconnected",
       "display": "Display",
       "done": "Done",
       "download": "Download",
@@ -2119,8 +2166,10 @@ static const Map<String,dynamic> en = {
         "male": "None",
         "other": "None"
       },
+      "offline": "Offline",
       "offline_mode": "Offline Mode",
       "ok": "OK",
+      "online": "Online",
       "open": {
         "all": "Open All",
         "directory": "Open Directory",
@@ -2221,6 +2270,8 @@ static const Map<String,dynamic> en = {
       "stop": "Stop",
       "submit": "Submit",
       "success": "Success",
+      "sync": "Sync",
+      "synced": "Synced",
       "template": "template",
       "time": {
         "elapsed": "Time Elapsed",
@@ -2241,6 +2292,8 @@ static const Map<String,dynamic> en = {
       "uninstall": "Uninstall",
       "unlocked": "Unlocked",
       "unmute": "Unmute",
+      "unsync": "Unsync",
+      "unsynced": "Unsynced",
       "update": "Update",
       "upgrade": {
         "now": "Upgrade Now",
@@ -2275,6 +2328,7 @@ static const Map<String,dynamic> en = {
         "completed": "Action completed."
       },
       "bugs_fixes_improvements": "Minor bug fixes and improvements.",
+      "checking_connection": "Checking connection...",
       "congratulations": "Congratulations!",
       "copied": "Copied!",
       "copied_to_clipboard": "Copied to clipboard!",
@@ -2392,6 +2446,7 @@ static const Map<String,dynamic> it = {
       "completed": "Completato",
       "confirm": "Conferma",
       "confirmation": "Conferma",
+      "connected": "Connesso",
       "continue": "Continua",
       "copy": "Copia",
       "country": "Paese",
@@ -2408,6 +2463,7 @@ static const Map<String,dynamic> it = {
       "disabled": "Disabilitato",
       "disapprove": "Disapprova",
       "disapproved": "Disapprovato",
+      "disconnected": "Disconnesso",
       "display": "Visualizza",
       "done": "Fatto",
       "download": "Scarica",
@@ -2508,8 +2564,10 @@ static const Map<String,dynamic> it = {
         "male": "Nessuno",
         "other": "Nessuno"
       },
+      "offline": "Offline",
       "offline_mode": "Modalità offline",
       "ok": "OK",
+      "online": "Online",
       "open": {
         "all": "Apri tutto",
         "directory": "Apri directory",
@@ -2610,6 +2668,8 @@ static const Map<String,dynamic> it = {
       "stop": "Stop",
       "submit": "Invia",
       "success": "Successo",
+      "sync": "Sincronizza",
+      "synced": "Sincronizzato",
       "template": "Modello",
       "time": {
         "elapsed": "Tempo trascorso",
@@ -2630,6 +2690,8 @@ static const Map<String,dynamic> it = {
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
       "unmute": "Ripristina audio",
+      "unsync": "Desincronizza",
+      "unsynced": "Non sincronizzato",
       "update": "Aggiornare",
       "upgrade": {
         "now": "Aggiorna ora",
@@ -2664,6 +2726,7 @@ static const Map<String,dynamic> it = {
         "completed": "Azione completata."
       },
       "bugs_fixes_improvements": "Correzioni di bug minori e miglioramenti.",
+      "checking_connection": "Controllo connessione...",
       "congratulations": "Congratulazioni!",
       "copied": "Copiato!",
       "copied_to_clipboard": "Copiato negli appunti!",
@@ -2781,6 +2844,7 @@ static const Map<String,dynamic> fr = {
       "completed": "Terminé",
       "confirm": "Confirmer",
       "confirmation": "Confirmation",
+      "connected": "Connecté",
       "continue": "Continuer",
       "copy": "Copier",
       "country": "Pays",
@@ -2797,6 +2861,7 @@ static const Map<String,dynamic> fr = {
       "disabled": "Désactivé",
       "disapprove": "Désapprouver",
       "disapproved": "Désapprouvé",
+      "disconnected": "Déconnecté",
       "display": "Affichage",
       "done": "Terminé",
       "download": "Télécharger",
@@ -2897,8 +2962,10 @@ static const Map<String,dynamic> fr = {
         "male": "Aucun",
         "other": "Aucun"
       },
+      "offline": "Hors ligne",
       "offline_mode": "Mode hors ligne",
       "ok": "OK",
+      "online": "En ligne",
       "open": {
         "all": "Tout ouvrir",
         "directory": "Ouvrir un répertoire",
@@ -2999,6 +3066,8 @@ static const Map<String,dynamic> fr = {
       "stop": "Arrêter",
       "submit": "Envoyer",
       "success": "Succès",
+      "sync": "Synchroniser",
+      "synced": "Synchronisé",
       "template": "Modèle",
       "time": {
         "elapsed": "Temps écoulé",
@@ -3019,6 +3088,8 @@ static const Map<String,dynamic> fr = {
       "uninstall": "Désinstaller",
       "unlocked": "Débloqué",
       "unmute": "Réactiver le son",
+      "unsync": "Désynchroniser",
+      "unsynced": "Non synchronisé",
       "update": "Mettre à jour",
       "upgrade": {
         "now": "Mettre à jour maintenant",
@@ -3053,6 +3124,7 @@ static const Map<String,dynamic> fr = {
         "completed": "Action terminée."
       },
       "bugs_fixes_improvements": "Correction de bugs mineurs et améliorations.",
+      "checking_connection": "Vérification de la connexion...",
       "congratulations": "Félicitations !",
       "copied": "Copié !",
       "copied_to_clipboard": "Copié dans le presse-papiers !",
@@ -3170,6 +3242,7 @@ static const Map<String,dynamic> es = {
       "completed": "Finalizado",
       "confirm": "Confirmar",
       "confirmation": "Confirmación",
+      "connected": "Conectado",
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",
@@ -3186,6 +3259,7 @@ static const Map<String,dynamic> es = {
       "disabled": "Deshabilitado",
       "disapprove": "Desaprobar",
       "disapproved": "Desaprobado",
+      "disconnected": "Desconectado",
       "display": "Mostrar",
       "done": "Hecho",
       "download": "Descargar",
@@ -3286,8 +3360,10 @@ static const Map<String,dynamic> es = {
         "male": "Ninguno",
         "other": "Ninguno"
       },
+      "offline": "Sin conexión",
       "offline_mode": "Modo sin conexión",
       "ok": "OK",
+      "online": "En línea",
       "open": {
         "all": "Abrir todo",
         "directory": "Abrir directorio",
@@ -3388,6 +3464,8 @@ static const Map<String,dynamic> es = {
       "stop": "Detener",
       "submit": "Enviar",
       "success": "Éxito",
+      "sync": "Sincronizar",
+      "synced": "Sincronizado",
       "template": "Plantilla",
       "time": {
         "elapsed": "Tiempo transcurrido",
@@ -3408,6 +3486,8 @@ static const Map<String,dynamic> es = {
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
       "unmute": "Activar sonido",
+      "unsync": "Desincronizar",
+      "unsynced": "No sincronizado",
       "update": "Actualizar",
       "upgrade": {
         "now": "Actualizar ahora",
@@ -3442,6 +3522,7 @@ static const Map<String,dynamic> es = {
         "completed": "Acción completada."
       },
       "bugs_fixes_improvements": "Correcciones menores y mejoras.",
+      "checking_connection": "Comprobando conexión...",
       "congratulations": "¡Felicidades!",
       "copied": "¡Copiado!",
       "copied_to_clipboard": "¡Copiado al portapapeles!",

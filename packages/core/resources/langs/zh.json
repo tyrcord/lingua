@@ -45,6 +45,7 @@
       "completed": "已完成",
       "confirm": "确认",
       "confirmation": "确认",
+      "connected": "已连接",
       "continue": "继续",
       "copy": "复制",
       "country": "国家",
@@ -61,6 +62,7 @@
       "disabled": "已禁用",
       "disapprove": "不批准",
       "disapproved": "未批准",
+      "disconnected": "已断开",
       "display": "显示",
       "done": "完成",
       "download": "下载",
@@ -161,8 +163,10 @@
         "male": "无",
         "other": "无"
       },
+      "offline": "离线",
       "offline_mode": "离线模式",
       "ok": "确定",
+      "online": "在线",
       "open": {
         "all": "全部打开",
         "directory": "打开目录",
@@ -263,6 +267,8 @@
       "stop": "停止",
       "submit": "提交",
       "success": "成功",
+      "sync": "同步",
+      "synced": "已同步",
       "template": "模板",
       "time": {
         "elapsed": "已过时间",
@@ -283,6 +289,8 @@
       "uninstall": "卸载",
       "unlocked": "已解锁",
       "unmute": "取消静音",
+      "unsync": "取消同步",
+      "unsynced": "未同步",
       "update": "更新",
       "upgrade": {
         "now": "现在升级",
@@ -317,6 +325,7 @@
         "completed": "操作已完成。"
       },
       "bugs_fixes_improvements": "小错误修复和改进。",
+      "checking_connection": "正在检查连接...",
       "congratulations": "恭喜！",
       "copied": "已复制！",
       "copied_to_clipboard": "已复制到剪贴板！",

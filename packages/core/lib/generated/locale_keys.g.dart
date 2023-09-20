@@ -37,6 +37,7 @@ abstract class CoreLocaleKeys {
   static const core_label_completed = 'core.label.completed';
   static const core_label_confirm = 'core.label.confirm';
   static const core_label_confirmation = 'core.label.confirmation';
+  static const core_label_connected = 'core.label.connected';
   static const core_label_continue = 'core.label.continue';
   static const core_label_copy = 'core.label.copy';
   static const core_label_country = 'core.label.country';
@@ -52,6 +53,7 @@ abstract class CoreLocaleKeys {
   static const core_label_disabled = 'core.label.disabled';
   static const core_label_disapprove = 'core.label.disapprove';
   static const core_label_disapproved = 'core.label.disapproved';
+  static const core_label_disconnected = 'core.label.disconnected';
   static const core_label_display = 'core.label.display';
   static const core_label_done = 'core.label.done';
   static const core_label_download = 'core.label.download';
@@ -140,8 +142,10 @@ abstract class CoreLocaleKeys {
   static const core_label_no = 'core.label.no';
   static const core_label_non_commercial = 'core.label.non_commercial';
   static const core_label_none = 'core.label.none';
+  static const core_label_offline = 'core.label.offline';
   static const core_label_offline_mode = 'core.label.offline_mode';
   static const core_label_ok = 'core.label.ok';
+  static const core_label_online = 'core.label.online';
   static const core_label_open_all = 'core.label.open.all';
   static const core_label_open_directory = 'core.label.open.directory';
   static const core_label_open_file = 'core.label.open.file';
@@ -230,6 +234,8 @@ abstract class CoreLocaleKeys {
   static const core_label_stop = 'core.label.stop';
   static const core_label_submit = 'core.label.submit';
   static const core_label_success = 'core.label.success';
+  static const core_label_sync = 'core.label.sync';
+  static const core_label_synced = 'core.label.synced';
   static const core_label_template = 'core.label.template';
   static const core_label_time_elapsed = 'core.label.time.elapsed';
   static const core_label_time_remaining = 'core.label.time.remaining';
@@ -247,6 +253,8 @@ abstract class CoreLocaleKeys {
   static const core_label_uninstall = 'core.label.uninstall';
   static const core_label_unlocked = 'core.label.unlocked';
   static const core_label_unmute = 'core.label.unmute';
+  static const core_label_unsync = 'core.label.unsync';
+  static const core_label_unsynced = 'core.label.unsynced';
   static const core_label_update = 'core.label.update';
   static const core_label_upgrade_now = 'core.label.upgrade.now';
   static const core_label_upgrade_text = 'core.label.upgrade.text';
@@ -276,6 +284,7 @@ abstract class CoreLocaleKeys {
   static const core_message_action_completed = 'core.message.action.completed';
   static const core_message_action = 'core.message.action';
   static const core_message_bugs_fixes_improvements = 'core.message.bugs_fixes_improvements';
+  static const core_message_checking_connection = 'core.message.checking_connection';
   static const core_message_congratulations = 'core.message.congratulations';
   static const core_message_copied = 'core.message.copied';
   static const core_message_copied_to_clipboard = 'core.message.copied_to_clipboard';

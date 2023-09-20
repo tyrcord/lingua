@@ -45,6 +45,7 @@
       "completed": "Completato",
       "confirm": "Conferma",
       "confirmation": "Conferma",
+      "connected": "Connesso",
       "continue": "Continua",
       "copy": "Copia",
       "country": "Paese",
@@ -61,6 +62,7 @@
       "disabled": "Disabilitato",
       "disapprove": "Disapprova",
       "disapproved": "Disapprovato",
+      "disconnected": "Disconnesso",
       "display": "Visualizza",
       "done": "Fatto",
       "download": "Scarica",
@@ -161,8 +163,10 @@
         "male": "Nessuno",
         "other": "Nessuno"
       },
+      "offline": "Offline",
       "offline_mode": "Modalità offline",
       "ok": "OK",
+      "online": "Online",
       "open": {
         "all": "Apri tutto",
         "directory": "Apri directory",
@@ -263,6 +267,8 @@
       "stop": "Stop",
       "submit": "Invia",
       "success": "Successo",
+      "sync": "Sincronizza",
+      "synced": "Sincronizzato",
       "template": "Modello",
       "time": {
         "elapsed": "Tempo trascorso",
@@ -283,6 +289,8 @@
       "uninstall": "Disinstallare",
       "unlocked": "Sbloccato",
       "unmute": "Ripristina audio",
+      "unsync": "Desincronizza",
+      "unsynced": "Non sincronizzato",
       "update": "Aggiornare",
       "upgrade": {
         "now": "Aggiorna ora",
@@ -317,6 +325,7 @@
         "completed": "Azione completata."
       },
       "bugs_fixes_improvements": "Correzioni di bug minori e miglioramenti.",
+      "checking_connection": "Controllo connessione...",
       "congratulations": "Congratulazioni!",
       "copied": "Copiato!",
       "copied_to_clipboard": "Copiato negli appunti!",

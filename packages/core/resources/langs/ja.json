@@ -45,6 +45,7 @@
       "completed": "完了した",
       "confirm": "確認",
       "confirmation": "確認",
+      "connected": "接続済み",
       "continue": "続ける",
       "copy": "コピー",
       "country": "国",
@@ -61,6 +62,7 @@
       "disabled": "無効",
       "disapprove": "不承認",
       "disapproved": "不承認",
+      "disconnected": "未接続",
       "display": "表示",
       "done": "完了",
       "download": "ダウンロード",
@@ -161,8 +163,10 @@
         "male": "なし",
         "other": "なし"
       },
+      "offline": "オフライン",
       "offline_mode": "オフラインモード",
       "ok": "OK",
+      "online": "オンライン",
       "open": {
         "all": "すべて開く",
         "directory": "ディレクトリを開く",
@@ -263,6 +267,8 @@
       "stop": "停止",
       "submit": "送信",
       "success": "成功",
+      "sync": "同期",
+      "synced": "同期済み",
       "template": "テンプレート",
       "time": {
         "elapsed": "経過時間",
@@ -283,6 +289,8 @@
       "uninstall": "アンインストール",
       "unlocked": "ロック解除",
       "unmute": "ミュート解除",
+      "unsync": "同期解除",
+      "unsynced": "非同期",
       "update": "更新",
       "upgrade": {
         "now": "今すぐアップグレード",
@@ -317,6 +325,7 @@
         "completed": "アクションが完了しました。"
       },
       "bugs_fixes_improvements": "マイナーなバグ修正と改善。",
+      "checking_connection": "接続確認中...",
       "congratulations": "おめでとうございます！",
       "copied": "コピーしました！",
       "copied_to_clipboard": "クリップボードにコピーしました！",
