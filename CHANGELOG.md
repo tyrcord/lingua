@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-09-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_core` - `v0.0.26`](#lingua_core---v0026)
+ - [`lingua_finance_instrument` - `v0.0.4`](#lingua_finance_instrument---v004)
+ - [`lingua_number` - `v0.0.7`](#lingua_number---v007)
+
+---
+
+#### `lingua_core` - `v0.0.26`
+
+ - **FEAT**: update localization.
+
+#### `lingua_finance_instrument` - `v0.0.4`
+
+ - **FEAT**: update localization.
+
+#### `lingua_number` - `v0.0.7`
+
+ - **FEAT**: update localization.
+
+
 ## 2023-09-20
 
 ### Changes
