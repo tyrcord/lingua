@@ -21,7 +21,9 @@
       "at": "場所",
       "auto_save": "自動保存",
       "back": "戻る",
+      "badge": "バッジ",
       "behavior": "動作",
+      "button": "ボタン",
       "buy": "購入",
       "cancel": "キャンセル",
       "canceled": "キャンセル",
@@ -135,6 +137,7 @@
       "menu": "メニュー",
       "method": "メソッド",
       "minors": "未成年",
+      "missing_rights": "権限がありません",
       "monthly": "毎月",
       "mute": "ミュート",
       "name": "名前",
@@ -157,6 +160,8 @@
         "track": "次のトラック"
       },
       "no": "いいえ",
+      "no_elements": "要素なし",
+      "no_items": "アイテムなし",
       "non_commercial": "非商業的",
       "none": {
         "female": "なし",
@@ -190,6 +195,7 @@
         "timed_out": "操作がタイムアウトしました"
       },
       "optional": "任意",
+      "panel": "パネル",
       "paste": "ペースト",
       "pause": "一時停止",
       "paused": "一時停止",
@@ -233,6 +239,8 @@
       "resumed": "再開",
       "retry": "再試行",
       "rewind": "巻き戻し",
+      "rights_denied": "権限拒否",
+      "rights_granted": "権限付与",
       "save": {
         "all": "すべて保存",
         "and": {

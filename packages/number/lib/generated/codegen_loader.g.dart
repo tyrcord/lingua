@@ -15,6 +15,7 @@ class NumberCodegenLoader extends AssetLoader {
   "number": {
     "label": {
       "amount": "金额",
+      "percent": "百分",
       "percentage": "百分比"
     },
     "ordinal": {
@@ -47,7 +48,8 @@ static const Map<String,dynamic> ja = {
   "number": {
     "label": {
       "amount": "金額",
-      "percentage": "割合"
+      "percent": "パーセント",
+      "percentage": "パーセンテージ"
     },
     "ordinal": {
       "short": {
@@ -79,6 +81,7 @@ static const Map<String,dynamic> de = {
   "number": {
     "label": {
       "amount": "Betrag",
+      "percent": "Prozent",
       "percentage": "Prozentsatz"
     },
     "ordinal": {
@@ -111,6 +114,7 @@ static const Map<String,dynamic> ru = {
   "number": {
     "label": {
       "amount": "Сумма",
+      "percent": "Проценты",
       "percentage": "Процент"
     },
     "ordinal": {
@@ -142,7 +146,8 @@ static const Map<String,dynamic> ru = {
 static const Map<String,dynamic> pt = {
   "number": {
     "label": {
-      "amount": "Valor",
+      "amount": "Montante",
+      "percent": "Por cento",
       "percentage": "Percentagem"
     },
     "ordinal": {
@@ -175,6 +180,7 @@ static const Map<String,dynamic> en = {
   "number": {
     "label": {
       "amount": "Amount",
+      "percent": "Percent",
       "percentage": "Percentage"
     },
     "ordinal": {
@@ -207,6 +213,7 @@ static const Map<String,dynamic> it = {
   "number": {
     "label": {
       "amount": "Importo",
+      "percent": "Per cento",
       "percentage": "Percentuale"
     },
     "ordinal": {
@@ -239,6 +246,7 @@ static const Map<String,dynamic> fr = {
   "number": {
     "label": {
       "amount": "Montant",
+      "percent": "Pour cent",
       "percentage": "Pourcentage"
     },
     "ordinal": {
@@ -270,7 +278,8 @@ static const Map<String,dynamic> fr = {
 static const Map<String,dynamic> es = {
   "number": {
     "label": {
-      "amount": "Monto",
+      "amount": "Cantidad",
+      "percent": "Por ciento",
       "percentage": "Porcentaje"
     },
     "ordinal": {

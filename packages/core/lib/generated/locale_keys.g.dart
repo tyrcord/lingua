@@ -16,7 +16,9 @@ abstract class CoreLocaleKeys {
   static const core_label_at = 'core.label.at';
   static const core_label_auto_save = 'core.label.auto_save';
   static const core_label_back = 'core.label.back';
+  static const core_label_badge = 'core.label.badge';
   static const core_label_behavior = 'core.label.behavior';
+  static const core_label_button = 'core.label.button';
   static const core_label_buy = 'core.label.buy';
   static const core_label_cancel = 'core.label.cancel';
   static const core_label_canceled = 'core.label.canceled';
@@ -120,6 +122,7 @@ abstract class CoreLocaleKeys {
   static const core_label_menu = 'core.label.menu';
   static const core_label_method = 'core.label.method';
   static const core_label_minors = 'core.label.minors';
+  static const core_label_missing_rights = 'core.label.missing_rights';
   static const core_label_monthly = 'core.label.monthly';
   static const core_label_mute = 'core.label.mute';
   static const core_label_name = 'core.label.name';
@@ -140,6 +143,8 @@ abstract class CoreLocaleKeys {
   static const core_label_next_track = 'core.label.next.track';
   static const core_label_next = 'core.label.next';
   static const core_label_no = 'core.label.no';
+  static const core_label_no_elements = 'core.label.no_elements';
+  static const core_label_no_items = 'core.label.no_items';
   static const core_label_non_commercial = 'core.label.non_commercial';
   static const core_label_none = 'core.label.none';
   static const core_label_offline = 'core.label.offline';
@@ -166,6 +171,7 @@ abstract class CoreLocaleKeys {
   static const core_label_operation_timed_out = 'core.label.operation.timed_out';
   static const core_label_operation = 'core.label.operation';
   static const core_label_optional = 'core.label.optional';
+  static const core_label_panel = 'core.label.panel';
   static const core_label_paste = 'core.label.paste';
   static const core_label_pause = 'core.label.pause';
   static const core_label_paused = 'core.label.paused';
@@ -205,6 +211,8 @@ abstract class CoreLocaleKeys {
   static const core_label_resumed = 'core.label.resumed';
   static const core_label_retry = 'core.label.retry';
   static const core_label_rewind = 'core.label.rewind';
+  static const core_label_rights_denied = 'core.label.rights_denied';
+  static const core_label_rights_granted = 'core.label.rights_granted';
   static const core_label_save_all = 'core.label.save.all';
   static const core_label_save_and_close = 'core.label.save.and.close';
   static const core_label_save_and_exit = 'core.label.save.and.exit';

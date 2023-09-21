@@ -2,6 +2,7 @@
   "number": {
     "label": {
       "amount": "Importo",
+      "percent": "Per cento",
       "percentage": "Percentuale"
     },
     "ordinal": {

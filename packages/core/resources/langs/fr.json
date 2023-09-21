@@ -21,7 +21,9 @@
       "at": "À",
       "auto_save": "Sauvegarde automatique",
       "back": "Retour",
+      "badge": "Badge",
       "behavior": "Comportement",
+      "button": "Bouton",
       "buy": "Acheter",
       "cancel": "Annuler",
       "canceled": "Annulé",
@@ -135,6 +137,7 @@
       "menu": "Menu",
       "method": "Méthode",
       "minors": "Mineures",
+      "missing_rights": "Droits manquants",
       "monthly": "Mensuellement",
       "mute": "Muet",
       "name": "Nom",
@@ -157,6 +160,8 @@
         "track": "Piste suivante"
       },
       "no": "Non",
+      "no_elements": "Aucun élément",
+      "no_items": "Aucun article",
       "non_commercial": "Non commercial",
       "none": {
         "female": "Aucune",
@@ -190,6 +195,7 @@
         "timed_out": "Opération expirée"
       },
       "optional": "Optionnel",
+      "panel": "Panneau",
       "paste": "Coller",
       "pause": "Pause",
       "paused": "En pause",
@@ -233,6 +239,8 @@
       "resumed": "Repris",
       "retry": "Réessayer",
       "rewind": "Reculer",
+      "rights_denied": "Droits refusés",
+      "rights_granted": "Droits accordés",
       "save": {
         "all": "Tout enregistrer",
         "and": {

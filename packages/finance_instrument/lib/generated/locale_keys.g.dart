@@ -77,6 +77,8 @@ abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_zambian_kwacha = 'instrument.label.zambian_kwacha';
   static const instrument_label_zimbabwe_dollar = 'instrument.label.zimbabwe_dollar';
   static const instrument_label = 'instrument.label';
+  static const instrument_message_search_instrument = 'instrument.message.search_instrument';
+  static const instrument_message = 'instrument.message';
   static const instrument_select_instrument = 'instrument.select.instrument';
   static const instrument_select = 'instrument.select';
   static const instrument = 'instrument';

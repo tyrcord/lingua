@@ -2,6 +2,7 @@
   "number": {
     "label": {
       "amount": "金额",
+      "percent": "百分",
       "percentage": "百分比"
     },
     "ordinal": {

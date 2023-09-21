@@ -90,6 +90,9 @@ class FinanceInstrumentCodegenLoader extends AssetLoader {
       "zambian_kwacha": "赞比亚克瓦查",
       "zimbabwe_dollar": "津巴布韦元"
     },
+    "message": {
+      "search_instrument": "搜索金融工具"
+    },
     "select": {
       "instrument": "请选择金融工具"
     }
@@ -173,6 +176,9 @@ static const Map<String,dynamic> ja = {
       "vietnamese_dong": "ベトナムドン",
       "zambian_kwacha": "ザンビアクワチャ",
       "zimbabwe_dollar": "ジンバブエドル"
+    },
+    "message": {
+      "search_instrument": "金融商品を検索してください"
     },
     "select": {
       "instrument": "金融商品を選択する"
@@ -258,6 +264,9 @@ static const Map<String,dynamic> de = {
       "zambian_kwacha": "Sambischer Kwacha",
       "zimbabwe_dollar": "Simbabwischer Dollar"
     },
+    "message": {
+      "search_instrument": "Suchen Sie nach einem Finanzinstrument"
+    },
     "select": {
       "instrument": "Finanzinstrument auswählen"
     }
@@ -341,6 +350,9 @@ static const Map<String,dynamic> ru = {
       "vietnamese_dong": "Вьетнамский донг",
       "zambian_kwacha": "Замбийская квача",
       "zimbabwe_dollar": "Доллар Зимбабве"
+    },
+    "message": {
+      "search_instrument": "Поиск финансового инструмента"
     },
     "select": {
       "instrument": "Выберите финансовый инструмент"
@@ -426,6 +438,9 @@ static const Map<String,dynamic> pt = {
       "zambian_kwacha": "Kwacha zambiano",
       "zimbabwe_dollar": "Dólar do Zimbábue"
     },
+    "message": {
+      "search_instrument": "Procure por um instrumento financeiro"
+    },
     "select": {
       "instrument": "Selecione um instrumento financeiro"
     }
@@ -509,6 +524,9 @@ static const Map<String,dynamic> en = {
       "vietnamese_dong": "Vietnamese đồng",
       "zambian_kwacha": "Zambian kwacha",
       "zimbabwe_dollar": "Zimbabwean dollar"
+    },
+    "message": {
+      "search_instrument": "Search for a financial instrument"
     },
     "select": {
       "instrument": "Select a financial instrument"
@@ -594,6 +612,9 @@ static const Map<String,dynamic> it = {
       "zambian_kwacha": "Kwacha zambiano",
       "zimbabwe_dollar": "Dollaro dello Zimbabwe"
     },
+    "message": {
+      "search_instrument": "Cerca uno strumento finanziario"
+    },
     "select": {
       "instrument": "Seleziona uno strumento finanziario"
     }
@@ -678,6 +699,9 @@ static const Map<String,dynamic> fr = {
       "zambian_kwacha": "Kwacha zambien",
       "zimbabwe_dollar": "Dollar zimbabwéen"
     },
+    "message": {
+      "search_instrument": "Recherchez un instrument financier"
+    },
     "select": {
       "instrument": "Sélectionnez un instrument financier"
     }
@@ -761,6 +785,9 @@ static const Map<String,dynamic> es = {
       "vietnamese_dong": "Dong vietnamita",
       "zambian_kwacha": "Kwacha zambiano",
       "zimbabwe_dollar": "Dólar zimbabuense"
+    },
+    "message": {
+      "search_instrument": "Busque un instrumento financiero"
     },
     "select": {
       "instrument": "Seleccione un instrumento financiero"

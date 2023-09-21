@@ -21,7 +21,9 @@
       "at": "在",
       "auto_save": "自动保存",
       "back": "返回",
+      "badge": "徽章",
       "behavior": "行为",
+      "button": "按钮",
       "buy": "购买",
       "cancel": "取消",
       "canceled": "已取消",
@@ -135,6 +137,7 @@
       "menu": "菜单",
       "method": "方法",
       "minors": "未成年人",
+      "missing_rights": "缺少权利",
       "monthly": "每月",
       "mute": "静音",
       "name": "名称",
@@ -157,6 +160,8 @@
         "track": "下一首"
       },
       "no": "否",
+      "no_elements": "没有元素",
+      "no_items": "没有商品",
       "non_commercial": "非商业",
       "none": {
         "female": "无",
@@ -190,6 +195,7 @@
         "timed_out": "操作超时"
       },
       "optional": "可选",
+      "panel": "面板",
       "paste": "粘贴",
       "pause": "暂停",
       "paused": "暂停",
@@ -233,6 +239,8 @@
       "resumed": "已恢复",
       "retry": "重试",
       "rewind": "倒带",
+      "rights_denied": "权利被拒绝",
+      "rights_granted": "权利已授予",
       "save": {
         "all": "全部保存",
         "and": {

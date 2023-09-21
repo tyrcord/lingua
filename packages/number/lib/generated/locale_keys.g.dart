@@ -2,6 +2,7 @@
 
 abstract class NumberLocaleKeys {
   static const number_label_amount = 'number.label.amount';
+  static const number_label_percent = 'number.label.percent';
   static const number_label_percentage = 'number.label.percentage';
   static const number_label = 'number.label';
   static const number_ordinal_short_first = 'number.ordinal.short.first';

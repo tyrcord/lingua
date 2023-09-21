@@ -77,6 +77,9 @@
       "zambian_kwacha": "Kwacha zambiano",
       "zimbabwe_dollar": "Dollaro dello Zimbabwe"
     },
+    "message": {
+      "search_instrument": "Cerca uno strumento finanziario"
+    },
     "select": {
       "instrument": "Seleziona uno strumento finanziario"
     }

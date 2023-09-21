@@ -34,7 +34,9 @@ class CoreCodegenLoader extends AssetLoader {
       "at": "在",
       "auto_save": "自动保存",
       "back": "返回",
+      "badge": "徽章",
       "behavior": "行为",
+      "button": "按钮",
       "buy": "购买",
       "cancel": "取消",
       "canceled": "已取消",
@@ -148,6 +150,7 @@ class CoreCodegenLoader extends AssetLoader {
       "menu": "菜单",
       "method": "方法",
       "minors": "未成年人",
+      "missing_rights": "缺少权利",
       "monthly": "每月",
       "mute": "静音",
       "name": "名称",
@@ -170,6 +173,8 @@ class CoreCodegenLoader extends AssetLoader {
         "track": "下一首"
       },
       "no": "否",
+      "no_elements": "没有元素",
+      "no_items": "没有商品",
       "non_commercial": "非商业",
       "none": {
         "female": "无",
@@ -203,6 +208,7 @@ class CoreCodegenLoader extends AssetLoader {
         "timed_out": "操作超时"
       },
       "optional": "可选",
+      "panel": "面板",
       "paste": "粘贴",
       "pause": "暂停",
       "paused": "暂停",
@@ -246,6 +252,8 @@ class CoreCodegenLoader extends AssetLoader {
       "resumed": "已恢复",
       "retry": "重试",
       "rewind": "倒带",
+      "rights_denied": "权利被拒绝",
+      "rights_granted": "权利已授予",
       "save": {
         "all": "全部保存",
         "and": {
@@ -432,7 +440,9 @@ static const Map<String,dynamic> ja = {
       "at": "場所",
       "auto_save": "自動保存",
       "back": "戻る",
+      "badge": "バッジ",
       "behavior": "動作",
+      "button": "ボタン",
       "buy": "購入",
       "cancel": "キャンセル",
       "canceled": "キャンセル",
@@ -546,6 +556,7 @@ static const Map<String,dynamic> ja = {
       "menu": "メニュー",
       "method": "メソッド",
       "minors": "未成年",
+      "missing_rights": "権限がありません",
       "monthly": "毎月",
       "mute": "ミュート",
       "name": "名前",
@@ -568,6 +579,8 @@ static const Map<String,dynamic> ja = {
         "track": "次のトラック"
       },
       "no": "いいえ",
+      "no_elements": "要素なし",
+      "no_items": "アイテムなし",
       "non_commercial": "非商業的",
       "none": {
         "female": "なし",
@@ -601,6 +614,7 @@ static const Map<String,dynamic> ja = {
         "timed_out": "操作がタイムアウトしました"
       },
       "optional": "任意",
+      "panel": "パネル",
       "paste": "ペースト",
       "pause": "一時停止",
       "paused": "一時停止",
@@ -644,6 +658,8 @@ static const Map<String,dynamic> ja = {
       "resumed": "再開",
       "retry": "再試行",
       "rewind": "巻き戻し",
+      "rights_denied": "権限拒否",
+      "rights_granted": "権限付与",
       "save": {
         "all": "すべて保存",
         "and": {
@@ -830,7 +846,9 @@ static const Map<String,dynamic> de = {
       "at": "Bei",
       "auto_save": "Automatisch speichern",
       "back": "Zurück",
+      "badge": "Abzeichen",
       "behavior": "Verhalten",
+      "button": "Knopf",
       "buy": "Kaufen",
       "cancel": "Abbrechen",
       "canceled": "Abgebrochen",
@@ -944,6 +962,7 @@ static const Map<String,dynamic> de = {
       "menu": "Menü",
       "method": "Methode",
       "minors": "Minderjährige",
+      "missing_rights": "Fehlende Rechte",
       "monthly": "Monatlich",
       "mute": "Stumm",
       "name": "Name",
@@ -966,6 +985,8 @@ static const Map<String,dynamic> de = {
         "track": "Nächster Titel"
       },
       "no": "Nein",
+      "no_elements": "Keine Elemente",
+      "no_items": "Keine Artikel",
       "non_commercial": "Nicht-kommerziell",
       "none": {
         "female": "Keine",
@@ -999,6 +1020,7 @@ static const Map<String,dynamic> de = {
         "timed_out": "Vorgang abgelaufen"
       },
       "optional": "Optional",
+      "panel": "Panel",
       "paste": "Einfügen",
       "pause": "Pause",
       "paused": "Pausiert",
@@ -1042,6 +1064,8 @@ static const Map<String,dynamic> de = {
       "resumed": "Fortgesetzt",
       "retry": "Erneut versuchen",
       "rewind": "Zurückspulen",
+      "rights_denied": "Rechte verweigert",
+      "rights_granted": "Rechte gewährt",
       "save": {
         "all": "Alle speichern",
         "and": {
@@ -1228,7 +1252,9 @@ static const Map<String,dynamic> ru = {
       "at": "В",
       "auto_save": "Автосохранение",
       "back": "Назад",
+      "badge": "Значок",
       "behavior": "Поведение",
+      "button": "Кнопка",
       "buy": "Купить",
       "cancel": "Отмена",
       "canceled": "Отменено",
@@ -1342,6 +1368,7 @@ static const Map<String,dynamic> ru = {
       "menu": "Меню",
       "method": "Метод",
       "minors": "Несовершеннолетние",
+      "missing_rights": "Отсутствуют права",
       "monthly": "Ежемесячно",
       "mute": "Выключить звук",
       "name": "Имя",
@@ -1364,6 +1391,8 @@ static const Map<String,dynamic> ru = {
         "track": "Следующий трек"
       },
       "no": "Нет",
+      "no_elements": "Нет элементов",
+      "no_items": "Нет товаров",
       "non_commercial": "Некоммерческий",
       "none": {
         "female": "Нет",
@@ -1397,6 +1426,7 @@ static const Map<String,dynamic> ru = {
         "timed_out": "Время операции истекло"
       },
       "optional": "Необязательно",
+      "panel": "Панель",
       "paste": "Вставить",
       "pause": "Пауза",
       "paused": "Приостановлено",
@@ -1440,6 +1470,8 @@ static const Map<String,dynamic> ru = {
       "resumed": "Возобновлено",
       "retry": "Повторить",
       "rewind": "Перемотка назад",
+      "rights_denied": "Права отказаны",
+      "rights_granted": "Права предоставлены",
       "save": {
         "all": "Сохранить все",
         "and": {
@@ -1626,7 +1658,9 @@ static const Map<String,dynamic> pt = {
       "at": "Em",
       "auto_save": "Salvar automaticamente",
       "back": "Voltar",
+      "badge": "Distintivo",
       "behavior": "Comportamento",
+      "button": "Botão",
       "buy": "Comprar",
       "cancel": "Cancelar",
       "canceled": "Cancelado",
@@ -1740,6 +1774,7 @@ static const Map<String,dynamic> pt = {
       "menu": "Menu",
       "method": "Método",
       "minors": "Menores",
+      "missing_rights": "Direitos faltando",
       "monthly": "Mensalmente",
       "mute": "Silenciar",
       "name": "Nome",
@@ -1762,6 +1797,8 @@ static const Map<String,dynamic> pt = {
         "track": "Próxima faixa"
       },
       "no": "Não",
+      "no_elements": "Sem elementos",
+      "no_items": "Sem itens",
       "non_commercial": "Não-comercial",
       "none": {
         "female": "Nenhum",
@@ -1795,6 +1832,7 @@ static const Map<String,dynamic> pt = {
         "timed_out": "Operação expirou"
       },
       "optional": "Opcional",
+      "panel": "Painel",
       "paste": "Colar",
       "pause": "Pausa",
       "paused": "Pausado",
@@ -1838,6 +1876,8 @@ static const Map<String,dynamic> pt = {
       "resumed": "Retomado",
       "retry": "Tentar novamente",
       "rewind": "Retroceder",
+      "rights_denied": "Direitos negados",
+      "rights_granted": "Direitos concedidos",
       "save": {
         "all": "Salvar Todos",
         "and": {
@@ -2024,7 +2064,9 @@ static const Map<String,dynamic> en = {
       "at": "At",
       "auto_save": "Auto-save",
       "back": "Back",
+      "badge": "Badge",
       "behavior": "Behavior",
+      "button": "Button",
       "buy": "Buy",
       "cancel": "Cancel",
       "canceled": "Canceled",
@@ -2138,6 +2180,7 @@ static const Map<String,dynamic> en = {
       "menu": "Menu",
       "method": "Method",
       "minors": "Minor",
+      "missing_rights": "Missing rights",
       "monthly": "Monthly",
       "mute": "Mute",
       "name": "Name",
@@ -2160,6 +2203,8 @@ static const Map<String,dynamic> en = {
         "track": "Next Track"
       },
       "no": "No",
+      "no_elements": "No elements",
+      "no_items": "No items",
       "non_commercial": "Non-commercial",
       "none": {
         "female": "None",
@@ -2193,6 +2238,7 @@ static const Map<String,dynamic> en = {
         "timed_out": "Operation timed out"
       },
       "optional": "Optional",
+      "panel": "Panel",
       "paste": "Paste",
       "pause": "Pause",
       "paused": "Paused",
@@ -2236,6 +2282,8 @@ static const Map<String,dynamic> en = {
       "resumed": "Resumed",
       "retry": "Retry",
       "rewind": "Rewind",
+      "rights_denied": "Rights denied",
+      "rights_granted": "Rights granted",
       "save": {
         "all": "Save All",
         "and": {
@@ -2422,7 +2470,9 @@ static const Map<String,dynamic> it = {
       "at": "A",
       "auto_save": "Salvataggio automatico",
       "back": "Indietro",
+      "badge": "Distintivo",
       "behavior": "Comportamento",
+      "button": "Pulsante",
       "buy": "Acquistare",
       "cancel": "Annulla",
       "canceled": "Annullato",
@@ -2536,6 +2586,7 @@ static const Map<String,dynamic> it = {
       "menu": "Menu",
       "method": "Metodo",
       "minors": "Minori",
+      "missing_rights": "Diritti mancanti",
       "monthly": "Mensilmente",
       "mute": "Silenzia",
       "name": "Nome",
@@ -2558,6 +2609,8 @@ static const Map<String,dynamic> it = {
         "track": "Brano successivo"
       },
       "no": "No",
+      "no_elements": "Nessun elemento",
+      "no_items": "Nessun articolo",
       "non_commercial": "Non commerciale",
       "none": {
         "female": "Nessuna",
@@ -2591,6 +2644,7 @@ static const Map<String,dynamic> it = {
         "timed_out": "Operazione scaduta"
       },
       "optional": "Opzionale",
+      "panel": "Pannello",
       "paste": "Incolla",
       "pause": "Pausa",
       "paused": "In pausa",
@@ -2634,6 +2688,8 @@ static const Map<String,dynamic> it = {
       "resumed": "Ripreso",
       "retry": "Riprova",
       "rewind": "Riavvolgi",
+      "rights_denied": "Diritti negati",
+      "rights_granted": "Diritti concessi",
       "save": {
         "all": "Salva tutto",
         "and": {
@@ -2820,7 +2876,9 @@ static const Map<String,dynamic> fr = {
       "at": "À",
       "auto_save": "Sauvegarde automatique",
       "back": "Retour",
+      "badge": "Badge",
       "behavior": "Comportement",
+      "button": "Bouton",
       "buy": "Acheter",
       "cancel": "Annuler",
       "canceled": "Annulé",
@@ -2934,6 +2992,7 @@ static const Map<String,dynamic> fr = {
       "menu": "Menu",
       "method": "Méthode",
       "minors": "Mineures",
+      "missing_rights": "Droits manquants",
       "monthly": "Mensuellement",
       "mute": "Muet",
       "name": "Nom",
@@ -2956,6 +3015,8 @@ static const Map<String,dynamic> fr = {
         "track": "Piste suivante"
       },
       "no": "Non",
+      "no_elements": "Aucun élément",
+      "no_items": "Aucun article",
       "non_commercial": "Non commercial",
       "none": {
         "female": "Aucune",
@@ -2989,6 +3050,7 @@ static const Map<String,dynamic> fr = {
         "timed_out": "Opération expirée"
       },
       "optional": "Optionnel",
+      "panel": "Panneau",
       "paste": "Coller",
       "pause": "Pause",
       "paused": "En pause",
@@ -3032,6 +3094,8 @@ static const Map<String,dynamic> fr = {
       "resumed": "Repris",
       "retry": "Réessayer",
       "rewind": "Reculer",
+      "rights_denied": "Droits refusés",
+      "rights_granted": "Droits accordés",
       "save": {
         "all": "Tout enregistrer",
         "and": {
@@ -3218,7 +3282,9 @@ static const Map<String,dynamic> es = {
       "at": "En",
       "auto_save": "Guardar automáticamente",
       "back": "Volver",
+      "badge": "Insignia",
       "behavior": "Comportamiento",
+      "button": "Botón",
       "buy": "Comprar",
       "cancel": "Cancelar",
       "canceled": "Cancelado",
@@ -3332,6 +3398,7 @@ static const Map<String,dynamic> es = {
       "menu": "Menú",
       "method": "Método",
       "minors": "Menores",
+      "missing_rights": "Derechos faltantes",
       "monthly": "Mensualmente",
       "mute": "Silenciar",
       "name": "Nombre",
@@ -3354,6 +3421,8 @@ static const Map<String,dynamic> es = {
         "track": "Siguiente pista"
       },
       "no": "No",
+      "no_elements": "Sin elementos",
+      "no_items": "Sin artículos",
       "non_commercial": "No comercial",
       "none": {
         "female": "Ninguna",
@@ -3387,6 +3456,7 @@ static const Map<String,dynamic> es = {
         "timed_out": "Operación expirada"
       },
       "optional": "Opcional",
+      "panel": "Panel",
       "paste": "Pegar",
       "pause": "Pausa",
       "paused": "Pausado",
@@ -3430,6 +3500,8 @@ static const Map<String,dynamic> es = {
       "resumed": "Reanudado",
       "retry": "Reintentar",
       "rewind": "Rebobinar",
+      "rights_denied": "Derechos denegados",
+      "rights_granted": "Derechos otorgados",
       "save": {
         "all": "Guardar todo",
         "and": {

@@ -21,7 +21,9 @@
       "at": "At",
       "auto_save": "Auto-save",
       "back": "Back",
+      "badge": "Badge",
       "behavior": "Behavior",
+      "button": "Button",
       "buy": "Buy",
       "cancel": "Cancel",
       "canceled": "Canceled",
@@ -135,6 +137,7 @@
       "menu": "Menu",
       "method": "Method",
       "minors": "Minor",
+      "missing_rights": "Missing rights",
       "monthly": "Monthly",
       "mute": "Mute",
       "name": "Name",
@@ -157,6 +160,8 @@
         "track": "Next Track"
       },
       "no": "No",
+      "no_elements": "No elements",
+      "no_items": "No items",
       "non_commercial": "Non-commercial",
       "none": {
         "female": "None",
@@ -190,6 +195,7 @@
         "timed_out": "Operation timed out"
       },
       "optional": "Optional",
+      "panel": "Panel",
       "paste": "Paste",
       "pause": "Pause",
       "paused": "Paused",
@@ -233,6 +239,8 @@
       "resumed": "Resumed",
       "retry": "Retry",
       "rewind": "Rewind",
+      "rights_denied": "Rights denied",
+      "rights_granted": "Rights granted",
       "save": {
         "all": "Save All",
         "and": {

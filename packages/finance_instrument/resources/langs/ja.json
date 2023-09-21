@@ -77,6 +77,9 @@
       "zambian_kwacha": "ザンビアクワチャ",
       "zimbabwe_dollar": "ジンバブエドル"
     },
+    "message": {
+      "search_instrument": "金融商品を検索してください"
+    },
     "select": {
       "instrument": "金融商品を選択する"
     }
