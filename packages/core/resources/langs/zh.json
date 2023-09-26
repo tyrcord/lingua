@@ -4,6 +4,10 @@
       "cannot_reach_server": "对不起，目前与服务器的连接存在问题。请稍后再试。",
       "error_occurred": "抱歉，发生错误。请稍后再试。"
     },
+    "help": {
+      "check_your_modem_and_router": "检查您的调制解调器和路由器。",
+      "reconnect_to_your_wifi_network": "重新连接到您的Wi-Fi网络。"
+    },
     "label": {
       "accept": "接受",
       "accepted": "已接受",
@@ -127,6 +131,7 @@
       "inputs": "输入",
       "install": "安装",
       "internal": "内部",
+      "internet_connection": "无互联网连接",
       "invalid": "无效",
       "learn_more": "了解更多",
       "loading": "加载中",
@@ -370,12 +375,18 @@
         "text": "加载中..."
       },
       "modern_design": "现代外观。",
+      "no": {
+        "results_found": "未找到结果。"
+      },
       "no_favorites": "无收藏。",
       "pdf_generated_by": "PDF 由{app_name}生成",
       "pdf_ready": "PDF已准备就绪！",
       "performing": "执行中...",
       "please_wait": "请稍候...",
       "processing": "处理中...",
+      "require": {
+        "internet_connection": "需要互联网连接。"
+      },
       "saving": "保存中...",
       "search": "搜索...",
       "searching": "正在搜索...",
@@ -385,6 +396,9 @@
       "sorry": "抱歉...",
       "success": "成功！",
       "thank_you": "谢谢！",
+      "try": {
+        "steps_back_online": "尝试以下步骤恢复上网："
+      },
       "warning": "警告！",
       "welcome": "欢迎！",
       "whats_new": "有什么新功能？",

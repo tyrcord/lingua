@@ -4,6 +4,9 @@ abstract class CoreLocaleKeys {
   static const core_error_cannot_reach_server = 'core.error.cannot_reach_server';
   static const core_error_error_occurred = 'core.error.error_occurred';
   static const core_error = 'core.error';
+  static const core_help_check_your_modem_and_router = 'core.help.check_your_modem_and_router';
+  static const core_help_reconnect_to_your_wifi_network = 'core.help.reconnect_to_your_wifi_network';
+  static const core_help = 'core.help';
   static const core_label_accept = 'core.label.accept';
   static const core_label_accepted = 'core.label.accepted';
   static const core_label_active = 'core.label.active';
@@ -112,6 +115,7 @@ abstract class CoreLocaleKeys {
   static const core_label_inputs = 'core.label.inputs';
   static const core_label_install = 'core.label.install';
   static const core_label_internal = 'core.label.internal';
+  static const core_label_internet_connection = 'core.label.internet_connection';
   static const core_label_invalid = 'core.label.invalid';
   static const core_label_learn_more = 'core.label.learn_more';
   static const core_label_loading = 'core.label.loading';
@@ -322,12 +326,16 @@ abstract class CoreLocaleKeys {
   static const core_message_loading_text = 'core.message.loading.text';
   static const core_message_loading = 'core.message.loading';
   static const core_message_modern_design = 'core.message.modern_design';
+  static const core_message_no_results_found = 'core.message.no.results_found';
+  static const core_message_no = 'core.message.no';
   static const core_message_no_favorites = 'core.message.no_favorites';
   static const core_message_pdf_generated_by = 'core.message.pdf_generated_by';
   static const core_message_pdf_ready = 'core.message.pdf_ready';
   static const core_message_performing = 'core.message.performing';
   static const core_message_please_wait = 'core.message.please_wait';
   static const core_message_processing = 'core.message.processing';
+  static const core_message_require_internet_connection = 'core.message.require.internet_connection';
+  static const core_message_require = 'core.message.require';
   static const core_message_saving = 'core.message.saving';
   static const core_message_search = 'core.message.search';
   static const core_message_searching = 'core.message.searching';
@@ -336,6 +344,8 @@ abstract class CoreLocaleKeys {
   static const core_message_sorry = 'core.message.sorry';
   static const core_message_success = 'core.message.success';
   static const core_message_thank_you = 'core.message.thank_you';
+  static const core_message_try_steps_back_online = 'core.message.try.steps_back_online';
+  static const core_message_try = 'core.message.try';
   static const core_message_warning = 'core.message.warning';
   static const core_message_welcome = 'core.message.welcome';
   static const core_message_whats_new = 'core.message.whats_new';

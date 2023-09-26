@@ -4,6 +4,10 @@
       "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Per favore, riprova più tardi.",
       "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
     },
+    "help": {
+      "check_your_modem_and_router": "Controlla il tuo modem e router.",
+      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi."
+    },
     "label": {
       "accept": "Accetta",
       "accepted": "Accettato",
@@ -127,6 +131,7 @@
       "inputs": "Inserimenti",
       "install": "Installare",
       "internal": "Interno",
+      "internet_connection": "Nessuna connessione Internet",
       "invalid": "Non valido",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
@@ -370,12 +375,18 @@
         "text": "Caricamento in corso..."
       },
       "modern_design": "Design moderno.",
+      "no": {
+        "results_found": "Nessun risultato trovato."
+      },
       "no_favorites": "Nessun preferito.",
       "pdf_generated_by": "PDF generato da {app_name}",
       "pdf_ready": "PDF pronto!",
       "performing": "In esecuzione...",
       "please_wait": "Attendere prego...",
       "processing": "Elaborazione in corso...",
+      "require": {
+        "internet_connection": "È richiesta una connessione Internet."
+      },
       "saving": "Salvataggio in corso...",
       "search": "Ricerca...",
       "searching": "Ricerca in corso...",
@@ -385,6 +396,9 @@
       "sorry": "Scusa...",
       "success": "Successo!",
       "thank_you": "Grazie!",
+      "try": {
+        "steps_back_online": "Prova questi passaggi per tornare online:"
+      },
       "warning": "Attenzione!",
       "welcome": "Benvenuto!",
       "whats_new": "Cosa c'è di nuovo?",

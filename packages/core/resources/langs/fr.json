@@ -4,6 +4,10 @@
       "cannot_reach_server": "Nous nous excusons pour la gêne occasionnée, mais il y a actuellement un problème de connexion avec le serveur. Veuillez réessayer ultérieurement.",
       "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
     },
+    "help": {
+      "check_your_modem_and_router": "Vérifiez votre modem et votre routeur.",
+      "reconnect_to_your_wifi_network": "Reconnectez-vous à votre réseau Wi-Fi."
+    },
     "label": {
       "accept": "Accepter",
       "accepted": "Accepté",
@@ -127,6 +131,7 @@
       "inputs": "Entrées",
       "install": "Installer",
       "internal": "Interne",
+      "internet_connection": "Aucune connexion Internet",
       "invalid": "Invalide",
       "learn_more": "En savoir plus",
       "loading": "Chargement",
@@ -370,12 +375,18 @@
         "text": "Chargement..."
       },
       "modern_design": "Design moderne.",
+      "no": {
+        "results_found": "Aucun résultat trouvé."
+      },
       "no_favorites": "Aucun favori.",
       "pdf_generated_by": "PDF généré par {app_name}",
       "pdf_ready": "PDF prêt!",
       "performing": "Exécution...",
       "please_wait": "Veuillez patienter...",
       "processing": "Traitement...",
+      "require": {
+        "internet_connection": "Une connexion Internet est requise."
+      },
       "saving": "Enregistrement en cours...",
       "search": "Rechercher...",
       "searching": "Recherche en cours...",
@@ -385,6 +396,9 @@
       "sorry": "Désolé...",
       "success": "Succès !",
       "thank_you": "Merci !",
+      "try": {
+        "steps_back_online": "Essayez ces étapes pour vous reconnecter:"
+      },
       "warning": "Attention !",
       "welcome": "Bienvenue !",
       "whats_new": "Quoi de neuf ?",

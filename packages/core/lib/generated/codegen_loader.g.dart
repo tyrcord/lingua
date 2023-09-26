@@ -17,6 +17,10 @@ class CoreCodegenLoader extends AssetLoader {
       "cannot_reach_server": "对不起，目前与服务器的连接存在问题。请稍后再试。",
       "error_occurred": "抱歉，发生错误。请稍后再试。"
     },
+    "help": {
+      "check_your_modem_and_router": "检查您的调制解调器和路由器。",
+      "reconnect_to_your_wifi_network": "重新连接到您的Wi-Fi网络。"
+    },
     "label": {
       "accept": "接受",
       "accepted": "已接受",
@@ -140,6 +144,7 @@ class CoreCodegenLoader extends AssetLoader {
       "inputs": "输入",
       "install": "安装",
       "internal": "内部",
+      "internet_connection": "无互联网连接",
       "invalid": "无效",
       "learn_more": "了解更多",
       "loading": "加载中",
@@ -383,12 +388,18 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "加载中..."
       },
       "modern_design": "现代外观。",
+      "no": {
+        "results_found": "未找到结果。"
+      },
       "no_favorites": "无收藏。",
       "pdf_generated_by": "PDF 由{app_name}生成",
       "pdf_ready": "PDF已准备就绪！",
       "performing": "执行中...",
       "please_wait": "请稍候...",
       "processing": "处理中...",
+      "require": {
+        "internet_connection": "需要互联网连接。"
+      },
       "saving": "保存中...",
       "search": "搜索...",
       "searching": "正在搜索...",
@@ -398,6 +409,9 @@ class CoreCodegenLoader extends AssetLoader {
       "sorry": "抱歉...",
       "success": "成功！",
       "thank_you": "谢谢！",
+      "try": {
+        "steps_back_online": "尝试以下步骤恢复上网："
+      },
       "warning": "警告！",
       "welcome": "欢迎！",
       "whats_new": "有什么新功能？",
@@ -422,6 +436,10 @@ static const Map<String,dynamic> ja = {
     "error": {
       "cannot_reach_server": "申し訳ありませんが、現在サーバーに接続できません。後でもう一度お試しください。",
       "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
+    },
+    "help": {
+      "check_your_modem_and_router": "モデムとルーターを確認してください。",
+      "reconnect_to_your_wifi_network": "Wi-Fiネットワークに再接続してください。"
     },
     "label": {
       "accept": "受け入れる",
@@ -546,6 +564,7 @@ static const Map<String,dynamic> ja = {
       "inputs": "入力",
       "install": "インストール",
       "internal": "内部",
+      "internet_connection": "インターネット接続がありません",
       "invalid": "無効",
       "learn_more": "詳細を確認",
       "loading": "読み込み中",
@@ -789,12 +808,18 @@ static const Map<String,dynamic> ja = {
         "text": "読み込み中..."
       },
       "modern_design": "モダンなデザイン。",
+      "no": {
+        "results_found": "結果が見つかりませんでした。"
+      },
       "no_favorites": "お気に入りはありません。",
       "pdf_generated_by": "{app_name} によって生成されたPDF",
       "pdf_ready": "PDFが準備できました！",
       "performing": "実行中...",
       "please_wait": "お待ちください...",
       "processing": "処理中...",
+      "require": {
+        "internet_connection": "インターネット接続が必要です。"
+      },
       "saving": "保存中...",
       "search": "検索...",
       "searching": "検索中...",
@@ -804,6 +829,9 @@ static const Map<String,dynamic> ja = {
       "sorry": "申し訳ありません...",
       "success": "成功しました！",
       "thank_you": "ありがとうございます！",
+      "try": {
+        "steps_back_online": "オンラインに戻るためのこれらの手順をお試しください:"
+      },
       "warning": "警告！",
       "welcome": "ようこそ！",
       "whats_new": "新機能のご紹介",
@@ -828,6 +856,10 @@ static const Map<String,dynamic> de = {
     "error": {
       "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es besteht derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.",
       "error_occurred": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+    },
+    "help": {
+      "check_your_modem_and_router": "Überprüfen Sie Ihr Modem und Ihren Router.",
+      "reconnect_to_your_wifi_network": "Stellen Sie die Verbindung zu Ihrem WLAN-Netzwerk wieder her."
     },
     "label": {
       "accept": "Akzeptieren",
@@ -952,6 +984,7 @@ static const Map<String,dynamic> de = {
       "inputs": "Eingaben",
       "install": "Installieren",
       "internal": "Intern",
+      "internet_connection": "Keine Internetverbindung",
       "invalid": "Ungültig",
       "learn_more": "Weitere Informationen",
       "loading": "Wird geladen",
@@ -1195,12 +1228,18 @@ static const Map<String,dynamic> de = {
         "text": "Wird geladen..."
       },
       "modern_design": "Modernes Design.",
+      "no": {
+        "results_found": "Keine Ergebnisse gefunden."
+      },
       "no_favorites": "Keine Favoriten.",
       "pdf_generated_by": "PDF generiert von {app_name}",
       "pdf_ready": "PDF fertig!",
       "performing": "Wird durchgeführt...",
       "please_wait": "Bitte warten...",
       "processing": "Wird verarbeitet...",
+      "require": {
+        "internet_connection": "Eine Internetverbindung wird benötigt."
+      },
       "saving": "Speichern...",
       "search": "Suche...",
       "searching": "Suche läuft...",
@@ -1210,6 +1249,9 @@ static const Map<String,dynamic> de = {
       "sorry": "Entschuldigung...",
       "success": "Erfolg!",
       "thank_you": "Vielen Dank!",
+      "try": {
+        "steps_back_online": "Versuchen Sie diese Schritte, um wieder online zu gehen:"
+      },
       "warning": "Achtung!",
       "welcome": "Willkommen!",
       "whats_new": "Was gibt's Neues?",
@@ -1234,6 +1276,10 @@ static const Map<String,dynamic> ru = {
     "error": {
       "cannot_reach_server": "Приносим извинения за неудобства, но в данный момент возникла проблема с подключением к серверу. Пожалуйста, попробуйте позже.",
       "error_occurred": "Извините, произошла ошибка. Пожалуйста, попробуйте еще раз позже."
+    },
+    "help": {
+      "check_your_modem_and_router": "Проверьте ваш модем и роутер.",
+      "reconnect_to_your_wifi_network": "Подключитесь к вашей Wi-Fi сети заново."
     },
     "label": {
       "accept": "Принять",
@@ -1358,6 +1404,7 @@ static const Map<String,dynamic> ru = {
       "inputs": "Ввод",
       "install": "Установить",
       "internal": "Внутренний",
+      "internet_connection": "Нет интернет-соединения",
       "invalid": "Недействительно",
       "learn_more": "Узнать больше",
       "loading": "Загрузка",
@@ -1601,12 +1648,18 @@ static const Map<String,dynamic> ru = {
         "text": "Загрузка..."
       },
       "modern_design": "Современный дизайн.",
+      "no": {
+        "results_found": "Результаты не найдены."
+      },
       "no_favorites": "Нет избранных.",
       "pdf_generated_by": "PDF сгенерировано с помощью {app_name}",
       "pdf_ready": "PDF готово!",
       "performing": "Выполнение...",
       "please_wait": "Пожалуйста, подождите...",
       "processing": "Обработка...",
+      "require": {
+        "internet_connection": "Требуется интернет-соединение."
+      },
       "saving": "Сохранение...",
       "search": "Поиск...",
       "searching": "Поиск...",
@@ -1616,6 +1669,9 @@ static const Map<String,dynamic> ru = {
       "sorry": "Извините...",
       "success": "Успешно!",
       "thank_you": "Спасибо!",
+      "try": {
+        "steps_back_online": "Попробуйте следующие шаги, чтобы вернуться онлайн:"
+      },
       "warning": "Предупреждение!",
       "welcome": "Добро пожаловать!",
       "whats_new": "Что нового?",
@@ -1640,6 +1696,10 @@ static const Map<String,dynamic> pt = {
     "error": {
       "cannot_reach_server": "Pedimos desculpas pelo inconveniente, mas há atualmente um problema de conexão com o servidor. Por favor, tente novamente mais tarde.",
       "error_occurred": "Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde."
+    },
+    "help": {
+      "check_your_modem_and_router": "Verifique o seu modem e roteador.",
+      "reconnect_to_your_wifi_network": "Reconecte-se à sua rede Wi-Fi."
     },
     "label": {
       "accept": "Aceitar",
@@ -1764,6 +1824,7 @@ static const Map<String,dynamic> pt = {
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
+      "internet_connection": "Sem conexão com a Internet",
       "invalid": "Inválido",
       "learn_more": "Saiba mais",
       "loading": "Carregando",
@@ -2007,12 +2068,18 @@ static const Map<String,dynamic> pt = {
         "text": "Carregando..."
       },
       "modern_design": "Visual moderno.",
+      "no": {
+        "results_found": "Nenhum resultado encontrado."
+      },
       "no_favorites": "Sem favoritos.",
       "pdf_generated_by": "PDF gerado por {app_name}",
       "pdf_ready": "PDF pronto!",
       "performing": "Executando...",
       "please_wait": "Aguarde, por favor...",
       "processing": "Processando...",
+      "require": {
+        "internet_connection": "Uma conexão com a Internet é necessária."
+      },
       "saving": "Salvando...",
       "search": "Pesquisar...",
       "searching": "Procurando...",
@@ -2022,6 +2089,9 @@ static const Map<String,dynamic> pt = {
       "sorry": "Desculpe...",
       "success": "Sucesso!",
       "thank_you": "Obrigado!",
+      "try": {
+        "steps_back_online": "Tente estes passos para voltar a ficar online:"
+      },
       "warning": "Aviso!",
       "welcome": "Bem-vindo!",
       "whats_new": "O que há de novo?",
@@ -2046,6 +2116,10 @@ static const Map<String,dynamic> en = {
     "error": {
       "cannot_reach_server": "We apologize for the inconvenience, but there is currently a connection issue with the server. Please try again at a later time.",
       "error_occurred": "Apologies, an error has occurred. Please try again later."
+    },
+    "help": {
+      "check_your_modem_and_router": "Check your modem and router.",
+      "reconnect_to_your_wifi_network": "Reconnect to your Wi-Fi network."
     },
     "label": {
       "accept": "Accept",
@@ -2170,6 +2244,7 @@ static const Map<String,dynamic> en = {
       "inputs": "Inputs",
       "install": "Install",
       "internal": "Internal",
+      "internet_connection": "No internet connection",
       "invalid": "Invalid",
       "learn_more": "Learn more",
       "loading": "Loading",
@@ -2413,12 +2488,18 @@ static const Map<String,dynamic> en = {
         "text": "Loading..."
       },
       "modern_design": "Modern Look.",
+      "no": {
+        "results_found": "No results found."
+      },
       "no_favorites": "No favorites.",
       "pdf_generated_by": "PDF generated by {app_name}",
       "pdf_ready": "PDF ready!",
       "performing": "Performing...",
       "please_wait": "Please wait...",
       "processing": "Processing...",
+      "require": {
+        "internet_connection": "An internet connection is required."
+      },
       "saving": "Saving...",
       "search": "Search...",
       "searching": "Searching...",
@@ -2428,6 +2509,9 @@ static const Map<String,dynamic> en = {
       "sorry": "Sorry...",
       "success": "Success!",
       "thank_you": "Thank you!",
+      "try": {
+        "steps_back_online": "Try these steps to get back online:"
+      },
       "warning": "Warning!",
       "welcome": "Welcome!",
       "whats_new": "What's new?",
@@ -2452,6 +2536,10 @@ static const Map<String,dynamic> it = {
     "error": {
       "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Per favore, riprova più tardi.",
       "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
+    },
+    "help": {
+      "check_your_modem_and_router": "Controlla il tuo modem e router.",
+      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi."
     },
     "label": {
       "accept": "Accetta",
@@ -2576,6 +2664,7 @@ static const Map<String,dynamic> it = {
       "inputs": "Inserimenti",
       "install": "Installare",
       "internal": "Interno",
+      "internet_connection": "Nessuna connessione Internet",
       "invalid": "Non valido",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
@@ -2819,12 +2908,18 @@ static const Map<String,dynamic> it = {
         "text": "Caricamento in corso..."
       },
       "modern_design": "Design moderno.",
+      "no": {
+        "results_found": "Nessun risultato trovato."
+      },
       "no_favorites": "Nessun preferito.",
       "pdf_generated_by": "PDF generato da {app_name}",
       "pdf_ready": "PDF pronto!",
       "performing": "In esecuzione...",
       "please_wait": "Attendere prego...",
       "processing": "Elaborazione in corso...",
+      "require": {
+        "internet_connection": "È richiesta una connessione Internet."
+      },
       "saving": "Salvataggio in corso...",
       "search": "Ricerca...",
       "searching": "Ricerca in corso...",
@@ -2834,6 +2929,9 @@ static const Map<String,dynamic> it = {
       "sorry": "Scusa...",
       "success": "Successo!",
       "thank_you": "Grazie!",
+      "try": {
+        "steps_back_online": "Prova questi passaggi per tornare online:"
+      },
       "warning": "Attenzione!",
       "welcome": "Benvenuto!",
       "whats_new": "Cosa c'è di nuovo?",
@@ -2858,6 +2956,10 @@ static const Map<String,dynamic> fr = {
     "error": {
       "cannot_reach_server": "Nous nous excusons pour la gêne occasionnée, mais il y a actuellement un problème de connexion avec le serveur. Veuillez réessayer ultérieurement.",
       "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
+    },
+    "help": {
+      "check_your_modem_and_router": "Vérifiez votre modem et votre routeur.",
+      "reconnect_to_your_wifi_network": "Reconnectez-vous à votre réseau Wi-Fi."
     },
     "label": {
       "accept": "Accepter",
@@ -2982,6 +3084,7 @@ static const Map<String,dynamic> fr = {
       "inputs": "Entrées",
       "install": "Installer",
       "internal": "Interne",
+      "internet_connection": "Aucune connexion Internet",
       "invalid": "Invalide",
       "learn_more": "En savoir plus",
       "loading": "Chargement",
@@ -3225,12 +3328,18 @@ static const Map<String,dynamic> fr = {
         "text": "Chargement..."
       },
       "modern_design": "Design moderne.",
+      "no": {
+        "results_found": "Aucun résultat trouvé."
+      },
       "no_favorites": "Aucun favori.",
       "pdf_generated_by": "PDF généré par {app_name}",
       "pdf_ready": "PDF prêt!",
       "performing": "Exécution...",
       "please_wait": "Veuillez patienter...",
       "processing": "Traitement...",
+      "require": {
+        "internet_connection": "Une connexion Internet est requise."
+      },
       "saving": "Enregistrement en cours...",
       "search": "Rechercher...",
       "searching": "Recherche en cours...",
@@ -3240,6 +3349,9 @@ static const Map<String,dynamic> fr = {
       "sorry": "Désolé...",
       "success": "Succès !",
       "thank_you": "Merci !",
+      "try": {
+        "steps_back_online": "Essayez ces étapes pour vous reconnecter:"
+      },
       "warning": "Attention !",
       "welcome": "Bienvenue !",
       "whats_new": "Quoi de neuf ?",
@@ -3264,6 +3376,10 @@ static const Map<String,dynamic> es = {
     "error": {
       "cannot_reach_server": "Lamentamos las molestias, pero actualmente hay un problema de conexión con el servidor. Por favor, inténtalo de nuevo más tarde.",
       "error_occurred": "Disculpa, ha ocurrido un error. Por favor, inténtalo nuevamente más tarde."
+    },
+    "help": {
+      "check_your_modem_and_router": "Verifique su módem y router.",
+      "reconnect_to_your_wifi_network": "Vuelva a conectarse a su red Wi-Fi."
     },
     "label": {
       "accept": "Aceptar",
@@ -3388,6 +3504,7 @@ static const Map<String,dynamic> es = {
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
+      "internet_connection": "Sin conexión a Internet",
       "invalid": "Inválido",
       "learn_more": "Más información",
       "loading": "Cargando",
@@ -3631,12 +3748,18 @@ static const Map<String,dynamic> es = {
         "text": "Cargando..."
       },
       "modern_design": "Diseño moderno.",
+      "no": {
+        "results_found": "No se encontraron resultados."
+      },
       "no_favorites": "No hay favoritos.",
       "pdf_generated_by": "PDF generado por {app_name}",
       "pdf_ready": "¡PDF listo!",
       "performing": "Realizando...",
       "please_wait": "Por favor, espera...",
       "processing": "Procesando...",
+      "require": {
+        "internet_connection": "Se requiere una conexión a Internet."
+      },
       "saving": "Guardando...",
       "search": "Buscar...",
       "searching": "Buscando...",
@@ -3646,6 +3769,9 @@ static const Map<String,dynamic> es = {
       "sorry": "Lo siento...",
       "success": "¡Éxito!",
       "thank_you": "¡Gracias!",
+      "try": {
+        "steps_back_online": "Intente estos pasos para volver a conectarse:"
+      },
       "warning": "¡Advertencia!",
       "welcome": "¡Bienvenido!",
       "whats_new": "¿Qué hay de nuevo?",
