@@ -1,12 +1,36 @@
 {
   "core": {
     "error": {
-      "cannot_reach_server": "Nous nous excusons pour la gêne occasionnée, mais il y a actuellement un problème de connexion avec le serveur. Veuillez réessayer ultérieurement.",
-      "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
+      "cannot_reach_server": "Nous nous excusons pour le dérangement, mais il y a actuellement un problème de connexion avec le serveur. Veuillez réessayer ultérieurement.",
+      "error_occurred": {
+        "exclamation": "Une erreur s'est produite!",
+        "please": "Nos excuses, une erreur s'est produite. Veuillez réessayer plus ultérieurement."
+      },
+      "invalid": {
+        "data": {
+          "period": "Données invalides.",
+          "type": "Type de données invalide."
+        },
+        "file_type": "Type de fichier invalide."
+      },
+      "service": {
+        "unavailable": "Le service est actuellement indisponible."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Vérifiez votre modem et votre routeur.",
-      "reconnect_to_your_wifi_network": "Reconnectez-vous à votre réseau Wi-Fi."
+      "ensure": {
+        "app_up_to_date": "Assurez-vous que l'application est mise à jour avec la dernière version.",
+        "internet_restrictions": "Assurez-vous qu'aucun pare-feu ou restrictions réseau n'empêchent l'accès au service."
+      },
+      "issue_persist_contact_support": "Si le problème persiste, veuillez contacter notre équipe d'assistance.",
+      "reconnect_to_your_wifi_network": "Reconnectez-vous à votre réseau Wi-Fi.",
+      "restart_device_check_connection": "Redémarrez votre appareil et vérifiez votre connexion internet.",
+      "service": {
+        "not_available_current_location": "Le service peut ne pas être disponible à votre emplacement actuel.",
+        "not_operational": "Le service peut ne pas être opérationnel en ce moment. Veuillez vérifier son état ou essayer d'y accéder plus tard."
+      },
+      "several_reasons": "Il pourrait y avoir plusieurs raisons:"
     },
     "label": {
       "accept": "Accepter",
@@ -265,6 +289,7 @@
       "selection": "Sélection",
       "sell": "Vendre",
       "semi_annually": "semi-annuellement",
+      "service_unavailable": "Service indisponible",
       "share": {
         "app": "Partager cette application",
         "text": "Partager"

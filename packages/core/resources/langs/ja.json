@@ -1,12 +1,36 @@
 {
   "core": {
     "error": {
-      "cannot_reach_server": "申し訳ありませんが、現在サーバーに接続できません。後でもう一度お試しください。",
-      "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
+      "cannot_reach_server": "ご迷惑をおかけして申し訳ございませんが、現在サーバーとの接続に問題があります。後ほど再度お試しください。",
+      "error_occurred": {
+        "exclamation": "エラーが発生しました！",
+        "please": "申し訳ございません、エラーが発生しました。後ほど再度お試しください。"
+      },
+      "invalid": {
+        "data": {
+          "period": "無効なデータ。",
+          "type": "無効なデータタイプ。"
+        },
+        "file_type": "無効なファイルタイプ。"
+      },
+      "service": {
+        "unavailable": "サービスは現在利用できません。"
+      }
     },
     "help": {
       "check_your_modem_and_router": "モデムとルーターを確認してください。",
-      "reconnect_to_your_wifi_network": "Wi-Fiネットワークに再接続してください。"
+      "ensure": {
+        "app_up_to_date": "アプリが最新であることを確認してください。",
+        "internet_restrictions": "ファイアウォールやネットワークの制限がサービスへのアクセスを妨げていないことを確認してください。"
+      },
+      "issue_persist_contact_support": "問題が解決しない場合は、サポートチームにお問い合わせください。",
+      "reconnect_to_your_wifi_network": "Wi-Fiネットワークに再接続してください。",
+      "restart_device_check_connection": "デバイスを再起動し、インターネット接続を確認してください。",
+      "service": {
+        "not_available_current_location": "現在の場所ではサービスを利用できない場合があります。",
+        "not_operational": "サービスが現在稼働していない場合があります。その状態を確認するか、後ほど再度アクセスしてみてください。"
+      },
+      "several_reasons": "いくつかの原因が考えられます："
     },
     "label": {
       "accept": "受け入れる",
@@ -265,6 +289,7 @@
       "selection": "選択",
       "sell": "売却",
       "semi_annually": "半年ごとに",
+      "service_unavailable": "サービス利用不可",
       "share": {
         "app": "このアプリを共有",
         "text": "共有"

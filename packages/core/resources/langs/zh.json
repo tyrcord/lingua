@@ -1,12 +1,36 @@
 {
   "core": {
     "error": {
-      "cannot_reach_server": "对不起，目前与服务器的连接存在问题。请稍后再试。",
-      "error_occurred": "抱歉，发生错误。请稍后再试。"
+      "cannot_reach_server": "很抱歉给您带来不便，但目前服务器连接存在问题。请稍后再试。",
+      "error_occurred": {
+        "exclamation": "发生了错误！",
+        "please": "很抱歉，发生了错误。请稍后再试。"
+      },
+      "invalid": {
+        "data": {
+          "period": "数据无效。",
+          "type": "数据类型无效。"
+        },
+        "file_type": "文件类型无效。"
+      },
+      "service": {
+        "unavailable": "服务目前不可用。"
+      }
     },
     "help": {
-      "check_your_modem_and_router": "检查您的调制解调器和路由器。",
-      "reconnect_to_your_wifi_network": "重新连接到您的Wi-Fi网络。"
+      "check_your_modem_and_router": "请检查您的调制解调器和路由器。",
+      "ensure": {
+        "app_up_to_date": "请确保应用程序已更新至最新版本。",
+        "internet_restrictions": "确保没有防火墙或网络限制阻止访问服务。"
+      },
+      "issue_persist_contact_support": "如果问题仍然存在，请联系我们的支持团队寻求帮助。",
+      "reconnect_to_your_wifi_network": "请重新连接到您的Wi-Fi网络。",
+      "restart_device_check_connection": "请重新启动您的设备并检查您的互联网连接。",
+      "service": {
+        "not_available_current_location": "服务可能在您当前的位置不可用。",
+        "not_operational": "服务可能目前不在运行状态。请检查其状态或稍后再试访问。"
+      },
+      "several_reasons": "可能有以下几个原因："
     },
     "label": {
       "accept": "接受",
@@ -265,6 +289,7 @@
       "selection": "选择",
       "sell": "出售",
       "semi_annually": "半年一次",
+      "service_unavailable": "服务不可用",
       "share": {
         "app": "分享此应用",
         "text": "分享"

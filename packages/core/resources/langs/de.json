@@ -1,12 +1,36 @@
 {
   "core": {
     "error": {
-      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es besteht derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.",
-      "error_occurred": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es gibt derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es später erneut.",
+      "error_occurred": {
+        "exclamation": "Ein Fehler ist aufgetreten!",
+        "please": "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+      },
+      "invalid": {
+        "data": {
+          "period": "Ungültige Daten.",
+          "type": "Ungültiger Datentyp."
+        },
+        "file_type": "Ungültiger Dateityp."
+      },
+      "service": {
+        "unavailable": "Der Dienst ist derzeit nicht verfügbar."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Überprüfen Sie Ihr Modem und Ihren Router.",
-      "reconnect_to_your_wifi_network": "Stellen Sie die Verbindung zu Ihrem WLAN-Netzwerk wieder her."
+      "ensure": {
+        "app_up_to_date": "Stellen Sie sicher, dass die App auf dem neuesten Stand ist.",
+        "internet_restrictions": "Stellen Sie sicher, dass keine Firewall oder Netzwerkeinschränkungen den Zugriff auf den Dienst verhindern."
+      },
+      "issue_persist_contact_support": "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
+      "reconnect_to_your_wifi_network": "Verbinden Sie sich erneut mit Ihrem WLAN-Netzwerk.",
+      "restart_device_check_connection": "Starten Sie Ihr Gerät neu und überprüfen Sie Ihre Internetverbindung.",
+      "service": {
+        "not_available_current_location": "Der Dienst ist möglicherweise an Ihrem aktuellen Standort nicht verfügbar.",
+        "not_operational": "Der Dienst ist möglicherweise derzeit nicht in Betrieb. Bitte überprüfen Sie seinen Status oder versuchen Sie es später erneut."
+      },
+      "several_reasons": "Es könnte mehrere Gründe geben:"
     },
     "label": {
       "accept": "Akzeptieren",
@@ -265,6 +289,7 @@
       "selection": "Auswahl",
       "sell": "Verkaufen",
       "semi_annually": "halbjährlich",
+      "service_unavailable": "Dienst nicht verfügbar",
       "share": {
         "app": "Diese App teilen",
         "text": "Teilen"

@@ -2,10 +2,28 @@
 
 abstract class CoreLocaleKeys {
   static const core_error_cannot_reach_server = 'core.error.cannot_reach_server';
+  static const core_error_error_occurred_exclamation = 'core.error.error_occurred.exclamation';
+  static const core_error_error_occurred_please = 'core.error.error_occurred.please';
   static const core_error_error_occurred = 'core.error.error_occurred';
+  static const core_error_invalid_data_period = 'core.error.invalid.data.period';
+  static const core_error_invalid_data_type = 'core.error.invalid.data.type';
+  static const core_error_invalid_data = 'core.error.invalid.data';
+  static const core_error_invalid_file_type = 'core.error.invalid.file_type';
+  static const core_error_invalid = 'core.error.invalid';
+  static const core_error_service_unavailable = 'core.error.service.unavailable';
+  static const core_error_service = 'core.error.service';
   static const core_error = 'core.error';
   static const core_help_check_your_modem_and_router = 'core.help.check_your_modem_and_router';
+  static const core_help_ensure_app_up_to_date = 'core.help.ensure.app_up_to_date';
+  static const core_help_ensure_internet_restrictions = 'core.help.ensure.internet_restrictions';
+  static const core_help_ensure = 'core.help.ensure';
+  static const core_help_issue_persist_contact_support = 'core.help.issue_persist_contact_support';
   static const core_help_reconnect_to_your_wifi_network = 'core.help.reconnect_to_your_wifi_network';
+  static const core_help_restart_device_check_connection = 'core.help.restart_device_check_connection';
+  static const core_help_service_not_available_current_location = 'core.help.service.not_available_current_location';
+  static const core_help_service_not_operational = 'core.help.service.not_operational';
+  static const core_help_service = 'core.help.service';
+  static const core_help_several_reasons = 'core.help.several_reasons';
   static const core_help = 'core.help';
   static const core_label_accept = 'core.label.accept';
   static const core_label_accepted = 'core.label.accepted';
@@ -233,6 +251,7 @@ abstract class CoreLocaleKeys {
   static const core_label_selection = 'core.label.selection';
   static const core_label_sell = 'core.label.sell';
   static const core_label_semi_annually = 'core.label.semi_annually';
+  static const core_label_service_unavailable = 'core.label.service_unavailable';
   static const core_label_share_app = 'core.label.share.app';
   static const core_label_share_text = 'core.label.share.text';
   static const core_label_share = 'core.label.share';

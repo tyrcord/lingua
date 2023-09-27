@@ -2,11 +2,35 @@
   "core": {
     "error": {
       "cannot_reach_server": "We apologize for the inconvenience, but there is currently a connection issue with the server. Please try again at a later time.",
-      "error_occurred": "Apologies, an error has occurred. Please try again later."
+      "error_occurred": {
+        "exclamation": "An error has occurred!",
+        "please": "Apologies, an error has occurred. Please try again later."
+      },
+      "invalid": {
+        "data": {
+          "period": "Invalid data.",
+          "type": "Invalid data type."
+        },
+        "file_type": "Invalid file type."
+      },
+      "service": {
+        "unavailable": "The service is currently unavailable."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Check your modem and router.",
-      "reconnect_to_your_wifi_network": "Reconnect to your Wi-Fi network."
+      "ensure": {
+        "app_up_to_date": "Ensure the app is up to date.",
+        "internet_restrictions": "Ensure no firewall or network restrictions are preventing access to the service."
+      },
+      "issue_persist_contact_support": "If the issue persists, please contact our support team for assistance.",
+      "reconnect_to_your_wifi_network": "Reconnect to your Wi-Fi network.",
+      "restart_device_check_connection": "Restart your device and check your internet connection.",
+      "service": {
+        "not_available_current_location": "The service may not be available in your current location.",
+        "not_operational": "The service may not be operational at this time. Please verify its status or attempt to access it later."
+      },
+      "several_reasons": "There could be several reasons:"
     },
     "label": {
       "accept": "Accept",
@@ -265,6 +289,7 @@
       "selection": "Selection",
       "sell": "Sell",
       "semi_annually": "Semi-annually",
+      "service_unavailable": "Service unavailable",
       "share": {
         "app": "Share this app",
         "text": "Share"

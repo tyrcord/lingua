@@ -1,12 +1,36 @@
 {
   "core": {
     "error": {
-      "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Per favore, riprova più tardi.",
-      "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
+      "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Si prega di riprovare più tardi.",
+      "error_occurred": {
+        "exclamation": "Si è verificato un errore!",
+        "please": "Ci scusiamo, si è verificato un errore. Si prega di riprovare più tardi."
+      },
+      "invalid": {
+        "data": {
+          "period": "Dati non validi.",
+          "type": "Tipo di dati non valido."
+        },
+        "file_type": "Tipo di file non valido."
+      },
+      "service": {
+        "unavailable": "Il servizio non è attualmente disponibile."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Controlla il tuo modem e router.",
-      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi."
+      "ensure": {
+        "app_up_to_date": "Assicurati che l'app sia aggiornata.",
+        "internet_restrictions": "Assicurati che nessun firewall o restrizioni di rete impediscono l'accesso al servizio."
+      },
+      "issue_persist_contact_support": "Se il problema persiste, si prega di contattare il nostro team di supporto.",
+      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi.",
+      "restart_device_check_connection": "Riavvia il tuo dispositivo e controlla la tua connessione internet.",
+      "service": {
+        "not_available_current_location": "Il servizio potrebbe non essere disponibile nella tua attuale posizione.",
+        "not_operational": "Il servizio potrebbe non essere operativo in questo momento. Si prega di verificarne lo stato o di tentare di accedervi più tardi."
+      },
+      "several_reasons": "Ci potrebbero essere diverse ragioni:"
     },
     "label": {
       "accept": "Accetta",
@@ -265,6 +289,7 @@
       "selection": "Selezione",
       "sell": "Vendere",
       "semi_annually": "semestralmente",
+      "service_unavailable": "Servizio non disponibile",
       "share": {
         "app": "Condividi questa app",
         "text": "Condividi"

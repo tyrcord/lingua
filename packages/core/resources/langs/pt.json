@@ -1,12 +1,36 @@
 {
   "core": {
     "error": {
-      "cannot_reach_server": "Pedimos desculpas pelo inconveniente, mas há atualmente um problema de conexão com o servidor. Por favor, tente novamente mais tarde.",
-      "error_occurred": "Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde."
+      "cannot_reach_server": "Pedimos desculpa pelo incómodo, mas de momento há um problema de ligação com o servidor. Por favor, tente novamente mais tarde.",
+      "error_occurred": {
+        "exclamation": "Ocorreu um erro!",
+        "please": "Pedimos desculpa, ocorreu um erro. Por favor, tente novamente mais tarde."
+      },
+      "invalid": {
+        "data": {
+          "period": "Dados inválidos.",
+          "type": "Tipo de dados inválido."
+        },
+        "file_type": "Tipo de arquivo inválido."
+      },
+      "service": {
+        "unavailable": "O serviço está atualmente indisponível."
+      }
     },
     "help": {
-      "check_your_modem_and_router": "Verifique o seu modem e roteador.",
-      "reconnect_to_your_wifi_network": "Reconecte-se à sua rede Wi-Fi."
+      "check_your_modem_and_router": "Verifique o seu modem e router.",
+      "ensure": {
+        "app_up_to_date": "Certifique-se de que a aplicação está atualizada.",
+        "internet_restrictions": "Certifique-se de que não existem restrições de firewall ou de rede a impedir o acesso ao serviço."
+      },
+      "issue_persist_contact_support": "Se o problema persistir, por favor contacte a nossa equipa de suporte.",
+      "reconnect_to_your_wifi_network": "Reconecte-se à sua rede Wi-Fi.",
+      "restart_device_check_connection": "Reinicie o seu dispositivo e verifique a sua ligação à internet.",
+      "service": {
+        "not_available_current_location": "O serviço pode não estar disponível na sua localização atual.",
+        "not_operational": "O serviço pode não estar operacional neste momento. Por favor, verifique o seu estado ou tente aceder mais tarde."
+      },
+      "several_reasons": "Poderá haver várias razões:"
     },
     "label": {
       "accept": "Aceitar",
@@ -265,6 +289,7 @@
       "selection": "Seleção",
       "sell": "Vender",
       "semi_annually": "semestralmente",
+      "service_unavailable": "Serviço indisponível",
       "share": {
         "app": "Compartilhar este aplicativo",
         "text": "Compartilhar"

@@ -14,12 +14,36 @@ class CoreCodegenLoader extends AssetLoader {
   static const Map<String,dynamic> zh = {
   "core": {
     "error": {
-      "cannot_reach_server": "对不起，目前与服务器的连接存在问题。请稍后再试。",
-      "error_occurred": "抱歉，发生错误。请稍后再试。"
+      "cannot_reach_server": "很抱歉给您带来不便，但目前服务器连接存在问题。请稍后再试。",
+      "error_occurred": {
+        "exclamation": "发生了错误！",
+        "please": "很抱歉，发生了错误。请稍后再试。"
+      },
+      "invalid": {
+        "data": {
+          "period": "数据无效。",
+          "type": "数据类型无效。"
+        },
+        "file_type": "文件类型无效。"
+      },
+      "service": {
+        "unavailable": "服务目前不可用。"
+      }
     },
     "help": {
-      "check_your_modem_and_router": "检查您的调制解调器和路由器。",
-      "reconnect_to_your_wifi_network": "重新连接到您的Wi-Fi网络。"
+      "check_your_modem_and_router": "请检查您的调制解调器和路由器。",
+      "ensure": {
+        "app_up_to_date": "请确保应用程序已更新至最新版本。",
+        "internet_restrictions": "确保没有防火墙或网络限制阻止访问服务。"
+      },
+      "issue_persist_contact_support": "如果问题仍然存在，请联系我们的支持团队寻求帮助。",
+      "reconnect_to_your_wifi_network": "请重新连接到您的Wi-Fi网络。",
+      "restart_device_check_connection": "请重新启动您的设备并检查您的互联网连接。",
+      "service": {
+        "not_available_current_location": "服务可能在您当前的位置不可用。",
+        "not_operational": "服务可能目前不在运行状态。请检查其状态或稍后再试访问。"
+      },
+      "several_reasons": "可能有以下几个原因："
     },
     "label": {
       "accept": "接受",
@@ -278,6 +302,7 @@ class CoreCodegenLoader extends AssetLoader {
       "selection": "选择",
       "sell": "出售",
       "semi_annually": "半年一次",
+      "service_unavailable": "服务不可用",
       "share": {
         "app": "分享此应用",
         "text": "分享"
@@ -434,12 +459,36 @@ class CoreCodegenLoader extends AssetLoader {
 static const Map<String,dynamic> ja = {
   "core": {
     "error": {
-      "cannot_reach_server": "申し訳ありませんが、現在サーバーに接続できません。後でもう一度お試しください。",
-      "error_occurred": "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
+      "cannot_reach_server": "ご迷惑をおかけして申し訳ございませんが、現在サーバーとの接続に問題があります。後ほど再度お試しください。",
+      "error_occurred": {
+        "exclamation": "エラーが発生しました！",
+        "please": "申し訳ございません、エラーが発生しました。後ほど再度お試しください。"
+      },
+      "invalid": {
+        "data": {
+          "period": "無効なデータ。",
+          "type": "無効なデータタイプ。"
+        },
+        "file_type": "無効なファイルタイプ。"
+      },
+      "service": {
+        "unavailable": "サービスは現在利用できません。"
+      }
     },
     "help": {
       "check_your_modem_and_router": "モデムとルーターを確認してください。",
-      "reconnect_to_your_wifi_network": "Wi-Fiネットワークに再接続してください。"
+      "ensure": {
+        "app_up_to_date": "アプリが最新であることを確認してください。",
+        "internet_restrictions": "ファイアウォールやネットワークの制限がサービスへのアクセスを妨げていないことを確認してください。"
+      },
+      "issue_persist_contact_support": "問題が解決しない場合は、サポートチームにお問い合わせください。",
+      "reconnect_to_your_wifi_network": "Wi-Fiネットワークに再接続してください。",
+      "restart_device_check_connection": "デバイスを再起動し、インターネット接続を確認してください。",
+      "service": {
+        "not_available_current_location": "現在の場所ではサービスを利用できない場合があります。",
+        "not_operational": "サービスが現在稼働していない場合があります。その状態を確認するか、後ほど再度アクセスしてみてください。"
+      },
+      "several_reasons": "いくつかの原因が考えられます："
     },
     "label": {
       "accept": "受け入れる",
@@ -698,6 +747,7 @@ static const Map<String,dynamic> ja = {
       "selection": "選択",
       "sell": "売却",
       "semi_annually": "半年ごとに",
+      "service_unavailable": "サービス利用不可",
       "share": {
         "app": "このアプリを共有",
         "text": "共有"
@@ -854,12 +904,36 @@ static const Map<String,dynamic> ja = {
 static const Map<String,dynamic> de = {
   "core": {
     "error": {
-      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es besteht derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.",
-      "error_occurred": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es gibt derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es später erneut.",
+      "error_occurred": {
+        "exclamation": "Ein Fehler ist aufgetreten!",
+        "please": "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+      },
+      "invalid": {
+        "data": {
+          "period": "Ungültige Daten.",
+          "type": "Ungültiger Datentyp."
+        },
+        "file_type": "Ungültiger Dateityp."
+      },
+      "service": {
+        "unavailable": "Der Dienst ist derzeit nicht verfügbar."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Überprüfen Sie Ihr Modem und Ihren Router.",
-      "reconnect_to_your_wifi_network": "Stellen Sie die Verbindung zu Ihrem WLAN-Netzwerk wieder her."
+      "ensure": {
+        "app_up_to_date": "Stellen Sie sicher, dass die App auf dem neuesten Stand ist.",
+        "internet_restrictions": "Stellen Sie sicher, dass keine Firewall oder Netzwerkeinschränkungen den Zugriff auf den Dienst verhindern."
+      },
+      "issue_persist_contact_support": "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
+      "reconnect_to_your_wifi_network": "Verbinden Sie sich erneut mit Ihrem WLAN-Netzwerk.",
+      "restart_device_check_connection": "Starten Sie Ihr Gerät neu und überprüfen Sie Ihre Internetverbindung.",
+      "service": {
+        "not_available_current_location": "Der Dienst ist möglicherweise an Ihrem aktuellen Standort nicht verfügbar.",
+        "not_operational": "Der Dienst ist möglicherweise derzeit nicht in Betrieb. Bitte überprüfen Sie seinen Status oder versuchen Sie es später erneut."
+      },
+      "several_reasons": "Es könnte mehrere Gründe geben:"
     },
     "label": {
       "accept": "Akzeptieren",
@@ -1118,6 +1192,7 @@ static const Map<String,dynamic> de = {
       "selection": "Auswahl",
       "sell": "Verkaufen",
       "semi_annually": "halbjährlich",
+      "service_unavailable": "Dienst nicht verfügbar",
       "share": {
         "app": "Diese App teilen",
         "text": "Teilen"
@@ -1274,12 +1349,36 @@ static const Map<String,dynamic> de = {
 static const Map<String,dynamic> ru = {
   "core": {
     "error": {
-      "cannot_reach_server": "Приносим извинения за неудобства, но в данный момент возникла проблема с подключением к серверу. Пожалуйста, попробуйте позже.",
-      "error_occurred": "Извините, произошла ошибка. Пожалуйста, попробуйте еще раз позже."
+      "cannot_reach_server": "Приносим извинения за неудобства, но в настоящее время возникли проблемы с соединением с сервером. Пожалуйста, попробуйте позже.",
+      "error_occurred": {
+        "exclamation": "Произошла ошибка!",
+        "please": "Приносим извинения, произошла ошибка. Пожалуйста, попробуйте позже."
+      },
+      "invalid": {
+        "data": {
+          "period": "Неверные данные.",
+          "type": "Неверный тип данных."
+        },
+        "file_type": "Неверный тип файла."
+      },
+      "service": {
+        "unavailable": "Сервис в настоящее время недоступен."
+      }
     },
     "help": {
-      "check_your_modem_and_router": "Проверьте ваш модем и роутер.",
-      "reconnect_to_your_wifi_network": "Подключитесь к вашей Wi-Fi сети заново."
+      "check_your_modem_and_router": "Проверьте ваш модем и маршрутизатор.",
+      "ensure": {
+        "app_up_to_date": "Убедитесь, что приложение обновлено до последней версии.",
+        "internet_restrictions": "Убедитесь, что нет ограничений сетевого экрана или сетевых ограничений, блокирующих доступ к сервису."
+      },
+      "issue_persist_contact_support": "Если проблема не исчезает, обратитесь в службу поддержки.",
+      "reconnect_to_your_wifi_network": "Подключитесь заново к вашей Wi-Fi сети.",
+      "restart_device_check_connection": "Перезагрузите ваше устройство и проверьте интернет-соединение.",
+      "service": {
+        "not_available_current_location": "Услуга может быть недоступна в вашем текущем местоположении.",
+        "not_operational": "Услуга может быть не в рабочем состоянии в данный момент. Пожалуйста, проверьте ее статус или попробуйте получить доступ к ней позже."
+      },
+      "several_reasons": "Причин может быть несколько:"
     },
     "label": {
       "accept": "Принять",
@@ -1538,6 +1637,7 @@ static const Map<String,dynamic> ru = {
       "selection": "Выбор",
       "sell": "Продать",
       "semi_annually": "полугодовой",
+      "service_unavailable": "Сервис недоступен",
       "share": {
         "app": "Поделиться этим приложением",
         "text": "Поделиться"
@@ -1694,12 +1794,36 @@ static const Map<String,dynamic> ru = {
 static const Map<String,dynamic> pt = {
   "core": {
     "error": {
-      "cannot_reach_server": "Pedimos desculpas pelo inconveniente, mas há atualmente um problema de conexão com o servidor. Por favor, tente novamente mais tarde.",
-      "error_occurred": "Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde."
+      "cannot_reach_server": "Pedimos desculpa pelo incómodo, mas de momento há um problema de ligação com o servidor. Por favor, tente novamente mais tarde.",
+      "error_occurred": {
+        "exclamation": "Ocorreu um erro!",
+        "please": "Pedimos desculpa, ocorreu um erro. Por favor, tente novamente mais tarde."
+      },
+      "invalid": {
+        "data": {
+          "period": "Dados inválidos.",
+          "type": "Tipo de dados inválido."
+        },
+        "file_type": "Tipo de arquivo inválido."
+      },
+      "service": {
+        "unavailable": "O serviço está atualmente indisponível."
+      }
     },
     "help": {
-      "check_your_modem_and_router": "Verifique o seu modem e roteador.",
-      "reconnect_to_your_wifi_network": "Reconecte-se à sua rede Wi-Fi."
+      "check_your_modem_and_router": "Verifique o seu modem e router.",
+      "ensure": {
+        "app_up_to_date": "Certifique-se de que a aplicação está atualizada.",
+        "internet_restrictions": "Certifique-se de que não existem restrições de firewall ou de rede a impedir o acesso ao serviço."
+      },
+      "issue_persist_contact_support": "Se o problema persistir, por favor contacte a nossa equipa de suporte.",
+      "reconnect_to_your_wifi_network": "Reconecte-se à sua rede Wi-Fi.",
+      "restart_device_check_connection": "Reinicie o seu dispositivo e verifique a sua ligação à internet.",
+      "service": {
+        "not_available_current_location": "O serviço pode não estar disponível na sua localização atual.",
+        "not_operational": "O serviço pode não estar operacional neste momento. Por favor, verifique o seu estado ou tente aceder mais tarde."
+      },
+      "several_reasons": "Poderá haver várias razões:"
     },
     "label": {
       "accept": "Aceitar",
@@ -1958,6 +2082,7 @@ static const Map<String,dynamic> pt = {
       "selection": "Seleção",
       "sell": "Vender",
       "semi_annually": "semestralmente",
+      "service_unavailable": "Serviço indisponível",
       "share": {
         "app": "Compartilhar este aplicativo",
         "text": "Compartilhar"
@@ -2115,11 +2240,35 @@ static const Map<String,dynamic> en = {
   "core": {
     "error": {
       "cannot_reach_server": "We apologize for the inconvenience, but there is currently a connection issue with the server. Please try again at a later time.",
-      "error_occurred": "Apologies, an error has occurred. Please try again later."
+      "error_occurred": {
+        "exclamation": "An error has occurred!",
+        "please": "Apologies, an error has occurred. Please try again later."
+      },
+      "invalid": {
+        "data": {
+          "period": "Invalid data.",
+          "type": "Invalid data type."
+        },
+        "file_type": "Invalid file type."
+      },
+      "service": {
+        "unavailable": "The service is currently unavailable."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Check your modem and router.",
-      "reconnect_to_your_wifi_network": "Reconnect to your Wi-Fi network."
+      "ensure": {
+        "app_up_to_date": "Ensure the app is up to date.",
+        "internet_restrictions": "Ensure no firewall or network restrictions are preventing access to the service."
+      },
+      "issue_persist_contact_support": "If the issue persists, please contact our support team for assistance.",
+      "reconnect_to_your_wifi_network": "Reconnect to your Wi-Fi network.",
+      "restart_device_check_connection": "Restart your device and check your internet connection.",
+      "service": {
+        "not_available_current_location": "The service may not be available in your current location.",
+        "not_operational": "The service may not be operational at this time. Please verify its status or attempt to access it later."
+      },
+      "several_reasons": "There could be several reasons:"
     },
     "label": {
       "accept": "Accept",
@@ -2378,6 +2527,7 @@ static const Map<String,dynamic> en = {
       "selection": "Selection",
       "sell": "Sell",
       "semi_annually": "Semi-annually",
+      "service_unavailable": "Service unavailable",
       "share": {
         "app": "Share this app",
         "text": "Share"
@@ -2534,12 +2684,36 @@ static const Map<String,dynamic> en = {
 static const Map<String,dynamic> it = {
   "core": {
     "error": {
-      "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Per favore, riprova più tardi.",
-      "error_occurred": "Spiacenti, si è verificato un errore. Per favore, riprova più tardi."
+      "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Si prega di riprovare più tardi.",
+      "error_occurred": {
+        "exclamation": "Si è verificato un errore!",
+        "please": "Ci scusiamo, si è verificato un errore. Si prega di riprovare più tardi."
+      },
+      "invalid": {
+        "data": {
+          "period": "Dati non validi.",
+          "type": "Tipo di dati non valido."
+        },
+        "file_type": "Tipo di file non valido."
+      },
+      "service": {
+        "unavailable": "Il servizio non è attualmente disponibile."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Controlla il tuo modem e router.",
-      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi."
+      "ensure": {
+        "app_up_to_date": "Assicurati che l'app sia aggiornata.",
+        "internet_restrictions": "Assicurati che nessun firewall o restrizioni di rete impediscono l'accesso al servizio."
+      },
+      "issue_persist_contact_support": "Se il problema persiste, si prega di contattare il nostro team di supporto.",
+      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi.",
+      "restart_device_check_connection": "Riavvia il tuo dispositivo e controlla la tua connessione internet.",
+      "service": {
+        "not_available_current_location": "Il servizio potrebbe non essere disponibile nella tua attuale posizione.",
+        "not_operational": "Il servizio potrebbe non essere operativo in questo momento. Si prega di verificarne lo stato o di tentare di accedervi più tardi."
+      },
+      "several_reasons": "Ci potrebbero essere diverse ragioni:"
     },
     "label": {
       "accept": "Accetta",
@@ -2798,6 +2972,7 @@ static const Map<String,dynamic> it = {
       "selection": "Selezione",
       "sell": "Vendere",
       "semi_annually": "semestralmente",
+      "service_unavailable": "Servizio non disponibile",
       "share": {
         "app": "Condividi questa app",
         "text": "Condividi"
@@ -2954,12 +3129,36 @@ static const Map<String,dynamic> it = {
 static const Map<String,dynamic> fr = {
   "core": {
     "error": {
-      "cannot_reach_server": "Nous nous excusons pour la gêne occasionnée, mais il y a actuellement un problème de connexion avec le serveur. Veuillez réessayer ultérieurement.",
-      "error_occurred": "Désolé, une erreur s'est produite. Veuillez réessayer ultérieurement."
+      "cannot_reach_server": "Nous nous excusons pour le dérangement, mais il y a actuellement un problème de connexion avec le serveur. Veuillez réessayer ultérieurement.",
+      "error_occurred": {
+        "exclamation": "Une erreur s'est produite!",
+        "please": "Nos excuses, une erreur s'est produite. Veuillez réessayer plus ultérieurement."
+      },
+      "invalid": {
+        "data": {
+          "period": "Données invalides.",
+          "type": "Type de données invalide."
+        },
+        "file_type": "Type de fichier invalide."
+      },
+      "service": {
+        "unavailable": "Le service est actuellement indisponible."
+      }
     },
     "help": {
       "check_your_modem_and_router": "Vérifiez votre modem et votre routeur.",
-      "reconnect_to_your_wifi_network": "Reconnectez-vous à votre réseau Wi-Fi."
+      "ensure": {
+        "app_up_to_date": "Assurez-vous que l'application est mise à jour avec la dernière version.",
+        "internet_restrictions": "Assurez-vous qu'aucun pare-feu ou restrictions réseau n'empêchent l'accès au service."
+      },
+      "issue_persist_contact_support": "Si le problème persiste, veuillez contacter notre équipe d'assistance.",
+      "reconnect_to_your_wifi_network": "Reconnectez-vous à votre réseau Wi-Fi.",
+      "restart_device_check_connection": "Redémarrez votre appareil et vérifiez votre connexion internet.",
+      "service": {
+        "not_available_current_location": "Le service peut ne pas être disponible à votre emplacement actuel.",
+        "not_operational": "Le service peut ne pas être opérationnel en ce moment. Veuillez vérifier son état ou essayer d'y accéder plus tard."
+      },
+      "several_reasons": "Il pourrait y avoir plusieurs raisons:"
     },
     "label": {
       "accept": "Accepter",
@@ -3218,6 +3417,7 @@ static const Map<String,dynamic> fr = {
       "selection": "Sélection",
       "sell": "Vendre",
       "semi_annually": "semi-annuellement",
+      "service_unavailable": "Service indisponible",
       "share": {
         "app": "Partager cette application",
         "text": "Partager"
@@ -3374,12 +3574,36 @@ static const Map<String,dynamic> fr = {
 static const Map<String,dynamic> es = {
   "core": {
     "error": {
-      "cannot_reach_server": "Lamentamos las molestias, pero actualmente hay un problema de conexión con el servidor. Por favor, inténtalo de nuevo más tarde.",
-      "error_occurred": "Disculpa, ha ocurrido un error. Por favor, inténtalo nuevamente más tarde."
+      "cannot_reach_server": "Nos disculpamos por las molestias, pero actualmente hay un problema de conexión con el servidor. Por favor, inténtelo de nuevo más tarde.",
+      "error_occurred": {
+        "exclamation": "¡Ha ocurrido un error!",
+        "please": "Disculpas, ha ocurrido un error. Por favor, inténtelo de nuevo más tarde."
+      },
+      "invalid": {
+        "data": {
+          "period": "Datos inválidos.",
+          "type": "Tipo de datos inválido."
+        },
+        "file_type": "Tipo de archivo inválido."
+      },
+      "service": {
+        "unavailable": "El servicio no está disponible en este momento."
+      }
     },
     "help": {
-      "check_your_modem_and_router": "Verifique su módem y router.",
-      "reconnect_to_your_wifi_network": "Vuelva a conectarse a su red Wi-Fi."
+      "check_your_modem_and_router": "Revise su módem y router.",
+      "ensure": {
+        "app_up_to_date": "Asegúrese de que la aplicación esté actualizada.",
+        "internet_restrictions": "Asegúrese de que no haya restricciones de firewall o de red que impidan el acceso al servicio."
+      },
+      "issue_persist_contact_support": "Si el problema persiste, póngase en contacto con nuestro equipo de soporte.",
+      "reconnect_to_your_wifi_network": "Reconéctese a su red Wi-Fi.",
+      "restart_device_check_connection": "Reinicie su dispositivo y compruebe su conexión a Internet.",
+      "service": {
+        "not_available_current_location": "El servicio puede no estar disponible en su ubicación actual.",
+        "not_operational": "El servicio puede no estar operativo en este momento. Por favor, verifique su estado o intente acceder más tarde."
+      },
+      "several_reasons": "Podría haber varias razones:"
     },
     "label": {
       "accept": "Aceptar",
@@ -3638,6 +3862,7 @@ static const Map<String,dynamic> es = {
       "selection": "Selección",
       "sell": "Vender",
       "semi_annually": "semestralmente",
+      "service_unavailable": "Servicio no disponible",
       "share": {
         "app": "Compartir esta aplicación",
         "text": "Compartir"
