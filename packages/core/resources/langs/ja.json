@@ -76,6 +76,10 @@
       "confirm": "確認",
       "confirmation": "確認",
       "connected": "接続済み",
+      "contact": {
+        "support": "サポートにお問い合わせ",
+        "us": "お問い合わせ"
+      },
       "continue": "続ける",
       "copy": "コピー",
       "country": "国",

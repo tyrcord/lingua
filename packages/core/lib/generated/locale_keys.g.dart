@@ -61,6 +61,9 @@ abstract class CoreLocaleKeys {
   static const core_label_confirm = 'core.label.confirm';
   static const core_label_confirmation = 'core.label.confirmation';
   static const core_label_connected = 'core.label.connected';
+  static const core_label_contact_support = 'core.label.contact.support';
+  static const core_label_contact_us = 'core.label.contact.us';
+  static const core_label_contact = 'core.label.contact';
   static const core_label_continue = 'core.label.continue';
   static const core_label_copy = 'core.label.copy';
   static const core_label_country = 'core.label.country';

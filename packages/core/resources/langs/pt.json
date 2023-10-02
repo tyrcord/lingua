@@ -76,6 +76,10 @@
       "confirm": "Confirmar",
       "confirmation": "Confirmação",
       "connected": "Conectado",
+      "contact": {
+        "support": "Contactar Suporte",
+        "us": "Contacte-nos"
+      },
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",

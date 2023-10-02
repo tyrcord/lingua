@@ -89,6 +89,10 @@ class CoreCodegenLoader extends AssetLoader {
       "confirm": "确认",
       "confirmation": "确认",
       "connected": "已连接",
+      "contact": {
+        "support": "联系支持",
+        "us": "联系我们"
+      },
       "continue": "继续",
       "copy": "复制",
       "country": "国家",
@@ -534,6 +538,10 @@ static const Map<String,dynamic> ja = {
       "confirm": "確認",
       "confirmation": "確認",
       "connected": "接続済み",
+      "contact": {
+        "support": "サポートにお問い合わせ",
+        "us": "お問い合わせ"
+      },
       "continue": "続ける",
       "copy": "コピー",
       "country": "国",
@@ -979,6 +987,10 @@ static const Map<String,dynamic> de = {
       "confirm": "Bestätigen",
       "confirmation": "Bestätigung",
       "connected": "Verbunden",
+      "contact": {
+        "support": "Support kontaktieren",
+        "us": "Kontaktieren Sie uns"
+      },
       "continue": "Weiter",
       "copy": "Kopieren",
       "country": "Land",
@@ -1424,6 +1436,10 @@ static const Map<String,dynamic> ru = {
       "confirm": "Подтвердить",
       "confirmation": "Подтверждение",
       "connected": "Подключено",
+      "contact": {
+        "support": "Связаться со службой поддержки",
+        "us": "Свяжитесь с нами"
+      },
       "continue": "Продолжить",
       "copy": "Копировать",
       "country": "Страна",
@@ -1869,6 +1885,10 @@ static const Map<String,dynamic> pt = {
       "confirm": "Confirmar",
       "confirmation": "Confirmação",
       "connected": "Conectado",
+      "contact": {
+        "support": "Contactar Suporte",
+        "us": "Contacte-nos"
+      },
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",
@@ -2314,6 +2334,10 @@ static const Map<String,dynamic> en = {
       "confirm": "Confirm",
       "confirmation": "Confirmation",
       "connected": "Connected",
+      "contact": {
+        "support": "Contact Support",
+        "us": "Contact Us"
+      },
       "continue": "Continue",
       "copy": "Copy",
       "country": "Country",
@@ -2759,6 +2783,10 @@ static const Map<String,dynamic> it = {
       "confirm": "Conferma",
       "confirmation": "Conferma",
       "connected": "Connesso",
+      "contact": {
+        "support": "Contatta il supporto",
+        "us": "Contattaci"
+      },
       "continue": "Continua",
       "copy": "Copia",
       "country": "Paese",
@@ -3204,6 +3232,10 @@ static const Map<String,dynamic> fr = {
       "confirm": "Confirmer",
       "confirmation": "Confirmation",
       "connected": "Connecté",
+      "contact": {
+        "support": "Contactez le support",
+        "us": "Contactez-nous"
+      },
       "continue": "Continuer",
       "copy": "Copier",
       "country": "Pays",
@@ -3649,6 +3681,10 @@ static const Map<String,dynamic> es = {
       "confirm": "Confirmar",
       "confirmation": "Confirmación",
       "connected": "Conectado",
+      "contact": {
+        "support": "Contactar Soporte",
+        "us": "Contáctenos"
+      },
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",

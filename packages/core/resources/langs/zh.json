@@ -76,6 +76,10 @@
       "confirm": "确认",
       "confirmation": "确认",
       "connected": "已连接",
+      "contact": {
+        "support": "联系支持",
+        "us": "联系我们"
+      },
       "continue": "继续",
       "copy": "复制",
       "country": "国家",

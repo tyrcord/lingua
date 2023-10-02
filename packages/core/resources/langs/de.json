@@ -76,6 +76,10 @@
       "confirm": "Bestätigen",
       "confirmation": "Bestätigung",
       "connected": "Verbunden",
+      "contact": {
+        "support": "Support kontaktieren",
+        "us": "Kontaktieren Sie uns"
+      },
       "continue": "Weiter",
       "copy": "Kopieren",
       "country": "Land",
