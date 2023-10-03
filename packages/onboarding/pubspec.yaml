@@ -1,6 +1,6 @@
 name: lingua_onboarding
 description: Library for internal onboarding localization.
-version: 0.0.12
+version: 0.0.13
 repository: https://github.com/tyrcord/lingua/tree/main/packages/onboarding
 
 environment:

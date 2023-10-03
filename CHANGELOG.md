@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-10-03
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_onboarding` - `v0.0.13`](#lingua_onboarding---v0013)
+
+---
+
+#### `lingua_onboarding` - `v0.0.13`
+
+ - **FEAT**: update onboarding localization.
+
+
 ## 2023-10-02
 
 ### Changes
