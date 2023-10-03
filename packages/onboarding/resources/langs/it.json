@@ -55,6 +55,10 @@
       "description": "Prendi il controllo e fai trading con fiducia e serenità!",
       "intro": "Affina la tua strategia di trading con i nostri strumenti di gestione del rischio per massimizzare i tuoi risultati.",
       "title": "Benvenuti, Traders"
+    },
+    "welcome_vat": {
+      "description": "Inserisci semplicemente l'importo netto, seleziona la tua tariffa e lascia che l'applicazione faccia il resto.",
+      "intro": "Definisci rapidamente e con precisione gli importi dell'IVA specifici per la tua regione."
     }
   }
 }

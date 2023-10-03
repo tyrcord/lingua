@@ -55,6 +55,10 @@
       "description": "Assuma o controle e negocie com confiança e paz de espírito!",
       "intro": "Aperfeiçoe sua estratégia de negociação com nossas ferramentas de gestão de risco para maximizar seus resultados.",
       "title": "Bem-vindos, Traders"
+    },
+    "welcome_vat": {
+      "description": "Simplesmente introduza o montante líquido, selecione a sua taxa e deixe a aplicação fazer o resto.",
+      "intro": "Defina rapidamente e com precisão os montantes de IVA específicos da sua região."
     }
   }
 }

@@ -47,6 +47,9 @@ abstract class OnboardingLocaleKeys {
   static const onboarding_welcome_finance_traders_intro = 'onboarding.welcome_finance_traders.intro';
   static const onboarding_welcome_finance_traders_title = 'onboarding.welcome_finance_traders.title';
   static const onboarding_welcome_finance_traders = 'onboarding.welcome_finance_traders';
+  static const onboarding_welcome_vat_description = 'onboarding.welcome_vat.description';
+  static const onboarding_welcome_vat_intro = 'onboarding.welcome_vat.intro';
+  static const onboarding_welcome_vat = 'onboarding.welcome_vat';
   static const onboarding = 'onboarding';
 
 }

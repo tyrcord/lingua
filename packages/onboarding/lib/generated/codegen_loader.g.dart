@@ -68,6 +68,10 @@ class OnboardingCodegenLoader extends AssetLoader {
       "description": "掌握控制权，带着信心和安心进行交易！",
       "intro": "使用我们的风险管理工具完善您的交易策略，以最大化您的结果。",
       "title": "欢迎，交易者"
+    },
+    "welcome_vat": {
+      "description": "只需输入净额，选择您的费率，然后让应用程序完成剩下的工作。",
+      "intro": "快速准确地定义您所在地区的增值税金额。"
     }
   }
 };
@@ -128,6 +132,10 @@ static const Map<String,dynamic> ja = {
       "description": "自信を持って安心して取引を行いましょう！",
       "intro": "リスク管理ツールを使用して取引戦略を洗練させ、結果を最大化します。",
       "title": "ようこそ、トレーダーの皆様"
+    },
+    "welcome_vat": {
+      "description": "単に純額を入力し、レートを選択し、アプリケーションに残りを任せてください。",
+      "intro": "あなたの地域に特有のVATの金額を迅速かつ正確に定義してください。"
     }
   }
 };
@@ -188,6 +196,10 @@ static const Map<String,dynamic> de = {
       "description": "Nehmen Sie die Kontrolle und handeln Sie mit Vertrauen und Ruhe!",
       "intro": "Verfeinern Sie Ihre Handelsstrategie mit unseren Risikomanagement-Tools, um Ihre Ergebnisse zu maximieren.",
       "title": "Willkommen, Händler"
+    },
+    "welcome_vat": {
+      "description": "Geben Sie einfach den Nettobetrag ein, wählen Sie Ihren Satz und lassen Sie die Anwendung den Rest erledigen.",
+      "intro": "Definieren Sie schnell und genau die Mehrwertsteuerbeträge für Ihre Region."
     }
   }
 };
@@ -248,6 +260,10 @@ static const Map<String,dynamic> ru = {
       "description": "Возьмите контроль и торгуйте с уверенностью и спокойствием!",
       "intro": "Уточните вашу торговую стратегию с помощью наших инструментов управления рисками для максимизации ваших результатов.",
       "title": "Добро пожаловать, Трейдеры"
+    },
+    "welcome_vat": {
+      "description": "Просто введите чистую сумму, выберите вашу ставку и позвольте приложению сделать остальное.",
+      "intro": "Быстро и точно определите суммы НДС, специфичные для вашего региона."
     }
   }
 };
@@ -308,6 +324,10 @@ static const Map<String,dynamic> pt = {
       "description": "Assuma o controle e negocie com confiança e paz de espírito!",
       "intro": "Aperfeiçoe sua estratégia de negociação com nossas ferramentas de gestão de risco para maximizar seus resultados.",
       "title": "Bem-vindos, Traders"
+    },
+    "welcome_vat": {
+      "description": "Simplesmente introduza o montante líquido, selecione a sua taxa e deixe a aplicação fazer o resto.",
+      "intro": "Defina rapidamente e com precisão os montantes de IVA específicos da sua região."
     }
   }
 };
@@ -368,6 +388,10 @@ static const Map<String,dynamic> en = {
       "description": "Take control and trade with confidence and peace of mind!",
       "intro": "Improve your trading strategy with our risk management tools to maximize your results.",
       "title": "Welcome, Traders"
+    },
+    "welcome_vat": {
+      "description": "Simply enter the net amount, select your rate, and let the application do the rest.",
+      "intro": "Quickly and accurately define the VAT amounts specific to your region."
     }
   }
 };
@@ -428,6 +452,10 @@ static const Map<String,dynamic> it = {
       "description": "Prendi il controllo e fai trading con fiducia e serenità!",
       "intro": "Affina la tua strategia di trading con i nostri strumenti di gestione del rischio per massimizzare i tuoi risultati.",
       "title": "Benvenuti, Traders"
+    },
+    "welcome_vat": {
+      "description": "Inserisci semplicemente l'importo netto, seleziona la tua tariffa e lascia che l'applicazione faccia il resto.",
+      "intro": "Definisci rapidamente e con precisione gli importi dell'IVA specifici per la tua regione."
     }
   }
 };
@@ -488,6 +516,10 @@ static const Map<String,dynamic> fr = {
       "description": "Prenez le contrôle et tradez avec confiance et sérénité !",
       "intro": "Affinez votre stratégie de trading avec nos outils de gestion des risques pour maximiser vos résultats.",
       "title": "Bienvenue, Traders"
+    },
+    "welcome_vat": {
+      "description": "Entrez simplement le montant net, sélectionnez votre taux et laissez l'application faire le reste.",
+      "intro": "Définissez rapidement et avec précision les montants de TVA spécifiques à votre région."
     }
   }
 };
@@ -548,6 +580,10 @@ static const Map<String,dynamic> es = {
       "description": "¡Tome el control y opere con confianza y tranquilidad!",
       "intro": "Refine su estrategia de trading con nuestras herramientas de gestión de riesgos para maximizar sus resultados.",
       "title": "¡Bienvenidos, Traders!"
+    },
+    "welcome_vat": {
+      "description": "Simplemente ingrese el monto neto, seleccione su tarifa y deje que la aplicación haga el resto.",
+      "intro": "Defina rápidamente y con precisión los montos del IVA específicos de su región."
     }
   }
 };

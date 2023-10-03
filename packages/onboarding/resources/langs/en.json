@@ -55,6 +55,10 @@
       "description": "Take control and trade with confidence and peace of mind!",
       "intro": "Improve your trading strategy with our risk management tools to maximize your results.",
       "title": "Welcome, Traders"
+    },
+    "welcome_vat": {
+      "description": "Simply enter the net amount, select your rate, and let the application do the rest.",
+      "intro": "Quickly and accurately define the VAT amounts specific to your region."
     }
   }
 }

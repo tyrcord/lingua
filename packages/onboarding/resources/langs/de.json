@@ -55,6 +55,10 @@
       "description": "Nehmen Sie die Kontrolle und handeln Sie mit Vertrauen und Ruhe!",
       "intro": "Verfeinern Sie Ihre Handelsstrategie mit unseren Risikomanagement-Tools, um Ihre Ergebnisse zu maximieren.",
       "title": "Willkommen, Händler"
+    },
+    "welcome_vat": {
+      "description": "Geben Sie einfach den Nettobetrag ein, wählen Sie Ihren Satz und lassen Sie die Anwendung den Rest erledigen.",
+      "intro": "Definieren Sie schnell und genau die Mehrwertsteuerbeträge für Ihre Region."
     }
   }
 }
