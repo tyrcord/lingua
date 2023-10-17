@@ -229,6 +229,8 @@ abstract class CoreLocaleKeys {
   static const core_label_replace_text = 'core.label.replace.text';
   static const core_label_replace = 'core.label.replace';
   static const core_label_replay = 'core.label.replay';
+  static const core_label_report_error = 'core.label.report.error';
+  static const core_label_report_text = 'core.label.report.text';
   static const core_label_report = 'core.label.report';
   static const core_label_required = 'core.label.required';
   static const core_label_reset = 'core.label.reset';

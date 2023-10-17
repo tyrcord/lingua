@@ -265,7 +265,10 @@
         "text": "Ersetzen"
       },
       "replay": "Erneut abspielen",
-      "report": "Bericht",
+      "report": {
+        "error": "Fehler melden",
+        "text": "Bericht"
+      },
       "required": "Erforderlich",
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",

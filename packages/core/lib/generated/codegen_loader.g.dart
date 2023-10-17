@@ -278,7 +278,10 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "替换"
       },
       "replay": "重新播放",
-      "report": "报告",
+      "report": {
+        "error": "报告错误",
+        "text": "报告"
+      },
       "required": "必需",
       "reset": "重置",
       "results": "结果",
@@ -727,7 +730,10 @@ static const Map<String,dynamic> ja = {
         "text": "置換"
       },
       "replay": "リプレイ",
-      "report": "レポート",
+      "report": {
+        "error": "エラーを報告する",
+        "text": "レポート"
+      },
       "required": "必須",
       "reset": "リセット",
       "results": "結果",
@@ -1176,7 +1182,10 @@ static const Map<String,dynamic> de = {
         "text": "Ersetzen"
       },
       "replay": "Erneut abspielen",
-      "report": "Bericht",
+      "report": {
+        "error": "Fehler melden",
+        "text": "Bericht"
+      },
       "required": "Erforderlich",
       "reset": "Zurücksetzen",
       "results": "Ergebnisse",
@@ -1625,7 +1634,10 @@ static const Map<String,dynamic> ru = {
         "text": "Заменить"
       },
       "replay": "Повторить",
-      "report": "Отчет",
+      "report": {
+        "error": "Сообщить об ошибке",
+        "text": "Отчет"
+      },
       "required": "Обязательно",
       "reset": "Сбросить",
       "results": "Результаты",
@@ -2074,7 +2086,10 @@ static const Map<String,dynamic> pt = {
         "text": "Substituir"
       },
       "replay": "Repetir",
-      "report": "Relatório",
+      "report": {
+        "error": "Reportar um erro",
+        "text": "Relatório"
+      },
       "required": "Obrigatório",
       "reset": "Resetar",
       "results": "Resultados",
@@ -2523,7 +2538,10 @@ static const Map<String,dynamic> en = {
         "text": "Replace"
       },
       "replay": "Replay",
-      "report": "Report",
+      "report": {
+        "error": "Report an error",
+        "text": "Report"
+      },
       "required": "Required",
       "reset": "Reset",
       "results": "Results",
@@ -2972,7 +2990,10 @@ static const Map<String,dynamic> it = {
         "text": "Sostituisci"
       },
       "replay": "Ripeti",
-      "report": "Rapporto",
+      "report": {
+        "error": "Segnala un errore",
+        "text": "Rapporto"
+      },
       "required": "Richiesto",
       "reset": "Reimpostare",
       "results": "Risultati",
@@ -3421,7 +3442,10 @@ static const Map<String,dynamic> fr = {
         "text": "Remplacer"
       },
       "replay": "Rejouer",
-      "report": "Rapport",
+      "report": {
+        "error": "Signaler une erreur",
+        "text": "Rapport"
+      },
       "required": "Requis",
       "reset": "Réinitialiser",
       "results": "Résultats",
@@ -3870,7 +3894,10 @@ static const Map<String,dynamic> es = {
         "text": "Reemplazar"
       },
       "replay": "Repetir",
-      "report": "Informe",
+      "report": {
+        "error": "Segnala un errore",
+        "text": "Informe"
+      },
       "required": "Requerido",
       "reset": "Restablecer",
       "results": "Resultados",

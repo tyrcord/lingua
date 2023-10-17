@@ -265,7 +265,10 @@
         "text": "Substituir"
       },
       "replay": "Repetir",
-      "report": "Relatório",
+      "report": {
+        "error": "Reportar um erro",
+        "text": "Relatório"
+      },
       "required": "Obrigatório",
       "reset": "Resetar",
       "results": "Resultados",

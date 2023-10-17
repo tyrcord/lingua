@@ -265,7 +265,10 @@
         "text": "置換"
       },
       "replay": "リプレイ",
-      "report": "レポート",
+      "report": {
+        "error": "エラーを報告する",
+        "text": "レポート"
+      },
       "required": "必須",
       "reset": "リセット",
       "results": "結果",

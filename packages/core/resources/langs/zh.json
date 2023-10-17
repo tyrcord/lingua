@@ -265,7 +265,10 @@
         "text": "替换"
       },
       "replay": "重新播放",
-      "report": "报告",
+      "report": {
+        "error": "报告错误",
+        "text": "报告"
+      },
       "required": "必需",
       "reset": "重置",
       "results": "结果",

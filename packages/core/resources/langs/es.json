@@ -265,7 +265,10 @@
         "text": "Reemplazar"
       },
       "replay": "Repetir",
-      "report": "Informe",
+      "report": {
+        "error": "Segnala un errore",
+        "text": "Informe"
+      },
       "required": "Requerido",
       "reset": "Restablecer",
       "results": "Resultados",
