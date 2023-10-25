@@ -124,14 +124,18 @@
         "price": "損益分岐点の価格",
         "units": "損益分岐点のユニット"
       },
+      "breakdown": "内訳",
       "buy": {
         "commission": "購入手数料",
         "costs": "購入コスト",
+        "costs_per_unit": "単位あたりの購入コスト",
         "price": "購入価格",
-        "price_per_unit": "ユニットごとの購入価格"
+        "price_per_unit": "単位あたりの購入価格"
       },
       "close_price": "終値",
       "compound_interest": "複利",
+      "cost_of_goods_sold": "売上原価",
+      "costs": "コスト",
       "currencies": "通貨",
       "currency": "通貨",
       "discount": {
@@ -168,8 +172,9 @@
           "with_slippage": "スリッページを考慮した退出価格"
         }
       },
-      "expected_unit_sales": "予想ユニット売上高",
+      "expected_sale_units": "予想販売ユニット",
       "extension": "延長",
+      "fees": "手数料",
       "fibonacci": {
         "level": "フィボナッチレベル",
         "levels": "フィボナッチレベル"
@@ -179,7 +184,11 @@
       "gain": "利益",
       "gain_per_trade": "トレードごとの利益",
       "grand_total": "総計",
-      "gross_profit": "総利益",
+      "gross": {
+        "income": "総収入",
+        "margin": "総利益率",
+        "profit": "総利益"
+      },
       "high_price": "最高価格",
       "indices": "インデックス",
       "initial_investment": "初期投資",
@@ -204,6 +213,11 @@
         "plus_currency": "{number}以上の通貨"
       },
       "open_price": "始値",
+      "operating": {
+        "income": "営業収入",
+        "margin": "営業マージン",
+        "profit": "営業利益"
+      },
       "pivot_point": {
         "camarilla": "キャマリラ",
         "demark": "デマーク",
@@ -235,7 +249,13 @@
       "profit": "利益",
       "profit_and_loss": "利益と損失",
       "profit_or_loss": "利益または損失",
-      "purchase_costs_per_unit": "ユニットごとの購入コスト",
+      "purchase": {
+        "commission": "購入手数料",
+        "costs": "購入コスト",
+        "costs_per_unit": "単位あたりの取得コスト",
+        "price": "購入価格",
+        "price_per_unit": "単位あたりの購入価格"
+      },
       "rate": "レート",
       "real_time_quotes": "リアルタイムの見積もり",
       "regular_addition": "定期的な追加",
@@ -243,6 +263,7 @@
       "resistance_level": "抵抗レベル{level}",
       "retracement": "リトレースメント",
       "return_on_investment": "投資利益率",
+      "revenue": "収益",
       "risk": {
         "amount": "リスク額",
         "effective": "有効リスク",
@@ -255,14 +276,22 @@
         "text": "リスク",
         "tolerated": "許容リスク"
       },
+      "sales": {
+        "commission": "セールスコミッション",
+        "costs": "セールスコスト",
+        "costs_per_unit": "ユニットごとのセールスコスト",
+        "price": "販売価格",
+        "price_per_unit": "ユニットごとの販売価格"
+      },
       "secondary_currency": "副次通貨",
       "sell": {
-        "commission": "売却手数料",
-        "costs": "売却コスト",
-        "costs_per_unit": "ユニットごとの売却コスト",
-        "price": "売却価格",
-        "price_per_unit": "ユニットごとの売却価格"
+        "commission": "販売手数料",
+        "costs": "販売経費",
+        "costs_per_unit": "単位あたりの販売経費",
+        "price": "販売価格",
+        "price_per_unit": "単位あたりの販売価格"
       },
+      "selling_expenses": "販売費",
       "slippage": "スリッページ",
       "starting": {
         "balance": "初期残高",

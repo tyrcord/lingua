@@ -124,14 +124,18 @@
         "price": "Preço de equilíbrio",
         "units": "Unidades de equilíbrio"
       },
+      "breakdown": "Repartição",
       "buy": {
         "commission": "Comissão de compra",
         "costs": "Custos de compra",
+        "costs_per_unit": "Custos de compra por unidade",
         "price": "Preço de compra",
         "price_per_unit": "Preço de compra por unidade"
       },
       "close_price": "Preço de fechamento",
       "compound_interest": "Juros compostos",
+      "cost_of_goods_sold": "Custo dos bens vendidos",
+      "costs": "Custos",
       "currencies": "Moedas",
       "currency": "Moeda",
       "discount": {
@@ -168,8 +172,9 @@
           "with_slippage": "Preço de saída com deslizamento"
         }
       },
-      "expected_unit_sales": "Vendas unitárias esperadas",
+      "expected_sale_units": "Unidades de venda previstas",
       "extension": "Extensão",
+      "fees": "Taxas",
       "fibonacci": {
         "level": "Nível de Fibonacci",
         "levels": "Níveis de Fibonacci"
@@ -179,7 +184,11 @@
       "gain": "Ganho",
       "gain_per_trade": "Ganho por operação",
       "grand_total": "Total Geral",
-      "gross_profit": "Lucro bruto",
+      "gross": {
+        "income": "Rendimento bruto",
+        "margin": "Margem bruta",
+        "profit": "Lucro bruto"
+      },
       "high_price": "Preço mais alto",
       "indices": "Índices",
       "initial_investment": "Investimento inicial",
@@ -204,6 +213,11 @@
         "plus_currency": "{number}+ moedas"
       },
       "open_price": "Preço de abertura",
+      "operating": {
+        "income": "Rendimento operacional",
+        "margin": "Margem operacional",
+        "profit": "Lucro operacional"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -235,7 +249,13 @@
       "profit": "Lucro",
       "profit_and_loss": "Lucro e Perda",
       "profit_or_loss": "Lucro ou Perda",
-      "purchase_costs_per_unit": "Custos de compra por unidade",
+      "purchase": {
+        "commission": "Comissão de aquisição",
+        "costs": "Custos de aquisição",
+        "costs_per_unit": "Custos de aquisição por unidade",
+        "price": "Preço de aquisição",
+        "price_per_unit": "Preço de aquisição por unidade"
+      },
       "rate": "Taxa",
       "real_time_quotes": "Cotações em tempo real",
       "regular_addition": "Adição regular",
@@ -243,6 +263,7 @@
       "resistance_level": "Nível de resistência {level}",
       "retracement": "Retração",
       "return_on_investment": "Retorno sobre o investimento",
+      "revenue": "Receita",
       "risk": {
         "amount": "Valor em risco",
         "effective": "Risco Efetivo",
@@ -255,14 +276,22 @@
         "text": "Risco",
         "tolerated": "Risco Tolerado"
       },
+      "sales": {
+        "commission": "Comissão de vendas",
+        "costs": "Custos de vendas",
+        "costs_per_unit": "Custos de vendas por unidade",
+        "price": "Preço de vendas",
+        "price_per_unit": "Preço de vendas por unidade"
+      },
       "secondary_currency": "Moeda secundária",
       "sell": {
         "commission": "Comissão de venda",
-        "costs": "Custos de venda",
-        "costs_per_unit": "Custos de venda por unidade",
+        "costs": "Despesas de venda",
+        "costs_per_unit": "Despesas de venda por unidade",
         "price": "Preço de venda",
         "price_per_unit": "Preço de venda por unidade"
       },
+      "selling_expenses": "Despesas de venda",
       "slippage": "Escorregamento",
       "starting": {
         "balance": "Saldo inicial",

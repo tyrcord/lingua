@@ -124,14 +124,18 @@
         "price": "保本价格",
         "units": "保本单位"
       },
+      "breakdown": "细分",
       "buy": {
-        "commission": "买入佣金",
-        "costs": "买入成本",
-        "price": "买入价格",
-        "price_per_unit": "买入单价"
+        "commission": "购买佣金",
+        "costs": "购买成本",
+        "costs_per_unit": "每单位购买成本",
+        "price": "购买价格",
+        "price_per_unit": "每单位购买价格"
       },
       "close_price": "收盘价",
       "compound_interest": "复利",
+      "cost_of_goods_sold": "已售商品成本",
+      "costs": "成本",
       "currencies": "货币",
       "currency": "货币",
       "discount": {
@@ -168,8 +172,9 @@
           "with_slippage": "带滑点的退出价格"
         }
       },
-      "expected_unit_sales": "预期销售单位",
+      "expected_sale_units": "预期销售单位",
       "extension": "扩展",
+      "fees": "费用",
       "fibonacci": {
         "level": "斐波那契水平",
         "levels": "斐波那契水平"
@@ -179,7 +184,11 @@
       "gain": "盈利",
       "gain_per_trade": "每笔交易盈利",
       "grand_total": "总计",
-      "gross_profit": "毛利",
+      "gross": {
+        "income": "总收入",
+        "margin": "毛利率",
+        "profit": "毛利润"
+      },
       "high_price": "最高价",
       "indices": "指数",
       "initial_investment": "初始投资",
@@ -204,6 +213,11 @@
         "plus_currency": "{number}+种货币"
       },
       "open_price": "开盘价",
+      "operating": {
+        "income": "营业收入",
+        "margin": "营业利润率",
+        "profit": "营业利润"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -235,7 +249,13 @@
       "profit": "利润",
       "profit_and_loss": "利润和损失",
       "profit_or_loss": "利润或损失",
-      "purchase_costs_per_unit": "购买成本每单位",
+      "purchase": {
+        "commission": "采购佣金",
+        "costs": "采购成本",
+        "costs_per_unit": "每单位收购成本",
+        "price": "采购价格",
+        "price_per_unit": "每单位采购价格"
+      },
       "rate": "税率",
       "real_time_quotes": "实时行情",
       "regular_addition": "定期增加",
@@ -243,6 +263,7 @@
       "resistance_level": "阻力位 {level}",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
+      "revenue": "收入",
       "risk": {
         "amount": "风险金额",
         "effective": "有效风险",
@@ -255,14 +276,22 @@
         "text": "风险",
         "tolerated": "可容忍风险"
       },
+      "sales": {
+        "commission": "销售佣金",
+        "costs": "销售成本",
+        "costs_per_unit": "每单位销售成本",
+        "price": "销售价格",
+        "price_per_unit": "每单位销售价格"
+      },
       "secondary_currency": "次要货币",
       "sell": {
-        "commission": "卖出佣金",
-        "costs": "卖出成本",
-        "costs_per_unit": "卖出成本每单位",
-        "price": "卖出价格",
-        "price_per_unit": "卖出单价"
+        "commission": "销售佣金",
+        "costs": "销售费用",
+        "costs_per_unit": "每单位销售费用",
+        "price": "销售价格",
+        "price_per_unit": "每单位销售价格"
       },
+      "selling_expenses": "销售费用",
       "slippage": "滑点",
       "starting": {
         "balance": "初始余额",

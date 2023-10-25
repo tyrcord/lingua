@@ -137,14 +137,18 @@ class FinanceCodegenLoader extends AssetLoader {
         "price": "保本价格",
         "units": "保本单位"
       },
+      "breakdown": "细分",
       "buy": {
-        "commission": "买入佣金",
-        "costs": "买入成本",
-        "price": "买入价格",
-        "price_per_unit": "买入单价"
+        "commission": "购买佣金",
+        "costs": "购买成本",
+        "costs_per_unit": "每单位购买成本",
+        "price": "购买价格",
+        "price_per_unit": "每单位购买价格"
       },
       "close_price": "收盘价",
       "compound_interest": "复利",
+      "cost_of_goods_sold": "已售商品成本",
+      "costs": "成本",
       "currencies": "货币",
       "currency": "货币",
       "discount": {
@@ -181,8 +185,9 @@ class FinanceCodegenLoader extends AssetLoader {
           "with_slippage": "带滑点的退出价格"
         }
       },
-      "expected_unit_sales": "预期销售单位",
+      "expected_sale_units": "预期销售单位",
       "extension": "扩展",
+      "fees": "费用",
       "fibonacci": {
         "level": "斐波那契水平",
         "levels": "斐波那契水平"
@@ -192,7 +197,11 @@ class FinanceCodegenLoader extends AssetLoader {
       "gain": "盈利",
       "gain_per_trade": "每笔交易盈利",
       "grand_total": "总计",
-      "gross_profit": "毛利",
+      "gross": {
+        "income": "总收入",
+        "margin": "毛利率",
+        "profit": "毛利润"
+      },
       "high_price": "最高价",
       "indices": "指数",
       "initial_investment": "初始投资",
@@ -217,6 +226,11 @@ class FinanceCodegenLoader extends AssetLoader {
         "plus_currency": "{number}+种货币"
       },
       "open_price": "开盘价",
+      "operating": {
+        "income": "营业收入",
+        "margin": "营业利润率",
+        "profit": "营业利润"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -248,7 +262,13 @@ class FinanceCodegenLoader extends AssetLoader {
       "profit": "利润",
       "profit_and_loss": "利润和损失",
       "profit_or_loss": "利润或损失",
-      "purchase_costs_per_unit": "购买成本每单位",
+      "purchase": {
+        "commission": "采购佣金",
+        "costs": "采购成本",
+        "costs_per_unit": "每单位收购成本",
+        "price": "采购价格",
+        "price_per_unit": "每单位采购价格"
+      },
       "rate": "税率",
       "real_time_quotes": "实时行情",
       "regular_addition": "定期增加",
@@ -256,6 +276,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "resistance_level": "阻力位 {level}",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
+      "revenue": "收入",
       "risk": {
         "amount": "风险金额",
         "effective": "有效风险",
@@ -268,14 +289,22 @@ class FinanceCodegenLoader extends AssetLoader {
         "text": "风险",
         "tolerated": "可容忍风险"
       },
+      "sales": {
+        "commission": "销售佣金",
+        "costs": "销售成本",
+        "costs_per_unit": "每单位销售成本",
+        "price": "销售价格",
+        "price_per_unit": "每单位销售价格"
+      },
       "secondary_currency": "次要货币",
       "sell": {
-        "commission": "卖出佣金",
-        "costs": "卖出成本",
-        "costs_per_unit": "卖出成本每单位",
-        "price": "卖出价格",
-        "price_per_unit": "卖出单价"
+        "commission": "销售佣金",
+        "costs": "销售费用",
+        "costs_per_unit": "每单位销售费用",
+        "price": "销售价格",
+        "price_per_unit": "每单位销售价格"
       },
+      "selling_expenses": "销售费用",
       "slippage": "滑点",
       "starting": {
         "balance": "初始余额",
@@ -493,14 +522,18 @@ static const Map<String,dynamic> ja = {
         "price": "損益分岐点の価格",
         "units": "損益分岐点のユニット"
       },
+      "breakdown": "内訳",
       "buy": {
         "commission": "購入手数料",
         "costs": "購入コスト",
+        "costs_per_unit": "単位あたりの購入コスト",
         "price": "購入価格",
-        "price_per_unit": "ユニットごとの購入価格"
+        "price_per_unit": "単位あたりの購入価格"
       },
       "close_price": "終値",
       "compound_interest": "複利",
+      "cost_of_goods_sold": "売上原価",
+      "costs": "コスト",
       "currencies": "通貨",
       "currency": "通貨",
       "discount": {
@@ -537,8 +570,9 @@ static const Map<String,dynamic> ja = {
           "with_slippage": "スリッページを考慮した退出価格"
         }
       },
-      "expected_unit_sales": "予想ユニット売上高",
+      "expected_sale_units": "予想販売ユニット",
       "extension": "延長",
+      "fees": "手数料",
       "fibonacci": {
         "level": "フィボナッチレベル",
         "levels": "フィボナッチレベル"
@@ -548,7 +582,11 @@ static const Map<String,dynamic> ja = {
       "gain": "利益",
       "gain_per_trade": "トレードごとの利益",
       "grand_total": "総計",
-      "gross_profit": "総利益",
+      "gross": {
+        "income": "総収入",
+        "margin": "総利益率",
+        "profit": "総利益"
+      },
       "high_price": "最高価格",
       "indices": "インデックス",
       "initial_investment": "初期投資",
@@ -573,6 +611,11 @@ static const Map<String,dynamic> ja = {
         "plus_currency": "{number}以上の通貨"
       },
       "open_price": "始値",
+      "operating": {
+        "income": "営業収入",
+        "margin": "営業マージン",
+        "profit": "営業利益"
+      },
       "pivot_point": {
         "camarilla": "キャマリラ",
         "demark": "デマーク",
@@ -604,7 +647,13 @@ static const Map<String,dynamic> ja = {
       "profit": "利益",
       "profit_and_loss": "利益と損失",
       "profit_or_loss": "利益または損失",
-      "purchase_costs_per_unit": "ユニットごとの購入コスト",
+      "purchase": {
+        "commission": "購入手数料",
+        "costs": "購入コスト",
+        "costs_per_unit": "単位あたりの取得コスト",
+        "price": "購入価格",
+        "price_per_unit": "単位あたりの購入価格"
+      },
       "rate": "レート",
       "real_time_quotes": "リアルタイムの見積もり",
       "regular_addition": "定期的な追加",
@@ -612,6 +661,7 @@ static const Map<String,dynamic> ja = {
       "resistance_level": "抵抗レベル{level}",
       "retracement": "リトレースメント",
       "return_on_investment": "投資利益率",
+      "revenue": "収益",
       "risk": {
         "amount": "リスク額",
         "effective": "有効リスク",
@@ -624,14 +674,22 @@ static const Map<String,dynamic> ja = {
         "text": "リスク",
         "tolerated": "許容リスク"
       },
+      "sales": {
+        "commission": "セールスコミッション",
+        "costs": "セールスコスト",
+        "costs_per_unit": "ユニットごとのセールスコスト",
+        "price": "販売価格",
+        "price_per_unit": "ユニットごとの販売価格"
+      },
       "secondary_currency": "副次通貨",
       "sell": {
-        "commission": "売却手数料",
-        "costs": "売却コスト",
-        "costs_per_unit": "ユニットごとの売却コスト",
-        "price": "売却価格",
-        "price_per_unit": "ユニットごとの売却価格"
+        "commission": "販売手数料",
+        "costs": "販売経費",
+        "costs_per_unit": "単位あたりの販売経費",
+        "price": "販売価格",
+        "price_per_unit": "単位あたりの販売価格"
       },
+      "selling_expenses": "販売費",
       "slippage": "スリッページ",
       "starting": {
         "balance": "初期残高",
@@ -849,14 +907,18 @@ static const Map<String,dynamic> de = {
         "price": "Break-even-Preis",
         "units": "Break-even-Einheiten"
       },
+      "breakdown": "Aufschlüsselung",
       "buy": {
-        "commission": "Kaufkommission",
+        "commission": "Kaufprovision",
         "costs": "Kaufkosten",
+        "costs_per_unit": "Kaufkosten pro Einheit",
         "price": "Kaufpreis",
         "price_per_unit": "Kaufpreis pro Einheit"
       },
       "close_price": "Schlusskurs",
       "compound_interest": "Zinseszins",
+      "cost_of_goods_sold": "Kosten der verkauften Waren",
+      "costs": "Kosten",
       "currencies": "Währungen",
       "currency": "Währung",
       "discount": {
@@ -893,8 +955,9 @@ static const Map<String,dynamic> de = {
           "with_slippage": "Ausstiegspreis mit Schlupf"
         }
       },
-      "expected_unit_sales": "Erwartete Stückverkäufe",
+      "expected_sale_units": "Erwartete Verkaufseinheiten",
       "extension": "Erweiterung",
+      "fees": "Gebühren",
       "fibonacci": {
         "level": "Fibonacci-Level",
         "levels": "Fibonacci-Levels"
@@ -904,7 +967,11 @@ static const Map<String,dynamic> de = {
       "gain": "Gewinn",
       "gain_per_trade": "Gewinn pro Trade",
       "grand_total": "Gesamtsumme",
-      "gross_profit": "Bruttogewinn",
+      "gross": {
+        "income": "Bruttoeinkommen",
+        "margin": "Bruttomarge",
+        "profit": "Bruttogewinn"
+      },
       "high_price": "Höchstpreis",
       "indices": "Indizes",
       "initial_investment": "Erstinvestition",
@@ -929,6 +996,11 @@ static const Map<String,dynamic> de = {
         "plus_currency": "{number}+ Währungen"
       },
       "open_price": "Eröffnungspreis",
+      "operating": {
+        "income": "Betriebseinkommen",
+        "margin": "Betriebsmarge",
+        "profit": "Betriebsgewinn"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -960,7 +1032,13 @@ static const Map<String,dynamic> de = {
       "profit": "Gewinn",
       "profit_and_loss": "Gewinn und Verlust",
       "profit_or_loss": "Gewinn oder Verlust",
-      "purchase_costs_per_unit": "Kaufkosten pro Einheit",
+      "purchase": {
+        "commission": "Ankaufsprovision",
+        "costs": "Ankaufskosten",
+        "costs_per_unit": "Erwerbskosten pro Einheit",
+        "price": "Ankaufspreis",
+        "price_per_unit": "Ankaufspreis pro Einheit"
+      },
       "rate": "Satz",
       "real_time_quotes": "Echtzeitkurse",
       "regular_addition": "Regelmäßige Hinzufügung",
@@ -968,6 +1046,7 @@ static const Map<String,dynamic> de = {
       "resistance_level": "Widerstand {level}",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
+      "revenue": "Einnahmen",
       "risk": {
         "amount": "Risikobetrag",
         "effective": "Effektives Risiko",
@@ -980,14 +1059,22 @@ static const Map<String,dynamic> de = {
         "text": "Risiko",
         "tolerated": "Akzeptiertes Risiko"
       },
+      "sales": {
+        "commission": "Vertriebsprovision",
+        "costs": "Vertriebskosten",
+        "costs_per_unit": "Vertriebskosten pro Einheit",
+        "price": "Vertriebspreis",
+        "price_per_unit": "Vertriebspreis pro Einheit"
+      },
       "secondary_currency": "Sekundärwährung",
       "sell": {
-        "commission": "Verkaufskommission",
+        "commission": "Verkaufsprovision",
         "costs": "Verkaufskosten",
         "costs_per_unit": "Verkaufskosten pro Einheit",
         "price": "Verkaufspreis",
         "price_per_unit": "Verkaufspreis pro Einheit"
       },
+      "selling_expenses": "Verkaufskosten",
       "slippage": "Slippage",
       "starting": {
         "balance": "Anfangsguthaben",
@@ -1205,14 +1292,18 @@ static const Map<String,dynamic> ru = {
         "price": "Цена безубыточности",
         "units": "Единицы безубыточности"
       },
+      "breakdown": "Разбивка",
       "buy": {
         "commission": "Комиссия за покупку",
-        "costs": "Затраты на покупку",
+        "costs": "Стоимость покупки",
+        "costs_per_unit": "Стоимость покупки за единицу",
         "price": "Цена покупки",
         "price_per_unit": "Цена покупки за единицу"
       },
       "close_price": "Цена закрытия",
       "compound_interest": "Сложные проценты",
+      "cost_of_goods_sold": "Себестоимость проданных товаров",
+      "costs": "Расходы",
       "currencies": "Валюты",
       "currency": "Валюта",
       "discount": {
@@ -1249,8 +1340,9 @@ static const Map<String,dynamic> ru = {
           "with_slippage": "Цена при выходе с проскальзыванием"
         }
       },
-      "expected_unit_sales": "Ожидаемые единицы продажи",
+      "expected_sale_units": "Ожидаемые единицы продаж",
       "extension": "Расширение",
+      "fees": "Сборы",
       "fibonacci": {
         "level": "Уровень Фибоначчи",
         "levels": "Уровни Фибоначчи"
@@ -1260,7 +1352,11 @@ static const Map<String,dynamic> ru = {
       "gain": "Прибыль",
       "gain_per_trade": "Прибыль с каждой сделки",
       "grand_total": "Общий итог",
-      "gross_profit": "Валовая прибыль",
+      "gross": {
+        "income": "Валовой доход",
+        "margin": "Валовая маржа",
+        "profit": "Валовая прибыль"
+      },
       "high_price": "Наибольшая цена",
       "indices": "Индексы",
       "initial_investment": "Начальные инвестиции",
@@ -1285,6 +1381,11 @@ static const Map<String,dynamic> ru = {
         "plus_currency": "{number}+ валют"
       },
       "open_price": "Цена открытия",
+      "operating": {
+        "income": "Операционный доход",
+        "margin": "Операционная маржа",
+        "profit": "Операционная прибыль"
+      },
       "pivot_point": {
         "camarilla": "Камарилья",
         "demark": "Демарка",
@@ -1316,7 +1417,13 @@ static const Map<String,dynamic> ru = {
       "profit": "Прибыль",
       "profit_and_loss": "Прибыль и убыток",
       "profit_or_loss": "Прибыль или убыток",
-      "purchase_costs_per_unit": "Затраты на покупку за единицу",
+      "purchase": {
+        "commission": "Комиссия за приобретение",
+        "costs": "Стоимость приобретения",
+        "costs_per_unit": "Затраты на приобретение за единицу",
+        "price": "Цена приобретения",
+        "price_per_unit": "Цена приобретения за единицу"
+      },
       "rate": "Ставка",
       "real_time_quotes": "Котировки в режиме реального времени",
       "regular_addition": "Регулярное дополнение",
@@ -1324,6 +1431,7 @@ static const Map<String,dynamic> ru = {
       "resistance_level": "Уровень сопротивления {level}",
       "retracement": "Ретрейсмент",
       "return_on_investment": "Рентабельность инвестиций",
+      "revenue": "Выручка",
       "risk": {
         "amount": "Сумма риска",
         "effective": "Эффективный риск",
@@ -1336,14 +1444,22 @@ static const Map<String,dynamic> ru = {
         "text": "Риск",
         "tolerated": "Приемлемый риск"
       },
+      "sales": {
+        "commission": "Комиссия с продаж",
+        "costs": "Затраты на продажи",
+        "costs_per_unit": "Затраты на продажи за единицу",
+        "price": "Цена продаж",
+        "price_per_unit": "Цена продаж за единицу"
+      },
       "secondary_currency": "Вторичная валюта",
       "sell": {
         "commission": "Комиссия за продажу",
-        "costs": "Затраты на продажу",
-        "costs_per_unit": "Затраты на продажу за единицу",
+        "costs": "Расходы на продажу",
+        "costs_per_unit": "Расходы на продажу за единицу",
         "price": "Цена продажи",
         "price_per_unit": "Цена продажи за единицу"
       },
+      "selling_expenses": "Расходы на продажу",
       "slippage": "Слиппаж",
       "starting": {
         "balance": "Начальный баланс",
@@ -1561,14 +1677,18 @@ static const Map<String,dynamic> pt = {
         "price": "Preço de equilíbrio",
         "units": "Unidades de equilíbrio"
       },
+      "breakdown": "Repartição",
       "buy": {
         "commission": "Comissão de compra",
         "costs": "Custos de compra",
+        "costs_per_unit": "Custos de compra por unidade",
         "price": "Preço de compra",
         "price_per_unit": "Preço de compra por unidade"
       },
       "close_price": "Preço de fechamento",
       "compound_interest": "Juros compostos",
+      "cost_of_goods_sold": "Custo dos bens vendidos",
+      "costs": "Custos",
       "currencies": "Moedas",
       "currency": "Moeda",
       "discount": {
@@ -1605,8 +1725,9 @@ static const Map<String,dynamic> pt = {
           "with_slippage": "Preço de saída com deslizamento"
         }
       },
-      "expected_unit_sales": "Vendas unitárias esperadas",
+      "expected_sale_units": "Unidades de venda previstas",
       "extension": "Extensão",
+      "fees": "Taxas",
       "fibonacci": {
         "level": "Nível de Fibonacci",
         "levels": "Níveis de Fibonacci"
@@ -1616,7 +1737,11 @@ static const Map<String,dynamic> pt = {
       "gain": "Ganho",
       "gain_per_trade": "Ganho por operação",
       "grand_total": "Total Geral",
-      "gross_profit": "Lucro bruto",
+      "gross": {
+        "income": "Rendimento bruto",
+        "margin": "Margem bruta",
+        "profit": "Lucro bruto"
+      },
       "high_price": "Preço mais alto",
       "indices": "Índices",
       "initial_investment": "Investimento inicial",
@@ -1641,6 +1766,11 @@ static const Map<String,dynamic> pt = {
         "plus_currency": "{number}+ moedas"
       },
       "open_price": "Preço de abertura",
+      "operating": {
+        "income": "Rendimento operacional",
+        "margin": "Margem operacional",
+        "profit": "Lucro operacional"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -1672,7 +1802,13 @@ static const Map<String,dynamic> pt = {
       "profit": "Lucro",
       "profit_and_loss": "Lucro e Perda",
       "profit_or_loss": "Lucro ou Perda",
-      "purchase_costs_per_unit": "Custos de compra por unidade",
+      "purchase": {
+        "commission": "Comissão de aquisição",
+        "costs": "Custos de aquisição",
+        "costs_per_unit": "Custos de aquisição por unidade",
+        "price": "Preço de aquisição",
+        "price_per_unit": "Preço de aquisição por unidade"
+      },
       "rate": "Taxa",
       "real_time_quotes": "Cotações em tempo real",
       "regular_addition": "Adição regular",
@@ -1680,6 +1816,7 @@ static const Map<String,dynamic> pt = {
       "resistance_level": "Nível de resistência {level}",
       "retracement": "Retração",
       "return_on_investment": "Retorno sobre o investimento",
+      "revenue": "Receita",
       "risk": {
         "amount": "Valor em risco",
         "effective": "Risco Efetivo",
@@ -1692,14 +1829,22 @@ static const Map<String,dynamic> pt = {
         "text": "Risco",
         "tolerated": "Risco Tolerado"
       },
+      "sales": {
+        "commission": "Comissão de vendas",
+        "costs": "Custos de vendas",
+        "costs_per_unit": "Custos de vendas por unidade",
+        "price": "Preço de vendas",
+        "price_per_unit": "Preço de vendas por unidade"
+      },
       "secondary_currency": "Moeda secundária",
       "sell": {
         "commission": "Comissão de venda",
-        "costs": "Custos de venda",
-        "costs_per_unit": "Custos de venda por unidade",
+        "costs": "Despesas de venda",
+        "costs_per_unit": "Despesas de venda por unidade",
         "price": "Preço de venda",
         "price_per_unit": "Preço de venda por unidade"
       },
+      "selling_expenses": "Despesas de venda",
       "slippage": "Escorregamento",
       "starting": {
         "balance": "Saldo inicial",
@@ -1917,14 +2062,18 @@ static const Map<String,dynamic> en = {
         "price": "Break-Even Price",
         "units": "Break-Even Units"
       },
+      "breakdown": "Breakdown",
       "buy": {
-        "commission": "Buy Commission",
-        "costs": "Buying Costs",
-        "price": "Buy Price",
-        "price_per_unit": "Buy Price per Unit"
+        "commission": "Buying commission",
+        "costs": "Buying costs",
+        "costs_per_unit": "Buying costs per unit",
+        "price": "Buying price",
+        "price_per_unit": "Buying price per unit"
       },
       "close_price": "Close Price",
       "compound_interest": "Compound Interest",
+      "cost_of_goods_sold": "Cost of goods sold",
+      "costs": "Costs",
       "currencies": "Currencies",
       "currency": "Currency",
       "discount": {
@@ -1961,8 +2110,9 @@ static const Map<String,dynamic> en = {
           "with_slippage": "Exit Price with Slippage"
         }
       },
-      "expected_unit_sales": "Expected Unit Sales",
+      "expected_sale_units": "Expected Sale Units",
       "extension": "Extension",
+      "fees": "Fees",
       "fibonacci": {
         "level": "Fibonacci Level",
         "levels": "Fibonacci Levels"
@@ -1972,7 +2122,11 @@ static const Map<String,dynamic> en = {
       "gain": "Gain",
       "gain_per_trade": "Gain per Trade",
       "grand_total": "Grand Total",
-      "gross_profit": "Gross Profit",
+      "gross": {
+        "income": "Gross income",
+        "margin": "Gross margin",
+        "profit": "Gross profit"
+      },
       "high_price": "High Price",
       "indices": "Indices",
       "initial_investment": "Initial Investment",
@@ -1997,6 +2151,11 @@ static const Map<String,dynamic> en = {
         "plus_currency": "{number}+ currencies"
       },
       "open_price": "Open Price",
+      "operating": {
+        "income": "Operating income",
+        "margin": "Operating margin",
+        "profit": "Operating profit"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -2028,7 +2187,13 @@ static const Map<String,dynamic> en = {
       "profit": "Profit",
       "profit_and_loss": "Profit and Loss",
       "profit_or_loss": "Profit or Loss",
-      "purchase_costs_per_unit": "Purchase Costs per Unit",
+      "purchase": {
+        "commission": "Purchase commission",
+        "costs": "Purchase costs",
+        "costs_per_unit": "Purchase costs per unit",
+        "price": "Purchase price",
+        "price_per_unit": "Purchase price per unit"
+      },
       "rate": "Rate",
       "real_time_quotes": "Real-Time Quotes",
       "regular_addition": "Regular Addition",
@@ -2036,6 +2201,7 @@ static const Map<String,dynamic> en = {
       "resistance_level": "Resistance {level}",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
+      "revenue": "Revenue",
       "risk": {
         "amount": "Amount at risk",
         "effective": "Effective Risk",
@@ -2048,14 +2214,22 @@ static const Map<String,dynamic> en = {
         "text": "Risk",
         "tolerated": "Tolerated Risk"
       },
+      "sales": {
+        "commission": "Sales commission",
+        "costs": "Sales costs",
+        "costs_per_unit": "Sales costs per unit",
+        "price": "Sales price",
+        "price_per_unit": "Sales price per unit"
+      },
       "secondary_currency": "Secondary Currency",
       "sell": {
-        "commission": "Sell Commission",
-        "costs": "Selling Costs",
-        "costs_per_unit": "Selling Costs per Unit",
-        "price": "Sell Price",
-        "price_per_unit": "Sell Price per Unit"
+        "commission": "Selling commission",
+        "costs": "Selling expenses",
+        "costs_per_unit": "Selling expenses per unit",
+        "price": "Selling price",
+        "price_per_unit": "Selling price per unit"
       },
+      "selling_expenses": "Selling expenses",
       "slippage": "Slippage",
       "starting": {
         "balance": "Starting Balance",
@@ -2273,14 +2447,18 @@ static const Map<String,dynamic> it = {
         "price": "Prezzo di pareggio",
         "units": "Unità di pareggio"
       },
+      "breakdown": "Ripartizione",
       "buy": {
-        "commission": "Commissione acquisto",
-        "costs": "Costi di acquisto",
-        "price": "Prezzo di acquisto",
-        "price_per_unit": "Prezzo di acquisto per unità"
+        "commission": "Commissione d'acquisto",
+        "costs": "Costi d'acquisto",
+        "costs_per_unit": "Costi di acquisto per unità",
+        "price": "Prezzo d'acquisto",
+        "price_per_unit": "Prezzo d'acquisto per unità"
       },
       "close_price": "Prezzo di chiusura",
       "compound_interest": "Interesse composto",
+      "cost_of_goods_sold": "Costo dei beni venduti",
+      "costs": "Costi",
       "currencies": "Valute",
       "currency": "Valuta",
       "discount": {
@@ -2317,8 +2495,9 @@ static const Map<String,dynamic> it = {
           "with_slippage": "Prezzo di uscita con slippage"
         }
       },
-      "expected_unit_sales": "Vendite unitarie previste",
+      "expected_sale_units": "Unità di vendita previste",
       "extension": "Estensione",
+      "fees": "Commissioni",
       "fibonacci": {
         "level": "Livello di Fibonacci",
         "levels": "Livelli di Fibonacci"
@@ -2328,7 +2507,11 @@ static const Map<String,dynamic> it = {
       "gain": "Guadagno",
       "gain_per_trade": "Guadagno per operazione",
       "grand_total": "Totale Generale",
-      "gross_profit": "Profitto lordo",
+      "gross": {
+        "income": "Reddito lordo",
+        "margin": "Margine lordo",
+        "profit": "Profitto lordo"
+      },
       "high_price": "Prezzo più alto",
       "indices": "Indici",
       "initial_investment": "Investimento iniziale",
@@ -2353,6 +2536,11 @@ static const Map<String,dynamic> it = {
         "plus_currency": "{number}+ valute"
       },
       "open_price": "Prezzo di apertura",
+      "operating": {
+        "income": "Reddito operativo",
+        "margin": "Margine operativo",
+        "profit": "Profitto operativo"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -2384,7 +2572,13 @@ static const Map<String,dynamic> it = {
       "profit": "Profitto",
       "profit_and_loss": "Profitto e perdita",
       "profit_or_loss": "Profitto o perdita",
-      "purchase_costs_per_unit": "Costi di acquisto per unità",
+      "purchase": {
+        "commission": "Commissione d'acquisizione",
+        "costs": "Costi d'acquisizione",
+        "costs_per_unit": "Costi di acquisizione per unità",
+        "price": "Prezzo d'acquisizione",
+        "price_per_unit": "Prezzo d'acquisizione per unità"
+      },
       "rate": "Tasso",
       "real_time_quotes": "Quotazioni in tempo reale",
       "regular_addition": "Aggiunta regolare",
@@ -2392,6 +2586,7 @@ static const Map<String,dynamic> it = {
       "resistance_level": "Livello di resistenza {level}",
       "retracement": "Ritracimento",
       "return_on_investment": "Rendimento dell'investimento",
+      "revenue": "Entrate",
       "risk": {
         "amount": "Importo a rischio",
         "effective": "Rischio Effettivo",
@@ -2404,14 +2599,22 @@ static const Map<String,dynamic> it = {
         "text": "Rischio",
         "tolerated": "Rischio Tollerato"
       },
-      "secondary_currency": "Valuta secondaria",
-      "sell": {
-        "commission": "Commissione vendita",
+      "sales": {
+        "commission": "Commissione sulle vendite",
         "costs": "Costi di vendita",
         "costs_per_unit": "Costi di vendita per unità",
         "price": "Prezzo di vendita",
         "price_per_unit": "Prezzo di vendita per unità"
       },
+      "secondary_currency": "Valuta secondaria",
+      "sell": {
+        "commission": "Commissione di vendita",
+        "costs": "Spese di vendita",
+        "costs_per_unit": "Spese di vendita per unità",
+        "price": "Prezzo di vendita",
+        "price_per_unit": "Prezzo di vendita per unità"
+      },
+      "selling_expenses": "Spese di vendita",
       "slippage": "Slippage",
       "starting": {
         "balance": "Saldo iniziale",
@@ -2629,14 +2832,18 @@ static const Map<String,dynamic> fr = {
         "price": "Prix de rentabilité",
         "units": "Unités de rentabilité"
       },
+      "breakdown": "Répartition",
       "buy": {
         "commission": "Commission d'achat",
-        "costs": "Frais d'achat",
+        "costs": "Coûts d'achat",
+        "costs_per_unit": "Coûts d'achat par unité",
         "price": "Prix d'achat",
         "price_per_unit": "Prix d'achat par unité"
       },
       "close_price": "Prix de clôture",
       "compound_interest": "Intérêt composé",
+      "cost_of_goods_sold": "Coût des marchandises vendues",
+      "costs": "Coûts",
       "currencies": "Devises",
       "currency": "Devise",
       "discount": {
@@ -2673,8 +2880,9 @@ static const Map<String,dynamic> fr = {
           "with_slippage": "Prix de sortie avec glissement"
         }
       },
-      "expected_unit_sales": "Ventes unitaires prévues",
+      "expected_sale_units": "Unités de vente prévues",
       "extension": "Extension",
+      "fees": "Frais",
       "fibonacci": {
         "level": "Niveau de Fibonacci",
         "levels": "Niveaux de Fibonacci"
@@ -2684,7 +2892,11 @@ static const Map<String,dynamic> fr = {
       "gain": "Gain",
       "gain_per_trade": "Gain par transaction",
       "grand_total": "Total Général",
-      "gross_profit": "Bénéfice brut",
+      "gross": {
+        "income": "Revenu brut",
+        "margin": "Marge brute",
+        "profit": "Bénéfice brut"
+      },
       "high_price": "Prix le plus élevé",
       "indices": "Indices",
       "initial_investment": "Investissement initial",
@@ -2709,6 +2921,11 @@ static const Map<String,dynamic> fr = {
         "plus_currency": "{number}+ devises"
       },
       "open_price": "Prix d'ouverture",
+      "operating": {
+        "income": "Revenu d'exploitation",
+        "margin": "Marge opérationnelle",
+        "profit": "Bénéfice d'exploitation"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -2740,7 +2957,13 @@ static const Map<String,dynamic> fr = {
       "profit": "Bénéfice",
       "profit_and_loss": "Bénéfice et perte",
       "profit_or_loss": "Bénéfice ou perte",
-      "purchase_costs_per_unit": "Coûts d'achat par unité",
+      "purchase": {
+        "commission": "Commission d'acquisition",
+        "costs": "Coûts d'acquisition",
+        "costs_per_unit": "Coûts acquisition par unité",
+        "price": "Prix d'acquisition",
+        "price_per_unit": "Prix d'acquisition par unité"
+      },
       "rate": "Taux",
       "real_time_quotes": "Cotations en temps réel",
       "regular_addition": "Ajout régulier",
@@ -2748,6 +2971,7 @@ static const Map<String,dynamic> fr = {
       "resistance_level": "Niveau de résistance {level}",
       "retracement": "Retracement",
       "return_on_investment": "Retour sur investissement",
+      "revenue": "Revenu",
       "risk": {
         "amount": "Montant à risque",
         "effective": "Risque Effectif",
@@ -2760,6 +2984,13 @@ static const Map<String,dynamic> fr = {
         "text": "Risque",
         "tolerated": "Risque Toléré"
       },
+      "sales": {
+        "commission": "Commission sur les ventes",
+        "costs": "Coûts des ventes",
+        "costs_per_unit": "Coûts des ventes par unité",
+        "price": "Prix des ventes",
+        "price_per_unit": "Prix des ventes par unité"
+      },
       "secondary_currency": "Devise secondaire",
       "sell": {
         "commission": "Commission de vente",
@@ -2768,6 +2999,7 @@ static const Map<String,dynamic> fr = {
         "price": "Prix de vente",
         "price_per_unit": "Prix de vente par unité"
       },
+      "selling_expenses": "Frais de vente",
       "slippage": "Glissement",
       "starting": {
         "balance": "Solde initial",
@@ -2985,14 +3217,18 @@ static const Map<String,dynamic> es = {
         "price": "Precio de equilibrio",
         "units": "Unidades de equilibrio"
       },
+      "breakdown": "Desglose",
       "buy": {
         "commission": "Comisión de compra",
-        "costs": "Costos de compra",
+        "costs": "Costes de compra",
+        "costs_per_unit": "Costos de compra por unidad",
         "price": "Precio de compra",
         "price_per_unit": "Precio de compra por unidad"
       },
       "close_price": "Precio de cierre",
       "compound_interest": "Interés compuesto",
+      "cost_of_goods_sold": "Costo de los bienes vendidos",
+      "costs": "Costos",
       "currencies": "Monedas",
       "currency": "Moneda",
       "discount": {
@@ -3029,8 +3265,9 @@ static const Map<String,dynamic> es = {
           "with_slippage": "Precio de salida con deslizamiento"
         }
       },
-      "expected_unit_sales": "Ventas unitarias esperadas",
+      "expected_sale_units": "Unidades de venta previstas",
       "extension": "Extensión",
+      "fees": "Honorarios",
       "fibonacci": {
         "level": "Nivel de Fibonacci",
         "levels": "Niveles de Fibonacci"
@@ -3040,7 +3277,11 @@ static const Map<String,dynamic> es = {
       "gain": "Ganancia",
       "gain_per_trade": "Ganancia por operación",
       "grand_total": "Total General",
-      "gross_profit": "Ganancia bruta",
+      "gross": {
+        "income": "Ingresos brutos",
+        "margin": "Margen bruto",
+        "profit": "Beneficio bruto"
+      },
       "high_price": "Precio más alto",
       "indices": "Índices",
       "initial_investment": "Inversión inicial",
@@ -3065,6 +3306,11 @@ static const Map<String,dynamic> es = {
         "plus_currency": "{number}+ monedas"
       },
       "open_price": "Precio de apertura",
+      "operating": {
+        "income": "Ingresos operativos",
+        "margin": "Margen operativo",
+        "profit": "Beneficio operativo"
+      },
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -3096,7 +3342,13 @@ static const Map<String,dynamic> es = {
       "profit": "Beneficio",
       "profit_and_loss": "Beneficio y pérdida",
       "profit_or_loss": "Beneficio o pérdida",
-      "purchase_costs_per_unit": "Costos de compra por unidad",
+      "purchase": {
+        "commission": "Comisión de adquisición",
+        "costs": "Costes de adquisición",
+        "costs_per_unit": "Costes de adquisición por unidad",
+        "price": "Precio de adquisición",
+        "price_per_unit": "Precio de adquisición por unidad"
+      },
       "rate": "Tasa",
       "real_time_quotes": "Cotizaciones en tiempo real",
       "regular_addition": "Aportación regular",
@@ -3104,6 +3356,7 @@ static const Map<String,dynamic> es = {
       "resistance_level": "Nivel de resistencia {level}",
       "retracement": "Retracción",
       "return_on_investment": "Retorno de la inversión",
+      "revenue": "Ingresos",
       "risk": {
         "amount": "Monto en riesgo",
         "effective": "Riesgo Efectivo",
@@ -3116,14 +3369,22 @@ static const Map<String,dynamic> es = {
         "text": "Riesgo",
         "tolerated": "Riesgo Tolerado"
       },
+      "sales": {
+        "commission": "Comisión de ventas",
+        "costs": "Costes de ventas",
+        "costs_per_unit": "Costes de ventas por unidad",
+        "price": "Precio de ventas",
+        "price_per_unit": "Precio de ventas por unidad"
+      },
       "secondary_currency": "Moneda secundaria",
       "sell": {
         "commission": "Comisión de venta",
-        "costs": "Costos de venta",
-        "costs_per_unit": "Costos de venta por unidad",
+        "costs": "Gastos de venta",
+        "costs_per_unit": "Gastos de venta por unidad",
         "price": "Precio de venta",
         "price_per_unit": "Precio de venta por unidad"
       },
+      "selling_expenses": "Gastos de venta",
       "slippage": "Deslizamiento",
       "starting": {
         "balance": "Saldo inicial",
