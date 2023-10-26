@@ -25,6 +25,14 @@
         "example": "Se hai un capitale di 50.000 € e prevedi di rischiare 1.000 €, inserisci 1.000 come importo.",
         "text": "Indica l'importo che vuoi rischiare per questa transazione, esprimendolo in valore monetario relativo al tuo capitale."
       },
+      "buying_expenses_per_unit": {
+        "example": "Ad esempio, se ti viene addebitata una tassa fissa di €5 per unità acquistata, inserisci '5' in questo campo. Se, d'altra parte, paghi una commissione del 2% per ogni unità acquistata, dovresti inserire '2'. Inserisci solo la tariffa senza il simbolo '%' o l'importo fisso senza il simbolo della valuta.",
+        "instructions": "Inserisci la tariffa delle spese aggiuntive o l'importo fisso sostenuto per ogni unità acquistata, separato dal prezzo di acquisto. Se è una tariffa, specifica la percentuale addebitata come commissione, tassa o costi aggiuntivi per unità. Se è un importo fisso, assicurati che rifletta i costi per unità, escludendo il prezzo base dell'attivo stesso."
+      },
+      "buying_price": {
+        "example": "Ad esempio, se hai acquistato un prodotto per €150,25, dovresti inserire '150,25'.",
+        "instructions": "Inserisci il prezzo di acquisto dell'attivo. Questo è il costo totale per unità, esclusi oneri aggiuntivi come commissioni."
+      },
       "discount_amount": {
         "example": "Se un prodotto è originariamente venduto per $100 e hai diritto a uno sconto di $20, inserisci 20 come importo.",
         "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
@@ -45,6 +53,14 @@
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
         "text": "Indica la percentuale della commissione che il tuo broker addebita alla chiusura di una posizione."
       },
+      "expected_sale_units": {
+        "example": "Ad esempio, se prevedi di vendere 150 unità di un prodotto, inserisci '150'.",
+        "instructions": "Inserisci il numero di unità che prevedi di vendere. Questo numero dovrebbe rappresentare il totale delle singole unità che pianifichi di vendere, non il valore totale degli attivi."
+      },
+      "operating_expenses": {
+        "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
+        "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
+      },
       "price_before_vat": {
         "example": "Se un prodotto costa $10 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
         "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
@@ -57,6 +73,14 @@
         "example": "Se inserisci 2, significa che per ogni euro che rischi, speri in un potenziale guadagno di 2 euro.",
         "text": "Indica il rapporto tra l'importo del rischio e il possibile guadagno che sei disposto ad accettare per questa transazione."
       },
+      "selling_expenses_per_unit": {
+        "example": "Ad esempio, se ci sono tariffe di transazione fisse di €3 per unità venduta, inserisci '3' in questo campo. Se c'è una commissione di intermediazione dell'1,5% sul prezzo di vendita per unità, dovresti inserire '1.5'. Ricorda di inserire solo la tariffa senza il simbolo '%' o l'importo in denaro senza simboli della valuta.",
+        "instructions": "Inserisci i costi aggiuntivi o le tariffe associate a ogni unità venduta, oltre al prezzo di vendita. Questo potrebbe essere un importo specifico di denaro o una tariffa percentuale. Questo numero dovrebbe riflettere solo i costi associati direttamente con il processo di vendita di ogni unità, come tariffe di transazione, commissioni o altri oneri per unità venduta, e non dovrebbe includere il prezzo base dell'unità."
+      },
+      "selling_price": {
+        "example": "Ad esempio, se hai venduto un prodotto per €300,50, inserisci '300,50'.",
+        "instructions": "Inserisci il prezzo di vendita dell'attivo. Questo dovrebbe riflettere l'importo totale ricevuto per unità, escludendo le spese di transazione come commissioni o tariffe di servizio."
+      },
       "slippage": {
         "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
         "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
@@ -64,6 +88,10 @@
       "stop_loss_price": {
         "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
         "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
+      },
+      "tax_rate": {
+        "example": "Ad esempio, se il tuo business rientra in una fascia fiscale del 25% dopo tutte le deduzioni ed esenzioni, dovresti inserire '25' in questo campo. Nota che dovresti inserire solo il numero percentuale senza il simbolo '%'.",
+        "instructions": "Inserisci l'aliquota fiscale applicabile in percentuale a cui è soggetto il tuo business o attivo. Questa tariffa è determinata da vari fattori, incluso il tuo livello di reddito, il tipo di business e la giurisdizione. Rappresenta la parte dei tuoi redditi che viene pagata al governo. Assicurati che questa sia l'aliquota effettiva, tenendo conto di tutte le deduzioni e esenzioni applicabili."
       },
       "tip_amount": {
         "example": "Se il tuo conto è di $20 e desideri lasciare una mancia di $5, dovresti inserire 5 come importo.",
@@ -127,8 +155,8 @@
       "breakdown": "Ripartizione",
       "buy": {
         "commission": "Commissione d'acquisto",
-        "costs": "Costi d'acquisto",
-        "costs_per_unit": "Costi di acquisto per unità",
+        "costs": "Spese di acquisto",
+        "costs_per_unit": "Spese di acquisto per unità",
         "price": "Prezzo d'acquisto",
         "price_per_unit": "Prezzo d'acquisto per unità"
       },
@@ -214,6 +242,7 @@
       },
       "open_price": "Prezzo di apertura",
       "operating": {
+        "expenses": "Spese operative",
         "income": "Reddito operativo",
         "margin": "Margine operativo",
         "profit": "Profitto operativo"

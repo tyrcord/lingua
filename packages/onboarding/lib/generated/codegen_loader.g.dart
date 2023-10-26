@@ -69,6 +69,9 @@ class OnboardingCodegenLoader extends AssetLoader {
       "intro": "使用我们的风险管理工具完善您的交易策略，以最大化您的结果。",
       "title": "欢迎，交易者"
     },
+    "welcome_gain_loss_calculator": {
+      "intro": "一目了然地发现您的潜在收益，并做出明智的决策以最大化您的机会。"
+    },
     "welcome_vat": {
       "description": "只需输入净额，选择您的费率，然后让应用程序完成剩下的工作。",
       "intro": "快速准确地定义您所在地区的增值税金额。"
@@ -132,6 +135,9 @@ static const Map<String,dynamic> ja = {
       "description": "自信を持って安心して取引を行いましょう！",
       "intro": "リスク管理ツールを使用して取引戦略を洗練させ、結果を最大化します。",
       "title": "ようこそ、トレーダーの皆様"
+    },
+    "welcome_gain_loss_calculator": {
+      "intro": "潜在的な収益を一目で発見し、機会を最大限に活用するための情報に基づいた決定を行います。"
     },
     "welcome_vat": {
       "description": "単に純額を入力し、レートを選択し、アプリケーションに残りを任せてください。",
@@ -197,6 +203,9 @@ static const Map<String,dynamic> de = {
       "intro": "Verfeinern Sie Ihre Handelsstrategie mit unseren Risikomanagement-Tools, um Ihre Ergebnisse zu maximieren.",
       "title": "Willkommen, Händler"
     },
+    "welcome_gain_loss_calculator": {
+      "intro": "Entdecken Sie auf einen Blick Ihr mögliches Einkommen und treffen Sie fundierte Entscheidungen, um Ihre Chancen zu maximieren."
+    },
     "welcome_vat": {
       "description": "Geben Sie einfach den Nettobetrag ein, wählen Sie Ihren Satz und lassen Sie die Anwendung den Rest erledigen.",
       "intro": "Definieren Sie schnell und genau die Mehrwertsteuerbeträge für Ihre Region."
@@ -260,6 +269,9 @@ static const Map<String,dynamic> ru = {
       "description": "Возьмите контроль и торгуйте с уверенностью и спокойствием!",
       "intro": "Уточните вашу торговую стратегию с помощью наших инструментов управления рисками для максимизации ваших результатов.",
       "title": "Добро пожаловать, Трейдеры"
+    },
+    "welcome_gain_loss_calculator": {
+      "intro": "Узнайте о потенциальном доходе с первого взгляда и принимайте обоснованные решения, чтобы максимизировать свои возможности."
     },
     "welcome_vat": {
       "description": "Просто введите чистую сумму, выберите вашу ставку и позвольте приложению сделать остальное.",
@@ -325,6 +337,9 @@ static const Map<String,dynamic> pt = {
       "intro": "Aperfeiçoe sua estratégia de negociação com nossas ferramentas de gestão de risco para maximizar seus resultados.",
       "title": "Bem-vindos, Traders"
     },
+    "welcome_gain_loss_calculator": {
+      "intro": "Descubra os seus ganhos potenciais num relance e tome decisões informadas para maximizar as suas oportunidades."
+    },
     "welcome_vat": {
       "description": "Simplesmente introduza o montante líquido, selecione a sua taxa e deixe a aplicação fazer o resto.",
       "intro": "Defina rapidamente e com precisão os montantes de IVA específicos da sua região."
@@ -388,6 +403,9 @@ static const Map<String,dynamic> en = {
       "description": "Take control and trade with confidence and peace of mind!",
       "intro": "Improve your trading strategy with our risk management tools to maximize your results.",
       "title": "Welcome, Traders"
+    },
+    "welcome_gain_loss_calculator": {
+      "intro": "Discover your potential earnings at a glance and make informed decisions to maximize your opportunities."
     },
     "welcome_vat": {
       "description": "Simply enter the net amount, select your rate, and let the application do the rest.",
@@ -453,6 +471,9 @@ static const Map<String,dynamic> it = {
       "intro": "Affina la tua strategia di trading con i nostri strumenti di gestione del rischio per massimizzare i tuoi risultati.",
       "title": "Benvenuti, Traders"
     },
+    "welcome_gain_loss_calculator": {
+      "intro": "Scopri i tuoi potenziali guadagni in un colpo d'occhio e prendi decisioni informate per massimizzare le tue opportunità."
+    },
     "welcome_vat": {
       "description": "Inserisci semplicemente l'importo netto, seleziona la tua tariffa e lascia che l'applicazione faccia il resto.",
       "intro": "Definisci rapidamente e con precisione gli importi dell'IVA specifici per la tua regione."
@@ -517,6 +538,9 @@ static const Map<String,dynamic> fr = {
       "intro": "Affinez votre stratégie de trading avec nos outils de gestion des risques pour maximiser vos résultats.",
       "title": "Bienvenue, Traders"
     },
+    "welcome_gain_loss_calculator": {
+      "intro": "Découvrez vos gains potentiels en un coup d'œil et prenez des décisions éclairées pour maximiser vos opportunités."
+    },
     "welcome_vat": {
       "description": "Entrez simplement le montant net, sélectionnez votre taux et laissez l'application faire le reste.",
       "intro": "Définissez rapidement et avec précision les montants de TVA spécifiques à votre région."
@@ -580,6 +604,9 @@ static const Map<String,dynamic> es = {
       "description": "¡Tome el control y opere con confianza y tranquilidad!",
       "intro": "Refine su estrategia de trading con nuestras herramientas de gestión de riesgos para maximizar sus resultados.",
       "title": "¡Bienvenidos, Traders!"
+    },
+    "welcome_gain_loss_calculator": {
+      "intro": "Descubra sus ganancias potenciales de un vistazo y tome decisiones informadas para maximizar sus oportunidades."
     },
     "welcome_vat": {
       "description": "Simplemente ingrese el monto neto, seleccione su tarifa y deje que la aplicación haga el resto.",

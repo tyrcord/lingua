@@ -25,6 +25,14 @@
         "example": "If you have a capital of $50,000 and you plan to risk $1,000 please enter 1,000 as the amount.",
         "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
       },
+      "buying_expenses_per_unit": {
+        "example": "For instance, if a fixed fee of $5 per unit purchased is charged to you, please enter '5' in this field. On the other hand, if you incur a commission fee of 2% per unit purchased, you should enter '2'. Please note, enter only the rate number, without the '%' symbol, or the fixed amount, without any currency symbol.",
+        "instructions": "Enter either the additional expense rate or the fixed monetary amount incurred for each unit purchased, separate from the purchase price. If it's a rate, provide the percentage charged as a fee, commission, or additional cost per unit. If it's a fixed amount, ensure it reflects the cost per unit, excluding the asset's base price itself."
+      },
+      "buying_price": {
+        "example": "For instance, if you purchased a product for $150.25, you should enter '150.25'.",
+        "instructions": "Enter the price at which you purchased an asset. This is the total acquisition cost per unit, excluding associated fees such as a commission."
+      },
       "discount_amount": {
         "example": "If a product is originally sold for $100, and you are entitled to a $20 discount, please enter 20 as the amount.",
         "text": "Represents the reduction in monetary value that is subtracted from the initial price of a product or service."
@@ -45,6 +53,14 @@
         "example": "If your broker charges 0.1% of the total value of the position upon closing, please enter 0.1 as a percentage.",
         "text": "Specify the percentage fee charged by your broker when closing a position."
       },
+      "expected_sale_units": {
+        "example": "For instance, if you plan to sell 150 units of a product, please enter '150'.",
+        "instructions": "Indicate the number of units you plan to sell. This figure should represent the total quantity of individual units you expect to sell, not the total cumulative value of the assets."
+      },
+      "operating_expenses": {
+        "example": "For example, if your business spent $3,500 on rent, $2,500 on utilities, $10,000 on wages, and $4,000 on various administrative expenses, you would add these amounts and enter '20000'.",
+        "instructions": "Enter the total amount of expenses incurred for your business's operational activities. This should include costs such as rent, utilities, wages, maintenance, and other administrative expenses necessary for daily operations. Do not include taxes, interest payments, or other non-operational expenses."
+      },
       "price_before_vat": {
         "example": "If a product costs $10 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
         "text": "Refers to the price of a product or service before the addition of the value-added tax (VAT). VAT is a tax on consumption imposed when products and services are sold in many countries."
@@ -57,6 +73,14 @@
         "example": "If you enter 2, it means that for every dollar risked, you hope for a potential gain of 2 dollars.",
         "text": "Specify the ratio between the risk amount and the potential reward you are willing to accept for this transaction."
       },
+      "selling_expenses_per_unit": {
+        "example": "For example, if there are fixed transaction fees of $3 per unit sold, please enter '3' in this field. Conversely, if there is a broker's commission of 1.5% on the sale price per unit, you should enter '1.5'. Remember, enter only the rate, without the '%' symbol, or just the monetary figure, without currency symbols.",
+        "instructions": "Indicate the additional cost or fees associated with each unit sold, separate from the selling price. This can be a specific monetary amount or a percentage rate. This figure should only reflect costs directly related to the process of selling each unit, such as transaction fees, commission, or any other per-unit sales charges, and not include the unit's base price."
+      },
+      "selling_price": {
+        "example": "For example, if you sold a product for $300.50, please enter '300.50'.",
+        "instructions": "Specify the price at which you sold an asset. This amount should represent the total revenue per unit, excluding transaction fees such as commissions or service charges."
+      },
       "slippage": {
         "example": "If you place a market order to purchase a stock valued at $100, but the transaction takes place at $102, the resulting variance of $2, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input 2 as a percentage.",
         "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, or it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
@@ -64,6 +88,10 @@
       "stop_loss_price": {
         "example": "If you purchased a stock at $50 and chose to secure your position with a stop-loss order at $45, please enter 45 as the value.",
         "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
+      },
+      "tax_rate": {
+        "example": "For example, if your business falls into a 25% tax bracket after all deductions and exemptions, you would enter '25' in this field. Please note that you should enter the percentage number only, without the '%' symbol.",
+        "instructions": "Enter the applicable tax rate as a percentage to which your business or asset is subject. This rate is determined by various factors, including your income bracket, business type, and jurisdiction. It represents the portion of your earnings that is paid to the government. Ensure this is the effective tax rate, taking into account all applicable deductions and exemptions."
       },
       "tip_amount": {
         "example": "If your bill is $20 and you wish to leave a $5 tip, you should enter 5 as the amount.",
@@ -127,8 +155,8 @@
       "breakdown": "Breakdown",
       "buy": {
         "commission": "Buying commission",
-        "costs": "Buying costs",
-        "costs_per_unit": "Buying costs per unit",
+        "costs": "Buying expenses",
+        "costs_per_unit": "Buying expenses per unit",
         "price": "Buying price",
         "price_per_unit": "Buying price per unit"
       },
@@ -214,6 +242,7 @@
       },
       "open_price": "Open Price",
       "operating": {
+        "expenses": "Operating expenses",
         "income": "Operating income",
         "margin": "Operating margin",
         "profit": "Operating profit"

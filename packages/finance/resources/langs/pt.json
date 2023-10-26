@@ -25,6 +25,14 @@
         "example": "Se você tem um capital de 50.000 € e planeja arriscar 1.000 €, insira 1.000 como valor.",
         "text": "Informe o valor que deseja arriscar nesta transação, expressando-o em valor monetário relativo ao seu capital."
       },
+      "buying_expenses_per_unit": {
+        "example": "Por exemplo, se há uma taxa fixa de 5 reais por unidade comprada, você inseriria '5' neste campo. Se você está pagando uma comissão de 2% por unidade comprada, insira '2'. Não inclua símbolos percentuais ou de moeda, apenas o número.",
+        "instructions": "Insira quaisquer custos adicionais ou montantes fixos por unidade comprada. Estes são separados do preço de compra e podem ser taxas, impostos, ou custos adicionais cobrados por unidade. Se for um montante fixo, deve refletir o custo por unidade, excluindo o preço base do ativo."
+      },
+      "buying_price": {
+        "example": "Por exemplo, se você comprou um produto por 15.025 reais, insira '15025'.",
+        "instructions": "Insira o preço de compra do ativo. Este é o custo total por unidade, excluindo quaisquer encargos adicionais, como taxas."
+      },
       "discount_amount": {
         "example": "Se um produto é originalmente vendido por $100 e você tem direito a um desconto de $20, por favor, insira 20 como o valor.",
         "text": "Representa a redução no valor monetário que é subtraído do preço inicial de um produto ou serviço."
@@ -45,6 +53,14 @@
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição no fechamento, insira 0,1 como porcentagem.",
         "text": "Informe o percentual da taxa cobrada pelo seu corretor no fechamento de uma posição."
       },
+      "expected_sale_units": {
+        "example": "Por exemplo, se você planeja vender 150 unidades de um produto, insira '150'.",
+        "instructions": "Insira o número de unidades que espera vender. Este número deve representar o total de unidades individuais que você planeja vender, não o valor total dos ativos."
+      },
+      "operating_expenses": {
+        "example": "Por exemplo, se o seu negócio gasta 350.000 reais de aluguel, 250.000 reais em serviços públicos, 1 milhão de reais em salários e 400.000 reais em outras despesas administrativas, você adicionaria esses valores e inseriria '2000000'.",
+        "instructions": "Insira o montante total das despesas operacionais do negócio. Isso inclui aluguel, serviços públicos, salários, manutenção e outras despesas administrativas necessárias para a operação diária. Não inclua impostos, pagamentos de juros ou despesas não operacionais."
+      },
       "price_before_vat": {
         "example": "Se um produto custa $10 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
         "text": "Refere-se ao preço de um produto ou serviço antes da adição do imposto sobre o valor acrescentado (IVA). O IVA é um imposto sobre o consumo imposto quando produtos e serviços são vendidos em muitos países."
@@ -57,6 +73,14 @@
         "example": "Se você inserir 2, significa que para cada euro que você arrisca, espera um lucro potencial de 2 euros.",
         "text": "Informe a relação entre o valor do risco e o possível lucro que você está disposto a aceitar nesta transação."
       },
+      "selling_expenses_per_unit": {
+        "example": "Por exemplo, se há uma taxa de transação de 3 reais por unidade vendida, você inseriria '3' neste campo. Se há uma comissão de corretagem de 1,5% baseada no preço de venda, insira '1.5'. Não inclua símbolos percentuais ou de moeda, apenas o número.",
+        "instructions": "Insira os custos ou taxas adicionais associados a cada unidade vendida, além do preço de venda. Isso pode ser um montante específico em dinheiro ou uma taxa percentual. Este número deve refletir diretamente quaisquer taxas de transação, comissões ou outras despesas incorridas por unidade vendida, e não deve incluir o preço base por unidade."
+      },
+      "selling_price": {
+        "example": "Por exemplo, se você vendeu um produto por 30.050 reais, insira '30050'.",
+        "instructions": "Insira o preço de venda do ativo. Deve refletir o valor total que você recebe por unidade, excluindo despesas como taxas de transação ou de serviço."
+      },
       "slippage": {
         "example": "Se você fizer um pedido de mercado para comprar uma ação que atualmente está sendo negociada a 100 €, mas a execução ocorrer a 102 €, essa diferença de 2 €, que equivale a 2% do preço original, é chamada de 'slippage'. Nesse caso, você deve inserir 2 como porcentagem.",
         "text": "Refere-se à diferença entre o preço esperado de uma transação e o preço ao qual a transação é realmente executada. O slippage ocorre frequentemente durante períodos de alta volatilidade quando são usados ​​pedidos de mercado, ou também pode ocorrer quando são executados pedidos grandes e não há volume suficiente no nível de preço solicitado."
@@ -64,6 +88,10 @@
       "stop_loss_price": {
         "example": "Se você comprou uma ação a 50 € e optou por proteger sua posição com um stop-loss a 45 €, insira 45 como valor.",
         "text": "Informe o preço ao qual você definirá seu stop-loss para limitar as perdas potenciais."
+      },
+      "tax_rate": {
+        "example": "Por exemplo, se o seu negócio está numa faixa de imposto de 25% após todas as deduções e isenções, você inseriria '25' neste campo. Não inclua o símbolo percentual, apenas o número.",
+        "instructions": "Insira a porcentagem da taxa de imposto aplicável ao seu negócio ou ativo. Esta taxa será determinada por vários fatores, incluindo o nível de renda, o tipo de negócio e a jurisdição. Representa uma parte da sua renda que é paga ao governo. Certifique-se de que é a taxa efetiva, considerando todas as deduções e isenções aplicáveis."
       },
       "tip_amount": {
         "example": "Se a sua conta é $20 e você deseja deixar uma gorjeta de $5, você deve inserir 5 como o valor.",
@@ -127,8 +155,8 @@
       "breakdown": "Repartição",
       "buy": {
         "commission": "Comissão de compra",
-        "costs": "Custos de compra",
-        "costs_per_unit": "Custos de compra por unidade",
+        "costs": "Despesas de compra",
+        "costs_per_unit": "Despesas de compra por unidade",
         "price": "Preço de compra",
         "price_per_unit": "Preço de compra por unidade"
       },
@@ -214,6 +242,7 @@
       },
       "open_price": "Preço de abertura",
       "operating": {
+        "expenses": "Despesas operacionais",
         "income": "Rendimento operacional",
         "margin": "Margem operacional",
         "profit": "Lucro operacional"

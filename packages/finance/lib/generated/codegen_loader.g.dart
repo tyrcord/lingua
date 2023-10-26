@@ -38,6 +38,14 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果您的资本为 50,000 欧元，您计划冒险 1,000 欧元，请输入 1,000 作为金额。",
         "text": "请以与您的资本相关的货币价值表示您希望在此交易中冒险的金额。"
       },
+      "buying_expenses_per_unit": {
+        "example": "例如，如果每购买单位有5元的固定费用，您需要在此字段输入'5'。如果您支付2%的购买手续费，请输入'2'。不要包括百分比符号或货币符号，只输入数字。",
+        "instructions": "请输入每单位购买额外的费用或固定金额。这应该是除购买价格外的费用，可能包括手续费、税款或每单位收取的额外费用。如果是固定金额，它应该反映每单位的成本，不包括资产的基本价格。"
+      },
+      "buying_price": {
+        "example": "例如，如果您以15025元的价格购买了产品，请输入'15025'。",
+        "instructions": "请输入资产的购买价格。这应该是每单位的总成本，不包括任何额外费用，如手续费。"
+      },
       "discount_amount": {
         "example": "如果一个产品原价为\u0024100，且你可以享受\u002420的折扣，请输入20作为折扣金额。",
         "text": "代表从商品或服务的初始价格中减去的货币价值的减少。"
@@ -58,6 +66,14 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果您的经纪人在平仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
         "text": "请提供您的经纪人在平仓时收取的佣金百分比。"
       },
+      "expected_sale_units": {
+        "example": "例如，如果您计划销售150个产品单位，请输入'150'。",
+        "instructions": "请输入您计划销售的单位数量。这个数字应代表您打算出售的单个单位的总数量，而不是资产的总价值。"
+      },
+      "operating_expenses": {
+        "example": "例如，如果您的业务在租金上花费350000元，在公用事业上花费250000元，在薪资上花费1000000元，在其他行政费用上花费400000元，您需要加总这些数额并输入'2000000'。",
+        "instructions": "请输入业务的总运营费用。这包括租金、公用事业、薪资、维护和其他日常运营所需的行政费用。不要包括税款、利息支付或非运营费用。"
+      },
       "price_before_vat": {
         "example": "如果一个产品税前价格为\u002410且适用20%的增值税率，请输入10作为税前价值。",
         "text": "指的是商品或服务在增值税（VAT）加成之前的价格。增值税是许多国家在销售商品和服务时征收的消费税。"
@@ -70,6 +86,14 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果您输入 2，这意味着您预计每冒险 1 美元，将获得 2 美元的潜在收益。",
         "text": "请提供您愿意接受的此交易中风险金额和潜在收益之间的比率。"
       },
+      "selling_expenses_per_unit": {
+        "example": "例如，如果每售出单位有3元的交易费用，您需要在此字段输入'3'。如果有基于销售价格1.5%的经纪人佣金，请输入'1.5'。不要包括百分比符号或货币符号，只输入数字。",
+        "instructions": "请输入与每单位销售相关的费用或额外收费，除了销售价格。这可以是一个具体的金额或一个百分比率。此数字应直接反映每单位销售商品的交易费用、佣金或其他费用，不应包括单位基础价格。"
+      },
+      "selling_price": {
+        "example": "例如，如果您以30050元的价格出售了产品，请输入'30050'。",
+        "instructions": "请输入资产的销售价格。这应是您每单位获得的全部金额，不计算任何交易费用或服务费。"
+      },
       "slippage": {
         "example": "如果您下达以当前价格 100 欧元购买股票的市场订单，但实际执行价格为 102 欧元，则此 2 欧元 (相当于原始价格的 2%) 差异称为“滑点”。在这种情况下，您需要输入 2 作为百分比。",
         "text": "指的是交易预期价格和实际执行价格之间的差异。滑点在高波动时期使用市场订单时经常发生，也可能发生在执行大订单时，并且没有足够的交易量在所需的价格水平上。"
@@ -77,6 +101,10 @@ class FinanceCodegenLoader extends AssetLoader {
       "stop_loss_price": {
         "example": "如果您以 50 欧元购买了股票，并选择以 45 欧元设置止损单来保护您的头寸，请输入 45 作为值。",
         "text": "请指定您将设置止损单以限制潜在损失的价格。"
+      },
+      "tax_rate": {
+        "example": "例如，如果您的业务在所有减免和优惠后处于25%的税率范围内，请在此字段输入'25'。不要包括百分比符号，只输入数字。",
+        "instructions": "请输入适用于您业务或资产的税率百分比。这个率由多个因素决定，包括收入水平、业务类型和司法管辖区。它代表您需要支付给政府的收入部分。确保这是一个有效税率，考虑到所有适用的减免和优惠。"
       },
       "tip_amount": {
         "example": "如果你的账单是\u002420且你想给\u00245的小费，你应该输入5作为小费金额。",
@@ -140,8 +168,8 @@ class FinanceCodegenLoader extends AssetLoader {
       "breakdown": "细分",
       "buy": {
         "commission": "购买佣金",
-        "costs": "购买成本",
-        "costs_per_unit": "每单位购买成本",
+        "costs": "购买费用",
+        "costs_per_unit": "每单位购买费用",
         "price": "购买价格",
         "price_per_unit": "每单位购买价格"
       },
@@ -227,6 +255,7 @@ class FinanceCodegenLoader extends AssetLoader {
       },
       "open_price": "开盘价",
       "operating": {
+        "expenses": "营业费用",
         "income": "营业收入",
         "margin": "营业利润率",
         "profit": "营业利润"
@@ -423,6 +452,14 @@ static const Map<String,dynamic> ja = {
         "example": "資本が 50,000 円で、1,000 円をリスクにさらそうとしている場合は、1,000 を金額として入力してください。",
         "text": "この取引でリスクにさらしたい金額を、資本に関連する金銭的価値で指定してください。"
       },
+      "buying_expenses_per_unit": {
+        "example": "例えば、購入したユニットごとに5円の固定料金が課金される場合、このフィールドに'5'と入力します。一方、購入した各ユニットに対して2%の手数料を支払っている場合は、'2'と入力します。パーセンテージ記号「%」や通貨記号は付けずに数値のみを入力してください。",
+        "instructions": "購入した各ユニットにかかる追加の費用や固定額を入力してください。これは購入価格とは別で、手数料、税金、または単位あたりの追加コストとして課金されるパーセンテージです。固定額の場合、基本資産価格を除外した単位あたりのコストを反映する必要があります。"
+      },
+      "buying_price": {
+        "example": "例えば、製品を15,025円で購入した場合、'15025'と入力します。",
+        "instructions": "資産の購入価格を入力してください。これは、手数料などの追加料金を除いた、単位あたりの総コストです。"
+      },
       "discount_amount": {
         "example": "製品がもともと\u0024100で販売されており、\u002420の割引が適用される場合、金額として20を入力してください。",
         "text": "製品やサービスの初期価格から差し引かれる金額の削減を表します。"
@@ -443,6 +480,14 @@ static const Map<String,dynamic> ja = {
         "example": "ポジションの解 closure 時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
         "text": "ブローカーがポジションの解 closure 時に請求する手数料の割合を指定してください。"
       },
+      "expected_sale_units": {
+        "example": "例えば、製品150ユニットの販売を予定している場合、'150'と入力します。",
+        "instructions": "販売予定のユニット数を入力してください。この数値は、販売する予定の各ユニットの総数である必要があり、資産の総価値ではありません。"
+      },
+      "operating_expenses": {
+        "example": "例えば、あなたの企業が家賃に35万円、公共料金に25万円、給与に100万円、その他の管理費用に40万円を支出している場合、これらの金額を合計して'2000000'と入力します。",
+        "instructions": "企業の運営にかかる総経費の金額を入力してください。これには、家賃、公共料金、給与、メンテナンス、および日常業務に必要なその他の管理費用が含まれます。税金、利息支払い、または非運営費用は含めないでください。"
+      },
       "price_before_vat": {
         "example": "製品が税抜きで\u002410であり、20%のVATが適用される場合、税抜きの値として10を入力してください。",
         "text": "製品またはサービスの価格を付加価値税（VAT）の追加前に参照します。VATは、多くの国で商品やサービスが販売される際に課される消費税です。"
@@ -455,6 +500,14 @@ static const Map<String,dynamic> ja = {
         "example": "2 を入力すると、1 ドルのリスクに対して 2 ドルの潜在的な利益を期待していることを意味します。",
         "text": "この取引で受け入れるリスク額と潜在的な利益の比率を指定してください。"
       },
+      "selling_expenses_per_unit": {
+        "example": "例えば、販売されたユニットごとに3円のトランザクション手数料が発生する場合、このフィールドに'3'と入力します。販売価格に基づいて1.5%のブローカー手数料が発生する場合は、'1.5'と入力します。パーセンテージ記号「%」や通貨記号は付けずに数値のみを入力してください。",
+        "instructions": "販売価格に加えて、各販売ユニットに関連する追加のコストや手数料を入力してください。これは特定の現金額やパーセンテージレートである場合があります。この数値は、トランザクション手数料、コミッション、または販売されたユニットごとに発生するその他の費用を直接反映する必要があり、ユニットの基本価格は含めないでください。"
+      },
+      "selling_price": {
+        "example": "例えば、製品を30,050円で売却した場合、'30050'と入力します。",
+        "instructions": "資産の販売価格を入力してください。これは、取引手数料やサービス料などを除いた、単位あたりの総受け取り額を反映する必要があります。"
+      },
       "slippage": {
         "example": "現在 100 円で取引されている株式を市場価格で購入する注文を placed した場合、取引が 102 円で実行された場合、この 2 円の差は「スリッページ」と呼ばれます。この場合、パーセンテージとして 2 を入力する必要があります。",
         "text": "取引の expected 価格と実際に取引が実行された価格の差を参照します。スリッページは、市場のボラティリティが高い期間や、大口の注文が実行されていて、要求された価格レベルで十分な取引量がない場合によく発生します。"
@@ -462,6 +515,10 @@ static const Map<String,dynamic> ja = {
       "stop_loss_price": {
         "example": "50 円で株式を購入した後、45 円の損失を防ぐためにストップロス注文を設定する場合、45 を値として入力してください。",
         "text": "損失を最小限に抑えるためにストップロス注文を設定する価格を指定してください。"
+      },
+      "tax_rate": {
+        "example": "例えば、すべての控除と免除の後、あなたのビジネスが25%の税率ブラケットにある場合、このフィールドに'25'と入力します。パーセンテージ記号「%」は付けずに数値のみを入力してください。",
+        "instructions": "あなたのビジネスまたは資産に適用される税率のパーセンテージを入力してください。このレートは、収入のレベル、ビジネスの種類、管轄区域など、さまざまな要因によって決まります。政府に支払われる収入の一部を表しています。適用可能なすべての控除および免除を考慮に入れた実効税率であることを確認してください。"
       },
       "tip_amount": {
         "example": "請求額が\u002420で、\u00245のチップを残したい場合、金額として5を入力する必要があります。",
@@ -525,8 +582,8 @@ static const Map<String,dynamic> ja = {
       "breakdown": "内訳",
       "buy": {
         "commission": "購入手数料",
-        "costs": "購入コスト",
-        "costs_per_unit": "単位あたりの購入コスト",
+        "costs": "購入費用",
+        "costs_per_unit": "単位あたりの購入費用",
         "price": "購入価格",
         "price_per_unit": "単位あたりの購入価格"
       },
@@ -612,6 +669,7 @@ static const Map<String,dynamic> ja = {
       },
       "open_price": "始値",
       "operating": {
+        "expenses": "運営費",
         "income": "営業収入",
         "margin": "営業マージン",
         "profit": "営業利益"
@@ -808,6 +866,14 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
         "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, und geben Sie ihn in Geldwert relativ zu Ihrem Kapital an."
       },
+      "buying_expenses_per_unit": {
+        "example": "Wenn Ihnen beispielsweise eine feste Gebühr von 5 \u0024 pro gekaufter Einheit berechnet wird, geben Sie bitte '5' in dieses Feld ein. Andererseits sollten Sie bei einer Provision von 2 % pro gekaufter Einheit '2' eingeben. Bitte beachten Sie, dass Sie nur die Ratennummer ohne das '%' -Symbol oder den Festbetrag ohne Währungssymbol eingeben.",
+        "instructions": "Geben Sie entweder den zusätzlichen Ausgabensatz oder den festen Geldbetrag an, der für jede gekaufte Einheit anfällt, getrennt vom Kaufpreis. Wenn es sich um einen Satz handelt, geben Sie den als Gebühr, Provision oder zusätzliche Kosten pro Einheit berechneten Prozentsatz an. Wenn es sich um einen Festbetrag handelt, stellen Sie sicher, dass er die Kosten pro Einheit widerspiegelt, ohne den eigentlichen Basispreis des Vermögenswerts."
+      },
+      "buying_price": {
+        "example": "Wenn Sie beispielsweise ein Produkt für 150,25 \u0024 gekauft haben, sollten Sie '150,25' eingeben.",
+        "instructions": "Geben Sie den Preis ein, zu dem Sie ein Vermögenswert erworben haben. Dies ist die gesamten Anschaffungskosten pro Einheit, ausgenommen damit verbundene Gebühren wie Provisionen."
+      },
       "discount_amount": {
         "example": "Wenn ein Produkt ursprünglich für 100 \u0024 verkauft wird und Sie Anspruch auf einen Rabatt von 20 \u0024 haben, geben Sie bitte 20 als den Betrag ein.",
         "text": "Stellt die Reduzierung des Geldwerts dar, die vom ursprünglichen Preis eines Produkts oder einer Dienstleistung abgezogen wird."
@@ -828,6 +894,14 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Ihr Broker bei der Schließung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
         "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Schließung einer Position berechnet."
       },
+      "expected_sale_units": {
+        "example": "Wenn Sie beispielsweise 150 Einheiten eines Produkts verkaufen möchten, geben Sie bitte '150' ein.",
+        "instructions": "Geben Sie die Anzahl der Einheiten an, die Sie verkaufen möchten. Diese Zahl sollte die Gesamtmenge der einzelnen Einheiten darstellen, die Sie verkaufen möchten, nicht den gesamten kumulierten Wert der Vermögenswerte."
+      },
+      "operating_expenses": {
+        "example": "Wenn Ihr Unternehmen beispielsweise 3.500 \u0024 für Miete, 2.500 \u0024 für Nebenkosten, 10.000 \u0024 für Löhne und 4.000 \u0024 für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
+        "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."
+      },
       "price_before_vat": {
         "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
         "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
@@ -840,6 +914,14 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie 2 eingeben, bedeutet dies, dass Sie für jeden Dollar, den Sie riskieren, einen potenziellen Gewinn von 2 Dollar erwarten.",
         "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und dem potenziellen Gewinn an, den Sie für diese Transaktion bereit sind, zu akzeptieren."
       },
+      "selling_expenses_per_unit": {
+        "example": "Wenn beispielsweise feste Transaktionsgebühren von 3 \u0024 pro verkaufter Einheit anfallen, geben Sie bitte '3' in dieses Feld ein. Wenn es eine Maklerprovision von 1,5 % auf den Verkaufspreis pro Einheit gibt, sollten Sie '1.5' eingeben. Denken Sie daran, nur die Rate ohne das '%' -Symbol oder nur den Geldbetrag ohne Währungssymbole einzugeben.",
+        "instructions": "Geben Sie die zusätzlichen Kosten oder Gebühren an, die mit jeder verkauften Einheit verbunden sind, getrennt vom Verkaufspreis. Dies kann ein bestimmter Geldbetrag oder ein Prozentsatz sein. Diese Zahl sollte nur Kosten widerspiegeln, die direkt mit dem Verkaufsprozess jeder Einheit zusammenhängen, wie Transaktionsgebühren, Provisionen oder sonstige Verkaufsgebühren pro Einheit, und nicht den Basispreis der Einheit beinhalten."
+      },
+      "selling_price": {
+        "example": "Wenn Sie beispielsweise ein Produkt für 300,50 \u0024 verkauft haben, geben Sie bitte '300,50' ein.",
+        "instructions": "Geben Sie den Preis an, zu dem Sie einen Vermögenswert verkauft haben. Dieser Betrag sollte den Gesamterlös pro Einheit darstellen, ohne Transaktionsgebühren wie Provisionen oder Servicegebühren."
+      },
       "slippage": {
         "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
         "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
@@ -847,6 +929,10 @@ static const Map<String,dynamic> de = {
       "stop_loss_price": {
         "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
         "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
+      },
+      "tax_rate": {
+        "example": "Wenn Ihr Unternehmen beispielsweise nach allen Abzügen und Freibeträgen in eine Steuerklasse von 25 % fällt, würden Sie '25' in dieses Feld eingeben. Bitte beachten Sie, dass Sie nur die Prozentzahl ohne das '%' -Symbol eingeben sollten.",
+        "instructions": "Geben Sie den geltenden Steuersatz als Prozentsatz ein, dem Ihr Geschäft oder Vermögenswert unterliegt. Dieser Satz wird durch verschiedene Faktoren bestimmt, darunter Ihre Einkommensklasse, Geschäftstyp und Gerichtsbarkeit. Es stellt den Teil Ihrer Einnahmen dar, der an die Regierung gezahlt wird. Stellen Sie sicher, dass dies der effektive Steuersatz ist, unter Berücksichtigung aller geltenden Abzüge und Freibeträge."
       },
       "tip_amount": {
         "example": "Wenn Ihre Rechnung 20 \u0024 beträgt und Sie ein Trinkgeld von 5 \u0024 hinterlassen möchten, sollten Sie 5 als den Betrag eingeben.",
@@ -997,6 +1083,7 @@ static const Map<String,dynamic> de = {
       },
       "open_price": "Eröffnungspreis",
       "operating": {
+        "expenses": "Betriebsausgaben",
         "income": "Betriebseinkommen",
         "margin": "Betriebsmarge",
         "profit": "Betriebsgewinn"
@@ -1193,6 +1280,14 @@ static const Map<String,dynamic> ru = {
         "example": "Если у вас капитал 50 000 € и вы планируете рискнуть 1 000 €, введите 1 000 в качестве суммы.",
         "text": "Укажите сумму, которую вы хотите рискнуть в этой транзакции, выражая ее в денежном выражении, относительно вашего капитала."
       },
+      "buying_expenses_per_unit": {
+        "example": "Например, если есть фиксированный сбор в размере 5 рублей за купленную единицу, вы вводите '5' в это поле. Если вы платите комиссию в размере 2% за покупку на единицу, введите '2'. Не включайте знаки процента или валюты, только число.",
+        "instructions": "Введите любые дополнительные расходы или фиксированные суммы за единицу, которую вы покупаете. Это отдельно от покупной цены и может включать в себя сборы, налоги или дополнительные расходы, взимаемые за единицу. Если это фиксированная сумма, она должна отражать стоимость за единицу, исключая базовую цену актива."
+      },
+      "buying_price": {
+        "example": "Например, если вы купили продукт за 15025 рублей, введите '15025'.",
+        "instructions": "Введите цену покупки актива. Это общая стоимость за единицу, исключая дополнительные расходы, такие как комиссии."
+      },
       "discount_amount": {
         "example": "Если первоначальная стоимость товара составляет \u0024100, и вам предоставляется скидка \u002420, введите 20 в качестве суммы.",
         "text": "Представляет собой уменьшение денежной стоимости, которое вычитается из первоначальной цены товара или услуги."
@@ -1213,6 +1308,14 @@ static const Map<String,dynamic> ru = {
         "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при закрытии, введите 0,1 в качестве процента.",
         "text": "Укажите процентную ставку комиссии, взимаемой вашим брокером при закрытии позиции."
       },
+      "expected_sale_units": {
+        "example": "Например, если вы планируете продать 150 единиц продукта, введите '150'.",
+        "instructions": "Введите количество единиц, которое вы планируете продать. Это число должно представлять общее количество отдельных единиц, которые вы намерены продать, а не общую стоимость активов."
+      },
+      "operating_expenses": {
+        "example": "Например, если ваш бизнес тратит 350000 рублей на аренду, 250000 рублей на коммунальные услуги, 1 миллион рублей на зарплату и 400000 рублей на другие административные расходы, вы складываете эти значения и вводите '2000000'.",
+        "instructions": "Введите общую сумму операционных расходов бизнеса. Это включает арендную плату, коммунальные услуги, зарплату, обслуживание и другие административные расходы, необходимые для ежедневной операции. Не включайте налоги, процентные платежи или неоперационные расходы."
+      },
       "price_before_vat": {
         "example": "Если стоимость товара до налогов составляет \u002410 и на нее распространяется ставка НДС 20%, введите 10 в качестве значения до налогообложения.",
         "text": "Относится к цене товара или услуги до начисления налога на добавленную стоимость (НДС). НДС — это потребительский налог, взимаемый при продаже товаров и услуг во многих странах."
@@ -1225,6 +1328,14 @@ static const Map<String,dynamic> ru = {
         "example": "Если вы введете 2, это означает, что вы ожидаете потенциальную прибыль в 2 доллара за каждый доллар, который вы рискуете.",
         "text": "Укажите соотношение между размером риска и потенциальным выигрышем, который вы готовы принять в этой транзакции."
       },
+      "selling_expenses_per_unit": {
+        "example": "Например, если есть транзакционный сбор в размере 3 рублей за проданную единицу, вы вводите '3' в это поле. Если есть комиссия брокера в размере 1,5% от цены продажи, введите '1.5'. Не включайте знаки процента или валюты, только число.",
+        "instructions": "Введите стоимость или дополнительные сборы, связанные с каждой проданной единицей, помимо цены продажи. Это может быть конкретная сумма денег или процентная ставка. Это число должно непосредственно отражать любые транзакционные сборы, комиссии или другие расходы, понесенные за единицу проданного товара, и не должно включать базовую цену за единицу."
+      },
+      "selling_price": {
+        "example": "Например, если вы продали продукт за 30050 рублей, введите '30050'.",
+        "instructions": "Введите цену продажи актива. Это должна быть полная сумма, которую вы получаете за единицу, без учета расходов, таких как комиссии за транзакцию или услугу."
+      },
       "slippage": {
         "example": "Если вы разместите рыночный ордер на покупку акции, которая в настоящее время торгуется по 100 €, но исполнение происходит по 102 €, эта разница в 2 € (что составляет 2% от первоначальной цены) называется «проскальзыванием». В этом случае вам нужно ввести 2 в качестве процента.",
         "text": "Ссылается на разницу между ожидаемой ценой транзакции и ценой, по которой транзакция фактически выполняется. Проскальзывает часто во время периодов высокой волатильности, когда используются рыночные ордера, или может также происходить, когда выполняются крупные ордера, и нет достаточного объема на запрашиваемом уровне цен."
@@ -1232,6 +1343,10 @@ static const Map<String,dynamic> ru = {
       "stop_loss_price": {
         "example": "Если вы купили акцию по 50 € и решили защитить свою позицию стоп-лосс-приказом на 45 €, введите 45 в качестве значения.",
         "text": "Укажите цену, по которой вы установите свой стоп-лосс, чтобы ограничить возможные убытки."
+      },
+      "tax_rate": {
+        "example": "Например, если ваш бизнес находится в налоговом диапазоне 25% после всех вычетов и льгот, вы вводите '25' в это поле. Не включайте знак процента, только число.",
+        "instructions": "Введите процент налоговой ставки, применимый к вашему бизнесу или активу. Эта ставка будет определяться различными факторами, включая уровень дохода, тип бизнеса и юрисдикцию. Она представляет собой часть вашего дохода, который уплачивается государству. Убедитесь, что это эффективная ставка, учитывающая все применимые вычеты и льготы."
       },
       "tip_amount": {
         "example": "Если ваш счет составляет \u002420 и вы хотите оставить чаевые в размере \u00245, введите 5 в качестве суммы.",
@@ -1295,8 +1410,8 @@ static const Map<String,dynamic> ru = {
       "breakdown": "Разбивка",
       "buy": {
         "commission": "Комиссия за покупку",
-        "costs": "Стоимость покупки",
-        "costs_per_unit": "Стоимость покупки за единицу",
+        "costs": "Расходы на покупку",
+        "costs_per_unit": "Расходы на покупку за единицу",
         "price": "Цена покупки",
         "price_per_unit": "Цена покупки за единицу"
       },
@@ -1382,6 +1497,7 @@ static const Map<String,dynamic> ru = {
       },
       "open_price": "Цена открытия",
       "operating": {
+        "expenses": "Операционные расходы",
         "income": "Операционный доход",
         "margin": "Операционная маржа",
         "profit": "Операционная прибыль"
@@ -1578,6 +1694,14 @@ static const Map<String,dynamic> pt = {
         "example": "Se você tem um capital de 50.000 € e planeja arriscar 1.000 €, insira 1.000 como valor.",
         "text": "Informe o valor que deseja arriscar nesta transação, expressando-o em valor monetário relativo ao seu capital."
       },
+      "buying_expenses_per_unit": {
+        "example": "Por exemplo, se há uma taxa fixa de 5 reais por unidade comprada, você inseriria '5' neste campo. Se você está pagando uma comissão de 2% por unidade comprada, insira '2'. Não inclua símbolos percentuais ou de moeda, apenas o número.",
+        "instructions": "Insira quaisquer custos adicionais ou montantes fixos por unidade comprada. Estes são separados do preço de compra e podem ser taxas, impostos, ou custos adicionais cobrados por unidade. Se for um montante fixo, deve refletir o custo por unidade, excluindo o preço base do ativo."
+      },
+      "buying_price": {
+        "example": "Por exemplo, se você comprou um produto por 15.025 reais, insira '15025'.",
+        "instructions": "Insira o preço de compra do ativo. Este é o custo total por unidade, excluindo quaisquer encargos adicionais, como taxas."
+      },
       "discount_amount": {
         "example": "Se um produto é originalmente vendido por \u0024100 e você tem direito a um desconto de \u002420, por favor, insira 20 como o valor.",
         "text": "Representa a redução no valor monetário que é subtraído do preço inicial de um produto ou serviço."
@@ -1598,6 +1722,14 @@ static const Map<String,dynamic> pt = {
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição no fechamento, insira 0,1 como porcentagem.",
         "text": "Informe o percentual da taxa cobrada pelo seu corretor no fechamento de uma posição."
       },
+      "expected_sale_units": {
+        "example": "Por exemplo, se você planeja vender 150 unidades de um produto, insira '150'.",
+        "instructions": "Insira o número de unidades que espera vender. Este número deve representar o total de unidades individuais que você planeja vender, não o valor total dos ativos."
+      },
+      "operating_expenses": {
+        "example": "Por exemplo, se o seu negócio gasta 350.000 reais de aluguel, 250.000 reais em serviços públicos, 1 milhão de reais em salários e 400.000 reais em outras despesas administrativas, você adicionaria esses valores e inseriria '2000000'.",
+        "instructions": "Insira o montante total das despesas operacionais do negócio. Isso inclui aluguel, serviços públicos, salários, manutenção e outras despesas administrativas necessárias para a operação diária. Não inclua impostos, pagamentos de juros ou despesas não operacionais."
+      },
       "price_before_vat": {
         "example": "Se um produto custa \u002410 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
         "text": "Refere-se ao preço de um produto ou serviço antes da adição do imposto sobre o valor acrescentado (IVA). O IVA é um imposto sobre o consumo imposto quando produtos e serviços são vendidos em muitos países."
@@ -1610,6 +1742,14 @@ static const Map<String,dynamic> pt = {
         "example": "Se você inserir 2, significa que para cada euro que você arrisca, espera um lucro potencial de 2 euros.",
         "text": "Informe a relação entre o valor do risco e o possível lucro que você está disposto a aceitar nesta transação."
       },
+      "selling_expenses_per_unit": {
+        "example": "Por exemplo, se há uma taxa de transação de 3 reais por unidade vendida, você inseriria '3' neste campo. Se há uma comissão de corretagem de 1,5% baseada no preço de venda, insira '1.5'. Não inclua símbolos percentuais ou de moeda, apenas o número.",
+        "instructions": "Insira os custos ou taxas adicionais associados a cada unidade vendida, além do preço de venda. Isso pode ser um montante específico em dinheiro ou uma taxa percentual. Este número deve refletir diretamente quaisquer taxas de transação, comissões ou outras despesas incorridas por unidade vendida, e não deve incluir o preço base por unidade."
+      },
+      "selling_price": {
+        "example": "Por exemplo, se você vendeu um produto por 30.050 reais, insira '30050'.",
+        "instructions": "Insira o preço de venda do ativo. Deve refletir o valor total que você recebe por unidade, excluindo despesas como taxas de transação ou de serviço."
+      },
       "slippage": {
         "example": "Se você fizer um pedido de mercado para comprar uma ação que atualmente está sendo negociada a 100 €, mas a execução ocorrer a 102 €, essa diferença de 2 €, que equivale a 2% do preço original, é chamada de 'slippage'. Nesse caso, você deve inserir 2 como porcentagem.",
         "text": "Refere-se à diferença entre o preço esperado de uma transação e o preço ao qual a transação é realmente executada. O slippage ocorre frequentemente durante períodos de alta volatilidade quando são usados ​​pedidos de mercado, ou também pode ocorrer quando são executados pedidos grandes e não há volume suficiente no nível de preço solicitado."
@@ -1617,6 +1757,10 @@ static const Map<String,dynamic> pt = {
       "stop_loss_price": {
         "example": "Se você comprou uma ação a 50 € e optou por proteger sua posição com um stop-loss a 45 €, insira 45 como valor.",
         "text": "Informe o preço ao qual você definirá seu stop-loss para limitar as perdas potenciais."
+      },
+      "tax_rate": {
+        "example": "Por exemplo, se o seu negócio está numa faixa de imposto de 25% após todas as deduções e isenções, você inseriria '25' neste campo. Não inclua o símbolo percentual, apenas o número.",
+        "instructions": "Insira a porcentagem da taxa de imposto aplicável ao seu negócio ou ativo. Esta taxa será determinada por vários fatores, incluindo o nível de renda, o tipo de negócio e a jurisdição. Representa uma parte da sua renda que é paga ao governo. Certifique-se de que é a taxa efetiva, considerando todas as deduções e isenções aplicáveis."
       },
       "tip_amount": {
         "example": "Se a sua conta é \u002420 e você deseja deixar uma gorjeta de \u00245, você deve inserir 5 como o valor.",
@@ -1680,8 +1824,8 @@ static const Map<String,dynamic> pt = {
       "breakdown": "Repartição",
       "buy": {
         "commission": "Comissão de compra",
-        "costs": "Custos de compra",
-        "costs_per_unit": "Custos de compra por unidade",
+        "costs": "Despesas de compra",
+        "costs_per_unit": "Despesas de compra por unidade",
         "price": "Preço de compra",
         "price_per_unit": "Preço de compra por unidade"
       },
@@ -1767,6 +1911,7 @@ static const Map<String,dynamic> pt = {
       },
       "open_price": "Preço de abertura",
       "operating": {
+        "expenses": "Despesas operacionais",
         "income": "Rendimento operacional",
         "margin": "Margem operacional",
         "profit": "Lucro operacional"
@@ -1963,6 +2108,14 @@ static const Map<String,dynamic> en = {
         "example": "If you have a capital of \u002450,000 and you plan to risk \u00241,000 please enter 1,000 as the amount.",
         "text": "Specify the amount you wish to risk for this transaction, expressing it in monetary value relative to your capital."
       },
+      "buying_expenses_per_unit": {
+        "example": "For instance, if a fixed fee of \u00245 per unit purchased is charged to you, please enter '5' in this field. On the other hand, if you incur a commission fee of 2% per unit purchased, you should enter '2'. Please note, enter only the rate number, without the '%' symbol, or the fixed amount, without any currency symbol.",
+        "instructions": "Enter either the additional expense rate or the fixed monetary amount incurred for each unit purchased, separate from the purchase price. If it's a rate, provide the percentage charged as a fee, commission, or additional cost per unit. If it's a fixed amount, ensure it reflects the cost per unit, excluding the asset's base price itself."
+      },
+      "buying_price": {
+        "example": "For instance, if you purchased a product for \u0024150.25, you should enter '150.25'.",
+        "instructions": "Enter the price at which you purchased an asset. This is the total acquisition cost per unit, excluding associated fees such as a commission."
+      },
       "discount_amount": {
         "example": "If a product is originally sold for \u0024100, and you are entitled to a \u002420 discount, please enter 20 as the amount.",
         "text": "Represents the reduction in monetary value that is subtracted from the initial price of a product or service."
@@ -1983,6 +2136,14 @@ static const Map<String,dynamic> en = {
         "example": "If your broker charges 0.1% of the total value of the position upon closing, please enter 0.1 as a percentage.",
         "text": "Specify the percentage fee charged by your broker when closing a position."
       },
+      "expected_sale_units": {
+        "example": "For instance, if you plan to sell 150 units of a product, please enter '150'.",
+        "instructions": "Indicate the number of units you plan to sell. This figure should represent the total quantity of individual units you expect to sell, not the total cumulative value of the assets."
+      },
+      "operating_expenses": {
+        "example": "For example, if your business spent \u00243,500 on rent, \u00242,500 on utilities, \u002410,000 on wages, and \u00244,000 on various administrative expenses, you would add these amounts and enter '20000'.",
+        "instructions": "Enter the total amount of expenses incurred for your business's operational activities. This should include costs such as rent, utilities, wages, maintenance, and other administrative expenses necessary for daily operations. Do not include taxes, interest payments, or other non-operational expenses."
+      },
       "price_before_vat": {
         "example": "If a product costs \u002410 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
         "text": "Refers to the price of a product or service before the addition of the value-added tax (VAT). VAT is a tax on consumption imposed when products and services are sold in many countries."
@@ -1995,6 +2156,14 @@ static const Map<String,dynamic> en = {
         "example": "If you enter 2, it means that for every dollar risked, you hope for a potential gain of 2 dollars.",
         "text": "Specify the ratio between the risk amount and the potential reward you are willing to accept for this transaction."
       },
+      "selling_expenses_per_unit": {
+        "example": "For example, if there are fixed transaction fees of \u00243 per unit sold, please enter '3' in this field. Conversely, if there is a broker's commission of 1.5% on the sale price per unit, you should enter '1.5'. Remember, enter only the rate, without the '%' symbol, or just the monetary figure, without currency symbols.",
+        "instructions": "Indicate the additional cost or fees associated with each unit sold, separate from the selling price. This can be a specific monetary amount or a percentage rate. This figure should only reflect costs directly related to the process of selling each unit, such as transaction fees, commission, or any other per-unit sales charges, and not include the unit's base price."
+      },
+      "selling_price": {
+        "example": "For example, if you sold a product for \u0024300.50, please enter '300.50'.",
+        "instructions": "Specify the price at which you sold an asset. This amount should represent the total revenue per unit, excluding transaction fees such as commissions or service charges."
+      },
       "slippage": {
         "example": "If you place a market order to purchase a stock valued at \u0024100, but the transaction takes place at \u0024102, the resulting variance of \u00242, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input 2 as a percentage.",
         "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, or it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
@@ -2002,6 +2171,10 @@ static const Map<String,dynamic> en = {
       "stop_loss_price": {
         "example": "If you purchased a stock at \u002450 and chose to secure your position with a stop-loss order at \u002445, please enter 45 as the value.",
         "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
+      },
+      "tax_rate": {
+        "example": "For example, if your business falls into a 25% tax bracket after all deductions and exemptions, you would enter '25' in this field. Please note that you should enter the percentage number only, without the '%' symbol.",
+        "instructions": "Enter the applicable tax rate as a percentage to which your business or asset is subject. This rate is determined by various factors, including your income bracket, business type, and jurisdiction. It represents the portion of your earnings that is paid to the government. Ensure this is the effective tax rate, taking into account all applicable deductions and exemptions."
       },
       "tip_amount": {
         "example": "If your bill is \u002420 and you wish to leave a \u00245 tip, you should enter 5 as the amount.",
@@ -2065,8 +2238,8 @@ static const Map<String,dynamic> en = {
       "breakdown": "Breakdown",
       "buy": {
         "commission": "Buying commission",
-        "costs": "Buying costs",
-        "costs_per_unit": "Buying costs per unit",
+        "costs": "Buying expenses",
+        "costs_per_unit": "Buying expenses per unit",
         "price": "Buying price",
         "price_per_unit": "Buying price per unit"
       },
@@ -2152,6 +2325,7 @@ static const Map<String,dynamic> en = {
       },
       "open_price": "Open Price",
       "operating": {
+        "expenses": "Operating expenses",
         "income": "Operating income",
         "margin": "Operating margin",
         "profit": "Operating profit"
@@ -2348,6 +2522,14 @@ static const Map<String,dynamic> it = {
         "example": "Se hai un capitale di 50.000 € e prevedi di rischiare 1.000 €, inserisci 1.000 come importo.",
         "text": "Indica l'importo che vuoi rischiare per questa transazione, esprimendolo in valore monetario relativo al tuo capitale."
       },
+      "buying_expenses_per_unit": {
+        "example": "Ad esempio, se ti viene addebitata una tassa fissa di €5 per unità acquistata, inserisci '5' in questo campo. Se, d'altra parte, paghi una commissione del 2% per ogni unità acquistata, dovresti inserire '2'. Inserisci solo la tariffa senza il simbolo '%' o l'importo fisso senza il simbolo della valuta.",
+        "instructions": "Inserisci la tariffa delle spese aggiuntive o l'importo fisso sostenuto per ogni unità acquistata, separato dal prezzo di acquisto. Se è una tariffa, specifica la percentuale addebitata come commissione, tassa o costi aggiuntivi per unità. Se è un importo fisso, assicurati che rifletta i costi per unità, escludendo il prezzo base dell'attivo stesso."
+      },
+      "buying_price": {
+        "example": "Ad esempio, se hai acquistato un prodotto per €150,25, dovresti inserire '150,25'.",
+        "instructions": "Inserisci il prezzo di acquisto dell'attivo. Questo è il costo totale per unità, esclusi oneri aggiuntivi come commissioni."
+      },
       "discount_amount": {
         "example": "Se un prodotto è originariamente venduto per \u0024100 e hai diritto a uno sconto di \u002420, inserisci 20 come importo.",
         "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
@@ -2368,6 +2550,14 @@ static const Map<String,dynamic> it = {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
         "text": "Indica la percentuale della commissione che il tuo broker addebita alla chiusura di una posizione."
       },
+      "expected_sale_units": {
+        "example": "Ad esempio, se prevedi di vendere 150 unità di un prodotto, inserisci '150'.",
+        "instructions": "Inserisci il numero di unità che prevedi di vendere. Questo numero dovrebbe rappresentare il totale delle singole unità che pianifichi di vendere, non il valore totale degli attivi."
+      },
+      "operating_expenses": {
+        "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
+        "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
+      },
       "price_before_vat": {
         "example": "Se un prodotto costa \u002410 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
         "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
@@ -2380,6 +2570,14 @@ static const Map<String,dynamic> it = {
         "example": "Se inserisci 2, significa che per ogni euro che rischi, speri in un potenziale guadagno di 2 euro.",
         "text": "Indica il rapporto tra l'importo del rischio e il possibile guadagno che sei disposto ad accettare per questa transazione."
       },
+      "selling_expenses_per_unit": {
+        "example": "Ad esempio, se ci sono tariffe di transazione fisse di €3 per unità venduta, inserisci '3' in questo campo. Se c'è una commissione di intermediazione dell'1,5% sul prezzo di vendita per unità, dovresti inserire '1.5'. Ricorda di inserire solo la tariffa senza il simbolo '%' o l'importo in denaro senza simboli della valuta.",
+        "instructions": "Inserisci i costi aggiuntivi o le tariffe associate a ogni unità venduta, oltre al prezzo di vendita. Questo potrebbe essere un importo specifico di denaro o una tariffa percentuale. Questo numero dovrebbe riflettere solo i costi associati direttamente con il processo di vendita di ogni unità, come tariffe di transazione, commissioni o altri oneri per unità venduta, e non dovrebbe includere il prezzo base dell'unità."
+      },
+      "selling_price": {
+        "example": "Ad esempio, se hai venduto un prodotto per €300,50, inserisci '300,50'.",
+        "instructions": "Inserisci il prezzo di vendita dell'attivo. Questo dovrebbe riflettere l'importo totale ricevuto per unità, escludendo le spese di transazione come commissioni o tariffe di servizio."
+      },
       "slippage": {
         "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
         "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
@@ -2387,6 +2585,10 @@ static const Map<String,dynamic> it = {
       "stop_loss_price": {
         "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
         "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
+      },
+      "tax_rate": {
+        "example": "Ad esempio, se il tuo business rientra in una fascia fiscale del 25% dopo tutte le deduzioni ed esenzioni, dovresti inserire '25' in questo campo. Nota che dovresti inserire solo il numero percentuale senza il simbolo '%'.",
+        "instructions": "Inserisci l'aliquota fiscale applicabile in percentuale a cui è soggetto il tuo business o attivo. Questa tariffa è determinata da vari fattori, incluso il tuo livello di reddito, il tipo di business e la giurisdizione. Rappresenta la parte dei tuoi redditi che viene pagata al governo. Assicurati che questa sia l'aliquota effettiva, tenendo conto di tutte le deduzioni e esenzioni applicabili."
       },
       "tip_amount": {
         "example": "Se il tuo conto è di \u002420 e desideri lasciare una mancia di \u00245, dovresti inserire 5 come importo.",
@@ -2450,8 +2652,8 @@ static const Map<String,dynamic> it = {
       "breakdown": "Ripartizione",
       "buy": {
         "commission": "Commissione d'acquisto",
-        "costs": "Costi d'acquisto",
-        "costs_per_unit": "Costi di acquisto per unità",
+        "costs": "Spese di acquisto",
+        "costs_per_unit": "Spese di acquisto per unità",
         "price": "Prezzo d'acquisto",
         "price_per_unit": "Prezzo d'acquisto per unità"
       },
@@ -2537,6 +2739,7 @@ static const Map<String,dynamic> it = {
       },
       "open_price": "Prezzo di apertura",
       "operating": {
+        "expenses": "Spese operative",
         "income": "Reddito operativo",
         "margin": "Margine operativo",
         "profit": "Profitto operativo"
@@ -2733,6 +2936,14 @@ static const Map<String,dynamic> fr = {
         "example": "Si votre capital s'élève à 50 000 \u0024 et que vous envisagez de mettre en jeu 1 000 \u0024, veuillez entrer 1 000 comme montant.",
         "text": "Précisez le montant que vous souhaitez risquer pour cette transaction, en l'exprimant en valeur monétaire relative à votre capital."
       },
+      "buying_expenses_per_unit": {
+        "example": "Par exemple, si des frais fixes de 5 \u0024 par unité achetée vous sont facturés, veuillez saisir '5' dans ce champ. D'autre part, si vous encourrez des frais de commission de 2 % par unité achetée, vous devriez saisir '2'. Veuillez noter, entrez uniquement le numéro du taux, sans le symbole '%', ou le montant fixe, sans aucun symbole de devise.",
+        "instructions": "Saisissez soit le taux de dépense supplémentaire soit le montant monétaire fixe encouru pour chaque unité achetée, séparément du prix d'achat. Si c'est un taux, fournissez le pourcentage facturé comme frais, commission ou coût supplémentaire par unité. Si c'est un montant fixe, assurez-vous qu'il reflète le coût par unité, hors le prix de base de l'actif lui-même."
+      },
+      "buying_price": {
+        "example": "Par exemple, si vous avez acheté un produit à 150,25 \u0024, vous devez saisir '150,25'.",
+        "instructions": "Saisissez le prix auquel vous avez acheté un actif. Il s'agit du coût total d'acquisition par unité, sans inclure les frais associés tels qu'une commission."
+      },
       "discount_amount": {
         "example": "Si un produit est initialement vendu 100 \u0024, et que vous avez droit à une réduction de 20 \u0024, veuillez entrer 20 en tant que montant.",
         "text": "Représente la réduction en valeur monétaire qui est soustraite au prix initial d'un produit ou d'un service."
@@ -2753,6 +2964,14 @@ static const Map<String,dynamic> fr = {
         "example": "Si votre courtier facture 0,1% de la valeur totale de la position à la clôture, veuillez saisir 0,1 comme valeur.",
         "text": "Indiquez le pourcentage de frais facturés par votre courtier lors de la clôture d'une position."
       },
+      "expected_sale_units": {
+        "example": "Par exemple, si vous prévoyez de vendre 150 unités d'un produit, veuillez saisir '150'.",
+        "instructions": "Indiquez le nombre d'unités que vous prévoyez de vendre. Ce chiffre doit représenter la quantité totale d'unités individuelles que vous prévoyez de vendre, et non la valeur totale cumulée des actifs."
+      },
+      "operating_expenses": {
+        "example": "Par exemple, si votre entreprise a dépensé 3 500 \u0024 pour le loyer, 2 500 \u0024 pour les utilitaires, 10 000 \u0024 pour les salaires et 4 000 \u0024 pour diverses dépenses administratives, vous additionneriez ces montants et saisiriez '20000'.",
+        "instructions": "Saisissez le montant total des dépenses encourues pour les activités opérationnelles de votre entreprise. Cela devrait inclure des coûts tels que le loyer, les services publics, les salaires, la maintenance et autres dépenses administratives nécessaires au fonctionnement quotidien. Ne pas inclure les taxes, les paiements d'intérêts ou autres dépenses non opérationnelles."
+      },
       "price_before_vat": {
         "example": "Si un produit coûte 10 \u0024 avant taxes et qu'il est soumis à un taux de TVA de 20 %, inscrivez 10 comme valeur hors taxe",
         "text": "Désigne le prix d'un produit ou service avant l'ajout de la taxe sur la valeur ajoutée (TVA). La TVA est une taxe sur la consommation imposée lors de la vente de produits et services dans de nombreux pays."
@@ -2765,6 +2984,14 @@ static const Map<String,dynamic> fr = {
         "example": "Si vous saisissez 2, cela signifie que pour chaque dollar risqué, vous espérez un gain potentiel de 2 dollars.",
         "text": "Précisez le ratio entre le montant du risque et le gain potentiel que vous êtes prêt à accepter pour cette transaction."
       },
+      "selling_expenses_per_unit": {
+        "example": "Par exemple, s'il y a des frais de transaction fixes de 3 \u0024 par unité vendue, veuillez saisir '3' dans ce champ. À l'inverse, s'il y a une commission de courtier de 1,5 % sur le prix de vente par unité, vous devriez saisir '1.5'. Souvenez-vous, saisissez uniquement le taux, sans le symbole '%', ou simplement le chiffre monétaire, sans symboles de devise.",
+        "instructions": "Indiquez le coût supplémentaire ou les frais associés à chaque unité vendue, séparément du prix de vente. Cela peut être un montant monétaire spécifique ou un taux de pourcentage. Ce chiffre ne doit refléter que les coûts directement liés au processus de vente de chaque unité, tels que les frais de transaction, la commission ou tout autre frais de vente par unité, et non inclure le prix de base de l'unité."
+      },
+      "selling_price": {
+        "example": "Par exemple, si vous avez vendu un produit à 300,50 \u0024, veuillez saisir '300,50'.",
+        "instructions": "Indiquez le prix auquel vous avez vendu un actif. Ce montant doit représenter le revenu total par unité, hors frais de transaction tels que les commissions ou les frais de service."
+      },
       "slippage": {
         "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 \u0024, mais que l'exécution se fait à 102 \u0024, cet écart de 2 \u0024, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 comme valeur.",
         "text": "Se réfère à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est effectivement exécutée. Le glissement (ou slippage en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres au marché sont utilisés ou cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas de volume suffisant au niveau du prix demandé."
@@ -2772,6 +2999,10 @@ static const Map<String,dynamic> fr = {
       "stop_loss_price": {
         "example": "Si vous avez acquis une action à 50 \u0024 et choisi de sécuriser votre position avec un ordre de stop-loss à 45 \u0024, veuillez saisir 45 comme valeur.",
         "text": "Indique le prix auquel vous établirez votre ordre de stop-loss afin de limiter les pertes potentielles."
+      },
+      "tax_rate": {
+        "example": "Par exemple, si votre entreprise relève d'une tranche d'imposition de 25 % après toutes déductions et exemptions, vous saisiriez '25' dans ce champ. Veuillez noter que vous devez entrer le numéro de pourcentage uniquement, sans le symbole '%'.",
+        "instructions": "Saisissez le taux d'imposition applicable en pourcentage auquel votre entreprise ou actif est soumis. Ce taux est déterminé par divers facteurs, y compris votre tranche de revenu, le type d'entreprise et la juridiction. Il représente la partie de vos revenus qui est payée au gouvernement. Assurez-vous qu'il s'agit du taux d'imposition effectif, en tenant compte de toutes les déductions et exemptions applicables."
       },
       "tip_amount": {
         "example": "Si votre facture est de 20 \u0024 et que vous souhaitez laisser un pourboire de 5 \u0024, vous devriez saisir 5 comme montant.",
@@ -2835,8 +3066,8 @@ static const Map<String,dynamic> fr = {
       "breakdown": "Répartition",
       "buy": {
         "commission": "Commission d'achat",
-        "costs": "Coûts d'achat",
-        "costs_per_unit": "Coûts d'achat par unité",
+        "costs": "Frais d'achat",
+        "costs_per_unit": "Frais d'achat par unité",
         "price": "Prix d'achat",
         "price_per_unit": "Prix d'achat par unité"
       },
@@ -2922,6 +3153,7 @@ static const Map<String,dynamic> fr = {
       },
       "open_price": "Prix d'ouverture",
       "operating": {
+        "expenses": "Dépenses d'exploitation",
         "income": "Revenu d'exploitation",
         "margin": "Marge opérationnelle",
         "profit": "Bénéfice d'exploitation"
@@ -3118,6 +3350,14 @@ static const Map<String,dynamic> es = {
         "example": "Si tiene un capital de 50.000 € y planea arriesgar 1.000 €, introduzca 1.000 como importe.",
         "text": "Indique el importe que desea arriesgar para esta transacción, expresándolo en valor monetario relativo a su capital."
       },
+      "buying_expenses_per_unit": {
+        "example": "Por ejemplo, si se le cobra una tarifa fija de \u00245 por unidad adquirida, por favor introduzca '5' en este campo. Si, por otro lado, paga una comisión del 2% por unidad adquirida, debe introducir '2'. Por favor, introduzca solo la tasa sin el símbolo '%' o la cantidad fija sin el símbolo de la moneda.",
+        "instructions": "Introduzca la tasa de gastos adicionales o la cantidad fija de dinero incurrida por cada unidad adquirida, separada del precio de compra. Si es una tasa, indique el porcentaje cobrado como tarifa, comisión o costos adicionales por unidad. Si es una cantidad fija, asegúrese de que refleje los costos por unidad, excluyendo el precio base del activo en sí."
+      },
+      "buying_price": {
+        "example": "Por ejemplo, si compró un producto por \u0024150.25, debe introducir '150.25'.",
+        "instructions": "Introduzca el precio al que ha adquirido un activo. Este es el precio total de compra por unidad, sin incluir gastos asociados como comisiones."
+      },
       "discount_amount": {
         "example": "Si un producto se vende originalmente por \u0024100, y tienes derecho a un descuento de \u002420, por favor ingrese 20 como el monto.",
         "text": "Representa la reducción en valor monetario que se resta del precio inicial de un producto o servicio."
@@ -3138,6 +3378,14 @@ static const Map<String,dynamic> es = {
         "example": "Si su corredor cobra el 0,1 % del valor total de la posición al cerrarla, introduzca 0,1 como porcentaje.",
         "text": "Indique el porcentaje de la comisión que cobra su corredor al cerrar una posición."
       },
+      "expected_sale_units": {
+        "example": "Por ejemplo, si desea vender 150 unidades de un producto, por favor introduzca '150'.",
+        "instructions": "Introduzca el número de unidades que espera vender. Este número debe representar el total de unidades individuales que planea vender, no el valor total de los activos."
+      },
+      "operating_expenses": {
+        "example": "Por ejemplo, si su negocio gasta \u00243,500 en alquiler, \u00242,500 en servicios públicos, \u002410,000 en salarios y \u00244,000 en varios gastos administrativos, sumaría estos montos e introduciría '20000'.",
+        "instructions": "Introduzca el monto total de los gastos incurridos para las actividades operativas de su negocio. Esto incluye costos como alquiler, servicios públicos, salarios, mantenimiento y otros gastos administrativos necesarios para la operación diaria. No debe incluir impuestos, pagos de intereses u otros gastos no operativos."
+      },
       "price_before_vat": {
         "example": "Si un producto cuesta \u002410 antes de impuestos y está sujeto a una tasa de IVA del 20%, ingrese 10 como el valor antes de impuestos.",
         "text": "Se refiere al precio de un producto o servicio antes de la adición del impuesto al valor agregado (IVA). El IVA es un impuesto al consumo que se impone cuando se venden productos y servicios en muchos países."
@@ -3150,6 +3398,14 @@ static const Map<String,dynamic> es = {
         "example": "Si introduce 2, significa que por cada euro que arriesgue, espera un beneficio potencial de 2 euros.",
         "text": "Indique la relación entre el importe del riesgo y el posible beneficio que está dispuesto a aceptar para esta transacción."
       },
+      "selling_expenses_per_unit": {
+        "example": "Por ejemplo, si hay tarifas de transacción fijas de \u00243 por unidad vendida, por favor introduzca '3' en este campo. Si hay una comisión de corretaje del 1.5% sobre el precio de venta por unidad, debe introducir '1.5'. Recuerde introducir solo la tasa sin el símbolo '%' o la cantidad en dinero sin símbolos de moneda.",
+        "instructions": "Introduzca los costos adicionales o tarifas asociadas con cada unidad vendida, aparte del precio de venta. Esto puede ser una cantidad específica de dinero o una tasa porcentual. Este número solo debe reflejar los costos asociados directamente con el proceso de venta de cada unidad, como tarifas de transacción, comisiones u otros cargos por unidad vendida, y no debe incluir el precio base de la unidad."
+      },
+      "selling_price": {
+        "example": "Por ejemplo, si vendió un producto por \u0024300.50, por favor introduzca '300.50'.",
+        "instructions": "Introduzca el precio al que ha vendido un activo. Esta cantidad debe reflejar el total recibido por unidad, sin incluir gastos de transacción como comisiones o tarifas de servicio."
+      },
       "slippage": {
         "example": "Si realiza un pedido de mercado para comprar una acción que actualmente cotiza a 100 €, pero la ejecución se realiza a 102 €, esta diferencia de 2 €, que equivale al 2 % del precio original, se denomina 'deslizamiento'. En este caso, debe introducir 2 como porcentaje.",
         "text": "Se refiere a la diferencia entre el precio esperado de una transacción y el precio al que la transacción se ejecuta realmente. El deslizamiento se produce a menudo durante las periods de alta volatilidad cuando se utilizan órdenes de mercado, o también puede ocurrir cuando se ejecutan órdenes grandes y no hay suficiente volumen en el nivel de precio solicitado."
@@ -3157,6 +3413,10 @@ static const Map<String,dynamic> es = {
       "stop_loss_price": {
         "example": "Si ha comprado una acción a 50 € y ha elegido proteger su posición con una orden de stop-loss a 45 €, introduzca 45 como valor.",
         "text": "Indique el precio al que establecerá su orden de stop-loss para limitar las pérdidas potenciales."
+      },
+      "tax_rate": {
+        "example": "Por ejemplo, si su negocio cae en un tramo impositivo del 25% después de todas las deducciones y exenciones, introduciría '25' en este campo. Tenga en cuenta que debe introducir solo el número porcentual sin el símbolo '%'.",
+        "instructions": "Introduzca la tasa de impuestos aplicable en porcentaje a la que su negocio o activo está sujeto. Esta tasa está determinada por varios factores, incluyendo su nivel de ingresos, el tipo de negocio y la jurisdicción. Representa la parte de sus ingresos que se paga al gobierno. Asegúrese de que esta sea la tasa efectiva, teniendo en cuenta todas las deducciones y exenciones aplicables."
       },
       "tip_amount": {
         "example": "Si su cuenta es de \u002420 y desea dejar una propina de \u00245, debe ingresar 5 como el monto.",
@@ -3220,8 +3480,8 @@ static const Map<String,dynamic> es = {
       "breakdown": "Desglose",
       "buy": {
         "commission": "Comisión de compra",
-        "costs": "Costes de compra",
-        "costs_per_unit": "Costos de compra por unidad",
+        "costs": "Gastos de compra",
+        "costs_per_unit": "Gastos de compra por unidad",
         "price": "Precio de compra",
         "price_per_unit": "Precio de compra por unidad"
       },
@@ -3307,6 +3567,7 @@ static const Map<String,dynamic> es = {
       },
       "open_price": "Precio de apertura",
       "operating": {
+        "expenses": "Gastos de operación",
         "income": "Ingresos operativos",
         "margin": "Margen operativo",
         "profit": "Beneficio operativo"

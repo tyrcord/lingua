@@ -25,6 +25,14 @@
         "example": "Si tiene un capital de 50.000 € y planea arriesgar 1.000 €, introduzca 1.000 como importe.",
         "text": "Indique el importe que desea arriesgar para esta transacción, expresándolo en valor monetario relativo a su capital."
       },
+      "buying_expenses_per_unit": {
+        "example": "Por ejemplo, si se le cobra una tarifa fija de $5 por unidad adquirida, por favor introduzca '5' en este campo. Si, por otro lado, paga una comisión del 2% por unidad adquirida, debe introducir '2'. Por favor, introduzca solo la tasa sin el símbolo '%' o la cantidad fija sin el símbolo de la moneda.",
+        "instructions": "Introduzca la tasa de gastos adicionales o la cantidad fija de dinero incurrida por cada unidad adquirida, separada del precio de compra. Si es una tasa, indique el porcentaje cobrado como tarifa, comisión o costos adicionales por unidad. Si es una cantidad fija, asegúrese de que refleje los costos por unidad, excluyendo el precio base del activo en sí."
+      },
+      "buying_price": {
+        "example": "Por ejemplo, si compró un producto por $150.25, debe introducir '150.25'.",
+        "instructions": "Introduzca el precio al que ha adquirido un activo. Este es el precio total de compra por unidad, sin incluir gastos asociados como comisiones."
+      },
       "discount_amount": {
         "example": "Si un producto se vende originalmente por $100, y tienes derecho a un descuento de $20, por favor ingrese 20 como el monto.",
         "text": "Representa la reducción en valor monetario que se resta del precio inicial de un producto o servicio."
@@ -45,6 +53,14 @@
         "example": "Si su corredor cobra el 0,1 % del valor total de la posición al cerrarla, introduzca 0,1 como porcentaje.",
         "text": "Indique el porcentaje de la comisión que cobra su corredor al cerrar una posición."
       },
+      "expected_sale_units": {
+        "example": "Por ejemplo, si desea vender 150 unidades de un producto, por favor introduzca '150'.",
+        "instructions": "Introduzca el número de unidades que espera vender. Este número debe representar el total de unidades individuales que planea vender, no el valor total de los activos."
+      },
+      "operating_expenses": {
+        "example": "Por ejemplo, si su negocio gasta $3,500 en alquiler, $2,500 en servicios públicos, $10,000 en salarios y $4,000 en varios gastos administrativos, sumaría estos montos e introduciría '20000'.",
+        "instructions": "Introduzca el monto total de los gastos incurridos para las actividades operativas de su negocio. Esto incluye costos como alquiler, servicios públicos, salarios, mantenimiento y otros gastos administrativos necesarios para la operación diaria. No debe incluir impuestos, pagos de intereses u otros gastos no operativos."
+      },
       "price_before_vat": {
         "example": "Si un producto cuesta $10 antes de impuestos y está sujeto a una tasa de IVA del 20%, ingrese 10 como el valor antes de impuestos.",
         "text": "Se refiere al precio de un producto o servicio antes de la adición del impuesto al valor agregado (IVA). El IVA es un impuesto al consumo que se impone cuando se venden productos y servicios en muchos países."
@@ -57,6 +73,14 @@
         "example": "Si introduce 2, significa que por cada euro que arriesgue, espera un beneficio potencial de 2 euros.",
         "text": "Indique la relación entre el importe del riesgo y el posible beneficio que está dispuesto a aceptar para esta transacción."
       },
+      "selling_expenses_per_unit": {
+        "example": "Por ejemplo, si hay tarifas de transacción fijas de $3 por unidad vendida, por favor introduzca '3' en este campo. Si hay una comisión de corretaje del 1.5% sobre el precio de venta por unidad, debe introducir '1.5'. Recuerde introducir solo la tasa sin el símbolo '%' o la cantidad en dinero sin símbolos de moneda.",
+        "instructions": "Introduzca los costos adicionales o tarifas asociadas con cada unidad vendida, aparte del precio de venta. Esto puede ser una cantidad específica de dinero o una tasa porcentual. Este número solo debe reflejar los costos asociados directamente con el proceso de venta de cada unidad, como tarifas de transacción, comisiones u otros cargos por unidad vendida, y no debe incluir el precio base de la unidad."
+      },
+      "selling_price": {
+        "example": "Por ejemplo, si vendió un producto por $300.50, por favor introduzca '300.50'.",
+        "instructions": "Introduzca el precio al que ha vendido un activo. Esta cantidad debe reflejar el total recibido por unidad, sin incluir gastos de transacción como comisiones o tarifas de servicio."
+      },
       "slippage": {
         "example": "Si realiza un pedido de mercado para comprar una acción que actualmente cotiza a 100 €, pero la ejecución se realiza a 102 €, esta diferencia de 2 €, que equivale al 2 % del precio original, se denomina 'deslizamiento'. En este caso, debe introducir 2 como porcentaje.",
         "text": "Se refiere a la diferencia entre el precio esperado de una transacción y el precio al que la transacción se ejecuta realmente. El deslizamiento se produce a menudo durante las periods de alta volatilidad cuando se utilizan órdenes de mercado, o también puede ocurrir cuando se ejecutan órdenes grandes y no hay suficiente volumen en el nivel de precio solicitado."
@@ -64,6 +88,10 @@
       "stop_loss_price": {
         "example": "Si ha comprado una acción a 50 € y ha elegido proteger su posición con una orden de stop-loss a 45 €, introduzca 45 como valor.",
         "text": "Indique el precio al que establecerá su orden de stop-loss para limitar las pérdidas potenciales."
+      },
+      "tax_rate": {
+        "example": "Por ejemplo, si su negocio cae en un tramo impositivo del 25% después de todas las deducciones y exenciones, introduciría '25' en este campo. Tenga en cuenta que debe introducir solo el número porcentual sin el símbolo '%'.",
+        "instructions": "Introduzca la tasa de impuestos aplicable en porcentaje a la que su negocio o activo está sujeto. Esta tasa está determinada por varios factores, incluyendo su nivel de ingresos, el tipo de negocio y la jurisdicción. Representa la parte de sus ingresos que se paga al gobierno. Asegúrese de que esta sea la tasa efectiva, teniendo en cuenta todas las deducciones y exenciones aplicables."
       },
       "tip_amount": {
         "example": "Si su cuenta es de $20 y desea dejar una propina de $5, debe ingresar 5 como el monto.",
@@ -127,8 +155,8 @@
       "breakdown": "Desglose",
       "buy": {
         "commission": "Comisión de compra",
-        "costs": "Costes de compra",
-        "costs_per_unit": "Costos de compra por unidad",
+        "costs": "Gastos de compra",
+        "costs_per_unit": "Gastos de compra por unidad",
         "price": "Precio de compra",
         "price_per_unit": "Precio de compra por unidad"
       },
@@ -214,6 +242,7 @@
       },
       "open_price": "Precio de apertura",
       "operating": {
+        "expenses": "Gastos de operación",
         "income": "Ingresos operativos",
         "margin": "Margen operativo",
         "profit": "Beneficio operativo"

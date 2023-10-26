@@ -25,6 +25,14 @@
         "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
         "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, und geben Sie ihn in Geldwert relativ zu Ihrem Kapital an."
       },
+      "buying_expenses_per_unit": {
+        "example": "Wenn Ihnen beispielsweise eine feste Gebühr von 5 $ pro gekaufter Einheit berechnet wird, geben Sie bitte '5' in dieses Feld ein. Andererseits sollten Sie bei einer Provision von 2 % pro gekaufter Einheit '2' eingeben. Bitte beachten Sie, dass Sie nur die Ratennummer ohne das '%' -Symbol oder den Festbetrag ohne Währungssymbol eingeben.",
+        "instructions": "Geben Sie entweder den zusätzlichen Ausgabensatz oder den festen Geldbetrag an, der für jede gekaufte Einheit anfällt, getrennt vom Kaufpreis. Wenn es sich um einen Satz handelt, geben Sie den als Gebühr, Provision oder zusätzliche Kosten pro Einheit berechneten Prozentsatz an. Wenn es sich um einen Festbetrag handelt, stellen Sie sicher, dass er die Kosten pro Einheit widerspiegelt, ohne den eigentlichen Basispreis des Vermögenswerts."
+      },
+      "buying_price": {
+        "example": "Wenn Sie beispielsweise ein Produkt für 150,25 $ gekauft haben, sollten Sie '150,25' eingeben.",
+        "instructions": "Geben Sie den Preis ein, zu dem Sie ein Vermögenswert erworben haben. Dies ist die gesamten Anschaffungskosten pro Einheit, ausgenommen damit verbundene Gebühren wie Provisionen."
+      },
       "discount_amount": {
         "example": "Wenn ein Produkt ursprünglich für 100 $ verkauft wird und Sie Anspruch auf einen Rabatt von 20 $ haben, geben Sie bitte 20 als den Betrag ein.",
         "text": "Stellt die Reduzierung des Geldwerts dar, die vom ursprünglichen Preis eines Produkts oder einer Dienstleistung abgezogen wird."
@@ -45,6 +53,14 @@
         "example": "Wenn Ihr Broker bei der Schließung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
         "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Schließung einer Position berechnet."
       },
+      "expected_sale_units": {
+        "example": "Wenn Sie beispielsweise 150 Einheiten eines Produkts verkaufen möchten, geben Sie bitte '150' ein.",
+        "instructions": "Geben Sie die Anzahl der Einheiten an, die Sie verkaufen möchten. Diese Zahl sollte die Gesamtmenge der einzelnen Einheiten darstellen, die Sie verkaufen möchten, nicht den gesamten kumulierten Wert der Vermögenswerte."
+      },
+      "operating_expenses": {
+        "example": "Wenn Ihr Unternehmen beispielsweise 3.500 $ für Miete, 2.500 $ für Nebenkosten, 10.000 $ für Löhne und 4.000 $ für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
+        "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."
+      },
       "price_before_vat": {
         "example": "Wenn ein Produkt vor Steuern 10 $ kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
         "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
@@ -57,6 +73,14 @@
         "example": "Wenn Sie 2 eingeben, bedeutet dies, dass Sie für jeden Dollar, den Sie riskieren, einen potenziellen Gewinn von 2 Dollar erwarten.",
         "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und dem potenziellen Gewinn an, den Sie für diese Transaktion bereit sind, zu akzeptieren."
       },
+      "selling_expenses_per_unit": {
+        "example": "Wenn beispielsweise feste Transaktionsgebühren von 3 $ pro verkaufter Einheit anfallen, geben Sie bitte '3' in dieses Feld ein. Wenn es eine Maklerprovision von 1,5 % auf den Verkaufspreis pro Einheit gibt, sollten Sie '1.5' eingeben. Denken Sie daran, nur die Rate ohne das '%' -Symbol oder nur den Geldbetrag ohne Währungssymbole einzugeben.",
+        "instructions": "Geben Sie die zusätzlichen Kosten oder Gebühren an, die mit jeder verkauften Einheit verbunden sind, getrennt vom Verkaufspreis. Dies kann ein bestimmter Geldbetrag oder ein Prozentsatz sein. Diese Zahl sollte nur Kosten widerspiegeln, die direkt mit dem Verkaufsprozess jeder Einheit zusammenhängen, wie Transaktionsgebühren, Provisionen oder sonstige Verkaufsgebühren pro Einheit, und nicht den Basispreis der Einheit beinhalten."
+      },
+      "selling_price": {
+        "example": "Wenn Sie beispielsweise ein Produkt für 300,50 $ verkauft haben, geben Sie bitte '300,50' ein.",
+        "instructions": "Geben Sie den Preis an, zu dem Sie einen Vermögenswert verkauft haben. Dieser Betrag sollte den Gesamterlös pro Einheit darstellen, ohne Transaktionsgebühren wie Provisionen oder Servicegebühren."
+      },
       "slippage": {
         "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
         "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
@@ -64,6 +88,10 @@
       "stop_loss_price": {
         "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
         "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
+      },
+      "tax_rate": {
+        "example": "Wenn Ihr Unternehmen beispielsweise nach allen Abzügen und Freibeträgen in eine Steuerklasse von 25 % fällt, würden Sie '25' in dieses Feld eingeben. Bitte beachten Sie, dass Sie nur die Prozentzahl ohne das '%' -Symbol eingeben sollten.",
+        "instructions": "Geben Sie den geltenden Steuersatz als Prozentsatz ein, dem Ihr Geschäft oder Vermögenswert unterliegt. Dieser Satz wird durch verschiedene Faktoren bestimmt, darunter Ihre Einkommensklasse, Geschäftstyp und Gerichtsbarkeit. Es stellt den Teil Ihrer Einnahmen dar, der an die Regierung gezahlt wird. Stellen Sie sicher, dass dies der effektive Steuersatz ist, unter Berücksichtigung aller geltenden Abzüge und Freibeträge."
       },
       "tip_amount": {
         "example": "Wenn Ihre Rechnung 20 $ beträgt und Sie ein Trinkgeld von 5 $ hinterlassen möchten, sollten Sie 5 als den Betrag eingeben.",
@@ -214,6 +242,7 @@
       },
       "open_price": "Eröffnungspreis",
       "operating": {
+        "expenses": "Betriebsausgaben",
         "income": "Betriebseinkommen",
         "margin": "Betriebsmarge",
         "profit": "Betriebsgewinn"

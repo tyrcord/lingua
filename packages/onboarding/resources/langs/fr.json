@@ -56,6 +56,9 @@
       "intro": "Affinez votre stratégie de trading avec nos outils de gestion des risques pour maximiser vos résultats.",
       "title": "Bienvenue, Traders"
     },
+    "welcome_gain_loss_calculator": {
+      "intro": "Découvrez vos gains potentiels en un coup d'œil et prenez des décisions éclairées pour maximiser vos opportunités."
+    },
     "welcome_vat": {
       "description": "Entrez simplement le montant net, sélectionnez votre taux et laissez l'application faire le reste.",
       "intro": "Définissez rapidement et avec précision les montants de TVA spécifiques à votre région."

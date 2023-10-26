@@ -56,6 +56,9 @@
       "intro": "Improve your trading strategy with our risk management tools to maximize your results.",
       "title": "Welcome, Traders"
     },
+    "welcome_gain_loss_calculator": {
+      "intro": "Discover your potential earnings at a glance and make informed decisions to maximize your opportunities."
+    },
     "welcome_vat": {
       "description": "Simply enter the net amount, select your rate, and let the application do the rest.",
       "intro": "Quickly and accurately define the VAT amounts specific to your region."
