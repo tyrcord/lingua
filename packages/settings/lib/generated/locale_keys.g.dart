@@ -3,15 +3,12 @@
 abstract class SettingsLocaleKeys {
   static const settings_disclaimer_accept_risk = 'settings.disclaimer.accept_risk';
   static const settings_disclaimer_data = 'settings.disclaimer.data';
-  static const settings_disclaimer = 'settings.disclaimer';
   static const settings_label_about = 'settings.label.about';
   static const settings_label_app_preferences = 'settings.label.app.preferences';
   static const settings_label_app_settings = 'settings.label.app.settings';
-  static const settings_label_app = 'settings.label.app';
   static const settings_label_appearance = 'settings.label.appearance';
   static const settings_label_change_language = 'settings.label.change.language';
   static const settings_label_change_theme = 'settings.label.change.theme';
-  static const settings_label_change = 'settings.label.change';
   static const settings_label_customer_support = 'settings.label.customer_support';
   static const settings_label_dark = 'settings.label.dark';
   static const settings_label_default = 'settings.label.default';
@@ -34,20 +31,14 @@ abstract class SettingsLocaleKeys {
   static const settings_label_user_inputs = 'settings.label.user_inputs';
   static const settings_label_user_settings = 'settings.label.user_settings';
   static const settings_label_version = 'settings.label.version';
-  static const settings_label = 'settings.label';
   static const settings_message_last_modified = 'settings.message.last_modified';
   static const settings_message_thanks_support = 'settings.message.thanks_support';
-  static const settings_message = 'settings.message';
   static const settings_note_appearance = 'settings.note.appearance';
   static const settings_note_change_later = 'settings.note.change_later';
   static const settings_note_restart_required = 'settings.note.restart_required';
   static const settings_note_settings = 'settings.note.settings';
-  static const settings_note = 'settings.note';
   static const settings_question_do_you_enjoy_our_app = 'settings.question.do_you_enjoy_our_app';
   static const settings_question_do_you_like_our_app = 'settings.question.do_you_like_our_app';
-  static const settings_question = 'settings.question';
   static const settings_select_language = 'settings.select.language';
-  static const settings_select = 'settings.select';
-  static const settings = 'settings';
 
 }

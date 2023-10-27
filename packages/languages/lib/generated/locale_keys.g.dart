@@ -2,7 +2,6 @@
 
 abstract class LanguagesLocaleKeys {
   static const languages_label_english_or_french = 'languages.label.english_or_french';
-  static const languages_label = 'languages.label';
   static const languages_locale_iso_639_1_ar = 'languages.locale.iso_639_1.ar';
   static const languages_locale_iso_639_1_cs = 'languages.locale.iso_639_1.cs';
   static const languages_locale_iso_639_1_da = 'languages.locale.iso_639_1.da';
@@ -27,7 +26,6 @@ abstract class LanguagesLocaleKeys {
   static const languages_locale_iso_639_1_sv = 'languages.locale.iso_639_1.sv';
   static const languages_locale_iso_639_1_tr = 'languages.locale.iso_639_1.tr';
   static const languages_locale_iso_639_1_zh = 'languages.locale.iso_639_1.zh';
-  static const languages_locale_iso_639_1 = 'languages.locale.iso_639_1';
   static const languages_locale_name_arabic = 'languages.locale.name.arabic';
   static const languages_locale_name_chinese_simplified = 'languages.locale.name.chinese_simplified';
   static const languages_locale_name_chinese_traditional = 'languages.locale.name.chinese_traditional';
@@ -53,8 +51,5 @@ abstract class LanguagesLocaleKeys {
   static const languages_locale_name_spanish = 'languages.locale.name.spanish';
   static const languages_locale_name_swedish = 'languages.locale.name.swedish';
   static const languages_locale_name_turkish = 'languages.locale.name.turkish';
-  static const languages_locale_name = 'languages.locale.name';
-  static const languages_locale = 'languages.locale';
-  static const languages = 'languages';
 
 }

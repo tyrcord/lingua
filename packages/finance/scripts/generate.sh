@@ -18,4 +18,4 @@ prefix=$(snake_to_pascal $dir)
 output="locale_keys.g.dart"
 
 dart run lingua_core:generate -p $prefix
-dart run lingua_core:generate -p $prefix -f keys -o $output
+dart run lingua_core:generate -p $prefix -f keys -o $output -u

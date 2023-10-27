@@ -31,7 +31,5 @@ abstract class CountriesLocaleKeys {
   static const countries_label_switzerland = 'countries.label.switzerland';
   static const countries_label_uk = 'countries.label.uk';
   static const countries_label_usa = 'countries.label.usa';
-  static const countries_label = 'countries.label';
-  static const countries = 'countries';
 
 }
