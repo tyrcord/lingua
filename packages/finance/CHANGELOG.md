@@ -1,3 +1,8 @@
+## 0.0.20
+
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+
 ## 0.0.19
 
  - **FEAT**: update localization.

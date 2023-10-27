@@ -1,6 +1,6 @@
 name: lingua_help
 description: Library for internal help localization.
-version: 0.0.6
+version: 0.0.7
 repository: https://github.com/tyrcord/lingua/tree/main/packages/help
 
 environment:
@@ -17,4 +17,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.3
-  lingua_core: ^0.0.30
+  lingua_core: ^0.0.31

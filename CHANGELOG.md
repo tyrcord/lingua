@@ -3,6 +3,108 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-10-27
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_ad` - `v0.0.12`](#lingua_ad---v0012)
+ - [`lingua_apps` - `v0.0.8`](#lingua_apps---v008)
+ - [`lingua_calculator` - `v0.0.4`](#lingua_calculator---v004)
+ - [`lingua_core` - `v0.0.31`](#lingua_core---v0031)
+ - [`lingua_countries` - `v0.0.4`](#lingua_countries---v004)
+ - [`lingua_finance` - `v0.0.20`](#lingua_finance---v0020)
+ - [`lingua_finance_dividend` - `v0.0.4`](#lingua_finance_dividend---v004)
+ - [`lingua_finance_forex` - `v0.0.4`](#lingua_finance_forex---v004)
+ - [`lingua_finance_instrument` - `v0.0.5`](#lingua_finance_instrument---v005)
+ - [`lingua_finance_stock` - `v0.0.7`](#lingua_finance_stock---v007)
+ - [`lingua_help` - `v0.0.7`](#lingua_help---v007)
+ - [`lingua_languages` - `v0.0.6`](#lingua_languages---v006)
+ - [`lingua_number` - `v0.0.8`](#lingua_number---v008)
+ - [`lingua_onboarding` - `v0.0.15`](#lingua_onboarding---v0015)
+ - [`lingua_purchases` - `v0.0.15`](#lingua_purchases---v0015)
+ - [`lingua_settings` - `v0.0.12`](#lingua_settings---v0012)
+ - [`lingua_units` - `v0.0.4`](#lingua_units---v004)
+
+---
+
+#### `lingua_ad` - `v0.0.12`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_apps` - `v0.0.8`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_calculator` - `v0.0.4`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_core` - `v0.0.31`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_countries` - `v0.0.4`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_finance` - `v0.0.20`
+
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+
+#### `lingua_finance_dividend` - `v0.0.4`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_finance_forex` - `v0.0.4`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_finance_instrument` - `v0.0.5`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_finance_stock` - `v0.0.7`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_help` - `v0.0.7`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_languages` - `v0.0.6`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_number` - `v0.0.8`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_onboarding` - `v0.0.15`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_purchases` - `v0.0.15`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_settings` - `v0.0.12`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+#### `lingua_units` - `v0.0.4`
+
+ - **FEAT**: Ignores keys defining nested object.
+
+
 ## 2023-10-26
 
 ### Changes

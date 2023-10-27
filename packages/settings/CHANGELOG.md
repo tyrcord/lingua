@@ -1,3 +1,7 @@
+## 0.0.12
+
+ - **FEAT**: Ignores keys defining nested object.
+
 ## 0.0.11
 
  - **FEAT**: minor improvements.
