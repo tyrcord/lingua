@@ -112,6 +112,9 @@
         "currency": "Devise du compte",
         "size": "Taille du compte"
       },
+      "additional": {
+        "metrics": "Métriques Supplémentaires"
+      },
       "additional_tax": {
         "amount": "Montant d'imposition additionnel",
         "rate": "Taux d'imposition additionnel",
@@ -121,6 +124,10 @@
         "fee": {
           "amount": "Montant après frais",
           "price": "Prix après frais"
+        },
+        "vat": {
+          "amount": "Montant après TVA",
+          "price": "Prix après TVA"
         }
       },
       "amount": {
@@ -277,6 +284,7 @@
       "primary_currency": "Devise principale",
       "profit": "Bénéfice",
       "profit_and_loss": "Bénéfice et perte",
+      "profit_and_loss_overview": "Aperçu du profit et de la perte",
       "profit_or_loss": "Bénéfice ou perte",
       "purchase": {
         "commission": "Commission d'acquisition",
@@ -321,6 +329,7 @@
         "price_per_unit": "Prix de vente par unité"
       },
       "selling_expenses": "Frais de vente",
+      "selling_operating_expenses": "Frais de vente et d'exploitation",
       "slippage": "Glissement",
       "starting": {
         "balance": "Solde initial",

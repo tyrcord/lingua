@@ -85,6 +85,8 @@ abstract class FinanceLocaleKeys {
   static const finance_label_account_currency = 'finance.label.account.currency';
   static const finance_label_account_size = 'finance.label.account.size';
   static const finance_label_account = 'finance.label.account';
+  static const finance_label_additional_metrics = 'finance.label.additional.metrics';
+  static const finance_label_additional = 'finance.label.additional';
   static const finance_label_additional_tax_amount = 'finance.label.additional_tax.amount';
   static const finance_label_additional_tax_rate = 'finance.label.additional_tax.rate';
   static const finance_label_additional_tax_text = 'finance.label.additional_tax.text';
@@ -92,6 +94,9 @@ abstract class FinanceLocaleKeys {
   static const finance_label_after_fee_amount = 'finance.label.after.fee.amount';
   static const finance_label_after_fee_price = 'finance.label.after.fee.price';
   static const finance_label_after_fee = 'finance.label.after.fee';
+  static const finance_label_after_vat_amount = 'finance.label.after.vat.amount';
+  static const finance_label_after_vat_price = 'finance.label.after.vat.price';
+  static const finance_label_after_vat = 'finance.label.after.vat';
   static const finance_label_after = 'finance.label.after';
   static const finance_label_amount_after_fee = 'finance.label.amount.after_fee';
   static const finance_label_amount_before_fee = 'finance.label.amount.before_fee';
@@ -223,6 +228,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_primary_currency = 'finance.label.primary_currency';
   static const finance_label_profit = 'finance.label.profit';
   static const finance_label_profit_and_loss = 'finance.label.profit_and_loss';
+  static const finance_label_profit_and_loss_overview = 'finance.label.profit_and_loss_overview';
   static const finance_label_profit_or_loss = 'finance.label.profit_or_loss';
   static const finance_label_purchase_commission = 'finance.label.purchase.commission';
   static const finance_label_purchase_costs = 'finance.label.purchase.costs';
@@ -262,6 +268,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_sell_price_per_unit = 'finance.label.sell.price_per_unit';
   static const finance_label_sell = 'finance.label.sell';
   static const finance_label_selling_expenses = 'finance.label.selling_expenses';
+  static const finance_label_selling_operating_expenses = 'finance.label.selling_operating_expenses';
   static const finance_label_slippage = 'finance.label.slippage';
   static const finance_label_starting_balance = 'finance.label.starting.balance';
   static const finance_label_starting_principal = 'finance.label.starting.principal';

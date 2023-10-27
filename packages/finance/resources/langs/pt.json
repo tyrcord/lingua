@@ -112,6 +112,9 @@
         "currency": "Moeda da conta",
         "size": "Tamanho da conta"
       },
+      "additional": {
+        "metrics": "Métricas Adicionais"
+      },
       "additional_tax": {
         "amount": "Montante de imposto adicional",
         "rate": "Taxa de imposto adicional",
@@ -121,6 +124,10 @@
         "fee": {
           "amount": "Quantidade após taxas",
           "price": "Preço após taxas"
+        },
+        "vat": {
+          "amount": "Montante após IVA",
+          "price": "Preço após IVA"
         }
       },
       "amount": {
@@ -277,6 +284,7 @@
       "primary_currency": "Moeda primária",
       "profit": "Lucro",
       "profit_and_loss": "Lucro e Perda",
+      "profit_and_loss_overview": "Visão geral de lucros e perdas",
       "profit_or_loss": "Lucro ou Perda",
       "purchase": {
         "commission": "Comissão de aquisição",
@@ -321,6 +329,7 @@
         "price_per_unit": "Preço de venda por unidade"
       },
       "selling_expenses": "Despesas de venda",
+      "selling_operating_expenses": "Despesas operacionais e de venda",
       "slippage": "Escorregamento",
       "starting": {
         "balance": "Saldo inicial",

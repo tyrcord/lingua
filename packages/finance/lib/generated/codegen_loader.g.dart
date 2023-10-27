@@ -125,6 +125,9 @@ class FinanceCodegenLoader extends AssetLoader {
         "currency": "账户货币",
         "size": "账户规模"
       },
+      "additional": {
+        "metrics": "附加指标"
+      },
       "additional_tax": {
         "amount": "额外税额",
         "rate": "额外税率",
@@ -134,6 +137,10 @@ class FinanceCodegenLoader extends AssetLoader {
         "fee": {
           "amount": "扣除费用后的金额",
           "price": "扣除费用后的价格"
+        },
+        "vat": {
+          "amount": "增值税后金额",
+          "price": "增值税后价格"
         }
       },
       "amount": {
@@ -290,6 +297,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "primary_currency": "主要货币",
       "profit": "利润",
       "profit_and_loss": "利润和损失",
+      "profit_and_loss_overview": "损益总览",
       "profit_or_loss": "利润或损失",
       "purchase": {
         "commission": "采购佣金",
@@ -334,6 +342,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "price_per_unit": "每单位销售价格"
       },
       "selling_expenses": "销售费用",
+      "selling_operating_expenses": "销售及运营费用",
       "slippage": "滑点",
       "starting": {
         "balance": "初始余额",
@@ -539,6 +548,9 @@ static const Map<String,dynamic> ja = {
         "currency": "口座の通貨",
         "size": "口座のサイズ"
       },
+      "additional": {
+        "metrics": "追加のメトリクス"
+      },
       "additional_tax": {
         "amount": "追加税額",
         "rate": "追加税率",
@@ -548,6 +560,10 @@ static const Map<String,dynamic> ja = {
         "fee": {
           "amount": "手数料後の金額",
           "price": "手数料後の価格"
+        },
+        "vat": {
+          "amount": "VAT適用後の金額",
+          "price": "VAT適用後の価格"
         }
       },
       "amount": {
@@ -704,6 +720,7 @@ static const Map<String,dynamic> ja = {
       "primary_currency": "主要通貨",
       "profit": "利益",
       "profit_and_loss": "利益と損失",
+      "profit_and_loss_overview": "損益の概要",
       "profit_or_loss": "利益または損失",
       "purchase": {
         "commission": "購入手数料",
@@ -748,6 +765,7 @@ static const Map<String,dynamic> ja = {
         "price_per_unit": "単位あたりの販売価格"
       },
       "selling_expenses": "販売費",
+      "selling_operating_expenses": "販売および運営費用",
       "slippage": "スリッページ",
       "starting": {
         "balance": "初期残高",
@@ -953,6 +971,9 @@ static const Map<String,dynamic> de = {
         "currency": "Kontowährung",
         "size": "Kontogröße"
       },
+      "additional": {
+        "metrics": "Zusätzliche Metriken"
+      },
       "additional_tax": {
         "amount": "Zusätzlicher Steuerbetrag",
         "rate": "Zusätzlicher Steuersatz",
@@ -962,6 +983,10 @@ static const Map<String,dynamic> de = {
         "fee": {
           "amount": "Betrag nach Gebühren",
           "price": "Preis nach Gebühren"
+        },
+        "vat": {
+          "amount": "Betrag nach MwSt",
+          "price": "Preis nach MwSt"
         }
       },
       "amount": {
@@ -1118,6 +1143,7 @@ static const Map<String,dynamic> de = {
       "primary_currency": "Hauptwährung",
       "profit": "Gewinn",
       "profit_and_loss": "Gewinn und Verlust",
+      "profit_and_loss_overview": "Übersicht über Gewinn und Verlust",
       "profit_or_loss": "Gewinn oder Verlust",
       "purchase": {
         "commission": "Ankaufsprovision",
@@ -1162,6 +1188,7 @@ static const Map<String,dynamic> de = {
         "price_per_unit": "Verkaufspreis pro Einheit"
       },
       "selling_expenses": "Verkaufskosten",
+      "selling_operating_expenses": "Verkaufs- und Betriebskosten",
       "slippage": "Slippage",
       "starting": {
         "balance": "Anfangsguthaben",
@@ -1367,6 +1394,9 @@ static const Map<String,dynamic> ru = {
         "currency": "Валюта счета",
         "size": "Размер счета"
       },
+      "additional": {
+        "metrics": "Дополнительные Метрики"
+      },
       "additional_tax": {
         "amount": "Сумма дополнительного налога",
         "rate": "Ставка дополнительного налога",
@@ -1376,6 +1406,10 @@ static const Map<String,dynamic> ru = {
         "fee": {
           "amount": "Сумма после комиссии",
           "price": "Цена после комиссии"
+        },
+        "vat": {
+          "amount": "Сумма после НДС",
+          "price": "Цена после НДС"
         }
       },
       "amount": {
@@ -1532,6 +1566,7 @@ static const Map<String,dynamic> ru = {
       "primary_currency": "Основная валюта",
       "profit": "Прибыль",
       "profit_and_loss": "Прибыль и убыток",
+      "profit_and_loss_overview": "Обзор прибылей и убытков",
       "profit_or_loss": "Прибыль или убыток",
       "purchase": {
         "commission": "Комиссия за приобретение",
@@ -1576,6 +1611,7 @@ static const Map<String,dynamic> ru = {
         "price_per_unit": "Цена продажи за единицу"
       },
       "selling_expenses": "Расходы на продажу",
+      "selling_operating_expenses": "Расходы на продажу и операционные расходы",
       "slippage": "Слиппаж",
       "starting": {
         "balance": "Начальный баланс",
@@ -1781,6 +1817,9 @@ static const Map<String,dynamic> pt = {
         "currency": "Moeda da conta",
         "size": "Tamanho da conta"
       },
+      "additional": {
+        "metrics": "Métricas Adicionais"
+      },
       "additional_tax": {
         "amount": "Montante de imposto adicional",
         "rate": "Taxa de imposto adicional",
@@ -1790,6 +1829,10 @@ static const Map<String,dynamic> pt = {
         "fee": {
           "amount": "Quantidade após taxas",
           "price": "Preço após taxas"
+        },
+        "vat": {
+          "amount": "Montante após IVA",
+          "price": "Preço após IVA"
         }
       },
       "amount": {
@@ -1946,6 +1989,7 @@ static const Map<String,dynamic> pt = {
       "primary_currency": "Moeda primária",
       "profit": "Lucro",
       "profit_and_loss": "Lucro e Perda",
+      "profit_and_loss_overview": "Visão geral de lucros e perdas",
       "profit_or_loss": "Lucro ou Perda",
       "purchase": {
         "commission": "Comissão de aquisição",
@@ -1990,6 +2034,7 @@ static const Map<String,dynamic> pt = {
         "price_per_unit": "Preço de venda por unidade"
       },
       "selling_expenses": "Despesas de venda",
+      "selling_operating_expenses": "Despesas operacionais e de venda",
       "slippage": "Escorregamento",
       "starting": {
         "balance": "Saldo inicial",
@@ -2195,6 +2240,9 @@ static const Map<String,dynamic> en = {
         "currency": "Account Currency",
         "size": "Account Size"
       },
+      "additional": {
+        "metrics": "Additional Metrics"
+      },
       "additional_tax": {
         "amount": "Additional Tax Amount",
         "rate": "Additional Tax Rate",
@@ -2204,6 +2252,10 @@ static const Map<String,dynamic> en = {
         "fee": {
           "amount": "Amount After Fees",
           "price": "Price After Fees"
+        },
+        "vat": {
+          "amount": "Amount After VAT",
+          "price": "Price After VAT"
         }
       },
       "amount": {
@@ -2360,6 +2412,7 @@ static const Map<String,dynamic> en = {
       "primary_currency": "Primary Currency",
       "profit": "Profit",
       "profit_and_loss": "Profit and Loss",
+      "profit_and_loss_overview": "Profit and Loss Overview",
       "profit_or_loss": "Profit or Loss",
       "purchase": {
         "commission": "Purchase commission",
@@ -2404,6 +2457,7 @@ static const Map<String,dynamic> en = {
         "price_per_unit": "Selling price per unit"
       },
       "selling_expenses": "Selling expenses",
+      "selling_operating_expenses": "Selling and operating expenses",
       "slippage": "Slippage",
       "starting": {
         "balance": "Starting Balance",
@@ -2609,6 +2663,9 @@ static const Map<String,dynamic> it = {
         "currency": "Valuta del conto",
         "size": "Dimensione conto"
       },
+      "additional": {
+        "metrics": "Metriche Aggiuntive"
+      },
       "additional_tax": {
         "amount": "Importo di tasse aggiuntive",
         "rate": "Aliquota di tasse aggiuntive",
@@ -2618,6 +2675,10 @@ static const Map<String,dynamic> it = {
         "fee": {
           "amount": "Importo dopo le commissioni",
           "price": "Prezzo dopo le commissioni"
+        },
+        "vat": {
+          "amount": "Importo dopo l'IVA",
+          "price": "Prezzo dopo l'IVA"
         }
       },
       "amount": {
@@ -2774,6 +2835,7 @@ static const Map<String,dynamic> it = {
       "primary_currency": "Valuta principale",
       "profit": "Profitto",
       "profit_and_loss": "Profitto e perdita",
+      "profit_and_loss_overview": "Panoramica dei profitti e delle perdite",
       "profit_or_loss": "Profitto o perdita",
       "purchase": {
         "commission": "Commissione d'acquisizione",
@@ -2818,6 +2880,7 @@ static const Map<String,dynamic> it = {
         "price_per_unit": "Prezzo di vendita per unità"
       },
       "selling_expenses": "Spese di vendita",
+      "selling_operating_expenses": "Spese di vendita e operative",
       "slippage": "Slippage",
       "starting": {
         "balance": "Saldo iniziale",
@@ -3023,6 +3086,9 @@ static const Map<String,dynamic> fr = {
         "currency": "Devise du compte",
         "size": "Taille du compte"
       },
+      "additional": {
+        "metrics": "Métriques Supplémentaires"
+      },
       "additional_tax": {
         "amount": "Montant d'imposition additionnel",
         "rate": "Taux d'imposition additionnel",
@@ -3032,6 +3098,10 @@ static const Map<String,dynamic> fr = {
         "fee": {
           "amount": "Montant après frais",
           "price": "Prix après frais"
+        },
+        "vat": {
+          "amount": "Montant après TVA",
+          "price": "Prix après TVA"
         }
       },
       "amount": {
@@ -3188,6 +3258,7 @@ static const Map<String,dynamic> fr = {
       "primary_currency": "Devise principale",
       "profit": "Bénéfice",
       "profit_and_loss": "Bénéfice et perte",
+      "profit_and_loss_overview": "Aperçu du profit et de la perte",
       "profit_or_loss": "Bénéfice ou perte",
       "purchase": {
         "commission": "Commission d'acquisition",
@@ -3232,6 +3303,7 @@ static const Map<String,dynamic> fr = {
         "price_per_unit": "Prix de vente par unité"
       },
       "selling_expenses": "Frais de vente",
+      "selling_operating_expenses": "Frais de vente et d'exploitation",
       "slippage": "Glissement",
       "starting": {
         "balance": "Solde initial",
@@ -3437,6 +3509,9 @@ static const Map<String,dynamic> es = {
         "currency": "Moneda de la cuenta",
         "size": "Tamaño de la cuenta"
       },
+      "additional": {
+        "metrics": "Métricas Adicionales"
+      },
       "additional_tax": {
         "amount": "Importe de impuesto adicional",
         "rate": "Tasa de impuesto adicional",
@@ -3446,6 +3521,10 @@ static const Map<String,dynamic> es = {
         "fee": {
           "amount": "Cantidad después de comisiones",
           "price": "Precio después de comisiones"
+        },
+        "vat": {
+          "amount": "Importe después del IVA",
+          "price": "Precio después del IVA"
         }
       },
       "amount": {
@@ -3602,6 +3681,7 @@ static const Map<String,dynamic> es = {
       "primary_currency": "Moneda principal",
       "profit": "Beneficio",
       "profit_and_loss": "Beneficio y pérdida",
+      "profit_and_loss_overview": "Resumen de ganancias y pérdidas",
       "profit_or_loss": "Beneficio o pérdida",
       "purchase": {
         "commission": "Comisión de adquisición",
@@ -3646,6 +3726,7 @@ static const Map<String,dynamic> es = {
         "price_per_unit": "Precio de venta por unidad"
       },
       "selling_expenses": "Gastos de venta",
+      "selling_operating_expenses": "Gastos de venta y operativos",
       "slippage": "Deslizamiento",
       "starting": {
         "balance": "Saldo inicial",

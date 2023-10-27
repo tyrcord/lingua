@@ -112,6 +112,9 @@
         "currency": "Kontowährung",
         "size": "Kontogröße"
       },
+      "additional": {
+        "metrics": "Zusätzliche Metriken"
+      },
       "additional_tax": {
         "amount": "Zusätzlicher Steuerbetrag",
         "rate": "Zusätzlicher Steuersatz",
@@ -121,6 +124,10 @@
         "fee": {
           "amount": "Betrag nach Gebühren",
           "price": "Preis nach Gebühren"
+        },
+        "vat": {
+          "amount": "Betrag nach MwSt",
+          "price": "Preis nach MwSt"
         }
       },
       "amount": {
@@ -277,6 +284,7 @@
       "primary_currency": "Hauptwährung",
       "profit": "Gewinn",
       "profit_and_loss": "Gewinn und Verlust",
+      "profit_and_loss_overview": "Übersicht über Gewinn und Verlust",
       "profit_or_loss": "Gewinn oder Verlust",
       "purchase": {
         "commission": "Ankaufsprovision",
@@ -321,6 +329,7 @@
         "price_per_unit": "Verkaufspreis pro Einheit"
       },
       "selling_expenses": "Verkaufskosten",
+      "selling_operating_expenses": "Verkaufs- und Betriebskosten",
       "slippage": "Slippage",
       "starting": {
         "balance": "Anfangsguthaben",

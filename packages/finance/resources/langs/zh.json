@@ -112,6 +112,9 @@
         "currency": "账户货币",
         "size": "账户规模"
       },
+      "additional": {
+        "metrics": "附加指标"
+      },
       "additional_tax": {
         "amount": "额外税额",
         "rate": "额外税率",
@@ -121,6 +124,10 @@
         "fee": {
           "amount": "扣除费用后的金额",
           "price": "扣除费用后的价格"
+        },
+        "vat": {
+          "amount": "增值税后金额",
+          "price": "增值税后价格"
         }
       },
       "amount": {
@@ -277,6 +284,7 @@
       "primary_currency": "主要货币",
       "profit": "利润",
       "profit_and_loss": "利润和损失",
+      "profit_and_loss_overview": "损益总览",
       "profit_or_loss": "利润或损失",
       "purchase": {
         "commission": "采购佣金",
@@ -321,6 +329,7 @@
         "price_per_unit": "每单位销售价格"
       },
       "selling_expenses": "销售费用",
+      "selling_operating_expenses": "销售及运营费用",
       "slippage": "滑点",
       "starting": {
         "balance": "初始余额",

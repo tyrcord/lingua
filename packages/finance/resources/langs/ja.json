@@ -112,6 +112,9 @@
         "currency": "口座の通貨",
         "size": "口座のサイズ"
       },
+      "additional": {
+        "metrics": "追加のメトリクス"
+      },
       "additional_tax": {
         "amount": "追加税額",
         "rate": "追加税率",
@@ -121,6 +124,10 @@
         "fee": {
           "amount": "手数料後の金額",
           "price": "手数料後の価格"
+        },
+        "vat": {
+          "amount": "VAT適用後の金額",
+          "price": "VAT適用後の価格"
         }
       },
       "amount": {
@@ -277,6 +284,7 @@
       "primary_currency": "主要通貨",
       "profit": "利益",
       "profit_and_loss": "利益と損失",
+      "profit_and_loss_overview": "損益の概要",
       "profit_or_loss": "利益または損失",
       "purchase": {
         "commission": "購入手数料",
@@ -321,6 +329,7 @@
         "price_per_unit": "単位あたりの販売価格"
       },
       "selling_expenses": "販売費",
+      "selling_operating_expenses": "販売および運営費用",
       "slippage": "スリッページ",
       "starting": {
         "balance": "初期残高",

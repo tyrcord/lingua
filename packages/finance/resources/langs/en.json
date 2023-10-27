@@ -112,6 +112,9 @@
         "currency": "Account Currency",
         "size": "Account Size"
       },
+      "additional": {
+        "metrics": "Additional Metrics"
+      },
       "additional_tax": {
         "amount": "Additional Tax Amount",
         "rate": "Additional Tax Rate",
@@ -121,6 +124,10 @@
         "fee": {
           "amount": "Amount After Fees",
           "price": "Price After Fees"
+        },
+        "vat": {
+          "amount": "Amount After VAT",
+          "price": "Price After VAT"
         }
       },
       "amount": {
@@ -277,6 +284,7 @@
       "primary_currency": "Primary Currency",
       "profit": "Profit",
       "profit_and_loss": "Profit and Loss",
+      "profit_and_loss_overview": "Profit and Loss Overview",
       "profit_or_loss": "Profit or Loss",
       "purchase": {
         "commission": "Purchase commission",
@@ -321,6 +329,7 @@
         "price_per_unit": "Selling price per unit"
       },
       "selling_expenses": "Selling expenses",
+      "selling_operating_expenses": "Selling and operating expenses",
       "slippage": "Slippage",
       "starting": {
         "balance": "Starting Balance",
