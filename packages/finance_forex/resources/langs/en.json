@@ -1,5 +1,15 @@
 {
   "forex": {
+    "help": {
+      "number_of_pips": {
+        "example": "For instance, if you set a goal to earn 15 pips on a particular trade, or you have realized a profit or a loss of 15 pips, you would enter '15'.",
+        "instructions": "Enter the total number of pips associated with your trade's profit or loss goal. The 'number of pips' refers to the smallest incremental target of movement in the price of a currency pair you are tracking or setting as a goal."
+      },
+      "pip_decimal_places": {
+        "example": "For example, if you are trading Bitcoin CFDs and your broker specifies pip movements to the third digit after the decimal, you would enter '3'.",
+        "instructions": "Enter the number of decimal places your broker uses for the pip value of your chosen trading instrument. Brokers may vary in the decimal accuracy used to quote prices for CFDs, cryptocurrencies, and other exotic instruments, directly affecting your trading calculations. Check with your broker if you are unsure of the precision level they use."
+      }
+    },
     "label": {
       "commodities": "Commodities",
       "count": {
@@ -27,8 +37,8 @@
       },
       "pip": {
         "calculator": "Pip Calculator",
+        "decimal_places": "Pip decimal places",
         "difference": "Pip Difference",
-        "precision": "Pip decimal point",
         "value": "Pip Value"
       },
       "pips": {
@@ -44,7 +54,7 @@
     },
     "select": {
       "currency_pair": "Select a currency pair",
-      "pip_precision": "Select a decimal"
+      "decimal": "Select a decimal"
     }
   }
 }

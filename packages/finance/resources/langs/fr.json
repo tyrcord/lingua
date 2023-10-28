@@ -17,6 +17,10 @@
         "example": "Si vous avez 50 000 $ alloués au trading, veuillez saisir 50 000 comme montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
+      "account_currency": {
+        "example": "Par exemple, si votre compte est basé aux États-Unis, vous sélectionneriez 'USD' dans le menu déroulant.",
+        "instructions": "Sélectionnez la devise associée à votre compte dans les options du menu déroulant. C'est la devise dans laquelle votre solde est maintenu et les transactions sont traitées."
+      },
       "additional_tax_rate": {
         "example": "Si un produit subit une TVA de 20 % et qu'un impôt local ou spécifique supplémentaire de 2 % s'y ajoute, inscrivez 2 comme valeur.",
         "text": "Fait référence à une taxe supplémentaire qui est appliquée en plus de la TVA."
@@ -57,9 +61,17 @@
         "example": "Par exemple, si vous prévoyez de vendre 150 unités d'un produit, veuillez saisir '150'.",
         "instructions": "Indiquez le nombre d'unités que vous prévoyez de vendre. Ce chiffre doit représenter la quantité totale d'unités individuelles que vous prévoyez de vendre, et non la valeur totale cumulée des actifs."
       },
+      "financial_instrument": {
+        "example": "Par exemple, si vous négociez des indices, vous pourriez sélectionner 'Indices' dans le menu déroulant.",
+        "instructions": "Choisissez le type d'instrument financier que vous traitez dans les options du menu déroulant. Les instruments financiers sont des actifs qui peuvent être négociés ou utilisés à des fins d'investissement. Ceux-ci peuvent inclure des actions, des obligations, des dérivés, des devises, etc."
+      },
       "operating_expenses": {
         "example": "Par exemple, si votre entreprise a dépensé 3 500 $ pour le loyer, 2 500 $ pour les utilitaires, 10 000 $ pour les salaires et 4 000 $ pour diverses dépenses administratives, vous additionneriez ces montants et saisiriez '20000'.",
         "instructions": "Saisissez le montant total des dépenses encourues pour les activités opérationnelles de votre entreprise. Cela devrait inclure des coûts tels que le loyer, les services publics, les salaires, la maintenance et autres dépenses administratives nécessaires au fonctionnement quotidien. Ne pas inclure les taxes, les paiements d'intérêts ou autres dépenses non opérationnelles."
+      },
+      "position_size": {
+        "example": "Par exemple, si vous négociez 100 actions d'une société, entrez '100'. Si vous traitez du forex et négociez 500 unitées, entrez '500'.",
+        "instructions": "Saisissez la quantité de l'instrument financier que vous détenez ou négociez. La taille de la position pourrait être en actions, lots, contrats, ou une autre unité, selon l'actif. Vous pouvez selectionner l'unité de mesure dans le menu déroulant à côté du champ de saisie."
       },
       "price_before_vat": {
         "example": "Si un produit coûte 10 $ avant taxes et qu'il est soumis à un taux de TVA de 20 %, inscrivez 10 comme valeur hors taxe",

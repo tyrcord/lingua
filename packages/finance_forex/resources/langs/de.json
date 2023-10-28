@@ -1,5 +1,15 @@
 {
   "forex": {
+    "help": {
+      "number_of_pips": {
+        "example": "Wenn Sie sich beispielsweise zum Ziel gesetzt haben, mit einem bestimmten Handel 15 Pips zu verdienen, oder Sie haben einen Gewinn oder Verlust von 15 Pips realisiert, würden Sie '15' eingeben.",
+        "instructions": "Geben Sie die Gesamtzahl der Pips ein, die mit dem Gewinn- oder Verlustziel Ihres Handels verbunden sind. Die 'Anzahl der Pips' bezieht sich auf das kleinste inkrementelle Bewegungsziel im Preis eines von Ihnen verfolgten oder als Ziel gesetzten Währungspaares."
+      },
+      "pip_decimal_places": {
+        "example": "Wenn Sie beispielsweise Bitcoin-CFDs handeln und Ihr Broker Pip-Bewegungen bis zur dritten Stelle nach dem Komma angibt, würden Sie '3' eingeben.",
+        "instructions": "Geben Sie die Anzahl der Dezimalstellen ein, die Ihr Broker für den Pip-Wert Ihres gewählten Handelsinstruments verwendet. Broker können in der dezimalen Genauigkeit variieren, die verwendet wird, um Preise für CFDs, Kryptowährungen und andere exotische Instrumente zu zitieren, was sich direkt auf Ihre Handelsberechnungen auswirkt. Überprüfen Sie bei Ihrem Broker, wenn Sie sich über das von ihnen verwendete Präzisionsniveau unsicher sind."
+      }
+    },
     "label": {
       "commodities": "Rohstoffe",
       "count": {
@@ -27,8 +37,8 @@
       },
       "pip": {
         "calculator": "Pip-Rechner",
+        "decimal_places": "Pip-Dezimalstellen",
         "difference": "Pip-Differenz",
-        "precision": "Pip Dezimalzeichen",
         "value": "Pip-Wert"
       },
       "pips": {
@@ -44,7 +54,7 @@
     },
     "select": {
       "currency_pair": "Wählen Sie ein Währungspaar",
-      "pip_precision": "Dezimalstelle auswählen"
+      "decimal": "Dezimalstelle auswählen"
     }
   }
 }

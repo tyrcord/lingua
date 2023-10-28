@@ -17,6 +17,10 @@
         "example": "Wenn Sie 50.000 € für den Handel bereitgestellt haben, geben Sie 50.000 als Betrag ein.",
         "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
       },
+      "account_currency": {
+        "example": "Wenn Ihr Konto beispielsweise in den Vereinigten Staaten basiert ist, würden Sie 'USD' aus dem Dropdown-Menü auswählen.",
+        "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
+      },
       "additional_tax_rate": {
         "example": "Wenn ein Produkt einer 20% MwSt. unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
         "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. angewendet wird."
@@ -57,9 +61,17 @@
         "example": "Wenn Sie beispielsweise 150 Einheiten eines Produkts verkaufen möchten, geben Sie bitte '150' ein.",
         "instructions": "Geben Sie die Anzahl der Einheiten an, die Sie verkaufen möchten. Diese Zahl sollte die Gesamtmenge der einzelnen Einheiten darstellen, die Sie verkaufen möchten, nicht den gesamten kumulierten Wert der Vermögenswerte."
       },
+      "financial_instrument": {
+        "example": "Wenn Sie beispielsweise mit Indizes handeln, könnten Sie 'Indizes' aus dem Dropdown-Menü auswählen.",
+        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. gehören."
+      },
       "operating_expenses": {
         "example": "Wenn Ihr Unternehmen beispielsweise 3.500 $ für Miete, 2.500 $ für Nebenkosten, 10.000 $ für Löhne und 4.000 $ für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
         "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."
+      },
+      "position_size": {
+        "example": "Wenn Sie beispielsweise 100 Aktien eines Unternehmens handeln, geben Sie '100' ein. Wenn Sie mit Forex handeln und 500 Einheiten handeln, geben Sie '500' ein.",
+        "instructions": "Geben Sie die Menge des Finanzinstruments ein, das Sie halten oder handeln. Die Positionsgröße kann in Aktien, Losen, Verträgen oder einer anderen Einheit sein, je nach Vermögenswert. Sie können die Maßeinheit aus dem Dropdown-Menü neben dem Eingabefeld auswählen."
       },
       "price_before_vat": {
         "example": "Wenn ein Produkt vor Steuern 10 $ kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",

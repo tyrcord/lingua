@@ -30,6 +30,10 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果您为交易分配了 50,000 欧元，请输入 50,000 作为金额。",
         "text": "请提供您当前可用资金的价值。"
       },
+      "account_currency": {
+        "example": "例如，如果您的账户是基于美国的，您会在下拉菜单中选择'USD'。",
+        "instructions": "从下拉菜单中选择与您账户相关的货币。这是您的余额保持和交易处理的货币。"
+      },
       "additional_tax_rate": {
         "example": "如果一个产品适用20%的增值税并增加了额外的2%特定或地方税，请输入2作为该税率。",
         "text": "指的是在增值税之上应用的额外税款。"
@@ -70,9 +74,17 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "例如，如果您计划销售150个产品单位，请输入'150'。",
         "instructions": "请输入您计划销售的单位数量。这个数字应代表您打算出售的单个单位的总数量，而不是资产的总价值。"
       },
+      "financial_instrument": {
+        "example": "例如，如果您交易指数，您可以在下拉菜单中选择'指数'。",
+        "instructions": "从下拉菜单中选择您交易的金融工具类型。金融工具是可以交易或用于投资目的的资产。这可能包括股票、债券、衍生品、货币等。"
+      },
       "operating_expenses": {
         "example": "例如，如果您的业务在租金上花费350000元，在公用事业上花费250000元，在薪资上花费1000000元，在其他行政费用上花费400000元，您需要加总这些数额并输入'2000000'。",
         "instructions": "请输入业务的总运营费用。这包括租金、公用事业、薪资、维护和其他日常运营所需的行政费用。不要包括税款、利息支付或非运营费用。"
+      },
+      "position_size": {
+        "example": "例如，如果您正在交易某公司的100股股票，您会输入'100'。如果您在进行外汇交易并交易500单位，您会输入'500'。",
+        "instructions": "输入您持有或交易的金融工具的数量。头寸大小可能以股票、批次、合同或其他单位表示，具体取决于资产。您可以在输入字段旁边的下拉菜单中选择测量单位。"
       },
       "price_before_vat": {
         "example": "如果一个产品税前价格为\u002410且适用20%的增值税率，请输入10作为税前价值。",
@@ -453,6 +465,10 @@ static const Map<String,dynamic> ja = {
         "example": "50,000 円をトレーディングに充当している場合、50,000 を金額として入力してください。",
         "text": "利用可能な現在の資本の価値を指定してください。"
       },
+      "account_currency": {
+        "example": "例えば、あなたの口座がアメリカに拠点を置いている場合、ドロップダウンメニューで 'USD' を選択します。",
+        "instructions": "ドロップダウンメニューのオプションから、あなたの口座に関連付けられた通貨を選択してください。これは、あなたの残高が保持され、取引が処理される通貨です。"
+      },
       "additional_tax_rate": {
         "example": "製品に20%のVATが適用され、追加の特定税または地方税が2%追加される場合、値として2を入力してください。",
         "text": "VATの上に適用される追加の税を参照します。"
@@ -493,9 +509,17 @@ static const Map<String,dynamic> ja = {
         "example": "例えば、製品150ユニットの販売を予定している場合、'150'と入力します。",
         "instructions": "販売予定のユニット数を入力してください。この数値は、販売する予定の各ユニットの総数である必要があり、資産の総価値ではありません。"
       },
+      "financial_instrument": {
+        "example": "例えば、インデックスを取引している場合、ドロップダウンメニューで 'インデックス' を選ぶことができます。",
+        "instructions": "ドロップダウンメニューから、取引している金融商品の種類を選択してください。金融商品とは、取引や投資目的で使用できる資産のことで、株式、債券、デリバティブ、通貨などが含まれます。"
+      },
       "operating_expenses": {
         "example": "例えば、あなたの企業が家賃に35万円、公共料金に25万円、給与に100万円、その他の管理費用に40万円を支出している場合、これらの金額を合計して'2000000'と入力します。",
         "instructions": "企業の運営にかかる総経費の金額を入力してください。これには、家賃、公共料金、給与、メンテナンス、および日常業務に必要なその他の管理費用が含まれます。税金、利息支払い、または非運営費用は含めないでください。"
+      },
+      "position_size": {
+        "example": "例えば、ある企業の株式100株を取引している場合、'100'と入力します。外国為替で500単位を取引している場合は、'500'と入力します。",
+        "instructions": "保有または取引している金融商品の数量を入力してください。ポジションサイズは、資産に応じて株式、ロット、契約、またはその他の単位で表される場合があります。入力フィールドの隣のドロップダウンメニューで測定単位を選択できます。"
       },
       "price_before_vat": {
         "example": "製品が税抜きで\u002410であり、20%のVATが適用される場合、税抜きの値として10を入力してください。",
@@ -876,6 +900,10 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie 50.000 € für den Handel bereitgestellt haben, geben Sie 50.000 als Betrag ein.",
         "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
       },
+      "account_currency": {
+        "example": "Wenn Ihr Konto beispielsweise in den Vereinigten Staaten basiert ist, würden Sie 'USD' aus dem Dropdown-Menü auswählen.",
+        "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
+      },
       "additional_tax_rate": {
         "example": "Wenn ein Produkt einer 20% MwSt. unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
         "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. angewendet wird."
@@ -916,9 +944,17 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie beispielsweise 150 Einheiten eines Produkts verkaufen möchten, geben Sie bitte '150' ein.",
         "instructions": "Geben Sie die Anzahl der Einheiten an, die Sie verkaufen möchten. Diese Zahl sollte die Gesamtmenge der einzelnen Einheiten darstellen, die Sie verkaufen möchten, nicht den gesamten kumulierten Wert der Vermögenswerte."
       },
+      "financial_instrument": {
+        "example": "Wenn Sie beispielsweise mit Indizes handeln, könnten Sie 'Indizes' aus dem Dropdown-Menü auswählen.",
+        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. gehören."
+      },
       "operating_expenses": {
         "example": "Wenn Ihr Unternehmen beispielsweise 3.500 \u0024 für Miete, 2.500 \u0024 für Nebenkosten, 10.000 \u0024 für Löhne und 4.000 \u0024 für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
         "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."
+      },
+      "position_size": {
+        "example": "Wenn Sie beispielsweise 100 Aktien eines Unternehmens handeln, geben Sie '100' ein. Wenn Sie mit Forex handeln und 500 Einheiten handeln, geben Sie '500' ein.",
+        "instructions": "Geben Sie die Menge des Finanzinstruments ein, das Sie halten oder handeln. Die Positionsgröße kann in Aktien, Losen, Verträgen oder einer anderen Einheit sein, je nach Vermögenswert. Sie können die Maßeinheit aus dem Dropdown-Menü neben dem Eingabefeld auswählen."
       },
       "price_before_vat": {
         "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
@@ -1299,6 +1335,10 @@ static const Map<String,dynamic> ru = {
         "example": "Если вы выделили 50 000 € на торговлю, введите 50 000 в качестве суммы.",
         "text": "Укажите текущий размер вашего доступного капитала."
       },
+      "account_currency": {
+        "example": "Например, если ваш счет базируется в США, вы бы выбрали 'USD' в выпадающем меню.",
+        "instructions": "Выберите валюту, связанную с вашим счетом, из опций в выпадающем меню. Это та валюта, в которой учитывается ваш баланс и обрабатываются транзакции."
+      },
       "additional_tax_rate": {
         "example": "Если на товар распространяется ставка НДС 20% и добавляется дополнительный конкретный или местный налог 2%, введите 2 в качестве значения.",
         "text": "Относится к дополнительному налогу, который начисляется сверх НДС."
@@ -1339,9 +1379,17 @@ static const Map<String,dynamic> ru = {
         "example": "Например, если вы планируете продать 150 единиц продукта, введите '150'.",
         "instructions": "Введите количество единиц, которое вы планируете продать. Это число должно представлять общее количество отдельных единиц, которые вы намерены продать, а не общую стоимость активов."
       },
+      "financial_instrument": {
+        "example": "Например, если вы торгуете индексами, вы могли бы выбрать 'Индексы' в выпадающем меню.",
+        "instructions": "Выберите тип финансового инструмента, с которым вы работаете, из опций в выпадающем меню. Финансовые инструменты - это активы, которыми можно торговать или которые можно использовать в инвестиционных целях. К ним относятся акции, облигации, производные финансовые инструменты, валюты и т. д."
+      },
       "operating_expenses": {
         "example": "Например, если ваш бизнес тратит 350000 рублей на аренду, 250000 рублей на коммунальные услуги, 1 миллион рублей на зарплату и 400000 рублей на другие административные расходы, вы складываете эти значения и вводите '2000000'.",
         "instructions": "Введите общую сумму операционных расходов бизнеса. Это включает арендную плату, коммунальные услуги, зарплату, обслуживание и другие административные расходы, необходимые для ежедневной операции. Не включайте налоги, процентные платежи или неоперационные расходы."
+      },
+      "position_size": {
+        "example": "Например, если вы торгуете 100 акциями компании, вы введете '100'. Если вы занимаетесь форексом и торгуете 500 единицами, вы введете '500'.",
+        "instructions": "Введите количество финансового инструмента, которым вы владеете или который торгуете. Размер позиции может быть выражен в акциях, лотах, контрактах или других единицах в зависимости от актива. Вы можете выбрать единицу измерения в выпадающем меню рядом с полем ввода."
       },
       "price_before_vat": {
         "example": "Если стоимость товара до налогов составляет \u002410 и на нее распространяется ставка НДС 20%, введите 10 в качестве значения до налогообложения.",
@@ -1722,6 +1770,10 @@ static const Map<String,dynamic> pt = {
         "example": "Se você alocou 50.000 € para o trading, insira 50.000 como valor.",
         "text": "Informe o valor atual do seu capital disponível."
       },
+      "account_currency": {
+        "example": "Por exemplo, se a sua conta for baseada nos Estados Unidos, selecionaria 'USD' no menu suspenso.",
+        "instructions": "Selecione a moeda associada à sua conta a partir das opções no menu suspenso. Esta é a moeda em que o seu saldo é mantido e as transações são processadas."
+      },
       "additional_tax_rate": {
         "example": "Se um produto está sujeito a um IVA de 20% e um imposto específico ou local adicional de 2% é adicionado, insira 2 como o valor.",
         "text": "Refere-se a um imposto adicional que é aplicado em cima do IVA."
@@ -1762,9 +1814,17 @@ static const Map<String,dynamic> pt = {
         "example": "Por exemplo, se você planeja vender 150 unidades de um produto, insira '150'.",
         "instructions": "Insira o número de unidades que espera vender. Este número deve representar o total de unidades individuais que você planeja vender, não o valor total dos ativos."
       },
+      "financial_instrument": {
+        "example": "Por exemplo, se negoceia índices, poderia selecionar 'Índices' no menu suspenso.",
+        "instructions": "Escolha o tipo de instrumento financeiro com o qual negoceia a partir das opções no menu suspenso. Os instrumentos financeiros são ativos que podem ser negociados ou usados para fins de investimento. Isso pode incluir ações, obrigações, derivados, moedas, etc."
+      },
       "operating_expenses": {
         "example": "Por exemplo, se o seu negócio gasta 350.000 reais de aluguel, 250.000 reais em serviços públicos, 1 milhão de reais em salários e 400.000 reais em outras despesas administrativas, você adicionaria esses valores e inseriria '2000000'.",
         "instructions": "Insira o montante total das despesas operacionais do negócio. Isso inclui aluguel, serviços públicos, salários, manutenção e outras despesas administrativas necessárias para a operação diária. Não inclua impostos, pagamentos de juros ou despesas não operacionais."
+      },
+      "position_size": {
+        "example": "Por exemplo, se estiver a negociar 100 ações de uma empresa, introduziria '100'. Se estiver a lidar com forex e a negociar 500 unidades, introduziria '500'.",
+        "instructions": "Introduza a quantidade do instrumento financeiro que está a manter ou a negociar. O tamanho da posição pode ser em ações, lotes, contratos ou outra unidade, dependendo do ativo. Pode selecionar a unidade de medida no menu suspenso ao lado do campo de entrada."
       },
       "price_before_vat": {
         "example": "Se um produto custa \u002410 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
@@ -2145,6 +2205,10 @@ static const Map<String,dynamic> en = {
         "example": "If you have \u002450,000 allocated for trading, please enter 50,000 as the amount.",
         "text": "Indicate the current value of your available capital."
       },
+      "account_currency": {
+        "example": "For instance, if your account is based in the United States, you would select 'USD' from the dropdown menu.",
+        "instructions": "Select the currency associated with your account from the dropdown menu options. This is the currency in which your balance is maintained and transactions are processed."
+      },
       "additional_tax_rate": {
         "example": "If a product is subject to a 20% VAT and an additional specific or local tax of 2% is added, enter 2 as the value.",
         "text": "Refers to an additional tax that is applied on top of the VAT."
@@ -2185,9 +2249,17 @@ static const Map<String,dynamic> en = {
         "example": "For instance, if you plan to sell 150 units of a product, please enter '150'.",
         "instructions": "Indicate the number of units you plan to sell. This figure should represent the total quantity of individual units you expect to sell, not the total cumulative value of the assets."
       },
+      "financial_instrument": {
+        "example": "For example, if you trade indices, you might select 'Indices' from the dropdown menu.",
+        "instructions": "Choose the type of financial instrument you deal with from the dropdown menu options. Financial instruments are assets that can be traded or used for investment purposes. These may include stocks, bonds, derivatives, currencies, etc."
+      },
       "operating_expenses": {
         "example": "For example, if your business spent \u00243,500 on rent, \u00242,500 on utilities, \u002410,000 on wages, and \u00244,000 on various administrative expenses, you would add these amounts and enter '20000'.",
         "instructions": "Enter the total amount of expenses incurred for your business's operational activities. This should include costs such as rent, utilities, wages, maintenance, and other administrative expenses necessary for daily operations. Do not include taxes, interest payments, or other non-operational expenses."
+      },
+      "position_size": {
+        "example": "For example, if you are trading 100 shares of a company, enter '100'. If you are dealing with forex and trading 500 units, enter '500'.",
+        "instructions": "Enter the quantity of the financial instrument you are holding or trading. The position size could be in shares, lots, contracts, or another unit, depending on the asset. You can select the unit of measure from the dropdown menu next to the input field."
       },
       "price_before_vat": {
         "example": "If a product costs \u002410 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
@@ -2568,6 +2640,10 @@ static const Map<String,dynamic> it = {
         "example": "Se hai stanziato 50.000 € per il trading, inserisci 50.000 come importo.",
         "text": "Indica il valore attuale del tuo capitale disponibile."
       },
+      "account_currency": {
+        "example": "Ad esempio, se il tuo conto è basato negli Stati Uniti, selezioneresti 'USD' dal menu a tendina.",
+        "instructions": "Seleziona la valuta associata al tuo conto dalle opzioni del menu a tendina. Questa è la valuta in cui viene mantenuto il tuo saldo e vengono elaborate le transazioni."
+      },
       "additional_tax_rate": {
         "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
         "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
@@ -2608,9 +2684,17 @@ static const Map<String,dynamic> it = {
         "example": "Ad esempio, se prevedi di vendere 150 unità di un prodotto, inserisci '150'.",
         "instructions": "Inserisci il numero di unità che prevedi di vendere. Questo numero dovrebbe rappresentare il totale delle singole unità che pianifichi di vendere, non il valore totale degli attivi."
       },
+      "financial_instrument": {
+        "example": "Ad esempio, se fai trading sugli indici, potresti selezionare 'Indici' dal menu a tendina.",
+        "instructions": "Scegli il tipo di strumento finanziario con cui operi dalle opzioni del menu a tendina. Gli strumenti finanziari sono attivi che possono essere scambiati o utilizzati per scopi di investimento. Questi possono includere azioni, obbligazioni, derivati, valute, ecc."
+      },
       "operating_expenses": {
         "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
         "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
+      },
+      "position_size": {
+        "example": "Ad esempio, se stai negoziando 100 azioni di un'azienda, inseriresti '100'. Se stai operando con il forex e scambiando 500 unità, inseriresti '500'.",
+        "instructions": "Inserisci la quantità dello strumento finanziario che stai mantenendo o negoziando. La dimensione della posizione potrebbe essere in azioni, lotti, contratti o un'altra unità, a seconda dell'attivo. Puoi selezionare l'unità di misura dal menu a tendina accanto al campo di inserimento."
       },
       "price_before_vat": {
         "example": "Se un prodotto costa \u002410 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
@@ -2991,6 +3075,10 @@ static const Map<String,dynamic> fr = {
         "example": "Si vous avez 50 000 \u0024 alloués au trading, veuillez saisir 50 000 comme montant.",
         "text": "Indiquez la valeur actuelle de votre capital disponible."
       },
+      "account_currency": {
+        "example": "Par exemple, si votre compte est basé aux États-Unis, vous sélectionneriez 'USD' dans le menu déroulant.",
+        "instructions": "Sélectionnez la devise associée à votre compte dans les options du menu déroulant. C'est la devise dans laquelle votre solde est maintenu et les transactions sont traitées."
+      },
       "additional_tax_rate": {
         "example": "Si un produit subit une TVA de 20 % et qu'un impôt local ou spécifique supplémentaire de 2 % s'y ajoute, inscrivez 2 comme valeur.",
         "text": "Fait référence à une taxe supplémentaire qui est appliquée en plus de la TVA."
@@ -3031,9 +3119,17 @@ static const Map<String,dynamic> fr = {
         "example": "Par exemple, si vous prévoyez de vendre 150 unités d'un produit, veuillez saisir '150'.",
         "instructions": "Indiquez le nombre d'unités que vous prévoyez de vendre. Ce chiffre doit représenter la quantité totale d'unités individuelles que vous prévoyez de vendre, et non la valeur totale cumulée des actifs."
       },
+      "financial_instrument": {
+        "example": "Par exemple, si vous négociez des indices, vous pourriez sélectionner 'Indices' dans le menu déroulant.",
+        "instructions": "Choisissez le type d'instrument financier que vous traitez dans les options du menu déroulant. Les instruments financiers sont des actifs qui peuvent être négociés ou utilisés à des fins d'investissement. Ceux-ci peuvent inclure des actions, des obligations, des dérivés, des devises, etc."
+      },
       "operating_expenses": {
         "example": "Par exemple, si votre entreprise a dépensé 3 500 \u0024 pour le loyer, 2 500 \u0024 pour les utilitaires, 10 000 \u0024 pour les salaires et 4 000 \u0024 pour diverses dépenses administratives, vous additionneriez ces montants et saisiriez '20000'.",
         "instructions": "Saisissez le montant total des dépenses encourues pour les activités opérationnelles de votre entreprise. Cela devrait inclure des coûts tels que le loyer, les services publics, les salaires, la maintenance et autres dépenses administratives nécessaires au fonctionnement quotidien. Ne pas inclure les taxes, les paiements d'intérêts ou autres dépenses non opérationnelles."
+      },
+      "position_size": {
+        "example": "Par exemple, si vous négociez 100 actions d'une société, entrez '100'. Si vous traitez du forex et négociez 500 unitées, entrez '500'.",
+        "instructions": "Saisissez la quantité de l'instrument financier que vous détenez ou négociez. La taille de la position pourrait être en actions, lots, contrats, ou une autre unité, selon l'actif. Vous pouvez selectionner l'unité de mesure dans le menu déroulant à côté du champ de saisie."
       },
       "price_before_vat": {
         "example": "Si un produit coûte 10 \u0024 avant taxes et qu'il est soumis à un taux de TVA de 20 %, inscrivez 10 comme valeur hors taxe",
@@ -3414,6 +3510,10 @@ static const Map<String,dynamic> es = {
         "example": "Si ha asignado 50.000 € para el trading, introduzca 50.000 como importe.",
         "text": "Indique el valor actual de su capital disponible."
       },
+      "account_currency": {
+        "example": "Por ejemplo, si tu cuenta está basada en Estados Unidos, seleccionarías 'USD' en el menú desplegable.",
+        "instructions": "Selecciona la moneda asociada con tu cuenta en las opciones del menú desplegable. Esta es la moneda en la que se mantiene tu saldo y se procesan las transacciones."
+      },
       "additional_tax_rate": {
         "example": "Si un producto está sujeto a un IVA del 20% y se agrega un impuesto específico o local adicional del 2%, ingrese 2 como el valor.",
         "text": "Se refiere a un impuesto adicional que se aplica además del IVA."
@@ -3454,9 +3554,17 @@ static const Map<String,dynamic> es = {
         "example": "Por ejemplo, si desea vender 150 unidades de un producto, por favor introduzca '150'.",
         "instructions": "Introduzca el número de unidades que espera vender. Este número debe representar el total de unidades individuales que planea vender, no el valor total de los activos."
       },
+      "financial_instrument": {
+        "example": "Por ejemplo, si operas con índices, podrías seleccionar 'Índices' en el menú desplegable.",
+        "instructions": "Elige el tipo de instrumento financiero con el que tratas en las opciones del menú desplegable. Los instrumentos financieros son activos que se pueden negociar o utilizar con fines de inversión. Estos pueden incluir acciones, bonos, derivados, divisas, etc."
+      },
       "operating_expenses": {
         "example": "Por ejemplo, si su negocio gasta \u00243,500 en alquiler, \u00242,500 en servicios públicos, \u002410,000 en salarios y \u00244,000 en varios gastos administrativos, sumaría estos montos e introduciría '20000'.",
         "instructions": "Introduzca el monto total de los gastos incurridos para las actividades operativas de su negocio. Esto incluye costos como alquiler, servicios públicos, salarios, mantenimiento y otros gastos administrativos necesarios para la operación diaria. No debe incluir impuestos, pagos de intereses u otros gastos no operativos."
+      },
+      "position_size": {
+        "example": "Por ejemplo, si estás negociando 100 acciones de una empresa, introduce '100'. Si estás tratando con forex y operando 500 unidades, introduce '500'.",
+        "instructions": "Introduce la cantidad del instrumento financiero que estás manteniendo o negociando. El tamaño de la posición podría estar en acciones, lotes, contratos u otra unidad, dependiendo del activo. Puedes seleccionar la unidad de medida en el menú desplegable junto al campo de entrada."
       },
       "price_before_vat": {
         "example": "Si un producto cuesta \u002410 antes de impuestos y está sujeto a una tasa de IVA del 20%, ingrese 10 como el valor antes de impuestos.",

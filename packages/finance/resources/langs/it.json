@@ -17,6 +17,10 @@
         "example": "Se hai stanziato 50.000 € per il trading, inserisci 50.000 come importo.",
         "text": "Indica il valore attuale del tuo capitale disponibile."
       },
+      "account_currency": {
+        "example": "Ad esempio, se il tuo conto è basato negli Stati Uniti, selezioneresti 'USD' dal menu a tendina.",
+        "instructions": "Seleziona la valuta associata al tuo conto dalle opzioni del menu a tendina. Questa è la valuta in cui viene mantenuto il tuo saldo e vengono elaborate le transazioni."
+      },
       "additional_tax_rate": {
         "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
         "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
@@ -57,9 +61,17 @@
         "example": "Ad esempio, se prevedi di vendere 150 unità di un prodotto, inserisci '150'.",
         "instructions": "Inserisci il numero di unità che prevedi di vendere. Questo numero dovrebbe rappresentare il totale delle singole unità che pianifichi di vendere, non il valore totale degli attivi."
       },
+      "financial_instrument": {
+        "example": "Ad esempio, se fai trading sugli indici, potresti selezionare 'Indici' dal menu a tendina.",
+        "instructions": "Scegli il tipo di strumento finanziario con cui operi dalle opzioni del menu a tendina. Gli strumenti finanziari sono attivi che possono essere scambiati o utilizzati per scopi di investimento. Questi possono includere azioni, obbligazioni, derivati, valute, ecc."
+      },
       "operating_expenses": {
         "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
         "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
+      },
+      "position_size": {
+        "example": "Ad esempio, se stai negoziando 100 azioni di un'azienda, inseriresti '100'. Se stai operando con il forex e scambiando 500 unità, inseriresti '500'.",
+        "instructions": "Inserisci la quantità dello strumento finanziario che stai mantenendo o negoziando. La dimensione della posizione potrebbe essere in azioni, lotti, contratti o un'altra unità, a seconda dell'attivo. Puoi selezionare l'unità di misura dal menu a tendina accanto al campo di inserimento."
       },
       "price_before_vat": {
         "example": "Se un prodotto costa $10 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",

@@ -17,6 +17,10 @@
         "example": "If you have $50,000 allocated for trading, please enter 50,000 as the amount.",
         "text": "Indicate the current value of your available capital."
       },
+      "account_currency": {
+        "example": "For instance, if your account is based in the United States, you would select 'USD' from the dropdown menu.",
+        "instructions": "Select the currency associated with your account from the dropdown menu options. This is the currency in which your balance is maintained and transactions are processed."
+      },
       "additional_tax_rate": {
         "example": "If a product is subject to a 20% VAT and an additional specific or local tax of 2% is added, enter 2 as the value.",
         "text": "Refers to an additional tax that is applied on top of the VAT."
@@ -57,9 +61,17 @@
         "example": "For instance, if you plan to sell 150 units of a product, please enter '150'.",
         "instructions": "Indicate the number of units you plan to sell. This figure should represent the total quantity of individual units you expect to sell, not the total cumulative value of the assets."
       },
+      "financial_instrument": {
+        "example": "For example, if you trade indices, you might select 'Indices' from the dropdown menu.",
+        "instructions": "Choose the type of financial instrument you deal with from the dropdown menu options. Financial instruments are assets that can be traded or used for investment purposes. These may include stocks, bonds, derivatives, currencies, etc."
+      },
       "operating_expenses": {
         "example": "For example, if your business spent $3,500 on rent, $2,500 on utilities, $10,000 on wages, and $4,000 on various administrative expenses, you would add these amounts and enter '20000'.",
         "instructions": "Enter the total amount of expenses incurred for your business's operational activities. This should include costs such as rent, utilities, wages, maintenance, and other administrative expenses necessary for daily operations. Do not include taxes, interest payments, or other non-operational expenses."
+      },
+      "position_size": {
+        "example": "For example, if you are trading 100 shares of a company, enter '100'. If you are dealing with forex and trading 500 units, enter '500'.",
+        "instructions": "Enter the quantity of the financial instrument you are holding or trading. The position size could be in shares, lots, contracts, or another unit, depending on the asset. You can select the unit of measure from the dropdown menu next to the input field."
       },
       "price_before_vat": {
         "example": "If a product costs $10 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",

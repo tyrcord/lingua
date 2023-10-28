@@ -11,6 +11,8 @@ abstract class FinanceLocaleKeys {
   static const finance_error_quote_refresh = 'finance.error.quote_refresh';
   static const finance_help_account_balance_example = 'finance.help.account_balance.example';
   static const finance_help_account_balance_text = 'finance.help.account_balance.text';
+  static const finance_help_account_currency_example = 'finance.help.account_currency.example';
+  static const finance_help_account_currency_instructions = 'finance.help.account_currency.instructions';
   static const finance_help_additional_tax_rate_example = 'finance.help.additional_tax_rate.example';
   static const finance_help_additional_tax_rate_text = 'finance.help.additional_tax_rate.text';
   static const finance_help_amount_at_risk_example = 'finance.help.amount_at_risk.example';
@@ -31,8 +33,12 @@ abstract class FinanceLocaleKeys {
   static const finance_help_exit_fees_text = 'finance.help.exit_fees.text';
   static const finance_help_expected_sale_units_example = 'finance.help.expected_sale_units.example';
   static const finance_help_expected_sale_units_instructions = 'finance.help.expected_sale_units.instructions';
+  static const finance_help_financial_instrument_example = 'finance.help.financial_instrument.example';
+  static const finance_help_financial_instrument_instructions = 'finance.help.financial_instrument.instructions';
   static const finance_help_operating_expenses_example = 'finance.help.operating_expenses.example';
   static const finance_help_operating_expenses_instructions = 'finance.help.operating_expenses.instructions';
+  static const finance_help_position_size_example = 'finance.help.position_size.example';
+  static const finance_help_position_size_instructions = 'finance.help.position_size.instructions';
   static const finance_help_price_before_vat_example = 'finance.help.price_before_vat.example';
   static const finance_help_price_before_vat_text = 'finance.help.price_before_vat.text';
   static const finance_help_risk_example = 'finance.help.risk.example';
