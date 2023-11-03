@@ -13,8 +13,9 @@ dependencies:
 
   easy_localization: ^3.0.3
 
+  lingua_core: ^0.0.31
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.3
-  lingua_core: ^0.0.31
+  flutter_lints: ^3.0.0
