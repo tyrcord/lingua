@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-11-03
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_finance` - `v0.0.21`](#lingua_finance---v0021)
+ - [`lingua_finance_forex` - `v0.0.5`](#lingua_finance_forex---v005)
+ - [`lingua_number` - `v0.0.9`](#lingua_number---v009)
+
+---
+
+#### `lingua_finance` - `v0.0.21`
+
+ - **FEAT**: update localization.
+
+#### `lingua_finance_forex` - `v0.0.5`
+
+ - **FEAT**: update localization.
+
+#### `lingua_number` - `v0.0.9`
+
+ - **FEAT**: add toOrdinal helper.
+
+
 ## 2023-10-27
 
 ### Changes

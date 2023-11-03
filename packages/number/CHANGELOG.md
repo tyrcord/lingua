@@ -1,3 +1,7 @@
+## 0.0.9
+
+ - **FEAT**: add toOrdinal helper.
+
 ## 0.0.8
 
  - **FEAT**: Ignores keys defining nested object.

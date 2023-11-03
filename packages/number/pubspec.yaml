@@ -1,6 +1,6 @@
 name: lingua_number
 description: Library for internal numbers localization.
-version: 0.0.8
+version: 0.0.9
 repository: https://github.com/tyrcord/lingua/tree/main/packages/number
 
 environment:
