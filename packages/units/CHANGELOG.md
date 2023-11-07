@@ -1,3 +1,7 @@
+## 0.0.5
+
+ - **FEAT**: add localizeUnitSize helper.
+
 ## 0.0.4
 
  - **FEAT**: Ignores keys defining nested object.
