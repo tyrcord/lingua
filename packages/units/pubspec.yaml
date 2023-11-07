@@ -13,6 +13,9 @@ dependencies:
 
   easy_localization: ^3.0.3
 
+  # T
+  t_helpers: ^0.0.38
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
