@@ -1,6 +1,6 @@
 name: lingua_purchases
 description: Library for internal purchases localization.
-version: 0.0.15
+version: 0.0.16
 repository: https://github.com/tyrcord/lingua/tree/main/packages/purchases
 
 environment:
