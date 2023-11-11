@@ -36,7 +36,9 @@
       },
       "unlimited": {
         "pdf": "無制限のPDF生成を体験しましょう。"
-      }
+      },
+      "auto_refresh_results": "自動結果更新の利点を活用してください。",
+      "quicker_refresh_rates": "為替レートのより速い更新を利用してください。"
     },
     "label": {
       "available_products": "利用可能な商品",

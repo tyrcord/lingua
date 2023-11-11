@@ -36,7 +36,9 @@
       },
       "unlimited": {
         "pdf": "Disfruta de la generación ilimitada de PDF."
-      }
+      },
+      "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
+      "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio."
     },
     "label": {
       "available_products": "Productos disponibles",

@@ -36,7 +36,9 @@
       },
       "unlimited": {
         "pdf": "Erleben Sie grenzenlose PDF-Erstellung."
-      }
+      },
+      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
+      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse."
     },
     "label": {
       "available_products": "Verfügbare Produkte",

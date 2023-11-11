@@ -36,7 +36,9 @@
       },
       "unlimited": {
         "pdf": "Experience limitless PDF generation."
-      }
+      },
+      "auto_refresh_results": "Gain the advantage of automatic result updates.",
+      "quicker_refresh_rates": "Benefit from quicker updates of exchange rates."
     },
     "label": {
       "available_products": "Available Products",
@@ -61,7 +63,7 @@
         "pending": "Purchase pending.",
         "successful": "Purchase successful."
       },
-      "purchased_items": "List of purchased items::",
+      "purchased_items": "List of purchased items:",
       "purchases_restored": "Purchases Restored.",
       "thanks_purchase": "Thank you for your purchase.",
       "unlock_premium_features": "Access a multitude of premium features."

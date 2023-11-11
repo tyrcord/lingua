@@ -49,7 +49,9 @@ class PurchasesCodegenLoader extends AssetLoader {
       },
       "unlimited": {
         "pdf": "体验无限的PDF生成。"
-      }
+      },
+      "auto_refresh_results": "利用自动结果更新的优势。",
+      "quicker_refresh_rates": "享受更快的汇率更新速度。"
     },
     "label": {
       "available_products": "可用产品",
@@ -119,7 +121,9 @@ static const Map<String,dynamic> ja = {
       },
       "unlimited": {
         "pdf": "無制限のPDF生成を体験しましょう。"
-      }
+      },
+      "auto_refresh_results": "自動結果更新の利点を活用してください。",
+      "quicker_refresh_rates": "為替レートのより速い更新を利用してください。"
     },
     "label": {
       "available_products": "利用可能な商品",
@@ -189,7 +193,9 @@ static const Map<String,dynamic> de = {
       },
       "unlimited": {
         "pdf": "Erleben Sie grenzenlose PDF-Erstellung."
-      }
+      },
+      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
+      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse."
     },
     "label": {
       "available_products": "Verfügbare Produkte",
@@ -259,7 +265,9 @@ static const Map<String,dynamic> ru = {
       },
       "unlimited": {
         "pdf": "Получите неограниченную генерацию PDF."
-      }
+      },
+      "auto_refresh_results": "Используйте преимущества автоматического обновления результатов.",
+      "quicker_refresh_rates": "Пользуйтесь преимуществом более быстрого обновления валютных курсов."
     },
     "label": {
       "available_products": "Доступные продукты",
@@ -329,7 +337,9 @@ static const Map<String,dynamic> pt = {
       },
       "unlimited": {
         "pdf": "Experimente a geração ilimitada de PDF."
-      }
+      },
+      "auto_refresh_results": "Aproveite a vantagem de atualizações automáticas dos resultados.",
+      "quicker_refresh_rates": "Beneficie de atualizações mais rápidas das taxas de câmbio."
     },
     "label": {
       "available_products": "Produtos disponíveis",
@@ -399,7 +409,9 @@ static const Map<String,dynamic> en = {
       },
       "unlimited": {
         "pdf": "Experience limitless PDF generation."
-      }
+      },
+      "auto_refresh_results": "Gain the advantage of automatic result updates.",
+      "quicker_refresh_rates": "Benefit from quicker updates of exchange rates."
     },
     "label": {
       "available_products": "Available Products",
@@ -424,7 +436,7 @@ static const Map<String,dynamic> en = {
         "pending": "Purchase pending.",
         "successful": "Purchase successful."
       },
-      "purchased_items": "List of purchased items::",
+      "purchased_items": "List of purchased items:",
       "purchases_restored": "Purchases Restored.",
       "thanks_purchase": "Thank you for your purchase.",
       "unlock_premium_features": "Access a multitude of premium features."
@@ -469,7 +481,9 @@ static const Map<String,dynamic> it = {
       },
       "unlimited": {
         "pdf": "Esperienza di generazione PDF illimitata."
-      }
+      },
+      "auto_refresh_results": "Approfitta del vantaggio degli aggiornamenti automatici dei risultati.",
+      "quicker_refresh_rates": "Beneficia di aggiornamenti più rapidi dei tassi di cambio."
     },
     "label": {
       "available_products": "Prodotti disponibili",
@@ -539,7 +553,9 @@ static const Map<String,dynamic> fr = {
       },
       "unlimited": {
         "pdf": "Profitez de la génération de PDF illimitée."
-      }
+      },
+      "auto_refresh_results": "Profitez de l'avantage des mises à jour automatiques des résultats.",
+      "quicker_refresh_rates": "Bénéficiez de mises à jour plus rapides des taux de change."
     },
     "label": {
       "available_products": "Produits disponibles",
@@ -609,7 +625,9 @@ static const Map<String,dynamic> es = {
       },
       "unlimited": {
         "pdf": "Disfruta de la generación ilimitada de PDF."
-      }
+      },
+      "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
+      "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio."
     },
     "label": {
       "available_products": "Productos disponibles",

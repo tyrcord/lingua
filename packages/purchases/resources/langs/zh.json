@@ -36,7 +36,9 @@
       },
       "unlimited": {
         "pdf": "体验无限的PDF生成。"
-      }
+      },
+      "auto_refresh_results": "利用自动结果更新的优势。",
+      "quicker_refresh_rates": "享受更快的汇率更新速度。"
     },
     "label": {
       "available_products": "可用产品",

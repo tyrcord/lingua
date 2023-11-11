@@ -36,7 +36,9 @@
       },
       "unlimited": {
         "pdf": "Esperienza di generazione PDF illimitata."
-      }
+      },
+      "auto_refresh_results": "Approfitta del vantaggio degli aggiornamenti automatici dei risultati.",
+      "quicker_refresh_rates": "Beneficia di aggiornamenti più rapidi dei tassi di cambio."
     },
     "label": {
       "available_products": "Prodotti disponibili",
