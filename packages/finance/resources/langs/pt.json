@@ -241,6 +241,7 @@
       "initial_investment": "Investimento inicial",
       "interest_rate": "Taxa de juros",
       "involved_capital": "Capital envolvido",
+      "last_updated_on": "Taxas atualizadas pela última vez em",
       "leverage": "Alavancagem",
       "loss": "Perda",
       "loss_per_trade": "Perda por operação",
@@ -419,6 +420,9 @@
         "rate": "Taxa de IVA",
         "text": "IVA"
       }
+    },
+    "message": {
+      "last_updated_on": "Taxas atualizadas pela última vez em {date}"
     },
     "select": {
       "account_currency": "Selecione a moeda da sua conta",

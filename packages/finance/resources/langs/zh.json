@@ -241,6 +241,7 @@
       "initial_investment": "初始投资",
       "interest_rate": "利率",
       "involved_capital": "参与资本",
+      "last_updated_on": "最后更新的汇率",
       "leverage": "杠杆",
       "loss": "亏损",
       "loss_per_trade": "每笔交易亏损",
@@ -419,6 +420,9 @@
         "rate": "增值税率",
         "text": "增值税"
       }
+    },
+    "message": {
+      "last_updated_on": "{date}最后更新的汇率"
     },
     "select": {
       "account_currency": "选择您的账户货币",

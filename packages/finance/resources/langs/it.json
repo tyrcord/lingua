@@ -241,6 +241,7 @@
       "initial_investment": "Investimento iniziale",
       "interest_rate": "Tasso di interesse",
       "involved_capital": "Capitale coinvolto",
+      "last_updated_on": "Tassi aggiornati l'ultima volta il",
       "leverage": "Leverage",
       "loss": "Perdita",
       "loss_per_trade": "Perdita per operazione",
@@ -419,6 +420,9 @@
         "rate": "Tasso dell'IVA",
         "text": "IVA"
       }
+    },
+    "message": {
+      "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"
     },
     "select": {
       "account_currency": "Seleziona la valuta del tuo conto",

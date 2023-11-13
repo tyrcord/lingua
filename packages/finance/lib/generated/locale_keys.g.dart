@@ -137,6 +137,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_initial_investment = 'finance.label.initial_investment';
   static const finance_label_interest_rate = 'finance.label.interest_rate';
   static const finance_label_involved_capital = 'finance.label.involved_capital';
+  static const finance_label_last_updated_on = 'finance.label.last_updated_on';
   static const finance_label_leverage = 'finance.label.leverage';
   static const finance_label_loss = 'finance.label.loss';
   static const finance_label_loss_per_trade = 'finance.label.loss_per_trade';
@@ -263,6 +264,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_vat_amount = 'finance.label.vat.amount';
   static const finance_label_vat_rate = 'finance.label.vat.rate';
   static const finance_label_vat_text = 'finance.label.vat.text';
+  static const finance_message_last_updated_on = 'finance.message.last_updated_on';
   static const finance_select_account_currency = 'finance.select.account_currency';
   static const finance_select_currency = 'finance.select.currency';
   static const finance_select_interest_rate = 'finance.select.interest_rate';

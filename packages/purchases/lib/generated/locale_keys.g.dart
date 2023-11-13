@@ -27,10 +27,10 @@ abstract class PurchasesLocaleKeys {
   static const purchases_error_unsupported_platform = 'purchases.error.unsupported_platform';
   static const purchases_feature_auto_refresh_exchange_rates = 'purchases.feature.auto.refresh_exchange_rates';
   static const purchases_feature_auto_refresh_stock_prices = 'purchases.feature.auto.refresh_stock_prices';
-  static const purchases_feature_no_ads_text = 'purchases.feature.no_ads.text';
-  static const purchases_feature_unlimited_pdf = 'purchases.feature.unlimited.pdf';
   static const purchases_feature_auto_refresh_results = 'purchases.feature.auto_refresh_results';
+  static const purchases_feature_no_ads_text = 'purchases.feature.no_ads.text';
   static const purchases_feature_quicker_refresh_rates = 'purchases.feature.quicker_refresh_rates';
+  static const purchases_feature_unlimited_pdf = 'purchases.feature.unlimited.pdf';
   static const purchases_label_available_products = 'purchases.label.available_products';
   static const purchases_label_free_version = 'purchases.label.free_version';
   static const purchases_label_go_premium = 'purchases.label.go_premium';

@@ -31,14 +31,14 @@
         "refresh_exchange_rates": "為替レートを自動更新",
         "refresh_stock_prices": "株価を自動更新"
       },
+      "auto_refresh_results": "自動結果更新の利点を活用してください。",
       "no_ads": {
         "text": "広告なしでお楽しみください。"
       },
+      "quicker_refresh_rates": "為替レートのより速い更新を利用してください。",
       "unlimited": {
         "pdf": "無制限のPDF生成を体験しましょう。"
-      },
-      "auto_refresh_results": "自動結果更新の利点を活用してください。",
-      "quicker_refresh_rates": "為替レートのより速い更新を利用してください。"
+      }
     },
     "label": {
       "available_products": "利用可能な商品",

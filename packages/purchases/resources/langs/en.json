@@ -31,14 +31,14 @@
         "refresh_exchange_rates": "Auto-refresh exchange rates",
         "refresh_stock_prices": "Auto-refresh stock prices"
       },
+      "auto_refresh_results": "Gain the advantage of automatic result updates.",
       "no_ads": {
         "text": "Enjoy an ad-free experience."
       },
+      "quicker_refresh_rates": "Benefit from quicker updates of exchange rates.",
       "unlimited": {
         "pdf": "Experience limitless PDF generation."
-      },
-      "auto_refresh_results": "Gain the advantage of automatic result updates.",
-      "quicker_refresh_rates": "Benefit from quicker updates of exchange rates."
+      }
     },
     "label": {
       "available_products": "Available Products",

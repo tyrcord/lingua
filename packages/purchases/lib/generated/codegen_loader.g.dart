@@ -44,14 +44,14 @@ class PurchasesCodegenLoader extends AssetLoader {
         "refresh_exchange_rates": "自动刷新汇率",
         "refresh_stock_prices": "自动刷新股票价格"
       },
+      "auto_refresh_results": "利用自动结果更新的优势。",
       "no_ads": {
         "text": "享受无广告体验。"
       },
+      "quicker_refresh_rates": "享受更快的汇率更新速度。",
       "unlimited": {
         "pdf": "体验无限的PDF生成。"
-      },
-      "auto_refresh_results": "利用自动结果更新的优势。",
-      "quicker_refresh_rates": "享受更快的汇率更新速度。"
+      }
     },
     "label": {
       "available_products": "可用产品",
@@ -116,14 +116,14 @@ static const Map<String,dynamic> ja = {
         "refresh_exchange_rates": "為替レートを自動更新",
         "refresh_stock_prices": "株価を自動更新"
       },
+      "auto_refresh_results": "自動結果更新の利点を活用してください。",
       "no_ads": {
         "text": "広告なしでお楽しみください。"
       },
+      "quicker_refresh_rates": "為替レートのより速い更新を利用してください。",
       "unlimited": {
         "pdf": "無制限のPDF生成を体験しましょう。"
-      },
-      "auto_refresh_results": "自動結果更新の利点を活用してください。",
-      "quicker_refresh_rates": "為替レートのより速い更新を利用してください。"
+      }
     },
     "label": {
       "available_products": "利用可能な商品",
@@ -188,14 +188,14 @@ static const Map<String,dynamic> de = {
         "refresh_exchange_rates": "Automatisches Aktualisieren der Wechselkurse",
         "refresh_stock_prices": "Automatisches Aktualisieren der Aktienkurse"
       },
+      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
       "no_ads": {
         "text": "Genießen Sie eine werbefreie Erfahrung."
       },
+      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse.",
       "unlimited": {
         "pdf": "Erleben Sie grenzenlose PDF-Erstellung."
-      },
-      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
-      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse."
+      }
     },
     "label": {
       "available_products": "Verfügbare Produkte",
@@ -260,14 +260,14 @@ static const Map<String,dynamic> ru = {
         "refresh_exchange_rates": "Автоматическое обновление обменных курсов",
         "refresh_stock_prices": "Автоматическое обновление цен на акции"
       },
+      "auto_refresh_results": "Используйте преимущества автоматического обновления результатов.",
       "no_ads": {
         "text": "Наслаждайтесь безрекламным опытом."
       },
+      "quicker_refresh_rates": "Пользуйтесь преимуществом более быстрого обновления валютных курсов.",
       "unlimited": {
         "pdf": "Получите неограниченную генерацию PDF."
-      },
-      "auto_refresh_results": "Используйте преимущества автоматического обновления результатов.",
-      "quicker_refresh_rates": "Пользуйтесь преимуществом более быстрого обновления валютных курсов."
+      }
     },
     "label": {
       "available_products": "Доступные продукты",
@@ -332,14 +332,14 @@ static const Map<String,dynamic> pt = {
         "refresh_exchange_rates": "Atualização automática das taxas de câmbio",
         "refresh_stock_prices": "Atualização automática dos preços das ações"
       },
+      "auto_refresh_results": "Aproveite a vantagem de atualizações automáticas dos resultados.",
       "no_ads": {
         "text": "Desfrute de uma experiência sem anúncios."
       },
+      "quicker_refresh_rates": "Beneficie de atualizações mais rápidas das taxas de câmbio.",
       "unlimited": {
         "pdf": "Experimente a geração ilimitada de PDF."
-      },
-      "auto_refresh_results": "Aproveite a vantagem de atualizações automáticas dos resultados.",
-      "quicker_refresh_rates": "Beneficie de atualizações mais rápidas das taxas de câmbio."
+      }
     },
     "label": {
       "available_products": "Produtos disponíveis",
@@ -404,14 +404,14 @@ static const Map<String,dynamic> en = {
         "refresh_exchange_rates": "Auto-refresh exchange rates",
         "refresh_stock_prices": "Auto-refresh stock prices"
       },
+      "auto_refresh_results": "Gain the advantage of automatic result updates.",
       "no_ads": {
         "text": "Enjoy an ad-free experience."
       },
+      "quicker_refresh_rates": "Benefit from quicker updates of exchange rates.",
       "unlimited": {
         "pdf": "Experience limitless PDF generation."
-      },
-      "auto_refresh_results": "Gain the advantage of automatic result updates.",
-      "quicker_refresh_rates": "Benefit from quicker updates of exchange rates."
+      }
     },
     "label": {
       "available_products": "Available Products",
@@ -476,14 +476,14 @@ static const Map<String,dynamic> it = {
         "refresh_exchange_rates": "Aggiorna automaticamente i tassi di cambio",
         "refresh_stock_prices": "Aggiorna automaticamente i prezzi delle azioni"
       },
+      "auto_refresh_results": "Approfitta del vantaggio degli aggiornamenti automatici dei risultati.",
       "no_ads": {
         "text": "Goditi un'esperienza senza pubblicità."
       },
+      "quicker_refresh_rates": "Beneficia di aggiornamenti più rapidi dei tassi di cambio.",
       "unlimited": {
         "pdf": "Esperienza di generazione PDF illimitata."
-      },
-      "auto_refresh_results": "Approfitta del vantaggio degli aggiornamenti automatici dei risultati.",
-      "quicker_refresh_rates": "Beneficia di aggiornamenti più rapidi dei tassi di cambio."
+      }
     },
     "label": {
       "available_products": "Prodotti disponibili",
@@ -548,14 +548,14 @@ static const Map<String,dynamic> fr = {
         "refresh_exchange_rates": "Actualisation automatique des taux de change",
         "refresh_stock_prices": "Actualisation automatique des prix des actions"
       },
+      "auto_refresh_results": "Profitez de l'avantage des mises à jour automatiques des résultats.",
       "no_ads": {
         "text": "Profitez d'une expérience sans publicité."
       },
+      "quicker_refresh_rates": "Bénéficiez de mises à jour plus rapides des taux de change.",
       "unlimited": {
         "pdf": "Profitez de la génération de PDF illimitée."
-      },
-      "auto_refresh_results": "Profitez de l'avantage des mises à jour automatiques des résultats.",
-      "quicker_refresh_rates": "Bénéficiez de mises à jour plus rapides des taux de change."
+      }
     },
     "label": {
       "available_products": "Produits disponibles",
@@ -620,14 +620,14 @@ static const Map<String,dynamic> es = {
         "refresh_exchange_rates": "Actualizar automáticamente los tipos de cambio",
         "refresh_stock_prices": "Actualizar automáticamente los precios de las acciones"
       },
+      "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
       "no_ads": {
         "text": "Disfruta de una experiencia sin anuncios."
       },
+      "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio.",
       "unlimited": {
         "pdf": "Disfruta de la generación ilimitada de PDF."
-      },
-      "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
-      "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio."
+      }
     },
     "label": {
       "available_products": "Productos disponibles",

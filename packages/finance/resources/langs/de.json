@@ -241,6 +241,7 @@
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
       "involved_capital": "Investiertes Kapital",
+      "last_updated_on": "Kurse zuletzt aktualisiert am",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",
       "loss_per_trade": "Verlust pro Trade",
@@ -419,6 +420,9 @@
         "rate": "MwSt Satz",
         "text": "MwSt"
       }
+    },
+    "message": {
+      "last_updated_on": "Rates last updated on {date}"
     },
     "select": {
       "account_currency": "Wählen Sie Ihre Kontowährung",

@@ -254,6 +254,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "initial_investment": "初始投资",
       "interest_rate": "利率",
       "involved_capital": "参与资本",
+      "last_updated_on": "最后更新的汇率",
       "leverage": "杠杆",
       "loss": "亏损",
       "loss_per_trade": "每笔交易亏损",
@@ -432,6 +433,9 @@ class FinanceCodegenLoader extends AssetLoader {
         "rate": "增值税率",
         "text": "增值税"
       }
+    },
+    "message": {
+      "last_updated_on": "{date}最后更新的汇率"
     },
     "select": {
       "account_currency": "选择您的账户货币",
@@ -689,6 +693,7 @@ static const Map<String,dynamic> ja = {
       "initial_investment": "初期投資",
       "interest_rate": "利率",
       "involved_capital": "関与する資本",
+      "last_updated_on": "最後に更新されたレート",
       "leverage": "レバレッジ",
       "loss": "損失",
       "loss_per_trade": "トレードごとの損失",
@@ -867,6 +872,9 @@ static const Map<String,dynamic> ja = {
         "rate": "VATのレート",
         "text": "VAT"
       }
+    },
+    "message": {
+      "last_updated_on": "{date}に最後に更新されたレート"
     },
     "select": {
       "account_currency": "口座の通貨を選択してください",
@@ -1124,6 +1132,7 @@ static const Map<String,dynamic> de = {
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
       "involved_capital": "Investiertes Kapital",
+      "last_updated_on": "Kurse zuletzt aktualisiert am",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",
       "loss_per_trade": "Verlust pro Trade",
@@ -1302,6 +1311,9 @@ static const Map<String,dynamic> de = {
         "rate": "MwSt Satz",
         "text": "MwSt"
       }
+    },
+    "message": {
+      "last_updated_on": "Rates last updated on {date}"
     },
     "select": {
       "account_currency": "Wählen Sie Ihre Kontowährung",
@@ -1559,6 +1571,7 @@ static const Map<String,dynamic> ru = {
       "initial_investment": "Начальные инвестиции",
       "interest_rate": "Процентная ставка",
       "involved_capital": "Вовлеченный капитал",
+      "last_updated_on": "Курсы последний раз обновлялись",
       "leverage": "Плечо",
       "loss": "Убыток",
       "loss_per_trade": "Убыток с каждой сделки",
@@ -1737,6 +1750,9 @@ static const Map<String,dynamic> ru = {
         "rate": "Ставка НДС",
         "text": "НДС"
       }
+    },
+    "message": {
+      "last_updated_on": "Курсы последний раз обновлялись {date}"
     },
     "select": {
       "account_currency": "Выберите валюту вашего счета",
@@ -1994,6 +2010,7 @@ static const Map<String,dynamic> pt = {
       "initial_investment": "Investimento inicial",
       "interest_rate": "Taxa de juros",
       "involved_capital": "Capital envolvido",
+      "last_updated_on": "Taxas atualizadas pela última vez em",
       "leverage": "Alavancagem",
       "loss": "Perda",
       "loss_per_trade": "Perda por operação",
@@ -2172,6 +2189,9 @@ static const Map<String,dynamic> pt = {
         "rate": "Taxa de IVA",
         "text": "IVA"
       }
+    },
+    "message": {
+      "last_updated_on": "Taxas atualizadas pela última vez em {date}"
     },
     "select": {
       "account_currency": "Selecione a moeda da sua conta",
@@ -2429,6 +2449,7 @@ static const Map<String,dynamic> en = {
       "initial_investment": "Initial Investment",
       "interest_rate": "Interest Rate",
       "involved_capital": "Involved Capital",
+      "last_updated_on": "Rates last updated on",
       "leverage": "Leverage",
       "loss": "Loss",
       "loss_per_trade": "Loss per Trade",
@@ -2607,6 +2628,9 @@ static const Map<String,dynamic> en = {
         "rate": "VAT Rate",
         "text": "VAT"
       }
+    },
+    "message": {
+      "last_updated_on": "Rates last updated on {date}"
     },
     "select": {
       "account_currency": "Select your account currency",
@@ -2864,6 +2888,7 @@ static const Map<String,dynamic> it = {
       "initial_investment": "Investimento iniziale",
       "interest_rate": "Tasso di interesse",
       "involved_capital": "Capitale coinvolto",
+      "last_updated_on": "Tassi aggiornati l'ultima volta il",
       "leverage": "Leverage",
       "loss": "Perdita",
       "loss_per_trade": "Perdita per operazione",
@@ -3042,6 +3067,9 @@ static const Map<String,dynamic> it = {
         "rate": "Tasso dell'IVA",
         "text": "IVA"
       }
+    },
+    "message": {
+      "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"
     },
     "select": {
       "account_currency": "Seleziona la valuta del tuo conto",
@@ -3299,6 +3327,7 @@ static const Map<String,dynamic> fr = {
       "initial_investment": "Investissement initial",
       "interest_rate": "Taux d'intérêt",
       "involved_capital": "Capital engagé",
+      "last_updated_on": "Taux mis à jour le",
       "leverage": "Effet de levier",
       "loss": "Perte",
       "loss_per_trade": "Perte par transaction",
@@ -3477,6 +3506,9 @@ static const Map<String,dynamic> fr = {
         "rate": "Taux de TVA",
         "text": "TVA"
       }
+    },
+    "message": {
+      "last_updated_on": "Taux mis à jour le {date}"
     },
     "select": {
       "account_currency": "Sélectionnez la devise de votre compte",
@@ -3734,6 +3766,7 @@ static const Map<String,dynamic> es = {
       "initial_investment": "Inversión inicial",
       "interest_rate": "Tasa de interés",
       "involved_capital": "Capital involucrado",
+      "last_updated_on": "Tasas actualizadas por última vez el",
       "leverage": "Apalancamiento",
       "loss": "Pérdida",
       "loss_per_trade": "Pérdida por operación",
@@ -3912,6 +3945,9 @@ static const Map<String,dynamic> es = {
         "rate": "Tasa de IVA",
         "text": "IVA"
       }
+    },
+    "message": {
+      "last_updated_on": "Tasas actualizadas por última vez el {date}"
     },
     "select": {
       "account_currency": "Seleccione la moneda de su cuenta",

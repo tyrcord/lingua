@@ -241,6 +241,7 @@
       "initial_investment": "Initial Investment",
       "interest_rate": "Interest Rate",
       "involved_capital": "Involved Capital",
+      "last_updated_on": "Rates last updated on",
       "leverage": "Leverage",
       "loss": "Loss",
       "loss_per_trade": "Loss per Trade",
@@ -419,6 +420,9 @@
         "rate": "VAT Rate",
         "text": "VAT"
       }
+    },
+    "message": {
+      "last_updated_on": "Rates last updated on {date}"
     },
     "select": {
       "account_currency": "Select your account currency",

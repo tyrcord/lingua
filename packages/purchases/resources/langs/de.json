@@ -31,14 +31,14 @@
         "refresh_exchange_rates": "Automatisches Aktualisieren der Wechselkurse",
         "refresh_stock_prices": "Automatisches Aktualisieren der Aktienkurse"
       },
+      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
       "no_ads": {
         "text": "Genießen Sie eine werbefreie Erfahrung."
       },
+      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse.",
       "unlimited": {
         "pdf": "Erleben Sie grenzenlose PDF-Erstellung."
-      },
-      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
-      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse."
+      }
     },
     "label": {
       "available_products": "Verfügbare Produkte",

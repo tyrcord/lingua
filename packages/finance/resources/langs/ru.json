@@ -241,6 +241,7 @@
       "initial_investment": "Начальные инвестиции",
       "interest_rate": "Процентная ставка",
       "involved_capital": "Вовлеченный капитал",
+      "last_updated_on": "Курсы последний раз обновлялись",
       "leverage": "Плечо",
       "loss": "Убыток",
       "loss_per_trade": "Убыток с каждой сделки",
@@ -419,6 +420,9 @@
         "rate": "Ставка НДС",
         "text": "НДС"
       }
+    },
+    "message": {
+      "last_updated_on": "Курсы последний раз обновлялись {date}"
     },
     "select": {
       "account_currency": "Выберите валюту вашего счета",

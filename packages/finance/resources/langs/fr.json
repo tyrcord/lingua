@@ -241,6 +241,7 @@
       "initial_investment": "Investissement initial",
       "interest_rate": "Taux d'intérêt",
       "involved_capital": "Capital engagé",
+      "last_updated_on": "Taux mis à jour le",
       "leverage": "Effet de levier",
       "loss": "Perte",
       "loss_per_trade": "Perte par transaction",
@@ -419,6 +420,9 @@
         "rate": "Taux de TVA",
         "text": "TVA"
       }
+    },
+    "message": {
+      "last_updated_on": "Taux mis à jour le {date}"
     },
     "select": {
       "account_currency": "Sélectionnez la devise de votre compte",

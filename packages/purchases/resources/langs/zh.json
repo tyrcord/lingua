@@ -31,14 +31,14 @@
         "refresh_exchange_rates": "自动刷新汇率",
         "refresh_stock_prices": "自动刷新股票价格"
       },
+      "auto_refresh_results": "利用自动结果更新的优势。",
       "no_ads": {
         "text": "享受无广告体验。"
       },
+      "quicker_refresh_rates": "享受更快的汇率更新速度。",
       "unlimited": {
         "pdf": "体验无限的PDF生成。"
-      },
-      "auto_refresh_results": "利用自动结果更新的优势。",
-      "quicker_refresh_rates": "享受更快的汇率更新速度。"
+      }
     },
     "label": {
       "available_products": "可用产品",

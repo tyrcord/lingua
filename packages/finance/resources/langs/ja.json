@@ -241,6 +241,7 @@
       "initial_investment": "初期投資",
       "interest_rate": "利率",
       "involved_capital": "関与する資本",
+      "last_updated_on": "最後に更新されたレート",
       "leverage": "レバレッジ",
       "loss": "損失",
       "loss_per_trade": "トレードごとの損失",
@@ -419,6 +420,9 @@
         "rate": "VATのレート",
         "text": "VAT"
       }
+    },
+    "message": {
+      "last_updated_on": "{date}に最後に更新されたレート"
     },
     "select": {
       "account_currency": "口座の通貨を選択してください",

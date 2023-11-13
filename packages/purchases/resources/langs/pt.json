@@ -31,14 +31,14 @@
         "refresh_exchange_rates": "Atualização automática das taxas de câmbio",
         "refresh_stock_prices": "Atualização automática dos preços das ações"
       },
+      "auto_refresh_results": "Aproveite a vantagem de atualizações automáticas dos resultados.",
       "no_ads": {
         "text": "Desfrute de uma experiência sem anúncios."
       },
+      "quicker_refresh_rates": "Beneficie de atualizações mais rápidas das taxas de câmbio.",
       "unlimited": {
         "pdf": "Experimente a geração ilimitada de PDF."
-      },
-      "auto_refresh_results": "Aproveite a vantagem de atualizações automáticas dos resultados.",
-      "quicker_refresh_rates": "Beneficie de atualizações mais rápidas das taxas de câmbio."
+      }
     },
     "label": {
       "available_products": "Produtos disponíveis",
