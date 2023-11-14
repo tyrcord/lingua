@@ -183,7 +183,7 @@ static const Map<String,dynamic> ru = {
       "mmbtu": "MMBtu",
       "ounce": "унция",
       "pound": "фунт",
-      "unit": "единица"
+      "unit": "Единица"
     }
   }
 };
@@ -227,7 +227,7 @@ static const Map<String,dynamic> pt = {
       "mmbtu": "MMBtu",
       "ounce": "oz",
       "pound": "lb",
-      "unit": "unidade"
+      "unit": "Unidade"
     }
   }
 };
@@ -271,7 +271,7 @@ static const Map<String,dynamic> en = {
       "mmbtu": "MMBtu",
       "ounce": "oz",
       "pound": "lb",
-      "unit": "unit"
+      "unit": "Unit"
     }
   }
 };
@@ -315,7 +315,7 @@ static const Map<String,dynamic> it = {
       "mmbtu": "MMBtu",
       "ounce": "oz",
       "pound": "lb",
-      "unit": "unità"
+      "unit": "Unità"
     }
   }
 };
@@ -359,7 +359,7 @@ static const Map<String,dynamic> fr = {
       "mmbtu": "MMBtu",
       "ounce": "oz",
       "pound": "lb",
-      "unit": "unité"
+      "unit": "Unité"
     }
   }
 };
@@ -403,7 +403,7 @@ static const Map<String,dynamic> es = {
       "mmbtu": "MMBtu",
       "ounce": "oz",
       "pound": "lb",
-      "unit": "unidad"
+      "unit": "Unidad"
     }
   }
 };
