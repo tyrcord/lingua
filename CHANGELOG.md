@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-11-14
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_finance` - `v0.0.22`](#lingua_finance---v0022)
+ - [`lingua_purchases` - `v0.0.17`](#lingua_purchases---v0017)
+ - [`lingua_units` - `v0.0.6`](#lingua_units---v006)
+
+---
+
+#### `lingua_finance` - `v0.0.22`
+
+ - **FEAT**: update localization.
+
+#### `lingua_purchases` - `v0.0.17`
+
+ - **FEAT**: update localization.
+
+#### `lingua_units` - `v0.0.6`
+
+ - **FEAT**: add unit to LinguaUnits.
+
+
 ## 2023-11-11
 
 ### Changes

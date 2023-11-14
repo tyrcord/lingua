@@ -1,3 +1,7 @@
+## 0.0.6
+
+ - **FEAT**: add unit to LinguaUnits.
+
 ## 0.0.5
 
  - **FEAT**: add localizeUnitSize helper.
