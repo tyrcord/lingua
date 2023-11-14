@@ -3,4 +3,5 @@ enum LinguaUnits {
   barrel,
   ounce,
   mmbtu,
+  unit,
 }
