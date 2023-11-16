@@ -3,6 +3,109 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-11-16
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_ad` - `v0.0.13`](#lingua_ad---v0013)
+ - [`lingua_apps` - `v0.0.9`](#lingua_apps---v009)
+ - [`lingua_calculator` - `v0.0.5`](#lingua_calculator---v005)
+ - [`lingua_core` - `v0.0.32`](#lingua_core---v0032)
+ - [`lingua_countries` - `v0.0.5`](#lingua_countries---v005)
+ - [`lingua_finance` - `v0.0.23`](#lingua_finance---v0023)
+ - [`lingua_finance_dividend` - `v0.0.5`](#lingua_finance_dividend---v005)
+ - [`lingua_finance_forex` - `v0.0.6`](#lingua_finance_forex---v006)
+ - [`lingua_finance_instrument` - `v0.0.6`](#lingua_finance_instrument---v006)
+ - [`lingua_finance_stock` - `v0.0.8`](#lingua_finance_stock---v008)
+ - [`lingua_help` - `v0.0.8`](#lingua_help---v008)
+ - [`lingua_languages` - `v0.0.7`](#lingua_languages---v007)
+ - [`lingua_number` - `v0.0.10`](#lingua_number---v0010)
+ - [`lingua_onboarding` - `v0.0.16`](#lingua_onboarding---v0016)
+ - [`lingua_purchases` - `v0.0.18`](#lingua_purchases---v0018)
+ - [`lingua_settings` - `v0.0.13`](#lingua_settings---v0013)
+ - [`lingua_units` - `v0.0.7`](#lingua_units---v007)
+
+---
+
+#### `lingua_ad` - `v0.0.13`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_apps` - `v0.0.9`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_calculator` - `v0.0.5`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_core` - `v0.0.32`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_countries` - `v0.0.5`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_finance` - `v0.0.23`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_finance_dividend` - `v0.0.5`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_finance_forex` - `v0.0.6`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_finance_instrument` - `v0.0.6`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_finance_stock` - `v0.0.8`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_help` - `v0.0.8`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_languages` - `v0.0.7`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_number` - `v0.0.10`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_onboarding` - `v0.0.16`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_purchases` - `v0.0.18`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_settings` - `v0.0.13`
+
+ - **FEAT**: update dependencies & env.
+
+#### `lingua_units` - `v0.0.7`
+
+ - **FIX**: missing keys.
+ - **FIX**: localization.
+ - **FEAT**: update dependencies & env.
+
+
 ## 2023-11-14
 
 ### Changes

@@ -1,3 +1,9 @@
+## 0.0.7
+
+ - **FIX**: missing keys.
+ - **FIX**: localization.
+ - **FEAT**: update dependencies & env.
+
 ## 0.0.6
 
  - **FEAT**: add unit to LinguaUnits.

@@ -1,3 +1,7 @@
+## 0.0.16
+
+ - **FEAT**: update dependencies & env.
+
 ## 0.0.15
 
  - **FEAT**: Ignores keys defining nested object.

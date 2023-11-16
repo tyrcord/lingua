@@ -1,6 +1,6 @@
 name: lingua_finance_forex
 description: Library for internal finance forex localization.
-version: 0.0.5
+version: 0.0.6
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance_forex
 
 environment:
@@ -17,4 +17,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.1
-  lingua_core: ^0.0.31
+  lingua_core: ^0.0.32

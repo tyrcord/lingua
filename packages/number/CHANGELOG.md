@@ -1,3 +1,7 @@
+## 0.0.10
+
+ - **FEAT**: update dependencies & env.
+
 ## 0.0.9
 
  - **FEAT**: add toOrdinal helper.
