@@ -41,7 +41,6 @@ linter:
     - unnecessary_new
     - unrelated_type_equality_checks
     - valid_regexps
-    - lines_longer_than_80_chars
     - use_super_parameters
     - use_to_and_as_if_applicable
     - use_setters_to_change_properties

@@ -4,8 +4,8 @@ version: 0.0.6
 repository: https://github.com/tyrcord/lingua/tree/main/packages/units
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
-  flutter: ">=3.10.0"
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
 
 dependencies:
   flutter:
@@ -14,10 +14,10 @@ dependencies:
   easy_localization: ^3.0.3
 
   # T
-  t_helpers: ^0.0.38
+  t_helpers: ^0.0.42
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^3.0.1
   lingua_core: ^0.0.31

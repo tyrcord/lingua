@@ -1,6 +1,8 @@
 // Source:
 // https://github.com/aissat/easy_localization/blob/develop/bin/generate.dart
 
+// ignore_for_file: avoid_slow_async_io
+
 import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
@@ -39,60 +41,52 @@ void _printHelperDisplay() {
 
 GenerateOptions _generateOption(List<String> args) {
   final generateOptions = GenerateOptions();
-  final parser = _generateArgParser(generateOptions);
-  parser.parse(args);
+  _generateArgParser(generateOptions).parse(args);
 
   return generateOptions;
 }
 
 ArgParser _generateArgParser(GenerateOptions? generateOptions) {
-  final parser = ArgParser();
-
-  parser.addOption('source-dir',
-      abbr: 'S',
-      defaultsTo: 'resources/langs',
-      callback: (String? x) => generateOptions!.sourceDir = x,
-      help: 'Folder containing localization files');
-
-  parser.addOption('source-file',
-      abbr: 's',
-      callback: (String? x) => generateOptions!.sourceFile = x,
-      help: 'File to use for localization');
-
-  parser.addOption('output-dir',
-      abbr: 'O',
-      defaultsTo: 'lib/generated',
-      callback: (String? x) => generateOptions!.outputDir = x,
-      help: 'Output folder stores for the generated file');
-
-  parser.addOption('output-file',
-      abbr: 'o',
-      defaultsTo: 'codegen_loader.g.dart',
-      callback: (String? x) => generateOptions!.outputFile = x,
-      help: 'Output file name');
-
-  parser.addOption('format',
-      abbr: 'f',
-      defaultsTo: 'json',
-      callback: (String? x) => generateOptions!.format = x,
-      help: 'Support json or keys formats',
-      allowed: ['json', 'keys']);
-
-  parser.addFlag(
-    'skip-unnecessary-keys',
-    abbr: 'u',
-    defaultsTo: false,
-    callback: (bool? x) => generateOptions!.skipUnnecessaryKeys = x,
-    help: 'If true - Skip unnecessary keys of nested objects.',
-  );
-
-  parser.addOption(
-    'prefix',
-    abbr: 'p',
-    defaultsTo: '',
-    callback: (String? x) => generateOptions!.prefix = x,
-    help: 'Prefix for class names',
-  );
+  final parser = ArgParser()
+    ..addOption('source-dir',
+        abbr: 'S',
+        defaultsTo: 'resources/langs',
+        callback: (String? x) => generateOptions!.sourceDir = x,
+        help: 'Folder containing localization files')
+    ..addOption('source-file',
+        abbr: 's',
+        callback: (String? x) => generateOptions!.sourceFile = x,
+        help: 'File to use for localization')
+    ..addOption('output-dir',
+        abbr: 'O',
+        defaultsTo: 'lib/generated',
+        callback: (String? x) => generateOptions!.outputDir = x,
+        help: 'Output folder stores for the generated file')
+    ..addOption('output-file',
+        abbr: 'o',
+        defaultsTo: 'codegen_loader.g.dart',
+        callback: (String? x) => generateOptions!.outputFile = x,
+        help: 'Output file name')
+    ..addOption('format',
+        abbr: 'f',
+        defaultsTo: 'json',
+        callback: (String? x) => generateOptions!.format = x,
+        help: 'Support json or keys formats',
+        allowed: ['json', 'keys'])
+    ..addFlag(
+      'skip-unnecessary-keys',
+      abbr: 'u',
+      defaultsTo: false,
+      callback: (bool? x) => generateOptions!.skipUnnecessaryKeys = x,
+      help: 'If true - Skip unnecessary keys of nested objects.',
+    )
+    ..addOption(
+      'prefix',
+      abbr: 'p',
+      defaultsTo: '',
+      callback: (String? x) => generateOptions!.prefix = x,
+      help: 'Prefix for class names',
+    );
 
   return parser;
 }
