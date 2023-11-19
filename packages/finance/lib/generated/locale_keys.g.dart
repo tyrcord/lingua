@@ -35,6 +35,10 @@ abstract class FinanceLocaleKeys {
   static const finance_help_expected_sale_units_instructions = 'finance.help.expected_sale_units.instructions';
   static const finance_help_financial_instrument_example = 'finance.help.financial_instrument.example';
   static const finance_help_financial_instrument_instructions = 'finance.help.financial_instrument.instructions';
+  static const finance_help_forex_entry_price_example = 'finance.help.forex_entry_price.example';
+  static const finance_help_forex_entry_price_instructions = 'finance.help.forex_entry_price.instructions';
+  static const finance_help_forex_stop_loss_price_example = 'finance.help.forex_stop_loss_price.example';
+  static const finance_help_forex_stop_loss_price_instructions = 'finance.help.forex_stop_loss_price.instructions';
   static const finance_help_operating_expenses_example = 'finance.help.operating_expenses.example';
   static const finance_help_operating_expenses_instructions = 'finance.help.operating_expenses.instructions';
   static const finance_help_position_size_example = 'finance.help.position_size.example';
@@ -51,6 +55,8 @@ abstract class FinanceLocaleKeys {
   static const finance_help_selling_price_instructions = 'finance.help.selling_price.instructions';
   static const finance_help_slippage_example = 'finance.help.slippage.example';
   static const finance_help_slippage_text = 'finance.help.slippage.text';
+  static const finance_help_stop_loss_pips_example = 'finance.help.stop_loss_pips.example';
+  static const finance_help_stop_loss_pips_instructions = 'finance.help.stop_loss_pips.instructions';
   static const finance_help_stop_loss_price_example = 'finance.help.stop_loss_price.example';
   static const finance_help_stop_loss_price_text = 'finance.help.stop_loss_price.text';
   static const finance_help_tax_rate_example = 'finance.help.tax_rate.example';
