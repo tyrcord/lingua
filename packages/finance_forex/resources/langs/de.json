@@ -8,6 +8,10 @@
       "pip_decimal_places": {
         "example": "Wenn Sie beispielsweise Bitcoin-CFDs handeln und Ihr Broker Pip-Bewegungen bis zur dritten Stelle nach dem Komma angibt, würden Sie '3' eingeben.",
         "instructions": "Geben Sie die Anzahl der Dezimalstellen ein, die Ihr Broker für den Pip-Wert Ihres gewählten Handelsinstruments verwendet. Broker können in der dezimalen Genauigkeit variieren, die verwendet wird, um Preise für CFDs, Kryptowährungen und andere exotische Instrumente zu zitieren, was sich direkt auf Ihre Handelsberechnungen auswirkt. Überprüfen Sie bei Ihrem Broker, wenn Sie sich über das von ihnen verwendete Präzisionsniveau unsicher sind."
+      },
+      "position_size": {
+        "example": "Zum Beispiel, wenn Sie ein Standardlos des Währungspaares EUR/USD handeln möchten, sollten Sie im Dropdown-Menü die Option 'Standardlos' auswählen und '1' in das Eingabefeld eingeben.",
+        "instructions": "Geben Sie die Menge des Finanzinstruments, das Sie handeln, in Einheiten, Standardlosen, Minilosen oder Mikrolots ein. Verwenden Sie das Dropdown-Menü neben dem Eingabefeld, um die passende Positionsgröße für Ihren Handel auszuwählen."
       }
     },
     "label": {

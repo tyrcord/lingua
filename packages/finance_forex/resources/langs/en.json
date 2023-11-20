@@ -8,6 +8,10 @@
       "pip_decimal_places": {
         "example": "For example, if you are trading Bitcoin CFDs and your broker specifies pip movements to the third digit after the decimal, you would enter '3'.",
         "instructions": "Enter the number of decimal places your broker uses for the pip value of your chosen trading instrument. Brokers may vary in the decimal accuracy used to quote prices for CFDs, cryptocurrencies, and other exotic instruments, directly affecting your trading calculations. Check with your broker if you are unsure of the precision level they use."
+      },
+      "position_size": {
+        "example": "For example, if you want to trade a standard lot of the EUR/USD currency pair, you would need to select the 'Standard Lot' option from the drop-down menu and enter '1' in the input field.",
+        "instructions": "Enter the quantity of the financial instrument you are trading using units, standard lots, mini lots, or micro lots. Use the drop-down menu next to the input field to select the appropriate position size for your trade."
       }
     },
     "label": {

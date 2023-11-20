@@ -5,6 +5,8 @@ abstract class FinanceForexLocaleKeys {
   static const forex_help_number_of_pips_instructions = 'forex.help.number_of_pips.instructions';
   static const forex_help_pip_decimal_places_example = 'forex.help.pip_decimal_places.example';
   static const forex_help_pip_decimal_places_instructions = 'forex.help.pip_decimal_places.instructions';
+  static const forex_help_position_size_example = 'forex.help.position_size.example';
+  static const forex_help_position_size_instructions = 'forex.help.position_size.instructions';
   static const forex_label_commodities = 'forex.label.commodities';
   static const forex_label_count_pips = 'forex.label.count.pips';
   static const forex_label_cryptos = 'forex.label.cryptos';

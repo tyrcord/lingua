@@ -91,7 +91,7 @@ class FinanceInstrumentCodegenLoader extends AssetLoader {
       "zimbabwe_dollar": "津巴布韦元"
     },
     "message": {
-      "search_instrument": "搜索金融工具"
+      "search_instrument": "搜索金融工具..."
     },
     "select": {
       "instrument": "请选择金融工具"
@@ -178,7 +178,7 @@ static const Map<String,dynamic> ja = {
       "zimbabwe_dollar": "ジンバブエドル"
     },
     "message": {
-      "search_instrument": "金融商品を検索してください"
+      "search_instrument": "金融商品を検索..."
     },
     "select": {
       "instrument": "金融商品を選択する"
@@ -265,7 +265,7 @@ static const Map<String,dynamic> de = {
       "zimbabwe_dollar": "Simbabwischer Dollar"
     },
     "message": {
-      "search_instrument": "Suchen Sie nach einem Finanzinstrument"
+      "search_instrument": "Suche nach einem Finanzinstrument..."
     },
     "select": {
       "instrument": "Finanzinstrument auswählen"
@@ -352,7 +352,7 @@ static const Map<String,dynamic> ru = {
       "zimbabwe_dollar": "Доллар Зимбабве"
     },
     "message": {
-      "search_instrument": "Поиск финансового инструмента"
+      "search_instrument": "Поиск финансового инструмента..."
     },
     "select": {
       "instrument": "Выберите финансовый инструмент"
@@ -439,7 +439,7 @@ static const Map<String,dynamic> pt = {
       "zimbabwe_dollar": "Dólar do Zimbábue"
     },
     "message": {
-      "search_instrument": "Procure por um instrumento financeiro"
+      "search_instrument": "Procurar um instrumento financeiro..."
     },
     "select": {
       "instrument": "Selecione um instrumento financeiro"
@@ -526,7 +526,7 @@ static const Map<String,dynamic> en = {
       "zimbabwe_dollar": "Zimbabwean dollar"
     },
     "message": {
-      "search_instrument": "Search for a financial instrument"
+      "search_instrument": "Search for a financial instrument..."
     },
     "select": {
       "instrument": "Select a financial instrument"
@@ -613,7 +613,7 @@ static const Map<String,dynamic> it = {
       "zimbabwe_dollar": "Dollaro dello Zimbabwe"
     },
     "message": {
-      "search_instrument": "Cerca uno strumento finanziario"
+      "search_instrument": "Cerca uno strumento finanziario..."
     },
     "select": {
       "instrument": "Seleziona uno strumento finanziario"
@@ -700,7 +700,7 @@ static const Map<String,dynamic> fr = {
       "zimbabwe_dollar": "Dollar zimbabwéen"
     },
     "message": {
-      "search_instrument": "Recherchez un instrument financier"
+      "search_instrument": "Rechercher un instrument financier..."
     },
     "select": {
       "instrument": "Sélectionnez un instrument financier"
@@ -787,7 +787,7 @@ static const Map<String,dynamic> es = {
       "zimbabwe_dollar": "Dólar zimbabuense"
     },
     "message": {
-      "search_instrument": "Busque un instrumento financiero"
+      "search_instrument": "Buscar un instrumento financiero..."
     },
     "select": {
       "instrument": "Seleccione un instrumento financiero"

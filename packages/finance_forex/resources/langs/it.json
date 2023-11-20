@@ -8,6 +8,10 @@
       "pip_decimal_places": {
         "example": "Ad esempio, se stai negoziando CFD Bitcoin e il tuo broker specifica i movimenti dei pips fino alla terza cifra dopo la virgola, inseriresti '3'.",
         "instructions": "Inserisci il numero di decimali che il tuo broker utilizza per il valore del pip del tuo strumento di trading scelto. I broker possono variare nella precisione decimale utilizzata per quotare i prezzi per CFD, criptovalute e altri strumenti esotici, influenzando direttamente i tuoi calcoli di trading. Verifica con il tuo broker se non sei sicuro del livello di precisione che utilizzano."
+      },
+      "position_size": {
+        "example": "Ad esempio, se si desidera scambiare un lotto standard della coppia di valute EUR/USD, sarà necessario selezionare l'opzione 'Lotto Standard' dal menu a discesa e inserire '1' nel campo di input.",
+        "instructions": "Inserisci la quantità dello strumento finanziario che stai scambiando utilizzando unità, lotti standard, mini lotti o micro lotti. Utilizza il menu a discesa accanto al campo di input per selezionare la dimensione della posizione adeguata per il tuo scambio."
       }
     },
     "label": {

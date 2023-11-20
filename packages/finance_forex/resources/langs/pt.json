@@ -8,6 +8,10 @@
       "pip_decimal_places": {
         "example": "Por exemplo, se estiver a negociar CFDs Bitcoin e a sua corretora especificar movimentos de pip até ao terceiro dígito após o ponto decimal, introduziria '3'.",
         "instructions": "Introduza o número de casas decimais que a sua corretora utiliza para o valor pip do seu instrumento de negociação escolhido. As corretoras podem variar na precisão decimal utilizada para cotar preços para CFDs, criptomoedas e outros instrumentos exóticos, afetando diretamente os seus cálculos de negociação. Verifique com a sua corretora se não tem certeza do nível de precisão que eles utilizam."
+      },
+      "position_size": {
+        "example": "Por exemplo, se quiser negociar um lote padrão do par de moedas EUR/USD, deverá selecionar a opção 'Lote Padrão' no menu suspenso e inserir '1' no campo de entrada.",
+        "instructions": "Introduza a quantidade do instrumento financeiro que está a negociar utilizando unidades, lotes padrão, mini lotes ou micro lotes. Utilize o menu suspenso ao lado do campo de entrada para selecionar o tamanho de posição apropriado para a sua negociação."
       }
     },
     "label": {

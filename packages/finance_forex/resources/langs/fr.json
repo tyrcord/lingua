@@ -8,6 +8,10 @@
       "pip_decimal_places": {
         "example": "Par exemple, si vous négociez des CFD Bitcoin et que votre courtier spécifie des mouvements de pip au troisième chiffre après la virgule, vous entreriez '3'.",
         "instructions": "Saisissez le nombre de décimales que votre courtier utilise pour la valeur pip de votre instrument de trading choisi. Les courtiers peuvent varier dans la précision décimale utilisée pour coter les prix pour les CFD, les cryptomonnaies et d'autres instruments exotiques, ce qui affecte directement vos calculs de trading. Vérifiez auprès de votre courtier si vous n'êtes pas sûr du niveau de précision qu'ils utilisent."
+      },
+      "position_size": {
+        "example": "Par exemple, si vous souhaitez négocier un lot standard de la paire de devises EUR/USD, vous devrez sélectionner l'option 'Lot Standard' dans le menu déroulant et entrer '1' dans le champ de saisie.",
+        "instructions": "Entrez la quantité de l'instrument financier que vous négociez en utilisant des unités, des lots standards, des mini lots ou des micro lots. Utilisez le menu déroulant à côté du champ de saisie pour sélectionner la taille de position appropriée pour votre échange."
       }
     },
     "label": {

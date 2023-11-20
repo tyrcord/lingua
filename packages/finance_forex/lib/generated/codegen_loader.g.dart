@@ -21,6 +21,10 @@ class FinanceForexCodegenLoader extends AssetLoader {
       "pip_decimal_places": {
         "example": "例如，如果您正在交易比特币CFD，而您的经纪人指定点数移动到小数点后的第三位，您会输入'3'。",
         "instructions": "输入您的经纪人用于您选择的交易工具的点值的小数位数。经纪人在报价CFD、加密货币和其他异国情调工具的价格时使用的小数精度可能有所不同，这将直接影响您的交易计算。如果您不确定他们使用的精度级别，请咨询您的经纪人。"
+      },
+      "position_size": {
+        "example": "例如，如果您想要交易欧元/美元货币对的一个标准手，您需要从下拉菜单中选择'标准手'选项，并在输入栏中输入'1'。",
+        "instructions": "输入您正在交易的金融工具的数量，使用单位、标准手、小手或微手。使用输入框旁边的下拉菜单选择适合您交易的头寸大小。"
       }
     },
     "label": {
@@ -81,6 +85,10 @@ static const Map<String,dynamic> ja = {
       "pip_decimal_places": {
         "example": "たとえば、ビットコインCFDを取引しており、ブローカーが小数点以下3桁までのピップスの動きを指定している場合は、「3」と入力します。",
         "instructions": "選択した取引楽器のピップ値に対してブローカーが使用する小数点以下の桁数を入力してください。ブローカーによっては、CFD、暗号通貨、その他のエキゾチックな楽器の価格を引用する際の小数点の精度が異なる場合があり、それによって取引計算に直接影響が出ます。使用する精度のレベルが不明な場合は、ブローカーに確認してください。"
+      },
+      "position_size": {
+        "example": "例えば、EUR/USDの通貨ペアのスタンダードロットを取引したい場合は、ドロップダウンメニューから「スタンダードロット」オプションを選択し、入力フィールドに「1」と入力します。",
+        "instructions": "取引している金融商品の数量を単位、スタンダードロット、ミニロット、またはマイクロロットで入力してください。取引に適したポジションサイズを選択するために、入力フィールドの隣にあるドロップダウンメニューを使用します。"
       }
     },
     "label": {
@@ -141,6 +149,10 @@ static const Map<String,dynamic> de = {
       "pip_decimal_places": {
         "example": "Wenn Sie beispielsweise Bitcoin-CFDs handeln und Ihr Broker Pip-Bewegungen bis zur dritten Stelle nach dem Komma angibt, würden Sie '3' eingeben.",
         "instructions": "Geben Sie die Anzahl der Dezimalstellen ein, die Ihr Broker für den Pip-Wert Ihres gewählten Handelsinstruments verwendet. Broker können in der dezimalen Genauigkeit variieren, die verwendet wird, um Preise für CFDs, Kryptowährungen und andere exotische Instrumente zu zitieren, was sich direkt auf Ihre Handelsberechnungen auswirkt. Überprüfen Sie bei Ihrem Broker, wenn Sie sich über das von ihnen verwendete Präzisionsniveau unsicher sind."
+      },
+      "position_size": {
+        "example": "Zum Beispiel, wenn Sie ein Standardlos des Währungspaares EUR/USD handeln möchten, sollten Sie im Dropdown-Menü die Option 'Standardlos' auswählen und '1' in das Eingabefeld eingeben.",
+        "instructions": "Geben Sie die Menge des Finanzinstruments, das Sie handeln, in Einheiten, Standardlosen, Minilosen oder Mikrolots ein. Verwenden Sie das Dropdown-Menü neben dem Eingabefeld, um die passende Positionsgröße für Ihren Handel auszuwählen."
       }
     },
     "label": {
@@ -201,6 +213,10 @@ static const Map<String,dynamic> ru = {
       "pip_decimal_places": {
         "example": "Например, если вы торгуете CFD на Биткоин и ваш брокер указывает движение пунктов до третьего знака после запятой, вы введете '3'.",
         "instructions": "Введите количество десятичных знаков, которое ваш брокер использует для значения пипса выбранного вами торгового инструмента. Брокеры могут различаться в точности десятичного представления цен на CFD, криптовалюты и другие экзотические инструменты, что напрямую влияет на ваши торговые расчеты. Если вы не уверены в уровне точности, который они используют, проверьте у своего брокера."
+      },
+      "position_size": {
+        "example": "Например, если вы хотите торговать стандартным лотом валютной пары EUR/USD, вам нужно выбрать опцию 'Стандартный лот' в выпадающем меню и ввести '1' в поле ввода.",
+        "instructions": "Введите количество финансового инструмента, которым вы торгуете, используя единицы, стандартные лоты, мини-лоты или микро-лоты. Используйте выпадающее меню рядом с полем ввода для выбора подходящего размера позиции для вашей торговли."
       }
     },
     "label": {
@@ -261,6 +277,10 @@ static const Map<String,dynamic> pt = {
       "pip_decimal_places": {
         "example": "Por exemplo, se estiver a negociar CFDs Bitcoin e a sua corretora especificar movimentos de pip até ao terceiro dígito após o ponto decimal, introduziria '3'.",
         "instructions": "Introduza o número de casas decimais que a sua corretora utiliza para o valor pip do seu instrumento de negociação escolhido. As corretoras podem variar na precisão decimal utilizada para cotar preços para CFDs, criptomoedas e outros instrumentos exóticos, afetando diretamente os seus cálculos de negociação. Verifique com a sua corretora se não tem certeza do nível de precisão que eles utilizam."
+      },
+      "position_size": {
+        "example": "Por exemplo, se quiser negociar um lote padrão do par de moedas EUR/USD, deverá selecionar a opção 'Lote Padrão' no menu suspenso e inserir '1' no campo de entrada.",
+        "instructions": "Introduza a quantidade do instrumento financeiro que está a negociar utilizando unidades, lotes padrão, mini lotes ou micro lotes. Utilize o menu suspenso ao lado do campo de entrada para selecionar o tamanho de posição apropriado para a sua negociação."
       }
     },
     "label": {
@@ -321,6 +341,10 @@ static const Map<String,dynamic> en = {
       "pip_decimal_places": {
         "example": "For example, if you are trading Bitcoin CFDs and your broker specifies pip movements to the third digit after the decimal, you would enter '3'.",
         "instructions": "Enter the number of decimal places your broker uses for the pip value of your chosen trading instrument. Brokers may vary in the decimal accuracy used to quote prices for CFDs, cryptocurrencies, and other exotic instruments, directly affecting your trading calculations. Check with your broker if you are unsure of the precision level they use."
+      },
+      "position_size": {
+        "example": "For example, if you want to trade a standard lot of the EUR/USD currency pair, you would need to select the 'Standard Lot' option from the drop-down menu and enter '1' in the input field.",
+        "instructions": "Enter the quantity of the financial instrument you are trading using units, standard lots, mini lots, or micro lots. Use the drop-down menu next to the input field to select the appropriate position size for your trade."
       }
     },
     "label": {
@@ -381,6 +405,10 @@ static const Map<String,dynamic> it = {
       "pip_decimal_places": {
         "example": "Ad esempio, se stai negoziando CFD Bitcoin e il tuo broker specifica i movimenti dei pips fino alla terza cifra dopo la virgola, inseriresti '3'.",
         "instructions": "Inserisci il numero di decimali che il tuo broker utilizza per il valore del pip del tuo strumento di trading scelto. I broker possono variare nella precisione decimale utilizzata per quotare i prezzi per CFD, criptovalute e altri strumenti esotici, influenzando direttamente i tuoi calcoli di trading. Verifica con il tuo broker se non sei sicuro del livello di precisione che utilizzano."
+      },
+      "position_size": {
+        "example": "Ad esempio, se si desidera scambiare un lotto standard della coppia di valute EUR/USD, sarà necessario selezionare l'opzione 'Lotto Standard' dal menu a discesa e inserire '1' nel campo di input.",
+        "instructions": "Inserisci la quantità dello strumento finanziario che stai scambiando utilizzando unità, lotti standard, mini lotti o micro lotti. Utilizza il menu a discesa accanto al campo di input per selezionare la dimensione della posizione adeguata per il tuo scambio."
       }
     },
     "label": {
@@ -441,6 +469,10 @@ static const Map<String,dynamic> fr = {
       "pip_decimal_places": {
         "example": "Par exemple, si vous négociez des CFD Bitcoin et que votre courtier spécifie des mouvements de pip au troisième chiffre après la virgule, vous entreriez '3'.",
         "instructions": "Saisissez le nombre de décimales que votre courtier utilise pour la valeur pip de votre instrument de trading choisi. Les courtiers peuvent varier dans la précision décimale utilisée pour coter les prix pour les CFD, les cryptomonnaies et d'autres instruments exotiques, ce qui affecte directement vos calculs de trading. Vérifiez auprès de votre courtier si vous n'êtes pas sûr du niveau de précision qu'ils utilisent."
+      },
+      "position_size": {
+        "example": "Par exemple, si vous souhaitez négocier un lot standard de la paire de devises EUR/USD, vous devrez sélectionner l'option 'Lot Standard' dans le menu déroulant et entrer '1' dans le champ de saisie.",
+        "instructions": "Entrez la quantité de l'instrument financier que vous négociez en utilisant des unités, des lots standards, des mini lots ou des micro lots. Utilisez le menu déroulant à côté du champ de saisie pour sélectionner la taille de position appropriée pour votre échange."
       }
     },
     "label": {
@@ -501,6 +533,10 @@ static const Map<String,dynamic> es = {
       "pip_decimal_places": {
         "example": "Por ejemplo, si estás operando con CFD de Bitcoin y tu corredor especifica los movimientos de pip hasta el tercer dígito después del decimal, introducirías '3'.",
         "instructions": "Introduce el número de decimales que tu corredor utiliza para el valor pip de tu instrumento de trading elegido. Los corredores pueden variar en la precisión decimal utilizada para cotizar precios para CFD, criptomonedas y otros instrumentos exóticos, afectando directamente tus cálculos de trading. Consulta con tu corredor si no estás seguro del nivel de precisión que utilizan."
+      },
+      "position_size": {
+        "example": "Por ejemplo, si desea operar un lote estándar del par de divisas EUR/USD, deberá seleccionar la opción 'Lote Estándar' del menú desplegable e introducir '1' en el campo de entrada.",
+        "instructions": "Ingrese la cantidad del instrumento financiero que está operando utilizando unidades, lotes estándar, lotes mini o lotes micro. Utilice el menú desplegable junto al campo de entrada para seleccionar el tamaño de posición adecuado para su operación."
       }
     },
     "label": {

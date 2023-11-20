@@ -8,6 +8,10 @@
       "pip_decimal_places": {
         "example": "Por ejemplo, si estás operando con CFD de Bitcoin y tu corredor especifica los movimientos de pip hasta el tercer dígito después del decimal, introducirías '3'.",
         "instructions": "Introduce el número de decimales que tu corredor utiliza para el valor pip de tu instrumento de trading elegido. Los corredores pueden variar en la precisión decimal utilizada para cotizar precios para CFD, criptomonedas y otros instrumentos exóticos, afectando directamente tus cálculos de trading. Consulta con tu corredor si no estás seguro del nivel de precisión que utilizan."
+      },
+      "position_size": {
+        "example": "Por ejemplo, si desea operar un lote estándar del par de divisas EUR/USD, deberá seleccionar la opción 'Lote Estándar' del menú desplegable e introducir '1' en el campo de entrada.",
+        "instructions": "Ingrese la cantidad del instrumento financiero que está operando utilizando unidades, lotes estándar, lotes mini o lotes micro. Utilice el menú desplegable junto al campo de entrada para seleccionar el tamaño de posición adecuado para su operación."
       }
     },
     "label": {
