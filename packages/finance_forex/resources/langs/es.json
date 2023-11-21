@@ -2,7 +2,7 @@
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Por ejemplo, si estableces una meta de ganar 15 pips en una operación particular, o has realizado una ganancia o una pérdida de 15 pips, introducirías '15'.",
+        "example": "Por ejemplo, si establece un objetivo de ganancia de 15 pips para una operación en particular, debe ingresar '15'.",
         "instructions": "Introduce el número total de pips asociados con la meta de ganancia o pérdida de tu operación. El 'número de pips' se refiere al objetivo incremental más pequeño de movimiento en el precio del par de divisas que estás rastreando o estableciendo como meta."
       },
       "pip_decimal_places": {

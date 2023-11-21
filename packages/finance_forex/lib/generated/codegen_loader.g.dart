@@ -15,7 +15,7 @@ class FinanceForexCodegenLoader extends AssetLoader {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "例如，如果您设定了在特定交易中盈利15点，或者您实现了15点的利润或亏损，您会输入'15'。",
+        "example": "例如，如果您为某个特定交易设定了赚取15个点子的目标，您必须输入'15'。",
         "instructions": "输入与您的交易利润或亏损目标相关的点数总数。'点数数量'是指您正在跟踪或设定为目标的货币对价格变动的最小增量目标。"
       },
       "pip_decimal_places": {
@@ -79,7 +79,7 @@ static const Map<String,dynamic> ja = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "特定の取引で15ピップスの利益を目指す場合、または15ピップスの利益や損失を出した場合には、'15'と入力します。",
+        "example": "たとえば、特定のトレードで15ピップの利益目標を設定する場合は、'15'を入力する必要があります。",
         "instructions": "取引の利益や損失の目標に関連するピップスの総数を入力してください。'ピップスの数'は、追跡または目標として設定している通貨ペアの価格の最小限度の動きを指します。"
       },
       "pip_decimal_places": {
@@ -143,7 +143,7 @@ static const Map<String,dynamic> de = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Wenn Sie sich beispielsweise zum Ziel gesetzt haben, mit einem bestimmten Handel 15 Pips zu verdienen, oder Sie haben einen Gewinn oder Verlust von 15 Pips realisiert, würden Sie '15' eingeben.",
+        "example": "Wenn Sie beispielsweise ein Gewinnziel von 15 Pips für einen bestimmten Trade festlegen, müssen Sie '15' eingeben.",
         "instructions": "Geben Sie die Gesamtzahl der Pips ein, die mit dem Gewinn- oder Verlustziel Ihres Handels verbunden sind. Die 'Anzahl der Pips' bezieht sich auf das kleinste inkrementelle Bewegungsziel im Preis eines von Ihnen verfolgten oder als Ziel gesetzten Währungspaares."
       },
       "pip_decimal_places": {
@@ -207,7 +207,7 @@ static const Map<String,dynamic> ru = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Например, если вы установили цель заработать 15 пунктов на определенной сделке или заработали или потеряли 15 пунктов, вы введете '15'.",
+        "example": "Например, если вы установите цель получения прибыли в 15 пунктов для конкретной сделки, вам необходимо ввести '15'.",
         "instructions": "Введите общее количество пунктов, связанных с вашей целью прибыли или убытка по вашей сделке. 'Количество пунктов' относится к минимальной инкрементной цели движения цены валютной пары, которую вы отслеживаете или установили в качестве цели."
       },
       "pip_decimal_places": {
@@ -271,7 +271,7 @@ static const Map<String,dynamic> pt = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Por exemplo, se tiver definido uma meta de ganhar 15 pips numa determinada transação, ou tiver realizado um lucro ou uma perda de 15 pips, introduziria '15'.",
+        "example": "Por exemplo, se definir uma meta de lucro de 15 pips para uma transação específica, deverá introduzir '15'.",
         "instructions": "Introduza o número total de pips associados ao seu objetivo de lucro ou perda na sua transação. O 'número de pips' refere-se ao menor objetivo incremental de movimento no preço do par de moedas que está a seguir ou a estabelecer como meta."
       },
       "pip_decimal_places": {
@@ -335,7 +335,7 @@ static const Map<String,dynamic> en = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "For instance, if you set a goal to earn 15 pips on a particular trade, or you have realized a profit or a loss of 15 pips, you would enter '15'.",
+        "example": "For instance, if you set a target of gaining 15 pips for a particular trade, you must enter '15'.",
         "instructions": "Enter the total number of pips associated with your trade's profit or loss goal. The 'number of pips' refers to the smallest incremental target of movement in the price of a currency pair you are tracking or setting as a goal."
       },
       "pip_decimal_places": {
@@ -399,7 +399,7 @@ static const Map<String,dynamic> it = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Ad esempio, se ti sei prefissato l'obiettivo di guadagnare 15 pips su una particolare transazione, o hai realizzato un profitto o una perdita di 15 pips, inseriresti '15'.",
+        "example": "Ad esempio, se stabilisci un obiettivo di guadagno di 15 pips per un particolare trade, devi inserire '15'.",
         "instructions": "Inserisci il numero totale di pips associati all'obiettivo di profitto o perdita della tua transazione. Il 'numero di pips' si riferisce al più piccolo obiettivo incrementale di movimento nel prezzo della coppia di valute che stai monitorando o hai impostato come obiettivo."
       },
       "pip_decimal_places": {
@@ -463,7 +463,7 @@ static const Map<String,dynamic> fr = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Par exemple, si vous fixez un objectif de gagner 15 pips dans un trade particulier, ou vous avez réalisé un profit ou une perte de 15 pips, vous entreriez '15'.",
+        "example": "Par exemple, si vous définissez un objectif de gain de 15 pips pour une transaction particulière, vous devez saisir '15'.",
         "instructions": "Entrez le nombre total de pips associés à l'objectif de gain ou de perte de votre trade. Le 'nombre de pips' fait référence à la plus petite cible incrémentielle de mouvement dans le prix d'une paire de devises que vous suivez ou fixez comme objectif."
       },
       "pip_decimal_places": {
@@ -527,7 +527,7 @@ static const Map<String,dynamic> es = {
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Por ejemplo, si estableces una meta de ganar 15 pips en una operación particular, o has realizado una ganancia o una pérdida de 15 pips, introducirías '15'.",
+        "example": "Por ejemplo, si establece un objetivo de ganancia de 15 pips para una operación en particular, debe ingresar '15'.",
         "instructions": "Introduce el número total de pips asociados con la meta de ganancia o pérdida de tu operación. El 'número de pips' se refiere al objetivo incremental más pequeño de movimiento en el precio del par de divisas que estás rastreando o estableciendo como meta."
       },
       "pip_decimal_places": {

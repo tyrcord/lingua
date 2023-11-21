@@ -2,7 +2,7 @@
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Wenn Sie sich beispielsweise zum Ziel gesetzt haben, mit einem bestimmten Handel 15 Pips zu verdienen, oder Sie haben einen Gewinn oder Verlust von 15 Pips realisiert, würden Sie '15' eingeben.",
+        "example": "Wenn Sie beispielsweise ein Gewinnziel von 15 Pips für einen bestimmten Trade festlegen, müssen Sie '15' eingeben.",
         "instructions": "Geben Sie die Gesamtzahl der Pips ein, die mit dem Gewinn- oder Verlustziel Ihres Handels verbunden sind. Die 'Anzahl der Pips' bezieht sich auf das kleinste inkrementelle Bewegungsziel im Preis eines von Ihnen verfolgten oder als Ziel gesetzten Währungspaares."
       },
       "pip_decimal_places": {

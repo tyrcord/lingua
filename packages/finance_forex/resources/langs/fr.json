@@ -2,7 +2,7 @@
   "forex": {
     "help": {
       "number_of_pips": {
-        "example": "Par exemple, si vous fixez un objectif de gagner 15 pips dans un trade particulier, ou vous avez réalisé un profit ou une perte de 15 pips, vous entreriez '15'.",
+        "example": "Par exemple, si vous définissez un objectif de gain de 15 pips pour une transaction particulière, vous devez saisir '15'.",
         "instructions": "Entrez le nombre total de pips associés à l'objectif de gain ou de perte de votre trade. Le 'nombre de pips' fait référence à la plus petite cible incrémentielle de mouvement dans le prix d'une paire de devises que vous suivez ou fixez comme objectif."
       },
       "pip_decimal_places": {
