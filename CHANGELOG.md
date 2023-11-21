@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-11-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_ad` - `v0.0.14`](#lingua_ad---v0014)
+ - [`lingua_finance_forex` - `v0.0.8`](#lingua_finance_forex---v008)
+
+---
+
+#### `lingua_ad` - `v0.0.14`
+
+ - **FEAT**: update localization.
+
+#### `lingua_finance_forex` - `v0.0.8`
+
+ - **FEAT**: update localization.
+
+
 ## 2023-11-20
 
 ### Changes
