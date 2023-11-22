@@ -193,7 +193,14 @@
       },
       "close_price": "Preço de fechamento",
       "compound_interest": "Juros compostos",
-      "cost_of_goods_sold": "Custo dos bens vendidos",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Custo dos bens vendidos"
+          },
+          "investments": "Custo dos investimentos"
+        }
+      },
       "costs": "Custos",
       "currencies": "Moedas",
       "currency": "Moeda",
@@ -246,7 +253,10 @@
       "gross": {
         "income": "Rendimento bruto",
         "margin": "Margem bruta",
-        "profit": "Lucro bruto"
+        "profit": {
+          "margin": "Margem de lucro bruto",
+          "text": "Lucro bruto"
+        }
       },
       "high_price": "Preço mais alto",
       "indices": "Índices",
@@ -260,11 +270,12 @@
       "low_price": "Preço mais baixo",
       "margin": "Margem",
       "net": {
-        "buy_price": "Preço líquido de compra",
-        "income": "Renda líquida",
+        "buy_price": "Preço de compra líquido",
+        "income": "Rendimento líquido",
         "profit": {
-          "after_fee": "Lucro líquido após taxas",
-          "before_fee": "Lucro líquido antes das taxas",
+          "after_fee": "Lucro líquido após comissões",
+          "before_fee": "Lucro líquido antes de comissões",
+          "margin": "Margem de lucro líquido",
           "text": "Lucro líquido"
         }
       },

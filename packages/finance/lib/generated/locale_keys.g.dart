@@ -103,7 +103,8 @@ abstract class FinanceLocaleKeys {
   static const finance_label_buy_price_per_unit = 'finance.label.buy.price_per_unit';
   static const finance_label_close_price = 'finance.label.close_price';
   static const finance_label_compound_interest = 'finance.label.compound_interest';
-  static const finance_label_cost_of_goods_sold = 'finance.label.cost_of_goods_sold';
+  static const finance_label_cost_of_goods_sold = 'finance.label.cost.of.goods.sold';
+  static const finance_label_cost_of_investments = 'finance.label.cost.of.investments';
   static const finance_label_costs = 'finance.label.costs';
   static const finance_label_currencies = 'finance.label.currencies';
   static const finance_label_currency = 'finance.label.currency';
@@ -137,7 +138,8 @@ abstract class FinanceLocaleKeys {
   static const finance_label_grand_total = 'finance.label.grand_total';
   static const finance_label_gross_income = 'finance.label.gross.income';
   static const finance_label_gross_margin = 'finance.label.gross.margin';
-  static const finance_label_gross_profit = 'finance.label.gross.profit';
+  static const finance_label_gross_profit_margin = 'finance.label.gross.profit.margin';
+  static const finance_label_gross_profit_text = 'finance.label.gross.profit.text';
   static const finance_label_high_price = 'finance.label.high_price';
   static const finance_label_indices = 'finance.label.indices';
   static const finance_label_initial_investment = 'finance.label.initial_investment';
@@ -153,6 +155,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_net_income = 'finance.label.net.income';
   static const finance_label_net_profit_after_fee = 'finance.label.net.profit.after_fee';
   static const finance_label_net_profit_before_fee = 'finance.label.net.profit.before_fee';
+  static const finance_label_net_profit_margin = 'finance.label.net.profit.margin';
   static const finance_label_net_profit_text = 'finance.label.net.profit.text';
   static const finance_label_number_of_trades = 'finance.label.number.of_trades';
   static const finance_label_number_plus_currency = 'finance.label.number.plus_currency';

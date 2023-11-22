@@ -31,11 +31,11 @@ class AdCodegenLoader extends AssetLoader {
     },
     "message": {
       "discover_other_app": "看看我们的其他免费应用程序！",
+      "enjoy_your_pdf_report_reward": "恭喜！您的 PDF 报告已准备就绪，可供下载。祝您阅读愉快！",
       "enjoy_your_reward": "享受您的奖励！",
       "go_ad_free": "免广告体验！",
       "lucky_you": "你真幸运！",
       "no_ads_now": "目前没有广告。享受应用程序吧!",
-      "enjoy_your_pdf_report_reward": "恭喜！您的 PDF 报告已准备就绪，可供下载。祝您阅读愉快！",
       "say_goodbye_to_ads": "告别广告！",
       "watch_ad": {
         "unlock": {
@@ -67,9 +67,9 @@ static const Map<String,dynamic> ja = {
     },
     "message": {
       "discover_other_app": "私たちの他の無料アプリをご覧ください！",
+      "enjoy_your_pdf_report_reward": "おめでとうございます！PDFレポートがダウンロードできます。楽しんでお読みください。",
       "enjoy_your_reward": "ご褒美をお楽しみください！",
       "go_ad_free": "広告なしで利用する！",
-      "enjoy_your_pdf_report_reward": "おめでとうございます！PDFレポートがダウンロードできます。楽しんでお読みください。",
       "lucky_you": "ラッキーですね！",
       "no_ads_now": "現在、広告はありません。アプリを楽しんでください!",
       "say_goodbye_to_ads": "広告にさようなら！",
@@ -103,9 +103,9 @@ static const Map<String,dynamic> de = {
     },
     "message": {
       "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
+      "enjoy_your_pdf_report_reward": "Herzlichen Glückwunsch! Ihr PDF-Bericht steht zum Download bereit. Viel Spaß beim Lesen!",
       "enjoy_your_reward": "Genießen Sie Ihre Belohnung!",
       "go_ad_free": "Werbefrei erleben!",
-      "enjoy_your_pdf_report_reward": "Herzlichen Glückwunsch! Ihr PDF-Bericht steht zum Download bereit. Viel Spaß beim Lesen!",
       "lucky_you": "Glück gehabt!",
       "no_ads_now": "Aktuell keine Werbung. Viel Spaß mit der Anwendung!",
       "say_goodbye_to_ads": "Sagen Sie Auf Wiedersehen zu Werbung!",
@@ -139,11 +139,11 @@ static const Map<String,dynamic> ru = {
     },
     "message": {
       "discover_other_app": "Ознакомьтесь с нашими другими бесплатными приложениями!",
+      "enjoy_your_pdf_report_reward": "Поздравления! Ваш PDF-отчет готов к загрузке. Приятного чтения!",
       "enjoy_your_reward": "Наслаждайтесь вашей наградой!",
       "go_ad_free": "Без рекламы!",
       "lucky_you": "Вам повезло!",
       "no_ads_now": "Пока нет рекламы. Наслаждайтесь приложением!",
-      "enjoy_your_pdf_report_reward": "Поздравления! Ваш PDF-отчет готов к загрузке. Приятного чтения!",
       "say_goodbye_to_ads": "Прощайте, реклама!",
       "watch_ad": {
         "unlock": {
@@ -175,11 +175,11 @@ static const Map<String,dynamic> pt = {
     },
     "message": {
       "discover_other_app": "Dê uma olhada em nossos outros aplicativos gratuitos!",
+      "enjoy_your_pdf_report_reward": "Parabéns! O seu relatório em PDF está pronto para descarregar. Boa leitura!",
       "enjoy_your_reward": "Aproveite sua recompensa!",
       "go_ad_free": "Experimente sem anúncios!",
       "lucky_you": "Você tem sorte!",
       "no_ads_now": "Sem anúncios por agora. Aproveite o aplicativo!",
-      "enjoy_your_pdf_report_reward": "Parabéns! O seu relatório em PDF está pronto para descarregar. Boa leitura!",
       "say_goodbye_to_ads": "Diga adeus aos anúncios!",
       "watch_ad": {
         "unlock": {
@@ -211,8 +211,8 @@ static const Map<String,dynamic> en = {
     },
     "message": {
       "discover_other_app": "Take a look at our other free apps!",
-      "enjoy_your_reward": "Enjoy your reward!",
       "enjoy_your_pdf_report_reward": "Congratulations! Your PDF report is ready for download. Happy reading!",
+      "enjoy_your_reward": "Enjoy your reward!",
       "go_ad_free": "Go ad-free!",
       "lucky_you": "Lucky you!",
       "no_ads_now": "No advertisements for now. Enjoy the application!",
@@ -247,11 +247,11 @@ static const Map<String,dynamic> it = {
     },
     "message": {
       "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
+      "enjoy_your_pdf_report_reward": "Complimenti! Il tuo rapporto PDF è pronto per essere scaricato. Buona lettura!",
       "enjoy_your_reward": "Goditi il tuo premio!",
       "go_ad_free": "Passa all'esperienza senza annunci!",
       "lucky_you": "Sei fortunato!",
       "no_ads_now": "Nessuna pubblicità per ora. Goditi l'applicazione!",
-      "enjoy_your_pdf_report_reward": "Complimenti! Il tuo rapporto PDF è pronto per essere scaricato. Buona lettura!",
       "say_goodbye_to_ads": "Dì addio alla pubblicità!",
       "watch_ad": {
         "unlock": {
@@ -283,8 +283,8 @@ static const Map<String,dynamic> fr = {
     },
     "message": {
       "discover_other_app": "Jetez un œil à nos autres applications gratuites!",
+      "enjoy_your_pdf_report_reward": "Félicitations! Votre rapport PDF est prêt à être téléchargé. Bonne lecture !",
       "enjoy_your_reward": "Profitez de votre récompense!",
-      "enjoy_your_pdf_report_reward": "Félicitations! Votre rapport PDF est prêt à être téléchargé. Bonne lecture !",
       "go_ad_free": "Profitez d'une expérience sans publicité !",
       "lucky_you": "Vous avez de la chance!",
       "no_ads_now": "Pas de publicités pour le moment. Profitez de l'application!",
@@ -319,11 +319,11 @@ static const Map<String,dynamic> es = {
     },
     "message": {
       "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
+      "enjoy_your_pdf_report_reward": "¡Enhorabuena! Su informe en PDF está listo para descargar. ¡Feliz lectura!",
       "enjoy_your_reward": "¡Disfruta tu recompensa!",
       "go_ad_free": "Elimina los anuncios",
       "lucky_you": "¡Qué suerte tienes!",
       "no_ads_now": "Por ahora no hay anuncios. ¡Disfruta la aplicación!",
-      "enjoy_your_pdf_report_reward": "¡Enhorabuena! Su informe en PDF está listo para descargar. ¡Feliz lectura!",
       "say_goodbye_to_ads": "¡Di adiós a los anuncios!",
       "watch_ad": {
         "unlock": {

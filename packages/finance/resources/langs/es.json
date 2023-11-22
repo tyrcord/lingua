@@ -193,7 +193,14 @@
       },
       "close_price": "Precio de cierre",
       "compound_interest": "Interés compuesto",
-      "cost_of_goods_sold": "Costo de los bienes vendidos",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Costo de los bienes vendidos"
+          },
+          "investments": "Costo de las inversiones"
+        }
+      },
       "costs": "Costos",
       "currencies": "Monedas",
       "currency": "Moneda",
@@ -246,7 +253,10 @@
       "gross": {
         "income": "Ingresos brutos",
         "margin": "Margen bruto",
-        "profit": "Beneficio bruto"
+        "profit": {
+          "margin": "Margen de beneficio bruto",
+          "text": "Beneficio bruto"
+        }
       },
       "high_price": "Precio más alto",
       "indices": "Índices",
@@ -265,6 +275,7 @@
         "profit": {
           "after_fee": "Beneficio neto después de comisiones",
           "before_fee": "Beneficio neto antes de comisiones",
+          "margin": "Margen de beneficio neto",
           "text": "Beneficio neto"
         }
       },

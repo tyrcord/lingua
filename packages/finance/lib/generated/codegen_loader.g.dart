@@ -206,7 +206,14 @@ class FinanceCodegenLoader extends AssetLoader {
       },
       "close_price": "收盘价",
       "compound_interest": "复利",
-      "cost_of_goods_sold": "已售商品成本",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "已售商品成本"
+          },
+          "investments": "投资成本"
+        }
+      },
       "costs": "成本",
       "currencies": "货币",
       "currency": "货币",
@@ -259,7 +266,10 @@ class FinanceCodegenLoader extends AssetLoader {
       "gross": {
         "income": "总收入",
         "margin": "毛利率",
-        "profit": "毛利润"
+        "profit": {
+          "margin": "毛利润率",
+          "text": "毛利润"
+        }
       },
       "high_price": "最高价",
       "indices": "指数",
@@ -273,11 +283,12 @@ class FinanceCodegenLoader extends AssetLoader {
       "low_price": "最低价",
       "margin": "保证金",
       "net": {
-        "buy_price": "净买入价格",
+        "buy_price": "净购买价格",
         "income": "净收入",
         "profit": {
           "after_fee": "扣除费用后的净利润",
-          "before_fee": "扣费前的净利润",
+          "before_fee": "扣除费用前的净利润",
+          "margin": "净利润率",
           "text": "净利润"
         }
       },
@@ -657,7 +668,14 @@ static const Map<String,dynamic> ja = {
       },
       "close_price": "終値",
       "compound_interest": "複利",
-      "cost_of_goods_sold": "売上原価",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "売上原価"
+          },
+          "investments": "投資コスト"
+        }
+      },
       "costs": "コスト",
       "currencies": "通貨",
       "currency": "通貨",
@@ -710,7 +728,10 @@ static const Map<String,dynamic> ja = {
       "gross": {
         "income": "総収入",
         "margin": "総利益率",
-        "profit": "総利益"
+        "profit": {
+          "margin": "総利益率",
+          "text": "総利益"
+        }
       },
       "high_price": "最高価格",
       "indices": "インデックス",
@@ -729,6 +750,7 @@ static const Map<String,dynamic> ja = {
         "profit": {
           "after_fee": "手数料後の純利益",
           "before_fee": "手数料前の純利益",
+          "margin": "純利益率",
           "text": "純利益"
         }
       },
@@ -1108,7 +1130,14 @@ static const Map<String,dynamic> de = {
       },
       "close_price": "Schlusskurs",
       "compound_interest": "Zinseszins",
-      "cost_of_goods_sold": "Kosten der verkauften Waren",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Kosten der verkauften Waren"
+          },
+          "investments": "Kosten der Investitionen"
+        }
+      },
       "costs": "Kosten",
       "currencies": "Währungen",
       "currency": "Währung",
@@ -1161,7 +1190,10 @@ static const Map<String,dynamic> de = {
       "gross": {
         "income": "Bruttoeinkommen",
         "margin": "Bruttomarge",
-        "profit": "Bruttogewinn"
+        "profit": {
+          "margin": "Bruttogewinnmarge",
+          "text": "Bruttogewinn"
+        }
       },
       "high_price": "Höchstpreis",
       "indices": "Indizes",
@@ -1180,6 +1212,7 @@ static const Map<String,dynamic> de = {
         "profit": {
           "after_fee": "Nettogewinn nach Gebühren",
           "before_fee": "Nettogewinn vor Gebühren",
+          "margin": "Nettogewinnmarge",
           "text": "Nettogewinn"
         }
       },
@@ -1559,7 +1592,14 @@ static const Map<String,dynamic> ru = {
       },
       "close_price": "Цена закрытия",
       "compound_interest": "Сложные проценты",
-      "cost_of_goods_sold": "Себестоимость проданных товаров",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Стоимость проданных товаров"
+          },
+          "investments": "Стоимость инвестиций"
+        }
+      },
       "costs": "Расходы",
       "currencies": "Валюты",
       "currency": "Валюта",
@@ -1612,7 +1652,10 @@ static const Map<String,dynamic> ru = {
       "gross": {
         "income": "Валовой доход",
         "margin": "Валовая маржа",
-        "profit": "Валовая прибыль"
+        "profit": {
+          "margin": "Маржа валовой прибыли",
+          "text": "Валовая прибыль"
+        }
       },
       "high_price": "Наибольшая цена",
       "indices": "Индексы",
@@ -1631,6 +1674,7 @@ static const Map<String,dynamic> ru = {
         "profit": {
           "after_fee": "Чистая прибыль после комиссии",
           "before_fee": "Чистая прибыль до комиссии",
+          "margin": "Маржа чистой прибыли",
           "text": "Чистая прибыль"
         }
       },
@@ -2010,7 +2054,14 @@ static const Map<String,dynamic> pt = {
       },
       "close_price": "Preço de fechamento",
       "compound_interest": "Juros compostos",
-      "cost_of_goods_sold": "Custo dos bens vendidos",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Custo dos bens vendidos"
+          },
+          "investments": "Custo dos investimentos"
+        }
+      },
       "costs": "Custos",
       "currencies": "Moedas",
       "currency": "Moeda",
@@ -2063,7 +2114,10 @@ static const Map<String,dynamic> pt = {
       "gross": {
         "income": "Rendimento bruto",
         "margin": "Margem bruta",
-        "profit": "Lucro bruto"
+        "profit": {
+          "margin": "Margem de lucro bruto",
+          "text": "Lucro bruto"
+        }
       },
       "high_price": "Preço mais alto",
       "indices": "Índices",
@@ -2077,11 +2131,12 @@ static const Map<String,dynamic> pt = {
       "low_price": "Preço mais baixo",
       "margin": "Margem",
       "net": {
-        "buy_price": "Preço líquido de compra",
-        "income": "Renda líquida",
+        "buy_price": "Preço de compra líquido",
+        "income": "Rendimento líquido",
         "profit": {
-          "after_fee": "Lucro líquido após taxas",
-          "before_fee": "Lucro líquido antes das taxas",
+          "after_fee": "Lucro líquido após comissões",
+          "before_fee": "Lucro líquido antes de comissões",
+          "margin": "Margem de lucro líquido",
           "text": "Lucro líquido"
         }
       },
@@ -2461,7 +2516,14 @@ static const Map<String,dynamic> en = {
       },
       "close_price": "Close Price",
       "compound_interest": "Compound Interest",
-      "cost_of_goods_sold": "Cost of goods sold",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Cost of Goods Sold"
+          },
+          "investments": "Cost of Investments"
+        }
+      },
       "costs": "Costs",
       "currencies": "Currencies",
       "currency": "Currency",
@@ -2512,9 +2574,12 @@ static const Map<String,dynamic> en = {
       "gain_per_trade": "Gain per Trade",
       "grand_total": "Grand Total",
       "gross": {
-        "income": "Gross income",
-        "margin": "Gross margin",
-        "profit": "Gross profit"
+        "income": "Gross Income",
+        "margin": "Gross Margin",
+        "profit": {
+          "margin": "Gross Profit Margin",
+          "text": "Gross Profit"
+        }
       },
       "high_price": "High Price",
       "indices": "Indices",
@@ -2533,6 +2598,7 @@ static const Map<String,dynamic> en = {
         "profit": {
           "after_fee": "Net Profit After Fees",
           "before_fee": "Net Profit Before Fees",
+          "margin": "Net Profit Margin",
           "text": "Net Profit"
         }
       },
@@ -2912,7 +2978,14 @@ static const Map<String,dynamic> it = {
       },
       "close_price": "Prezzo di chiusura",
       "compound_interest": "Interesse composto",
-      "cost_of_goods_sold": "Costo dei beni venduti",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Costo dei beni venduti"
+          },
+          "investments": "Costi degli investimenti"
+        }
+      },
       "costs": "Costi",
       "currencies": "Valute",
       "currency": "Valuta",
@@ -2965,7 +3038,10 @@ static const Map<String,dynamic> it = {
       "gross": {
         "income": "Reddito lordo",
         "margin": "Margine lordo",
-        "profit": "Profitto lordo"
+        "profit": {
+          "margin": "Margine di utile lordo",
+          "text": "Utile lordo"
+        }
       },
       "high_price": "Prezzo più alto",
       "indices": "Indici",
@@ -2979,12 +3055,13 @@ static const Map<String,dynamic> it = {
       "low_price": "Prezzo più basso",
       "margin": "Margine",
       "net": {
-        "buy_price": "Prezzo netto di acquisto",
+        "buy_price": "Prezzo di acquisto netto",
         "income": "Reddito netto",
         "profit": {
-          "after_fee": "Profitto netto dopo le commissioni",
-          "before_fee": "Profitto netto prima delle commissioni",
-          "text": "Profitto netto"
+          "after_fee": "Utile netto dopo le commissioni",
+          "before_fee": "Utile netto prima delle commissioni",
+          "margin": "Margine di utile netto",
+          "text": "Utile netto"
         }
       },
       "number": {
@@ -3363,7 +3440,14 @@ static const Map<String,dynamic> fr = {
       },
       "close_price": "Prix de clôture",
       "compound_interest": "Intérêt composé",
-      "cost_of_goods_sold": "Coût des marchandises vendues",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Coût des marchandises vendues"
+          },
+          "investments": "Coût des investissements"
+        }
+      },
       "costs": "Coûts",
       "currencies": "Devises",
       "currency": "Devise",
@@ -3416,7 +3500,10 @@ static const Map<String,dynamic> fr = {
       "gross": {
         "income": "Revenu brut",
         "margin": "Marge brute",
-        "profit": "Bénéfice brut"
+        "profit": {
+          "margin": "Marge de bénéfice brut",
+          "text": "Bénéfice brut"
+        }
       },
       "high_price": "Prix le plus élevé",
       "indices": "Indices",
@@ -3430,11 +3517,12 @@ static const Map<String,dynamic> fr = {
       "low_price": "Prix le plus bas",
       "margin": "Marge",
       "net": {
-        "buy_price": "Prix net d'achat",
+        "buy_price": "Prix d'achat net",
         "income": "Revenu net",
         "profit": {
           "after_fee": "Bénéfice net après frais",
           "before_fee": "Bénéfice net avant frais",
+          "margin": "Marge de bénéfice net",
           "text": "Bénéfice net"
         }
       },
@@ -3814,7 +3902,14 @@ static const Map<String,dynamic> es = {
       },
       "close_price": "Precio de cierre",
       "compound_interest": "Interés compuesto",
-      "cost_of_goods_sold": "Costo de los bienes vendidos",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Costo de los bienes vendidos"
+          },
+          "investments": "Costo de las inversiones"
+        }
+      },
       "costs": "Costos",
       "currencies": "Monedas",
       "currency": "Moneda",
@@ -3867,7 +3962,10 @@ static const Map<String,dynamic> es = {
       "gross": {
         "income": "Ingresos brutos",
         "margin": "Margen bruto",
-        "profit": "Beneficio bruto"
+        "profit": {
+          "margin": "Margen de beneficio bruto",
+          "text": "Beneficio bruto"
+        }
       },
       "high_price": "Precio más alto",
       "indices": "Índices",
@@ -3886,6 +3984,7 @@ static const Map<String,dynamic> es = {
         "profit": {
           "after_fee": "Beneficio neto después de comisiones",
           "before_fee": "Beneficio neto antes de comisiones",
+          "margin": "Margen de beneficio neto",
           "text": "Beneficio neto"
         }
       },

@@ -193,7 +193,14 @@
       },
       "close_price": "終値",
       "compound_interest": "複利",
-      "cost_of_goods_sold": "売上原価",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "売上原価"
+          },
+          "investments": "投資コスト"
+        }
+      },
       "costs": "コスト",
       "currencies": "通貨",
       "currency": "通貨",
@@ -246,7 +253,10 @@
       "gross": {
         "income": "総収入",
         "margin": "総利益率",
-        "profit": "総利益"
+        "profit": {
+          "margin": "総利益率",
+          "text": "総利益"
+        }
       },
       "high_price": "最高価格",
       "indices": "インデックス",
@@ -265,6 +275,7 @@
         "profit": {
           "after_fee": "手数料後の純利益",
           "before_fee": "手数料前の純利益",
+          "margin": "純利益率",
           "text": "純利益"
         }
       },
