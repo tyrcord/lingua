@@ -198,7 +198,7 @@
           "goods": {
             "sold": "売上原価"
           },
-          "investments": "投資コスト"
+          "investment": "投資コスト"
         }
       },
       "costs": "コスト",

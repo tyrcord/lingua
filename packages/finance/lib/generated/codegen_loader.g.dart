@@ -211,7 +211,7 @@ class FinanceCodegenLoader extends AssetLoader {
           "goods": {
             "sold": "已售商品成本"
           },
-          "investments": "投资成本"
+          "investment": "投资成本"
         }
       },
       "costs": "成本",
@@ -673,7 +673,7 @@ static const Map<String,dynamic> ja = {
           "goods": {
             "sold": "売上原価"
           },
-          "investments": "投資コスト"
+          "investment": "投資コスト"
         }
       },
       "costs": "コスト",
@@ -1135,7 +1135,7 @@ static const Map<String,dynamic> de = {
           "goods": {
             "sold": "Kosten der verkauften Waren"
           },
-          "investments": "Kosten der Investitionen"
+          "investment": "Kosten der Investition"
         }
       },
       "costs": "Kosten",
@@ -1597,7 +1597,7 @@ static const Map<String,dynamic> ru = {
           "goods": {
             "sold": "Стоимость проданных товаров"
           },
-          "investments": "Стоимость инвестиций"
+          "investment": "Стоимость инвестиций"
         }
       },
       "costs": "Расходы",
@@ -2059,7 +2059,7 @@ static const Map<String,dynamic> pt = {
           "goods": {
             "sold": "Custo dos bens vendidos"
           },
-          "investments": "Custo dos investimentos"
+          "investment": "Custo do investimento"
         }
       },
       "costs": "Custos",
@@ -2521,7 +2521,7 @@ static const Map<String,dynamic> en = {
           "goods": {
             "sold": "Cost of Goods Sold"
           },
-          "investments": "Cost of Investments"
+          "investment": "Cost of Investment"
         }
       },
       "costs": "Costs",
@@ -2983,7 +2983,7 @@ static const Map<String,dynamic> it = {
           "goods": {
             "sold": "Costo dei beni venduti"
           },
-          "investments": "Costi degli investimenti"
+          "investment": "Costo dell'investimento"
         }
       },
       "costs": "Costi",
@@ -3445,7 +3445,7 @@ static const Map<String,dynamic> fr = {
           "goods": {
             "sold": "Coût des marchandises vendues"
           },
-          "investments": "Coût des investissements"
+          "investment": "Coût de l'investissement"
         }
       },
       "costs": "Coûts",
@@ -3907,7 +3907,7 @@ static const Map<String,dynamic> es = {
           "goods": {
             "sold": "Costo de los bienes vendidos"
           },
-          "investments": "Costo de las inversiones"
+          "investment": "Coste de inversión"
         }
       },
       "costs": "Costos",

@@ -104,7 +104,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_close_price = 'finance.label.close_price';
   static const finance_label_compound_interest = 'finance.label.compound_interest';
   static const finance_label_cost_of_goods_sold = 'finance.label.cost.of.goods.sold';
-  static const finance_label_cost_of_investments = 'finance.label.cost.of.investments';
+  static const finance_label_cost_of_investment = 'finance.label.cost.of.investment';
   static const finance_label_costs = 'finance.label.costs';
   static const finance_label_currencies = 'finance.label.currencies';
   static const finance_label_currency = 'finance.label.currency';

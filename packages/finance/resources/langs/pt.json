@@ -198,7 +198,7 @@
           "goods": {
             "sold": "Custo dos bens vendidos"
           },
-          "investments": "Custo dos investimentos"
+          "investment": "Custo do investimento"
         }
       },
       "costs": "Custos",

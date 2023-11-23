@@ -198,7 +198,7 @@
           "goods": {
             "sold": "已售商品成本"
           },
-          "investments": "投资成本"
+          "investment": "投资成本"
         }
       },
       "costs": "成本",
