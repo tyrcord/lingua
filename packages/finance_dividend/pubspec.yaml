@@ -1,6 +1,6 @@
 name: lingua_finance_dividend
 description: Library for internal finance dividend localization.
-version: 0.0.5
+version: 0.0.6
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance_dividend
 
 environment:
