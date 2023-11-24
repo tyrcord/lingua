@@ -2,7 +2,8 @@
   "help": {
     "label": {
       "instructions": "说明",
-      "manual": "手册"
+      "manual": "手册",
+      "manuals": "手册"
     }
   }
 }

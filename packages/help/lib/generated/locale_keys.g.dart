@@ -3,5 +3,6 @@
 abstract class HelpLocaleKeys {
   static const help_label_instructions = 'help.label.instructions';
   static const help_label_manual = 'help.label.manual';
+  static const help_label_manuals = 'help.label.manuals';
 
 }

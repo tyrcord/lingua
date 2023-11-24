@@ -2,7 +2,8 @@
   "help": {
     "label": {
       "instructions": "Instrucciones",
-      "manual": "Manual"
+      "manual": "Manual",
+      "manuals": "Manuales"
     }
   }
 }

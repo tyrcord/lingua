@@ -15,7 +15,8 @@ class HelpCodegenLoader extends AssetLoader {
   "help": {
     "label": {
       "instructions": "说明",
-      "manual": "手册"
+      "manual": "手册",
+      "manuals": "手册"
     }
   }
 };
@@ -23,7 +24,8 @@ static const Map<String,dynamic> ja = {
   "help": {
     "label": {
       "instructions": "指示",
-      "manual": "マニュアル"
+      "manual": "マニュアル",
+      "manuals": "マニュアル集"
     }
   }
 };
@@ -31,7 +33,8 @@ static const Map<String,dynamic> de = {
   "help": {
     "label": {
       "instructions": "Anweisungen",
-      "manual": "Handbuch"
+      "manual": "Handbuch",
+      "manuals": "Handbücher"
     }
   }
 };
@@ -39,7 +42,8 @@ static const Map<String,dynamic> ru = {
   "help": {
     "label": {
       "instructions": "Инструкции",
-      "manual": "Руководство"
+      "manual": "Руководство",
+      "manuals": "Руководства"
     }
   }
 };
@@ -47,7 +51,8 @@ static const Map<String,dynamic> pt = {
   "help": {
     "label": {
       "instructions": "Instruções",
-      "manual": "Manual"
+      "manual": "Manual",
+      "manuals": "Manuais"
     }
   }
 };
@@ -55,7 +60,8 @@ static const Map<String,dynamic> en = {
   "help": {
     "label": {
       "instructions": "Instructions",
-      "manual": "Manual"
+      "manual": "Manual",
+      "manuals": "Manuals"
     }
   }
 };
@@ -63,7 +69,8 @@ static const Map<String,dynamic> it = {
   "help": {
     "label": {
       "instructions": "Istruzioni",
-      "manual": "Manuale"
+      "manual": "Manuale",
+      "manuals": "Manuali"
     }
   }
 };
@@ -71,7 +78,8 @@ static const Map<String,dynamic> fr = {
   "help": {
     "label": {
       "instructions": "Instructions",
-      "manual": "Mode d'emploi"
+      "manual": "Mode d'emploi",
+      "manuals": "Manuels"
     }
   }
 };
@@ -79,7 +87,8 @@ static const Map<String,dynamic> es = {
   "help": {
     "label": {
       "instructions": "Instrucciones",
-      "manual": "Manual"
+      "manual": "Manual",
+      "manuals": "Manuales"
     }
   }
 };
