@@ -1,5 +1,43 @@
 {
   "dividend": {
+    "help": {
+      "dividend_payment_frequency": {
+        "example": "Zum Beispiel wählen Sie 'Vierteljährlich', wenn ein Unternehmen viermal im Jahr Dividenden ausschüttet, oder wählen Sie 'Jährlich', wenn Dividenden einmal im Jahr gezahlt werden.",
+        "instructions": "Wählen Sie die Häufigkeit der Dividendenzahlungen des Unternehmens. Die Optionen sind 'Monatlich', 'Vierteljährlich', 'Halbjährlich' und 'Jährlich'."
+      },
+      "dividend_reinvestment_plan": {
+        "example": "Zum Beispiel, wenn Sie an einem Dividenden-Reinvestitionsplan teilnehmen, geben Sie 'Ja' ein, andernfalls 'Nein'.",
+        "instructions": "Geben Sie an, ob Sie an einem Dividenden-Reinvestitionsplan (DRIP) für diese Anlage teilnehmen. DRIPs ermöglichen es Anlegern, ihre Bardividenden in zusätzliche Aktien oder Bruchteile von Aktien des zugrunde liegenden Unternehmens zu reinvestieren."
+      },
+      "dividend_yield": {
+        "example": "Zum Beispiel, wenn die Dividendenrendite einer Aktie 3,5% beträgt, geben Sie '3,5' ein.",
+        "instructions": "Geben Sie die Dividendenrendite der Aktie ein. Die Dividendenrendite wird als Prozentsatz ausgedrückt und stellt das Verhältnis der jährlichen Dividende eines Unternehmens im Vergleich zu seinem Aktienkurs dar."
+      },
+      "duration_in_years": {
+        "example": "Zum Beispiel, wenn Sie eine Anlage seit 5 Jahren halten, geben Sie '5' ein.",
+        "instructions": "Geben Sie die Gesamtanzahl der Jahre ein, die Sie die Anlage gehalten haben oder planen zu halten."
+      },
+      "expected_annual_dividend_increase": {
+        "example": "Zum Beispiel, wenn Sie eine jährliche Steigerung der Dividenden um 2% erwarten, geben Sie '2' ein.",
+        "instructions": "Geben Sie die erwartete jährliche prozentuale Steigerung der Dividenden aus Ihren Anlagen ein. Dies ist eine Schätzung, wie stark die Dividendenausschüttungen jedes Jahr wachsen werden."
+      },
+      "net_income": {
+        "example": "Zum Beispiel, wenn der Jahresnettoumsatz eines Unternehmens 1,5 Millionen Dollar beträgt, geben Sie bitte '1.500.000' ein.",
+        "instructions": "Geben Sie den Nettogewinn des Unternehmens für einen bestimmten Zeitraum ein. Der Nettogewinn ist der Gewinn eines Unternehmens, nachdem alle Ausgaben und Steuern vom Gesamtumsatz abgezogen wurden."
+      },
+      "share_price": {
+        "example": "Zum Beispiel, wenn der aktuelle Preis einer Unternehmensaktie 50$ beträgt, geben Sie bitte '50' ein.",
+        "instructions": "Geben Sie den aktuellen Preis der Aktie ein, die Sie überprüfen."
+      },
+      "shares_owned": {
+        "example": "Zum Beispiel, wenn Sie 500 Aktien eines Unternehmens besitzen, geben Sie bitte '500' ein.",
+        "instructions": "Geben Sie die Gesamtanzahl der Aktien ein, die Sie derzeit an dem Unternehmen besitzen."
+      },
+      "total_dividends": {
+        "example": "Zum Beispiel, wenn ein Unternehmen im Laufe eines Jahres Dividenden in Höhe von 200.000$ ausgeschüttet hat, geben Sie '200.000' ein.",
+        "instructions": "Geben Sie die Gesamtsumme der von einem Unternehmen ausgeschütteten Dividenden ein."
+      }
+    },
     "label": {
       "annual": {
         "dividend_income": "Jährliches Dividendeneinkommen",

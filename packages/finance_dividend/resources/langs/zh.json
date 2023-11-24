@@ -1,5 +1,43 @@
 {
   "dividend": {
+    "help": {
+      "dividend_payment_frequency": {
+        "example": "例如，如果一家公司一年分四次支付股息，请选择'季度'；如果股息每年支付一次，请选择'年度'。",
+        "instructions": "选择公司股息支付频率。选项包括'每月'、'季度'、'半年'和'年度'。"
+      },
+      "dividend_reinvestment_plan": {
+        "example": "例如，如果您参加了股息再投资计划，请输入'是'，否则请输入'否'。",
+        "instructions": "请指明您是否参与此项投资的股息再投资计划（DRIP）。DRIP允许投资者将其现金股息再投资于基础股票的额外股份或部分股份。"
+      },
+      "dividend_yield": {
+        "example": "例如，如果一只股票的股息收益率是3.5%，请输入'3.5'。",
+        "instructions": "请输入股票的股息收益率。股息收益率以百分比表示，代表公司年度股息与其股价之比。"
+      },
+      "duration_in_years": {
+        "example": "例如，如果您持有一项投资已经5年，请输入'5'。",
+        "instructions": "请输入您持有或计划持有该投资的总年数。"
+      },
+      "expected_annual_dividend_increase": {
+        "example": "例如，如果您预期股息每年增长2%，请输入'2'。",
+        "instructions": "请输入您投资的股息预期年度百分比增长。这是对每年股息支付额预期增长量的估计。"
+      },
+      "net_income": {
+        "example": "例如，如果一家公司的年净收入为150万美元，请输入'1,500,000'。",
+        "instructions": "输入公司指定时期的净收入。净收入是公司在扣除所有费用和税款后的总收入的利润。"
+      },
+      "share_price": {
+        "example": "例如，如果一家公司的股票当前价格是50美元，请输入'50'。",
+        "instructions": "请输入您正在审核的股票的当前价格。"
+      },
+      "shares_owned": {
+        "example": "例如，如果您拥有一家公司的500股股票，请输入'500'。",
+        "instructions": "请输入您目前在该公司拥有的股票总数。"
+      },
+      "total_dividends": {
+        "example": "例如，如果一家公司在一年中支付了20万美元的股息，请输入'200,000'。",
+        "instructions": "请输入一家公司分配的股息总额。"
+      }
+    },
     "label": {
       "annual": {
         "dividend_income": "年度股息收入",

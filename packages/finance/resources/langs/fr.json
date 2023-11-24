@@ -73,6 +73,14 @@
         "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
         "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
       },
+      "investment_annual_contribution": {
+        "example": "Par exemple, si vous prévoyez de contribuer annuellement 10 000 $ à votre investissement, veuillez saisir '10 000'.",
+        "instructions": "Saisissez le montant que vous avez l'intention de contribuer chaque année à votre investissement. Cela pourrait être sous forme de dépôts en espèces ou d'autres formes d'investissement."
+      },
+      "investment_tax_rate": {
+        "example": "Par exemple, si votre taux d'imposition applicable est de 25 %, veuillez saisir '25'.",
+        "instructions": "Saisissez le taux d'imposition qui s'applique à vos revenus d'investissement ou gains en capital. Ceci doit être exprimé en pourcentage. Assurez-vous d'utiliser le taux correspondant à votre tranche fiscale ou le taux d'imposition spécifique pour le type de revenu que vous déclarez."
+      },
       "operating_expenses": {
         "example": "Par exemple, si votre entreprise a dépensé 3 500 $ pour le loyer, 2 500 $ pour les utilitaires, 10 000 $ pour les salaires et 4 000 $ pour diverses dépenses administratives, vous additionneriez ces montants et saisiriez '20000'.",
         "instructions": "Saisissez le montant total des dépenses encourues pour les activités opérationnelles de votre entreprise. Cela devrait inclure des coûts tels que le loyer, les services publics, les salaires, la maintenance et autres dépenses administratives nécessaires au fonctionnement quotidien. Ne pas inclure les taxes, les paiements d'intérêts ou autres dépenses non opérationnelles."

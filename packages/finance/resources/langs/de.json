@@ -73,6 +73,14 @@
         "example": "Wenn Sie eine Position im Währungspaar EUR/USD zum Kurs von 1,1000 eröffnet haben und Ihre Verluste durch das Setzen eines Stop-Loss bei 1,0950 begrenzen möchten, geben Sie den Wert 1,0950 ein.",
         "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Stop-Loss-Auftrag platzieren möchten, um potenzielle Verluste zu begrenzen."
       },
+      "investment_annual_contribution": {
+        "example": "Zum Beispiel, wenn Sie planen, jährlich 10.000 $ zu Ihrer Anlage beizutragen, geben Sie bitte '10.000' ein.",
+        "instructions": "Geben Sie den Betrag ein, den Sie jedes Jahr zu Ihrer Anlage beitragen möchten. Dies könnte in Form von Bareinzahlungen oder anderen Anlageformen sein."
+      },
+      "investment_tax_rate": {
+        "example": "Zum Beispiel, wenn Ihr anwendbarer Steuersatz 25% beträgt, geben Sie bitte '25' ein.",
+        "instructions": "Geben Sie den Steuersatz ein, der auf Ihre Kapitalerträge oder Kapitalgewinne anwendbar ist. Dies sollte als Prozentsatz ausgedrückt werden. Stellen Sie sicher, dass Sie den Satz verwenden, der Ihrer Steuerklasse entspricht oder dem spezifischen Steuersatz für die Art des Einkommens, das Sie melden."
+      },
       "operating_expenses": {
         "example": "Wenn Ihr Unternehmen beispielsweise 3.500 $ für Miete, 2.500 $ für Nebenkosten, 10.000 $ für Löhne und 4.000 $ für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
         "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."

@@ -73,6 +73,14 @@
         "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to limit your losses by setting a stop-loss at 1.0950, enter the value 1.0950.",
         "instructions": "Please specify the exchange rate at which you will place your stop-loss order to mitigate potential losses."
       },
+      "investment_annual_contribution": {
+        "example": "For example, if you plan to contribute $10,000 annually to your investment, please enter '10,000'.",
+        "instructions": "Enter the amount you intend to contribute to your investment each year. This could be in the form of cash deposits or other forms of investment."
+      },
+      "investment_tax_rate": {
+        "example": "For example, if your applicable tax rate is 25%, please enter '25'.",
+        "instructions": "Enter the tax rate that applies to your investment income or capital gains. This should be expressed as a percentage. Ensure you use the rate that corresponds to your tax bracket or the specific tax rate for the type of income you are reporting."
+      },
       "operating_expenses": {
         "example": "For example, if your business spent $3,500 on rent, $2,500 on utilities, $10,000 on wages, and $4,000 on various administrative expenses, you would add these amounts and enter '20000'.",
         "instructions": "Enter the total amount of expenses incurred for your business's operational activities. This should include costs such as rent, utilities, wages, maintenance, and other administrative expenses necessary for daily operations. Do not include taxes, interest payments, or other non-operational expenses."

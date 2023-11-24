@@ -39,6 +39,10 @@ abstract class FinanceLocaleKeys {
   static const finance_help_forex_entry_price_instructions = 'finance.help.forex_entry_price.instructions';
   static const finance_help_forex_stop_loss_price_example = 'finance.help.forex_stop_loss_price.example';
   static const finance_help_forex_stop_loss_price_instructions = 'finance.help.forex_stop_loss_price.instructions';
+  static const finance_help_investment_annual_contribution_example = 'finance.help.investment_annual_contribution.example';
+  static const finance_help_investment_annual_contribution_instructions = 'finance.help.investment_annual_contribution.instructions';
+  static const finance_help_investment_tax_rate_example = 'finance.help.investment_tax_rate.example';
+  static const finance_help_investment_tax_rate_instructions = 'finance.help.investment_tax_rate.instructions';
   static const finance_help_operating_expenses_example = 'finance.help.operating_expenses.example';
   static const finance_help_operating_expenses_instructions = 'finance.help.operating_expenses.instructions';
   static const finance_help_position_size_example = 'finance.help.position_size.example';

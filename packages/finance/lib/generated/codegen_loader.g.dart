@@ -86,6 +86,14 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果您在EUR/USD货币对上以1.1000的汇率开设了一个头寸，并希望通过设置1.0950的止损来限制您的损失，请输入数值1.0950。",
         "instructions": "请指定您将设置止损订单的汇率，以减轻潜在损失。"
       },
+      "investment_annual_contribution": {
+        "example": "例如，如果您计划每年向您的投资贡献10,000美元，请输入'10,000'。",
+        "instructions": "请输入您计划每年对您的投资贡献的金额。这可能是现金存款或其他投资形式。"
+      },
+      "investment_tax_rate": {
+        "example": "例如，如果您的适用税率是25%，请输入'25'。",
+        "instructions": "请输入适用于您的投资收入或资本增值的税率。这应以百分比表示。请确保使用与您所在税率区间相对应的税率或您报告收入类型的特定税率。"
+      },
       "operating_expenses": {
         "example": "例如，如果您的业务在租金上花费350000元，在公用事业上花费250000元，在薪资上花费1000000元，在其他行政费用上花费400000元，您需要加总这些数额并输入'2000000'。",
         "instructions": "请输入业务的总运营费用。这包括租金、公用事业、薪资、维护和其他日常运营所需的行政费用。不要包括税款、利息支付或非运营费用。"
@@ -547,6 +555,14 @@ static const Map<String,dynamic> ja = {
       "forex_stop_loss_price": {
         "example": "EUR/USDペアで1.1000のレートでポジションを開いて、1.0950でストップロスを設定して損失を限定したい場合は、1.0950と入力してください。",
         "instructions": "潜在的な損失を軽減するためにストップロスオーダーを設置する為替レートを指定してください。"
+      },
+      "investment_annual_contribution": {
+        "example": "例えば、あなたの投資に対して年間10,000ドルの貢献を計画している場合は、「10,000」と入力してください。",
+        "instructions": "毎年あなたの投資に対して貢献する予定の金額を入力してください。これは現金預金または他の投資形態によるものかもしれません。"
+      },
+      "investment_tax_rate": {
+        "example": "例えば、適用される税率が25%である場合は、「25」と入力してください。",
+        "instructions": "投資所得またはキャピタルゲインに適用される税率を入力してください。これはパーセンテージで表されるべきです。あなたの税率区分に該当する税率、または報告する所得の種類に特有の税率を使用してください。"
       },
       "operating_expenses": {
         "example": "例えば、あなたの企業が家賃に35万円、公共料金に25万円、給与に100万円、その他の管理費用に40万円を支出している場合、これらの金額を合計して'2000000'と入力します。",
@@ -1010,6 +1026,14 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie eine Position im Währungspaar EUR/USD zum Kurs von 1,1000 eröffnet haben und Ihre Verluste durch das Setzen eines Stop-Loss bei 1,0950 begrenzen möchten, geben Sie den Wert 1,0950 ein.",
         "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Stop-Loss-Auftrag platzieren möchten, um potenzielle Verluste zu begrenzen."
       },
+      "investment_annual_contribution": {
+        "example": "Zum Beispiel, wenn Sie planen, jährlich 10.000 \u0024 zu Ihrer Anlage beizutragen, geben Sie bitte '10.000' ein.",
+        "instructions": "Geben Sie den Betrag ein, den Sie jedes Jahr zu Ihrer Anlage beitragen möchten. Dies könnte in Form von Bareinzahlungen oder anderen Anlageformen sein."
+      },
+      "investment_tax_rate": {
+        "example": "Zum Beispiel, wenn Ihr anwendbarer Steuersatz 25% beträgt, geben Sie bitte '25' ein.",
+        "instructions": "Geben Sie den Steuersatz ein, der auf Ihre Kapitalerträge oder Kapitalgewinne anwendbar ist. Dies sollte als Prozentsatz ausgedrückt werden. Stellen Sie sicher, dass Sie den Satz verwenden, der Ihrer Steuerklasse entspricht oder dem spezifischen Steuersatz für die Art des Einkommens, das Sie melden."
+      },
       "operating_expenses": {
         "example": "Wenn Ihr Unternehmen beispielsweise 3.500 \u0024 für Miete, 2.500 \u0024 für Nebenkosten, 10.000 \u0024 für Löhne und 4.000 \u0024 für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
         "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."
@@ -1471,6 +1495,14 @@ static const Map<String,dynamic> ru = {
       "forex_stop_loss_price": {
         "example": "Если вы открыли позицию по паре EUR/USD по курсу 1,1000 и хотите ограничить свои убытки, установив стоп-лосс на уровне 1,0950, введите значение 1,0950.",
         "instructions": "Пожалуйста, укажите обменный курс, по которому вы разместите свой ордер стоп-лосс, чтобы снизить потенциальные убытки."
+      },
+      "investment_annual_contribution": {
+        "example": "Например, если вы планируете вносить ежегодный вклад в свои инвестиции в размере 10,000 долларов, введите '10,000'.",
+        "instructions": "Введите сумму, которую вы намерены вносить в свои инвестиции каждый год. Это может быть в форме денежных вкладов или других форм инвестирования."
+      },
+      "investment_tax_rate": {
+        "example": "Например, если ваша применимая налоговая ставка составляет 25%, введите '25'.",
+        "instructions": "Введите налоговую ставку, которая применяется к вашим инвестиционным доходам или капитальным приростам. Это должно быть выражено в процентах. Убедитесь, что вы используете ставку, соответствующую вашему налоговому брекету или конкретную ставку налога для типа дохода, который вы сообщаете."
       },
       "operating_expenses": {
         "example": "Например, если ваш бизнес тратит 350000 рублей на аренду, 250000 рублей на коммунальные услуги, 1 миллион рублей на зарплату и 400000 рублей на другие административные расходы, вы складываете эти значения и вводите '2000000'.",
@@ -1934,6 +1966,14 @@ static const Map<String,dynamic> pt = {
         "example": "Se abriu uma posição no par EUR/USD a uma taxa de 1.1000 e deseja limitar as suas perdas definindo um stop-loss a 1.0950, introduza o valor 1.0950.",
         "instructions": "Por favor, especifique a taxa de câmbio na qual colocará a sua ordem de stop-loss para mitigar possíveis perdas."
       },
+      "investment_annual_contribution": {
+        "example": "Por exemplo, se planeia contribuir anualmente com \u002410,000 para o seu investimento, por favor insira '10,000'.",
+        "instructions": "Insira o montante que pretende contribuir anualmente para o seu investimento. Isto pode ser na forma de depósitos em dinheiro ou outras formas de investimento."
+      },
+      "investment_tax_rate": {
+        "example": "Por exemplo, se a sua taxa de imposto aplicável é de 25%, por favor insira '25'.",
+        "instructions": "Insira a taxa de imposto que se aplica aos seus rendimentos de investimento ou ganhos de capital. Isto deve ser expresso em percentagem. Certifique-se de usar a taxa que corresponde ao seu escalão fiscal ou a taxa de imposto específica para o tipo de rendimento que está a declarar."
+      },
       "operating_expenses": {
         "example": "Por exemplo, se o seu negócio gasta 350.000 reais de aluguel, 250.000 reais em serviços públicos, 1 milhão de reais em salários e 400.000 reais em outras despesas administrativas, você adicionaria esses valores e inseriria '2000000'.",
         "instructions": "Insira o montante total das despesas operacionais do negócio. Isso inclui aluguel, serviços públicos, salários, manutenção e outras despesas administrativas necessárias para a operação diária. Não inclua impostos, pagamentos de juros ou despesas não operacionais."
@@ -2395,6 +2435,14 @@ static const Map<String,dynamic> en = {
       "forex_stop_loss_price": {
         "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to limit your losses by setting a stop-loss at 1.0950, enter the value 1.0950.",
         "instructions": "Please specify the exchange rate at which you will place your stop-loss order to mitigate potential losses."
+      },
+      "investment_annual_contribution": {
+        "example": "For example, if you plan to contribute \u002410,000 annually to your investment, please enter '10,000'.",
+        "instructions": "Enter the amount you intend to contribute to your investment each year. This could be in the form of cash deposits or other forms of investment."
+      },
+      "investment_tax_rate": {
+        "example": "For example, if your applicable tax rate is 25%, please enter '25'.",
+        "instructions": "Enter the tax rate that applies to your investment income or capital gains. This should be expressed as a percentage. Ensure you use the rate that corresponds to your tax bracket or the specific tax rate for the type of income you are reporting."
       },
       "operating_expenses": {
         "example": "For example, if your business spent \u00243,500 on rent, \u00242,500 on utilities, \u002410,000 on wages, and \u00244,000 on various administrative expenses, you would add these amounts and enter '20000'.",
@@ -2858,6 +2906,14 @@ static const Map<String,dynamic> it = {
         "example": "Se hai aperto una posizione sulla coppia EUR/USD a un tasso di 1,1000 e desideri limitare le tue perdite impostando uno stop-loss a 1,0950, inserisci il valore 1,0950.",
         "instructions": "Si prega di specificare il tasso di cambio a cui si intende piazzare l'ordine di stop-loss per mitigare le potenziali perdite."
       },
+      "investment_annual_contribution": {
+        "example": "Ad esempio, se prevedi di contribuire annualmente \u002410,000 al tuo investimento, inserisci '10,000'.",
+        "instructions": "Inserisci l'importo che intendi contribuire ogni anno al tuo investimento. Questo potrebbe essere sotto forma di depositi in contanti o altre forme di investimento."
+      },
+      "investment_tax_rate": {
+        "example": "Ad esempio, se la tua aliquota fiscale applicabile è del 25%, inserisci '25'.",
+        "instructions": "Inserisci l'aliquota fiscale che si applica ai tuoi redditi di investimento o plusvalenze. Questo dovrebbe essere espresso in percentuale. Assicurati di utilizzare l'aliquota corrispondente al tuo scaglione fiscale o l'aliquota specifica per il tipo di reddito che stai dichiarando."
+      },
       "operating_expenses": {
         "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
         "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
@@ -3320,6 +3376,14 @@ static const Map<String,dynamic> fr = {
         "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
         "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
       },
+      "investment_annual_contribution": {
+        "example": "Par exemple, si vous prévoyez de contribuer annuellement 10 000 \u0024 à votre investissement, veuillez saisir '10 000'.",
+        "instructions": "Saisissez le montant que vous avez l'intention de contribuer chaque année à votre investissement. Cela pourrait être sous forme de dépôts en espèces ou d'autres formes d'investissement."
+      },
+      "investment_tax_rate": {
+        "example": "Par exemple, si votre taux d'imposition applicable est de 25 %, veuillez saisir '25'.",
+        "instructions": "Saisissez le taux d'imposition qui s'applique à vos revenus d'investissement ou gains en capital. Ceci doit être exprimé en pourcentage. Assurez-vous d'utiliser le taux correspondant à votre tranche fiscale ou le taux d'imposition spécifique pour le type de revenu que vous déclarez."
+      },
       "operating_expenses": {
         "example": "Par exemple, si votre entreprise a dépensé 3 500 \u0024 pour le loyer, 2 500 \u0024 pour les utilitaires, 10 000 \u0024 pour les salaires et 4 000 \u0024 pour diverses dépenses administratives, vous additionneriez ces montants et saisiriez '20000'.",
         "instructions": "Saisissez le montant total des dépenses encourues pour les activités opérationnelles de votre entreprise. Cela devrait inclure des coûts tels que le loyer, les services publics, les salaires, la maintenance et autres dépenses administratives nécessaires au fonctionnement quotidien. Ne pas inclure les taxes, les paiements d'intérêts ou autres dépenses non opérationnelles."
@@ -3781,6 +3845,14 @@ static const Map<String,dynamic> es = {
       "forex_stop_loss_price": {
         "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1,1000 y desea limitar sus pérdidas estableciendo un stop-loss en 1,0950, ingrese el valor 1,0950.",
         "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de stop-loss para mitigar posibles pérdidas."
+      },
+      "investment_annual_contribution": {
+        "example": "Por ejemplo, si planea contribuir anualmente \u002410,000 a su inversión, por favor introduzca '10,000'.",
+        "instructions": "Introduzca el monto que tiene la intención de contribuir a su inversión cada año. Esto podría ser en forma de depósitos en efectivo u otras formas de inversión."
+      },
+      "investment_tax_rate": {
+        "example": "Por ejemplo, si su tasa impositiva aplicable es del 25%, por favor introduzca '25'.",
+        "instructions": "Introduzca la tasa de impuestos que se aplica a sus ingresos por inversiones o ganancias de capital. Esto debe expresarse como un porcentaje. Asegúrese de usar la tasa que corresponde a su tramo impositivo o la tasa de impuestos específica para el tipo de ingreso que está declarando."
       },
       "operating_expenses": {
         "example": "Por ejemplo, si su negocio gasta \u00243,500 en alquiler, \u00242,500 en servicios públicos, \u002410,000 en salarios y \u00244,000 en varios gastos administrativos, sumaría estos montos e introduciría '20000'.",

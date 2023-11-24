@@ -1,6 +1,24 @@
 // ignore_for_file: constant_identifier_names
 
 abstract class FinanceDividendLocaleKeys {
+  static const dividend_help_dividend_payment_frequency_example = 'dividend.help.dividend_payment_frequency.example';
+  static const dividend_help_dividend_payment_frequency_instructions = 'dividend.help.dividend_payment_frequency.instructions';
+  static const dividend_help_dividend_reinvestment_plan_example = 'dividend.help.dividend_reinvestment_plan.example';
+  static const dividend_help_dividend_reinvestment_plan_instructions = 'dividend.help.dividend_reinvestment_plan.instructions';
+  static const dividend_help_dividend_yield_example = 'dividend.help.dividend_yield.example';
+  static const dividend_help_dividend_yield_instructions = 'dividend.help.dividend_yield.instructions';
+  static const dividend_help_duration_in_years_example = 'dividend.help.duration_in_years.example';
+  static const dividend_help_duration_in_years_instructions = 'dividend.help.duration_in_years.instructions';
+  static const dividend_help_expected_annual_dividend_increase_example = 'dividend.help.expected_annual_dividend_increase.example';
+  static const dividend_help_expected_annual_dividend_increase_instructions = 'dividend.help.expected_annual_dividend_increase.instructions';
+  static const dividend_help_net_income_example = 'dividend.help.net_income.example';
+  static const dividend_help_net_income_instructions = 'dividend.help.net_income.instructions';
+  static const dividend_help_share_price_example = 'dividend.help.share_price.example';
+  static const dividend_help_share_price_instructions = 'dividend.help.share_price.instructions';
+  static const dividend_help_shares_owned_example = 'dividend.help.shares_owned.example';
+  static const dividend_help_shares_owned_instructions = 'dividend.help.shares_owned.instructions';
+  static const dividend_help_total_dividends_example = 'dividend.help.total_dividends.example';
+  static const dividend_help_total_dividends_instructions = 'dividend.help.total_dividends.instructions';
   static const dividend_label_annual_dividend_income = 'dividend.label.annual.dividend_income';
   static const dividend_label_annual_dividend_per_share = 'dividend.label.annual.dividend_per_share';
   static const dividend_label_annual_net_dividend_income = 'dividend.label.annual.net_dividend_income';

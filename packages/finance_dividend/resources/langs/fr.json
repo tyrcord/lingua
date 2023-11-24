@@ -1,5 +1,43 @@
 {
   "dividend": {
+    "help": {
+      "dividend_payment_frequency": {
+        "example": "Par exemple, choisissez 'Trimestriel' si une entreprise distribue des dividendes quatre fois par an, ou sélectionnez 'Annuel' si les dividendes sont payés une fois par an.",
+        "instructions": "Sélectionnez la fréquence des paiements de dividendes de l'entreprise. Les options sont 'Mensuel', 'Trimestriel', 'Semestriel', et 'Annuel'."
+      },
+      "dividend_reinvestment_plan": {
+        "example": "Par exemple, si vous êtes inscrit à un plan de réinvestissement des dividendes, saisissez 'Oui', sinon saisissez 'Non'.",
+        "instructions": "Spécifiez si vous participez à un Plan de Réinvestissement des Dividendes (DRIP) pour cet investissement. Les DRIP permettent aux investisseurs de réinvestir leurs dividendes en espèces dans des actions supplémentaires ou des fractions d'actions de l'action sous-jacente."
+      },
+      "dividend_yield": {
+        "example": "Par exemple, si le rendement en dividendes d'une action est de 3,5 %, saisissez '3,5'.",
+        "instructions": "Saisissez le rendement en dividendes de l'action. Le rendement en dividendes est exprimé en pourcentage et représente le rapport entre le dividende annuel d'une entreprise et son prix d'action."
+      },
+      "duration_in_years": {
+        "example": "Par exemple, si vous avez détenu un investissement pendant 5 ans, saisissez '5'.",
+        "instructions": "Saisissez le nombre total d'années pendant lesquelles vous avez détenu ou prévoyez de détenir l'investissement."
+      },
+      "expected_annual_dividend_increase": {
+        "example": "Par exemple, si vous prévoyez une augmentation annuelle de 2 % des dividendes, saisissez '2'.",
+        "instructions": "Saisissez l'augmentation annuelle en pourcentage prévue des dividendes de vos investissements. Il s'agit d'une estimation de combien les paiements de dividendes devraient croître chaque année."
+      },
+      "net_income": {
+        "example": "Ad esempio, se il reddito netto di un'azienda per l'anno è di 1,5 milioni di dollari, si prega di inserire '1.500.000'.",
+        "instructions": "Inserisci il reddito netto dell'azienda per un periodo specificato. Il reddito netto è l'utile di un'azienda dopo che tutte le spese e le tasse sono state dedotte dal ricavo totale."
+      },
+      "share_price": {
+        "example": "Par exemple, si le prix actuel d'une action d'entreprise est de 50$, veuillez entrer '50'.",
+        "instructions": "Entrez le prix actuel de l'action que vous examinez."
+      },
+      "shares_owned": {
+        "example": "Par exemple, si vous possédez 500 actions d'une entreprise, veuillez saisir '500'.",
+        "instructions": "Saisissez le nombre total d'actions que vous possédez actuellement dans l'entreprise."
+      },
+      "total_dividends": {
+        "example": "Par exemple, si une entreprise a versé 200.000$ en dividendes pendant un an, entrez '200.000'.",
+        "instructions": "Entrez le montant total des dividendes distribués par une entreprise."
+      }
+    },
     "label": {
       "annual": {
         "dividend_income": "Revenu annuel de dividendes",

@@ -1,5 +1,43 @@
 {
   "dividend": {
+    "help": {
+      "dividend_payment_frequency": {
+        "example": "For example, choose 'Quarterly' if a company distributes dividends four times a year, or select 'Annually' if dividends are paid once a year.",
+        "instructions": "Select the frequency of dividend payments by the company. The options are 'Monthly', 'Quarterly', 'Semiannually', and 'Annually."
+      },
+      "dividend_reinvestment_plan": {
+        "example": "For example, if you are enrolled in a dividend reinvestment plan, enter 'Yes', otherwise enter 'No'.",
+        "instructions": "Specify whether you are participating in a Dividend Reinvestment Plan (DRIP) for this investment. DRIPs allow investors to reinvest their cash dividends into additional shares or fractional shares of the underlying stock."
+      },
+      "dividend_yield": {
+        "example": "For example, if the dividend yield of a stock is 3.5%, enter '3.5'.",
+        "instructions": "Enter the dividend yield of the stock. The dividend yield is expressed as a percentage and represents the ratio of a company's annual dividend compared to its share price."
+      },
+      "duration_in_years": {
+        "example": "For example, if you have held an investment for 5 years, enter '5'.",
+        "instructions": "Enter the total number of years you have held or plan to hold the investment."
+      },
+      "expected_annual_dividend_increase": {
+        "example": "For example, if you anticipate a 2% annual increase in dividends, enter '2'.",
+        "instructions": "Enter the expected annual percentage increase in dividends from your investments. This is an estimate of how much the dividend payouts are expected to grow each year."
+      },
+      "net_income": {
+        "example": "For example, if a company's net income for the year is $1.5 million, please enter '1,500,000'.",
+        "instructions": "Enter the net income of the company for a specified period. Net income is the profit of a company after all expenses and taxes have been deducted from total revenue."
+      },
+      "share_price": {
+        "example": "For example, if the current price of a company's stock is $50, please enter '50'.",
+        "instructions": "Enter the current price of the stock you are reviewing."
+      },
+      "shares_owned": {
+        "example": "For example, if you own 500 shares of a company, please enter '500'.",
+        "instructions": "Enter the total number of shares you currently own in the company."
+      },
+      "total_dividends": {
+        "example": "For example, if a company has paid out $200,000 in dividends during a year, enter '200,000'.",
+        "instructions": "Enter the total amount of dividends distributed by a company."
+      }
+    },
     "label": {
       "annual": {
         "dividend_income": "Annual Dividend Income",

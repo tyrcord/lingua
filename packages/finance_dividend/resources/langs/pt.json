@@ -1,5 +1,43 @@
 {
   "dividend": {
+    "help": {
+      "dividend_payment_frequency": {
+        "example": "Por exemplo, escolha 'Trimestral' se uma empresa distribui dividendos quatro vezes por ano, ou selecione 'Anual' se os dividendos são pagos uma vez por ano.",
+        "instructions": "Selecione a frequência dos pagamentos de dividendos pela empresa. As opções são 'Mensal', 'Trimestral', 'Semestral' e 'Anual'."
+      },
+      "dividend_reinvestment_plan": {
+        "example": "Por exemplo, se está inscrito num plano de reinvestimento de dividendos, insira 'Sim', caso contrário insira 'Não'.",
+        "instructions": "Especifique se está a participar num Plano de Reinvestimento de Dividendos (DRIP) para este investimento. Os DRIP permitem aos investidores reinvestir os seus dividendos em dinheiro em ações adicionais ou frações de ações da ação subjacente."
+      },
+      "dividend_yield": {
+        "example": "Por exemplo, se o rendimento de dividendos de uma ação é de 3,5%, insira '3,5'.",
+        "instructions": "Insira o rendimento de dividendos da ação. O rendimento de dividendos é expresso em percentagem e representa a relação entre o dividendo anual de uma empresa comparado ao seu preço de ação."
+      },
+      "duration_in_years": {
+        "example": "Por exemplo, se manteve um investimento por 5 anos, insira '5'.",
+        "instructions": "Insira o número total de anos que manteve ou planeia manter o investimento."
+      },
+      "expected_annual_dividend_increase": {
+        "example": "Por exemplo, se antecipa um aumento anual de 2% nos dividendos, insira '2'.",
+        "instructions": "Insira o aumento percentual anual esperado nos dividendos dos seus investimentos. Esta é uma estimativa de quanto se espera que os pagamentos de dividendos cresçam a cada ano."
+      },
+      "net_income": {
+        "example": "Por exemplo, se o rendimento líquido de uma empresa for de 1,5 milhões de dólares no ano, por favor insira '1.500.000'.",
+        "instructions": "Insira o rendimento líquido da empresa para um período especificado. O rendimento líquido é o lucro de uma empresa após todas as despesas e impostos terem sido deduzidos da receita total."
+      },
+      "share_price": {
+        "example": "Por exemplo, se o preço atual de uma ação de uma empresa é 50$, por favor, insira '50'.",
+        "instructions": "Insira o preço atual da ação que está a analisar."
+      },
+      "shares_owned": {
+        "example": "Por exemplo, se possui 500 ações de uma empresa, por favor insira '500'.",
+        "instructions": "Insira o número total de ações que possui atualmente na empresa."
+      },
+      "total_dividends": {
+        "example": "Por exemplo, se uma empresa pagou 200.000$ em dividendos durante um ano, insira '200.000'.",
+        "instructions": "Insira o montante total de dividendos distribuídos por uma empresa."
+      }
+    },
     "label": {
       "annual": {
         "dividend_income": "Rendimento Anual de Dividendos",

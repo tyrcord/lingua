@@ -1,6 +1,10 @@
 {
   "stock": {
     "help": {
+      "expected_annual_share_price_appreciation": {
+        "example": "Ad esempio, se ti aspetti che il prezzo delle azioni apprezzi del 5% annualmente, inserisci '5'.",
+        "instructions": "Inserisci l'aumento percentuale annuo previsto del prezzo delle azioni del tuo investimento. Questa è una stima del tasso di crescita annuale del valore delle azioni."
+      },
       "slippage": {
         "example": "Supponiamo che tu intenda entrare sul mercato inserendo un ordine di stop per acquistare un'azione a $100 per azione. Tuttavia, a causa delle condizioni di mercato prevalenti e della disponibilità limitata di venditori, l'ordine viene eseguito a un prezzo leggermente più alto, a $101 per azione. In uno scenario del genere, la slippage ammonta al 1% ([$101 - $100] / $100 * 100%). Pertanto, se prevedi una slippage del 1% durante l'ingresso sul mercato, inserisci il valore 1.",
         "text": "Rappresenta la deviazione attesa che potresti incontrare durante l'ingresso o l'uscita dal mercato. È comune che gli ordini effettuati con ordini di stop o stop loss non vengano eseguiti al prezzo indicato esattamente. La slippage, espressa come percentuale, considera le deviazioni potenziali che possono verificarsi sia per i prezzi di ingresso che di uscita."

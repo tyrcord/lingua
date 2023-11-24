@@ -1,6 +1,10 @@
 {
   "stock": {
     "help": {
+      "expected_annual_share_price_appreciation": {
+        "example": "For example, if you expect the share price to appreciate by 5% annually, enter '5'.",
+        "instructions": "Enter the expected annual percentage increase in the share price of your investment. This is an estimate of the yearly growth rate in the value of the shares."
+      },
       "slippage": {
         "example": "Let's suppose you intend to enter the market by placing a stop order to buy a stock at $100 per share. However, due to prevailing market conditions and the limited availability of sellers, the order ends up being executed at a slightly higher price of $101 per share. In such a scenario, the slippage would amount to 1% ([$101 - $100] / $100 * 100%). Therefore, if you anticipate a 1% slippage when entering the market, please enter the value 1",
         "text": "Represents the expected deviation you may encounter when entering or exiting the market. It is common for orders placed with stop orders or stop losses to not be executed at the exact indicated price. Slippage, expressed as a percentage, considers the potential deviations that can occur for both your entry and exit prices."
