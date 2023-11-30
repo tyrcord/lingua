@@ -342,6 +342,7 @@
       "regular_addition": "Aggiunta regolare",
       "required_margin": "Margine richiesto",
       "resistance_level": "Livello di resistenza {level}",
+      "retained_earnings": "Utili non distribuiti",
       "retracement": "Ritracimento",
       "return_on_investment": "Rendimento dell'investimento",
       "revenue": "Entrate",
@@ -419,6 +420,7 @@
         "text": "Mancia"
       },
       "total": {
+        "contributions": "Contributi totali",
         "costs": {
           "losing_position": "Costi totali per una posizione perdente",
           "profit_position": "Costi totali per una posizione vincente",

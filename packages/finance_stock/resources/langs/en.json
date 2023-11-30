@@ -14,6 +14,8 @@
       "expected_annual_share_price_appreciation": "Expected Annual Share Price Appreciation",
       "number_of_shares": "Number of shares",
       "share_price": "Share Price",
+      "share_price_appreciation": "Share price appreciation",
+      "share_value_excluding_dividends": "Share value excluding dividends",
       "shares": "Shares",
       "shares_owned": "Shares Owned",
       "stock": "Stock",

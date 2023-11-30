@@ -204,6 +204,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_regular_addition = 'finance.label.regular_addition';
   static const finance_label_required_margin = 'finance.label.required_margin';
   static const finance_label_resistance_level = 'finance.label.resistance_level';
+  static const finance_label_retained_earnings = 'finance.label.retained_earnings';
   static const finance_label_retracement = 'finance.label.retracement';
   static const finance_label_return_on_investment = 'finance.label.return_on_investment';
   static const finance_label_revenue = 'finance.label.revenue';
@@ -256,6 +257,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_tip_amount = 'finance.label.tip.amount';
   static const finance_label_tip_rate = 'finance.label.tip.rate';
   static const finance_label_tip_text = 'finance.label.tip.text';
+  static const finance_label_total_contributions = 'finance.label.total.contributions';
   static const finance_label_total_costs_losing_position = 'finance.label.total.costs.losing_position';
   static const finance_label_total_costs_profit_position = 'finance.label.total.costs.profit_position';
   static const finance_label_total_costs_text = 'finance.label.total.costs.text';

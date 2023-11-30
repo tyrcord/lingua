@@ -14,6 +14,8 @@
       "expected_annual_share_price_appreciation": "予想される年間株価上昇",
       "number_of_shares": "株式数",
       "share_price": "株価",
+      "share_price_appreciation": "株価の上昇",
+      "share_value_excluding_dividends": "配当を除く株価",
       "shares": "株式",
       "shares_owned": "保有株式",
       "stock": "株式",

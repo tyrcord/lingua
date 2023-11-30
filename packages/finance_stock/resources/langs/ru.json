@@ -14,6 +14,8 @@
       "expected_annual_share_price_appreciation": "Ожидаемое ежегодное повышение цены акций",
       "number_of_shares": "Количество акций",
       "share_price": "Цена акции",
+      "share_price_appreciation": "Рост стоимости акции",
+      "share_value_excluding_dividends": "Стоимость акции без учета дивидендов",
       "shares": "Доли",
       "shares_owned": "Владеемые акции",
       "stock": "Акции",

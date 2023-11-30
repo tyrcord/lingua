@@ -342,6 +342,7 @@
       "regular_addition": "Adição regular",
       "required_margin": "Margem exigida",
       "resistance_level": "Nível de resistência {level}",
+      "retained_earnings": "Lucros retidos",
       "retracement": "Retração",
       "return_on_investment": "Retorno sobre o investimento",
       "revenue": "Receita",
@@ -419,6 +420,7 @@
         "text": "Gorjeta"
       },
       "total": {
+        "contributions": "Contribuições totais",
         "costs": {
           "losing_position": "Custos totais para uma posição perdedora",
           "profit_position": "Custos totais para uma posição vencedora",

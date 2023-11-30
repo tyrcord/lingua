@@ -342,6 +342,7 @@
       "regular_addition": "Регулярное дополнение",
       "required_margin": "Требуемая маржа",
       "resistance_level": "Уровень сопротивления {level}",
+      "retained_earnings": "Нераспределенная прибыль",
       "retracement": "Ретрейсмент",
       "return_on_investment": "Рентабельность инвестиций",
       "revenue": "Выручка",
@@ -419,6 +420,7 @@
         "text": "Чаевые"
       },
       "total": {
+        "contributions": "Общий взнос",
         "costs": {
           "losing_position": "Общие затраты на убыточную позицию",
           "profit_position": "Общие затраты на прибыльную позицию",

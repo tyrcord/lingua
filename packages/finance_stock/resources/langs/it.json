@@ -14,6 +14,8 @@
       "expected_annual_share_price_appreciation": "Apprezzamento annuale previsto del prezzo delle azioni",
       "number_of_shares": "Numero di azioni",
       "share_price": "Prezzo azione",
+      "share_price_appreciation": "Apprezzamento del prezzo dell'azione",
+      "share_value_excluding_dividends": "Valore dell'azione esclusi i dividendi",
       "shares": "Quote",
       "shares_owned": "Azioni possedute",
       "stock": "Azioni",

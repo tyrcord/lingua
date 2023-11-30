@@ -54,6 +54,7 @@
         "text": "Dividendo",
         "yield": "Rendimento dei dividendi"
       },
+      "Dividends": "Dividendi",
       "expected_annual_dividend_increase": "Aumento annuale dei dividendi previsto",
       "gross_dividend_paid": "Dividendi lordi pagati",
       "high_dividend": "Dividendo alto",

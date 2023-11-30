@@ -342,6 +342,7 @@
       "regular_addition": "定期增加",
       "required_margin": "所需保证金",
       "resistance_level": "阻力位 {level}",
+      "retained_earnings": "留存收益",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
       "revenue": "收入",
@@ -419,6 +420,7 @@
         "text": "小费"
       },
       "total": {
+        "contributions": "总贡献",
         "costs": {
           "losing_position": "亏损头寸的总成本",
           "profit_position": "盈利头寸的总成本",

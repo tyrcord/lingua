@@ -342,6 +342,7 @@
       "regular_addition": "Ajout régulier",
       "required_margin": "Marge requise",
       "resistance_level": "Niveau de résistance {level}",
+      "retained_earnings": "Bénéfices non distribués",
       "retracement": "Retracement",
       "return_on_investment": "Retour sur investissement",
       "revenue": "Revenu",
@@ -419,6 +420,7 @@
         "text": "Pourboire"
       },
       "total": {
+        "contributions": "Contributions totales",
         "costs": {
           "losing_position": "Coûts totaux pour une position perdante",
           "profit_position": "Coûts totaux pour une position gagnante",

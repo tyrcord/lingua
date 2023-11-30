@@ -342,6 +342,7 @@
       "regular_addition": "Aportación regular",
       "required_margin": "Margen requerido",
       "resistance_level": "Nivel de resistencia {level}",
+      "retained_earnings": "Beneficios retenidos",
       "retracement": "Retracción",
       "return_on_investment": "Retorno de la inversión",
       "revenue": "Ingresos",
@@ -419,6 +420,7 @@
         "text": "Propina"
       },
       "total": {
+        "contributions": "Contribuciones totales",
         "costs": {
           "losing_position": "Costos totales para una posición perdedora",
           "profit_position": "Costos totales para una posición ganadora",

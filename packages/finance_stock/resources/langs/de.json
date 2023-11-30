@@ -14,6 +14,8 @@
       "expected_annual_share_price_appreciation": "Erwartete jährliche Aktienkurssteigerung",
       "number_of_shares": "Anzahl der Aktien",
       "share_price": "Aktienkurs",
+      "share_price_appreciation": "Wertsteigerung der Aktie",
+      "share_value_excluding_dividends": "Aktienwert ohne Dividenden",
       "shares": "Anteile",
       "shares_owned": "Gehaltene Aktien",
       "stock": "Aktien",

@@ -342,6 +342,7 @@
       "regular_addition": "Regular Addition",
       "required_margin": "Required Margin",
       "resistance_level": "Resistance {level}",
+      "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
       "revenue": "Revenue",
@@ -419,6 +420,7 @@
         "text": "Tip"
       },
       "total": {
+        "contributions": "Total contributions",
         "costs": {
           "losing_position": "Total costs for a losing position",
           "profit_position": "Total costs for a winning position",

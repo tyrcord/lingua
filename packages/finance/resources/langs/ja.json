@@ -342,6 +342,7 @@
       "regular_addition": "定期的な追加",
       "required_margin": "必要な証拠金",
       "resistance_level": "抵抗レベル{level}",
+      "retained_earnings": "剰余金",
       "retracement": "リトレースメント",
       "return_on_investment": "投資利益率",
       "revenue": "収益",
@@ -419,6 +420,7 @@
         "text": "チップ"
       },
       "total": {
+        "contributions": "総拠出金",
         "costs": {
           "losing_position": "敗北したポジションの総コスト",
           "profit_position": "勝利したポジションの総コスト",

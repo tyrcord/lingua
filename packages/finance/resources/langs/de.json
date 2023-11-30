@@ -342,6 +342,7 @@
       "regular_addition": "Regelmäßige Hinzufügung",
       "required_margin": "Erforderliche Marge",
       "resistance_level": "Widerstand {level}",
+      "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
       "revenue": "Einnahmen",
@@ -419,6 +420,7 @@
         "text": "Trinkgeld"
       },
       "total": {
+        "contributions": "Total contributions",
         "costs": {
           "losing_position": "Gesamtkosten für eine Verlustposition",
           "profit_position": "Gesamtkosten für eine Gewinnposition",

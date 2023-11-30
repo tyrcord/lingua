@@ -355,6 +355,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "regular_addition": "定期增加",
       "required_margin": "所需保证金",
       "resistance_level": "阻力位 {level}",
+      "retained_earnings": "留存收益",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
       "revenue": "收入",
@@ -432,6 +433,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "text": "小费"
       },
       "total": {
+        "contributions": "总贡献",
         "costs": {
           "losing_position": "亏损头寸的总成本",
           "profit_position": "盈利头寸的总成本",
@@ -825,6 +827,7 @@ static const Map<String,dynamic> ja = {
       "regular_addition": "定期的な追加",
       "required_margin": "必要な証拠金",
       "resistance_level": "抵抗レベル{level}",
+      "retained_earnings": "剰余金",
       "retracement": "リトレースメント",
       "return_on_investment": "投資利益率",
       "revenue": "収益",
@@ -902,6 +905,7 @@ static const Map<String,dynamic> ja = {
         "text": "チップ"
       },
       "total": {
+        "contributions": "総拠出金",
         "costs": {
           "losing_position": "敗北したポジションの総コスト",
           "profit_position": "勝利したポジションの総コスト",
@@ -1295,6 +1299,7 @@ static const Map<String,dynamic> de = {
       "regular_addition": "Regelmäßige Hinzufügung",
       "required_margin": "Erforderliche Marge",
       "resistance_level": "Widerstand {level}",
+      "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
       "revenue": "Einnahmen",
@@ -1372,6 +1377,7 @@ static const Map<String,dynamic> de = {
         "text": "Trinkgeld"
       },
       "total": {
+        "contributions": "Total contributions",
         "costs": {
           "losing_position": "Gesamtkosten für eine Verlustposition",
           "profit_position": "Gesamtkosten für eine Gewinnposition",
@@ -1765,6 +1771,7 @@ static const Map<String,dynamic> ru = {
       "regular_addition": "Регулярное дополнение",
       "required_margin": "Требуемая маржа",
       "resistance_level": "Уровень сопротивления {level}",
+      "retained_earnings": "Нераспределенная прибыль",
       "retracement": "Ретрейсмент",
       "return_on_investment": "Рентабельность инвестиций",
       "revenue": "Выручка",
@@ -1842,6 +1849,7 @@ static const Map<String,dynamic> ru = {
         "text": "Чаевые"
       },
       "total": {
+        "contributions": "Общий взнос",
         "costs": {
           "losing_position": "Общие затраты на убыточную позицию",
           "profit_position": "Общие затраты на прибыльную позицию",
@@ -2235,6 +2243,7 @@ static const Map<String,dynamic> pt = {
       "regular_addition": "Adição regular",
       "required_margin": "Margem exigida",
       "resistance_level": "Nível de resistência {level}",
+      "retained_earnings": "Lucros retidos",
       "retracement": "Retração",
       "return_on_investment": "Retorno sobre o investimento",
       "revenue": "Receita",
@@ -2312,6 +2321,7 @@ static const Map<String,dynamic> pt = {
         "text": "Gorjeta"
       },
       "total": {
+        "contributions": "Contribuições totais",
         "costs": {
           "losing_position": "Custos totais para uma posição perdedora",
           "profit_position": "Custos totais para uma posição vencedora",
@@ -2705,6 +2715,7 @@ static const Map<String,dynamic> en = {
       "regular_addition": "Regular Addition",
       "required_margin": "Required Margin",
       "resistance_level": "Resistance {level}",
+      "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
       "revenue": "Revenue",
@@ -2782,6 +2793,7 @@ static const Map<String,dynamic> en = {
         "text": "Tip"
       },
       "total": {
+        "contributions": "Total contributions",
         "costs": {
           "losing_position": "Total costs for a losing position",
           "profit_position": "Total costs for a winning position",
@@ -3175,6 +3187,7 @@ static const Map<String,dynamic> it = {
       "regular_addition": "Aggiunta regolare",
       "required_margin": "Margine richiesto",
       "resistance_level": "Livello di resistenza {level}",
+      "retained_earnings": "Utili non distribuiti",
       "retracement": "Ritracimento",
       "return_on_investment": "Rendimento dell'investimento",
       "revenue": "Entrate",
@@ -3252,6 +3265,7 @@ static const Map<String,dynamic> it = {
         "text": "Mancia"
       },
       "total": {
+        "contributions": "Contributi totali",
         "costs": {
           "losing_position": "Costi totali per una posizione perdente",
           "profit_position": "Costi totali per una posizione vincente",
@@ -3645,6 +3659,7 @@ static const Map<String,dynamic> fr = {
       "regular_addition": "Ajout régulier",
       "required_margin": "Marge requise",
       "resistance_level": "Niveau de résistance {level}",
+      "retained_earnings": "Bénéfices non distribués",
       "retracement": "Retracement",
       "return_on_investment": "Retour sur investissement",
       "revenue": "Revenu",
@@ -3722,6 +3737,7 @@ static const Map<String,dynamic> fr = {
         "text": "Pourboire"
       },
       "total": {
+        "contributions": "Contributions totales",
         "costs": {
           "losing_position": "Coûts totaux pour une position perdante",
           "profit_position": "Coûts totaux pour une position gagnante",
@@ -4115,6 +4131,7 @@ static const Map<String,dynamic> es = {
       "regular_addition": "Aportación regular",
       "required_margin": "Margen requerido",
       "resistance_level": "Nivel de resistencia {level}",
+      "retained_earnings": "Beneficios retenidos",
       "retracement": "Retracción",
       "return_on_investment": "Retorno de la inversión",
       "revenue": "Ingresos",
@@ -4192,6 +4209,7 @@ static const Map<String,dynamic> es = {
         "text": "Propina"
       },
       "total": {
+        "contributions": "Contribuciones totales",
         "costs": {
           "losing_position": "Costos totales para una posición perdedora",
           "profit_position": "Costos totales para una posición ganadora",

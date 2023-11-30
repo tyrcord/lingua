@@ -15,8 +15,8 @@ class AppsCodegenLoader extends AssetLoader {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "此应用程序旨在帮助您选择分红股票。",
-        "title": "发掘您财务潜力，见证财富的蓬勃发展！"
+        "description": "发挥复利的威力，看看如何通过重新投资您的红利来显著增加您随时间的收益。",
+        "title": "最大化您的投资回报！"
       }
     },
     "expressions_quebecoises": {
@@ -63,8 +63,8 @@ static const Map<String,dynamic> ja = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "このアプリは、配当株を選ぶのをサポートするために作成されています。",
-        "title": "あなたの資産の可能性を引き出し、富を築くチャンスをつかみましょう！"
+        "description": "複利の力を活用し、配当の再投資が時間とともにどのように収益を大幅に増幅させるかを確認してください。",
+        "title": "投資リターンを最大化しましょう！"
       }
     },
     "expressions_quebecoises": {
@@ -111,8 +111,8 @@ static const Map<String,dynamic> de = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Diese App soll Ihnen bei der Auswahl von Dividendenaktien helfen.",
-        "title": "Entdecken Sie das Potenzial Ihrer Finanzen und sehen Sie Ihren Wohlstand erblühen!"
+        "description": "Nutzen Sie die Kraft des Zinseszins und sehen Sie, wie das Reinvestieren Ihrer Dividenden Ihre Erträge im Laufe der Zeit erheblich steigern kann.",
+        "title": "Maximieren Sie Ihre Anlagerenditen!"
       }
     },
     "expressions_quebecoises": {
@@ -159,8 +159,8 @@ static const Map<String,dynamic> ru = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Это приложение разработано, чтобы помочь вам выбрать акции с дивидендами.",
-        "title": "Разблокируйте потенциал ваших финансов и наблюдайте, как растет ваше состояние!"
+        "description": "Используйте силу сложного процента и узнайте, как реинвестирование ваших дивидендов может значительно увеличить ваши доходы со временем.",
+        "title": "Максимизируйте ваши инвестиционные доходы!"
       }
     },
     "expressions_quebecoises": {
@@ -207,8 +207,8 @@ static const Map<String,dynamic> pt = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Este aplicativo foi desenvolvido para ajudá-lo a escolher ações pagadoras de dividendos.",
-        "title": "Desbloqueie o potencial de suas finanças e veja sua riqueza florescer!"
+        "description": "Aproveite o poder da capitalização e veja como reinvestir os seus dividendos pode amplificar significativamente os seus rendimentos ao longo do tempo.",
+        "title": "Maximizar seus Retornos de Investimento!"
       }
     },
     "expressions_quebecoises": {
@@ -255,8 +255,8 @@ static const Map<String,dynamic> en = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "This app is designed to assist you in choosing dividend stocks.",
-        "title": "Unlock the potential of your finances and watch your wealth flourish!"
+        "description": "Embrace the power of compounding and see how reinvesting your dividends can significantly amplify your earnings over time.",
+        "title": "Maximizing Your Investment Returns!"
       }
     },
     "expressions_quebecoises": {
@@ -303,8 +303,8 @@ static const Map<String,dynamic> it = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Questa app è progettata per aiutarti nella scelta di azioni che distribuiscono dividendi.",
-        "title": "Sfrutta il potenziale delle tue finanze e guarda crescere la tua ricchezza!"
+        "description": "Sfrutta la potenza dell'interesse composto e vedi come reinvestire i tuoi dividendi può amplificare significativamente i tuoi guadagni nel tempo.",
+        "title": "Massimizza i tuoi rendimenti sugli investimenti!"
       }
     },
     "expressions_quebecoises": {
@@ -351,8 +351,8 @@ static const Map<String,dynamic> fr = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Cette application est conçue pour vous aider à choisir des actions à dividendes.",
-        "title": "Débloquez le potentiel de vos finances et voyez votre richesse s'épanouir !"
+        "description": "Exploitez la puissance des intérêts composés et voyez comment le réinvestissement de vos dividendes peut considérablement amplifier vos gains au fil du temps.",
+        "title": "Maximiser vos rendements d'investissement !"
       }
     },
     "expressions_quebecoises": {
@@ -399,8 +399,8 @@ static const Map<String,dynamic> es = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Esta aplicación está diseñada para ayudarte a elegir acciones que repartan dividendos.",
-        "title": "¡Desbloquea el potencial de tus finanzas y observa cómo crece tu riqueza!"
+        "description": "Aproveche el poder del interés compuesto y vea cómo reinvertir sus dividendos puede amplificar significativamente sus ganancias con el tiempo.",
+        "title": "¡Maximizando sus rendimientos de inversión!"
       }
     },
     "expressions_quebecoises": {

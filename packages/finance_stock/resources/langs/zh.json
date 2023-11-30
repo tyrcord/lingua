@@ -14,6 +14,8 @@
       "expected_annual_share_price_appreciation": "预期年股价增长",
       "number_of_shares": "股份数量",
       "share_price": "股价",
+      "share_price_appreciation": "股价升值",
+      "share_value_excluding_dividends": "不包括红利的股票价值",
       "shares": "份额",
       "shares_owned": "持有股票",
       "stock": "股票",

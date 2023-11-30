@@ -67,6 +67,7 @@ class FinanceDividendCodegenLoader extends AssetLoader {
         "text": "股息",
         "yield": "股息收益率"
       },
+      "Dividends": "红利",
       "expected_annual_dividend_increase": "预期年度股息增长",
       "gross_dividend_paid": "总计发放的股息",
       "high_dividend": "高股息",
@@ -140,6 +141,7 @@ static const Map<String,dynamic> ja = {
         "text": "配当",
         "yield": "配当利回り"
       },
+      "Dividends": "配当",
       "expected_annual_dividend_increase": "予想年間配当増加額",
       "gross_dividend_paid": "支払われる総配当金",
       "high_dividend": "高配当",
@@ -213,6 +215,7 @@ static const Map<String,dynamic> de = {
         "text": "Dividende",
         "yield": "Dividendenrendite"
       },
+      "Dividends": "Dividenden",
       "expected_annual_dividend_increase": "Erwartete jährliche Dividendenerhöhung",
       "gross_dividend_paid": "Bruttoausgeschüttete Dividende",
       "high_dividend": "Hohe Dividende",
@@ -286,6 +289,7 @@ static const Map<String,dynamic> ru = {
         "text": "Дивиденд",
         "yield": "Дивидендная доходность"
       },
+      "Dividends": "Дивиденды",
       "expected_annual_dividend_increase": "Ожидаемое ежегодное увеличение дивиденда",
       "gross_dividend_paid": "Всего выплаченных дивидендов",
       "high_dividend": "Высокий дивиденд",
@@ -359,6 +363,7 @@ static const Map<String,dynamic> pt = {
         "text": "Dividendo",
         "yield": "Rendimento de Dividendos"
       },
+      "Dividends": "Dividendos",
       "expected_annual_dividend_increase": "Aumento Anual Esperado de Dividendos",
       "gross_dividend_paid": "Dividendos Brutos Pagos",
       "high_dividend": "Dividendo Alto",
@@ -432,6 +437,7 @@ static const Map<String,dynamic> en = {
         "text": "Dividend",
         "yield": "Dividend Yield"
       },
+      "Dividends": "Dividends",
       "expected_annual_dividend_increase": "Expected Annual Dividend Increase",
       "gross_dividend_paid": "Gross Dividend Paid",
       "high_dividend": "High Dividend",
@@ -505,6 +511,7 @@ static const Map<String,dynamic> it = {
         "text": "Dividendo",
         "yield": "Rendimento dei dividendi"
       },
+      "Dividends": "Dividendi",
       "expected_annual_dividend_increase": "Aumento annuale dei dividendi previsto",
       "gross_dividend_paid": "Dividendi lordi pagati",
       "high_dividend": "Dividendo alto",
@@ -578,6 +585,7 @@ static const Map<String,dynamic> fr = {
         "text": "Dividende",
         "yield": "Rendement des dividendes"
       },
+      "Dividends": "Dividendes",
       "expected_annual_dividend_increase": "Augmentation annuelle prévue des dividendes",
       "gross_dividend_paid": "Dividendes bruts versés",
       "high_dividend": "Dividende élevé",
@@ -651,6 +659,7 @@ static const Map<String,dynamic> es = {
         "text": "Dividendo",
         "yield": "Rendimiento de dividendos"
       },
+      "Dividends": "Dividendos",
       "expected_annual_dividend_increase": "Incremento anual de dividendos esperado",
       "gross_dividend_paid": "Dividendos brutos pagados",
       "high_dividend": "Dividendo alto",
