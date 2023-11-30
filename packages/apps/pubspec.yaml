@@ -1,6 +1,6 @@
 name: lingua_apps
 description: Library for internal apps localization.
-version: 0.0.9
+version: 0.0.10
 repository: https://github.com/tyrcord/lingua/tree/main/packages/apps
 
 environment:
