@@ -30,7 +30,7 @@ abstract class FinanceDividendLocaleKeys {
   static const dividend_label_dividend_reinvestment_plan = 'dividend.label.dividend.reinvestment_plan';
   static const dividend_label_dividend_text = 'dividend.label.dividend.text';
   static const dividend_label_dividend_yield = 'dividend.label.dividend.yield';
-  static const dividend_label_Dividends = 'dividend.label.Dividends';
+  static const dividend_label_dividends = 'dividend.label.dividends';
   static const dividend_label_expected_annual_dividend_increase = 'dividend.label.expected_annual_dividend_increase';
   static const dividend_label_gross_dividend_paid = 'dividend.label.gross_dividend_paid';
   static const dividend_label_high_dividend = 'dividend.label.high_dividend';

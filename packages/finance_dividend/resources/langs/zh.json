@@ -54,7 +54,7 @@
         "text": "股息",
         "yield": "股息收益率"
       },
-      "Dividends": "红利",
+      "dividends": "红利",
       "expected_annual_dividend_increase": "预期年度股息增长",
       "gross_dividend_paid": "总计发放的股息",
       "high_dividend": "高股息",

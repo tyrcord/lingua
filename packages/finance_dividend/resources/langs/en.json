@@ -54,7 +54,7 @@
         "text": "Dividend",
         "yield": "Dividend Yield"
       },
-      "Dividends": "Dividends",
+      "dividends": "Dividends",
       "expected_annual_dividend_increase": "Expected Annual Dividend Increase",
       "gross_dividend_paid": "Gross Dividend Paid",
       "high_dividend": "High Dividend",

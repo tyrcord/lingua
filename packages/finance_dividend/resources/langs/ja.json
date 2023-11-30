@@ -54,7 +54,7 @@
         "text": "配当",
         "yield": "配当利回り"
       },
-      "Dividends": "配当",
+      "dividends": "配当",
       "expected_annual_dividend_increase": "予想年間配当増加額",
       "gross_dividend_paid": "支払われる総配当金",
       "high_dividend": "高配当",
