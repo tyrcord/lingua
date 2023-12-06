@@ -7,6 +7,16 @@ abstract class FinanceForexLocaleKeys {
   static const forex_help_pip_decimal_places_instructions = 'forex.help.pip_decimal_places.instructions';
   static const forex_help_position_size_example = 'forex.help.position_size.example';
   static const forex_help_position_size_instructions = 'forex.help.position_size.instructions';
+  static const forex_help_price_a_example = 'forex.help.price_a.example';
+  static const forex_help_price_a_instructions = 'forex.help.price_a.instructions';
+  static const forex_help_price_b_example = 'forex.help.price_b.example';
+  static const forex_help_price_b_instructions = 'forex.help.price_b.instructions';
+  static const forex_help_high_price_example = 'forex.help.high_price.example';
+  static const forex_help_high_price_text = 'forex.help.high_price.text';
+  static const forex_help_low_price_example = 'forex.help.low_price.example';
+  static const forex_help_low_price_text = 'forex.help.low_price.text';
+  static const forex_help_trend_example = 'forex.help.trend.example';
+  static const forex_help_trend_text = 'forex.help.trend.text';
   static const forex_label_commodities = 'forex.label.commodities';
   static const forex_label_count_pips = 'forex.label.count.pips';
   static const forex_label_cryptos = 'forex.label.cryptos';

@@ -12,6 +12,26 @@
       "position_size": {
         "example": "Par exemple, si vous souhaitez négocier un lot standard de la paire de devises EUR/USD, vous devrez sélectionner l'option 'Lot Standard' dans le menu déroulant et entrer '1' dans le champ de saisie.",
         "instructions": "Entrez la quantité de l'instrument financier que vous négociez en utilisant des unités, des lots standards, des mini lots ou des micro lots. Utilisez le menu déroulant à côté du champ de saisie pour sélectionner la taille de position appropriée pour votre échange."
+      },
+      "price_a": {
+        "example": "Par exemple, si vous comparez deux cotations et que votre première cotation pour EUR/USD est de 1.1150, saisissez '1.1150' dans le champ 'Prix A'.",
+        "instructions": "Saisissez la première cotation de prix dans le champ 'Prix A'."
+      },
+      "price_b": {
+        "example": "Par exemple, si votre deuxième cotation pour la même paire EUR/USD est de 1.1200, vous saisiriez '1.1200' dans le champ 'Prix B'.",
+        "instructions": "Saisissez la deuxième cotation de prix dans le champ 'Prix B'. Cette valeur doit correspondre à une cotation différente pour le même instrument financier que celle entrée dans 'Prix A'."
+      },
+      "high_price": {
+        "example": "Si vous anticipez que le taux de change le plus élevé pour la paire EUR/USD pendant la journée de trading sera de 1,3000, entrez 1,3000 comme valeur.",
+        "text": "Indiquez le taux de change le plus élevé que vous anticipez pour une paire de devises."
+      },
+      "low_price": {
+        "example": "Si vous anticipez que le taux de change le plus bas pour la paire EUR/USD pendant la journée de trading sera de 1,2900, veuillez entrer 1,2900 comme valeur.",
+        "text": "Indiquez le taux de change le plus bas que vous anticipez pour une paire de devises."
+      },
+      "trend": {
+        "example": "Si vous attendez que le marché favorise l'Euro par rapport au Dollar Américain, sélectionnez 'Haut'. Si vous attendez le contraire, sélectionnez 'Bas'.",
+        "text": "Spécifiez la tendance du marché que vous anticipez pour une paire de devises, soit 'Haut' pour une tendance à la hausse ou 'Bas' pour une tendance à la baisse."
       }
     },
     "label": {

@@ -12,6 +12,26 @@
       "position_size": {
         "example": "For example, if you want to trade a standard lot of the EUR/USD currency pair, you would need to select the 'Standard Lot' option from the drop-down menu and enter '1' in the input field.",
         "instructions": "Enter the quantity of the financial instrument you are trading using units, standard lots, mini lots, or micro lots. Use the drop-down menu next to the input field to select the appropriate position size for your trade."
+      },
+      "price_a": {
+        "example": "For instance, if you are comparing two quotes and your first quote for EUR/USD is 1.1150, enter '1.1150' into the 'Price A' field.",
+        "instructions": "Enter the first price quote in the 'Price A' field."
+      },
+      "price_b": {
+        "example": "For example, if your second quote for the same EUR/USD pair is 1.1200, you would input '1.1200' into the 'Price B' field.",
+        "instructions": "Input the second price quote in the 'Price B' field. This value should correspond to a different quote for the same financial instrument as entered in 'Price A'."
+      },
+      "high_price": {
+        "example": "If you anticipate that the highest exchange rate for the EUR/USD pair during the trading day will be 1.3000, enter 1.3000 as the value.",
+        "text": "Indicate the highest exchange rate you anticipate for a currency pair."
+      },
+      "low_price": {
+        "example": "If you anticipate that the lowest exchange rate for the EUR/USD pair during the trading day will be 1.2900, please enter 1.2900 as the value.",
+        "text": "Indicate the lowest exchange rate you anticipate for a currency pair."
+      },
+      "trend": {
+        "example": "If you expect the market to favor the Euro against the American Dollar, select 'Up'. If you expect the opposite, select 'Down'.",
+        "text": "Specify the market trend you anticipate for a currency pair, either 'Up' for an upward trend or 'Down' for a downward trend."
       }
     },
     "label": {

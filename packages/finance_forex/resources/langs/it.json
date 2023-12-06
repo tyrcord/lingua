@@ -12,6 +12,26 @@
       "position_size": {
         "example": "Ad esempio, se si desidera scambiare un lotto standard della coppia di valute EUR/USD, sarà necessario selezionare l'opzione 'Lotto Standard' dal menu a discesa e inserire '1' nel campo di input.",
         "instructions": "Inserisci la quantità dello strumento finanziario che stai scambiando utilizzando unità, lotti standard, mini lotti o micro lotti. Utilizza il menu a discesa accanto al campo di input per selezionare la dimensione della posizione adeguata per il tuo scambio."
+      },
+      "price_a": {
+        "example": "Ad esempio, se stai confrontando due quotazioni e la tua prima quotazione per EUR/USD è 1.1150, inserisci '1.1150' nel campo 'Prezzo A'.",
+        "instructions": "Inserisci la prima quotazione di prezzo nel campo 'Prezzo A'."
+      },
+      "price_b": {
+        "example": "Ad esempio, se la tua seconda quotazione per la stessa coppia EUR/USD è 1.1200, inseriresti '1.1200' nel campo 'Prezzo B'.",
+        "instructions": "Inserisci la seconda quotazione di prezzo nel campo 'Prezzo B'. Questo valore dovrebbe corrispondere a una quotazione diversa per lo stesso strumento finanziario inserito in 'Prezzo A'."
+      },
+      "high_price": {
+        "example": "Se prevedi che il tasso di cambio più alto per la coppia EUR/USD durante il giorno di trading sarà 1,3000, inserisci 1,3000 come valore.",
+        "text": "Indica il tasso di cambio più alto che prevedi per una coppia di valute."
+      },
+      "low_price": {
+        "example": "Se prevedi che il tasso di cambio più basso per la coppia EUR/USD durante il giorno di trading sarà 1,2900, inserisci per favore 1,2900 come valore.",
+        "text": "Indica il tasso di cambio più basso che prevedi per una coppia di valute."
+      },
+      "trend": {
+        "example": "Se ti aspetti che il mercato favorisca l'Euro rispetto al Dollaro Americano, seleziona 'Su'. Se ti aspetti il contrario, seleziona 'Giù'.",
+        "text": "Specifica la tendenza del mercato che prevedi per una coppia di valute, sia 'Su' per una tendenza al rialzo o 'Giù' per una tendenza al ribasso."
       }
     },
     "label": {

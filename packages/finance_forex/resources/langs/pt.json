@@ -12,6 +12,26 @@
       "position_size": {
         "example": "Por exemplo, se quiser negociar um lote padrão do par de moedas EUR/USD, deverá selecionar a opção 'Lote Padrão' no menu suspenso e inserir '1' no campo de entrada.",
         "instructions": "Introduza a quantidade do instrumento financeiro que está a negociar utilizando unidades, lotes padrão, mini lotes ou micro lotes. Utilize o menu suspenso ao lado do campo de entrada para selecionar o tamanho de posição apropriado para a sua negociação."
+      },
+      "price_a": {
+        "example": "Por exemplo, se estiver a comparar duas cotações e a sua primeira cotação para EUR/USD for 1.1150, introduza '1.1150' no campo 'Preço A'.",
+        "instructions": "Introduza a primeira cotação de preço no campo 'Preço A'."
+      },
+      "price_b": {
+        "example": "Por exemplo, se a sua segunda cotação para o mesmo par EUR/USD for 1.1200, deve introduzir '1.1200' no campo 'Preço B'.",
+        "instructions": "Introduza a segunda cotação de preço no campo 'Preço B'. Este valor deve corresponder a uma cotação diferente para o mesmo instrumento financeiro que foi introduzido em 'Preço A'."
+      },
+      "high_price": {
+        "example": "Se antecipar que a taxa de câmbio mais alta para o par EUR/USD durante o dia de negociação será de 1.3000, introduza 1.3000 como o valor.",
+        "text": "Indique a taxa de câmbio mais alta que antecipa para um par de moedas."
+      },
+      "low_price": {
+        "example": "Se antecipar que a taxa de câmbio mais baixa para o par EUR/USD durante o dia de negociação será de 1.2900, por favor introduza 1.2900 como o valor.",
+        "text": "Indique a taxa de câmbio mais baixa que antecipa para um par de moedas."
+      },
+      "trend": {
+        "example": "Se espera que o mercado favoreça o Euro em relação ao Dólar Americano, selecione 'Subir'. Se espera o contrário, selecione 'Descer'.",
+        "text": "Especifique a tendência de mercado que antecipa para um par de moedas, seja 'Subir' para uma tendência ascendente ou 'Descer' para uma tendência descendente."
       }
     },
     "label": {

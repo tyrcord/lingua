@@ -12,6 +12,26 @@
       "position_size": {
         "example": "Zum Beispiel, wenn Sie ein Standardlos des Währungspaares EUR/USD handeln möchten, sollten Sie im Dropdown-Menü die Option 'Standardlos' auswählen und '1' in das Eingabefeld eingeben.",
         "instructions": "Geben Sie die Menge des Finanzinstruments, das Sie handeln, in Einheiten, Standardlosen, Minilosen oder Mikrolots ein. Verwenden Sie das Dropdown-Menü neben dem Eingabefeld, um die passende Positionsgröße für Ihren Handel auszuwählen."
+      },
+      "price_a": {
+        "example": "Zum Beispiel, wenn Sie zwei Angebote vergleichen und Ihr erstes Angebot für EUR/USD 1.1150 ist, geben Sie '1.1150' in das Feld 'Preis A' ein.",
+        "instructions": "Geben Sie das erste Preisangebot in das Feld 'Preis A' ein."
+      },
+      "price_b": {
+        "example": "Zum Beispiel, wenn Ihr zweites Angebot für das gleiche EUR/USD-Paar 1.1200 beträgt, würden Sie '1.1200' in das Feld 'Preis B' eingeben.",
+        "instructions": "Geben Sie das zweite Preisangebot in das Feld 'Preis B' ein. Dieser Wert sollte einem anderen Angebot für das gleiche Finanzinstrument entsprechen, wie in 'Preis A' eingegeben."
+      },
+      "high_price": {
+        "example": "Wenn Sie erwarten, dass der höchste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,3000 beträgt, geben Sie 1,3000 als Wert ein.",
+        "text": "Geben Sie den höchsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
+      },
+      "low_price": {
+        "example": "Wenn Sie erwarten, dass der niedrigste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,2900 beträgt, geben Sie bitte 1,2900 als Wert ein.",
+        "text": "Geben Sie den niedrigsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
+      },
+      "trend": {
+        "example": "Wenn Sie erwarten, dass der Markt den Euro gegenüber dem Amerikanischen Dollar bevorzugt, wählen Sie 'Aufwärts'. Wenn Sie das Gegenteil erwarten, wählen Sie 'Abwärts'.",
+        "text": "Geben Sie den Markttrend an, den Sie für ein Währungspaar erwarten, entweder 'Aufwärts' für einen Aufwärtstrend oder 'Abwärts' für einen Abwärtstrend."
       }
     },
     "label": {

@@ -25,6 +25,26 @@ class FinanceForexCodegenLoader extends AssetLoader {
       "position_size": {
         "example": "例如，如果您想要交易欧元/美元货币对的一个标准手，您需要从下拉菜单中选择'标准手'选项，并在输入栏中输入'1'。",
         "instructions": "输入您正在交易的金融工具的数量，使用单位、标准手、小手或微手。使用输入框旁边的下拉菜单选择适合您交易的头寸大小。"
+      },
+      "price_a": {
+        "example": "例如，如果您正在比较两个报价，您的第一个EUR/USD报价是1.1150，请在'价格A'字段中输入'1.1150'。",
+        "instructions": "在'价格A'字段中输入第一个价格报价。"
+      },
+      "price_b": {
+        "example": "例如，如果您对同一EUR/USD对的第二个报价是1.1200，您应该在'价格B'字段中输入'1.1200'。",
+        "instructions": "在'价格B'字段中输入第二个价格报价。此值应与在'价格A'中输入的同一金融工具的不同报价相对应。"
+      },
+      "high_price": {
+        "example": "如果您预计EUR/USD货币对在交易日的最高汇率将为1.3000，请输入1.3000作为该值。",
+        "text": "指明您预期的货币对的最高汇率。"
+      },
+      "low_price": {
+        "example": "如果您预计EUR/USD货币对在交易日的最低汇率将为1.2900，请输入1.2900作为该值。",
+        "text": "指明您预期的货币对的最低汇率。"
+      },
+      "trend": {
+        "example": "如果您预期市场将支持欧元对美元，选择'上升'。如果预期相反，请选择'下降'。",
+        "text": "指定您预期的货币对市场趋势，'上升'表示上行趋势，'下降'表示下行趋势。"
       }
     },
     "label": {
@@ -89,6 +109,26 @@ static const Map<String,dynamic> ja = {
       "position_size": {
         "example": "例えば、EUR/USDの通貨ペアのスタンダードロットを取引したい場合は、ドロップダウンメニューから「スタンダードロット」オプションを選択し、入力フィールドに「1」と入力します。",
         "instructions": "取引している金融商品の数量を単位、スタンダードロット、ミニロット、またはマイクロロットで入力してください。取引に適したポジションサイズを選択するために、入力フィールドの隣にあるドロップダウンメニューを使用します。"
+      },
+      "price_a": {
+        "example": "例えば、EUR/USDの最初の見積もりが1.1150であれば、'価格A'フィールドに'1.1150'と入力します。",
+        "instructions": "'価格A'フィールドに最初の価格見積もりを入力してください。"
+      },
+      "price_b": {
+        "example": "例えば、同じEUR/USDペアの2つ目の見積もりが1.1200の場合は、'価格B'フィールドに'1.1200'と入力します。",
+        "instructions": "'価格B'フィールドに2つ目の価格見積もりを入力してください。この値は'価格A'で入力されたものと同じ金融商品に対する異なる見積もりに対応するべきです。"
+      },
+      "high_price": {
+        "example": "取引日にEUR/USDペアの最高為替レートが1.3000になると予想する場合は、1.3000を値として入力してください。",
+        "text": "通貨ペアに対して予想する最高為替レートを指定してください。"
+      },
+      "low_price": {
+        "example": "取引日にEUR/USDペアの最低為替レートが1.2900になると予想する場合は、1.2900を値として入力してください。",
+        "text": "通貨ペアに対して予想する最低為替レートを指定してください。"
+      },
+      "trend": {
+        "example": "市場がユーロをアメリカドルに対して有利に動くと予想する場合は、「アップ」を選択してください。反対を予想する場合は、「ダウン」を選択してください。",
+        "text": "通貨ペアに対する市場のトレンドを指定してください。上向きのトレンドの場合は「アップ」、下向きのトレンドの場合は「ダウン」を選択してください。"
       }
     },
     "label": {
@@ -153,6 +193,26 @@ static const Map<String,dynamic> de = {
       "position_size": {
         "example": "Zum Beispiel, wenn Sie ein Standardlos des Währungspaares EUR/USD handeln möchten, sollten Sie im Dropdown-Menü die Option 'Standardlos' auswählen und '1' in das Eingabefeld eingeben.",
         "instructions": "Geben Sie die Menge des Finanzinstruments, das Sie handeln, in Einheiten, Standardlosen, Minilosen oder Mikrolots ein. Verwenden Sie das Dropdown-Menü neben dem Eingabefeld, um die passende Positionsgröße für Ihren Handel auszuwählen."
+      },
+      "price_a": {
+        "example": "Zum Beispiel, wenn Sie zwei Angebote vergleichen und Ihr erstes Angebot für EUR/USD 1.1150 ist, geben Sie '1.1150' in das Feld 'Preis A' ein.",
+        "instructions": "Geben Sie das erste Preisangebot in das Feld 'Preis A' ein."
+      },
+      "price_b": {
+        "example": "Zum Beispiel, wenn Ihr zweites Angebot für das gleiche EUR/USD-Paar 1.1200 beträgt, würden Sie '1.1200' in das Feld 'Preis B' eingeben.",
+        "instructions": "Geben Sie das zweite Preisangebot in das Feld 'Preis B' ein. Dieser Wert sollte einem anderen Angebot für das gleiche Finanzinstrument entsprechen, wie in 'Preis A' eingegeben."
+      },
+      "high_price": {
+        "example": "Wenn Sie erwarten, dass der höchste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,3000 beträgt, geben Sie 1,3000 als Wert ein.",
+        "text": "Geben Sie den höchsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
+      },
+      "low_price": {
+        "example": "Wenn Sie erwarten, dass der niedrigste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,2900 beträgt, geben Sie bitte 1,2900 als Wert ein.",
+        "text": "Geben Sie den niedrigsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
+      },
+      "trend": {
+        "example": "Wenn Sie erwarten, dass der Markt den Euro gegenüber dem Amerikanischen Dollar bevorzugt, wählen Sie 'Aufwärts'. Wenn Sie das Gegenteil erwarten, wählen Sie 'Abwärts'.",
+        "text": "Geben Sie den Markttrend an, den Sie für ein Währungspaar erwarten, entweder 'Aufwärts' für einen Aufwärtstrend oder 'Abwärts' für einen Abwärtstrend."
       }
     },
     "label": {
@@ -217,6 +277,26 @@ static const Map<String,dynamic> ru = {
       "position_size": {
         "example": "Например, если вы хотите торговать стандартным лотом валютной пары EUR/USD, вам нужно выбрать опцию 'Стандартный лот' в выпадающем меню и ввести '1' в поле ввода.",
         "instructions": "Введите количество финансового инструмента, которым вы торгуете, используя единицы, стандартные лоты, мини-лоты или микро-лоты. Используйте выпадающее меню рядом с полем ввода для выбора подходящего размера позиции для вашей торговли."
+      },
+      "price_a": {
+        "example": "Например, если вы сравниваете две котировки и ваша первая котировка по паре EUR/USD составляет 1.1150, введите '1.1150' в поле 'Цена А'.",
+        "instructions": "Введите первую котировку цены в поле 'Цена А'."
+      },
+      "price_b": {
+        "example": "Например, если ваша вторая котировка по той же паре EUR/USD составляет 1.1200, введите '1.1200' в поле 'Цена Б'.",
+        "instructions": "Введите вторую котировку цены в поле 'Цена Б'. Это значение должно соответствовать другой котировке того же финансового инструмента, что введено в 'Цена А'."
+      },
+      "high_price": {
+        "example": "Если вы ожидаете, что самый высокий обменный курс пары EUR/USD в течение торгового дня будет 1.3000, введите 1.3000 в качестве значения.",
+        "text": "Укажите самый высокий обменный курс, который вы ожидаете для валютной пары."
+      },
+      "low_price": {
+        "example": "Если вы ожидаете, что самый низкий обменный курс пары EUR/USD в течение торгового дня будет 1.2900, пожалуйста, введите 1.2900 в качестве значения.",
+        "text": "Укажите самый низкий обменный курс, который вы ожидаете для валютной пары."
+      },
+      "trend": {
+        "example": "Если вы ожидаете, что рынок будет благоприятствовать Евро по отношению к Американскому Доллару, выберите 'Вверх'. Если ожидаете обратного, выберите 'Вниз'.",
+        "text": "Укажите ожидаемое направление рыночного тренда для валютной пары, либо 'Вверх' для восходящего тренда, либо 'Вниз' для нисходящего тренда."
       }
     },
     "label": {
@@ -281,6 +361,26 @@ static const Map<String,dynamic> pt = {
       "position_size": {
         "example": "Por exemplo, se quiser negociar um lote padrão do par de moedas EUR/USD, deverá selecionar a opção 'Lote Padrão' no menu suspenso e inserir '1' no campo de entrada.",
         "instructions": "Introduza a quantidade do instrumento financeiro que está a negociar utilizando unidades, lotes padrão, mini lotes ou micro lotes. Utilize o menu suspenso ao lado do campo de entrada para selecionar o tamanho de posição apropriado para a sua negociação."
+      },
+      "price_a": {
+        "example": "Por exemplo, se estiver a comparar duas cotações e a sua primeira cotação para EUR/USD for 1.1150, introduza '1.1150' no campo 'Preço A'.",
+        "instructions": "Introduza a primeira cotação de preço no campo 'Preço A'."
+      },
+      "price_b": {
+        "example": "Por exemplo, se a sua segunda cotação para o mesmo par EUR/USD for 1.1200, deve introduzir '1.1200' no campo 'Preço B'.",
+        "instructions": "Introduza a segunda cotação de preço no campo 'Preço B'. Este valor deve corresponder a uma cotação diferente para o mesmo instrumento financeiro que foi introduzido em 'Preço A'."
+      },
+      "high_price": {
+        "example": "Se antecipar que a taxa de câmbio mais alta para o par EUR/USD durante o dia de negociação será de 1.3000, introduza 1.3000 como o valor.",
+        "text": "Indique a taxa de câmbio mais alta que antecipa para um par de moedas."
+      },
+      "low_price": {
+        "example": "Se antecipar que a taxa de câmbio mais baixa para o par EUR/USD durante o dia de negociação será de 1.2900, por favor introduza 1.2900 como o valor.",
+        "text": "Indique a taxa de câmbio mais baixa que antecipa para um par de moedas."
+      },
+      "trend": {
+        "example": "Se espera que o mercado favoreça o Euro em relação ao Dólar Americano, selecione 'Subir'. Se espera o contrário, selecione 'Descer'.",
+        "text": "Especifique a tendência de mercado que antecipa para um par de moedas, seja 'Subir' para uma tendência ascendente ou 'Descer' para uma tendência descendente."
       }
     },
     "label": {
@@ -345,6 +445,26 @@ static const Map<String,dynamic> en = {
       "position_size": {
         "example": "For example, if you want to trade a standard lot of the EUR/USD currency pair, you would need to select the 'Standard Lot' option from the drop-down menu and enter '1' in the input field.",
         "instructions": "Enter the quantity of the financial instrument you are trading using units, standard lots, mini lots, or micro lots. Use the drop-down menu next to the input field to select the appropriate position size for your trade."
+      },
+      "price_a": {
+        "example": "For instance, if you are comparing two quotes and your first quote for EUR/USD is 1.1150, enter '1.1150' into the 'Price A' field.",
+        "instructions": "Enter the first price quote in the 'Price A' field."
+      },
+      "price_b": {
+        "example": "For example, if your second quote for the same EUR/USD pair is 1.1200, you would input '1.1200' into the 'Price B' field.",
+        "instructions": "Input the second price quote in the 'Price B' field. This value should correspond to a different quote for the same financial instrument as entered in 'Price A'."
+      },
+      "high_price": {
+        "example": "If you anticipate that the highest exchange rate for the EUR/USD pair during the trading day will be 1.3000, enter 1.3000 as the value.",
+        "text": "Indicate the highest exchange rate you anticipate for a currency pair."
+      },
+      "low_price": {
+        "example": "If you anticipate that the lowest exchange rate for the EUR/USD pair during the trading day will be 1.2900, please enter 1.2900 as the value.",
+        "text": "Indicate the lowest exchange rate you anticipate for a currency pair."
+      },
+      "trend": {
+        "example": "If you expect the market to favor the Euro against the American Dollar, select 'Up'. If you expect the opposite, select 'Down'.",
+        "text": "Specify the market trend you anticipate for a currency pair, either 'Up' for an upward trend or 'Down' for a downward trend."
       }
     },
     "label": {
@@ -409,6 +529,26 @@ static const Map<String,dynamic> it = {
       "position_size": {
         "example": "Ad esempio, se si desidera scambiare un lotto standard della coppia di valute EUR/USD, sarà necessario selezionare l'opzione 'Lotto Standard' dal menu a discesa e inserire '1' nel campo di input.",
         "instructions": "Inserisci la quantità dello strumento finanziario che stai scambiando utilizzando unità, lotti standard, mini lotti o micro lotti. Utilizza il menu a discesa accanto al campo di input per selezionare la dimensione della posizione adeguata per il tuo scambio."
+      },
+      "price_a": {
+        "example": "Ad esempio, se stai confrontando due quotazioni e la tua prima quotazione per EUR/USD è 1.1150, inserisci '1.1150' nel campo 'Prezzo A'.",
+        "instructions": "Inserisci la prima quotazione di prezzo nel campo 'Prezzo A'."
+      },
+      "price_b": {
+        "example": "Ad esempio, se la tua seconda quotazione per la stessa coppia EUR/USD è 1.1200, inseriresti '1.1200' nel campo 'Prezzo B'.",
+        "instructions": "Inserisci la seconda quotazione di prezzo nel campo 'Prezzo B'. Questo valore dovrebbe corrispondere a una quotazione diversa per lo stesso strumento finanziario inserito in 'Prezzo A'."
+      },
+      "high_price": {
+        "example": "Se prevedi che il tasso di cambio più alto per la coppia EUR/USD durante il giorno di trading sarà 1,3000, inserisci 1,3000 come valore.",
+        "text": "Indica il tasso di cambio più alto che prevedi per una coppia di valute."
+      },
+      "low_price": {
+        "example": "Se prevedi che il tasso di cambio più basso per la coppia EUR/USD durante il giorno di trading sarà 1,2900, inserisci per favore 1,2900 come valore.",
+        "text": "Indica il tasso di cambio più basso che prevedi per una coppia di valute."
+      },
+      "trend": {
+        "example": "Se ti aspetti che il mercato favorisca l'Euro rispetto al Dollaro Americano, seleziona 'Su'. Se ti aspetti il contrario, seleziona 'Giù'.",
+        "text": "Specifica la tendenza del mercato che prevedi per una coppia di valute, sia 'Su' per una tendenza al rialzo o 'Giù' per una tendenza al ribasso."
       }
     },
     "label": {
@@ -473,6 +613,26 @@ static const Map<String,dynamic> fr = {
       "position_size": {
         "example": "Par exemple, si vous souhaitez négocier un lot standard de la paire de devises EUR/USD, vous devrez sélectionner l'option 'Lot Standard' dans le menu déroulant et entrer '1' dans le champ de saisie.",
         "instructions": "Entrez la quantité de l'instrument financier que vous négociez en utilisant des unités, des lots standards, des mini lots ou des micro lots. Utilisez le menu déroulant à côté du champ de saisie pour sélectionner la taille de position appropriée pour votre échange."
+      },
+      "price_a": {
+        "example": "Par exemple, si vous comparez deux cotations et que votre première cotation pour EUR/USD est de 1.1150, saisissez '1.1150' dans le champ 'Prix A'.",
+        "instructions": "Saisissez la première cotation de prix dans le champ 'Prix A'."
+      },
+      "price_b": {
+        "example": "Par exemple, si votre deuxième cotation pour la même paire EUR/USD est de 1.1200, vous saisiriez '1.1200' dans le champ 'Prix B'.",
+        "instructions": "Saisissez la deuxième cotation de prix dans le champ 'Prix B'. Cette valeur doit correspondre à une cotation différente pour le même instrument financier que celle entrée dans 'Prix A'."
+      },
+      "high_price": {
+        "example": "Si vous anticipez que le taux de change le plus élevé pour la paire EUR/USD pendant la journée de trading sera de 1,3000, entrez 1,3000 comme valeur.",
+        "text": "Indiquez le taux de change le plus élevé que vous anticipez pour une paire de devises."
+      },
+      "low_price": {
+        "example": "Si vous anticipez que le taux de change le plus bas pour la paire EUR/USD pendant la journée de trading sera de 1,2900, veuillez entrer 1,2900 comme valeur.",
+        "text": "Indiquez le taux de change le plus bas que vous anticipez pour une paire de devises."
+      },
+      "trend": {
+        "example": "Si vous attendez que le marché favorise l'Euro par rapport au Dollar Américain, sélectionnez 'Haut'. Si vous attendez le contraire, sélectionnez 'Bas'.",
+        "text": "Spécifiez la tendance du marché que vous anticipez pour une paire de devises, soit 'Haut' pour une tendance à la hausse ou 'Bas' pour une tendance à la baisse."
       }
     },
     "label": {
@@ -537,6 +697,26 @@ static const Map<String,dynamic> es = {
       "position_size": {
         "example": "Por ejemplo, si desea operar un lote estándar del par de divisas EUR/USD, deberá seleccionar la opción 'Lote Estándar' del menú desplegable e introducir '1' en el campo de entrada.",
         "instructions": "Ingrese la cantidad del instrumento financiero que está operando utilizando unidades, lotes estándar, lotes mini o lotes micro. Utilice el menú desplegable junto al campo de entrada para seleccionar el tamaño de posición adecuado para su operación."
+      },
+      "price_a": {
+        "example": "Por ejemplo, si está comparando dos cotizaciones y su primera cotización para EUR/USD es 1.1150, introduzca '1.1150' en el campo 'Precio A'.",
+        "instructions": "Introduzca la primera cotización de precio en el campo 'Precio A'."
+      },
+      "price_b": {
+        "example": "Por ejemplo, si su segunda cotización para el mismo par EUR/USD es 1.1200, introduciría '1.1200' en el campo 'Precio B'.",
+        "instructions": "Introduzca la segunda cotización de precio en el campo 'Precio B'. Este valor debe corresponder a una cotización diferente para el mismo instrumento financiero que se introdujo en 'Precio A'."
+      },
+      "high_price": {
+        "example": "Si anticipa que el tipo de cambio más alto para el par EUR/USD durante el día de negociación será de 1.3000, introduzca 1.3000 como valor.",
+        "text": "Indique el tipo de cambio más alto que anticipa para un par de divisas."
+      },
+      "low_price": {
+        "example": "Si anticipa que el tipo de cambio más bajo para el par EUR/USD durante el día de negociación será de 1.2900, por favor introduzca 1.2900 como valor.",
+        "text": "Indique el tipo de cambio más bajo que anticipa para un par de divisas."
+      },
+      "trend": {
+        "example": "Si espera que el mercado favorezca al Euro frente al Dólar Americano, seleccione 'Subir'. Si espera lo contrario, seleccione 'Bajar'.",
+        "text": "Especifique la tendencia del mercado que anticipa para un par de divisas, ya sea 'Subir' para una tendencia alcista o 'Bajar' para una tendencia bajista."
       }
     },
     "label": {
