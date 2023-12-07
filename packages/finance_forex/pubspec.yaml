@@ -1,6 +1,6 @@
 name: lingua_finance_forex
 description: Library for internal finance forex localization.
-version: 0.0.8
+version: 0.0.9
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance_forex
 
 environment:
