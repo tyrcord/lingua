@@ -1,13 +1,45 @@
 {
   "forex": {
     "help": {
+      "close_price": {
+        "example": "If you anticipate the closing exchange rate for the EUR/USD pair at the end of the trading day to be 1.3050, enter 1.3050 as the value.",
+        "text": "Indicate the closing exchange rate you anticipate for a currency pair at the end of the trading day."
+      },
+      "entry_price": {
+        "example": "If you plan to enter the market for the EUR/USD pair at an exchange rate of 1.2950, enter 1.2950 as the value.",
+        "text": "Indicate the exchange rate at which you plan to enter a trade for a currency pair."
+      },
+      "exit_price": {
+        "example": "If you plan to exit the market for the EUR/USD pair at an exchange rate of 1.3050, enter 1.3050 as the value.",
+        "text": "Indicate the exchange rate at which you plan to exit a trade for a currency pair."
+      },
+      "high_price": {
+        "example": "If you anticipate that the highest exchange rate for the EUR/USD pair during the trading day will be 1.3000, enter 1.3000 as the value.",
+        "text": "Indicate the highest exchange rate you anticipate for a currency pair."
+      },
+      "low_price": {
+        "example": "If you anticipate that the lowest exchange rate for the EUR/USD pair during the trading day will be 1.2900, please enter 1.2900 as the value.",
+        "text": "Indicate the lowest exchange rate you anticipate for a currency pair."
+      },
       "number_of_pips": {
         "example": "For instance, if you set a target of gaining 15 pips for a particular trade, you must enter '15'.",
         "instructions": "Enter the total number of pips associated with your trade's profit or loss goal. The 'number of pips' refers to the smallest incremental target of movement in the price of a currency pair you are tracking or setting as a goal."
       },
+      "open_price": {
+        "example": "If you anticipate the opening exchange rate for the EUR/USD pair at the beginning of the trading day to be 1.2950, enter 1.2950 as the value.",
+        "text": "Indicate the opening exchange rate you anticipate for a currency pair at the start of the trading day."
+      },
       "pip_decimal_places": {
         "example": "For example, if you are trading Bitcoin CFDs and your broker specifies pip movements to the third digit after the decimal, you would enter '3'.",
         "instructions": "Enter the number of decimal places your broker uses for the pip value of your chosen trading instrument. Brokers may vary in the decimal accuracy used to quote prices for CFDs, cryptocurrencies, and other exotic instruments, directly affecting your trading calculations. Check with your broker if you are unsure of the precision level they use."
+      },
+      "pivot_points_method": {
+        "example": "If you plan to use the Standard Pivot Point method, select 'Standard'.",
+        "text": "Select the pivot points method you intend to use for analyzing a financial instrument."
+      },
+      "position": {
+        "example": "Select 'long' if you anticipate the value of the currency pair to increase, or 'short' if you anticipate it to decrease.",
+        "text": "Specify whether your trading position for a currency pair is 'long' or 'short'."
       },
       "position_size": {
         "example": "For example, if you want to trade a standard lot of the EUR/USD currency pair, you would need to select the 'Standard Lot' option from the drop-down menu and enter '1' in the input field.",
@@ -20,14 +52,6 @@
       "price_b": {
         "example": "For example, if your second quote for the same EUR/USD pair is 1.1200, you would input '1.1200' into the 'Price B' field.",
         "instructions": "Input the second price quote in the 'Price B' field. This value should correspond to a different quote for the same financial instrument as entered in 'Price A'."
-      },
-      "high_price": {
-        "example": "If you anticipate that the highest exchange rate for the EUR/USD pair during the trading day will be 1.3000, enter 1.3000 as the value.",
-        "text": "Indicate the highest exchange rate you anticipate for a currency pair."
-      },
-      "low_price": {
-        "example": "If you anticipate that the lowest exchange rate for the EUR/USD pair during the trading day will be 1.2900, please enter 1.2900 as the value.",
-        "text": "Indicate the lowest exchange rate you anticipate for a currency pair."
       },
       "trend": {
         "example": "If you expect the market to favor the Euro against the American Dollar, select 'Up'. If you expect the opposite, select 'Down'.",

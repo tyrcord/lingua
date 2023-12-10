@@ -1,13 +1,45 @@
 {
   "forex": {
     "help": {
+      "close_price": {
+        "example": "Se prevedi che il tasso di cambio finale per la coppia EUR/USD alla fine della giornata di trading sia 1.3050, inserisci 1.3050 come valore.",
+        "text": "Indica il tasso di cambio finale che prevedi per una coppia di valute alla fine della giornata di trading."
+      },
+      "entry_price": {
+        "example": "Se prevedi di entrare sul mercato per la coppia EUR/USD con un tasso di cambio di 1,2950, inserisci 1,2950 come valore.",
+        "text": "Indica il tasso di cambio al quale prevedi di entrare in una operazione per una coppia di valute."
+      },
+      "exit_price": {
+        "example": "Se prevedi di uscire dal mercato per la coppia EUR/USD con un tasso di cambio di 1,3050, inserisci 1,3050 come valore.",
+        "text": "Indica il tasso di cambio al quale prevedi di uscire da una operazione per una coppia di valute."
+      },
+      "high_price": {
+        "example": "Se prevedi che il tasso di cambio più alto per la coppia EUR/USD durante il giorno di trading sarà 1,3000, inserisci 1,3000 come valore.",
+        "text": "Indica il tasso di cambio più alto che prevedi per una coppia di valute."
+      },
+      "low_price": {
+        "example": "Se prevedi che il tasso di cambio più basso per la coppia EUR/USD durante il giorno di trading sarà 1,2900, inserisci per favore 1,2900 come valore.",
+        "text": "Indica il tasso di cambio più basso che prevedi per una coppia di valute."
+      },
       "number_of_pips": {
         "example": "Ad esempio, se stabilisci un obiettivo di guadagno di 15 pips per un particolare trade, devi inserire '15'.",
         "instructions": "Inserisci il numero totale di pips associati all'obiettivo di profitto o perdita della tua transazione. Il 'numero di pips' si riferisce al più piccolo obiettivo incrementale di movimento nel prezzo della coppia di valute che stai monitorando o hai impostato come obiettivo."
       },
+      "open_price": {
+        "example": "Se prevedi che il tasso di cambio iniziale per la coppia EUR/USD all'inizio della giornata di trading sia 1.2950, inserisci 1.2950 come valore.",
+        "text": "Indica il tasso di cambio iniziale che prevedi per una coppia di valute all'inizio della giornata di trading."
+      },
       "pip_decimal_places": {
         "example": "Ad esempio, se stai negoziando CFD Bitcoin e il tuo broker specifica i movimenti dei pips fino alla terza cifra dopo la virgola, inseriresti '3'.",
         "instructions": "Inserisci il numero di decimali che il tuo broker utilizza per il valore del pip del tuo strumento di trading scelto. I broker possono variare nella precisione decimale utilizzata per quotare i prezzi per CFD, criptovalute e altri strumenti esotici, influenzando direttamente i tuoi calcoli di trading. Verifica con il tuo broker se non sei sicuro del livello di precisione che utilizzano."
+      },
+      "pivot_points_method": {
+        "example": "Se intendi utilizzare il metodo Standard Pivot Point, seleziona 'Standard'.",
+        "text": "Seleziona il metodo dei punti pivot che intendi utilizzare per analizzare uno strumento finanziario."
+      },
+      "position": {
+        "example": "Seleziona 'lungo' se prevedi un aumento del valore della coppia di valute, o 'corto' se prevedi una diminuzione.",
+        "text": "Specifica se la tua posizione di trading per una coppia di valute è 'lunga' o 'corta'."
       },
       "position_size": {
         "example": "Ad esempio, se si desidera scambiare un lotto standard della coppia di valute EUR/USD, sarà necessario selezionare l'opzione 'Lotto Standard' dal menu a discesa e inserire '1' nel campo di input.",
@@ -20,14 +52,6 @@
       "price_b": {
         "example": "Ad esempio, se la tua seconda quotazione per la stessa coppia EUR/USD è 1.1200, inseriresti '1.1200' nel campo 'Prezzo B'.",
         "instructions": "Inserisci la seconda quotazione di prezzo nel campo 'Prezzo B'. Questo valore dovrebbe corrispondere a una quotazione diversa per lo stesso strumento finanziario inserito in 'Prezzo A'."
-      },
-      "high_price": {
-        "example": "Se prevedi che il tasso di cambio più alto per la coppia EUR/USD durante il giorno di trading sarà 1,3000, inserisci 1,3000 come valore.",
-        "text": "Indica il tasso di cambio più alto che prevedi per una coppia di valute."
-      },
-      "low_price": {
-        "example": "Se prevedi che il tasso di cambio più basso per la coppia EUR/USD durante il giorno di trading sarà 1,2900, inserisci per favore 1,2900 come valore.",
-        "text": "Indica il tasso di cambio più basso che prevedi per una coppia di valute."
       },
       "trend": {
         "example": "Se ti aspetti che il mercato favorisca l'Euro rispetto al Dollaro Americano, seleziona 'Su'. Se ti aspetti il contrario, seleziona 'Giù'.",

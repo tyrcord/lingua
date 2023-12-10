@@ -43,6 +43,8 @@ abstract class FinanceLocaleKeys {
   static const finance_help_investment_annual_contribution_instructions = 'finance.help.investment_annual_contribution.instructions';
   static const finance_help_investment_tax_rate_example = 'finance.help.investment_tax_rate.example';
   static const finance_help_investment_tax_rate_instructions = 'finance.help.investment_tax_rate.instructions';
+  static const finance_help_leverage_example = 'finance.help.leverage.example';
+  static const finance_help_leverage_instructions = 'finance.help.leverage.instructions';
   static const finance_help_operating_expenses_example = 'finance.help.operating_expenses.example';
   static const finance_help_operating_expenses_instructions = 'finance.help.operating_expenses.instructions';
   static const finance_help_position_size_example = 'finance.help.position_size.example';
@@ -204,6 +206,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_regular_addition = 'finance.label.regular_addition';
   static const finance_label_required_margin = 'finance.label.required_margin';
   static const finance_label_resistance_level = 'finance.label.resistance_level';
+  static const finance_label_resistances = 'finance.label.resistances';
   static const finance_label_retained_earnings = 'finance.label.retained_earnings';
   static const finance_label_retracement = 'finance.label.retracement';
   static const finance_label_return_on_investment = 'finance.label.return_on_investment';
@@ -243,6 +246,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_stop_loss_take_profit = 'finance.label.stop_loss_take_profit';
   static const finance_label_subtotal = 'finance.label.subtotal';
   static const finance_label_support_level = 'finance.label.support_level';
+  static const finance_label_supports = 'finance.label.supports';
   static const finance_label_take_profit_amount = 'finance.label.take_profit.amount';
   static const finance_label_take_profit_at = 'finance.label.take_profit.at';
   static const finance_label_take_profit_price_after_fee = 'finance.label.take_profit.price.after_fee';

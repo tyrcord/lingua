@@ -1,13 +1,45 @@
 {
   "forex": {
     "help": {
+      "close_price": {
+        "example": "Se antecipar que a taxa de câmbio de fecho para o par EUR/USD no fim do dia de negociação seja 1.3050, introduza 1.3050 como valor.",
+        "text": "Indique a taxa de câmbio de fecho que antecipa para um par de moedas no fim do dia de negociação."
+      },
+      "entry_price": {
+        "example": "Se planeia entrar no mercado para o par EUR/USD a uma taxa de câmbio de 1,2950, introduza 1,2950 como o valor.",
+        "text": "Indique a taxa de câmbio na qual planeia entrar numa operação para um par de moedas."
+      },
+      "exit_price": {
+        "example": "Se planeia sair do mercado para o par EUR/USD a uma taxa de câmbio de 1,3050, introduza 1,3050 como o valor.",
+        "text": "Indique a taxa de câmbio na qual planeia sair de uma operação para um par de moedas."
+      },
+      "high_price": {
+        "example": "Se antecipar que a taxa de câmbio mais alta para o par EUR/USD durante o dia de negociação será de 1.3000, introduza 1.3000 como o valor.",
+        "text": "Indique a taxa de câmbio mais alta que antecipa para um par de moedas."
+      },
+      "low_price": {
+        "example": "Se antecipar que a taxa de câmbio mais baixa para o par EUR/USD durante o dia de negociação será de 1.2900, por favor introduza 1.2900 como o valor.",
+        "text": "Indique a taxa de câmbio mais baixa que antecipa para um par de moedas."
+      },
       "number_of_pips": {
         "example": "Por exemplo, se definir uma meta de lucro de 15 pips para uma transação específica, deverá introduzir '15'.",
         "instructions": "Introduza o número total de pips associados ao seu objetivo de lucro ou perda na sua transação. O 'número de pips' refere-se ao menor objetivo incremental de movimento no preço do par de moedas que está a seguir ou a estabelecer como meta."
       },
+      "open_price": {
+        "example": "Se antecipar que a taxa de câmbio de abertura para o par EUR/USD no início do dia de negociação seja 1.2950, introduza 1.2950 como valor.",
+        "text": "Indique a taxa de câmbio de abertura que antecipa para um par de moedas no início do dia de negociação."
+      },
       "pip_decimal_places": {
         "example": "Por exemplo, se estiver a negociar CFDs Bitcoin e a sua corretora especificar movimentos de pip até ao terceiro dígito após o ponto decimal, introduziria '3'.",
         "instructions": "Introduza o número de casas decimais que a sua corretora utiliza para o valor pip do seu instrumento de negociação escolhido. As corretoras podem variar na precisão decimal utilizada para cotar preços para CFDs, criptomoedas e outros instrumentos exóticos, afetando diretamente os seus cálculos de negociação. Verifique com a sua corretora se não tem certeza do nível de precisão que eles utilizam."
+      },
+      "pivot_points_method": {
+        "example": "Se planeia usar o método de Pontos Pivot Padrão, selecione 'Padrão'.",
+        "text": "Selecione o método de pontos pivot que pretende usar para analisar um instrumento financeiro."
+      },
+      "position": {
+        "example": "Selecione 'longo' se antecipa que o valor do par de moedas irá aumentar, ou 'curto' se antecipa que irá diminuir.",
+        "text": "Especifique se a sua posição de negociação para um par de moedas é 'longa' ou 'curta'."
       },
       "position_size": {
         "example": "Por exemplo, se quiser negociar um lote padrão do par de moedas EUR/USD, deverá selecionar a opção 'Lote Padrão' no menu suspenso e inserir '1' no campo de entrada.",
@@ -20,14 +52,6 @@
       "price_b": {
         "example": "Por exemplo, se a sua segunda cotação para o mesmo par EUR/USD for 1.1200, deve introduzir '1.1200' no campo 'Preço B'.",
         "instructions": "Introduza a segunda cotação de preço no campo 'Preço B'. Este valor deve corresponder a uma cotação diferente para o mesmo instrumento financeiro que foi introduzido em 'Preço A'."
-      },
-      "high_price": {
-        "example": "Se antecipar que a taxa de câmbio mais alta para o par EUR/USD durante o dia de negociação será de 1.3000, introduza 1.3000 como o valor.",
-        "text": "Indique a taxa de câmbio mais alta que antecipa para um par de moedas."
-      },
-      "low_price": {
-        "example": "Se antecipar que a taxa de câmbio mais baixa para o par EUR/USD durante o dia de negociação será de 1.2900, por favor introduza 1.2900 como o valor.",
-        "text": "Indique a taxa de câmbio mais baixa que antecipa para um par de moedas."
       },
       "trend": {
         "example": "Se espera que o mercado favoreça o Euro em relação ao Dólar Americano, selecione 'Subir'. Se espera o contrário, selecione 'Descer'.",

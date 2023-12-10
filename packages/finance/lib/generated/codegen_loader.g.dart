@@ -94,6 +94,10 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "例如，如果您的适用税率是25%，请输入'25'。",
         "instructions": "请输入适用于您的投资收入或资本增值的税率。这应以百分比表示。请确保使用与您所在税率区间相对应的税率或您报告收入类型的特定税率。"
       },
+      "leverage": {
+        "example": "例如，如果您用1美元的资本借入额外的9美元，请选择'10:1'的杠杆。",
+        "instructions": "选择您交易的金融杠杆水平。"
+      },
       "operating_expenses": {
         "example": "例如，如果您的业务在租金上花费350000元，在公用事业上花费250000元，在薪资上花费1000000元，在其他行政费用上花费400000元，您需要加总这些数额并输入'2000000'。",
         "instructions": "请输入业务的总运营费用。这包括租金、公用事业、薪资、维护和其他日常运营所需的行政费用。不要包括税款、利息支付或非运营费用。"
@@ -320,7 +324,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "text": "中枢点",
         "woodie": "Woodie"
       },
-      "pivot_points": "中枢点",
+      "pivot_points": "枢轴点",
       "position": {
         "amount": "持仓金额",
         "long": "多头",
@@ -355,6 +359,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "regular_addition": "定期增加",
       "required_margin": "所需保证金",
       "resistance_level": "阻力位 {level}",
+      "resistances": "阻力",
       "retained_earnings": "留存收益",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
@@ -410,6 +415,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "stop_loss_take_profit": "止损/获利",
       "subtotal": "小计",
       "support_level": "支撑位 {level}",
+      "supports": "支撑",
       "take_profit": {
         "amount": "止盈金额",
         "at": "止盈于",
@@ -565,6 +571,10 @@ static const Map<String,dynamic> ja = {
       "investment_tax_rate": {
         "example": "例えば、適用される税率が25%である場合は、「25」と入力してください。",
         "instructions": "投資所得またはキャピタルゲインに適用される税率を入力してください。これはパーセンテージで表されるべきです。あなたの税率区分に該当する税率、または報告する所得の種類に特有の税率を使用してください。"
+      },
+      "leverage": {
+        "example": "たとえば、あなたの資本の1ドルで追加の9ドルを借りる場合は、「10:1」のレバレッジを選択してください。",
+        "instructions": "取引のための金融レバレッジのレベルを選択してください。"
       },
       "operating_expenses": {
         "example": "例えば、あなたの企業が家賃に35万円、公共料金に25万円、給与に100万円、その他の管理費用に40万円を支出している場合、これらの金額を合計して'2000000'と入力します。",
@@ -827,6 +837,7 @@ static const Map<String,dynamic> ja = {
       "regular_addition": "定期的な追加",
       "required_margin": "必要な証拠金",
       "resistance_level": "抵抗レベル{level}",
+      "resistances": "レジスタンス",
       "retained_earnings": "剰余金",
       "retracement": "リトレースメント",
       "return_on_investment": "投資利益率",
@@ -882,6 +893,7 @@ static const Map<String,dynamic> ja = {
       "stop_loss_take_profit": "ストップロス/利益確定",
       "subtotal": "小計",
       "support_level": "サポートレベル{level}",
+      "supports": "サポート",
       "take_profit": {
         "amount": "利益確定額",
         "at": "利益確定",
@@ -1037,6 +1049,10 @@ static const Map<String,dynamic> de = {
       "investment_tax_rate": {
         "example": "Zum Beispiel, wenn Ihr anwendbarer Steuersatz 25% beträgt, geben Sie bitte '25' ein.",
         "instructions": "Geben Sie den Steuersatz ein, der auf Ihre Kapitalerträge oder Kapitalgewinne anwendbar ist. Dies sollte als Prozentsatz ausgedrückt werden. Stellen Sie sicher, dass Sie den Satz verwenden, der Ihrer Steuerklasse entspricht oder dem spezifischen Steuersatz für die Art des Einkommens, das Sie melden."
+      },
+      "leverage": {
+        "example": "Zum Beispiel, wenn Sie mit 1 Dollar Ihres Kapitals zusätzliche 9 Dollar leihen, wählen Sie den '10:1' Hebel.",
+        "instructions": "Wählen Sie das Niveau des finanziellen Hebels für Ihren Handel aus."
       },
       "operating_expenses": {
         "example": "Wenn Ihr Unternehmen beispielsweise 3.500 \u0024 für Miete, 2.500 \u0024 für Nebenkosten, 10.000 \u0024 für Löhne und 4.000 \u0024 für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
@@ -1299,6 +1315,7 @@ static const Map<String,dynamic> de = {
       "regular_addition": "Regelmäßige Hinzufügung",
       "required_margin": "Erforderliche Marge",
       "resistance_level": "Widerstand {level}",
+      "resistances": "Widerstände",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
@@ -1354,6 +1371,7 @@ static const Map<String,dynamic> de = {
       "stop_loss_take_profit": "Stop-Loss/Take-Profit",
       "subtotal": "Zwischensumme",
       "support_level": "Unterstützung {level}",
+      "supports": "Unterstützungen",
       "take_profit": {
         "amount": "Take Profit Betrag",
         "at": "Take Profit bei",
@@ -1509,6 +1527,10 @@ static const Map<String,dynamic> ru = {
       "investment_tax_rate": {
         "example": "Например, если ваша применимая налоговая ставка составляет 25%, введите '25'.",
         "instructions": "Введите налоговую ставку, которая применяется к вашим инвестиционным доходам или капитальным приростам. Это должно быть выражено в процентах. Убедитесь, что вы используете ставку, соответствующую вашему налоговому брекету или конкретную ставку налога для типа дохода, который вы сообщаете."
+      },
+      "leverage": {
+        "example": "Например, если вы одолжите дополнительные 9 долларов на 1 доллар своего капитала, выберите плечо '10:1'.",
+        "instructions": "Выберите уровень финансового плеча для вашей торговли."
       },
       "operating_expenses": {
         "example": "Например, если ваш бизнес тратит 350000 рублей на аренду, 250000 рублей на коммунальные услуги, 1 миллион рублей на зарплату и 400000 рублей на другие административные расходы, вы складываете эти значения и вводите '2000000'.",
@@ -1771,6 +1793,7 @@ static const Map<String,dynamic> ru = {
       "regular_addition": "Регулярное дополнение",
       "required_margin": "Требуемая маржа",
       "resistance_level": "Уровень сопротивления {level}",
+      "resistances": "Сопротивления",
       "retained_earnings": "Нераспределенная прибыль",
       "retracement": "Ретрейсмент",
       "return_on_investment": "Рентабельность инвестиций",
@@ -1826,6 +1849,7 @@ static const Map<String,dynamic> ru = {
       "stop_loss_take_profit": "Стоп-лосс/Тейк-профит",
       "subtotal": "Промежуточный итог",
       "support_level": "Уровень поддержки {level}",
+      "supports": "Поддержки",
       "take_profit": {
         "amount": "Сумма Take Profit",
         "at": "Take Profit при",
@@ -1981,6 +2005,10 @@ static const Map<String,dynamic> pt = {
       "investment_tax_rate": {
         "example": "Por exemplo, se a sua taxa de imposto aplicável é de 25%, por favor insira '25'.",
         "instructions": "Insira a taxa de imposto que se aplica aos seus rendimentos de investimento ou ganhos de capital. Isto deve ser expresso em percentagem. Certifique-se de usar a taxa que corresponde ao seu escalão fiscal ou a taxa de imposto específica para o tipo de rendimento que está a declarar."
+      },
+      "leverage": {
+        "example": "Por exemplo, se com 1 dólar do seu capital, você empresta mais 9 dólares, escolha a alavancagem '10:1'.",
+        "instructions": "Selecione o nível de alavancagem financeira para sua negociação."
       },
       "operating_expenses": {
         "example": "Por exemplo, se o seu negócio gasta 350.000 reais de aluguel, 250.000 reais em serviços públicos, 1 milhão de reais em salários e 400.000 reais em outras despesas administrativas, você adicionaria esses valores e inseriria '2000000'.",
@@ -2243,6 +2271,7 @@ static const Map<String,dynamic> pt = {
       "regular_addition": "Adição regular",
       "required_margin": "Margem exigida",
       "resistance_level": "Nível de resistência {level}",
+      "resistances": "Resistências",
       "retained_earnings": "Lucros retidos",
       "retracement": "Retração",
       "return_on_investment": "Retorno sobre o investimento",
@@ -2298,6 +2327,7 @@ static const Map<String,dynamic> pt = {
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Nível de suporte {level}",
+      "supports": "Suportes",
       "take_profit": {
         "amount": "Valor de Take Profit",
         "at": "Take Profit em",
@@ -2453,6 +2483,10 @@ static const Map<String,dynamic> en = {
       "investment_tax_rate": {
         "example": "For example, if your applicable tax rate is 25%, please enter '25'.",
         "instructions": "Enter the tax rate that applies to your investment income or capital gains. This should be expressed as a percentage. Ensure you use the rate that corresponds to your tax bracket or the specific tax rate for the type of income you are reporting."
+      },
+      "leverage": {
+        "example": "For example, if with 1 dollar of your capital, you borrow an additional 9 dollars, choose the '10:1' leverage.",
+        "instructions": "Select the level of financial leverage for your trade."
       },
       "operating_expenses": {
         "example": "For example, if your business spent \u00243,500 on rent, \u00242,500 on utilities, \u002410,000 on wages, and \u00244,000 on various administrative expenses, you would add these amounts and enter '20000'.",
@@ -2715,6 +2749,7 @@ static const Map<String,dynamic> en = {
       "regular_addition": "Regular Addition",
       "required_margin": "Required Margin",
       "resistance_level": "Resistance {level}",
+      "resistances": "Resistances",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
@@ -2770,6 +2805,7 @@ static const Map<String,dynamic> en = {
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Support {level}",
+      "supports": "Supports",
       "take_profit": {
         "amount": "Take Profit Amount",
         "at": "Take Profit at",
@@ -2925,6 +2961,10 @@ static const Map<String,dynamic> it = {
       "investment_tax_rate": {
         "example": "Ad esempio, se la tua aliquota fiscale applicabile è del 25%, inserisci '25'.",
         "instructions": "Inserisci l'aliquota fiscale che si applica ai tuoi redditi di investimento o plusvalenze. Questo dovrebbe essere espresso in percentuale. Assicurati di utilizzare l'aliquota corrispondente al tuo scaglione fiscale o l'aliquota specifica per il tipo di reddito che stai dichiarando."
+      },
+      "leverage": {
+        "example": "Ad esempio, se con 1 dollaro del tuo capitale, prendi in prestito altri 9 dollari, scegli la leva '10:1'.",
+        "instructions": "Seleziona il livello di leva finanziaria per il tuo commercio."
       },
       "operating_expenses": {
         "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
@@ -3147,12 +3187,12 @@ static const Map<String,dynamic> it = {
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Metodo del punto di svolta",
+        "method": "Metodo del punto pivot",
         "standard": "Standard",
-        "text": "Punto di svolta",
+        "text": "Punto pivot",
         "woodie": "Woodie"
       },
-      "pivot_points": "Punti di svolta",
+      "pivot_points": "Punti pivot",
       "position": {
         "amount": "Importo della posizione",
         "long": "Lungo",
@@ -3187,6 +3227,7 @@ static const Map<String,dynamic> it = {
       "regular_addition": "Aggiunta regolare",
       "required_margin": "Margine richiesto",
       "resistance_level": "Livello di resistenza {level}",
+      "resistances": "Resistenze",
       "retained_earnings": "Utili non distribuiti",
       "retracement": "Ritracimento",
       "return_on_investment": "Rendimento dell'investimento",
@@ -3242,6 +3283,7 @@ static const Map<String,dynamic> it = {
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotale",
       "support_level": "Livello di supporto {level}",
+      "supports": "Supporti",
       "take_profit": {
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",
@@ -3397,6 +3439,10 @@ static const Map<String,dynamic> fr = {
       "investment_tax_rate": {
         "example": "Par exemple, si votre taux d'imposition applicable est de 25 %, veuillez saisir '25'.",
         "instructions": "Saisissez le taux d'imposition qui s'applique à vos revenus d'investissement ou gains en capital. Ceci doit être exprimé en pourcentage. Assurez-vous d'utiliser le taux correspondant à votre tranche fiscale ou le taux d'imposition spécifique pour le type de revenu que vous déclarez."
+      },
+      "leverage": {
+        "example": "Par exemple, si avec 1 euro de votre capital, vous empruntez 9 euros supplémentaires, choisissez le levier '10:1'.",
+        "instructions": "Sélectionnez le niveau de levier financier pour votre transaction."
       },
       "operating_expenses": {
         "example": "Par exemple, si votre entreprise a dépensé 3 500 \u0024 pour le loyer, 2 500 \u0024 pour les utilitaires, 10 000 \u0024 pour les salaires et 4 000 \u0024 pour diverses dépenses administratives, vous additionneriez ces montants et saisiriez '20000'.",
@@ -3659,6 +3705,7 @@ static const Map<String,dynamic> fr = {
       "regular_addition": "Ajout régulier",
       "required_margin": "Marge requise",
       "resistance_level": "Niveau de résistance {level}",
+      "resistances": "Résistances",
       "retained_earnings": "Bénéfices non distribués",
       "retracement": "Retracement",
       "return_on_investment": "Retour sur investissement",
@@ -3714,6 +3761,7 @@ static const Map<String,dynamic> fr = {
       "stop_loss_take_profit": "Stop de protection/Prise de bénéfices",
       "subtotal": "Sous-total",
       "support_level": "Niveau de support {level}",
+      "supports": "Supports",
       "take_profit": {
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",
@@ -3869,6 +3917,10 @@ static const Map<String,dynamic> es = {
       "investment_tax_rate": {
         "example": "Por ejemplo, si su tasa impositiva aplicable es del 25%, por favor introduzca '25'.",
         "instructions": "Introduzca la tasa de impuestos que se aplica a sus ingresos por inversiones o ganancias de capital. Esto debe expresarse como un porcentaje. Asegúrese de usar la tasa que corresponde a su tramo impositivo o la tasa de impuestos específica para el tipo de ingreso que está declarando."
+      },
+      "leverage": {
+        "example": "Por ejemplo, si con 1 dólar de su capital, usted toma prestados 9 dólares adicionales, elija el apalancamiento '10:1'.",
+        "instructions": "Seleccione el nivel de apalancamiento financiero para su operación."
       },
       "operating_expenses": {
         "example": "Por ejemplo, si su negocio gasta \u00243,500 en alquiler, \u00242,500 en servicios públicos, \u002410,000 en salarios y \u00244,000 en varios gastos administrativos, sumaría estos montos e introduciría '20000'.",
@@ -4131,6 +4183,7 @@ static const Map<String,dynamic> es = {
       "regular_addition": "Aportación regular",
       "required_margin": "Margen requerido",
       "resistance_level": "Nivel de resistencia {level}",
+      "resistances": "Resistencias",
       "retained_earnings": "Beneficios retenidos",
       "retracement": "Retracción",
       "return_on_investment": "Retorno de la inversión",
@@ -4186,6 +4239,7 @@ static const Map<String,dynamic> es = {
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Nivel de soporte {level}",
+      "supports": "Soportes",
       "take_profit": {
         "amount": "Monto de Take Profit",
         "at": "Take Profit en",

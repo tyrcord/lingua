@@ -81,6 +81,10 @@
         "example": "Por exemplo, se a sua taxa de imposto aplicável é de 25%, por favor insira '25'.",
         "instructions": "Insira a taxa de imposto que se aplica aos seus rendimentos de investimento ou ganhos de capital. Isto deve ser expresso em percentagem. Certifique-se de usar a taxa que corresponde ao seu escalão fiscal ou a taxa de imposto específica para o tipo de rendimento que está a declarar."
       },
+      "leverage": {
+        "example": "Por exemplo, se com 1 dólar do seu capital, você empresta mais 9 dólares, escolha a alavancagem '10:1'.",
+        "instructions": "Selecione o nível de alavancagem financeira para sua negociação."
+      },
       "operating_expenses": {
         "example": "Por exemplo, se o seu negócio gasta 350.000 reais de aluguel, 250.000 reais em serviços públicos, 1 milhão de reais em salários e 400.000 reais em outras despesas administrativas, você adicionaria esses valores e inseriria '2000000'.",
         "instructions": "Insira o montante total das despesas operacionais do negócio. Isso inclui aluguel, serviços públicos, salários, manutenção e outras despesas administrativas necessárias para a operação diária. Não inclua impostos, pagamentos de juros ou despesas não operacionais."
@@ -342,6 +346,7 @@
       "regular_addition": "Adição regular",
       "required_margin": "Margem exigida",
       "resistance_level": "Nível de resistência {level}",
+      "resistances": "Resistências",
       "retained_earnings": "Lucros retidos",
       "retracement": "Retração",
       "return_on_investment": "Retorno sobre o investimento",
@@ -397,6 +402,7 @@
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Nível de suporte {level}",
+      "supports": "Suportes",
       "take_profit": {
         "amount": "Valor de Take Profit",
         "at": "Take Profit em",

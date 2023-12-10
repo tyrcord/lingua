@@ -81,6 +81,10 @@
         "example": "Ad esempio, se la tua aliquota fiscale applicabile è del 25%, inserisci '25'.",
         "instructions": "Inserisci l'aliquota fiscale che si applica ai tuoi redditi di investimento o plusvalenze. Questo dovrebbe essere espresso in percentuale. Assicurati di utilizzare l'aliquota corrispondente al tuo scaglione fiscale o l'aliquota specifica per il tipo di reddito che stai dichiarando."
       },
+      "leverage": {
+        "example": "Ad esempio, se con 1 dollaro del tuo capitale, prendi in prestito altri 9 dollari, scegli la leva '10:1'.",
+        "instructions": "Seleziona il livello di leva finanziaria per il tuo commercio."
+      },
       "operating_expenses": {
         "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
         "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
@@ -302,12 +306,12 @@
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Metodo del punto di svolta",
+        "method": "Metodo del punto pivot",
         "standard": "Standard",
-        "text": "Punto di svolta",
+        "text": "Punto pivot",
         "woodie": "Woodie"
       },
-      "pivot_points": "Punti di svolta",
+      "pivot_points": "Punti pivot",
       "position": {
         "amount": "Importo della posizione",
         "long": "Lungo",
@@ -342,6 +346,7 @@
       "regular_addition": "Aggiunta regolare",
       "required_margin": "Margine richiesto",
       "resistance_level": "Livello di resistenza {level}",
+      "resistances": "Resistenze",
       "retained_earnings": "Utili non distribuiti",
       "retracement": "Ritracimento",
       "return_on_investment": "Rendimento dell'investimento",
@@ -397,6 +402,7 @@
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotale",
       "support_level": "Livello di supporto {level}",
+      "supports": "Supporti",
       "take_profit": {
         "amount": "Importo del Take Profit",
         "at": "Take Profit a",

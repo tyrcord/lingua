@@ -81,6 +81,10 @@
         "example": "Par exemple, si votre taux d'imposition applicable est de 25 %, veuillez saisir '25'.",
         "instructions": "Saisissez le taux d'imposition qui s'applique à vos revenus d'investissement ou gains en capital. Ceci doit être exprimé en pourcentage. Assurez-vous d'utiliser le taux correspondant à votre tranche fiscale ou le taux d'imposition spécifique pour le type de revenu que vous déclarez."
       },
+      "leverage": {
+        "example": "Par exemple, si avec 1 euro de votre capital, vous empruntez 9 euros supplémentaires, choisissez le levier '10:1'.",
+        "instructions": "Sélectionnez le niveau de levier financier pour votre transaction."
+      },
       "operating_expenses": {
         "example": "Par exemple, si votre entreprise a dépensé 3 500 $ pour le loyer, 2 500 $ pour les utilitaires, 10 000 $ pour les salaires et 4 000 $ pour diverses dépenses administratives, vous additionneriez ces montants et saisiriez '20000'.",
         "instructions": "Saisissez le montant total des dépenses encourues pour les activités opérationnelles de votre entreprise. Cela devrait inclure des coûts tels que le loyer, les services publics, les salaires, la maintenance et autres dépenses administratives nécessaires au fonctionnement quotidien. Ne pas inclure les taxes, les paiements d'intérêts ou autres dépenses non opérationnelles."
@@ -342,6 +346,7 @@
       "regular_addition": "Ajout régulier",
       "required_margin": "Marge requise",
       "resistance_level": "Niveau de résistance {level}",
+      "resistances": "Résistances",
       "retained_earnings": "Bénéfices non distribués",
       "retracement": "Retracement",
       "return_on_investment": "Retour sur investissement",
@@ -397,6 +402,7 @@
       "stop_loss_take_profit": "Stop de protection/Prise de bénéfices",
       "subtotal": "Sous-total",
       "support_level": "Niveau de support {level}",
+      "supports": "Supports",
       "take_profit": {
         "amount": "Montant de la prise de bénéfices",
         "at": "Prise de bénéfices à",

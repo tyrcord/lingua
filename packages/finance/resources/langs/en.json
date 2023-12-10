@@ -81,6 +81,10 @@
         "example": "For example, if your applicable tax rate is 25%, please enter '25'.",
         "instructions": "Enter the tax rate that applies to your investment income or capital gains. This should be expressed as a percentage. Ensure you use the rate that corresponds to your tax bracket or the specific tax rate for the type of income you are reporting."
       },
+      "leverage": {
+        "example": "For example, if with 1 dollar of your capital, you borrow an additional 9 dollars, choose the '10:1' leverage.",
+        "instructions": "Select the level of financial leverage for your trade."
+      },
       "operating_expenses": {
         "example": "For example, if your business spent $3,500 on rent, $2,500 on utilities, $10,000 on wages, and $4,000 on various administrative expenses, you would add these amounts and enter '20000'.",
         "instructions": "Enter the total amount of expenses incurred for your business's operational activities. This should include costs such as rent, utilities, wages, maintenance, and other administrative expenses necessary for daily operations. Do not include taxes, interest payments, or other non-operational expenses."
@@ -342,6 +346,7 @@
       "regular_addition": "Regular Addition",
       "required_margin": "Required Margin",
       "resistance_level": "Resistance {level}",
+      "resistances": "Resistances",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
       "return_on_investment": "Return on Investment",
@@ -397,6 +402,7 @@
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Support {level}",
+      "supports": "Supports",
       "take_profit": {
         "amount": "Take Profit Amount",
         "at": "Take Profit at",

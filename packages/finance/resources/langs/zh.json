@@ -81,6 +81,10 @@
         "example": "例如，如果您的适用税率是25%，请输入'25'。",
         "instructions": "请输入适用于您的投资收入或资本增值的税率。这应以百分比表示。请确保使用与您所在税率区间相对应的税率或您报告收入类型的特定税率。"
       },
+      "leverage": {
+        "example": "例如，如果您用1美元的资本借入额外的9美元，请选择'10:1'的杠杆。",
+        "instructions": "选择您交易的金融杠杆水平。"
+      },
       "operating_expenses": {
         "example": "例如，如果您的业务在租金上花费350000元，在公用事业上花费250000元，在薪资上花费1000000元，在其他行政费用上花费400000元，您需要加总这些数额并输入'2000000'。",
         "instructions": "请输入业务的总运营费用。这包括租金、公用事业、薪资、维护和其他日常运营所需的行政费用。不要包括税款、利息支付或非运营费用。"
@@ -307,7 +311,7 @@
         "text": "中枢点",
         "woodie": "Woodie"
       },
-      "pivot_points": "中枢点",
+      "pivot_points": "枢轴点",
       "position": {
         "amount": "持仓金额",
         "long": "多头",
@@ -342,6 +346,7 @@
       "regular_addition": "定期增加",
       "required_margin": "所需保证金",
       "resistance_level": "阻力位 {level}",
+      "resistances": "阻力",
       "retained_earnings": "留存收益",
       "retracement": "回撤",
       "return_on_investment": "投资回报率",
@@ -397,6 +402,7 @@
       "stop_loss_take_profit": "止损/获利",
       "subtotal": "小计",
       "support_level": "支撑位 {level}",
+      "supports": "支撑",
       "take_profit": {
         "amount": "止盈金额",
         "at": "止盈于",
