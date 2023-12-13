@@ -34,6 +34,7 @@ abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_iranian_rial = 'instrument.label.iranian_rial';
   static const instrument_label_iraqi_dinar = 'instrument.label.iraqi_dinar';
   static const instrument_label_israeli_new_shekel = 'instrument.label.israeli_new_shekel';
+  static const instrument_label_jamaican_dollar = 'instrument.label.jamaican_dollar';
   static const instrument_label_japanese_yen = 'instrument.label.japanese_yen';
   static const instrument_label_kazakhstani_tenge = 'instrument.label.kazakhstani_tenge';
   static const instrument_label_kuwaiti_dinar = 'instrument.label.kuwaiti_dinar';
