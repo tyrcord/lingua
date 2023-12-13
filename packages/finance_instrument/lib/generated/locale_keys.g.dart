@@ -5,10 +5,13 @@ abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_american_dollar = 'instrument.label.american_dollar';
   static const instrument_label_argentine_peso = 'instrument.label.argentine_peso';
   static const instrument_label_australian_dollar = 'instrument.label.australian_dollar';
+  static const instrument_label_bangladeshi_taka = 'instrument.label.bangladeshi_taka';
+  static const instrument_label_belarusian_ruble = 'instrument.label.belarusian_ruble';
   static const instrument_label_bitcoin = 'instrument.label.bitcoin';
   static const instrument_label_bitcoin_cash = 'instrument.label.bitcoin_cash';
   static const instrument_label_brazilian_real = 'instrument.label.brazilian_real';
   static const instrument_label_brent_crude_oil = 'instrument.label.brent_crude_oil';
+  static const instrument_label_bulgarian_lev = 'instrument.label.bulgarian_lev';
   static const instrument_label_cambodian_riel = 'instrument.label.cambodian_riel';
   static const instrument_label_canadian_dollar = 'instrument.label.canadian_dollar';
   static const instrument_label_cayman_islands_dollar = 'instrument.label.cayman_islands_dollar';
@@ -25,6 +28,7 @@ abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_ethiopian_birr = 'instrument.label.ethiopian_birr';
   static const instrument_label_euro = 'instrument.label.euro';
   static const instrument_label_fiji_dollar = 'instrument.label.fiji_dollar';
+  static const instrument_label_ghanaian_cedi = 'instrument.label.ghanaian_cedi';
   static const instrument_label_gold = 'instrument.label.gold';
   static const instrument_label_hong_kong_dollar = 'instrument.label.hong_kong_dollar';
   static const instrument_label_hungarian_forint = 'instrument.label.hungarian_forint';
@@ -36,7 +40,9 @@ abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_israeli_new_shekel = 'instrument.label.israeli_new_shekel';
   static const instrument_label_jamaican_dollar = 'instrument.label.jamaican_dollar';
   static const instrument_label_japanese_yen = 'instrument.label.japanese_yen';
+  static const instrument_label_jordanian_dinar = 'instrument.label.jordanian_dinar';
   static const instrument_label_kazakhstani_tenge = 'instrument.label.kazakhstani_tenge';
+  static const instrument_label_kenyan_shilling = 'instrument.label.kenyan_shilling';
   static const instrument_label_kuwaiti_dinar = 'instrument.label.kuwaiti_dinar';
   static const instrument_label_litecoin = 'instrument.label.litecoin';
   static const instrument_label_malaysian_ringgit = 'instrument.label.malaysian_ringgit';
@@ -66,8 +72,10 @@ abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_somali_shilling = 'instrument.label.somali_shilling';
   static const instrument_label_south_african_rand = 'instrument.label.south_african_rand';
   static const instrument_label_south_korean_won = 'instrument.label.south_korean_won';
+  static const instrument_label_sri_lankan_rupee = 'instrument.label.sri_lankan_rupee';
   static const instrument_label_swedish_krona = 'instrument.label.swedish_krona';
   static const instrument_label_swiss_franc = 'instrument.label.swiss_franc';
+  static const instrument_label_tanzanian_shilling = 'instrument.label.tanzanian_shilling';
   static const instrument_label_thai_baht = 'instrument.label.thai_baht';
   static const instrument_label_tunisian_dinar = 'instrument.label.tunisian_dinar';
   static const instrument_label_turkish_lira = 'instrument.label.turkish_lira';
@@ -75,6 +83,7 @@ abstract class FinanceInstrumentLocaleKeys {
   static const instrument_label_united_arab_emirates_dirham = 'instrument.label.united_arab_emirates_dirham';
   static const instrument_label_uruguayan_peso = 'instrument.label.uruguayan_peso';
   static const instrument_label_vietnamese_dong = 'instrument.label.vietnamese_dong';
+  static const instrument_label_yemeni_rial = 'instrument.label.yemeni_rial';
   static const instrument_label_zambian_kwacha = 'instrument.label.zambian_kwacha';
   static const instrument_label_zimbabwe_dollar = 'instrument.label.zimbabwe_dollar';
   static const instrument_message_search_instrument = 'instrument.message.search_instrument';
