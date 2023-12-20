@@ -53,6 +53,30 @@
         "example": "Ad esempio, se la tua seconda quotazione per la stessa coppia EUR/USD è 1.1200, inseriresti '1.1200' nel campo 'Prezzo B'.",
         "instructions": "Inserisci la seconda quotazione di prezzo nel campo 'Prezzo B'. Questo valore dovrebbe corrispondere a una quotazione diversa per lo stesso strumento finanziario inserito in 'Prezzo A'."
       },
+      "stop_loss_amount": {
+        "example": "Se il tuo investimento totale è di 1000 $ e desideri limitare la tua perdita a 100 $, inserisci l'importo come 100 $.",
+        "instructions": "Indica l'importo massimo di denaro che sei disposto a perdere in una negoziazione."
+      },
+      "stop_loss_pips": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD e desideri limitare la tua perdita a 20 pips, inserisci 20 come valore.",
+        "instructions": "Specifica il numero di pips a cui intendi impostare l'ordine di stop-loss per mitigare le potenziali perdite."
+      },
+      "stop_loss_price": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD a un tasso di 1,1000 e desideri limitare le tue perdite impostando uno stop-loss a 1,0950, inserisci il valore 1,0950.",
+        "instructions": "Si prega di specificare il tasso di cambio a cui si intende piazzare l'ordine di stop-loss per mitigare le potenziali perdite."
+      },
+      "take_profit_amount": {
+        "example": "Se il tuo investimento totale è di 1000 $ e desideri ottenere un profitto di 200 $, inserisci l'importo come 200 $.",
+        "instructions": "Indica l'importo monetario che miri a raggiungere come profitto in una negoziazione."
+      },
+      "take_profit_pips": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD e desideri prendere profitto a 30 pips, inserisci 30 come valore.",
+        "instructions": "Specifica il numero di pips in cui imposterai il tuo ordine di take-profit per assicurare i guadagni."
+      },
+      "take_profit_price": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD a un tasso di 1.1000 e desideri prendere profitto a un tasso di 1.1050, inserisci 1.1050.",
+        "instructions": "Si prega di specificare il tasso di cambio in cui imposterai il tuo ordine di take-profit per assicurare i guadagni."
+      },
       "trend": {
         "example": "Se ti aspetti che il mercato favorisca l'Euro rispetto al Dollaro Americano, seleziona 'Su'. Se ti aspetti il contrario, seleziona 'Giù'.",
         "text": "Specifica la tendenza del mercato che prevedi per una coppia di valute, sia 'Su' per una tendenza al rialzo o 'Giù' per una tendenza al ribasso."

@@ -65,14 +65,6 @@
         "example": "Par exemple, si vous négociez des indices, vous pourriez sélectionner 'Indices' dans le menu déroulant.",
         "instructions": "Choisissez le type d'instrument financier que vous traitez dans les options du menu déroulant. Les instruments financiers sont des actifs qui peuvent être négociés ou utilisés à des fins d'investissement. Ceux-ci peuvent inclure des actions, des obligations, des dérivés, des devises, etc."
       },
-      "forex_entry_price": {
-        "example": "Si vous souhaitez d'ouvrir une position à un prix différent du prix actuel du marché, saisissez ce prix. Par exemple, si vous souhaitez ouvrir une position sur la paire EUR/USD à 1,1050, saisissez 1,1050.",
-        "instructions": "Saisissez le taux de change auquel vous souhaitez ouvrir une position, que ce soit le taux actuel ou un taux spécifique que vous anticipez."
-      },
-      "forex_stop_loss_price": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
-        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
-      },
       "investment_annual_contribution": {
         "example": "Par exemple, si vous prévoyez de contribuer annuellement 10 000 $ à votre investissement, veuillez saisir '10 000'.",
         "instructions": "Saisissez le montant que vous avez l'intention de contribuer chaque année à votre investissement. Cela pourrait être sous forme de dépôts en espèces ou d'autres formes d'investissement."
@@ -116,10 +108,6 @@
       "slippage": {
         "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 $, mais que l'exécution se fait à 102 $, cet écart de 2 $, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 comme valeur.",
         "text": "Se réfère à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est effectivement exécutée. Le glissement (ou slippage en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres au marché sont utilisés ou cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas de volume suffisant au niveau du prix demandé."
-      },
-      "stop_loss_pips": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez limiter votre perte à 20 pips, veuillez saisir 20 comme valeur.",
-        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
       },
       "stop_loss_price": {
         "example": "Si vous avez acquis une action à 50 $ et choisi de sécuriser votre position avec un ordre de stop-loss à 45 $, veuillez saisir 45 comme valeur.",

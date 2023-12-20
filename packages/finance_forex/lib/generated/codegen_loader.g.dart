@@ -66,6 +66,30 @@ class FinanceForexCodegenLoader extends AssetLoader {
         "example": "例如，如果您对同一EUR/USD对的第二个报价是1.1200，您应该在'价格B'字段中输入'1.1200'。",
         "instructions": "在'价格B'字段中输入第二个价格报价。此值应与在'价格A'中输入的同一金融工具的不同报价相对应。"
       },
+      "stop_loss_amount": {
+        "example": "如果您的总投资额为1000美元，希望将损失限制在100美元，请输入100美元。",
+        "instructions": "指明您愿意在一笔交易中承担的最大亏损金额。"
+      },
+      "stop_loss_pips": {
+        "example": "如果您在EUR/USD货币对上开设了头寸，并希望将损失限制在20点内，请输入20作为数值。",
+        "instructions": "指定您将设置止损订单的点数，以减轻潜在损失。"
+      },
+      "stop_loss_price": {
+        "example": "如果您在EUR/USD货币对上以1.1000的汇率开设了一个头寸，并希望通过设置1.0950的止损来限制您的损失，请输入数值1.0950。",
+        "instructions": "请指定您将设置止损订单的汇率，以减轻潜在损失。"
+      },
+      "take_profit_amount": {
+        "example": "如果您的总投资额为1000美元，并希望获利200美元，请输入200美元。",
+        "instructions": "指明您在一笔交易中期望实现的获利金额。"
+      },
+      "take_profit_pips": {
+        "example": "如果您在欧元/美元货币对上开设了一个头寸，并希望在30点差价中获利，请输入30作为值。",
+        "instructions": "指定您设置获利单以确保收益的点差数。"
+      },
+      "take_profit_price": {
+        "example": "如果您在欧元/美元货币对上以1.1000的汇率开设头寸，并希望在1.1050的汇率下获利，请输入1.1050。",
+        "instructions": "请指定您设置获利单以确保收益的汇率。"
+      },
       "trend": {
         "example": "如果您预期市场将支持欧元对美元，选择'上升'。如果预期相反，请选择'下降'。",
         "text": "指定您预期的货币对市场趋势，'上升'表示上行趋势，'下降'表示下行趋势。"
@@ -173,6 +197,30 @@ static const Map<String,dynamic> ja = {
       "price_b": {
         "example": "例えば、同じEUR/USDペアの2つ目の見積もりが1.1200の場合は、'価格B'フィールドに'1.1200'と入力します。",
         "instructions": "'価格B'フィールドに2つ目の価格見積もりを入力してください。この値は'価格A'で入力されたものと同じ金融商品に対する異なる見積もりに対応するべきです。"
+      },
+      "stop_loss_amount": {
+        "example": "合計投資額が1000ドルで、損失を100ドルに制限したい場合は、額を100ドルとして入力してください。",
+        "instructions": "取引で許容する最大の金額損失を指定してください。"
+      },
+      "stop_loss_pips": {
+        "example": "EUR/USDペアでポジションを開き、損失を20ピップスに限定したい場合は、値として20を入力してください。",
+        "instructions": "潜在的な損失を軽減するために設定するストップロスオーダーのピップ数を指定してください。"
+      },
+      "stop_loss_price": {
+        "example": "EUR/USDペアで1.1000のレートでポジションを開いて、1.0950でストップロスを設定して損失を限定したい場合は、1.0950と入力してください。",
+        "instructions": "潜在的な損失を軽減するためにストップロスオーダーを設置する為替レートを指定してください。"
+      },
+      "take_profit_amount": {
+        "example": "合計投資額が1000ドルで、200ドルの利益を目指す場合は、額を200ドルとして入力してください。",
+        "instructions": "取引で目指す利益の金額を指定してください。"
+      },
+      "take_profit_pips": {
+        "example": "EUR/USDペアでポジションを開いて、30ピップスで利益を確定したい場合は、値として30を入力してください。",
+        "instructions": "利益確定のために設定するテイクプロフィット注文のピップス数を指定してください。"
+      },
+      "take_profit_price": {
+        "example": "EUR/USDペアで1.1000のレートでポジションを開いて、1.1050のレートで利益を確定したい場合は、1.1050を入力してください。",
+        "instructions": "利益を確保するために設定するテイクプロフィット注文の為替レートを指定してください。"
       },
       "trend": {
         "example": "市場がユーロをアメリカドルに対して有利に動くと予想する場合は、「アップ」を選択してください。反対を予想する場合は、「ダウン」を選択してください。",
@@ -282,6 +330,30 @@ static const Map<String,dynamic> de = {
         "example": "Zum Beispiel, wenn Ihr zweites Angebot für das gleiche EUR/USD-Paar 1.1200 beträgt, würden Sie '1.1200' in das Feld 'Preis B' eingeben.",
         "instructions": "Geben Sie das zweite Preisangebot in das Feld 'Preis B' ein. Dieser Wert sollte einem anderen Angebot für das gleiche Finanzinstrument entsprechen, wie in 'Preis A' eingegeben."
       },
+      "stop_loss_amount": {
+        "example": "Wenn Ihre Gesamtinvestition 1000 \u0024 beträgt und Sie Ihren Verlust auf 100 \u0024 begrenzen möchten, geben Sie den Betrag als 100 \u0024 ein.",
+        "instructions": "Geben Sie den maximalen Geldbetrag an, den Sie bei einem Handel zu verlieren bereit sind."
+      },
+      "stop_loss_pips": {
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD eröffnet haben und Ihren Verlust auf 20 Pips begrenzen möchten, geben Sie bitte 20 als Wert ein.",
+        "instructions": "Geben Sie die Anzahl der Pips an, bei denen Sie Ihren Stop-Loss-Auftrag setzen möchten, um potenzielle Verluste zu begrenzen."
+      },
+      "stop_loss_price": {
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD zum Kurs von 1,1000 eröffnet haben und Ihre Verluste durch das Setzen eines Stop-Loss bei 1,0950 begrenzen möchten, geben Sie den Wert 1,0950 ein.",
+        "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Stop-Loss-Auftrag platzieren möchten, um potenzielle Verluste zu begrenzen."
+      },
+      "take_profit_amount": {
+        "example": "Wenn Ihre Gesamtinvestition 1000 \u0024 beträgt und Sie einen Gewinn von 200 \u0024 erzielen möchten, geben Sie den Betrag als 200 \u0024 ein.",
+        "instructions": "Geben Sie den Geldbetrag an, den Sie bei einem Handel als Gewinn erzielen möchten."
+      },
+      "take_profit_pips": {
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD eröffnet haben und bei 30 Pips Gewinn nehmen möchten, geben Sie 30 als Wert ein.",
+        "instructions": "Bestimmen Sie die Anzahl der Pips, bei denen Sie Ihren Take-Profit-Auftrag platzieren, um Gewinne zu sichern."
+      },
+      "take_profit_price": {
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD zu einem Kurs von 1.1000 eröffnet haben und bei einem Kurs von 1.1050 Gewinn nehmen möchten, geben Sie 1.1050 ein.",
+        "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Take-Profit-Auftrag platzieren, um Gewinne zu sichern."
+      },
       "trend": {
         "example": "Wenn Sie erwarten, dass der Markt den Euro gegenüber dem Amerikanischen Dollar bevorzugt, wählen Sie 'Aufwärts'. Wenn Sie das Gegenteil erwarten, wählen Sie 'Abwärts'.",
         "text": "Geben Sie den Markttrend an, den Sie für ein Währungspaar erwarten, entweder 'Aufwärts' für einen Aufwärtstrend oder 'Abwärts' für einen Abwärtstrend."
@@ -389,6 +461,30 @@ static const Map<String,dynamic> ru = {
       "price_b": {
         "example": "Например, если ваша вторая котировка по той же паре EUR/USD составляет 1.1200, введите '1.1200' в поле 'Цена Б'.",
         "instructions": "Введите вторую котировку цены в поле 'Цена Б'. Это значение должно соответствовать другой котировке того же финансового инструмента, что введено в 'Цена А'."
+      },
+      "stop_loss_amount": {
+        "example": "Если ваш общий инвестиционный портфель составляет \u00241000 и вы хотите ограничить потери до \u0024100, введите сумму как \u0024100.",
+        "instructions": "Укажите максимальную сумму денег, которую вы готовы потерять в сделке."
+      },
+      "stop_loss_pips": {
+        "example": "Если вы открыли позицию по паре EUR/USD и хотите ограничить свой убыток до 20 пипсов, пожалуйста, введите 20 в качестве значения.",
+        "instructions": "Укажите количество пипсов, на котором вы установите свой ордер стоп-лосс, чтобы снизить потенциальные убытки."
+      },
+      "stop_loss_price": {
+        "example": "Если вы открыли позицию по паре EUR/USD по курсу 1,1000 и хотите ограничить свои убытки, установив стоп-лосс на уровне 1,0950, введите значение 1,0950.",
+        "instructions": "Пожалуйста, укажите обменный курс, по которому вы разместите свой ордер стоп-лосс, чтобы снизить потенциальные убытки."
+      },
+      "take_profit_amount": {
+        "example": "Если ваш общий инвестиционный портфель составляет \u00241000 и вы хотите получить прибыль в размере \u0024200, введите сумму как \u0024200.",
+        "instructions": "Укажите денежную сумму, которую вы намерены получить в качестве прибыли от сделки."
+      },
+      "take_profit_pips": {
+        "example": "Если вы открыли позицию по паре EUR/USD и хотите взять прибыль при 30 пипсах, введите значение 30.",
+        "instructions": "Укажите количество пипсов, при достижении которых вы установите свой ордер на взятие прибыли для обеспечения доходности."
+      },
+      "take_profit_price": {
+        "example": "Если вы открыли позицию по паре EUR/USD по курсу 1.1000 и хотите взять прибыль по курсу 1.1050, введите 1.1050.",
+        "instructions": "Пожалуйста, укажите обменный курс, по которому вы разместите свой ордер на взятие прибыли для обеспечения доходности."
       },
       "trend": {
         "example": "Если вы ожидаете, что рынок будет благоприятствовать Евро по отношению к Американскому Доллару, выберите 'Вверх'. Если ожидаете обратного, выберите 'Вниз'.",
@@ -498,6 +594,30 @@ static const Map<String,dynamic> pt = {
         "example": "Por exemplo, se a sua segunda cotação para o mesmo par EUR/USD for 1.1200, deve introduzir '1.1200' no campo 'Preço B'.",
         "instructions": "Introduza a segunda cotação de preço no campo 'Preço B'. Este valor deve corresponder a uma cotação diferente para o mesmo instrumento financeiro que foi introduzido em 'Preço A'."
       },
+      "stop_loss_amount": {
+        "example": "Se o seu investimento total é de \u00241000 e deseja limitar a sua perda a \u0024100, insira o montante como \u0024100.",
+        "instructions": "Indique o montante máximo que está disposto a perder numa operação financeira."
+      },
+      "stop_loss_pips": {
+        "example": "Se abriu uma posição no par EUR/USD e deseja limitar a sua perda a 20 pips, por favor introduza 20 como o valor.",
+        "instructions": "Especifique o número de pips em que colocará a sua ordem de stop-loss para mitigar possíveis perdas."
+      },
+      "stop_loss_price": {
+        "example": "Se abriu uma posição no par EUR/USD a uma taxa de 1.1000 e deseja limitar as suas perdas definindo um stop-loss a 1.0950, introduza o valor 1.0950.",
+        "instructions": "Por favor, especifique a taxa de câmbio na qual colocará a sua ordem de stop-loss para mitigar possíveis perdas."
+      },
+      "take_profit_amount": {
+        "example": "Se o seu investimento total é de \u00241000 e deseja obter lucro de \u0024200, insira o montante como \u0024200.",
+        "instructions": "Indique o montante monetário que pretende alcançar em lucro numa operação financeira."
+      },
+      "take_profit_pips": {
+        "example": "Se abriu uma posição no par EUR/USD e deseja obter lucro a 30 pips, insira 30 como o valor.",
+        "instructions": "Especifique o número de pips no qual definirá a sua ordem de take-profit para garantir lucros."
+      },
+      "take_profit_price": {
+        "example": "Se abriu uma posição no par EUR/USD a uma taxa de 1.1000 e deseja obter lucro a uma taxa de 1.1050, insira 1.1050.",
+        "instructions": "Por favor, especifique a taxa de câmbio na qual colocará a sua ordem de take-profit para garantir lucros."
+      },
       "trend": {
         "example": "Se espera que o mercado favoreça o Euro em relação ao Dólar Americano, selecione 'Subir'. Se espera o contrário, selecione 'Descer'.",
         "text": "Especifique a tendência de mercado que antecipa para um par de moedas, seja 'Subir' para uma tendência ascendente ou 'Descer' para uma tendência descendente."
@@ -605,6 +725,30 @@ static const Map<String,dynamic> en = {
       "price_b": {
         "example": "For example, if your second quote for the same EUR/USD pair is 1.1200, you would input '1.1200' into the 'Price B' field.",
         "instructions": "Input the second price quote in the 'Price B' field. This value should correspond to a different quote for the same financial instrument as entered in 'Price A'."
+      },
+      "stop_loss_amount": {
+        "example": "If your total investment is \u00241000 and you wish to limit your loss to \u0024100, enter the amount as \u0024100.",
+        "instructions": "Indicate the maximum monetary amount you are willing to lose in a trade."
+      },
+      "stop_loss_pips": {
+        "example": "If you have opened a position on the EUR/USD pair and wish to limit your loss to 20 pips, please enter 20 as the value.",
+        "instructions": "Specify the number of pips at which you will set your stop-loss order to mitigate potential losses."
+      },
+      "stop_loss_price": {
+        "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to limit your losses by setting a stop-loss at 1.0950, enter the value 1.0950.",
+        "instructions": "Please specify the exchange rate at which you will place your stop-loss order to mitigate potential losses."
+      },
+      "take_profit_amount": {
+        "example": "If your total investment is \u00241000 and you wish to take profit at \u0024200, enter the amount as \u0024200.",
+        "instructions": "Indicate the monetary amount you aim to achieve in profit for a trade."
+      },
+      "take_profit_pips": {
+        "example": "If you have opened a position on the EUR/USD pair and wish to take profit at 30 pips, enter 30 as the value.",
+        "instructions": "Specify the number of pips at which you will set your take-profit order to secure earnings."
+      },
+      "take_profit_price": {
+        "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to take profit at a rate of 1.1050, enter 1.1050.",
+        "instructions": "Please specify the exchange rate at which you will place your take-profit order to secure earnings."
       },
       "trend": {
         "example": "If you expect the market to favor the Euro against the American Dollar, select 'Up'. If you expect the opposite, select 'Down'.",
@@ -714,6 +858,30 @@ static const Map<String,dynamic> it = {
         "example": "Ad esempio, se la tua seconda quotazione per la stessa coppia EUR/USD è 1.1200, inseriresti '1.1200' nel campo 'Prezzo B'.",
         "instructions": "Inserisci la seconda quotazione di prezzo nel campo 'Prezzo B'. Questo valore dovrebbe corrispondere a una quotazione diversa per lo stesso strumento finanziario inserito in 'Prezzo A'."
       },
+      "stop_loss_amount": {
+        "example": "Se il tuo investimento totale è di 1000 \u0024 e desideri limitare la tua perdita a 100 \u0024, inserisci l'importo come 100 \u0024.",
+        "instructions": "Indica l'importo massimo di denaro che sei disposto a perdere in una negoziazione."
+      },
+      "stop_loss_pips": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD e desideri limitare la tua perdita a 20 pips, inserisci 20 come valore.",
+        "instructions": "Specifica il numero di pips a cui intendi impostare l'ordine di stop-loss per mitigare le potenziali perdite."
+      },
+      "stop_loss_price": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD a un tasso di 1,1000 e desideri limitare le tue perdite impostando uno stop-loss a 1,0950, inserisci il valore 1,0950.",
+        "instructions": "Si prega di specificare il tasso di cambio a cui si intende piazzare l'ordine di stop-loss per mitigare le potenziali perdite."
+      },
+      "take_profit_amount": {
+        "example": "Se il tuo investimento totale è di 1000 \u0024 e desideri ottenere un profitto di 200 \u0024, inserisci l'importo come 200 \u0024.",
+        "instructions": "Indica l'importo monetario che miri a raggiungere come profitto in una negoziazione."
+      },
+      "take_profit_pips": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD e desideri prendere profitto a 30 pips, inserisci 30 come valore.",
+        "instructions": "Specifica il numero di pips in cui imposterai il tuo ordine di take-profit per assicurare i guadagni."
+      },
+      "take_profit_price": {
+        "example": "Se hai aperto una posizione sulla coppia EUR/USD a un tasso di 1.1000 e desideri prendere profitto a un tasso di 1.1050, inserisci 1.1050.",
+        "instructions": "Si prega di specificare il tasso di cambio in cui imposterai il tuo ordine di take-profit per assicurare i guadagni."
+      },
       "trend": {
         "example": "Se ti aspetti che il mercato favorisca l'Euro rispetto al Dollaro Americano, seleziona 'Su'. Se ti aspetti il contrario, seleziona 'Giù'.",
         "text": "Specifica la tendenza del mercato che prevedi per una coppia di valute, sia 'Su' per una tendenza al rialzo o 'Giù' per una tendenza al ribasso."
@@ -822,6 +990,30 @@ static const Map<String,dynamic> fr = {
         "example": "Par exemple, si votre deuxième cotation pour la même paire EUR/USD est de 1.1200, vous saisiriez '1.1200' dans le champ 'Prix B'.",
         "instructions": "Saisissez la deuxième cotation de prix dans le champ 'Prix B'. Cette valeur doit correspondre à une cotation différente pour le même instrument financier que celle entrée dans 'Prix A'."
       },
+      "stop_loss_amount": {
+        "example": "Si votre investissement total est de 1000 \u0024 et que vous souhaitez limiter votre perte à 100 \u0024, saisissez le montant comme 100 \u0024.",
+        "instructions": "Indiquez le montant monétaire maximal que vous êtes prêt à perdre dans une transaction."
+      },
+      "stop_loss_pips": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez limiter votre perte à 20 pips, veuillez saisir 20 comme valeur.",
+        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+      },
+      "stop_loss_price": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
+        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+      },
+      "take_profit_amount": {
+        "example": "Si votre investissement total est de 1000 \u0024 et que vous souhaitez réaliser un bénéfice de 200 \u0024, saisissez le montant comme 200 \u0024.",
+        "instructions": "Indiquez le montant monétaire que vous visez à atteindre en profit pour une transaction."
+      },
+      "take_profit_pips": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez prendre un bénéfice à 30 pips, entrez 30 comme valeur.",
+        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+      },
+      "take_profit_price": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD à un taux de 1.1000 et souhaitez prendre un bénéfice à un taux de 1.1050, entrez 1.1050.",
+        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+      },
       "trend": {
         "example": "Si vous attendez que le marché favorise l'Euro par rapport au Dollar Américain, sélectionnez 'Haut'. Si vous attendez le contraire, sélectionnez 'Bas'.",
         "text": "Spécifiez la tendance du marché que vous anticipez pour une paire de devises, soit 'Haut' pour une tendance à la hausse ou 'Bas' pour une tendance à la baisse."
@@ -929,6 +1121,30 @@ static const Map<String,dynamic> es = {
       "price_b": {
         "example": "Por ejemplo, si su segunda cotización para el mismo par EUR/USD es 1.1200, introduciría '1.1200' en el campo 'Precio B'.",
         "instructions": "Introduzca la segunda cotización de precio en el campo 'Precio B'. Este valor debe corresponder a una cotización diferente para el mismo instrumento financiero que se introdujo en 'Precio A'."
+      },
+      "stop_loss_amount": {
+        "example": "Si su inversión total es de \u00241000 y desea limitar su pérdida a \u0024100, introduzca el monto como \u0024100.",
+        "instructions": "Indique la cantidad máxima de dinero que está dispuesto a perder en una operación."
+      },
+      "stop_loss_pips": {
+        "example": "Si ha abierto una posición en el par EUR/USD y desea limitar su pérdida a 20 pips, por favor ingrese 20 como valor.",
+        "instructions": "Especifique el número de pips en el que establecerá su orden de stop-loss para mitigar posibles pérdidas."
+      },
+      "stop_loss_price": {
+        "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1,1000 y desea limitar sus pérdidas estableciendo un stop-loss en 1,0950, ingrese el valor 1,0950.",
+        "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de stop-loss para mitigar posibles pérdidas."
+      },
+      "take_profit_amount": {
+        "example": "Si su inversión total es de \u00241000 y desea obtener un beneficio de \u0024200, introduzca el monto como \u0024200.",
+        "instructions": "Indique la cantidad monetaria que tiene como objetivo alcanzar en beneficios en una operación."
+      },
+      "take_profit_pips": {
+        "example": "Si ha abierto una posición en el par EUR/USD y desea tomar beneficios a 30 pips, introduzca 30 como el valor.",
+        "instructions": "Especifique el número de pips en el que establecerá su orden de toma de beneficios para asegurar ganancias."
+      },
+      "take_profit_price": {
+        "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1.1000 y desea tomar beneficios a una tasa de 1.1050, introduzca 1.1050.",
+        "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de toma de beneficios para asegurar ganancias."
       },
       "trend": {
         "example": "Si espera que el mercado favorezca al Euro frente al Dólar Americano, seleccione 'Subir'. Si espera lo contrario, seleccione 'Bajar'.",

@@ -65,14 +65,6 @@
         "example": "For example, if you trade indices, you might select 'Indices' from the dropdown menu.",
         "instructions": "Choose the type of financial instrument you deal with from the dropdown menu options. Financial instruments are assets that can be traded or used for investment purposes. These may include stocks, bonds, derivatives, currencies, etc."
       },
-      "forex_entry_price": {
-        "example": "If you want to open a position at a price different from the current market price, enter this price. For example, if you want to open a position on the EUR/USD pair at 1.1050, enter 1.1050.",
-        "instructions": "Enter the exchange rate at which you wish to open a position, whether it is the current rate or a specific rate you anticipate."
-      },
-      "forex_stop_loss_price": {
-        "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to limit your losses by setting a stop-loss at 1.0950, enter the value 1.0950.",
-        "instructions": "Please specify the exchange rate at which you will place your stop-loss order to mitigate potential losses."
-      },
       "investment_annual_contribution": {
         "example": "For example, if you plan to contribute $10,000 annually to your investment, please enter '10,000'.",
         "instructions": "Enter the amount you intend to contribute to your investment each year. This could be in the form of cash deposits or other forms of investment."
@@ -116,10 +108,6 @@
       "slippage": {
         "example": "If you place a market order to purchase a stock valued at $100, but the transaction takes place at $102, the resulting variance of $2, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input 2 as a percentage.",
         "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, or it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
-      },
-      "stop_loss_pips": {
-        "example": "If you have opened a position on the EUR/USD pair and wish to limit your loss to 20 pips, please enter 20 as the value.",
-        "instructions": "Specify the number of pips at which you will set your stop-loss order to mitigate potential losses."
       },
       "stop_loss_price": {
         "example": "If you purchased a stock at $50 and chose to secure your position with a stop-loss order at $45, please enter 45 as the value.",

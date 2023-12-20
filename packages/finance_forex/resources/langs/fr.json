@@ -53,6 +53,30 @@
         "example": "Par exemple, si votre deuxième cotation pour la même paire EUR/USD est de 1.1200, vous saisiriez '1.1200' dans le champ 'Prix B'.",
         "instructions": "Saisissez la deuxième cotation de prix dans le champ 'Prix B'. Cette valeur doit correspondre à une cotation différente pour le même instrument financier que celle entrée dans 'Prix A'."
       },
+      "stop_loss_amount": {
+        "example": "Si votre investissement total est de 1000 $ et que vous souhaitez limiter votre perte à 100 $, saisissez le montant comme 100 $.",
+        "instructions": "Indiquez le montant monétaire maximal que vous êtes prêt à perdre dans une transaction."
+      },
+      "stop_loss_pips": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez limiter votre perte à 20 pips, veuillez saisir 20 comme valeur.",
+        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+      },
+      "stop_loss_price": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
+        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+      },
+      "take_profit_amount": {
+        "example": "Si votre investissement total est de 1000 $ et que vous souhaitez réaliser un bénéfice de 200 $, saisissez le montant comme 200 $.",
+        "instructions": "Indiquez le montant monétaire que vous visez à atteindre en profit pour une transaction."
+      },
+      "take_profit_pips": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez prendre un bénéfice à 30 pips, entrez 30 comme valeur.",
+        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+      },
+      "take_profit_price": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD à un taux de 1.1000 et souhaitez prendre un bénéfice à un taux de 1.1050, entrez 1.1050.",
+        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+      },
       "trend": {
         "example": "Si vous attendez que le marché favorise l'Euro par rapport au Dollar Américain, sélectionnez 'Haut'. Si vous attendez le contraire, sélectionnez 'Bas'.",
         "text": "Spécifiez la tendance du marché que vous anticipez pour une paire de devises, soit 'Haut' pour une tendance à la hausse ou 'Bas' pour une tendance à la baisse."

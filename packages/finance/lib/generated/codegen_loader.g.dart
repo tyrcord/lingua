@@ -78,14 +78,6 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "例如，如果您交易指数，您可以在下拉菜单中选择'指数'。",
         "instructions": "从下拉菜单中选择您交易的金融工具类型。金融工具是可以交易或用于投资目的的资产。这可能包括股票、债券、衍生品、货币等。"
       },
-      "forex_entry_price": {
-        "example": "如果您想以当前市场价格以外的价格开设一个头寸，请输入这个价格。例如，如果您想在EUR/USD货币对上以1.1050的价格开设头寸，请输入1.1050。",
-        "instructions": "请输入您希望开设头寸的汇率，无论是当前汇率还是您预期的特定汇率。"
-      },
-      "forex_stop_loss_price": {
-        "example": "如果您在EUR/USD货币对上以1.1000的汇率开设了一个头寸，并希望通过设置1.0950的止损来限制您的损失，请输入数值1.0950。",
-        "instructions": "请指定您将设置止损订单的汇率，以减轻潜在损失。"
-      },
       "investment_annual_contribution": {
         "example": "例如，如果您计划每年向您的投资贡献10,000美元，请输入'10,000'。",
         "instructions": "请输入您计划每年对您的投资贡献的金额。这可能是现金存款或其他投资形式。"
@@ -129,10 +121,6 @@ class FinanceCodegenLoader extends AssetLoader {
       "slippage": {
         "example": "如果您下达以当前价格 100 欧元购买股票的市场订单，但实际执行价格为 102 欧元，则此 2 欧元 (相当于原始价格的 2%) 差异称为“滑点”。在这种情况下，您需要输入 2 作为百分比。",
         "text": "指的是交易预期价格和实际执行价格之间的差异。滑点在高波动时期使用市场订单时经常发生，也可能发生在执行大订单时，并且没有足够的交易量在所需的价格水平上。"
-      },
-      "stop_loss_pips": {
-        "example": "如果您在EUR/USD货币对上开设了头寸，并希望将损失限制在20点内，请输入20作为数值。",
-        "instructions": "指定您将设置止损订单的点数，以减轻潜在损失。"
       },
       "stop_loss_price": {
         "example": "如果您以 50 欧元购买了股票，并选择以 45 欧元设置止损单来保护您的头寸，请输入 45 作为值。",
@@ -556,14 +544,6 @@ static const Map<String,dynamic> ja = {
         "example": "例えば、インデックスを取引している場合、ドロップダウンメニューで 'インデックス' を選ぶことができます。",
         "instructions": "ドロップダウンメニューから、取引している金融商品の種類を選択してください。金融商品とは、取引や投資目的で使用できる資産のことで、株式、債券、デリバティブ、通貨などが含まれます。"
       },
-      "forex_entry_price": {
-        "example": "現在の市場価格とは異なる価格でポジションを開く場合は、その価格を入力してください。たとえば、EUR/USDペアで1.1050でポジションを開きたい場合は、1.1050と入力します。",
-        "instructions": "現在のレートであれ、予想する特定のレートであれ、ポジションを開く為替レートを入力してください。"
-      },
-      "forex_stop_loss_price": {
-        "example": "EUR/USDペアで1.1000のレートでポジションを開いて、1.0950でストップロスを設定して損失を限定したい場合は、1.0950と入力してください。",
-        "instructions": "潜在的な損失を軽減するためにストップロスオーダーを設置する為替レートを指定してください。"
-      },
       "investment_annual_contribution": {
         "example": "例えば、あなたの投資に対して年間10,000ドルの貢献を計画している場合は、「10,000」と入力してください。",
         "instructions": "毎年あなたの投資に対して貢献する予定の金額を入力してください。これは現金預金または他の投資形態によるものかもしれません。"
@@ -607,10 +587,6 @@ static const Map<String,dynamic> ja = {
       "slippage": {
         "example": "現在 100 円で取引されている株式を市場価格で購入する注文を placed した場合、取引が 102 円で実行された場合、この 2 円の差は「スリッページ」と呼ばれます。この場合、パーセンテージとして 2 を入力する必要があります。",
         "text": "取引の expected 価格と実際に取引が実行された価格の差を参照します。スリッページは、市場のボラティリティが高い期間や、大口の注文が実行されていて、要求された価格レベルで十分な取引量がない場合によく発生します。"
-      },
-      "stop_loss_pips": {
-        "example": "EUR/USDペアでポジションを開き、損失を20ピップスに限定したい場合は、値として20を入力してください。",
-        "instructions": "潜在的な損失を軽減するために設定するストップロスオーダーのピップ数を指定してください。"
       },
       "stop_loss_price": {
         "example": "50 円で株式を購入した後、45 円の損失を防ぐためにストップロス注文を設定する場合、45 を値として入力してください。",
@@ -1034,14 +1010,6 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie beispielsweise mit Indizes handeln, könnten Sie 'Indizes' aus dem Dropdown-Menü auswählen.",
         "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. gehören."
       },
-      "forex_entry_price": {
-        "example": "Wenn Sie eine Position zu einem anderen als dem aktuellen Marktpreis eröffnen möchten, geben Sie diesen Preis ein. Wenn Sie beispielsweise eine Position im Währungspaar EUR/USD zu 1,1050 eröffnen möchten, geben Sie 1,1050 ein.",
-        "instructions": "Geben Sie den Wechselkurs ein, zu dem Sie eine Position eröffnen möchten, sei es der aktuelle Kurs oder ein spezifischer Kurs, den Sie erwarten."
-      },
-      "forex_stop_loss_price": {
-        "example": "Wenn Sie eine Position im Währungspaar EUR/USD zum Kurs von 1,1000 eröffnet haben und Ihre Verluste durch das Setzen eines Stop-Loss bei 1,0950 begrenzen möchten, geben Sie den Wert 1,0950 ein.",
-        "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Stop-Loss-Auftrag platzieren möchten, um potenzielle Verluste zu begrenzen."
-      },
       "investment_annual_contribution": {
         "example": "Zum Beispiel, wenn Sie planen, jährlich 10.000 \u0024 zu Ihrer Anlage beizutragen, geben Sie bitte '10.000' ein.",
         "instructions": "Geben Sie den Betrag ein, den Sie jedes Jahr zu Ihrer Anlage beitragen möchten. Dies könnte in Form von Bareinzahlungen oder anderen Anlageformen sein."
@@ -1085,10 +1053,6 @@ static const Map<String,dynamic> de = {
       "slippage": {
         "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
         "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
-      },
-      "stop_loss_pips": {
-        "example": "Wenn Sie eine Position im Währungspaar EUR/USD eröffnet haben und Ihren Verlust auf 20 Pips begrenzen möchten, geben Sie bitte 20 als Wert ein.",
-        "instructions": "Geben Sie die Anzahl der Pips an, bei denen Sie Ihren Stop-Loss-Auftrag setzen möchten, um potenzielle Verluste zu begrenzen."
       },
       "stop_loss_price": {
         "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
@@ -1512,14 +1476,6 @@ static const Map<String,dynamic> ru = {
         "example": "Например, если вы торгуете индексами, вы могли бы выбрать 'Индексы' в выпадающем меню.",
         "instructions": "Выберите тип финансового инструмента, с которым вы работаете, из опций в выпадающем меню. Финансовые инструменты - это активы, которыми можно торговать или которые можно использовать в инвестиционных целях. К ним относятся акции, облигации, производные финансовые инструменты, валюты и т. д."
       },
-      "forex_entry_price": {
-        "example": "Если вы хотите открыть позицию по цене, отличной от текущей рыночной цены, введите эту цену. Например, если вы хотите открыть позицию по паре EUR/USD по курсу 1,1050, введите 1,1050.",
-        "instructions": "Введите обменный курс, по которому вы хотите открыть позицию, будь то текущий курс или определенный курс, который вы ожидаете."
-      },
-      "forex_stop_loss_price": {
-        "example": "Если вы открыли позицию по паре EUR/USD по курсу 1,1000 и хотите ограничить свои убытки, установив стоп-лосс на уровне 1,0950, введите значение 1,0950.",
-        "instructions": "Пожалуйста, укажите обменный курс, по которому вы разместите свой ордер стоп-лосс, чтобы снизить потенциальные убытки."
-      },
       "investment_annual_contribution": {
         "example": "Например, если вы планируете вносить ежегодный вклад в свои инвестиции в размере 10,000 долларов, введите '10,000'.",
         "instructions": "Введите сумму, которую вы намерены вносить в свои инвестиции каждый год. Это может быть в форме денежных вкладов или других форм инвестирования."
@@ -1563,10 +1519,6 @@ static const Map<String,dynamic> ru = {
       "slippage": {
         "example": "Если вы разместите рыночный ордер на покупку акции, которая в настоящее время торгуется по 100 €, но исполнение происходит по 102 €, эта разница в 2 € (что составляет 2% от первоначальной цены) называется «проскальзыванием». В этом случае вам нужно ввести 2 в качестве процента.",
         "text": "Ссылается на разницу между ожидаемой ценой транзакции и ценой, по которой транзакция фактически выполняется. Проскальзывает часто во время периодов высокой волатильности, когда используются рыночные ордера, или может также происходить, когда выполняются крупные ордера, и нет достаточного объема на запрашиваемом уровне цен."
-      },
-      "stop_loss_pips": {
-        "example": "Если вы открыли позицию по паре EUR/USD и хотите ограничить свой убыток до 20 пипсов, пожалуйста, введите 20 в качестве значения.",
-        "instructions": "Укажите количество пипсов, на котором вы установите свой ордер стоп-лосс, чтобы снизить потенциальные убытки."
       },
       "stop_loss_price": {
         "example": "Если вы купили акцию по 50 € и решили защитить свою позицию стоп-лосс-приказом на 45 €, введите 45 в качестве значения.",
@@ -1990,14 +1942,6 @@ static const Map<String,dynamic> pt = {
         "example": "Por exemplo, se negoceia índices, poderia selecionar 'Índices' no menu suspenso.",
         "instructions": "Escolha o tipo de instrumento financeiro com o qual negoceia a partir das opções no menu suspenso. Os instrumentos financeiros são ativos que podem ser negociados ou usados para fins de investimento. Isso pode incluir ações, obrigações, derivados, moedas, etc."
       },
-      "forex_entry_price": {
-        "example": "Se deseja abrir uma posição a um preço diferente do preço atual do mercado, introduza esse preço. Por exemplo, se quiser abrir uma posição no par EUR/USD a 1.1050, introduza 1.1050.",
-        "instructions": "Introduza a taxa de câmbio na qual deseja abrir uma posição, seja a taxa atual ou uma taxa específica que antecipa."
-      },
-      "forex_stop_loss_price": {
-        "example": "Se abriu uma posição no par EUR/USD a uma taxa de 1.1000 e deseja limitar as suas perdas definindo um stop-loss a 1.0950, introduza o valor 1.0950.",
-        "instructions": "Por favor, especifique a taxa de câmbio na qual colocará a sua ordem de stop-loss para mitigar possíveis perdas."
-      },
       "investment_annual_contribution": {
         "example": "Por exemplo, se planeia contribuir anualmente com \u002410,000 para o seu investimento, por favor insira '10,000'.",
         "instructions": "Insira o montante que pretende contribuir anualmente para o seu investimento. Isto pode ser na forma de depósitos em dinheiro ou outras formas de investimento."
@@ -2041,10 +1985,6 @@ static const Map<String,dynamic> pt = {
       "slippage": {
         "example": "Se você fizer um pedido de mercado para comprar uma ação que atualmente está sendo negociada a 100 €, mas a execução ocorrer a 102 €, essa diferença de 2 €, que equivale a 2% do preço original, é chamada de 'slippage'. Nesse caso, você deve inserir 2 como porcentagem.",
         "text": "Refere-se à diferença entre o preço esperado de uma transação e o preço ao qual a transação é realmente executada. O slippage ocorre frequentemente durante períodos de alta volatilidade quando são usados ​​pedidos de mercado, ou também pode ocorrer quando são executados pedidos grandes e não há volume suficiente no nível de preço solicitado."
-      },
-      "stop_loss_pips": {
-        "example": "Se abriu uma posição no par EUR/USD e deseja limitar a sua perda a 20 pips, por favor introduza 20 como o valor.",
-        "instructions": "Especifique o número de pips em que colocará a sua ordem de stop-loss para mitigar possíveis perdas."
       },
       "stop_loss_price": {
         "example": "Se você comprou uma ação a 50 € e optou por proteger sua posição com um stop-loss a 45 €, insira 45 como valor.",
@@ -2468,14 +2408,6 @@ static const Map<String,dynamic> en = {
         "example": "For example, if you trade indices, you might select 'Indices' from the dropdown menu.",
         "instructions": "Choose the type of financial instrument you deal with from the dropdown menu options. Financial instruments are assets that can be traded or used for investment purposes. These may include stocks, bonds, derivatives, currencies, etc."
       },
-      "forex_entry_price": {
-        "example": "If you want to open a position at a price different from the current market price, enter this price. For example, if you want to open a position on the EUR/USD pair at 1.1050, enter 1.1050.",
-        "instructions": "Enter the exchange rate at which you wish to open a position, whether it is the current rate or a specific rate you anticipate."
-      },
-      "forex_stop_loss_price": {
-        "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to limit your losses by setting a stop-loss at 1.0950, enter the value 1.0950.",
-        "instructions": "Please specify the exchange rate at which you will place your stop-loss order to mitigate potential losses."
-      },
       "investment_annual_contribution": {
         "example": "For example, if you plan to contribute \u002410,000 annually to your investment, please enter '10,000'.",
         "instructions": "Enter the amount you intend to contribute to your investment each year. This could be in the form of cash deposits or other forms of investment."
@@ -2519,10 +2451,6 @@ static const Map<String,dynamic> en = {
       "slippage": {
         "example": "If you place a market order to purchase a stock valued at \u0024100, but the transaction takes place at \u0024102, the resulting variance of \u00242, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input 2 as a percentage.",
         "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, or it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
-      },
-      "stop_loss_pips": {
-        "example": "If you have opened a position on the EUR/USD pair and wish to limit your loss to 20 pips, please enter 20 as the value.",
-        "instructions": "Specify the number of pips at which you will set your stop-loss order to mitigate potential losses."
       },
       "stop_loss_price": {
         "example": "If you purchased a stock at \u002450 and chose to secure your position with a stop-loss order at \u002445, please enter 45 as the value.",
@@ -2946,14 +2874,6 @@ static const Map<String,dynamic> it = {
         "example": "Ad esempio, se fai trading sugli indici, potresti selezionare 'Indici' dal menu a tendina.",
         "instructions": "Scegli il tipo di strumento finanziario con cui operi dalle opzioni del menu a tendina. Gli strumenti finanziari sono attivi che possono essere scambiati o utilizzati per scopi di investimento. Questi possono includere azioni, obbligazioni, derivati, valute, ecc."
       },
-      "forex_entry_price": {
-        "example": "Se vuoi aprire una posizione a un prezzo diverso dal prezzo di mercato attuale, inserisci questo prezzo. Ad esempio, se desideri aprire una posizione sulla coppia EUR/USD a 1,1050, inserisci 1,1050.",
-        "instructions": "Inserisci il tasso di cambio a cui desideri aprire una posizione, sia che si tratti del tasso corrente o di un tasso specifico che prevedi."
-      },
-      "forex_stop_loss_price": {
-        "example": "Se hai aperto una posizione sulla coppia EUR/USD a un tasso di 1,1000 e desideri limitare le tue perdite impostando uno stop-loss a 1,0950, inserisci il valore 1,0950.",
-        "instructions": "Si prega di specificare il tasso di cambio a cui si intende piazzare l'ordine di stop-loss per mitigare le potenziali perdite."
-      },
       "investment_annual_contribution": {
         "example": "Ad esempio, se prevedi di contribuire annualmente \u002410,000 al tuo investimento, inserisci '10,000'.",
         "instructions": "Inserisci l'importo che intendi contribuire ogni anno al tuo investimento. Questo potrebbe essere sotto forma di depositi in contanti o altre forme di investimento."
@@ -2997,10 +2917,6 @@ static const Map<String,dynamic> it = {
       "slippage": {
         "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
         "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
-      },
-      "stop_loss_pips": {
-        "example": "Se hai aperto una posizione sulla coppia EUR/USD e desideri limitare la tua perdita a 20 pips, inserisci 20 come valore.",
-        "instructions": "Specifica il numero di pips a cui intendi impostare l'ordine di stop-loss per mitigare le potenziali perdite."
       },
       "stop_loss_price": {
         "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
@@ -3424,14 +3340,6 @@ static const Map<String,dynamic> fr = {
         "example": "Par exemple, si vous négociez des indices, vous pourriez sélectionner 'Indices' dans le menu déroulant.",
         "instructions": "Choisissez le type d'instrument financier que vous traitez dans les options du menu déroulant. Les instruments financiers sont des actifs qui peuvent être négociés ou utilisés à des fins d'investissement. Ceux-ci peuvent inclure des actions, des obligations, des dérivés, des devises, etc."
       },
-      "forex_entry_price": {
-        "example": "Si vous souhaitez d'ouvrir une position à un prix différent du prix actuel du marché, saisissez ce prix. Par exemple, si vous souhaitez ouvrir une position sur la paire EUR/USD à 1,1050, saisissez 1,1050.",
-        "instructions": "Saisissez le taux de change auquel vous souhaitez ouvrir une position, que ce soit le taux actuel ou un taux spécifique que vous anticipez."
-      },
-      "forex_stop_loss_price": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
-        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
-      },
       "investment_annual_contribution": {
         "example": "Par exemple, si vous prévoyez de contribuer annuellement 10 000 \u0024 à votre investissement, veuillez saisir '10 000'.",
         "instructions": "Saisissez le montant que vous avez l'intention de contribuer chaque année à votre investissement. Cela pourrait être sous forme de dépôts en espèces ou d'autres formes d'investissement."
@@ -3475,10 +3383,6 @@ static const Map<String,dynamic> fr = {
       "slippage": {
         "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 \u0024, mais que l'exécution se fait à 102 \u0024, cet écart de 2 \u0024, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 comme valeur.",
         "text": "Se réfère à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est effectivement exécutée. Le glissement (ou slippage en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres au marché sont utilisés ou cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas de volume suffisant au niveau du prix demandé."
-      },
-      "stop_loss_pips": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez limiter votre perte à 20 pips, veuillez saisir 20 comme valeur.",
-        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
       },
       "stop_loss_price": {
         "example": "Si vous avez acquis une action à 50 \u0024 et choisi de sécuriser votre position avec un ordre de stop-loss à 45 \u0024, veuillez saisir 45 comme valeur.",
@@ -3902,14 +3806,6 @@ static const Map<String,dynamic> es = {
         "example": "Por ejemplo, si operas con índices, podrías seleccionar 'Índices' en el menú desplegable.",
         "instructions": "Elige el tipo de instrumento financiero con el que tratas en las opciones del menú desplegable. Los instrumentos financieros son activos que se pueden negociar o utilizar con fines de inversión. Estos pueden incluir acciones, bonos, derivados, divisas, etc."
       },
-      "forex_entry_price": {
-        "example": "Si desea abrir una posición a un precio diferente del precio actual del mercado, ingrese este precio. Por ejemplo, si desea abrir una posición en el par EUR/USD a 1,1050, ingrese 1,1050.",
-        "instructions": "Ingrese la tasa de cambio a la que desea abrir una posición, ya sea la tasa actual o una tasa específica que anticipa."
-      },
-      "forex_stop_loss_price": {
-        "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1,1000 y desea limitar sus pérdidas estableciendo un stop-loss en 1,0950, ingrese el valor 1,0950.",
-        "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de stop-loss para mitigar posibles pérdidas."
-      },
       "investment_annual_contribution": {
         "example": "Por ejemplo, si planea contribuir anualmente \u002410,000 a su inversión, por favor introduzca '10,000'.",
         "instructions": "Introduzca el monto que tiene la intención de contribuir a su inversión cada año. Esto podría ser en forma de depósitos en efectivo u otras formas de inversión."
@@ -3953,10 +3849,6 @@ static const Map<String,dynamic> es = {
       "slippage": {
         "example": "Si realiza un pedido de mercado para comprar una acción que actualmente cotiza a 100 €, pero la ejecución se realiza a 102 €, esta diferencia de 2 €, que equivale al 2 % del precio original, se denomina 'deslizamiento'. En este caso, debe introducir 2 como porcentaje.",
         "text": "Se refiere a la diferencia entre el precio esperado de una transacción y el precio al que la transacción se ejecuta realmente. El deslizamiento se produce a menudo durante las periods de alta volatilidad cuando se utilizan órdenes de mercado, o también puede ocurrir cuando se ejecutan órdenes grandes y no hay suficiente volumen en el nivel de precio solicitado."
-      },
-      "stop_loss_pips": {
-        "example": "Si ha abierto una posición en el par EUR/USD y desea limitar su pérdida a 20 pips, por favor ingrese 20 como valor.",
-        "instructions": "Especifique el número de pips en el que establecerá su orden de stop-loss para mitigar posibles pérdidas."
       },
       "stop_loss_price": {
         "example": "Si ha comprado una acción a 50 € y ha elegido proteger su posición con una orden de stop-loss a 45 €, introduzca 45 como valor.",

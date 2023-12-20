@@ -53,6 +53,30 @@
         "example": "For example, if your second quote for the same EUR/USD pair is 1.1200, you would input '1.1200' into the 'Price B' field.",
         "instructions": "Input the second price quote in the 'Price B' field. This value should correspond to a different quote for the same financial instrument as entered in 'Price A'."
       },
+      "stop_loss_amount": {
+        "example": "If your total investment is $1000 and you wish to limit your loss to $100, enter the amount as $100.",
+        "instructions": "Indicate the maximum monetary amount you are willing to lose in a trade."
+      },
+      "stop_loss_pips": {
+        "example": "If you have opened a position on the EUR/USD pair and wish to limit your loss to 20 pips, please enter 20 as the value.",
+        "instructions": "Specify the number of pips at which you will set your stop-loss order to mitigate potential losses."
+      },
+      "stop_loss_price": {
+        "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to limit your losses by setting a stop-loss at 1.0950, enter the value 1.0950.",
+        "instructions": "Please specify the exchange rate at which you will place your stop-loss order to mitigate potential losses."
+      },
+      "take_profit_amount": {
+        "example": "If your total investment is $1000 and you wish to take profit at $200, enter the amount as $200.",
+        "instructions": "Indicate the monetary amount you aim to achieve in profit for a trade."
+      },
+      "take_profit_pips": {
+        "example": "If you have opened a position on the EUR/USD pair and wish to take profit at 30 pips, enter 30 as the value.",
+        "instructions": "Specify the number of pips at which you will set your take-profit order to secure earnings."
+      },
+      "take_profit_price": {
+        "example": "If you have opened a position on the EUR/USD pair at a rate of 1.1000 and wish to take profit at a rate of 1.1050, enter 1.1050.",
+        "instructions": "Please specify the exchange rate at which you will place your take-profit order to secure earnings."
+      },
       "trend": {
         "example": "If you expect the market to favor the Euro against the American Dollar, select 'Up'. If you expect the opposite, select 'Down'.",
         "text": "Specify the market trend you anticipate for a currency pair, either 'Up' for an upward trend or 'Down' for a downward trend."

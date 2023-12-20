@@ -53,6 +53,30 @@
         "example": "Por exemplo, se a sua segunda cotação para o mesmo par EUR/USD for 1.1200, deve introduzir '1.1200' no campo 'Preço B'.",
         "instructions": "Introduza a segunda cotação de preço no campo 'Preço B'. Este valor deve corresponder a uma cotação diferente para o mesmo instrumento financeiro que foi introduzido em 'Preço A'."
       },
+      "stop_loss_amount": {
+        "example": "Se o seu investimento total é de $1000 e deseja limitar a sua perda a $100, insira o montante como $100.",
+        "instructions": "Indique o montante máximo que está disposto a perder numa operação financeira."
+      },
+      "stop_loss_pips": {
+        "example": "Se abriu uma posição no par EUR/USD e deseja limitar a sua perda a 20 pips, por favor introduza 20 como o valor.",
+        "instructions": "Especifique o número de pips em que colocará a sua ordem de stop-loss para mitigar possíveis perdas."
+      },
+      "stop_loss_price": {
+        "example": "Se abriu uma posição no par EUR/USD a uma taxa de 1.1000 e deseja limitar as suas perdas definindo um stop-loss a 1.0950, introduza o valor 1.0950.",
+        "instructions": "Por favor, especifique a taxa de câmbio na qual colocará a sua ordem de stop-loss para mitigar possíveis perdas."
+      },
+      "take_profit_amount": {
+        "example": "Se o seu investimento total é de $1000 e deseja obter lucro de $200, insira o montante como $200.",
+        "instructions": "Indique o montante monetário que pretende alcançar em lucro numa operação financeira."
+      },
+      "take_profit_pips": {
+        "example": "Se abriu uma posição no par EUR/USD e deseja obter lucro a 30 pips, insira 30 como o valor.",
+        "instructions": "Especifique o número de pips no qual definirá a sua ordem de take-profit para garantir lucros."
+      },
+      "take_profit_price": {
+        "example": "Se abriu uma posição no par EUR/USD a uma taxa de 1.1000 e deseja obter lucro a uma taxa de 1.1050, insira 1.1050.",
+        "instructions": "Por favor, especifique a taxa de câmbio na qual colocará a sua ordem de take-profit para garantir lucros."
+      },
       "trend": {
         "example": "Se espera que o mercado favoreça o Euro em relação ao Dólar Americano, selecione 'Subir'. Se espera o contrário, selecione 'Descer'.",
         "text": "Especifique a tendência de mercado que antecipa para um par de moedas, seja 'Subir' para uma tendência ascendente ou 'Descer' para uma tendência descendente."
