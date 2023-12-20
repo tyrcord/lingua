@@ -1,6 +1,6 @@
 name: lingua_finance_instrument
 description: Library for internal finance instrument localization.
-version: 0.0.7
+version: 0.0.8
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance_instrument
 
 environment:
