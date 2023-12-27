@@ -3,6 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-12-27
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_ad` - `v0.0.16`](#lingua_ad---v0016)
+ - [`lingua_core` - `v0.0.33`](#lingua_core---v0033)
+ - [`lingua_finance` - `v0.0.29`](#lingua_finance---v0029)
+ - [`lingua_finance_dividend` - `v0.0.8`](#lingua_finance_dividend---v008)
+ - [`lingua_finance_forex` - `v0.0.11`](#lingua_finance_forex---v0011)
+ - [`lingua_finance_stock` - `v0.0.11`](#lingua_finance_stock---v0011)
+ - [`lingua_purchases` - `v0.0.19`](#lingua_purchases---v0019)
+ - [`lingua_settings` - `v0.0.14`](#lingua_settings---v0014)
+ - [`lingua_number` - `v0.0.10+1`](#lingua_number---v00101)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `lingua_number` - `v0.0.10+1`
+
+---
+
+#### `lingua_ad` - `v0.0.16`
+
+ - **FEAT**: clean up.
+
+#### `lingua_core` - `v0.0.33`
+
+ - **FEAT**: clean up.
+
+#### `lingua_finance` - `v0.0.29`
+
+ - **FEAT**: clean up.
+
+#### `lingua_finance_dividend` - `v0.0.8`
+
+ - **FEAT**: clean up.
+
+#### `lingua_finance_forex` - `v0.0.11`
+
+ - **FEAT**: clean up.
+
+#### `lingua_finance_stock` - `v0.0.11`
+
+ - **FEAT**: clean up.
+
+#### `lingua_purchases` - `v0.0.19`
+
+ - **FEAT**: clean up.
+
+#### `lingua_settings` - `v0.0.14`
+
+ - **FEAT**: clean up.
+
+
 ## 2023-12-20
 
 ### Changes

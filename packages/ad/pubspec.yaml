@@ -1,6 +1,6 @@
 name: lingua_ad
 description: Library for internal ad localization.
-version: 0.0.15
+version: 0.0.16
 repository: https://github.com/tyrcord/lingua/tree/main/packages/ad
 
 environment:
@@ -17,4 +17,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.1
-  lingua_core: ^0.0.32
+  lingua_core: ^0.0.33
