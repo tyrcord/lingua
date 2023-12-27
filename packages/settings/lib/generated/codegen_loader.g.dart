@@ -138,8 +138,8 @@ static const Map<String,dynamic> de = {
     "label": {
       "about": "Über",
       "app": {
-        "preferences": "App-Einstellungen",
-        "settings": "App-Einstellungen"
+        "preferences": "App-einstellungen",
+        "settings": "App-einstellungen"
       },
       "appearance": "Erscheinungsbild",
       "change": {
@@ -150,7 +150,7 @@ static const Map<String,dynamic> de = {
       "dark": "Dunkel",
       "default": "Standard",
       "disclaimer": "Haftungsausschluss",
-      "help_and_support": "Hilfe und Support",
+      "help_and_support": "Hilfe und support",
       "homepage": "Startseite",
       "language": "Sprache",
       "languages": "Sprachen",
@@ -158,7 +158,7 @@ static const Map<String,dynamic> de = {
       "light": "Hell",
       "preferences": "Einstellungen",
       "privacy_policy": "Datenschutzrichtlinie",
-      "rate_us": "Bewerten Sie uns",
+      "rate_us": "Bewerten sie uns",
       "reset_settings": "Standard wiederherstellen",
       "settings": "Einstellungen",
       "submit_bug_report": "Fehlerbericht senden",
@@ -315,15 +315,15 @@ static const Map<String,dynamic> en = {
     "label": {
       "about": "About",
       "app": {
-        "preferences": "Application Preferences",
-        "settings": "Application Settings"
+        "preferences": "Application preferences",
+        "settings": "Application settings"
       },
       "appearance": "Appearance",
       "change": {
-        "language": "Change Language",
-        "theme": "Change Theme"
+        "language": "Change language",
+        "theme": "Change theme"
       },
-      "customer_support": "Customer Service",
+      "customer_support": "Customer service",
       "dark": "Dark",
       "default": "Default",
       "disclaimer": "Disclaimer",
@@ -334,16 +334,16 @@ static const Map<String,dynamic> en = {
       "legal": "Legal",
       "light": "Light",
       "preferences": "Preferences",
-      "privacy_policy": "Privacy Policy",
+      "privacy_policy": "Privacy policy",
       "rate_us": "Rate us",
-      "reset_settings": "Restore Defaults",
+      "reset_settings": "Restore defaults",
       "settings": "Settings",
-      "submit_bug_report": "Submit a Bug Report",
+      "submit_bug_report": "Submit a bug report",
       "system": "System",
-      "terms_of_service": "Terms of Service",
-      "user_input": "User Input",
-      "user_inputs": "User Inputs",
-      "user_settings": "User Settings",
+      "terms_of_service": "Terms of service",
+      "user_input": "User input",
+      "user_inputs": "User inputs",
+      "user_settings": "User settings",
       "version": "Version: {version}"
     },
     "message": {
