@@ -159,7 +159,7 @@
       "inputs": "Inserimenti",
       "install": "Installare",
       "internal": "Interno",
-      "internet_connection": "Nessuna connessione Internet",
+      "internet_connection": "Nessuna connessione internet",
       "invalid": "Non valido",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
@@ -295,7 +295,7 @@
       },
       "selection": "Selezione",
       "sell": "Vendere",
-      "semi_annually": "semestralmente",
+      "semi_annually": "Semestralmente",
       "service_unavailable": "Servizio non disponibile",
       "share": {
         "app": "Condividi questa app",

@@ -43,10 +43,10 @@
     "label": {
       "available_products": "Productos disponibles",
       "free_version": "Versión gratuita",
-      "go_premium": "¡Obtén Premium!",
+      "go_premium": "¡obtén premium!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Versión Premium",
+      "premium_price": "{price} premium",
+      "premium_version": "Versión premium",
       "purchases": "Compras",
       "restore_purchases": "Restaurar compras"
     },

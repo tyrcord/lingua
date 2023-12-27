@@ -56,18 +56,18 @@
       "cancel": "Cancel",
       "canceled": "Canceled",
       "clear": {
-        "selection": "Clear Selection",
+        "selection": "Clear selection",
         "text": "Clear"
       },
       "close": {
-        "all": "Close All",
-        "others": "Close Others",
-        "tab": "Close Tab",
+        "all": "Close all",
+        "others": "Close others",
+        "tab": "Close tab",
         "text": "Close",
-        "window": "Close Window"
+        "window": "Close window"
       },
       "collapse": {
-        "all": "Collapse All",
+        "all": "Collapse all",
         "text": "Collapse"
       },
       "commercial": "Commercial",
@@ -77,8 +77,8 @@
       "confirmation": "Confirmation",
       "connected": "Connected",
       "contact": {
-        "support": "Contact Support",
-        "us": "Contact Us"
+        "support": "Contact support",
+        "us": "Contact us"
       },
       "continue": "Continue",
       "copy": "Copy",
@@ -88,7 +88,7 @@
       "date": "Date",
       "default": {
         "text": "Default",
-        "values": "Default Values"
+        "values": "Default values"
       },
       "delete": "Delete",
       "description": "Description",
@@ -103,8 +103,8 @@
       "edit": "Edit",
       "enabled": "Enabled",
       "enter": {
-        "fullscreen": "Enter Fullscreen",
-        "pip": "Enter Picture-in-Picture",
+        "fullscreen": "Enter fullscreen",
+        "pip": "Enter picture-in-picture",
         "text": "Enter"
       },
       "entries": "Entries",
@@ -112,29 +112,29 @@
       "error": "Error",
       "example": "Example",
       "exit": {
-        "fullscreen": "Exit Fullscreen",
-        "pip": "Exit Picture-in-Picture",
+        "fullscreen": "Exit fullscreen",
+        "pip": "Exit picture-in-picture",
         "text": "Exit"
       },
       "exotics": "Exotic",
       "expand": {
-        "all": "Expand All",
+        "all": "Expand all",
         "text": "Expand"
       },
       "expired": "Expired",
       "export": {
-        "all": "Export All",
-        "as": "Export As",
-        "pdf": "Export As PDF",
+        "all": "Export all",
+        "as": "Export as",
+        "pdf": "Export as PDF",
         "text": "Export"
       },
       "external": "External",
-      "fast_forward": "Fast Forward",
+      "fast_forward": "Fast forward",
       "favorites": "Favorites",
       "find": {
-        "and_replace": "Find and Replace",
-        "next": "Find Next",
-        "previous": "Find Previous",
+        "and_replace": "Find and replace",
+        "next": "Find next",
+        "previous": "Find previous",
         "text": "Find"
       },
       "follow_us": "Follow us",
@@ -148,11 +148,11 @@
       "hint": "Hint",
       "home": "Home",
       "import": {
-        "all": "Import All",
-        "from": "Import From",
+        "all": "Import all",
+        "from": "Import from",
         "text": "Import"
       },
-      "in_progress": "In Progress",
+      "in_progress": "In progress",
       "inactive": "Inactive",
       "incomplete": "Incomplete",
       "info": "Info",
@@ -175,22 +175,22 @@
       "mute": "Mute",
       "name": "Name",
       "new": {
-        "bookmark": "New Bookmark",
-        "document": "New Document",
-        "file": "New File",
-        "folder": "New Folder",
-        "note": "New Note",
-        "project": "New Project",
-        "tab": "New Tab",
+        "bookmark": "New bookmark",
+        "document": "New document",
+        "file": "New file",
+        "folder": "New folder",
+        "note": "New note",
+        "project": "New project",
+        "tab": "New tab",
         "text": "New",
-        "window": "New Window",
-        "workspace": "New Workspace"
+        "window": "New window",
+        "workspace": "New workspace"
       },
       "next": {
-        "chapter": "Next Chapter",
-        "page": "Next Page",
+        "chapter": "Next chapter",
+        "page": "Next page",
         "text": "Next",
-        "track": "Next Track"
+        "track": "Next track"
       },
       "no": "No",
       "no_elements": "No elements",
@@ -202,16 +202,16 @@
         "other": "None"
       },
       "offline": "Offline",
-      "offline_mode": "Offline Mode",
+      "offline_mode": "Offline mode",
       "ok": "OK",
       "online": "Online",
       "open": {
-        "all": "Open All",
-        "directory": "Open Directory",
-        "file": "Open File",
+        "all": "Open all",
+        "directory": "Open directory",
+        "file": "Open file",
         "in_new": {
-          "tab": "Open in New Tab",
-          "window": "Open in New Window"
+          "tab": "Open in new tab",
+          "window": "Open in new window"
         },
         "text": "Open",
         "url": "Open URL"
@@ -238,10 +238,10 @@
       "play": "Play",
       "play_pause": "Play/Pause",
       "previous": {
-        "chapter": "Previous Chapter",
-        "page": "Previous Page",
+        "chapter": "Previous chapter",
+        "page": "Previous page",
         "text": "Previous",
-        "track": "Previous Track"
+        "track": "Previous track"
       },
       "private": "Private",
       "public": "Public",
@@ -255,13 +255,13 @@
       "remote": "Remote",
       "remove": "Remove",
       "repeat": {
-        "all": "Repeat All",
-        "none": "Repeat None",
-        "one": "Repeat One",
+        "all": "Repeat all",
+        "none": "Repeat none",
+        "one": "Repeat one",
         "text": "Repeat"
       },
       "replace": {
-        "all": "Replace All",
+        "all": "Replace all",
         "text": "Replace"
       },
       "replay": "Replay",
@@ -278,19 +278,19 @@
       "rights_denied": "Rights denied",
       "rights_granted": "Rights granted",
       "save": {
-        "all": "Save All",
+        "all": "Save all",
         "and": {
-          "close": "Save and Close",
-          "exit": "Save and Exit"
+          "close": "Save and close",
+          "exit": "Save and exit"
         },
-        "as": "Save As",
+        "as": "Save as",
         "text": "Save"
       },
       "saved": "Saved",
       "search": "Search",
       "select": {
-        "all": "Select All",
-        "none": "Select None",
+        "all": "Select all",
+        "none": "Select none",
         "text": "Select"
       },
       "selection": "Selection",
@@ -303,10 +303,10 @@
       },
       "shuffle": "Shuffle",
       "skip": {
-        "backward": "Skip Backward",
-        "forward": "Skip Forward",
-        "next": "Skip Next",
-        "previous": "Skip Previous",
+        "backward": "Skip backward",
+        "forward": "Skip forward",
+        "next": "Skip next",
+        "previous": "Skip previous",
         "text": "Skip"
       },
       "stop": "Stop",
@@ -314,20 +314,20 @@
       "success": "Success",
       "sync": "Sync",
       "synced": "Synced",
-      "template": "template",
+      "template": "Template",
       "time": {
-        "elapsed": "Time Elapsed",
-        "remaining": "Time Remaining",
+        "elapsed": "Time elapsed",
+        "remaining": "Time remaining",
         "text": "Time"
       },
       "tip": "Tip",
       "toggle": {
-        "all": "Toggle All",
+        "all": "Toggle all",
         "text": "Toggle"
       },
       "try": {
-        "again": "Try Again",
-        "later": "Try Later",
+        "again": "Try again",
+        "later": "Try later",
         "text": "Try"
       },
       "undo": "Undo",
@@ -338,18 +338,18 @@
       "unsynced": "Unsynced",
       "update": "Update",
       "upgrade": {
-        "now": "Upgrade Now",
+        "now": "Upgrade now",
         "text": "Upgrade"
       },
       "upload": "Upload",
-      "user_inputs": "User Inputs",
+      "user_inputs": "User inputs",
       "valid": "Valid",
       "visible": "Visible",
       "volume": "Volume",
       "warning": "Warning",
       "watch": {
-        "later": "Watch Later",
-        "now": "Watch Now",
+        "later": "Watch later",
+        "now": "Watch now",
         "text": "Watch"
       },
       "website": "Website",
@@ -358,9 +358,9 @@
       "yes": "Yes",
       "yesterday": "Yesterday",
       "zoom": {
-        "in": "Zoom In",
-        "out": "Zoom Out",
-        "reset": "Reset Zoom",
+        "in": "Zoom in",
+        "out": "Zoom out",
+        "reset": "Reset zoom",
         "text": "Zoom"
       }
     },

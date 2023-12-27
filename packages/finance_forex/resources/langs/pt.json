@@ -100,28 +100,28 @@
         "pair": "Par de moedas"
       },
       "lot": {
-        "micro": "Lote Micro",
-        "mini": "Lote Mini",
-        "nano": "Lote Nano",
-        "size": "Tamanho do Lote",
-        "standard": "Lote Padrão",
+        "micro": "Lote micro",
+        "mini": "Lote mini",
+        "nano": "Lote nano",
+        "size": "Tamanho do lote",
+        "standard": "Lote padrão",
         "text": "Lote"
       },
       "pip": {
-        "calculator": "Calculadora de Pips",
+        "calculator": "Calculadora de pips",
         "decimal_places": "Casas decimais do pip",
-        "difference": "Diferença de Pips",
-        "value": "Valor Pip"
+        "difference": "Diferença de pips",
+        "value": "Valor pip"
       },
       "pips": {
-        "number": "Número de Pips",
+        "number": "Número de pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop Loss (Pips)"
+        "pips": "Stop loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {

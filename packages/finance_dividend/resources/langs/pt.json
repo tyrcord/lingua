@@ -40,32 +40,32 @@
     },
     "label": {
       "annual": {
-        "dividend_income": "Rendimento Anual de Dividendos",
-        "dividend_per_share": "Dividendo Anual por Ação",
-        "net_dividend_income": "Rendimento Líquido Anual de Dividendos"
+        "dividend_income": "Rendimento anual de dividendos",
+        "dividend_per_share": "Dividendo anual por ação",
+        "net_dividend_income": "Rendimento líquido anual de dividendos"
       },
-      "current_dividend_yield": "Rendimento Atual de Dividendos",
+      "current_dividend_yield": "Rendimento atual de dividendos",
       "dividend": {
-        "amount": "Valor do Dividendo",
-        "payment_frequency": "Frequência de Pagamento de Dividendos",
-        "payout_ratio": "Taxa de Pagamento de Dividendos",
-        "reinvestment": "Reinvestimento de Dividendos",
-        "reinvestment_plan": "Plano de Reinvestimento de Dividendos",
+        "amount": "Valor do dividendo",
+        "payment_frequency": "Frequência de pagamento de dividendos",
+        "payout_ratio": "Taxa de pagamento de dividendos",
+        "reinvestment": "Reinvestimento de dividendos",
+        "reinvestment_plan": "Plano de reinvestimento de dividendos",
         "text": "Dividendo",
-        "yield": "Rendimento de Dividendos"
+        "yield": "Rendimento de dividendos"
       },
       "dividends": "Dividendos",
-      "expected_annual_dividend_increase": "Aumento Anual Esperado de Dividendos",
-      "gross_dividend_paid": "Dividendos Brutos Pagos",
-      "high_dividend": "Dividendo Alto",
-      "low_dividend": "Dividendo Baixo",
-      "net_dividend_paid": "Dividendos Líquidos Pagos",
-      "normal_dividend": "Dividendo Normal",
+      "expected_annual_dividend_increase": "Aumento anual esperado de dividendos",
+      "gross_dividend_paid": "Dividendos brutos pagos",
+      "high_dividend": "Dividendo alto",
+      "low_dividend": "Dividendo baixo",
+      "net_dividend_paid": "Dividendos líquidos pagos",
+      "normal_dividend": "Dividendo normal",
       "total": {
-        "dividend_payments": "Pagamentos Totais de Dividendos",
-        "dividends": "Total de Dividendos"
+        "dividend_payments": "Pagamentos totais de dividendos",
+        "dividends": "Total de dividendos"
       },
-      "unsustainable_high_dividend": "Dividendo Alto Insustentável"
+      "unsustainable_high_dividend": "Dividendo alto insustentável"
     }
   },
   "select": {

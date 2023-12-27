@@ -41,14 +41,14 @@
       }
     },
     "label": {
-      "available_products": "Available Products",
-      "free_version": "Free Version",
-      "go_premium": "Go Premium!",
+      "available_products": "Available products",
+      "free_version": "Free version",
+      "go_premium": "Go premium!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Premium Version",
+      "premium_price": "{price} premium",
+      "premium_version": "Premium version",
       "purchases": "Purchases",
-      "restore_purchases": "Restore Purchases"
+      "restore_purchases": "Restore purchases"
     },
     "message": {
       "do_have_premium_version": "You don't have the premium version.",

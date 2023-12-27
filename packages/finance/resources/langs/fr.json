@@ -137,7 +137,7 @@
         "size": "Taille du compte"
       },
       "additional": {
-        "metrics": "Métriques Supplémentaires"
+        "metrics": "Métriques supplémentaires"
       },
       "additional_tax": {
         "amount": "Montant d'imposition additionnel",
@@ -242,14 +242,14 @@
       "extension": "Extension",
       "fees": "Frais",
       "fibonacci": {
-        "level": "Niveau de Fibonacci",
-        "levels": "Niveaux de Fibonacci"
+        "level": "Niveau de fibonacci",
+        "levels": "Niveaux de fibonacci"
       },
       "financial_instrument": "Instrument financier",
       "fixed_costs": "Coûts fixes",
       "gain": "Gain",
       "gain_per_trade": "Gain par transaction",
-      "grand_total": "Total Général",
+      "grand_total": "Total général",
       "gross": {
         "income": "Revenu brut",
         "margin": "Marge brute",
@@ -341,15 +341,15 @@
       "revenue": "Revenu",
       "risk": {
         "amount": "Montant à risque",
-        "effective": "Risque Effectif",
-        "in_percentage": "Risque en Pourcentage",
-        "ratio": "Ratio de Risque",
+        "effective": "Risque effectif",
+        "in_percentage": "Risque en pourcentage",
+        "ratio": "Ratio de risque",
         "reward": {
-          "ratio": "Ratio Risque-Rendement",
-          "text": "Risque-Rendement"
+          "ratio": "Ratio risque-rendement",
+          "text": "Risque-rendement"
         },
         "text": "Risque",
-        "tolerated": "Risque Toléré"
+        "tolerated": "Risque toléré"
       },
       "sales": {
         "commission": "Commission sur les ventes",
@@ -420,7 +420,7 @@
           "profit_position": "Coûts totaux pour une position gagnante",
           "text": "Coûts totaux"
         },
-        "fee": "Frais Totaux",
+        "fee": "Frais totaux",
         "gain": "Gain total",
         "loss": "Perte totale",
         "return": "Rendement total",

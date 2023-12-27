@@ -995,7 +995,7 @@ static const Map<String,dynamic> de = {
       "connected": "Verbunden",
       "contact": {
         "support": "Support kontaktieren",
-        "us": "Kontaktieren Sie uns"
+        "us": "Kontaktieren sie uns"
       },
       "continue": "Weiter",
       "copy": "Kopieren",
@@ -1021,7 +1021,7 @@ static const Map<String,dynamic> de = {
       "enabled": "Aktiviert",
       "enter": {
         "fullscreen": "Vollbildmodus betreten",
-        "pip": "Bild-in-Bild betreten",
+        "pip": "Bild-in-bild betreten",
         "text": "Betreten"
       },
       "entries": "Eingänge",
@@ -1030,7 +1030,7 @@ static const Map<String,dynamic> de = {
       "example": "Beispiel",
       "exit": {
         "fullscreen": "Vollbild beenden",
-        "pip": "Bild-in-Bild beenden",
+        "pip": "Bild-in-bild beenden",
         "text": "Beenden"
       },
       "exotics": "Exotische",
@@ -1049,12 +1049,12 @@ static const Map<String,dynamic> de = {
       "fast_forward": "Vorwärts spulen",
       "favorites": "Favoriten",
       "find": {
-        "and_replace": "Suchen und Ersetzen",
+        "and_replace": "Suchen und ersetzen",
         "next": "Nächste suchen",
         "previous": "Vorherige suchen",
         "text": "Suchen"
       },
-      "follow_us": "Folgen Sie uns",
+      "follow_us": "Folgen sie uns",
       "frame": "Rahmen",
       "frequency": "Häufigkeit",
       "fullscreen": "Vollbild",
@@ -1069,16 +1069,16 @@ static const Map<String,dynamic> de = {
         "from": "Importieren von",
         "text": "Importieren"
       },
-      "in_progress": "In Bearbeitung",
+      "in_progress": "In bearbeitung",
       "inactive": "Inaktiv",
       "incomplete": "Unvollständig",
       "info": "Info",
       "inputs": "Eingaben",
       "install": "Installieren",
       "internal": "Intern",
-      "internet_connection": "Keine Internetverbindung",
+      "internet_connection": "Keine internetverbindung",
       "invalid": "Ungültig",
-      "learn_more": "Weitere Informationen",
+      "learn_more": "Weitere informationen",
       "loading": "Wird geladen",
       "local": "Lokal",
       "locked": "Gesperrt",
@@ -1087,31 +1087,31 @@ static const Map<String,dynamic> de = {
       "menu": "Menü",
       "method": "Methode",
       "minors": "Minderjährige",
-      "missing_rights": "Fehlende Rechte",
+      "missing_rights": "Fehlende rechte",
       "monthly": "Monatlich",
       "mute": "Stumm",
       "name": "Name",
       "new": {
-        "bookmark": "Neues Lesezeichen",
-        "document": "Neues Dokument",
-        "file": "Neue Datei",
-        "folder": "Neuer Ordner",
-        "note": "Neue Notiz",
-        "project": "Neues Projekt",
-        "tab": "Neuer Tab",
+        "bookmark": "Neues lesezeichen",
+        "document": "Neues dokument",
+        "file": "Neue datei",
+        "folder": "Neuer ordner",
+        "note": "Neue notiz",
+        "project": "Neues projekt",
+        "tab": "Neuer tab",
         "text": "Neu",
-        "window": "Neues Fenster",
-        "workspace": "Neuer Arbeitsbereich"
+        "window": "Neues fenster",
+        "workspace": "Neuer arbeitsbereich"
       },
       "next": {
-        "chapter": "Nächstes Kapitel",
-        "page": "Nächste Seite",
+        "chapter": "Nächstes kapitel",
+        "page": "Nächste seite",
         "text": "Nächste",
-        "track": "Nächster Titel"
+        "track": "Nächster titel"
       },
       "no": "Nein",
-      "no_elements": "Keine Elemente",
-      "no_items": "Keine Artikel",
+      "no_elements": "Keine elemente",
+      "no_items": "Keine artikel",
       "non_commercial": "Nicht-kommerziell",
       "none": {
         "female": "Keine",
@@ -1119,7 +1119,7 @@ static const Map<String,dynamic> de = {
         "other": "Keine"
       },
       "offline": "Offline",
-      "offline_mode": "Offline-Modus",
+      "offline_mode": "Offline-modus",
       "ok": "OK",
       "online": "Online",
       "open": {
@@ -1127,8 +1127,8 @@ static const Map<String,dynamic> de = {
         "directory": "Verzeichnis öffnen",
         "file": "Datei öffnen",
         "in_new": {
-          "tab": "In neuem Tab öffnen",
-          "window": "In neuem Fenster öffnen"
+          "tab": "In neuem tab öffnen",
+          "window": "In neuem fenster öffnen"
         },
         "text": "Öffnen",
         "url": "URL öffnen"
@@ -1137,7 +1137,7 @@ static const Map<String,dynamic> de = {
         "canceled": "Vorgang abgebrochen",
         "completed": "Vorgang abgeschlossen",
         "failed": "Vorgang fehlgeschlagen",
-        "in_progress": "Vorgang in Bearbeitung",
+        "in_progress": "Vorgang in bearbeitung",
         "pending": "Vorgang ausstehend",
         "started": "Vorgang gestartet",
         "succeeded": "Vorgang erfolgreich",
@@ -1155,10 +1155,10 @@ static const Map<String,dynamic> de = {
       "play": "Wiedergabe",
       "play_pause": "Wiedergabe/Pause",
       "previous": {
-        "chapter": "Vorheriges Kapitel",
-        "page": "Vorherige Seite",
+        "chapter": "Vorheriges kapitel",
+        "page": "Vorherige seite",
         "text": "Vorherige",
-        "track": "Vorheriger Titel"
+        "track": "Vorheriger titel"
       },
       "private": "Privat",
       "public": "Öffentlich",
@@ -1173,7 +1173,7 @@ static const Map<String,dynamic> de = {
       "remove": "Entfernen",
       "repeat": {
         "all": "Alle wiederholen",
-        "none": "Keine Wiederholung",
+        "none": "Keine wiederholung",
         "one": "Einzelnes wiederholen",
         "text": "Wiederholung"
       },
@@ -1212,13 +1212,13 @@ static const Map<String,dynamic> de = {
       },
       "selection": "Auswahl",
       "sell": "Verkaufen",
-      "semi_annually": "halbjährlich",
+      "semi_annually": "Halbjährlich",
       "service_unavailable": "Dienst nicht verfügbar",
       "share": {
-        "app": "Diese App teilen",
+        "app": "Diese app teilen",
         "text": "Teilen"
       },
-      "shuffle": "Zufällige Wiedergabe",
+      "shuffle": "Zufällige wiedergabe",
       "skip": {
         "backward": "Rückwärts überspringen",
         "forward": "Vorwärts überspringen",
@@ -1233,8 +1233,8 @@ static const Map<String,dynamic> de = {
       "synced": "Synchronisiert",
       "template": "Vorlage",
       "time": {
-        "elapsed": "Verstrichene Zeit",
-        "remaining": "Verbleibende Zeit",
+        "elapsed": "Verstrichene zeit",
+        "remaining": "Verbleibende zeit",
         "text": "Zeit"
       },
       "tip": "Tipp",
@@ -1473,7 +1473,7 @@ static const Map<String,dynamic> ru = {
       "enabled": "Включено",
       "enter": {
         "fullscreen": "Войти в полноэкранный режим",
-        "pip": "Войти в режим Picture-in-Picture",
+        "pip": "Войти в режим picture-in-picture",
         "text": "Войти"
       },
       "entries": "Входы",
@@ -1482,7 +1482,7 @@ static const Map<String,dynamic> ru = {
       "example": "Пример",
       "exit": {
         "fullscreen": "Выйти из полноэкранного режима",
-        "pip": "Выйти из режима Picture-in-Picture",
+        "pip": "Выйти из режима picture-in-picture",
         "text": "Выйти"
       },
       "exotics": "Экзотические",
@@ -1664,7 +1664,7 @@ static const Map<String,dynamic> ru = {
       },
       "selection": "Выбор",
       "sell": "Продать",
-      "semi_annually": "полугодовой",
+      "semi_annually": "Полугодовой",
       "service_unavailable": "Сервис недоступен",
       "share": {
         "app": "Поделиться этим приложением",
@@ -1888,7 +1888,7 @@ static const Map<String,dynamic> pt = {
         "window": "Fechar janela"
       },
       "collapse": {
-        "all": "Recolher Todos",
+        "all": "Recolher todos",
         "text": "Recolher"
       },
       "commercial": "Comercial",
@@ -1898,7 +1898,7 @@ static const Map<String,dynamic> pt = {
       "confirmation": "Confirmação",
       "connected": "Conectado",
       "contact": {
-        "support": "Contactar Suporte",
+        "support": "Contactar suporte",
         "us": "Contacte-nos"
       },
       "continue": "Continuar",
@@ -1925,7 +1925,7 @@ static const Map<String,dynamic> pt = {
       "enabled": "Habilitado",
       "enter": {
         "fullscreen": "Entrar em tela inteira",
-        "pip": "Entrar em Imagem dentro da imagem",
+        "pip": "Entrar em imagem dentro da imagem",
         "text": "Entrar"
       },
       "entries": "Entradas",
@@ -1934,18 +1934,18 @@ static const Map<String,dynamic> pt = {
       "example": "Exemplo",
       "exit": {
         "fullscreen": "Sair da tela inteira",
-        "pip": "Sair do modo Imagem dentro da imagem",
+        "pip": "Sair do modo imagem dentro da imagem",
         "text": "Sair"
       },
       "exotics": "Exóticas",
       "expand": {
-        "all": "Expandir Todos",
+        "all": "Expandir todos",
         "text": "Expandir"
       },
       "expired": "Expirado",
       "export": {
-        "all": "Exportar Todos",
-        "as": "Exportar Como",
+        "all": "Exportar todos",
+        "as": "Exportar como",
         "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
@@ -1953,9 +1953,9 @@ static const Map<String,dynamic> pt = {
       "fast_forward": "Avançar rapidamente",
       "favorites": "Favoritos",
       "find": {
-        "and_replace": "Localizar e Substituir",
-        "next": "Localizar Próximo",
-        "previous": "Localizar Anterior",
+        "and_replace": "Localizar e substituir",
+        "next": "Localizar próximo",
+        "previous": "Localizar anterior",
         "text": "Localizar"
       },
       "follow_us": "Siga-nos",
@@ -1969,7 +1969,7 @@ static const Map<String,dynamic> pt = {
       "hint": "Sugestão",
       "home": "Início",
       "import": {
-        "all": "Importar Todos",
+        "all": "Importar todos",
         "from": "Importar de",
         "text": "Importar"
       },
@@ -1980,7 +1980,7 @@ static const Map<String,dynamic> pt = {
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
-      "internet_connection": "Sem conexão com a Internet",
+      "internet_connection": "Sem conexão com a internet",
       "invalid": "Inválido",
       "learn_more": "Saiba mais",
       "loading": "Carregando",
@@ -1996,16 +1996,16 @@ static const Map<String,dynamic> pt = {
       "mute": "Silenciar",
       "name": "Nome",
       "new": {
-        "bookmark": "Novo Favorito",
-        "document": "Novo Documento",
-        "file": "Novo Arquivo",
-        "folder": "Nova Pasta",
-        "note": "Nova Anotação",
-        "project": "Novo Projeto",
-        "tab": "Nova Aba",
+        "bookmark": "Novo favorito",
+        "document": "Novo documento",
+        "file": "Novo arquivo",
+        "folder": "Nova pasta",
+        "note": "Nova anotação",
+        "project": "Novo projeto",
+        "tab": "Nova aba",
         "text": "Novo",
-        "window": "Nova Janela",
-        "workspace": "Novo Espaço de Trabalho"
+        "window": "Nova janela",
+        "workspace": "Novo espaço de trabalho"
       },
       "next": {
         "chapter": "Próximo capítulo",
@@ -2027,12 +2027,12 @@ static const Map<String,dynamic> pt = {
       "ok": "OK",
       "online": "Online",
       "open": {
-        "all": "Abrir Todos",
+        "all": "Abrir todos",
         "directory": "Abrir diretório",
         "file": "Abrir arquivo",
         "in_new": {
-          "tab": "Abrir em Nova Aba",
-          "window": "Abrir em Nova Janela"
+          "tab": "Abrir em nova aba",
+          "window": "Abrir em nova janela"
         },
         "text": "Abrir",
         "url": "Abrir URL"
@@ -2082,7 +2082,7 @@ static const Map<String,dynamic> pt = {
         "text": "Repetir"
       },
       "replace": {
-        "all": "Substituir Todos",
+        "all": "Substituir todos",
         "text": "Substituir"
       },
       "replay": "Repetir",
@@ -2099,24 +2099,24 @@ static const Map<String,dynamic> pt = {
       "rights_denied": "Direitos negados",
       "rights_granted": "Direitos concedidos",
       "save": {
-        "all": "Salvar Todos",
+        "all": "Salvar todos",
         "and": {
-          "close": "Salvar e Fechar",
-          "exit": "Salvar e Sair"
+          "close": "Salvar e fechar",
+          "exit": "Salvar e sair"
         },
-        "as": "Salvar Como",
+        "as": "Salvar como",
         "text": "Salvar"
       },
       "saved": "Salvo",
       "search": "Pesquisar",
       "select": {
-        "all": "Selecionar Tudo",
-        "none": "Desmarcar Tudo",
+        "all": "Selecionar tudo",
+        "none": "Desmarcar tudo",
         "text": "Selecionar"
       },
       "selection": "Seleção",
       "sell": "Vender",
-      "semi_annually": "semestralmente",
+      "semi_annually": "Semestralmente",
       "service_unavailable": "Serviço indisponível",
       "share": {
         "app": "Compartilhar este aplicativo",
@@ -2143,7 +2143,7 @@ static const Map<String,dynamic> pt = {
       },
       "tip": "Dica",
       "toggle": {
-        "all": "Alternar Todos",
+        "all": "Alternar todos",
         "text": "Alternar"
       },
       "try": {
@@ -2179,9 +2179,9 @@ static const Map<String,dynamic> pt = {
       "yes": "Sim",
       "yesterday": "Ontem",
       "zoom": {
-        "in": "Aumentar Zoom",
-        "out": "Diminuir Zoom",
-        "reset": "Redefinir Zoom",
+        "in": "Aumentar zoom",
+        "out": "Diminuir zoom",
+        "reset": "Redefinir zoom",
         "text": "Zoom"
       }
     },
@@ -2329,18 +2329,18 @@ static const Map<String,dynamic> en = {
       "cancel": "Cancel",
       "canceled": "Canceled",
       "clear": {
-        "selection": "Clear Selection",
+        "selection": "Clear selection",
         "text": "Clear"
       },
       "close": {
-        "all": "Close All",
-        "others": "Close Others",
-        "tab": "Close Tab",
+        "all": "Close all",
+        "others": "Close others",
+        "tab": "Close tab",
         "text": "Close",
-        "window": "Close Window"
+        "window": "Close window"
       },
       "collapse": {
-        "all": "Collapse All",
+        "all": "Collapse all",
         "text": "Collapse"
       },
       "commercial": "Commercial",
@@ -2350,8 +2350,8 @@ static const Map<String,dynamic> en = {
       "confirmation": "Confirmation",
       "connected": "Connected",
       "contact": {
-        "support": "Contact Support",
-        "us": "Contact Us"
+        "support": "Contact support",
+        "us": "Contact us"
       },
       "continue": "Continue",
       "copy": "Copy",
@@ -2361,7 +2361,7 @@ static const Map<String,dynamic> en = {
       "date": "Date",
       "default": {
         "text": "Default",
-        "values": "Default Values"
+        "values": "Default values"
       },
       "delete": "Delete",
       "description": "Description",
@@ -2376,8 +2376,8 @@ static const Map<String,dynamic> en = {
       "edit": "Edit",
       "enabled": "Enabled",
       "enter": {
-        "fullscreen": "Enter Fullscreen",
-        "pip": "Enter Picture-in-Picture",
+        "fullscreen": "Enter fullscreen",
+        "pip": "Enter picture-in-picture",
         "text": "Enter"
       },
       "entries": "Entries",
@@ -2385,29 +2385,29 @@ static const Map<String,dynamic> en = {
       "error": "Error",
       "example": "Example",
       "exit": {
-        "fullscreen": "Exit Fullscreen",
-        "pip": "Exit Picture-in-Picture",
+        "fullscreen": "Exit fullscreen",
+        "pip": "Exit picture-in-picture",
         "text": "Exit"
       },
       "exotics": "Exotic",
       "expand": {
-        "all": "Expand All",
+        "all": "Expand all",
         "text": "Expand"
       },
       "expired": "Expired",
       "export": {
-        "all": "Export All",
-        "as": "Export As",
-        "pdf": "Export As PDF",
+        "all": "Export all",
+        "as": "Export as",
+        "pdf": "Export as PDF",
         "text": "Export"
       },
       "external": "External",
-      "fast_forward": "Fast Forward",
+      "fast_forward": "Fast forward",
       "favorites": "Favorites",
       "find": {
-        "and_replace": "Find and Replace",
-        "next": "Find Next",
-        "previous": "Find Previous",
+        "and_replace": "Find and replace",
+        "next": "Find next",
+        "previous": "Find previous",
         "text": "Find"
       },
       "follow_us": "Follow us",
@@ -2421,11 +2421,11 @@ static const Map<String,dynamic> en = {
       "hint": "Hint",
       "home": "Home",
       "import": {
-        "all": "Import All",
-        "from": "Import From",
+        "all": "Import all",
+        "from": "Import from",
         "text": "Import"
       },
-      "in_progress": "In Progress",
+      "in_progress": "In progress",
       "inactive": "Inactive",
       "incomplete": "Incomplete",
       "info": "Info",
@@ -2448,22 +2448,22 @@ static const Map<String,dynamic> en = {
       "mute": "Mute",
       "name": "Name",
       "new": {
-        "bookmark": "New Bookmark",
-        "document": "New Document",
-        "file": "New File",
-        "folder": "New Folder",
-        "note": "New Note",
-        "project": "New Project",
-        "tab": "New Tab",
+        "bookmark": "New bookmark",
+        "document": "New document",
+        "file": "New file",
+        "folder": "New folder",
+        "note": "New note",
+        "project": "New project",
+        "tab": "New tab",
         "text": "New",
-        "window": "New Window",
-        "workspace": "New Workspace"
+        "window": "New window",
+        "workspace": "New workspace"
       },
       "next": {
-        "chapter": "Next Chapter",
-        "page": "Next Page",
+        "chapter": "Next chapter",
+        "page": "Next page",
         "text": "Next",
-        "track": "Next Track"
+        "track": "Next track"
       },
       "no": "No",
       "no_elements": "No elements",
@@ -2475,16 +2475,16 @@ static const Map<String,dynamic> en = {
         "other": "None"
       },
       "offline": "Offline",
-      "offline_mode": "Offline Mode",
+      "offline_mode": "Offline mode",
       "ok": "OK",
       "online": "Online",
       "open": {
-        "all": "Open All",
-        "directory": "Open Directory",
-        "file": "Open File",
+        "all": "Open all",
+        "directory": "Open directory",
+        "file": "Open file",
         "in_new": {
-          "tab": "Open in New Tab",
-          "window": "Open in New Window"
+          "tab": "Open in new tab",
+          "window": "Open in new window"
         },
         "text": "Open",
         "url": "Open URL"
@@ -2511,10 +2511,10 @@ static const Map<String,dynamic> en = {
       "play": "Play",
       "play_pause": "Play/Pause",
       "previous": {
-        "chapter": "Previous Chapter",
-        "page": "Previous Page",
+        "chapter": "Previous chapter",
+        "page": "Previous page",
         "text": "Previous",
-        "track": "Previous Track"
+        "track": "Previous track"
       },
       "private": "Private",
       "public": "Public",
@@ -2528,13 +2528,13 @@ static const Map<String,dynamic> en = {
       "remote": "Remote",
       "remove": "Remove",
       "repeat": {
-        "all": "Repeat All",
-        "none": "Repeat None",
-        "one": "Repeat One",
+        "all": "Repeat all",
+        "none": "Repeat none",
+        "one": "Repeat one",
         "text": "Repeat"
       },
       "replace": {
-        "all": "Replace All",
+        "all": "Replace all",
         "text": "Replace"
       },
       "replay": "Replay",
@@ -2551,19 +2551,19 @@ static const Map<String,dynamic> en = {
       "rights_denied": "Rights denied",
       "rights_granted": "Rights granted",
       "save": {
-        "all": "Save All",
+        "all": "Save all",
         "and": {
-          "close": "Save and Close",
-          "exit": "Save and Exit"
+          "close": "Save and close",
+          "exit": "Save and exit"
         },
-        "as": "Save As",
+        "as": "Save as",
         "text": "Save"
       },
       "saved": "Saved",
       "search": "Search",
       "select": {
-        "all": "Select All",
-        "none": "Select None",
+        "all": "Select all",
+        "none": "Select none",
         "text": "Select"
       },
       "selection": "Selection",
@@ -2576,10 +2576,10 @@ static const Map<String,dynamic> en = {
       },
       "shuffle": "Shuffle",
       "skip": {
-        "backward": "Skip Backward",
-        "forward": "Skip Forward",
-        "next": "Skip Next",
-        "previous": "Skip Previous",
+        "backward": "Skip backward",
+        "forward": "Skip forward",
+        "next": "Skip next",
+        "previous": "Skip previous",
         "text": "Skip"
       },
       "stop": "Stop",
@@ -2587,20 +2587,20 @@ static const Map<String,dynamic> en = {
       "success": "Success",
       "sync": "Sync",
       "synced": "Synced",
-      "template": "template",
+      "template": "Template",
       "time": {
-        "elapsed": "Time Elapsed",
-        "remaining": "Time Remaining",
+        "elapsed": "Time elapsed",
+        "remaining": "Time remaining",
         "text": "Time"
       },
       "tip": "Tip",
       "toggle": {
-        "all": "Toggle All",
+        "all": "Toggle all",
         "text": "Toggle"
       },
       "try": {
-        "again": "Try Again",
-        "later": "Try Later",
+        "again": "Try again",
+        "later": "Try later",
         "text": "Try"
       },
       "undo": "Undo",
@@ -2611,18 +2611,18 @@ static const Map<String,dynamic> en = {
       "unsynced": "Unsynced",
       "update": "Update",
       "upgrade": {
-        "now": "Upgrade Now",
+        "now": "Upgrade now",
         "text": "Upgrade"
       },
       "upload": "Upload",
-      "user_inputs": "User Inputs",
+      "user_inputs": "User inputs",
       "valid": "Valid",
       "visible": "Visible",
       "volume": "Volume",
       "warning": "Warning",
       "watch": {
-        "later": "Watch Later",
-        "now": "Watch Now",
+        "later": "Watch later",
+        "now": "Watch now",
         "text": "Watch"
       },
       "website": "Website",
@@ -2631,9 +2631,9 @@ static const Map<String,dynamic> en = {
       "yes": "Yes",
       "yesterday": "Yesterday",
       "zoom": {
-        "in": "Zoom In",
-        "out": "Zoom Out",
-        "reset": "Reset Zoom",
+        "in": "Zoom in",
+        "out": "Zoom out",
+        "reset": "Reset zoom",
         "text": "Zoom"
       }
     },
@@ -2884,7 +2884,7 @@ static const Map<String,dynamic> it = {
       "inputs": "Inserimenti",
       "install": "Installare",
       "internal": "Interno",
-      "internet_connection": "Nessuna connessione Internet",
+      "internet_connection": "Nessuna connessione internet",
       "invalid": "Non valido",
       "learn_more": "Maggiori informazioni",
       "loading": "Caricamento",
@@ -3020,7 +3020,7 @@ static const Map<String,dynamic> it = {
       },
       "selection": "Selezione",
       "sell": "Vendere",
-      "semi_annually": "semestralmente",
+      "semi_annually": "Semestralmente",
       "service_unavailable": "Servizio non disponibile",
       "share": {
         "app": "Condividi questa app",
@@ -3336,7 +3336,7 @@ static const Map<String,dynamic> fr = {
       "inputs": "Entrées",
       "install": "Installer",
       "internal": "Interne",
-      "internet_connection": "Aucune connexion Internet",
+      "internet_connection": "Aucune connexion internet",
       "invalid": "Invalide",
       "learn_more": "En savoir plus",
       "loading": "Chargement",
@@ -3472,7 +3472,7 @@ static const Map<String,dynamic> fr = {
       },
       "selection": "Sélection",
       "sell": "Vendre",
-      "semi_annually": "semi-annuellement",
+      "semi_annually": "Semi-annuellement",
       "service_unavailable": "Service indisponible",
       "share": {
         "app": "Partager cette application",
@@ -3706,7 +3706,7 @@ static const Map<String,dynamic> es = {
       "confirmation": "Confirmación",
       "connected": "Conectado",
       "contact": {
-        "support": "Contactar Soporte",
+        "support": "Contactar soporte",
         "us": "Contáctenos"
       },
       "continue": "Continuar",
@@ -3788,7 +3788,7 @@ static const Map<String,dynamic> es = {
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
-      "internet_connection": "Sin conexión a Internet",
+      "internet_connection": "Sin conexión a internet",
       "invalid": "Inválido",
       "learn_more": "Más información",
       "loading": "Cargando",
@@ -3924,7 +3924,7 @@ static const Map<String,dynamic> es = {
       },
       "selection": "Selección",
       "sell": "Vender",
-      "semi_annually": "semestralmente",
+      "semi_annually": "Semestralmente",
       "service_unavailable": "Servicio no disponible",
       "share": {
         "app": "Compartir esta aplicación",

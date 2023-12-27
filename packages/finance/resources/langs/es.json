@@ -137,7 +137,7 @@
         "size": "Tamaño de la cuenta"
       },
       "additional": {
-        "metrics": "Métricas Adicionales"
+        "metrics": "Métricas adicionales"
       },
       "additional_tax": {
         "amount": "Importe de impuesto adicional",
@@ -174,9 +174,9 @@
         }
       },
       "bill": {
-        "amount": "Monto de la Factura",
-        "breakdown": "Desglose de la Factura",
-        "rate": "Tasa de la Factura",
+        "amount": "Monto de la factura",
+        "breakdown": "Desglose de la factura",
+        "rate": "Tasa de la factura",
         "text": "Factura"
       },
       "break_even": {
@@ -242,14 +242,14 @@
       "extension": "Extensión",
       "fees": "Honorarios",
       "fibonacci": {
-        "level": "Nivel de Fibonacci",
-        "levels": "Niveles de Fibonacci"
+        "level": "Nivel de fibonacci",
+        "levels": "Niveles de fibonacci"
       },
       "financial_instrument": "Instrumento financiero",
       "fixed_costs": "Costos fijos",
       "gain": "Ganancia",
       "gain_per_trade": "Ganancia por operación",
-      "grand_total": "Total General",
+      "grand_total": "Total general",
       "gross": {
         "income": "Ingresos brutos",
         "margin": "Margen bruto",
@@ -341,15 +341,15 @@
       "revenue": "Ingresos",
       "risk": {
         "amount": "Monto en riesgo",
-        "effective": "Riesgo Efectivo",
-        "in_percentage": "Riesgo en Porcentaje",
-        "ratio": "Ratio de Riesgo",
+        "effective": "Riesgo efectivo",
+        "in_percentage": "Riesgo en porcentaje",
+        "ratio": "Ratio de riesgo",
         "reward": {
-          "ratio": "Ratio Riesgo-Recompensa",
-          "text": "Riesgo-Recompensa"
+          "ratio": "Ratio riesgo-recompensa",
+          "text": "Riesgo-recompensa"
         },
         "text": "Riesgo",
-        "tolerated": "Riesgo Tolerado"
+        "tolerated": "Riesgo tolerado"
       },
       "sales": {
         "commission": "Comisión de ventas",
@@ -374,33 +374,33 @@
         "principal": "Capital inicial"
       },
       "stop_loss": {
-        "amount": "Monto de Stop Loss",
-        "at": "Stop Loss en",
+        "amount": "Monto de stop loss",
+        "at": "Stop loss en",
         "in_percentage": {
-          "text": "Stop Loss en porcentaje",
-          "with_slippage": "Stop Loss en porcentaje con deslizamiento"
+          "text": "Stop loss en porcentaje",
+          "with_slippage": "Stop loss en porcentaje con deslizamiento"
         },
         "price": {
-          "at": "Stop Loss en",
-          "text": "Stop Loss",
-          "with_slippage": "Stop Loss con deslizamiento"
+          "at": "Stop loss en",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss con deslizamiento"
         },
-        "text": "Stop Loss"
+        "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Nivel de soporte {level}",
       "supports": "Soportes",
       "take_profit": {
-        "amount": "Monto de Take Profit",
-        "at": "Take Profit en",
+        "amount": "Monto de take profit",
+        "at": "Take profit en",
         "price": {
           "after_fee": "Toma de beneficios después de comisiones",
-          "at": "Take Profit en",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit con Slippage"
+          "at": "Take profit en",
+          "text": "Take profit",
+          "with_slippage": "Take profit con slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Monto de impuestos",
@@ -420,12 +420,12 @@
           "profit_position": "Costos totales para una posición ganadora",
           "text": "Costos totales"
         },
-        "fee": "Tarifas Totales",
+        "fee": "Tarifas totales",
         "gain": "Ganancia total",
         "loss": "Pérdida total",
         "return": "Retorno total",
         "revenue": "Ingresos totales",
-        "tax": "Impuestos Totales",
+        "tax": "Impuestos totales",
         "text": "Total"
       },
       "trade": {

@@ -131,10 +131,10 @@ class FinanceForexCodegenLoader extends AssetLoader {
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "止损（Pips）"
+        "pips": "止损（pips）"
       },
       "take_profit": {
-        "pips": "止盈（Pips）"
+        "pips": "止盈（pips）"
       }
     },
     "select": {
@@ -263,10 +263,10 @@ static const Map<String,dynamic> ja = {
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "ストップロス (Pips)"
+        "pips": "ストップロス (pips)"
       },
       "take_profit": {
-        "pips": "テイクプロフィット (Pips)"
+        "pips": "テイクプロフィット (pips)"
       }
     },
     "select": {
@@ -377,28 +377,28 @@ static const Map<String,dynamic> de = {
         "pair": "Währungspaar"
       },
       "lot": {
-        "micro": "Mikro-Lot",
-        "mini": "Mini-Lot",
-        "nano": "Nano-Lot",
-        "size": "Lot-Größe",
-        "standard": "Standard-Lot",
+        "micro": "Mikro-lot",
+        "mini": "Mini-lot",
+        "nano": "Nano-lot",
+        "size": "Lot-größe",
+        "standard": "Standard-lot",
         "text": "Lot"
       },
       "pip": {
-        "calculator": "Pip-Rechner",
-        "decimal_places": "Pip-Dezimalstellen",
-        "difference": "Pip-Differenz",
-        "value": "Pip-Wert"
+        "calculator": "Pip-rechner",
+        "decimal_places": "Pip-dezimalstellen",
+        "difference": "Pip-differenz",
+        "value": "Pip-wert"
       },
       "pips": {
-        "number": "Anzahl der Pips",
+        "number": "Anzahl der pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop-Loss (Pips)"
+        "pips": "Stop-loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {
@@ -527,10 +527,10 @@ static const Map<String,dynamic> ru = {
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Стоп-лосс (Pips)"
+        "pips": "Стоп-лосс (pips)"
       },
       "take_profit": {
-        "pips": "Тейк-профит (Pips)"
+        "pips": "Тейк-профит (pips)"
       }
     },
     "select": {
@@ -641,28 +641,28 @@ static const Map<String,dynamic> pt = {
         "pair": "Par de moedas"
       },
       "lot": {
-        "micro": "Lote Micro",
-        "mini": "Lote Mini",
-        "nano": "Lote Nano",
-        "size": "Tamanho do Lote",
-        "standard": "Lote Padrão",
+        "micro": "Lote micro",
+        "mini": "Lote mini",
+        "nano": "Lote nano",
+        "size": "Tamanho do lote",
+        "standard": "Lote padrão",
         "text": "Lote"
       },
       "pip": {
-        "calculator": "Calculadora de Pips",
+        "calculator": "Calculadora de pips",
         "decimal_places": "Casas decimais do pip",
-        "difference": "Diferença de Pips",
-        "value": "Valor Pip"
+        "difference": "Diferença de pips",
+        "value": "Valor pip"
       },
       "pips": {
-        "number": "Número de Pips",
+        "number": "Número de pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop Loss (Pips)"
+        "pips": "Stop loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {
@@ -768,33 +768,33 @@ static const Map<String,dynamic> en = {
       },
       "cryptos": "Cryptocurrencies",
       "currency": {
-        "base": "Base Currency",
-        "counter": "Counter Currency",
-        "pair": "Currency Pair"
+        "base": "Base currency",
+        "counter": "Counter currency",
+        "pair": "Currency pair"
       },
       "lot": {
-        "micro": "Micro Lot",
-        "mini": "Mini Lot",
-        "nano": "Nano Lot",
+        "micro": "Micro lot",
+        "mini": "Mini lot",
+        "nano": "Nano lot",
         "size": "Lot size",
-        "standard": "Standard Lot",
+        "standard": "Standard lot",
         "text": "Lot"
       },
       "pip": {
-        "calculator": "Pip Calculator",
+        "calculator": "Pip calculator",
         "decimal_places": "Pip decimal places",
-        "difference": "Pip Difference",
-        "value": "Pip Value"
+        "difference": "Pip difference",
+        "value": "Pip value"
       },
       "pips": {
-        "number": "Number of Pips",
+        "number": "Number of pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop Loss (Pips)"
+        "pips": "Stop loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {
@@ -913,20 +913,20 @@ static const Map<String,dynamic> it = {
         "text": "Lotto"
       },
       "pip": {
-        "calculator": "Calcolatrice di Pip",
+        "calculator": "Calcolatrice di pip",
         "decimal_places": "Decimali del pip",
-        "difference": "Differenza tra i Pip",
-        "value": "Valore di Pip"
+        "difference": "Differenza tra i pip",
+        "value": "Valore di pip"
       },
       "pips": {
-        "number": "Numero di Pips",
+        "number": "Numero di pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop Loss (Pips)"
+        "pips": "Stop loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {
@@ -1045,20 +1045,20 @@ static const Map<String,dynamic> fr = {
         "text": "Lot"
       },
       "pip": {
-        "calculator": "Calculatrice de Pips",
+        "calculator": "Calculatrice de pips",
         "decimal_places": "Décimales du pip",
-        "difference": "Différence de Pips",
+        "difference": "Différence de pips",
         "value": "Valeur du pip"
       },
       "pips": {
-        "number": "Nombre de Pips",
+        "number": "Nombre de pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop de protection (Pips)"
+        "pips": "Stop de protection (pips)"
       },
       "take_profit": {
-        "pips": "Prise de bénéfices (Pips)"
+        "pips": "Prise de bénéfices (pips)"
       }
     },
     "select": {
@@ -1177,20 +1177,20 @@ static const Map<String,dynamic> es = {
         "text": "Lote"
       },
       "pip": {
-        "calculator": "Calculadora de Pips",
+        "calculator": "Calculadora de pips",
         "decimal_places": "Decimales del pip",
-        "difference": "Diferencia de Pips",
+        "difference": "Diferencia de pips",
         "value": "Valor del pip"
       },
       "pips": {
-        "number": "Número de Pips",
+        "number": "Número de pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop Loss (Pips)"
+        "pips": "Stop loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {

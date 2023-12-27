@@ -104,7 +104,7 @@
       "enabled": "Включено",
       "enter": {
         "fullscreen": "Войти в полноэкранный режим",
-        "pip": "Войти в режим Picture-in-Picture",
+        "pip": "Войти в режим picture-in-picture",
         "text": "Войти"
       },
       "entries": "Входы",
@@ -113,7 +113,7 @@
       "example": "Пример",
       "exit": {
         "fullscreen": "Выйти из полноэкранного режима",
-        "pip": "Выйти из режима Picture-in-Picture",
+        "pip": "Выйти из режима picture-in-picture",
         "text": "Выйти"
       },
       "exotics": "Экзотические",
@@ -295,7 +295,7 @@
       },
       "selection": "Выбор",
       "sell": "Продать",
-      "semi_annually": "полугодовой",
+      "semi_annually": "Полугодовой",
       "service_unavailable": "Сервис недоступен",
       "share": {
         "app": "Поделиться этим приложением",

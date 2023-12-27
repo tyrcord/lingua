@@ -967,8 +967,8 @@ static const Map<String,dynamic> de = {
         "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
       },
       "additional_tax_rate": {
-        "example": "Wenn ein Produkt einer 20% MwSt. unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
-        "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. angewendet wird."
+        "example": "Wenn ein Produkt einer 20% MwSt. Unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
+        "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. Angewendet wird."
       },
       "amount_at_risk": {
         "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
@@ -1008,7 +1008,7 @@ static const Map<String,dynamic> de = {
       },
       "financial_instrument": {
         "example": "Wenn Sie beispielsweise mit Indizes handeln, könnten Sie 'Indizes' aus dem Dropdown-Menü auswählen.",
-        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. gehören."
+        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. Gehören."
       },
       "investment_annual_contribution": {
         "example": "Zum Beispiel, wenn Sie planen, jährlich 10.000 \u0024 zu Ihrer Anlage beizutragen, geben Sie bitte '10.000' ein.",
@@ -1032,7 +1032,7 @@ static const Map<String,dynamic> de = {
       },
       "price_before_vat": {
         "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
-        "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
+        "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. Ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
       },
       "risk": {
         "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
@@ -1082,17 +1082,17 @@ static const Map<String,dynamic> de = {
         "size": "Kontogröße"
       },
       "additional": {
-        "metrics": "Zusätzliche Metriken"
+        "metrics": "Zusätzliche metriken"
       },
       "additional_tax": {
-        "amount": "Zusätzlicher Steuerbetrag",
-        "rate": "Zusätzlicher Steuersatz",
-        "text": "Zusätzliche Steuern"
+        "amount": "Zusätzlicher steuerbetrag",
+        "rate": "Zusätzlicher steuersatz",
+        "text": "Zusätzliche steuern"
       },
       "after": {
         "fee": {
-          "amount": "Betrag nach Gebühren",
-          "price": "Preis nach Gebühren"
+          "amount": "Betrag nach gebühren",
+          "price": "Preis nach gebühren"
         },
         "vat": {
           "amount": "Betrag nach MwSt",
@@ -1100,18 +1100,18 @@ static const Map<String,dynamic> de = {
         }
       },
       "amount": {
-        "after_fee": "Betrag nach Gebühren",
-        "before_fee": "Betrag vor Gebühren",
+        "after_fee": "Betrag nach gebühren",
+        "before_fee": "Betrag vor gebühren",
         "fee": "Gebührenbetrag",
         "text": "Betrag"
       },
       "amount_at_risk": "Risikobetrag",
-      "annual_contribution": "Jährlicher Beitrag",
-      "average_annual_return": "Durchschnittliche jährliche Rendite",
+      "annual_contribution": "Jährlicher beitrag",
+      "average_annual_return": "Durchschnittliche jährliche rendite",
       "before": {
         "fee": {
-          "amount": "Betrag vor Gebühren",
-          "price": "Preis vor Gebühren"
+          "amount": "Betrag vor gebühren",
+          "price": "Preis vor gebühren"
         },
         "vat": {
           "amount": "Betrag vor MwSt",
@@ -1125,25 +1125,25 @@ static const Map<String,dynamic> de = {
         "text": "Rechnung"
       },
       "break_even": {
-        "price": "Break-even-Preis",
-        "units": "Break-even-Einheiten"
+        "price": "Break-even-preis",
+        "units": "Break-even-einheiten"
       },
       "breakdown": "Aufschlüsselung",
       "buy": {
         "commission": "Kaufprovision",
         "costs": "Kaufkosten",
-        "costs_per_unit": "Kaufkosten pro Einheit",
+        "costs_per_unit": "Kaufkosten pro einheit",
         "price": "Kaufpreis",
-        "price_per_unit": "Kaufpreis pro Einheit"
+        "price_per_unit": "Kaufpreis pro einheit"
       },
       "close_price": "Schlusskurs",
       "compound_interest": "Zinseszins",
       "cost": {
         "of": {
           "goods": {
-            "sold": "Kosten der verkauften Waren"
+            "sold": "Kosten der verkauften waren"
           },
-          "investment": "Kosten der Investition"
+          "investment": "Kosten der investition"
         }
       },
       "costs": "Kosten",
@@ -1152,48 +1152,48 @@ static const Map<String,dynamic> de = {
       "discount": {
         "amount": "Rabattbetrag",
         "label": "Rabatt",
-        "per_unit": "Rabatt pro Einheit",
+        "per_unit": "Rabatt pro einheit",
         "rate": "Rabattsatz"
       },
-      "duration_years": "Dauer in Jahren",
+      "duration_years": "Dauer in jahren",
       "ending": {
         "balance": "Endguthaben",
         "principal": "Endkapital"
       },
       "entry": {
         "fees": {
-          "amount": "Eintrittsgebühr Betrag",
+          "amount": "Eintrittsgebühr betrag",
           "text": "Einstiegsgebühren"
         },
         "price": {
           "at": "Einstiegspreis bei",
           "text": "Einstiegspreis",
-          "with_slippage": "Einstiegspreis mit Schlupf"
+          "with_slippage": "Einstiegspreis mit schlupf"
         },
         "text": "Einstieg"
       },
       "exit": {
         "fees": {
-          "amount": "Ausstiegsgebühr Betrag",
+          "amount": "Ausstiegsgebühr betrag",
           "text": "Ausstiegsgebühren"
         },
         "price": {
           "at": "Ausstiegspreis bei",
           "text": "Ausstiegspreis",
-          "with_slippage": "Ausstiegspreis mit Schlupf"
+          "with_slippage": "Ausstiegspreis mit schlupf"
         }
       },
-      "expected_sale_units": "Erwartete Verkaufseinheiten",
+      "expected_sale_units": "Erwartete verkaufseinheiten",
       "extension": "Erweiterung",
       "fees": "Gebühren",
       "fibonacci": {
-        "level": "Fibonacci-Level",
-        "levels": "Fibonacci-Levels"
+        "level": "Fibonacci-level",
+        "levels": "Fibonacci-levels"
       },
       "financial_instrument": "Finanzinstrument",
       "fixed_costs": "Fixkosten",
       "gain": "Gewinn",
-      "gain_per_trade": "Gewinn pro Trade",
+      "gain_per_trade": "Gewinn pro trade",
       "grand_total": "Gesamtsumme",
       "gross": {
         "income": "Bruttoeinkommen",
@@ -1207,26 +1207,26 @@ static const Map<String,dynamic> de = {
       "indices": "Indizes",
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
-      "involved_capital": "Investiertes Kapital",
+      "involved_capital": "Investiertes kapital",
       "last_updated_on": "Kurse zuletzt aktualisiert am",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",
-      "loss_per_trade": "Verlust pro Trade",
+      "loss_per_trade": "Verlust pro trade",
       "low_price": "Tiefstpreis",
       "margin": "Marge",
       "net": {
-        "buy_price": "Netto-Kaufpreis",
+        "buy_price": "Netto-kaufpreis",
         "income": "Nettoeinkommen",
         "profit": {
-          "after_fee": "Nettogewinn nach Gebühren",
-          "before_fee": "Nettogewinn vor Gebühren",
+          "after_fee": "Nettogewinn nach gebühren",
+          "before_fee": "Nettogewinn vor gebühren",
           "margin": "Nettogewinnmarge",
           "text": "Nettogewinn"
         }
       },
       "number": {
-        "of_trades": "Anzahl der Trades",
-        "plus_currency": "{number}+ Währungen"
+        "of_trades": "Anzahl der trades",
+        "plus_currency": "{number}+ währungen"
       },
       "open_price": "Eröffnungspreis",
       "operating": {
@@ -1239,12 +1239,12 @@ static const Map<String,dynamic> de = {
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Pivot-Punkt-Methode",
+        "method": "Pivot-punkt-methode",
         "standard": "Standard",
-        "text": "Pivot-Punkt",
+        "text": "Pivot-punkt",
         "woodie": "Woodie"
       },
-      "pivot_points": "Pivot-Punkte",
+      "pivot_points": "Pivot-punkte",
       "position": {
         "amount": "Positionsgröße",
         "long": "Long",
@@ -1257,112 +1257,112 @@ static const Map<String,dynamic> de = {
         "b": "Preis B",
         "base": "Grundpreis",
         "breakdown": "Preisaufschlüsselung",
-        "per_unit": "Preis pro Einheit",
-        "per_unit_after_fee": "Preis pro Einheit nach Gebühren",
-        "per_unit_before_fee": "Preis pro Einheit vor Gebühren",
+        "per_unit": "Preis pro einheit",
+        "per_unit_after_fee": "Preis pro einheit nach gebühren",
+        "per_unit_before_fee": "Preis pro einheit vor gebühren",
         "text": "Preis"
       },
       "primary_currency": "Hauptwährung",
       "profit": "Gewinn",
-      "profit_and_loss": "Gewinn und Verlust",
-      "profit_and_loss_overview": "Übersicht über Gewinn und Verlust",
-      "profit_or_loss": "Gewinn oder Verlust",
+      "profit_and_loss": "Gewinn und verlust",
+      "profit_and_loss_overview": "Übersicht über gewinn und verlust",
+      "profit_or_loss": "Gewinn oder verlust",
       "purchase": {
         "commission": "Ankaufsprovision",
         "costs": "Ankaufskosten",
-        "costs_per_unit": "Erwerbskosten pro Einheit",
+        "costs_per_unit": "Erwerbskosten pro einheit",
         "price": "Ankaufspreis",
-        "price_per_unit": "Ankaufspreis pro Einheit"
+        "price_per_unit": "Ankaufspreis pro einheit"
       },
       "rate": "Satz",
       "real_time_quotes": "Echtzeitkurse",
-      "regular_addition": "Regelmäßige Hinzufügung",
-      "required_margin": "Erforderliche Marge",
+      "regular_addition": "Regelmäßige hinzufügung",
+      "required_margin": "Erforderliche marge",
       "resistance_level": "Widerstand {level}",
       "resistances": "Widerstände",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
-      "return_on_investment": "Return on Investment",
+      "return_on_investment": "Return on investment",
       "revenue": "Einnahmen",
       "risk": {
         "amount": "Risikobetrag",
-        "effective": "Effektives Risiko",
-        "in_percentage": "Risiko in Prozent",
+        "effective": "Effektives risiko",
+        "in_percentage": "Risiko in prozent",
         "ratio": "Risikoverhältnis",
         "reward": {
-          "ratio": "Risiko-Rendite-Verhältnis",
-          "text": "Risiko-Rendite"
+          "ratio": "Risiko-rendite-verhältnis",
+          "text": "Risiko-rendite"
         },
         "text": "Risiko",
-        "tolerated": "Akzeptiertes Risiko"
+        "tolerated": "Akzeptiertes risiko"
       },
       "sales": {
         "commission": "Vertriebsprovision",
         "costs": "Vertriebskosten",
-        "costs_per_unit": "Vertriebskosten pro Einheit",
+        "costs_per_unit": "Vertriebskosten pro einheit",
         "price": "Vertriebspreis",
-        "price_per_unit": "Vertriebspreis pro Einheit"
+        "price_per_unit": "Vertriebspreis pro einheit"
       },
       "secondary_currency": "Sekundärwährung",
       "sell": {
         "commission": "Verkaufsprovision",
         "costs": "Verkaufskosten",
-        "costs_per_unit": "Verkaufskosten pro Einheit",
+        "costs_per_unit": "Verkaufskosten pro einheit",
         "price": "Verkaufspreis",
-        "price_per_unit": "Verkaufspreis pro Einheit"
+        "price_per_unit": "Verkaufspreis pro einheit"
       },
       "selling_expenses": "Verkaufskosten",
-      "selling_operating_expenses": "Verkaufs- und Betriebskosten",
+      "selling_operating_expenses": "Verkaufs- und betriebskosten",
       "slippage": "Slippage",
       "starting": {
         "balance": "Anfangsguthaben",
         "principal": "Anfangskapital"
       },
       "stop_loss": {
-        "amount": "Stop-Loss-Betrag",
-        "at": "Stop-Loss bei",
+        "amount": "Stop-loss-betrag",
+        "at": "Stop-loss bei",
         "in_percentage": {
-          "text": "Stop-Loss in Prozent",
-          "with_slippage": "Stop-Loss in Prozent mit Slippage"
+          "text": "Stop-loss in prozent",
+          "with_slippage": "Stop-loss in prozent mit slippage"
         },
         "price": {
-          "at": "Stop-Loss bei",
-          "text": "Stop-Loss",
-          "with_slippage": "Stop-Loss mit Slippage"
+          "at": "Stop-loss bei",
+          "text": "Stop-loss",
+          "with_slippage": "Stop-loss mit slippage"
         },
-        "text": "Stop-Loss"
+        "text": "Stop-loss"
       },
       "stop_loss_take_profit": "Stop-Loss/Take-Profit",
       "subtotal": "Zwischensumme",
       "support_level": "Unterstützung {level}",
       "supports": "Unterstützungen",
       "take_profit": {
-        "amount": "Take Profit Betrag",
-        "at": "Take Profit bei",
+        "amount": "Take profit betrag",
+        "at": "Take profit bei",
         "price": {
-          "after_fee": "Gewinnmitnahme nach Gebühren",
-          "at": "Take Profit bei",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit mit Slippage"
+          "after_fee": "Gewinnmitnahme nach gebühren",
+          "at": "Take profit bei",
+          "text": "Take profit",
+          "with_slippage": "Take profit mit slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Steuerbetrag",
-        "exempt_amount_per_year": "Steuerfreibetrag pro Jahr",
+        "exempt_amount_per_year": "Steuerfreibetrag pro jahr",
         "rate": "Steuersatz"
       },
       "taxes": "Steuern",
       "tip": {
-        "amount": "Trinkgeld Betrag",
+        "amount": "Trinkgeld betrag",
         "rate": "Trinkgeldsatz",
         "text": "Trinkgeld"
       },
       "total": {
         "contributions": "Total contributions",
         "costs": {
-          "losing_position": "Gesamtkosten für eine Verlustposition",
-          "profit_position": "Gesamtkosten für eine Gewinnposition",
+          "losing_position": "Gesamtkosten für eine verlustposition",
+          "profit_position": "Gesamtkosten für eine gewinnposition",
           "text": "Gesamtkosten"
         },
         "fee": "Gesamtgebühren",
@@ -1375,9 +1375,9 @@ static const Map<String,dynamic> de = {
       },
       "trade": {
         "size": {
-          "oz": "Handelsgröße (Unzen)",
+          "oz": "Handelsgröße (unzen)",
           "text": "Handelsgröße",
-          "units": "Handelsgröße (Einheiten)"
+          "units": "Handelsgröße (einheiten)"
         }
       },
       "trend": {
@@ -1388,8 +1388,8 @@ static const Map<String,dynamic> de = {
       },
       "user_currency": "Benutzerwährung",
       "vat": {
-        "amount": "MwSt Betrag",
-        "rate": "MwSt Satz",
+        "amount": "MwSt betrag",
+        "rate": "MwSt satz",
         "text": "MwSt"
       }
     },
@@ -1548,7 +1548,7 @@ static const Map<String,dynamic> ru = {
         "size": "Размер счета"
       },
       "additional": {
-        "metrics": "Дополнительные Метрики"
+        "metrics": "Дополнительные метрики"
       },
       "additional_tax": {
         "amount": "Сумма дополнительного налога",
@@ -1653,8 +1653,8 @@ static const Map<String,dynamic> ru = {
       "extension": "Расширение",
       "fees": "Сборы",
       "fibonacci": {
-        "level": "Уровень Фибоначчи",
-        "levels": "Уровни Фибоначчи"
+        "level": "Уровень фибоначчи",
+        "levels": "Уровни фибоначчи"
       },
       "financial_instrument": "Финансовый инструмент",
       "fixed_costs": "Фиксированные затраты",
@@ -1803,22 +1803,22 @@ static const Map<String,dynamic> ru = {
       "support_level": "Уровень поддержки {level}",
       "supports": "Поддержки",
       "take_profit": {
-        "amount": "Сумма Take Profit",
-        "at": "Take Profit при",
+        "amount": "Сумма take profit",
+        "at": "Take profit при",
         "price": {
           "after_fee": "Взятие прибыли после комиссии",
-          "at": "Take Profit при",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit с проскальзыванием"
+          "at": "Take profit при",
+          "text": "Take profit",
+          "with_slippage": "Take profit с проскальзыванием"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Сумма налога",
         "exempt_amount_per_year": "Сумма налогового освобождения в год",
         "rate": "Ставка налога"
       },
-      "taxes": "налоги",
+      "taxes": "Налоги",
       "tip": {
         "amount": "Сумма чаевых",
         "rate": "Ставка чаевых",
@@ -2014,7 +2014,7 @@ static const Map<String,dynamic> pt = {
         "size": "Tamanho da conta"
       },
       "additional": {
-        "metrics": "Métricas Adicionais"
+        "metrics": "Métricas adicionais"
       },
       "additional_tax": {
         "amount": "Montante de imposto adicional",
@@ -2051,9 +2051,9 @@ static const Map<String,dynamic> pt = {
         }
       },
       "bill": {
-        "amount": "Montante da Fatura",
-        "breakdown": "Detalhe da Fatura",
-        "rate": "Taxa da Fatura",
+        "amount": "Montante da fatura",
+        "breakdown": "Detalhe da fatura",
+        "rate": "Taxa da fatura",
         "text": "Fatura"
       },
       "break_even": {
@@ -2119,14 +2119,14 @@ static const Map<String,dynamic> pt = {
       "extension": "Extensão",
       "fees": "Taxas",
       "fibonacci": {
-        "level": "Nível de Fibonacci",
-        "levels": "Níveis de Fibonacci"
+        "level": "Nível de fibonacci",
+        "levels": "Níveis de fibonacci"
       },
       "financial_instrument": "Instrumento financeiro",
       "fixed_costs": "Custos fixos",
       "gain": "Ganho",
       "gain_per_trade": "Ganho por operação",
-      "grand_total": "Total Geral",
+      "grand_total": "Total geral",
       "gross": {
         "income": "Rendimento bruto",
         "margin": "Margem bruta",
@@ -2171,12 +2171,12 @@ static const Map<String,dynamic> pt = {
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Método do Ponto de Pivô",
+        "method": "Método do ponto de pivô",
         "standard": "Padrão",
-        "text": "Ponto de Pivô",
+        "text": "Ponto de pivô",
         "woodie": "Woodie"
       },
-      "pivot_points": "Pontos de Pivô",
+      "pivot_points": "Pontos de pivô",
       "position": {
         "amount": "Valor da posição",
         "long": "Longo",
@@ -2196,9 +2196,9 @@ static const Map<String,dynamic> pt = {
       },
       "primary_currency": "Moeda primária",
       "profit": "Lucro",
-      "profit_and_loss": "Lucro e Perda",
+      "profit_and_loss": "Lucro e perda",
       "profit_and_loss_overview": "Visão geral de lucros e perdas",
-      "profit_or_loss": "Lucro ou Perda",
+      "profit_or_loss": "Lucro ou perda",
       "purchase": {
         "commission": "Comissão de aquisição",
         "costs": "Custos de aquisição",
@@ -2218,15 +2218,15 @@ static const Map<String,dynamic> pt = {
       "revenue": "Receita",
       "risk": {
         "amount": "Valor em risco",
-        "effective": "Risco Efetivo",
-        "in_percentage": "Risco em Percentagem",
-        "ratio": "Razão de Risco",
+        "effective": "Risco efetivo",
+        "in_percentage": "Risco em percentagem",
+        "ratio": "Razão de risco",
         "reward": {
-          "ratio": "Razão Risco-Recompensa",
-          "text": "Risco-Recompensa"
+          "ratio": "Razão risco-recompensa",
+          "text": "Risco-recompensa"
         },
         "text": "Risco",
-        "tolerated": "Risco Tolerado"
+        "tolerated": "Risco tolerado"
       },
       "sales": {
         "commission": "Comissão de vendas",
@@ -2251,33 +2251,33 @@ static const Map<String,dynamic> pt = {
         "principal": "Principal inicial"
       },
       "stop_loss": {
-        "amount": "Valor de Stop Loss",
-        "at": "Stop Loss em",
+        "amount": "Valor de stop loss",
+        "at": "Stop loss em",
         "in_percentage": {
-          "text": "Stop Loss em porcentagem",
-          "with_slippage": "Stop Loss em porcentagem com derrapagem"
+          "text": "Stop loss em porcentagem",
+          "with_slippage": "Stop loss em porcentagem com derrapagem"
         },
         "price": {
-          "at": "Stop Loss em",
-          "text": "Stop Loss",
-          "with_slippage": "Stop Loss com derrapagem"
+          "at": "Stop loss em",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss com derrapagem"
         },
-        "text": "Stop Loss"
+        "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Nível de suporte {level}",
       "supports": "Suportes",
       "take_profit": {
-        "amount": "Valor de Take Profit",
-        "at": "Take Profit em",
+        "amount": "Valor de take profit",
+        "at": "Take profit em",
         "price": {
           "after_fee": "Tomada de lucro após taxas",
-          "at": "Take Profit em",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit com Deslizamento"
+          "at": "Take profit em",
+          "text": "Take profit",
+          "with_slippage": "Take profit com deslizamento"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Valor do imposto",
@@ -2295,14 +2295,14 @@ static const Map<String,dynamic> pt = {
         "costs": {
           "losing_position": "Custos totais para uma posição perdedora",
           "profit_position": "Custos totais para uma posição vencedora",
-          "text": "Custos Totais"
+          "text": "Custos totais"
         },
-        "fee": "Taxas Totais",
+        "fee": "Taxas totais",
         "gain": "Ganho total",
         "loss": "Perda total",
         "return": "Retorno total",
         "revenue": "Receita total",
-        "tax": "Impostos Totais",
+        "tax": "Impostos totais",
         "text": "Total"
       },
       "trade": {
@@ -2475,56 +2475,56 @@ static const Map<String,dynamic> en = {
     },
     "label": {
       "account": {
-        "balance": "Account Balance",
-        "currency": "Account Currency",
-        "size": "Account Size"
+        "balance": "Account balance",
+        "currency": "Account currency",
+        "size": "Account size"
       },
       "additional": {
-        "metrics": "Additional Metrics"
+        "metrics": "Additional metrics"
       },
       "additional_tax": {
-        "amount": "Additional Tax Amount",
-        "rate": "Additional Tax Rate",
-        "text": "Additional Taxes"
+        "amount": "Additional tax amount",
+        "rate": "Additional tax rate",
+        "text": "Additional taxes"
       },
       "after": {
         "fee": {
-          "amount": "Amount After Fees",
-          "price": "Price After Fees"
+          "amount": "Amount after fees",
+          "price": "Price after fees"
         },
         "vat": {
-          "amount": "Amount After VAT",
-          "price": "Price After VAT"
+          "amount": "Amount after VAT",
+          "price": "Price after VAT"
         }
       },
       "amount": {
-        "after_fee": "Amount After Fees",
-        "before_fee": "Amount Before Fees",
-        "fee": "Fee Amount",
+        "after_fee": "Amount after fees",
+        "before_fee": "Amount before fees",
+        "fee": "Fee amount",
         "text": "Amount"
       },
-      "amount_at_risk": "Amount at Risk",
-      "annual_contribution": "Annual Contribution",
-      "average_annual_return": "Average Annual Return",
+      "amount_at_risk": "Amount at risk",
+      "annual_contribution": "Annual contribution",
+      "average_annual_return": "Average annual return",
       "before": {
         "fee": {
-          "amount": "Amount Before Fees",
-          "price": "Price Before Fees"
+          "amount": "Amount before fees",
+          "price": "Price before fees"
         },
         "vat": {
-          "amount": "Amount Before VAT",
-          "price": "Price Before VAT"
+          "amount": "Amount before VAT",
+          "price": "Price before VAT"
         }
       },
       "bill": {
-        "amount": "Bill Amount",
-        "breakdown": "Bill Breakdown",
-        "rate": "Bill Rate",
+        "amount": "Bill amount",
+        "breakdown": "Bill breakdown",
+        "rate": "Bill rate",
         "text": "Bill"
       },
       "break_even": {
-        "price": "Break-Even Price",
-        "units": "Break-Even Units"
+        "price": "Break-even price",
+        "units": "Break-even units"
       },
       "breakdown": "Breakdown",
       "buy": {
@@ -2534,99 +2534,99 @@ static const Map<String,dynamic> en = {
         "price": "Buying price",
         "price_per_unit": "Buying price per unit"
       },
-      "close_price": "Close Price",
-      "compound_interest": "Compound Interest",
+      "close_price": "Close price",
+      "compound_interest": "Compound interest",
       "cost": {
         "of": {
           "goods": {
-            "sold": "Cost of Goods Sold"
+            "sold": "Cost of goods sold"
           },
-          "investment": "Cost of Investment"
+          "investment": "Cost of investment"
         }
       },
       "costs": "Costs",
       "currencies": "Currencies",
       "currency": "Currency",
       "discount": {
-        "amount": "Discount Amount",
+        "amount": "Discount amount",
         "label": "Discount",
-        "per_unit": "Discount per Unit",
-        "rate": "Discount Rate"
+        "per_unit": "Discount per unit",
+        "rate": "Discount rate"
       },
       "duration_years": "Duration in years",
       "ending": {
-        "balance": "Ending Balance",
-        "principal": "Ending Principal"
+        "balance": "Ending balance",
+        "principal": "Ending principal"
       },
       "entry": {
         "fees": {
           "amount": "Entry fee amount",
-          "text": "Entry Fees"
+          "text": "Entry fees"
         },
         "price": {
-          "at": "Entry Price at",
-          "text": "Entry Price",
-          "with_slippage": "Entry Price with Slippage"
+          "at": "Entry price at",
+          "text": "Entry price",
+          "with_slippage": "Entry price with slippage"
         },
         "text": "Entry"
       },
       "exit": {
         "fees": {
           "amount": "Exit fee amount",
-          "text": "Exit Fees"
+          "text": "Exit fees"
         },
         "price": {
-          "at": "Exit Price at",
-          "text": "Exit Price",
-          "with_slippage": "Exit Price with Slippage"
+          "at": "Exit price at",
+          "text": "Exit price",
+          "with_slippage": "Exit price with slippage"
         }
       },
-      "expected_sale_units": "Expected Sale Units",
+      "expected_sale_units": "Expected sale units",
       "extension": "Extension",
       "fees": "Fees",
       "fibonacci": {
-        "level": "Fibonacci Level",
-        "levels": "Fibonacci Levels"
+        "level": "Fibonacci level",
+        "levels": "Fibonacci levels"
       },
-      "financial_instrument": "Financial Instrument",
-      "fixed_costs": "Fixed Costs",
+      "financial_instrument": "Financial instrument",
+      "fixed_costs": "Fixed costs",
       "gain": "Gain",
-      "gain_per_trade": "Gain per Trade",
-      "grand_total": "Grand Total",
+      "gain_per_trade": "Gain per trade",
+      "grand_total": "Grand total",
       "gross": {
-        "income": "Gross Income",
-        "margin": "Gross Margin",
+        "income": "Gross income",
+        "margin": "Gross margin",
         "profit": {
-          "margin": "Gross Profit Margin",
-          "text": "Gross Profit"
+          "margin": "Gross profit margin",
+          "text": "Gross profit"
         }
       },
-      "high_price": "High Price",
+      "high_price": "High price",
       "indices": "Indices",
-      "initial_investment": "Initial Investment",
-      "interest_rate": "Interest Rate",
-      "involved_capital": "Involved Capital",
+      "initial_investment": "Initial investment",
+      "interest_rate": "Interest rate",
+      "involved_capital": "Involved capital",
       "last_updated_on": "Rates last updated on",
       "leverage": "Leverage",
       "loss": "Loss",
-      "loss_per_trade": "Loss per Trade",
-      "low_price": "Low Price",
+      "loss_per_trade": "Loss per trade",
+      "low_price": "Low price",
       "margin": "Margin",
       "net": {
-        "buy_price": "Net Buy Price",
-        "income": "Net Income",
+        "buy_price": "Net buy price",
+        "income": "Net income",
         "profit": {
-          "after_fee": "Net Profit After Fees",
-          "before_fee": "Net Profit Before Fees",
-          "margin": "Net Profit Margin",
-          "text": "Net Profit"
+          "after_fee": "Net profit after fees",
+          "before_fee": "Net profit before fees",
+          "margin": "Net profit margin",
+          "text": "Net profit"
         }
       },
       "number": {
-        "of_trades": "Number of Trades",
+        "of_trades": "Number of trades",
         "plus_currency": "{number}+ currencies"
       },
-      "open_price": "Open Price",
+      "open_price": "Open price",
       "operating": {
         "expenses": "Operating expenses",
         "income": "Operating income",
@@ -2637,34 +2637,34 @@ static const Map<String,dynamic> en = {
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Pivot Point Method",
+        "method": "Pivot point method",
         "standard": "Standard",
-        "text": "Pivot Point",
+        "text": "Pivot point",
         "woodie": "Woodie"
       },
-      "pivot_points": "Pivot Points",
+      "pivot_points": "Pivot points",
       "position": {
-        "amount": "Position Amount",
+        "amount": "Position amount",
         "long": "Long",
         "short": "Short",
-        "size": "Position Size",
+        "size": "Position size",
         "text": "Position"
       },
       "price": {
         "a": "Price A",
         "b": "Price B",
-        "base": "Base Price",
-        "breakdown": "Price Breakdown",
-        "per_unit": "Price per Unit",
-        "per_unit_after_fee": "Price per Unit After Fees",
-        "per_unit_before_fee": "Price per Unit Before Fees",
+        "base": "Base price",
+        "breakdown": "Price breakdown",
+        "per_unit": "Price per unit",
+        "per_unit_after_fee": "Price per unit after fees",
+        "per_unit_before_fee": "Price per unit before fees",
         "text": "Price"
       },
-      "primary_currency": "Primary Currency",
+      "primary_currency": "Primary currency",
       "profit": "Profit",
-      "profit_and_loss": "Profit and Loss",
-      "profit_and_loss_overview": "Profit and Loss Overview",
-      "profit_or_loss": "Profit or Loss",
+      "profit_and_loss": "Profit and loss",
+      "profit_and_loss_overview": "Profit and loss overview",
+      "profit_or_loss": "Profit or loss",
       "purchase": {
         "commission": "Purchase commission",
         "costs": "Purchase costs",
@@ -2673,26 +2673,26 @@ static const Map<String,dynamic> en = {
         "price_per_unit": "Purchase price per unit"
       },
       "rate": "Rate",
-      "real_time_quotes": "Real-Time Quotes",
-      "regular_addition": "Regular Addition",
-      "required_margin": "Required Margin",
+      "real_time_quotes": "Real-time quotes",
+      "regular_addition": "Regular addition",
+      "required_margin": "Required margin",
       "resistance_level": "Resistance {level}",
       "resistances": "Resistances",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
-      "return_on_investment": "Return on Investment",
+      "return_on_investment": "Return on investment",
       "revenue": "Revenue",
       "risk": {
         "amount": "Amount at risk",
-        "effective": "Effective Risk",
-        "in_percentage": "Risk in Percentage",
-        "ratio": "Risk Ratio",
+        "effective": "Effective risk",
+        "in_percentage": "Risk in percentage",
+        "ratio": "Risk ratio",
         "reward": {
-          "ratio": "Risk-Reward Ratio",
-          "text": "Risk-Reward"
+          "ratio": "Risk-reward ratio",
+          "text": "Risk-reward"
         },
         "text": "Risk",
-        "tolerated": "Tolerated Risk"
+        "tolerated": "Tolerated risk"
       },
       "sales": {
         "commission": "Sales commission",
@@ -2701,7 +2701,7 @@ static const Map<String,dynamic> en = {
         "price": "Sales price",
         "price_per_unit": "Sales price per unit"
       },
-      "secondary_currency": "Secondary Currency",
+      "secondary_currency": "Secondary currency",
       "sell": {
         "commission": "Selling commission",
         "costs": "Selling expenses",
@@ -2713,47 +2713,47 @@ static const Map<String,dynamic> en = {
       "selling_operating_expenses": "Selling and operating expenses",
       "slippage": "Slippage",
       "starting": {
-        "balance": "Starting Balance",
-        "principal": "Starting Principal"
+        "balance": "Starting balance",
+        "principal": "Starting principal"
       },
       "stop_loss": {
-        "amount": "Stop Loss Amount",
-        "at": "Stop Loss at",
+        "amount": "Stop loss amount",
+        "at": "Stop loss at",
         "in_percentage": {
-          "text": "Stop Loss in Percentage",
-          "with_slippage": "Stop Loss in Percentage with Slippage"
+          "text": "Stop loss in percentage",
+          "with_slippage": "Stop loss in percentage with slippage"
         },
         "price": {
-          "at": "Stop Loss at",
-          "text": "Stop Loss",
-          "with_slippage": "Stop Loss with Slippage"
+          "at": "Stop loss at",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss with slippage"
         },
-        "text": "Stop Loss"
+        "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Support {level}",
       "supports": "Supports",
       "take_profit": {
-        "amount": "Take Profit Amount",
-        "at": "Take Profit at",
+        "amount": "Take profit amount",
+        "at": "Take profit at",
         "price": {
-          "after_fee": "Take Profit After Fees",
-          "at": "Take Profit at",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit with Slippage"
+          "after_fee": "Take profit after fees",
+          "at": "Take profit at",
+          "text": "Take profit",
+          "with_slippage": "Take profit with slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
-        "amount": "Tax Amount",
-        "exempt_amount_per_year": "Tax-exempt Amount Per Year",
-        "rate": "Tax Rate"
+        "amount": "Tax amount",
+        "exempt_amount_per_year": "Tax-exempt amount per year",
+        "rate": "Tax rate"
       },
       "taxes": "Taxes",
       "tip": {
-        "amount": "Tip Amount",
-        "rate": "Tip Rate",
+        "amount": "Tip amount",
+        "rate": "Tip rate",
         "text": "Tip"
       },
       "total": {
@@ -2761,21 +2761,21 @@ static const Map<String,dynamic> en = {
         "costs": {
           "losing_position": "Total costs for a losing position",
           "profit_position": "Total costs for a winning position",
-          "text": "Total Costs"
+          "text": "Total costs"
         },
-        "fee": "Total Fees",
-        "gain": "Total Gain",
-        "loss": "Total Loss",
-        "return": "Total Return",
-        "revenue": "Total Revenue",
-        "tax": "Total Taxes",
+        "fee": "Total fees",
+        "gain": "Total gain",
+        "loss": "Total loss",
+        "return": "Total return",
+        "revenue": "Total revenue",
+        "tax": "Total taxes",
         "text": "Total"
       },
       "trade": {
         "size": {
-          "oz": "Trade Size (oz)",
-          "text": "Trade Size",
-          "units": "Trade Size (units)"
+          "oz": "Trade size (oz)",
+          "text": "Trade size",
+          "units": "Trade size (units)"
         }
       },
       "trend": {
@@ -2784,10 +2784,10 @@ static const Map<String,dynamic> en = {
         "text": "Trend",
         "up": "Up"
       },
-      "user_currency": "User Currency",
+      "user_currency": "User currency",
       "vat": {
-        "amount": "VAT Amount",
-        "rate": "VAT Rate",
+        "amount": "VAT amount",
+        "rate": "VAT rate",
         "text": "VAT"
       }
     },
@@ -2946,7 +2946,7 @@ static const Map<String,dynamic> it = {
         "size": "Dimensione conto"
       },
       "additional": {
-        "metrics": "Metriche Aggiuntive"
+        "metrics": "Metriche aggiuntive"
       },
       "additional_tax": {
         "amount": "Importo di tasse aggiuntive",
@@ -2983,9 +2983,9 @@ static const Map<String,dynamic> it = {
         }
       },
       "bill": {
-        "amount": "Importo Fattura",
-        "breakdown": "Dettaglio Fattura",
-        "rate": "Tasso Fattura",
+        "amount": "Importo fattura",
+        "breakdown": "Dettaglio fattura",
+        "rate": "Tasso fattura",
         "text": "Fattura"
       },
       "break_even": {
@@ -3051,14 +3051,14 @@ static const Map<String,dynamic> it = {
       "extension": "Estensione",
       "fees": "Commissioni",
       "fibonacci": {
-        "level": "Livello di Fibonacci",
-        "levels": "Livelli di Fibonacci"
+        "level": "Livello di fibonacci",
+        "levels": "Livelli di fibonacci"
       },
       "financial_instrument": "Strumento finanziario",
       "fixed_costs": "Costi fissi",
       "gain": "Guadagno",
       "gain_per_trade": "Guadagno per operazione",
-      "grand_total": "Totale Generale",
+      "grand_total": "Totale generale",
       "gross": {
         "income": "Reddito lordo",
         "margin": "Margine lordo",
@@ -3150,15 +3150,15 @@ static const Map<String,dynamic> it = {
       "revenue": "Entrate",
       "risk": {
         "amount": "Importo a rischio",
-        "effective": "Rischio Effettivo",
-        "in_percentage": "Rischio in Percentuale",
-        "ratio": "Rapporto di Rischio",
+        "effective": "Rischio effettivo",
+        "in_percentage": "Rischio in percentuale",
+        "ratio": "Rapporto di rischio",
         "reward": {
-          "ratio": "Rapporto Rischio-Rendimento",
-          "text": "Rischio-Rendimento"
+          "ratio": "Rapporto rischio-rendimento",
+          "text": "Rischio-rendimento"
         },
         "text": "Rischio",
-        "tolerated": "Rischio Tollerato"
+        "tolerated": "Rischio tollerato"
       },
       "sales": {
         "commission": "Commissione sulle vendite",
@@ -3201,15 +3201,15 @@ static const Map<String,dynamic> it = {
       "support_level": "Livello di supporto {level}",
       "supports": "Supporti",
       "take_profit": {
-        "amount": "Importo del Take Profit",
-        "at": "Take Profit a",
+        "amount": "Importo del take profit",
+        "at": "Take profit a",
         "price": {
-          "after_fee": "Presa di profitto dopo le Commissioni",
-          "at": "Take Profit a",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit con slippage"
+          "after_fee": "Presa di profitto dopo le commissioni",
+          "at": "Take profit a",
+          "text": "Take profit",
+          "with_slippage": "Take profit con slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Importo delle tasse",
@@ -3229,12 +3229,12 @@ static const Map<String,dynamic> it = {
           "profit_position": "Costi totali per una posizione vincente",
           "text": "Costi totali"
         },
-        "fee": "Tariffe Totali",
+        "fee": "Tariffe totali",
         "gain": "Guadagno totale",
         "loss": "Perdita totale",
         "return": "Rendimento totale",
         "revenue": "Ricavo totale",
-        "tax": "Tasse Totali",
+        "tax": "Tasse totali",
         "text": "Totale"
       },
       "trade": {
@@ -3412,7 +3412,7 @@ static const Map<String,dynamic> fr = {
         "size": "Taille du compte"
       },
       "additional": {
-        "metrics": "Métriques Supplémentaires"
+        "metrics": "Métriques supplémentaires"
       },
       "additional_tax": {
         "amount": "Montant d'imposition additionnel",
@@ -3517,14 +3517,14 @@ static const Map<String,dynamic> fr = {
       "extension": "Extension",
       "fees": "Frais",
       "fibonacci": {
-        "level": "Niveau de Fibonacci",
-        "levels": "Niveaux de Fibonacci"
+        "level": "Niveau de fibonacci",
+        "levels": "Niveaux de fibonacci"
       },
       "financial_instrument": "Instrument financier",
       "fixed_costs": "Coûts fixes",
       "gain": "Gain",
       "gain_per_trade": "Gain par transaction",
-      "grand_total": "Total Général",
+      "grand_total": "Total général",
       "gross": {
         "income": "Revenu brut",
         "margin": "Marge brute",
@@ -3616,15 +3616,15 @@ static const Map<String,dynamic> fr = {
       "revenue": "Revenu",
       "risk": {
         "amount": "Montant à risque",
-        "effective": "Risque Effectif",
-        "in_percentage": "Risque en Pourcentage",
-        "ratio": "Ratio de Risque",
+        "effective": "Risque effectif",
+        "in_percentage": "Risque en pourcentage",
+        "ratio": "Ratio de risque",
         "reward": {
-          "ratio": "Ratio Risque-Rendement",
-          "text": "Risque-Rendement"
+          "ratio": "Ratio risque-rendement",
+          "text": "Risque-rendement"
         },
         "text": "Risque",
-        "tolerated": "Risque Toléré"
+        "tolerated": "Risque toléré"
       },
       "sales": {
         "commission": "Commission sur les ventes",
@@ -3695,7 +3695,7 @@ static const Map<String,dynamic> fr = {
           "profit_position": "Coûts totaux pour une position gagnante",
           "text": "Coûts totaux"
         },
-        "fee": "Frais Totaux",
+        "fee": "Frais totaux",
         "gain": "Gain total",
         "loss": "Perte totale",
         "return": "Rendement total",
@@ -3878,7 +3878,7 @@ static const Map<String,dynamic> es = {
         "size": "Tamaño de la cuenta"
       },
       "additional": {
-        "metrics": "Métricas Adicionales"
+        "metrics": "Métricas adicionales"
       },
       "additional_tax": {
         "amount": "Importe de impuesto adicional",
@@ -3915,9 +3915,9 @@ static const Map<String,dynamic> es = {
         }
       },
       "bill": {
-        "amount": "Monto de la Factura",
-        "breakdown": "Desglose de la Factura",
-        "rate": "Tasa de la Factura",
+        "amount": "Monto de la factura",
+        "breakdown": "Desglose de la factura",
+        "rate": "Tasa de la factura",
         "text": "Factura"
       },
       "break_even": {
@@ -3983,14 +3983,14 @@ static const Map<String,dynamic> es = {
       "extension": "Extensión",
       "fees": "Honorarios",
       "fibonacci": {
-        "level": "Nivel de Fibonacci",
-        "levels": "Niveles de Fibonacci"
+        "level": "Nivel de fibonacci",
+        "levels": "Niveles de fibonacci"
       },
       "financial_instrument": "Instrumento financiero",
       "fixed_costs": "Costos fijos",
       "gain": "Ganancia",
       "gain_per_trade": "Ganancia por operación",
-      "grand_total": "Total General",
+      "grand_total": "Total general",
       "gross": {
         "income": "Ingresos brutos",
         "margin": "Margen bruto",
@@ -4082,15 +4082,15 @@ static const Map<String,dynamic> es = {
       "revenue": "Ingresos",
       "risk": {
         "amount": "Monto en riesgo",
-        "effective": "Riesgo Efectivo",
-        "in_percentage": "Riesgo en Porcentaje",
-        "ratio": "Ratio de Riesgo",
+        "effective": "Riesgo efectivo",
+        "in_percentage": "Riesgo en porcentaje",
+        "ratio": "Ratio de riesgo",
         "reward": {
-          "ratio": "Ratio Riesgo-Recompensa",
-          "text": "Riesgo-Recompensa"
+          "ratio": "Ratio riesgo-recompensa",
+          "text": "Riesgo-recompensa"
         },
         "text": "Riesgo",
-        "tolerated": "Riesgo Tolerado"
+        "tolerated": "Riesgo tolerado"
       },
       "sales": {
         "commission": "Comisión de ventas",
@@ -4115,33 +4115,33 @@ static const Map<String,dynamic> es = {
         "principal": "Capital inicial"
       },
       "stop_loss": {
-        "amount": "Monto de Stop Loss",
-        "at": "Stop Loss en",
+        "amount": "Monto de stop loss",
+        "at": "Stop loss en",
         "in_percentage": {
-          "text": "Stop Loss en porcentaje",
-          "with_slippage": "Stop Loss en porcentaje con deslizamiento"
+          "text": "Stop loss en porcentaje",
+          "with_slippage": "Stop loss en porcentaje con deslizamiento"
         },
         "price": {
-          "at": "Stop Loss en",
-          "text": "Stop Loss",
-          "with_slippage": "Stop Loss con deslizamiento"
+          "at": "Stop loss en",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss con deslizamiento"
         },
-        "text": "Stop Loss"
+        "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Nivel de soporte {level}",
       "supports": "Soportes",
       "take_profit": {
-        "amount": "Monto de Take Profit",
-        "at": "Take Profit en",
+        "amount": "Monto de take profit",
+        "at": "Take profit en",
         "price": {
           "after_fee": "Toma de beneficios después de comisiones",
-          "at": "Take Profit en",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit con Slippage"
+          "at": "Take profit en",
+          "text": "Take profit",
+          "with_slippage": "Take profit con slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Monto de impuestos",
@@ -4161,12 +4161,12 @@ static const Map<String,dynamic> es = {
           "profit_position": "Costos totales para una posición ganadora",
           "text": "Costos totales"
         },
-        "fee": "Tarifas Totales",
+        "fee": "Tarifas totales",
         "gain": "Ganancia total",
         "loss": "Pérdida total",
         "return": "Retorno total",
         "revenue": "Ingresos totales",
-        "tax": "Impuestos Totales",
+        "tax": "Impuestos totales",
         "text": "Total"
       },
       "trade": {

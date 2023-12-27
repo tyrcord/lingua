@@ -118,10 +118,10 @@
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Стоп-лосс (Pips)"
+        "pips": "Стоп-лосс (pips)"
       },
       "take_profit": {
-        "pips": "Тейк-профит (Pips)"
+        "pips": "Тейк-профит (pips)"
       }
     },
     "select": {

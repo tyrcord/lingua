@@ -137,7 +137,7 @@
         "size": "Dimensione conto"
       },
       "additional": {
-        "metrics": "Metriche Aggiuntive"
+        "metrics": "Metriche aggiuntive"
       },
       "additional_tax": {
         "amount": "Importo di tasse aggiuntive",
@@ -174,9 +174,9 @@
         }
       },
       "bill": {
-        "amount": "Importo Fattura",
-        "breakdown": "Dettaglio Fattura",
-        "rate": "Tasso Fattura",
+        "amount": "Importo fattura",
+        "breakdown": "Dettaglio fattura",
+        "rate": "Tasso fattura",
         "text": "Fattura"
       },
       "break_even": {
@@ -242,14 +242,14 @@
       "extension": "Estensione",
       "fees": "Commissioni",
       "fibonacci": {
-        "level": "Livello di Fibonacci",
-        "levels": "Livelli di Fibonacci"
+        "level": "Livello di fibonacci",
+        "levels": "Livelli di fibonacci"
       },
       "financial_instrument": "Strumento finanziario",
       "fixed_costs": "Costi fissi",
       "gain": "Guadagno",
       "gain_per_trade": "Guadagno per operazione",
-      "grand_total": "Totale Generale",
+      "grand_total": "Totale generale",
       "gross": {
         "income": "Reddito lordo",
         "margin": "Margine lordo",
@@ -341,15 +341,15 @@
       "revenue": "Entrate",
       "risk": {
         "amount": "Importo a rischio",
-        "effective": "Rischio Effettivo",
-        "in_percentage": "Rischio in Percentuale",
-        "ratio": "Rapporto di Rischio",
+        "effective": "Rischio effettivo",
+        "in_percentage": "Rischio in percentuale",
+        "ratio": "Rapporto di rischio",
         "reward": {
-          "ratio": "Rapporto Rischio-Rendimento",
-          "text": "Rischio-Rendimento"
+          "ratio": "Rapporto rischio-rendimento",
+          "text": "Rischio-rendimento"
         },
         "text": "Rischio",
-        "tolerated": "Rischio Tollerato"
+        "tolerated": "Rischio tollerato"
       },
       "sales": {
         "commission": "Commissione sulle vendite",
@@ -392,15 +392,15 @@
       "support_level": "Livello di supporto {level}",
       "supports": "Supporti",
       "take_profit": {
-        "amount": "Importo del Take Profit",
-        "at": "Take Profit a",
+        "amount": "Importo del take profit",
+        "at": "Take profit a",
         "price": {
-          "after_fee": "Presa di profitto dopo le Commissioni",
-          "at": "Take Profit a",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit con slippage"
+          "after_fee": "Presa di profitto dopo le commissioni",
+          "at": "Take profit a",
+          "text": "Take profit",
+          "with_slippage": "Take profit con slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Importo delle tasse",
@@ -420,12 +420,12 @@
           "profit_position": "Costi totali per una posizione vincente",
           "text": "Costi totali"
         },
-        "fee": "Tariffe Totali",
+        "fee": "Tariffe totali",
         "gain": "Guadagno totale",
         "loss": "Perdita totale",
         "return": "Rendimento totale",
         "revenue": "Ricavo totale",
-        "tax": "Tasse Totali",
+        "tax": "Tasse totali",
         "text": "Totale"
       },
       "trade": {

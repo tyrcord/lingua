@@ -78,7 +78,7 @@
       "connected": "Verbunden",
       "contact": {
         "support": "Support kontaktieren",
-        "us": "Kontaktieren Sie uns"
+        "us": "Kontaktieren sie uns"
       },
       "continue": "Weiter",
       "copy": "Kopieren",
@@ -104,7 +104,7 @@
       "enabled": "Aktiviert",
       "enter": {
         "fullscreen": "Vollbildmodus betreten",
-        "pip": "Bild-in-Bild betreten",
+        "pip": "Bild-in-bild betreten",
         "text": "Betreten"
       },
       "entries": "Eingänge",
@@ -113,7 +113,7 @@
       "example": "Beispiel",
       "exit": {
         "fullscreen": "Vollbild beenden",
-        "pip": "Bild-in-Bild beenden",
+        "pip": "Bild-in-bild beenden",
         "text": "Beenden"
       },
       "exotics": "Exotische",
@@ -132,12 +132,12 @@
       "fast_forward": "Vorwärts spulen",
       "favorites": "Favoriten",
       "find": {
-        "and_replace": "Suchen und Ersetzen",
+        "and_replace": "Suchen und ersetzen",
         "next": "Nächste suchen",
         "previous": "Vorherige suchen",
         "text": "Suchen"
       },
-      "follow_us": "Folgen Sie uns",
+      "follow_us": "Folgen sie uns",
       "frame": "Rahmen",
       "frequency": "Häufigkeit",
       "fullscreen": "Vollbild",
@@ -152,16 +152,16 @@
         "from": "Importieren von",
         "text": "Importieren"
       },
-      "in_progress": "In Bearbeitung",
+      "in_progress": "In bearbeitung",
       "inactive": "Inaktiv",
       "incomplete": "Unvollständig",
       "info": "Info",
       "inputs": "Eingaben",
       "install": "Installieren",
       "internal": "Intern",
-      "internet_connection": "Keine Internetverbindung",
+      "internet_connection": "Keine internetverbindung",
       "invalid": "Ungültig",
-      "learn_more": "Weitere Informationen",
+      "learn_more": "Weitere informationen",
       "loading": "Wird geladen",
       "local": "Lokal",
       "locked": "Gesperrt",
@@ -170,31 +170,31 @@
       "menu": "Menü",
       "method": "Methode",
       "minors": "Minderjährige",
-      "missing_rights": "Fehlende Rechte",
+      "missing_rights": "Fehlende rechte",
       "monthly": "Monatlich",
       "mute": "Stumm",
       "name": "Name",
       "new": {
-        "bookmark": "Neues Lesezeichen",
-        "document": "Neues Dokument",
-        "file": "Neue Datei",
-        "folder": "Neuer Ordner",
-        "note": "Neue Notiz",
-        "project": "Neues Projekt",
-        "tab": "Neuer Tab",
+        "bookmark": "Neues lesezeichen",
+        "document": "Neues dokument",
+        "file": "Neue datei",
+        "folder": "Neuer ordner",
+        "note": "Neue notiz",
+        "project": "Neues projekt",
+        "tab": "Neuer tab",
         "text": "Neu",
-        "window": "Neues Fenster",
-        "workspace": "Neuer Arbeitsbereich"
+        "window": "Neues fenster",
+        "workspace": "Neuer arbeitsbereich"
       },
       "next": {
-        "chapter": "Nächstes Kapitel",
-        "page": "Nächste Seite",
+        "chapter": "Nächstes kapitel",
+        "page": "Nächste seite",
         "text": "Nächste",
-        "track": "Nächster Titel"
+        "track": "Nächster titel"
       },
       "no": "Nein",
-      "no_elements": "Keine Elemente",
-      "no_items": "Keine Artikel",
+      "no_elements": "Keine elemente",
+      "no_items": "Keine artikel",
       "non_commercial": "Nicht-kommerziell",
       "none": {
         "female": "Keine",
@@ -202,7 +202,7 @@
         "other": "Keine"
       },
       "offline": "Offline",
-      "offline_mode": "Offline-Modus",
+      "offline_mode": "Offline-modus",
       "ok": "OK",
       "online": "Online",
       "open": {
@@ -210,8 +210,8 @@
         "directory": "Verzeichnis öffnen",
         "file": "Datei öffnen",
         "in_new": {
-          "tab": "In neuem Tab öffnen",
-          "window": "In neuem Fenster öffnen"
+          "tab": "In neuem tab öffnen",
+          "window": "In neuem fenster öffnen"
         },
         "text": "Öffnen",
         "url": "URL öffnen"
@@ -220,7 +220,7 @@
         "canceled": "Vorgang abgebrochen",
         "completed": "Vorgang abgeschlossen",
         "failed": "Vorgang fehlgeschlagen",
-        "in_progress": "Vorgang in Bearbeitung",
+        "in_progress": "Vorgang in bearbeitung",
         "pending": "Vorgang ausstehend",
         "started": "Vorgang gestartet",
         "succeeded": "Vorgang erfolgreich",
@@ -238,10 +238,10 @@
       "play": "Wiedergabe",
       "play_pause": "Wiedergabe/Pause",
       "previous": {
-        "chapter": "Vorheriges Kapitel",
-        "page": "Vorherige Seite",
+        "chapter": "Vorheriges kapitel",
+        "page": "Vorherige seite",
         "text": "Vorherige",
-        "track": "Vorheriger Titel"
+        "track": "Vorheriger titel"
       },
       "private": "Privat",
       "public": "Öffentlich",
@@ -256,7 +256,7 @@
       "remove": "Entfernen",
       "repeat": {
         "all": "Alle wiederholen",
-        "none": "Keine Wiederholung",
+        "none": "Keine wiederholung",
         "one": "Einzelnes wiederholen",
         "text": "Wiederholung"
       },
@@ -295,13 +295,13 @@
       },
       "selection": "Auswahl",
       "sell": "Verkaufen",
-      "semi_annually": "halbjährlich",
+      "semi_annually": "Halbjährlich",
       "service_unavailable": "Dienst nicht verfügbar",
       "share": {
-        "app": "Diese App teilen",
+        "app": "Diese app teilen",
         "text": "Teilen"
       },
-      "shuffle": "Zufällige Wiedergabe",
+      "shuffle": "Zufällige wiedergabe",
       "skip": {
         "backward": "Rückwärts überspringen",
         "forward": "Vorwärts überspringen",
@@ -316,8 +316,8 @@
       "synced": "Synchronisiert",
       "template": "Vorlage",
       "time": {
-        "elapsed": "Verstrichene Zeit",
-        "remaining": "Verbleibende Zeit",
+        "elapsed": "Verstrichene zeit",
+        "remaining": "Verbleibende zeit",
         "text": "Zeit"
       },
       "tip": "Tipp",

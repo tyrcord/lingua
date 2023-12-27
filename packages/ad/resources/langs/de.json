@@ -11,10 +11,10 @@
     "label": {
       "ad": "Anzeige",
       "advertisement": "Werbeanzeige",
-      "no_ads_available": "Keine Anzeigen verfügbar",
-      "personalized_ads": "Personalisierte Anzeigen",
+      "no_ads_available": "Keine anzeigen verfügbar",
+      "personalized_ads": "Personalisierte anzeigen",
       "sponsored": "Gesponsert",
-      "watch_ad": "Eine Anzeige ansehen"
+      "watch_ad": "Eine anzeige ansehen"
     },
     "message": {
       "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",

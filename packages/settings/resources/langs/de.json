@@ -7,8 +7,8 @@
     "label": {
       "about": "Über",
       "app": {
-        "preferences": "App-Einstellungen",
-        "settings": "App-Einstellungen"
+        "preferences": "App-einstellungen",
+        "settings": "App-einstellungen"
       },
       "appearance": "Erscheinungsbild",
       "change": {
@@ -19,7 +19,7 @@
       "dark": "Dunkel",
       "default": "Standard",
       "disclaimer": "Haftungsausschluss",
-      "help_and_support": "Hilfe und Support",
+      "help_and_support": "Hilfe und support",
       "homepage": "Startseite",
       "language": "Sprache",
       "languages": "Sprachen",
@@ -27,7 +27,7 @@
       "light": "Hell",
       "preferences": "Einstellungen",
       "privacy_policy": "Datenschutzrichtlinie",
-      "rate_us": "Bewerten Sie uns",
+      "rate_us": "Bewerten sie uns",
       "reset_settings": "Standard wiederherstellen",
       "settings": "Einstellungen",
       "submit_bug_report": "Fehlerbericht senden",

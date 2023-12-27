@@ -118,10 +118,10 @@
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "止损（Pips）"
+        "pips": "止损（pips）"
       },
       "take_profit": {
-        "pips": "止盈（Pips）"
+        "pips": "止盈（pips）"
       }
     },
     "select": {

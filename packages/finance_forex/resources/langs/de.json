@@ -100,28 +100,28 @@
         "pair": "Währungspaar"
       },
       "lot": {
-        "micro": "Mikro-Lot",
-        "mini": "Mini-Lot",
-        "nano": "Nano-Lot",
-        "size": "Lot-Größe",
-        "standard": "Standard-Lot",
+        "micro": "Mikro-lot",
+        "mini": "Mini-lot",
+        "nano": "Nano-lot",
+        "size": "Lot-größe",
+        "standard": "Standard-lot",
         "text": "Lot"
       },
       "pip": {
-        "calculator": "Pip-Rechner",
-        "decimal_places": "Pip-Dezimalstellen",
-        "difference": "Pip-Differenz",
-        "value": "Pip-Wert"
+        "calculator": "Pip-rechner",
+        "decimal_places": "Pip-dezimalstellen",
+        "difference": "Pip-differenz",
+        "value": "Pip-wert"
       },
       "pips": {
-        "number": "Anzahl der Pips",
+        "number": "Anzahl der pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop-Loss (Pips)"
+        "pips": "Stop-loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {

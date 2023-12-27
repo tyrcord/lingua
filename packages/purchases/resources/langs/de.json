@@ -41,12 +41,12 @@
       }
     },
     "label": {
-      "available_products": "Verfügbare Produkte",
-      "free_version": "Kostenlose Version",
+      "available_products": "Verfügbare produkte",
+      "free_version": "Kostenlose version",
       "go_premium": "Premium aktivieren!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Premium-Version",
+      "premium_price": "{price} premium",
+      "premium_version": "Premium-version",
       "purchases": "Käufe",
       "restore_purchases": "Käufe wiederherstellen"
     },

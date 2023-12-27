@@ -22,8 +22,8 @@
         "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
       },
       "additional_tax_rate": {
-        "example": "Wenn ein Produkt einer 20% MwSt. unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
-        "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. angewendet wird."
+        "example": "Wenn ein Produkt einer 20% MwSt. Unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
+        "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. Angewendet wird."
       },
       "amount_at_risk": {
         "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
@@ -63,7 +63,7 @@
       },
       "financial_instrument": {
         "example": "Wenn Sie beispielsweise mit Indizes handeln, könnten Sie 'Indizes' aus dem Dropdown-Menü auswählen.",
-        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. gehören."
+        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. Gehören."
       },
       "investment_annual_contribution": {
         "example": "Zum Beispiel, wenn Sie planen, jährlich 10.000 $ zu Ihrer Anlage beizutragen, geben Sie bitte '10.000' ein.",
@@ -87,7 +87,7 @@
       },
       "price_before_vat": {
         "example": "Wenn ein Produkt vor Steuern 10 $ kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
-        "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
+        "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. Ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
       },
       "risk": {
         "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
@@ -137,17 +137,17 @@
         "size": "Kontogröße"
       },
       "additional": {
-        "metrics": "Zusätzliche Metriken"
+        "metrics": "Zusätzliche metriken"
       },
       "additional_tax": {
-        "amount": "Zusätzlicher Steuerbetrag",
-        "rate": "Zusätzlicher Steuersatz",
-        "text": "Zusätzliche Steuern"
+        "amount": "Zusätzlicher steuerbetrag",
+        "rate": "Zusätzlicher steuersatz",
+        "text": "Zusätzliche steuern"
       },
       "after": {
         "fee": {
-          "amount": "Betrag nach Gebühren",
-          "price": "Preis nach Gebühren"
+          "amount": "Betrag nach gebühren",
+          "price": "Preis nach gebühren"
         },
         "vat": {
           "amount": "Betrag nach MwSt",
@@ -155,18 +155,18 @@
         }
       },
       "amount": {
-        "after_fee": "Betrag nach Gebühren",
-        "before_fee": "Betrag vor Gebühren",
+        "after_fee": "Betrag nach gebühren",
+        "before_fee": "Betrag vor gebühren",
         "fee": "Gebührenbetrag",
         "text": "Betrag"
       },
       "amount_at_risk": "Risikobetrag",
-      "annual_contribution": "Jährlicher Beitrag",
-      "average_annual_return": "Durchschnittliche jährliche Rendite",
+      "annual_contribution": "Jährlicher beitrag",
+      "average_annual_return": "Durchschnittliche jährliche rendite",
       "before": {
         "fee": {
-          "amount": "Betrag vor Gebühren",
-          "price": "Preis vor Gebühren"
+          "amount": "Betrag vor gebühren",
+          "price": "Preis vor gebühren"
         },
         "vat": {
           "amount": "Betrag vor MwSt",
@@ -180,25 +180,25 @@
         "text": "Rechnung"
       },
       "break_even": {
-        "price": "Break-even-Preis",
-        "units": "Break-even-Einheiten"
+        "price": "Break-even-preis",
+        "units": "Break-even-einheiten"
       },
       "breakdown": "Aufschlüsselung",
       "buy": {
         "commission": "Kaufprovision",
         "costs": "Kaufkosten",
-        "costs_per_unit": "Kaufkosten pro Einheit",
+        "costs_per_unit": "Kaufkosten pro einheit",
         "price": "Kaufpreis",
-        "price_per_unit": "Kaufpreis pro Einheit"
+        "price_per_unit": "Kaufpreis pro einheit"
       },
       "close_price": "Schlusskurs",
       "compound_interest": "Zinseszins",
       "cost": {
         "of": {
           "goods": {
-            "sold": "Kosten der verkauften Waren"
+            "sold": "Kosten der verkauften waren"
           },
-          "investment": "Kosten der Investition"
+          "investment": "Kosten der investition"
         }
       },
       "costs": "Kosten",
@@ -207,48 +207,48 @@
       "discount": {
         "amount": "Rabattbetrag",
         "label": "Rabatt",
-        "per_unit": "Rabatt pro Einheit",
+        "per_unit": "Rabatt pro einheit",
         "rate": "Rabattsatz"
       },
-      "duration_years": "Dauer in Jahren",
+      "duration_years": "Dauer in jahren",
       "ending": {
         "balance": "Endguthaben",
         "principal": "Endkapital"
       },
       "entry": {
         "fees": {
-          "amount": "Eintrittsgebühr Betrag",
+          "amount": "Eintrittsgebühr betrag",
           "text": "Einstiegsgebühren"
         },
         "price": {
           "at": "Einstiegspreis bei",
           "text": "Einstiegspreis",
-          "with_slippage": "Einstiegspreis mit Schlupf"
+          "with_slippage": "Einstiegspreis mit schlupf"
         },
         "text": "Einstieg"
       },
       "exit": {
         "fees": {
-          "amount": "Ausstiegsgebühr Betrag",
+          "amount": "Ausstiegsgebühr betrag",
           "text": "Ausstiegsgebühren"
         },
         "price": {
           "at": "Ausstiegspreis bei",
           "text": "Ausstiegspreis",
-          "with_slippage": "Ausstiegspreis mit Schlupf"
+          "with_slippage": "Ausstiegspreis mit schlupf"
         }
       },
-      "expected_sale_units": "Erwartete Verkaufseinheiten",
+      "expected_sale_units": "Erwartete verkaufseinheiten",
       "extension": "Erweiterung",
       "fees": "Gebühren",
       "fibonacci": {
-        "level": "Fibonacci-Level",
-        "levels": "Fibonacci-Levels"
+        "level": "Fibonacci-level",
+        "levels": "Fibonacci-levels"
       },
       "financial_instrument": "Finanzinstrument",
       "fixed_costs": "Fixkosten",
       "gain": "Gewinn",
-      "gain_per_trade": "Gewinn pro Trade",
+      "gain_per_trade": "Gewinn pro trade",
       "grand_total": "Gesamtsumme",
       "gross": {
         "income": "Bruttoeinkommen",
@@ -262,26 +262,26 @@
       "indices": "Indizes",
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
-      "involved_capital": "Investiertes Kapital",
+      "involved_capital": "Investiertes kapital",
       "last_updated_on": "Kurse zuletzt aktualisiert am",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",
-      "loss_per_trade": "Verlust pro Trade",
+      "loss_per_trade": "Verlust pro trade",
       "low_price": "Tiefstpreis",
       "margin": "Marge",
       "net": {
-        "buy_price": "Netto-Kaufpreis",
+        "buy_price": "Netto-kaufpreis",
         "income": "Nettoeinkommen",
         "profit": {
-          "after_fee": "Nettogewinn nach Gebühren",
-          "before_fee": "Nettogewinn vor Gebühren",
+          "after_fee": "Nettogewinn nach gebühren",
+          "before_fee": "Nettogewinn vor gebühren",
           "margin": "Nettogewinnmarge",
           "text": "Nettogewinn"
         }
       },
       "number": {
-        "of_trades": "Anzahl der Trades",
-        "plus_currency": "{number}+ Währungen"
+        "of_trades": "Anzahl der trades",
+        "plus_currency": "{number}+ währungen"
       },
       "open_price": "Eröffnungspreis",
       "operating": {
@@ -294,12 +294,12 @@
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Pivot-Punkt-Methode",
+        "method": "Pivot-punkt-methode",
         "standard": "Standard",
-        "text": "Pivot-Punkt",
+        "text": "Pivot-punkt",
         "woodie": "Woodie"
       },
-      "pivot_points": "Pivot-Punkte",
+      "pivot_points": "Pivot-punkte",
       "position": {
         "amount": "Positionsgröße",
         "long": "Long",
@@ -312,112 +312,112 @@
         "b": "Preis B",
         "base": "Grundpreis",
         "breakdown": "Preisaufschlüsselung",
-        "per_unit": "Preis pro Einheit",
-        "per_unit_after_fee": "Preis pro Einheit nach Gebühren",
-        "per_unit_before_fee": "Preis pro Einheit vor Gebühren",
+        "per_unit": "Preis pro einheit",
+        "per_unit_after_fee": "Preis pro einheit nach gebühren",
+        "per_unit_before_fee": "Preis pro einheit vor gebühren",
         "text": "Preis"
       },
       "primary_currency": "Hauptwährung",
       "profit": "Gewinn",
-      "profit_and_loss": "Gewinn und Verlust",
-      "profit_and_loss_overview": "Übersicht über Gewinn und Verlust",
-      "profit_or_loss": "Gewinn oder Verlust",
+      "profit_and_loss": "Gewinn und verlust",
+      "profit_and_loss_overview": "Übersicht über gewinn und verlust",
+      "profit_or_loss": "Gewinn oder verlust",
       "purchase": {
         "commission": "Ankaufsprovision",
         "costs": "Ankaufskosten",
-        "costs_per_unit": "Erwerbskosten pro Einheit",
+        "costs_per_unit": "Erwerbskosten pro einheit",
         "price": "Ankaufspreis",
-        "price_per_unit": "Ankaufspreis pro Einheit"
+        "price_per_unit": "Ankaufspreis pro einheit"
       },
       "rate": "Satz",
       "real_time_quotes": "Echtzeitkurse",
-      "regular_addition": "Regelmäßige Hinzufügung",
-      "required_margin": "Erforderliche Marge",
+      "regular_addition": "Regelmäßige hinzufügung",
+      "required_margin": "Erforderliche marge",
       "resistance_level": "Widerstand {level}",
       "resistances": "Widerstände",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
-      "return_on_investment": "Return on Investment",
+      "return_on_investment": "Return on investment",
       "revenue": "Einnahmen",
       "risk": {
         "amount": "Risikobetrag",
-        "effective": "Effektives Risiko",
-        "in_percentage": "Risiko in Prozent",
+        "effective": "Effektives risiko",
+        "in_percentage": "Risiko in prozent",
         "ratio": "Risikoverhältnis",
         "reward": {
-          "ratio": "Risiko-Rendite-Verhältnis",
-          "text": "Risiko-Rendite"
+          "ratio": "Risiko-rendite-verhältnis",
+          "text": "Risiko-rendite"
         },
         "text": "Risiko",
-        "tolerated": "Akzeptiertes Risiko"
+        "tolerated": "Akzeptiertes risiko"
       },
       "sales": {
         "commission": "Vertriebsprovision",
         "costs": "Vertriebskosten",
-        "costs_per_unit": "Vertriebskosten pro Einheit",
+        "costs_per_unit": "Vertriebskosten pro einheit",
         "price": "Vertriebspreis",
-        "price_per_unit": "Vertriebspreis pro Einheit"
+        "price_per_unit": "Vertriebspreis pro einheit"
       },
       "secondary_currency": "Sekundärwährung",
       "sell": {
         "commission": "Verkaufsprovision",
         "costs": "Verkaufskosten",
-        "costs_per_unit": "Verkaufskosten pro Einheit",
+        "costs_per_unit": "Verkaufskosten pro einheit",
         "price": "Verkaufspreis",
-        "price_per_unit": "Verkaufspreis pro Einheit"
+        "price_per_unit": "Verkaufspreis pro einheit"
       },
       "selling_expenses": "Verkaufskosten",
-      "selling_operating_expenses": "Verkaufs- und Betriebskosten",
+      "selling_operating_expenses": "Verkaufs- und betriebskosten",
       "slippage": "Slippage",
       "starting": {
         "balance": "Anfangsguthaben",
         "principal": "Anfangskapital"
       },
       "stop_loss": {
-        "amount": "Stop-Loss-Betrag",
-        "at": "Stop-Loss bei",
+        "amount": "Stop-loss-betrag",
+        "at": "Stop-loss bei",
         "in_percentage": {
-          "text": "Stop-Loss in Prozent",
-          "with_slippage": "Stop-Loss in Prozent mit Slippage"
+          "text": "Stop-loss in prozent",
+          "with_slippage": "Stop-loss in prozent mit slippage"
         },
         "price": {
-          "at": "Stop-Loss bei",
-          "text": "Stop-Loss",
-          "with_slippage": "Stop-Loss mit Slippage"
+          "at": "Stop-loss bei",
+          "text": "Stop-loss",
+          "with_slippage": "Stop-loss mit slippage"
         },
-        "text": "Stop-Loss"
+        "text": "Stop-loss"
       },
       "stop_loss_take_profit": "Stop-Loss/Take-Profit",
       "subtotal": "Zwischensumme",
       "support_level": "Unterstützung {level}",
       "supports": "Unterstützungen",
       "take_profit": {
-        "amount": "Take Profit Betrag",
-        "at": "Take Profit bei",
+        "amount": "Take profit betrag",
+        "at": "Take profit bei",
         "price": {
-          "after_fee": "Gewinnmitnahme nach Gebühren",
-          "at": "Take Profit bei",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit mit Slippage"
+          "after_fee": "Gewinnmitnahme nach gebühren",
+          "at": "Take profit bei",
+          "text": "Take profit",
+          "with_slippage": "Take profit mit slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Steuerbetrag",
-        "exempt_amount_per_year": "Steuerfreibetrag pro Jahr",
+        "exempt_amount_per_year": "Steuerfreibetrag pro jahr",
         "rate": "Steuersatz"
       },
       "taxes": "Steuern",
       "tip": {
-        "amount": "Trinkgeld Betrag",
+        "amount": "Trinkgeld betrag",
         "rate": "Trinkgeldsatz",
         "text": "Trinkgeld"
       },
       "total": {
         "contributions": "Total contributions",
         "costs": {
-          "losing_position": "Gesamtkosten für eine Verlustposition",
-          "profit_position": "Gesamtkosten für eine Gewinnposition",
+          "losing_position": "Gesamtkosten für eine verlustposition",
+          "profit_position": "Gesamtkosten für eine gewinnposition",
           "text": "Gesamtkosten"
         },
         "fee": "Gesamtgebühren",
@@ -430,9 +430,9 @@
       },
       "trade": {
         "size": {
-          "oz": "Handelsgröße (Unzen)",
+          "oz": "Handelsgröße (unzen)",
           "text": "Handelsgröße",
-          "units": "Handelsgröße (Einheiten)"
+          "units": "Handelsgröße (einheiten)"
         }
       },
       "trend": {
@@ -443,8 +443,8 @@
       },
       "user_currency": "Benutzerwährung",
       "vat": {
-        "amount": "MwSt Betrag",
-        "rate": "MwSt Satz",
+        "amount": "MwSt betrag",
+        "rate": "MwSt satz",
         "text": "MwSt"
       }
     },

@@ -40,11 +40,11 @@
     },
     "label": {
       "annual": {
-        "dividend_income": "Jährliches Dividendeneinkommen",
-        "dividend_per_share": "Jährliche Dividende pro Aktie",
-        "net_dividend_income": "Jährliches Nettodividendeneinkommen"
+        "dividend_income": "Jährliches dividendeneinkommen",
+        "dividend_per_share": "Jährliche dividende pro aktie",
+        "net_dividend_income": "Jährliches nettodividendeneinkommen"
       },
-      "current_dividend_yield": "Aktuelle Dividendenrendite",
+      "current_dividend_yield": "Aktuelle dividendenrendite",
       "dividend": {
         "amount": "Dividendenhöhe",
         "payment_frequency": "Dividendenzahlungshäufigkeit",
@@ -55,17 +55,17 @@
         "yield": "Dividendenrendite"
       },
       "dividends": "Dividenden",
-      "expected_annual_dividend_increase": "Erwartete jährliche Dividendenerhöhung",
-      "gross_dividend_paid": "Bruttoausgeschüttete Dividende",
-      "high_dividend": "Hohe Dividende",
-      "low_dividend": "Niedrige Dividende",
-      "net_dividend_paid": "Nettoausgeschüttete Dividende",
-      "normal_dividend": "Normale Dividende",
+      "expected_annual_dividend_increase": "Erwartete jährliche dividendenerhöhung",
+      "gross_dividend_paid": "Bruttoausgeschüttete dividende",
+      "high_dividend": "Hohe dividende",
+      "low_dividend": "Niedrige dividende",
+      "net_dividend_paid": "Nettoausgeschüttete dividende",
+      "normal_dividend": "Normale dividende",
       "total": {
-        "dividend_payments": "Gesamte Dividendenauszahlungen",
+        "dividend_payments": "Gesamte dividendenauszahlungen",
         "dividends": "Gesamtdividenden"
       },
-      "unsustainable_high_dividend": "Unnachhaltig hohe Dividende"
+      "unsustainable_high_dividend": "Unnachhaltig hohe dividende"
     }
   },
   "select": {

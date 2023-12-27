@@ -77,7 +77,7 @@
       "confirmation": "Confirmación",
       "connected": "Conectado",
       "contact": {
-        "support": "Contactar Soporte",
+        "support": "Contactar soporte",
         "us": "Contáctenos"
       },
       "continue": "Continuar",
@@ -159,7 +159,7 @@
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
-      "internet_connection": "Sin conexión a Internet",
+      "internet_connection": "Sin conexión a internet",
       "invalid": "Inválido",
       "learn_more": "Más información",
       "loading": "Cargando",
@@ -295,7 +295,7 @@
       },
       "selection": "Selección",
       "sell": "Vender",
-      "semi_annually": "semestralmente",
+      "semi_annually": "Semestralmente",
       "service_unavailable": "Servicio no disponible",
       "share": {
         "app": "Compartir esta aplicación",

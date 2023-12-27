@@ -74,13 +74,13 @@ static const Map<String,dynamic> de = {
       }
     },
     "label": {
-      "expected_annual_share_price_appreciation": "Erwartete jährliche Aktienkurssteigerung",
-      "number_of_shares": "Anzahl der Aktien",
+      "expected_annual_share_price_appreciation": "Erwartete jährliche aktienkurssteigerung",
+      "number_of_shares": "Anzahl der aktien",
       "share_price": "Aktienkurs",
-      "share_price_appreciation": "Wertsteigerung der Aktie",
-      "share_value_excluding_dividends": "Aktienwert ohne Dividenden",
+      "share_price_appreciation": "Wertsteigerung der aktie",
+      "share_value_excluding_dividends": "Aktienwert ohne dividenden",
       "shares": "Anteile",
-      "shares_owned": "Gehaltene Aktien",
+      "shares_owned": "Gehaltene aktien",
       "stock": "Aktien",
       "stock_options": "Aktienoptionen"
     }
@@ -149,15 +149,15 @@ static const Map<String,dynamic> en = {
       }
     },
     "label": {
-      "expected_annual_share_price_appreciation": "Expected Annual Share Price Appreciation",
+      "expected_annual_share_price_appreciation": "Expected annual share price appreciation",
       "number_of_shares": "Number of shares",
-      "share_price": "Share Price",
+      "share_price": "Share price",
       "share_price_appreciation": "Share price appreciation",
       "share_value_excluding_dividends": "Share value excluding dividends",
       "shares": "Shares",
-      "shares_owned": "Shares Owned",
+      "shares_owned": "Shares owned",
       "stock": "Stock",
-      "stock_options": "Stock Options"
+      "stock_options": "Stock options"
     }
   }
 };

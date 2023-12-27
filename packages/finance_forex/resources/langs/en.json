@@ -95,33 +95,33 @@
       },
       "cryptos": "Cryptocurrencies",
       "currency": {
-        "base": "Base Currency",
-        "counter": "Counter Currency",
-        "pair": "Currency Pair"
+        "base": "Base currency",
+        "counter": "Counter currency",
+        "pair": "Currency pair"
       },
       "lot": {
-        "micro": "Micro Lot",
-        "mini": "Mini Lot",
-        "nano": "Nano Lot",
+        "micro": "Micro lot",
+        "mini": "Mini lot",
+        "nano": "Nano lot",
         "size": "Lot size",
-        "standard": "Standard Lot",
+        "standard": "Standard lot",
         "text": "Lot"
       },
       "pip": {
-        "calculator": "Pip Calculator",
+        "calculator": "Pip calculator",
         "decimal_places": "Pip decimal places",
-        "difference": "Pip Difference",
-        "value": "Pip Value"
+        "difference": "Pip difference",
+        "value": "Pip value"
       },
       "pips": {
-        "number": "Number of Pips",
+        "number": "Number of pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop Loss (Pips)"
+        "pips": "Stop loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {

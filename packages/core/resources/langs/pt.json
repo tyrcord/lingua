@@ -67,7 +67,7 @@
         "window": "Fechar janela"
       },
       "collapse": {
-        "all": "Recolher Todos",
+        "all": "Recolher todos",
         "text": "Recolher"
       },
       "commercial": "Comercial",
@@ -77,7 +77,7 @@
       "confirmation": "Confirmação",
       "connected": "Conectado",
       "contact": {
-        "support": "Contactar Suporte",
+        "support": "Contactar suporte",
         "us": "Contacte-nos"
       },
       "continue": "Continuar",
@@ -104,7 +104,7 @@
       "enabled": "Habilitado",
       "enter": {
         "fullscreen": "Entrar em tela inteira",
-        "pip": "Entrar em Imagem dentro da imagem",
+        "pip": "Entrar em imagem dentro da imagem",
         "text": "Entrar"
       },
       "entries": "Entradas",
@@ -113,18 +113,18 @@
       "example": "Exemplo",
       "exit": {
         "fullscreen": "Sair da tela inteira",
-        "pip": "Sair do modo Imagem dentro da imagem",
+        "pip": "Sair do modo imagem dentro da imagem",
         "text": "Sair"
       },
       "exotics": "Exóticas",
       "expand": {
-        "all": "Expandir Todos",
+        "all": "Expandir todos",
         "text": "Expandir"
       },
       "expired": "Expirado",
       "export": {
-        "all": "Exportar Todos",
-        "as": "Exportar Como",
+        "all": "Exportar todos",
+        "as": "Exportar como",
         "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
@@ -132,9 +132,9 @@
       "fast_forward": "Avançar rapidamente",
       "favorites": "Favoritos",
       "find": {
-        "and_replace": "Localizar e Substituir",
-        "next": "Localizar Próximo",
-        "previous": "Localizar Anterior",
+        "and_replace": "Localizar e substituir",
+        "next": "Localizar próximo",
+        "previous": "Localizar anterior",
         "text": "Localizar"
       },
       "follow_us": "Siga-nos",
@@ -148,7 +148,7 @@
       "hint": "Sugestão",
       "home": "Início",
       "import": {
-        "all": "Importar Todos",
+        "all": "Importar todos",
         "from": "Importar de",
         "text": "Importar"
       },
@@ -159,7 +159,7 @@
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
-      "internet_connection": "Sem conexão com a Internet",
+      "internet_connection": "Sem conexão com a internet",
       "invalid": "Inválido",
       "learn_more": "Saiba mais",
       "loading": "Carregando",
@@ -175,16 +175,16 @@
       "mute": "Silenciar",
       "name": "Nome",
       "new": {
-        "bookmark": "Novo Favorito",
-        "document": "Novo Documento",
-        "file": "Novo Arquivo",
-        "folder": "Nova Pasta",
-        "note": "Nova Anotação",
-        "project": "Novo Projeto",
-        "tab": "Nova Aba",
+        "bookmark": "Novo favorito",
+        "document": "Novo documento",
+        "file": "Novo arquivo",
+        "folder": "Nova pasta",
+        "note": "Nova anotação",
+        "project": "Novo projeto",
+        "tab": "Nova aba",
         "text": "Novo",
-        "window": "Nova Janela",
-        "workspace": "Novo Espaço de Trabalho"
+        "window": "Nova janela",
+        "workspace": "Novo espaço de trabalho"
       },
       "next": {
         "chapter": "Próximo capítulo",
@@ -206,12 +206,12 @@
       "ok": "OK",
       "online": "Online",
       "open": {
-        "all": "Abrir Todos",
+        "all": "Abrir todos",
         "directory": "Abrir diretório",
         "file": "Abrir arquivo",
         "in_new": {
-          "tab": "Abrir em Nova Aba",
-          "window": "Abrir em Nova Janela"
+          "tab": "Abrir em nova aba",
+          "window": "Abrir em nova janela"
         },
         "text": "Abrir",
         "url": "Abrir URL"
@@ -261,7 +261,7 @@
         "text": "Repetir"
       },
       "replace": {
-        "all": "Substituir Todos",
+        "all": "Substituir todos",
         "text": "Substituir"
       },
       "replay": "Repetir",
@@ -278,24 +278,24 @@
       "rights_denied": "Direitos negados",
       "rights_granted": "Direitos concedidos",
       "save": {
-        "all": "Salvar Todos",
+        "all": "Salvar todos",
         "and": {
-          "close": "Salvar e Fechar",
-          "exit": "Salvar e Sair"
+          "close": "Salvar e fechar",
+          "exit": "Salvar e sair"
         },
-        "as": "Salvar Como",
+        "as": "Salvar como",
         "text": "Salvar"
       },
       "saved": "Salvo",
       "search": "Pesquisar",
       "select": {
-        "all": "Selecionar Tudo",
-        "none": "Desmarcar Tudo",
+        "all": "Selecionar tudo",
+        "none": "Desmarcar tudo",
         "text": "Selecionar"
       },
       "selection": "Seleção",
       "sell": "Vender",
-      "semi_annually": "semestralmente",
+      "semi_annually": "Semestralmente",
       "service_unavailable": "Serviço indisponível",
       "share": {
         "app": "Compartilhar este aplicativo",
@@ -322,7 +322,7 @@
       },
       "tip": "Dica",
       "toggle": {
-        "all": "Alternar Todos",
+        "all": "Alternar todos",
         "text": "Alternar"
       },
       "try": {
@@ -358,9 +358,9 @@
       "yes": "Sim",
       "yesterday": "Ontem",
       "zoom": {
-        "in": "Aumentar Zoom",
-        "out": "Diminuir Zoom",
-        "reset": "Redefinir Zoom",
+        "in": "Aumentar zoom",
+        "out": "Diminuir zoom",
+        "reset": "Redefinir zoom",
         "text": "Zoom"
       }
     },

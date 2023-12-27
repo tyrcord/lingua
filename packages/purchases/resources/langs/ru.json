@@ -43,9 +43,9 @@
     "label": {
       "available_products": "Доступные продукты",
       "free_version": "Бесплатная версия",
-      "go_premium": "Получить Премиум!",
+      "go_premium": "Получить премиум!",
       "premium": "Премиум",
-      "premium_price": "{price} Премиум",
+      "premium_price": "{price} премиум",
       "premium_version": "Премиум-версия",
       "purchases": "Покупки",
       "restore_purchases": "Восстановить покупки"

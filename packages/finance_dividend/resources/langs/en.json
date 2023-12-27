@@ -40,32 +40,32 @@
     },
     "label": {
       "annual": {
-        "dividend_income": "Annual Dividend Income",
-        "dividend_per_share": "Annual Dividend Per Share",
-        "net_dividend_income": "Annual Net Dividend Income"
+        "dividend_income": "Annual dividend income",
+        "dividend_per_share": "Annual dividend per share",
+        "net_dividend_income": "Annual net dividend income"
       },
-      "current_dividend_yield": "Current Dividend Yield",
+      "current_dividend_yield": "Current dividend yield",
       "dividend": {
-        "amount": "Dividend Amount",
-        "payment_frequency": "Dividend Payment Frequency",
-        "payout_ratio": "Dividend Payout Ratio",
-        "reinvestment": "Dividend Reinvestment",
-        "reinvestment_plan": "Dividend Reinvestment Plan",
+        "amount": "Dividend amount",
+        "payment_frequency": "Dividend payment frequency",
+        "payout_ratio": "Dividend payout ratio",
+        "reinvestment": "Dividend reinvestment",
+        "reinvestment_plan": "Dividend reinvestment plan",
         "text": "Dividend",
-        "yield": "Dividend Yield"
+        "yield": "Dividend yield"
       },
       "dividends": "Dividends",
-      "expected_annual_dividend_increase": "Expected Annual Dividend Increase",
-      "gross_dividend_paid": "Gross Dividend Paid",
-      "high_dividend": "High Dividend",
-      "low_dividend": "Low Dividend",
-      "net_dividend_paid": "Net Dividend Paid",
-      "normal_dividend": "Normal Dividend",
+      "expected_annual_dividend_increase": "Expected annual dividend increase",
+      "gross_dividend_paid": "Gross dividend paid",
+      "high_dividend": "High dividend",
+      "low_dividend": "Low dividend",
+      "net_dividend_paid": "Net dividend paid",
+      "normal_dividend": "Normal dividend",
       "total": {
-        "dividend_payments": "Total Dividend Payments",
-        "dividends": "Total Dividends"
+        "dividend_payments": "Total dividend payments",
+        "dividends": "Total dividends"
       },
-      "unsustainable_high_dividend": "Unsustainable High Dividend"
+      "unsustainable_high_dividend": "Unsustainable high dividend"
     }
   },
   "select": {

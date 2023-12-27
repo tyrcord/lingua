@@ -198,12 +198,12 @@ static const Map<String,dynamic> de = {
       }
     },
     "label": {
-      "available_products": "Verfügbare Produkte",
-      "free_version": "Kostenlose Version",
+      "available_products": "Verfügbare produkte",
+      "free_version": "Kostenlose version",
       "go_premium": "Premium aktivieren!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Premium-Version",
+      "premium_price": "{price} premium",
+      "premium_version": "Premium-version",
       "purchases": "Käufe",
       "restore_purchases": "Käufe wiederherstellen"
     },
@@ -272,9 +272,9 @@ static const Map<String,dynamic> ru = {
     "label": {
       "available_products": "Доступные продукты",
       "free_version": "Бесплатная версия",
-      "go_premium": "Получить Премиум!",
+      "go_premium": "Получить премиум!",
       "premium": "Премиум",
-      "premium_price": "{price} Премиум",
+      "premium_price": "{price} премиум",
       "premium_version": "Премиум-версия",
       "purchases": "Покупки",
       "restore_purchases": "Восстановить покупки"
@@ -344,10 +344,10 @@ static const Map<String,dynamic> pt = {
     "label": {
       "available_products": "Produtos disponíveis",
       "free_version": "Versão gratuita",
-      "go_premium": "Obtenha Premium!",
+      "go_premium": "Obtenha premium!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Versão Premium",
+      "premium_price": "{price} premium",
+      "premium_version": "Versão premium",
       "purchases": "Compras",
       "restore_purchases": "Restaurar compras"
     },
@@ -414,14 +414,14 @@ static const Map<String,dynamic> en = {
       }
     },
     "label": {
-      "available_products": "Available Products",
-      "free_version": "Free Version",
-      "go_premium": "Go Premium!",
+      "available_products": "Available products",
+      "free_version": "Free version",
+      "go_premium": "Go premium!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Premium Version",
+      "premium_price": "{price} premium",
+      "premium_version": "Premium version",
       "purchases": "Purchases",
-      "restore_purchases": "Restore Purchases"
+      "restore_purchases": "Restore purchases"
     },
     "message": {
       "do_have_premium_version": "You don't have the premium version.",
@@ -488,10 +488,10 @@ static const Map<String,dynamic> it = {
     "label": {
       "available_products": "Prodotti disponibili",
       "free_version": "Versione gratuita",
-      "go_premium": "Passa alla versione Premium!",
+      "go_premium": "Passa alla versione premium!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Versione Premium",
+      "premium_price": "{price} premium",
+      "premium_version": "Versione premium",
       "purchases": "Acquisti",
       "restore_purchases": "Ripristina acquisti"
     },
@@ -560,10 +560,10 @@ static const Map<String,dynamic> fr = {
     "label": {
       "available_products": "Produits disponibles",
       "free_version": "Version gratuite",
-      "go_premium": "Passez à la version Premium !",
+      "go_premium": "Passez à la version premium !",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Version Premium",
+      "premium_price": "{price} premium",
+      "premium_version": "Version premium",
       "purchases": "Achats",
       "restore_purchases": "Restaurer les achats"
     },
@@ -632,10 +632,10 @@ static const Map<String,dynamic> es = {
     "label": {
       "available_products": "Productos disponibles",
       "free_version": "Versión gratuita",
-      "go_premium": "¡Obtén Premium!",
+      "go_premium": "¡obtén premium!",
       "premium": "Premium",
-      "premium_price": "{price} Premium",
-      "premium_version": "Versión Premium",
+      "premium_price": "{price} premium",
+      "premium_version": "Versión premium",
       "purchases": "Compras",
       "restore_purchases": "Restaurar compras"
     },

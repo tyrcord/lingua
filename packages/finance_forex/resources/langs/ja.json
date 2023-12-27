@@ -118,10 +118,10 @@
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "ストップロス (Pips)"
+        "pips": "ストップロス (pips)"
       },
       "take_profit": {
-        "pips": "テイクプロフィット (Pips)"
+        "pips": "テイクプロフィット (pips)"
       }
     },
     "select": {

@@ -132,56 +132,56 @@
     },
     "label": {
       "account": {
-        "balance": "Account Balance",
-        "currency": "Account Currency",
-        "size": "Account Size"
+        "balance": "Account balance",
+        "currency": "Account currency",
+        "size": "Account size"
       },
       "additional": {
-        "metrics": "Additional Metrics"
+        "metrics": "Additional metrics"
       },
       "additional_tax": {
-        "amount": "Additional Tax Amount",
-        "rate": "Additional Tax Rate",
-        "text": "Additional Taxes"
+        "amount": "Additional tax amount",
+        "rate": "Additional tax rate",
+        "text": "Additional taxes"
       },
       "after": {
         "fee": {
-          "amount": "Amount After Fees",
-          "price": "Price After Fees"
+          "amount": "Amount after fees",
+          "price": "Price after fees"
         },
         "vat": {
-          "amount": "Amount After VAT",
-          "price": "Price After VAT"
+          "amount": "Amount after VAT",
+          "price": "Price after VAT"
         }
       },
       "amount": {
-        "after_fee": "Amount After Fees",
-        "before_fee": "Amount Before Fees",
-        "fee": "Fee Amount",
+        "after_fee": "Amount after fees",
+        "before_fee": "Amount before fees",
+        "fee": "Fee amount",
         "text": "Amount"
       },
-      "amount_at_risk": "Amount at Risk",
-      "annual_contribution": "Annual Contribution",
-      "average_annual_return": "Average Annual Return",
+      "amount_at_risk": "Amount at risk",
+      "annual_contribution": "Annual contribution",
+      "average_annual_return": "Average annual return",
       "before": {
         "fee": {
-          "amount": "Amount Before Fees",
-          "price": "Price Before Fees"
+          "amount": "Amount before fees",
+          "price": "Price before fees"
         },
         "vat": {
-          "amount": "Amount Before VAT",
-          "price": "Price Before VAT"
+          "amount": "Amount before VAT",
+          "price": "Price before VAT"
         }
       },
       "bill": {
-        "amount": "Bill Amount",
-        "breakdown": "Bill Breakdown",
-        "rate": "Bill Rate",
+        "amount": "Bill amount",
+        "breakdown": "Bill breakdown",
+        "rate": "Bill rate",
         "text": "Bill"
       },
       "break_even": {
-        "price": "Break-Even Price",
-        "units": "Break-Even Units"
+        "price": "Break-even price",
+        "units": "Break-even units"
       },
       "breakdown": "Breakdown",
       "buy": {
@@ -191,99 +191,99 @@
         "price": "Buying price",
         "price_per_unit": "Buying price per unit"
       },
-      "close_price": "Close Price",
-      "compound_interest": "Compound Interest",
+      "close_price": "Close price",
+      "compound_interest": "Compound interest",
       "cost": {
         "of": {
           "goods": {
-            "sold": "Cost of Goods Sold"
+            "sold": "Cost of goods sold"
           },
-          "investment": "Cost of Investment"
+          "investment": "Cost of investment"
         }
       },
       "costs": "Costs",
       "currencies": "Currencies",
       "currency": "Currency",
       "discount": {
-        "amount": "Discount Amount",
+        "amount": "Discount amount",
         "label": "Discount",
-        "per_unit": "Discount per Unit",
-        "rate": "Discount Rate"
+        "per_unit": "Discount per unit",
+        "rate": "Discount rate"
       },
       "duration_years": "Duration in years",
       "ending": {
-        "balance": "Ending Balance",
-        "principal": "Ending Principal"
+        "balance": "Ending balance",
+        "principal": "Ending principal"
       },
       "entry": {
         "fees": {
           "amount": "Entry fee amount",
-          "text": "Entry Fees"
+          "text": "Entry fees"
         },
         "price": {
-          "at": "Entry Price at",
-          "text": "Entry Price",
-          "with_slippage": "Entry Price with Slippage"
+          "at": "Entry price at",
+          "text": "Entry price",
+          "with_slippage": "Entry price with slippage"
         },
         "text": "Entry"
       },
       "exit": {
         "fees": {
           "amount": "Exit fee amount",
-          "text": "Exit Fees"
+          "text": "Exit fees"
         },
         "price": {
-          "at": "Exit Price at",
-          "text": "Exit Price",
-          "with_slippage": "Exit Price with Slippage"
+          "at": "Exit price at",
+          "text": "Exit price",
+          "with_slippage": "Exit price with slippage"
         }
       },
-      "expected_sale_units": "Expected Sale Units",
+      "expected_sale_units": "Expected sale units",
       "extension": "Extension",
       "fees": "Fees",
       "fibonacci": {
-        "level": "Fibonacci Level",
-        "levels": "Fibonacci Levels"
+        "level": "Fibonacci level",
+        "levels": "Fibonacci levels"
       },
-      "financial_instrument": "Financial Instrument",
-      "fixed_costs": "Fixed Costs",
+      "financial_instrument": "Financial instrument",
+      "fixed_costs": "Fixed costs",
       "gain": "Gain",
-      "gain_per_trade": "Gain per Trade",
-      "grand_total": "Grand Total",
+      "gain_per_trade": "Gain per trade",
+      "grand_total": "Grand total",
       "gross": {
-        "income": "Gross Income",
-        "margin": "Gross Margin",
+        "income": "Gross income",
+        "margin": "Gross margin",
         "profit": {
-          "margin": "Gross Profit Margin",
-          "text": "Gross Profit"
+          "margin": "Gross profit margin",
+          "text": "Gross profit"
         }
       },
-      "high_price": "High Price",
+      "high_price": "High price",
       "indices": "Indices",
-      "initial_investment": "Initial Investment",
-      "interest_rate": "Interest Rate",
-      "involved_capital": "Involved Capital",
+      "initial_investment": "Initial investment",
+      "interest_rate": "Interest rate",
+      "involved_capital": "Involved capital",
       "last_updated_on": "Rates last updated on",
       "leverage": "Leverage",
       "loss": "Loss",
-      "loss_per_trade": "Loss per Trade",
-      "low_price": "Low Price",
+      "loss_per_trade": "Loss per trade",
+      "low_price": "Low price",
       "margin": "Margin",
       "net": {
-        "buy_price": "Net Buy Price",
-        "income": "Net Income",
+        "buy_price": "Net buy price",
+        "income": "Net income",
         "profit": {
-          "after_fee": "Net Profit After Fees",
-          "before_fee": "Net Profit Before Fees",
-          "margin": "Net Profit Margin",
-          "text": "Net Profit"
+          "after_fee": "Net profit after fees",
+          "before_fee": "Net profit before fees",
+          "margin": "Net profit margin",
+          "text": "Net profit"
         }
       },
       "number": {
-        "of_trades": "Number of Trades",
+        "of_trades": "Number of trades",
         "plus_currency": "{number}+ currencies"
       },
-      "open_price": "Open Price",
+      "open_price": "Open price",
       "operating": {
         "expenses": "Operating expenses",
         "income": "Operating income",
@@ -294,34 +294,34 @@
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Pivot Point Method",
+        "method": "Pivot point method",
         "standard": "Standard",
-        "text": "Pivot Point",
+        "text": "Pivot point",
         "woodie": "Woodie"
       },
-      "pivot_points": "Pivot Points",
+      "pivot_points": "Pivot points",
       "position": {
-        "amount": "Position Amount",
+        "amount": "Position amount",
         "long": "Long",
         "short": "Short",
-        "size": "Position Size",
+        "size": "Position size",
         "text": "Position"
       },
       "price": {
         "a": "Price A",
         "b": "Price B",
-        "base": "Base Price",
-        "breakdown": "Price Breakdown",
-        "per_unit": "Price per Unit",
-        "per_unit_after_fee": "Price per Unit After Fees",
-        "per_unit_before_fee": "Price per Unit Before Fees",
+        "base": "Base price",
+        "breakdown": "Price breakdown",
+        "per_unit": "Price per unit",
+        "per_unit_after_fee": "Price per unit after fees",
+        "per_unit_before_fee": "Price per unit before fees",
         "text": "Price"
       },
-      "primary_currency": "Primary Currency",
+      "primary_currency": "Primary currency",
       "profit": "Profit",
-      "profit_and_loss": "Profit and Loss",
-      "profit_and_loss_overview": "Profit and Loss Overview",
-      "profit_or_loss": "Profit or Loss",
+      "profit_and_loss": "Profit and loss",
+      "profit_and_loss_overview": "Profit and loss overview",
+      "profit_or_loss": "Profit or loss",
       "purchase": {
         "commission": "Purchase commission",
         "costs": "Purchase costs",
@@ -330,26 +330,26 @@
         "price_per_unit": "Purchase price per unit"
       },
       "rate": "Rate",
-      "real_time_quotes": "Real-Time Quotes",
-      "regular_addition": "Regular Addition",
-      "required_margin": "Required Margin",
+      "real_time_quotes": "Real-time quotes",
+      "regular_addition": "Regular addition",
+      "required_margin": "Required margin",
       "resistance_level": "Resistance {level}",
       "resistances": "Resistances",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
-      "return_on_investment": "Return on Investment",
+      "return_on_investment": "Return on investment",
       "revenue": "Revenue",
       "risk": {
         "amount": "Amount at risk",
-        "effective": "Effective Risk",
-        "in_percentage": "Risk in Percentage",
-        "ratio": "Risk Ratio",
+        "effective": "Effective risk",
+        "in_percentage": "Risk in percentage",
+        "ratio": "Risk ratio",
         "reward": {
-          "ratio": "Risk-Reward Ratio",
-          "text": "Risk-Reward"
+          "ratio": "Risk-reward ratio",
+          "text": "Risk-reward"
         },
         "text": "Risk",
-        "tolerated": "Tolerated Risk"
+        "tolerated": "Tolerated risk"
       },
       "sales": {
         "commission": "Sales commission",
@@ -358,7 +358,7 @@
         "price": "Sales price",
         "price_per_unit": "Sales price per unit"
       },
-      "secondary_currency": "Secondary Currency",
+      "secondary_currency": "Secondary currency",
       "sell": {
         "commission": "Selling commission",
         "costs": "Selling expenses",
@@ -370,47 +370,47 @@
       "selling_operating_expenses": "Selling and operating expenses",
       "slippage": "Slippage",
       "starting": {
-        "balance": "Starting Balance",
-        "principal": "Starting Principal"
+        "balance": "Starting balance",
+        "principal": "Starting principal"
       },
       "stop_loss": {
-        "amount": "Stop Loss Amount",
-        "at": "Stop Loss at",
+        "amount": "Stop loss amount",
+        "at": "Stop loss at",
         "in_percentage": {
-          "text": "Stop Loss in Percentage",
-          "with_slippage": "Stop Loss in Percentage with Slippage"
+          "text": "Stop loss in percentage",
+          "with_slippage": "Stop loss in percentage with slippage"
         },
         "price": {
-          "at": "Stop Loss at",
-          "text": "Stop Loss",
-          "with_slippage": "Stop Loss with Slippage"
+          "at": "Stop loss at",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss with slippage"
         },
-        "text": "Stop Loss"
+        "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Support {level}",
       "supports": "Supports",
       "take_profit": {
-        "amount": "Take Profit Amount",
-        "at": "Take Profit at",
+        "amount": "Take profit amount",
+        "at": "Take profit at",
         "price": {
-          "after_fee": "Take Profit After Fees",
-          "at": "Take Profit at",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit with Slippage"
+          "after_fee": "Take profit after fees",
+          "at": "Take profit at",
+          "text": "Take profit",
+          "with_slippage": "Take profit with slippage"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
-        "amount": "Tax Amount",
-        "exempt_amount_per_year": "Tax-exempt Amount Per Year",
-        "rate": "Tax Rate"
+        "amount": "Tax amount",
+        "exempt_amount_per_year": "Tax-exempt amount per year",
+        "rate": "Tax rate"
       },
       "taxes": "Taxes",
       "tip": {
-        "amount": "Tip Amount",
-        "rate": "Tip Rate",
+        "amount": "Tip amount",
+        "rate": "Tip rate",
         "text": "Tip"
       },
       "total": {
@@ -418,21 +418,21 @@
         "costs": {
           "losing_position": "Total costs for a losing position",
           "profit_position": "Total costs for a winning position",
-          "text": "Total Costs"
+          "text": "Total costs"
         },
-        "fee": "Total Fees",
-        "gain": "Total Gain",
-        "loss": "Total Loss",
-        "return": "Total Return",
-        "revenue": "Total Revenue",
-        "tax": "Total Taxes",
+        "fee": "Total fees",
+        "gain": "Total gain",
+        "loss": "Total loss",
+        "return": "Total return",
+        "revenue": "Total revenue",
+        "tax": "Total taxes",
         "text": "Total"
       },
       "trade": {
         "size": {
-          "oz": "Trade Size (oz)",
-          "text": "Trade Size",
-          "units": "Trade Size (units)"
+          "oz": "Trade size (oz)",
+          "text": "Trade size",
+          "units": "Trade size (units)"
         }
       },
       "trend": {
@@ -441,10 +441,10 @@
         "text": "Trend",
         "up": "Up"
       },
-      "user_currency": "User Currency",
+      "user_currency": "User currency",
       "vat": {
-        "amount": "VAT Amount",
-        "rate": "VAT Rate",
+        "amount": "VAT amount",
+        "rate": "VAT rate",
         "text": "VAT"
       }
     },

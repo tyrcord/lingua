@@ -137,7 +137,7 @@
         "size": "Tamanho da conta"
       },
       "additional": {
-        "metrics": "Métricas Adicionais"
+        "metrics": "Métricas adicionais"
       },
       "additional_tax": {
         "amount": "Montante de imposto adicional",
@@ -174,9 +174,9 @@
         }
       },
       "bill": {
-        "amount": "Montante da Fatura",
-        "breakdown": "Detalhe da Fatura",
-        "rate": "Taxa da Fatura",
+        "amount": "Montante da fatura",
+        "breakdown": "Detalhe da fatura",
+        "rate": "Taxa da fatura",
         "text": "Fatura"
       },
       "break_even": {
@@ -242,14 +242,14 @@
       "extension": "Extensão",
       "fees": "Taxas",
       "fibonacci": {
-        "level": "Nível de Fibonacci",
-        "levels": "Níveis de Fibonacci"
+        "level": "Nível de fibonacci",
+        "levels": "Níveis de fibonacci"
       },
       "financial_instrument": "Instrumento financeiro",
       "fixed_costs": "Custos fixos",
       "gain": "Ganho",
       "gain_per_trade": "Ganho por operação",
-      "grand_total": "Total Geral",
+      "grand_total": "Total geral",
       "gross": {
         "income": "Rendimento bruto",
         "margin": "Margem bruta",
@@ -294,12 +294,12 @@
         "camarilla": "Camarilla",
         "demark": "DeMark",
         "fibonacci": "Fibonacci",
-        "method": "Método do Ponto de Pivô",
+        "method": "Método do ponto de pivô",
         "standard": "Padrão",
-        "text": "Ponto de Pivô",
+        "text": "Ponto de pivô",
         "woodie": "Woodie"
       },
-      "pivot_points": "Pontos de Pivô",
+      "pivot_points": "Pontos de pivô",
       "position": {
         "amount": "Valor da posição",
         "long": "Longo",
@@ -319,9 +319,9 @@
       },
       "primary_currency": "Moeda primária",
       "profit": "Lucro",
-      "profit_and_loss": "Lucro e Perda",
+      "profit_and_loss": "Lucro e perda",
       "profit_and_loss_overview": "Visão geral de lucros e perdas",
-      "profit_or_loss": "Lucro ou Perda",
+      "profit_or_loss": "Lucro ou perda",
       "purchase": {
         "commission": "Comissão de aquisição",
         "costs": "Custos de aquisição",
@@ -341,15 +341,15 @@
       "revenue": "Receita",
       "risk": {
         "amount": "Valor em risco",
-        "effective": "Risco Efetivo",
-        "in_percentage": "Risco em Percentagem",
-        "ratio": "Razão de Risco",
+        "effective": "Risco efetivo",
+        "in_percentage": "Risco em percentagem",
+        "ratio": "Razão de risco",
         "reward": {
-          "ratio": "Razão Risco-Recompensa",
-          "text": "Risco-Recompensa"
+          "ratio": "Razão risco-recompensa",
+          "text": "Risco-recompensa"
         },
         "text": "Risco",
-        "tolerated": "Risco Tolerado"
+        "tolerated": "Risco tolerado"
       },
       "sales": {
         "commission": "Comissão de vendas",
@@ -374,33 +374,33 @@
         "principal": "Principal inicial"
       },
       "stop_loss": {
-        "amount": "Valor de Stop Loss",
-        "at": "Stop Loss em",
+        "amount": "Valor de stop loss",
+        "at": "Stop loss em",
         "in_percentage": {
-          "text": "Stop Loss em porcentagem",
-          "with_slippage": "Stop Loss em porcentagem com derrapagem"
+          "text": "Stop loss em porcentagem",
+          "with_slippage": "Stop loss em porcentagem com derrapagem"
         },
         "price": {
-          "at": "Stop Loss em",
-          "text": "Stop Loss",
-          "with_slippage": "Stop Loss com derrapagem"
+          "at": "Stop loss em",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss com derrapagem"
         },
-        "text": "Stop Loss"
+        "text": "Stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
       "support_level": "Nível de suporte {level}",
       "supports": "Suportes",
       "take_profit": {
-        "amount": "Valor de Take Profit",
-        "at": "Take Profit em",
+        "amount": "Valor de take profit",
+        "at": "Take profit em",
         "price": {
           "after_fee": "Tomada de lucro após taxas",
-          "at": "Take Profit em",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit com Deslizamento"
+          "at": "Take profit em",
+          "text": "Take profit",
+          "with_slippage": "Take profit com deslizamento"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Valor do imposto",
@@ -418,14 +418,14 @@
         "costs": {
           "losing_position": "Custos totais para uma posição perdedora",
           "profit_position": "Custos totais para uma posição vencedora",
-          "text": "Custos Totais"
+          "text": "Custos totais"
         },
-        "fee": "Taxas Totais",
+        "fee": "Taxas totais",
         "gain": "Ganho total",
         "loss": "Perda total",
         "return": "Retorno total",
         "revenue": "Receita total",
-        "tax": "Impostos Totais",
+        "tax": "Impostos totais",
         "text": "Total"
       },
       "trade": {

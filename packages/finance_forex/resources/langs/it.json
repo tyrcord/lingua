@@ -108,20 +108,20 @@
         "text": "Lotto"
       },
       "pip": {
-        "calculator": "Calcolatrice di Pip",
+        "calculator": "Calcolatrice di pip",
         "decimal_places": "Decimali del pip",
-        "difference": "Differenza tra i Pip",
-        "value": "Valore di Pip"
+        "difference": "Differenza tra i pip",
+        "value": "Valore di pip"
       },
       "pips": {
-        "number": "Numero di Pips",
+        "number": "Numero di pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop Loss (Pips)"
+        "pips": "Stop loss (pips)"
       },
       "take_profit": {
-        "pips": "Take Profit (Pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {

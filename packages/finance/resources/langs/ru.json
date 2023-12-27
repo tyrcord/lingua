@@ -137,7 +137,7 @@
         "size": "Размер счета"
       },
       "additional": {
-        "metrics": "Дополнительные Метрики"
+        "metrics": "Дополнительные метрики"
       },
       "additional_tax": {
         "amount": "Сумма дополнительного налога",
@@ -242,8 +242,8 @@
       "extension": "Расширение",
       "fees": "Сборы",
       "fibonacci": {
-        "level": "Уровень Фибоначчи",
-        "levels": "Уровни Фибоначчи"
+        "level": "Уровень фибоначчи",
+        "levels": "Уровни фибоначчи"
       },
       "financial_instrument": "Финансовый инструмент",
       "fixed_costs": "Фиксированные затраты",
@@ -392,22 +392,22 @@
       "support_level": "Уровень поддержки {level}",
       "supports": "Поддержки",
       "take_profit": {
-        "amount": "Сумма Take Profit",
-        "at": "Take Profit при",
+        "amount": "Сумма take profit",
+        "at": "Take profit при",
         "price": {
           "after_fee": "Взятие прибыли после комиссии",
-          "at": "Take Profit при",
-          "text": "Take Profit",
-          "with_slippage": "Take Profit с проскальзыванием"
+          "at": "Take profit при",
+          "text": "Take profit",
+          "with_slippage": "Take profit с проскальзыванием"
         },
-        "text": "Take Profit"
+        "text": "Take profit"
       },
       "tax": {
         "amount": "Сумма налога",
         "exempt_amount_per_year": "Сумма налогового освобождения в год",
         "rate": "Ставка налога"
       },
-      "taxes": "налоги",
+      "taxes": "Налоги",
       "tip": {
         "amount": "Сумма чаевых",
         "rate": "Ставка чаевых",
