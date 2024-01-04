@@ -191,8 +191,16 @@
         "price": "Precio de compra",
         "price_per_unit": "Precio de compra por unidad"
       },
+      "cashflow": "Flujo de caja",
       "close_price": "Precio de cierre",
-      "compound_interest": "Interés compuesto",
+      "compound": {
+        "interest": "Interés compuesto",
+        "text": "Compuesto"
+      },
+      "compounding": {
+        "frequency": "Frecuencia de capitalización",
+        "text": "Capitalización"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -204,6 +212,7 @@
       "costs": "Costos",
       "currencies": "Monedas",
       "currency": "Moneda",
+      "deposits": "Depósitos",
       "discount": {
         "amount": "Cantidad de descuento",
         "label": "Descuento",
@@ -211,6 +220,7 @@
         "rate": "Tasa de descuento"
       },
       "duration_years": "Duración en años",
+      "earnings": "Ganancias",
       "ending": {
         "balance": "Saldo final",
         "principal": "Capital final"
@@ -290,6 +300,7 @@
         "margin": "Margen operativo",
         "profit": "Beneficio operativo"
       },
+      "period": "Período",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -420,13 +431,17 @@
           "profit_position": "Costos totales para una posición ganadora",
           "text": "Costos totales"
         },
+        "deposits": "Depósitos totales",
+        "earnings": "Ganancias totales",
+        "expenses": "Gastos totales",
         "fee": "Tarifas totales",
         "gain": "Ganancia total",
         "loss": "Pérdida total",
         "return": "Retorno total",
         "revenue": "Ingresos totales",
         "tax": "Impuestos totales",
-        "text": "Total"
+        "text": "Total",
+        "withdrawals": "Retiros totales"
       },
       "trade": {
         "size": {
@@ -446,7 +461,8 @@
         "amount": "Cantidad de IVA",
         "rate": "Tasa de IVA",
         "text": "IVA"
-      }
+      },
+      "withdrawals": "Retiros"
     },
     "message": {
       "last_updated_on": "Tasas actualizadas por última vez el {date}"

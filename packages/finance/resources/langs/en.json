@@ -191,8 +191,16 @@
         "price": "Buying price",
         "price_per_unit": "Buying price per unit"
       },
+      "cashflow": "Cash flow",
       "close_price": "Close price",
-      "compound_interest": "Compound interest",
+      "compound": {
+        "interest": "Compound interest",
+        "text": "Compound"
+      },
+      "compounding": {
+        "frequency": "Compounding frequency",
+        "text": "Compounding"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -204,6 +212,7 @@
       "costs": "Costs",
       "currencies": "Currencies",
       "currency": "Currency",
+      "deposits": "Deposits",
       "discount": {
         "amount": "Discount amount",
         "label": "Discount",
@@ -211,6 +220,7 @@
         "rate": "Discount rate"
       },
       "duration_years": "Duration in years",
+      "earnings": "Earnings",
       "ending": {
         "balance": "Ending balance",
         "principal": "Ending principal"
@@ -290,6 +300,7 @@
         "margin": "Operating margin",
         "profit": "Operating profit"
       },
+      "period": "Period",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -420,13 +431,17 @@
           "profit_position": "Total costs for a winning position",
           "text": "Total costs"
         },
+        "deposits": "Total deposits",
+        "earnings": "Total earnings",
+        "expenses": "Total expenses",
         "fee": "Total fees",
         "gain": "Total gain",
         "loss": "Total loss",
         "return": "Total return",
         "revenue": "Total revenue",
         "tax": "Total taxes",
-        "text": "Total"
+        "text": "Total",
+        "withdrawals": "Total withdrawals"
       },
       "trade": {
         "size": {
@@ -446,7 +461,8 @@
         "amount": "VAT amount",
         "rate": "VAT rate",
         "text": "VAT"
-      }
+      },
+      "withdrawals": "Withdrawals"
     },
     "message": {
       "last_updated_on": "Rates last updated on {date}"

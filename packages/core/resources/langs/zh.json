@@ -125,6 +125,8 @@
       "export": {
         "all": "全部导出",
         "as": "导出为",
+        "csv": "导出为CSV",
+        "excel": "导出为Excel",
         "pdf": "导出为PDF",
         "text": "导出"
       },
@@ -438,7 +440,23 @@
     },
     "question": {
       "are_you_sure": "确定吗？",
-      "export_data_pdf": "您想要生成此数据的PDF版本吗？"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "您希望将这些数据导出为CSV格式吗？",
+            "excel": "您希望将这些数据导出为Excel文件吗？",
+            "pdf": "您希望将这些数据导出为PDF格式吗？",
+            "text": "您希望导出这些数据吗？"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "您想生成这些数据的CSV版本吗？",
+          "excel": "您想生成这些数据的Excel版本吗？",
+          "pdf": "您想生成这些数据的PDF版本吗？"
+        }
+      }
     },
     "select": {
       "country": "选择一个国家",

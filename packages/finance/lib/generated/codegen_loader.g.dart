@@ -204,8 +204,16 @@ class FinanceCodegenLoader extends AssetLoader {
         "price": "购买价格",
         "price_per_unit": "每单位购买价格"
       },
+      "cashflow": "现金流",
       "close_price": "收盘价",
-      "compound_interest": "复利",
+      "compound": {
+        "interest": "复合利息",
+        "text": "复合"
+      },
+      "compounding": {
+        "frequency": "复利频率",
+        "text": "复利"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -217,6 +225,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "costs": "成本",
       "currencies": "货币",
       "currency": "货币",
+      "deposits": "存款",
       "discount": {
         "amount": "折扣金额",
         "label": "折扣",
@@ -224,6 +233,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "rate": "折扣率"
       },
       "duration_years": "年份持续时间",
+      "earnings": "收益",
       "ending": {
         "balance": "结余",
         "principal": "结余本金"
@@ -303,6 +313,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "margin": "营业利润率",
         "profit": "营业利润"
       },
+      "period": "时期",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -433,13 +444,17 @@ class FinanceCodegenLoader extends AssetLoader {
           "profit_position": "盈利头寸的总成本",
           "text": "总成本"
         },
+        "deposits": "总存款",
+        "earnings": "总收益",
+        "expenses": "总支出",
         "fee": "总费用",
         "gain": "总盈利",
         "loss": "总亏损",
         "return": "总回报",
         "revenue": "总收入",
         "tax": "总税款",
-        "text": "总计"
+        "text": "总计",
+        "withdrawals": "总提款"
       },
       "trade": {
         "size": {
@@ -459,7 +474,8 @@ class FinanceCodegenLoader extends AssetLoader {
         "amount": "增值税金额",
         "rate": "增值税率",
         "text": "增值税"
-      }
+      },
+      "withdrawals": "提款"
     },
     "message": {
       "last_updated_on": "{date}最后更新的汇率"
@@ -670,8 +686,16 @@ static const Map<String,dynamic> ja = {
         "price": "購入価格",
         "price_per_unit": "単位あたりの購入価格"
       },
+      "cashflow": "キャッシュフロー",
       "close_price": "終値",
-      "compound_interest": "複利",
+      "compound": {
+        "interest": "複利",
+        "text": "複合"
+      },
+      "compounding": {
+        "frequency": "複利の頻度",
+        "text": "複利"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -683,6 +707,7 @@ static const Map<String,dynamic> ja = {
       "costs": "コスト",
       "currencies": "通貨",
       "currency": "通貨",
+      "deposits": "預金",
       "discount": {
         "amount": "割引額",
         "label": "割引",
@@ -690,6 +715,7 @@ static const Map<String,dynamic> ja = {
         "rate": "割引率"
       },
       "duration_years": "年単位の期間",
+      "earnings": "収益",
       "ending": {
         "balance": "最終残高",
         "principal": "最終元本"
@@ -769,6 +795,7 @@ static const Map<String,dynamic> ja = {
         "margin": "営業マージン",
         "profit": "営業利益"
       },
+      "period": "期間",
       "pivot_point": {
         "camarilla": "キャマリラ",
         "demark": "デマーク",
@@ -899,13 +926,17 @@ static const Map<String,dynamic> ja = {
           "profit_position": "勝利したポジションの総コスト",
           "text": "総コスト"
         },
+        "deposits": "総預金",
+        "earnings": "総収益",
+        "expenses": "総支出",
         "fee": "合計手数料",
         "gain": "総利益",
         "loss": "総損失",
         "return": "総収益",
         "revenue": "総収入",
         "tax": "合計税金",
-        "text": "合計"
+        "text": "合計",
+        "withdrawals": "総引き出し"
       },
       "trade": {
         "size": {
@@ -925,7 +956,8 @@ static const Map<String,dynamic> ja = {
         "amount": "VATの金額",
         "rate": "VATのレート",
         "text": "VAT"
-      }
+      },
+      "withdrawals": "引き出し"
     },
     "message": {
       "last_updated_on": "{date}に最後に更新されたレート"
@@ -1136,8 +1168,16 @@ static const Map<String,dynamic> de = {
         "price": "Kaufpreis",
         "price_per_unit": "Kaufpreis pro einheit"
       },
+      "cashflow": "Cashflow",
       "close_price": "Schlusskurs",
-      "compound_interest": "Zinseszins",
+      "compound": {
+        "interest": "Zinseszins",
+        "text": "Zusammengesetzt"
+      },
+      "compounding": {
+        "frequency": "Häufigkeit der Zinseszinsbildung",
+        "text": "Zinseszins"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -1149,6 +1189,7 @@ static const Map<String,dynamic> de = {
       "costs": "Kosten",
       "currencies": "Währungen",
       "currency": "Währung",
+      "deposits": "Einlagen",
       "discount": {
         "amount": "Rabattbetrag",
         "label": "Rabatt",
@@ -1156,6 +1197,7 @@ static const Map<String,dynamic> de = {
         "rate": "Rabattsatz"
       },
       "duration_years": "Dauer in jahren",
+      "earnings": "Einnahmen",
       "ending": {
         "balance": "Endguthaben",
         "principal": "Endkapital"
@@ -1235,6 +1277,7 @@ static const Map<String,dynamic> de = {
         "margin": "Betriebsmarge",
         "profit": "Betriebsgewinn"
       },
+      "period": "Zeitraum",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -1365,13 +1408,17 @@ static const Map<String,dynamic> de = {
           "profit_position": "Gesamtkosten für eine gewinnposition",
           "text": "Gesamtkosten"
         },
+        "deposits": "Gesamteinlagen",
+        "earnings": "Gesamteinnahmen",
+        "expenses": "Gesamtausgaben",
         "fee": "Gesamtgebühren",
         "gain": "Gesamtgewinn",
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",
         "revenue": "Gesamteinnahmen",
         "tax": "Gesamtsteuern",
-        "text": "Gesamt"
+        "text": "Gesamt",
+        "withdrawals": "Gesamtabhebungen"
       },
       "trade": {
         "size": {
@@ -1391,7 +1438,8 @@ static const Map<String,dynamic> de = {
         "amount": "MwSt betrag",
         "rate": "MwSt satz",
         "text": "MwSt"
-      }
+      },
+      "withdrawals": "Abhebungen"
     },
     "message": {
       "last_updated_on": "Rates last updated on {date}"
@@ -1602,8 +1650,16 @@ static const Map<String,dynamic> ru = {
         "price": "Цена покупки",
         "price_per_unit": "Цена покупки за единицу"
       },
+      "cashflow": "Денежный поток",
       "close_price": "Цена закрытия",
-      "compound_interest": "Сложные проценты",
+      "compound": {
+        "interest": "Сложный процент",
+        "text": "Сложный"
+      },
+      "compounding": {
+        "frequency": "Частота начисления сложных процентов",
+        "text": "Капитализация"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -1615,6 +1671,7 @@ static const Map<String,dynamic> ru = {
       "costs": "Расходы",
       "currencies": "Валюты",
       "currency": "Валюта",
+      "deposits": "Депозиты",
       "discount": {
         "amount": "Сумма скидки",
         "label": "Скидка",
@@ -1622,6 +1679,7 @@ static const Map<String,dynamic> ru = {
         "rate": "Ставка скидки"
       },
       "duration_years": "Продолжительность в годах",
+      "earnings": "Доходы",
       "ending": {
         "balance": "Конечный баланс",
         "principal": "Конечный основной капитал"
@@ -1701,6 +1759,7 @@ static const Map<String,dynamic> ru = {
         "margin": "Операционная маржа",
         "profit": "Операционная прибыль"
       },
+      "period": "Период",
       "pivot_point": {
         "camarilla": "Камарилья",
         "demark": "Демарка",
@@ -1831,13 +1890,17 @@ static const Map<String,dynamic> ru = {
           "profit_position": "Общие затраты на прибыльную позицию",
           "text": "Общие затраты"
         },
+        "deposits": "Общие вклады",
+        "earnings": "Общий доход",
+        "expenses": "Общие расходы",
         "fee": "Общие комиссионные",
         "gain": "Общая прибыль",
         "loss": "Общий убыток",
         "return": "Общий доход",
         "revenue": "Общий доход",
         "tax": "Общий налог",
-        "text": "Итого"
+        "text": "Итого",
+        "withdrawals": "Общие снятия"
       },
       "trade": {
         "size": {
@@ -1857,7 +1920,8 @@ static const Map<String,dynamic> ru = {
         "amount": "Сумма НДС",
         "rate": "Ставка НДС",
         "text": "НДС"
-      }
+      },
+      "withdrawals": "Снятия"
     },
     "message": {
       "last_updated_on": "Курсы последний раз обновлялись {date}"
@@ -2068,8 +2132,16 @@ static const Map<String,dynamic> pt = {
         "price": "Preço de compra",
         "price_per_unit": "Preço de compra por unidade"
       },
+      "cashflow": "Fluxo de caixa",
       "close_price": "Preço de fechamento",
-      "compound_interest": "Juros compostos",
+      "compound": {
+        "interest": "Juro composto",
+        "text": "Composto"
+      },
+      "compounding": {
+        "frequency": "Frequência de capitalização",
+        "text": "Capitalização"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -2081,6 +2153,7 @@ static const Map<String,dynamic> pt = {
       "costs": "Custos",
       "currencies": "Moedas",
       "currency": "Moeda",
+      "deposits": "Depósitos",
       "discount": {
         "amount": "Quantidade de desconto",
         "label": "Desconto",
@@ -2088,6 +2161,7 @@ static const Map<String,dynamic> pt = {
         "rate": "Taxa de desconto"
       },
       "duration_years": "Duração em anos",
+      "earnings": "Ganhos",
       "ending": {
         "balance": "Saldo final",
         "principal": "Principal final"
@@ -2167,6 +2241,7 @@ static const Map<String,dynamic> pt = {
         "margin": "Margem operacional",
         "profit": "Lucro operacional"
       },
+      "period": "Período",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -2297,13 +2372,17 @@ static const Map<String,dynamic> pt = {
           "profit_position": "Custos totais para uma posição vencedora",
           "text": "Custos totais"
         },
+        "deposits": "Depósitos totais",
+        "earnings": "Ganhos totais",
+        "expenses": "Despesas totais",
         "fee": "Taxas totais",
         "gain": "Ganho total",
         "loss": "Perda total",
         "return": "Retorno total",
         "revenue": "Receita total",
         "tax": "Impostos totais",
-        "text": "Total"
+        "text": "Total",
+        "withdrawals": "Levantamentos totais"
       },
       "trade": {
         "size": {
@@ -2323,7 +2402,8 @@ static const Map<String,dynamic> pt = {
         "amount": "Quantidade de IVA",
         "rate": "Taxa de IVA",
         "text": "IVA"
-      }
+      },
+      "withdrawals": "Levantamentos"
     },
     "message": {
       "last_updated_on": "Taxas atualizadas pela última vez em {date}"
@@ -2534,8 +2614,16 @@ static const Map<String,dynamic> en = {
         "price": "Buying price",
         "price_per_unit": "Buying price per unit"
       },
+      "cashflow": "Cash flow",
       "close_price": "Close price",
-      "compound_interest": "Compound interest",
+      "compound": {
+        "interest": "Compound interest",
+        "text": "Compound"
+      },
+      "compounding": {
+        "frequency": "Compounding frequency",
+        "text": "Compounding"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -2547,6 +2635,7 @@ static const Map<String,dynamic> en = {
       "costs": "Costs",
       "currencies": "Currencies",
       "currency": "Currency",
+      "deposits": "Deposits",
       "discount": {
         "amount": "Discount amount",
         "label": "Discount",
@@ -2554,6 +2643,7 @@ static const Map<String,dynamic> en = {
         "rate": "Discount rate"
       },
       "duration_years": "Duration in years",
+      "earnings": "Earnings",
       "ending": {
         "balance": "Ending balance",
         "principal": "Ending principal"
@@ -2633,6 +2723,7 @@ static const Map<String,dynamic> en = {
         "margin": "Operating margin",
         "profit": "Operating profit"
       },
+      "period": "Period",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -2763,13 +2854,17 @@ static const Map<String,dynamic> en = {
           "profit_position": "Total costs for a winning position",
           "text": "Total costs"
         },
+        "deposits": "Total deposits",
+        "earnings": "Total earnings",
+        "expenses": "Total expenses",
         "fee": "Total fees",
         "gain": "Total gain",
         "loss": "Total loss",
         "return": "Total return",
         "revenue": "Total revenue",
         "tax": "Total taxes",
-        "text": "Total"
+        "text": "Total",
+        "withdrawals": "Total withdrawals"
       },
       "trade": {
         "size": {
@@ -2789,7 +2884,8 @@ static const Map<String,dynamic> en = {
         "amount": "VAT amount",
         "rate": "VAT rate",
         "text": "VAT"
-      }
+      },
+      "withdrawals": "Withdrawals"
     },
     "message": {
       "last_updated_on": "Rates last updated on {date}"
@@ -3000,8 +3096,16 @@ static const Map<String,dynamic> it = {
         "price": "Prezzo d'acquisto",
         "price_per_unit": "Prezzo d'acquisto per unità"
       },
+      "cashflow": "Flusso di cassa",
       "close_price": "Prezzo di chiusura",
-      "compound_interest": "Interesse composto",
+      "compound": {
+        "interest": "Interesse composto",
+        "text": "Composto"
+      },
+      "compounding": {
+        "frequency": "Frequenza di capitalizzazione",
+        "text": "Capitalizzazione"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -3013,6 +3117,7 @@ static const Map<String,dynamic> it = {
       "costs": "Costi",
       "currencies": "Valute",
       "currency": "Valuta",
+      "deposits": "Depositi",
       "discount": {
         "amount": "Importo dello sconto",
         "label": "Sconto",
@@ -3020,6 +3125,7 @@ static const Map<String,dynamic> it = {
         "rate": "Tasso di sconto"
       },
       "duration_years": "Durata in anni",
+      "earnings": "Guadagni",
       "ending": {
         "balance": "Saldo finale",
         "principal": "Capitale finale"
@@ -3099,6 +3205,7 @@ static const Map<String,dynamic> it = {
         "margin": "Margine operativo",
         "profit": "Profitto operativo"
       },
+      "period": "Periodo",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -3229,13 +3336,17 @@ static const Map<String,dynamic> it = {
           "profit_position": "Costi totali per una posizione vincente",
           "text": "Costi totali"
         },
+        "deposits": "Depositi totali",
+        "earnings": "Guadagni totali",
+        "expenses": "Spese totali",
         "fee": "Tariffe totali",
         "gain": "Guadagno totale",
         "loss": "Perdita totale",
         "return": "Rendimento totale",
         "revenue": "Ricavo totale",
         "tax": "Tasse totali",
-        "text": "Totale"
+        "text": "Totale",
+        "withdrawals": "Prelievi totali"
       },
       "trade": {
         "size": {
@@ -3255,7 +3366,8 @@ static const Map<String,dynamic> it = {
         "amount": "Importo dell'IVA",
         "rate": "Tasso dell'IVA",
         "text": "IVA"
-      }
+      },
+      "withdrawals": "Prelievi"
     },
     "message": {
       "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"
@@ -3466,8 +3578,16 @@ static const Map<String,dynamic> fr = {
         "price": "Prix d'achat",
         "price_per_unit": "Prix d'achat par unité"
       },
+      "cashflow": "Flux de trésorerie",
       "close_price": "Prix de clôture",
-      "compound_interest": "Intérêt composé",
+      "compound": {
+        "interest": "Intérêt composé",
+        "text": "Composé"
+      },
+      "compounding": {
+        "frequency": "Fréquence de capitalisation",
+        "text": "Capitalisation"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -3479,6 +3599,7 @@ static const Map<String,dynamic> fr = {
       "costs": "Coûts",
       "currencies": "Devises",
       "currency": "Devise",
+      "deposits": "Dépôts",
       "discount": {
         "amount": "Montant de la remise",
         "label": "Remise",
@@ -3486,6 +3607,7 @@ static const Map<String,dynamic> fr = {
         "rate": "Taux de remise"
       },
       "duration_years": "Durée en années",
+      "earnings": "Revenus",
       "ending": {
         "balance": "Solde final",
         "principal": "Capital final"
@@ -3565,6 +3687,7 @@ static const Map<String,dynamic> fr = {
         "margin": "Marge opérationnelle",
         "profit": "Bénéfice d'exploitation"
       },
+      "period": "Période",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -3695,13 +3818,17 @@ static const Map<String,dynamic> fr = {
           "profit_position": "Coûts totaux pour une position gagnante",
           "text": "Coûts totaux"
         },
+        "deposits": "Dépôts totaux",
+        "earnings": "Gains totaux",
+        "expenses": "Dépenses totales",
         "fee": "Frais totaux",
         "gain": "Gain total",
         "loss": "Perte totale",
         "return": "Rendement total",
         "revenue": "Revenu total",
         "tax": "Impôts totaux",
-        "text": "Total"
+        "text": "Total",
+        "withdrawals": "Retraits totaux"
       },
       "trade": {
         "size": {
@@ -3721,7 +3848,8 @@ static const Map<String,dynamic> fr = {
         "amount": "Montant de la TVA",
         "rate": "Taux de TVA",
         "text": "TVA"
-      }
+      },
+      "withdrawals": "Retraits"
     },
     "message": {
       "last_updated_on": "Taux mis à jour le {date}"
@@ -3932,8 +4060,16 @@ static const Map<String,dynamic> es = {
         "price": "Precio de compra",
         "price_per_unit": "Precio de compra por unidad"
       },
+      "cashflow": "Flujo de caja",
       "close_price": "Precio de cierre",
-      "compound_interest": "Interés compuesto",
+      "compound": {
+        "interest": "Interés compuesto",
+        "text": "Compuesto"
+      },
+      "compounding": {
+        "frequency": "Frecuencia de capitalización",
+        "text": "Capitalización"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -3945,6 +4081,7 @@ static const Map<String,dynamic> es = {
       "costs": "Costos",
       "currencies": "Monedas",
       "currency": "Moneda",
+      "deposits": "Depósitos",
       "discount": {
         "amount": "Cantidad de descuento",
         "label": "Descuento",
@@ -3952,6 +4089,7 @@ static const Map<String,dynamic> es = {
         "rate": "Tasa de descuento"
       },
       "duration_years": "Duración en años",
+      "earnings": "Ganancias",
       "ending": {
         "balance": "Saldo final",
         "principal": "Capital final"
@@ -4031,6 +4169,7 @@ static const Map<String,dynamic> es = {
         "margin": "Margen operativo",
         "profit": "Beneficio operativo"
       },
+      "period": "Período",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -4161,13 +4300,17 @@ static const Map<String,dynamic> es = {
           "profit_position": "Costos totales para una posición ganadora",
           "text": "Costos totales"
         },
+        "deposits": "Depósitos totales",
+        "earnings": "Ganancias totales",
+        "expenses": "Gastos totales",
         "fee": "Tarifas totales",
         "gain": "Ganancia total",
         "loss": "Pérdida total",
         "return": "Retorno total",
         "revenue": "Ingresos totales",
         "tax": "Impuestos totales",
-        "text": "Total"
+        "text": "Total",
+        "withdrawals": "Retiros totales"
       },
       "trade": {
         "size": {
@@ -4187,7 +4330,8 @@ static const Map<String,dynamic> es = {
         "amount": "Cantidad de IVA",
         "rate": "Tasa de IVA",
         "text": "IVA"
-      }
+      },
+      "withdrawals": "Retiros"
     },
     "message": {
       "last_updated_on": "Tasas actualizadas por última vez el {date}"

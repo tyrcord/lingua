@@ -191,8 +191,16 @@
         "price": "Prezzo d'acquisto",
         "price_per_unit": "Prezzo d'acquisto per unità"
       },
+      "cashflow": "Flusso di cassa",
       "close_price": "Prezzo di chiusura",
-      "compound_interest": "Interesse composto",
+      "compound": {
+        "interest": "Interesse composto",
+        "text": "Composto"
+      },
+      "compounding": {
+        "frequency": "Frequenza di capitalizzazione",
+        "text": "Capitalizzazione"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -204,6 +212,7 @@
       "costs": "Costi",
       "currencies": "Valute",
       "currency": "Valuta",
+      "deposits": "Depositi",
       "discount": {
         "amount": "Importo dello sconto",
         "label": "Sconto",
@@ -211,6 +220,7 @@
         "rate": "Tasso di sconto"
       },
       "duration_years": "Durata in anni",
+      "earnings": "Guadagni",
       "ending": {
         "balance": "Saldo finale",
         "principal": "Capitale finale"
@@ -290,6 +300,7 @@
         "margin": "Margine operativo",
         "profit": "Profitto operativo"
       },
+      "period": "Periodo",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -420,13 +431,17 @@
           "profit_position": "Costi totali per una posizione vincente",
           "text": "Costi totali"
         },
+        "deposits": "Depositi totali",
+        "earnings": "Guadagni totali",
+        "expenses": "Spese totali",
         "fee": "Tariffe totali",
         "gain": "Guadagno totale",
         "loss": "Perdita totale",
         "return": "Rendimento totale",
         "revenue": "Ricavo totale",
         "tax": "Tasse totali",
-        "text": "Totale"
+        "text": "Totale",
+        "withdrawals": "Prelievi totali"
       },
       "trade": {
         "size": {
@@ -446,7 +461,8 @@
         "amount": "Importo dell'IVA",
         "rate": "Tasso dell'IVA",
         "text": "IVA"
-      }
+      },
+      "withdrawals": "Prelievi"
     },
     "message": {
       "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"

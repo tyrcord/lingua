@@ -125,6 +125,8 @@
       "export": {
         "all": "Exportar todos",
         "as": "Exportar como",
+        "csv": "Exportar como CSV",
+        "excel": "Exportar como Excel",
         "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
@@ -438,7 +440,23 @@
     },
     "question": {
       "are_you_sure": "Tem certeza?",
-      "export_data_pdf": "Deseja gerar uma versão em PDF destes dados?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Deseja exportar estes dados em formato CSV?",
+            "excel": "Deseja exportar estes dados num ficheiro Excel?",
+            "pdf": "Deseja exportar estes dados em formato PDF?",
+            "text": "Deseja exportar estes dados?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Gostaria de gerar uma versão em CSV destes dados?",
+          "excel": "Gostaria de gerar uma versão em Excel destes dados?",
+          "pdf": "Gostaria de gerar uma versão em PDF destes dados?"
+        }
+      }
     },
     "select": {
       "country": "Selecione um país",

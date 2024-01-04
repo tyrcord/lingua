@@ -1,8 +1,10 @@
 {
   "calculator": {
     "label": {
+      "breakdown": "Desglose",
       "calculator": "Calculadora",
-      "calculators": "Calculadoras"
+      "calculators": "Calculadoras",
+      "results": "Resultados"
     },
     "title": {
       "instructions": "Instrucciones para utilizar esta Calculadora",

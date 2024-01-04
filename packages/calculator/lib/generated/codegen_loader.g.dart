@@ -14,8 +14,10 @@ class CalculatorCodegenLoader extends AssetLoader {
   static const Map<String,dynamic> zh = {
   "calculator": {
     "label": {
+      "breakdown": "细分",
       "calculator": "计算器",
-      "calculators": "计算器"
+      "calculators": "计算器",
+      "results": "结果"
     },
     "title": {
       "instructions": "使用此计算器的说明",
@@ -26,8 +28,10 @@ class CalculatorCodegenLoader extends AssetLoader {
 static const Map<String,dynamic> ja = {
   "calculator": {
     "label": {
-      "calculator": "計算機",
-      "calculators": "計算機"
+      "breakdown": "内訳",
+      "calculator": "電卓",
+      "calculators": "電卓",
+      "results": "結果"
     },
     "title": {
       "instructions": "この計算機の使用方法",
@@ -38,8 +42,10 @@ static const Map<String,dynamic> ja = {
 static const Map<String,dynamic> de = {
   "calculator": {
     "label": {
+      "breakdown": "Aufschlüsselung",
       "calculator": "Rechner",
-      "calculators": "Rechner"
+      "calculators": "Rechner",
+      "results": "Ergebnisse"
     },
     "title": {
       "instructions": "Anleitung zur Verwendung dieses Rechners",
@@ -50,8 +56,10 @@ static const Map<String,dynamic> de = {
 static const Map<String,dynamic> ru = {
   "calculator": {
     "label": {
+      "breakdown": "Разбивка",
       "calculator": "Калькулятор",
-      "calculators": "Калькуляторы"
+      "calculators": "Калькуляторы",
+      "results": "Результаты"
     },
     "title": {
       "instructions": "Инструкции по использованию этого Калькулятора",
@@ -62,8 +70,10 @@ static const Map<String,dynamic> ru = {
 static const Map<String,dynamic> pt = {
   "calculator": {
     "label": {
+      "breakdown": "Desdobramento",
       "calculator": "Calculadora",
-      "calculators": "Calculadoras"
+      "calculators": "Calculadoras",
+      "results": "Resultados"
     },
     "title": {
       "instructions": "Instruções para utilizar esta Calculadora",
@@ -74,8 +84,10 @@ static const Map<String,dynamic> pt = {
 static const Map<String,dynamic> en = {
   "calculator": {
     "label": {
+      "breakdown": "Breakdown",
       "calculator": "Calculator",
-      "calculators": "Calculators"
+      "calculators": "Calculators",
+      "results": "Results"
     },
     "title": {
       "instructions": "Instructions for using this Calculator",
@@ -86,8 +98,10 @@ static const Map<String,dynamic> en = {
 static const Map<String,dynamic> it = {
   "calculator": {
     "label": {
+      "breakdown": "Suddivisione",
       "calculator": "Calcolatrice",
-      "calculators": "Calcolatrici"
+      "calculators": "Calcolatrici",
+      "results": "Risultati"
     },
     "title": {
       "instructions": "Istruzioni per l'uso di questa Calcolatrice",
@@ -98,8 +112,10 @@ static const Map<String,dynamic> it = {
 static const Map<String,dynamic> fr = {
   "calculator": {
     "label": {
+      "breakdown": "Répartition",
       "calculator": "Calculatrice",
-      "calculators": "Calculatrices"
+      "calculators": "Calculatrices",
+      "results": "Résultats"
     },
     "title": {
       "instructions": "Instructions pour utiliser cette Calculatrice",
@@ -110,8 +126,10 @@ static const Map<String,dynamic> fr = {
 static const Map<String,dynamic> es = {
   "calculator": {
     "label": {
+      "breakdown": "Desglose",
       "calculator": "Calculadora",
-      "calculators": "Calculadoras"
+      "calculators": "Calculadoras",
+      "results": "Resultados"
     },
     "title": {
       "instructions": "Instrucciones para utilizar esta Calculadora",

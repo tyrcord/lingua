@@ -1,8 +1,10 @@
 {
   "calculator": {
     "label": {
+      "breakdown": "Разбивка",
       "calculator": "Калькулятор",
-      "calculators": "Калькуляторы"
+      "calculators": "Калькуляторы",
+      "results": "Результаты"
     },
     "title": {
       "instructions": "Инструкции по использованию этого Калькулятора",

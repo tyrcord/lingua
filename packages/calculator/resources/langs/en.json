@@ -1,8 +1,10 @@
 {
   "calculator": {
     "label": {
+      "breakdown": "Breakdown",
       "calculator": "Calculator",
-      "calculators": "Calculators"
+      "calculators": "Calculators",
+      "results": "Results"
     },
     "title": {
       "instructions": "Instructions for using this Calculator",

@@ -88,6 +88,8 @@ abstract class CoreLocaleKeys {
   static const core_label_expired = 'core.label.expired';
   static const core_label_export_all = 'core.label.export.all';
   static const core_label_export_as = 'core.label.export.as';
+  static const core_label_export_csv = 'core.label.export.csv';
+  static const core_label_export_excel = 'core.label.export.excel';
   static const core_label_export_pdf = 'core.label.export.pdf';
   static const core_label_export_text = 'core.label.export.text';
   static const core_label_external = 'core.label.external';
@@ -324,7 +326,13 @@ abstract class CoreLocaleKeys {
   static const core_message_whats_new = 'core.message.whats_new';
   static const core_message_whoops = 'core.message.whoops';
   static const core_question_are_you_sure = 'core.question.are_you_sure';
-  static const core_question_export_data_pdf = 'core.question.export_data_pdf';
+  static const core_question_export_data_as_csv = 'core.question.export.data.as.csv';
+  static const core_question_export_data_as_excel = 'core.question.export.data.as.excel';
+  static const core_question_export_data_as_pdf = 'core.question.export.data.as.pdf';
+  static const core_question_export_data_as_text = 'core.question.export.data.as.text';
+  static const core_question_generate_data_csv = 'core.question.generate.data.csv';
+  static const core_question_generate_data_excel = 'core.question.generate.data.excel';
+  static const core_question_generate_data_pdf = 'core.question.generate.data.pdf';
   static const core_select_country = 'core.select.country';
   static const core_select_frequency = 'core.select.frequency';
   static const core_select_method = 'core.select.method';

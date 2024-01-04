@@ -191,8 +191,16 @@
         "price": "Kaufpreis",
         "price_per_unit": "Kaufpreis pro einheit"
       },
+      "cashflow": "Cashflow",
       "close_price": "Schlusskurs",
-      "compound_interest": "Zinseszins",
+      "compound": {
+        "interest": "Zinseszins",
+        "text": "Zusammengesetzt"
+      },
+      "compounding": {
+        "frequency": "Häufigkeit der Zinseszinsbildung",
+        "text": "Zinseszins"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -204,6 +212,7 @@
       "costs": "Kosten",
       "currencies": "Währungen",
       "currency": "Währung",
+      "deposits": "Einlagen",
       "discount": {
         "amount": "Rabattbetrag",
         "label": "Rabatt",
@@ -211,6 +220,7 @@
         "rate": "Rabattsatz"
       },
       "duration_years": "Dauer in jahren",
+      "earnings": "Einnahmen",
       "ending": {
         "balance": "Endguthaben",
         "principal": "Endkapital"
@@ -290,6 +300,7 @@
         "margin": "Betriebsmarge",
         "profit": "Betriebsgewinn"
       },
+      "period": "Zeitraum",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -420,13 +431,17 @@
           "profit_position": "Gesamtkosten für eine gewinnposition",
           "text": "Gesamtkosten"
         },
+        "deposits": "Gesamteinlagen",
+        "earnings": "Gesamteinnahmen",
+        "expenses": "Gesamtausgaben",
         "fee": "Gesamtgebühren",
         "gain": "Gesamtgewinn",
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",
         "revenue": "Gesamteinnahmen",
         "tax": "Gesamtsteuern",
-        "text": "Gesamt"
+        "text": "Gesamt",
+        "withdrawals": "Gesamtabhebungen"
       },
       "trade": {
         "size": {
@@ -446,7 +461,8 @@
         "amount": "MwSt betrag",
         "rate": "MwSt satz",
         "text": "MwSt"
-      }
+      },
+      "withdrawals": "Abhebungen"
     },
     "message": {
       "last_updated_on": "Rates last updated on {date}"

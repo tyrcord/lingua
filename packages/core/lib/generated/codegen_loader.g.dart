@@ -138,6 +138,8 @@ class CoreCodegenLoader extends AssetLoader {
       "export": {
         "all": "全部导出",
         "as": "导出为",
+        "csv": "导出为CSV",
+        "excel": "导出为Excel",
         "pdf": "导出为PDF",
         "text": "导出"
       },
@@ -451,7 +453,23 @@ class CoreCodegenLoader extends AssetLoader {
     },
     "question": {
       "are_you_sure": "确定吗？",
-      "export_data_pdf": "您想要生成此数据的PDF版本吗？"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "您希望将这些数据导出为CSV格式吗？",
+            "excel": "您希望将这些数据导出为Excel文件吗？",
+            "pdf": "您希望将这些数据导出为PDF格式吗？",
+            "text": "您希望导出这些数据吗？"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "您想生成这些数据的CSV版本吗？",
+          "excel": "您想生成这些数据的Excel版本吗？",
+          "pdf": "您想生成这些数据的PDF版本吗？"
+        }
+      }
     },
     "select": {
       "country": "选择一个国家",
@@ -590,6 +608,8 @@ static const Map<String,dynamic> ja = {
       "export": {
         "all": "すべてエクスポート",
         "as": "としてエクスポート",
+        "csv": "CSVとしてエクスポート",
+        "excel": "Excelとしてエクスポート",
         "pdf": "PDFとしてエクスポート",
         "text": "エクスポート"
       },
@@ -903,7 +923,23 @@ static const Map<String,dynamic> ja = {
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",
-      "export_data_pdf": "このデータのPDFバージョンを生成しますか？"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "このデータをCSVとしてエクスポートしますか？",
+            "excel": "このデータをExcelファイルとしてエクスポートしますか？",
+            "pdf": "このデータをPDFとしてエクスポートしますか？",
+            "text": "このデータをエクスポートしますか？"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "このデータのCSVバージョンを生成しますか？",
+          "excel": "このデータのExcelバージョンを生成しますか？",
+          "pdf": "このデータのPDFバージョンを生成しますか？"
+        }
+      }
     },
     "select": {
       "country": "国を選択してください",
@@ -1042,6 +1078,8 @@ static const Map<String,dynamic> de = {
       "export": {
         "all": "Alle exportieren",
         "as": "Exportieren als",
+        "csv": "Als CSV exportieren",
+        "excel": "Als Excel exportieren",
         "pdf": "Als PDF exportieren",
         "text": "Exportieren"
       },
@@ -1355,7 +1393,23 @@ static const Map<String,dynamic> de = {
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",
-      "export_data_pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Möchten Sie diese Daten als CSV exportieren?",
+            "excel": "Möchten Sie diese Daten als Excel-Datei exportieren?",
+            "pdf": "Möchten Sie diese Daten als PDF exportieren?",
+            "text": "Möchten Sie diese Daten exportieren?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Möchten Sie eine CSV-Version dieser Daten erstellen?",
+          "excel": "Möchten Sie eine Excel-Version dieser Daten erstellen?",
+          "pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
+        }
+      }
     },
     "select": {
       "country": "Wählen Sie ein Land",
@@ -1494,6 +1548,8 @@ static const Map<String,dynamic> ru = {
       "export": {
         "all": "Экспортировать все",
         "as": "Экспортировать как",
+        "csv": "Экспортировать как CSV",
+        "excel": "Экспортировать как Excel",
         "pdf": "Экспортировать как PDF",
         "text": "Экспорт"
       },
@@ -1807,7 +1863,23 @@ static const Map<String,dynamic> ru = {
     },
     "question": {
       "are_you_sure": "Вы уверены?",
-      "export_data_pdf": "Хотите создать PDF-версию этих данных?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Хотите экспортировать эти данные в формате CSV?",
+            "excel": "Хотите экспортировать эти данные в файл Excel?",
+            "pdf": "Хотите экспортировать эти данные в формате PDF?",
+            "text": "Хотите экспортировать эти данные?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Хотите создать CSV-версию этих данных?",
+          "excel": "Хотите создать версию Excel этих данных?",
+          "pdf": "Хотите создать PDF-версию этих данных?"
+        }
+      }
     },
     "select": {
       "country": "Выберите страну",
@@ -1946,6 +2018,8 @@ static const Map<String,dynamic> pt = {
       "export": {
         "all": "Exportar todos",
         "as": "Exportar como",
+        "csv": "Exportar como CSV",
+        "excel": "Exportar como Excel",
         "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
@@ -2259,7 +2333,23 @@ static const Map<String,dynamic> pt = {
     },
     "question": {
       "are_you_sure": "Tem certeza?",
-      "export_data_pdf": "Deseja gerar uma versão em PDF destes dados?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Deseja exportar estes dados em formato CSV?",
+            "excel": "Deseja exportar estes dados num ficheiro Excel?",
+            "pdf": "Deseja exportar estes dados em formato PDF?",
+            "text": "Deseja exportar estes dados?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Gostaria de gerar uma versão em CSV destes dados?",
+          "excel": "Gostaria de gerar uma versão em Excel destes dados?",
+          "pdf": "Gostaria de gerar uma versão em PDF destes dados?"
+        }
+      }
     },
     "select": {
       "country": "Selecione um país",
@@ -2398,6 +2488,8 @@ static const Map<String,dynamic> en = {
       "export": {
         "all": "Export all",
         "as": "Export as",
+        "csv": "Export as CSV",
+        "excel": "Export as Excel",
         "pdf": "Export as PDF",
         "text": "Export"
       },
@@ -2711,7 +2803,23 @@ static const Map<String,dynamic> en = {
     },
     "question": {
       "are_you_sure": "Are you sure?",
-      "export_data_pdf": "Would you like to generate a PDF version of this data?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Would you like to export this data as a CSV?",
+            "excel": "Would you like to export this data as an Excel file?",
+            "pdf": "Would you like to export this data as a PDF?",
+            "text": "Would you like to export this data?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Would you like to generate a CSV version of this data?",
+          "excel": "Would you like to generate an Excel version of this data?",
+          "pdf": "Would you like to generate a PDF version of this data?"
+        }
+      }
     },
     "select": {
       "country": "Select a country",
@@ -2850,6 +2958,8 @@ static const Map<String,dynamic> it = {
       "export": {
         "all": "Esporta tutto",
         "as": "Esporta come",
+        "csv": "Esporta come CSV",
+        "excel": "Esporta come Excel",
         "pdf": "Esporta come PDF",
         "text": "Esporta"
       },
@@ -3163,7 +3273,23 @@ static const Map<String,dynamic> it = {
     },
     "question": {
       "are_you_sure": "Sei sicuro?",
-      "export_data_pdf": "Desideri generare una versione PDF di questi dati?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Vuoi esportare questi dati in formato CSV?",
+            "excel": "Vuoi esportare questi dati in un file Excel?",
+            "pdf": "Vuoi esportare questi dati in formato PDF?",
+            "text": "Vuoi esportare questi dati?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Vuoi generare una versione CSV di questi dati?",
+          "excel": "Vuoi generare una versione Excel di questi dati?",
+          "pdf": "Vuoi generare una versione PDF di questi dati?"
+        }
+      }
     },
     "select": {
       "country": "Seleziona un paese",
@@ -3302,6 +3428,8 @@ static const Map<String,dynamic> fr = {
       "export": {
         "all": "Tout exporter",
         "as": "Exporter sous",
+        "csv": "Exporter au format CSV",
+        "excel": "Exporter au format Excel",
         "pdf": "Exporter au format PDF",
         "text": "Exporter"
       },
@@ -3615,7 +3743,23 @@ static const Map<String,dynamic> fr = {
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",
-      "export_data_pdf": "Souhaitez-vous générer une version PDF de ces données?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Souhaitez-vous exporter ces données au format CSV?",
+            "excel": "Souhaitez-vous exporter ces données dans un fichier Excel?",
+            "pdf": "Souhaitez-vous exporter ces données au format PDF?",
+            "text": "Souhaitez-vous exporter ces données?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Souhaitez-vous générer une version CSV de ces données?",
+          "excel": "Souhaitez-vous générer une version Excel de ces données?",
+          "pdf": "Souhaitez-vous générer une version PDF de ces données?"
+        }
+      }
     },
     "select": {
       "country": "Sélectionnez un pays",
@@ -3754,6 +3898,8 @@ static const Map<String,dynamic> es = {
       "export": {
         "all": "Exportar todo",
         "as": "Exportar como",
+        "csv": "Exportar como CSV",
+        "excel": "Exportar como Excel",
         "pdf": "Exportar como PDF",
         "text": "Exportar"
       },
@@ -4067,7 +4213,23 @@ static const Map<String,dynamic> es = {
     },
     "question": {
       "are_you_sure": "¿Estás seguro?",
-      "export_data_pdf": "¿Desea generar una versión en PDF de estos datos?"
+      "export": {
+        "data": {
+          "as": {
+            "csv": "¿Desea exportar estos datos en formato CSV?",
+            "excel": "¿Desea exportar estos datos en un archivo Excel?",
+            "pdf": "¿Desea exportar estos datos en formato PDF?",
+            "text": "¿Desea exportar estos datos?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "¿Desea generar una versión en CSV de estos datos?",
+          "excel": "¿Desea generar una versión en Excel de estos datos?",
+          "pdf": "¿Desea generar una versión en PDF de estos datos?"
+        }
+      }
     },
     "select": {
       "country": "Seleccione un país",

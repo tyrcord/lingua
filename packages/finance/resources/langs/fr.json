@@ -191,8 +191,16 @@
         "price": "Prix d'achat",
         "price_per_unit": "Prix d'achat par unité"
       },
+      "cashflow": "Flux de trésorerie",
       "close_price": "Prix de clôture",
-      "compound_interest": "Intérêt composé",
+      "compound": {
+        "interest": "Intérêt composé",
+        "text": "Composé"
+      },
+      "compounding": {
+        "frequency": "Fréquence de capitalisation",
+        "text": "Capitalisation"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -204,6 +212,7 @@
       "costs": "Coûts",
       "currencies": "Devises",
       "currency": "Devise",
+      "deposits": "Dépôts",
       "discount": {
         "amount": "Montant de la remise",
         "label": "Remise",
@@ -211,6 +220,7 @@
         "rate": "Taux de remise"
       },
       "duration_years": "Durée en années",
+      "earnings": "Revenus",
       "ending": {
         "balance": "Solde final",
         "principal": "Capital final"
@@ -290,6 +300,7 @@
         "margin": "Marge opérationnelle",
         "profit": "Bénéfice d'exploitation"
       },
+      "period": "Période",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -420,13 +431,17 @@
           "profit_position": "Coûts totaux pour une position gagnante",
           "text": "Coûts totaux"
         },
+        "deposits": "Dépôts totaux",
+        "earnings": "Gains totaux",
+        "expenses": "Dépenses totales",
         "fee": "Frais totaux",
         "gain": "Gain total",
         "loss": "Perte totale",
         "return": "Rendement total",
         "revenue": "Revenu total",
         "tax": "Impôts totaux",
-        "text": "Total"
+        "text": "Total",
+        "withdrawals": "Retraits totaux"
       },
       "trade": {
         "size": {
@@ -446,7 +461,8 @@
         "amount": "Montant de la TVA",
         "rate": "Taux de TVA",
         "text": "TVA"
-      }
+      },
+      "withdrawals": "Retraits"
     },
     "message": {
       "last_updated_on": "Taux mis à jour le {date}"

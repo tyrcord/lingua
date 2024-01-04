@@ -191,8 +191,16 @@
         "price": "購入価格",
         "price_per_unit": "単位あたりの購入価格"
       },
+      "cashflow": "キャッシュフロー",
       "close_price": "終値",
-      "compound_interest": "複利",
+      "compound": {
+        "interest": "複利",
+        "text": "複合"
+      },
+      "compounding": {
+        "frequency": "複利の頻度",
+        "text": "複利"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -204,6 +212,7 @@
       "costs": "コスト",
       "currencies": "通貨",
       "currency": "通貨",
+      "deposits": "預金",
       "discount": {
         "amount": "割引額",
         "label": "割引",
@@ -211,6 +220,7 @@
         "rate": "割引率"
       },
       "duration_years": "年単位の期間",
+      "earnings": "収益",
       "ending": {
         "balance": "最終残高",
         "principal": "最終元本"
@@ -290,6 +300,7 @@
         "margin": "営業マージン",
         "profit": "営業利益"
       },
+      "period": "期間",
       "pivot_point": {
         "camarilla": "キャマリラ",
         "demark": "デマーク",
@@ -420,13 +431,17 @@
           "profit_position": "勝利したポジションの総コスト",
           "text": "総コスト"
         },
+        "deposits": "総預金",
+        "earnings": "総収益",
+        "expenses": "総支出",
         "fee": "合計手数料",
         "gain": "総利益",
         "loss": "総損失",
         "return": "総収益",
         "revenue": "総収入",
         "tax": "合計税金",
-        "text": "合計"
+        "text": "合計",
+        "withdrawals": "総引き出し"
       },
       "trade": {
         "size": {
@@ -446,7 +461,8 @@
         "amount": "VATの金額",
         "rate": "VATのレート",
         "text": "VAT"
-      }
+      },
+      "withdrawals": "引き出し"
     },
     "message": {
       "last_updated_on": "{date}に最後に更新されたレート"

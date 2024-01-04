@@ -191,8 +191,16 @@
         "price": "购买价格",
         "price_per_unit": "每单位购买价格"
       },
+      "cashflow": "现金流",
       "close_price": "收盘价",
-      "compound_interest": "复利",
+      "compound": {
+        "interest": "复合利息",
+        "text": "复合"
+      },
+      "compounding": {
+        "frequency": "复利频率",
+        "text": "复利"
+      },
       "cost": {
         "of": {
           "goods": {
@@ -204,6 +212,7 @@
       "costs": "成本",
       "currencies": "货币",
       "currency": "货币",
+      "deposits": "存款",
       "discount": {
         "amount": "折扣金额",
         "label": "折扣",
@@ -211,6 +220,7 @@
         "rate": "折扣率"
       },
       "duration_years": "年份持续时间",
+      "earnings": "收益",
       "ending": {
         "balance": "结余",
         "principal": "结余本金"
@@ -290,6 +300,7 @@
         "margin": "营业利润率",
         "profit": "营业利润"
       },
+      "period": "时期",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
@@ -420,13 +431,17 @@
           "profit_position": "盈利头寸的总成本",
           "text": "总成本"
         },
+        "deposits": "总存款",
+        "earnings": "总收益",
+        "expenses": "总支出",
         "fee": "总费用",
         "gain": "总盈利",
         "loss": "总亏损",
         "return": "总回报",
         "revenue": "总收入",
         "tax": "总税款",
-        "text": "总计"
+        "text": "总计",
+        "withdrawals": "总提款"
       },
       "trade": {
         "size": {
@@ -446,7 +461,8 @@
         "amount": "增值税金额",
         "rate": "增值税率",
         "text": "增值税"
-      }
+      },
+      "withdrawals": "提款"
     },
     "message": {
       "last_updated_on": "{date}最后更新的汇率"
