@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-01-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_calculator` - `v0.0.6`](#lingua_calculator---v006)
+ - [`lingua_core` - `v0.0.34`](#lingua_core---v0034)
+ - [`lingua_finance` - `v0.0.30`](#lingua_finance---v0030)
+ - [`lingua_number` - `v0.0.10+2`](#lingua_number---v00102)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `lingua_number` - `v0.0.10+2`
+
+---
+
+#### `lingua_calculator` - `v0.0.6`
+
+ - **FEAT**: update localization.
+
+#### `lingua_core` - `v0.0.34`
+
+ - **FEAT**: update localization.
+
+#### `lingua_finance` - `v0.0.30`
+
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+
+
 ## 2023-12-27
 
 ### Changes
