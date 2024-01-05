@@ -23,7 +23,8 @@ class FinanceCodegenLoader extends AssetLoader {
       "close_price_between_low_high_price": "收盘价必须在最低价和最高价之间。",
       "high_price_higher_low_price": "最高价必须超过最低价。",
       "open_price_between_low_high_price": "开盘价必须在最低价和最高价之间。",
-      "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。"
+      "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。",
+      "quote_unavailable": "无法检索{symbol}汇率。请稍后再试。"
     },
     "help": {
       "account_balance": {
@@ -533,7 +534,8 @@ static const Map<String,dynamic> ja = {
       "close_price_between_low_high_price": "終値は最低価格と最高価格の間である必要があります。",
       "high_price_higher_low_price": "最高価格は最低価格を上回る必要があります。",
       "open_price_between_low_high_price": "始値は最低価格と最高価格の間である必要があります。",
-      "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。"
+      "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。",
+      "quote_unavailable": "{symbol}の為替レートを取得できません。後ほど再試行してください。"
     },
     "help": {
       "account_balance": {
@@ -1043,7 +1045,8 @@ static const Map<String,dynamic> de = {
       "close_price_between_low_high_price": "Der Schlusskurs muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
       "high_price_higher_low_price": "Der höchste Preis muss über dem niedrigsten Preis liegen.",
       "open_price_between_low_high_price": "Der Eröffnungspreis muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
-      "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
+      "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut.",
+      "quote_unavailable": "Abruf des Wechselkurses für {symbol} nicht möglich. Bitte versuchen Sie es später erneut."
     },
     "help": {
       "account_balance": {
@@ -1553,7 +1556,8 @@ static const Map<String,dynamic> ru = {
       "close_price_between_low_high_price": "Цена закрытия должна находиться между самой низкой и самой высокой ценой.",
       "high_price_higher_low_price": "Самая высокая цена должна превышать самую низкую цену.",
       "open_price_between_low_high_price": "Цена открытия должна находиться между самой низкой и самой высокой ценой.",
-      "quote_refresh": "Не удалось обновить котировку выбранного финансового инструмента. Пожалуйста, попробуйте еще раз позже."
+      "quote_refresh": "Не удалось обновить котировку выбранного финансового инструмента. Пожалуйста, попробуйте еще раз позже.",
+      "quote_unavailable": "Не удается получить обменный курс {symbol}. Пожалуйста, попробуйте позже."
     },
     "help": {
       "account_balance": {
@@ -2063,7 +2067,8 @@ static const Map<String,dynamic> pt = {
       "close_price_between_low_high_price": "O preço de fechamento deve estar entre o preço mais baixo e o preço mais alto.",
       "high_price_higher_low_price": "O preço mais alto deve ser maior do que o preço mais baixo.",
       "open_price_between_low_high_price": "O preço de abertura deve estar entre o preço mais baixo e o preço mais alto.",
-      "quote_refresh": "A cotação do instrumento financeiro selecionado não pode ser atualizada. Por favor, tente novamente mais tarde."
+      "quote_refresh": "A cotação do instrumento financeiro selecionado não pode ser atualizada. Por favor, tente novamente mais tarde.",
+      "quote_unavailable": "Não é possível obter a taxa de câmbio do {symbol}. Por favor, tente novamente mais tarde."
     },
     "help": {
       "account_balance": {
@@ -2573,7 +2578,8 @@ static const Map<String,dynamic> en = {
       "close_price_between_low_high_price": "The closing price must be between the lowest price and the highest price.",
       "high_price_higher_low_price": "The highest price must exceed the lowest price.",
       "open_price_between_low_high_price": "The opening price must be between the lowest price and the highest price.",
-      "quote_refresh": "The quote for the selected financial instrument cannot be updated. Please try again later."
+      "quote_refresh": "The quote for the selected financial instrument cannot be updated. Please try again later.",
+      "quote_unavailable": "Unable to retrieve the {symbol} exchange rate. Please try again later."
     },
     "help": {
       "account_balance": {
@@ -3083,7 +3089,8 @@ static const Map<String,dynamic> it = {
       "close_price_between_low_high_price": "Il prezzo di chiusura deve essere compreso tra il prezzo più basso e il prezzo più alto.",
       "high_price_higher_low_price": "Il prezzo più alto deve superare il prezzo più basso.",
       "open_price_between_low_high_price": "Il prezzo di apertura deve essere compreso tra il prezzo più basso e il prezzo più alto.",
-      "quote_refresh": "La quotazione dello strumento finanziario selezionato non può essere aggiornata. Riprova più tardi."
+      "quote_refresh": "La quotazione dello strumento finanziario selezionato non può essere aggiornata. Riprova più tardi.",
+      "quote_unavailable": "Impossibile recuperare il tasso di cambio di {symbol}. Si prega di riprovare più tardi."
     },
     "help": {
       "account_balance": {
@@ -3593,7 +3600,8 @@ static const Map<String,dynamic> fr = {
       "close_price_between_low_high_price": "Le prix de clôture doit être compris entre le prix le plus bas et le prix le plus élevé.",
       "high_price_higher_low_price": "Le prix le plus élevé doit dépasser le prix le plus bas.",
       "open_price_between_low_high_price": "Le prix d'ouverture doit être compris entre le prix le plus bas et le prix le plus élevé.",
-      "quote_refresh": "La cotation de l'instrument financier sélectionné ne peut pas être actualisée. Veuillez réessayer ultérieurement."
+      "quote_refresh": "La cotation de l'instrument financier sélectionné ne peut pas être actualisée. Veuillez réessayer ultérieurement.",
+      "quote_unavailable": "Impossible de récupérer le taux de change de {symbol}. Veuillez réessayer plus tard."
     },
     "help": {
       "account_balance": {
@@ -4103,7 +4111,8 @@ static const Map<String,dynamic> es = {
       "close_price_between_low_high_price": "El precio de cierre debe estar entre el precio más bajo y el precio más alto.",
       "high_price_higher_low_price": "El precio más alto debe superar al precio más bajo.",
       "open_price_between_low_high_price": "El precio de apertura debe estar entre el precio más bajo y el precio más alto.",
-      "quote_refresh": "No se puede actualizar la cotización del instrumento financiero seleccionado. Por favor, inténtelo de nuevo más tarde."
+      "quote_refresh": "No se puede actualizar la cotización del instrumento financiero seleccionado. Por favor, inténtelo de nuevo más tarde.",
+      "quote_unavailable": "No se puede obtener el tipo de cambio de {symbol}. Por favor, inténtelo de nuevo más tarde."
     },
     "help": {
       "account_balance": {

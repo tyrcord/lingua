@@ -10,7 +10,8 @@
       "close_price_between_low_high_price": "終値は最低価格と最高価格の間である必要があります。",
       "high_price_higher_low_price": "最高価格は最低価格を上回る必要があります。",
       "open_price_between_low_high_price": "始値は最低価格と最高価格の間である必要があります。",
-      "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。"
+      "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。",
+      "quote_unavailable": "{symbol}の為替レートを取得できません。後ほど再試行してください。"
     },
     "help": {
       "account_balance": {

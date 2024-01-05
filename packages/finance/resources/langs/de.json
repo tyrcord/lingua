@@ -10,7 +10,8 @@
       "close_price_between_low_high_price": "Der Schlusskurs muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
       "high_price_higher_low_price": "Der höchste Preis muss über dem niedrigsten Preis liegen.",
       "open_price_between_low_high_price": "Der Eröffnungspreis muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
-      "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut."
+      "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut.",
+      "quote_unavailable": "Abruf des Wechselkurses für {symbol} nicht möglich. Bitte versuchen Sie es später erneut."
     },
     "help": {
       "account_balance": {

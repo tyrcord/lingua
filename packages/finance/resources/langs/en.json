@@ -10,7 +10,8 @@
       "close_price_between_low_high_price": "The closing price must be between the lowest price and the highest price.",
       "high_price_higher_low_price": "The highest price must exceed the lowest price.",
       "open_price_between_low_high_price": "The opening price must be between the lowest price and the highest price.",
-      "quote_refresh": "The quote for the selected financial instrument cannot be updated. Please try again later."
+      "quote_refresh": "The quote for the selected financial instrument cannot be updated. Please try again later.",
+      "quote_unavailable": "Unable to retrieve the {symbol} exchange rate. Please try again later."
     },
     "help": {
       "account_balance": {

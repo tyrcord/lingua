@@ -10,7 +10,8 @@
       "close_price_between_low_high_price": "收盘价必须在最低价和最高价之间。",
       "high_price_higher_low_price": "最高价必须超过最低价。",
       "open_price_between_low_high_price": "开盘价必须在最低价和最高价之间。",
-      "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。"
+      "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。",
+      "quote_unavailable": "无法检索{symbol}汇率。请稍后再试。"
     },
     "help": {
       "account_balance": {

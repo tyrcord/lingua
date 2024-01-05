@@ -9,6 +9,7 @@ abstract class FinanceLocaleKeys {
   static const finance_error_high_price_higher_low_price = 'finance.error.high_price_higher_low_price';
   static const finance_error_open_price_between_low_high_price = 'finance.error.open_price_between_low_high_price';
   static const finance_error_quote_refresh = 'finance.error.quote_refresh';
+  static const finance_error_quote_unavailable = 'finance.error.quote_unavailable';
   static const finance_help_account_balance_example = 'finance.help.account_balance.example';
   static const finance_help_account_balance_text = 'finance.help.account_balance.text';
   static const finance_help_account_currency_example = 'finance.help.account_currency.example';

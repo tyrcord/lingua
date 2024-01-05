@@ -10,7 +10,8 @@
       "close_price_between_low_high_price": "Le prix de clôture doit être compris entre le prix le plus bas et le prix le plus élevé.",
       "high_price_higher_low_price": "Le prix le plus élevé doit dépasser le prix le plus bas.",
       "open_price_between_low_high_price": "Le prix d'ouverture doit être compris entre le prix le plus bas et le prix le plus élevé.",
-      "quote_refresh": "La cotation de l'instrument financier sélectionné ne peut pas être actualisée. Veuillez réessayer ultérieurement."
+      "quote_refresh": "La cotation de l'instrument financier sélectionné ne peut pas être actualisée. Veuillez réessayer ultérieurement.",
+      "quote_unavailable": "Impossible de récupérer le taux de change de {symbol}. Veuillez réessayer plus tard."
     },
     "help": {
       "account_balance": {
