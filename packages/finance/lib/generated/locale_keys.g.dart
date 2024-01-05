@@ -70,6 +70,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_account_balance = 'finance.label.account.balance';
   static const finance_label_account_currency = 'finance.label.account.currency';
   static const finance_label_account_size = 'finance.label.account.size';
+  static const finance_label_additional_contributions = 'finance.label.additional.contributions';
   static const finance_label_additional_metrics = 'finance.label.additional.metrics';
   static const finance_label_additional_tax_amount = 'finance.label.additional_tax.amount';
   static const finance_label_additional_tax_rate = 'finance.label.additional_tax.rate';
@@ -107,6 +108,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_compound_text = 'finance.label.compound.text';
   static const finance_label_compounding_frequency = 'finance.label.compounding.frequency';
   static const finance_label_compounding_text = 'finance.label.compounding.text';
+  static const finance_label_contribution_frequency = 'finance.label.contribution_frequency';
   static const finance_label_cost_of_goods_sold = 'finance.label.cost.of.goods.sold';
   static const finance_label_cost_of_investment = 'finance.label.cost.of.investment';
   static const finance_label_costs = 'finance.label.costs';
@@ -203,6 +205,8 @@ abstract class FinanceLocaleKeys {
   static const finance_label_purchase_price = 'finance.label.purchase.price';
   static const finance_label_purchase_price_per_unit = 'finance.label.purchase.price_per_unit';
   static const finance_label_rate = 'finance.label.rate';
+  static const finance_label_rate_of_return_all_time = 'finance.label.rate_of_return.all_time';
+  static const finance_label_rate_of_return_text = 'finance.label.rate_of_return.text';
   static const finance_label_real_time_quotes = 'finance.label.real_time_quotes';
   static const finance_label_regular_addition = 'finance.label.regular_addition';
   static const finance_label_required_margin = 'finance.label.required_margin';
@@ -210,6 +214,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_resistances = 'finance.label.resistances';
   static const finance_label_retained_earnings = 'finance.label.retained_earnings';
   static const finance_label_retracement = 'finance.label.retracement';
+  static const finance_label_return_frequency = 'finance.label.return_frequency';
   static const finance_label_return_on_investment = 'finance.label.return_on_investment';
   static const finance_label_revenue = 'finance.label.revenue';
   static const finance_label_risk_amount = 'finance.label.risk.amount';
@@ -288,7 +293,12 @@ abstract class FinanceLocaleKeys {
   static const finance_label_vat_amount = 'finance.label.vat.amount';
   static const finance_label_vat_rate = 'finance.label.vat.rate';
   static const finance_label_vat_text = 'finance.label.vat.text';
-  static const finance_label_withdrawals = 'finance.label.withdrawals';
+  static const finance_label_withdrawal_amount = 'finance.label.withdrawal.amount';
+  static const finance_label_withdrawal_frequency = 'finance.label.withdrawal.frequency';
+  static const finance_label_withdrawal_text = 'finance.label.withdrawal.text';
+  static const finance_label_withdrawals_amount = 'finance.label.withdrawals.amount';
+  static const finance_label_withdrawals_frequency = 'finance.label.withdrawals.frequency';
+  static const finance_label_withdrawals_text = 'finance.label.withdrawals.text';
   static const finance_message_last_updated_on = 'finance.message.last_updated_on';
   static const finance_select_account_currency = 'finance.select.account_currency';
   static const finance_select_currency = 'finance.select.currency';

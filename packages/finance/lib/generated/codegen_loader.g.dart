@@ -150,6 +150,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "size": "账户规模"
       },
       "additional": {
+        "contributions": "附加贡献",
         "metrics": "附加指标"
       },
       "additional_tax": {
@@ -214,6 +215,7 @@ class FinanceCodegenLoader extends AssetLoader {
         "frequency": "复利频率",
         "text": "复利"
       },
+      "contribution_frequency": "投资频率",
       "cost": {
         "of": {
           "goods": {
@@ -354,6 +356,10 @@ class FinanceCodegenLoader extends AssetLoader {
         "price_per_unit": "每单位采购价格"
       },
       "rate": "税率",
+      "rate_of_return": {
+        "all_time": "历史回报率",
+        "text": "回报率"
+      },
       "real_time_quotes": "实时行情",
       "regular_addition": "定期增加",
       "required_margin": "所需保证金",
@@ -361,6 +367,7 @@ class FinanceCodegenLoader extends AssetLoader {
       "resistances": "阻力",
       "retained_earnings": "留存收益",
       "retracement": "回撤",
+      "return_frequency": "回报频率",
       "return_on_investment": "投资回报率",
       "revenue": "收入",
       "risk": {
@@ -475,7 +482,16 @@ class FinanceCodegenLoader extends AssetLoader {
         "rate": "增值税率",
         "text": "增值税"
       },
-      "withdrawals": "提款"
+      "withdrawal": {
+        "amount": "提款金额",
+        "frequency": "提款频率",
+        "text": "提款"
+      },
+      "withdrawals": {
+        "amount": "提款总额",
+        "frequency": "提款频率",
+        "text": "提款总计"
+      }
     },
     "message": {
       "last_updated_on": "{date}最后更新的汇率"
@@ -632,6 +648,7 @@ static const Map<String,dynamic> ja = {
         "size": "口座のサイズ"
       },
       "additional": {
+        "contributions": "追加の貢献",
         "metrics": "追加のメトリクス"
       },
       "additional_tax": {
@@ -696,6 +713,7 @@ static const Map<String,dynamic> ja = {
         "frequency": "複利の頻度",
         "text": "複利"
       },
+      "contribution_frequency": "貢献頻度",
       "cost": {
         "of": {
           "goods": {
@@ -836,6 +854,10 @@ static const Map<String,dynamic> ja = {
         "price_per_unit": "単位あたりの購入価格"
       },
       "rate": "レート",
+      "rate_of_return": {
+        "all_time": "全期間のリターン率",
+        "text": "リターン率"
+      },
       "real_time_quotes": "リアルタイムの見積もり",
       "regular_addition": "定期的な追加",
       "required_margin": "必要な証拠金",
@@ -843,6 +865,7 @@ static const Map<String,dynamic> ja = {
       "resistances": "レジスタンス",
       "retained_earnings": "剰余金",
       "retracement": "リトレースメント",
+      "return_frequency": "リターン頻度",
       "return_on_investment": "投資利益率",
       "revenue": "収益",
       "risk": {
@@ -957,7 +980,16 @@ static const Map<String,dynamic> ja = {
         "rate": "VATのレート",
         "text": "VAT"
       },
-      "withdrawals": "引き出し"
+      "withdrawal": {
+        "amount": "出金額",
+        "frequency": "出金頻度",
+        "text": "出金"
+      },
+      "withdrawals": {
+        "amount": "出金額合計",
+        "frequency": "出金の頻度",
+        "text": "出金合計"
+      }
     },
     "message": {
       "last_updated_on": "{date}に最後に更新されたレート"
@@ -1114,6 +1146,7 @@ static const Map<String,dynamic> de = {
         "size": "Kontogröße"
       },
       "additional": {
+        "contributions": "Zusätzliche Beiträge",
         "metrics": "Zusätzliche metriken"
       },
       "additional_tax": {
@@ -1178,6 +1211,7 @@ static const Map<String,dynamic> de = {
         "frequency": "Häufigkeit der Zinseszinsbildung",
         "text": "Zinseszins"
       },
+      "contribution_frequency": "Häufigkeit der Beiträge",
       "cost": {
         "of": {
           "goods": {
@@ -1318,6 +1352,10 @@ static const Map<String,dynamic> de = {
         "price_per_unit": "Ankaufspreis pro einheit"
       },
       "rate": "Satz",
+      "rate_of_return": {
+        "all_time": "Rendite über die gesamte Laufzeit",
+        "text": "Rendite"
+      },
       "real_time_quotes": "Echtzeitkurse",
       "regular_addition": "Regelmäßige hinzufügung",
       "required_margin": "Erforderliche marge",
@@ -1325,6 +1363,7 @@ static const Map<String,dynamic> de = {
       "resistances": "Widerstände",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
+      "return_frequency": "Renditehäufigkeit",
       "return_on_investment": "Return on investment",
       "revenue": "Einnahmen",
       "risk": {
@@ -1439,7 +1478,16 @@ static const Map<String,dynamic> de = {
         "rate": "MwSt satz",
         "text": "MwSt"
       },
-      "withdrawals": "Abhebungen"
+      "withdrawal": {
+        "amount": "Auszahlungsbetrag",
+        "frequency": "Auszahlungshäufigkeit",
+        "text": "Auszahlung"
+      },
+      "withdrawals": {
+        "amount": "Betrag der Auszahlungen",
+        "frequency": "Häufigkeit der Auszahlungen",
+        "text": "Auszahlungen"
+      }
     },
     "message": {
       "last_updated_on": "Rates last updated on {date}"
@@ -1596,6 +1644,7 @@ static const Map<String,dynamic> ru = {
         "size": "Размер счета"
       },
       "additional": {
+        "contributions": "Дополнительные взносы",
         "metrics": "Дополнительные метрики"
       },
       "additional_tax": {
@@ -1660,6 +1709,7 @@ static const Map<String,dynamic> ru = {
         "frequency": "Частота начисления сложных процентов",
         "text": "Капитализация"
       },
+      "contribution_frequency": "Частота взносов",
       "cost": {
         "of": {
           "goods": {
@@ -1800,6 +1850,10 @@ static const Map<String,dynamic> ru = {
         "price_per_unit": "Цена приобретения за единицу"
       },
       "rate": "Ставка",
+      "rate_of_return": {
+        "all_time": "Доходность за все время",
+        "text": "Ставка доходности"
+      },
       "real_time_quotes": "Котировки в режиме реального времени",
       "regular_addition": "Регулярное дополнение",
       "required_margin": "Требуемая маржа",
@@ -1807,6 +1861,7 @@ static const Map<String,dynamic> ru = {
       "resistances": "Сопротивления",
       "retained_earnings": "Нераспределенная прибыль",
       "retracement": "Ретрейсмент",
+      "return_frequency": "Частота доходности",
       "return_on_investment": "Рентабельность инвестиций",
       "revenue": "Выручка",
       "risk": {
@@ -1921,7 +1976,16 @@ static const Map<String,dynamic> ru = {
         "rate": "Ставка НДС",
         "text": "НДС"
       },
-      "withdrawals": "Снятия"
+      "withdrawal": {
+        "amount": "Сумма вывода",
+        "frequency": "Частота вывода",
+        "text": "Вывод"
+      },
+      "withdrawals": {
+        "amount": "Сумма выводов",
+        "frequency": "Частота выводов",
+        "text": "Выводы"
+      }
     },
     "message": {
       "last_updated_on": "Курсы последний раз обновлялись {date}"
@@ -2078,6 +2142,7 @@ static const Map<String,dynamic> pt = {
         "size": "Tamanho da conta"
       },
       "additional": {
+        "contributions": "Contribuições adicionais",
         "metrics": "Métricas adicionais"
       },
       "additional_tax": {
@@ -2142,6 +2207,7 @@ static const Map<String,dynamic> pt = {
         "frequency": "Frequência de capitalização",
         "text": "Capitalização"
       },
+      "contribution_frequency": "Frequência de contribuição",
       "cost": {
         "of": {
           "goods": {
@@ -2282,6 +2348,10 @@ static const Map<String,dynamic> pt = {
         "price_per_unit": "Preço de aquisição por unidade"
       },
       "rate": "Taxa",
+      "rate_of_return": {
+        "all_time": "Taxa de retorno de todos os tempos",
+        "text": "Taxa de retorno"
+      },
       "real_time_quotes": "Cotações em tempo real",
       "regular_addition": "Adição regular",
       "required_margin": "Margem exigida",
@@ -2289,6 +2359,7 @@ static const Map<String,dynamic> pt = {
       "resistances": "Resistências",
       "retained_earnings": "Lucros retidos",
       "retracement": "Retração",
+      "return_frequency": "Frequência de retorno",
       "return_on_investment": "Retorno sobre o investimento",
       "revenue": "Receita",
       "risk": {
@@ -2403,7 +2474,16 @@ static const Map<String,dynamic> pt = {
         "rate": "Taxa de IVA",
         "text": "IVA"
       },
-      "withdrawals": "Levantamentos"
+      "withdrawal": {
+        "amount": "Montante do levantamento",
+        "frequency": "Frequência de levantamento",
+        "text": "Levantamento"
+      },
+      "withdrawals": {
+        "amount": "Montante dos levantamentos",
+        "frequency": "Frequência dos levantamentos",
+        "text": "Levantamentos"
+      }
     },
     "message": {
       "last_updated_on": "Taxas atualizadas pela última vez em {date}"
@@ -2560,6 +2640,7 @@ static const Map<String,dynamic> en = {
         "size": "Account size"
       },
       "additional": {
+        "contributions": "Additional contributions",
         "metrics": "Additional metrics"
       },
       "additional_tax": {
@@ -2624,6 +2705,7 @@ static const Map<String,dynamic> en = {
         "frequency": "Compounding frequency",
         "text": "Compounding"
       },
+      "contribution_frequency": "Contribution frequency",
       "cost": {
         "of": {
           "goods": {
@@ -2764,6 +2846,10 @@ static const Map<String,dynamic> en = {
         "price_per_unit": "Purchase price per unit"
       },
       "rate": "Rate",
+      "rate_of_return": {
+        "all_time": "All-time rate of return",
+        "text": "Rate of return"
+      },
       "real_time_quotes": "Real-time quotes",
       "regular_addition": "Regular addition",
       "required_margin": "Required margin",
@@ -2771,6 +2857,7 @@ static const Map<String,dynamic> en = {
       "resistances": "Resistances",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
+      "return_frequency": "Return frequency",
       "return_on_investment": "Return on investment",
       "revenue": "Revenue",
       "risk": {
@@ -2885,7 +2972,16 @@ static const Map<String,dynamic> en = {
         "rate": "VAT rate",
         "text": "VAT"
       },
-      "withdrawals": "Withdrawals"
+      "withdrawal": {
+        "amount": "Withdrawal amount",
+        "frequency": "Withdrawal frequency",
+        "text": "Withdrawal"
+      },
+      "withdrawals": {
+        "amount": "Withdrawals amount",
+        "frequency": "Withdrawals frequency",
+        "text": "Withdrawals"
+      }
     },
     "message": {
       "last_updated_on": "Rates last updated on {date}"
@@ -3042,6 +3138,7 @@ static const Map<String,dynamic> it = {
         "size": "Dimensione conto"
       },
       "additional": {
+        "contributions": "Contributi aggiuntivi",
         "metrics": "Metriche aggiuntive"
       },
       "additional_tax": {
@@ -3106,6 +3203,7 @@ static const Map<String,dynamic> it = {
         "frequency": "Frequenza di capitalizzazione",
         "text": "Capitalizzazione"
       },
+      "contribution_frequency": "Frequenza dei contributi",
       "cost": {
         "of": {
           "goods": {
@@ -3246,6 +3344,10 @@ static const Map<String,dynamic> it = {
         "price_per_unit": "Prezzo d'acquisizione per unità"
       },
       "rate": "Tasso",
+      "rate_of_return": {
+        "all_time": "Tasso di rendimento complessivo",
+        "text": "Tasso di rendimento"
+      },
       "real_time_quotes": "Quotazioni in tempo reale",
       "regular_addition": "Aggiunta regolare",
       "required_margin": "Margine richiesto",
@@ -3253,6 +3355,7 @@ static const Map<String,dynamic> it = {
       "resistances": "Resistenze",
       "retained_earnings": "Utili non distribuiti",
       "retracement": "Ritracimento",
+      "return_frequency": "Frequenza di rendimento",
       "return_on_investment": "Rendimento dell'investimento",
       "revenue": "Entrate",
       "risk": {
@@ -3367,7 +3470,16 @@ static const Map<String,dynamic> it = {
         "rate": "Tasso dell'IVA",
         "text": "IVA"
       },
-      "withdrawals": "Prelievi"
+      "withdrawal": {
+        "amount": "Importo del prelievo",
+        "frequency": "Frequenza di prelievo",
+        "text": "Prelievo"
+      },
+      "withdrawals": {
+        "amount": "Importo dei prelievi",
+        "frequency": "Frequenza dei prelievi",
+        "text": "Prelievi"
+      }
     },
     "message": {
       "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"
@@ -3524,6 +3636,7 @@ static const Map<String,dynamic> fr = {
         "size": "Taille du compte"
       },
       "additional": {
+        "contributions": "Contributions supplémentaires",
         "metrics": "Métriques supplémentaires"
       },
       "additional_tax": {
@@ -3588,6 +3701,7 @@ static const Map<String,dynamic> fr = {
         "frequency": "Fréquence de capitalisation",
         "text": "Capitalisation"
       },
+      "contribution_frequency": "Fréquence de contribution",
       "cost": {
         "of": {
           "goods": {
@@ -3728,6 +3842,10 @@ static const Map<String,dynamic> fr = {
         "price_per_unit": "Prix d'acquisition par unité"
       },
       "rate": "Taux",
+      "rate_of_return": {
+        "all_time": "Taux de rendement global",
+        "text": "Taux de rendement"
+      },
       "real_time_quotes": "Cotations en temps réel",
       "regular_addition": "Ajout régulier",
       "required_margin": "Marge requise",
@@ -3735,6 +3853,7 @@ static const Map<String,dynamic> fr = {
       "resistances": "Résistances",
       "retained_earnings": "Bénéfices non distribués",
       "retracement": "Retracement",
+      "return_frequency": "Fréquence de rendement",
       "return_on_investment": "Retour sur investissement",
       "revenue": "Revenu",
       "risk": {
@@ -3849,7 +3968,16 @@ static const Map<String,dynamic> fr = {
         "rate": "Taux de TVA",
         "text": "TVA"
       },
-      "withdrawals": "Retraits"
+      "withdrawal": {
+        "amount": "Montant du retrait",
+        "frequency": "Fréquence de retrait",
+        "text": "Retrait"
+      },
+      "withdrawals": {
+        "amount": "Montant des retraits",
+        "frequency": "Fréquences des retraits",
+        "text": "Retraits"
+      }
     },
     "message": {
       "last_updated_on": "Taux mis à jour le {date}"
@@ -4006,6 +4134,7 @@ static const Map<String,dynamic> es = {
         "size": "Tamaño de la cuenta"
       },
       "additional": {
+        "contributions": "Contribuciones adicionales",
         "metrics": "Métricas adicionales"
       },
       "additional_tax": {
@@ -4070,6 +4199,7 @@ static const Map<String,dynamic> es = {
         "frequency": "Frecuencia de capitalización",
         "text": "Capitalización"
       },
+      "contribution_frequency": "Frecuencia de contribución",
       "cost": {
         "of": {
           "goods": {
@@ -4210,6 +4340,10 @@ static const Map<String,dynamic> es = {
         "price_per_unit": "Precio de adquisición por unidad"
       },
       "rate": "Tasa",
+      "rate_of_return": {
+        "all_time": "Tasa de retorno de todos los tiempos",
+        "text": "Tasa de retorno"
+      },
       "real_time_quotes": "Cotizaciones en tiempo real",
       "regular_addition": "Aportación regular",
       "required_margin": "Margen requerido",
@@ -4217,6 +4351,7 @@ static const Map<String,dynamic> es = {
       "resistances": "Resistencias",
       "retained_earnings": "Beneficios retenidos",
       "retracement": "Retracción",
+      "return_frequency": "Frecuencia de retorno",
       "return_on_investment": "Retorno de la inversión",
       "revenue": "Ingresos",
       "risk": {
@@ -4331,7 +4466,16 @@ static const Map<String,dynamic> es = {
         "rate": "Tasa de IVA",
         "text": "IVA"
       },
-      "withdrawals": "Retiros"
+      "withdrawal": {
+        "amount": "Cantidad de retiro",
+        "frequency": "Frecuencia de retiro",
+        "text": "Retiro"
+      },
+      "withdrawals": {
+        "amount": "Cantidad de retiros",
+        "frequency": "Frecuencia de retiros",
+        "text": "Retiros"
+      }
     },
     "message": {
       "last_updated_on": "Tasas actualizadas por última vez el {date}"

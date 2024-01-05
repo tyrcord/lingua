@@ -137,6 +137,7 @@
         "size": "账户规模"
       },
       "additional": {
+        "contributions": "附加贡献",
         "metrics": "附加指标"
       },
       "additional_tax": {
@@ -201,6 +202,7 @@
         "frequency": "复利频率",
         "text": "复利"
       },
+      "contribution_frequency": "投资频率",
       "cost": {
         "of": {
           "goods": {
@@ -341,6 +343,10 @@
         "price_per_unit": "每单位采购价格"
       },
       "rate": "税率",
+      "rate_of_return": {
+        "all_time": "历史回报率",
+        "text": "回报率"
+      },
       "real_time_quotes": "实时行情",
       "regular_addition": "定期增加",
       "required_margin": "所需保证金",
@@ -348,6 +354,7 @@
       "resistances": "阻力",
       "retained_earnings": "留存收益",
       "retracement": "回撤",
+      "return_frequency": "回报频率",
       "return_on_investment": "投资回报率",
       "revenue": "收入",
       "risk": {
@@ -462,7 +469,16 @@
         "rate": "增值税率",
         "text": "增值税"
       },
-      "withdrawals": "提款"
+      "withdrawal": {
+        "amount": "提款金额",
+        "frequency": "提款频率",
+        "text": "提款"
+      },
+      "withdrawals": {
+        "amount": "提款总额",
+        "frequency": "提款频率",
+        "text": "提款总计"
+      }
     },
     "message": {
       "last_updated_on": "{date}最后更新的汇率"

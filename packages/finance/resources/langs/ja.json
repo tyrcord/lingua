@@ -137,6 +137,7 @@
         "size": "口座のサイズ"
       },
       "additional": {
+        "contributions": "追加の貢献",
         "metrics": "追加のメトリクス"
       },
       "additional_tax": {
@@ -201,6 +202,7 @@
         "frequency": "複利の頻度",
         "text": "複利"
       },
+      "contribution_frequency": "貢献頻度",
       "cost": {
         "of": {
           "goods": {
@@ -341,6 +343,10 @@
         "price_per_unit": "単位あたりの購入価格"
       },
       "rate": "レート",
+      "rate_of_return": {
+        "all_time": "全期間のリターン率",
+        "text": "リターン率"
+      },
       "real_time_quotes": "リアルタイムの見積もり",
       "regular_addition": "定期的な追加",
       "required_margin": "必要な証拠金",
@@ -348,6 +354,7 @@
       "resistances": "レジスタンス",
       "retained_earnings": "剰余金",
       "retracement": "リトレースメント",
+      "return_frequency": "リターン頻度",
       "return_on_investment": "投資利益率",
       "revenue": "収益",
       "risk": {
@@ -462,7 +469,16 @@
         "rate": "VATのレート",
         "text": "VAT"
       },
-      "withdrawals": "引き出し"
+      "withdrawal": {
+        "amount": "出金額",
+        "frequency": "出金頻度",
+        "text": "出金"
+      },
+      "withdrawals": {
+        "amount": "出金額合計",
+        "frequency": "出金の頻度",
+        "text": "出金合計"
+      }
     },
     "message": {
       "last_updated_on": "{date}に最後に更新されたレート"

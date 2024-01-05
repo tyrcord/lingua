@@ -137,6 +137,7 @@
         "size": "Taille du compte"
       },
       "additional": {
+        "contributions": "Contributions supplémentaires",
         "metrics": "Métriques supplémentaires"
       },
       "additional_tax": {
@@ -201,6 +202,7 @@
         "frequency": "Fréquence de capitalisation",
         "text": "Capitalisation"
       },
+      "contribution_frequency": "Fréquence de contribution",
       "cost": {
         "of": {
           "goods": {
@@ -341,6 +343,10 @@
         "price_per_unit": "Prix d'acquisition par unité"
       },
       "rate": "Taux",
+      "rate_of_return": {
+        "all_time": "Taux de rendement global",
+        "text": "Taux de rendement"
+      },
       "real_time_quotes": "Cotations en temps réel",
       "regular_addition": "Ajout régulier",
       "required_margin": "Marge requise",
@@ -348,6 +354,7 @@
       "resistances": "Résistances",
       "retained_earnings": "Bénéfices non distribués",
       "retracement": "Retracement",
+      "return_frequency": "Fréquence de rendement",
       "return_on_investment": "Retour sur investissement",
       "revenue": "Revenu",
       "risk": {
@@ -462,7 +469,16 @@
         "rate": "Taux de TVA",
         "text": "TVA"
       },
-      "withdrawals": "Retraits"
+      "withdrawal": {
+        "amount": "Montant du retrait",
+        "frequency": "Fréquence de retrait",
+        "text": "Retrait"
+      },
+      "withdrawals": {
+        "amount": "Montant des retraits",
+        "frequency": "Fréquences des retraits",
+        "text": "Retraits"
+      }
     },
     "message": {
       "last_updated_on": "Taux mis à jour le {date}"

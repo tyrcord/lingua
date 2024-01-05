@@ -137,6 +137,7 @@
         "size": "Dimensione conto"
       },
       "additional": {
+        "contributions": "Contributi aggiuntivi",
         "metrics": "Metriche aggiuntive"
       },
       "additional_tax": {
@@ -201,6 +202,7 @@
         "frequency": "Frequenza di capitalizzazione",
         "text": "Capitalizzazione"
       },
+      "contribution_frequency": "Frequenza dei contributi",
       "cost": {
         "of": {
           "goods": {
@@ -341,6 +343,10 @@
         "price_per_unit": "Prezzo d'acquisizione per unità"
       },
       "rate": "Tasso",
+      "rate_of_return": {
+        "all_time": "Tasso di rendimento complessivo",
+        "text": "Tasso di rendimento"
+      },
       "real_time_quotes": "Quotazioni in tempo reale",
       "regular_addition": "Aggiunta regolare",
       "required_margin": "Margine richiesto",
@@ -348,6 +354,7 @@
       "resistances": "Resistenze",
       "retained_earnings": "Utili non distribuiti",
       "retracement": "Ritracimento",
+      "return_frequency": "Frequenza di rendimento",
       "return_on_investment": "Rendimento dell'investimento",
       "revenue": "Entrate",
       "risk": {
@@ -462,7 +469,16 @@
         "rate": "Tasso dell'IVA",
         "text": "IVA"
       },
-      "withdrawals": "Prelievi"
+      "withdrawal": {
+        "amount": "Importo del prelievo",
+        "frequency": "Frequenza di prelievo",
+        "text": "Prelievo"
+      },
+      "withdrawals": {
+        "amount": "Importo dei prelievi",
+        "frequency": "Frequenza dei prelievi",
+        "text": "Prelievi"
+      }
     },
     "message": {
       "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"

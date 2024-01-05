@@ -137,6 +137,7 @@
         "size": "Account size"
       },
       "additional": {
+        "contributions": "Additional contributions",
         "metrics": "Additional metrics"
       },
       "additional_tax": {
@@ -201,6 +202,7 @@
         "frequency": "Compounding frequency",
         "text": "Compounding"
       },
+      "contribution_frequency": "Contribution frequency",
       "cost": {
         "of": {
           "goods": {
@@ -341,6 +343,10 @@
         "price_per_unit": "Purchase price per unit"
       },
       "rate": "Rate",
+      "rate_of_return": {
+        "all_time": "All-time rate of return",
+        "text": "Rate of return"
+      },
       "real_time_quotes": "Real-time quotes",
       "regular_addition": "Regular addition",
       "required_margin": "Required margin",
@@ -348,6 +354,7 @@
       "resistances": "Resistances",
       "retained_earnings": "Retained earnings",
       "retracement": "Retracement",
+      "return_frequency": "Return frequency",
       "return_on_investment": "Return on investment",
       "revenue": "Revenue",
       "risk": {
@@ -462,7 +469,16 @@
         "rate": "VAT rate",
         "text": "VAT"
       },
-      "withdrawals": "Withdrawals"
+      "withdrawal": {
+        "amount": "Withdrawal amount",
+        "frequency": "Withdrawal frequency",
+        "text": "Withdrawal"
+      },
+      "withdrawals": {
+        "amount": "Withdrawals amount",
+        "frequency": "Withdrawals frequency",
+        "text": "Withdrawals"
+      }
     },
     "message": {
       "last_updated_on": "Rates last updated on {date}"

@@ -137,6 +137,7 @@
         "size": "Размер счета"
       },
       "additional": {
+        "contributions": "Дополнительные взносы",
         "metrics": "Дополнительные метрики"
       },
       "additional_tax": {
@@ -201,6 +202,7 @@
         "frequency": "Частота начисления сложных процентов",
         "text": "Капитализация"
       },
+      "contribution_frequency": "Частота взносов",
       "cost": {
         "of": {
           "goods": {
@@ -341,6 +343,10 @@
         "price_per_unit": "Цена приобретения за единицу"
       },
       "rate": "Ставка",
+      "rate_of_return": {
+        "all_time": "Доходность за все время",
+        "text": "Ставка доходности"
+      },
       "real_time_quotes": "Котировки в режиме реального времени",
       "regular_addition": "Регулярное дополнение",
       "required_margin": "Требуемая маржа",
@@ -348,6 +354,7 @@
       "resistances": "Сопротивления",
       "retained_earnings": "Нераспределенная прибыль",
       "retracement": "Ретрейсмент",
+      "return_frequency": "Частота доходности",
       "return_on_investment": "Рентабельность инвестиций",
       "revenue": "Выручка",
       "risk": {
@@ -462,7 +469,16 @@
         "rate": "Ставка НДС",
         "text": "НДС"
       },
-      "withdrawals": "Снятия"
+      "withdrawal": {
+        "amount": "Сумма вывода",
+        "frequency": "Частота вывода",
+        "text": "Вывод"
+      },
+      "withdrawals": {
+        "amount": "Сумма выводов",
+        "frequency": "Частота выводов",
+        "text": "Выводы"
+      }
     },
     "message": {
       "last_updated_on": "Курсы последний раз обновлялись {date}"
