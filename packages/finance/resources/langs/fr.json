@@ -159,7 +159,8 @@
         "after_fee": "Montant après frais",
         "before_fee": "Montant avant frais",
         "fee": "Montant des frais",
-        "text": "Montant"
+        "text": "Montant",
+        "type": "Type de montant"
       },
       "amount_at_risk": "Montant à risque",
       "annual_contribution": "Contribution annuelle",

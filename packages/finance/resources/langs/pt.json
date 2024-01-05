@@ -147,7 +147,7 @@
       },
       "after": {
         "fee": {
-          "amount": "Quantidade após taxas",
+          "amount": "Montante após taxas",
           "price": "Preço após taxas"
         },
         "vat": {
@@ -156,21 +156,22 @@
         }
       },
       "amount": {
-        "after_fee": "Quantidade após taxas",
-        "before_fee": "Quantidade antes das taxas",
-        "fee": "Quantidade de taxa",
-        "text": "Quantidade"
+        "after_fee": "Montante após taxas",
+        "before_fee": "Montante antes das taxas",
+        "fee": "Montante de taxa",
+        "text": "Montante",
+        "type": "Tipo de montante"
       },
       "amount_at_risk": "Valor em risco",
       "annual_contribution": "Contribuição anual",
       "average_annual_return": "Retorno anual médio",
       "before": {
         "fee": {
-          "amount": "Quantidade antes das taxas",
+          "amount": "Montante antes das taxas",
           "price": "Preço antes das taxas"
         },
         "vat": {
-          "amount": "Quantidade antes do IVA",
+          "amount": "Montante antes do IVA",
           "price": "Preço antes do IVA"
         }
       },

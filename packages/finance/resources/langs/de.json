@@ -159,7 +159,8 @@
         "after_fee": "Betrag nach gebühren",
         "before_fee": "Betrag vor gebühren",
         "fee": "Gebührenbetrag",
-        "text": "Betrag"
+        "text": "Betrag",
+        "type": "Betragstyp"
       },
       "amount_at_risk": "Risikobetrag",
       "annual_contribution": "Jährlicher beitrag",

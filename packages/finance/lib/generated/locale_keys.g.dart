@@ -83,6 +83,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_amount_before_fee = 'finance.label.amount.before_fee';
   static const finance_label_amount_fee = 'finance.label.amount.fee';
   static const finance_label_amount_text = 'finance.label.amount.text';
+  static const finance_label_amount_type = 'finance.label.amount.type';
   static const finance_label_amount_at_risk = 'finance.label.amount_at_risk';
   static const finance_label_annual_contribution = 'finance.label.annual_contribution';
   static const finance_label_average_annual_return = 'finance.label.average_annual_return';

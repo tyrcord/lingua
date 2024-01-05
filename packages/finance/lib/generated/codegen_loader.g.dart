@@ -172,7 +172,8 @@ class FinanceCodegenLoader extends AssetLoader {
         "after_fee": "扣除费用后的金额",
         "before_fee": "扣费前的金额",
         "fee": "费用金额",
-        "text": "金额"
+        "text": "金额",
+        "type": "金额类型"
       },
       "amount_at_risk": "风险金额",
       "annual_contribution": "年度贡献",
@@ -681,7 +682,8 @@ static const Map<String,dynamic> ja = {
         "after_fee": "手数料後の金額",
         "before_fee": "手数料前の金額",
         "fee": "手数料の金額",
-        "text": "金額"
+        "text": "金額",
+        "type": "金額の種類"
       },
       "amount_at_risk": "リスク金額",
       "annual_contribution": "年間の貢献",
@@ -1190,7 +1192,8 @@ static const Map<String,dynamic> de = {
         "after_fee": "Betrag nach gebühren",
         "before_fee": "Betrag vor gebühren",
         "fee": "Gebührenbetrag",
-        "text": "Betrag"
+        "text": "Betrag",
+        "type": "Betragstyp"
       },
       "amount_at_risk": "Risikobetrag",
       "annual_contribution": "Jährlicher beitrag",
@@ -1699,7 +1702,8 @@ static const Map<String,dynamic> ru = {
         "after_fee": "Сумма после комиссии",
         "before_fee": "Сумма до комиссии",
         "fee": "Сумма комиссии",
-        "text": "Сумма"
+        "text": "Сумма",
+        "type": "Тип суммы"
       },
       "amount_at_risk": "Сумма риска",
       "annual_contribution": "Годовой взнос",
@@ -2196,7 +2200,7 @@ static const Map<String,dynamic> pt = {
       },
       "after": {
         "fee": {
-          "amount": "Quantidade após taxas",
+          "amount": "Montante após taxas",
           "price": "Preço após taxas"
         },
         "vat": {
@@ -2205,21 +2209,22 @@ static const Map<String,dynamic> pt = {
         }
       },
       "amount": {
-        "after_fee": "Quantidade após taxas",
-        "before_fee": "Quantidade antes das taxas",
-        "fee": "Quantidade de taxa",
-        "text": "Quantidade"
+        "after_fee": "Montante após taxas",
+        "before_fee": "Montante antes das taxas",
+        "fee": "Montante de taxa",
+        "text": "Montante",
+        "type": "Tipo de montante"
       },
       "amount_at_risk": "Valor em risco",
       "annual_contribution": "Contribuição anual",
       "average_annual_return": "Retorno anual médio",
       "before": {
         "fee": {
-          "amount": "Quantidade antes das taxas",
+          "amount": "Montante antes das taxas",
           "price": "Preço antes das taxas"
         },
         "vat": {
-          "amount": "Quantidade antes do IVA",
+          "amount": "Montante antes do IVA",
           "price": "Preço antes do IVA"
         }
       },
@@ -2717,7 +2722,8 @@ static const Map<String,dynamic> en = {
         "after_fee": "Amount after fees",
         "before_fee": "Amount before fees",
         "fee": "Fee amount",
-        "text": "Amount"
+        "text": "Amount",
+        "type": "Amount type"
       },
       "amount_at_risk": "Amount at risk",
       "annual_contribution": "Annual contribution",
@@ -3226,7 +3232,8 @@ static const Map<String,dynamic> it = {
         "after_fee": "Importo dopo le commissioni",
         "before_fee": "Importo prima delle commissioni",
         "fee": "Importo delle commissioni",
-        "text": "Importo"
+        "text": "Importo",
+        "type": "Tipo di importo"
       },
       "amount_at_risk": "Importo a rischio",
       "annual_contribution": "Contributo annuale",
@@ -3735,7 +3742,8 @@ static const Map<String,dynamic> fr = {
         "after_fee": "Montant après frais",
         "before_fee": "Montant avant frais",
         "fee": "Montant des frais",
-        "text": "Montant"
+        "text": "Montant",
+        "type": "Type de montant"
       },
       "amount_at_risk": "Montant à risque",
       "annual_contribution": "Contribution annuelle",
@@ -4244,7 +4252,8 @@ static const Map<String,dynamic> es = {
         "after_fee": "Cantidad después de comisiones",
         "before_fee": "Cantidad antes de comisiones",
         "fee": "Cantidad de comisión",
-        "text": "Cantidad"
+        "text": "Cantidad",
+        "type": "Tipo de importe"
       },
       "amount_at_risk": "Monto en riesgo",
       "annual_contribution": "Aportación anual",

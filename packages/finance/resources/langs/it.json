@@ -159,7 +159,8 @@
         "after_fee": "Importo dopo le commissioni",
         "before_fee": "Importo prima delle commissioni",
         "fee": "Importo delle commissioni",
-        "text": "Importo"
+        "text": "Importo",
+        "type": "Tipo di importo"
       },
       "amount_at_risk": "Importo a rischio",
       "annual_contribution": "Contributo annuale",
