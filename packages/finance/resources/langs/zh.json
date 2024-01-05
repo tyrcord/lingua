@@ -367,7 +367,8 @@
           "text": "风险-回报"
         },
         "text": "风险",
-        "tolerated": "可容忍风险"
+        "tolerated": "可容忍风险",
+        "type": "风险类型"
       },
       "sales": {
         "commission": "销售佣金",
@@ -403,7 +404,8 @@
           "text": "止损",
           "with_slippage": "滑点止损"
         },
-        "text": "止损"
+        "text": "止损",
+        "type": "止损类型"
       },
       "stop_loss_take_profit": "止损/获利",
       "subtotal": "小计",
@@ -418,7 +420,8 @@
           "text": "止盈",
           "with_slippage": "含滑点的止盈"
         },
-        "text": "止盈"
+        "text": "止盈",
+        "type": "获利类型"
       },
       "tax": {
         "amount": "税额",
@@ -485,11 +488,19 @@
     },
     "select": {
       "account_currency": "选择您的账户货币",
+      "compounding_frequency": "选择复利频率",
+      "contribution_frequency": "选择贡献频率",
       "currency": "选择一种货币",
       "interest_rate": "选择一个利率",
       "leverage": "选择一个杠杆",
+      "pivot_point_method": "选择枢轴点方法",
       "primary_currency": "选择一种主要货币",
-      "secondary_currency": "选择一种次要货币"
+      "return_frequency": "选择回报频率",
+      "risk_type": "选择风险类型",
+      "secondary_currency": "选择一种次要货币",
+      "stop_loss_type": "选择止损类型",
+      "take_profit_type": "选择获利类型",
+      "tax_rate": "选择税率"
     },
     "warning": {
       "risk_reward_ratio": "风险-回报比小于2。"

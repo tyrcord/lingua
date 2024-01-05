@@ -367,7 +367,8 @@
           "text": "Rischio-rendimento"
         },
         "text": "Rischio",
-        "tolerated": "Rischio tollerato"
+        "tolerated": "Rischio tollerato",
+        "type": "Tipo di rischio"
       },
       "sales": {
         "commission": "Commissione sulle vendite",
@@ -403,7 +404,8 @@
           "text": "Stop loss",
           "with_slippage": "Stop loss con slippage"
         },
-        "text": "Stop loss"
+        "text": "Stop loss",
+        "type": "Tipo di stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotale",
@@ -418,7 +420,8 @@
           "text": "Take profit",
           "with_slippage": "Take profit con slippage"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Tipo di presa di profitto"
       },
       "tax": {
         "amount": "Importo delle tasse",
@@ -485,11 +488,19 @@
     },
     "select": {
       "account_currency": "Seleziona la valuta del tuo conto",
+      "compounding_frequency": "Seleziona una frequenza di capitalizzazione",
+      "contribution_frequency": "Seleziona una frequenza di contributo",
       "currency": "Seleziona una valuta",
       "interest_rate": "Seleziona un tasso di interesse",
       "leverage": "Seleziona un leverage",
+      "pivot_point_method": "Seleziona un metodo di punto pivot",
       "primary_currency": "Seleziona una valuta principale",
-      "secondary_currency": "Seleziona una valuta secondaria"
+      "return_frequency": "Seleziona una frequenza di rendimento",
+      "risk_type": "Seleziona un tipo di rischio",
+      "secondary_currency": "Seleziona una valuta secondaria",
+      "stop_loss_type": "Seleziona un tipo di stop loss",
+      "take_profit_type": "Seleziona un tipo di presa di profitto",
+      "tax_rate": "Seleziona una aliquota fiscale"
     },
     "warning": {
       "risk_reward_ratio": "Il rapporto rischio-rendimento è inferiore a 2."

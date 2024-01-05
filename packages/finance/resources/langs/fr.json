@@ -367,7 +367,8 @@
           "text": "Risque-rendement"
         },
         "text": "Risque",
-        "tolerated": "Risque toléré"
+        "tolerated": "Risque toléré",
+        "type": "Type de risque"
       },
       "sales": {
         "commission": "Commission sur les ventes",
@@ -403,7 +404,8 @@
           "text": "Stop de protection",
           "with_slippage": "Stop de protection avec glissement"
         },
-        "text": "Stop de protection"
+        "text": "Stop de protection",
+        "type": "Type de stop de protection"
       },
       "stop_loss_take_profit": "Stop de protection/Prise de bénéfices",
       "subtotal": "Sous-total",
@@ -418,7 +420,8 @@
           "text": "Prise de bénéfices",
           "with_slippage": "Prise de bénéfices avec glissement"
         },
-        "text": "Prise de bénéfices"
+        "text": "Prise de bénéfices",
+        "type": "Type de prise de bénéfices"
       },
       "tax": {
         "amount": "Montant de l'impôt",
@@ -485,11 +488,19 @@
     },
     "select": {
       "account_currency": "Sélectionnez la devise de votre compte",
+      "compounding_frequency": "Sélectionnez une fréquence de capitalisation",
+      "contribution_frequency": "Sélectionnez une fréquence de contribution",
       "currency": "Sélectionnez une devise",
       "interest_rate": "Sélectionnez un taux d'intérêt",
       "leverage": "Sélectionnez un effet de levier",
+      "pivot_point_method": "Sélectionnez une méthode de point pivot",
       "primary_currency": "Sélectionnez une devise principale",
-      "secondary_currency": "Sélectionnez une devise secondaire"
+      "return_frequency": "Sélectionnez une fréquence de rendement",
+      "risk_type": "Sélectionnez un type de risque",
+      "secondary_currency": "Sélectionnez une devise secondaire",
+      "stop_loss_type": "Sélectionnez un type de stop de protection",
+      "take_profit_type": "Sélectionnez un type de prise de bénéfices",
+      "tax_rate": "Sélectionnez un taux d'imposition"
     },
     "warning": {
       "risk_reward_ratio": "Le ratio risque-rendement est inférieur à 2."

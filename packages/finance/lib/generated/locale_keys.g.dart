@@ -225,6 +225,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_risk_reward_text = 'finance.label.risk.reward.text';
   static const finance_label_risk_text = 'finance.label.risk.text';
   static const finance_label_risk_tolerated = 'finance.label.risk.tolerated';
+  static const finance_label_risk_type = 'finance.label.risk.type';
   static const finance_label_sales_commission = 'finance.label.sales.commission';
   static const finance_label_sales_costs = 'finance.label.sales.costs';
   static const finance_label_sales_costs_per_unit = 'finance.label.sales.costs_per_unit';
@@ -249,6 +250,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_stop_loss_price_text = 'finance.label.stop_loss.price.text';
   static const finance_label_stop_loss_price_with_slippage = 'finance.label.stop_loss.price.with_slippage';
   static const finance_label_stop_loss_text = 'finance.label.stop_loss.text';
+  static const finance_label_stop_loss_type = 'finance.label.stop_loss.type';
   static const finance_label_stop_loss_take_profit = 'finance.label.stop_loss_take_profit';
   static const finance_label_subtotal = 'finance.label.subtotal';
   static const finance_label_support_level = 'finance.label.support_level';
@@ -260,6 +262,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_take_profit_price_text = 'finance.label.take_profit.price.text';
   static const finance_label_take_profit_price_with_slippage = 'finance.label.take_profit.price.with_slippage';
   static const finance_label_take_profit_text = 'finance.label.take_profit.text';
+  static const finance_label_take_profit_type = 'finance.label.take_profit.type';
   static const finance_label_tax_amount = 'finance.label.tax.amount';
   static const finance_label_tax_exempt_amount_per_year = 'finance.label.tax.exempt_amount_per_year';
   static const finance_label_tax_rate = 'finance.label.tax.rate';
@@ -301,11 +304,19 @@ abstract class FinanceLocaleKeys {
   static const finance_label_withdrawals_text = 'finance.label.withdrawals.text';
   static const finance_message_last_updated_on = 'finance.message.last_updated_on';
   static const finance_select_account_currency = 'finance.select.account_currency';
+  static const finance_select_compounding_frequency = 'finance.select.compounding_frequency';
+  static const finance_select_contribution_frequency = 'finance.select.contribution_frequency';
   static const finance_select_currency = 'finance.select.currency';
   static const finance_select_interest_rate = 'finance.select.interest_rate';
   static const finance_select_leverage = 'finance.select.leverage';
+  static const finance_select_pivot_point_method = 'finance.select.pivot_point_method';
   static const finance_select_primary_currency = 'finance.select.primary_currency';
+  static const finance_select_return_frequency = 'finance.select.return_frequency';
+  static const finance_select_risk_type = 'finance.select.risk_type';
   static const finance_select_secondary_currency = 'finance.select.secondary_currency';
+  static const finance_select_stop_loss_type = 'finance.select.stop_loss_type';
+  static const finance_select_take_profit_type = 'finance.select.take_profit_type';
+  static const finance_select_tax_rate = 'finance.select.tax_rate';
   static const finance_warning_risk_reward_ratio = 'finance.warning.risk_reward_ratio';
 
 }

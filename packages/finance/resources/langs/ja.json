@@ -367,7 +367,8 @@
           "text": "リスクリワード"
         },
         "text": "リスク",
-        "tolerated": "許容リスク"
+        "tolerated": "許容リスク",
+        "type": "リスクタイプ"
       },
       "sales": {
         "commission": "セールスコミッション",
@@ -403,7 +404,8 @@
           "text": "ストップロス",
           "with_slippage": "スリッページ付きストップロス"
         },
-        "text": "ストップロス"
+        "text": "ストップロス",
+        "type": "ストップロスタイプ"
       },
       "stop_loss_take_profit": "ストップロス/利益確定",
       "subtotal": "小計",
@@ -418,7 +420,8 @@
           "text": "利益確定",
           "with_slippage": "スリッページを考慮した利益確定"
         },
-        "text": "利益確定"
+        "text": "利益確定",
+        "type": "利益確定タイプ"
       },
       "tax": {
         "amount": "税金金額",
@@ -485,11 +488,19 @@
     },
     "select": {
       "account_currency": "口座の通貨を選択してください",
+      "compounding_frequency": "複利頻度を選択してください",
+      "contribution_frequency": "拠出頻度を選択してください",
       "currency": "通貨を選択してください",
       "interest_rate": "利率を選択してください",
       "leverage": "レバレッジを選択してください",
+      "pivot_point_method": "ピボットポイント方法を選択してください",
       "primary_currency": "主要通貨を選択してください",
-      "secondary_currency": "副次通貨を選択してください"
+      "return_frequency": "リターン頻度を選択してください",
+      "risk_type": "リスクタイプを選択してください",
+      "secondary_currency": "副次通貨を選択してください",
+      "stop_loss_type": "ストップロスタイプを選択してください",
+      "take_profit_type": "利益確定タイプを選択してください",
+      "tax_rate": "税率を選択してください"
     },
     "warning": {
       "risk_reward_ratio": "リスクリワード比率が2未満です。"

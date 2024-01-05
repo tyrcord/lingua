@@ -367,7 +367,8 @@
           "text": "Risk-reward"
         },
         "text": "Risk",
-        "tolerated": "Tolerated risk"
+        "tolerated": "Tolerated risk",
+        "type": "Risk type"
       },
       "sales": {
         "commission": "Sales commission",
@@ -403,7 +404,8 @@
           "text": "Stop loss",
           "with_slippage": "Stop loss with slippage"
         },
-        "text": "Stop loss"
+        "text": "Stop loss",
+        "type": "Stop loss type"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
@@ -418,7 +420,8 @@
           "text": "Take profit",
           "with_slippage": "Take profit with slippage"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Take profit type"
       },
       "tax": {
         "amount": "Tax amount",
@@ -485,11 +488,19 @@
     },
     "select": {
       "account_currency": "Select your account currency",
+      "compounding_frequency": "Select a compounding frequency",
+      "contribution_frequency": "Select a contribution frequency",
       "currency": "Select a currency",
       "interest_rate": "Select an interest rate",
       "leverage": "Select a leverage",
+      "pivot_point_method": "Select a pivot point method",
       "primary_currency": "Select a primary currency",
-      "secondary_currency": "Select a secondary currency"
+      "return_frequency": "Select a return frequency",
+      "risk_type": "Select a risk type",
+      "secondary_currency": "Select a secondary currency",
+      "stop_loss_type": "Select a stop loss type",
+      "take_profit_type": "Select a take profit type",
+      "tax_rate": "Select a tax rate"
     },
     "warning": {
       "risk_reward_ratio": "The risk-reward ratio is less than 2."

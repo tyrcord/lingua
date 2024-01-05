@@ -380,7 +380,8 @@ class FinanceCodegenLoader extends AssetLoader {
           "text": "风险-回报"
         },
         "text": "风险",
-        "tolerated": "可容忍风险"
+        "tolerated": "可容忍风险",
+        "type": "风险类型"
       },
       "sales": {
         "commission": "销售佣金",
@@ -416,7 +417,8 @@ class FinanceCodegenLoader extends AssetLoader {
           "text": "止损",
           "with_slippage": "滑点止损"
         },
-        "text": "止损"
+        "text": "止损",
+        "type": "止损类型"
       },
       "stop_loss_take_profit": "止损/获利",
       "subtotal": "小计",
@@ -431,7 +433,8 @@ class FinanceCodegenLoader extends AssetLoader {
           "text": "止盈",
           "with_slippage": "含滑点的止盈"
         },
-        "text": "止盈"
+        "text": "止盈",
+        "type": "获利类型"
       },
       "tax": {
         "amount": "税额",
@@ -498,11 +501,19 @@ class FinanceCodegenLoader extends AssetLoader {
     },
     "select": {
       "account_currency": "选择您的账户货币",
+      "compounding_frequency": "选择复利频率",
+      "contribution_frequency": "选择贡献频率",
       "currency": "选择一种货币",
       "interest_rate": "选择一个利率",
       "leverage": "选择一个杠杆",
+      "pivot_point_method": "选择枢轴点方法",
       "primary_currency": "选择一种主要货币",
-      "secondary_currency": "选择一种次要货币"
+      "return_frequency": "选择回报频率",
+      "risk_type": "选择风险类型",
+      "secondary_currency": "选择一种次要货币",
+      "stop_loss_type": "选择止损类型",
+      "take_profit_type": "选择获利类型",
+      "tax_rate": "选择税率"
     },
     "warning": {
       "risk_reward_ratio": "风险-回报比小于2。"
@@ -878,7 +889,8 @@ static const Map<String,dynamic> ja = {
           "text": "リスクリワード"
         },
         "text": "リスク",
-        "tolerated": "許容リスク"
+        "tolerated": "許容リスク",
+        "type": "リスクタイプ"
       },
       "sales": {
         "commission": "セールスコミッション",
@@ -914,7 +926,8 @@ static const Map<String,dynamic> ja = {
           "text": "ストップロス",
           "with_slippage": "スリッページ付きストップロス"
         },
-        "text": "ストップロス"
+        "text": "ストップロス",
+        "type": "ストップロスタイプ"
       },
       "stop_loss_take_profit": "ストップロス/利益確定",
       "subtotal": "小計",
@@ -929,7 +942,8 @@ static const Map<String,dynamic> ja = {
           "text": "利益確定",
           "with_slippage": "スリッページを考慮した利益確定"
         },
-        "text": "利益確定"
+        "text": "利益確定",
+        "type": "利益確定タイプ"
       },
       "tax": {
         "amount": "税金金額",
@@ -996,11 +1010,19 @@ static const Map<String,dynamic> ja = {
     },
     "select": {
       "account_currency": "口座の通貨を選択してください",
+      "compounding_frequency": "複利頻度を選択してください",
+      "contribution_frequency": "拠出頻度を選択してください",
       "currency": "通貨を選択してください",
       "interest_rate": "利率を選択してください",
       "leverage": "レバレッジを選択してください",
+      "pivot_point_method": "ピボットポイント方法を選択してください",
       "primary_currency": "主要通貨を選択してください",
-      "secondary_currency": "副次通貨を選択してください"
+      "return_frequency": "リターン頻度を選択してください",
+      "risk_type": "リスクタイプを選択してください",
+      "secondary_currency": "副次通貨を選択してください",
+      "stop_loss_type": "ストップロスタイプを選択してください",
+      "take_profit_type": "利益確定タイプを選択してください",
+      "tax_rate": "税率を選択してください"
     },
     "warning": {
       "risk_reward_ratio": "リスクリワード比率が2未満です。"
@@ -1376,7 +1398,8 @@ static const Map<String,dynamic> de = {
           "text": "Risiko-rendite"
         },
         "text": "Risiko",
-        "tolerated": "Akzeptiertes risiko"
+        "tolerated": "Akzeptiertes risiko",
+        "type": "Risikoart"
       },
       "sales": {
         "commission": "Vertriebsprovision",
@@ -1412,7 +1435,8 @@ static const Map<String,dynamic> de = {
           "text": "Stop-loss",
           "with_slippage": "Stop-loss mit slippage"
         },
-        "text": "Stop-loss"
+        "text": "Stop-loss",
+        "type": "Stop-Loss-Typ"
       },
       "stop_loss_take_profit": "Stop-Loss/Take-Profit",
       "subtotal": "Zwischensumme",
@@ -1427,7 +1451,8 @@ static const Map<String,dynamic> de = {
           "text": "Take profit",
           "with_slippage": "Take profit mit slippage"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Gewinnmitnahme-Typ"
       },
       "tax": {
         "amount": "Steuerbetrag",
@@ -1494,11 +1519,19 @@ static const Map<String,dynamic> de = {
     },
     "select": {
       "account_currency": "Wählen Sie Ihre Kontowährung",
+      "compounding_frequency": "Wählen Sie eine Zinseszinsfrequenz",
+      "contribution_frequency": "Wählen Sie eine Beitragsfrequenz",
       "currency": "Wählen Sie eine Währung",
       "interest_rate": "Wählen Sie einen Zinssatz",
       "leverage": "Wählen Sie eine Hebelwirkung",
+      "pivot_point_method": "Wählen Sie eine Pivot-Punkt-Methode",
       "primary_currency": "Wählen Sie eine Hauptwährung",
-      "secondary_currency": "Wählen Sie eine Sekundärwährung"
+      "return_frequency": "Wählen Sie eine Renditefrequenz",
+      "risk_type": "Wählen Sie einen Risikotyp",
+      "secondary_currency": "Wählen Sie eine Sekundärwährung",
+      "stop_loss_type": "Wählen Sie eine Stop-Loss-Art",
+      "take_profit_type": "Wählen Sie eine Gewinnmitnahmestrategie",
+      "tax_rate": "Wählen Sie einen Steuersatz"
     },
     "warning": {
       "risk_reward_ratio": "Das Risiko-Rendite-Verhältnis ist geringer als 2."
@@ -1874,7 +1907,8 @@ static const Map<String,dynamic> ru = {
           "text": "Риск-награда"
         },
         "text": "Риск",
-        "tolerated": "Приемлемый риск"
+        "tolerated": "Приемлемый риск",
+        "type": "Тип риска"
       },
       "sales": {
         "commission": "Комиссия с продаж",
@@ -1910,7 +1944,8 @@ static const Map<String,dynamic> ru = {
           "text": "Стоп-лосс",
           "with_slippage": "Стоп-лосс со слиппажем"
         },
-        "text": "Стоп-лосс"
+        "text": "Стоп-лосс",
+        "type": "Тип стоп-лосс"
       },
       "stop_loss_take_profit": "Стоп-лосс/Тейк-профит",
       "subtotal": "Промежуточный итог",
@@ -1925,7 +1960,8 @@ static const Map<String,dynamic> ru = {
           "text": "Take profit",
           "with_slippage": "Take profit с проскальзыванием"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Тип фиксации прибыли"
       },
       "tax": {
         "amount": "Сумма налога",
@@ -1992,11 +2028,19 @@ static const Map<String,dynamic> ru = {
     },
     "select": {
       "account_currency": "Выберите валюту вашего счета",
+      "compounding_frequency": "Выберите частоту начисления сложных процентов",
+      "contribution_frequency": "Выберите частоту взносов",
       "currency": "Выберите валюту",
       "interest_rate": "Выберите процентную ставку",
       "leverage": "Выберите плечо",
+      "pivot_point_method": "Выберите метод точки поворота",
       "primary_currency": "Выберите основную валюту",
-      "secondary_currency": "Выберите вторичную валюту"
+      "return_frequency": "Выберите частоту доходности",
+      "risk_type": "Выберите тип риска",
+      "secondary_currency": "Выберите вторичную валюту",
+      "stop_loss_type": "Выберите тип стоп-лосса",
+      "take_profit_type": "Выберите тип фиксации прибыли",
+      "tax_rate": "Выберите налоговую ставку"
     },
     "warning": {
       "risk_reward_ratio": "Отношение риска и вознаграждения меньше 2."
@@ -2372,7 +2416,8 @@ static const Map<String,dynamic> pt = {
           "text": "Risco-recompensa"
         },
         "text": "Risco",
-        "tolerated": "Risco tolerado"
+        "tolerated": "Risco tolerado",
+        "type": "Tipo de risco"
       },
       "sales": {
         "commission": "Comissão de vendas",
@@ -2408,7 +2453,8 @@ static const Map<String,dynamic> pt = {
           "text": "Stop loss",
           "with_slippage": "Stop loss com derrapagem"
         },
-        "text": "Stop loss"
+        "text": "Stop loss",
+        "type": "Tipo de stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
@@ -2423,7 +2469,8 @@ static const Map<String,dynamic> pt = {
           "text": "Take profit",
           "with_slippage": "Take profit com deslizamento"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Tipo de realização de lucro"
       },
       "tax": {
         "amount": "Valor do imposto",
@@ -2490,11 +2537,19 @@ static const Map<String,dynamic> pt = {
     },
     "select": {
       "account_currency": "Selecione a moeda da sua conta",
+      "compounding_frequency": "Selecione uma frequência de capitalização",
+      "contribution_frequency": "Selecione uma frequência de contribuição",
       "currency": "Selecione uma moeda",
       "interest_rate": "Selecione uma taxa de juros",
       "leverage": "Selecione uma alavancagem",
+      "pivot_point_method": "Selecione um método de ponto de pivô",
       "primary_currency": "Selecione uma moeda primária",
-      "secondary_currency": "Selecione uma moeda secundária"
+      "return_frequency": "Selecione uma frequência de retorno",
+      "risk_type": "Selecione um tipo de risco",
+      "secondary_currency": "Selecione uma moeda secundária",
+      "stop_loss_type": "Selecione um tipo de stop loss",
+      "take_profit_type": "Selecione um tipo de tomada de lucro",
+      "tax_rate": "Selecione uma taxa de imposto"
     },
     "warning": {
       "risk_reward_ratio": "A razão de risco-retorno é inferior a 2."
@@ -2870,7 +2925,8 @@ static const Map<String,dynamic> en = {
           "text": "Risk-reward"
         },
         "text": "Risk",
-        "tolerated": "Tolerated risk"
+        "tolerated": "Tolerated risk",
+        "type": "Risk type"
       },
       "sales": {
         "commission": "Sales commission",
@@ -2906,7 +2962,8 @@ static const Map<String,dynamic> en = {
           "text": "Stop loss",
           "with_slippage": "Stop loss with slippage"
         },
-        "text": "Stop loss"
+        "text": "Stop loss",
+        "type": "Stop loss type"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
@@ -2921,7 +2978,8 @@ static const Map<String,dynamic> en = {
           "text": "Take profit",
           "with_slippage": "Take profit with slippage"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Take profit type"
       },
       "tax": {
         "amount": "Tax amount",
@@ -2988,11 +3046,19 @@ static const Map<String,dynamic> en = {
     },
     "select": {
       "account_currency": "Select your account currency",
+      "compounding_frequency": "Select a compounding frequency",
+      "contribution_frequency": "Select a contribution frequency",
       "currency": "Select a currency",
       "interest_rate": "Select an interest rate",
       "leverage": "Select a leverage",
+      "pivot_point_method": "Select a pivot point method",
       "primary_currency": "Select a primary currency",
-      "secondary_currency": "Select a secondary currency"
+      "return_frequency": "Select a return frequency",
+      "risk_type": "Select a risk type",
+      "secondary_currency": "Select a secondary currency",
+      "stop_loss_type": "Select a stop loss type",
+      "take_profit_type": "Select a take profit type",
+      "tax_rate": "Select a tax rate"
     },
     "warning": {
       "risk_reward_ratio": "The risk-reward ratio is less than 2."
@@ -3368,7 +3434,8 @@ static const Map<String,dynamic> it = {
           "text": "Rischio-rendimento"
         },
         "text": "Rischio",
-        "tolerated": "Rischio tollerato"
+        "tolerated": "Rischio tollerato",
+        "type": "Tipo di rischio"
       },
       "sales": {
         "commission": "Commissione sulle vendite",
@@ -3404,7 +3471,8 @@ static const Map<String,dynamic> it = {
           "text": "Stop loss",
           "with_slippage": "Stop loss con slippage"
         },
-        "text": "Stop loss"
+        "text": "Stop loss",
+        "type": "Tipo di stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotale",
@@ -3419,7 +3487,8 @@ static const Map<String,dynamic> it = {
           "text": "Take profit",
           "with_slippage": "Take profit con slippage"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Tipo di presa di profitto"
       },
       "tax": {
         "amount": "Importo delle tasse",
@@ -3486,11 +3555,19 @@ static const Map<String,dynamic> it = {
     },
     "select": {
       "account_currency": "Seleziona la valuta del tuo conto",
+      "compounding_frequency": "Seleziona una frequenza di capitalizzazione",
+      "contribution_frequency": "Seleziona una frequenza di contributo",
       "currency": "Seleziona una valuta",
       "interest_rate": "Seleziona un tasso di interesse",
       "leverage": "Seleziona un leverage",
+      "pivot_point_method": "Seleziona un metodo di punto pivot",
       "primary_currency": "Seleziona una valuta principale",
-      "secondary_currency": "Seleziona una valuta secondaria"
+      "return_frequency": "Seleziona una frequenza di rendimento",
+      "risk_type": "Seleziona un tipo di rischio",
+      "secondary_currency": "Seleziona una valuta secondaria",
+      "stop_loss_type": "Seleziona un tipo di stop loss",
+      "take_profit_type": "Seleziona un tipo di presa di profitto",
+      "tax_rate": "Seleziona una aliquota fiscale"
     },
     "warning": {
       "risk_reward_ratio": "Il rapporto rischio-rendimento è inferiore a 2."
@@ -3866,7 +3943,8 @@ static const Map<String,dynamic> fr = {
           "text": "Risque-rendement"
         },
         "text": "Risque",
-        "tolerated": "Risque toléré"
+        "tolerated": "Risque toléré",
+        "type": "Type de risque"
       },
       "sales": {
         "commission": "Commission sur les ventes",
@@ -3902,7 +3980,8 @@ static const Map<String,dynamic> fr = {
           "text": "Stop de protection",
           "with_slippage": "Stop de protection avec glissement"
         },
-        "text": "Stop de protection"
+        "text": "Stop de protection",
+        "type": "Type de stop de protection"
       },
       "stop_loss_take_profit": "Stop de protection/Prise de bénéfices",
       "subtotal": "Sous-total",
@@ -3917,7 +3996,8 @@ static const Map<String,dynamic> fr = {
           "text": "Prise de bénéfices",
           "with_slippage": "Prise de bénéfices avec glissement"
         },
-        "text": "Prise de bénéfices"
+        "text": "Prise de bénéfices",
+        "type": "Type de prise de bénéfices"
       },
       "tax": {
         "amount": "Montant de l'impôt",
@@ -3984,11 +4064,19 @@ static const Map<String,dynamic> fr = {
     },
     "select": {
       "account_currency": "Sélectionnez la devise de votre compte",
+      "compounding_frequency": "Sélectionnez une fréquence de capitalisation",
+      "contribution_frequency": "Sélectionnez une fréquence de contribution",
       "currency": "Sélectionnez une devise",
       "interest_rate": "Sélectionnez un taux d'intérêt",
       "leverage": "Sélectionnez un effet de levier",
+      "pivot_point_method": "Sélectionnez une méthode de point pivot",
       "primary_currency": "Sélectionnez une devise principale",
-      "secondary_currency": "Sélectionnez une devise secondaire"
+      "return_frequency": "Sélectionnez une fréquence de rendement",
+      "risk_type": "Sélectionnez un type de risque",
+      "secondary_currency": "Sélectionnez une devise secondaire",
+      "stop_loss_type": "Sélectionnez un type de stop de protection",
+      "take_profit_type": "Sélectionnez un type de prise de bénéfices",
+      "tax_rate": "Sélectionnez un taux d'imposition"
     },
     "warning": {
       "risk_reward_ratio": "Le ratio risque-rendement est inférieur à 2."
@@ -4364,7 +4452,8 @@ static const Map<String,dynamic> es = {
           "text": "Riesgo-recompensa"
         },
         "text": "Riesgo",
-        "tolerated": "Riesgo tolerado"
+        "tolerated": "Riesgo tolerado",
+        "type": "Tipo de riesgo"
       },
       "sales": {
         "commission": "Comisión de ventas",
@@ -4400,7 +4489,8 @@ static const Map<String,dynamic> es = {
           "text": "Stop loss",
           "with_slippage": "Stop loss con deslizamiento"
         },
-        "text": "Stop loss"
+        "text": "Stop loss",
+        "type": "Tipo de stop loss"
       },
       "stop_loss_take_profit": "Stop Loss/Take Profit",
       "subtotal": "Subtotal",
@@ -4415,7 +4505,8 @@ static const Map<String,dynamic> es = {
           "text": "Take profit",
           "with_slippage": "Take profit con slippage"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Tipo de toma de beneficios"
       },
       "tax": {
         "amount": "Monto de impuestos",
@@ -4482,11 +4573,19 @@ static const Map<String,dynamic> es = {
     },
     "select": {
       "account_currency": "Seleccione la moneda de su cuenta",
+      "compounding_frequency": "Seleccione una frecuencia de capitalización",
+      "contribution_frequency": "Seleccione una frecuencia de contribución",
       "currency": "Seleccione una moneda",
       "interest_rate": "Seleccione una tasa de interés",
       "leverage": "Seleccione un apalancamiento",
+      "pivot_point_method": "Seleccione un método de punto de pivote",
       "primary_currency": "Seleccione una moneda principal",
-      "secondary_currency": "Seleccione una moneda secundaria"
+      "return_frequency": "Seleccione una frecuencia de retorno",
+      "risk_type": "Seleccione un tipo de riesgo",
+      "secondary_currency": "Seleccione una moneda secundaria",
+      "stop_loss_type": "Seleccione un tipo de stop loss",
+      "take_profit_type": "Seleccione un tipo de toma de ganancias",
+      "tax_rate": "Seleccione una tasa impositiva"
     },
     "warning": {
       "risk_reward_ratio": "El ratio riesgo-recompensa es inferior a 2."

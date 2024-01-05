@@ -367,7 +367,8 @@
           "text": "Риск-награда"
         },
         "text": "Риск",
-        "tolerated": "Приемлемый риск"
+        "tolerated": "Приемлемый риск",
+        "type": "Тип риска"
       },
       "sales": {
         "commission": "Комиссия с продаж",
@@ -403,7 +404,8 @@
           "text": "Стоп-лосс",
           "with_slippage": "Стоп-лосс со слиппажем"
         },
-        "text": "Стоп-лосс"
+        "text": "Стоп-лосс",
+        "type": "Тип стоп-лосс"
       },
       "stop_loss_take_profit": "Стоп-лосс/Тейк-профит",
       "subtotal": "Промежуточный итог",
@@ -418,7 +420,8 @@
           "text": "Take profit",
           "with_slippage": "Take profit с проскальзыванием"
         },
-        "text": "Take profit"
+        "text": "Take profit",
+        "type": "Тип фиксации прибыли"
       },
       "tax": {
         "amount": "Сумма налога",
@@ -485,11 +488,19 @@
     },
     "select": {
       "account_currency": "Выберите валюту вашего счета",
+      "compounding_frequency": "Выберите частоту начисления сложных процентов",
+      "contribution_frequency": "Выберите частоту взносов",
       "currency": "Выберите валюту",
       "interest_rate": "Выберите процентную ставку",
       "leverage": "Выберите плечо",
+      "pivot_point_method": "Выберите метод точки поворота",
       "primary_currency": "Выберите основную валюту",
-      "secondary_currency": "Выберите вторичную валюту"
+      "return_frequency": "Выберите частоту доходности",
+      "risk_type": "Выберите тип риска",
+      "secondary_currency": "Выберите вторичную валюту",
+      "stop_loss_type": "Выберите тип стоп-лосса",
+      "take_profit_type": "Выберите тип фиксации прибыли",
+      "tax_rate": "Выберите налоговую ставку"
     },
     "warning": {
       "risk_reward_ratio": "Отношение риска и вознаграждения меньше 2."
