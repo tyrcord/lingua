@@ -26,7 +26,12 @@
       "legal": "Legale",
       "light": "Chiaro",
       "preferences": "Preferenze",
-      "privacy_policy": "Informativa sulla privacy",
+      "privacy": {
+        "policy": "Politica sulla privacy",
+        "preferences": "Preferenze sulla privacy",
+        "settings": "Impostazioni sulla privacy",
+        "text": "Privacy"
+      },
       "rate_us": "Valutaci",
       "reset_settings": "Ripristina impostazioni",
       "settings": "Impostazioni",

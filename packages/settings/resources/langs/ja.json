@@ -26,7 +26,12 @@
       "legal": "法的事項",
       "light": "ライト",
       "preferences": "設定",
-      "privacy_policy": "プライバシーポリシー",
+      "privacy": {
+        "policy": "プライバシーポリシー",
+        "preferences": "プライバシーの設定",
+        "settings": "プライバシー設定",
+        "text": "プライバシー"
+      },
       "rate_us": "評価する",
       "reset_settings": "デフォルトに戻す",
       "settings": "設定",

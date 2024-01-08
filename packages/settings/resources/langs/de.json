@@ -26,7 +26,12 @@
       "legal": "Rechtliches",
       "light": "Hell",
       "preferences": "Einstellungen",
-      "privacy_policy": "Datenschutzrichtlinie",
+      "privacy": {
+        "policy": "Datenschutzrichtlinie",
+        "preferences": "Datenschutzeinstellungen",
+        "settings": "Datenschutzkonfiguration",
+        "text": "Datenschutz"
+      },
       "rate_us": "Bewerten sie uns",
       "reset_settings": "Standard wiederherstellen",
       "settings": "Einstellungen",

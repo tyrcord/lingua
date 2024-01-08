@@ -26,7 +26,12 @@
       "legal": "Mentions légales",
       "light": "Clair",
       "preferences": "Préférences",
-      "privacy_policy": "Politique de confidentialité",
+      "privacy": {
+        "policy": "Politique de confidentialité",
+        "preferences": "Préférences de confidentialité",
+        "settings": "Paramètres de confidentialité",
+        "text": "Confidentialité"
+      },
       "rate_us": "Évaluez-nous",
       "reset_settings": "Rétablir les paramètres",
       "settings": "Paramètres",

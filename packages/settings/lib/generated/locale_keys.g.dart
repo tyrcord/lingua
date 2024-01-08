@@ -20,7 +20,10 @@ abstract class SettingsLocaleKeys {
   static const settings_label_legal = 'settings.label.legal';
   static const settings_label_light = 'settings.label.light';
   static const settings_label_preferences = 'settings.label.preferences';
-  static const settings_label_privacy_policy = 'settings.label.privacy_policy';
+  static const settings_label_privacy_policy = 'settings.label.privacy.policy';
+  static const settings_label_privacy_preferences = 'settings.label.privacy.preferences';
+  static const settings_label_privacy_settings = 'settings.label.privacy.settings';
+  static const settings_label_privacy_text = 'settings.label.privacy.text';
   static const settings_label_rate_us = 'settings.label.rate_us';
   static const settings_label_reset_settings = 'settings.label.reset_settings';
   static const settings_label_settings = 'settings.label.settings';

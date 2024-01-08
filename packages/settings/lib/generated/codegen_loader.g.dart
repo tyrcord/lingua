@@ -39,7 +39,12 @@ class SettingsCodegenLoader extends AssetLoader {
       "legal": "法律条款",
       "light": "亮色",
       "preferences": "偏好设置",
-      "privacy_policy": "隐私政策",
+      "privacy": {
+        "policy": "隐私政策",
+        "preferences": "隐私偏好",
+        "settings": "隐私设置",
+        "text": "隐私"
+      },
       "rate_us": "评价我们",
       "reset_settings": "恢复默认设置",
       "settings": "设置",
@@ -98,7 +103,12 @@ static const Map<String,dynamic> ja = {
       "legal": "法的事項",
       "light": "ライト",
       "preferences": "設定",
-      "privacy_policy": "プライバシーポリシー",
+      "privacy": {
+        "policy": "プライバシーポリシー",
+        "preferences": "プライバシーの設定",
+        "settings": "プライバシー設定",
+        "text": "プライバシー"
+      },
       "rate_us": "評価する",
       "reset_settings": "デフォルトに戻す",
       "settings": "設定",
@@ -157,7 +167,12 @@ static const Map<String,dynamic> de = {
       "legal": "Rechtliches",
       "light": "Hell",
       "preferences": "Einstellungen",
-      "privacy_policy": "Datenschutzrichtlinie",
+      "privacy": {
+        "policy": "Datenschutzrichtlinie",
+        "preferences": "Datenschutzeinstellungen",
+        "settings": "Datenschutzkonfiguration",
+        "text": "Datenschutz"
+      },
       "rate_us": "Bewerten sie uns",
       "reset_settings": "Standard wiederherstellen",
       "settings": "Einstellungen",
@@ -216,7 +231,12 @@ static const Map<String,dynamic> ru = {
       "legal": "Правовая информация",
       "light": "Светлая",
       "preferences": "Настройки",
-      "privacy_policy": "Политика конфиденциальности",
+      "privacy": {
+        "policy": "Политика конфиденциальности",
+        "preferences": "Настройки конфиденциальности",
+        "settings": "Конфигурация конфиденциальности",
+        "text": "Конфиденциальность"
+      },
       "rate_us": "Оцените нас",
       "reset_settings": "Сбросить настройки",
       "settings": "Настройки",
@@ -275,7 +295,12 @@ static const Map<String,dynamic> pt = {
       "legal": "Legal",
       "light": "Claro",
       "preferences": "Preferências",
-      "privacy_policy": "Política de privacidade",
+      "privacy": {
+        "policy": "Política de privacidade",
+        "preferences": "Preferências de privacidade",
+        "settings": "Configurações de privacidade",
+        "text": "Privacidade"
+      },
       "rate_us": "Avalie-nos",
       "reset_settings": "Restaurar configurações",
       "settings": "Configurações",
@@ -334,7 +359,12 @@ static const Map<String,dynamic> en = {
       "legal": "Legal",
       "light": "Light",
       "preferences": "Preferences",
-      "privacy_policy": "Privacy policy",
+      "privacy": {
+        "policy": "Privacy policy",
+        "preferences": "Privacy preferences",
+        "settings": "Privacy settings",
+        "text": "Privacy"
+      },
       "rate_us": "Rate us",
       "reset_settings": "Restore defaults",
       "settings": "Settings",
@@ -393,7 +423,12 @@ static const Map<String,dynamic> it = {
       "legal": "Legale",
       "light": "Chiaro",
       "preferences": "Preferenze",
-      "privacy_policy": "Informativa sulla privacy",
+      "privacy": {
+        "policy": "Politica sulla privacy",
+        "preferences": "Preferenze sulla privacy",
+        "settings": "Impostazioni sulla privacy",
+        "text": "Privacy"
+      },
       "rate_us": "Valutaci",
       "reset_settings": "Ripristina impostazioni",
       "settings": "Impostazioni",
@@ -452,7 +487,12 @@ static const Map<String,dynamic> fr = {
       "legal": "Mentions légales",
       "light": "Clair",
       "preferences": "Préférences",
-      "privacy_policy": "Politique de confidentialité",
+      "privacy": {
+        "policy": "Politique de confidentialité",
+        "preferences": "Préférences de confidentialité",
+        "settings": "Paramètres de confidentialité",
+        "text": "Confidentialité"
+      },
       "rate_us": "Évaluez-nous",
       "reset_settings": "Rétablir les paramètres",
       "settings": "Paramètres",
@@ -511,7 +551,12 @@ static const Map<String,dynamic> es = {
       "legal": "Legal",
       "light": "Claro",
       "preferences": "Preferencias",
-      "privacy_policy": "Política de privacidad",
+      "privacy": {
+        "policy": "Política de privacidad",
+        "preferences": "Preferencias de privacidad",
+        "settings": "Configuración de privacidad",
+        "text": "Privacidad"
+      },
       "rate_us": "Califícanos",
       "reset_settings": "Restaurar configuración",
       "settings": "Configuración",

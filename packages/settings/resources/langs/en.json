@@ -26,7 +26,12 @@
       "legal": "Legal",
       "light": "Light",
       "preferences": "Preferences",
-      "privacy_policy": "Privacy policy",
+      "privacy": {
+        "policy": "Privacy policy",
+        "preferences": "Privacy preferences",
+        "settings": "Privacy settings",
+        "text": "Privacy"
+      },
       "rate_us": "Rate us",
       "reset_settings": "Restore defaults",
       "settings": "Settings",
