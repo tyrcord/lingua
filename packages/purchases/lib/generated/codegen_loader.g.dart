@@ -45,12 +45,16 @@ class PurchasesCodegenLoader extends AssetLoader {
         "refresh_stock_prices": "自动刷新股票价格"
       },
       "auto_refresh_results": "利用自动结果更新的优势。",
+      "faster": {
+        "startup": "应用程序启动更快。"
+      },
       "no_ads": {
         "text": "享受无广告体验。"
       },
       "quicker_refresh_rates": "享受更快的汇率更新速度。",
       "unlimited": {
-        "pdf": "体验无限的PDF生成。"
+        "csv": "无限CSV生成。",
+        "pdf": "无限PDF生成。"
       }
     },
     "label": {
@@ -117,12 +121,16 @@ static const Map<String,dynamic> ja = {
         "refresh_stock_prices": "株価を自動更新"
       },
       "auto_refresh_results": "自動結果更新の利点を活用してください。",
+      "faster": {
+        "startup": "より高速なアプリケーション起動。"
+      },
       "no_ads": {
         "text": "広告なしでお楽しみください。"
       },
       "quicker_refresh_rates": "為替レートのより速い更新を利用してください。",
       "unlimited": {
-        "pdf": "無制限のPDF生成を体験しましょう。"
+        "csv": "無制限のCSV生成。",
+        "pdf": "無制限のPDF生成。"
       }
     },
     "label": {
@@ -189,12 +197,16 @@ static const Map<String,dynamic> de = {
         "refresh_stock_prices": "Automatisches Aktualisieren der Aktienkurse"
       },
       "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
+      "faster": {
+        "startup": "Schnellerer Anwendungsstart."
+      },
       "no_ads": {
         "text": "Genießen Sie eine werbefreie Erfahrung."
       },
       "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse.",
       "unlimited": {
-        "pdf": "Erleben Sie grenzenlose PDF-Erstellung."
+        "csv": "Unbegrenzte CSV-Erstellung.",
+        "pdf": "Unbegrenzte PDF-Erstellung."
       }
     },
     "label": {
@@ -261,12 +273,16 @@ static const Map<String,dynamic> ru = {
         "refresh_stock_prices": "Автоматическое обновление цен на акции"
       },
       "auto_refresh_results": "Используйте преимущества автоматического обновления результатов.",
+      "faster": {
+        "startup": "Быстрый запуск приложения."
+      },
       "no_ads": {
         "text": "Наслаждайтесь безрекламным опытом."
       },
       "quicker_refresh_rates": "Пользуйтесь преимуществом более быстрого обновления валютных курсов.",
       "unlimited": {
-        "pdf": "Получите неограниченную генерацию PDF."
+        "csv": "Неограниченная генерация CSV.",
+        "pdf": "Неограниченная генерация PDF."
       }
     },
     "label": {
@@ -333,12 +349,16 @@ static const Map<String,dynamic> pt = {
         "refresh_stock_prices": "Atualização automática dos preços das ações"
       },
       "auto_refresh_results": "Aproveite a vantagem de atualizações automáticas dos resultados.",
+      "faster": {
+        "startup": "Inicialização mais rápida da aplicação."
+      },
       "no_ads": {
         "text": "Desfrute de uma experiência sem anúncios."
       },
       "quicker_refresh_rates": "Beneficie de atualizações mais rápidas das taxas de câmbio.",
       "unlimited": {
-        "pdf": "Experimente a geração ilimitada de PDF."
+        "csv": "Geração ilimitada de CSV.",
+        "pdf": "Geração ilimitada de PDF."
       }
     },
     "label": {
@@ -405,12 +425,16 @@ static const Map<String,dynamic> en = {
         "refresh_stock_prices": "Auto-refresh stock prices"
       },
       "auto_refresh_results": "Gain the advantage of automatic result updates.",
+      "faster": {
+        "startup": "Faster application startup."
+      },
       "no_ads": {
         "text": "Enjoy an ad-free experience."
       },
       "quicker_refresh_rates": "Benefit from quicker updates of exchange rates.",
       "unlimited": {
-        "pdf": "Experience limitless PDF generation."
+        "csv": "Unlimited CSV generation.",
+        "pdf": "Unlimited PDF generation."
       }
     },
     "label": {
@@ -477,12 +501,16 @@ static const Map<String,dynamic> it = {
         "refresh_stock_prices": "Aggiorna automaticamente i prezzi delle azioni"
       },
       "auto_refresh_results": "Approfitta del vantaggio degli aggiornamenti automatici dei risultati.",
+      "faster": {
+        "startup": "Avvio dell'applicazione più veloce."
+      },
       "no_ads": {
         "text": "Goditi un'esperienza senza pubblicità."
       },
       "quicker_refresh_rates": "Beneficia di aggiornamenti più rapidi dei tassi di cambio.",
       "unlimited": {
-        "pdf": "Esperienza di generazione PDF illimitata."
+        "csv": "Generazione illimitata di CSV.",
+        "pdf": "Generazione illimitata di PDF."
       }
     },
     "label": {
@@ -549,12 +577,16 @@ static const Map<String,dynamic> fr = {
         "refresh_stock_prices": "Actualisation automatique des prix des actions"
       },
       "auto_refresh_results": "Profitez de l'avantage des mises à jour automatiques des résultats.",
+      "faster": {
+        "startup": "Démarrage de l'application plus rapide."
+      },
       "no_ads": {
         "text": "Profitez d'une expérience sans publicité."
       },
       "quicker_refresh_rates": "Bénéficiez de mises à jour plus rapides des taux de change.",
       "unlimited": {
-        "pdf": "Profitez de la génération de PDF illimitée."
+        "csv": "Génération illimitée de CSV.",
+        "pdf": "Génération illimitée de PDF."
       }
     },
     "label": {
@@ -621,12 +653,16 @@ static const Map<String,dynamic> es = {
         "refresh_stock_prices": "Actualizar automáticamente los precios de las acciones"
       },
       "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
+      "faster": {
+        "startup": "Inicio de aplicación más rápido."
+      },
       "no_ads": {
         "text": "Disfruta de una experiencia sin anuncios."
       },
       "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio.",
       "unlimited": {
-        "pdf": "Disfruta de la generación ilimitada de PDF."
+        "csv": "Generación ilimitada de CSV.",
+        "pdf": "Generación ilimitada de PDF."
       }
     },
     "label": {

@@ -32,12 +32,16 @@
         "refresh_stock_prices": "自动刷新股票价格"
       },
       "auto_refresh_results": "利用自动结果更新的优势。",
+      "faster": {
+        "startup": "应用程序启动更快。"
+      },
       "no_ads": {
         "text": "享受无广告体验。"
       },
       "quicker_refresh_rates": "享受更快的汇率更新速度。",
       "unlimited": {
-        "pdf": "体验无限的PDF生成。"
+        "csv": "无限CSV生成。",
+        "pdf": "无限PDF生成。"
       }
     },
     "label": {

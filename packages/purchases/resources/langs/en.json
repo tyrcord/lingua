@@ -32,12 +32,16 @@
         "refresh_stock_prices": "Auto-refresh stock prices"
       },
       "auto_refresh_results": "Gain the advantage of automatic result updates.",
+      "faster": {
+        "startup": "Faster application startup."
+      },
       "no_ads": {
         "text": "Enjoy an ad-free experience."
       },
       "quicker_refresh_rates": "Benefit from quicker updates of exchange rates.",
       "unlimited": {
-        "pdf": "Experience limitless PDF generation."
+        "csv": "Unlimited CSV generation.",
+        "pdf": "Unlimited PDF generation."
       }
     },
     "label": {

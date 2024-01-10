@@ -32,12 +32,16 @@
         "refresh_stock_prices": "Actualizar automáticamente los precios de las acciones"
       },
       "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
+      "faster": {
+        "startup": "Inicio de aplicación más rápido."
+      },
       "no_ads": {
         "text": "Disfruta de una experiencia sin anuncios."
       },
       "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio.",
       "unlimited": {
-        "pdf": "Disfruta de la generación ilimitada de PDF."
+        "csv": "Generación ilimitada de CSV.",
+        "pdf": "Generación ilimitada de PDF."
       }
     },
     "label": {

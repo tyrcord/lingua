@@ -32,12 +32,16 @@
         "refresh_stock_prices": "株価を自動更新"
       },
       "auto_refresh_results": "自動結果更新の利点を活用してください。",
+      "faster": {
+        "startup": "より高速なアプリケーション起動。"
+      },
       "no_ads": {
         "text": "広告なしでお楽しみください。"
       },
       "quicker_refresh_rates": "為替レートのより速い更新を利用してください。",
       "unlimited": {
-        "pdf": "無制限のPDF生成を体験しましょう。"
+        "csv": "無制限のCSV生成。",
+        "pdf": "無制限のPDF生成。"
       }
     },
     "label": {
