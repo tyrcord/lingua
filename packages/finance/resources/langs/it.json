@@ -22,6 +22,10 @@
         "example": "Ad esempio, se il tuo conto è basato negli Stati Uniti, selezioneresti 'USD' dal menu a tendina.",
         "instructions": "Seleziona la valuta associata al tuo conto dalle opzioni del menu a tendina. Questa è la valuta in cui viene mantenuto il tuo saldo e vengono elaborate le transazioni."
       },
+      "additional_contributions": {
+        "example": "Se prevedi di depositare $500 mensilmente nel tuo account, dovresti inserire 500 come contributo aggiuntivo.",
+        "text": "Si riferisce a importi aggiuntivi di denaro depositati nel tuo account a intervalli regolari."
+      },
       "additional_tax_rate": {
         "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
         "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
@@ -38,6 +42,14 @@
         "example": "Ad esempio, se hai acquistato un prodotto per €150,25, dovresti inserire '150,25'.",
         "instructions": "Inserisci il prezzo di acquisto dell'attivo. Questo è il costo totale per unità, esclusi oneri aggiuntivi come commissioni."
       },
+      "compound_frequency": {
+        "example": "Se gli interessi sono reinvestiti trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Indica la frequenza con cui gli interessi vengono reinvestiti."
+      },
+      "contribution_frequency": {
+        "example": "Se contribuisci al tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Designa la frequenza con cui vengono effettuate contribuzioni aggiuntive al tuo account."
+      },
       "discount_amount": {
         "example": "Se un prodotto è originariamente venduto per $100 e hai diritto a uno sconto di $20, inserisci 20 come importo.",
         "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
@@ -45,6 +57,10 @@
       "discount_rate": {
         "example": "Se il prezzo iniziale di un prodotto è $100 e viene offerto uno sconto del 20%, indica 20 come valore.",
         "text": "Rappresenta la percentuale di riduzione applicata al prezzo iniziale di un prodotto o servizio."
+      },
+      "duration_in_years": {
+        "example": "Se il calcolo è fatto per un periodo di 5 anni, dovresti inserire 5 come durata.",
+        "text": "Rappresenta la durata, espressa in anni, su cui si basa il calcolo finanziario."
       },
       "entry_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
@@ -90,6 +106,14 @@
         "example": "Se un prodotto costa $10 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
         "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
       },
+      "rate_of_return": {
+        "example": "Se prevedi un ritorno del 2% al mese, dovresti inserire 2 come tasso di rendimento.",
+        "text": "Simboleggia il tasso di rendimento su un periodo definito."
+      },
+      "rate_of_return_frequency": {
+        "example": "Nei casi in cui il tasso di rendimento è distribuito mensilmente, dovresti selezionare 'Mensile' come frequenza.",
+        "text": "Designa la periodicità della distribuzione del tasso di rendimento."
+      },
       "risk": {
         "example": "Se sei disposto a rischiare 1.000 €, che equivale al 2% del tuo capitale di 50.000 €, inserisci 2 come valore.",
         "text": "Indica la percentuale del tuo capitale che sei disposto a rischiare per questa transazione. Si consiglia di non rischiare più del 2% del proprio capitale in una singola transazione."
@@ -110,6 +134,10 @@
         "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
         "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
       },
+      "starting_balance": {
+        "example": "Se inizi i tuoi calcoli finanziari con un importo iniziale di $1.000, dovresti inserire 1000 come saldo iniziale.",
+        "text": "Rappresenta l'importo iniziale di denaro disponibile nel tuo account all'inizio di un periodo."
+      },
       "stop_loss_price": {
         "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
         "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
@@ -129,6 +157,14 @@
       "vat_rate": {
         "example": "Se il prezzo pre-tassa di un prodotto è $10 e l'aliquota IVA applicata è del 20%, inserisci 20 come valore dell'aliquota.",
         "text": "Si riferisce alla percentuale dell'imposta sul valore aggiunto (IVA) applicata a un prodotto o servizio."
+      },
+      "withdrawals_amount": {
+        "example": "Se prevedi di prelevare $200 mensilmente dal tuo account, dovresti inserire 200 come importo del prelievo.",
+        "text": "Specifica l'importo da prelevare periodicamente dal tuo account."
+      },
+      "withdrawals_frequency": {
+        "example": "Se effettui un prelievo dal tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Designa la frequenza con cui vengono effettuati prelievi dal tuo account."
       }
     },
     "label": {
@@ -277,6 +313,9 @@
       "initial_investment": "Investimento iniziale",
       "interest_rate": "Tasso di interesse",
       "involved_capital": "Capitale coinvolto",
+      "last": {
+        "earnings": "Ultimi guadagni"
+      },
       "last_updated_on": "Tassi aggiornati l'ultima volta il",
       "leverage": "Leverage",
       "loss": "Perdita",

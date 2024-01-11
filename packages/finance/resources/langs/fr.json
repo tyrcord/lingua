@@ -22,6 +22,10 @@
         "example": "Par exemple, si votre compte est basé aux États-Unis, vous sélectionneriez 'USD' dans le menu déroulant.",
         "instructions": "Sélectionnez la devise associée à votre compte dans les options du menu déroulant. C'est la devise dans laquelle votre solde est maintenu et les transactions sont traitées."
       },
+      "additional_contributions": {
+        "example": "Si vous envisagez de verser 500 $ mensuellement sur votre compte, vous devez saisir 500 comme contribution supplémentaire.",
+        "text": "Se réfère aux montants supplémentaires d'argent déposés sur votre compte à intervalles réguliers."
+      },
       "additional_tax_rate": {
         "example": "Si un produit subit une TVA de 20 % et qu'un impôt local ou spécifique supplémentaire de 2 % s'y ajoute, inscrivez 2 comme valeur.",
         "text": "Fait référence à une taxe supplémentaire qui est appliquée en plus de la TVA."
@@ -38,6 +42,14 @@
         "example": "Par exemple, si vous avez acheté un produit à 150,25 $, vous devez saisir '150,25'.",
         "instructions": "Saisissez le prix auquel vous avez acheté un actif. Il s'agit du coût total d'acquisition par unité, sans inclure les frais associés tels qu'une commission."
       },
+      "compound_frequency": {
+        "example": "Si les intérêts sont réinvestis trimestriellement, vous devez saisir 'Trimestriel' comme fréquence.",
+        "text": "Indique la fréquence à laquelle les intérêts sont réinvestis."
+      },
+      "contribution_frequency": {
+        "example": "Si vous contribuez à votre compte trimestriellement, vous devez saisir 'Trimestriel' comme fréquence.",
+        "text": "Désigne la fréquence à laquelle des contributions supplémentaires sont effectuées sur votre compte."
+      },
       "discount_amount": {
         "example": "Si un produit est initialement vendu 100 $, et que vous avez droit à une réduction de 20 $, veuillez entrer 20 en tant que montant.",
         "text": "Représente la réduction en valeur monétaire qui est soustraite au prix initial d'un produit ou d'un service."
@@ -45,6 +57,10 @@
       "discount_rate": {
         "example": "Si le prix de départ d'un produit est de 100 $ et qu'une réduction de 20 % est offerte, veuillez indiquer 20 comme valeur.",
         "text": "Représente le pourcentage de réduction appliqué au tarif initial d'un produit ou d'un service."
+      },
+      "duration_in_years": {
+        "example": "Si le calcul est réalisé pour une période de 5 ans, vous devez entrer 5 comme durée.",
+        "text": "Représente la durée, exprimée en années, sur laquelle se base le calcul financier."
       },
       "entry_fees": {
         "example": "Si votre courtier facture 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 comme valeur.",
@@ -90,6 +106,14 @@
         "example": "Si un produit coûte 10 $ avant taxes et qu'il est soumis à un taux de TVA de 20 %, inscrivez 10 comme valeur hors taxe",
         "text": "Désigne le prix d'un produit ou service avant l'ajout de la taxe sur la valeur ajoutée (TVA). La TVA est une taxe sur la consommation imposée lors de la vente de produits et services dans de nombreux pays."
       },
+      "rate_of_return": {
+        "example": "Si vous prévoyez un rendement de 2 % par mois, vous devez saisir 2 comme taux de rendement.",
+        "text": "Symbolise le taux de rendement sur une période définie."
+      },
+      "rate_of_return_frequency": {
+        "example": "Dans le cas où le taux de rendement est distribué chaque mois, vous devez sélectionner 'Mensuel' comme fréquence.",
+        "text": "Désigne la périodicité de distribution du taux de rendement."
+      },
       "risk": {
         "example": "Si vous êtes prêt à risquer 1 000 $, soit 2% de votre capital de 50 000 $, veuillez entrer 2 comme valeur.",
         "text": "Précisez le pourcentage de votre capital que vous êtes disposé à risquer pour cette transaction. Il est recommandé de ne pas risquer plus de 2% de votre capital sur une seule transaction."
@@ -110,6 +134,10 @@
         "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 $, mais que l'exécution se fait à 102 $, cet écart de 2 $, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 comme valeur.",
         "text": "Se réfère à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est effectivement exécutée. Le glissement (ou slippage en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres au marché sont utilisés ou cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas de volume suffisant au niveau du prix demandé."
       },
+      "starting_balance": {
+        "example": "Si vous commencez vos calculs financiers avec un montant initial de 1 000 $, vous devez saisir 1000 comme solde initial.",
+        "text": "Représente le montant initial d'argent disponible dans votre compte au début d'une période."
+      },
       "stop_loss_price": {
         "example": "Si vous avez acquis une action à 50 $ et choisi de sécuriser votre position avec un ordre de stop-loss à 45 $, veuillez saisir 45 comme valeur.",
         "text": "Indique le prix auquel vous établirez votre ordre de stop-loss afin de limiter les pertes potentielles."
@@ -129,6 +157,14 @@
       "vat_rate": {
         "example": "Si le prix hors taxe d'un produit est de 10 $ et que le taux de TVA appliqué est de 20 %, veuillez inscrire 20 comme valeur du taux.",
         "text": "Désigne le pourcentage de la taxe sur la valeur ajoutée (TVA) appliqué à un produit ou à un service."
+      },
+      "withdrawals_amount": {
+        "example": "Si vous envisagez de retirer 200 $ mensuellement de votre compte, vous devez saisir 200 comme montant du retrait.",
+        "text": "Spécifie le montant à retirer périodiquement de votre compte."
+      },
+      "withdrawals_frequency": {
+        "example": "Si vous effectuez un retrait de votre compte trimestriellement, vous devez saisir 'Trimestriel' comme fréquence.",
+        "text": "Désigne la fréquence à laquelle les prélèvements sont réalisés sur votre compte."
       }
     },
     "label": {
@@ -277,6 +313,9 @@
       "initial_investment": "Investissement initial",
       "interest_rate": "Taux d'intérêt",
       "involved_capital": "Capital engagé",
+      "last": {
+        "earnings": "Derniers gains"
+      },
       "last_updated_on": "Taux mis à jour le",
       "leverage": "Effet de levier",
       "loss": "Perte",

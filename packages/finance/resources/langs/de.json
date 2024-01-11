@@ -22,6 +22,10 @@
         "example": "Wenn Ihr Konto beispielsweise in den Vereinigten Staaten basiert ist, würden Sie 'USD' aus dem Dropdown-Menü auswählen.",
         "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
       },
+      "additional_contributions": {
+        "example": "Wenn Sie planen, monatlich 500 $ auf Ihr Konto einzuzahlen, sollten Sie 500 als zusätzlichen Beitrag eingeben.",
+        "text": "Bezieht sich auf zusätzliche Geldbeträge, die in regelmäßigen Abständen auf Ihr Konto eingezahlt werden."
+      },
       "additional_tax_rate": {
         "example": "Wenn ein Produkt einer 20% MwSt. Unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
         "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. Angewendet wird."
@@ -38,6 +42,14 @@
         "example": "Wenn Sie beispielsweise ein Produkt für 150,25 $ gekauft haben, sollten Sie '150,25' eingeben.",
         "instructions": "Geben Sie den Preis ein, zu dem Sie ein Vermögenswert erworben haben. Dies ist die gesamten Anschaffungskosten pro Einheit, ausgenommen damit verbundene Gebühren wie Provisionen."
       },
+      "compound_frequency": {
+        "example": "Wenn Zinsen vierteljährlich reinvestiert werden, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Gibt die Häufigkeit an, mit der Zinsen reinvestiert werden."
+      },
+      "contribution_frequency": {
+        "example": "Wenn Sie vierteljährlich zu Ihrem Konto beitragen, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Bezeichnet die Häufigkeit, mit der zusätzliche Beiträge auf Ihr Konto geleistet werden."
+      },
       "discount_amount": {
         "example": "Wenn ein Produkt ursprünglich für 100 $ verkauft wird und Sie Anspruch auf einen Rabatt von 20 $ haben, geben Sie bitte 20 als den Betrag ein.",
         "text": "Stellt die Reduzierung des Geldwerts dar, die vom ursprünglichen Preis eines Produkts oder einer Dienstleistung abgezogen wird."
@@ -45,6 +57,10 @@
       "discount_rate": {
         "example": "Wenn der Startpreis eines Produkts 100 $ beträgt und ein Rabatt von 20% angeboten wird, geben Sie bitte 20 als den Wert an.",
         "text": "Stellt die prozentuale Reduzierung dar, die auf den ursprünglichen Tarif eines Produkts oder einer Dienstleistung angewendet wird."
+      },
+      "duration_in_years": {
+        "example": "Wenn die Berechnung für einen Zeitraum von 5 Jahren durchgeführt wird, sollten Sie 5 als Dauer eingeben.",
+        "text": "Stellt die Dauer dar, ausgedrückt in Jahren, über die die finanzielle Berechnung basiert."
       },
       "entry_fees": {
         "example": "Wenn Ihr Broker bei der Eröffnung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
@@ -90,6 +106,14 @@
         "example": "Wenn ein Produkt vor Steuern 10 $ kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
         "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. Ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
       },
+      "rate_of_return": {
+        "example": "Wenn Sie eine Rendite von 2% pro Monat erwarten, sollten Sie 2 als Rendite eingeben.",
+        "text": "Symbolisiert die Rendite über einen definierten Zeitraum."
+      },
+      "rate_of_return_frequency": {
+        "example": "Wenn die Rendite monatlich verteilt wird, sollten Sie 'Monatlich' als Frequenz auswählen.",
+        "text": "Bezeichnet die Periodizität der Renditeverteilung."
+      },
       "risk": {
         "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
         "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2 % Ihres Kapitals bei einer einzigen Transaktion zu riskieren."
@@ -110,6 +134,10 @@
         "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
         "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
       },
+      "starting_balance": {
+        "example": "Wenn Sie Ihre finanziellen Berechnungen mit einem Anfangsbetrag von 1.000 $ beginnen, sollten Sie 1000 als Anfangssaldo eingeben.",
+        "text": "Stellt den anfänglichen Geldbetrag dar, der zu Beginn eines Zeitraums auf Ihrem Konto verfügbar ist."
+      },
       "stop_loss_price": {
         "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
         "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
@@ -129,6 +157,14 @@
       "vat_rate": {
         "example": "Wenn der Vorsteuerpreis eines Produkts 10 $ beträgt und der angewandte Mehrwertsteuersatz 20% beträgt, geben Sie bitte 20 als den Satzwert ein.",
         "text": "Bezieht sich auf den Prozentsatz der Mehrwertsteuer (MwSt.), der auf ein Produkt oder eine Dienstleistung angewendet wird."
+      },
+      "withdrawals_amount": {
+        "example": "Wenn Sie planen, monatlich 200 $ von Ihrem Konto abzuheben, sollten Sie 200 als Abhebungsbetrag eingeben.",
+        "text": "Gibt den Betrag an, der regelmäßig von Ihrem Konto abgehoben wird."
+      },
+      "withdrawals_frequency": {
+        "example": "Wenn Sie vierteljährlich von Ihrem Konto abheben, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Bezeichnet die Häufigkeit, mit der Abhebungen von Ihrem Konto vorgenommen werden."
       }
     },
     "label": {
@@ -277,6 +313,9 @@
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
       "involved_capital": "Investiertes kapital",
+      "last": {
+        "earnings": "Letzte Erträge"
+      },
       "last_updated_on": "Kurse zuletzt aktualisiert am",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",

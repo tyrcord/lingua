@@ -14,6 +14,8 @@ abstract class FinanceLocaleKeys {
   static const finance_help_account_balance_text = 'finance.help.account_balance.text';
   static const finance_help_account_currency_example = 'finance.help.account_currency.example';
   static const finance_help_account_currency_instructions = 'finance.help.account_currency.instructions';
+  static const finance_help_additional_contributions_example = 'finance.help.additional_contributions.example';
+  static const finance_help_additional_contributions_text = 'finance.help.additional_contributions.text';
   static const finance_help_additional_tax_rate_example = 'finance.help.additional_tax_rate.example';
   static const finance_help_additional_tax_rate_text = 'finance.help.additional_tax_rate.text';
   static const finance_help_amount_at_risk_example = 'finance.help.amount_at_risk.example';
@@ -22,10 +24,16 @@ abstract class FinanceLocaleKeys {
   static const finance_help_buying_expenses_per_unit_instructions = 'finance.help.buying_expenses_per_unit.instructions';
   static const finance_help_buying_price_example = 'finance.help.buying_price.example';
   static const finance_help_buying_price_instructions = 'finance.help.buying_price.instructions';
+  static const finance_help_compound_frequency_example = 'finance.help.compound_frequency.example';
+  static const finance_help_compound_frequency_text = 'finance.help.compound_frequency.text';
+  static const finance_help_contribution_frequency_example = 'finance.help.contribution_frequency.example';
+  static const finance_help_contribution_frequency_text = 'finance.help.contribution_frequency.text';
   static const finance_help_discount_amount_example = 'finance.help.discount_amount.example';
   static const finance_help_discount_amount_text = 'finance.help.discount_amount.text';
   static const finance_help_discount_rate_example = 'finance.help.discount_rate.example';
   static const finance_help_discount_rate_text = 'finance.help.discount_rate.text';
+  static const finance_help_duration_in_years_example = 'finance.help.duration_in_years.example';
+  static const finance_help_duration_in_years_text = 'finance.help.duration_in_years.text';
   static const finance_help_entry_fees_example = 'finance.help.entry_fees.example';
   static const finance_help_entry_fees_text = 'finance.help.entry_fees.text';
   static const finance_help_entry_price_example = 'finance.help.entry_price.example';
@@ -48,6 +56,10 @@ abstract class FinanceLocaleKeys {
   static const finance_help_position_size_instructions = 'finance.help.position_size.instructions';
   static const finance_help_price_before_vat_example = 'finance.help.price_before_vat.example';
   static const finance_help_price_before_vat_text = 'finance.help.price_before_vat.text';
+  static const finance_help_rate_of_return_example = 'finance.help.rate_of_return.example';
+  static const finance_help_rate_of_return_text = 'finance.help.rate_of_return.text';
+  static const finance_help_rate_of_return_frequency_example = 'finance.help.rate_of_return_frequency.example';
+  static const finance_help_rate_of_return_frequency_text = 'finance.help.rate_of_return_frequency.text';
   static const finance_help_risk_example = 'finance.help.risk.example';
   static const finance_help_risk_text = 'finance.help.risk.text';
   static const finance_help_risk_reward_ratio_example = 'finance.help.risk_reward_ratio.example';
@@ -58,6 +70,8 @@ abstract class FinanceLocaleKeys {
   static const finance_help_selling_price_instructions = 'finance.help.selling_price.instructions';
   static const finance_help_slippage_example = 'finance.help.slippage.example';
   static const finance_help_slippage_text = 'finance.help.slippage.text';
+  static const finance_help_starting_balance_example = 'finance.help.starting_balance.example';
+  static const finance_help_starting_balance_text = 'finance.help.starting_balance.text';
   static const finance_help_stop_loss_price_example = 'finance.help.stop_loss_price.example';
   static const finance_help_stop_loss_price_text = 'finance.help.stop_loss_price.text';
   static const finance_help_tax_rate_example = 'finance.help.tax_rate.example';
@@ -68,6 +82,10 @@ abstract class FinanceLocaleKeys {
   static const finance_help_tip_rate_text = 'finance.help.tip_rate.text';
   static const finance_help_vat_rate_example = 'finance.help.vat_rate.example';
   static const finance_help_vat_rate_text = 'finance.help.vat_rate.text';
+  static const finance_help_withdrawals_amount_example = 'finance.help.withdrawals_amount.example';
+  static const finance_help_withdrawals_amount_text = 'finance.help.withdrawals_amount.text';
+  static const finance_help_withdrawals_frequency_example = 'finance.help.withdrawals_frequency.example';
+  static const finance_help_withdrawals_frequency_text = 'finance.help.withdrawals_frequency.text';
   static const finance_label_account_balance = 'finance.label.account.balance';
   static const finance_label_account_currency = 'finance.label.account.currency';
   static const finance_label_account_size = 'finance.label.account.size';
@@ -155,6 +173,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_initial_investment = 'finance.label.initial_investment';
   static const finance_label_interest_rate = 'finance.label.interest_rate';
   static const finance_label_involved_capital = 'finance.label.involved_capital';
+  static const finance_label_last_earnings = 'finance.label.last.earnings';
   static const finance_label_last_updated_on = 'finance.label.last_updated_on';
   static const finance_label_leverage = 'finance.label.leverage';
   static const finance_label_loss = 'finance.label.loss';

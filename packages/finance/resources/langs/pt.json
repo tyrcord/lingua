@@ -22,6 +22,10 @@
         "example": "Por exemplo, se a sua conta for baseada nos Estados Unidos, selecionaria 'USD' no menu suspenso.",
         "instructions": "Selecione a moeda associada à sua conta a partir das opções no menu suspenso. Esta é a moeda em que o seu saldo é mantido e as transações são processadas."
       },
+      "additional_contributions": {
+        "example": "Se planeia depositar $500 mensalmente na sua conta, deve introduzir 500 como contribuição adicional.",
+        "text": "Refere-se a montantes adicionais de dinheiro depositados na sua conta em intervalos regulares."
+      },
       "additional_tax_rate": {
         "example": "Se um produto está sujeito a um IVA de 20% e um imposto específico ou local adicional de 2% é adicionado, insira 2 como o valor.",
         "text": "Refere-se a um imposto adicional que é aplicado em cima do IVA."
@@ -38,6 +42,14 @@
         "example": "Por exemplo, se você comprou um produto por 15.025 reais, insira '15025'.",
         "instructions": "Insira o preço de compra do ativo. Este é o custo total por unidade, excluindo quaisquer encargos adicionais, como taxas."
       },
+      "compound_frequency": {
+        "example": "Se os juros forem reinvestidos trimestralmente, deve introduzir 'Trimestral' como a frequência.",
+        "text": "Indica a frequência com que os juros são reinvestidos."
+      },
+      "contribution_frequency": {
+        "example": "Se contribuir para a sua conta trimestralmente, deve introduzir 'Trimestral' como a frequência.",
+        "text": "Designa a frequência com que as contribuições adicionais são feitas na sua conta."
+      },
       "discount_amount": {
         "example": "Se um produto é originalmente vendido por $100 e você tem direito a um desconto de $20, por favor, insira 20 como o valor.",
         "text": "Representa a redução no valor monetário que é subtraído do preço inicial de um produto ou serviço."
@@ -45,6 +57,10 @@
       "discount_rate": {
         "example": "Se o preço inicial de um produto é $100 e é oferecido um desconto de 20%, indique 20 como o valor.",
         "text": "Representa a percentagem de redução aplicada ao preço inicial de um produto ou serviço."
+      },
+      "duration_in_years": {
+        "example": "Se o cálculo for feito para um período de 5 anos, deve introduzir 5 como a duração.",
+        "text": "Representa a duração, expressa em anos, sobre a qual o cálculo financeiro se baseia."
       },
       "entry_fees": {
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição na abertura, insira 0,1 como porcentagem.",
@@ -90,6 +106,14 @@
         "example": "Se um produto custa $10 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
         "text": "Refere-se ao preço de um produto ou serviço antes da adição do imposto sobre o valor acrescentado (IVA). O IVA é um imposto sobre o consumo imposto quando produtos e serviços são vendidos em muitos países."
       },
+      "rate_of_return": {
+        "example": "Se antecipar um retorno de 2% por mês, deve introduzir 2 como taxa de retorno.",
+        "text": "Simboliza a taxa de retorno durante um período definido."
+      },
+      "rate_of_return_frequency": {
+        "example": "Nos casos em que a taxa de retorno é distribuída mensalmente, deve selecionar 'Mensal' como a frequência.",
+        "text": "Designa a periodicidade da distribuição da taxa de retorno."
+      },
       "risk": {
         "example": "Se você estiver disposto a arriscar 1.000 €, o que equivale a 2% do seu capital de 50.000 €, insira 2 como valor.",
         "text": "Informe o percentual do seu capital que você está disposto a arriscar nesta transação. É recomendável não arriscar mais de 2% do seu capital em uma única transação."
@@ -110,6 +134,10 @@
         "example": "Se você fizer um pedido de mercado para comprar uma ação que atualmente está sendo negociada a 100 €, mas a execução ocorrer a 102 €, essa diferença de 2 €, que equivale a 2% do preço original, é chamada de 'slippage'. Nesse caso, você deve inserir 2 como porcentagem.",
         "text": "Refere-se à diferença entre o preço esperado de uma transação e o preço ao qual a transação é realmente executada. O slippage ocorre frequentemente durante períodos de alta volatilidade quando são usados ​​pedidos de mercado, ou também pode ocorrer quando são executados pedidos grandes e não há volume suficiente no nível de preço solicitado."
       },
+      "starting_balance": {
+        "example": "Se iniciar os seus cálculos financeiros com um montante inicial de $1.000, deve introduzir 1000 como saldo inicial.",
+        "text": "Representa o montante inicial de dinheiro disponível na sua conta no início de um período."
+      },
       "stop_loss_price": {
         "example": "Se você comprou uma ação a 50 € e optou por proteger sua posição com um stop-loss a 45 €, insira 45 como valor.",
         "text": "Informe o preço ao qual você definirá seu stop-loss para limitar as perdas potenciais."
@@ -129,6 +157,14 @@
       "vat_rate": {
         "example": "Se o preço antes dos impostos de um produto é $10 e a taxa de IVA aplicada é de 20%, por favor, insira 20 como o valor da taxa.",
         "text": "Refere-se à percentagem do imposto sobre o valor acrescentado (IVA) aplicado a um produto ou serviço."
+      },
+      "withdrawals_amount": {
+        "example": "Se planeia retirar $200 mensalmente da sua conta, deve introduzir 200 como o montante de retirada.",
+        "text": "Especifica o montante a ser retirado periodicamente da sua conta."
+      },
+      "withdrawals_frequency": {
+        "example": "Se realizar uma retirada da sua conta trimestralmente, deve introduzir 'Trimestral' como a frequência.",
+        "text": "Designa a frequência com que as retiradas são feitas da sua conta."
       }
     },
     "label": {
@@ -277,6 +313,9 @@
       "initial_investment": "Investimento inicial",
       "interest_rate": "Taxa de juros",
       "involved_capital": "Capital envolvido",
+      "last": {
+        "earnings": "Últimos ganhos"
+      },
       "last_updated_on": "Taxas atualizadas pela última vez em",
       "leverage": "Alavancagem",
       "loss": "Perda",

@@ -22,6 +22,10 @@
         "example": "For instance, if your account is based in the United States, you would select 'USD' from the dropdown menu.",
         "instructions": "Select the currency associated with your account from the dropdown menu options. This is the currency in which your balance is maintained and transactions are processed."
       },
+      "additional_contributions": {
+        "example": "If you plan to deposit $500 monthly into your account, you should enter 500 as the additional contribution.",
+        "text": "Refers to additional amounts of money deposited into your account at regular intervals."
+      },
       "additional_tax_rate": {
         "example": "If a product is subject to a 20% VAT and an additional specific or local tax of 2% is added, enter 2 as the value.",
         "text": "Refers to an additional tax that is applied on top of the VAT."
@@ -38,6 +42,14 @@
         "example": "For instance, if you purchased a product for $150.25, you should enter '150.25'.",
         "instructions": "Enter the price at which you purchased an asset. This is the total acquisition cost per unit, excluding associated fees such as a commission."
       },
+      "compound_frequency": {
+        "example": "If interest is reinvested quarterly, you should enter 'Quarterly' as the frequency.",
+        "text": "Indicates the frequency at which interest is reinvested."
+      },
+      "contribution_frequency": {
+        "example": "If you contribute to your account quarterly, you should enter 'Quarterly' as the frequency.",
+        "text": "Designates the frequency at which additional contributions are made to your account."
+      },
       "discount_amount": {
         "example": "If a product is originally sold for $100, and you are entitled to a $20 discount, please enter 20 as the amount.",
         "text": "Represents the reduction in monetary value that is subtracted from the initial price of a product or service."
@@ -45,6 +57,10 @@
       "discount_rate": {
         "example": "If the starting price of a product is $100 and a 20% discount is offered, please indicate 20 as the value.",
         "text": "Represents the percentage reduction applied to the initial rate of a product or service."
+      },
+      "duration_in_years": {
+        "example": "If the calculation is done for a period of 5 years, you should enter 5 as the duration.",
+        "text": "Represents the duration, expressed in years, over which the financial calculation is based."
       },
       "entry_fees": {
         "example": "If your broker charges 0.1% of the total value of the position upon opening, please enter 0.1 as a percentage.",
@@ -90,6 +106,14 @@
         "example": "If a product costs $10 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
         "text": "Refers to the price of a product or service before the addition of the value-added tax (VAT). VAT is a tax on consumption imposed when products and services are sold in many countries."
       },
+      "rate_of_return": {
+        "example": "If you anticipate a return of 2% per month, you should enter 2 as the rate of return.",
+        "text": "Symbolizes the rate of return over a defined period."
+      },
+      "rate_of_return_frequency": {
+        "example": "In cases where the rate of return is distributed monthly, you should select 'Monthly' as the frequency.",
+        "text": "Designates the periodicity of the rate of return distribution."
+      },
       "risk": {
         "example": "If you're willing to risk $1,000, which is 2% of your $50,000 capital, please enter 2 as the value.",
         "text": "Specify the percentage of your capital that you are willing to risk for this transaction. It's recommended not to risk more than 2% of your capital on a single transaction."
@@ -110,6 +134,10 @@
         "example": "If you place a market order to purchase a stock valued at $100, but the transaction takes place at $102, the resulting variance of $2, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input 2 as a percentage.",
         "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, or it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
       },
+      "starting_balance": {
+        "example": "If you start your financial calculations with an initial amount of $1,000, you should enter 1000 as the starting balance.",
+        "text": "Represents the initial amount of money available in your account at the beginning of a period."
+      },
       "stop_loss_price": {
         "example": "If you purchased a stock at $50 and chose to secure your position with a stop-loss order at $45, please enter 45 as the value.",
         "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
@@ -129,6 +157,14 @@
       "vat_rate": {
         "example": "If the pre-tax price of a product is $10 and the applied VAT rate is 20%, please enter 20 as the rate value.",
         "text": "Refers to the percentage of the value-added tax (VAT) applied to a product or service."
+      },
+      "withdrawals_amount": {
+        "example": "If you plan to withdraw $200 monthly from your account, you should enter 200 as the withdrawal amount.",
+        "text": "Specifies the amount to be withdrawn periodically from your account."
+      },
+      "withdrawals_frequency": {
+        "example": "If you make a withdrawal from your account quarterly, you should enter 'Quarterly' as the frequency.",
+        "text": "Designates the frequency at which withdrawals are made from your account."
       }
     },
     "label": {
@@ -277,6 +313,9 @@
       "initial_investment": "Initial investment",
       "interest_rate": "Interest rate",
       "involved_capital": "Involved capital",
+      "last": {
+        "earnings": "Last earnings"
+      },
       "last_updated_on": "Rates last updated on",
       "leverage": "Leverage",
       "loss": "Loss",

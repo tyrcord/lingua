@@ -35,6 +35,10 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "例如，如果您的账户是基于美国的，您会在下拉菜单中选择'USD'。",
         "instructions": "从下拉菜单中选择与您账户相关的货币。这是您的余额保持和交易处理的货币。"
       },
+      "additional_contributions": {
+        "example": "如果您计划每月向账户存入500美元，您应输入500作为额外贡献。",
+        "text": "指定定期存入账户的额外金额。"
+      },
       "additional_tax_rate": {
         "example": "如果一个产品适用20%的增值税并增加了额外的2%特定或地方税，请输入2作为该税率。",
         "text": "指的是在增值税之上应用的额外税款。"
@@ -51,6 +55,14 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "例如，如果您以15025元的价格购买了产品，请输入'15025'。",
         "instructions": "请输入资产的购买价格。这应该是每单位的总成本，不包括任何额外费用，如手续费。"
       },
+      "compound_frequency": {
+        "example": "如果利息每季度重新投资，您应输入'每季度'作为频率。",
+        "text": "指示利息重新投资的频率。"
+      },
+      "contribution_frequency": {
+        "example": "如果您每季度向账户投入，您应输入'每季度'作为频率。",
+        "text": "指定额外贡献到账户的频率。"
+      },
       "discount_amount": {
         "example": "如果一个产品原价为\u0024100，且你可以享受\u002420的折扣，请输入20作为折扣金额。",
         "text": "代表从商品或服务的初始价格中减去的货币价值的减少。"
@@ -58,6 +70,10 @@ class FinanceCodegenLoader extends AssetLoader {
       "discount_rate": {
         "example": "如果一个产品的起始价格为\u0024100，且提供了20%的折扣，请输入20作为折扣率。",
         "text": "代表应用于商品或服务初始价格的百分比减少。"
+      },
+      "duration_in_years": {
+        "example": "如果计算是为了5年的期间，您应输入5作为期间。",
+        "text": "代表金融计算基于的年限。"
       },
       "entry_fees": {
         "example": "如果您的经纪人在开仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
@@ -103,6 +119,14 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果一个产品税前价格为\u002410且适用20%的增值税率，请输入10作为税前价值。",
         "text": "指的是商品或服务在增值税（VAT）加成之前的价格。增值税是许多国家在销售商品和服务时征收的消费税。"
       },
+      "rate_of_return": {
+        "example": "如果您预期每月回报率为2%，您应输入2作为回报率。",
+        "text": "象征着定义期间的回报率。"
+      },
+      "rate_of_return_frequency": {
+        "example": "如果回报率按月分配，您应选择'每月'作为频率。",
+        "text": "指定回报率分配的周期性。"
+      },
       "risk": {
         "example": "如果您同意冒险 1,000 欧元，这相当于您 50,000 欧元资本的 2%，请输入 2 作为值。",
         "text": "请提供您希望在此交易中冒险的资本百分比。建议不要在单笔交易中冒险超过您资本的 2%。"
@@ -123,6 +147,10 @@ class FinanceCodegenLoader extends AssetLoader {
         "example": "如果您下达以当前价格 100 欧元购买股票的市场订单，但实际执行价格为 102 欧元，则此 2 欧元 (相当于原始价格的 2%) 差异称为“滑点”。在这种情况下，您需要输入 2 作为百分比。",
         "text": "指的是交易预期价格和实际执行价格之间的差异。滑点在高波动时期使用市场订单时经常发生，也可能发生在执行大订单时，并且没有足够的交易量在所需的价格水平上。"
       },
+      "starting_balance": {
+        "example": "如果您开始的财务计算以初始金额1,000美元为基础，您应输入1000作为起始余额。",
+        "text": "代表一段时期开始时账户中可用的初始金额。"
+      },
       "stop_loss_price": {
         "example": "如果您以 50 欧元购买了股票，并选择以 45 欧元设置止损单来保护您的头寸，请输入 45 作为值。",
         "text": "请指定您将设置止损单以限制潜在损失的价格。"
@@ -142,6 +170,14 @@ class FinanceCodegenLoader extends AssetLoader {
       "vat_rate": {
         "example": "如果一个产品税前价格为\u002410且适用的增值税率为20%，请将20作为税率值输入。",
         "text": "指的是应用于商品或服务的增值税（VAT）的百分比。"
+      },
+      "withdrawals_amount": {
+        "example": "如果您计划每月从账户中提取200美元，您应输入200作为提款金额。",
+        "text": "指定定期从账户中提取的金额。"
+      },
+      "withdrawals_frequency": {
+        "example": "如果您每季度从账户中提款，您应输入'每季度'作为频率。",
+        "text": "指定从账户中提款的频率。"
       }
     },
     "label": {
@@ -290,6 +326,9 @@ class FinanceCodegenLoader extends AssetLoader {
       "initial_investment": "初始投资",
       "interest_rate": "利率",
       "involved_capital": "参与资本",
+      "last": {
+        "earnings": "最后收益"
+      },
       "last_updated_on": "最后更新的汇率",
       "leverage": "杠杆",
       "loss": "亏损",
@@ -546,6 +585,10 @@ static const Map<String,dynamic> ja = {
         "example": "例えば、あなたの口座がアメリカに拠点を置いている場合、ドロップダウンメニューで 'USD' を選択します。",
         "instructions": "ドロップダウンメニューのオプションから、あなたの口座に関連付けられた通貨を選択してください。これは、あなたの残高が保持され、取引が処理される通貨です。"
       },
+      "additional_contributions": {
+        "example": "アカウントに毎月\u0024500を預ける予定の場合は、追加の貢献として500を入力してください。",
+        "text": "定期的な間隔でアカウントに預けられる追加の金額を指します。"
+      },
       "additional_tax_rate": {
         "example": "製品に20%のVATが適用され、追加の特定税または地方税が2%追加される場合、値として2を入力してください。",
         "text": "VATの上に適用される追加の税を参照します。"
@@ -562,6 +605,14 @@ static const Map<String,dynamic> ja = {
         "example": "例えば、製品を15,025円で購入した場合、'15025'と入力します。",
         "instructions": "資産の購入価格を入力してください。これは、手数料などの追加料金を除いた、単位あたりの総コストです。"
       },
+      "compound_frequency": {
+        "example": "利息が四半期ごとに再投資される場合は、頻度として'四半期ごと'を入力してください。",
+        "text": "利息が再投資される頻度を示します。"
+      },
+      "contribution_frequency": {
+        "example": "アカウントに四半期ごとに貢献する場合は、頻度として'四半期ごと'を入力してください。",
+        "text": "アカウントへの追加の貢献が行われる頻度を指定します。"
+      },
       "discount_amount": {
         "example": "製品がもともと\u0024100で販売されており、\u002420の割引が適用される場合、金額として20を入力してください。",
         "text": "製品やサービスの初期価格から差し引かれる金額の削減を表します。"
@@ -569,6 +620,10 @@ static const Map<String,dynamic> ja = {
       "discount_rate": {
         "example": "製品の開始価格が\u0024100で、20%の割引が提供される場合、値として20を示してください。",
         "text": "製品やサービスの初期価格に適用される割引のパーセンテージを表します。"
+      },
+      "duration_in_years": {
+        "example": "計算が5年間の期間に対して行われる場合は、期間として5を入力してください。",
+        "text": "財務計算が基づく期間の長さを年単位で表します。"
       },
       "entry_fees": {
         "example": "ポジションの開設時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
@@ -614,6 +669,14 @@ static const Map<String,dynamic> ja = {
         "example": "製品が税抜きで\u002410であり、20%のVATが適用される場合、税抜きの値として10を入力してください。",
         "text": "製品またはサービスの価格を付加価値税（VAT）の追加前に参照します。VATは、多くの国で商品やサービスが販売される際に課される消費税です。"
       },
+      "rate_of_return": {
+        "example": "月に2％のリターンを見込む場合、リターン率として2を入力してください。",
+        "text": "定義された期間にわたるリターン率を象徴します。"
+      },
+      "rate_of_return_frequency": {
+        "example": "リターン率が毎月分配される場合は、頻度として'毎月'を選択してください。",
+        "text": "リターン率の分配の周期を指定します。"
+      },
       "risk": {
         "example": "50,000 円の資本で 1,000 円をリスクにさらすことに同意する場合は、2 を値として入力してください。これは、50,000 円の資本の 2% に相当します。",
         "text": "この取引でリスクにさらしたい資本の割合を指定してください。 2% を超える資本を単一取引でリスクにさらすことは推奨されません。"
@@ -634,6 +697,10 @@ static const Map<String,dynamic> ja = {
         "example": "現在 100 円で取引されている株式を市場価格で購入する注文を placed した場合、取引が 102 円で実行された場合、この 2 円の差は「スリッページ」と呼ばれます。この場合、パーセンテージとして 2 を入力する必要があります。",
         "text": "取引の expected 価格と実際に取引が実行された価格の差を参照します。スリッページは、市場のボラティリティが高い期間や、大口の注文が実行されていて、要求された価格レベルで十分な取引量がない場合によく発生します。"
       },
+      "starting_balance": {
+        "example": "最初に\u00241,000の金額で財務計算を開始する場合は、開始残高として1000を入力してください。",
+        "text": "期間の始まりにおけるアカウント内の利用可能な初期金額を表します。"
+      },
       "stop_loss_price": {
         "example": "50 円で株式を購入した後、45 円の損失を防ぐためにストップロス注文を設定する場合、45 を値として入力してください。",
         "text": "損失を最小限に抑えるためにストップロス注文を設定する価格を指定してください。"
@@ -653,6 +720,14 @@ static const Map<String,dynamic> ja = {
       "vat_rate": {
         "example": "製品の税抜き価格が\u002410で、適用されるVATの税率が20%の場合、税率の値として20を入力してください。",
         "text": "製品やサービスに適用される付加価値税（VAT）の割合を参照します。"
+      },
+      "withdrawals_amount": {
+        "example": "アカウントから毎月\u0024200を引き出す予定の場合は、引き出し金額として200を入力してください。",
+        "text": "アカウントから定期的に引き出される金額を指定します。"
+      },
+      "withdrawals_frequency": {
+        "example": "アカウントから四半期ごとに引き出しを行う場合は、頻度として'四半期ごと'を入力してください。",
+        "text": "アカウントから引き出しが行われる頻度を指定します。"
       }
     },
     "label": {
@@ -801,6 +876,9 @@ static const Map<String,dynamic> ja = {
       "initial_investment": "初期投資",
       "interest_rate": "利率",
       "involved_capital": "関与する資本",
+      "last": {
+        "earnings": "最終収益"
+      },
       "last_updated_on": "最後に更新されたレート",
       "leverage": "レバレッジ",
       "loss": "損失",
@@ -1057,6 +1135,10 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Ihr Konto beispielsweise in den Vereinigten Staaten basiert ist, würden Sie 'USD' aus dem Dropdown-Menü auswählen.",
         "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
       },
+      "additional_contributions": {
+        "example": "Wenn Sie planen, monatlich 500 \u0024 auf Ihr Konto einzuzahlen, sollten Sie 500 als zusätzlichen Beitrag eingeben.",
+        "text": "Bezieht sich auf zusätzliche Geldbeträge, die in regelmäßigen Abständen auf Ihr Konto eingezahlt werden."
+      },
       "additional_tax_rate": {
         "example": "Wenn ein Produkt einer 20% MwSt. Unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
         "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. Angewendet wird."
@@ -1073,6 +1155,14 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie beispielsweise ein Produkt für 150,25 \u0024 gekauft haben, sollten Sie '150,25' eingeben.",
         "instructions": "Geben Sie den Preis ein, zu dem Sie ein Vermögenswert erworben haben. Dies ist die gesamten Anschaffungskosten pro Einheit, ausgenommen damit verbundene Gebühren wie Provisionen."
       },
+      "compound_frequency": {
+        "example": "Wenn Zinsen vierteljährlich reinvestiert werden, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Gibt die Häufigkeit an, mit der Zinsen reinvestiert werden."
+      },
+      "contribution_frequency": {
+        "example": "Wenn Sie vierteljährlich zu Ihrem Konto beitragen, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Bezeichnet die Häufigkeit, mit der zusätzliche Beiträge auf Ihr Konto geleistet werden."
+      },
       "discount_amount": {
         "example": "Wenn ein Produkt ursprünglich für 100 \u0024 verkauft wird und Sie Anspruch auf einen Rabatt von 20 \u0024 haben, geben Sie bitte 20 als den Betrag ein.",
         "text": "Stellt die Reduzierung des Geldwerts dar, die vom ursprünglichen Preis eines Produkts oder einer Dienstleistung abgezogen wird."
@@ -1080,6 +1170,10 @@ static const Map<String,dynamic> de = {
       "discount_rate": {
         "example": "Wenn der Startpreis eines Produkts 100 \u0024 beträgt und ein Rabatt von 20% angeboten wird, geben Sie bitte 20 als den Wert an.",
         "text": "Stellt die prozentuale Reduzierung dar, die auf den ursprünglichen Tarif eines Produkts oder einer Dienstleistung angewendet wird."
+      },
+      "duration_in_years": {
+        "example": "Wenn die Berechnung für einen Zeitraum von 5 Jahren durchgeführt wird, sollten Sie 5 als Dauer eingeben.",
+        "text": "Stellt die Dauer dar, ausgedrückt in Jahren, über die die finanzielle Berechnung basiert."
       },
       "entry_fees": {
         "example": "Wenn Ihr Broker bei der Eröffnung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
@@ -1125,6 +1219,14 @@ static const Map<String,dynamic> de = {
         "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
         "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. Ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
       },
+      "rate_of_return": {
+        "example": "Wenn Sie eine Rendite von 2% pro Monat erwarten, sollten Sie 2 als Rendite eingeben.",
+        "text": "Symbolisiert die Rendite über einen definierten Zeitraum."
+      },
+      "rate_of_return_frequency": {
+        "example": "Wenn die Rendite monatlich verteilt wird, sollten Sie 'Monatlich' als Frequenz auswählen.",
+        "text": "Bezeichnet die Periodizität der Renditeverteilung."
+      },
       "risk": {
         "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
         "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2 % Ihres Kapitals bei einer einzigen Transaktion zu riskieren."
@@ -1145,6 +1247,10 @@ static const Map<String,dynamic> de = {
         "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
         "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
       },
+      "starting_balance": {
+        "example": "Wenn Sie Ihre finanziellen Berechnungen mit einem Anfangsbetrag von 1.000 \u0024 beginnen, sollten Sie 1000 als Anfangssaldo eingeben.",
+        "text": "Stellt den anfänglichen Geldbetrag dar, der zu Beginn eines Zeitraums auf Ihrem Konto verfügbar ist."
+      },
       "stop_loss_price": {
         "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
         "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
@@ -1164,6 +1270,14 @@ static const Map<String,dynamic> de = {
       "vat_rate": {
         "example": "Wenn der Vorsteuerpreis eines Produkts 10 \u0024 beträgt und der angewandte Mehrwertsteuersatz 20% beträgt, geben Sie bitte 20 als den Satzwert ein.",
         "text": "Bezieht sich auf den Prozentsatz der Mehrwertsteuer (MwSt.), der auf ein Produkt oder eine Dienstleistung angewendet wird."
+      },
+      "withdrawals_amount": {
+        "example": "Wenn Sie planen, monatlich 200 \u0024 von Ihrem Konto abzuheben, sollten Sie 200 als Abhebungsbetrag eingeben.",
+        "text": "Gibt den Betrag an, der regelmäßig von Ihrem Konto abgehoben wird."
+      },
+      "withdrawals_frequency": {
+        "example": "Wenn Sie vierteljährlich von Ihrem Konto abheben, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Bezeichnet die Häufigkeit, mit der Abhebungen von Ihrem Konto vorgenommen werden."
       }
     },
     "label": {
@@ -1312,6 +1426,9 @@ static const Map<String,dynamic> de = {
       "initial_investment": "Erstinvestition",
       "interest_rate": "Zinssatz",
       "involved_capital": "Investiertes kapital",
+      "last": {
+        "earnings": "Letzte Erträge"
+      },
       "last_updated_on": "Kurse zuletzt aktualisiert am",
       "leverage": "Hebelwirkung",
       "loss": "Verlust",
@@ -1568,6 +1685,10 @@ static const Map<String,dynamic> ru = {
         "example": "Например, если ваш счет базируется в США, вы бы выбрали 'USD' в выпадающем меню.",
         "instructions": "Выберите валюту, связанную с вашим счетом, из опций в выпадающем меню. Это та валюта, в которой учитывается ваш баланс и обрабатываются транзакции."
       },
+      "additional_contributions": {
+        "example": "Если вы планируете вносить \u0024500 ежемесячно на свой счет, вы должны ввести 500 как дополнительный взнос.",
+        "text": "Относится к дополнительным суммам денег, вносимым на ваш счет через регулярные интервалы."
+      },
       "additional_tax_rate": {
         "example": "Если на товар распространяется ставка НДС 20% и добавляется дополнительный конкретный или местный налог 2%, введите 2 в качестве значения.",
         "text": "Относится к дополнительному налогу, который начисляется сверх НДС."
@@ -1584,6 +1705,14 @@ static const Map<String,dynamic> ru = {
         "example": "Например, если вы купили продукт за 15025 рублей, введите '15025'.",
         "instructions": "Введите цену покупки актива. Это общая стоимость за единицу, исключая дополнительные расходы, такие как комиссии."
       },
+      "compound_frequency": {
+        "example": "Если проценты реинвестируются ежеквартально, вы должны ввести 'Ежеквартально' как частоту.",
+        "text": "Указывает частоту, с которой проценты реинвестируются."
+      },
+      "contribution_frequency": {
+        "example": "Если вы вносите вклад на свой счет ежеквартально, вам следует ввести 'Ежеквартально' как частоту.",
+        "text": "Обозначает частоту, с которой производятся дополнительные взносы на ваш счет."
+      },
       "discount_amount": {
         "example": "Если первоначальная стоимость товара составляет \u0024100, и вам предоставляется скидка \u002420, введите 20 в качестве суммы.",
         "text": "Представляет собой уменьшение денежной стоимости, которое вычитается из первоначальной цены товара или услуги."
@@ -1591,6 +1720,10 @@ static const Map<String,dynamic> ru = {
       "discount_rate": {
         "example": "Если начальная цена товара составляет \u0024100 и предлагается скидка 20%, укажите 20 в качестве значения.",
         "text": "Представляет собой процентное уменьшение, применяемое к начальной стоимости товара или услуги."
+      },
+      "duration_in_years": {
+        "example": "Если расчет производится за период в 5 лет, вам следует ввести 5 как продолжительность.",
+        "text": "Представляет собой продолжительность, выраженную в годах, на которую основан финансовый расчет."
       },
       "entry_fees": {
         "example": "Если ваш брокер взимает 0,1% от общей стоимости позиции при открытии, введите 0,1 в качестве процента.",
@@ -1636,6 +1769,14 @@ static const Map<String,dynamic> ru = {
         "example": "Если стоимость товара до налогов составляет \u002410 и на нее распространяется ставка НДС 20%, введите 10 в качестве значения до налогообложения.",
         "text": "Относится к цене товара или услуги до начисления налога на добавленную стоимость (НДС). НДС — это потребительский налог, взимаемый при продаже товаров и услуг во многих странах."
       },
+      "rate_of_return": {
+        "example": "Если вы ожидаете доходность в 2% в месяц, вам следует ввести 2 как ставку доходности.",
+        "text": "Символизирует ставку доходности за определенный период."
+      },
+      "rate_of_return_frequency": {
+        "example": "В случаях, когда доходность распределяется ежемесячно, вы должны выбрать 'Ежемесячно' как частоту.",
+        "text": "Обозначает периодичность распределения доходности."
+      },
       "risk": {
         "example": "Если вы готовы рискнуть 1 000 €, что составляет 2% вашего капитала в размере 50 000 €, введите 2 в качестве значения.",
         "text": "Укажите процент вашего капитала, который вы готовы рискнуть в этой транзакции. Рекомендуется не рисковать более 2% своего капитала в одной транзакции."
@@ -1656,6 +1797,10 @@ static const Map<String,dynamic> ru = {
         "example": "Если вы разместите рыночный ордер на покупку акции, которая в настоящее время торгуется по 100 €, но исполнение происходит по 102 €, эта разница в 2 € (что составляет 2% от первоначальной цены) называется «проскальзыванием». В этом случае вам нужно ввести 2 в качестве процента.",
         "text": "Ссылается на разницу между ожидаемой ценой транзакции и ценой, по которой транзакция фактически выполняется. Проскальзывает часто во время периодов высокой волатильности, когда используются рыночные ордера, или может также происходить, когда выполняются крупные ордера, и нет достаточного объема на запрашиваемом уровне цен."
       },
+      "starting_balance": {
+        "example": "Если вы начинаете свои финансовые расчеты с начальной суммы в \u00241,000, вы должны ввести 1000 как начальный баланс.",
+        "text": "Представляет собой начальную сумму денег, доступных на вашем счете в начале периода."
+      },
       "stop_loss_price": {
         "example": "Если вы купили акцию по 50 € и решили защитить свою позицию стоп-лосс-приказом на 45 €, введите 45 в качестве значения.",
         "text": "Укажите цену, по которой вы установите свой стоп-лосс, чтобы ограничить возможные убытки."
@@ -1675,6 +1820,14 @@ static const Map<String,dynamic> ru = {
       "vat_rate": {
         "example": "Если цена товара до налогов составляет \u002410 и на нее применяется ставка НДС 20%, введите 20 в качестве значения ставки.",
         "text": "Относится к процентной ставке налога на добавленную стоимость (НДС), применяемой к товару или услуге."
+      },
+      "withdrawals_amount": {
+        "example": "Если вы планируете снимать \u0024200 ежемесячно со своего счета, вы должны ввести 200 как сумму снятия.",
+        "text": "Указывает сумму, которая будет периодически сниматься со счета."
+      },
+      "withdrawals_frequency": {
+        "example": "Если вы осуществляете снятие со счета ежеквартально, вам следует ввести 'Ежеквартально' как частоту.",
+        "text": "Обозначает частоту, с которой производятся снятия со счета."
       }
     },
     "label": {
@@ -1823,6 +1976,9 @@ static const Map<String,dynamic> ru = {
       "initial_investment": "Начальные инвестиции",
       "interest_rate": "Процентная ставка",
       "involved_capital": "Вовлеченный капитал",
+      "last": {
+        "earnings": "Последний доход"
+      },
       "last_updated_on": "Курсы последний раз обновлялись",
       "leverage": "Плечо",
       "loss": "Убыток",
@@ -2079,6 +2235,10 @@ static const Map<String,dynamic> pt = {
         "example": "Por exemplo, se a sua conta for baseada nos Estados Unidos, selecionaria 'USD' no menu suspenso.",
         "instructions": "Selecione a moeda associada à sua conta a partir das opções no menu suspenso. Esta é a moeda em que o seu saldo é mantido e as transações são processadas."
       },
+      "additional_contributions": {
+        "example": "Se planeia depositar \u0024500 mensalmente na sua conta, deve introduzir 500 como contribuição adicional.",
+        "text": "Refere-se a montantes adicionais de dinheiro depositados na sua conta em intervalos regulares."
+      },
       "additional_tax_rate": {
         "example": "Se um produto está sujeito a um IVA de 20% e um imposto específico ou local adicional de 2% é adicionado, insira 2 como o valor.",
         "text": "Refere-se a um imposto adicional que é aplicado em cima do IVA."
@@ -2095,6 +2255,14 @@ static const Map<String,dynamic> pt = {
         "example": "Por exemplo, se você comprou um produto por 15.025 reais, insira '15025'.",
         "instructions": "Insira o preço de compra do ativo. Este é o custo total por unidade, excluindo quaisquer encargos adicionais, como taxas."
       },
+      "compound_frequency": {
+        "example": "Se os juros forem reinvestidos trimestralmente, deve introduzir 'Trimestral' como a frequência.",
+        "text": "Indica a frequência com que os juros são reinvestidos."
+      },
+      "contribution_frequency": {
+        "example": "Se contribuir para a sua conta trimestralmente, deve introduzir 'Trimestral' como a frequência.",
+        "text": "Designa a frequência com que as contribuições adicionais são feitas na sua conta."
+      },
       "discount_amount": {
         "example": "Se um produto é originalmente vendido por \u0024100 e você tem direito a um desconto de \u002420, por favor, insira 20 como o valor.",
         "text": "Representa a redução no valor monetário que é subtraído do preço inicial de um produto ou serviço."
@@ -2102,6 +2270,10 @@ static const Map<String,dynamic> pt = {
       "discount_rate": {
         "example": "Se o preço inicial de um produto é \u0024100 e é oferecido um desconto de 20%, indique 20 como o valor.",
         "text": "Representa a percentagem de redução aplicada ao preço inicial de um produto ou serviço."
+      },
+      "duration_in_years": {
+        "example": "Se o cálculo for feito para um período de 5 anos, deve introduzir 5 como a duração.",
+        "text": "Representa a duração, expressa em anos, sobre a qual o cálculo financeiro se baseia."
       },
       "entry_fees": {
         "example": "Se o seu corretor cobrar 0,1% do valor total da posição na abertura, insira 0,1 como porcentagem.",
@@ -2147,6 +2319,14 @@ static const Map<String,dynamic> pt = {
         "example": "Se um produto custa \u002410 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
         "text": "Refere-se ao preço de um produto ou serviço antes da adição do imposto sobre o valor acrescentado (IVA). O IVA é um imposto sobre o consumo imposto quando produtos e serviços são vendidos em muitos países."
       },
+      "rate_of_return": {
+        "example": "Se antecipar um retorno de 2% por mês, deve introduzir 2 como taxa de retorno.",
+        "text": "Simboliza a taxa de retorno durante um período definido."
+      },
+      "rate_of_return_frequency": {
+        "example": "Nos casos em que a taxa de retorno é distribuída mensalmente, deve selecionar 'Mensal' como a frequência.",
+        "text": "Designa a periodicidade da distribuição da taxa de retorno."
+      },
       "risk": {
         "example": "Se você estiver disposto a arriscar 1.000 €, o que equivale a 2% do seu capital de 50.000 €, insira 2 como valor.",
         "text": "Informe o percentual do seu capital que você está disposto a arriscar nesta transação. É recomendável não arriscar mais de 2% do seu capital em uma única transação."
@@ -2167,6 +2347,10 @@ static const Map<String,dynamic> pt = {
         "example": "Se você fizer um pedido de mercado para comprar uma ação que atualmente está sendo negociada a 100 €, mas a execução ocorrer a 102 €, essa diferença de 2 €, que equivale a 2% do preço original, é chamada de 'slippage'. Nesse caso, você deve inserir 2 como porcentagem.",
         "text": "Refere-se à diferença entre o preço esperado de uma transação e o preço ao qual a transação é realmente executada. O slippage ocorre frequentemente durante períodos de alta volatilidade quando são usados ​​pedidos de mercado, ou também pode ocorrer quando são executados pedidos grandes e não há volume suficiente no nível de preço solicitado."
       },
+      "starting_balance": {
+        "example": "Se iniciar os seus cálculos financeiros com um montante inicial de \u00241.000, deve introduzir 1000 como saldo inicial.",
+        "text": "Representa o montante inicial de dinheiro disponível na sua conta no início de um período."
+      },
       "stop_loss_price": {
         "example": "Se você comprou uma ação a 50 € e optou por proteger sua posição com um stop-loss a 45 €, insira 45 como valor.",
         "text": "Informe o preço ao qual você definirá seu stop-loss para limitar as perdas potenciais."
@@ -2186,6 +2370,14 @@ static const Map<String,dynamic> pt = {
       "vat_rate": {
         "example": "Se o preço antes dos impostos de um produto é \u002410 e a taxa de IVA aplicada é de 20%, por favor, insira 20 como o valor da taxa.",
         "text": "Refere-se à percentagem do imposto sobre o valor acrescentado (IVA) aplicado a um produto ou serviço."
+      },
+      "withdrawals_amount": {
+        "example": "Se planeia retirar \u0024200 mensalmente da sua conta, deve introduzir 200 como o montante de retirada.",
+        "text": "Especifica o montante a ser retirado periodicamente da sua conta."
+      },
+      "withdrawals_frequency": {
+        "example": "Se realizar uma retirada da sua conta trimestralmente, deve introduzir 'Trimestral' como a frequência.",
+        "text": "Designa a frequência com que as retiradas são feitas da sua conta."
       }
     },
     "label": {
@@ -2334,6 +2526,9 @@ static const Map<String,dynamic> pt = {
       "initial_investment": "Investimento inicial",
       "interest_rate": "Taxa de juros",
       "involved_capital": "Capital envolvido",
+      "last": {
+        "earnings": "Últimos ganhos"
+      },
       "last_updated_on": "Taxas atualizadas pela última vez em",
       "leverage": "Alavancagem",
       "loss": "Perda",
@@ -2590,6 +2785,10 @@ static const Map<String,dynamic> en = {
         "example": "For instance, if your account is based in the United States, you would select 'USD' from the dropdown menu.",
         "instructions": "Select the currency associated with your account from the dropdown menu options. This is the currency in which your balance is maintained and transactions are processed."
       },
+      "additional_contributions": {
+        "example": "If you plan to deposit \u0024500 monthly into your account, you should enter 500 as the additional contribution.",
+        "text": "Refers to additional amounts of money deposited into your account at regular intervals."
+      },
       "additional_tax_rate": {
         "example": "If a product is subject to a 20% VAT and an additional specific or local tax of 2% is added, enter 2 as the value.",
         "text": "Refers to an additional tax that is applied on top of the VAT."
@@ -2606,6 +2805,14 @@ static const Map<String,dynamic> en = {
         "example": "For instance, if you purchased a product for \u0024150.25, you should enter '150.25'.",
         "instructions": "Enter the price at which you purchased an asset. This is the total acquisition cost per unit, excluding associated fees such as a commission."
       },
+      "compound_frequency": {
+        "example": "If interest is reinvested quarterly, you should enter 'Quarterly' as the frequency.",
+        "text": "Indicates the frequency at which interest is reinvested."
+      },
+      "contribution_frequency": {
+        "example": "If you contribute to your account quarterly, you should enter 'Quarterly' as the frequency.",
+        "text": "Designates the frequency at which additional contributions are made to your account."
+      },
       "discount_amount": {
         "example": "If a product is originally sold for \u0024100, and you are entitled to a \u002420 discount, please enter 20 as the amount.",
         "text": "Represents the reduction in monetary value that is subtracted from the initial price of a product or service."
@@ -2613,6 +2820,10 @@ static const Map<String,dynamic> en = {
       "discount_rate": {
         "example": "If the starting price of a product is \u0024100 and a 20% discount is offered, please indicate 20 as the value.",
         "text": "Represents the percentage reduction applied to the initial rate of a product or service."
+      },
+      "duration_in_years": {
+        "example": "If the calculation is done for a period of 5 years, you should enter 5 as the duration.",
+        "text": "Represents the duration, expressed in years, over which the financial calculation is based."
       },
       "entry_fees": {
         "example": "If your broker charges 0.1% of the total value of the position upon opening, please enter 0.1 as a percentage.",
@@ -2658,6 +2869,14 @@ static const Map<String,dynamic> en = {
         "example": "If a product costs \u002410 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
         "text": "Refers to the price of a product or service before the addition of the value-added tax (VAT). VAT is a tax on consumption imposed when products and services are sold in many countries."
       },
+      "rate_of_return": {
+        "example": "If you anticipate a return of 2% per month, you should enter 2 as the rate of return.",
+        "text": "Symbolizes the rate of return over a defined period."
+      },
+      "rate_of_return_frequency": {
+        "example": "In cases where the rate of return is distributed monthly, you should select 'Monthly' as the frequency.",
+        "text": "Designates the periodicity of the rate of return distribution."
+      },
       "risk": {
         "example": "If you're willing to risk \u00241,000, which is 2% of your \u002450,000 capital, please enter 2 as the value.",
         "text": "Specify the percentage of your capital that you are willing to risk for this transaction. It's recommended not to risk more than 2% of your capital on a single transaction."
@@ -2678,6 +2897,10 @@ static const Map<String,dynamic> en = {
         "example": "If you place a market order to purchase a stock valued at \u0024100, but the transaction takes place at \u0024102, the resulting variance of \u00242, equivalent to 2% from the original price, is referred to as 'slippage'. In this scenario, you ought to input 2 as a percentage.",
         "text": "Refers to the difference between the expected price of a trade and the price at which the trade is actually executed. Slippage often occurs during periods of high volatility when market orders are used, or it can also happen when large orders are executed and there is insufficient volume at the chosen price level."
       },
+      "starting_balance": {
+        "example": "If you start your financial calculations with an initial amount of \u00241,000, you should enter 1000 as the starting balance.",
+        "text": "Represents the initial amount of money available in your account at the beginning of a period."
+      },
       "stop_loss_price": {
         "example": "If you purchased a stock at \u002450 and chose to secure your position with a stop-loss order at \u002445, please enter 45 as the value.",
         "text": "Indicate the price at which you will set your stop-loss order to limit potential losses."
@@ -2697,6 +2920,14 @@ static const Map<String,dynamic> en = {
       "vat_rate": {
         "example": "If the pre-tax price of a product is \u002410 and the applied VAT rate is 20%, please enter 20 as the rate value.",
         "text": "Refers to the percentage of the value-added tax (VAT) applied to a product or service."
+      },
+      "withdrawals_amount": {
+        "example": "If you plan to withdraw \u0024200 monthly from your account, you should enter 200 as the withdrawal amount.",
+        "text": "Specifies the amount to be withdrawn periodically from your account."
+      },
+      "withdrawals_frequency": {
+        "example": "If you make a withdrawal from your account quarterly, you should enter 'Quarterly' as the frequency.",
+        "text": "Designates the frequency at which withdrawals are made from your account."
       }
     },
     "label": {
@@ -2845,6 +3076,9 @@ static const Map<String,dynamic> en = {
       "initial_investment": "Initial investment",
       "interest_rate": "Interest rate",
       "involved_capital": "Involved capital",
+      "last": {
+        "earnings": "Last earnings"
+      },
       "last_updated_on": "Rates last updated on",
       "leverage": "Leverage",
       "loss": "Loss",
@@ -3101,6 +3335,10 @@ static const Map<String,dynamic> it = {
         "example": "Ad esempio, se il tuo conto è basato negli Stati Uniti, selezioneresti 'USD' dal menu a tendina.",
         "instructions": "Seleziona la valuta associata al tuo conto dalle opzioni del menu a tendina. Questa è la valuta in cui viene mantenuto il tuo saldo e vengono elaborate le transazioni."
       },
+      "additional_contributions": {
+        "example": "Se prevedi di depositare \u0024500 mensilmente nel tuo account, dovresti inserire 500 come contributo aggiuntivo.",
+        "text": "Si riferisce a importi aggiuntivi di denaro depositati nel tuo account a intervalli regolari."
+      },
       "additional_tax_rate": {
         "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
         "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
@@ -3117,6 +3355,14 @@ static const Map<String,dynamic> it = {
         "example": "Ad esempio, se hai acquistato un prodotto per €150,25, dovresti inserire '150,25'.",
         "instructions": "Inserisci il prezzo di acquisto dell'attivo. Questo è il costo totale per unità, esclusi oneri aggiuntivi come commissioni."
       },
+      "compound_frequency": {
+        "example": "Se gli interessi sono reinvestiti trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Indica la frequenza con cui gli interessi vengono reinvestiti."
+      },
+      "contribution_frequency": {
+        "example": "Se contribuisci al tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Designa la frequenza con cui vengono effettuate contribuzioni aggiuntive al tuo account."
+      },
       "discount_amount": {
         "example": "Se un prodotto è originariamente venduto per \u0024100 e hai diritto a uno sconto di \u002420, inserisci 20 come importo.",
         "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
@@ -3124,6 +3370,10 @@ static const Map<String,dynamic> it = {
       "discount_rate": {
         "example": "Se il prezzo iniziale di un prodotto è \u0024100 e viene offerto uno sconto del 20%, indica 20 come valore.",
         "text": "Rappresenta la percentuale di riduzione applicata al prezzo iniziale di un prodotto o servizio."
+      },
+      "duration_in_years": {
+        "example": "Se il calcolo è fatto per un periodo di 5 anni, dovresti inserire 5 come durata.",
+        "text": "Rappresenta la durata, espressa in anni, su cui si basa il calcolo finanziario."
       },
       "entry_fees": {
         "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
@@ -3169,6 +3419,14 @@ static const Map<String,dynamic> it = {
         "example": "Se un prodotto costa \u002410 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
         "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
       },
+      "rate_of_return": {
+        "example": "Se prevedi un ritorno del 2% al mese, dovresti inserire 2 come tasso di rendimento.",
+        "text": "Simboleggia il tasso di rendimento su un periodo definito."
+      },
+      "rate_of_return_frequency": {
+        "example": "Nei casi in cui il tasso di rendimento è distribuito mensilmente, dovresti selezionare 'Mensile' come frequenza.",
+        "text": "Designa la periodicità della distribuzione del tasso di rendimento."
+      },
       "risk": {
         "example": "Se sei disposto a rischiare 1.000 €, che equivale al 2% del tuo capitale di 50.000 €, inserisci 2 come valore.",
         "text": "Indica la percentuale del tuo capitale che sei disposto a rischiare per questa transazione. Si consiglia di non rischiare più del 2% del proprio capitale in una singola transazione."
@@ -3189,6 +3447,10 @@ static const Map<String,dynamic> it = {
         "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
         "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
       },
+      "starting_balance": {
+        "example": "Se inizi i tuoi calcoli finanziari con un importo iniziale di \u00241.000, dovresti inserire 1000 come saldo iniziale.",
+        "text": "Rappresenta l'importo iniziale di denaro disponibile nel tuo account all'inizio di un periodo."
+      },
       "stop_loss_price": {
         "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
         "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
@@ -3208,6 +3470,14 @@ static const Map<String,dynamic> it = {
       "vat_rate": {
         "example": "Se il prezzo pre-tassa di un prodotto è \u002410 e l'aliquota IVA applicata è del 20%, inserisci 20 come valore dell'aliquota.",
         "text": "Si riferisce alla percentuale dell'imposta sul valore aggiunto (IVA) applicata a un prodotto o servizio."
+      },
+      "withdrawals_amount": {
+        "example": "Se prevedi di prelevare \u0024200 mensilmente dal tuo account, dovresti inserire 200 come importo del prelievo.",
+        "text": "Specifica l'importo da prelevare periodicamente dal tuo account."
+      },
+      "withdrawals_frequency": {
+        "example": "Se effettui un prelievo dal tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Designa la frequenza con cui vengono effettuati prelievi dal tuo account."
       }
     },
     "label": {
@@ -3356,6 +3626,9 @@ static const Map<String,dynamic> it = {
       "initial_investment": "Investimento iniziale",
       "interest_rate": "Tasso di interesse",
       "involved_capital": "Capitale coinvolto",
+      "last": {
+        "earnings": "Ultimi guadagni"
+      },
       "last_updated_on": "Tassi aggiornati l'ultima volta il",
       "leverage": "Leverage",
       "loss": "Perdita",
@@ -3612,6 +3885,10 @@ static const Map<String,dynamic> fr = {
         "example": "Par exemple, si votre compte est basé aux États-Unis, vous sélectionneriez 'USD' dans le menu déroulant.",
         "instructions": "Sélectionnez la devise associée à votre compte dans les options du menu déroulant. C'est la devise dans laquelle votre solde est maintenu et les transactions sont traitées."
       },
+      "additional_contributions": {
+        "example": "Si vous envisagez de verser 500 \u0024 mensuellement sur votre compte, vous devez saisir 500 comme contribution supplémentaire.",
+        "text": "Se réfère aux montants supplémentaires d'argent déposés sur votre compte à intervalles réguliers."
+      },
       "additional_tax_rate": {
         "example": "Si un produit subit une TVA de 20 % et qu'un impôt local ou spécifique supplémentaire de 2 % s'y ajoute, inscrivez 2 comme valeur.",
         "text": "Fait référence à une taxe supplémentaire qui est appliquée en plus de la TVA."
@@ -3628,6 +3905,14 @@ static const Map<String,dynamic> fr = {
         "example": "Par exemple, si vous avez acheté un produit à 150,25 \u0024, vous devez saisir '150,25'.",
         "instructions": "Saisissez le prix auquel vous avez acheté un actif. Il s'agit du coût total d'acquisition par unité, sans inclure les frais associés tels qu'une commission."
       },
+      "compound_frequency": {
+        "example": "Si les intérêts sont réinvestis trimestriellement, vous devez saisir 'Trimestriel' comme fréquence.",
+        "text": "Indique la fréquence à laquelle les intérêts sont réinvestis."
+      },
+      "contribution_frequency": {
+        "example": "Si vous contribuez à votre compte trimestriellement, vous devez saisir 'Trimestriel' comme fréquence.",
+        "text": "Désigne la fréquence à laquelle des contributions supplémentaires sont effectuées sur votre compte."
+      },
       "discount_amount": {
         "example": "Si un produit est initialement vendu 100 \u0024, et que vous avez droit à une réduction de 20 \u0024, veuillez entrer 20 en tant que montant.",
         "text": "Représente la réduction en valeur monétaire qui est soustraite au prix initial d'un produit ou d'un service."
@@ -3635,6 +3920,10 @@ static const Map<String,dynamic> fr = {
       "discount_rate": {
         "example": "Si le prix de départ d'un produit est de 100 \u0024 et qu'une réduction de 20 % est offerte, veuillez indiquer 20 comme valeur.",
         "text": "Représente le pourcentage de réduction appliqué au tarif initial d'un produit ou d'un service."
+      },
+      "duration_in_years": {
+        "example": "Si le calcul est réalisé pour une période de 5 ans, vous devez entrer 5 comme durée.",
+        "text": "Représente la durée, exprimée en années, sur laquelle se base le calcul financier."
       },
       "entry_fees": {
         "example": "Si votre courtier facture 0,1% de la valeur totale de la position à l'ouverture, veuillez saisir 0,1 comme valeur.",
@@ -3680,6 +3969,14 @@ static const Map<String,dynamic> fr = {
         "example": "Si un produit coûte 10 \u0024 avant taxes et qu'il est soumis à un taux de TVA de 20 %, inscrivez 10 comme valeur hors taxe",
         "text": "Désigne le prix d'un produit ou service avant l'ajout de la taxe sur la valeur ajoutée (TVA). La TVA est une taxe sur la consommation imposée lors de la vente de produits et services dans de nombreux pays."
       },
+      "rate_of_return": {
+        "example": "Si vous prévoyez un rendement de 2 % par mois, vous devez saisir 2 comme taux de rendement.",
+        "text": "Symbolise le taux de rendement sur une période définie."
+      },
+      "rate_of_return_frequency": {
+        "example": "Dans le cas où le taux de rendement est distribué chaque mois, vous devez sélectionner 'Mensuel' comme fréquence.",
+        "text": "Désigne la périodicité de distribution du taux de rendement."
+      },
       "risk": {
         "example": "Si vous êtes prêt à risquer 1 000 \u0024, soit 2% de votre capital de 50 000 \u0024, veuillez entrer 2 comme valeur.",
         "text": "Précisez le pourcentage de votre capital que vous êtes disposé à risquer pour cette transaction. Il est recommandé de ne pas risquer plus de 2% de votre capital sur une seule transaction."
@@ -3700,6 +3997,10 @@ static const Map<String,dynamic> fr = {
         "example": "Si vous passez un ordre au marché pour acheter une action qui est actuellement cotée à 100 \u0024, mais que l'exécution se fait à 102 \u0024, cet écart de 2 \u0024, équivalent à 2 % du prix initial, est appelé « glissement ». Dans ce scénario, vous devriez saisir 2 comme valeur.",
         "text": "Se réfère à la différence entre le prix attendu d'une transaction et le prix auquel la transaction est effectivement exécutée. Le glissement (ou slippage en anglais) se produit souvent pendant les périodes de forte volatilité lorsque des ordres au marché sont utilisés ou cela peut également se produire lorsque de gros ordres sont exécutés et qu'il n'y a pas de volume suffisant au niveau du prix demandé."
       },
+      "starting_balance": {
+        "example": "Si vous commencez vos calculs financiers avec un montant initial de 1 000 \u0024, vous devez saisir 1000 comme solde initial.",
+        "text": "Représente le montant initial d'argent disponible dans votre compte au début d'une période."
+      },
       "stop_loss_price": {
         "example": "Si vous avez acquis une action à 50 \u0024 et choisi de sécuriser votre position avec un ordre de stop-loss à 45 \u0024, veuillez saisir 45 comme valeur.",
         "text": "Indique le prix auquel vous établirez votre ordre de stop-loss afin de limiter les pertes potentielles."
@@ -3719,6 +4020,14 @@ static const Map<String,dynamic> fr = {
       "vat_rate": {
         "example": "Si le prix hors taxe d'un produit est de 10 \u0024 et que le taux de TVA appliqué est de 20 %, veuillez inscrire 20 comme valeur du taux.",
         "text": "Désigne le pourcentage de la taxe sur la valeur ajoutée (TVA) appliqué à un produit ou à un service."
+      },
+      "withdrawals_amount": {
+        "example": "Si vous envisagez de retirer 200 \u0024 mensuellement de votre compte, vous devez saisir 200 comme montant du retrait.",
+        "text": "Spécifie le montant à retirer périodiquement de votre compte."
+      },
+      "withdrawals_frequency": {
+        "example": "Si vous effectuez un retrait de votre compte trimestriellement, vous devez saisir 'Trimestriel' comme fréquence.",
+        "text": "Désigne la fréquence à laquelle les prélèvements sont réalisés sur votre compte."
       }
     },
     "label": {
@@ -3867,6 +4176,9 @@ static const Map<String,dynamic> fr = {
       "initial_investment": "Investissement initial",
       "interest_rate": "Taux d'intérêt",
       "involved_capital": "Capital engagé",
+      "last": {
+        "earnings": "Derniers gains"
+      },
       "last_updated_on": "Taux mis à jour le",
       "leverage": "Effet de levier",
       "loss": "Perte",
@@ -4123,6 +4435,10 @@ static const Map<String,dynamic> es = {
         "example": "Por ejemplo, si tu cuenta está basada en Estados Unidos, seleccionarías 'USD' en el menú desplegable.",
         "instructions": "Selecciona la moneda asociada con tu cuenta en las opciones del menú desplegable. Esta es la moneda en la que se mantiene tu saldo y se procesan las transacciones."
       },
+      "additional_contributions": {
+        "example": "Si planea depositar \u0024500 mensualmente en su cuenta, debe ingresar 500 como la contribución adicional.",
+        "text": "Se refiere a cantidades adicionales de dinero depositadas en su cuenta a intervalos regulares."
+      },
       "additional_tax_rate": {
         "example": "Si un producto está sujeto a un IVA del 20% y se agrega un impuesto específico o local adicional del 2%, ingrese 2 como el valor.",
         "text": "Se refiere a un impuesto adicional que se aplica además del IVA."
@@ -4139,6 +4455,14 @@ static const Map<String,dynamic> es = {
         "example": "Por ejemplo, si compró un producto por \u0024150.25, debe introducir '150.25'.",
         "instructions": "Introduzca el precio al que ha adquirido un activo. Este es el precio total de compra por unidad, sin incluir gastos asociados como comisiones."
       },
+      "compound_frequency": {
+        "example": "Si el interés se reinvierte trimestralmente, debe ingresar 'Trimestral' como la frecuencia.",
+        "text": "Indica la frecuencia con la que se reinvierte el interés."
+      },
+      "contribution_frequency": {
+        "example": "Si contribuye a su cuenta trimestralmente, debe ingresar 'Trimestral' como la frecuencia.",
+        "text": "Designa la frecuencia con la que se realizan contribuciones adicionales a su cuenta."
+      },
       "discount_amount": {
         "example": "Si un producto se vende originalmente por \u0024100, y tienes derecho a un descuento de \u002420, por favor ingrese 20 como el monto.",
         "text": "Representa la reducción en valor monetario que se resta del precio inicial de un producto o servicio."
@@ -4146,6 +4470,10 @@ static const Map<String,dynamic> es = {
       "discount_rate": {
         "example": "Si el precio inicial de un producto es de \u0024100 y se ofrece un descuento del 20%, por favor indique 20 como el valor.",
         "text": "Representa la reducción porcentual aplicada a la tarifa inicial de un producto o servicio."
+      },
+      "duration_in_years": {
+        "example": "Si el cálculo se realiza para un período de 5 años, debe ingresar 5 como la duración.",
+        "text": "Representa la duración, expresada en años, sobre la cual se basa el cálculo financiero."
       },
       "entry_fees": {
         "example": "Si su corredor cobra el 0,1 % del valor total de la posición al abrirla, introduzca 0,1 como porcentaje.",
@@ -4191,6 +4519,14 @@ static const Map<String,dynamic> es = {
         "example": "Si un producto cuesta \u002410 antes de impuestos y está sujeto a una tasa de IVA del 20%, ingrese 10 como el valor antes de impuestos.",
         "text": "Se refiere al precio de un producto o servicio antes de la adición del impuesto al valor agregado (IVA). El IVA es un impuesto al consumo que se impone cuando se venden productos y servicios en muchos países."
       },
+      "rate_of_return": {
+        "example": "Si anticipa un retorno del 2% por mes, debe ingresar 2 como la tasa de retorno.",
+        "text": "Simboliza la tasa de retorno durante un período definido."
+      },
+      "rate_of_return_frequency": {
+        "example": "En casos donde la tasa de retorno se distribuye mensualmente, debe seleccionar 'Mensual' como la frecuencia.",
+        "text": "Designa la periodicidad de la distribución de la tasa de retorno."
+      },
       "risk": {
         "example": "Si está dispuesto a arriesgar 1.000 €, que equivale al 2 % de su capital de 50.000 €, introduzca 2 como valor.",
         "text": "Indique el porcentaje de su capital que está dispuesto a arriesgar para esta transacción. Se recomienda no arriesgar más del 2 % de su capital en una sola transacción."
@@ -4211,6 +4547,10 @@ static const Map<String,dynamic> es = {
         "example": "Si realiza un pedido de mercado para comprar una acción que actualmente cotiza a 100 €, pero la ejecución se realiza a 102 €, esta diferencia de 2 €, que equivale al 2 % del precio original, se denomina 'deslizamiento'. En este caso, debe introducir 2 como porcentaje.",
         "text": "Se refiere a la diferencia entre el precio esperado de una transacción y el precio al que la transacción se ejecuta realmente. El deslizamiento se produce a menudo durante las periods de alta volatilidad cuando se utilizan órdenes de mercado, o también puede ocurrir cuando se ejecutan órdenes grandes y no hay suficiente volumen en el nivel de precio solicitado."
       },
+      "starting_balance": {
+        "example": "Si comienza sus cálculos financieros con una cantidad inicial de \u00241,000, debe ingresar 1000 como saldo inicial.",
+        "text": "Representa la cantidad inicial de dinero disponible en su cuenta al comienzo de un período."
+      },
       "stop_loss_price": {
         "example": "Si ha comprado una acción a 50 € y ha elegido proteger su posición con una orden de stop-loss a 45 €, introduzca 45 como valor.",
         "text": "Indique el precio al que establecerá su orden de stop-loss para limitar las pérdidas potenciales."
@@ -4230,6 +4570,14 @@ static const Map<String,dynamic> es = {
       "vat_rate": {
         "example": "Si el precio antes de impuestos de un producto es de \u002410 y la tasa de IVA aplicada es del 20%, por favor ingrese 20 como el valor de la tasa.",
         "text": "Se refiere al porcentaje del impuesto al valor agregado (IVA) aplicado a un producto o servicio."
+      },
+      "withdrawals_amount": {
+        "example": "Si planea retirar \u0024200 mensualmente de su cuenta, debe ingresar 200 como el monto del retiro.",
+        "text": "Especifica la cantidad que se retirará periódicamente de su cuenta."
+      },
+      "withdrawals_frequency": {
+        "example": "Si realiza un retiro de su cuenta trimestralmente, debe ingresar 'Trimestral' como la frecuencia.",
+        "text": "Designa la frecuencia con la que se realizan retiros de su cuenta."
       }
     },
     "label": {
@@ -4378,6 +4726,9 @@ static const Map<String,dynamic> es = {
       "initial_investment": "Inversión inicial",
       "interest_rate": "Tasa de interés",
       "involved_capital": "Capital involucrado",
+      "last": {
+        "earnings": "Últimos ingresos"
+      },
       "last_updated_on": "Tasas actualizadas por última vez el",
       "leverage": "Apalancamiento",
       "loss": "Pérdida",
