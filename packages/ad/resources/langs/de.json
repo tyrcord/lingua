@@ -18,17 +18,23 @@
     },
     "message": {
       "discover_other_app": "Sehen Sie sich unsere anderen kostenlosen Apps an!",
-      "enjoy_your_pdf_report_reward": "Herzlichen Glückwunsch! Ihr PDF-Bericht steht zum Download bereit. Viel Spaß beim Lesen!",
-      "enjoy_your_reward": "Genießen Sie Ihre Belohnung!",
+      "enjoy_your_reward": {
+        "csv": "Herzlichen Glückwunsch! Ihre CSV-Datei ist fertig. Viel Spaß beim Lesen!",
+        "excel": "Herzlichen Glückwunsch! Ihre Excel-Datei ist fertig. Viel Spaß beim Lesen!",
+        "pdf": "Herzlichen Glückwunsch! Ihre PDF-Datei ist fertig. Viel Spaß beim Lesen!",
+        "text": "Genießen Sie Ihre Belohnung!"
+      },
       "go_ad_free": "Werbefrei erleben!",
       "lucky_you": "Glück gehabt!",
       "no_ads_now": "Aktuell keine Werbung. Viel Spaß mit der Anwendung!",
       "say_goodbye_to_ads": "Sagen Sie Auf Wiedersehen zu Werbung!",
       "watch_ad": {
         "unlock": {
+          "csv": "Sehen Sie sich eine kurze Werbung an, um die Möglichkeit freizuschalten, Ihre Daten als CSV zu exportieren!",
+          "excel": "Sehen Sie sich eine kurze Werbung an, um die Möglichkeit freizuschalten, Ihre Daten als Excel-Datei zu exportieren!",
           "feature": "Sehen Sie sich eine kurze Anzeige an, um diese Funktion freizuschalten!",
           "feature_plural": "Sehen Sie sich eine kurze Anzeige an, um diese Funktionen freizuschalten!",
-          "pdf": "Schauen Sie sich eine kurze Anzeige an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!"
+          "pdf": "Sehen Sie sich eine kurze Werbung an, um die Möglichkeit freizuschalten, Ihre Daten als PDF zu exportieren!"
         }
       }
     }

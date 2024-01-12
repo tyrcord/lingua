@@ -18,17 +18,23 @@
     },
     "message": {
       "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
-      "enjoy_your_pdf_report_reward": "¡Enhorabuena! Su informe en PDF está listo para descargar. ¡Feliz lectura!",
-      "enjoy_your_reward": "¡Disfruta tu recompensa!",
+      "enjoy_your_reward": {
+        "csv": "¡Felicidades! Tu archivo CSV está listo. ¡Feliz lectura!",
+        "excel": "¡Felicidades! Tu archivo Excel está listo. ¡Feliz lectura!",
+        "pdf": "¡Felicidades! Tu archivo PDF está listo. ¡Feliz lectura!",
+        "text": "¡Disfruta tu recompensa!"
+      },
       "go_ad_free": "Elimina los anuncios",
       "lucky_you": "¡Qué suerte tienes!",
       "no_ads_now": "Por ahora no hay anuncios. ¡Disfruta la aplicación!",
       "say_goodbye_to_ads": "¡Di adiós a los anuncios!",
       "watch_ad": {
         "unlock": {
+          "csv": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos como CSV!",
+          "excel": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos en un archivo Excel!",
           "feature": "¡Mira un anuncio corto para desbloquear esta función!",
           "feature_plural": "¡Mira un anuncio corto para desbloquear estas funciones!",
-          "pdf": "¡Vea un anuncio breve para desbloquear la capacidad de exportar sus datos como PDF!"
+          "pdf": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos como PDF!"
         }
       }
     }

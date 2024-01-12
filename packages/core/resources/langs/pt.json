@@ -381,24 +381,38 @@
       "example": "Exemplo:",
       "failed_to": {
         "generate": {
-          "pdf": "Falha ao gerar o PDF."
+          "csv": "Ocorreu um problema ao criar o ficheiro CSV.",
+          "excel": "Ocorreu um problema ao criar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao criar o ficheiro.",
+          "pdf": "Ocorreu um problema ao criar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao criar o ficheiro de texto."
         },
         "load": {
-          "data": "Falha ao carregar os dados.",
-          "pdf": "Falha ao carregar o PDF."
+          "csv": "Ocorreu um problema ao carregar o ficheiro CSV.",
+          "data": "Ocorreu um problema ao carregar os dados.",
+          "excel": "Ocorreu um problema ao carregar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao carregar o ficheiro.",
+          "pdf": "Ocorreu um problema ao carregar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao carregar o ficheiro de texto."
         },
         "perform": {
-          "action": "Falha ao executar a ação."
+          "action": "Ocorreu um problema ao realizar a ação."
         },
         "save": {
-          "data": "Falha ao salvar os dados.",
-          "pdf": "Falha ao salvar o PDF."
+          "csv": "Ocorreu um problema ao guardar o ficheiro CSV.",
+          "data": "Ocorreu um problema ao guardar os dados.",
+          "excel": "Ocorreu um problema ao guardar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao guardar o ficheiro.",
+          "pdf": "Ocorreu um problema ao guardar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao guardar o ficheiro de texto."
         }
       },
       "finally": "Finalmente!",
       "generating": {
-        "pdf": "Gerando PDF...",
-        "text": "Gerando..."
+        "csv": "A gerar ficheiro CSV...",
+        "excel": "A gerar ficheiro Excel...",
+        "pdf": "A gerar ficheiro PDF...",
+        "text": "Geração em progresso..."
       },
       "have_wonderful_day": "Tenha um ótimo dia!",
       "last_updated_on": "Última atualização em {date}",
@@ -414,10 +428,16 @@
       },
       "no_favorites": "Sem favoritos.",
       "pdf_generated_by": "PDF gerado por {app_name}",
-      "pdf_ready": "PDF pronto!",
       "performing": "Executando...",
       "please_wait": "Aguarde, por favor...",
       "processing": "Processando...",
+      "ready": {
+        "csv": "Ficheiro CSV pronto!",
+        "excel": "Ficheiro Excel pronto!",
+        "file": "Ficheiro pronto!",
+        "pdf": "Ficheiro PDF pronto!",
+        "text": "Pronto!"
+      },
       "require": {
         "internet_connection": "Uma conexão com a Internet é necessária."
       },

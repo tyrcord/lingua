@@ -381,24 +381,38 @@
       "example": "Beispiel:",
       "failed_to": {
         "generate": {
-          "pdf": "PDF konnte nicht erstellt werden."
+          "csv": "Beim Erstellen der CSV-Datei ist ein Problem aufgetreten.",
+          "excel": "Beim Erstellen der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Erstellen der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Erstellen der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Erstellen der Textdatei ist ein Problem aufgetreten."
         },
         "load": {
-          "data": "Daten konnten nicht geladen werden.",
-          "pdf": "PDF konnte nicht geladen werden."
+          "csv": "Beim Laden der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Laden der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Laden der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Laden der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Laden der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Laden der Textdatei ist ein Problem aufgetreten."
         },
         "perform": {
-          "action": "Aktion konnte nicht durchgeführt werden."
+          "action": "Beim Durchführen der Aktion ist ein Problem aufgetreten."
         },
         "save": {
-          "data": "Daten konnten nicht gespeichert werden.",
-          "pdf": "PDF konnte nicht gespeichert werden."
+          "csv": "Beim Speichern der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Speichern der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Speichern der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Speichern der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Speichern der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Speichern der Textdatei ist ein Problem aufgetreten."
         }
       },
       "finally": "Endlich!",
       "generating": {
-        "pdf": "PDF wird erstellt...",
-        "text": "Wird erstellt..."
+        "csv": "CSV-Datei wird erstellt...",
+        "excel": "Excel-Datei wird erstellt...",
+        "pdf": "PDF-Datei wird erstellt...",
+        "text": "Erstellung läuft..."
       },
       "have_wonderful_day": "Einen wundervollen Tag!",
       "last_updated_on": "Zuletzt aktualisiert am {date}",
@@ -414,10 +428,16 @@
       },
       "no_favorites": "Keine Favoriten.",
       "pdf_generated_by": "PDF generiert von {app_name}",
-      "pdf_ready": "PDF fertig!",
       "performing": "Wird durchgeführt...",
       "please_wait": "Bitte warten...",
       "processing": "Wird verarbeitet...",
+      "ready": {
+        "csv": "CSV-Datei fertig!",
+        "excel": "Excel-Datei fertig!",
+        "file": "Datei fertig!",
+        "pdf": "PDF-Datei fertig!",
+        "text": "Fertig!"
+      },
       "require": {
         "internet_connection": "Eine Internetverbindung wird benötigt."
       },

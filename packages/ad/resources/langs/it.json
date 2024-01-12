@@ -18,14 +18,20 @@
     },
     "message": {
       "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
-      "enjoy_your_pdf_report_reward": "Complimenti! Il tuo rapporto PDF è pronto per essere scaricato. Buona lettura!",
-      "enjoy_your_reward": "Goditi il tuo premio!",
+      "enjoy_your_reward": {
+        "csv": "Congratulazioni! Il tuo file CSV è pronto. Buona lettura!",
+        "excel": "Congratulazioni! Il tuo file Excel è pronto. Buona lettura!",
+        "pdf": "Congratulazioni! Il tuo file PDF è pronto. Buona lettura!",
+        "text": "Goditi il tuo premio!"
+      },
       "go_ad_free": "Passa all'esperienza senza annunci!",
       "lucky_you": "Sei fortunato!",
       "no_ads_now": "Nessuna pubblicità per ora. Goditi l'applicazione!",
       "say_goodbye_to_ads": "Dì addio alla pubblicità!",
       "watch_ad": {
         "unlock": {
+          "csv": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato CSV!",
+          "excel": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in un file Excel!",
           "feature": "Guarda un breve annuncio per sbloccare questa funzione!",
           "feature_plural": "Guarda un breve annuncio per sbloccare queste funzioni!",
           "pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"

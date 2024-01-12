@@ -381,24 +381,38 @@
       "example": "Exemple:",
       "failed_to": {
         "generate": {
-          "pdf": "Échec de la génération du PDF."
+          "csv": "Un problème a été rencontré lors de la création du fichier CSV.",
+          "excel": "Un problème a été rencontré lors de la création du fichier Excel.",
+          "file": "Un problème a été rencontré lors de la création du fichier.",
+          "pdf": "Un problème a été rencontré lors de la création du fichier PDF.",
+          "text": "Un problème a été rencontré lors de la création du fichier texte."
         },
         "load": {
-          "data": "Échec du chargement des données.",
-          "pdf": "Échec du chargement du PDF."
+          "csv": "Un problème a été rencontré lors du chargement du fichier CSV.",
+          "data": "Un problème a été rencontré lors du chargement des données.",
+          "excel": "Un problème a été rencontré lors du chargement du fichier Excel.",
+          "file": "Un problème a été rencontré lors du chargement du fichier.",
+          "pdf": "Un problème a été rencontré lors du chargement du fichier PDF.",
+          "text": "Un problème a été rencontré lors du chargement du fichier texte."
         },
         "perform": {
-          "action": "Échec de l'exécution de l'action."
+          "action": "Un problème a été rencontré lors de l'exécution de l'action."
         },
         "save": {
-          "data": "Échec de la sauvegarde des données.",
-          "pdf": "Échec de la sauvegarde du PDF."
+          "csv": "Un problème a été rencontré lors la sauvegarde du fichier CSV.",
+          "data": "Un problème a été rencontré lors la sauvegarde des données.",
+          "excel": "Un problème a été rencontré lors la sauvegarde du fichier Excel.",
+          "file": "Un problème a été rencontré lors la sauvegarde du fichier.",
+          "pdf": "Un problème a été rencontré lors la sauvegarde du fichier PDF.",
+          "text": "Un problème a été rencontré lors la sauvegarde du fichier texte."
         }
       },
       "finally": "Enfin !",
       "generating": {
-        "pdf": "Génération du PDF...",
-        "text": "Génération..."
+        "csv": "Génération du fichier CSV...",
+        "excel": "Génération du fichier Excel...",
+        "pdf": "Génération du fichier PDF...",
+        "text": "Génération en cours..."
       },
       "have_wonderful_day": "Passez une merveilleuse journée !",
       "last_updated_on": "Dernière mise à jour le {date}",
@@ -414,10 +428,16 @@
       },
       "no_favorites": "Aucun favori.",
       "pdf_generated_by": "PDF généré par {app_name}",
-      "pdf_ready": "PDF prêt!",
       "performing": "Exécution...",
       "please_wait": "Veuillez patienter...",
       "processing": "Traitement...",
+      "ready": {
+        "csv": "Fichier CSV prêt!",
+        "excel": "Fichier Excel prêt!",
+        "file": "Fichier prêt!",
+        "pdf": "Fichier PDF prêt!",
+        "text": "Prêt!"
+      },
       "require": {
         "internet_connection": "Une connexion Internet est requise."
       },

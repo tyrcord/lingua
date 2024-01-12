@@ -394,24 +394,38 @@ class CoreCodegenLoader extends AssetLoader {
       "example": "示例:",
       "failed_to": {
         "generate": {
-          "pdf": "生成PDF失败。"
+          "csv": "创建CSV文件时遇到问题。",
+          "excel": "创建Excel文件时遇到问题。",
+          "file": "创建文件时遇到问题。",
+          "pdf": "创建PDF文件时遇到问题。",
+          "text": "创建文本文件时遇到问题。"
         },
         "load": {
-          "data": "加载数据失败。",
-          "pdf": "加载PDF失败。"
+          "csv": "加载CSV文件时遇到问题。",
+          "data": "加载数据时遇到问题。",
+          "excel": "加载Excel文件时遇到问题。",
+          "file": "加载文件时遇到问题。",
+          "pdf": "加载PDF文件时遇到问题。",
+          "text": "加载文本文件时遇到问题。"
         },
         "perform": {
-          "action": "执行操作失败。"
+          "action": "执行操作时遇到问题。"
         },
         "save": {
-          "data": "保存数据失败。",
-          "pdf": "保存PDF失败。"
+          "csv": "保存CSV文件时遇到问题。",
+          "data": "保存数据时遇到问题。",
+          "excel": "保存Excel文件时遇到问题。",
+          "file": "保存文件时遇到问题。",
+          "pdf": "保存PDF文件时遇到问题。",
+          "text": "保存文本文件时遇到问题。"
         }
       },
       "finally": "终于！",
       "generating": {
-        "pdf": "生成PDF中...",
-        "text": "生成中..."
+        "csv": "正在生成CSV文件...",
+        "excel": "正在生成Excel文件...",
+        "pdf": "正在生成PDF文件...",
+        "text": "正在生成中..."
       },
       "have_wonderful_day": "祝您有美好的一天！",
       "last_updated_on": "最后更新于{date}",
@@ -427,10 +441,16 @@ class CoreCodegenLoader extends AssetLoader {
       },
       "no_favorites": "无收藏。",
       "pdf_generated_by": "PDF 由{app_name}生成",
-      "pdf_ready": "PDF已准备就绪！",
       "performing": "执行中...",
       "please_wait": "请稍候...",
       "processing": "处理中...",
+      "ready": {
+        "csv": "CSV文件准备就绪！",
+        "excel": "Excel文件准备就绪！",
+        "file": "文件准备就绪！",
+        "pdf": "PDF文件准备就绪！",
+        "text": "准备就绪！"
+      },
       "require": {
         "internet_connection": "需要互联网连接。"
       },
@@ -864,24 +884,38 @@ static const Map<String,dynamic> ja = {
       "example": "例:",
       "failed_to": {
         "generate": {
-          "pdf": "PDFの生成に失敗しました。"
+          "csv": "CSVファイルの作成中に問題が発生しました。",
+          "excel": "Excelファイルの作成中に問題が発生しました。",
+          "file": "ファイルの作成中に問題が発生しました。",
+          "pdf": "PDFファイルの作成中に問題が発生しました。",
+          "text": "テキストファイルの作成中に問題が発生しました。"
         },
         "load": {
-          "data": "データの読み込みに失敗しました。",
-          "pdf": "PDFの読み込みに失敗しました。"
+          "csv": "CSVファイルの読み込み中に問題が発生しました。",
+          "data": "データの読み込み中に問題が発生しました。",
+          "excel": "Excelファイルの読み込み中に問題が発生しました。",
+          "file": "ファイルの読み込み中に問題が発生しました。",
+          "pdf": "PDFファイルの読み込み中に問題が発生しました。",
+          "text": "テキストファイルの読み込み中に問題が発生しました。"
         },
         "perform": {
-          "action": "アクションの実行に失敗しました。"
+          "action": "操作の実行中に問題が発生しました。"
         },
         "save": {
-          "data": "データの保存に失敗しました。",
-          "pdf": "PDFの保存に失敗しました。"
+          "csv": "CSVファイルの保存中に問題が発生しました。",
+          "data": "データの保存中に問題が発生しました。",
+          "excel": "Excelファイルの保存中に問題が発生しました。",
+          "file": "ファイルの保存中に問題が発生しました。",
+          "pdf": "PDFファイルの保存中に問題が発生しました。",
+          "text": "テキストファイルの保存中に問題が発生しました。"
         }
       },
       "finally": "ついに！",
       "generating": {
-        "pdf": "PDFを生成中...",
-        "text": "生成中..."
+        "csv": "CSVファイル生成中...",
+        "excel": "Excelファイル生成中...",
+        "pdf": "PDFファイル生成中...",
+        "text": "生成進行中..."
       },
       "have_wonderful_day": "素敵な一日を！",
       "last_updated_on": "{date} に最終更新",
@@ -897,10 +931,16 @@ static const Map<String,dynamic> ja = {
       },
       "no_favorites": "お気に入りはありません。",
       "pdf_generated_by": "{app_name} によって生成されたPDF",
-      "pdf_ready": "PDFが準備できました！",
       "performing": "実行中...",
       "please_wait": "お待ちください...",
       "processing": "処理中...",
+      "ready": {
+        "csv": "CSVファイル準備完了!",
+        "excel": "Excelファイル準備完了!",
+        "file": "ファイル準備完了!",
+        "pdf": "PDFファイル準備完了!",
+        "text": "準備完了!"
+      },
       "require": {
         "internet_connection": "インターネット接続が必要です。"
       },
@@ -1334,24 +1374,38 @@ static const Map<String,dynamic> de = {
       "example": "Beispiel:",
       "failed_to": {
         "generate": {
-          "pdf": "PDF konnte nicht erstellt werden."
+          "csv": "Beim Erstellen der CSV-Datei ist ein Problem aufgetreten.",
+          "excel": "Beim Erstellen der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Erstellen der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Erstellen der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Erstellen der Textdatei ist ein Problem aufgetreten."
         },
         "load": {
-          "data": "Daten konnten nicht geladen werden.",
-          "pdf": "PDF konnte nicht geladen werden."
+          "csv": "Beim Laden der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Laden der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Laden der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Laden der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Laden der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Laden der Textdatei ist ein Problem aufgetreten."
         },
         "perform": {
-          "action": "Aktion konnte nicht durchgeführt werden."
+          "action": "Beim Durchführen der Aktion ist ein Problem aufgetreten."
         },
         "save": {
-          "data": "Daten konnten nicht gespeichert werden.",
-          "pdf": "PDF konnte nicht gespeichert werden."
+          "csv": "Beim Speichern der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Speichern der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Speichern der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Speichern der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Speichern der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Speichern der Textdatei ist ein Problem aufgetreten."
         }
       },
       "finally": "Endlich!",
       "generating": {
-        "pdf": "PDF wird erstellt...",
-        "text": "Wird erstellt..."
+        "csv": "CSV-Datei wird erstellt...",
+        "excel": "Excel-Datei wird erstellt...",
+        "pdf": "PDF-Datei wird erstellt...",
+        "text": "Erstellung läuft..."
       },
       "have_wonderful_day": "Einen wundervollen Tag!",
       "last_updated_on": "Zuletzt aktualisiert am {date}",
@@ -1367,10 +1421,16 @@ static const Map<String,dynamic> de = {
       },
       "no_favorites": "Keine Favoriten.",
       "pdf_generated_by": "PDF generiert von {app_name}",
-      "pdf_ready": "PDF fertig!",
       "performing": "Wird durchgeführt...",
       "please_wait": "Bitte warten...",
       "processing": "Wird verarbeitet...",
+      "ready": {
+        "csv": "CSV-Datei fertig!",
+        "excel": "Excel-Datei fertig!",
+        "file": "Datei fertig!",
+        "pdf": "PDF-Datei fertig!",
+        "text": "Fertig!"
+      },
       "require": {
         "internet_connection": "Eine Internetverbindung wird benötigt."
       },
@@ -1804,24 +1864,38 @@ static const Map<String,dynamic> ru = {
       "example": "Пример:",
       "failed_to": {
         "generate": {
-          "pdf": "Не удалось сгенерировать PDF."
+          "csv": "При создании файла CSV возникла проблема.",
+          "excel": "При создании файла Excel возникла проблема.",
+          "file": "При создании файла возникла проблема.",
+          "pdf": "При создании PDF-файла возникла проблема.",
+          "text": "При создании текстового файла возникла проблема."
         },
         "load": {
-          "data": "Не удалось загрузить данные.",
-          "pdf": "Не удалось загрузить PDF."
+          "csv": "При загрузке файла CSV возникла проблема.",
+          "data": "При загрузке данных возникла проблема.",
+          "excel": "При загрузке файла Excel возникла проблема.",
+          "file": "При загрузке файла возникла проблема.",
+          "pdf": "При загрузке PDF-файла возникла проблема.",
+          "text": "При загрузке текстового файла возникла проблема."
         },
         "perform": {
-          "action": "Не удалось выполнить действие."
+          "action": "При выполнении действия возникла проблема."
         },
         "save": {
-          "data": "Не удалось сохранить данные.",
-          "pdf": "Не удалось сохранить PDF."
+          "csv": "При сохранении файла CSV возникла проблема.",
+          "data": "При сохранении данных возникла проблема.",
+          "excel": "При сохранении файла Excel возникла проблема.",
+          "file": "При сохранении файла возникла проблема.",
+          "pdf": "При сохранении PDF-файла возникла проблема.",
+          "text": "При сохранении текстового файла возникла проблема."
         }
       },
       "finally": "Наконец-то!",
       "generating": {
-        "pdf": "Генерация PDF...",
-        "text": "Генерация..."
+        "csv": "Создание файла CSV...",
+        "excel": "Создание файла Excel...",
+        "pdf": "Создание файла PDF...",
+        "text": "Создание в процессе..."
       },
       "have_wonderful_day": "Хорошего дня!",
       "last_updated_on": "Последнее обновление {date}",
@@ -1837,10 +1911,16 @@ static const Map<String,dynamic> ru = {
       },
       "no_favorites": "Нет избранных.",
       "pdf_generated_by": "PDF сгенерировано с помощью {app_name}",
-      "pdf_ready": "PDF готово!",
       "performing": "Выполнение...",
       "please_wait": "Пожалуйста, подождите...",
       "processing": "Обработка...",
+      "ready": {
+        "csv": "Файл CSV готов!",
+        "excel": "Файл Excel готов!",
+        "file": "Файл готов!",
+        "pdf": "Файл PDF готов!",
+        "text": "Готово!"
+      },
       "require": {
         "internet_connection": "Требуется интернет-соединение."
       },
@@ -2274,24 +2354,38 @@ static const Map<String,dynamic> pt = {
       "example": "Exemplo:",
       "failed_to": {
         "generate": {
-          "pdf": "Falha ao gerar o PDF."
+          "csv": "Ocorreu um problema ao criar o ficheiro CSV.",
+          "excel": "Ocorreu um problema ao criar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao criar o ficheiro.",
+          "pdf": "Ocorreu um problema ao criar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao criar o ficheiro de texto."
         },
         "load": {
-          "data": "Falha ao carregar os dados.",
-          "pdf": "Falha ao carregar o PDF."
+          "csv": "Ocorreu um problema ao carregar o ficheiro CSV.",
+          "data": "Ocorreu um problema ao carregar os dados.",
+          "excel": "Ocorreu um problema ao carregar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao carregar o ficheiro.",
+          "pdf": "Ocorreu um problema ao carregar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao carregar o ficheiro de texto."
         },
         "perform": {
-          "action": "Falha ao executar a ação."
+          "action": "Ocorreu um problema ao realizar a ação."
         },
         "save": {
-          "data": "Falha ao salvar os dados.",
-          "pdf": "Falha ao salvar o PDF."
+          "csv": "Ocorreu um problema ao guardar o ficheiro CSV.",
+          "data": "Ocorreu um problema ao guardar os dados.",
+          "excel": "Ocorreu um problema ao guardar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao guardar o ficheiro.",
+          "pdf": "Ocorreu um problema ao guardar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao guardar o ficheiro de texto."
         }
       },
       "finally": "Finalmente!",
       "generating": {
-        "pdf": "Gerando PDF...",
-        "text": "Gerando..."
+        "csv": "A gerar ficheiro CSV...",
+        "excel": "A gerar ficheiro Excel...",
+        "pdf": "A gerar ficheiro PDF...",
+        "text": "Geração em progresso..."
       },
       "have_wonderful_day": "Tenha um ótimo dia!",
       "last_updated_on": "Última atualização em {date}",
@@ -2307,10 +2401,16 @@ static const Map<String,dynamic> pt = {
       },
       "no_favorites": "Sem favoritos.",
       "pdf_generated_by": "PDF gerado por {app_name}",
-      "pdf_ready": "PDF pronto!",
       "performing": "Executando...",
       "please_wait": "Aguarde, por favor...",
       "processing": "Processando...",
+      "ready": {
+        "csv": "Ficheiro CSV pronto!",
+        "excel": "Ficheiro Excel pronto!",
+        "file": "Ficheiro pronto!",
+        "pdf": "Ficheiro PDF pronto!",
+        "text": "Pronto!"
+      },
       "require": {
         "internet_connection": "Uma conexão com a Internet é necessária."
       },
@@ -2744,24 +2844,38 @@ static const Map<String,dynamic> en = {
       "example": "Example:",
       "failed_to": {
         "generate": {
-          "pdf": "Failed to generate PDF."
+          "csv": "A problem was encountered while creating the CSV file.",
+          "excel": "A problem was encountered while creating the Excel file.",
+          "file": "A problem was encountered while creating the file.",
+          "pdf": "A problem was encountered while creating the PDF file.",
+          "text": "A problem was encountered while creating the text file."
         },
         "load": {
-          "data": "Failed to load data.",
-          "pdf": "Failed to load PDF."
+          "csv": "A problem was encountered while loading the CSV file.",
+          "data": "A problem was encountered while loading the data.",
+          "excel": "A problem was encountered while loading the Excel file.",
+          "file": "A problem was encountered while loading the file.",
+          "pdf": "A problem was encountered while loading the PDF file.",
+          "text": "A problem was encountered while loading the text file."
         },
         "perform": {
-          "action": "Failed to perform action."
+          "action": "A problem was encountered while performing the action."
         },
         "save": {
-          "data": "Failed to save data.",
-          "pdf": "Failed to save PDF."
+          "csv": "A problem was encountered while saving the CSV file.",
+          "data": "A problem was encountered while saving the data.",
+          "excel": "A problem was encountered while saving the Excel file.",
+          "file": "A problem was encountered while saving the file.",
+          "pdf": "A problem was encountered while saving the PDF file.",
+          "text": "A problem was encountered while saving the text file."
         }
       },
       "finally": "Finally!",
       "generating": {
-        "pdf": "Generating PDF...",
-        "text": "Generating..."
+        "csv": "Generating CSV file...",
+        "excel": "Generating Excel file...",
+        "pdf": "Generating PDF file...",
+        "text": "Generation in progress..."
       },
       "have_wonderful_day": "Have a wonderful day!",
       "last_updated_on": "Last updated on {date}",
@@ -2777,10 +2891,16 @@ static const Map<String,dynamic> en = {
       },
       "no_favorites": "No favorites.",
       "pdf_generated_by": "PDF generated by {app_name}",
-      "pdf_ready": "PDF ready!",
       "performing": "Performing...",
       "please_wait": "Please wait...",
       "processing": "Processing...",
+      "ready": {
+        "csv": "CSV file ready!",
+        "excel": "Excel file ready!",
+        "file": "File ready!",
+        "pdf": "PDF file ready!",
+        "text": "Ready!"
+      },
       "require": {
         "internet_connection": "An internet connection is required."
       },
@@ -3214,23 +3334,37 @@ static const Map<String,dynamic> it = {
       "example": "Esempio:",
       "failed_to": {
         "generate": {
-          "pdf": "Generazione del PDF non riuscita."
+          "csv": "Si è verificato un problema nella creazione del file CSV.",
+          "excel": "Si è verificato un problema nella creazione del file Excel.",
+          "file": "Si è verificato un problema nella creazione del file.",
+          "pdf": "Si è verificato un problema nella creazione del file PDF.",
+          "text": "Si è verificato un problema nella creazione del file di testo."
         },
         "load": {
-          "data": "Impossibile caricare i dati.",
-          "pdf": "Impossibile caricare il PDF."
+          "csv": "Si è verificato un problema nel caricamento del file CSV.",
+          "data": "Si è verificato un problema nel caricamento dei dati.",
+          "excel": "Si è verificato un problema nel caricamento del file Excel.",
+          "file": "Si è verificato un problema nel caricamento del file.",
+          "pdf": "Si è verificato un problema nel caricamento del file PDF.",
+          "text": "Si è verificato un problema nel caricamento del file di testo."
         },
         "perform": {
-          "action": "Impossibile eseguire l'azione."
+          "action": "Si è verificato un problema nell'esecuzione dell'azione."
         },
         "save": {
-          "data": "Impossibile salvare i dati.",
-          "pdf": "Impossibile salvare il PDF."
+          "csv": "Si è verificato un problema nel salvataggio del file CSV.",
+          "data": "Si è verificato un problema nel salvataggio dei dati.",
+          "excel": "Si è verificato un problema nel salvataggio del file Excel.",
+          "file": "Si è verificato un problema nel salvataggio del file.",
+          "pdf": "Si è verificato un problema nel salvataggio del file PDF.",
+          "text": "Si è verificato un problema nel salvataggio del file di testo."
         }
       },
       "finally": "Finalmente!",
       "generating": {
-        "pdf": "Generazione PDF...",
+        "csv": "Generazione del file CSV in corso...",
+        "excel": "Generazione del file Excel in corso...",
+        "pdf": "Generazione del file PDF in corso...",
         "text": "Generazione in corso..."
       },
       "have_wonderful_day": "Buona giornata!",
@@ -3247,10 +3381,16 @@ static const Map<String,dynamic> it = {
       },
       "no_favorites": "Nessun preferito.",
       "pdf_generated_by": "PDF generato da {app_name}",
-      "pdf_ready": "PDF pronto!",
       "performing": "In esecuzione...",
       "please_wait": "Attendere prego...",
       "processing": "Elaborazione in corso...",
+      "ready": {
+        "csv": "File CSV pronto!",
+        "excel": "File Excel pronto!",
+        "file": "File pronto!",
+        "pdf": "File PDF pronto!",
+        "text": "Pronto!"
+      },
       "require": {
         "internet_connection": "È richiesta una connessione Internet."
       },
@@ -3684,24 +3824,38 @@ static const Map<String,dynamic> fr = {
       "example": "Exemple:",
       "failed_to": {
         "generate": {
-          "pdf": "Échec de la génération du PDF."
+          "csv": "Un problème a été rencontré lors de la création du fichier CSV.",
+          "excel": "Un problème a été rencontré lors de la création du fichier Excel.",
+          "file": "Un problème a été rencontré lors de la création du fichier.",
+          "pdf": "Un problème a été rencontré lors de la création du fichier PDF.",
+          "text": "Un problème a été rencontré lors de la création du fichier texte."
         },
         "load": {
-          "data": "Échec du chargement des données.",
-          "pdf": "Échec du chargement du PDF."
+          "csv": "Un problème a été rencontré lors du chargement du fichier CSV.",
+          "data": "Un problème a été rencontré lors du chargement des données.",
+          "excel": "Un problème a été rencontré lors du chargement du fichier Excel.",
+          "file": "Un problème a été rencontré lors du chargement du fichier.",
+          "pdf": "Un problème a été rencontré lors du chargement du fichier PDF.",
+          "text": "Un problème a été rencontré lors du chargement du fichier texte."
         },
         "perform": {
-          "action": "Échec de l'exécution de l'action."
+          "action": "Un problème a été rencontré lors de l'exécution de l'action."
         },
         "save": {
-          "data": "Échec de la sauvegarde des données.",
-          "pdf": "Échec de la sauvegarde du PDF."
+          "csv": "Un problème a été rencontré lors la sauvegarde du fichier CSV.",
+          "data": "Un problème a été rencontré lors la sauvegarde des données.",
+          "excel": "Un problème a été rencontré lors la sauvegarde du fichier Excel.",
+          "file": "Un problème a été rencontré lors la sauvegarde du fichier.",
+          "pdf": "Un problème a été rencontré lors la sauvegarde du fichier PDF.",
+          "text": "Un problème a été rencontré lors la sauvegarde du fichier texte."
         }
       },
       "finally": "Enfin !",
       "generating": {
-        "pdf": "Génération du PDF...",
-        "text": "Génération..."
+        "csv": "Génération du fichier CSV...",
+        "excel": "Génération du fichier Excel...",
+        "pdf": "Génération du fichier PDF...",
+        "text": "Génération en cours..."
       },
       "have_wonderful_day": "Passez une merveilleuse journée !",
       "last_updated_on": "Dernière mise à jour le {date}",
@@ -3717,10 +3871,16 @@ static const Map<String,dynamic> fr = {
       },
       "no_favorites": "Aucun favori.",
       "pdf_generated_by": "PDF généré par {app_name}",
-      "pdf_ready": "PDF prêt!",
       "performing": "Exécution...",
       "please_wait": "Veuillez patienter...",
       "processing": "Traitement...",
+      "ready": {
+        "csv": "Fichier CSV prêt!",
+        "excel": "Fichier Excel prêt!",
+        "file": "Fichier prêt!",
+        "pdf": "Fichier PDF prêt!",
+        "text": "Prêt!"
+      },
       "require": {
         "internet_connection": "Une connexion Internet est requise."
       },
@@ -4154,24 +4314,38 @@ static const Map<String,dynamic> es = {
       "example": "Ejemplo:",
       "failed_to": {
         "generate": {
-          "pdf": "Error al generar el PDF."
+          "csv": "Se encontró un problema al crear el archivo CSV.",
+          "excel": "Se encontró un problema al crear el archivo de Excel.",
+          "file": "Se encontró un problema al crear el archivo.",
+          "pdf": "Se encontró un problema al crear el archivo PDF.",
+          "text": "Se encontró un problema al crear el archivo de texto."
         },
         "load": {
-          "data": "Error al cargar los datos.",
-          "pdf": "Error al cargar el PDF."
+          "csv": "Se encontró un problema al cargar el archivo CSV.",
+          "data": "Se encontró un problema al cargar los datos.",
+          "excel": "Se encontró un problema al cargar el archivo de Excel.",
+          "file": "Se encontró un problema al cargar el archivo.",
+          "pdf": "Se encontró un problema al cargar el archivo PDF.",
+          "text": "Se encontró un problema al cargar el archivo de texto."
         },
         "perform": {
-          "action": "Error al realizar la acción."
+          "action": "Se encontró un problema al realizar la acción."
         },
         "save": {
-          "data": "Error al guardar los datos.",
-          "pdf": "Error al guardar el PDF."
+          "csv": "Se encontró un problema al guardar el archivo CSV.",
+          "data": "Se encontró un problema al guardar los datos.",
+          "excel": "Se encontró un problema al guardar el archivo de Excel.",
+          "file": "Se encontró un problema al guardar el archivo.",
+          "pdf": "Se encontró un problema al guardar el archivo PDF.",
+          "text": "Se encontró un problema al guardar el archivo de texto."
         }
       },
       "finally": "¡Por fin!",
       "generating": {
-        "pdf": "Generando PDF...",
-        "text": "Generando..."
+        "csv": "Generando archivo CSV...",
+        "excel": "Generando archivo Excel...",
+        "pdf": "Generando archivo PDF...",
+        "text": "Generación en curso..."
       },
       "have_wonderful_day": "¡Que tengas un día maravilloso!",
       "last_updated_on": "Última actualización el {date}",
@@ -4187,10 +4361,16 @@ static const Map<String,dynamic> es = {
       },
       "no_favorites": "No hay favoritos.",
       "pdf_generated_by": "PDF generado por {app_name}",
-      "pdf_ready": "¡PDF listo!",
       "performing": "Realizando...",
       "please_wait": "Por favor, espera...",
       "processing": "Procesando...",
+      "ready": {
+        "csv": "Archivo CSV listo!",
+        "excel": "Archivo Excel listo!",
+        "file": "Archivo listo!",
+        "pdf": "Archivo PDF listo!",
+        "text": "¡Listo!"
+      },
       "require": {
         "internet_connection": "Se requiere una conexión a Internet."
       },

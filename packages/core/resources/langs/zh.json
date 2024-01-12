@@ -381,24 +381,38 @@
       "example": "示例:",
       "failed_to": {
         "generate": {
-          "pdf": "生成PDF失败。"
+          "csv": "创建CSV文件时遇到问题。",
+          "excel": "创建Excel文件时遇到问题。",
+          "file": "创建文件时遇到问题。",
+          "pdf": "创建PDF文件时遇到问题。",
+          "text": "创建文本文件时遇到问题。"
         },
         "load": {
-          "data": "加载数据失败。",
-          "pdf": "加载PDF失败。"
+          "csv": "加载CSV文件时遇到问题。",
+          "data": "加载数据时遇到问题。",
+          "excel": "加载Excel文件时遇到问题。",
+          "file": "加载文件时遇到问题。",
+          "pdf": "加载PDF文件时遇到问题。",
+          "text": "加载文本文件时遇到问题。"
         },
         "perform": {
-          "action": "执行操作失败。"
+          "action": "执行操作时遇到问题。"
         },
         "save": {
-          "data": "保存数据失败。",
-          "pdf": "保存PDF失败。"
+          "csv": "保存CSV文件时遇到问题。",
+          "data": "保存数据时遇到问题。",
+          "excel": "保存Excel文件时遇到问题。",
+          "file": "保存文件时遇到问题。",
+          "pdf": "保存PDF文件时遇到问题。",
+          "text": "保存文本文件时遇到问题。"
         }
       },
       "finally": "终于！",
       "generating": {
-        "pdf": "生成PDF中...",
-        "text": "生成中..."
+        "csv": "正在生成CSV文件...",
+        "excel": "正在生成Excel文件...",
+        "pdf": "正在生成PDF文件...",
+        "text": "正在生成中..."
       },
       "have_wonderful_day": "祝您有美好的一天！",
       "last_updated_on": "最后更新于{date}",
@@ -414,10 +428,16 @@
       },
       "no_favorites": "无收藏。",
       "pdf_generated_by": "PDF 由{app_name}生成",
-      "pdf_ready": "PDF已准备就绪！",
       "performing": "执行中...",
       "please_wait": "请稍候...",
       "processing": "处理中...",
+      "ready": {
+        "csv": "CSV文件准备就绪！",
+        "excel": "Excel文件准备就绪！",
+        "file": "文件准备就绪！",
+        "pdf": "PDF文件准备就绪！",
+        "text": "准备就绪！"
+      },
       "require": {
         "internet_connection": "需要互联网连接。"
       },

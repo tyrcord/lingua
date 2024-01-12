@@ -18,17 +18,23 @@
     },
     "message": {
       "discover_other_app": "看看我们的其他免费应用程序！",
-      "enjoy_your_pdf_report_reward": "恭喜！您的 PDF 报告已准备就绪，可供下载。祝您阅读愉快！",
-      "enjoy_your_reward": "享受您的奖励！",
+      "enjoy_your_reward": {
+        "csv": "恭喜！您的CSV文件已准备就绪。愉快的阅读！",
+        "excel": "恭喜！您的Excel文件已准备就绪。愉快的阅读！",
+        "pdf": "恭喜！您的PDF文件已准备就绪。愉快的阅读！",
+        "text": "享受您的奖励！"
+      },
       "go_ad_free": "免广告体验！",
       "lucky_you": "你真幸运！",
       "no_ads_now": "目前没有广告。享受应用程序吧!",
       "say_goodbye_to_ads": "告别广告！",
       "watch_ad": {
         "unlock": {
+          "csv": "观看短片广告以解锁将您的数据导出为CSV的能力！",
+          "excel": "观看短片广告以解锁将您的数据导出为Excel文件的能力！",
           "feature": "观看一个短广告以解锁此功能！",
           "feature_plural": "观看一个短广告以解锁这些功能！",
-          "pdf": "观看短片广告以解锁将数据导出为PDF的功能！"
+          "pdf": "观看短片广告以解锁将您的数据导出为PDF的能力！"
         }
       }
     }
