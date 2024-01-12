@@ -1,3 +1,7 @@
+## 0.0.15
+
+ - **FEAT**: update localization.
+
 ## 0.0.14
 
  - **FEAT**: clean up.

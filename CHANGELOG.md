@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-01-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_finance` - `v0.0.31`](#lingua_finance---v0031)
+ - [`lingua_purchases` - `v0.0.20`](#lingua_purchases---v0020)
+ - [`lingua_settings` - `v0.0.15`](#lingua_settings---v0015)
+
+---
+
+#### `lingua_finance` - `v0.0.31`
+
+ - **FEAT**: update localization.
+
+#### `lingua_purchases` - `v0.0.20`
+
+ - **FEAT**: update localization.
+
+#### `lingua_settings` - `v0.0.15`
+
+ - **FEAT**: update localization.
+
+
 ## 2024-01-05
 
 ### Changes
