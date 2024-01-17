@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p ./scripts
 
 cp ../../scripts/generate.sh ./scripts

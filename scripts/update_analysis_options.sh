@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dir="$(basename $PWD)"
 
 if [ "$dir" == "example" ]; then

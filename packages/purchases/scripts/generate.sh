@@ -1,3 +1,5 @@
+#!/bin/bash
+
 snake_to_pascal() {
     local input="$1"
     local delimiter="_"
