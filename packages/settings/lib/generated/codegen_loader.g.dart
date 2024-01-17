@@ -11,263 +11,7 @@ class SettingsCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> zh = {
-  "settings": {
-    "disclaimer": {
-      "accept_risk": "您确认并同意使用{appName}完全由您自己承担风险，我们对于与使用该服务相关的损失或损害不承担任何责任。",
-      "data": "所有数据和信息均仅供纯粹信息和教育目的\"如实\"提供。"
-    },
-    "label": {
-      "about": "关于",
-      "app": {
-        "preferences": "应用偏好",
-        "settings": "应用设置"
-      },
-      "appearance": "外观",
-      "change": {
-        "language": "更改语言",
-        "theme": "更改主题"
-      },
-      "customer_support": "客户支持",
-      "dark": "深色",
-      "default": "默认",
-      "disclaimer": "免责声明",
-      "help_and_support": "帮助与支持",
-      "homepage": "主页",
-      "language": "语言",
-      "languages": "语言",
-      "legal": "法律条款",
-      "light": "亮色",
-      "preferences": "偏好设置",
-      "privacy": {
-        "policy": "隐私政策",
-        "preferences": "隐私偏好",
-        "settings": "隐私设置",
-        "text": "隐私"
-      },
-      "rate_us": "评价我们",
-      "reset_settings": "恢复默认设置",
-      "settings": "设置",
-      "submit_bug_report": "提交错误报告",
-      "system": "系统",
-      "terms_of_service": "服务条款",
-      "user_input": "用户输入",
-      "user_inputs": "用户输入",
-      "user_settings": "用户设置",
-      "version": "版本：{version}"
-    },
-    "message": {
-      "last_modified": "最后修改时间：{date}",
-      "thanks_support": "感谢您的支持！"
-    },
-    "note": {
-      "appearance": "通过选择适合您风格的主题来个性化您的体验。",
-      "change_later": "请注意，您随时可以稍后更改它。",
-      "restart_required": "重新启动应用程序以使更改生效。",
-      "settings": "通过调整您的偏好来增强您的体验。"
-    },
-    "question": {
-      "do_you_enjoy_our_app": "如果您发现我们的应用程序有用，您是否愿意花费一些时间对其进行评级？",
-      "do_you_like_our_app": "您喜欢我们的应用程序吗？"
-    },
-    "select": {
-      "language": "选择您想要使用的语言。"
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "settings": {
-    "disclaimer": {
-      "accept_risk": "{appName}の利用は、お客様自身の責任において行われることを認識し、利用に関連する損失や損害については、当社は一切の責任を負わないことをご了承ください。",
-      "data": "すべてのデータと情報は、純粋に情報提供と教育目的で、「現状のまま」提供されます。"
-    },
-    "label": {
-      "about": "について",
-      "app": {
-        "preferences": "アプリの設定",
-        "settings": "アプリの設定"
-      },
-      "appearance": "外観",
-      "change": {
-        "language": "言語を変更",
-        "theme": "テーマを変更"
-      },
-      "customer_support": "カスタマーサポート",
-      "dark": "ダーク",
-      "default": "デフォルト",
-      "disclaimer": "免責事項",
-      "help_and_support": "ヘルプとサポート",
-      "homepage": "ホーム",
-      "language": "言語",
-      "languages": "言語",
-      "legal": "法的事項",
-      "light": "ライト",
-      "preferences": "設定",
-      "privacy": {
-        "policy": "プライバシーポリシー",
-        "preferences": "プライバシーの設定",
-        "settings": "プライバシー設定",
-        "text": "プライバシー"
-      },
-      "rate_us": "評価する",
-      "reset_settings": "デフォルトに戻す",
-      "settings": "設定",
-      "submit_bug_report": "バグレポートを送信",
-      "system": "システム",
-      "terms_of_service": "利用規約",
-      "user_input": "ユーザー入力",
-      "user_inputs": "ユーザー入力",
-      "user_settings": "ユーザー設定",
-      "version": "バージョン: {version}"
-    },
-    "message": {
-      "last_modified": "最終更新日：{date}",
-      "thanks_support": "ご支援ありがとうございます！"
-    },
-    "note": {
-      "appearance": "スタイルに合ったテーマを選択して、体験をカスタマイズしましょう。",
-      "change_later": "後でいつでも変更できることに注意してください。",
-      "restart_required": "変更が反映されるように、アプリを再起動してください。",
-      "settings": "設定を調整して、体験を向上させてください。"
-    },
-    "question": {
-      "do_you_enjoy_our_app": "当社のアプリがお役に立つ場合、数分お時間をいただき、評価していただけますか？",
-      "do_you_like_our_app": "当社のアプリをお楽しみいただいていますか？"
-    },
-    "select": {
-      "language": "使用する言語を選択してください。"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "settings": {
-    "disclaimer": {
-      "accept_risk": "Sie erkennen an und stimmen zu, dass die Nutzung von {appName} ausschließlich auf Ihr eigenes Risiko erfolgt und wir jegliche Haftung für Verluste oder Schäden im Zusammenhang mit der Nutzung des Dienstes ablehnen.",
-      "data": "Alle Daten und Informationen werden ausschließlich zu Informations- und Bildungszwecken bereitgestellt und gelten als \"wie sie sind\"."
-    },
-    "label": {
-      "about": "Über",
-      "app": {
-        "preferences": "App-einstellungen",
-        "settings": "App-einstellungen"
-      },
-      "appearance": "Erscheinungsbild",
-      "change": {
-        "language": "Sprache ändern",
-        "theme": "Thema ändern"
-      },
-      "customer_support": "Kundenservice",
-      "dark": "Dunkel",
-      "default": "Standard",
-      "disclaimer": "Haftungsausschluss",
-      "help_and_support": "Hilfe und support",
-      "homepage": "Startseite",
-      "language": "Sprache",
-      "languages": "Sprachen",
-      "legal": "Rechtliches",
-      "light": "Hell",
-      "preferences": "Einstellungen",
-      "privacy": {
-        "policy": "Datenschutzrichtlinie",
-        "preferences": "Datenschutzeinstellungen",
-        "settings": "Datenschutzkonfiguration",
-        "text": "Datenschutz"
-      },
-      "rate_us": "Bewerten sie uns",
-      "reset_settings": "Standard wiederherstellen",
-      "settings": "Einstellungen",
-      "submit_bug_report": "Fehlerbericht senden",
-      "system": "System",
-      "terms_of_service": "Nutzungsbedingungen",
-      "user_input": "Benutzereingabe",
-      "user_inputs": "Benutzereingaben",
-      "user_settings": "Benutzereinstellungen",
-      "version": "Version: {version}"
-    },
-    "message": {
-      "last_modified": "Zuletzt geändert: {date}",
-      "thanks_support": "Vielen Dank für Ihre Unterstützung!"
-    },
-    "note": {
-      "appearance": "Personalisieren Sie Ihr Erlebnis, indem Sie ein Design auswählen, das zu Ihrem Stil passt.",
-      "change_later": "Beachten Sie, dass Sie es jederzeit später ändern können.",
-      "restart_required": "Starten Sie die App neu, damit die Änderungen wirksam werden.",
-      "settings": "Verbessern Sie Ihr Erlebnis, indem Sie Ihre Einstellungen anpassen."
-    },
-    "question": {
-      "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
-      "do_you_like_our_app": "Gefällt Ihnen unsere App?"
-    },
-    "select": {
-      "language": "Wählen Sie die gewünschte Sprache aus."
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "settings": {
-    "disclaimer": {
-      "accept_risk": "Вы признаете и соглашаетесь с тем, что использование {appName} осуществляется на ваш собственный страх и риск, и мы не несем ответственности за потери или ущерб, связанные с использованием Сервиса.",
-      "data": "Вся предоставленная информация и данные предоставляются \"как есть\" исключительно для информационных и образовательных целей."
-    },
-    "label": {
-      "about": "О приложении",
-      "app": {
-        "preferences": "Настройки приложения",
-        "settings": "Настройки приложения"
-      },
-      "appearance": "Внешний вид",
-      "change": {
-        "language": "Изменить язык",
-        "theme": "Изменить тему"
-      },
-      "customer_support": "Служба поддержки",
-      "dark": "Темная",
-      "default": "По умолчанию",
-      "disclaimer": "Отказ от ответственности",
-      "help_and_support": "Справка и поддержка",
-      "homepage": "Главная",
-      "language": "Язык",
-      "languages": "Языки",
-      "legal": "Правовая информация",
-      "light": "Светлая",
-      "preferences": "Настройки",
-      "privacy": {
-        "policy": "Политика конфиденциальности",
-        "preferences": "Настройки конфиденциальности",
-        "settings": "Конфигурация конфиденциальности",
-        "text": "Конфиденциальность"
-      },
-      "rate_us": "Оцените нас",
-      "reset_settings": "Сбросить настройки",
-      "settings": "Настройки",
-      "submit_bug_report": "Отправить отчет об ошибке",
-      "system": "Система",
-      "terms_of_service": "Условия использования",
-      "user_input": "Ввод пользователя",
-      "user_inputs": "Вводы пользователя",
-      "user_settings": "Настройки пользователя",
-      "version": "Версия: {version}"
-    },
-    "message": {
-      "last_modified": "Последнее изменение: {date}",
-      "thanks_support": "Спасибо за вашу поддержку!"
-    },
-    "note": {
-      "appearance": "Настройте свой опыт, выбрав тему, которая подходит вашему стилю.",
-      "change_later": "Обратите внимание, что вы всегда можете изменить это позже.",
-      "restart_required": "Перезапустите приложение, чтобы изменения вступили в силу.",
-      "settings": "Улучшите свой опыт, настроив ваши предпочтения."
-    },
-    "question": {
-      "do_you_enjoy_our_app": "Если наше приложение вам понравилось, не могли бы вы уделить несколько минут, чтобы оценить его?",
-      "do_you_like_our_app": "Вам нравится наше приложение?"
-    },
-    "select": {
-      "language": "Выберите язык, который хотите использовать."
-    }
-  }
-};
-static const Map<String,dynamic> pt = {
+  static const Map<String,dynamic> pt = {
   "settings": {
     "disclaimer": {
       "accept_risk": "Você reconhece e concorda que o uso de {appName} é de sua responsabilidade exclusiva, e não nos responsabilizamos por perdas ou danos relacionados ao uso do serviço.",
@@ -328,6 +72,70 @@ static const Map<String,dynamic> pt = {
     },
     "select": {
       "language": "Selecione o idioma que você gostaria de usar."
+    }
+  }
+};
+static const Map<String,dynamic> it = {
+  "settings": {
+    "disclaimer": {
+      "accept_risk": "Riconosci e accetti che l'uso di {appName} è a tuo solo rischio, e decliniamo ogni responsabilità per perdite o danni correlati all'uso del Servizio.",
+      "data": "Tutti i dati e le informazioni vengono forniti \"così come sono\" esclusivamente a scopo informativo ed educativo."
+    },
+    "label": {
+      "about": "Informazioni",
+      "app": {
+        "preferences": "Preferenze dell'applicazione",
+        "settings": "Impostazioni dell'applicazione"
+      },
+      "appearance": "Aspetto",
+      "change": {
+        "language": "Cambia lingua",
+        "theme": "Cambia tema"
+      },
+      "customer_support": "Servizio clienti",
+      "dark": "Scuro",
+      "default": "Predefinito",
+      "disclaimer": "Disclaimer",
+      "help_and_support": "Aiuto e supporto",
+      "homepage": "Home",
+      "language": "Lingua",
+      "languages": "Lingue",
+      "legal": "Legale",
+      "light": "Chiaro",
+      "preferences": "Preferenze",
+      "privacy": {
+        "policy": "Politica sulla privacy",
+        "preferences": "Preferenze sulla privacy",
+        "settings": "Impostazioni sulla privacy",
+        "text": "Privacy"
+      },
+      "rate_us": "Valutaci",
+      "reset_settings": "Ripristina impostazioni",
+      "settings": "Impostazioni",
+      "submit_bug_report": "Invia segnalazione di bug",
+      "system": "Sistema",
+      "terms_of_service": "Termini di servizio",
+      "user_input": "Input utente",
+      "user_inputs": "Input utente",
+      "user_settings": "Impostazioni utente",
+      "version": "Versione: {version}"
+    },
+    "message": {
+      "last_modified": "Ultima modifica: {date}",
+      "thanks_support": "Grazie per il tuo supporto!"
+    },
+    "note": {
+      "appearance": "Personalizza la tua esperienza selezionando un tema che si adatta al tuo stile.",
+      "change_later": "Tieni presente che puoi sempre cambiarlo in seguito.",
+      "restart_required": "Riavvia l'app affinché le modifiche abbiano effetto.",
+      "settings": "Migliora la tua esperienza regolando le tue preferenze."
+    },
+    "question": {
+      "do_you_enjoy_our_app": "Se trovi la nostra app utile, saresti disposto a dedicare qualche istante per valutarla?",
+      "do_you_like_our_app": "Ti sta piacendo la nostra app?"
+    },
+    "select": {
+      "language": "Seleziona la lingua che desideri utilizzare."
     }
   }
 };
@@ -395,67 +203,259 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> ru = {
   "settings": {
     "disclaimer": {
-      "accept_risk": "Riconosci e accetti che l'uso di {appName} è a tuo solo rischio, e decliniamo ogni responsabilità per perdite o danni correlati all'uso del Servizio.",
-      "data": "Tutti i dati e le informazioni vengono forniti \"così come sono\" esclusivamente a scopo informativo ed educativo."
+      "accept_risk": "Вы признаете и соглашаетесь с тем, что использование {appName} осуществляется на ваш собственный страх и риск, и мы не несем ответственности за потери или ущерб, связанные с использованием Сервиса.",
+      "data": "Вся предоставленная информация и данные предоставляются \"как есть\" исключительно для информационных и образовательных целей."
     },
     "label": {
-      "about": "Informazioni",
+      "about": "О приложении",
       "app": {
-        "preferences": "Preferenze dell'applicazione",
-        "settings": "Impostazioni dell'applicazione"
+        "preferences": "Настройки приложения",
+        "settings": "Настройки приложения"
       },
-      "appearance": "Aspetto",
+      "appearance": "Внешний вид",
       "change": {
-        "language": "Cambia lingua",
-        "theme": "Cambia tema"
+        "language": "Изменить язык",
+        "theme": "Изменить тему"
       },
-      "customer_support": "Servizio clienti",
-      "dark": "Scuro",
-      "default": "Predefinito",
-      "disclaimer": "Disclaimer",
-      "help_and_support": "Aiuto e supporto",
-      "homepage": "Home",
-      "language": "Lingua",
-      "languages": "Lingue",
-      "legal": "Legale",
-      "light": "Chiaro",
-      "preferences": "Preferenze",
+      "customer_support": "Служба поддержки",
+      "dark": "Темная",
+      "default": "По умолчанию",
+      "disclaimer": "Отказ от ответственности",
+      "help_and_support": "Справка и поддержка",
+      "homepage": "Главная",
+      "language": "Язык",
+      "languages": "Языки",
+      "legal": "Правовая информация",
+      "light": "Светлая",
+      "preferences": "Настройки",
       "privacy": {
-        "policy": "Politica sulla privacy",
-        "preferences": "Preferenze sulla privacy",
-        "settings": "Impostazioni sulla privacy",
-        "text": "Privacy"
+        "policy": "Политика конфиденциальности",
+        "preferences": "Настройки конфиденциальности",
+        "settings": "Конфигурация конфиденциальности",
+        "text": "Конфиденциальность"
       },
-      "rate_us": "Valutaci",
-      "reset_settings": "Ripristina impostazioni",
-      "settings": "Impostazioni",
-      "submit_bug_report": "Invia segnalazione di bug",
-      "system": "Sistema",
-      "terms_of_service": "Termini di servizio",
-      "user_input": "Input utente",
-      "user_inputs": "Input utente",
-      "user_settings": "Impostazioni utente",
-      "version": "Versione: {version}"
+      "rate_us": "Оцените нас",
+      "reset_settings": "Сбросить настройки",
+      "settings": "Настройки",
+      "submit_bug_report": "Отправить отчет об ошибке",
+      "system": "Система",
+      "terms_of_service": "Условия использования",
+      "user_input": "Ввод пользователя",
+      "user_inputs": "Вводы пользователя",
+      "user_settings": "Настройки пользователя",
+      "version": "Версия: {version}"
     },
     "message": {
-      "last_modified": "Ultima modifica: {date}",
-      "thanks_support": "Grazie per il tuo supporto!"
+      "last_modified": "Последнее изменение: {date}",
+      "thanks_support": "Спасибо за вашу поддержку!"
     },
     "note": {
-      "appearance": "Personalizza la tua esperienza selezionando un tema che si adatta al tuo stile.",
-      "change_later": "Tieni presente che puoi sempre cambiarlo in seguito.",
-      "restart_required": "Riavvia l'app affinché le modifiche abbiano effetto.",
-      "settings": "Migliora la tua esperienza regolando le tue preferenze."
+      "appearance": "Настройте свой опыт, выбрав тему, которая подходит вашему стилю.",
+      "change_later": "Обратите внимание, что вы всегда можете изменить это позже.",
+      "restart_required": "Перезапустите приложение, чтобы изменения вступили в силу.",
+      "settings": "Улучшите свой опыт, настроив ваши предпочтения."
     },
     "question": {
-      "do_you_enjoy_our_app": "Se trovi la nostra app utile, saresti disposto a dedicare qualche istante per valutarla?",
-      "do_you_like_our_app": "Ti sta piacendo la nostra app?"
+      "do_you_enjoy_our_app": "Если наше приложение вам понравилось, не могли бы вы уделить несколько минут, чтобы оценить его?",
+      "do_you_like_our_app": "Вам нравится наше приложение?"
     },
     "select": {
-      "language": "Seleziona la lingua che desideri utilizzare."
+      "language": "Выберите язык, который хотите использовать."
+    }
+  }
+};
+static const Map<String,dynamic> zh = {
+  "settings": {
+    "disclaimer": {
+      "accept_risk": "您确认并同意使用{appName}完全由您自己承担风险，我们对于与使用该服务相关的损失或损害不承担任何责任。",
+      "data": "所有数据和信息均仅供纯粹信息和教育目的\"如实\"提供。"
+    },
+    "label": {
+      "about": "关于",
+      "app": {
+        "preferences": "应用偏好",
+        "settings": "应用设置"
+      },
+      "appearance": "外观",
+      "change": {
+        "language": "更改语言",
+        "theme": "更改主题"
+      },
+      "customer_support": "客户支持",
+      "dark": "深色",
+      "default": "默认",
+      "disclaimer": "免责声明",
+      "help_and_support": "帮助与支持",
+      "homepage": "主页",
+      "language": "语言",
+      "languages": "语言",
+      "legal": "法律条款",
+      "light": "亮色",
+      "preferences": "偏好设置",
+      "privacy": {
+        "policy": "隐私政策",
+        "preferences": "隐私偏好",
+        "settings": "隐私设置",
+        "text": "隐私"
+      },
+      "rate_us": "评价我们",
+      "reset_settings": "恢复默认设置",
+      "settings": "设置",
+      "submit_bug_report": "提交错误报告",
+      "system": "系统",
+      "terms_of_service": "服务条款",
+      "user_input": "用户输入",
+      "user_inputs": "用户输入",
+      "user_settings": "用户设置",
+      "version": "版本：{version}"
+    },
+    "message": {
+      "last_modified": "最后修改时间：{date}",
+      "thanks_support": "感谢您的支持！"
+    },
+    "note": {
+      "appearance": "通过选择适合您风格的主题来个性化您的体验。",
+      "change_later": "请注意，您随时可以稍后更改它。",
+      "restart_required": "重新启动应用程序以使更改生效。",
+      "settings": "通过调整您的偏好来增强您的体验。"
+    },
+    "question": {
+      "do_you_enjoy_our_app": "如果您发现我们的应用程序有用，您是否愿意花费一些时间对其进行评级？",
+      "do_you_like_our_app": "您喜欢我们的应用程序吗？"
+    },
+    "select": {
+      "language": "选择您想要使用的语言。"
+    }
+  }
+};
+static const Map<String,dynamic> de = {
+  "settings": {
+    "disclaimer": {
+      "accept_risk": "Sie erkennen an und stimmen zu, dass die Nutzung von {appName} ausschließlich auf Ihr eigenes Risiko erfolgt und wir jegliche Haftung für Verluste oder Schäden im Zusammenhang mit der Nutzung des Dienstes ablehnen.",
+      "data": "Alle Daten und Informationen werden ausschließlich zu Informations- und Bildungszwecken bereitgestellt und gelten als \"wie sie sind\"."
+    },
+    "label": {
+      "about": "Über",
+      "app": {
+        "preferences": "App-einstellungen",
+        "settings": "App-einstellungen"
+      },
+      "appearance": "Erscheinungsbild",
+      "change": {
+        "language": "Sprache ändern",
+        "theme": "Thema ändern"
+      },
+      "customer_support": "Kundenservice",
+      "dark": "Dunkel",
+      "default": "Standard",
+      "disclaimer": "Haftungsausschluss",
+      "help_and_support": "Hilfe und support",
+      "homepage": "Startseite",
+      "language": "Sprache",
+      "languages": "Sprachen",
+      "legal": "Rechtliches",
+      "light": "Hell",
+      "preferences": "Einstellungen",
+      "privacy": {
+        "policy": "Datenschutzrichtlinie",
+        "preferences": "Datenschutzeinstellungen",
+        "settings": "Datenschutzkonfiguration",
+        "text": "Datenschutz"
+      },
+      "rate_us": "Bewerten sie uns",
+      "reset_settings": "Standard wiederherstellen",
+      "settings": "Einstellungen",
+      "submit_bug_report": "Fehlerbericht senden",
+      "system": "System",
+      "terms_of_service": "Nutzungsbedingungen",
+      "user_input": "Benutzereingabe",
+      "user_inputs": "Benutzereingaben",
+      "user_settings": "Benutzereinstellungen",
+      "version": "Version: {version}"
+    },
+    "message": {
+      "last_modified": "Zuletzt geändert: {date}",
+      "thanks_support": "Vielen Dank für Ihre Unterstützung!"
+    },
+    "note": {
+      "appearance": "Personalisieren Sie Ihr Erlebnis, indem Sie ein Design auswählen, das zu Ihrem Stil passt.",
+      "change_later": "Beachten Sie, dass Sie es jederzeit später ändern können.",
+      "restart_required": "Starten Sie die App neu, damit die Änderungen wirksam werden.",
+      "settings": "Verbessern Sie Ihr Erlebnis, indem Sie Ihre Einstellungen anpassen."
+    },
+    "question": {
+      "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
+      "do_you_like_our_app": "Gefällt Ihnen unsere App?"
+    },
+    "select": {
+      "language": "Wählen Sie die gewünschte Sprache aus."
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
+  "settings": {
+    "disclaimer": {
+      "accept_risk": "{appName}の利用は、お客様自身の責任において行われることを認識し、利用に関連する損失や損害については、当社は一切の責任を負わないことをご了承ください。",
+      "data": "すべてのデータと情報は、純粋に情報提供と教育目的で、「現状のまま」提供されます。"
+    },
+    "label": {
+      "about": "について",
+      "app": {
+        "preferences": "アプリの設定",
+        "settings": "アプリの設定"
+      },
+      "appearance": "外観",
+      "change": {
+        "language": "言語を変更",
+        "theme": "テーマを変更"
+      },
+      "customer_support": "カスタマーサポート",
+      "dark": "ダーク",
+      "default": "デフォルト",
+      "disclaimer": "免責事項",
+      "help_and_support": "ヘルプとサポート",
+      "homepage": "ホーム",
+      "language": "言語",
+      "languages": "言語",
+      "legal": "法的事項",
+      "light": "ライト",
+      "preferences": "設定",
+      "privacy": {
+        "policy": "プライバシーポリシー",
+        "preferences": "プライバシーの設定",
+        "settings": "プライバシー設定",
+        "text": "プライバシー"
+      },
+      "rate_us": "評価する",
+      "reset_settings": "デフォルトに戻す",
+      "settings": "設定",
+      "submit_bug_report": "バグレポートを送信",
+      "system": "システム",
+      "terms_of_service": "利用規約",
+      "user_input": "ユーザー入力",
+      "user_inputs": "ユーザー入力",
+      "user_settings": "ユーザー設定",
+      "version": "バージョン: {version}"
+    },
+    "message": {
+      "last_modified": "最終更新日：{date}",
+      "thanks_support": "ご支援ありがとうございます！"
+    },
+    "note": {
+      "appearance": "スタイルに合ったテーマを選択して、体験をカスタマイズしましょう。",
+      "change_later": "後でいつでも変更できることに注意してください。",
+      "restart_required": "変更が反映されるように、アプリを再起動してください。",
+      "settings": "設定を調整して、体験を向上させてください。"
+    },
+    "question": {
+      "do_you_enjoy_our_app": "当社のアプリがお役に立つ場合、数分お時間をいただき、評価していただけますか？",
+      "do_you_like_our_app": "当社のアプリをお楽しみいただいていますか？"
+    },
+    "select": {
+      "language": "使用する言語を選択してください。"
     }
   }
 };
@@ -587,5 +587,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "it": it, "en": en, "ru": ru, "zh": zh, "de": de, "ja": ja, "fr": fr, "es": es};
 }

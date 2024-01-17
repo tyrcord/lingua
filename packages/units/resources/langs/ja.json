@@ -2,6 +2,7 @@
   "units": {
     "label": {
       "barrel": "バレル",
+      "bushel": "ブッシェル",
       "count": {
         "barrel": {
           "few": "{} バレル",
@@ -38,6 +39,7 @@
       "mmbtu": "MMBtu",
       "ounce": "オンス",
       "pound": "ポンド",
+      "ton": "トン",
       "unit": "ユニット"
     }
   }

@@ -2,6 +2,7 @@
 
 abstract class UnitsLocaleKeys {
   static const units_label_barrel = 'units.label.barrel';
+  static const units_label_bushel = 'units.label.bushel';
   static const units_label_count_barrel = 'units.label.count.barrel';
   static const units_label_count_mmbtu = 'units.label.count.mmbtu';
   static const units_label_count_ounce = 'units.label.count.ounce';
@@ -12,6 +13,7 @@ abstract class UnitsLocaleKeys {
   static const units_label_mmbtu = 'units.label.mmbtu';
   static const units_label_ounce = 'units.label.ounce';
   static const units_label_pound = 'units.label.pound';
+  static const units_label_ton = 'units.label.ton';
   static const units_label_unit = 'units.label.unit';
 
 }

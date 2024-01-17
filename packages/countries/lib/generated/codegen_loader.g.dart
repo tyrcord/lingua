@@ -11,151 +11,7 @@ class CountriesCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> zh = {
-  "countries": {
-    "label": {
-      "austria": "奥地利",
-      "belgium": "比利时",
-      "bulgaria": "保加利亚",
-      "croatia": "克罗地亚",
-      "cyprus": "塞浦路斯",
-      "czech": "捷克共和国",
-      "denmark": "丹麦",
-      "estonia": "爱沙尼亚",
-      "finland": "芬兰",
-      "france": "法国",
-      "germany": "德国",
-      "greece": "希腊",
-      "hungary": "匈牙利",
-      "ireland": "爱尔兰",
-      "italy": "意大利",
-      "latvia": "拉脱维亚",
-      "lithuania": "立陶宛",
-      "luxembourg": "卢森堡",
-      "malta": "马耳他",
-      "monaco": "摩纳哥",
-      "netherlands": "荷兰",
-      "poland": "波兰",
-      "romania": "罗马尼亚",
-      "slovakia": "斯洛伐克",
-      "slovenia": "斯洛文尼亚",
-      "spain": "西班牙",
-      "sweden": "瑞典",
-      "switzerland": "瑞士",
-      "uk": "英国",
-      "usa": "美国"
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "countries": {
-    "label": {
-      "austria": "オーストリア",
-      "belgium": "ベルギー",
-      "bulgaria": "ブルガリア",
-      "croatia": "クロアチア",
-      "cyprus": "キプロス",
-      "czech": "チェコ共和国",
-      "denmark": "デンマーク",
-      "estonia": "エストニア",
-      "finland": "フィンランド",
-      "france": "フランス",
-      "germany": "ドイツ",
-      "greece": "ギリシャ",
-      "hungary": "ハンガリー",
-      "ireland": "アイルランド",
-      "italy": "イタリア",
-      "latvia": "ラトビア",
-      "lithuania": "リトアニア",
-      "luxembourg": "ルクセンブルク",
-      "malta": "マルタ",
-      "monaco": "モナコ",
-      "netherlands": "オランダ",
-      "poland": "ポーランド",
-      "romania": "ルーマニア",
-      "slovakia": "スロバキア",
-      "slovenia": "スロベニア",
-      "spain": "スペイン",
-      "sweden": "スウェーデン",
-      "switzerland": "スイス",
-      "uk": "イギリス",
-      "usa": "アメリカ合衆国"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "countries": {
-    "label": {
-      "austria": "Österreich",
-      "belgium": "Belgien",
-      "bulgaria": "Bulgarien",
-      "croatia": "Kroatien",
-      "cyprus": "Zypern",
-      "czech": "Tschechische Republik",
-      "denmark": "Dänemark",
-      "estonia": "Estland",
-      "finland": "Finnland",
-      "france": "Frankreich",
-      "germany": "Deutschland",
-      "greece": "Griechenland",
-      "hungary": "Ungarn",
-      "ireland": "Irland",
-      "italy": "Italien",
-      "latvia": "Lettland",
-      "lithuania": "Litauen",
-      "luxembourg": "Luxemburg",
-      "malta": "Malta",
-      "monaco": "Monaco",
-      "netherlands": "Niederlande",
-      "poland": "Polen",
-      "romania": "Rumänien",
-      "slovakia": "Slowakei",
-      "slovenia": "Slowenien",
-      "spain": "Spanien",
-      "sweden": "Schweden",
-      "switzerland": "Schweiz",
-      "uk": "Vereinigtes Königreich",
-      "usa": "Vereinigte Staaten"
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "countries": {
-    "label": {
-      "austria": "Австрия",
-      "belgium": "Бельгия",
-      "bulgaria": "Болгария",
-      "croatia": "Хорватия",
-      "cyprus": "Кипр",
-      "czech": "Чешская Республика",
-      "denmark": "Дания",
-      "estonia": "Эстония",
-      "finland": "Финляндия",
-      "france": "Франция",
-      "germany": "Германия",
-      "greece": "Греция",
-      "hungary": "Венгрия",
-      "ireland": "Ирландия",
-      "italy": "Италия",
-      "latvia": "Латвия",
-      "lithuania": "Литва",
-      "luxembourg": "Люксембург",
-      "malta": "Мальта",
-      "monaco": "Монако",
-      "netherlands": "Нидерланды",
-      "poland": "Польша",
-      "romania": "Румыния",
-      "slovakia": "Словакия",
-      "slovenia": "Словения",
-      "spain": "Испания",
-      "sweden": "Швеция",
-      "switzerland": "Швейцария",
-      "uk": "Великобритания",
-      "usa": "Соединенные Штаты"
-    }
-  }
-};
-static const Map<String,dynamic> pt = {
+  static const Map<String,dynamic> pt = {
   "countries": {
     "label": {
       "austria": "Áustria",
@@ -188,6 +44,42 @@ static const Map<String,dynamic> pt = {
       "switzerland": "Suíça",
       "uk": "Reino Unido",
       "usa": "Estados Unidos"
+    }
+  }
+};
+static const Map<String,dynamic> it = {
+  "countries": {
+    "label": {
+      "austria": "Austria",
+      "belgium": "Belgio",
+      "bulgaria": "Bulgaria",
+      "croatia": "Croazia",
+      "cyprus": "Cipro",
+      "czech": "Repubblica Ceca",
+      "denmark": "Danimarca",
+      "estonia": "Estonia",
+      "finland": "Finlandia",
+      "france": "Francia",
+      "germany": "Germania",
+      "greece": "Grecia",
+      "hungary": "Ungheria",
+      "ireland": "Irlanda",
+      "italy": "Italia",
+      "latvia": "Lettonia",
+      "lithuania": "Lituania",
+      "luxembourg": "Lussemburgo",
+      "malta": "Malta",
+      "monaco": "Monaco",
+      "netherlands": "Paesi Bassi",
+      "poland": "Polonia",
+      "romania": "Romania",
+      "slovakia": "Slovacchia",
+      "slovenia": "Slovenia",
+      "spain": "Spagna",
+      "sweden": "Svezia",
+      "switzerland": "Svizzera",
+      "uk": "Regno Unito",
+      "usa": "Stati Uniti"
     }
   }
 };
@@ -227,39 +119,147 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> ru = {
   "countries": {
     "label": {
-      "austria": "Austria",
-      "belgium": "Belgio",
-      "bulgaria": "Bulgaria",
-      "croatia": "Croazia",
-      "cyprus": "Cipro",
-      "czech": "Repubblica Ceca",
-      "denmark": "Danimarca",
-      "estonia": "Estonia",
-      "finland": "Finlandia",
-      "france": "Francia",
-      "germany": "Germania",
-      "greece": "Grecia",
-      "hungary": "Ungheria",
-      "ireland": "Irlanda",
-      "italy": "Italia",
-      "latvia": "Lettonia",
-      "lithuania": "Lituania",
-      "luxembourg": "Lussemburgo",
+      "austria": "Австрия",
+      "belgium": "Бельгия",
+      "bulgaria": "Болгария",
+      "croatia": "Хорватия",
+      "cyprus": "Кипр",
+      "czech": "Чешская Республика",
+      "denmark": "Дания",
+      "estonia": "Эстония",
+      "finland": "Финляндия",
+      "france": "Франция",
+      "germany": "Германия",
+      "greece": "Греция",
+      "hungary": "Венгрия",
+      "ireland": "Ирландия",
+      "italy": "Италия",
+      "latvia": "Латвия",
+      "lithuania": "Литва",
+      "luxembourg": "Люксембург",
+      "malta": "Мальта",
+      "monaco": "Монако",
+      "netherlands": "Нидерланды",
+      "poland": "Польша",
+      "romania": "Румыния",
+      "slovakia": "Словакия",
+      "slovenia": "Словения",
+      "spain": "Испания",
+      "sweden": "Швеция",
+      "switzerland": "Швейцария",
+      "uk": "Великобритания",
+      "usa": "Соединенные Штаты"
+    }
+  }
+};
+static const Map<String,dynamic> zh = {
+  "countries": {
+    "label": {
+      "austria": "奥地利",
+      "belgium": "比利时",
+      "bulgaria": "保加利亚",
+      "croatia": "克罗地亚",
+      "cyprus": "塞浦路斯",
+      "czech": "捷克共和国",
+      "denmark": "丹麦",
+      "estonia": "爱沙尼亚",
+      "finland": "芬兰",
+      "france": "法国",
+      "germany": "德国",
+      "greece": "希腊",
+      "hungary": "匈牙利",
+      "ireland": "爱尔兰",
+      "italy": "意大利",
+      "latvia": "拉脱维亚",
+      "lithuania": "立陶宛",
+      "luxembourg": "卢森堡",
+      "malta": "马耳他",
+      "monaco": "摩纳哥",
+      "netherlands": "荷兰",
+      "poland": "波兰",
+      "romania": "罗马尼亚",
+      "slovakia": "斯洛伐克",
+      "slovenia": "斯洛文尼亚",
+      "spain": "西班牙",
+      "sweden": "瑞典",
+      "switzerland": "瑞士",
+      "uk": "英国",
+      "usa": "美国"
+    }
+  }
+};
+static const Map<String,dynamic> de = {
+  "countries": {
+    "label": {
+      "austria": "Österreich",
+      "belgium": "Belgien",
+      "bulgaria": "Bulgarien",
+      "croatia": "Kroatien",
+      "cyprus": "Zypern",
+      "czech": "Tschechische Republik",
+      "denmark": "Dänemark",
+      "estonia": "Estland",
+      "finland": "Finnland",
+      "france": "Frankreich",
+      "germany": "Deutschland",
+      "greece": "Griechenland",
+      "hungary": "Ungarn",
+      "ireland": "Irland",
+      "italy": "Italien",
+      "latvia": "Lettland",
+      "lithuania": "Litauen",
+      "luxembourg": "Luxemburg",
       "malta": "Malta",
       "monaco": "Monaco",
-      "netherlands": "Paesi Bassi",
-      "poland": "Polonia",
-      "romania": "Romania",
-      "slovakia": "Slovacchia",
-      "slovenia": "Slovenia",
-      "spain": "Spagna",
-      "sweden": "Svezia",
-      "switzerland": "Svizzera",
-      "uk": "Regno Unito",
-      "usa": "Stati Uniti"
+      "netherlands": "Niederlande",
+      "poland": "Polen",
+      "romania": "Rumänien",
+      "slovakia": "Slowakei",
+      "slovenia": "Slowenien",
+      "spain": "Spanien",
+      "sweden": "Schweden",
+      "switzerland": "Schweiz",
+      "uk": "Vereinigtes Königreich",
+      "usa": "Vereinigte Staaten"
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
+  "countries": {
+    "label": {
+      "austria": "オーストリア",
+      "belgium": "ベルギー",
+      "bulgaria": "ブルガリア",
+      "croatia": "クロアチア",
+      "cyprus": "キプロス",
+      "czech": "チェコ共和国",
+      "denmark": "デンマーク",
+      "estonia": "エストニア",
+      "finland": "フィンランド",
+      "france": "フランス",
+      "germany": "ドイツ",
+      "greece": "ギリシャ",
+      "hungary": "ハンガリー",
+      "ireland": "アイルランド",
+      "italy": "イタリア",
+      "latvia": "ラトビア",
+      "lithuania": "リトアニア",
+      "luxembourg": "ルクセンブルク",
+      "malta": "マルタ",
+      "monaco": "モナコ",
+      "netherlands": "オランダ",
+      "poland": "ポーランド",
+      "romania": "ルーマニア",
+      "slovakia": "スロバキア",
+      "slovenia": "スロベニア",
+      "spain": "スペイン",
+      "sweden": "スウェーデン",
+      "switzerland": "スイス",
+      "uk": "イギリス",
+      "usa": "アメリカ合衆国"
     }
   }
 };
@@ -335,5 +335,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "it": it, "en": en, "ru": ru, "zh": zh, "de": de, "ja": ja, "fr": fr, "es": es};
 }

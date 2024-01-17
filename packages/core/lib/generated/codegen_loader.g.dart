@@ -11,1967 +11,7 @@ class CoreCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> zh = {
-  "core": {
-    "error": {
-      "cannot_reach_server": "很抱歉给您带来不便，但目前服务器连接存在问题。请稍后再试。",
-      "error_occurred": {
-        "exclamation": "发生了错误！",
-        "please": "很抱歉，发生了错误。请稍后再试。"
-      },
-      "invalid": {
-        "data": {
-          "period": "数据无效。",
-          "type": "数据类型无效。"
-        },
-        "file_type": "文件类型无效。"
-      },
-      "service": {
-        "unavailable": "服务目前不可用。"
-      }
-    },
-    "help": {
-      "check_your_modem_and_router": "请检查您的调制解调器和路由器。",
-      "ensure": {
-        "app_up_to_date": "请确保应用程序已更新至最新版本。",
-        "internet_restrictions": "确保没有防火墙或网络限制阻止访问服务。"
-      },
-      "issue_persist_contact_support": "如果问题仍然存在，请联系我们的支持团队寻求帮助。",
-      "reconnect_to_your_wifi_network": "请重新连接到您的Wi-Fi网络。",
-      "restart_device_check_connection": "请重新启动您的设备并检查您的互联网连接。",
-      "service": {
-        "not_available_current_location": "服务可能在您当前的位置不可用。",
-        "not_operational": "服务可能目前不在运行状态。请检查其状态或稍后再试访问。"
-      },
-      "several_reasons": "可能有以下几个原因："
-    },
-    "label": {
-      "accept": "接受",
-      "accepted": "已接受",
-      "active": "活跃",
-      "add": "添加",
-      "advanced": "高级",
-      "all": {
-        "female": "全部",
-        "male": "全部",
-        "other": "全部"
-      },
-      "annually": "每年",
-      "approve": "批准",
-      "approved": "已批准",
-      "at": "在",
-      "auto_save": "自动保存",
-      "back": "返回",
-      "badge": "徽章",
-      "behavior": "行为",
-      "button": "按钮",
-      "buy": "购买",
-      "cancel": "取消",
-      "canceled": "已取消",
-      "clear": {
-        "selection": "清除选择",
-        "text": "清除"
-      },
-      "close": {
-        "all": "关闭全部",
-        "others": "关闭其他",
-        "tab": "关闭标签页",
-        "text": "关闭",
-        "window": "关闭窗口"
-      },
-      "collapse": {
-        "all": "全部折叠",
-        "text": "折叠"
-      },
-      "commercial": "商业",
-      "complete": "完成",
-      "completed": "已完成",
-      "confirm": "确认",
-      "confirmation": "确认",
-      "connected": "已连接",
-      "contact": {
-        "support": "联系支持",
-        "us": "联系我们"
-      },
-      "continue": "继续",
-      "copy": "复制",
-      "country": "国家",
-      "cut": "剪切",
-      "daily": "每天",
-      "date": "日期",
-      "default": {
-        "text": "默认",
-        "values": "默认值"
-      },
-      "delete": "删除",
-      "description": "描述",
-      "details": "详细信息",
-      "disabled": "已禁用",
-      "disapprove": "不批准",
-      "disapproved": "未批准",
-      "disconnected": "已断开",
-      "display": "显示",
-      "done": "完成",
-      "download": "下载",
-      "edit": "编辑",
-      "enabled": "已启用",
-      "enter": {
-        "fullscreen": "进入全屏模式",
-        "pip": "进入画中画模式",
-        "text": "进入"
-      },
-      "entries": "入口",
-      "entry": "入口",
-      "error": "错误",
-      "example": "例子",
-      "exit": {
-        "fullscreen": "退出全屏",
-        "pip": "退出画中画",
-        "text": "退出"
-      },
-      "exotics": "异国情调",
-      "expand": {
-        "all": "全部展开",
-        "text": "展开"
-      },
-      "expired": "已过期",
-      "export": {
-        "all": "全部导出",
-        "as": "导出为",
-        "csv": "导出为CSV",
-        "excel": "导出为Excel",
-        "pdf": "导出为PDF",
-        "text": "导出"
-      },
-      "external": "外部",
-      "fast_forward": "快进",
-      "favorites": "收藏",
-      "find": {
-        "and_replace": "查找和替换",
-        "next": "查找下一个",
-        "previous": "查找上一个",
-        "text": "查找"
-      },
-      "follow_us": "关注我们",
-      "frame": "帧",
-      "frequency": "频率",
-      "fullscreen": "全屏",
-      "generate": "生成",
-      "go": "前往",
-      "help": "帮助",
-      "hidden": "隐藏",
-      "hint": "线索",
-      "home": "首页",
-      "import": {
-        "all": "全部导入",
-        "from": "导入自",
-        "text": "导入"
-      },
-      "in_progress": "进行中",
-      "inactive": "不活跃",
-      "incomplete": "未完成",
-      "info": "信息",
-      "inputs": "输入",
-      "install": "安装",
-      "internal": "内部",
-      "internet_connection": "无互联网连接",
-      "invalid": "无效",
-      "learn_more": "了解更多",
-      "loading": "加载中",
-      "local": "本地",
-      "locked": "已锁定",
-      "loop": "循环",
-      "majors": "成年人",
-      "menu": "菜单",
-      "method": "方法",
-      "minors": "未成年人",
-      "missing_rights": "缺少权利",
-      "monthly": "每月",
-      "mute": "静音",
-      "name": "名称",
-      "new": {
-        "bookmark": "新建书签",
-        "document": "新建文档",
-        "file": "新建文件",
-        "folder": "新建文件夹",
-        "note": "新建笔记",
-        "project": "新建项目",
-        "tab": "新建标签页",
-        "text": "新建",
-        "window": "新建窗口",
-        "workspace": "新建工作区"
-      },
-      "next": {
-        "chapter": "下一章",
-        "page": "下一页",
-        "text": "下一项",
-        "track": "下一首"
-      },
-      "no": "否",
-      "no_elements": "没有元素",
-      "no_items": "没有商品",
-      "non_commercial": "非商业",
-      "none": {
-        "female": "无",
-        "male": "无",
-        "other": "无"
-      },
-      "offline": "离线",
-      "offline_mode": "离线模式",
-      "ok": "确定",
-      "online": "在线",
-      "open": {
-        "all": "全部打开",
-        "directory": "打开目录",
-        "file": "打开文件",
-        "in_new": {
-          "tab": "在新标签页打开",
-          "window": "在新窗口打开"
-        },
-        "text": "打开",
-        "url": "打开网址"
-      },
-      "operation": {
-        "canceled": "操作已取消",
-        "completed": "操作已完成",
-        "failed": "操作失败",
-        "in_progress": "操作进行中",
-        "pending": "操作待定",
-        "started": "操作已开始",
-        "succeeded": "操作成功",
-        "text": "操作",
-        "timed_out": "操作超时"
-      },
-      "optional": "可选",
-      "panel": "面板",
-      "paste": "粘贴",
-      "pause": "暂停",
-      "paused": "暂停",
-      "pending": "待定",
-      "perform": "执行",
-      "personal": "个人",
-      "play": "播放",
-      "play_pause": "播放/暂停",
-      "previous": {
-        "chapter": "上一章",
-        "page": "上一页",
-        "text": "上一项",
-        "track": "上一首"
-      },
-      "private": "私有",
-      "public": "公开",
-      "quantity": "数量",
-      "quarterly": "每季度",
-      "question": "问题",
-      "redo": "重做",
-      "refresh": "刷新",
-      "reject": "拒绝",
-      "rejected": "已拒绝",
-      "remote": "远程",
-      "remove": "移除",
-      "repeat": {
-        "all": "全部重复",
-        "none": "不重复",
-        "one": "单曲重复",
-        "text": "重复"
-      },
-      "replace": {
-        "all": "全部替换",
-        "text": "替换"
-      },
-      "replay": "重新播放",
-      "report": {
-        "error": "报告错误",
-        "text": "报告"
-      },
-      "required": "必需",
-      "reset": "重置",
-      "results": "结果",
-      "resumed": "已恢复",
-      "retry": "重试",
-      "rewind": "倒带",
-      "rights_denied": "权利被拒绝",
-      "rights_granted": "权利已授予",
-      "save": {
-        "all": "全部保存",
-        "and": {
-          "close": "保存并关闭",
-          "exit": "保存并退出"
-        },
-        "as": "另存为",
-        "text": "保存"
-      },
-      "saved": "已保存",
-      "search": "搜索",
-      "select": {
-        "all": "全选",
-        "none": "取消选择",
-        "text": "选择"
-      },
-      "selection": "选择",
-      "sell": "出售",
-      "semi_annually": "半年一次",
-      "service_unavailable": "服务不可用",
-      "share": {
-        "app": "分享此应用",
-        "text": "分享"
-      },
-      "shuffle": "随机播放",
-      "skip": {
-        "backward": "快退",
-        "forward": "快进",
-        "next": "跳至下一个",
-        "previous": "跳至上一个",
-        "text": "跳过"
-      },
-      "stop": "停止",
-      "submit": "提交",
-      "success": "成功",
-      "sync": "同步",
-      "synced": "已同步",
-      "template": "模板",
-      "time": {
-        "elapsed": "已过时间",
-        "remaining": "剩余时间",
-        "text": "时间"
-      },
-      "tip": "提示",
-      "toggle": {
-        "all": "全部切换",
-        "text": "切换"
-      },
-      "try": {
-        "again": "再试一次",
-        "later": "稍后再试",
-        "text": "尝试"
-      },
-      "undo": "撤销",
-      "uninstall": "卸载",
-      "unlocked": "已解锁",
-      "unmute": "取消静音",
-      "unsync": "取消同步",
-      "unsynced": "未同步",
-      "update": "更新",
-      "upgrade": {
-        "now": "现在升级",
-        "text": "更新"
-      },
-      "upload": "上传",
-      "user_inputs": "用户输入",
-      "valid": "有效",
-      "visible": "可见",
-      "volume": "音量",
-      "warning": "警告",
-      "watch": {
-        "later": "稍后观看",
-        "now": "立即观看",
-        "text": "观看"
-      },
-      "website": "网站",
-      "weekly": "每周",
-      "yearly": "每年",
-      "yes": "是",
-      "yesterday": "昨天",
-      "zoom": {
-        "in": "放大",
-        "out": "缩小",
-        "reset": "重置缩放",
-        "text": "缩放"
-      }
-    },
-    "message": {
-      "action": {
-        "canceled": "操作已取消。",
-        "completed": "操作已完成。"
-      },
-      "bugs_fixes_improvements": "小错误修复和改进。",
-      "checking_connection": "正在检查连接...",
-      "congratulations": "恭喜！",
-      "copied": "已复制！",
-      "copied_to_clipboard": "已复制到剪贴板！",
-      "copied_value_to_clipboard": "已复制 {value} 到剪贴板！",
-      "dark_mode_support": "支持暗黑模式。",
-      "example": "示例:",
-      "failed_to": {
-        "generate": {
-          "csv": "创建CSV文件时遇到问题。",
-          "excel": "创建Excel文件时遇到问题。",
-          "file": "创建文件时遇到问题。",
-          "pdf": "创建PDF文件时遇到问题。",
-          "text": "创建文本文件时遇到问题。"
-        },
-        "load": {
-          "csv": "加载CSV文件时遇到问题。",
-          "data": "加载数据时遇到问题。",
-          "excel": "加载Excel文件时遇到问题。",
-          "file": "加载文件时遇到问题。",
-          "pdf": "加载PDF文件时遇到问题。",
-          "text": "加载文本文件时遇到问题。"
-        },
-        "perform": {
-          "action": "执行操作时遇到问题。"
-        },
-        "save": {
-          "csv": "保存CSV文件时遇到问题。",
-          "data": "保存数据时遇到问题。",
-          "excel": "保存Excel文件时遇到问题。",
-          "file": "保存文件时遇到问题。",
-          "pdf": "保存PDF文件时遇到问题。",
-          "text": "保存文本文件时遇到问题。"
-        }
-      },
-      "finally": "终于！",
-      "generating": {
-        "csv": "正在生成CSV文件...",
-        "excel": "正在生成Excel文件...",
-        "pdf": "正在生成PDF文件...",
-        "text": "正在生成中..."
-      },
-      "have_wonderful_day": "祝您有美好的一天！",
-      "last_updated_on": "最后更新于{date}",
-      "let_get_started": "让我们开始吧！",
-      "loading": {
-        "data": "正在加载数据...",
-        "pdf": "正在加载PDF...",
-        "text": "加载中..."
-      },
-      "modern_design": "现代外观。",
-      "no": {
-        "results_found": "未找到结果。"
-      },
-      "no_favorites": "无收藏。",
-      "pdf_generated_by": "PDF 由{app_name}生成",
-      "performing": "执行中...",
-      "please_wait": "请稍候...",
-      "processing": "处理中...",
-      "ready": {
-        "csv": "CSV文件准备就绪！",
-        "excel": "Excel文件准备就绪！",
-        "file": "文件准备就绪！",
-        "pdf": "PDF文件准备就绪！",
-        "text": "准备就绪！"
-      },
-      "require": {
-        "internet_connection": "需要互联网连接。"
-      },
-      "saving": "保存中...",
-      "search": "搜索...",
-      "searching": "正在搜索...",
-      "share": {
-        "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"
-      },
-      "sorry": "抱歉...",
-      "success": "成功！",
-      "thank_you": "谢谢！",
-      "try": {
-        "steps_back_online": "尝试以下步骤恢复上网："
-      },
-      "warning": "警告！",
-      "welcome": "欢迎！",
-      "whats_new": "有什么新功能？",
-      "whoops": "哎呀！"
-    },
-    "question": {
-      "are_you_sure": "确定吗？",
-      "export": {
-        "data": {
-          "as": {
-            "csv": "您希望将这些数据导出为CSV格式吗？",
-            "excel": "您希望将这些数据导出为Excel文件吗？",
-            "pdf": "您希望将这些数据导出为PDF格式吗？",
-            "text": "您希望导出这些数据吗？"
-          }
-        }
-      },
-      "generate": {
-        "data": {
-          "csv": "您想生成这些数据的CSV版本吗？",
-          "excel": "您想生成这些数据的Excel版本吗？",
-          "pdf": "您想生成这些数据的PDF版本吗？"
-        }
-      }
-    },
-    "select": {
-      "country": "选择一个国家",
-      "frequency": "选择频率",
-      "method": "选择方法"
-    },
-    "warning": {
-      "offline": "该应用当前处于离线模式，这意味着数据可能不是最新的。"
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "core": {
-    "error": {
-      "cannot_reach_server": "ご迷惑をおかけして申し訳ございませんが、現在サーバーとの接続に問題があります。後ほど再度お試しください。",
-      "error_occurred": {
-        "exclamation": "エラーが発生しました！",
-        "please": "申し訳ございません、エラーが発生しました。後ほど再度お試しください。"
-      },
-      "invalid": {
-        "data": {
-          "period": "無効なデータ。",
-          "type": "無効なデータタイプ。"
-        },
-        "file_type": "無効なファイルタイプ。"
-      },
-      "service": {
-        "unavailable": "サービスは現在利用できません。"
-      }
-    },
-    "help": {
-      "check_your_modem_and_router": "モデムとルーターを確認してください。",
-      "ensure": {
-        "app_up_to_date": "アプリが最新であることを確認してください。",
-        "internet_restrictions": "ファイアウォールやネットワークの制限がサービスへのアクセスを妨げていないことを確認してください。"
-      },
-      "issue_persist_contact_support": "問題が解決しない場合は、サポートチームにお問い合わせください。",
-      "reconnect_to_your_wifi_network": "Wi-Fiネットワークに再接続してください。",
-      "restart_device_check_connection": "デバイスを再起動し、インターネット接続を確認してください。",
-      "service": {
-        "not_available_current_location": "現在の場所ではサービスを利用できない場合があります。",
-        "not_operational": "サービスが現在稼働していない場合があります。その状態を確認するか、後ほど再度アクセスしてみてください。"
-      },
-      "several_reasons": "いくつかの原因が考えられます："
-    },
-    "label": {
-      "accept": "受け入れる",
-      "accepted": "受け入れられた",
-      "active": "アクティブ",
-      "add": "追加",
-      "advanced": "高度な設定",
-      "all": {
-        "female": "全て",
-        "male": "全て",
-        "other": "全て"
-      },
-      "annually": "毎年",
-      "approve": "承認",
-      "approved": "承認済み",
-      "at": "場所",
-      "auto_save": "自動保存",
-      "back": "戻る",
-      "badge": "バッジ",
-      "behavior": "動作",
-      "button": "ボタン",
-      "buy": "購入",
-      "cancel": "キャンセル",
-      "canceled": "キャンセル",
-      "clear": {
-        "selection": "選択のクリア",
-        "text": "クリア"
-      },
-      "close": {
-        "all": "すべてを閉じる",
-        "others": "他を閉じる",
-        "tab": "タブを閉じる",
-        "text": "閉じる",
-        "window": "ウィンドウを閉じる"
-      },
-      "collapse": {
-        "all": "すべて折りたたむ",
-        "text": "折りたたむ"
-      },
-      "commercial": "商業的",
-      "complete": "完了",
-      "completed": "完了した",
-      "confirm": "確認",
-      "confirmation": "確認",
-      "connected": "接続済み",
-      "contact": {
-        "support": "サポートにお問い合わせ",
-        "us": "お問い合わせ"
-      },
-      "continue": "続ける",
-      "copy": "コピー",
-      "country": "国",
-      "cut": "カット",
-      "daily": "毎日",
-      "date": "日付",
-      "default": {
-        "text": "デフォルト",
-        "values": "デフォルト値"
-      },
-      "delete": "削除",
-      "description": "説明",
-      "details": "詳細",
-      "disabled": "無効",
-      "disapprove": "不承認",
-      "disapproved": "不承認",
-      "disconnected": "未接続",
-      "display": "表示",
-      "done": "完了",
-      "download": "ダウンロード",
-      "edit": "編集",
-      "enabled": "有効",
-      "enter": {
-        "fullscreen": "フルスクリーンに入る",
-        "pip": "ピクチャ・イン・ピクチャに入る",
-        "text": "入る"
-      },
-      "entries": "エントリー",
-      "entry": "エントリー",
-      "error": "エラー",
-      "example": "例",
-      "exit": {
-        "fullscreen": "フルスクリーンを終了",
-        "pip": "ピクチャ・イン・ピクチャを終了",
-        "text": "終了"
-      },
-      "exotics": "エキゾチック",
-      "expand": {
-        "all": "すべて展開",
-        "text": "展開"
-      },
-      "expired": "期限切れ",
-      "export": {
-        "all": "すべてエクスポート",
-        "as": "としてエクスポート",
-        "csv": "CSVとしてエクスポート",
-        "excel": "Excelとしてエクスポート",
-        "pdf": "PDFとしてエクスポート",
-        "text": "エクスポート"
-      },
-      "external": "外部",
-      "fast_forward": "早送り",
-      "favorites": "お気に入り",
-      "find": {
-        "and_replace": "検索と置換",
-        "next": "次を検索",
-        "previous": "前を検索",
-        "text": "検索"
-      },
-      "follow_us": "フォローする",
-      "frame": "フレーム",
-      "frequency": "頻度",
-      "fullscreen": "フルスクリーン",
-      "generate": "生成",
-      "go": "移動",
-      "help": "ヘルプ",
-      "hidden": "非表示",
-      "hint": "手がかり",
-      "home": "ホーム",
-      "import": {
-        "all": "すべてインポート",
-        "from": "からインポート",
-        "text": "インポート"
-      },
-      "in_progress": "進行中",
-      "inactive": "非アクティブ",
-      "incomplete": "不完全",
-      "info": "情報",
-      "inputs": "入力",
-      "install": "インストール",
-      "internal": "内部",
-      "internet_connection": "インターネット接続がありません",
-      "invalid": "無効",
-      "learn_more": "詳細を確認",
-      "loading": "読み込み中",
-      "local": "ローカル",
-      "locked": "ロックされた",
-      "loop": "ループ",
-      "majors": "成人",
-      "menu": "メニュー",
-      "method": "メソッド",
-      "minors": "未成年",
-      "missing_rights": "権限がありません",
-      "monthly": "毎月",
-      "mute": "ミュート",
-      "name": "名前",
-      "new": {
-        "bookmark": "新しいブックマーク",
-        "document": "新しいドキュメント",
-        "file": "新しいファイル",
-        "folder": "新しいフォルダー",
-        "note": "新しいノート",
-        "project": "新しいプロジェクト",
-        "tab": "新しいタブ",
-        "text": "新規",
-        "window": "新しいウィンドウ",
-        "workspace": "新しいワークスペース"
-      },
-      "next": {
-        "chapter": "次の章",
-        "page": "次のページ",
-        "text": "次へ",
-        "track": "次のトラック"
-      },
-      "no": "いいえ",
-      "no_elements": "要素なし",
-      "no_items": "アイテムなし",
-      "non_commercial": "非商業的",
-      "none": {
-        "female": "なし",
-        "male": "なし",
-        "other": "なし"
-      },
-      "offline": "オフライン",
-      "offline_mode": "オフラインモード",
-      "ok": "OK",
-      "online": "オンライン",
-      "open": {
-        "all": "すべて開く",
-        "directory": "ディレクトリを開く",
-        "file": "ファイルを開く",
-        "in_new": {
-          "tab": "新しいタブで開く",
-          "window": "新しいウィンドウで開く"
-        },
-        "text": "開く",
-        "url": "URLを開く"
-      },
-      "operation": {
-        "canceled": "操作がキャンセルされました",
-        "completed": "操作が完了しました",
-        "failed": "操作が失敗しました",
-        "in_progress": "操作中",
-        "pending": "操作待ち",
-        "started": "操作を開始しました",
-        "succeeded": "操作が成功しました",
-        "text": "操作",
-        "timed_out": "操作がタイムアウトしました"
-      },
-      "optional": "任意",
-      "panel": "パネル",
-      "paste": "ペースト",
-      "pause": "一時停止",
-      "paused": "一時停止",
-      "pending": "保留中",
-      "perform": "実行",
-      "personal": "個人",
-      "play": "再生",
-      "play_pause": "再生/一時停止",
-      "previous": {
-        "chapter": "前の章",
-        "page": "前のページ",
-        "text": "前へ",
-        "track": "前のトラック"
-      },
-      "private": "非公開",
-      "public": "公開",
-      "quantity": "数量",
-      "quarterly": "四半期ごとに",
-      "question": "質問",
-      "redo": "やり直す",
-      "refresh": "リフレッシュ",
-      "reject": "拒否",
-      "rejected": "拒否された",
-      "remote": "リモート",
-      "remove": "削除",
-      "repeat": {
-        "all": "すべてを繰り返す",
-        "none": "繰り返さない",
-        "one": "1つを繰り返す",
-        "text": "リピート"
-      },
-      "replace": {
-        "all": "すべて置換",
-        "text": "置換"
-      },
-      "replay": "リプレイ",
-      "report": {
-        "error": "エラーを報告する",
-        "text": "レポート"
-      },
-      "required": "必須",
-      "reset": "リセット",
-      "results": "結果",
-      "resumed": "再開",
-      "retry": "再試行",
-      "rewind": "巻き戻し",
-      "rights_denied": "権限拒否",
-      "rights_granted": "権限付与",
-      "save": {
-        "all": "すべて保存",
-        "and": {
-          "close": "保存して閉じる",
-          "exit": "保存して終了"
-        },
-        "as": "名前を付けて保存",
-        "text": "保存"
-      },
-      "saved": "保存済み",
-      "search": "検索",
-      "select": {
-        "all": "すべて選択",
-        "none": "選択解除",
-        "text": "選択"
-      },
-      "selection": "選択",
-      "sell": "売却",
-      "semi_annually": "半年ごとに",
-      "service_unavailable": "サービス利用不可",
-      "share": {
-        "app": "このアプリを共有",
-        "text": "共有"
-      },
-      "shuffle": "シャッフル再生",
-      "skip": {
-        "backward": "後ろへスキップ",
-        "forward": "前へスキップ",
-        "next": "次をスキップ",
-        "previous": "前をスキップ",
-        "text": "スキップ"
-      },
-      "stop": "停止",
-      "submit": "送信",
-      "success": "成功",
-      "sync": "同期",
-      "synced": "同期済み",
-      "template": "テンプレート",
-      "time": {
-        "elapsed": "経過時間",
-        "remaining": "残り時間",
-        "text": "時間"
-      },
-      "tip": "ヒント",
-      "toggle": {
-        "all": "すべて切り替え",
-        "text": "切り替え"
-      },
-      "try": {
-        "again": "再試行",
-        "later": "後で試す",
-        "text": "試す"
-      },
-      "undo": "元に戻す",
-      "uninstall": "アンインストール",
-      "unlocked": "ロック解除",
-      "unmute": "ミュート解除",
-      "unsync": "同期解除",
-      "unsynced": "非同期",
-      "update": "更新",
-      "upgrade": {
-        "now": "今すぐアップグレード",
-        "text": "アップグレード"
-      },
-      "upload": "アップロード",
-      "user_inputs": "ユーザー入力",
-      "valid": "有効",
-      "visible": "表示",
-      "volume": "音量",
-      "warning": "警告",
-      "watch": {
-        "later": "後で見る",
-        "now": "今すぐ見る",
-        "text": "見る"
-      },
-      "website": "ウェブサイト",
-      "weekly": "毎週",
-      "yearly": "毎年",
-      "yes": "はい",
-      "yesterday": "昨日",
-      "zoom": {
-        "in": "ズームイン",
-        "out": "ズームアウト",
-        "reset": "ズームリセット",
-        "text": "ズーム"
-      }
-    },
-    "message": {
-      "action": {
-        "canceled": "アクションがキャンセルされました。",
-        "completed": "アクションが完了しました。"
-      },
-      "bugs_fixes_improvements": "マイナーなバグ修正と改善。",
-      "checking_connection": "接続確認中...",
-      "congratulations": "おめでとうございます！",
-      "copied": "コピーしました！",
-      "copied_to_clipboard": "クリップボードにコピーしました！",
-      "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
-      "dark_mode_support": "ダークモードのサポート。",
-      "example": "例:",
-      "failed_to": {
-        "generate": {
-          "csv": "CSVファイルの作成中に問題が発生しました。",
-          "excel": "Excelファイルの作成中に問題が発生しました。",
-          "file": "ファイルの作成中に問題が発生しました。",
-          "pdf": "PDFファイルの作成中に問題が発生しました。",
-          "text": "テキストファイルの作成中に問題が発生しました。"
-        },
-        "load": {
-          "csv": "CSVファイルの読み込み中に問題が発生しました。",
-          "data": "データの読み込み中に問題が発生しました。",
-          "excel": "Excelファイルの読み込み中に問題が発生しました。",
-          "file": "ファイルの読み込み中に問題が発生しました。",
-          "pdf": "PDFファイルの読み込み中に問題が発生しました。",
-          "text": "テキストファイルの読み込み中に問題が発生しました。"
-        },
-        "perform": {
-          "action": "操作の実行中に問題が発生しました。"
-        },
-        "save": {
-          "csv": "CSVファイルの保存中に問題が発生しました。",
-          "data": "データの保存中に問題が発生しました。",
-          "excel": "Excelファイルの保存中に問題が発生しました。",
-          "file": "ファイルの保存中に問題が発生しました。",
-          "pdf": "PDFファイルの保存中に問題が発生しました。",
-          "text": "テキストファイルの保存中に問題が発生しました。"
-        }
-      },
-      "finally": "ついに！",
-      "generating": {
-        "csv": "CSVファイル生成中...",
-        "excel": "Excelファイル生成中...",
-        "pdf": "PDFファイル生成中...",
-        "text": "生成進行中..."
-      },
-      "have_wonderful_day": "素敵な一日を！",
-      "last_updated_on": "{date} に最終更新",
-      "let_get_started": "はじめましょう！",
-      "loading": {
-        "data": "データを読み込み中...",
-        "pdf": "PDFを読み込み中...",
-        "text": "読み込み中..."
-      },
-      "modern_design": "モダンなデザイン。",
-      "no": {
-        "results_found": "結果が見つかりませんでした。"
-      },
-      "no_favorites": "お気に入りはありません。",
-      "pdf_generated_by": "{app_name} によって生成されたPDF",
-      "performing": "実行中...",
-      "please_wait": "お待ちください...",
-      "processing": "処理中...",
-      "ready": {
-        "csv": "CSVファイル準備完了!",
-        "excel": "Excelファイル準備完了!",
-        "file": "ファイル準備完了!",
-        "pdf": "PDFファイル準備完了!",
-        "text": "準備完了!"
-      },
-      "require": {
-        "internet_connection": "インターネット接続が必要です。"
-      },
-      "saving": "保存中...",
-      "search": "検索...",
-      "searching": "検索中...",
-      "share": {
-        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
-      },
-      "sorry": "申し訳ありません...",
-      "success": "成功しました！",
-      "thank_you": "ありがとうございます！",
-      "try": {
-        "steps_back_online": "オンラインに戻るためのこれらの手順をお試しください:"
-      },
-      "warning": "警告！",
-      "welcome": "ようこそ！",
-      "whats_new": "新機能のご紹介",
-      "whoops": "おっと！"
-    },
-    "question": {
-      "are_you_sure": "本当によろしいですか？",
-      "export": {
-        "data": {
-          "as": {
-            "csv": "このデータをCSVとしてエクスポートしますか？",
-            "excel": "このデータをExcelファイルとしてエクスポートしますか？",
-            "pdf": "このデータをPDFとしてエクスポートしますか？",
-            "text": "このデータをエクスポートしますか？"
-          }
-        }
-      },
-      "generate": {
-        "data": {
-          "csv": "このデータのCSVバージョンを生成しますか？",
-          "excel": "このデータのExcelバージョンを生成しますか？",
-          "pdf": "このデータのPDFバージョンを生成しますか？"
-        }
-      }
-    },
-    "select": {
-      "country": "国を選択してください",
-      "frequency": "頻度を選択",
-      "method": "方法を選択"
-    },
-    "warning": {
-      "offline": "アプリは現在オフラインモードで動作しています。データが最新でない場合があります。"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "core": {
-    "error": {
-      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es gibt derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es später erneut.",
-      "error_occurred": {
-        "exclamation": "Ein Fehler ist aufgetreten!",
-        "please": "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
-      },
-      "invalid": {
-        "data": {
-          "period": "Ungültige Daten.",
-          "type": "Ungültiger Datentyp."
-        },
-        "file_type": "Ungültiger Dateityp."
-      },
-      "service": {
-        "unavailable": "Der Dienst ist derzeit nicht verfügbar."
-      }
-    },
-    "help": {
-      "check_your_modem_and_router": "Überprüfen Sie Ihr Modem und Ihren Router.",
-      "ensure": {
-        "app_up_to_date": "Stellen Sie sicher, dass die App auf dem neuesten Stand ist.",
-        "internet_restrictions": "Stellen Sie sicher, dass keine Firewall oder Netzwerkeinschränkungen den Zugriff auf den Dienst verhindern."
-      },
-      "issue_persist_contact_support": "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
-      "reconnect_to_your_wifi_network": "Verbinden Sie sich erneut mit Ihrem WLAN-Netzwerk.",
-      "restart_device_check_connection": "Starten Sie Ihr Gerät neu und überprüfen Sie Ihre Internetverbindung.",
-      "service": {
-        "not_available_current_location": "Der Dienst ist möglicherweise an Ihrem aktuellen Standort nicht verfügbar.",
-        "not_operational": "Der Dienst ist möglicherweise derzeit nicht in Betrieb. Bitte überprüfen Sie seinen Status oder versuchen Sie es später erneut."
-      },
-      "several_reasons": "Es könnte mehrere Gründe geben:"
-    },
-    "label": {
-      "accept": "Akzeptieren",
-      "accepted": "Akzeptiert",
-      "active": "Aktiv",
-      "add": "Hinzufügen",
-      "advanced": "Erweitert",
-      "all": {
-        "female": "Alle",
-        "male": "Alle",
-        "other": "Alle"
-      },
-      "annually": "Jährlich",
-      "approve": "Genehmigen",
-      "approved": "Genehmigt",
-      "at": "Bei",
-      "auto_save": "Automatisch speichern",
-      "back": "Zurück",
-      "badge": "Abzeichen",
-      "behavior": "Verhalten",
-      "button": "Knopf",
-      "buy": "Kaufen",
-      "cancel": "Abbrechen",
-      "canceled": "Abgebrochen",
-      "clear": {
-        "selection": "Auswahl löschen",
-        "text": "Löschen"
-      },
-      "close": {
-        "all": "Alle schließen",
-        "others": "Andere schließen",
-        "tab": "Tab schließen",
-        "text": "Schließen",
-        "window": "Fenster schließen"
-      },
-      "collapse": {
-        "all": "Alle zusammenklappen",
-        "text": "Zusammenklappen"
-      },
-      "commercial": "Kommerziell",
-      "complete": "Vollständig",
-      "completed": "Abgeschlossen",
-      "confirm": "Bestätigen",
-      "confirmation": "Bestätigung",
-      "connected": "Verbunden",
-      "contact": {
-        "support": "Support kontaktieren",
-        "us": "Kontaktieren sie uns"
-      },
-      "continue": "Weiter",
-      "copy": "Kopieren",
-      "country": "Land",
-      "cut": "Ausschneiden",
-      "daily": "Täglich",
-      "date": "Datum",
-      "default": {
-        "text": "Standard",
-        "values": "Standardwerte"
-      },
-      "delete": "Löschen",
-      "description": "Beschreibung",
-      "details": "Details",
-      "disabled": "Deaktiviert",
-      "disapprove": "Missbilligen",
-      "disapproved": "Missbilligt",
-      "disconnected": "Getrennt",
-      "display": "Anzeige",
-      "done": "Fertig",
-      "download": "Herunterladen",
-      "edit": "Bearbeiten",
-      "enabled": "Aktiviert",
-      "enter": {
-        "fullscreen": "Vollbildmodus betreten",
-        "pip": "Bild-in-bild betreten",
-        "text": "Betreten"
-      },
-      "entries": "Eingänge",
-      "entry": "Eingang",
-      "error": "Fehler",
-      "example": "Beispiel",
-      "exit": {
-        "fullscreen": "Vollbild beenden",
-        "pip": "Bild-in-bild beenden",
-        "text": "Beenden"
-      },
-      "exotics": "Exotische",
-      "expand": {
-        "all": "Alle erweitern",
-        "text": "Erweitern"
-      },
-      "expired": "Abgelaufen",
-      "export": {
-        "all": "Alle exportieren",
-        "as": "Exportieren als",
-        "csv": "Als CSV exportieren",
-        "excel": "Als Excel exportieren",
-        "pdf": "Als PDF exportieren",
-        "text": "Exportieren"
-      },
-      "external": "Extern",
-      "fast_forward": "Vorwärts spulen",
-      "favorites": "Favoriten",
-      "find": {
-        "and_replace": "Suchen und ersetzen",
-        "next": "Nächste suchen",
-        "previous": "Vorherige suchen",
-        "text": "Suchen"
-      },
-      "follow_us": "Folgen sie uns",
-      "frame": "Rahmen",
-      "frequency": "Häufigkeit",
-      "fullscreen": "Vollbild",
-      "generate": "Generieren",
-      "go": "Gehe zu",
-      "help": "Hilfe",
-      "hidden": "Versteckt",
-      "hint": "Hinweis",
-      "home": "Startseite",
-      "import": {
-        "all": "Alle importieren",
-        "from": "Importieren von",
-        "text": "Importieren"
-      },
-      "in_progress": "In bearbeitung",
-      "inactive": "Inaktiv",
-      "incomplete": "Unvollständig",
-      "info": "Info",
-      "inputs": "Eingaben",
-      "install": "Installieren",
-      "internal": "Intern",
-      "internet_connection": "Keine internetverbindung",
-      "invalid": "Ungültig",
-      "learn_more": "Weitere informationen",
-      "loading": "Wird geladen",
-      "local": "Lokal",
-      "locked": "Gesperrt",
-      "loop": "Schleife",
-      "majors": "Volljährige",
-      "menu": "Menü",
-      "method": "Methode",
-      "minors": "Minderjährige",
-      "missing_rights": "Fehlende rechte",
-      "monthly": "Monatlich",
-      "mute": "Stumm",
-      "name": "Name",
-      "new": {
-        "bookmark": "Neues lesezeichen",
-        "document": "Neues dokument",
-        "file": "Neue datei",
-        "folder": "Neuer ordner",
-        "note": "Neue notiz",
-        "project": "Neues projekt",
-        "tab": "Neuer tab",
-        "text": "Neu",
-        "window": "Neues fenster",
-        "workspace": "Neuer arbeitsbereich"
-      },
-      "next": {
-        "chapter": "Nächstes kapitel",
-        "page": "Nächste seite",
-        "text": "Nächste",
-        "track": "Nächster titel"
-      },
-      "no": "Nein",
-      "no_elements": "Keine elemente",
-      "no_items": "Keine artikel",
-      "non_commercial": "Nicht-kommerziell",
-      "none": {
-        "female": "Keine",
-        "male": "Keine",
-        "other": "Keine"
-      },
-      "offline": "Offline",
-      "offline_mode": "Offline-modus",
-      "ok": "OK",
-      "online": "Online",
-      "open": {
-        "all": "Alle öffnen",
-        "directory": "Verzeichnis öffnen",
-        "file": "Datei öffnen",
-        "in_new": {
-          "tab": "In neuem tab öffnen",
-          "window": "In neuem fenster öffnen"
-        },
-        "text": "Öffnen",
-        "url": "URL öffnen"
-      },
-      "operation": {
-        "canceled": "Vorgang abgebrochen",
-        "completed": "Vorgang abgeschlossen",
-        "failed": "Vorgang fehlgeschlagen",
-        "in_progress": "Vorgang in bearbeitung",
-        "pending": "Vorgang ausstehend",
-        "started": "Vorgang gestartet",
-        "succeeded": "Vorgang erfolgreich",
-        "text": "Vorgang",
-        "timed_out": "Vorgang abgelaufen"
-      },
-      "optional": "Optional",
-      "panel": "Panel",
-      "paste": "Einfügen",
-      "pause": "Pause",
-      "paused": "Pausiert",
-      "pending": "Ausstehend",
-      "perform": "Ausführen",
-      "personal": "Persönlich",
-      "play": "Wiedergabe",
-      "play_pause": "Wiedergabe/Pause",
-      "previous": {
-        "chapter": "Vorheriges kapitel",
-        "page": "Vorherige seite",
-        "text": "Vorherige",
-        "track": "Vorheriger titel"
-      },
-      "private": "Privat",
-      "public": "Öffentlich",
-      "quantity": "Menge",
-      "quarterly": "Vierteljährlich",
-      "question": "Frage",
-      "redo": "Wiederholen",
-      "refresh": "Aktualisieren",
-      "reject": "Ablehnen",
-      "rejected": "Abgelehnt",
-      "remote": "Fern",
-      "remove": "Entfernen",
-      "repeat": {
-        "all": "Alle wiederholen",
-        "none": "Keine wiederholung",
-        "one": "Einzelnes wiederholen",
-        "text": "Wiederholung"
-      },
-      "replace": {
-        "all": "Alle ersetzen",
-        "text": "Ersetzen"
-      },
-      "replay": "Erneut abspielen",
-      "report": {
-        "error": "Fehler melden",
-        "text": "Bericht"
-      },
-      "required": "Erforderlich",
-      "reset": "Zurücksetzen",
-      "results": "Ergebnisse",
-      "resumed": "Fortgesetzt",
-      "retry": "Erneut versuchen",
-      "rewind": "Zurückspulen",
-      "rights_denied": "Rechte verweigert",
-      "rights_granted": "Rechte gewährt",
-      "save": {
-        "all": "Alle speichern",
-        "and": {
-          "close": "Speichern und schließen",
-          "exit": "Speichern und beenden"
-        },
-        "as": "Speichern als",
-        "text": "Speichern"
-      },
-      "saved": "Gespeichert",
-      "search": "Suche",
-      "select": {
-        "all": "Alle auswählen",
-        "none": "Keine auswählen",
-        "text": "Auswählen"
-      },
-      "selection": "Auswahl",
-      "sell": "Verkaufen",
-      "semi_annually": "Halbjährlich",
-      "service_unavailable": "Dienst nicht verfügbar",
-      "share": {
-        "app": "Diese app teilen",
-        "text": "Teilen"
-      },
-      "shuffle": "Zufällige wiedergabe",
-      "skip": {
-        "backward": "Rückwärts überspringen",
-        "forward": "Vorwärts überspringen",
-        "next": "Nächster überspringen",
-        "previous": "Vorheriger überspringen",
-        "text": "Überspringen"
-      },
-      "stop": "Stop",
-      "submit": "Senden",
-      "success": "Erfolg",
-      "sync": "Synchronisieren",
-      "synced": "Synchronisiert",
-      "template": "Vorlage",
-      "time": {
-        "elapsed": "Verstrichene zeit",
-        "remaining": "Verbleibende zeit",
-        "text": "Zeit"
-      },
-      "tip": "Tipp",
-      "toggle": {
-        "all": "Alle umschalten",
-        "text": "Umschalten"
-      },
-      "try": {
-        "again": "Erneut versuchen",
-        "later": "Später versuchen",
-        "text": "Versuchen"
-      },
-      "undo": "Rückgängig machen",
-      "uninstall": "Deinstallieren",
-      "unlocked": "Entsperrt",
-      "unmute": "Ton an",
-      "unsync": "Desynchronisieren",
-      "unsynced": "Nicht synchronisiert",
-      "update": "Aktualisieren",
-      "upgrade": {
-        "now": "Jetzt aktualisieren",
-        "text": "Aktualisieren"
-      },
-      "upload": "Hochladen",
-      "user_inputs": "Benutzereingaben",
-      "valid": "Gültig",
-      "visible": "Sichtbar",
-      "volume": "Lautstärke",
-      "warning": "Warnung",
-      "watch": {
-        "later": "Später ansehen",
-        "now": "Jetzt ansehen",
-        "text": "Ansehen"
-      },
-      "website": "Webseite",
-      "weekly": "Wöchentlich",
-      "yearly": "Jährlich",
-      "yes": "Ja",
-      "yesterday": "Gestern",
-      "zoom": {
-        "in": "Hineinzoomen",
-        "out": "Herauszoomen",
-        "reset": "Zoom zurücksetzen",
-        "text": "Zoom"
-      }
-    },
-    "message": {
-      "action": {
-        "canceled": "Aktion abgebrochen.",
-        "completed": "Aktion abgeschlossen."
-      },
-      "bugs_fixes_improvements": "Kleinere Fehlerbehebungen und Verbesserungen.",
-      "checking_connection": "Verbindungsprüfung...",
-      "congratulations": "Herzlichen Glückwunsch!",
-      "copied": "Kopiert!",
-      "copied_to_clipboard": "In die Zwischenablage kopiert!",
-      "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
-      "dark_mode_support": "Unterstützung für den Dunkelmodus.",
-      "example": "Beispiel:",
-      "failed_to": {
-        "generate": {
-          "csv": "Beim Erstellen der CSV-Datei ist ein Problem aufgetreten.",
-          "excel": "Beim Erstellen der Excel-Datei ist ein Problem aufgetreten.",
-          "file": "Beim Erstellen der Datei ist ein Problem aufgetreten.",
-          "pdf": "Beim Erstellen der PDF-Datei ist ein Problem aufgetreten.",
-          "text": "Beim Erstellen der Textdatei ist ein Problem aufgetreten."
-        },
-        "load": {
-          "csv": "Beim Laden der CSV-Datei ist ein Problem aufgetreten.",
-          "data": "Beim Laden der Daten ist ein Problem aufgetreten.",
-          "excel": "Beim Laden der Excel-Datei ist ein Problem aufgetreten.",
-          "file": "Beim Laden der Datei ist ein Problem aufgetreten.",
-          "pdf": "Beim Laden der PDF-Datei ist ein Problem aufgetreten.",
-          "text": "Beim Laden der Textdatei ist ein Problem aufgetreten."
-        },
-        "perform": {
-          "action": "Beim Durchführen der Aktion ist ein Problem aufgetreten."
-        },
-        "save": {
-          "csv": "Beim Speichern der CSV-Datei ist ein Problem aufgetreten.",
-          "data": "Beim Speichern der Daten ist ein Problem aufgetreten.",
-          "excel": "Beim Speichern der Excel-Datei ist ein Problem aufgetreten.",
-          "file": "Beim Speichern der Datei ist ein Problem aufgetreten.",
-          "pdf": "Beim Speichern der PDF-Datei ist ein Problem aufgetreten.",
-          "text": "Beim Speichern der Textdatei ist ein Problem aufgetreten."
-        }
-      },
-      "finally": "Endlich!",
-      "generating": {
-        "csv": "CSV-Datei wird erstellt...",
-        "excel": "Excel-Datei wird erstellt...",
-        "pdf": "PDF-Datei wird erstellt...",
-        "text": "Erstellung läuft..."
-      },
-      "have_wonderful_day": "Einen wundervollen Tag!",
-      "last_updated_on": "Zuletzt aktualisiert am {date}",
-      "let_get_started": "Lassen Sie uns beginnen!",
-      "loading": {
-        "data": "Daten werden geladen...",
-        "pdf": "PDF wird geladen...",
-        "text": "Wird geladen..."
-      },
-      "modern_design": "Modernes Design.",
-      "no": {
-        "results_found": "Keine Ergebnisse gefunden."
-      },
-      "no_favorites": "Keine Favoriten.",
-      "pdf_generated_by": "PDF generiert von {app_name}",
-      "performing": "Wird durchgeführt...",
-      "please_wait": "Bitte warten...",
-      "processing": "Wird verarbeitet...",
-      "ready": {
-        "csv": "CSV-Datei fertig!",
-        "excel": "Excel-Datei fertig!",
-        "file": "Datei fertig!",
-        "pdf": "PDF-Datei fertig!",
-        "text": "Fertig!"
-      },
-      "require": {
-        "internet_connection": "Eine Internetverbindung wird benötigt."
-      },
-      "saving": "Speichern...",
-      "search": "Suche...",
-      "searching": "Suche läuft...",
-      "share": {
-        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
-      },
-      "sorry": "Entschuldigung...",
-      "success": "Erfolg!",
-      "thank_you": "Vielen Dank!",
-      "try": {
-        "steps_back_online": "Versuchen Sie diese Schritte, um wieder online zu gehen:"
-      },
-      "warning": "Achtung!",
-      "welcome": "Willkommen!",
-      "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!"
-    },
-    "question": {
-      "are_you_sure": "Sind Sie sicher?",
-      "export": {
-        "data": {
-          "as": {
-            "csv": "Möchten Sie diese Daten als CSV exportieren?",
-            "excel": "Möchten Sie diese Daten als Excel-Datei exportieren?",
-            "pdf": "Möchten Sie diese Daten als PDF exportieren?",
-            "text": "Möchten Sie diese Daten exportieren?"
-          }
-        }
-      },
-      "generate": {
-        "data": {
-          "csv": "Möchten Sie eine CSV-Version dieser Daten erstellen?",
-          "excel": "Möchten Sie eine Excel-Version dieser Daten erstellen?",
-          "pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
-        }
-      }
-    },
-    "select": {
-      "country": "Wählen Sie ein Land",
-      "frequency": "Wählen Sie eine Häufigkeit",
-      "method": "Wählen Sie eine Methode"
-    },
-    "warning": {
-      "offline": "Die Anwendung arbeitet derzeit im Offline-Modus. Die Daten sind möglicherweise nicht auf dem neuesten Stand."
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "core": {
-    "error": {
-      "cannot_reach_server": "Приносим извинения за неудобства, но в настоящее время возникли проблемы с соединением с сервером. Пожалуйста, попробуйте позже.",
-      "error_occurred": {
-        "exclamation": "Произошла ошибка!",
-        "please": "Приносим извинения, произошла ошибка. Пожалуйста, попробуйте позже."
-      },
-      "invalid": {
-        "data": {
-          "period": "Неверные данные.",
-          "type": "Неверный тип данных."
-        },
-        "file_type": "Неверный тип файла."
-      },
-      "service": {
-        "unavailable": "Сервис в настоящее время недоступен."
-      }
-    },
-    "help": {
-      "check_your_modem_and_router": "Проверьте ваш модем и маршрутизатор.",
-      "ensure": {
-        "app_up_to_date": "Убедитесь, что приложение обновлено до последней версии.",
-        "internet_restrictions": "Убедитесь, что нет ограничений сетевого экрана или сетевых ограничений, блокирующих доступ к сервису."
-      },
-      "issue_persist_contact_support": "Если проблема не исчезает, обратитесь в службу поддержки.",
-      "reconnect_to_your_wifi_network": "Подключитесь заново к вашей Wi-Fi сети.",
-      "restart_device_check_connection": "Перезагрузите ваше устройство и проверьте интернет-соединение.",
-      "service": {
-        "not_available_current_location": "Услуга может быть недоступна в вашем текущем местоположении.",
-        "not_operational": "Услуга может быть не в рабочем состоянии в данный момент. Пожалуйста, проверьте ее статус или попробуйте получить доступ к ней позже."
-      },
-      "several_reasons": "Причин может быть несколько:"
-    },
-    "label": {
-      "accept": "Принять",
-      "accepted": "Принято",
-      "active": "Активный",
-      "add": "Добавить",
-      "advanced": "Расширенные",
-      "all": {
-        "female": "Все",
-        "male": "Все",
-        "other": "Все"
-      },
-      "annually": "Ежегодно",
-      "approve": "Одобрить",
-      "approved": "Одобрено",
-      "at": "В",
-      "auto_save": "Автосохранение",
-      "back": "Назад",
-      "badge": "Значок",
-      "behavior": "Поведение",
-      "button": "Кнопка",
-      "buy": "Купить",
-      "cancel": "Отмена",
-      "canceled": "Отменено",
-      "clear": {
-        "selection": "Очистить выбор",
-        "text": "Очистить"
-      },
-      "close": {
-        "all": "Закрыть все",
-        "others": "Закрыть другие",
-        "tab": "Закрыть вкладку",
-        "text": "Закрыть",
-        "window": "Закрыть окно"
-      },
-      "collapse": {
-        "all": "Свернуть все",
-        "text": "Свернуть"
-      },
-      "commercial": "Коммерческий",
-      "complete": "Завершено",
-      "completed": "Выполнено",
-      "confirm": "Подтвердить",
-      "confirmation": "Подтверждение",
-      "connected": "Подключено",
-      "contact": {
-        "support": "Связаться со службой поддержки",
-        "us": "Свяжитесь с нами"
-      },
-      "continue": "Продолжить",
-      "copy": "Копировать",
-      "country": "Страна",
-      "cut": "Вырезать",
-      "daily": "Ежедневно",
-      "date": "Дата",
-      "default": {
-        "text": "По умолчанию",
-        "values": "Значения по умолчанию"
-      },
-      "delete": "Удалить",
-      "description": "Описание",
-      "details": "Детали",
-      "disabled": "Выключено",
-      "disapprove": "Отклонить",
-      "disapproved": "Не одобрено",
-      "disconnected": "Отключено",
-      "display": "Отображение",
-      "done": "Готово",
-      "download": "Скачать",
-      "edit": "Редактировать",
-      "enabled": "Включено",
-      "enter": {
-        "fullscreen": "Войти в полноэкранный режим",
-        "pip": "Войти в режим picture-in-picture",
-        "text": "Войти"
-      },
-      "entries": "Входы",
-      "entry": "Вход",
-      "error": "Ошибка",
-      "example": "Пример",
-      "exit": {
-        "fullscreen": "Выйти из полноэкранного режима",
-        "pip": "Выйти из режима picture-in-picture",
-        "text": "Выйти"
-      },
-      "exotics": "Экзотические",
-      "expand": {
-        "all": "Развернуть все",
-        "text": "Развернуть"
-      },
-      "expired": "Истекло",
-      "export": {
-        "all": "Экспортировать все",
-        "as": "Экспортировать как",
-        "csv": "Экспортировать как CSV",
-        "excel": "Экспортировать как Excel",
-        "pdf": "Экспортировать как PDF",
-        "text": "Экспорт"
-      },
-      "external": "Внешний",
-      "fast_forward": "Перемотка вперед",
-      "favorites": "Избранное",
-      "find": {
-        "and_replace": "Найти и заменить",
-        "next": "Найти далее",
-        "previous": "Найти ранее",
-        "text": "Найти"
-      },
-      "follow_us": "Подписывайтесь на нас",
-      "frame": "Кадр",
-      "frequency": "Частота",
-      "fullscreen": "На весь экран",
-      "generate": "Генерировать",
-      "go": "Перейти",
-      "help": "Помощь",
-      "hidden": "Скрыто",
-      "hint": "Подсказка",
-      "home": "Главная",
-      "import": {
-        "all": "Импортировать все",
-        "from": "Импортировать из",
-        "text": "Импорт"
-      },
-      "in_progress": "В процессе",
-      "inactive": "Неактивный",
-      "incomplete": "Незавершенный",
-      "info": "Информация",
-      "inputs": "Ввод",
-      "install": "Установить",
-      "internal": "Внутренний",
-      "internet_connection": "Нет интернет-соединения",
-      "invalid": "Недействительно",
-      "learn_more": "Узнать больше",
-      "loading": "Загрузка",
-      "local": "Локальный",
-      "locked": "Заблокировано",
-      "loop": "Зациклить",
-      "majors": "Совершеннолетние",
-      "menu": "Меню",
-      "method": "Метод",
-      "minors": "Несовершеннолетние",
-      "missing_rights": "Отсутствуют права",
-      "monthly": "Ежемесячно",
-      "mute": "Выключить звук",
-      "name": "Имя",
-      "new": {
-        "bookmark": "Новая закладка",
-        "document": "Новый документ",
-        "file": "Новый файл",
-        "folder": "Новая папка",
-        "note": "Новая заметка",
-        "project": "Новый проект",
-        "tab": "Новая вкладка",
-        "text": "Новый",
-        "window": "Новое окно",
-        "workspace": "Новое рабочее пространство"
-      },
-      "next": {
-        "chapter": "Следующая глава",
-        "page": "Следующая страница",
-        "text": "Следующее",
-        "track": "Следующий трек"
-      },
-      "no": "Нет",
-      "no_elements": "Нет элементов",
-      "no_items": "Нет товаров",
-      "non_commercial": "Некоммерческий",
-      "none": {
-        "female": "Нет",
-        "male": "Нет",
-        "other": "Нет"
-      },
-      "offline": "Оффлайн",
-      "offline_mode": "Режим офлайн",
-      "ok": "OK",
-      "online": "Онлайн",
-      "open": {
-        "all": "Открыть все",
-        "directory": "Открыть каталог",
-        "file": "Открыть файл",
-        "in_new": {
-          "tab": "Открыть в новой вкладке",
-          "window": "Открыть в новом окне"
-        },
-        "text": "Открыть",
-        "url": "Открыть URL"
-      },
-      "operation": {
-        "canceled": "Операция отменена",
-        "completed": "Операция завершена",
-        "failed": "Операция не удалась",
-        "in_progress": "Операция в процессе",
-        "pending": "Операция ожидает",
-        "started": "Операция началась",
-        "succeeded": "Операция успешно завершена",
-        "text": "Операция",
-        "timed_out": "Время операции истекло"
-      },
-      "optional": "Необязательно",
-      "panel": "Панель",
-      "paste": "Вставить",
-      "pause": "Пауза",
-      "paused": "Приостановлено",
-      "pending": "Ожидание",
-      "perform": "Выполнить",
-      "personal": "Личный",
-      "play": "Воспроизвести",
-      "play_pause": "Воспроизведение/Пауза",
-      "previous": {
-        "chapter": "Предыдущая глава",
-        "page": "Предыдущая страница",
-        "text": "Предыдущее",
-        "track": "Предыдущий трек"
-      },
-      "private": "Частный",
-      "public": "Публичный",
-      "quantity": "Количество",
-      "quarterly": "Ежеквартально",
-      "question": "Вопрос",
-      "redo": "Повторить действие",
-      "refresh": "Обновить",
-      "reject": "Отклонить",
-      "rejected": "Отклонено",
-      "remote": "Удаленный",
-      "remove": "Удалить",
-      "repeat": {
-        "all": "Повторить все",
-        "none": "Не повторять",
-        "one": "Повторить один раз",
-        "text": "Повторение"
-      },
-      "replace": {
-        "all": "Заменить все",
-        "text": "Заменить"
-      },
-      "replay": "Повторить",
-      "report": {
-        "error": "Сообщить об ошибке",
-        "text": "Отчет"
-      },
-      "required": "Обязательно",
-      "reset": "Сбросить",
-      "results": "Результаты",
-      "resumed": "Возобновлено",
-      "retry": "Повторить",
-      "rewind": "Перемотка назад",
-      "rights_denied": "Права отказаны",
-      "rights_granted": "Права предоставлены",
-      "save": {
-        "all": "Сохранить все",
-        "and": {
-          "close": "Сохранить и закрыть",
-          "exit": "Сохранить и выйти"
-        },
-        "as": "Сохранить как",
-        "text": "Сохранить"
-      },
-      "saved": "Сохранено",
-      "search": "Поиск",
-      "select": {
-        "all": "Выбрать все",
-        "none": "Отменить выбор",
-        "text": "Выбрать"
-      },
-      "selection": "Выбор",
-      "sell": "Продать",
-      "semi_annually": "Полугодовой",
-      "service_unavailable": "Сервис недоступен",
-      "share": {
-        "app": "Поделиться этим приложением",
-        "text": "Поделиться"
-      },
-      "shuffle": "Случайный порядок",
-      "skip": {
-        "backward": "Пропустить назад",
-        "forward": "Пропустить вперед",
-        "next": "Пропустить следующее",
-        "previous": "Пропустить предыдущее",
-        "text": "Пропуск"
-      },
-      "stop": "Стоп",
-      "submit": "Отправить",
-      "success": "Успех",
-      "sync": "Синхронизировать",
-      "synced": "Синхронизировано",
-      "template": "Шаблон",
-      "time": {
-        "elapsed": "Прошло времени",
-        "remaining": "Оставшееся время",
-        "text": "Время"
-      },
-      "tip": "Совет",
-      "toggle": {
-        "all": "Переключить все",
-        "text": "Переключить"
-      },
-      "try": {
-        "again": "Попробовать снова",
-        "later": "Попробовать позже",
-        "text": "Попробовать"
-      },
-      "undo": "Отменить действие",
-      "uninstall": "Удалить",
-      "unlocked": "Разблокировано",
-      "unmute": "Включить звук",
-      "unsync": "Отменить синхронизацию",
-      "unsynced": "Не синхронизировано",
-      "update": "Обновить",
-      "upgrade": {
-        "now": "Обновить сейчас",
-        "text": "Обновить"
-      },
-      "upload": "Загрузить",
-      "user_inputs": "Ввод пользователя",
-      "valid": "Действительный",
-      "visible": "Видимый",
-      "volume": "Громкость",
-      "warning": "Предупреждение",
-      "watch": {
-        "later": "Смотреть позже",
-        "now": "Смотреть сейчас",
-        "text": "Смотреть"
-      },
-      "website": "Веб-сайт",
-      "weekly": "Еженедельно",
-      "yearly": "Ежегодно",
-      "yes": "Да",
-      "yesterday": "Вчера",
-      "zoom": {
-        "in": "Приблизить",
-        "out": "Отдалить",
-        "reset": "Сбросить масштаб",
-        "text": "Масштаб"
-      }
-    },
-    "message": {
-      "action": {
-        "canceled": "Действие отменено.",
-        "completed": "Действие завершено."
-      },
-      "bugs_fixes_improvements": "Исправления небольших ошибок и улучшения.",
-      "checking_connection": "Проверка соединения...",
-      "congratulations": "Поздравляем!",
-      "copied": "Скопировано!",
-      "copied_to_clipboard": "Скопировано в буфер обмена!",
-      "copied_value_to_clipboard": "Скопировано {value} в буфер обмена!",
-      "dark_mode_support": "Поддержка темного режима.",
-      "example": "Пример:",
-      "failed_to": {
-        "generate": {
-          "csv": "При создании файла CSV возникла проблема.",
-          "excel": "При создании файла Excel возникла проблема.",
-          "file": "При создании файла возникла проблема.",
-          "pdf": "При создании PDF-файла возникла проблема.",
-          "text": "При создании текстового файла возникла проблема."
-        },
-        "load": {
-          "csv": "При загрузке файла CSV возникла проблема.",
-          "data": "При загрузке данных возникла проблема.",
-          "excel": "При загрузке файла Excel возникла проблема.",
-          "file": "При загрузке файла возникла проблема.",
-          "pdf": "При загрузке PDF-файла возникла проблема.",
-          "text": "При загрузке текстового файла возникла проблема."
-        },
-        "perform": {
-          "action": "При выполнении действия возникла проблема."
-        },
-        "save": {
-          "csv": "При сохранении файла CSV возникла проблема.",
-          "data": "При сохранении данных возникла проблема.",
-          "excel": "При сохранении файла Excel возникла проблема.",
-          "file": "При сохранении файла возникла проблема.",
-          "pdf": "При сохранении PDF-файла возникла проблема.",
-          "text": "При сохранении текстового файла возникла проблема."
-        }
-      },
-      "finally": "Наконец-то!",
-      "generating": {
-        "csv": "Создание файла CSV...",
-        "excel": "Создание файла Excel...",
-        "pdf": "Создание файла PDF...",
-        "text": "Создание в процессе..."
-      },
-      "have_wonderful_day": "Хорошего дня!",
-      "last_updated_on": "Последнее обновление {date}",
-      "let_get_started": "Начнем!",
-      "loading": {
-        "data": "Загрузка данных...",
-        "pdf": "Загрузка PDF...",
-        "text": "Загрузка..."
-      },
-      "modern_design": "Современный дизайн.",
-      "no": {
-        "results_found": "Результаты не найдены."
-      },
-      "no_favorites": "Нет избранных.",
-      "pdf_generated_by": "PDF сгенерировано с помощью {app_name}",
-      "performing": "Выполнение...",
-      "please_wait": "Пожалуйста, подождите...",
-      "processing": "Обработка...",
-      "ready": {
-        "csv": "Файл CSV готов!",
-        "excel": "Файл Excel готов!",
-        "file": "Файл готов!",
-        "pdf": "Файл PDF готов!",
-        "text": "Готово!"
-      },
-      "require": {
-        "internet_connection": "Требуется интернет-соединение."
-      },
-      "saving": "Сохранение...",
-      "search": "Поиск...",
-      "searching": "Поиск...",
-      "share": {
-        "invite": "Привет! Я обнаружил удивительное приложение, которое сделает твою жизнь проще. Проверь его!"
-      },
-      "sorry": "Извините...",
-      "success": "Успешно!",
-      "thank_you": "Спасибо!",
-      "try": {
-        "steps_back_online": "Попробуйте следующие шаги, чтобы вернуться онлайн:"
-      },
-      "warning": "Предупреждение!",
-      "welcome": "Добро пожаловать!",
-      "whats_new": "Что нового?",
-      "whoops": "Упс!"
-    },
-    "question": {
-      "are_you_sure": "Вы уверены?",
-      "export": {
-        "data": {
-          "as": {
-            "csv": "Хотите экспортировать эти данные в формате CSV?",
-            "excel": "Хотите экспортировать эти данные в файл Excel?",
-            "pdf": "Хотите экспортировать эти данные в формате PDF?",
-            "text": "Хотите экспортировать эти данные?"
-          }
-        }
-      },
-      "generate": {
-        "data": {
-          "csv": "Хотите создать CSV-версию этих данных?",
-          "excel": "Хотите создать версию Excel этих данных?",
-          "pdf": "Хотите создать PDF-версию этих данных?"
-        }
-      }
-    },
-    "select": {
-      "country": "Выберите страну",
-      "frequency": "Выберите частоту",
-      "method": "Выберите метод"
-    },
-    "warning": {
-      "offline": "Приложение в настоящее время работает в автономном режиме, что означает, что данные могут быть неактуальны."
-    }
-  }
-};
-static const Map<String,dynamic> pt = {
+  static const Map<String,dynamic> pt = {
   "core": {
     "error": {
       "cannot_reach_server": "Pedimos desculpa pelo incómodo, mas de momento há um problema de ligação com o servidor. Por favor, tente novamente mais tarde.",
@@ -2458,6 +498,496 @@ static const Map<String,dynamic> pt = {
     },
     "warning": {
       "offline": "O aplicativo está atualmente operando no modo offline, o que significa que os dados podem não estar atualizados."
+    }
+  }
+};
+static const Map<String,dynamic> it = {
+  "core": {
+    "error": {
+      "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Si prega di riprovare più tardi.",
+      "error_occurred": {
+        "exclamation": "Si è verificato un errore!",
+        "please": "Ci scusiamo, si è verificato un errore. Si prega di riprovare più tardi."
+      },
+      "invalid": {
+        "data": {
+          "period": "Dati non validi.",
+          "type": "Tipo di dati non valido."
+        },
+        "file_type": "Tipo di file non valido."
+      },
+      "service": {
+        "unavailable": "Il servizio non è attualmente disponibile."
+      }
+    },
+    "help": {
+      "check_your_modem_and_router": "Controlla il tuo modem e router.",
+      "ensure": {
+        "app_up_to_date": "Assicurati che l'app sia aggiornata.",
+        "internet_restrictions": "Assicurati che nessun firewall o restrizioni di rete impediscono l'accesso al servizio."
+      },
+      "issue_persist_contact_support": "Se il problema persiste, si prega di contattare il nostro team di supporto.",
+      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi.",
+      "restart_device_check_connection": "Riavvia il tuo dispositivo e controlla la tua connessione internet.",
+      "service": {
+        "not_available_current_location": "Il servizio potrebbe non essere disponibile nella tua attuale posizione.",
+        "not_operational": "Il servizio potrebbe non essere operativo in questo momento. Si prega di verificarne lo stato o di tentare di accedervi più tardi."
+      },
+      "several_reasons": "Ci potrebbero essere diverse ragioni:"
+    },
+    "label": {
+      "accept": "Accetta",
+      "accepted": "Accettato",
+      "active": "Attivo",
+      "add": "Aggiungere",
+      "advanced": "Avanzate",
+      "all": {
+        "female": "Tutte",
+        "male": "Tutti",
+        "other": "Tutti"
+      },
+      "annually": "Annualmente",
+      "approve": "Approva",
+      "approved": "Approvato",
+      "at": "A",
+      "auto_save": "Salvataggio automatico",
+      "back": "Indietro",
+      "badge": "Distintivo",
+      "behavior": "Comportamento",
+      "button": "Pulsante",
+      "buy": "Acquistare",
+      "cancel": "Annulla",
+      "canceled": "Annullato",
+      "clear": {
+        "selection": "Cancella selezione",
+        "text": "Cancella"
+      },
+      "close": {
+        "all": "Chiudi tutto",
+        "others": "Chiudi altri",
+        "tab": "Chiudi scheda",
+        "text": "Chiudi",
+        "window": "Chiudi finestra"
+      },
+      "collapse": {
+        "all": "Comprimi tutto",
+        "text": "Comprimi"
+      },
+      "commercial": "Commerciale",
+      "complete": "Completo",
+      "completed": "Completato",
+      "confirm": "Conferma",
+      "confirmation": "Conferma",
+      "connected": "Connesso",
+      "contact": {
+        "support": "Contatta il supporto",
+        "us": "Contattaci"
+      },
+      "continue": "Continua",
+      "copy": "Copia",
+      "country": "Paese",
+      "cut": "Taglia",
+      "daily": "Giornalmente",
+      "date": "Data",
+      "default": {
+        "text": "Predefinito",
+        "values": "Valori predefiniti"
+      },
+      "delete": "Elimina",
+      "description": "Descrizione",
+      "details": "Dettagli",
+      "disabled": "Disabilitato",
+      "disapprove": "Disapprova",
+      "disapproved": "Disapprovato",
+      "disconnected": "Disconnesso",
+      "display": "Visualizza",
+      "done": "Fatto",
+      "download": "Scarica",
+      "edit": "Modificare",
+      "enabled": "Abilitato",
+      "enter": {
+        "fullscreen": "Entra in modalità schermo intero",
+        "pip": "Entra in modalità immagine in immagine",
+        "text": "Entra"
+      },
+      "entries": "Ingressi",
+      "entry": "Ingresso",
+      "error": "Errore",
+      "example": "Esempio",
+      "exit": {
+        "fullscreen": "Esci dallo schermo intero",
+        "pip": "Esci dall'immagine in immagine",
+        "text": "Esci"
+      },
+      "exotics": "Esotiche",
+      "expand": {
+        "all": "Espandi tutto",
+        "text": "Espandi"
+      },
+      "expired": "Scaduto",
+      "export": {
+        "all": "Esporta tutto",
+        "as": "Esporta come",
+        "csv": "Esporta come CSV",
+        "excel": "Esporta come Excel",
+        "pdf": "Esporta come PDF",
+        "text": "Esporta"
+      },
+      "external": "Esterno",
+      "fast_forward": "Avanzamento rapido",
+      "favorites": "Preferiti",
+      "find": {
+        "and_replace": "Trova e sostituisci",
+        "next": "Trova successivo",
+        "previous": "Trova precedente",
+        "text": "Trova"
+      },
+      "follow_us": "Seguici",
+      "frame": "Cornice",
+      "frequency": "Frequenza",
+      "fullscreen": "Schermo intero",
+      "generate": "Genera",
+      "go": "Vai",
+      "help": "Aiuto",
+      "hidden": "Nascosto",
+      "hint": "Suggerimento",
+      "home": "Home",
+      "import": {
+        "all": "Importa tutto",
+        "from": "Importa da",
+        "text": "Importa"
+      },
+      "in_progress": "In corso",
+      "inactive": "Inattivo",
+      "incomplete": "Incompleto",
+      "info": "Informazione",
+      "inputs": "Inserimenti",
+      "install": "Installare",
+      "internal": "Interno",
+      "internet_connection": "Nessuna connessione internet",
+      "invalid": "Non valido",
+      "learn_more": "Maggiori informazioni",
+      "loading": "Caricamento",
+      "local": "Locale",
+      "locked": "Bloccato",
+      "loop": "Ripeti in loop",
+      "majors": "Maggiori",
+      "menu": "Menu",
+      "method": "Metodo",
+      "minors": "Minori",
+      "missing_rights": "Diritti mancanti",
+      "monthly": "Mensilmente",
+      "mute": "Silenzia",
+      "name": "Nome",
+      "new": {
+        "bookmark": "Nuovo segnalibro",
+        "document": "Nuovo documento",
+        "file": "Nuovo file",
+        "folder": "Nuova cartella",
+        "note": "Nuova nota",
+        "project": "Nuovo progetto",
+        "tab": "Nuova scheda",
+        "text": "Nuovo",
+        "window": "Nuova finestra",
+        "workspace": "Nuovo spazio di lavoro"
+      },
+      "next": {
+        "chapter": "Capitolo successivo",
+        "page": "Pagina successiva",
+        "text": "Successivo",
+        "track": "Brano successivo"
+      },
+      "no": "No",
+      "no_elements": "Nessun elemento",
+      "no_items": "Nessun articolo",
+      "non_commercial": "Non commerciale",
+      "none": {
+        "female": "Nessuna",
+        "male": "Nessuno",
+        "other": "Nessuno"
+      },
+      "offline": "Offline",
+      "offline_mode": "Modalità offline",
+      "ok": "OK",
+      "online": "Online",
+      "open": {
+        "all": "Apri tutto",
+        "directory": "Apri directory",
+        "file": "Apri file",
+        "in_new": {
+          "tab": "Apri in una nuova scheda",
+          "window": "Apri in una nuova finestra"
+        },
+        "text": "Apri",
+        "url": "Apri URL"
+      },
+      "operation": {
+        "canceled": "Operazione annullata",
+        "completed": "Operazione completata",
+        "failed": "Operazione fallita",
+        "in_progress": "Operazione in corso",
+        "pending": "Operazione in attesa",
+        "started": "Operazione iniziata",
+        "succeeded": "Operazione riuscita",
+        "text": "Operazione",
+        "timed_out": "Operazione scaduta"
+      },
+      "optional": "Opzionale",
+      "panel": "Pannello",
+      "paste": "Incolla",
+      "pause": "Pausa",
+      "paused": "In pausa",
+      "pending": "In attesa",
+      "perform": "Esegui",
+      "personal": "Personale",
+      "play": "Riproduci",
+      "play_pause": "Riproduci/Pausa",
+      "previous": {
+        "chapter": "Capitolo precedente",
+        "page": "Pagina precedente",
+        "text": "Precedente",
+        "track": "Brano precedente"
+      },
+      "private": "Privato",
+      "public": "Pubblico",
+      "quantity": "Quantità",
+      "quarterly": "Trimestralmente",
+      "question": "Domanda",
+      "redo": "Ripristina",
+      "refresh": "Aggiornare",
+      "reject": "Rifiuta",
+      "rejected": "Rifiutato",
+      "remote": "Remoto",
+      "remove": "Rimuovere",
+      "repeat": {
+        "all": "Ripeti tutto",
+        "none": "Nessuna ripetizione",
+        "one": "Ripeti uno",
+        "text": "Ripeti"
+      },
+      "replace": {
+        "all": "Sostituisci tutto",
+        "text": "Sostituisci"
+      },
+      "replay": "Ripeti",
+      "report": {
+        "error": "Segnala un errore",
+        "text": "Rapporto"
+      },
+      "required": "Richiesto",
+      "reset": "Reimpostare",
+      "results": "Risultati",
+      "resumed": "Ripreso",
+      "retry": "Riprova",
+      "rewind": "Riavvolgi",
+      "rights_denied": "Diritti negati",
+      "rights_granted": "Diritti concessi",
+      "save": {
+        "all": "Salva tutto",
+        "and": {
+          "close": "Salva e chiudi",
+          "exit": "Salva e esci"
+        },
+        "as": "Salva come",
+        "text": "Salva"
+      },
+      "saved": "Salvato",
+      "search": "Cerca",
+      "select": {
+        "all": "Seleziona tutto",
+        "none": "Deseleziona tutto",
+        "text": "Seleziona"
+      },
+      "selection": "Selezione",
+      "sell": "Vendere",
+      "semi_annually": "Semestralmente",
+      "service_unavailable": "Servizio non disponibile",
+      "share": {
+        "app": "Condividi questa app",
+        "text": "Condividi"
+      },
+      "shuffle": "Riproduzione casuale",
+      "skip": {
+        "backward": "Salta indietro",
+        "forward": "Salta in avanti",
+        "next": "Salta il prossimo",
+        "previous": "Salta il precedente",
+        "text": "Salta"
+      },
+      "stop": "Stop",
+      "submit": "Invia",
+      "success": "Successo",
+      "sync": "Sincronizza",
+      "synced": "Sincronizzato",
+      "template": "Modello",
+      "time": {
+        "elapsed": "Tempo trascorso",
+        "remaining": "Tempo rimanente",
+        "text": "Tempo"
+      },
+      "tip": "Consiglio",
+      "toggle": {
+        "all": "Attiva/Disattiva tutto",
+        "text": "Attiva/Disattiva"
+      },
+      "try": {
+        "again": "Prova di nuovo",
+        "later": "Prova più tardi",
+        "text": "Prova"
+      },
+      "undo": "Annulla",
+      "uninstall": "Disinstallare",
+      "unlocked": "Sbloccato",
+      "unmute": "Ripristina audio",
+      "unsync": "Desincronizza",
+      "unsynced": "Non sincronizzato",
+      "update": "Aggiornare",
+      "upgrade": {
+        "now": "Aggiorna ora",
+        "text": "Aggiornare"
+      },
+      "upload": "Carica",
+      "user_inputs": "Inserimenti utente",
+      "valid": "Valido",
+      "visible": "Visibile",
+      "volume": "Volume",
+      "warning": "Avvertimento",
+      "watch": {
+        "later": "Guarda più tardi",
+        "now": "Guarda ora",
+        "text": "Guarda"
+      },
+      "website": "Sito web",
+      "weekly": "Settimanalmente",
+      "yearly": "Annualmente",
+      "yes": "Sì",
+      "yesterday": "Ieri",
+      "zoom": {
+        "in": "Ingrandisci",
+        "out": "Riduci",
+        "reset": "Reimposta zoom",
+        "text": "Zoom"
+      }
+    },
+    "message": {
+      "action": {
+        "canceled": "Azione annullata.",
+        "completed": "Azione completata."
+      },
+      "bugs_fixes_improvements": "Correzioni di bug minori e miglioramenti.",
+      "checking_connection": "Controllo connessione...",
+      "congratulations": "Congratulazioni!",
+      "copied": "Copiato!",
+      "copied_to_clipboard": "Copiato negli appunti!",
+      "copied_value_to_clipboard": "Copiato {value} negli appunti!",
+      "dark_mode_support": "Supporto per la modalità scura.",
+      "example": "Esempio:",
+      "failed_to": {
+        "generate": {
+          "csv": "Si è verificato un problema nella creazione del file CSV.",
+          "excel": "Si è verificato un problema nella creazione del file Excel.",
+          "file": "Si è verificato un problema nella creazione del file.",
+          "pdf": "Si è verificato un problema nella creazione del file PDF.",
+          "text": "Si è verificato un problema nella creazione del file di testo."
+        },
+        "load": {
+          "csv": "Si è verificato un problema nel caricamento del file CSV.",
+          "data": "Si è verificato un problema nel caricamento dei dati.",
+          "excel": "Si è verificato un problema nel caricamento del file Excel.",
+          "file": "Si è verificato un problema nel caricamento del file.",
+          "pdf": "Si è verificato un problema nel caricamento del file PDF.",
+          "text": "Si è verificato un problema nel caricamento del file di testo."
+        },
+        "perform": {
+          "action": "Si è verificato un problema nell'esecuzione dell'azione."
+        },
+        "save": {
+          "csv": "Si è verificato un problema nel salvataggio del file CSV.",
+          "data": "Si è verificato un problema nel salvataggio dei dati.",
+          "excel": "Si è verificato un problema nel salvataggio del file Excel.",
+          "file": "Si è verificato un problema nel salvataggio del file.",
+          "pdf": "Si è verificato un problema nel salvataggio del file PDF.",
+          "text": "Si è verificato un problema nel salvataggio del file di testo."
+        }
+      },
+      "finally": "Finalmente!",
+      "generating": {
+        "csv": "Generazione del file CSV in corso...",
+        "excel": "Generazione del file Excel in corso...",
+        "pdf": "Generazione del file PDF in corso...",
+        "text": "Generazione in corso..."
+      },
+      "have_wonderful_day": "Buona giornata!",
+      "last_updated_on": "Ultimo aggiornamento il {date}",
+      "let_get_started": "Iniziamo!",
+      "loading": {
+        "data": "Caricamento dati...",
+        "pdf": "Caricamento PDF...",
+        "text": "Caricamento in corso..."
+      },
+      "modern_design": "Design moderno.",
+      "no": {
+        "results_found": "Nessun risultato trovato."
+      },
+      "no_favorites": "Nessun preferito.",
+      "pdf_generated_by": "PDF generato da {app_name}",
+      "performing": "In esecuzione...",
+      "please_wait": "Attendere prego...",
+      "processing": "Elaborazione in corso...",
+      "ready": {
+        "csv": "File CSV pronto!",
+        "excel": "File Excel pronto!",
+        "file": "File pronto!",
+        "pdf": "File PDF pronto!",
+        "text": "Pronto!"
+      },
+      "require": {
+        "internet_connection": "È richiesta una connessione Internet."
+      },
+      "saving": "Salvataggio in corso...",
+      "search": "Ricerca...",
+      "searching": "Ricerca in corso...",
+      "share": {
+        "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
+      },
+      "sorry": "Scusa...",
+      "success": "Successo!",
+      "thank_you": "Grazie!",
+      "try": {
+        "steps_back_online": "Prova questi passaggi per tornare online:"
+      },
+      "warning": "Attenzione!",
+      "welcome": "Benvenuto!",
+      "whats_new": "Cosa c'è di nuovo?",
+      "whoops": "Ops!"
+    },
+    "question": {
+      "are_you_sure": "Sei sicuro?",
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Vuoi esportare questi dati in formato CSV?",
+            "excel": "Vuoi esportare questi dati in un file Excel?",
+            "pdf": "Vuoi esportare questi dati in formato PDF?",
+            "text": "Vuoi esportare questi dati?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Vuoi generare una versione CSV di questi dati?",
+          "excel": "Vuoi generare una versione Excel di questi dati?",
+          "pdf": "Vuoi generare una versione PDF di questi dati?"
+        }
+      }
+    },
+    "select": {
+      "country": "Seleziona un paese",
+      "frequency": "Seleziona una frequenza",
+      "method": "Seleziona un metodo"
+    },
+    "warning": {
+      "offline": "L'applicazione è attualmente in modalità offline, il che significa che i dati potrebbero non essere aggiornati."
     }
   }
 };
@@ -2951,493 +1481,1963 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> ru = {
   "core": {
     "error": {
-      "cannot_reach_server": "Ci scusiamo per l'inconveniente, ma al momento c'è un problema di connessione con il server. Si prega di riprovare più tardi.",
+      "cannot_reach_server": "Приносим извинения за неудобства, но в настоящее время возникли проблемы с соединением с сервером. Пожалуйста, попробуйте позже.",
       "error_occurred": {
-        "exclamation": "Si è verificato un errore!",
-        "please": "Ci scusiamo, si è verificato un errore. Si prega di riprovare più tardi."
+        "exclamation": "Произошла ошибка!",
+        "please": "Приносим извинения, произошла ошибка. Пожалуйста, попробуйте позже."
       },
       "invalid": {
         "data": {
-          "period": "Dati non validi.",
-          "type": "Tipo di dati non valido."
+          "period": "Неверные данные.",
+          "type": "Неверный тип данных."
         },
-        "file_type": "Tipo di file non valido."
+        "file_type": "Неверный тип файла."
       },
       "service": {
-        "unavailable": "Il servizio non è attualmente disponibile."
+        "unavailable": "Сервис в настоящее время недоступен."
       }
     },
     "help": {
-      "check_your_modem_and_router": "Controlla il tuo modem e router.",
+      "check_your_modem_and_router": "Проверьте ваш модем и маршрутизатор.",
       "ensure": {
-        "app_up_to_date": "Assicurati che l'app sia aggiornata.",
-        "internet_restrictions": "Assicurati che nessun firewall o restrizioni di rete impediscono l'accesso al servizio."
+        "app_up_to_date": "Убедитесь, что приложение обновлено до последней версии.",
+        "internet_restrictions": "Убедитесь, что нет ограничений сетевого экрана или сетевых ограничений, блокирующих доступ к сервису."
       },
-      "issue_persist_contact_support": "Se il problema persiste, si prega di contattare il nostro team di supporto.",
-      "reconnect_to_your_wifi_network": "Riconnettiti alla tua rete Wi-Fi.",
-      "restart_device_check_connection": "Riavvia il tuo dispositivo e controlla la tua connessione internet.",
+      "issue_persist_contact_support": "Если проблема не исчезает, обратитесь в службу поддержки.",
+      "reconnect_to_your_wifi_network": "Подключитесь заново к вашей Wi-Fi сети.",
+      "restart_device_check_connection": "Перезагрузите ваше устройство и проверьте интернет-соединение.",
       "service": {
-        "not_available_current_location": "Il servizio potrebbe non essere disponibile nella tua attuale posizione.",
-        "not_operational": "Il servizio potrebbe non essere operativo in questo momento. Si prega di verificarne lo stato o di tentare di accedervi più tardi."
+        "not_available_current_location": "Услуга может быть недоступна в вашем текущем местоположении.",
+        "not_operational": "Услуга может быть не в рабочем состоянии в данный момент. Пожалуйста, проверьте ее статус или попробуйте получить доступ к ней позже."
       },
-      "several_reasons": "Ci potrebbero essere diverse ragioni:"
+      "several_reasons": "Причин может быть несколько:"
     },
     "label": {
-      "accept": "Accetta",
-      "accepted": "Accettato",
-      "active": "Attivo",
-      "add": "Aggiungere",
-      "advanced": "Avanzate",
+      "accept": "Принять",
+      "accepted": "Принято",
+      "active": "Активный",
+      "add": "Добавить",
+      "advanced": "Расширенные",
       "all": {
-        "female": "Tutte",
-        "male": "Tutti",
-        "other": "Tutti"
+        "female": "Все",
+        "male": "Все",
+        "other": "Все"
       },
-      "annually": "Annualmente",
-      "approve": "Approva",
-      "approved": "Approvato",
-      "at": "A",
-      "auto_save": "Salvataggio automatico",
-      "back": "Indietro",
-      "badge": "Distintivo",
-      "behavior": "Comportamento",
-      "button": "Pulsante",
-      "buy": "Acquistare",
-      "cancel": "Annulla",
-      "canceled": "Annullato",
+      "annually": "Ежегодно",
+      "approve": "Одобрить",
+      "approved": "Одобрено",
+      "at": "В",
+      "auto_save": "Автосохранение",
+      "back": "Назад",
+      "badge": "Значок",
+      "behavior": "Поведение",
+      "button": "Кнопка",
+      "buy": "Купить",
+      "cancel": "Отмена",
+      "canceled": "Отменено",
       "clear": {
-        "selection": "Cancella selezione",
-        "text": "Cancella"
+        "selection": "Очистить выбор",
+        "text": "Очистить"
       },
       "close": {
-        "all": "Chiudi tutto",
-        "others": "Chiudi altri",
-        "tab": "Chiudi scheda",
-        "text": "Chiudi",
-        "window": "Chiudi finestra"
+        "all": "Закрыть все",
+        "others": "Закрыть другие",
+        "tab": "Закрыть вкладку",
+        "text": "Закрыть",
+        "window": "Закрыть окно"
       },
       "collapse": {
-        "all": "Comprimi tutto",
-        "text": "Comprimi"
+        "all": "Свернуть все",
+        "text": "Свернуть"
       },
-      "commercial": "Commerciale",
-      "complete": "Completo",
-      "completed": "Completato",
-      "confirm": "Conferma",
-      "confirmation": "Conferma",
-      "connected": "Connesso",
+      "commercial": "Коммерческий",
+      "complete": "Завершено",
+      "completed": "Выполнено",
+      "confirm": "Подтвердить",
+      "confirmation": "Подтверждение",
+      "connected": "Подключено",
       "contact": {
-        "support": "Contatta il supporto",
-        "us": "Contattaci"
+        "support": "Связаться со службой поддержки",
+        "us": "Свяжитесь с нами"
       },
-      "continue": "Continua",
-      "copy": "Copia",
-      "country": "Paese",
-      "cut": "Taglia",
-      "daily": "Giornalmente",
-      "date": "Data",
+      "continue": "Продолжить",
+      "copy": "Копировать",
+      "country": "Страна",
+      "cut": "Вырезать",
+      "daily": "Ежедневно",
+      "date": "Дата",
       "default": {
-        "text": "Predefinito",
-        "values": "Valori predefiniti"
+        "text": "По умолчанию",
+        "values": "Значения по умолчанию"
       },
-      "delete": "Elimina",
-      "description": "Descrizione",
-      "details": "Dettagli",
-      "disabled": "Disabilitato",
-      "disapprove": "Disapprova",
-      "disapproved": "Disapprovato",
-      "disconnected": "Disconnesso",
-      "display": "Visualizza",
-      "done": "Fatto",
-      "download": "Scarica",
-      "edit": "Modificare",
-      "enabled": "Abilitato",
+      "delete": "Удалить",
+      "description": "Описание",
+      "details": "Детали",
+      "disabled": "Выключено",
+      "disapprove": "Отклонить",
+      "disapproved": "Не одобрено",
+      "disconnected": "Отключено",
+      "display": "Отображение",
+      "done": "Готово",
+      "download": "Скачать",
+      "edit": "Редактировать",
+      "enabled": "Включено",
       "enter": {
-        "fullscreen": "Entra in modalità schermo intero",
-        "pip": "Entra in modalità immagine in immagine",
-        "text": "Entra"
+        "fullscreen": "Войти в полноэкранный режим",
+        "pip": "Войти в режим picture-in-picture",
+        "text": "Войти"
       },
-      "entries": "Ingressi",
-      "entry": "Ingresso",
-      "error": "Errore",
-      "example": "Esempio",
+      "entries": "Входы",
+      "entry": "Вход",
+      "error": "Ошибка",
+      "example": "Пример",
       "exit": {
-        "fullscreen": "Esci dallo schermo intero",
-        "pip": "Esci dall'immagine in immagine",
-        "text": "Esci"
+        "fullscreen": "Выйти из полноэкранного режима",
+        "pip": "Выйти из режима picture-in-picture",
+        "text": "Выйти"
       },
-      "exotics": "Esotiche",
+      "exotics": "Экзотические",
       "expand": {
-        "all": "Espandi tutto",
-        "text": "Espandi"
+        "all": "Развернуть все",
+        "text": "Развернуть"
       },
-      "expired": "Scaduto",
+      "expired": "Истекло",
       "export": {
-        "all": "Esporta tutto",
-        "as": "Esporta come",
-        "csv": "Esporta come CSV",
-        "excel": "Esporta come Excel",
-        "pdf": "Esporta come PDF",
-        "text": "Esporta"
+        "all": "Экспортировать все",
+        "as": "Экспортировать как",
+        "csv": "Экспортировать как CSV",
+        "excel": "Экспортировать как Excel",
+        "pdf": "Экспортировать как PDF",
+        "text": "Экспорт"
       },
-      "external": "Esterno",
-      "fast_forward": "Avanzamento rapido",
-      "favorites": "Preferiti",
+      "external": "Внешний",
+      "fast_forward": "Перемотка вперед",
+      "favorites": "Избранное",
       "find": {
-        "and_replace": "Trova e sostituisci",
-        "next": "Trova successivo",
-        "previous": "Trova precedente",
-        "text": "Trova"
+        "and_replace": "Найти и заменить",
+        "next": "Найти далее",
+        "previous": "Найти ранее",
+        "text": "Найти"
       },
-      "follow_us": "Seguici",
-      "frame": "Cornice",
-      "frequency": "Frequenza",
-      "fullscreen": "Schermo intero",
-      "generate": "Genera",
-      "go": "Vai",
-      "help": "Aiuto",
-      "hidden": "Nascosto",
-      "hint": "Suggerimento",
-      "home": "Home",
+      "follow_us": "Подписывайтесь на нас",
+      "frame": "Кадр",
+      "frequency": "Частота",
+      "fullscreen": "На весь экран",
+      "generate": "Генерировать",
+      "go": "Перейти",
+      "help": "Помощь",
+      "hidden": "Скрыто",
+      "hint": "Подсказка",
+      "home": "Главная",
       "import": {
-        "all": "Importa tutto",
-        "from": "Importa da",
-        "text": "Importa"
+        "all": "Импортировать все",
+        "from": "Импортировать из",
+        "text": "Импорт"
       },
-      "in_progress": "In corso",
-      "inactive": "Inattivo",
-      "incomplete": "Incompleto",
-      "info": "Informazione",
-      "inputs": "Inserimenti",
-      "install": "Installare",
-      "internal": "Interno",
-      "internet_connection": "Nessuna connessione internet",
-      "invalid": "Non valido",
-      "learn_more": "Maggiori informazioni",
-      "loading": "Caricamento",
-      "local": "Locale",
-      "locked": "Bloccato",
-      "loop": "Ripeti in loop",
-      "majors": "Maggiori",
-      "menu": "Menu",
-      "method": "Metodo",
-      "minors": "Minori",
-      "missing_rights": "Diritti mancanti",
-      "monthly": "Mensilmente",
-      "mute": "Silenzia",
-      "name": "Nome",
+      "in_progress": "В процессе",
+      "inactive": "Неактивный",
+      "incomplete": "Незавершенный",
+      "info": "Информация",
+      "inputs": "Ввод",
+      "install": "Установить",
+      "internal": "Внутренний",
+      "internet_connection": "Нет интернет-соединения",
+      "invalid": "Недействительно",
+      "learn_more": "Узнать больше",
+      "loading": "Загрузка",
+      "local": "Локальный",
+      "locked": "Заблокировано",
+      "loop": "Зациклить",
+      "majors": "Совершеннолетние",
+      "menu": "Меню",
+      "method": "Метод",
+      "minors": "Несовершеннолетние",
+      "missing_rights": "Отсутствуют права",
+      "monthly": "Ежемесячно",
+      "mute": "Выключить звук",
+      "name": "Имя",
       "new": {
-        "bookmark": "Nuovo segnalibro",
-        "document": "Nuovo documento",
-        "file": "Nuovo file",
-        "folder": "Nuova cartella",
-        "note": "Nuova nota",
-        "project": "Nuovo progetto",
-        "tab": "Nuova scheda",
-        "text": "Nuovo",
-        "window": "Nuova finestra",
-        "workspace": "Nuovo spazio di lavoro"
+        "bookmark": "Новая закладка",
+        "document": "Новый документ",
+        "file": "Новый файл",
+        "folder": "Новая папка",
+        "note": "Новая заметка",
+        "project": "Новый проект",
+        "tab": "Новая вкладка",
+        "text": "Новый",
+        "window": "Новое окно",
+        "workspace": "Новое рабочее пространство"
       },
       "next": {
-        "chapter": "Capitolo successivo",
-        "page": "Pagina successiva",
-        "text": "Successivo",
-        "track": "Brano successivo"
+        "chapter": "Следующая глава",
+        "page": "Следующая страница",
+        "text": "Следующее",
+        "track": "Следующий трек"
       },
-      "no": "No",
-      "no_elements": "Nessun elemento",
-      "no_items": "Nessun articolo",
-      "non_commercial": "Non commerciale",
+      "no": "Нет",
+      "no_elements": "Нет элементов",
+      "no_items": "Нет товаров",
+      "non_commercial": "Некоммерческий",
       "none": {
-        "female": "Nessuna",
-        "male": "Nessuno",
-        "other": "Nessuno"
+        "female": "Нет",
+        "male": "Нет",
+        "other": "Нет"
       },
-      "offline": "Offline",
-      "offline_mode": "Modalità offline",
+      "offline": "Оффлайн",
+      "offline_mode": "Режим офлайн",
       "ok": "OK",
-      "online": "Online",
+      "online": "Онлайн",
       "open": {
-        "all": "Apri tutto",
-        "directory": "Apri directory",
-        "file": "Apri file",
+        "all": "Открыть все",
+        "directory": "Открыть каталог",
+        "file": "Открыть файл",
         "in_new": {
-          "tab": "Apri in una nuova scheda",
-          "window": "Apri in una nuova finestra"
+          "tab": "Открыть в новой вкладке",
+          "window": "Открыть в новом окне"
         },
-        "text": "Apri",
-        "url": "Apri URL"
+        "text": "Открыть",
+        "url": "Открыть URL"
       },
       "operation": {
-        "canceled": "Operazione annullata",
-        "completed": "Operazione completata",
-        "failed": "Operazione fallita",
-        "in_progress": "Operazione in corso",
-        "pending": "Operazione in attesa",
-        "started": "Operazione iniziata",
-        "succeeded": "Operazione riuscita",
-        "text": "Operazione",
-        "timed_out": "Operazione scaduta"
+        "canceled": "Операция отменена",
+        "completed": "Операция завершена",
+        "failed": "Операция не удалась",
+        "in_progress": "Операция в процессе",
+        "pending": "Операция ожидает",
+        "started": "Операция началась",
+        "succeeded": "Операция успешно завершена",
+        "text": "Операция",
+        "timed_out": "Время операции истекло"
       },
-      "optional": "Opzionale",
-      "panel": "Pannello",
-      "paste": "Incolla",
-      "pause": "Pausa",
-      "paused": "In pausa",
-      "pending": "In attesa",
-      "perform": "Esegui",
-      "personal": "Personale",
-      "play": "Riproduci",
-      "play_pause": "Riproduci/Pausa",
+      "optional": "Необязательно",
+      "panel": "Панель",
+      "paste": "Вставить",
+      "pause": "Пауза",
+      "paused": "Приостановлено",
+      "pending": "Ожидание",
+      "perform": "Выполнить",
+      "personal": "Личный",
+      "play": "Воспроизвести",
+      "play_pause": "Воспроизведение/Пауза",
       "previous": {
-        "chapter": "Capitolo precedente",
-        "page": "Pagina precedente",
-        "text": "Precedente",
-        "track": "Brano precedente"
+        "chapter": "Предыдущая глава",
+        "page": "Предыдущая страница",
+        "text": "Предыдущее",
+        "track": "Предыдущий трек"
       },
-      "private": "Privato",
-      "public": "Pubblico",
-      "quantity": "Quantità",
-      "quarterly": "Trimestralmente",
-      "question": "Domanda",
-      "redo": "Ripristina",
-      "refresh": "Aggiornare",
-      "reject": "Rifiuta",
-      "rejected": "Rifiutato",
-      "remote": "Remoto",
-      "remove": "Rimuovere",
+      "private": "Частный",
+      "public": "Публичный",
+      "quantity": "Количество",
+      "quarterly": "Ежеквартально",
+      "question": "Вопрос",
+      "redo": "Повторить действие",
+      "refresh": "Обновить",
+      "reject": "Отклонить",
+      "rejected": "Отклонено",
+      "remote": "Удаленный",
+      "remove": "Удалить",
       "repeat": {
-        "all": "Ripeti tutto",
-        "none": "Nessuna ripetizione",
-        "one": "Ripeti uno",
-        "text": "Ripeti"
+        "all": "Повторить все",
+        "none": "Не повторять",
+        "one": "Повторить один раз",
+        "text": "Повторение"
       },
       "replace": {
-        "all": "Sostituisci tutto",
-        "text": "Sostituisci"
+        "all": "Заменить все",
+        "text": "Заменить"
       },
-      "replay": "Ripeti",
+      "replay": "Повторить",
       "report": {
-        "error": "Segnala un errore",
-        "text": "Rapporto"
+        "error": "Сообщить об ошибке",
+        "text": "Отчет"
       },
-      "required": "Richiesto",
-      "reset": "Reimpostare",
-      "results": "Risultati",
-      "resumed": "Ripreso",
-      "retry": "Riprova",
-      "rewind": "Riavvolgi",
-      "rights_denied": "Diritti negati",
-      "rights_granted": "Diritti concessi",
+      "required": "Обязательно",
+      "reset": "Сбросить",
+      "results": "Результаты",
+      "resumed": "Возобновлено",
+      "retry": "Повторить",
+      "rewind": "Перемотка назад",
+      "rights_denied": "Права отказаны",
+      "rights_granted": "Права предоставлены",
       "save": {
-        "all": "Salva tutto",
+        "all": "Сохранить все",
         "and": {
-          "close": "Salva e chiudi",
-          "exit": "Salva e esci"
+          "close": "Сохранить и закрыть",
+          "exit": "Сохранить и выйти"
         },
-        "as": "Salva come",
-        "text": "Salva"
+        "as": "Сохранить как",
+        "text": "Сохранить"
       },
-      "saved": "Salvato",
-      "search": "Cerca",
+      "saved": "Сохранено",
+      "search": "Поиск",
       "select": {
-        "all": "Seleziona tutto",
-        "none": "Deseleziona tutto",
-        "text": "Seleziona"
+        "all": "Выбрать все",
+        "none": "Отменить выбор",
+        "text": "Выбрать"
       },
-      "selection": "Selezione",
-      "sell": "Vendere",
-      "semi_annually": "Semestralmente",
-      "service_unavailable": "Servizio non disponibile",
+      "selection": "Выбор",
+      "sell": "Продать",
+      "semi_annually": "Полугодовой",
+      "service_unavailable": "Сервис недоступен",
       "share": {
-        "app": "Condividi questa app",
-        "text": "Condividi"
+        "app": "Поделиться этим приложением",
+        "text": "Поделиться"
       },
-      "shuffle": "Riproduzione casuale",
+      "shuffle": "Случайный порядок",
       "skip": {
-        "backward": "Salta indietro",
-        "forward": "Salta in avanti",
-        "next": "Salta il prossimo",
-        "previous": "Salta il precedente",
-        "text": "Salta"
+        "backward": "Пропустить назад",
+        "forward": "Пропустить вперед",
+        "next": "Пропустить следующее",
+        "previous": "Пропустить предыдущее",
+        "text": "Пропуск"
       },
-      "stop": "Stop",
-      "submit": "Invia",
-      "success": "Successo",
-      "sync": "Sincronizza",
-      "synced": "Sincronizzato",
-      "template": "Modello",
+      "stop": "Стоп",
+      "submit": "Отправить",
+      "success": "Успех",
+      "sync": "Синхронизировать",
+      "synced": "Синхронизировано",
+      "template": "Шаблон",
       "time": {
-        "elapsed": "Tempo trascorso",
-        "remaining": "Tempo rimanente",
-        "text": "Tempo"
+        "elapsed": "Прошло времени",
+        "remaining": "Оставшееся время",
+        "text": "Время"
       },
-      "tip": "Consiglio",
+      "tip": "Совет",
       "toggle": {
-        "all": "Attiva/Disattiva tutto",
-        "text": "Attiva/Disattiva"
+        "all": "Переключить все",
+        "text": "Переключить"
       },
       "try": {
-        "again": "Prova di nuovo",
-        "later": "Prova più tardi",
-        "text": "Prova"
+        "again": "Попробовать снова",
+        "later": "Попробовать позже",
+        "text": "Попробовать"
       },
-      "undo": "Annulla",
-      "uninstall": "Disinstallare",
-      "unlocked": "Sbloccato",
-      "unmute": "Ripristina audio",
-      "unsync": "Desincronizza",
-      "unsynced": "Non sincronizzato",
-      "update": "Aggiornare",
+      "undo": "Отменить действие",
+      "uninstall": "Удалить",
+      "unlocked": "Разблокировано",
+      "unmute": "Включить звук",
+      "unsync": "Отменить синхронизацию",
+      "unsynced": "Не синхронизировано",
+      "update": "Обновить",
       "upgrade": {
-        "now": "Aggiorna ora",
-        "text": "Aggiornare"
+        "now": "Обновить сейчас",
+        "text": "Обновить"
       },
-      "upload": "Carica",
-      "user_inputs": "Inserimenti utente",
-      "valid": "Valido",
-      "visible": "Visibile",
-      "volume": "Volume",
-      "warning": "Avvertimento",
+      "upload": "Загрузить",
+      "user_inputs": "Ввод пользователя",
+      "valid": "Действительный",
+      "visible": "Видимый",
+      "volume": "Громкость",
+      "warning": "Предупреждение",
       "watch": {
-        "later": "Guarda più tardi",
-        "now": "Guarda ora",
-        "text": "Guarda"
+        "later": "Смотреть позже",
+        "now": "Смотреть сейчас",
+        "text": "Смотреть"
       },
-      "website": "Sito web",
-      "weekly": "Settimanalmente",
-      "yearly": "Annualmente",
-      "yes": "Sì",
-      "yesterday": "Ieri",
+      "website": "Веб-сайт",
+      "weekly": "Еженедельно",
+      "yearly": "Ежегодно",
+      "yes": "Да",
+      "yesterday": "Вчера",
       "zoom": {
-        "in": "Ingrandisci",
-        "out": "Riduci",
-        "reset": "Reimposta zoom",
-        "text": "Zoom"
+        "in": "Приблизить",
+        "out": "Отдалить",
+        "reset": "Сбросить масштаб",
+        "text": "Масштаб"
       }
     },
     "message": {
       "action": {
-        "canceled": "Azione annullata.",
-        "completed": "Azione completata."
+        "canceled": "Действие отменено.",
+        "completed": "Действие завершено."
       },
-      "bugs_fixes_improvements": "Correzioni di bug minori e miglioramenti.",
-      "checking_connection": "Controllo connessione...",
-      "congratulations": "Congratulazioni!",
-      "copied": "Copiato!",
-      "copied_to_clipboard": "Copiato negli appunti!",
-      "copied_value_to_clipboard": "Copiato {value} negli appunti!",
-      "dark_mode_support": "Supporto per la modalità scura.",
-      "example": "Esempio:",
+      "bugs_fixes_improvements": "Исправления небольших ошибок и улучшения.",
+      "checking_connection": "Проверка соединения...",
+      "congratulations": "Поздравляем!",
+      "copied": "Скопировано!",
+      "copied_to_clipboard": "Скопировано в буфер обмена!",
+      "copied_value_to_clipboard": "Скопировано {value} в буфер обмена!",
+      "dark_mode_support": "Поддержка темного режима.",
+      "example": "Пример:",
       "failed_to": {
         "generate": {
-          "csv": "Si è verificato un problema nella creazione del file CSV.",
-          "excel": "Si è verificato un problema nella creazione del file Excel.",
-          "file": "Si è verificato un problema nella creazione del file.",
-          "pdf": "Si è verificato un problema nella creazione del file PDF.",
-          "text": "Si è verificato un problema nella creazione del file di testo."
+          "csv": "При создании файла CSV возникла проблема.",
+          "excel": "При создании файла Excel возникла проблема.",
+          "file": "При создании файла возникла проблема.",
+          "pdf": "При создании PDF-файла возникла проблема.",
+          "text": "При создании текстового файла возникла проблема."
         },
         "load": {
-          "csv": "Si è verificato un problema nel caricamento del file CSV.",
-          "data": "Si è verificato un problema nel caricamento dei dati.",
-          "excel": "Si è verificato un problema nel caricamento del file Excel.",
-          "file": "Si è verificato un problema nel caricamento del file.",
-          "pdf": "Si è verificato un problema nel caricamento del file PDF.",
-          "text": "Si è verificato un problema nel caricamento del file di testo."
+          "csv": "При загрузке файла CSV возникла проблема.",
+          "data": "При загрузке данных возникла проблема.",
+          "excel": "При загрузке файла Excel возникла проблема.",
+          "file": "При загрузке файла возникла проблема.",
+          "pdf": "При загрузке PDF-файла возникла проблема.",
+          "text": "При загрузке текстового файла возникла проблема."
         },
         "perform": {
-          "action": "Si è verificato un problema nell'esecuzione dell'azione."
+          "action": "При выполнении действия возникла проблема."
         },
         "save": {
-          "csv": "Si è verificato un problema nel salvataggio del file CSV.",
-          "data": "Si è verificato un problema nel salvataggio dei dati.",
-          "excel": "Si è verificato un problema nel salvataggio del file Excel.",
-          "file": "Si è verificato un problema nel salvataggio del file.",
-          "pdf": "Si è verificato un problema nel salvataggio del file PDF.",
-          "text": "Si è verificato un problema nel salvataggio del file di testo."
+          "csv": "При сохранении файла CSV возникла проблема.",
+          "data": "При сохранении данных возникла проблема.",
+          "excel": "При сохранении файла Excel возникла проблема.",
+          "file": "При сохранении файла возникла проблема.",
+          "pdf": "При сохранении PDF-файла возникла проблема.",
+          "text": "При сохранении текстового файла возникла проблема."
         }
       },
-      "finally": "Finalmente!",
+      "finally": "Наконец-то!",
       "generating": {
-        "csv": "Generazione del file CSV in corso...",
-        "excel": "Generazione del file Excel in corso...",
-        "pdf": "Generazione del file PDF in corso...",
-        "text": "Generazione in corso..."
+        "csv": "Создание файла CSV...",
+        "excel": "Создание файла Excel...",
+        "pdf": "Создание файла PDF...",
+        "text": "Создание в процессе..."
       },
-      "have_wonderful_day": "Buona giornata!",
-      "last_updated_on": "Ultimo aggiornamento il {date}",
-      "let_get_started": "Iniziamo!",
+      "have_wonderful_day": "Хорошего дня!",
+      "last_updated_on": "Последнее обновление {date}",
+      "let_get_started": "Начнем!",
       "loading": {
-        "data": "Caricamento dati...",
-        "pdf": "Caricamento PDF...",
-        "text": "Caricamento in corso..."
+        "data": "Загрузка данных...",
+        "pdf": "Загрузка PDF...",
+        "text": "Загрузка..."
       },
-      "modern_design": "Design moderno.",
+      "modern_design": "Современный дизайн.",
       "no": {
-        "results_found": "Nessun risultato trovato."
+        "results_found": "Результаты не найдены."
       },
-      "no_favorites": "Nessun preferito.",
-      "pdf_generated_by": "PDF generato da {app_name}",
-      "performing": "In esecuzione...",
-      "please_wait": "Attendere prego...",
-      "processing": "Elaborazione in corso...",
+      "no_favorites": "Нет избранных.",
+      "pdf_generated_by": "PDF сгенерировано с помощью {app_name}",
+      "performing": "Выполнение...",
+      "please_wait": "Пожалуйста, подождите...",
+      "processing": "Обработка...",
       "ready": {
-        "csv": "File CSV pronto!",
-        "excel": "File Excel pronto!",
-        "file": "File pronto!",
-        "pdf": "File PDF pronto!",
-        "text": "Pronto!"
+        "csv": "Файл CSV готов!",
+        "excel": "Файл Excel готов!",
+        "file": "Файл готов!",
+        "pdf": "Файл PDF готов!",
+        "text": "Готово!"
       },
       "require": {
-        "internet_connection": "È richiesta una connessione Internet."
+        "internet_connection": "Требуется интернет-соединение."
       },
-      "saving": "Salvataggio in corso...",
-      "search": "Ricerca...",
-      "searching": "Ricerca in corso...",
+      "saving": "Сохранение...",
+      "search": "Поиск...",
+      "searching": "Поиск...",
       "share": {
-        "invite": "Ehi, ho scoperto questa incredibile app che renderà la tua vita più facile. Dai un'occhiata!"
+        "invite": "Привет! Я обнаружил удивительное приложение, которое сделает твою жизнь проще. Проверь его!"
       },
-      "sorry": "Scusa...",
-      "success": "Successo!",
-      "thank_you": "Grazie!",
+      "sorry": "Извините...",
+      "success": "Успешно!",
+      "thank_you": "Спасибо!",
       "try": {
-        "steps_back_online": "Prova questi passaggi per tornare online:"
+        "steps_back_online": "Попробуйте следующие шаги, чтобы вернуться онлайн:"
       },
-      "warning": "Attenzione!",
-      "welcome": "Benvenuto!",
-      "whats_new": "Cosa c'è di nuovo?",
-      "whoops": "Ops!"
+      "warning": "Предупреждение!",
+      "welcome": "Добро пожаловать!",
+      "whats_new": "Что нового?",
+      "whoops": "Упс!"
     },
     "question": {
-      "are_you_sure": "Sei sicuro?",
+      "are_you_sure": "Вы уверены?",
       "export": {
         "data": {
           "as": {
-            "csv": "Vuoi esportare questi dati in formato CSV?",
-            "excel": "Vuoi esportare questi dati in un file Excel?",
-            "pdf": "Vuoi esportare questi dati in formato PDF?",
-            "text": "Vuoi esportare questi dati?"
+            "csv": "Хотите экспортировать эти данные в формате CSV?",
+            "excel": "Хотите экспортировать эти данные в файл Excel?",
+            "pdf": "Хотите экспортировать эти данные в формате PDF?",
+            "text": "Хотите экспортировать эти данные?"
           }
         }
       },
       "generate": {
         "data": {
-          "csv": "Vuoi generare una versione CSV di questi dati?",
-          "excel": "Vuoi generare una versione Excel di questi dati?",
-          "pdf": "Vuoi generare una versione PDF di questi dati?"
+          "csv": "Хотите создать CSV-версию этих данных?",
+          "excel": "Хотите создать версию Excel этих данных?",
+          "pdf": "Хотите создать PDF-версию этих данных?"
         }
       }
     },
     "select": {
-      "country": "Seleziona un paese",
-      "frequency": "Seleziona una frequenza",
-      "method": "Seleziona un metodo"
+      "country": "Выберите страну",
+      "frequency": "Выберите частоту",
+      "method": "Выберите метод"
     },
     "warning": {
-      "offline": "L'applicazione è attualmente in modalità offline, il che significa che i dati potrebbero non essere aggiornati."
+      "offline": "Приложение в настоящее время работает в автономном режиме, что означает, что данные могут быть неактуальны."
+    }
+  }
+};
+static const Map<String,dynamic> zh = {
+  "core": {
+    "error": {
+      "cannot_reach_server": "很抱歉给您带来不便，但目前服务器连接存在问题。请稍后再试。",
+      "error_occurred": {
+        "exclamation": "发生了错误！",
+        "please": "很抱歉，发生了错误。请稍后再试。"
+      },
+      "invalid": {
+        "data": {
+          "period": "数据无效。",
+          "type": "数据类型无效。"
+        },
+        "file_type": "文件类型无效。"
+      },
+      "service": {
+        "unavailable": "服务目前不可用。"
+      }
+    },
+    "help": {
+      "check_your_modem_and_router": "请检查您的调制解调器和路由器。",
+      "ensure": {
+        "app_up_to_date": "请确保应用程序已更新至最新版本。",
+        "internet_restrictions": "确保没有防火墙或网络限制阻止访问服务。"
+      },
+      "issue_persist_contact_support": "如果问题仍然存在，请联系我们的支持团队寻求帮助。",
+      "reconnect_to_your_wifi_network": "请重新连接到您的Wi-Fi网络。",
+      "restart_device_check_connection": "请重新启动您的设备并检查您的互联网连接。",
+      "service": {
+        "not_available_current_location": "服务可能在您当前的位置不可用。",
+        "not_operational": "服务可能目前不在运行状态。请检查其状态或稍后再试访问。"
+      },
+      "several_reasons": "可能有以下几个原因："
+    },
+    "label": {
+      "accept": "接受",
+      "accepted": "已接受",
+      "active": "活跃",
+      "add": "添加",
+      "advanced": "高级",
+      "all": {
+        "female": "全部",
+        "male": "全部",
+        "other": "全部"
+      },
+      "annually": "每年",
+      "approve": "批准",
+      "approved": "已批准",
+      "at": "在",
+      "auto_save": "自动保存",
+      "back": "返回",
+      "badge": "徽章",
+      "behavior": "行为",
+      "button": "按钮",
+      "buy": "购买",
+      "cancel": "取消",
+      "canceled": "已取消",
+      "clear": {
+        "selection": "清除选择",
+        "text": "清除"
+      },
+      "close": {
+        "all": "关闭全部",
+        "others": "关闭其他",
+        "tab": "关闭标签页",
+        "text": "关闭",
+        "window": "关闭窗口"
+      },
+      "collapse": {
+        "all": "全部折叠",
+        "text": "折叠"
+      },
+      "commercial": "商业",
+      "complete": "完成",
+      "completed": "已完成",
+      "confirm": "确认",
+      "confirmation": "确认",
+      "connected": "已连接",
+      "contact": {
+        "support": "联系支持",
+        "us": "联系我们"
+      },
+      "continue": "继续",
+      "copy": "复制",
+      "country": "国家",
+      "cut": "剪切",
+      "daily": "每天",
+      "date": "日期",
+      "default": {
+        "text": "默认",
+        "values": "默认值"
+      },
+      "delete": "删除",
+      "description": "描述",
+      "details": "详细信息",
+      "disabled": "已禁用",
+      "disapprove": "不批准",
+      "disapproved": "未批准",
+      "disconnected": "已断开",
+      "display": "显示",
+      "done": "完成",
+      "download": "下载",
+      "edit": "编辑",
+      "enabled": "已启用",
+      "enter": {
+        "fullscreen": "进入全屏模式",
+        "pip": "进入画中画模式",
+        "text": "进入"
+      },
+      "entries": "入口",
+      "entry": "入口",
+      "error": "错误",
+      "example": "例子",
+      "exit": {
+        "fullscreen": "退出全屏",
+        "pip": "退出画中画",
+        "text": "退出"
+      },
+      "exotics": "异国情调",
+      "expand": {
+        "all": "全部展开",
+        "text": "展开"
+      },
+      "expired": "已过期",
+      "export": {
+        "all": "全部导出",
+        "as": "导出为",
+        "csv": "导出为CSV",
+        "excel": "导出为Excel",
+        "pdf": "导出为PDF",
+        "text": "导出"
+      },
+      "external": "外部",
+      "fast_forward": "快进",
+      "favorites": "收藏",
+      "find": {
+        "and_replace": "查找和替换",
+        "next": "查找下一个",
+        "previous": "查找上一个",
+        "text": "查找"
+      },
+      "follow_us": "关注我们",
+      "frame": "帧",
+      "frequency": "频率",
+      "fullscreen": "全屏",
+      "generate": "生成",
+      "go": "前往",
+      "help": "帮助",
+      "hidden": "隐藏",
+      "hint": "线索",
+      "home": "首页",
+      "import": {
+        "all": "全部导入",
+        "from": "导入自",
+        "text": "导入"
+      },
+      "in_progress": "进行中",
+      "inactive": "不活跃",
+      "incomplete": "未完成",
+      "info": "信息",
+      "inputs": "输入",
+      "install": "安装",
+      "internal": "内部",
+      "internet_connection": "无互联网连接",
+      "invalid": "无效",
+      "learn_more": "了解更多",
+      "loading": "加载中",
+      "local": "本地",
+      "locked": "已锁定",
+      "loop": "循环",
+      "majors": "成年人",
+      "menu": "菜单",
+      "method": "方法",
+      "minors": "未成年人",
+      "missing_rights": "缺少权利",
+      "monthly": "每月",
+      "mute": "静音",
+      "name": "名称",
+      "new": {
+        "bookmark": "新建书签",
+        "document": "新建文档",
+        "file": "新建文件",
+        "folder": "新建文件夹",
+        "note": "新建笔记",
+        "project": "新建项目",
+        "tab": "新建标签页",
+        "text": "新建",
+        "window": "新建窗口",
+        "workspace": "新建工作区"
+      },
+      "next": {
+        "chapter": "下一章",
+        "page": "下一页",
+        "text": "下一项",
+        "track": "下一首"
+      },
+      "no": "否",
+      "no_elements": "没有元素",
+      "no_items": "没有商品",
+      "non_commercial": "非商业",
+      "none": {
+        "female": "无",
+        "male": "无",
+        "other": "无"
+      },
+      "offline": "离线",
+      "offline_mode": "离线模式",
+      "ok": "确定",
+      "online": "在线",
+      "open": {
+        "all": "全部打开",
+        "directory": "打开目录",
+        "file": "打开文件",
+        "in_new": {
+          "tab": "在新标签页打开",
+          "window": "在新窗口打开"
+        },
+        "text": "打开",
+        "url": "打开网址"
+      },
+      "operation": {
+        "canceled": "操作已取消",
+        "completed": "操作已完成",
+        "failed": "操作失败",
+        "in_progress": "操作进行中",
+        "pending": "操作待定",
+        "started": "操作已开始",
+        "succeeded": "操作成功",
+        "text": "操作",
+        "timed_out": "操作超时"
+      },
+      "optional": "可选",
+      "panel": "面板",
+      "paste": "粘贴",
+      "pause": "暂停",
+      "paused": "暂停",
+      "pending": "待定",
+      "perform": "执行",
+      "personal": "个人",
+      "play": "播放",
+      "play_pause": "播放/暂停",
+      "previous": {
+        "chapter": "上一章",
+        "page": "上一页",
+        "text": "上一项",
+        "track": "上一首"
+      },
+      "private": "私有",
+      "public": "公开",
+      "quantity": "数量",
+      "quarterly": "每季度",
+      "question": "问题",
+      "redo": "重做",
+      "refresh": "刷新",
+      "reject": "拒绝",
+      "rejected": "已拒绝",
+      "remote": "远程",
+      "remove": "移除",
+      "repeat": {
+        "all": "全部重复",
+        "none": "不重复",
+        "one": "单曲重复",
+        "text": "重复"
+      },
+      "replace": {
+        "all": "全部替换",
+        "text": "替换"
+      },
+      "replay": "重新播放",
+      "report": {
+        "error": "报告错误",
+        "text": "报告"
+      },
+      "required": "必需",
+      "reset": "重置",
+      "results": "结果",
+      "resumed": "已恢复",
+      "retry": "重试",
+      "rewind": "倒带",
+      "rights_denied": "权利被拒绝",
+      "rights_granted": "权利已授予",
+      "save": {
+        "all": "全部保存",
+        "and": {
+          "close": "保存并关闭",
+          "exit": "保存并退出"
+        },
+        "as": "另存为",
+        "text": "保存"
+      },
+      "saved": "已保存",
+      "search": "搜索",
+      "select": {
+        "all": "全选",
+        "none": "取消选择",
+        "text": "选择"
+      },
+      "selection": "选择",
+      "sell": "出售",
+      "semi_annually": "半年一次",
+      "service_unavailable": "服务不可用",
+      "share": {
+        "app": "分享此应用",
+        "text": "分享"
+      },
+      "shuffle": "随机播放",
+      "skip": {
+        "backward": "快退",
+        "forward": "快进",
+        "next": "跳至下一个",
+        "previous": "跳至上一个",
+        "text": "跳过"
+      },
+      "stop": "停止",
+      "submit": "提交",
+      "success": "成功",
+      "sync": "同步",
+      "synced": "已同步",
+      "template": "模板",
+      "time": {
+        "elapsed": "已过时间",
+        "remaining": "剩余时间",
+        "text": "时间"
+      },
+      "tip": "提示",
+      "toggle": {
+        "all": "全部切换",
+        "text": "切换"
+      },
+      "try": {
+        "again": "再试一次",
+        "later": "稍后再试",
+        "text": "尝试"
+      },
+      "undo": "撤销",
+      "uninstall": "卸载",
+      "unlocked": "已解锁",
+      "unmute": "取消静音",
+      "unsync": "取消同步",
+      "unsynced": "未同步",
+      "update": "更新",
+      "upgrade": {
+        "now": "现在升级",
+        "text": "更新"
+      },
+      "upload": "上传",
+      "user_inputs": "用户输入",
+      "valid": "有效",
+      "visible": "可见",
+      "volume": "音量",
+      "warning": "警告",
+      "watch": {
+        "later": "稍后观看",
+        "now": "立即观看",
+        "text": "观看"
+      },
+      "website": "网站",
+      "weekly": "每周",
+      "yearly": "每年",
+      "yes": "是",
+      "yesterday": "昨天",
+      "zoom": {
+        "in": "放大",
+        "out": "缩小",
+        "reset": "重置缩放",
+        "text": "缩放"
+      }
+    },
+    "message": {
+      "action": {
+        "canceled": "操作已取消。",
+        "completed": "操作已完成。"
+      },
+      "bugs_fixes_improvements": "小错误修复和改进。",
+      "checking_connection": "正在检查连接...",
+      "congratulations": "恭喜！",
+      "copied": "已复制！",
+      "copied_to_clipboard": "已复制到剪贴板！",
+      "copied_value_to_clipboard": "已复制 {value} 到剪贴板！",
+      "dark_mode_support": "支持暗黑模式。",
+      "example": "示例:",
+      "failed_to": {
+        "generate": {
+          "csv": "创建CSV文件时遇到问题。",
+          "excel": "创建Excel文件时遇到问题。",
+          "file": "创建文件时遇到问题。",
+          "pdf": "创建PDF文件时遇到问题。",
+          "text": "创建文本文件时遇到问题。"
+        },
+        "load": {
+          "csv": "加载CSV文件时遇到问题。",
+          "data": "加载数据时遇到问题。",
+          "excel": "加载Excel文件时遇到问题。",
+          "file": "加载文件时遇到问题。",
+          "pdf": "加载PDF文件时遇到问题。",
+          "text": "加载文本文件时遇到问题。"
+        },
+        "perform": {
+          "action": "执行操作时遇到问题。"
+        },
+        "save": {
+          "csv": "保存CSV文件时遇到问题。",
+          "data": "保存数据时遇到问题。",
+          "excel": "保存Excel文件时遇到问题。",
+          "file": "保存文件时遇到问题。",
+          "pdf": "保存PDF文件时遇到问题。",
+          "text": "保存文本文件时遇到问题。"
+        }
+      },
+      "finally": "终于！",
+      "generating": {
+        "csv": "正在生成CSV文件...",
+        "excel": "正在生成Excel文件...",
+        "pdf": "正在生成PDF文件...",
+        "text": "正在生成中..."
+      },
+      "have_wonderful_day": "祝您有美好的一天！",
+      "last_updated_on": "最后更新于{date}",
+      "let_get_started": "让我们开始吧！",
+      "loading": {
+        "data": "正在加载数据...",
+        "pdf": "正在加载PDF...",
+        "text": "加载中..."
+      },
+      "modern_design": "现代外观。",
+      "no": {
+        "results_found": "未找到结果。"
+      },
+      "no_favorites": "无收藏。",
+      "pdf_generated_by": "PDF 由{app_name}生成",
+      "performing": "执行中...",
+      "please_wait": "请稍候...",
+      "processing": "处理中...",
+      "ready": {
+        "csv": "CSV文件准备就绪！",
+        "excel": "Excel文件准备就绪！",
+        "file": "文件准备就绪！",
+        "pdf": "PDF文件准备就绪！",
+        "text": "准备就绪！"
+      },
+      "require": {
+        "internet_connection": "需要互联网连接。"
+      },
+      "saving": "保存中...",
+      "search": "搜索...",
+      "searching": "正在搜索...",
+      "share": {
+        "invite": "嘿，我发现了一个超棒的应用，能让你的生活变得更简单。来看看吧！"
+      },
+      "sorry": "抱歉...",
+      "success": "成功！",
+      "thank_you": "谢谢！",
+      "try": {
+        "steps_back_online": "尝试以下步骤恢复上网："
+      },
+      "warning": "警告！",
+      "welcome": "欢迎！",
+      "whats_new": "有什么新功能？",
+      "whoops": "哎呀！"
+    },
+    "question": {
+      "are_you_sure": "确定吗？",
+      "export": {
+        "data": {
+          "as": {
+            "csv": "您希望将这些数据导出为CSV格式吗？",
+            "excel": "您希望将这些数据导出为Excel文件吗？",
+            "pdf": "您希望将这些数据导出为PDF格式吗？",
+            "text": "您希望导出这些数据吗？"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "您想生成这些数据的CSV版本吗？",
+          "excel": "您想生成这些数据的Excel版本吗？",
+          "pdf": "您想生成这些数据的PDF版本吗？"
+        }
+      }
+    },
+    "select": {
+      "country": "选择一个国家",
+      "frequency": "选择频率",
+      "method": "选择方法"
+    },
+    "warning": {
+      "offline": "该应用当前处于离线模式，这意味着数据可能不是最新的。"
+    }
+  }
+};
+static const Map<String,dynamic> de = {
+  "core": {
+    "error": {
+      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es gibt derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es später erneut.",
+      "error_occurred": {
+        "exclamation": "Ein Fehler ist aufgetreten!",
+        "please": "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+      },
+      "invalid": {
+        "data": {
+          "period": "Ungültige Daten.",
+          "type": "Ungültiger Datentyp."
+        },
+        "file_type": "Ungültiger Dateityp."
+      },
+      "service": {
+        "unavailable": "Der Dienst ist derzeit nicht verfügbar."
+      }
+    },
+    "help": {
+      "check_your_modem_and_router": "Überprüfen Sie Ihr Modem und Ihren Router.",
+      "ensure": {
+        "app_up_to_date": "Stellen Sie sicher, dass die App auf dem neuesten Stand ist.",
+        "internet_restrictions": "Stellen Sie sicher, dass keine Firewall oder Netzwerkeinschränkungen den Zugriff auf den Dienst verhindern."
+      },
+      "issue_persist_contact_support": "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
+      "reconnect_to_your_wifi_network": "Verbinden Sie sich erneut mit Ihrem WLAN-Netzwerk.",
+      "restart_device_check_connection": "Starten Sie Ihr Gerät neu und überprüfen Sie Ihre Internetverbindung.",
+      "service": {
+        "not_available_current_location": "Der Dienst ist möglicherweise an Ihrem aktuellen Standort nicht verfügbar.",
+        "not_operational": "Der Dienst ist möglicherweise derzeit nicht in Betrieb. Bitte überprüfen Sie seinen Status oder versuchen Sie es später erneut."
+      },
+      "several_reasons": "Es könnte mehrere Gründe geben:"
+    },
+    "label": {
+      "accept": "Akzeptieren",
+      "accepted": "Akzeptiert",
+      "active": "Aktiv",
+      "add": "Hinzufügen",
+      "advanced": "Erweitert",
+      "all": {
+        "female": "Alle",
+        "male": "Alle",
+        "other": "Alle"
+      },
+      "annually": "Jährlich",
+      "approve": "Genehmigen",
+      "approved": "Genehmigt",
+      "at": "Bei",
+      "auto_save": "Automatisch speichern",
+      "back": "Zurück",
+      "badge": "Abzeichen",
+      "behavior": "Verhalten",
+      "button": "Knopf",
+      "buy": "Kaufen",
+      "cancel": "Abbrechen",
+      "canceled": "Abgebrochen",
+      "clear": {
+        "selection": "Auswahl löschen",
+        "text": "Löschen"
+      },
+      "close": {
+        "all": "Alle schließen",
+        "others": "Andere schließen",
+        "tab": "Tab schließen",
+        "text": "Schließen",
+        "window": "Fenster schließen"
+      },
+      "collapse": {
+        "all": "Alle zusammenklappen",
+        "text": "Zusammenklappen"
+      },
+      "commercial": "Kommerziell",
+      "complete": "Vollständig",
+      "completed": "Abgeschlossen",
+      "confirm": "Bestätigen",
+      "confirmation": "Bestätigung",
+      "connected": "Verbunden",
+      "contact": {
+        "support": "Support kontaktieren",
+        "us": "Kontaktieren sie uns"
+      },
+      "continue": "Weiter",
+      "copy": "Kopieren",
+      "country": "Land",
+      "cut": "Ausschneiden",
+      "daily": "Täglich",
+      "date": "Datum",
+      "default": {
+        "text": "Standard",
+        "values": "Standardwerte"
+      },
+      "delete": "Löschen",
+      "description": "Beschreibung",
+      "details": "Details",
+      "disabled": "Deaktiviert",
+      "disapprove": "Missbilligen",
+      "disapproved": "Missbilligt",
+      "disconnected": "Getrennt",
+      "display": "Anzeige",
+      "done": "Fertig",
+      "download": "Herunterladen",
+      "edit": "Bearbeiten",
+      "enabled": "Aktiviert",
+      "enter": {
+        "fullscreen": "Vollbildmodus betreten",
+        "pip": "Bild-in-bild betreten",
+        "text": "Betreten"
+      },
+      "entries": "Eingänge",
+      "entry": "Eingang",
+      "error": "Fehler",
+      "example": "Beispiel",
+      "exit": {
+        "fullscreen": "Vollbild beenden",
+        "pip": "Bild-in-bild beenden",
+        "text": "Beenden"
+      },
+      "exotics": "Exotische",
+      "expand": {
+        "all": "Alle erweitern",
+        "text": "Erweitern"
+      },
+      "expired": "Abgelaufen",
+      "export": {
+        "all": "Alle exportieren",
+        "as": "Exportieren als",
+        "csv": "Als CSV exportieren",
+        "excel": "Als Excel exportieren",
+        "pdf": "Als PDF exportieren",
+        "text": "Exportieren"
+      },
+      "external": "Extern",
+      "fast_forward": "Vorwärts spulen",
+      "favorites": "Favoriten",
+      "find": {
+        "and_replace": "Suchen und ersetzen",
+        "next": "Nächste suchen",
+        "previous": "Vorherige suchen",
+        "text": "Suchen"
+      },
+      "follow_us": "Folgen sie uns",
+      "frame": "Rahmen",
+      "frequency": "Häufigkeit",
+      "fullscreen": "Vollbild",
+      "generate": "Generieren",
+      "go": "Gehe zu",
+      "help": "Hilfe",
+      "hidden": "Versteckt",
+      "hint": "Hinweis",
+      "home": "Startseite",
+      "import": {
+        "all": "Alle importieren",
+        "from": "Importieren von",
+        "text": "Importieren"
+      },
+      "in_progress": "In bearbeitung",
+      "inactive": "Inaktiv",
+      "incomplete": "Unvollständig",
+      "info": "Info",
+      "inputs": "Eingaben",
+      "install": "Installieren",
+      "internal": "Intern",
+      "internet_connection": "Keine internetverbindung",
+      "invalid": "Ungültig",
+      "learn_more": "Weitere informationen",
+      "loading": "Wird geladen",
+      "local": "Lokal",
+      "locked": "Gesperrt",
+      "loop": "Schleife",
+      "majors": "Volljährige",
+      "menu": "Menü",
+      "method": "Methode",
+      "minors": "Minderjährige",
+      "missing_rights": "Fehlende rechte",
+      "monthly": "Monatlich",
+      "mute": "Stumm",
+      "name": "Name",
+      "new": {
+        "bookmark": "Neues lesezeichen",
+        "document": "Neues dokument",
+        "file": "Neue datei",
+        "folder": "Neuer ordner",
+        "note": "Neue notiz",
+        "project": "Neues projekt",
+        "tab": "Neuer tab",
+        "text": "Neu",
+        "window": "Neues fenster",
+        "workspace": "Neuer arbeitsbereich"
+      },
+      "next": {
+        "chapter": "Nächstes kapitel",
+        "page": "Nächste seite",
+        "text": "Nächste",
+        "track": "Nächster titel"
+      },
+      "no": "Nein",
+      "no_elements": "Keine elemente",
+      "no_items": "Keine artikel",
+      "non_commercial": "Nicht-kommerziell",
+      "none": {
+        "female": "Keine",
+        "male": "Keine",
+        "other": "Keine"
+      },
+      "offline": "Offline",
+      "offline_mode": "Offline-modus",
+      "ok": "OK",
+      "online": "Online",
+      "open": {
+        "all": "Alle öffnen",
+        "directory": "Verzeichnis öffnen",
+        "file": "Datei öffnen",
+        "in_new": {
+          "tab": "In neuem tab öffnen",
+          "window": "In neuem fenster öffnen"
+        },
+        "text": "Öffnen",
+        "url": "URL öffnen"
+      },
+      "operation": {
+        "canceled": "Vorgang abgebrochen",
+        "completed": "Vorgang abgeschlossen",
+        "failed": "Vorgang fehlgeschlagen",
+        "in_progress": "Vorgang in bearbeitung",
+        "pending": "Vorgang ausstehend",
+        "started": "Vorgang gestartet",
+        "succeeded": "Vorgang erfolgreich",
+        "text": "Vorgang",
+        "timed_out": "Vorgang abgelaufen"
+      },
+      "optional": "Optional",
+      "panel": "Panel",
+      "paste": "Einfügen",
+      "pause": "Pause",
+      "paused": "Pausiert",
+      "pending": "Ausstehend",
+      "perform": "Ausführen",
+      "personal": "Persönlich",
+      "play": "Wiedergabe",
+      "play_pause": "Wiedergabe/Pause",
+      "previous": {
+        "chapter": "Vorheriges kapitel",
+        "page": "Vorherige seite",
+        "text": "Vorherige",
+        "track": "Vorheriger titel"
+      },
+      "private": "Privat",
+      "public": "Öffentlich",
+      "quantity": "Menge",
+      "quarterly": "Vierteljährlich",
+      "question": "Frage",
+      "redo": "Wiederholen",
+      "refresh": "Aktualisieren",
+      "reject": "Ablehnen",
+      "rejected": "Abgelehnt",
+      "remote": "Fern",
+      "remove": "Entfernen",
+      "repeat": {
+        "all": "Alle wiederholen",
+        "none": "Keine wiederholung",
+        "one": "Einzelnes wiederholen",
+        "text": "Wiederholung"
+      },
+      "replace": {
+        "all": "Alle ersetzen",
+        "text": "Ersetzen"
+      },
+      "replay": "Erneut abspielen",
+      "report": {
+        "error": "Fehler melden",
+        "text": "Bericht"
+      },
+      "required": "Erforderlich",
+      "reset": "Zurücksetzen",
+      "results": "Ergebnisse",
+      "resumed": "Fortgesetzt",
+      "retry": "Erneut versuchen",
+      "rewind": "Zurückspulen",
+      "rights_denied": "Rechte verweigert",
+      "rights_granted": "Rechte gewährt",
+      "save": {
+        "all": "Alle speichern",
+        "and": {
+          "close": "Speichern und schließen",
+          "exit": "Speichern und beenden"
+        },
+        "as": "Speichern als",
+        "text": "Speichern"
+      },
+      "saved": "Gespeichert",
+      "search": "Suche",
+      "select": {
+        "all": "Alle auswählen",
+        "none": "Keine auswählen",
+        "text": "Auswählen"
+      },
+      "selection": "Auswahl",
+      "sell": "Verkaufen",
+      "semi_annually": "Halbjährlich",
+      "service_unavailable": "Dienst nicht verfügbar",
+      "share": {
+        "app": "Diese app teilen",
+        "text": "Teilen"
+      },
+      "shuffle": "Zufällige wiedergabe",
+      "skip": {
+        "backward": "Rückwärts überspringen",
+        "forward": "Vorwärts überspringen",
+        "next": "Nächster überspringen",
+        "previous": "Vorheriger überspringen",
+        "text": "Überspringen"
+      },
+      "stop": "Stop",
+      "submit": "Senden",
+      "success": "Erfolg",
+      "sync": "Synchronisieren",
+      "synced": "Synchronisiert",
+      "template": "Vorlage",
+      "time": {
+        "elapsed": "Verstrichene zeit",
+        "remaining": "Verbleibende zeit",
+        "text": "Zeit"
+      },
+      "tip": "Tipp",
+      "toggle": {
+        "all": "Alle umschalten",
+        "text": "Umschalten"
+      },
+      "try": {
+        "again": "Erneut versuchen",
+        "later": "Später versuchen",
+        "text": "Versuchen"
+      },
+      "undo": "Rückgängig machen",
+      "uninstall": "Deinstallieren",
+      "unlocked": "Entsperrt",
+      "unmute": "Ton an",
+      "unsync": "Desynchronisieren",
+      "unsynced": "Nicht synchronisiert",
+      "update": "Aktualisieren",
+      "upgrade": {
+        "now": "Jetzt aktualisieren",
+        "text": "Aktualisieren"
+      },
+      "upload": "Hochladen",
+      "user_inputs": "Benutzereingaben",
+      "valid": "Gültig",
+      "visible": "Sichtbar",
+      "volume": "Lautstärke",
+      "warning": "Warnung",
+      "watch": {
+        "later": "Später ansehen",
+        "now": "Jetzt ansehen",
+        "text": "Ansehen"
+      },
+      "website": "Webseite",
+      "weekly": "Wöchentlich",
+      "yearly": "Jährlich",
+      "yes": "Ja",
+      "yesterday": "Gestern",
+      "zoom": {
+        "in": "Hineinzoomen",
+        "out": "Herauszoomen",
+        "reset": "Zoom zurücksetzen",
+        "text": "Zoom"
+      }
+    },
+    "message": {
+      "action": {
+        "canceled": "Aktion abgebrochen.",
+        "completed": "Aktion abgeschlossen."
+      },
+      "bugs_fixes_improvements": "Kleinere Fehlerbehebungen und Verbesserungen.",
+      "checking_connection": "Verbindungsprüfung...",
+      "congratulations": "Herzlichen Glückwunsch!",
+      "copied": "Kopiert!",
+      "copied_to_clipboard": "In die Zwischenablage kopiert!",
+      "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
+      "dark_mode_support": "Unterstützung für den Dunkelmodus.",
+      "example": "Beispiel:",
+      "failed_to": {
+        "generate": {
+          "csv": "Beim Erstellen der CSV-Datei ist ein Problem aufgetreten.",
+          "excel": "Beim Erstellen der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Erstellen der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Erstellen der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Erstellen der Textdatei ist ein Problem aufgetreten."
+        },
+        "load": {
+          "csv": "Beim Laden der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Laden der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Laden der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Laden der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Laden der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Laden der Textdatei ist ein Problem aufgetreten."
+        },
+        "perform": {
+          "action": "Beim Durchführen der Aktion ist ein Problem aufgetreten."
+        },
+        "save": {
+          "csv": "Beim Speichern der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Speichern der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Speichern der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Speichern der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Speichern der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Speichern der Textdatei ist ein Problem aufgetreten."
+        }
+      },
+      "finally": "Endlich!",
+      "generating": {
+        "csv": "CSV-Datei wird erstellt...",
+        "excel": "Excel-Datei wird erstellt...",
+        "pdf": "PDF-Datei wird erstellt...",
+        "text": "Erstellung läuft..."
+      },
+      "have_wonderful_day": "Einen wundervollen Tag!",
+      "last_updated_on": "Zuletzt aktualisiert am {date}",
+      "let_get_started": "Lassen Sie uns beginnen!",
+      "loading": {
+        "data": "Daten werden geladen...",
+        "pdf": "PDF wird geladen...",
+        "text": "Wird geladen..."
+      },
+      "modern_design": "Modernes Design.",
+      "no": {
+        "results_found": "Keine Ergebnisse gefunden."
+      },
+      "no_favorites": "Keine Favoriten.",
+      "pdf_generated_by": "PDF generiert von {app_name}",
+      "performing": "Wird durchgeführt...",
+      "please_wait": "Bitte warten...",
+      "processing": "Wird verarbeitet...",
+      "ready": {
+        "csv": "CSV-Datei fertig!",
+        "excel": "Excel-Datei fertig!",
+        "file": "Datei fertig!",
+        "pdf": "PDF-Datei fertig!",
+        "text": "Fertig!"
+      },
+      "require": {
+        "internet_connection": "Eine Internetverbindung wird benötigt."
+      },
+      "saving": "Speichern...",
+      "search": "Suche...",
+      "searching": "Suche läuft...",
+      "share": {
+        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
+      },
+      "sorry": "Entschuldigung...",
+      "success": "Erfolg!",
+      "thank_you": "Vielen Dank!",
+      "try": {
+        "steps_back_online": "Versuchen Sie diese Schritte, um wieder online zu gehen:"
+      },
+      "warning": "Achtung!",
+      "welcome": "Willkommen!",
+      "whats_new": "Was gibt's Neues?",
+      "whoops": "Hoppla!"
+    },
+    "question": {
+      "are_you_sure": "Sind Sie sicher?",
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Möchten Sie diese Daten als CSV exportieren?",
+            "excel": "Möchten Sie diese Daten als Excel-Datei exportieren?",
+            "pdf": "Möchten Sie diese Daten als PDF exportieren?",
+            "text": "Möchten Sie diese Daten exportieren?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Möchten Sie eine CSV-Version dieser Daten erstellen?",
+          "excel": "Möchten Sie eine Excel-Version dieser Daten erstellen?",
+          "pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
+        }
+      }
+    },
+    "select": {
+      "country": "Wählen Sie ein Land",
+      "frequency": "Wählen Sie eine Häufigkeit",
+      "method": "Wählen Sie eine Methode"
+    },
+    "warning": {
+      "offline": "Die Anwendung arbeitet derzeit im Offline-Modus. Die Daten sind möglicherweise nicht auf dem neuesten Stand."
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
+  "core": {
+    "error": {
+      "cannot_reach_server": "ご迷惑をおかけして申し訳ございませんが、現在サーバーとの接続に問題があります。後ほど再度お試しください。",
+      "error_occurred": {
+        "exclamation": "エラーが発生しました！",
+        "please": "申し訳ございません、エラーが発生しました。後ほど再度お試しください。"
+      },
+      "invalid": {
+        "data": {
+          "period": "無効なデータ。",
+          "type": "無効なデータタイプ。"
+        },
+        "file_type": "無効なファイルタイプ。"
+      },
+      "service": {
+        "unavailable": "サービスは現在利用できません。"
+      }
+    },
+    "help": {
+      "check_your_modem_and_router": "モデムとルーターを確認してください。",
+      "ensure": {
+        "app_up_to_date": "アプリが最新であることを確認してください。",
+        "internet_restrictions": "ファイアウォールやネットワークの制限がサービスへのアクセスを妨げていないことを確認してください。"
+      },
+      "issue_persist_contact_support": "問題が解決しない場合は、サポートチームにお問い合わせください。",
+      "reconnect_to_your_wifi_network": "Wi-Fiネットワークに再接続してください。",
+      "restart_device_check_connection": "デバイスを再起動し、インターネット接続を確認してください。",
+      "service": {
+        "not_available_current_location": "現在の場所ではサービスを利用できない場合があります。",
+        "not_operational": "サービスが現在稼働していない場合があります。その状態を確認するか、後ほど再度アクセスしてみてください。"
+      },
+      "several_reasons": "いくつかの原因が考えられます："
+    },
+    "label": {
+      "accept": "受け入れる",
+      "accepted": "受け入れられた",
+      "active": "アクティブ",
+      "add": "追加",
+      "advanced": "高度な設定",
+      "all": {
+        "female": "全て",
+        "male": "全て",
+        "other": "全て"
+      },
+      "annually": "毎年",
+      "approve": "承認",
+      "approved": "承認済み",
+      "at": "場所",
+      "auto_save": "自動保存",
+      "back": "戻る",
+      "badge": "バッジ",
+      "behavior": "動作",
+      "button": "ボタン",
+      "buy": "購入",
+      "cancel": "キャンセル",
+      "canceled": "キャンセル",
+      "clear": {
+        "selection": "選択のクリア",
+        "text": "クリア"
+      },
+      "close": {
+        "all": "すべてを閉じる",
+        "others": "他を閉じる",
+        "tab": "タブを閉じる",
+        "text": "閉じる",
+        "window": "ウィンドウを閉じる"
+      },
+      "collapse": {
+        "all": "すべて折りたたむ",
+        "text": "折りたたむ"
+      },
+      "commercial": "商業的",
+      "complete": "完了",
+      "completed": "完了した",
+      "confirm": "確認",
+      "confirmation": "確認",
+      "connected": "接続済み",
+      "contact": {
+        "support": "サポートにお問い合わせ",
+        "us": "お問い合わせ"
+      },
+      "continue": "続ける",
+      "copy": "コピー",
+      "country": "国",
+      "cut": "カット",
+      "daily": "毎日",
+      "date": "日付",
+      "default": {
+        "text": "デフォルト",
+        "values": "デフォルト値"
+      },
+      "delete": "削除",
+      "description": "説明",
+      "details": "詳細",
+      "disabled": "無効",
+      "disapprove": "不承認",
+      "disapproved": "不承認",
+      "disconnected": "未接続",
+      "display": "表示",
+      "done": "完了",
+      "download": "ダウンロード",
+      "edit": "編集",
+      "enabled": "有効",
+      "enter": {
+        "fullscreen": "フルスクリーンに入る",
+        "pip": "ピクチャ・イン・ピクチャに入る",
+        "text": "入る"
+      },
+      "entries": "エントリー",
+      "entry": "エントリー",
+      "error": "エラー",
+      "example": "例",
+      "exit": {
+        "fullscreen": "フルスクリーンを終了",
+        "pip": "ピクチャ・イン・ピクチャを終了",
+        "text": "終了"
+      },
+      "exotics": "エキゾチック",
+      "expand": {
+        "all": "すべて展開",
+        "text": "展開"
+      },
+      "expired": "期限切れ",
+      "export": {
+        "all": "すべてエクスポート",
+        "as": "としてエクスポート",
+        "csv": "CSVとしてエクスポート",
+        "excel": "Excelとしてエクスポート",
+        "pdf": "PDFとしてエクスポート",
+        "text": "エクスポート"
+      },
+      "external": "外部",
+      "fast_forward": "早送り",
+      "favorites": "お気に入り",
+      "find": {
+        "and_replace": "検索と置換",
+        "next": "次を検索",
+        "previous": "前を検索",
+        "text": "検索"
+      },
+      "follow_us": "フォローする",
+      "frame": "フレーム",
+      "frequency": "頻度",
+      "fullscreen": "フルスクリーン",
+      "generate": "生成",
+      "go": "移動",
+      "help": "ヘルプ",
+      "hidden": "非表示",
+      "hint": "手がかり",
+      "home": "ホーム",
+      "import": {
+        "all": "すべてインポート",
+        "from": "からインポート",
+        "text": "インポート"
+      },
+      "in_progress": "進行中",
+      "inactive": "非アクティブ",
+      "incomplete": "不完全",
+      "info": "情報",
+      "inputs": "入力",
+      "install": "インストール",
+      "internal": "内部",
+      "internet_connection": "インターネット接続がありません",
+      "invalid": "無効",
+      "learn_more": "詳細を確認",
+      "loading": "読み込み中",
+      "local": "ローカル",
+      "locked": "ロックされた",
+      "loop": "ループ",
+      "majors": "成人",
+      "menu": "メニュー",
+      "method": "メソッド",
+      "minors": "未成年",
+      "missing_rights": "権限がありません",
+      "monthly": "毎月",
+      "mute": "ミュート",
+      "name": "名前",
+      "new": {
+        "bookmark": "新しいブックマーク",
+        "document": "新しいドキュメント",
+        "file": "新しいファイル",
+        "folder": "新しいフォルダー",
+        "note": "新しいノート",
+        "project": "新しいプロジェクト",
+        "tab": "新しいタブ",
+        "text": "新規",
+        "window": "新しいウィンドウ",
+        "workspace": "新しいワークスペース"
+      },
+      "next": {
+        "chapter": "次の章",
+        "page": "次のページ",
+        "text": "次へ",
+        "track": "次のトラック"
+      },
+      "no": "いいえ",
+      "no_elements": "要素なし",
+      "no_items": "アイテムなし",
+      "non_commercial": "非商業的",
+      "none": {
+        "female": "なし",
+        "male": "なし",
+        "other": "なし"
+      },
+      "offline": "オフライン",
+      "offline_mode": "オフラインモード",
+      "ok": "OK",
+      "online": "オンライン",
+      "open": {
+        "all": "すべて開く",
+        "directory": "ディレクトリを開く",
+        "file": "ファイルを開く",
+        "in_new": {
+          "tab": "新しいタブで開く",
+          "window": "新しいウィンドウで開く"
+        },
+        "text": "開く",
+        "url": "URLを開く"
+      },
+      "operation": {
+        "canceled": "操作がキャンセルされました",
+        "completed": "操作が完了しました",
+        "failed": "操作が失敗しました",
+        "in_progress": "操作中",
+        "pending": "操作待ち",
+        "started": "操作を開始しました",
+        "succeeded": "操作が成功しました",
+        "text": "操作",
+        "timed_out": "操作がタイムアウトしました"
+      },
+      "optional": "任意",
+      "panel": "パネル",
+      "paste": "ペースト",
+      "pause": "一時停止",
+      "paused": "一時停止",
+      "pending": "保留中",
+      "perform": "実行",
+      "personal": "個人",
+      "play": "再生",
+      "play_pause": "再生/一時停止",
+      "previous": {
+        "chapter": "前の章",
+        "page": "前のページ",
+        "text": "前へ",
+        "track": "前のトラック"
+      },
+      "private": "非公開",
+      "public": "公開",
+      "quantity": "数量",
+      "quarterly": "四半期ごとに",
+      "question": "質問",
+      "redo": "やり直す",
+      "refresh": "リフレッシュ",
+      "reject": "拒否",
+      "rejected": "拒否された",
+      "remote": "リモート",
+      "remove": "削除",
+      "repeat": {
+        "all": "すべてを繰り返す",
+        "none": "繰り返さない",
+        "one": "1つを繰り返す",
+        "text": "リピート"
+      },
+      "replace": {
+        "all": "すべて置換",
+        "text": "置換"
+      },
+      "replay": "リプレイ",
+      "report": {
+        "error": "エラーを報告する",
+        "text": "レポート"
+      },
+      "required": "必須",
+      "reset": "リセット",
+      "results": "結果",
+      "resumed": "再開",
+      "retry": "再試行",
+      "rewind": "巻き戻し",
+      "rights_denied": "権限拒否",
+      "rights_granted": "権限付与",
+      "save": {
+        "all": "すべて保存",
+        "and": {
+          "close": "保存して閉じる",
+          "exit": "保存して終了"
+        },
+        "as": "名前を付けて保存",
+        "text": "保存"
+      },
+      "saved": "保存済み",
+      "search": "検索",
+      "select": {
+        "all": "すべて選択",
+        "none": "選択解除",
+        "text": "選択"
+      },
+      "selection": "選択",
+      "sell": "売却",
+      "semi_annually": "半年ごとに",
+      "service_unavailable": "サービス利用不可",
+      "share": {
+        "app": "このアプリを共有",
+        "text": "共有"
+      },
+      "shuffle": "シャッフル再生",
+      "skip": {
+        "backward": "後ろへスキップ",
+        "forward": "前へスキップ",
+        "next": "次をスキップ",
+        "previous": "前をスキップ",
+        "text": "スキップ"
+      },
+      "stop": "停止",
+      "submit": "送信",
+      "success": "成功",
+      "sync": "同期",
+      "synced": "同期済み",
+      "template": "テンプレート",
+      "time": {
+        "elapsed": "経過時間",
+        "remaining": "残り時間",
+        "text": "時間"
+      },
+      "tip": "ヒント",
+      "toggle": {
+        "all": "すべて切り替え",
+        "text": "切り替え"
+      },
+      "try": {
+        "again": "再試行",
+        "later": "後で試す",
+        "text": "試す"
+      },
+      "undo": "元に戻す",
+      "uninstall": "アンインストール",
+      "unlocked": "ロック解除",
+      "unmute": "ミュート解除",
+      "unsync": "同期解除",
+      "unsynced": "非同期",
+      "update": "更新",
+      "upgrade": {
+        "now": "今すぐアップグレード",
+        "text": "アップグレード"
+      },
+      "upload": "アップロード",
+      "user_inputs": "ユーザー入力",
+      "valid": "有効",
+      "visible": "表示",
+      "volume": "音量",
+      "warning": "警告",
+      "watch": {
+        "later": "後で見る",
+        "now": "今すぐ見る",
+        "text": "見る"
+      },
+      "website": "ウェブサイト",
+      "weekly": "毎週",
+      "yearly": "毎年",
+      "yes": "はい",
+      "yesterday": "昨日",
+      "zoom": {
+        "in": "ズームイン",
+        "out": "ズームアウト",
+        "reset": "ズームリセット",
+        "text": "ズーム"
+      }
+    },
+    "message": {
+      "action": {
+        "canceled": "アクションがキャンセルされました。",
+        "completed": "アクションが完了しました。"
+      },
+      "bugs_fixes_improvements": "マイナーなバグ修正と改善。",
+      "checking_connection": "接続確認中...",
+      "congratulations": "おめでとうございます！",
+      "copied": "コピーしました！",
+      "copied_to_clipboard": "クリップボードにコピーしました！",
+      "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
+      "dark_mode_support": "ダークモードのサポート。",
+      "example": "例:",
+      "failed_to": {
+        "generate": {
+          "csv": "CSVファイルの作成中に問題が発生しました。",
+          "excel": "Excelファイルの作成中に問題が発生しました。",
+          "file": "ファイルの作成中に問題が発生しました。",
+          "pdf": "PDFファイルの作成中に問題が発生しました。",
+          "text": "テキストファイルの作成中に問題が発生しました。"
+        },
+        "load": {
+          "csv": "CSVファイルの読み込み中に問題が発生しました。",
+          "data": "データの読み込み中に問題が発生しました。",
+          "excel": "Excelファイルの読み込み中に問題が発生しました。",
+          "file": "ファイルの読み込み中に問題が発生しました。",
+          "pdf": "PDFファイルの読み込み中に問題が発生しました。",
+          "text": "テキストファイルの読み込み中に問題が発生しました。"
+        },
+        "perform": {
+          "action": "操作の実行中に問題が発生しました。"
+        },
+        "save": {
+          "csv": "CSVファイルの保存中に問題が発生しました。",
+          "data": "データの保存中に問題が発生しました。",
+          "excel": "Excelファイルの保存中に問題が発生しました。",
+          "file": "ファイルの保存中に問題が発生しました。",
+          "pdf": "PDFファイルの保存中に問題が発生しました。",
+          "text": "テキストファイルの保存中に問題が発生しました。"
+        }
+      },
+      "finally": "ついに！",
+      "generating": {
+        "csv": "CSVファイル生成中...",
+        "excel": "Excelファイル生成中...",
+        "pdf": "PDFファイル生成中...",
+        "text": "生成進行中..."
+      },
+      "have_wonderful_day": "素敵な一日を！",
+      "last_updated_on": "{date} に最終更新",
+      "let_get_started": "はじめましょう！",
+      "loading": {
+        "data": "データを読み込み中...",
+        "pdf": "PDFを読み込み中...",
+        "text": "読み込み中..."
+      },
+      "modern_design": "モダンなデザイン。",
+      "no": {
+        "results_found": "結果が見つかりませんでした。"
+      },
+      "no_favorites": "お気に入りはありません。",
+      "pdf_generated_by": "{app_name} によって生成されたPDF",
+      "performing": "実行中...",
+      "please_wait": "お待ちください...",
+      "processing": "処理中...",
+      "ready": {
+        "csv": "CSVファイル準備完了!",
+        "excel": "Excelファイル準備完了!",
+        "file": "ファイル準備完了!",
+        "pdf": "PDFファイル準備完了!",
+        "text": "準備完了!"
+      },
+      "require": {
+        "internet_connection": "インターネット接続が必要です。"
+      },
+      "saving": "保存中...",
+      "search": "検索...",
+      "searching": "検索中...",
+      "share": {
+        "invite": "こんにちは、すごいアプリを見つけました。人生を簡単にしてくれるよ。チェックしてみて！"
+      },
+      "sorry": "申し訳ありません...",
+      "success": "成功しました！",
+      "thank_you": "ありがとうございます！",
+      "try": {
+        "steps_back_online": "オンラインに戻るためのこれらの手順をお試しください:"
+      },
+      "warning": "警告！",
+      "welcome": "ようこそ！",
+      "whats_new": "新機能のご紹介",
+      "whoops": "おっと！"
+    },
+    "question": {
+      "are_you_sure": "本当によろしいですか？",
+      "export": {
+        "data": {
+          "as": {
+            "csv": "このデータをCSVとしてエクスポートしますか？",
+            "excel": "このデータをExcelファイルとしてエクスポートしますか？",
+            "pdf": "このデータをPDFとしてエクスポートしますか？",
+            "text": "このデータをエクスポートしますか？"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "このデータのCSVバージョンを生成しますか？",
+          "excel": "このデータのExcelバージョンを生成しますか？",
+          "pdf": "このデータのPDFバージョンを生成しますか？"
+        }
+      }
+    },
+    "select": {
+      "country": "国を選択してください",
+      "frequency": "頻度を選択",
+      "method": "方法を選択"
+    },
+    "warning": {
+      "offline": "アプリは現在オフラインモードで動作しています。データが最新でない場合があります。"
     }
   }
 };
@@ -4421,5 +4421,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "it": it, "en": en, "ru": ru, "zh": zh, "de": de, "ja": ja, "fr": fr, "es": es};
 }

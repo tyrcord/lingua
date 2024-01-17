@@ -2,6 +2,7 @@
   "units": {
     "label": {
       "barrel": "баррель",
+      "bushel": "бушель",
       "count": {
         "barrel": {
           "few": "{} барреля",
@@ -38,6 +39,7 @@
       "mmbtu": "MMBtu",
       "ounce": "унция",
       "pound": "фунт",
+      "ton": "тонна",
       "unit": "Единица"
     }
   }

@@ -11,48 +11,21 @@ class HelpCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> zh = {
-  "help": {
-    "label": {
-      "instructions": "说明",
-      "manual": "手册",
-      "manuals": "手册"
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "help": {
-    "label": {
-      "instructions": "指示",
-      "manual": "マニュアル",
-      "manuals": "マニュアル集"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "help": {
-    "label": {
-      "instructions": "Anweisungen",
-      "manual": "Handbuch",
-      "manuals": "Handbücher"
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "help": {
-    "label": {
-      "instructions": "Инструкции",
-      "manual": "Руководство",
-      "manuals": "Руководства"
-    }
-  }
-};
-static const Map<String,dynamic> pt = {
+  static const Map<String,dynamic> pt = {
   "help": {
     "label": {
       "instructions": "Instruções",
       "manual": "Manual",
       "manuals": "Manuais"
+    }
+  }
+};
+static const Map<String,dynamic> it = {
+  "help": {
+    "label": {
+      "instructions": "Istruzioni",
+      "manual": "Manuale",
+      "manuals": "Manuali"
     }
   }
 };
@@ -65,12 +38,39 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> ru = {
   "help": {
     "label": {
-      "instructions": "Istruzioni",
-      "manual": "Manuale",
-      "manuals": "Manuali"
+      "instructions": "Инструкции",
+      "manual": "Руководство",
+      "manuals": "Руководства"
+    }
+  }
+};
+static const Map<String,dynamic> zh = {
+  "help": {
+    "label": {
+      "instructions": "说明",
+      "manual": "手册",
+      "manuals": "手册"
+    }
+  }
+};
+static const Map<String,dynamic> de = {
+  "help": {
+    "label": {
+      "instructions": "Anweisungen",
+      "manual": "Handbuch",
+      "manuals": "Handbücher"
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
+  "help": {
+    "label": {
+      "instructions": "指示",
+      "manual": "マニュアル",
+      "manuals": "マニュアル集"
     }
   }
 };
@@ -92,5 +92,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "it": it, "en": en, "ru": ru, "zh": zh, "de": de, "ja": ja, "fr": fr, "es": es};
 }

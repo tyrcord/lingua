@@ -2,6 +2,7 @@
   "units": {
     "label": {
       "barrel": "桶",
+      "bushel": "蒲式耳",
       "count": {
         "barrel": {
           "few": "{} 桶",
@@ -38,6 +39,7 @@
       "mmbtu": "MMBtu",
       "ounce": "盎司",
       "pound": "磅",
+      "ton": "吨",
       "unit": "单位"
     }
   }

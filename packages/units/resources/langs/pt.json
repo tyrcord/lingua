@@ -2,6 +2,7 @@
   "units": {
     "label": {
       "barrel": "barril",
+      "bushel": "bushel",
       "count": {
         "barrel": {
           "few": "{} barris",
@@ -38,6 +39,7 @@
       "mmbtu": "MMBtu",
       "ounce": "oz",
       "pound": "lb",
+      "ton": "tonelada",
       "unit": "Unidade"
     }
   }

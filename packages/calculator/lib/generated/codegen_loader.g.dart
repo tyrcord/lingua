@@ -11,63 +11,7 @@ class CalculatorCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> zh = {
-  "calculator": {
-    "label": {
-      "breakdown": "细分",
-      "calculator": "计算器",
-      "calculators": "计算器",
-      "results": "结果"
-    },
-    "title": {
-      "instructions": "使用此计算器的说明",
-      "results": "有关结果的信息"
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "calculator": {
-    "label": {
-      "breakdown": "内訳",
-      "calculator": "電卓",
-      "calculators": "電卓",
-      "results": "結果"
-    },
-    "title": {
-      "instructions": "この計算機の使用方法",
-      "results": "結果に関する情報"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "calculator": {
-    "label": {
-      "breakdown": "Aufschlüsselung",
-      "calculator": "Rechner",
-      "calculators": "Rechner",
-      "results": "Ergebnisse"
-    },
-    "title": {
-      "instructions": "Anleitung zur Verwendung dieses Rechners",
-      "results": "Informationen zu den Ergebnissen"
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "calculator": {
-    "label": {
-      "breakdown": "Разбивка",
-      "calculator": "Калькулятор",
-      "calculators": "Калькуляторы",
-      "results": "Результаты"
-    },
-    "title": {
-      "instructions": "Инструкции по использованию этого Калькулятора",
-      "results": "Информация о результатах"
-    }
-  }
-};
-static const Map<String,dynamic> pt = {
+  static const Map<String,dynamic> pt = {
   "calculator": {
     "label": {
       "breakdown": "Desdobramento",
@@ -78,6 +22,20 @@ static const Map<String,dynamic> pt = {
     "title": {
       "instructions": "Instruções para utilizar esta Calculadora",
       "results": "Informações sobre os resultados"
+    }
+  }
+};
+static const Map<String,dynamic> it = {
+  "calculator": {
+    "label": {
+      "breakdown": "Suddivisione",
+      "calculator": "Calcolatrice",
+      "calculators": "Calcolatrici",
+      "results": "Risultati"
+    },
+    "title": {
+      "instructions": "Istruzioni per l'uso di questa Calcolatrice",
+      "results": "Informazioni sui risultati"
     }
   }
 };
@@ -95,17 +53,59 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> ru = {
   "calculator": {
     "label": {
-      "breakdown": "Suddivisione",
-      "calculator": "Calcolatrice",
-      "calculators": "Calcolatrici",
-      "results": "Risultati"
+      "breakdown": "Разбивка",
+      "calculator": "Калькулятор",
+      "calculators": "Калькуляторы",
+      "results": "Результаты"
     },
     "title": {
-      "instructions": "Istruzioni per l'uso di questa Calcolatrice",
-      "results": "Informazioni sui risultati"
+      "instructions": "Инструкции по использованию этого Калькулятора",
+      "results": "Информация о результатах"
+    }
+  }
+};
+static const Map<String,dynamic> zh = {
+  "calculator": {
+    "label": {
+      "breakdown": "细分",
+      "calculator": "计算器",
+      "calculators": "计算器",
+      "results": "结果"
+    },
+    "title": {
+      "instructions": "使用此计算器的说明",
+      "results": "有关结果的信息"
+    }
+  }
+};
+static const Map<String,dynamic> de = {
+  "calculator": {
+    "label": {
+      "breakdown": "Aufschlüsselung",
+      "calculator": "Rechner",
+      "calculators": "Rechner",
+      "results": "Ergebnisse"
+    },
+    "title": {
+      "instructions": "Anleitung zur Verwendung dieses Rechners",
+      "results": "Informationen zu den Ergebnissen"
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
+  "calculator": {
+    "label": {
+      "breakdown": "内訳",
+      "calculator": "電卓",
+      "calculators": "電卓",
+      "results": "結果"
+    },
+    "title": {
+      "instructions": "この計算機の使用方法",
+      "results": "結果に関する情報"
     }
   }
 };
@@ -137,5 +137,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "ru": ru, "pt": pt, "en": en, "it": it, "fr": fr, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "it": it, "en": en, "ru": ru, "zh": zh, "de": de, "ja": ja, "fr": fr, "es": es};
 }
