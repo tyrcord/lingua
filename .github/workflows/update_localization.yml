@@ -23,13 +23,13 @@ jobs:
       - name: Precache Flutter
         run: flutter precache --ios
 
-      # Install Melos
-      - name: Install and set Melos version
-        uses: bluefireteam/melos-action@v3
-
       # Checkout the repository
       - name: Checkout the code
         uses: actions/checkout@v4
+
+      # Install Melos
+      - name: Install and set Melos version
+        uses: bluefireteam/melos-action@v3
 
       # Install dependencies
       - name: Install dependencies
