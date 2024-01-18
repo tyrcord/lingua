@@ -1,6 +1,6 @@
 name: lingua_purchases
 description: Library for internal purchases localization.
-version: 0.0.20
+version: 0.0.21
 repository: https://github.com/tyrcord/lingua/tree/main/packages/purchases
 
 environment:
@@ -17,4 +17,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.1
-  lingua_core: ^0.0.34
+  lingua_core: ^0.0.35

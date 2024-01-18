@@ -1,3 +1,51 @@
+## 0.0.32
+
+ - **FIX**: publish issue.
+ - **FIX**: generate script.
+ - **FIX**: localization.
+ - **FIX**: localizations.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localizations.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update finance localization.
+ - **FEAT**: update finance localization.
+ - **FEAT**: update finance localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance package.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update finance.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+
 ## 0.0.31
 
  - **FEAT**: update localization.

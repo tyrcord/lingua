@@ -1,3 +1,20 @@
+## 0.0.11
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: add toOrdinal helper.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: add number package.
+
 ## 0.0.10+2
 
  - Update a dependency to the latest release.

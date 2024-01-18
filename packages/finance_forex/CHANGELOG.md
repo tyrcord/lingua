@@ -1,3 +1,18 @@
+## 0.0.12
+
+ - **FIX**: generate script.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: update localization.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: add new packages.
+
 ## 0.0.11
 
  - **FEAT**: clean up.

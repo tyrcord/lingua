@@ -1,6 +1,6 @@
 name: lingua_number
 description: Library for internal numbers localization.
-version: 0.0.10+2
+version: 0.0.11
 repository: https://github.com/tyrcord/lingua/tree/main/packages/number
 
 environment:
@@ -13,7 +13,7 @@ dependencies:
 
   easy_localization: ^3.0.3
 
-  lingua_core: ^0.0.34
+  lingua_core: ^0.0.35
 
 dev_dependencies:
   flutter_test:

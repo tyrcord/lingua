@@ -1,3 +1,16 @@
+## 0.0.9
+
+ - **FIX**: generate script.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance instrument localization.
+
 ## 0.0.8
 
  - **FEAT**: update localization.

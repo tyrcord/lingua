@@ -1,6 +1,6 @@
 name: lingua_units
 description: Library for internal units localization.
-version: 0.0.7
+version: 0.0.8
 repository: https://github.com/tyrcord/lingua/tree/main/packages/units
 
 environment:
@@ -20,4 +20,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.1
-  lingua_core: ^0.0.34
+  lingua_core: ^0.0.35

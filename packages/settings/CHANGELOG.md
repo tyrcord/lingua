@@ -1,3 +1,27 @@
+## 0.0.16
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: typos.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance package.
+ - **FEAT**(settings): update localization.
+ - **FEAT**(settings): update localization.
+ - **FEAT**: add settings localizations.
+
 ## 0.0.15
 
  - **FEAT**: update localization.

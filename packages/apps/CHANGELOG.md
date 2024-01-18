@@ -1,3 +1,16 @@
+## 0.0.11
+
+ - **FIX**: generate script.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add apps package.
+
 ## 0.0.10
 
  - **FEAT**: update localization.
