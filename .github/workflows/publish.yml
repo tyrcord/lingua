@@ -51,8 +51,8 @@ jobs:
 
       # Publish dry run
       - name: Publish - dry run
-        run: melos publish --dry-run
+        run: melos publish --dry-run -y
 
       # Publishing...
       - name: Publish to pub.dev
-        run: melos publish --no-dry-run
+        run: melos publish --no-dry-run -y
