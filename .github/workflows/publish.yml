@@ -52,9 +52,7 @@ jobs:
       # Publish dry run
       - name: Publish - dry run
         run: melos publish --dry-run
-        working-directory: packages/cache
 
       # Publishing...
       - name: Publish to pub.dev
         run: melos publish --no-dry-run
-        working-directory: packages/cache
