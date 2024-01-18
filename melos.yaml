@@ -6,6 +6,30 @@ packages:
 scripts:
   analyze:
     exec: dart analyze .
+  fix:
+    exec: dart fix --apply
+  test:
+    exec: flutter test
+    packageFilters:
+      ignore:
+        - lingua_apps
+        - lingua_core
+        - lingua_calculator
+        - lingua_finance
+        - lingua_finance_forex
+        - lingua_countries
+        - lingua_finance_dividend
+        - lingua_ad
+        - lingua_finance_stock
+        - lingua_languages
+        - lingua_onboarding
+        - lingua_number
+        - lingua_help
+        - lingua_purchases
+        - lingua_settings
+        - lingua_units
+        - lingua_finance_instrument
+
   update:scripts:
     exec: $PWD/scripts/copy.sh
   update:resources:
@@ -14,6 +38,11 @@ scripts:
     exec: $PWD/scripts/generate.sh
   update:analysis_options:
     exec: $PWD/scripts/update_analysis_options.sh
+
+  sort:imports:
+    exec: flutter pub run import_sorter:main
+  update:pubspec:
+    exec: python3 $PWD/scripts/update_pubspec.py
 
 ide:
   intellij:
