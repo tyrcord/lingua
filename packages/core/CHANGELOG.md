@@ -1,3 +1,7 @@
+## 0.0.36
+
+ - **FEAT**: update dependencies.
+
 ## 0.0.35
 
  - **FIX**: publish issue.

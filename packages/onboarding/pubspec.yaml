@@ -8,10 +8,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   import_sorter: ^4.6.0
-  lingua_core: ^0.0.35
+  lingua_core: ^0.0.36
 environment:
   flutter: '>=3.16.0'
   sdk: '>=3.2.0 <4.0.0'
 name: lingua_onboarding
 repository: https://github.com/tyrcord/lingua/tree/main/packages/onboarding
-version: 0.0.17
+version: 0.0.18
