@@ -1,21 +1,17 @@
-name: lingua_apps
-description: Library for internal apps localization.
-version: 0.0.11
-repository: https://github.com/tyrcord/lingua/tree/main/packages/apps
-
-environment:
-  sdk: ">=3.2.0 <4.0.0"
-  flutter: ">=3.16.0"
-
 dependencies:
+  easy_localization: ^3.0.3
   flutter:
     sdk: flutter
-
-  easy_localization: ^3.0.3
-
+description: Library for internal apps localization.
 dev_dependencies:
+  flutter_lints: ^3.0.1
   flutter_test:
     sdk: flutter
   import_sorter: ^4.6.0
-  flutter_lints: ^3.0.1
   lingua_core: ^0.0.35
+environment:
+  flutter: '>=3.16.0'
+  sdk: '>=3.2.0 <4.0.0'
+name: lingua_apps
+repository: https://github.com/tyrcord/lingua/tree/main/packages/apps
+version: 0.0.11
