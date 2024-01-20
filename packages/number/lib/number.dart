@@ -1,7 +1,10 @@
 library lingua_number;
 
+// Package imports:
 import 'package:easy_localization/easy_localization.dart';
 import 'package:lingua_core/lingua_core.dart';
+
+// Project imports:
 import './generated/locale_keys.g.dart';
 
 String toOrdinal(int number, {String gender = LinguaLocalizationGender.male}) {

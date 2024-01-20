@@ -1,7 +1,10 @@
-import 'package:lingua_units/generated/locale_keys.g.dart';
+// Package imports:
 import 'package:easy_localization/easy_localization.dart';
-import 'package:lingua_units/lingua_units.dart';
 import 'package:t_helpers/helpers.dart';
+
+// Project imports:
+import 'package:lingua_units/generated/locale_keys.g.dart';
+import 'package:lingua_units/lingua_units.dart';
 
 /// Generates a localized string for unit sizes based on the provided unit key.
 ///

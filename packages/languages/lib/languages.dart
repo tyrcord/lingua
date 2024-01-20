@@ -1,4 +1,7 @@
+// Package imports:
 import 'package:easy_localization/easy_localization.dart';
+
+// Project imports:
 import 'package:lingua_languages/generated/locale_keys.g.dart';
 
 String languageCodeToName(String languageCode) {

@@ -1,8 +1,12 @@
 library lingua_core;
 
+// Dart imports:
 import 'dart:ui';
 
+// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
+
+// Project imports:
 import 'package:lingua_core/generated/codegen_loader.g.dart';
 
 export './logic/logic.dart';
