@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class OnboardingCodegenLoader extends AssetLoader {
@@ -44,7 +43,7 @@ class OnboardingCodegenLoader extends AssetLoader {
         "intro": "Anúncios personalizados foram ativados.",
         "notes": "Por favor, note que você pode alterar esta configuração nas definições do seu dispositivo."
       },
-      "intro": "Ao permitir anúncios personalizados, você se beneficiará de uma experiência de publicidade adaptada aos seus interesses.",
+      "intro": "A aplicação solicitará o seu consentimento para rastrear os seus dados. Isso permitirá que ofereçamos anúncios personalizados ajustados aos seus interesses, bem como uma experiência de usuário melhorada.",
       "title": "Anúncios Personalizados"
     },
     "restore_premium": {
@@ -111,7 +110,7 @@ static const Map<String,dynamic> it = {
         "intro": "Gli annunci personalizzati sono stati abilitati.",
         "notes": "Si prega di notare che è possibile modificare questa impostazione nelle opzioni del dispositivo."
       },
-      "intro": "Consentendo gli annunci personalizzati, beneficerai di un'esperienza pubblicitaria su misura per i tuoi interessi.",
+      "intro": "L'applicazione richiederà il tuo consenso per tracciare i tuoi dati. Ciò ci permetterà di offrirti pubblicità personalizzate adattate ai tuoi interessi, oltre a un'esperienza utente migliorata.",
       "title": "Annunci Personalizzati"
     },
     "restore_premium": {
@@ -178,7 +177,7 @@ static const Map<String,dynamic> en = {
         "intro": "Personalized ads have enabled.",
         "notes": "Please note that you can change this setting in your device settings."
       },
-      "intro": "By allowing personalized ads, you will benefit from an advertising experience tailored to your interests.",
+      "intro": "The application will request your consent to track your data. This will allow us to offer you personalized advertisements tailored to your interests, as well as an improved user experience.",
       "title": "Personalized Ads"
     },
     "restore_premium": {
@@ -245,7 +244,7 @@ static const Map<String,dynamic> ru = {
         "intro": "Персонализированная реклама была включена.",
         "notes": "Обратите внимание, что вы можете изменить этот параметр в настройках вашего устройства."
       },
-      "intro": "Разрешив персонализированную рекламу, вы получите рекламный опыт, адаптированный к вашим интересам.",
+      "intro": "Приложение запросит ваше согласие на отслеживание ваших данных. Это позволит нам предложить вам персонализированную рекламу, соответствующую вашим интересам, а также улучшенный пользовательский опыт.",
       "title": "Персонализированная реклама"
     },
     "restore_premium": {
@@ -312,7 +311,7 @@ static const Map<String,dynamic> zh = {
         "intro": "个性化广告已启用。",
         "notes": "请注意，您可以随时在设备设置中更改此设置。"
       },
-      "intro": "允许个性化广告后，您将受益于针对您的兴趣进行定制的广告体验。",
+      "intro": "该应用程序将请求您同意追踪您的数据。这将使我们能够为您提供符合您兴趣的个性化广告，以及改善的用户体验。",
       "title": "个性化广告"
     },
     "restore_premium": {
@@ -379,7 +378,7 @@ static const Map<String,dynamic> de = {
         "intro": "Personalisierte Werbung wurde aktiviert.",
         "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
       },
-      "intro": "Mit personalisierten Anzeigen profitieren Sie von einem Werbeerlebnis, das auf Ihre Interessen zugeschnitten ist.",
+      "intro": "Die Anwendung wird Ihre Zustimmung zur Verfolgung Ihrer Daten anfordern. Dies ermöglicht es uns, Ihnen personalisierte Werbung anzubieten, die auf Ihre Interessen zugeschnitten ist, sowie ein verbessertes Benutzererlebnis.",
       "title": "Personalisierte Anzeigen"
     },
     "restore_premium": {
@@ -446,7 +445,7 @@ static const Map<String,dynamic> ja = {
         "intro": "パーソナライズされた広告が有効にされました。",
         "notes": "デバイスの設定でこの設定を変更することができることをご注意ください。"
       },
-      "intro": "パーソナライズされた広告を許可することで、あなたの興味に合わせた広告体験を受け取ることができます。",
+      "intro": "このアプリケーションは、あなたのデータの追跡に関する同意を求めます。これにより、あなたの興味に合わせたパーソナライズされた広告の提供と、向上したユーザー体験を提供することができます。",
       "title": "パーソナライズされた広告"
     },
     "restore_premium": {
@@ -513,7 +512,7 @@ static const Map<String,dynamic> fr = {
         "intro": "Les annonces personnalisées ont été activées.",
         "notes": "Veuillez noter que vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
-      "intro": "En autorisant les publicités personnalisées, vous bénéficierez d'une expérience publicitaire adaptée à vos intérêts.",
+      "intro": "L'application va solliciter votre consentement pour le suivi de vos données. Cela nous permettra de vous proposer des publicités personnalisées et ajustées à vos centres d'intérêt, ainsi qu'une expérience utilisateur améliorée.",
       "title": "Publicités personnalisées"
     },
     "restore_premium": {
@@ -580,7 +579,7 @@ static const Map<String,dynamic> es = {
         "intro": "Los anuncios personalizados han sido activados.",
         "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
       },
-      "intro": "Al permitir anuncios personalizados, se beneficiará de una experiencia publicitaria adaptada a sus intereses.",
+      "intro": "La aplicación solicitará su consentimiento para rastrear sus datos. Esto nos permitirá ofrecerle anuncios personalizados adaptados a sus intereses, así como una experiencia de usuario mejorada.",
       "title": "Anuncios Personalizados"
     },
     "restore_premium": {
