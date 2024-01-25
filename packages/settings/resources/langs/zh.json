@@ -19,6 +19,11 @@
       "dark": "深色",
       "default": "默认",
       "disclaimer": "免责声明",
+      "erase": {
+        "all": {
+          "content_and_settings": "清除所有内容和设置"
+        }
+      },
       "help_and_support": "帮助与支持",
       "homepage": "主页",
       "language": "语言",
@@ -33,7 +38,16 @@
         "text": "隐私"
       },
       "rate_us": "评价我们",
-      "reset_settings": "恢复默认设置",
+      "reset": {
+        "all": {
+          "content_settings": "重置所有内容和设置"
+        },
+        "text": "重置"
+      },
+      "restore": {
+        "defaults": "恢复默认设置",
+        "settings": "恢复设置"
+      },
       "settings": "设置",
       "submit_bug_report": "提交错误报告",
       "system": "系统",
@@ -44,6 +58,7 @@
       "version": "版本：{version}"
     },
     "message": {
+      "erase_all_content_and_settings_explanation": "此操作将永久删除此应用中的所有数据，包括您的个人设置、偏好和保存的信息。此过程不可逆。",
       "last_modified": "最后修改时间：{date}",
       "thanks_support": "感谢您的支持！"
     },
@@ -55,7 +70,8 @@
     },
     "question": {
       "do_you_enjoy_our_app": "如果您发现我们的应用程序有用，您是否愿意花费一些时间对其进行评级？",
-      "do_you_like_our_app": "您喜欢我们的应用程序吗？"
+      "do_you_like_our_app": "您喜欢我们的应用程序吗？",
+      "erase_all_content_and_settings": "您确定要清除所有内容和设置吗？"
     },
     "select": {
       "language": "选择您想要使用的语言。"
