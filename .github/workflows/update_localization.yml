@@ -56,11 +56,20 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "actions@github.com"
 
-      # Commit and push changes
-      - name: Commit and push files
+      # Commit changes
+      - name: Commit changes
         if: env.changes == '1'
         run: |
           git add *.dart
           git add *.json
           git commit -m "feat: updated localization files"
-          git push
+
+      # Rebase on master branch
+      - name: Rebase on master
+        if: env.changes == '1'
+        run: git pull origin main --rebase --strategy=rebase-merge
+
+      # Push changes
+      - name: Push changes
+        if: env.changes == '1'
+        run: git push origin main
