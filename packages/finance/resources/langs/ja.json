@@ -261,6 +261,7 @@
       },
       "duration_years": "年単位の期間",
       "earnings": "収益",
+      "effective_annual_rate": "実効年率",
       "ending": {
         "balance": "最終残高",
         "principal": "最終元本"

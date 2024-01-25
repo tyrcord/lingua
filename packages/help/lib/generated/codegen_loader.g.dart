@@ -11,52 +11,7 @@ class HelpCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> pt = {
-  "help": {
-    "label": {
-      "instructions": "Instruções",
-      "manual": "Manual",
-      "manuals": "Manuais"
-    }
-  }
-};
-static const Map<String,dynamic> it = {
-  "help": {
-    "label": {
-      "instructions": "Istruzioni",
-      "manual": "Manuale",
-      "manuals": "Manuali"
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "help": {
-    "label": {
-      "instructions": "Instructions",
-      "manual": "Manual",
-      "manuals": "Manuals"
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "help": {
-    "label": {
-      "instructions": "Инструкции",
-      "manual": "Руководство",
-      "manuals": "Руководства"
-    }
-  }
-};
-static const Map<String,dynamic> zh = {
-  "help": {
-    "label": {
-      "instructions": "说明",
-      "manual": "手册",
-      "manuals": "手册"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
+  static const Map<String,dynamic> de = {
   "help": {
     "label": {
       "instructions": "Anweisungen",
@@ -83,6 +38,51 @@ static const Map<String,dynamic> fr = {
     }
   }
 };
+static const Map<String,dynamic> zh = {
+  "help": {
+    "label": {
+      "instructions": "说明",
+      "manual": "手册",
+      "manuals": "手册"
+    }
+  }
+};
+static const Map<String,dynamic> pt = {
+  "help": {
+    "label": {
+      "instructions": "Instruções",
+      "manual": "Manual",
+      "manuals": "Manuais"
+    }
+  }
+};
+static const Map<String,dynamic> ru = {
+  "help": {
+    "label": {
+      "instructions": "Инструкции",
+      "manual": "Руководство",
+      "manuals": "Руководства"
+    }
+  }
+};
+static const Map<String,dynamic> en = {
+  "help": {
+    "label": {
+      "instructions": "Instructions",
+      "manual": "Manual",
+      "manuals": "Manuals"
+    }
+  }
+};
+static const Map<String,dynamic> it = {
+  "help": {
+    "label": {
+      "instructions": "Istruzioni",
+      "manual": "Manuale",
+      "manuals": "Manuali"
+    }
+  }
+};
 static const Map<String,dynamic> es = {
   "help": {
     "label": {
@@ -92,5 +92,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "it": it, "en": en, "ru": ru, "zh": zh, "de": de, "ja": ja, "fr": fr, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"de": de, "ja": ja, "fr": fr, "zh": zh, "pt": pt, "ru": ru, "en": en, "it": it, "es": es};
 }

@@ -261,6 +261,7 @@
       },
       "duration_years": "Duration in years",
       "earnings": "Earnings",
+      "effective_annual_rate": "Effective annual rate",
       "ending": {
         "balance": "Ending balance",
         "principal": "Ending principal"

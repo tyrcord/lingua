@@ -261,6 +261,7 @@
       },
       "duration_years": "年份持续时间",
       "earnings": "收益",
+      "effective_annual_rate": "有效年利率",
       "ending": {
         "balance": "结余",
         "principal": "结余本金"

@@ -261,6 +261,7 @@
       },
       "duration_years": "Durée en années",
       "earnings": "Revenus",
+      "effective_annual_rate": "Taux annuel effectif",
       "ending": {
         "balance": "Solde final",
         "principal": "Capital final"

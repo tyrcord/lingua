@@ -11,237 +11,7 @@ class UnitsCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> pt = {
-  "units": {
-    "label": {
-      "barrel": "barril",
-      "bushel": "bushel",
-      "count": {
-        "barrel": {
-          "few": "{} barris",
-          "many": "{} barris",
-          "one": "{} barril",
-          "other": "{} barris",
-          "zero": "{} barris"
-        },
-        "mmbtu": {
-          "few": "{} MMBtus",
-          "many": "{} MMBtus",
-          "one": "{} MMBtu",
-          "other": "{} MMBtus",
-          "zero": "{} MMBtus"
-        },
-        "ounce": {
-          "few": "{} onças",
-          "many": "{} onças",
-          "one": "{} onça",
-          "other": "{} onças",
-          "zero": "{} onças"
-        },
-        "unit": {
-          "few": "{} unidades",
-          "many": "{} unidades",
-          "one": "{} unidade",
-          "other": "{} unidades",
-          "zero": "{} unidades"
-        }
-      },
-      "gallon": "galão",
-      "gram": "g",
-      "kilogram": "kg",
-      "mmbtu": "MMBtu",
-      "ounce": "oz",
-      "pound": "lb",
-      "ton": "tonelada",
-      "unit": "Unidade"
-    }
-  }
-};
-static const Map<String,dynamic> it = {
-  "units": {
-    "label": {
-      "barrel": "barile",
-      "bushel": "bushel",
-      "count": {
-        "barrel": {
-          "few": "{} barili",
-          "many": "{} barili",
-          "one": "{} barile",
-          "other": "{} barili",
-          "zero": "{} barile"
-        },
-        "mmbtu": {
-          "few": "{} MMBtus",
-          "many": "{} MMBtus",
-          "one": "{} MMBtu",
-          "other": "{} MMBtus",
-          "zero": "{} MMBtu"
-        },
-        "ounce": {
-          "few": "{} once",
-          "many": "{} once",
-          "one": "{} oncia",
-          "other": "{} once",
-          "zero": "{} oncia"
-        },
-        "unit": {
-          "few": "{} unità",
-          "many": "{} unità",
-          "one": "{} unità",
-          "other": "{} unità",
-          "zero": "{} unità"
-        }
-      },
-      "gallon": "gallone",
-      "gram": "g",
-      "kilogram": "kg",
-      "mmbtu": "MMBtu",
-      "ounce": "oz",
-      "pound": "lb",
-      "ton": "tonnellata",
-      "unit": "Unità"
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "units": {
-    "label": {
-      "barrel": "bbl",
-      "bushel": "bu",
-      "count": {
-        "barrel": {
-          "few": "{} barrels",
-          "many": "{} barrels",
-          "one": "{} barrel",
-          "other": "{} barrels",
-          "zero": "{} barrels"
-        },
-        "mmbtu": {
-          "few": "{} MMBtus",
-          "many": "{} MMBtus",
-          "one": "{} MMBtu",
-          "other": "{} MMBtus",
-          "zero": "{} MMBtus"
-        },
-        "ounce": {
-          "few": "{} ounces",
-          "many": "{} ounces",
-          "one": "{} ounce",
-          "other": "{} ounces",
-          "zero": "{} ounces"
-        },
-        "unit": {
-          "few": "{} units",
-          "many": "{} units",
-          "one": "{} unit",
-          "other": "{} units",
-          "zero": "{} units"
-        }
-      },
-      "gallon": "gal",
-      "gram": "g",
-      "kilogram": "kg",
-      "mmbtu": "MMBtu",
-      "ounce": "oz",
-      "pound": "lb",
-      "ton": "ton",
-      "unit": "Unit"
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "units": {
-    "label": {
-      "barrel": "баррель",
-      "bushel": "бушель",
-      "count": {
-        "barrel": {
-          "few": "{} барреля",
-          "many": "{} баррелей",
-          "one": "{} баррель",
-          "other": "{} баррелей",
-          "zero": "{} баррелей"
-        },
-        "mmbtu": {
-          "few": "{} MMBtus",
-          "many": "{} MMBtus",
-          "one": "{} MMBtu",
-          "other": "{} MMBtus",
-          "zero": "{} MMBtus"
-        },
-        "ounce": {
-          "few": "{} унции",
-          "many": "{} унций",
-          "one": "{} унция",
-          "other": "{} унций",
-          "zero": "{} унций"
-        },
-        "unit": {
-          "few": "{} единицы",
-          "many": "{} единиц",
-          "one": "{} единица",
-          "other": "{} единицы",
-          "zero": "{} единиц"
-        }
-      },
-      "gallon": "галлон",
-      "gram": "г",
-      "kilogram": "кг",
-      "mmbtu": "MMBtu",
-      "ounce": "унция",
-      "pound": "фунт",
-      "ton": "тонна",
-      "unit": "Единица"
-    }
-  }
-};
-static const Map<String,dynamic> zh = {
-  "units": {
-    "label": {
-      "barrel": "桶",
-      "bushel": "蒲式耳",
-      "count": {
-        "barrel": {
-          "few": "{} 桶",
-          "many": "{} 桶",
-          "one": "{} 桶",
-          "other": "{} 桶",
-          "zero": "{} 桶"
-        },
-        "mmbtu": {
-          "few": "{} MMBtus",
-          "many": "{} MMBtus",
-          "one": "{} MMBtu",
-          "other": "{} MMBtus",
-          "zero": "{} MMBtus"
-        },
-        "ounce": {
-          "few": "{} 盎司",
-          "many": "{} 盎司",
-          "one": "{} 盎司",
-          "other": "{} 盎司",
-          "zero": "{} 盎司"
-        },
-        "unit": {
-          "few": "{} 单位",
-          "many": "{} 单位",
-          "one": "{} 单位",
-          "other": "{} 单位",
-          "zero": "{} 单位"
-        }
-      },
-      "gallon": "加仑",
-      "gram": "克",
-      "kilogram": "千克",
-      "mmbtu": "MMBtu",
-      "ounce": "盎司",
-      "pound": "磅",
-      "ton": "吨",
-      "unit": "单位"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
+  static const Map<String,dynamic> de = {
   "units": {
     "label": {
       "barrel": "Fass",
@@ -379,6 +149,236 @@ static const Map<String,dynamic> fr = {
     }
   }
 };
+static const Map<String,dynamic> zh = {
+  "units": {
+    "label": {
+      "barrel": "桶",
+      "bushel": "蒲式耳",
+      "count": {
+        "barrel": {
+          "few": "{} 桶",
+          "many": "{} 桶",
+          "one": "{} 桶",
+          "other": "{} 桶",
+          "zero": "{} 桶"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtus"
+        },
+        "ounce": {
+          "few": "{} 盎司",
+          "many": "{} 盎司",
+          "one": "{} 盎司",
+          "other": "{} 盎司",
+          "zero": "{} 盎司"
+        },
+        "unit": {
+          "few": "{} 单位",
+          "many": "{} 单位",
+          "one": "{} 单位",
+          "other": "{} 单位",
+          "zero": "{} 单位"
+        }
+      },
+      "gallon": "加仑",
+      "gram": "克",
+      "kilogram": "千克",
+      "mmbtu": "MMBtu",
+      "ounce": "盎司",
+      "pound": "磅",
+      "ton": "吨",
+      "unit": "单位"
+    }
+  }
+};
+static const Map<String,dynamic> pt = {
+  "units": {
+    "label": {
+      "barrel": "barril",
+      "bushel": "bushel",
+      "count": {
+        "barrel": {
+          "few": "{} barris",
+          "many": "{} barris",
+          "one": "{} barril",
+          "other": "{} barris",
+          "zero": "{} barris"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtus"
+        },
+        "ounce": {
+          "few": "{} onças",
+          "many": "{} onças",
+          "one": "{} onça",
+          "other": "{} onças",
+          "zero": "{} onças"
+        },
+        "unit": {
+          "few": "{} unidades",
+          "many": "{} unidades",
+          "one": "{} unidade",
+          "other": "{} unidades",
+          "zero": "{} unidades"
+        }
+      },
+      "gallon": "galão",
+      "gram": "g",
+      "kilogram": "kg",
+      "mmbtu": "MMBtu",
+      "ounce": "oz",
+      "pound": "lb",
+      "ton": "tonelada",
+      "unit": "Unidade"
+    }
+  }
+};
+static const Map<String,dynamic> ru = {
+  "units": {
+    "label": {
+      "barrel": "баррель",
+      "bushel": "бушель",
+      "count": {
+        "barrel": {
+          "few": "{} барреля",
+          "many": "{} баррелей",
+          "one": "{} баррель",
+          "other": "{} баррелей",
+          "zero": "{} баррелей"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtus"
+        },
+        "ounce": {
+          "few": "{} унции",
+          "many": "{} унций",
+          "one": "{} унция",
+          "other": "{} унций",
+          "zero": "{} унций"
+        },
+        "unit": {
+          "few": "{} единицы",
+          "many": "{} единиц",
+          "one": "{} единица",
+          "other": "{} единицы",
+          "zero": "{} единиц"
+        }
+      },
+      "gallon": "галлон",
+      "gram": "г",
+      "kilogram": "кг",
+      "mmbtu": "MMBtu",
+      "ounce": "унция",
+      "pound": "фунт",
+      "ton": "тонна",
+      "unit": "Единица"
+    }
+  }
+};
+static const Map<String,dynamic> en = {
+  "units": {
+    "label": {
+      "barrel": "bbl",
+      "bushel": "bu",
+      "count": {
+        "barrel": {
+          "few": "{} barrels",
+          "many": "{} barrels",
+          "one": "{} barrel",
+          "other": "{} barrels",
+          "zero": "{} barrels"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtus"
+        },
+        "ounce": {
+          "few": "{} ounces",
+          "many": "{} ounces",
+          "one": "{} ounce",
+          "other": "{} ounces",
+          "zero": "{} ounces"
+        },
+        "unit": {
+          "few": "{} units",
+          "many": "{} units",
+          "one": "{} unit",
+          "other": "{} units",
+          "zero": "{} units"
+        }
+      },
+      "gallon": "gal",
+      "gram": "g",
+      "kilogram": "kg",
+      "mmbtu": "MMBtu",
+      "ounce": "oz",
+      "pound": "lb",
+      "ton": "ton",
+      "unit": "Unit"
+    }
+  }
+};
+static const Map<String,dynamic> it = {
+  "units": {
+    "label": {
+      "barrel": "barile",
+      "bushel": "bushel",
+      "count": {
+        "barrel": {
+          "few": "{} barili",
+          "many": "{} barili",
+          "one": "{} barile",
+          "other": "{} barili",
+          "zero": "{} barile"
+        },
+        "mmbtu": {
+          "few": "{} MMBtus",
+          "many": "{} MMBtus",
+          "one": "{} MMBtu",
+          "other": "{} MMBtus",
+          "zero": "{} MMBtu"
+        },
+        "ounce": {
+          "few": "{} once",
+          "many": "{} once",
+          "one": "{} oncia",
+          "other": "{} once",
+          "zero": "{} oncia"
+        },
+        "unit": {
+          "few": "{} unità",
+          "many": "{} unità",
+          "one": "{} unità",
+          "other": "{} unità",
+          "zero": "{} unità"
+        }
+      },
+      "gallon": "gallone",
+      "gram": "g",
+      "kilogram": "kg",
+      "mmbtu": "MMBtu",
+      "ounce": "oz",
+      "pound": "lb",
+      "ton": "tonnellata",
+      "unit": "Unità"
+    }
+  }
+};
 static const Map<String,dynamic> es = {
   "units": {
     "label": {
@@ -425,5 +425,5 @@ static const Map<String,dynamic> es = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "it": it, "en": en, "ru": ru, "zh": zh, "de": de, "ja": ja, "fr": fr, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"de": de, "ja": ja, "fr": fr, "zh": zh, "pt": pt, "ru": ru, "en": en, "it": it, "es": es};
 }

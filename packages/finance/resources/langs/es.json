@@ -261,6 +261,7 @@
       },
       "duration_years": "Duración en años",
       "earnings": "Ganancias",
+      "effective_annual_rate": "Tasa anual efectiva",
       "ending": {
         "balance": "Saldo final",
         "principal": "Capital final"
