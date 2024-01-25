@@ -18,10 +18,11 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: "stable"
+          cache: true
 
       # Precache Flutter
       - name: Precache Flutter
-        run: flutter precache --ios
+        run: flutter precache --universal
 
       # Checkout the repository
       - name: Checkout the code
@@ -64,12 +65,14 @@ jobs:
           git add *.json
           git commit -m "feat: updated localization files"
 
-      # Rebase on master branch
-      - name: Rebase on master
+      # Rebase changes
+      - name: Rebase changes
         if: env.changes == '1'
-        run: git pull origin main --rebase --strategy=rebase-merge
+        run: |
+          git fetch origin main
+          git rebase origin/main
 
       # Push changes
       - name: Push changes
         if: env.changes == '1'
-        run: git push origin main
+        run: git push origin main --force-with-lease
