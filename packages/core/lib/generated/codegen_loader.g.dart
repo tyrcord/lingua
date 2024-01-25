@@ -285,7 +285,12 @@ class CoreCodegenLoader extends AssetLoader {
         "text": "Relatório"
       },
       "required": "Obrigatório",
-      "reset": "Resetar",
+      "reset": {
+        "all": {
+          "content_settings": "Redefinir todos os conteúdos e configurações"
+        },
+        "text": "Redefinir"
+      },
       "results": "Resultados",
       "resumed": "Retomado",
       "retry": "Tentar novamente",
@@ -391,6 +396,7 @@ class CoreCodegenLoader extends AssetLoader {
       "copied_to_clipboard": "Copiado para a área de transferência!",
       "copied_value_to_clipboard": "Copiado {value} para a área de transferência!",
       "dark_mode_support": "Suporte ao modo escuro.",
+      "erase_all_content_and_settings_explanation": "Esta ação irá eliminar permanentemente todos os dados desta aplicação, incluindo as suas definições pessoais, preferências e informações guardadas. Este processo é irreversível.",
       "example": "Exemplo:",
       "failed_to": {
         "generate": {
@@ -473,6 +479,7 @@ class CoreCodegenLoader extends AssetLoader {
     },
     "question": {
       "are_you_sure": "Tem certeza?",
+      "erase_all_content_and_settings": "Tem a certeza de que quer apagar todo o conteúdo e definições?",
       "export": {
         "data": {
           "as": {
@@ -775,7 +782,12 @@ static const Map<String,dynamic> it = {
         "text": "Rapporto"
       },
       "required": "Richiesto",
-      "reset": "Reimpostare",
+      "reset": {
+        "all": {
+          "content_settings": "Reimposta tutti i contenuti e le impostazioni"
+        },
+        "text": "Reimpostare"
+      },
       "results": "Risultati",
       "resumed": "Ripreso",
       "retry": "Riprova",
@@ -881,6 +893,7 @@ static const Map<String,dynamic> it = {
       "copied_to_clipboard": "Copiato negli appunti!",
       "copied_value_to_clipboard": "Copiato {value} negli appunti!",
       "dark_mode_support": "Supporto per la modalità scura.",
+      "erase_all_content_and_settings_explanation": "Questa azione eliminerà definitivamente tutti i dati da questa app, inclusi le tue impostazioni personali, preferenze e informazioni salvate. Questo processo è irreversibile.",
       "example": "Esempio:",
       "failed_to": {
         "generate": {
@@ -963,6 +976,7 @@ static const Map<String,dynamic> it = {
     },
     "question": {
       "are_you_sure": "Sei sicuro?",
+      "erase_all_content_and_settings": "Sei sicuro di voler cancellare tutti i contenuti e le impostazioni?",
       "export": {
         "data": {
           "as": {
@@ -1265,7 +1279,12 @@ static const Map<String,dynamic> en = {
         "text": "Report"
       },
       "required": "Required",
-      "reset": "Reset",
+      "reset": {
+        "all": {
+          "content_settings": "Reset all content and settings"
+        },
+        "text": "Reset"
+      },
       "results": "Results",
       "resumed": "Resumed",
       "retry": "Retry",
@@ -1371,6 +1390,7 @@ static const Map<String,dynamic> en = {
       "copied_to_clipboard": "Copied to clipboard!",
       "copied_value_to_clipboard": "Copied {value} to clipboard!",
       "dark_mode_support": "Dark Mode support.",
+      "erase_all_content_and_settings_explanation": "This action will permanently delete all data from this app, including your personal settings, preferences, and saved information. This process is irreversible.",
       "example": "Example:",
       "failed_to": {
         "generate": {
@@ -1453,6 +1473,7 @@ static const Map<String,dynamic> en = {
     },
     "question": {
       "are_you_sure": "Are you sure?",
+      "erase_all_content_and_settings": "Are you sure you want to erase all content and settings?",
       "export": {
         "data": {
           "as": {
@@ -1755,7 +1776,12 @@ static const Map<String,dynamic> ru = {
         "text": "Отчет"
       },
       "required": "Обязательно",
-      "reset": "Сбросить",
+      "reset": {
+        "all": {
+          "content_settings": "Сбросить все содержимое и настройки"
+        },
+        "text": "Сброс"
+      },
       "results": "Результаты",
       "resumed": "Возобновлено",
       "retry": "Повторить",
@@ -1861,6 +1887,7 @@ static const Map<String,dynamic> ru = {
       "copied_to_clipboard": "Скопировано в буфер обмена!",
       "copied_value_to_clipboard": "Скопировано {value} в буфер обмена!",
       "dark_mode_support": "Поддержка темного режима.",
+      "erase_all_content_and_settings_explanation": "Это действие навсегда удалит все данные приложения, включая ваши личные настройки, предпочтения и сохраненную информацию. Этот процесс необратим.",
       "example": "Пример:",
       "failed_to": {
         "generate": {
@@ -1943,6 +1970,7 @@ static const Map<String,dynamic> ru = {
     },
     "question": {
       "are_you_sure": "Вы уверены?",
+      "erase_all_content_and_settings": "Вы уверены, что хотите удалить все данные и настройки?",
       "export": {
         "data": {
           "as": {
@@ -2245,7 +2273,12 @@ static const Map<String,dynamic> zh = {
         "text": "报告"
       },
       "required": "必需",
-      "reset": "重置",
+      "reset": {
+        "all": {
+          "content_settings": "重置所有内容和设置"
+        },
+        "text": "重置"
+      },
       "results": "结果",
       "resumed": "已恢复",
       "retry": "重试",
@@ -2351,6 +2384,7 @@ static const Map<String,dynamic> zh = {
       "copied_to_clipboard": "已复制到剪贴板！",
       "copied_value_to_clipboard": "已复制 {value} 到剪贴板！",
       "dark_mode_support": "支持暗黑模式。",
+      "erase_all_content_and_settings_explanation": "此操作将永久删除此应用中的所有数据，包括您的个人设置、偏好和保存的信息。此过程不可逆。",
       "example": "示例:",
       "failed_to": {
         "generate": {
@@ -2433,6 +2467,7 @@ static const Map<String,dynamic> zh = {
     },
     "question": {
       "are_you_sure": "确定吗？",
+      "erase_all_content_and_settings": "您确定要清除所有内容和设置吗？",
       "export": {
         "data": {
           "as": {
@@ -2735,7 +2770,12 @@ static const Map<String,dynamic> de = {
         "text": "Bericht"
       },
       "required": "Erforderlich",
-      "reset": "Zurücksetzen",
+      "reset": {
+        "all": {
+          "content_settings": "Alle Inhalte und Einstellungen zurücksetzen"
+        },
+        "text": "Zurücksetzen"
+      },
       "results": "Ergebnisse",
       "resumed": "Fortgesetzt",
       "retry": "Erneut versuchen",
@@ -2841,6 +2881,7 @@ static const Map<String,dynamic> de = {
       "copied_to_clipboard": "In die Zwischenablage kopiert!",
       "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
       "dark_mode_support": "Unterstützung für den Dunkelmodus.",
+      "erase_all_content_and_settings_explanation": "Diese Aktion wird alle Daten aus dieser App dauerhaft löschen, einschließlich Ihrer persönlichen Einstellungen, Vorlieben und gespeicherten Informationen. Dieser Vorgang ist nicht umkehrbar.",
       "example": "Beispiel:",
       "failed_to": {
         "generate": {
@@ -2923,6 +2964,7 @@ static const Map<String,dynamic> de = {
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",
+      "erase_all_content_and_settings": "Sind Sie sicher, dass Sie alle Inhalte und Einstellungen löschen möchten?",
       "export": {
         "data": {
           "as": {
@@ -3225,7 +3267,12 @@ static const Map<String,dynamic> ja = {
         "text": "レポート"
       },
       "required": "必須",
-      "reset": "リセット",
+      "reset": {
+        "all": {
+          "content_settings": "すべてのコンテンツと設定をリセット"
+        },
+        "text": "リセット"
+      },
       "results": "結果",
       "resumed": "再開",
       "retry": "再試行",
@@ -3331,6 +3378,7 @@ static const Map<String,dynamic> ja = {
       "copied_to_clipboard": "クリップボードにコピーしました！",
       "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
       "dark_mode_support": "ダークモードのサポート。",
+      "erase_all_content_and_settings_explanation": "この操作を実行すると、個人設定、好み、保存された情報を含むこのアプリのすべてのデータが完全に削除されます。このプロセスは元に戻すことができません。",
       "example": "例:",
       "failed_to": {
         "generate": {
@@ -3413,6 +3461,7 @@ static const Map<String,dynamic> ja = {
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",
+      "erase_all_content_and_settings": "すべてのコンテンツと設定を消去してもよろしいですか？",
       "export": {
         "data": {
           "as": {
@@ -3715,7 +3764,12 @@ static const Map<String,dynamic> fr = {
         "text": "Rapport"
       },
       "required": "Requis",
-      "reset": "Réinitialiser",
+      "reset": {
+        "all": {
+          "content_settings": "Réinitialiser tous les contenus et paramètres"
+        },
+        "text": "Réinitialiser"
+      },
       "results": "Résultats",
       "resumed": "Repris",
       "retry": "Réessayer",
@@ -3821,6 +3875,7 @@ static const Map<String,dynamic> fr = {
       "copied_to_clipboard": "Copié dans le presse-papiers !",
       "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
       "dark_mode_support": "Prise en charge du mode sombre.",
+      "erase_all_content_and_settings_explanation": "Cette action supprimera définitivement toutes les données de cette application, y compris vos paramètres personnels, préférences et informations enregistrées. Ce processus est irréversible.",
       "example": "Exemple:",
       "failed_to": {
         "generate": {
@@ -3903,6 +3958,7 @@ static const Map<String,dynamic> fr = {
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",
+      "erase_all_content_and_settings": "Êtes-vous sûr de vouloir effacer tous les contenus et réglages ?",
       "export": {
         "data": {
           "as": {
@@ -4205,7 +4261,12 @@ static const Map<String,dynamic> es = {
         "text": "Informe"
       },
       "required": "Requerido",
-      "reset": "Restablecer",
+      "reset": {
+        "all": {
+          "content_settings": "Restablecer todos los contenidos y configuraciones"
+        },
+        "text": "Restablecer"
+      },
       "results": "Resultados",
       "resumed": "Reanudado",
       "retry": "Reintentar",
@@ -4311,6 +4372,7 @@ static const Map<String,dynamic> es = {
       "copied_to_clipboard": "¡Copiado al portapapeles!",
       "copied_value_to_clipboard": "¡Copiado {value} al portapapeles!",
       "dark_mode_support": "Soporte para modo oscuro.",
+      "erase_all_content_and_settings_explanation": "Esta acción eliminará permanentemente todos los datos de esta aplicación, incluyendo sus ajustes personales, preferencias e información guardada. Este proceso es irreversible.",
       "example": "Ejemplo:",
       "failed_to": {
         "generate": {
@@ -4393,6 +4455,7 @@ static const Map<String,dynamic> es = {
     },
     "question": {
       "are_you_sure": "¿Estás seguro?",
+      "erase_all_content_and_settings": "¿Está seguro de que quiere borrar todo el contenido y los ajustes?",
       "export": {
         "data": {
           "as": {

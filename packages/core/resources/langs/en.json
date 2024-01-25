@@ -272,7 +272,12 @@
         "text": "Report"
       },
       "required": "Required",
-      "reset": "Reset",
+      "reset": {
+        "all": {
+          "content_settings": "Reset all content and settings"
+        },
+        "text": "Reset"
+      },
       "results": "Results",
       "resumed": "Resumed",
       "retry": "Retry",
@@ -378,6 +383,7 @@
       "copied_to_clipboard": "Copied to clipboard!",
       "copied_value_to_clipboard": "Copied {value} to clipboard!",
       "dark_mode_support": "Dark Mode support.",
+      "erase_all_content_and_settings_explanation": "This action will permanently delete all data from this app, including your personal settings, preferences, and saved information. This process is irreversible.",
       "example": "Example:",
       "failed_to": {
         "generate": {
@@ -460,6 +466,7 @@
     },
     "question": {
       "are_you_sure": "Are you sure?",
+      "erase_all_content_and_settings": "Are you sure you want to erase all content and settings?",
       "export": {
         "data": {
           "as": {

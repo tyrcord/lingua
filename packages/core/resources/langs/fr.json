@@ -272,7 +272,12 @@
         "text": "Rapport"
       },
       "required": "Requis",
-      "reset": "Réinitialiser",
+      "reset": {
+        "all": {
+          "content_settings": "Réinitialiser tous les contenus et paramètres"
+        },
+        "text": "Réinitialiser"
+      },
       "results": "Résultats",
       "resumed": "Repris",
       "retry": "Réessayer",
@@ -378,6 +383,7 @@
       "copied_to_clipboard": "Copié dans le presse-papiers !",
       "copied_value_to_clipboard": "Copié {value} dans le presse-papiers !",
       "dark_mode_support": "Prise en charge du mode sombre.",
+      "erase_all_content_and_settings_explanation": "Cette action supprimera définitivement toutes les données de cette application, y compris vos paramètres personnels, préférences et informations enregistrées. Ce processus est irréversible.",
       "example": "Exemple:",
       "failed_to": {
         "generate": {
@@ -460,6 +466,7 @@
     },
     "question": {
       "are_you_sure": "Êtes-vous sûr(e) ?",
+      "erase_all_content_and_settings": "Êtes-vous sûr de vouloir effacer tous les contenus et réglages ?",
       "export": {
         "data": {
           "as": {

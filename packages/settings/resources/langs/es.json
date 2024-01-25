@@ -38,12 +38,6 @@
         "text": "Privacidad"
       },
       "rate_us": "Califícanos",
-      "reset": {
-        "all": {
-          "content_settings": "Restablecer todos los contenidos y configuraciones"
-        },
-        "text": "Restablecer"
-      },
       "restore": {
         "defaults": "Restaurar valores predeterminados",
         "settings": "Restaurar configuraciones"
@@ -58,7 +52,6 @@
       "version": "Versión: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Esta acción eliminará permanentemente todos los datos de esta aplicación, incluyendo sus ajustes personales, preferencias e información guardada. Este proceso es irreversible.",
       "last_modified": "Última modificación: {date}",
       "thanks_support": "¡Gracias por su apoyo!"
     },
@@ -70,8 +63,7 @@
     },
     "question": {
       "do_you_enjoy_our_app": "Si encuentra útil nuestra aplicación, ¿estaría dispuesto a dedicar unos minutos para calificarla?",
-      "do_you_like_our_app": "¿Le gusta nuestra aplicación?",
-      "erase_all_content_and_settings": "¿Está seguro de que quiere borrar todo el contenido y los ajustes?"
+      "do_you_like_our_app": "¿Le gusta nuestra aplicación?"
     },
     "select": {
       "language": "Seleccione el idioma que desea utilizar."

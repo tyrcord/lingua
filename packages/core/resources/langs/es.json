@@ -272,7 +272,12 @@
         "text": "Informe"
       },
       "required": "Requerido",
-      "reset": "Restablecer",
+      "reset": {
+        "all": {
+          "content_settings": "Restablecer todos los contenidos y configuraciones"
+        },
+        "text": "Restablecer"
+      },
       "results": "Resultados",
       "resumed": "Reanudado",
       "retry": "Reintentar",
@@ -378,6 +383,7 @@
       "copied_to_clipboard": "¡Copiado al portapapeles!",
       "copied_value_to_clipboard": "¡Copiado {value} al portapapeles!",
       "dark_mode_support": "Soporte para modo oscuro.",
+      "erase_all_content_and_settings_explanation": "Esta acción eliminará permanentemente todos los datos de esta aplicación, incluyendo sus ajustes personales, preferencias e información guardada. Este proceso es irreversible.",
       "example": "Ejemplo:",
       "failed_to": {
         "generate": {
@@ -460,6 +466,7 @@
     },
     "question": {
       "are_you_sure": "¿Estás seguro?",
+      "erase_all_content_and_settings": "¿Está seguro de que quiere borrar todo el contenido y los ajustes?",
       "export": {
         "data": {
           "as": {

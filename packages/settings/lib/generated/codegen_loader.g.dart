@@ -51,12 +51,6 @@ class SettingsCodegenLoader extends AssetLoader {
         "text": "Privacidade"
       },
       "rate_us": "Avalie-nos",
-      "reset": {
-        "all": {
-          "content_settings": "Redefinir todos os conteúdos e configurações"
-        },
-        "text": "Redefinir"
-      },
       "restore": {
         "defaults": "Restaurar padrões",
         "settings": "Restaurar configurações"
@@ -71,7 +65,6 @@ class SettingsCodegenLoader extends AssetLoader {
       "version": "Versão: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Esta ação irá eliminar permanentemente todos os dados desta aplicação, incluindo as suas definições pessoais, preferências e informações guardadas. Este processo é irreversível.",
       "last_modified": "Última modificação: {date}",
       "thanks_support": "Obrigado pelo seu apoio!"
     },
@@ -83,8 +76,7 @@ class SettingsCodegenLoader extends AssetLoader {
     },
     "question": {
       "do_you_enjoy_our_app": "Se você achar nosso aplicativo útil, você estaria disposto a dedicar alguns momentos para avaliá-lo?",
-      "do_you_like_our_app": "Você está gostando do nosso aplicativo?",
-      "erase_all_content_and_settings": "Tem a certeza de que quer apagar todo o conteúdo e definições?"
+      "do_you_like_our_app": "Você está gostando do nosso aplicativo?"
     },
     "select": {
       "language": "Selecione o idioma que você gostaria de usar."
@@ -131,12 +123,6 @@ static const Map<String,dynamic> it = {
         "text": "Privacy"
       },
       "rate_us": "Valutaci",
-      "reset": {
-        "all": {
-          "content_settings": "Reimposta tutti i contenuti e le impostazioni"
-        },
-        "text": "Reset"
-      },
       "restore": {
         "defaults": "Ripristina impostazioni predefinite",
         "settings": "Ripristina impostazioni"
@@ -151,7 +137,6 @@ static const Map<String,dynamic> it = {
       "version": "Versione: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Questa azione eliminerà definitivamente tutti i dati da questa app, inclusi le tue impostazioni personali, preferenze e informazioni salvate. Questo processo è irreversibile.",
       "last_modified": "Ultima modifica: {date}",
       "thanks_support": "Grazie per il tuo supporto!"
     },
@@ -163,8 +148,7 @@ static const Map<String,dynamic> it = {
     },
     "question": {
       "do_you_enjoy_our_app": "Se trovi la nostra app utile, saresti disposto a dedicare qualche istante per valutarla?",
-      "do_you_like_our_app": "Ti sta piacendo la nostra app?",
-      "erase_all_content_and_settings": "Sei sicuro di voler cancellare tutti i contenuti e le impostazioni?"
+      "do_you_like_our_app": "Ti sta piacendo la nostra app?"
     },
     "select": {
       "language": "Seleziona la lingua che desideri utilizzare."
@@ -211,12 +195,6 @@ static const Map<String,dynamic> en = {
         "text": "Privacy"
       },
       "rate_us": "Rate us",
-      "reset": {
-        "all": {
-          "content_settings": "Reset all content and settings"
-        },
-        "text": "Reset"
-      },
       "restore": {
         "defaults": "Restore defaults",
         "settings": "Restore settings"
@@ -231,7 +209,6 @@ static const Map<String,dynamic> en = {
       "version": "Version: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "This action will permanently delete all data from this app, including your personal settings, preferences, and saved information. This process is irreversible.",
       "last_modified": "Last modified: {date}",
       "thanks_support": "Thanks for your support!"
     },
@@ -243,8 +220,7 @@ static const Map<String,dynamic> en = {
     },
     "question": {
       "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
-      "do_you_like_our_app": "Are you enjoying our app?",
-      "erase_all_content_and_settings": "Are you sure you want to erase all content and settings?"
+      "do_you_like_our_app": "Are you enjoying our app?"
     },
     "select": {
       "language": "Select the language you would like to use."
@@ -291,12 +267,6 @@ static const Map<String,dynamic> ru = {
         "text": "Конфиденциальность"
       },
       "rate_us": "Оцените нас",
-      "reset": {
-        "all": {
-          "content_settings": "Сбросить все содержимое и настройки"
-        },
-        "text": "Сброс"
-      },
       "restore": {
         "defaults": "Восстановить по умолчанию",
         "settings": "Восстановить настройки"
@@ -311,7 +281,6 @@ static const Map<String,dynamic> ru = {
       "version": "Версия: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Это действие навсегда удалит все данные приложения, включая ваши личные настройки, предпочтения и сохраненную информацию. Этот процесс необратим.",
       "last_modified": "Последнее изменение: {date}",
       "thanks_support": "Спасибо за вашу поддержку!"
     },
@@ -323,8 +292,7 @@ static const Map<String,dynamic> ru = {
     },
     "question": {
       "do_you_enjoy_our_app": "Если наше приложение вам понравилось, не могли бы вы уделить несколько минут, чтобы оценить его?",
-      "do_you_like_our_app": "Вам нравится наше приложение?",
-      "erase_all_content_and_settings": "Вы уверены, что хотите удалить все данные и настройки?"
+      "do_you_like_our_app": "Вам нравится наше приложение?"
     },
     "select": {
       "language": "Выберите язык, который хотите использовать."
@@ -371,12 +339,6 @@ static const Map<String,dynamic> zh = {
         "text": "隐私"
       },
       "rate_us": "评价我们",
-      "reset": {
-        "all": {
-          "content_settings": "重置所有内容和设置"
-        },
-        "text": "重置"
-      },
       "restore": {
         "defaults": "恢复默认设置",
         "settings": "恢复设置"
@@ -391,7 +353,6 @@ static const Map<String,dynamic> zh = {
       "version": "版本：{version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "此操作将永久删除此应用中的所有数据，包括您的个人设置、偏好和保存的信息。此过程不可逆。",
       "last_modified": "最后修改时间：{date}",
       "thanks_support": "感谢您的支持！"
     },
@@ -403,8 +364,7 @@ static const Map<String,dynamic> zh = {
     },
     "question": {
       "do_you_enjoy_our_app": "如果您发现我们的应用程序有用，您是否愿意花费一些时间对其进行评级？",
-      "do_you_like_our_app": "您喜欢我们的应用程序吗？",
-      "erase_all_content_and_settings": "您确定要清除所有内容和设置吗？"
+      "do_you_like_our_app": "您喜欢我们的应用程序吗？"
     },
     "select": {
       "language": "选择您想要使用的语言。"
@@ -451,12 +411,6 @@ static const Map<String,dynamic> de = {
         "text": "Datenschutz"
       },
       "rate_us": "Bewerten sie uns",
-      "reset": {
-        "all": {
-          "content_settings": "Alle Inhalte und Einstellungen zurücksetzen"
-        },
-        "text": "Zurücksetzen"
-      },
       "restore": {
         "defaults": "Standardeinstellungen wiederherstellen",
         "settings": "Einstellungen wiederherstellen"
@@ -471,7 +425,6 @@ static const Map<String,dynamic> de = {
       "version": "Version: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Diese Aktion wird alle Daten aus dieser App dauerhaft löschen, einschließlich Ihrer persönlichen Einstellungen, Vorlieben und gespeicherten Informationen. Dieser Vorgang ist nicht umkehrbar.",
       "last_modified": "Zuletzt geändert: {date}",
       "thanks_support": "Vielen Dank für Ihre Unterstützung!"
     },
@@ -483,8 +436,7 @@ static const Map<String,dynamic> de = {
     },
     "question": {
       "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
-      "do_you_like_our_app": "Gefällt Ihnen unsere App?",
-      "erase_all_content_and_settings": "Sind Sie sicher, dass Sie alle Inhalte und Einstellungen löschen möchten?"
+      "do_you_like_our_app": "Gefällt Ihnen unsere App?"
     },
     "select": {
       "language": "Wählen Sie die gewünschte Sprache aus."
@@ -531,12 +483,6 @@ static const Map<String,dynamic> ja = {
         "text": "プライバシー"
       },
       "rate_us": "評価する",
-      "reset": {
-        "all": {
-          "content_settings": "すべてのコンテンツと設定をリセット"
-        },
-        "text": "リセット"
-      },
       "restore": {
         "defaults": "デフォルトを復元",
         "settings": "設定を復元"
@@ -551,7 +497,6 @@ static const Map<String,dynamic> ja = {
       "version": "バージョン: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "この操作を実行すると、個人設定、好み、保存された情報を含むこのアプリのすべてのデータが完全に削除されます。このプロセスは元に戻すことができません。",
       "last_modified": "最終更新日：{date}",
       "thanks_support": "ご支援ありがとうございます！"
     },
@@ -563,8 +508,7 @@ static const Map<String,dynamic> ja = {
     },
     "question": {
       "do_you_enjoy_our_app": "当社のアプリがお役に立つ場合、数分お時間をいただき、評価していただけますか？",
-      "do_you_like_our_app": "当社のアプリをお楽しみいただいていますか？",
-      "erase_all_content_and_settings": "すべてのコンテンツと設定を消去してもよろしいですか？"
+      "do_you_like_our_app": "当社のアプリをお楽しみいただいていますか？"
     },
     "select": {
       "language": "使用する言語を選択してください。"
@@ -611,12 +555,6 @@ static const Map<String,dynamic> fr = {
         "text": "Confidentialité"
       },
       "rate_us": "Évaluez-nous",
-      "reset": {
-        "all": {
-          "content_settings": "Réinitialiser tous les contenus et paramètres"
-        },
-        "text": "Réinitialiser"
-      },
       "restore": {
         "defaults": "Restaurer les valeurs par défaut",
         "settings": "Restaurer les paramètres"
@@ -631,7 +569,6 @@ static const Map<String,dynamic> fr = {
       "version": "Version : {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Cette action supprimera définitivement toutes les données de cette application, y compris vos paramètres personnels, préférences et informations enregistrées. Ce processus est irréversible.",
       "last_modified": "Dernière modification : {date}",
       "thanks_support": "Merci pour votre soutien !"
     },
@@ -643,8 +580,7 @@ static const Map<String,dynamic> fr = {
     },
     "question": {
       "do_you_enjoy_our_app": "Si vous trouvez notre application utile, seriez-vous prêt à prendre quelques instants pour la noter ?",
-      "do_you_like_our_app": "Appréciez-vous notre application ?",
-      "erase_all_content_and_settings": "Êtes-vous sûr de vouloir effacer tous les contenus et réglages ?"
+      "do_you_like_our_app": "Appréciez-vous notre application ?"
     },
     "select": {
       "language": "Sélectionnez la langue que vous souhaitez utiliser."
@@ -691,12 +627,6 @@ static const Map<String,dynamic> es = {
         "text": "Privacidad"
       },
       "rate_us": "Califícanos",
-      "reset": {
-        "all": {
-          "content_settings": "Restablecer todos los contenidos y configuraciones"
-        },
-        "text": "Restablecer"
-      },
       "restore": {
         "defaults": "Restaurar valores predeterminados",
         "settings": "Restaurar configuraciones"
@@ -711,7 +641,6 @@ static const Map<String,dynamic> es = {
       "version": "Versión: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Esta acción eliminará permanentemente todos los datos de esta aplicación, incluyendo sus ajustes personales, preferencias e información guardada. Este proceso es irreversible.",
       "last_modified": "Última modificación: {date}",
       "thanks_support": "¡Gracias por su apoyo!"
     },
@@ -723,8 +652,7 @@ static const Map<String,dynamic> es = {
     },
     "question": {
       "do_you_enjoy_our_app": "Si encuentra útil nuestra aplicación, ¿estaría dispuesto a dedicar unos minutos para calificarla?",
-      "do_you_like_our_app": "¿Le gusta nuestra aplicación?",
-      "erase_all_content_and_settings": "¿Está seguro de que quiere borrar todo el contenido y los ajustes?"
+      "do_you_like_our_app": "¿Le gusta nuestra aplicación?"
     },
     "select": {
       "language": "Seleccione el idioma que desea utilizar."

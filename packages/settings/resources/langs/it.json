@@ -38,12 +38,6 @@
         "text": "Privacy"
       },
       "rate_us": "Valutaci",
-      "reset": {
-        "all": {
-          "content_settings": "Reimposta tutti i contenuti e le impostazioni"
-        },
-        "text": "Reset"
-      },
       "restore": {
         "defaults": "Ripristina impostazioni predefinite",
         "settings": "Ripristina impostazioni"
@@ -58,7 +52,6 @@
       "version": "Versione: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "Questa azione eliminerà definitivamente tutti i dati da questa app, inclusi le tue impostazioni personali, preferenze e informazioni salvate. Questo processo è irreversibile.",
       "last_modified": "Ultima modifica: {date}",
       "thanks_support": "Grazie per il tuo supporto!"
     },
@@ -70,8 +63,7 @@
     },
     "question": {
       "do_you_enjoy_our_app": "Se trovi la nostra app utile, saresti disposto a dedicare qualche istante per valutarla?",
-      "do_you_like_our_app": "Ti sta piacendo la nostra app?",
-      "erase_all_content_and_settings": "Sei sicuro di voler cancellare tutti i contenuti e le impostazioni?"
+      "do_you_like_our_app": "Ti sta piacendo la nostra app?"
     },
     "select": {
       "language": "Seleziona la lingua che desideri utilizzare."

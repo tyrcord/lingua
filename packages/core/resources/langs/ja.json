@@ -272,7 +272,12 @@
         "text": "レポート"
       },
       "required": "必須",
-      "reset": "リセット",
+      "reset": {
+        "all": {
+          "content_settings": "すべてのコンテンツと設定をリセット"
+        },
+        "text": "リセット"
+      },
       "results": "結果",
       "resumed": "再開",
       "retry": "再試行",
@@ -378,6 +383,7 @@
       "copied_to_clipboard": "クリップボードにコピーしました！",
       "copied_value_to_clipboard": "{value}をクリップボードにコピーしました！",
       "dark_mode_support": "ダークモードのサポート。",
+      "erase_all_content_and_settings_explanation": "この操作を実行すると、個人設定、好み、保存された情報を含むこのアプリのすべてのデータが完全に削除されます。このプロセスは元に戻すことができません。",
       "example": "例:",
       "failed_to": {
         "generate": {
@@ -460,6 +466,7 @@
     },
     "question": {
       "are_you_sure": "本当によろしいですか？",
+      "erase_all_content_and_settings": "すべてのコンテンツと設定を消去してもよろしいですか？",
       "export": {
         "data": {
           "as": {

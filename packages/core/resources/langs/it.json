@@ -272,7 +272,12 @@
         "text": "Rapporto"
       },
       "required": "Richiesto",
-      "reset": "Reimpostare",
+      "reset": {
+        "all": {
+          "content_settings": "Reimposta tutti i contenuti e le impostazioni"
+        },
+        "text": "Reimpostare"
+      },
       "results": "Risultati",
       "resumed": "Ripreso",
       "retry": "Riprova",
@@ -378,6 +383,7 @@
       "copied_to_clipboard": "Copiato negli appunti!",
       "copied_value_to_clipboard": "Copiato {value} negli appunti!",
       "dark_mode_support": "Supporto per la modalità scura.",
+      "erase_all_content_and_settings_explanation": "Questa azione eliminerà definitivamente tutti i dati da questa app, inclusi le tue impostazioni personali, preferenze e informazioni salvate. Questo processo è irreversibile.",
       "example": "Esempio:",
       "failed_to": {
         "generate": {
@@ -460,6 +466,7 @@
     },
     "question": {
       "are_you_sure": "Sei sicuro?",
+      "erase_all_content_and_settings": "Sei sicuro di voler cancellare tutti i contenuti e le impostazioni?",
       "export": {
         "data": {
           "as": {

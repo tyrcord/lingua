@@ -208,7 +208,8 @@ abstract class CoreLocaleKeys {
   static const core_label_report_error = 'core.label.report.error';
   static const core_label_report_text = 'core.label.report.text';
   static const core_label_required = 'core.label.required';
-  static const core_label_reset = 'core.label.reset';
+  static const core_label_reset_all_content_settings = 'core.label.reset.all.content_settings';
+  static const core_label_reset_text = 'core.label.reset.text';
   static const core_label_results = 'core.label.results';
   static const core_label_resumed = 'core.label.resumed';
   static const core_label_retry = 'core.label.retry';
@@ -288,6 +289,7 @@ abstract class CoreLocaleKeys {
   static const core_message_copied_to_clipboard = 'core.message.copied_to_clipboard';
   static const core_message_copied_value_to_clipboard = 'core.message.copied_value_to_clipboard';
   static const core_message_dark_mode_support = 'core.message.dark_mode_support';
+  static const core_message_erase_all_content_and_settings_explanation = 'core.message.erase_all_content_and_settings_explanation';
   static const core_message_example = 'core.message.example';
   static const core_message_failed_to_generate_csv = 'core.message.failed_to.generate.csv';
   static const core_message_failed_to_generate_excel = 'core.message.failed_to.generate.excel';
@@ -344,6 +346,7 @@ abstract class CoreLocaleKeys {
   static const core_message_whats_new = 'core.message.whats_new';
   static const core_message_whoops = 'core.message.whoops';
   static const core_question_are_you_sure = 'core.question.are_you_sure';
+  static const core_question_erase_all_content_and_settings = 'core.question.erase_all_content_and_settings';
   static const core_question_export_data_as_csv = 'core.question.export.data.as.csv';
   static const core_question_export_data_as_excel = 'core.question.export.data.as.excel';
   static const core_question_export_data_as_pdf = 'core.question.export.data.as.pdf';

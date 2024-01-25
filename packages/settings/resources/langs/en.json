@@ -38,12 +38,6 @@
         "text": "Privacy"
       },
       "rate_us": "Rate us",
-      "reset": {
-        "all": {
-          "content_settings": "Reset all content and settings"
-        },
-        "text": "Reset"
-      },
       "restore": {
         "defaults": "Restore defaults",
         "settings": "Restore settings"
@@ -58,7 +52,6 @@
       "version": "Version: {version}"
     },
     "message": {
-      "erase_all_content_and_settings_explanation": "This action will permanently delete all data from this app, including your personal settings, preferences, and saved information. This process is irreversible.",
       "last_modified": "Last modified: {date}",
       "thanks_support": "Thanks for your support!"
     },
@@ -70,8 +63,7 @@
     },
     "question": {
       "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
-      "do_you_like_our_app": "Are you enjoying our app?",
-      "erase_all_content_and_settings": "Are you sure you want to erase all content and settings?"
+      "do_you_like_our_app": "Are you enjoying our app?"
     },
     "select": {
       "language": "Select the language you would like to use."

@@ -272,7 +272,12 @@
         "text": "Bericht"
       },
       "required": "Erforderlich",
-      "reset": "Zurücksetzen",
+      "reset": {
+        "all": {
+          "content_settings": "Alle Inhalte und Einstellungen zurücksetzen"
+        },
+        "text": "Zurücksetzen"
+      },
       "results": "Ergebnisse",
       "resumed": "Fortgesetzt",
       "retry": "Erneut versuchen",
@@ -378,6 +383,7 @@
       "copied_to_clipboard": "In die Zwischenablage kopiert!",
       "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
       "dark_mode_support": "Unterstützung für den Dunkelmodus.",
+      "erase_all_content_and_settings_explanation": "Diese Aktion wird alle Daten aus dieser App dauerhaft löschen, einschließlich Ihrer persönlichen Einstellungen, Vorlieben und gespeicherten Informationen. Dieser Vorgang ist nicht umkehrbar.",
       "example": "Beispiel:",
       "failed_to": {
         "generate": {
@@ -460,6 +466,7 @@
     },
     "question": {
       "are_you_sure": "Sind Sie sicher?",
+      "erase_all_content_and_settings": "Sind Sie sicher, dass Sie alle Inhalte und Einstellungen löschen möchten?",
       "export": {
         "data": {
           "as": {
