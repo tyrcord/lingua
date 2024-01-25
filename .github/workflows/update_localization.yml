@@ -62,5 +62,5 @@ jobs:
         run: |
           git add *.dart
           git add *.json
-          git commit -m "chore: update localization files"
+          git commit -m "feat: updated localization files"
           git push
