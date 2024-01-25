@@ -122,6 +122,11 @@ class CoreCodegenLoader extends AssetLoader {
       },
       "entries": "Entradas",
       "entry": "Entrada",
+      "erase": {
+        "all": {
+          "content_and_settings": "Apagar todo o conteúdo e definições"
+        }
+      },
       "error": "Erro",
       "example": "Exemplo",
       "exit": {
@@ -619,6 +624,11 @@ static const Map<String,dynamic> it = {
       },
       "entries": "Ingressi",
       "entry": "Ingresso",
+      "erase": {
+        "all": {
+          "content_and_settings": "Cancella tutti i contenuti e le impostazioni"
+        }
+      },
       "error": "Errore",
       "example": "Esempio",
       "exit": {
@@ -1116,6 +1126,11 @@ static const Map<String,dynamic> en = {
       },
       "entries": "Entries",
       "entry": "Entry",
+      "erase": {
+        "all": {
+          "content_and_settings": "Erase all content and settings"
+        }
+      },
       "error": "Error",
       "example": "Example",
       "exit": {
@@ -1613,6 +1628,11 @@ static const Map<String,dynamic> ru = {
       },
       "entries": "Входы",
       "entry": "Вход",
+      "erase": {
+        "all": {
+          "content_and_settings": "Удалить все данные и настройки"
+        }
+      },
       "error": "Ошибка",
       "example": "Пример",
       "exit": {
@@ -2110,6 +2130,11 @@ static const Map<String,dynamic> zh = {
       },
       "entries": "入口",
       "entry": "入口",
+      "erase": {
+        "all": {
+          "content_and_settings": "清除所有内容和设置"
+        }
+      },
       "error": "错误",
       "example": "例子",
       "exit": {
@@ -2607,6 +2632,11 @@ static const Map<String,dynamic> de = {
       },
       "entries": "Eingänge",
       "entry": "Eingang",
+      "erase": {
+        "all": {
+          "content_and_settings": "Alle Inhalte und Einstellungen löschen"
+        }
+      },
       "error": "Fehler",
       "example": "Beispiel",
       "exit": {
@@ -3104,6 +3134,11 @@ static const Map<String,dynamic> ja = {
       },
       "entries": "エントリー",
       "entry": "エントリー",
+      "erase": {
+        "all": {
+          "content_and_settings": "すべてのコンテンツと設定を消去"
+        }
+      },
       "error": "エラー",
       "example": "例",
       "exit": {
@@ -3601,6 +3636,11 @@ static const Map<String,dynamic> fr = {
       },
       "entries": "Entrées",
       "entry": "Entrée",
+      "erase": {
+        "all": {
+          "content_and_settings": "Effacer tous les contenus et réglages"
+        }
+      },
       "error": "Erreur",
       "example": "Exemple",
       "exit": {
@@ -4098,6 +4138,11 @@ static const Map<String,dynamic> es = {
       },
       "entries": "Entradas",
       "entry": "Entrada",
+      "erase": {
+        "all": {
+          "content_and_settings": "Borrar todo el contenido y ajustes"
+        }
+      },
       "error": "Error",
       "example": "Ejemplo",
       "exit": {

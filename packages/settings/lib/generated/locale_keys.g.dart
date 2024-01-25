@@ -13,7 +13,6 @@ abstract class SettingsLocaleKeys {
   static const settings_label_dark = 'settings.label.dark';
   static const settings_label_default = 'settings.label.default';
   static const settings_label_disclaimer = 'settings.label.disclaimer';
-  static const settings_label_erase_all_content_and_settings = 'settings.label.erase.all.content_and_settings';
   static const settings_label_help_and_support = 'settings.label.help_and_support';
   static const settings_label_homepage = 'settings.label.homepage';
   static const settings_label_language = 'settings.label.language';

@@ -109,6 +109,11 @@
       },
       "entries": "Входы",
       "entry": "Вход",
+      "erase": {
+        "all": {
+          "content_and_settings": "Удалить все данные и настройки"
+        }
+      },
       "error": "Ошибка",
       "example": "Пример",
       "exit": {

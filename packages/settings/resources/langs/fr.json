@@ -19,11 +19,6 @@
       "dark": "Sombre",
       "default": "Par défaut",
       "disclaimer": "Clause de non-responsabilité",
-      "erase": {
-        "all": {
-          "content_and_settings": "Effacer tous les contenus et réglages"
-        }
-      },
       "help_and_support": "Aide et support",
       "homepage": "Accueil",
       "language": "Langue",

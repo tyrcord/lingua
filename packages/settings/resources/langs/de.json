@@ -19,11 +19,6 @@
       "dark": "Dunkel",
       "default": "Standard",
       "disclaimer": "Haftungsausschluss",
-      "erase": {
-        "all": {
-          "content_and_settings": "Alle Inhalte und Einstellungen löschen"
-        }
-      },
       "help_and_support": "Hilfe und support",
       "homepage": "Startseite",
       "language": "Sprache",

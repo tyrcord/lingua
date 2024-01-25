@@ -109,6 +109,11 @@
       },
       "entries": "Entries",
       "entry": "Entry",
+      "erase": {
+        "all": {
+          "content_and_settings": "Erase all content and settings"
+        }
+      },
       "error": "Error",
       "example": "Example",
       "exit": {

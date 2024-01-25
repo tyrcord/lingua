@@ -109,6 +109,11 @@
       },
       "entries": "入口",
       "entry": "入口",
+      "erase": {
+        "all": {
+          "content_and_settings": "清除所有内容和设置"
+        }
+      },
       "error": "错误",
       "example": "例子",
       "exit": {

@@ -109,6 +109,11 @@
       },
       "entries": "Eingänge",
       "entry": "Eingang",
+      "erase": {
+        "all": {
+          "content_and_settings": "Alle Inhalte und Einstellungen löschen"
+        }
+      },
       "error": "Fehler",
       "example": "Beispiel",
       "exit": {

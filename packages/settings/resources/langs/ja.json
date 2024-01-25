@@ -19,11 +19,6 @@
       "dark": "ダーク",
       "default": "デフォルト",
       "disclaimer": "免責事項",
-      "erase": {
-        "all": {
-          "content_and_settings": "すべてのコンテンツと設定を消去"
-        }
-      },
       "help_and_support": "ヘルプとサポート",
       "homepage": "ホーム",
       "language": "言語",

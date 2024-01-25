@@ -19,11 +19,6 @@
       "dark": "深色",
       "default": "默认",
       "disclaimer": "免责声明",
-      "erase": {
-        "all": {
-          "content_and_settings": "清除所有内容和设置"
-        }
-      },
       "help_and_support": "帮助与支持",
       "homepage": "主页",
       "language": "语言",

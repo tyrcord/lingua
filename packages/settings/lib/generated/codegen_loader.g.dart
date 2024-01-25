@@ -32,11 +32,6 @@ class SettingsCodegenLoader extends AssetLoader {
       "dark": "Escuro",
       "default": "Padrão",
       "disclaimer": "Aviso legal",
-      "erase": {
-        "all": {
-          "content_and_settings": "Apagar todo o conteúdo e definições"
-        }
-      },
       "help_and_support": "Ajuda e suporte",
       "homepage": "Página inicial",
       "language": "Idioma",
@@ -104,11 +99,6 @@ static const Map<String,dynamic> it = {
       "dark": "Scuro",
       "default": "Predefinito",
       "disclaimer": "Disclaimer",
-      "erase": {
-        "all": {
-          "content_and_settings": "Cancella tutti i contenuti e le impostazioni"
-        }
-      },
       "help_and_support": "Aiuto e supporto",
       "homepage": "Home",
       "language": "Lingua",
@@ -176,11 +166,6 @@ static const Map<String,dynamic> en = {
       "dark": "Dark",
       "default": "Default",
       "disclaimer": "Disclaimer",
-      "erase": {
-        "all": {
-          "content_and_settings": "Erase all content and settings"
-        }
-      },
       "help_and_support": "Help & Support",
       "homepage": "Home",
       "language": "Language",
@@ -248,11 +233,6 @@ static const Map<String,dynamic> ru = {
       "dark": "Темная",
       "default": "По умолчанию",
       "disclaimer": "Отказ от ответственности",
-      "erase": {
-        "all": {
-          "content_and_settings": "Удалить все данные и настройки"
-        }
-      },
       "help_and_support": "Справка и поддержка",
       "homepage": "Главная",
       "language": "Язык",
@@ -320,11 +300,6 @@ static const Map<String,dynamic> zh = {
       "dark": "深色",
       "default": "默认",
       "disclaimer": "免责声明",
-      "erase": {
-        "all": {
-          "content_and_settings": "清除所有内容和设置"
-        }
-      },
       "help_and_support": "帮助与支持",
       "homepage": "主页",
       "language": "语言",
@@ -392,11 +367,6 @@ static const Map<String,dynamic> de = {
       "dark": "Dunkel",
       "default": "Standard",
       "disclaimer": "Haftungsausschluss",
-      "erase": {
-        "all": {
-          "content_and_settings": "Alle Inhalte und Einstellungen löschen"
-        }
-      },
       "help_and_support": "Hilfe und support",
       "homepage": "Startseite",
       "language": "Sprache",
@@ -464,11 +434,6 @@ static const Map<String,dynamic> ja = {
       "dark": "ダーク",
       "default": "デフォルト",
       "disclaimer": "免責事項",
-      "erase": {
-        "all": {
-          "content_and_settings": "すべてのコンテンツと設定を消去"
-        }
-      },
       "help_and_support": "ヘルプとサポート",
       "homepage": "ホーム",
       "language": "言語",
@@ -536,11 +501,6 @@ static const Map<String,dynamic> fr = {
       "dark": "Sombre",
       "default": "Par défaut",
       "disclaimer": "Clause de non-responsabilité",
-      "erase": {
-        "all": {
-          "content_and_settings": "Effacer tous les contenus et réglages"
-        }
-      },
       "help_and_support": "Aide et support",
       "homepage": "Accueil",
       "language": "Langue",
@@ -608,11 +568,6 @@ static const Map<String,dynamic> es = {
       "dark": "Oscuro",
       "default": "Predeterminado",
       "disclaimer": "Aviso legal",
-      "erase": {
-        "all": {
-          "content_and_settings": "Borrar todo el contenido y ajustes"
-        }
-      },
       "help_and_support": "Ayuda y soporte",
       "homepage": "Inicio",
       "language": "Idioma",

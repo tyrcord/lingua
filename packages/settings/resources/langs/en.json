@@ -19,11 +19,6 @@
       "dark": "Dark",
       "default": "Default",
       "disclaimer": "Disclaimer",
-      "erase": {
-        "all": {
-          "content_and_settings": "Erase all content and settings"
-        }
-      },
       "help_and_support": "Help & Support",
       "homepage": "Home",
       "language": "Language",

@@ -19,11 +19,6 @@
       "dark": "Темная",
       "default": "По умолчанию",
       "disclaimer": "Отказ от ответственности",
-      "erase": {
-        "all": {
-          "content_and_settings": "Удалить все данные и настройки"
-        }
-      },
       "help_and_support": "Справка и поддержка",
       "homepage": "Главная",
       "language": "Язык",

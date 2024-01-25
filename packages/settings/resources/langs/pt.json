@@ -19,11 +19,6 @@
       "dark": "Escuro",
       "default": "Padrão",
       "disclaimer": "Aviso legal",
-      "erase": {
-        "all": {
-          "content_and_settings": "Apagar todo o conteúdo e definições"
-        }
-      },
       "help_and_support": "Ajuda e suporte",
       "homepage": "Página inicial",
       "language": "Idioma",

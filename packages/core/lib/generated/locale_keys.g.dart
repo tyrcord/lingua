@@ -77,6 +77,7 @@ abstract class CoreLocaleKeys {
   static const core_label_enter_text = 'core.label.enter.text';
   static const core_label_entries = 'core.label.entries';
   static const core_label_entry = 'core.label.entry';
+  static const core_label_erase_all_content_and_settings = 'core.label.erase.all.content_and_settings';
   static const core_label_error = 'core.label.error';
   static const core_label_example = 'core.label.example';
   static const core_label_exit_fullscreen = 'core.label.exit.fullscreen';
