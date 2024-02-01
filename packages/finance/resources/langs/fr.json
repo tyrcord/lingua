@@ -102,6 +102,10 @@
         "example": "Par exemple, si vous négociez 100 actions d'une société, entrez '100'. Si vous traitez du forex et négociez 500 unitées, entrez '500'.",
         "instructions": "Saisissez la quantité de l'instrument financier que vous détenez ou négociez. La taille de la position pourrait être en actions, lots, contrats, ou une autre unité, selon l'actif. Vous pouvez selectionner l'unité de mesure dans le menu déroulant à côté du champ de saisie."
       },
+      "price_after_vat": {
+        "example": "Si un produit coûte 10 $ avant taxes et est soumis à un taux de TVA de 20 %, le prix après TVA serait de 12 $. Entrez 12 comme valeur.",
+        "text": "Fait référence au prix total d'un produit ou d'un service après l'ajout de la taxe sur la valeur ajoutée (TVA). C'est le prix de vente au détail que les consommateurs paient. La TVA est une taxe sur la consommation qui est appliquée à la vente de biens et services dans de nombreux pays."
+      },
       "price_before_vat": {
         "example": "Si un produit coûte 10 $ avant taxes et qu'il est soumis à un taux de TVA de 20 %, inscrivez 10 comme valeur hors taxe",
         "text": "Désigne le prix d'un produit ou service avant l'ajout de la taxe sur la valeur ajoutée (TVA). La TVA est une taxe sur la consommation imposée lors de la vente de produits et services dans de nombreux pays."

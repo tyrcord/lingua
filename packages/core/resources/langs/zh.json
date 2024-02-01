@@ -116,6 +116,7 @@
       },
       "error": "错误",
       "example": "例子",
+      "excluded": "不包括",
       "exit": {
         "fullscreen": "退出全屏",
         "pip": "退出画中画",
@@ -161,6 +162,7 @@
       },
       "in_progress": "进行中",
       "inactive": "不活跃",
+      "included": "包括",
       "incomplete": "未完成",
       "info": "信息",
       "inputs": "输入",

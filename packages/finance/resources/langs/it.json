@@ -102,6 +102,10 @@
         "example": "Ad esempio, se stai negoziando 100 azioni di un'azienda, inseriresti '100'. Se stai operando con il forex e scambiando 500 unità, inseriresti '500'.",
         "instructions": "Inserisci la quantità dello strumento finanziario che stai mantenendo o negoziando. La dimensione della posizione potrebbe essere in azioni, lotti, contratti o un'altra unità, a seconda dell'attivo. Puoi selezionare l'unità di misura dal menu a tendina accanto al campo di inserimento."
       },
+      "price_after_vat": {
+        "example": "Se un prodotto costa $10 prima delle tasse ed è soggetto a una tariffa IVA del 20%, il prezzo dopo l'IVA sarebbe di $12, inserire 12 come valore.",
+        "text": "Si riferisce al prezzo totale di un prodotto o servizio dopo l'aggiunta dell'imposta sul valore aggiunto (IVA). Questo è il prezzo al dettaglio che i consumatori pagano. L'IVA è un'imposta sul consumo che viene applicata alla vendita di beni e servizi in molti paesi."
+      },
       "price_before_vat": {
         "example": "Se un prodotto costa $10 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
         "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."

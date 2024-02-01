@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class NumberCodegenLoader extends AssetLoader {
@@ -12,34 +11,34 @@ class NumberCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> de = {
+  static const Map<String,dynamic> zh = {
   "number": {
     "label": {
-      "amount": "Betrag",
-      "percent": "Prozent",
-      "percentage": "Prozentsatz"
+      "amount": "金额",
+      "percent": "百分",
+      "percentage": "百分比"
     },
     "ordinal": {
       "short": {
         "first": {
-          "female": "{num}.",
-          "male": "{num}.",
-          "other": "{num}."
+          "female": "第{num}个",
+          "male": "第{num}个",
+          "other": "第{num}个"
         },
         "others": {
-          "female": "{num}.",
-          "male": "{num}.",
-          "other": "{num}."
+          "female": "第{num}个",
+          "male": "第{num}个",
+          "other": "第{num}个"
         },
         "second": {
-          "female": "{num}.",
-          "male": "{num}.",
-          "other": "{num}."
+          "female": "第{num}个",
+          "male": "第{num}个",
+          "other": "第{num}个"
         },
         "third": {
-          "female": "{num}.",
-          "male": "{num}.",
-          "other": "{num}."
+          "female": "第{num}个",
+          "male": "第{num}个",
+          "other": "第{num}个"
         }
       }
     }
@@ -78,67 +77,34 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> fr = {
+static const Map<String,dynamic> de = {
   "number": {
     "label": {
-      "amount": "Montant",
-      "percent": "Pour cent",
-      "percentage": "Pourcentage"
+      "amount": "Betrag",
+      "percent": "Prozent",
+      "percentage": "Prozentsatz"
     },
     "ordinal": {
       "short": {
         "first": {
-          "female": "{num}ère",
-          "male": "{num}er",
-          "other": "{num}er"
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
         },
         "others": {
-          "female": "{num}ème",
-          "male": "{num}ème",
-          "other": "{num}ème"
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
         },
         "second": {
-          "female": "{num}ème",
-          "male": "{num}ème",
-          "other": "{num}ème"
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
         },
         "third": {
-          "female": "{num}ème",
-          "male": "{num}ème",
-          "other": "{num}ème"
-        }
-      }
-    }
-  }
-};
-static const Map<String,dynamic> zh = {
-  "number": {
-    "label": {
-      "amount": "金额",
-      "percent": "百分",
-      "percentage": "百分比"
-    },
-    "ordinal": {
-      "short": {
-        "first": {
-          "female": "第{num}个",
-          "male": "第{num}个",
-          "other": "第{num}个"
-        },
-        "others": {
-          "female": "第{num}个",
-          "male": "第{num}个",
-          "other": "第{num}个"
-        },
-        "second": {
-          "female": "第{num}个",
-          "male": "第{num}个",
-          "other": "第{num}个"
-        },
-        "third": {
-          "female": "第{num}个",
-          "male": "第{num}个",
-          "other": "第{num}个"
+          "female": "{num}.",
+          "male": "{num}.",
+          "other": "{num}."
         }
       }
     }
@@ -172,6 +138,72 @@ static const Map<String,dynamic> pt = {
           "female": "{num}.º",
           "male": "{num}.º",
           "other": "{num}.º"
+        }
+      }
+    }
+  }
+};
+static const Map<String,dynamic> es = {
+  "number": {
+    "label": {
+      "amount": "Cantidad",
+      "percent": "Por ciento",
+      "percentage": "Porcentaje"
+    },
+    "ordinal": {
+      "short": {
+        "first": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        },
+        "others": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        },
+        "second": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        },
+        "third": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        }
+      }
+    }
+  }
+};
+static const Map<String,dynamic> fr = {
+  "number": {
+    "label": {
+      "amount": "Montant",
+      "percent": "Pour cent",
+      "percentage": "Pourcentage"
+    },
+    "ordinal": {
+      "short": {
+        "first": {
+          "female": "{num}ère",
+          "male": "{num}er",
+          "other": "{num}er"
+        },
+        "others": {
+          "female": "{num}ème",
+          "male": "{num}ème",
+          "other": "{num}ème"
+        },
+        "second": {
+          "female": "{num}ème",
+          "male": "{num}ème",
+          "other": "{num}ème"
+        },
+        "third": {
+          "female": "{num}ème",
+          "male": "{num}ème",
+          "other": "{num}ème"
         }
       }
     }
@@ -276,38 +308,5 @@ static const Map<String,dynamic> it = {
     }
   }
 };
-static const Map<String,dynamic> es = {
-  "number": {
-    "label": {
-      "amount": "Cantidad",
-      "percent": "Por ciento",
-      "percentage": "Porcentaje"
-    },
-    "ordinal": {
-      "short": {
-        "first": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
-        },
-        "others": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
-        },
-        "second": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
-        },
-        "third": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
-        }
-      }
-    }
-  }
-};
-static const Map<String, Map<String,dynamic>> mapLocales = {"de": de, "ja": ja, "fr": fr, "zh": zh, "pt": pt, "ru": ru, "en": en, "it": it, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "pt": pt, "es": es, "fr": fr, "ru": ru, "en": en, "it": it};
 }

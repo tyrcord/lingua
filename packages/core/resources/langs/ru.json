@@ -116,6 +116,7 @@
       },
       "error": "Ошибка",
       "example": "Пример",
+      "excluded": "Исключено",
       "exit": {
         "fullscreen": "Выйти из полноэкранного режима",
         "pip": "Выйти из режима picture-in-picture",
@@ -161,6 +162,7 @@
       },
       "in_progress": "В процессе",
       "inactive": "Неактивный",
+      "included": "Включено",
       "incomplete": "Незавершенный",
       "info": "Информация",
       "inputs": "Ввод",

@@ -102,6 +102,10 @@
         "example": "Wenn Sie beispielsweise 100 Aktien eines Unternehmens handeln, geben Sie '100' ein. Wenn Sie mit Forex handeln und 500 Einheiten handeln, geben Sie '500' ein.",
         "instructions": "Geben Sie die Menge des Finanzinstruments ein, das Sie halten oder handeln. Die Positionsgröße kann in Aktien, Losen, Verträgen oder einer anderen Einheit sein, je nach Vermögenswert. Sie können die Maßeinheit aus dem Dropdown-Menü neben dem Eingabefeld auswählen."
       },
+      "price_after_vat": {
+        "example": "Wenn ein Produkt vor Steuern 10 $ kostet und einem Mehrwertsteuersatz von 20 % unterliegt, wäre der Preis nach Mehrwertsteuer 12 $. Geben Sie 12 als Wert ein.",
+        "text": "Bezieht sich auf den Gesamtpreis eines Produkts oder einer Dienstleistung nach Hinzufügung der Mehrwertsteuer (MwSt.). Dies ist der Einzelhandelspreis, den Verbraucher zahlen. Die MwSt. Ist eine Verbrauchssteuer, die in vielen Ländern auf den Verkauf von Waren und Dienstleistungen angewendet wird."
+      },
       "price_before_vat": {
         "example": "Wenn ein Produkt vor Steuern 10 $ kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
         "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. Ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."

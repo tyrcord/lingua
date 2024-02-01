@@ -54,6 +54,8 @@ abstract class FinanceLocaleKeys {
   static const finance_help_operating_expenses_instructions = 'finance.help.operating_expenses.instructions';
   static const finance_help_position_size_example = 'finance.help.position_size.example';
   static const finance_help_position_size_instructions = 'finance.help.position_size.instructions';
+  static const finance_help_price_after_vat_example = 'finance.help.price_after_vat.example';
+  static const finance_help_price_after_vat_text = 'finance.help.price_after_vat.text';
   static const finance_help_price_before_vat_example = 'finance.help.price_before_vat.example';
   static const finance_help_price_before_vat_text = 'finance.help.price_before_vat.text';
   static const finance_help_rate_of_return_example = 'finance.help.rate_of_return.example';

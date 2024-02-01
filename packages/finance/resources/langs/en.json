@@ -102,6 +102,10 @@
         "example": "For example, if you are trading 100 shares of a company, enter '100'. If you are dealing with forex and trading 500 units, enter '500'.",
         "instructions": "Enter the quantity of the financial instrument you are holding or trading. The position size could be in shares, lots, contracts, or another unit, depending on the asset. You can select the unit of measure from the dropdown menu next to the input field."
       },
+      "price_after_vat": {
+        "example": "If a product costs $10 before taxes and is subject to a VAT rate of 20%, the price after VAT would be $12, enter 12 as the value.",
+        "text": "Refers to the total price of a product or service after the addition of the value-added tax (VAT). This is the retail price that consumers pay. VAT is a tax on consumption that is applied to the sale of goods and services in many countries."
+      },
       "price_before_vat": {
         "example": "If a product costs $10 before taxes and is subject to a VAT rate of 20%, enter 10 as the pre-tax value.",
         "text": "Refers to the price of a product or service before the addition of the value-added tax (VAT). VAT is a tax on consumption imposed when products and services are sold in many countries."

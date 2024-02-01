@@ -102,6 +102,10 @@
         "example": "Por exemplo, se estiver a negociar 100 ações de uma empresa, introduziria '100'. Se estiver a lidar com forex e a negociar 500 unidades, introduziria '500'.",
         "instructions": "Introduza a quantidade do instrumento financeiro que está a manter ou a negociar. O tamanho da posição pode ser em ações, lotes, contratos ou outra unidade, dependendo do ativo. Pode selecionar a unidade de medida no menu suspenso ao lado do campo de entrada."
       },
+      "price_after_vat": {
+        "example": "Se um produto custa $10 antes dos impostos e está sujeito a uma taxa de IVA de 20%, o preço após o IVA seria de $12, insira 12 como o valor.",
+        "text": "Refere-se ao preço total de um produto ou serviço após a adição do imposto sobre o valor acrescentado (IVA). Este é o preço de retalho que os consumidores pagam. O IVA é um imposto sobre o consumo que é aplicado à venda de bens e serviços em muitos países."
+      },
       "price_before_vat": {
         "example": "Se um produto custa $10 antes dos impostos e está sujeito a uma taxa de IVA de 20%, insira 10 como o valor pré-imposto.",
         "text": "Refere-se ao preço de um produto ou serviço antes da adição do imposto sobre o valor acrescentado (IVA). O IVA é um imposto sobre o consumo imposto quando produtos e serviços são vendidos em muitos países."

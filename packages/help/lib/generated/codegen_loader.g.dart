@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class HelpCodegenLoader extends AssetLoader {
@@ -12,12 +11,12 @@ class HelpCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> de = {
+  static const Map<String,dynamic> zh = {
   "help": {
     "label": {
-      "instructions": "Anweisungen",
-      "manual": "Handbuch",
-      "manuals": "Handbücher"
+      "instructions": "说明",
+      "manual": "手册",
+      "manuals": "手册"
     }
   }
 };
@@ -30,21 +29,12 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> fr = {
+static const Map<String,dynamic> de = {
   "help": {
     "label": {
-      "instructions": "Instructions",
-      "manual": "Mode d'emploi",
-      "manuals": "Manuels"
-    }
-  }
-};
-static const Map<String,dynamic> zh = {
-  "help": {
-    "label": {
-      "instructions": "说明",
-      "manual": "手册",
-      "manuals": "手册"
+      "instructions": "Anweisungen",
+      "manual": "Handbuch",
+      "manuals": "Handbücher"
     }
   }
 };
@@ -54,6 +44,24 @@ static const Map<String,dynamic> pt = {
       "instructions": "Instruções",
       "manual": "Manual",
       "manuals": "Manuais"
+    }
+  }
+};
+static const Map<String,dynamic> es = {
+  "help": {
+    "label": {
+      "instructions": "Instrucciones",
+      "manual": "Manual",
+      "manuals": "Manuales"
+    }
+  }
+};
+static const Map<String,dynamic> fr = {
+  "help": {
+    "label": {
+      "instructions": "Instructions",
+      "manual": "Mode d'emploi",
+      "manuals": "Manuels"
     }
   }
 };
@@ -84,14 +92,5 @@ static const Map<String,dynamic> it = {
     }
   }
 };
-static const Map<String,dynamic> es = {
-  "help": {
-    "label": {
-      "instructions": "Instrucciones",
-      "manual": "Manual",
-      "manuals": "Manuales"
-    }
-  }
-};
-static const Map<String, Map<String,dynamic>> mapLocales = {"de": de, "ja": ja, "fr": fr, "zh": zh, "pt": pt, "ru": ru, "en": en, "it": it, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "pt": pt, "es": es, "fr": fr, "ru": ru, "en": en, "it": it};
 }

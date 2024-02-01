@@ -116,6 +116,7 @@
       },
       "error": "Errore",
       "example": "Esempio",
+      "excluded": "Escluso",
       "exit": {
         "fullscreen": "Esci dallo schermo intero",
         "pip": "Esci dall'immagine in immagine",
@@ -161,6 +162,7 @@
       },
       "in_progress": "In corso",
       "inactive": "Inattivo",
+      "included": "Incluso",
       "incomplete": "Incompleto",
       "info": "Informazione",
       "inputs": "Inserimenti",

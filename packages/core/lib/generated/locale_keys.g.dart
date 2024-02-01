@@ -80,6 +80,7 @@ abstract class CoreLocaleKeys {
   static const core_label_erase_all_content_and_settings = 'core.label.erase.all.content_and_settings';
   static const core_label_error = 'core.label.error';
   static const core_label_example = 'core.label.example';
+  static const core_label_excluded = 'core.label.excluded';
   static const core_label_exit_fullscreen = 'core.label.exit.fullscreen';
   static const core_label_exit_pip = 'core.label.exit.pip';
   static const core_label_exit_text = 'core.label.exit.text';
@@ -115,6 +116,7 @@ abstract class CoreLocaleKeys {
   static const core_label_import_text = 'core.label.import.text';
   static const core_label_in_progress = 'core.label.in_progress';
   static const core_label_inactive = 'core.label.inactive';
+  static const core_label_included = 'core.label.included';
   static const core_label_incomplete = 'core.label.incomplete';
   static const core_label_info = 'core.label.info';
   static const core_label_inputs = 'core.label.inputs';

@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class FinanceForexCodegenLoader extends AssetLoader {
@@ -12,135 +11,135 @@ class FinanceForexCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> de = {
+  static const Map<String,dynamic> zh = {
   "forex": {
     "help": {
       "close_price": {
-        "example": "Wenn Sie einen Schlusskurs von 1.3050 für das EUR/USD-Paar am Ende des Handelstages erwarten, geben Sie 1.3050 als Wert ein.",
-        "text": "Geben Sie den Schlusskurs an, den Sie für ein Währungspaar am Ende des Handelstages erwarten."
+        "example": "如果您预计交易日结束时EUR/USD对的收盘汇率为1.3050，请输入1.3050作为值。",
+        "text": "预测交易日结束时您预期的货币对的收盘汇率。"
       },
       "entry_price": {
-        "example": "Wenn Sie planen, auf dem Markt für das Währungspaar EUR/USD zu einem Wechselkurs von 1,2950 einzusteigen, geben Sie 1,2950 als Wert ein.",
-        "text": "Geben Sie den Wechselkurs an, zu dem Sie planen, in einen Handel für ein Währungspaar einzusteigen."
+        "example": "如果您计划以1.2950的汇率进入EUR/USD货币对市场，请输入1.2950作为值。",
+        "text": "指明您计划进入货币对交易的汇率。"
       },
       "exit_price": {
-        "example": "Wenn Sie planen, den Markt für das Währungspaar EUR/USD zu einem Wechselkurs von 1,3050 zu verlassen, geben Sie 1,3050 als Wert ein.",
-        "text": "Geben Sie den Wechselkurs an, zu dem Sie planen, einen Handel für ein Währungspaar zu verlassen."
+        "example": "如果您计划以1.3050的汇率退出EUR/USD货币对市场，请输入1.3050作为值。",
+        "text": "指明您计划退出货币对交易的汇率。"
       },
       "high_price": {
-        "example": "Wenn Sie erwarten, dass der höchste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,3000 beträgt, geben Sie 1,3000 als Wert ein.",
-        "text": "Geben Sie den höchsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
+        "example": "如果您预计EUR/USD货币对在交易日的最高汇率将为1.3000，请输入1.3000作为该值。",
+        "text": "指明您预期的货币对的最高汇率。"
       },
       "low_price": {
-        "example": "Wenn Sie erwarten, dass der niedrigste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,2900 beträgt, geben Sie bitte 1,2900 als Wert ein.",
-        "text": "Geben Sie den niedrigsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
+        "example": "如果您预计EUR/USD货币对在交易日的最低汇率将为1.2900，请输入1.2900作为该值。",
+        "text": "指明您预期的货币对的最低汇率。"
       },
       "number_of_pips": {
-        "example": "Wenn Sie beispielsweise ein Gewinnziel von 15 Pips für einen bestimmten Trade festlegen, müssen Sie '15' eingeben.",
-        "instructions": "Geben Sie die Gesamtzahl der Pips ein, die mit dem Gewinn- oder Verlustziel Ihres Handels verbunden sind. Die 'Anzahl der Pips' bezieht sich auf das kleinste inkrementelle Bewegungsziel im Preis eines von Ihnen verfolgten oder als Ziel gesetzten Währungspaares."
+        "example": "例如，如果您为某个特定交易设定了赚取15个点子的目标，您必须输入'15'。",
+        "instructions": "输入与您的交易利润或亏损目标相关的点数总数。'点数数量'是指您正在跟踪或设定为目标的货币对价格变动的最小增量目标。"
       },
       "open_price": {
-        "example": "Wenn Sie einen Eröffnungskurs von 1.2950 für das EUR/USD-Paar zu Beginn des Handelstages erwarten, geben Sie 1.2950 als Wert ein.",
-        "text": "Geben Sie den Eröffnungskurs an, den Sie für ein Währungspaar zu Beginn des Handelstages erwarten."
+        "example": "如果您预计交易日开始时EUR/USD对的开盘汇率为1.2950，请输入1.2950作为值。",
+        "text": "预测交易日开始时您预期的货币对的开盘汇率。"
       },
       "pip_decimal_places": {
-        "example": "Wenn Sie beispielsweise Bitcoin-CFDs handeln und Ihr Broker Pip-Bewegungen bis zur dritten Stelle nach dem Komma angibt, würden Sie '3' eingeben.",
-        "instructions": "Geben Sie die Anzahl der Dezimalstellen ein, die Ihr Broker für den Pip-Wert Ihres gewählten Handelsinstruments verwendet. Broker können in der dezimalen Genauigkeit variieren, die verwendet wird, um Preise für CFDs, Kryptowährungen und andere exotische Instrumente zu zitieren, was sich direkt auf Ihre Handelsberechnungen auswirkt. Überprüfen Sie bei Ihrem Broker, wenn Sie sich über das von ihnen verwendete Präzisionsniveau unsicher sind."
+        "example": "例如，如果您正在交易比特币CFD，而您的经纪人指定点数移动到小数点后的第三位，您会输入'3'。",
+        "instructions": "输入您的经纪人用于您选择的交易工具的点值的小数位数。经纪人在报价CFD、加密货币和其他异国情调工具的价格时使用的小数精度可能有所不同，这将直接影响您的交易计算。如果您不确定他们使用的精度级别，请咨询您的经纪人。"
       },
       "pivot_points_method": {
-        "example": "Wenn Sie die Methode der Standard-Pivot-Punkte verwenden möchten, wählen Sie 'Standard'.",
-        "text": "Wählen Sie die Methode der Pivot-Punkte aus, die Sie zur Analyse eines Finanzinstruments verwenden möchten."
+        "example": "如果您计划使用标准支点点方法，请选择'标准'。",
+        "text": "选择您打算用于分析金融工具的支点点方法。"
       },
       "position": {
-        "example": "Wählen Sie 'long', wenn Sie erwarten, dass der Wert des Währungspaares steigt, oder 'short', wenn Sie erwarten, dass er sinkt.",
-        "text": "Geben Sie an, ob Ihre Handelsposition für ein Währungspaar 'long' (kaufend) oder 'short' (verkaufend) ist."
+        "example": "如果您预期货币对的价值会增加，请选择'多头'，如果您预期会减少，请选择'空头'。",
+        "text": "指定您对货币对的交易位置（多头或空头）。"
       },
       "position_size": {
-        "example": "Zum Beispiel, wenn Sie ein Standardlos des Währungspaares EUR/USD handeln möchten, sollten Sie im Dropdown-Menü die Option 'Standardlos' auswählen und '1' in das Eingabefeld eingeben.",
-        "instructions": "Geben Sie die Menge des Finanzinstruments, das Sie handeln, in Einheiten, Standardlosen, Minilosen oder Mikrolots ein. Verwenden Sie das Dropdown-Menü neben dem Eingabefeld, um die passende Positionsgröße für Ihren Handel auszuwählen."
+        "example": "例如，如果您想要交易欧元/美元货币对的一个标准手，您需要从下拉菜单中选择'标准手'选项，并在输入栏中输入'1'。",
+        "instructions": "输入您正在交易的金融工具的数量，使用单位、标准手、小手或微手。使用输入框旁边的下拉菜单选择适合您交易的头寸大小。"
       },
       "price_a": {
-        "example": "Zum Beispiel, wenn Sie zwei Angebote vergleichen und Ihr erstes Angebot für EUR/USD 1.1150 ist, geben Sie '1.1150' in das Feld 'Preis A' ein.",
-        "instructions": "Geben Sie das erste Preisangebot in das Feld 'Preis A' ein."
+        "example": "例如，如果您正在比较两个报价，您的第一个EUR/USD报价是1.1150，请在'价格A'字段中输入'1.1150'。",
+        "instructions": "在'价格A'字段中输入第一个价格报价。"
       },
       "price_b": {
-        "example": "Zum Beispiel, wenn Ihr zweites Angebot für das gleiche EUR/USD-Paar 1.1200 beträgt, würden Sie '1.1200' in das Feld 'Preis B' eingeben.",
-        "instructions": "Geben Sie das zweite Preisangebot in das Feld 'Preis B' ein. Dieser Wert sollte einem anderen Angebot für das gleiche Finanzinstrument entsprechen, wie in 'Preis A' eingegeben."
+        "example": "例如，如果您对同一EUR/USD对的第二个报价是1.1200，您应该在'价格B'字段中输入'1.1200'。",
+        "instructions": "在'价格B'字段中输入第二个价格报价。此值应与在'价格A'中输入的同一金融工具的不同报价相对应。"
       },
       "stop_loss_amount": {
-        "example": "Wenn Ihre Gesamtinvestition 1000 \u0024 beträgt und Sie Ihren Verlust auf 100 \u0024 begrenzen möchten, geben Sie den Betrag als 100 \u0024 ein.",
-        "instructions": "Geben Sie den maximalen Geldbetrag an, den Sie bei einem Handel zu verlieren bereit sind."
+        "example": "如果您的总投资额为1000美元，希望将损失限制在100美元，请输入100美元。",
+        "instructions": "指明您愿意在一笔交易中承担的最大亏损金额。"
       },
       "stop_loss_pips": {
-        "example": "Wenn Sie eine Position im Währungspaar EUR/USD eröffnet haben und Ihren Verlust auf 20 Pips begrenzen möchten, geben Sie bitte 20 als Wert ein.",
-        "instructions": "Geben Sie die Anzahl der Pips an, bei denen Sie Ihren Stop-Loss-Auftrag setzen möchten, um potenzielle Verluste zu begrenzen."
+        "example": "如果您在EUR/USD货币对上开设了头寸，并希望将损失限制在20点内，请输入20作为数值。",
+        "instructions": "指定您将设置止损订单的点数，以减轻潜在损失。"
       },
       "stop_loss_price": {
-        "example": "Wenn Sie eine Position im Währungspaar EUR/USD zum Kurs von 1,1000 eröffnet haben und Ihre Verluste durch das Setzen eines Stop-Loss bei 1,0950 begrenzen möchten, geben Sie den Wert 1,0950 ein.",
-        "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Stop-Loss-Auftrag platzieren möchten, um potenzielle Verluste zu begrenzen."
+        "example": "如果您在EUR/USD货币对上以1.1000的汇率开设了一个头寸，并希望通过设置1.0950的止损来限制您的损失，请输入数值1.0950。",
+        "instructions": "请指定您将设置止损订单的汇率，以减轻潜在损失。"
       },
       "take_profit_amount": {
-        "example": "Wenn Ihre Gesamtinvestition 1000 \u0024 beträgt und Sie einen Gewinn von 200 \u0024 erzielen möchten, geben Sie den Betrag als 200 \u0024 ein.",
-        "instructions": "Geben Sie den Geldbetrag an, den Sie bei einem Handel als Gewinn erzielen möchten."
+        "example": "如果您的总投资额为1000美元，并希望获利200美元，请输入200美元。",
+        "instructions": "指明您在一笔交易中期望实现的获利金额。"
       },
       "take_profit_pips": {
-        "example": "Wenn Sie eine Position im Währungspaar EUR/USD eröffnet haben und bei 30 Pips Gewinn nehmen möchten, geben Sie 30 als Wert ein.",
-        "instructions": "Bestimmen Sie die Anzahl der Pips, bei denen Sie Ihren Take-Profit-Auftrag platzieren, um Gewinne zu sichern."
+        "example": "如果您在欧元/美元货币对上开设了一个头寸，并希望在30点差价中获利，请输入30作为值。",
+        "instructions": "指定您设置获利单以确保收益的点差数。"
       },
       "take_profit_price": {
-        "example": "Wenn Sie eine Position im Währungspaar EUR/USD zu einem Kurs von 1.1000 eröffnet haben und bei einem Kurs von 1.1050 Gewinn nehmen möchten, geben Sie 1.1050 ein.",
-        "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Take-Profit-Auftrag platzieren, um Gewinne zu sichern."
+        "example": "如果您在欧元/美元货币对上以1.1000的汇率开设头寸，并希望在1.1050的汇率下获利，请输入1.1050。",
+        "instructions": "请指定您设置获利单以确保收益的汇率。"
       },
       "trend": {
-        "example": "Wenn Sie erwarten, dass der Markt den Euro gegenüber dem Amerikanischen Dollar bevorzugt, wählen Sie 'Aufwärts'. Wenn Sie das Gegenteil erwarten, wählen Sie 'Abwärts'.",
-        "text": "Geben Sie den Markttrend an, den Sie für ein Währungspaar erwarten, entweder 'Aufwärts' für einen Aufwärtstrend oder 'Abwärts' für einen Abwärtstrend."
+        "example": "如果您预期市场将支持欧元对美元，选择'上升'。如果预期相反，请选择'下降'。",
+        "text": "指定您预期的货币对市场趋势，'上升'表示上行趋势，'下降'表示下行趋势。"
       }
     },
     "label": {
-      "commodities": "Rohstoffe",
+      "commodities": "大宗商品",
       "count": {
         "pips": {
           "few": "{} Pips",
           "many": "{} Pips",
           "one": "{} Pip",
           "other": "{} Pips",
-          "zero": "{} Pip"
+          "zero": "{} Pips"
         }
       },
-      "cryptos": "Kryptowährungen",
+      "cryptos": "加密货币",
       "currency": {
-        "base": "Hauptwährung",
-        "counter": "Gegenwährung",
-        "pair": "Währungspaar"
+        "base": "基础货币",
+        "counter": "交易货币",
+        "pair": "货币对"
       },
       "lot": {
-        "micro": "Mikro-lot",
-        "mini": "Mini-lot",
-        "nano": "Nano-lot",
-        "size": "Lot-größe",
-        "standard": "Standard-lot",
-        "text": "Lot"
+        "micro": "微型手",
+        "mini": "迷你手",
+        "nano": "纳米手",
+        "size": "手数",
+        "standard": "标准手",
+        "text": "手"
       },
       "pip": {
-        "calculator": "Pip-rechner",
-        "decimal_places": "Pip-dezimalstellen",
-        "difference": "Pip-differenz",
-        "value": "Pip-wert"
+        "calculator": "点差计算器",
+        "decimal_places": "点差小数位数",
+        "difference": "点差差额",
+        "value": "点值"
       },
       "pips": {
-        "number": "Anzahl der pips",
+        "number": "点数",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop-loss (pips)"
+        "pips": "止损（pips）"
       },
       "take_profit": {
-        "pips": "Take profit (pips)"
+        "pips": "止盈（pips）"
       }
     },
     "select": {
-      "currency_pair": "Wählen Sie ein Währungspaar",
-      "decimal": "Dezimalstelle auswählen"
+      "currency_pair": "选择货币对",
+      "decimal": "请选择一个小数"
     }
   }
 };
@@ -276,92 +275,92 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> fr = {
+static const Map<String,dynamic> de = {
   "forex": {
     "help": {
       "close_price": {
-        "example": "Si vous anticipez un taux de change de clôture de 1.3050 pour la paire EUR/USD à la fin de la journée de trading, saisissez 1.3050 comme valeur.",
-        "text": "Indiquez le taux de change de clôture que vous anticipez pour une paire de devises à la fin de la journée de trading."
+        "example": "Wenn Sie einen Schlusskurs von 1.3050 für das EUR/USD-Paar am Ende des Handelstages erwarten, geben Sie 1.3050 als Wert ein.",
+        "text": "Geben Sie den Schlusskurs an, den Sie für ein Währungspaar am Ende des Handelstages erwarten."
       },
       "entry_price": {
-        "example": "Si vous prévoyez d'entrer sur le marché pour la paire EUR/USD à un taux de change de 1,2950, saisissez 1,2950 comme valeur.",
-        "text": "Indiquez le taux de change auquel vous prévoyez d'entrer dans une opération pour une paire de devises."
+        "example": "Wenn Sie planen, auf dem Markt für das Währungspaar EUR/USD zu einem Wechselkurs von 1,2950 einzusteigen, geben Sie 1,2950 als Wert ein.",
+        "text": "Geben Sie den Wechselkurs an, zu dem Sie planen, in einen Handel für ein Währungspaar einzusteigen."
       },
       "exit_price": {
-        "example": "Si vous prévoyez de sortir du marché pour la paire EUR/USD à un taux de change de 1,3050, saisissez 1,3050 comme valeur.",
-        "text": "Indiquez le taux de change auquel vous prévoyez de sortir d'une opération pour une paire de devises."
+        "example": "Wenn Sie planen, den Markt für das Währungspaar EUR/USD zu einem Wechselkurs von 1,3050 zu verlassen, geben Sie 1,3050 als Wert ein.",
+        "text": "Geben Sie den Wechselkurs an, zu dem Sie planen, einen Handel für ein Währungspaar zu verlassen."
       },
       "high_price": {
-        "example": "Si vous anticipez que le taux de change le plus élevé pour la paire EUR/USD pendant la journée de trading sera de 1,3000, entrez 1,3000 comme valeur.",
-        "text": "Indiquez le taux de change le plus élevé que vous anticipez pour une paire de devises."
+        "example": "Wenn Sie erwarten, dass der höchste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,3000 beträgt, geben Sie 1,3000 als Wert ein.",
+        "text": "Geben Sie den höchsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
       },
       "low_price": {
-        "example": "Si vous anticipez que le taux de change le plus bas pour la paire EUR/USD pendant la journée de trading sera de 1,2900, veuillez entrer 1,2900 comme valeur.",
-        "text": "Indiquez le taux de change le plus bas que vous anticipez pour une paire de devises."
+        "example": "Wenn Sie erwarten, dass der niedrigste Wechselkurs für das EUR/USD-Paar während des Handelstages 1,2900 beträgt, geben Sie bitte 1,2900 als Wert ein.",
+        "text": "Geben Sie den niedrigsten Wechselkurs an, den Sie für ein Währungspaar erwarten."
       },
       "number_of_pips": {
-        "example": "Par exemple, si vous définissez un objectif de gain de 15 pips pour une transaction particulière, vous devez saisir '15'.",
-        "instructions": "Entrez le nombre total de pips associés à l'objectif de gain ou de perte de votre trade. Le 'nombre de pips' fait référence à la plus petite cible incrémentielle de mouvement dans le prix d'une paire de devises que vous suivez ou fixez comme objectif."
+        "example": "Wenn Sie beispielsweise ein Gewinnziel von 15 Pips für einen bestimmten Trade festlegen, müssen Sie '15' eingeben.",
+        "instructions": "Geben Sie die Gesamtzahl der Pips ein, die mit dem Gewinn- oder Verlustziel Ihres Handels verbunden sind. Die 'Anzahl der Pips' bezieht sich auf das kleinste inkrementelle Bewegungsziel im Preis eines von Ihnen verfolgten oder als Ziel gesetzten Währungspaares."
       },
       "open_price": {
-        "example": "Si vous anticipez un taux de change d'ouverture de 1.2950 pour la paire EUR/USD au début de la journée de trading, saisissez 1.2950 comme valeur.",
-        "text": "Indiquez le taux de change d'ouverture que vous anticipez pour une paire de devises au début de la journée de trading."
+        "example": "Wenn Sie einen Eröffnungskurs von 1.2950 für das EUR/USD-Paar zu Beginn des Handelstages erwarten, geben Sie 1.2950 als Wert ein.",
+        "text": "Geben Sie den Eröffnungskurs an, den Sie für ein Währungspaar zu Beginn des Handelstages erwarten."
       },
       "pip_decimal_places": {
-        "example": "Par exemple, si vous négociez des CFD Bitcoin et que votre courtier spécifie des mouvements de pip au troisième chiffre après la virgule, vous entreriez '3'.",
-        "instructions": "Saisissez le nombre de décimales que votre courtier utilise pour la valeur pip de votre instrument de trading choisi. Les courtiers peuvent varier dans la précision décimale utilisée pour coter les prix pour les CFD, les cryptomonnaies et d'autres instruments exotiques, ce qui affecte directement vos calculs de trading. Vérifiez auprès de votre courtier si vous n'êtes pas sûr du niveau de précision qu'ils utilisent."
+        "example": "Wenn Sie beispielsweise Bitcoin-CFDs handeln und Ihr Broker Pip-Bewegungen bis zur dritten Stelle nach dem Komma angibt, würden Sie '3' eingeben.",
+        "instructions": "Geben Sie die Anzahl der Dezimalstellen ein, die Ihr Broker für den Pip-Wert Ihres gewählten Handelsinstruments verwendet. Broker können in der dezimalen Genauigkeit variieren, die verwendet wird, um Preise für CFDs, Kryptowährungen und andere exotische Instrumente zu zitieren, was sich direkt auf Ihre Handelsberechnungen auswirkt. Überprüfen Sie bei Ihrem Broker, wenn Sie sich über das von ihnen verwendete Präzisionsniveau unsicher sind."
       },
       "pivot_points_method": {
-        "example": "Si vous prévoyez d'utiliser la méthode des Points Pivots Standard, sélectionnez 'Standard'.",
-        "text": "Sélectionnez la méthode de points pivots que vous avez l'intention d'utiliser pour analyser un instrument financier."
+        "example": "Wenn Sie die Methode der Standard-Pivot-Punkte verwenden möchten, wählen Sie 'Standard'.",
+        "text": "Wählen Sie die Methode der Pivot-Punkte aus, die Sie zur Analyse eines Finanzinstruments verwenden möchten."
       },
       "position": {
-        "example": "Sélectionnez 'long' si vous anticipez une augmentation de la valeur de la paire de devises, ou 'court' si vous anticipez une diminution.",
-        "text": "Spécifiez si votre position de trading pour une paire de devises est 'longue' ou 'courte'."
+        "example": "Wählen Sie 'long', wenn Sie erwarten, dass der Wert des Währungspaares steigt, oder 'short', wenn Sie erwarten, dass er sinkt.",
+        "text": "Geben Sie an, ob Ihre Handelsposition für ein Währungspaar 'long' (kaufend) oder 'short' (verkaufend) ist."
       },
       "position_size": {
-        "example": "Par exemple, si vous souhaitez négocier un lot standard de la paire de devises EUR/USD, vous devrez sélectionner l'option 'Lot Standard' dans le menu déroulant et entrer '1' dans le champ de saisie.",
-        "instructions": "Entrez la quantité de l'instrument financier que vous négociez en utilisant des unités, des lots standards, des mini lots ou des micro lots. Utilisez le menu déroulant à côté du champ de saisie pour sélectionner la taille de position appropriée pour votre échange."
+        "example": "Zum Beispiel, wenn Sie ein Standardlos des Währungspaares EUR/USD handeln möchten, sollten Sie im Dropdown-Menü die Option 'Standardlos' auswählen und '1' in das Eingabefeld eingeben.",
+        "instructions": "Geben Sie die Menge des Finanzinstruments, das Sie handeln, in Einheiten, Standardlosen, Minilosen oder Mikrolots ein. Verwenden Sie das Dropdown-Menü neben dem Eingabefeld, um die passende Positionsgröße für Ihren Handel auszuwählen."
       },
       "price_a": {
-        "example": "Par exemple, si vous comparez deux cotations et que votre première cotation pour EUR/USD est de 1.1150, saisissez '1.1150' dans le champ 'Prix A'.",
-        "instructions": "Saisissez la première cotation de prix dans le champ 'Prix A'."
+        "example": "Zum Beispiel, wenn Sie zwei Angebote vergleichen und Ihr erstes Angebot für EUR/USD 1.1150 ist, geben Sie '1.1150' in das Feld 'Preis A' ein.",
+        "instructions": "Geben Sie das erste Preisangebot in das Feld 'Preis A' ein."
       },
       "price_b": {
-        "example": "Par exemple, si votre deuxième cotation pour la même paire EUR/USD est de 1.1200, vous saisiriez '1.1200' dans le champ 'Prix B'.",
-        "instructions": "Saisissez la deuxième cotation de prix dans le champ 'Prix B'. Cette valeur doit correspondre à une cotation différente pour le même instrument financier que celle entrée dans 'Prix A'."
+        "example": "Zum Beispiel, wenn Ihr zweites Angebot für das gleiche EUR/USD-Paar 1.1200 beträgt, würden Sie '1.1200' in das Feld 'Preis B' eingeben.",
+        "instructions": "Geben Sie das zweite Preisangebot in das Feld 'Preis B' ein. Dieser Wert sollte einem anderen Angebot für das gleiche Finanzinstrument entsprechen, wie in 'Preis A' eingegeben."
       },
       "stop_loss_amount": {
-        "example": "Si votre investissement total est de 1000 \u0024 et que vous souhaitez limiter votre perte à 100 \u0024, saisissez le montant comme 100 \u0024.",
-        "instructions": "Indiquez le montant monétaire maximal que vous êtes prêt à perdre dans une transaction."
+        "example": "Wenn Ihre Gesamtinvestition 1000 \u0024 beträgt und Sie Ihren Verlust auf 100 \u0024 begrenzen möchten, geben Sie den Betrag als 100 \u0024 ein.",
+        "instructions": "Geben Sie den maximalen Geldbetrag an, den Sie bei einem Handel zu verlieren bereit sind."
       },
       "stop_loss_pips": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez limiter votre perte à 20 pips, veuillez saisir 20 comme valeur.",
-        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD eröffnet haben und Ihren Verlust auf 20 Pips begrenzen möchten, geben Sie bitte 20 als Wert ein.",
+        "instructions": "Geben Sie die Anzahl der Pips an, bei denen Sie Ihren Stop-Loss-Auftrag setzen möchten, um potenzielle Verluste zu begrenzen."
       },
       "stop_loss_price": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
-        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD zum Kurs von 1,1000 eröffnet haben und Ihre Verluste durch das Setzen eines Stop-Loss bei 1,0950 begrenzen möchten, geben Sie den Wert 1,0950 ein.",
+        "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Stop-Loss-Auftrag platzieren möchten, um potenzielle Verluste zu begrenzen."
       },
       "take_profit_amount": {
-        "example": "Si votre investissement total est de 1000 \u0024 et que vous souhaitez réaliser un bénéfice de 200 \u0024, saisissez le montant comme 200 \u0024.",
-        "instructions": "Indiquez le montant monétaire que vous visez à atteindre en profit pour une transaction."
+        "example": "Wenn Ihre Gesamtinvestition 1000 \u0024 beträgt und Sie einen Gewinn von 200 \u0024 erzielen möchten, geben Sie den Betrag als 200 \u0024 ein.",
+        "instructions": "Geben Sie den Geldbetrag an, den Sie bei einem Handel als Gewinn erzielen möchten."
       },
       "take_profit_pips": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez prendre un bénéfice à 30 pips, entrez 30 comme valeur.",
-        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD eröffnet haben und bei 30 Pips Gewinn nehmen möchten, geben Sie 30 als Wert ein.",
+        "instructions": "Bestimmen Sie die Anzahl der Pips, bei denen Sie Ihren Take-Profit-Auftrag platzieren, um Gewinne zu sichern."
       },
       "take_profit_price": {
-        "example": "Si vous avez ouvert une position sur la paire EUR/USD à un taux de 1.1000 et souhaitez prendre un bénéfice à un taux de 1.1050, entrez 1.1050.",
-        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+        "example": "Wenn Sie eine Position im Währungspaar EUR/USD zu einem Kurs von 1.1000 eröffnet haben und bei einem Kurs von 1.1050 Gewinn nehmen möchten, geben Sie 1.1050 ein.",
+        "instructions": "Bitte geben Sie den Wechselkurs an, zu dem Sie Ihren Take-Profit-Auftrag platzieren, um Gewinne zu sichern."
       },
       "trend": {
-        "example": "Si vous attendez que le marché favorise l'Euro par rapport au Dollar Américain, sélectionnez 'Haut'. Si vous attendez le contraire, sélectionnez 'Bas'.",
-        "text": "Spécifiez la tendance du marché que vous anticipez pour une paire de devises, soit 'Haut' pour une tendance à la hausse ou 'Bas' pour une tendance à la baisse."
+        "example": "Wenn Sie erwarten, dass der Markt den Euro gegenüber dem Amerikanischen Dollar bevorzugt, wählen Sie 'Aufwärts'. Wenn Sie das Gegenteil erwarten, wählen Sie 'Abwärts'.",
+        "text": "Geben Sie den Markttrend an, den Sie für ein Währungspaar erwarten, entweder 'Aufwärts' für einen Aufwärtstrend oder 'Abwärts' für einen Abwärtstrend."
       }
     },
     "label": {
-      "commodities": "Matières premières",
+      "commodities": "Rohstoffe",
       "count": {
         "pips": {
           "few": "{} Pips",
@@ -371,172 +370,40 @@ static const Map<String,dynamic> fr = {
           "zero": "{} Pip"
         }
       },
-      "cryptos": "Cryptomonnaies",
+      "cryptos": "Kryptowährungen",
       "currency": {
-        "base": "Devise de base",
-        "counter": "Devise de contrepartie",
-        "pair": "Paire de devises"
+        "base": "Hauptwährung",
+        "counter": "Gegenwährung",
+        "pair": "Währungspaar"
       },
       "lot": {
-        "micro": "Micro lot",
-        "mini": "Mini lot",
-        "nano": "Nano lot",
-        "size": "Taille du lot",
-        "standard": "Lot standard",
+        "micro": "Mikro-lot",
+        "mini": "Mini-lot",
+        "nano": "Nano-lot",
+        "size": "Lot-größe",
+        "standard": "Standard-lot",
         "text": "Lot"
       },
       "pip": {
-        "calculator": "Calculatrice de pips",
-        "decimal_places": "Décimales du pip",
-        "difference": "Différence de pips",
-        "value": "Valeur du pip"
+        "calculator": "Pip-rechner",
+        "decimal_places": "Pip-dezimalstellen",
+        "difference": "Pip-differenz",
+        "value": "Pip-wert"
       },
       "pips": {
-        "number": "Nombre de pips",
+        "number": "Anzahl der pips",
         "text": "Pips"
       },
       "stop_loss": {
-        "pips": "Stop de protection (pips)"
+        "pips": "Stop-loss (pips)"
       },
       "take_profit": {
-        "pips": "Prise de bénéfices (pips)"
+        "pips": "Take profit (pips)"
       }
     },
     "select": {
-      "currency_pair": "Sélectionnez une paire de devises",
-      "decimal": "Sélectionnez une décimale"
-    }
-  }
-};
-static const Map<String,dynamic> zh = {
-  "forex": {
-    "help": {
-      "close_price": {
-        "example": "如果您预计交易日结束时EUR/USD对的收盘汇率为1.3050，请输入1.3050作为值。",
-        "text": "预测交易日结束时您预期的货币对的收盘汇率。"
-      },
-      "entry_price": {
-        "example": "如果您计划以1.2950的汇率进入EUR/USD货币对市场，请输入1.2950作为值。",
-        "text": "指明您计划进入货币对交易的汇率。"
-      },
-      "exit_price": {
-        "example": "如果您计划以1.3050的汇率退出EUR/USD货币对市场，请输入1.3050作为值。",
-        "text": "指明您计划退出货币对交易的汇率。"
-      },
-      "high_price": {
-        "example": "如果您预计EUR/USD货币对在交易日的最高汇率将为1.3000，请输入1.3000作为该值。",
-        "text": "指明您预期的货币对的最高汇率。"
-      },
-      "low_price": {
-        "example": "如果您预计EUR/USD货币对在交易日的最低汇率将为1.2900，请输入1.2900作为该值。",
-        "text": "指明您预期的货币对的最低汇率。"
-      },
-      "number_of_pips": {
-        "example": "例如，如果您为某个特定交易设定了赚取15个点子的目标，您必须输入'15'。",
-        "instructions": "输入与您的交易利润或亏损目标相关的点数总数。'点数数量'是指您正在跟踪或设定为目标的货币对价格变动的最小增量目标。"
-      },
-      "open_price": {
-        "example": "如果您预计交易日开始时EUR/USD对的开盘汇率为1.2950，请输入1.2950作为值。",
-        "text": "预测交易日开始时您预期的货币对的开盘汇率。"
-      },
-      "pip_decimal_places": {
-        "example": "例如，如果您正在交易比特币CFD，而您的经纪人指定点数移动到小数点后的第三位，您会输入'3'。",
-        "instructions": "输入您的经纪人用于您选择的交易工具的点值的小数位数。经纪人在报价CFD、加密货币和其他异国情调工具的价格时使用的小数精度可能有所不同，这将直接影响您的交易计算。如果您不确定他们使用的精度级别，请咨询您的经纪人。"
-      },
-      "pivot_points_method": {
-        "example": "如果您计划使用标准支点点方法，请选择'标准'。",
-        "text": "选择您打算用于分析金融工具的支点点方法。"
-      },
-      "position": {
-        "example": "如果您预期货币对的价值会增加，请选择'多头'，如果您预期会减少，请选择'空头'。",
-        "text": "指定您对货币对的交易位置（多头或空头）。"
-      },
-      "position_size": {
-        "example": "例如，如果您想要交易欧元/美元货币对的一个标准手，您需要从下拉菜单中选择'标准手'选项，并在输入栏中输入'1'。",
-        "instructions": "输入您正在交易的金融工具的数量，使用单位、标准手、小手或微手。使用输入框旁边的下拉菜单选择适合您交易的头寸大小。"
-      },
-      "price_a": {
-        "example": "例如，如果您正在比较两个报价，您的第一个EUR/USD报价是1.1150，请在'价格A'字段中输入'1.1150'。",
-        "instructions": "在'价格A'字段中输入第一个价格报价。"
-      },
-      "price_b": {
-        "example": "例如，如果您对同一EUR/USD对的第二个报价是1.1200，您应该在'价格B'字段中输入'1.1200'。",
-        "instructions": "在'价格B'字段中输入第二个价格报价。此值应与在'价格A'中输入的同一金融工具的不同报价相对应。"
-      },
-      "stop_loss_amount": {
-        "example": "如果您的总投资额为1000美元，希望将损失限制在100美元，请输入100美元。",
-        "instructions": "指明您愿意在一笔交易中承担的最大亏损金额。"
-      },
-      "stop_loss_pips": {
-        "example": "如果您在EUR/USD货币对上开设了头寸，并希望将损失限制在20点内，请输入20作为数值。",
-        "instructions": "指定您将设置止损订单的点数，以减轻潜在损失。"
-      },
-      "stop_loss_price": {
-        "example": "如果您在EUR/USD货币对上以1.1000的汇率开设了一个头寸，并希望通过设置1.0950的止损来限制您的损失，请输入数值1.0950。",
-        "instructions": "请指定您将设置止损订单的汇率，以减轻潜在损失。"
-      },
-      "take_profit_amount": {
-        "example": "如果您的总投资额为1000美元，并希望获利200美元，请输入200美元。",
-        "instructions": "指明您在一笔交易中期望实现的获利金额。"
-      },
-      "take_profit_pips": {
-        "example": "如果您在欧元/美元货币对上开设了一个头寸，并希望在30点差价中获利，请输入30作为值。",
-        "instructions": "指定您设置获利单以确保收益的点差数。"
-      },
-      "take_profit_price": {
-        "example": "如果您在欧元/美元货币对上以1.1000的汇率开设头寸，并希望在1.1050的汇率下获利，请输入1.1050。",
-        "instructions": "请指定您设置获利单以确保收益的汇率。"
-      },
-      "trend": {
-        "example": "如果您预期市场将支持欧元对美元，选择'上升'。如果预期相反，请选择'下降'。",
-        "text": "指定您预期的货币对市场趋势，'上升'表示上行趋势，'下降'表示下行趋势。"
-      }
-    },
-    "label": {
-      "commodities": "大宗商品",
-      "count": {
-        "pips": {
-          "few": "{} Pips",
-          "many": "{} Pips",
-          "one": "{} Pip",
-          "other": "{} Pips",
-          "zero": "{} Pips"
-        }
-      },
-      "cryptos": "加密货币",
-      "currency": {
-        "base": "基础货币",
-        "counter": "交易货币",
-        "pair": "货币对"
-      },
-      "lot": {
-        "micro": "微型手",
-        "mini": "迷你手",
-        "nano": "纳米手",
-        "size": "手数",
-        "standard": "标准手",
-        "text": "手"
-      },
-      "pip": {
-        "calculator": "点差计算器",
-        "decimal_places": "点差小数位数",
-        "difference": "点差差额",
-        "value": "点值"
-      },
-      "pips": {
-        "number": "点数",
-        "text": "Pips"
-      },
-      "stop_loss": {
-        "pips": "止损（pips）"
-      },
-      "take_profit": {
-        "pips": "止盈（pips）"
-      }
-    },
-    "select": {
-      "currency_pair": "选择货币对",
-      "decimal": "请选择一个小数"
+      "currency_pair": "Wählen Sie ein Währungspaar",
+      "decimal": "Dezimalstelle auswählen"
     }
   }
 };
@@ -669,6 +536,270 @@ static const Map<String,dynamic> pt = {
     "select": {
       "currency_pair": "Selecione um par de moedas",
       "decimal": "Selecione uma casa decimal"
+    }
+  }
+};
+static const Map<String,dynamic> es = {
+  "forex": {
+    "help": {
+      "close_price": {
+        "example": "Si anticipa que la tasa de cambio de cierre para el par EUR/USD al final del día de negociación será de 1.3050, introduzca 1.3050 como valor.",
+        "text": "Indique la tasa de cambio de cierre que anticipa para un par de divisas al final del día de negociación."
+      },
+      "entry_price": {
+        "example": "Si planea entrar al mercado para el par EUR/USD a un tipo de cambio de 1.2950, introduzca 1.2950 como el valor.",
+        "text": "Indique el tipo de cambio al que planea entrar en una operación para un par de divisas."
+      },
+      "exit_price": {
+        "example": "Si planea salir del mercado para el par EUR/USD a un tipo de cambio de 1.3050, introduzca 1.3050 como el valor.",
+        "text": "Indique el tipo de cambio al que planea salir de una operación para un par de divisas."
+      },
+      "high_price": {
+        "example": "Si anticipa que el tipo de cambio más alto para el par EUR/USD durante el día de negociación será de 1.3000, introduzca 1.3000 como valor.",
+        "text": "Indique el tipo de cambio más alto que anticipa para un par de divisas."
+      },
+      "low_price": {
+        "example": "Si anticipa que el tipo de cambio más bajo para el par EUR/USD durante el día de negociación será de 1.2900, por favor introduzca 1.2900 como valor.",
+        "text": "Indique el tipo de cambio más bajo que anticipa para un par de divisas."
+      },
+      "number_of_pips": {
+        "example": "Por ejemplo, si establece un objetivo de ganancia de 15 pips para una operación en particular, debe ingresar '15'.",
+        "instructions": "Introduce el número total de pips asociados con la meta de ganancia o pérdida de tu operación. El 'número de pips' se refiere al objetivo incremental más pequeño de movimiento en el precio del par de divisas que estás rastreando o estableciendo como meta."
+      },
+      "open_price": {
+        "example": "Si anticipa que la tasa de cambio de apertura para el par EUR/USD al inicio del día de negociación será de 1.2950, introduzca 1.2950 como valor.",
+        "text": "Indique la tasa de cambio de apertura que anticipa para un par de divisas al inicio del día de negociación."
+      },
+      "pip_decimal_places": {
+        "example": "Por ejemplo, si estás operando con CFD de Bitcoin y tu corredor especifica los movimientos de pip hasta el tercer dígito después del decimal, introducirías '3'.",
+        "instructions": "Introduce el número de decimales que tu corredor utiliza para el valor pip de tu instrumento de trading elegido. Los corredores pueden variar en la precisión decimal utilizada para cotizar precios para CFD, criptomonedas y otros instrumentos exóticos, afectando directamente tus cálculos de trading. Consulta con tu corredor si no estás seguro del nivel de precisión que utilizan."
+      },
+      "pivot_points_method": {
+        "example": "Si planea usar el método de Punto Pivote Estándar, seleccione 'Estándar'.",
+        "text": "Seleccione el método de puntos pivote que tiene la intención de usar para analizar un instrumento financiero."
+      },
+      "position": {
+        "example": "Seleccione 'largo' si anticipa que el valor del par de divisas aumentará, o 'corto' si anticipa que disminuirá.",
+        "text": "Especifique si su posición de trading para un par de divisas es 'larga' o 'corta'."
+      },
+      "position_size": {
+        "example": "Por ejemplo, si desea operar un lote estándar del par de divisas EUR/USD, deberá seleccionar la opción 'Lote Estándar' del menú desplegable e introducir '1' en el campo de entrada.",
+        "instructions": "Ingrese la cantidad del instrumento financiero que está operando utilizando unidades, lotes estándar, lotes mini o lotes micro. Utilice el menú desplegable junto al campo de entrada para seleccionar el tamaño de posición adecuado para su operación."
+      },
+      "price_a": {
+        "example": "Por ejemplo, si está comparando dos cotizaciones y su primera cotización para EUR/USD es 1.1150, introduzca '1.1150' en el campo 'Precio A'.",
+        "instructions": "Introduzca la primera cotización de precio en el campo 'Precio A'."
+      },
+      "price_b": {
+        "example": "Por ejemplo, si su segunda cotización para el mismo par EUR/USD es 1.1200, introduciría '1.1200' en el campo 'Precio B'.",
+        "instructions": "Introduzca la segunda cotización de precio en el campo 'Precio B'. Este valor debe corresponder a una cotización diferente para el mismo instrumento financiero que se introdujo en 'Precio A'."
+      },
+      "stop_loss_amount": {
+        "example": "Si su inversión total es de \u00241000 y desea limitar su pérdida a \u0024100, introduzca el monto como \u0024100.",
+        "instructions": "Indique la cantidad máxima de dinero que está dispuesto a perder en una operación."
+      },
+      "stop_loss_pips": {
+        "example": "Si ha abierto una posición en el par EUR/USD y desea limitar su pérdida a 20 pips, por favor ingrese 20 como valor.",
+        "instructions": "Especifique el número de pips en el que establecerá su orden de stop-loss para mitigar posibles pérdidas."
+      },
+      "stop_loss_price": {
+        "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1,1000 y desea limitar sus pérdidas estableciendo un stop-loss en 1,0950, ingrese el valor 1,0950.",
+        "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de stop-loss para mitigar posibles pérdidas."
+      },
+      "take_profit_amount": {
+        "example": "Si su inversión total es de \u00241000 y desea obtener un beneficio de \u0024200, introduzca el monto como \u0024200.",
+        "instructions": "Indique la cantidad monetaria que tiene como objetivo alcanzar en beneficios en una operación."
+      },
+      "take_profit_pips": {
+        "example": "Si ha abierto una posición en el par EUR/USD y desea tomar beneficios a 30 pips, introduzca 30 como el valor.",
+        "instructions": "Especifique el número de pips en el que establecerá su orden de toma de beneficios para asegurar ganancias."
+      },
+      "take_profit_price": {
+        "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1.1000 y desea tomar beneficios a una tasa de 1.1050, introduzca 1.1050.",
+        "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de toma de beneficios para asegurar ganancias."
+      },
+      "trend": {
+        "example": "Si espera que el mercado favorezca al Euro frente al Dólar Americano, seleccione 'Subir'. Si espera lo contrario, seleccione 'Bajar'.",
+        "text": "Especifique la tendencia del mercado que anticipa para un par de divisas, ya sea 'Subir' para una tendencia alcista o 'Bajar' para una tendencia bajista."
+      }
+    },
+    "label": {
+      "commodities": "Materias primas",
+      "count": {
+        "pips": {
+          "few": "{} Pips",
+          "many": "{} Pips",
+          "one": "{} Pip",
+          "other": "{} Pips",
+          "zero": "{} Pips"
+        }
+      },
+      "cryptos": "Criptomonedas",
+      "currency": {
+        "base": "Moneda base",
+        "counter": "Moneda de contraparte",
+        "pair": "Par de divisas"
+      },
+      "lot": {
+        "micro": "Lote micro",
+        "mini": "Lote mini",
+        "nano": "Lote nano",
+        "size": "Tamaño del lote",
+        "standard": "Lote estándar",
+        "text": "Lote"
+      },
+      "pip": {
+        "calculator": "Calculadora de pips",
+        "decimal_places": "Decimales del pip",
+        "difference": "Diferencia de pips",
+        "value": "Valor del pip"
+      },
+      "pips": {
+        "number": "Número de pips",
+        "text": "Pips"
+      },
+      "stop_loss": {
+        "pips": "Stop loss (pips)"
+      },
+      "take_profit": {
+        "pips": "Take profit (pips)"
+      }
+    },
+    "select": {
+      "currency_pair": "Seleccione un par de divisas",
+      "decimal": "Seleccione un decimal"
+    }
+  }
+};
+static const Map<String,dynamic> fr = {
+  "forex": {
+    "help": {
+      "close_price": {
+        "example": "Si vous anticipez un taux de change de clôture de 1.3050 pour la paire EUR/USD à la fin de la journée de trading, saisissez 1.3050 comme valeur.",
+        "text": "Indiquez le taux de change de clôture que vous anticipez pour une paire de devises à la fin de la journée de trading."
+      },
+      "entry_price": {
+        "example": "Si vous prévoyez d'entrer sur le marché pour la paire EUR/USD à un taux de change de 1,2950, saisissez 1,2950 comme valeur.",
+        "text": "Indiquez le taux de change auquel vous prévoyez d'entrer dans une opération pour une paire de devises."
+      },
+      "exit_price": {
+        "example": "Si vous prévoyez de sortir du marché pour la paire EUR/USD à un taux de change de 1,3050, saisissez 1,3050 comme valeur.",
+        "text": "Indiquez le taux de change auquel vous prévoyez de sortir d'une opération pour une paire de devises."
+      },
+      "high_price": {
+        "example": "Si vous anticipez que le taux de change le plus élevé pour la paire EUR/USD pendant la journée de trading sera de 1,3000, entrez 1,3000 comme valeur.",
+        "text": "Indiquez le taux de change le plus élevé que vous anticipez pour une paire de devises."
+      },
+      "low_price": {
+        "example": "Si vous anticipez que le taux de change le plus bas pour la paire EUR/USD pendant la journée de trading sera de 1,2900, veuillez entrer 1,2900 comme valeur.",
+        "text": "Indiquez le taux de change le plus bas que vous anticipez pour une paire de devises."
+      },
+      "number_of_pips": {
+        "example": "Par exemple, si vous définissez un objectif de gain de 15 pips pour une transaction particulière, vous devez saisir '15'.",
+        "instructions": "Entrez le nombre total de pips associés à l'objectif de gain ou de perte de votre trade. Le 'nombre de pips' fait référence à la plus petite cible incrémentielle de mouvement dans le prix d'une paire de devises que vous suivez ou fixez comme objectif."
+      },
+      "open_price": {
+        "example": "Si vous anticipez un taux de change d'ouverture de 1.2950 pour la paire EUR/USD au début de la journée de trading, saisissez 1.2950 comme valeur.",
+        "text": "Indiquez le taux de change d'ouverture que vous anticipez pour une paire de devises au début de la journée de trading."
+      },
+      "pip_decimal_places": {
+        "example": "Par exemple, si vous négociez des CFD Bitcoin et que votre courtier spécifie des mouvements de pip au troisième chiffre après la virgule, vous entreriez '3'.",
+        "instructions": "Saisissez le nombre de décimales que votre courtier utilise pour la valeur pip de votre instrument de trading choisi. Les courtiers peuvent varier dans la précision décimale utilisée pour coter les prix pour les CFD, les cryptomonnaies et d'autres instruments exotiques, ce qui affecte directement vos calculs de trading. Vérifiez auprès de votre courtier si vous n'êtes pas sûr du niveau de précision qu'ils utilisent."
+      },
+      "pivot_points_method": {
+        "example": "Si vous prévoyez d'utiliser la méthode des Points Pivots Standard, sélectionnez 'Standard'.",
+        "text": "Sélectionnez la méthode de points pivots que vous avez l'intention d'utiliser pour analyser un instrument financier."
+      },
+      "position": {
+        "example": "Sélectionnez 'long' si vous anticipez une augmentation de la valeur de la paire de devises, ou 'court' si vous anticipez une diminution.",
+        "text": "Spécifiez si votre position de trading pour une paire de devises est 'longue' ou 'courte'."
+      },
+      "position_size": {
+        "example": "Par exemple, si vous souhaitez négocier un lot standard de la paire de devises EUR/USD, vous devrez sélectionner l'option 'Lot Standard' dans le menu déroulant et entrer '1' dans le champ de saisie.",
+        "instructions": "Entrez la quantité de l'instrument financier que vous négociez en utilisant des unités, des lots standards, des mini lots ou des micro lots. Utilisez le menu déroulant à côté du champ de saisie pour sélectionner la taille de position appropriée pour votre échange."
+      },
+      "price_a": {
+        "example": "Par exemple, si vous comparez deux cotations et que votre première cotation pour EUR/USD est de 1.1150, saisissez '1.1150' dans le champ 'Prix A'.",
+        "instructions": "Saisissez la première cotation de prix dans le champ 'Prix A'."
+      },
+      "price_b": {
+        "example": "Par exemple, si votre deuxième cotation pour la même paire EUR/USD est de 1.1200, vous saisiriez '1.1200' dans le champ 'Prix B'.",
+        "instructions": "Saisissez la deuxième cotation de prix dans le champ 'Prix B'. Cette valeur doit correspondre à une cotation différente pour le même instrument financier que celle entrée dans 'Prix A'."
+      },
+      "stop_loss_amount": {
+        "example": "Si votre investissement total est de 1000 \u0024 et que vous souhaitez limiter votre perte à 100 \u0024, saisissez le montant comme 100 \u0024.",
+        "instructions": "Indiquez le montant monétaire maximal que vous êtes prêt à perdre dans une transaction."
+      },
+      "stop_loss_pips": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez limiter votre perte à 20 pips, veuillez saisir 20 comme valeur.",
+        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+      },
+      "stop_loss_price": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD au taux de 1,1000 et souhaitez limiter vos pertes en fixant un stop-loss à 1,0950, saisissez la valeur 1,0950.",
+        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de stop-loss pour atténuer les pertes potentielles."
+      },
+      "take_profit_amount": {
+        "example": "Si votre investissement total est de 1000 \u0024 et que vous souhaitez réaliser un bénéfice de 200 \u0024, saisissez le montant comme 200 \u0024.",
+        "instructions": "Indiquez le montant monétaire que vous visez à atteindre en profit pour une transaction."
+      },
+      "take_profit_pips": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD et souhaitez prendre un bénéfice à 30 pips, entrez 30 comme valeur.",
+        "instructions": "Spécifiez le nombre de pips auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+      },
+      "take_profit_price": {
+        "example": "Si vous avez ouvert une position sur la paire EUR/USD à un taux de 1.1000 et souhaitez prendre un bénéfice à un taux de 1.1050, entrez 1.1050.",
+        "instructions": "Veuillez spécifier le taux de change auquel vous placerez votre ordre de prise de bénéfices pour sécuriser vos gains."
+      },
+      "trend": {
+        "example": "Si vous attendez que le marché favorise l'Euro par rapport au Dollar Américain, sélectionnez 'Haut'. Si vous attendez le contraire, sélectionnez 'Bas'.",
+        "text": "Spécifiez la tendance du marché que vous anticipez pour une paire de devises, soit 'Haut' pour une tendance à la hausse ou 'Bas' pour une tendance à la baisse."
+      }
+    },
+    "label": {
+      "commodities": "Matières premières",
+      "count": {
+        "pips": {
+          "few": "{} Pips",
+          "many": "{} Pips",
+          "one": "{} Pip",
+          "other": "{} Pips",
+          "zero": "{} Pip"
+        }
+      },
+      "cryptos": "Cryptomonnaies",
+      "currency": {
+        "base": "Devise de base",
+        "counter": "Devise de contrepartie",
+        "pair": "Paire de devises"
+      },
+      "lot": {
+        "micro": "Micro lot",
+        "mini": "Mini lot",
+        "nano": "Nano lot",
+        "size": "Taille du lot",
+        "standard": "Lot standard",
+        "text": "Lot"
+      },
+      "pip": {
+        "calculator": "Calculatrice de pips",
+        "decimal_places": "Décimales du pip",
+        "difference": "Différence de pips",
+        "value": "Valeur du pip"
+      },
+      "pips": {
+        "number": "Nombre de pips",
+        "text": "Pips"
+      },
+      "stop_loss": {
+        "pips": "Stop de protection (pips)"
+      },
+      "take_profit": {
+        "pips": "Prise de bénéfices (pips)"
+      }
+    },
+    "select": {
+      "currency_pair": "Sélectionnez une paire de devises",
+      "decimal": "Sélectionnez une décimale"
     }
   }
 };
@@ -1068,137 +1199,5 @@ static const Map<String,dynamic> it = {
     }
   }
 };
-static const Map<String,dynamic> es = {
-  "forex": {
-    "help": {
-      "close_price": {
-        "example": "Si anticipa que la tasa de cambio de cierre para el par EUR/USD al final del día de negociación será de 1.3050, introduzca 1.3050 como valor.",
-        "text": "Indique la tasa de cambio de cierre que anticipa para un par de divisas al final del día de negociación."
-      },
-      "entry_price": {
-        "example": "Si planea entrar al mercado para el par EUR/USD a un tipo de cambio de 1.2950, introduzca 1.2950 como el valor.",
-        "text": "Indique el tipo de cambio al que planea entrar en una operación para un par de divisas."
-      },
-      "exit_price": {
-        "example": "Si planea salir del mercado para el par EUR/USD a un tipo de cambio de 1.3050, introduzca 1.3050 como el valor.",
-        "text": "Indique el tipo de cambio al que planea salir de una operación para un par de divisas."
-      },
-      "high_price": {
-        "example": "Si anticipa que el tipo de cambio más alto para el par EUR/USD durante el día de negociación será de 1.3000, introduzca 1.3000 como valor.",
-        "text": "Indique el tipo de cambio más alto que anticipa para un par de divisas."
-      },
-      "low_price": {
-        "example": "Si anticipa que el tipo de cambio más bajo para el par EUR/USD durante el día de negociación será de 1.2900, por favor introduzca 1.2900 como valor.",
-        "text": "Indique el tipo de cambio más bajo que anticipa para un par de divisas."
-      },
-      "number_of_pips": {
-        "example": "Por ejemplo, si establece un objetivo de ganancia de 15 pips para una operación en particular, debe ingresar '15'.",
-        "instructions": "Introduce el número total de pips asociados con la meta de ganancia o pérdida de tu operación. El 'número de pips' se refiere al objetivo incremental más pequeño de movimiento en el precio del par de divisas que estás rastreando o estableciendo como meta."
-      },
-      "open_price": {
-        "example": "Si anticipa que la tasa de cambio de apertura para el par EUR/USD al inicio del día de negociación será de 1.2950, introduzca 1.2950 como valor.",
-        "text": "Indique la tasa de cambio de apertura que anticipa para un par de divisas al inicio del día de negociación."
-      },
-      "pip_decimal_places": {
-        "example": "Por ejemplo, si estás operando con CFD de Bitcoin y tu corredor especifica los movimientos de pip hasta el tercer dígito después del decimal, introducirías '3'.",
-        "instructions": "Introduce el número de decimales que tu corredor utiliza para el valor pip de tu instrumento de trading elegido. Los corredores pueden variar en la precisión decimal utilizada para cotizar precios para CFD, criptomonedas y otros instrumentos exóticos, afectando directamente tus cálculos de trading. Consulta con tu corredor si no estás seguro del nivel de precisión que utilizan."
-      },
-      "pivot_points_method": {
-        "example": "Si planea usar el método de Punto Pivote Estándar, seleccione 'Estándar'.",
-        "text": "Seleccione el método de puntos pivote que tiene la intención de usar para analizar un instrumento financiero."
-      },
-      "position": {
-        "example": "Seleccione 'largo' si anticipa que el valor del par de divisas aumentará, o 'corto' si anticipa que disminuirá.",
-        "text": "Especifique si su posición de trading para un par de divisas es 'larga' o 'corta'."
-      },
-      "position_size": {
-        "example": "Por ejemplo, si desea operar un lote estándar del par de divisas EUR/USD, deberá seleccionar la opción 'Lote Estándar' del menú desplegable e introducir '1' en el campo de entrada.",
-        "instructions": "Ingrese la cantidad del instrumento financiero que está operando utilizando unidades, lotes estándar, lotes mini o lotes micro. Utilice el menú desplegable junto al campo de entrada para seleccionar el tamaño de posición adecuado para su operación."
-      },
-      "price_a": {
-        "example": "Por ejemplo, si está comparando dos cotizaciones y su primera cotización para EUR/USD es 1.1150, introduzca '1.1150' en el campo 'Precio A'.",
-        "instructions": "Introduzca la primera cotización de precio en el campo 'Precio A'."
-      },
-      "price_b": {
-        "example": "Por ejemplo, si su segunda cotización para el mismo par EUR/USD es 1.1200, introduciría '1.1200' en el campo 'Precio B'.",
-        "instructions": "Introduzca la segunda cotización de precio en el campo 'Precio B'. Este valor debe corresponder a una cotización diferente para el mismo instrumento financiero que se introdujo en 'Precio A'."
-      },
-      "stop_loss_amount": {
-        "example": "Si su inversión total es de \u00241000 y desea limitar su pérdida a \u0024100, introduzca el monto como \u0024100.",
-        "instructions": "Indique la cantidad máxima de dinero que está dispuesto a perder en una operación."
-      },
-      "stop_loss_pips": {
-        "example": "Si ha abierto una posición en el par EUR/USD y desea limitar su pérdida a 20 pips, por favor ingrese 20 como valor.",
-        "instructions": "Especifique el número de pips en el que establecerá su orden de stop-loss para mitigar posibles pérdidas."
-      },
-      "stop_loss_price": {
-        "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1,1000 y desea limitar sus pérdidas estableciendo un stop-loss en 1,0950, ingrese el valor 1,0950.",
-        "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de stop-loss para mitigar posibles pérdidas."
-      },
-      "take_profit_amount": {
-        "example": "Si su inversión total es de \u00241000 y desea obtener un beneficio de \u0024200, introduzca el monto como \u0024200.",
-        "instructions": "Indique la cantidad monetaria que tiene como objetivo alcanzar en beneficios en una operación."
-      },
-      "take_profit_pips": {
-        "example": "Si ha abierto una posición en el par EUR/USD y desea tomar beneficios a 30 pips, introduzca 30 como el valor.",
-        "instructions": "Especifique el número de pips en el que establecerá su orden de toma de beneficios para asegurar ganancias."
-      },
-      "take_profit_price": {
-        "example": "Si ha abierto una posición en el par EUR/USD a una tasa de 1.1000 y desea tomar beneficios a una tasa de 1.1050, introduzca 1.1050.",
-        "instructions": "Por favor, especifique la tasa de cambio en la que colocará su orden de toma de beneficios para asegurar ganancias."
-      },
-      "trend": {
-        "example": "Si espera que el mercado favorezca al Euro frente al Dólar Americano, seleccione 'Subir'. Si espera lo contrario, seleccione 'Bajar'.",
-        "text": "Especifique la tendencia del mercado que anticipa para un par de divisas, ya sea 'Subir' para una tendencia alcista o 'Bajar' para una tendencia bajista."
-      }
-    },
-    "label": {
-      "commodities": "Materias primas",
-      "count": {
-        "pips": {
-          "few": "{} Pips",
-          "many": "{} Pips",
-          "one": "{} Pip",
-          "other": "{} Pips",
-          "zero": "{} Pips"
-        }
-      },
-      "cryptos": "Criptomonedas",
-      "currency": {
-        "base": "Moneda base",
-        "counter": "Moneda de contraparte",
-        "pair": "Par de divisas"
-      },
-      "lot": {
-        "micro": "Lote micro",
-        "mini": "Lote mini",
-        "nano": "Lote nano",
-        "size": "Tamaño del lote",
-        "standard": "Lote estándar",
-        "text": "Lote"
-      },
-      "pip": {
-        "calculator": "Calculadora de pips",
-        "decimal_places": "Decimales del pip",
-        "difference": "Diferencia de pips",
-        "value": "Valor del pip"
-      },
-      "pips": {
-        "number": "Número de pips",
-        "text": "Pips"
-      },
-      "stop_loss": {
-        "pips": "Stop loss (pips)"
-      },
-      "take_profit": {
-        "pips": "Take profit (pips)"
-      }
-    },
-    "select": {
-      "currency_pair": "Seleccione un par de divisas",
-      "decimal": "Seleccione un decimal"
-    }
-  }
-};
-static const Map<String, Map<String,dynamic>> mapLocales = {"de": de, "ja": ja, "fr": fr, "zh": zh, "pt": pt, "ru": ru, "en": en, "it": it, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "pt": pt, "es": es, "fr": fr, "ru": ru, "en": en, "it": it};
 }

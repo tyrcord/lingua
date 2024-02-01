@@ -116,6 +116,7 @@
       },
       "error": "Error",
       "example": "Example",
+      "excluded": "Excluded",
       "exit": {
         "fullscreen": "Exit fullscreen",
         "pip": "Exit picture-in-picture",
@@ -161,6 +162,7 @@
       },
       "in_progress": "In progress",
       "inactive": "Inactive",
+      "included": "Included",
       "incomplete": "Incomplete",
       "info": "Info",
       "inputs": "Inputs",

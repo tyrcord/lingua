@@ -116,6 +116,7 @@
       },
       "error": "Fehler",
       "example": "Beispiel",
+      "excluded": "Ausgeschlossen",
       "exit": {
         "fullscreen": "Vollbild beenden",
         "pip": "Bild-in-bild beenden",
@@ -161,6 +162,7 @@
       },
       "in_progress": "In bearbeitung",
       "inactive": "Inaktiv",
+      "included": "Inklusive",
       "incomplete": "Unvollständig",
       "info": "Info",
       "inputs": "Eingaben",

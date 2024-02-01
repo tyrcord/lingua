@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class PurchasesCodegenLoader extends AssetLoader {
@@ -12,79 +11,79 @@ class PurchasesCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> de = {
+  static const Map<String,dynamic> zh = {
   "purchases": {
     "error": {
-      "already_owned": "Sie besitzen dieses Element bereits.",
-      "cannot_connect_store": "Wir entschuldigen uns für die Unannehmlichkeiten. Der Store ist derzeit nicht verfügbar, und daher können Sie derzeit keine Käufe tätigen.",
-      "client_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte wechseln Sie Ihr Konto oder Gerät.",
-      "cloud_service_network_connection_failed": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.",
-      "cloud_service_permission_denied": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
-      "cloud_service_revoked": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
-      "ineligible_for_offer": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
-      "invalid_offer_identifier": "Das Werbeangebot ist ungültig oder abgelaufen.",
-      "invalid_offer_price": "Entschuldigung, Ihr Kauf kann nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.",
-      "invalid_signature": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
-      "missing_offer_params": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
-      "no_purchases_to_restore": "Keine Käufe zum Wiederherstellen.",
-      "overlay_cancelled": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
-      "overlay_invalid_configuration": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
-      "overlay_presented_in_background_scene": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
-      "overlay_timeout": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
-      "payment_cancelled": "Der Kauf wurde abgebrochen.",
-      "payment_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Zahlungsinformationen.",
-      "payment_not_allowed": "Der Kauf ist für die gewählte Zahlungsmethode nicht verfügbar. Bitte stellen Sie sicher, dass Ihre Zahlungsmethode Online-Käufe zulässt.",
-      "privacy_acknowledgement_required": "Der Kauf kann nicht abgeschlossen werden, da Sie die Nutzungsbedingungen des AppStores nicht akzeptiert haben. Bitte bestätigen Sie Ihre Zustimmung in den Einstellungen und kehren Sie dann zum Kauf zurück.",
-      "store_product_not_available": "Dieses Produkt ist in Ihrer Region nicht verfügbar. Bitte wechseln Sie den Store und versuchen Sie es erneut.",
-      "unauthorized_request_data": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
-      "unknown": "Entschuldigung, der Kauf ist aus unbekannten Gründen nicht verfügbar. Bitte versuchen Sie es später erneut.",
-      "unsupported_platform": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+      "already_owned": "您已拥有此项目。",
+      "cannot_connect_store": "不便之处，我们深感抱歉。商店当前不可用，因此您暂时无法进行购买。",
+      "client_invalid": "无法完成购买。请更换您的帐户或设备。",
+      "cloud_service_network_connection_failed": "无法完成购买。请检查您的网络连接后再试。",
+      "cloud_service_permission_denied": "购买被拒绝。请稍后再试。",
+      "cloud_service_revoked": "购买被拒绝。请稍后再试。",
+      "ineligible_for_offer": "发生错误。请稍后再试。",
+      "invalid_offer_identifier": "促销优惠无效或已过期。",
+      "invalid_offer_price": "抱歉，无法完成您的购买。请稍后再试。",
+      "invalid_signature": "抱歉，应用促销代码时出错。请稍后再试。",
+      "missing_offer_params": "抱歉，应用促销代码时出错。请稍后再试。",
+      "no_purchases_to_restore": "没有要恢复的购买。",
+      "overlay_cancelled": "发生错误。请稍后再试。",
+      "overlay_invalid_configuration": "发生错误。请稍后再试。",
+      "overlay_presented_in_background_scene": "发生错误。请稍后再试。",
+      "overlay_timeout": "发生错误。请稍后再试。",
+      "payment_cancelled": "购买已取消。",
+      "payment_invalid": "无法完成购买。请检查您的支付信息。",
+      "payment_not_allowed": "所选的支付方法不支持此购买。请确保您的支付方式允许在线购买。",
+      "privacy_acknowledgement_required": "由于您没有接受AppStore的使用条款，购买无法完成。请在设置中确认您的同意，然后返回购买。",
+      "store_product_not_available": "该产品在您所在的地区不可用。请更换商店后再试。",
+      "unauthorized_request_data": "发生错误。请稍后再试。",
+      "unknown": "抱歉，由于未知原因，购买不可用。请稍后再试。",
+      "unsupported_platform": "发生错误。请稍后再试。"
     },
     "feature": {
       "auto": {
-        "refresh_exchange_rates": "Automatisches Aktualisieren der Wechselkurse",
-        "refresh_stock_prices": "Automatisches Aktualisieren der Aktienkurse"
+        "refresh_exchange_rates": "自动刷新汇率",
+        "refresh_stock_prices": "自动刷新股票价格"
       },
-      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
+      "auto_refresh_results": "利用自动结果更新的优势。",
       "faster": {
-        "startup": "Schnellerer Anwendungsstart."
+        "startup": "应用程序启动更快。"
       },
       "no_ads": {
-        "text": "Genießen Sie eine werbefreie Erfahrung."
+        "text": "享受无广告体验。"
       },
-      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse.",
+      "quicker_refresh_rates": "享受更快的汇率更新速度。",
       "unlimited": {
-        "csv": "Unbegrenzte CSV-Erstellung.",
-        "pdf": "Unbegrenzte PDF-Erstellung."
+        "csv": "无限CSV生成。",
+        "pdf": "无限PDF生成。"
       }
     },
     "label": {
-      "available_products": "Verfügbare produkte",
-      "free_version": "Kostenlose version",
-      "go_premium": "Premium aktivieren!",
-      "premium": "Premium",
-      "premium_price": "{price} premium",
-      "premium_version": "Premium-version",
-      "purchases": "Käufe",
-      "restore_purchases": "Käufe wiederherstellen"
+      "available_products": "可用产品",
+      "free_version": "免费版本",
+      "go_premium": "升级到高级版！",
+      "premium": "高级",
+      "premium_price": "{price} 高级",
+      "premium_version": "高级版",
+      "purchases": "购买",
+      "restore_purchases": "恢复购买"
     },
     "message": {
-      "do_have_premium_version": "Sie haben die Premium-Version nicht.",
-      "enjoy_premium_version": "Vielen Dank, dass Sie sich für die Premium-Version entschieden haben! Genießen Sie erweiterte Funktionen und ein werbefreies Erlebnis. Ihre Unterstützung bedeutet uns sehr viel!",
-      "go_premium_description": "Durch ein Upgrade auf die Premium-Version unterstützen Sie nicht nur die laufende Entwicklung, sondern erhalten auch Zugriff auf zusätzliche Funktionen.",
-      "have_not_acquired_premium_version": "Sie haben die Premium-Version nicht erworben.",
-      "one_time_payment": "Es handelt sich um eine einmalige Zahlung und es fallen keine wiederkehrenden Gebühren an.",
-      "premium_version_restored": "Ihre Premium-Funktionen wurden erfolgreich wiederhergestellt.",
+      "do_have_premium_version": "您没有高级版本。",
+      "enjoy_premium_version": "感谢您选择高级版本！享受增强功能和无广告体验。您的支持对我们意义重大！",
+      "go_premium_description": "升级到高级版不仅支持持续开发，还能获得额外功能。",
+      "have_not_acquired_premium_version": "您尚未购买高级版本。",
+      "one_time_payment": "这是一次性付款，不会产生任何定期费用。",
+      "premium_version_restored": "已成功恢复高级功能。",
       "purchase": {
-        "cancelled": "Kauf abgebrochen.",
-        "failed": "Kauf fehlgeschlagen.",
-        "pending": "Kauf ausstehend.",
-        "successful": "Kauf erfolgreich."
+        "cancelled": "购买已取消。",
+        "failed": "购买失败。",
+        "pending": "购买待处理。",
+        "successful": "购买成功。"
       },
-      "purchased_items": "Liste der gekauften Artikel:",
-      "purchases_restored": "Käufe wiederhergestellt.",
-      "thanks_purchase": "Vielen Dank für Ihren Kauf.",
-      "unlock_premium_features": "Greifen Sie auf eine Vielzahl von Premium-Funktionen zu."
+      "purchased_items": "已购买项目列表：",
+      "purchases_restored": "购买已恢复。",
+      "thanks_purchase": "感谢您的购买。",
+      "unlock_premium_features": "享受众多高级功能。"
     }
   }
 };
@@ -164,155 +163,79 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> fr = {
+static const Map<String,dynamic> de = {
   "purchases": {
     "error": {
-      "already_owned": "Vous possédez déjà cet élément.",
-      "cannot_connect_store": "Nous nous excusons pour la gêne occasionnée. La boutique est actuellement indisponible, vous ne pourrez donc pas effectuer d'achats pour le moment.",
-      "client_invalid": "L'achat ne peut pas être finalisé. Veuillez, changer de compte ou d'appareil.",
-      "cloud_service_network_connection_failed": "L'achat ne peut pas être finalisé. Veuillez vérifier votre connexion internet et réessayer.",
-      "cloud_service_permission_denied": "L'achat a été refusé. Veuillez réessayer plus tard.",
-      "cloud_service_revoked": "L'achat a été refusé. Veuillez réessayer plus tard.",
-      "ineligible_for_offer": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "invalid_offer_identifier": "L'offre promotionnelle est invalide ou expirée.",
-      "invalid_offer_price": "Désolé, votre achat ne peut pas être finalisé. Veuillez réessayer plus tard.",
-      "invalid_signature": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
-      "missing_offer_params": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
-      "no_purchases_to_restore": "Aucun achat à restaurer.",
-      "overlay_cancelled": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "overlay_invalid_configuration": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "overlay_presented_in_background_scene": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "overlay_timeout": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "payment_cancelled": "L'achat a été annulé.",
-      "payment_invalid": "L'achat ne peut pas être finalisé. Veuillez vérifier vos informations de paiement.",
-      "payment_not_allowed": "L'achat n'est pas disponible pour le mode de paiement choisi. Assurez-vous que votre méthode de paiement vous permet de faire des achats en ligne.",
-      "privacy_acknowledgement_required": "L'achat ne peut pas être finalisé, car vous n'avez pas accepté les conditions d'utilisation de l'AppStore. Veuillez confirmer votre consentement dans les paramètres, puis revenir à l'achat.",
-      "store_product_not_available": "Ce produit n'est pas disponible dans votre région. Veuillez changer de magasin et réessayer.",
-      "unauthorized_request_data": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-      "unknown": "Désolé, l'achat est indisponible pour une raison inconnue. Veuillez réessayer plus tard.",
-      "unsupported_platform": "Une erreur s'est produite. Veuillez réessayer plus tard."
+      "already_owned": "Sie besitzen dieses Element bereits.",
+      "cannot_connect_store": "Wir entschuldigen uns für die Unannehmlichkeiten. Der Store ist derzeit nicht verfügbar, und daher können Sie derzeit keine Käufe tätigen.",
+      "client_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte wechseln Sie Ihr Konto oder Gerät.",
+      "cloud_service_network_connection_failed": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.",
+      "cloud_service_permission_denied": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
+      "cloud_service_revoked": "Der Kauf wurde abgelehnt. Bitte versuchen Sie es später erneut.",
+      "ineligible_for_offer": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "invalid_offer_identifier": "Das Werbeangebot ist ungültig oder abgelaufen.",
+      "invalid_offer_price": "Entschuldigung, Ihr Kauf kann nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.",
+      "invalid_signature": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+      "missing_offer_params": "Entschuldigung, beim Einlösen des Promo-Codes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+      "no_purchases_to_restore": "Keine Käufe zum Wiederherstellen.",
+      "overlay_cancelled": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "overlay_invalid_configuration": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "overlay_presented_in_background_scene": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "overlay_timeout": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "payment_cancelled": "Der Kauf wurde abgebrochen.",
+      "payment_invalid": "Der Kauf kann nicht abgeschlossen werden. Bitte überprüfen Sie Ihre Zahlungsinformationen.",
+      "payment_not_allowed": "Der Kauf ist für die gewählte Zahlungsmethode nicht verfügbar. Bitte stellen Sie sicher, dass Ihre Zahlungsmethode Online-Käufe zulässt.",
+      "privacy_acknowledgement_required": "Der Kauf kann nicht abgeschlossen werden, da Sie die Nutzungsbedingungen des AppStores nicht akzeptiert haben. Bitte bestätigen Sie Ihre Zustimmung in den Einstellungen und kehren Sie dann zum Kauf zurück.",
+      "store_product_not_available": "Dieses Produkt ist in Ihrer Region nicht verfügbar. Bitte wechseln Sie den Store und versuchen Sie es erneut.",
+      "unauthorized_request_data": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "unknown": "Entschuldigung, der Kauf ist aus unbekannten Gründen nicht verfügbar. Bitte versuchen Sie es später erneut.",
+      "unsupported_platform": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
     },
     "feature": {
       "auto": {
-        "refresh_exchange_rates": "Actualisation automatique des taux de change",
-        "refresh_stock_prices": "Actualisation automatique des prix des actions"
+        "refresh_exchange_rates": "Automatisches Aktualisieren der Wechselkurse",
+        "refresh_stock_prices": "Automatisches Aktualisieren der Aktienkurse"
       },
-      "auto_refresh_results": "Profitez de l'avantage des mises à jour automatiques des résultats.",
+      "auto_refresh_results": "Nutzen Sie den Vorteil automatischer Ergebnisaktualisierungen.",
       "faster": {
-        "startup": "Démarrage de l'application plus rapide."
+        "startup": "Schnellerer Anwendungsstart."
       },
       "no_ads": {
-        "text": "Profitez d'une expérience sans publicité."
+        "text": "Genießen Sie eine werbefreie Erfahrung."
       },
-      "quicker_refresh_rates": "Bénéficiez de mises à jour plus rapides des taux de change.",
+      "quicker_refresh_rates": "Profitieren Sie von schnelleren Aktualisierungen der Wechselkurse.",
       "unlimited": {
-        "csv": "Génération illimitée de CSV.",
-        "pdf": "Génération illimitée de PDF."
+        "csv": "Unbegrenzte CSV-Erstellung.",
+        "pdf": "Unbegrenzte PDF-Erstellung."
       }
     },
     "label": {
-      "available_products": "Produits disponibles",
-      "free_version": "Version gratuite",
-      "go_premium": "Passez à la version premium !",
+      "available_products": "Verfügbare produkte",
+      "free_version": "Kostenlose version",
+      "go_premium": "Premium aktivieren!",
       "premium": "Premium",
       "premium_price": "{price} premium",
-      "premium_version": "Version premium",
-      "purchases": "Achats",
-      "restore_purchases": "Restaurer les achats"
+      "premium_version": "Premium-version",
+      "purchases": "Käufe",
+      "restore_purchases": "Käufe wiederherstellen"
     },
     "message": {
-      "do_have_premium_version": "Vous n'avez pas la version premium.",
-      "enjoy_premium_version": "Merci d'avoir choisi la version premium ! Profitez de fonctionnalités améliorées et d'une expérience sans publicité. Votre soutien compte énormément pour nous !",
-      "go_premium_description": "En passant à la version Premium, vous soutenez non seulement le développement continu, mais vous accédez également à des fonctionnalités supplémentaires.",
-      "have_not_acquired_premium_version": "Vous n'avez pas acquis la version premium.",
-      "one_time_payment": "Il s'agit d'un paiement unique et n'entraîne aucun frais récurrents.",
-      "premium_version_restored": "Vos fonctionnalités Premium ont été restaurées avec succès.",
+      "do_have_premium_version": "Sie haben die Premium-Version nicht.",
+      "enjoy_premium_version": "Vielen Dank, dass Sie sich für die Premium-Version entschieden haben! Genießen Sie erweiterte Funktionen und ein werbefreies Erlebnis. Ihre Unterstützung bedeutet uns sehr viel!",
+      "go_premium_description": "Durch ein Upgrade auf die Premium-Version unterstützen Sie nicht nur die laufende Entwicklung, sondern erhalten auch Zugriff auf zusätzliche Funktionen.",
+      "have_not_acquired_premium_version": "Sie haben die Premium-Version nicht erworben.",
+      "one_time_payment": "Es handelt sich um eine einmalige Zahlung und es fallen keine wiederkehrenden Gebühren an.",
+      "premium_version_restored": "Ihre Premium-Funktionen wurden erfolgreich wiederhergestellt.",
       "purchase": {
-        "cancelled": "Achat annulé.",
-        "failed": "Échec de l'achat.",
-        "pending": "Achat en attente.",
-        "successful": "Achat réussi."
+        "cancelled": "Kauf abgebrochen.",
+        "failed": "Kauf fehlgeschlagen.",
+        "pending": "Kauf ausstehend.",
+        "successful": "Kauf erfolgreich."
       },
-      "purchased_items": "Liste des articles achetés :",
-      "purchases_restored": "Achats restaurés.",
-      "thanks_purchase": "Merci pour votre achat.",
-      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."
-    }
-  }
-};
-static const Map<String,dynamic> zh = {
-  "purchases": {
-    "error": {
-      "already_owned": "您已拥有此项目。",
-      "cannot_connect_store": "不便之处，我们深感抱歉。商店当前不可用，因此您暂时无法进行购买。",
-      "client_invalid": "无法完成购买。请更换您的帐户或设备。",
-      "cloud_service_network_connection_failed": "无法完成购买。请检查您的网络连接后再试。",
-      "cloud_service_permission_denied": "购买被拒绝。请稍后再试。",
-      "cloud_service_revoked": "购买被拒绝。请稍后再试。",
-      "ineligible_for_offer": "发生错误。请稍后再试。",
-      "invalid_offer_identifier": "促销优惠无效或已过期。",
-      "invalid_offer_price": "抱歉，无法完成您的购买。请稍后再试。",
-      "invalid_signature": "抱歉，应用促销代码时出错。请稍后再试。",
-      "missing_offer_params": "抱歉，应用促销代码时出错。请稍后再试。",
-      "no_purchases_to_restore": "没有要恢复的购买。",
-      "overlay_cancelled": "发生错误。请稍后再试。",
-      "overlay_invalid_configuration": "发生错误。请稍后再试。",
-      "overlay_presented_in_background_scene": "发生错误。请稍后再试。",
-      "overlay_timeout": "发生错误。请稍后再试。",
-      "payment_cancelled": "购买已取消。",
-      "payment_invalid": "无法完成购买。请检查您的支付信息。",
-      "payment_not_allowed": "所选的支付方法不支持此购买。请确保您的支付方式允许在线购买。",
-      "privacy_acknowledgement_required": "由于您没有接受AppStore的使用条款，购买无法完成。请在设置中确认您的同意，然后返回购买。",
-      "store_product_not_available": "该产品在您所在的地区不可用。请更换商店后再试。",
-      "unauthorized_request_data": "发生错误。请稍后再试。",
-      "unknown": "抱歉，由于未知原因，购买不可用。请稍后再试。",
-      "unsupported_platform": "发生错误。请稍后再试。"
-    },
-    "feature": {
-      "auto": {
-        "refresh_exchange_rates": "自动刷新汇率",
-        "refresh_stock_prices": "自动刷新股票价格"
-      },
-      "auto_refresh_results": "利用自动结果更新的优势。",
-      "faster": {
-        "startup": "应用程序启动更快。"
-      },
-      "no_ads": {
-        "text": "享受无广告体验。"
-      },
-      "quicker_refresh_rates": "享受更快的汇率更新速度。",
-      "unlimited": {
-        "csv": "无限CSV生成。",
-        "pdf": "无限PDF生成。"
-      }
-    },
-    "label": {
-      "available_products": "可用产品",
-      "free_version": "免费版本",
-      "go_premium": "升级到高级版！",
-      "premium": "高级",
-      "premium_price": "{price} 高级",
-      "premium_version": "高级版",
-      "purchases": "购买",
-      "restore_purchases": "恢复购买"
-    },
-    "message": {
-      "do_have_premium_version": "您没有高级版本。",
-      "enjoy_premium_version": "感谢您选择高级版本！享受增强功能和无广告体验。您的支持对我们意义重大！",
-      "go_premium_description": "升级到高级版不仅支持持续开发，还能获得额外功能。",
-      "have_not_acquired_premium_version": "您尚未购买高级版本。",
-      "one_time_payment": "这是一次性付款，不会产生任何定期费用。",
-      "premium_version_restored": "已成功恢复高级功能。",
-      "purchase": {
-        "cancelled": "购买已取消。",
-        "failed": "购买失败。",
-        "pending": "购买待处理。",
-        "successful": "购买成功。"
-      },
-      "purchased_items": "已购买项目列表：",
-      "purchases_restored": "购买已恢复。",
-      "thanks_purchase": "感谢您的购买。",
-      "unlock_premium_features": "享受众多高级功能。"
+      "purchased_items": "Liste der gekauften Artikel:",
+      "purchases_restored": "Käufe wiederhergestellt.",
+      "thanks_purchase": "Vielen Dank für Ihren Kauf.",
+      "unlock_premium_features": "Greifen Sie auf eine Vielzahl von Premium-Funktionen zu."
     }
   }
 };
@@ -389,6 +312,158 @@ static const Map<String,dynamic> pt = {
       "purchases_restored": "Compras restauradas.",
       "thanks_purchase": "Obrigado por sua compra.",
       "unlock_premium_features": "Acesse uma variedade de recursos Premium."
+    }
+  }
+};
+static const Map<String,dynamic> es = {
+  "purchases": {
+    "error": {
+      "already_owned": "Ya tienes este elemento.",
+      "cannot_connect_store": "Lamentamos las molestias. La tienda no está disponible en este momento, por lo que no podrá realizar compras en este momento.",
+      "client_invalid": "La compra no puede completarse. Por favor, cambie su cuenta o dispositivo.",
+      "cloud_service_network_connection_failed": "La compra no puede completarse. Por favor, verifique su conexión de red e intente de nuevo.",
+      "cloud_service_permission_denied": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
+      "cloud_service_revoked": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
+      "ineligible_for_offer": "Ha ocurrido un error. Intente de nuevo más tarde.",
+      "invalid_offer_identifier": "La oferta promocional es inválida o ha caducado.",
+      "invalid_offer_price": "Lo siento, su compra no puede completarse. Intente de nuevo más tarde.",
+      "invalid_signature": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
+      "missing_offer_params": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
+      "no_purchases_to_restore": "No hay compras para restaurar.",
+      "overlay_cancelled": "Ha ocurrido un error. Intente de nuevo más tarde.",
+      "overlay_invalid_configuration": "Ha ocurrido un error. Intente de nuevo más tarde.",
+      "overlay_presented_in_background_scene": "Ha ocurrido un error. Intente de nuevo más tarde.",
+      "overlay_timeout": "Ha ocurrido un error. Intente de nuevo más tarde.",
+      "payment_cancelled": "La compra ha sido cancelada.",
+      "payment_invalid": "La compra no puede completarse. Por favor, verifique su información de pago.",
+      "payment_not_allowed": "La compra no está disponible para el método de pago seleccionado. Asegúrese de que su método de pago le permita hacer compras en línea.",
+      "privacy_acknowledgement_required": "La compra no puede completarse porque no ha aceptado los términos de uso de la AppStore. Por favor, confirme su consentimiento en los ajustes y vuelva a la compra.",
+      "store_product_not_available": "Este producto no está disponible en su región. Por favor, cambie la tienda e intente de nuevo.",
+      "unauthorized_request_data": "Ha ocurrido un error. Por favor, intente de nuevo más tarde.",
+      "unknown": "Lo siento, la compra no está disponible por una razón desconocida. Intente de nuevo más tarde.",
+      "unsupported_platform": "Ha ocurrido un error. Intente de nuevo más tarde."
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "Actualizar automáticamente los tipos de cambio",
+        "refresh_stock_prices": "Actualizar automáticamente los precios de las acciones"
+      },
+      "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
+      "faster": {
+        "startup": "Inicio de aplicación más rápido."
+      },
+      "no_ads": {
+        "text": "Disfruta de una experiencia sin anuncios."
+      },
+      "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio.",
+      "unlimited": {
+        "csv": "Generación ilimitada de CSV.",
+        "pdf": "Generación ilimitada de PDF."
+      }
+    },
+    "label": {
+      "available_products": "Productos disponibles",
+      "free_version": "Versión gratuita",
+      "go_premium": "¡obtén premium!",
+      "premium": "Premium",
+      "premium_price": "{price} premium",
+      "premium_version": "Versión premium",
+      "purchases": "Compras",
+      "restore_purchases": "Restaurar compras"
+    },
+    "message": {
+      "do_have_premium_version": "No tiene la versión premium.",
+      "enjoy_premium_version": "¡Gracias por elegir la versión premium! Disfruta de funciones mejoradas y una experiencia sin anuncios. ¡Tu apoyo significa mucho para nosotros!",
+      "go_premium_description": "Al actualizar a la versión Premium, no solo apoyas el desarrollo continuo, sino que también obtienes acceso a funciones adicionales.",
+      "have_not_acquired_premium_version": "No ha adquirido la versión premium.",
+      "one_time_payment": "Este es un pago único y no genera cargos recurrentes.",
+      "premium_version_restored": "Se han restaurado correctamente tus funciones Premium.",
+      "purchase": {
+        "cancelled": "Compra cancelada.",
+        "failed": "Compra fallida.",
+        "pending": "Compra pendiente.",
+        "successful": "Compra exitosa."
+      },
+      "purchased_items": "Lista de artículos comprados:",
+      "purchases_restored": "Compras restauradas.",
+      "thanks_purchase": "Gracias por tu compra.",
+      "unlock_premium_features": "Accede a una variedad de funciones Premium."
+    }
+  }
+};
+static const Map<String,dynamic> fr = {
+  "purchases": {
+    "error": {
+      "already_owned": "Vous possédez déjà cet élément.",
+      "cannot_connect_store": "Nous nous excusons pour la gêne occasionnée. La boutique est actuellement indisponible, vous ne pourrez donc pas effectuer d'achats pour le moment.",
+      "client_invalid": "L'achat ne peut pas être finalisé. Veuillez, changer de compte ou d'appareil.",
+      "cloud_service_network_connection_failed": "L'achat ne peut pas être finalisé. Veuillez vérifier votre connexion internet et réessayer.",
+      "cloud_service_permission_denied": "L'achat a été refusé. Veuillez réessayer plus tard.",
+      "cloud_service_revoked": "L'achat a été refusé. Veuillez réessayer plus tard.",
+      "ineligible_for_offer": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "invalid_offer_identifier": "L'offre promotionnelle est invalide ou expirée.",
+      "invalid_offer_price": "Désolé, votre achat ne peut pas être finalisé. Veuillez réessayer plus tard.",
+      "invalid_signature": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
+      "missing_offer_params": "Désolé, une erreur est survenue lors de l'application du code promo. Veuillez réessayer plus tard.",
+      "no_purchases_to_restore": "Aucun achat à restaurer.",
+      "overlay_cancelled": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "overlay_invalid_configuration": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "overlay_presented_in_background_scene": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "overlay_timeout": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "payment_cancelled": "L'achat a été annulé.",
+      "payment_invalid": "L'achat ne peut pas être finalisé. Veuillez vérifier vos informations de paiement.",
+      "payment_not_allowed": "L'achat n'est pas disponible pour le mode de paiement choisi. Assurez-vous que votre méthode de paiement vous permet de faire des achats en ligne.",
+      "privacy_acknowledgement_required": "L'achat ne peut pas être finalisé, car vous n'avez pas accepté les conditions d'utilisation de l'AppStore. Veuillez confirmer votre consentement dans les paramètres, puis revenir à l'achat.",
+      "store_product_not_available": "Ce produit n'est pas disponible dans votre région. Veuillez changer de magasin et réessayer.",
+      "unauthorized_request_data": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "unknown": "Désolé, l'achat est indisponible pour une raison inconnue. Veuillez réessayer plus tard.",
+      "unsupported_platform": "Une erreur s'est produite. Veuillez réessayer plus tard."
+    },
+    "feature": {
+      "auto": {
+        "refresh_exchange_rates": "Actualisation automatique des taux de change",
+        "refresh_stock_prices": "Actualisation automatique des prix des actions"
+      },
+      "auto_refresh_results": "Profitez de l'avantage des mises à jour automatiques des résultats.",
+      "faster": {
+        "startup": "Démarrage de l'application plus rapide."
+      },
+      "no_ads": {
+        "text": "Profitez d'une expérience sans publicité."
+      },
+      "quicker_refresh_rates": "Bénéficiez de mises à jour plus rapides des taux de change.",
+      "unlimited": {
+        "csv": "Génération illimitée de CSV.",
+        "pdf": "Génération illimitée de PDF."
+      }
+    },
+    "label": {
+      "available_products": "Produits disponibles",
+      "free_version": "Version gratuite",
+      "go_premium": "Passez à la version premium !",
+      "premium": "Premium",
+      "premium_price": "{price} premium",
+      "premium_version": "Version premium",
+      "purchases": "Achats",
+      "restore_purchases": "Restaurer les achats"
+    },
+    "message": {
+      "do_have_premium_version": "Vous n'avez pas la version premium.",
+      "enjoy_premium_version": "Merci d'avoir choisi la version premium ! Profitez de fonctionnalités améliorées et d'une expérience sans publicité. Votre soutien compte énormément pour nous !",
+      "go_premium_description": "En passant à la version Premium, vous soutenez non seulement le développement continu, mais vous accédez également à des fonctionnalités supplémentaires.",
+      "have_not_acquired_premium_version": "Vous n'avez pas acquis la version premium.",
+      "one_time_payment": "Il s'agit d'un paiement unique et n'entraîne aucun frais récurrents.",
+      "premium_version_restored": "Vos fonctionnalités Premium ont été restaurées avec succès.",
+      "purchase": {
+        "cancelled": "Achat annulé.",
+        "failed": "Échec de l'achat.",
+        "pending": "Achat en attente.",
+        "successful": "Achat réussi."
+      },
+      "purchased_items": "Liste des articles achetés :",
+      "purchases_restored": "Achats restaurés.",
+      "thanks_purchase": "Merci pour votre achat.",
+      "unlock_premium_features": "Accédez à une multitude de fonctionnalités Premium."
     }
   }
 };
@@ -620,81 +695,5 @@ static const Map<String,dynamic> it = {
     }
   }
 };
-static const Map<String,dynamic> es = {
-  "purchases": {
-    "error": {
-      "already_owned": "Ya tienes este elemento.",
-      "cannot_connect_store": "Lamentamos las molestias. La tienda no está disponible en este momento, por lo que no podrá realizar compras en este momento.",
-      "client_invalid": "La compra no puede completarse. Por favor, cambie su cuenta o dispositivo.",
-      "cloud_service_network_connection_failed": "La compra no puede completarse. Por favor, verifique su conexión de red e intente de nuevo.",
-      "cloud_service_permission_denied": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
-      "cloud_service_revoked": "La compra ha sido rechazada. Por favor, intente de nuevo más tarde.",
-      "ineligible_for_offer": "Ha ocurrido un error. Intente de nuevo más tarde.",
-      "invalid_offer_identifier": "La oferta promocional es inválida o ha caducado.",
-      "invalid_offer_price": "Lo siento, su compra no puede completarse. Intente de nuevo más tarde.",
-      "invalid_signature": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
-      "missing_offer_params": "Lo siento, ha ocurrido un error al aplicar el código promocional. Intente de nuevo más tarde.",
-      "no_purchases_to_restore": "No hay compras para restaurar.",
-      "overlay_cancelled": "Ha ocurrido un error. Intente de nuevo más tarde.",
-      "overlay_invalid_configuration": "Ha ocurrido un error. Intente de nuevo más tarde.",
-      "overlay_presented_in_background_scene": "Ha ocurrido un error. Intente de nuevo más tarde.",
-      "overlay_timeout": "Ha ocurrido un error. Intente de nuevo más tarde.",
-      "payment_cancelled": "La compra ha sido cancelada.",
-      "payment_invalid": "La compra no puede completarse. Por favor, verifique su información de pago.",
-      "payment_not_allowed": "La compra no está disponible para el método de pago seleccionado. Asegúrese de que su método de pago le permita hacer compras en línea.",
-      "privacy_acknowledgement_required": "La compra no puede completarse porque no ha aceptado los términos de uso de la AppStore. Por favor, confirme su consentimiento en los ajustes y vuelva a la compra.",
-      "store_product_not_available": "Este producto no está disponible en su región. Por favor, cambie la tienda e intente de nuevo.",
-      "unauthorized_request_data": "Ha ocurrido un error. Por favor, intente de nuevo más tarde.",
-      "unknown": "Lo siento, la compra no está disponible por una razón desconocida. Intente de nuevo más tarde.",
-      "unsupported_platform": "Ha ocurrido un error. Intente de nuevo más tarde."
-    },
-    "feature": {
-      "auto": {
-        "refresh_exchange_rates": "Actualizar automáticamente los tipos de cambio",
-        "refresh_stock_prices": "Actualizar automáticamente los precios de las acciones"
-      },
-      "auto_refresh_results": "Obtenga la ventaja de actualizaciones automáticas de resultados.",
-      "faster": {
-        "startup": "Inicio de aplicación más rápido."
-      },
-      "no_ads": {
-        "text": "Disfruta de una experiencia sin anuncios."
-      },
-      "quicker_refresh_rates": "Benefíciese de actualizaciones más rápidas de los tipos de cambio.",
-      "unlimited": {
-        "csv": "Generación ilimitada de CSV.",
-        "pdf": "Generación ilimitada de PDF."
-      }
-    },
-    "label": {
-      "available_products": "Productos disponibles",
-      "free_version": "Versión gratuita",
-      "go_premium": "¡obtén premium!",
-      "premium": "Premium",
-      "premium_price": "{price} premium",
-      "premium_version": "Versión premium",
-      "purchases": "Compras",
-      "restore_purchases": "Restaurar compras"
-    },
-    "message": {
-      "do_have_premium_version": "No tiene la versión premium.",
-      "enjoy_premium_version": "¡Gracias por elegir la versión premium! Disfruta de funciones mejoradas y una experiencia sin anuncios. ¡Tu apoyo significa mucho para nosotros!",
-      "go_premium_description": "Al actualizar a la versión Premium, no solo apoyas el desarrollo continuo, sino que también obtienes acceso a funciones adicionales.",
-      "have_not_acquired_premium_version": "No ha adquirido la versión premium.",
-      "one_time_payment": "Este es un pago único y no genera cargos recurrentes.",
-      "premium_version_restored": "Se han restaurado correctamente tus funciones Premium.",
-      "purchase": {
-        "cancelled": "Compra cancelada.",
-        "failed": "Compra fallida.",
-        "pending": "Compra pendiente.",
-        "successful": "Compra exitosa."
-      },
-      "purchased_items": "Lista de artículos comprados:",
-      "purchases_restored": "Compras restauradas.",
-      "thanks_purchase": "Gracias por tu compra.",
-      "unlock_premium_features": "Accede a una variedad de funciones Premium."
-    }
-  }
-};
-static const Map<String, Map<String,dynamic>> mapLocales = {"de": de, "ja": ja, "fr": fr, "zh": zh, "pt": pt, "ru": ru, "en": en, "it": it, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "pt": pt, "es": es, "fr": fr, "ru": ru, "en": en, "it": it};
 }

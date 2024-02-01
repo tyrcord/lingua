@@ -116,6 +116,7 @@
       },
       "error": "エラー",
       "example": "例",
+      "excluded": "除外される",
       "exit": {
         "fullscreen": "フルスクリーンを終了",
         "pip": "ピクチャ・イン・ピクチャを終了",
@@ -161,6 +162,7 @@
       },
       "in_progress": "進行中",
       "inactive": "非アクティブ",
+      "included": "含まれる",
       "incomplete": "不完全",
       "info": "情報",
       "inputs": "入力",
