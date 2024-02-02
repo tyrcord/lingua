@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class CountriesCodegenLoader extends AssetLoader {
@@ -31,6 +30,7 @@ class CountriesCodegenLoader extends AssetLoader {
       "ireland": "爱尔兰",
       "italy": "意大利",
       "latvia": "拉脱维亚",
+      "liechtenstein": "列支敦士登",
       "lithuania": "立陶宛",
       "luxembourg": "卢森堡",
       "malta": "马耳他",
@@ -67,6 +67,7 @@ static const Map<String,dynamic> ja = {
       "ireland": "アイルランド",
       "italy": "イタリア",
       "latvia": "ラトビア",
+      "liechtenstein": "リヒテンシュタイン",
       "lithuania": "リトアニア",
       "luxembourg": "ルクセンブルク",
       "malta": "マルタ",
@@ -103,6 +104,7 @@ static const Map<String,dynamic> de = {
       "ireland": "Irland",
       "italy": "Italien",
       "latvia": "Lettland",
+      "liechtenstein": "Liechtenstein",
       "lithuania": "Litauen",
       "luxembourg": "Luxemburg",
       "malta": "Malta",
@@ -139,6 +141,7 @@ static const Map<String,dynamic> pt = {
       "ireland": "Irlanda",
       "italy": "Itália",
       "latvia": "Letônia",
+      "liechtenstein": "Liechtenstein",
       "lithuania": "Lituânia",
       "luxembourg": "Luxemburgo",
       "malta": "Malta",
@@ -175,6 +178,7 @@ static const Map<String,dynamic> es = {
       "ireland": "Irlanda",
       "italy": "Italia",
       "latvia": "Letonia",
+      "liechtenstein": "Liechtenstein",
       "lithuania": "Lituania",
       "luxembourg": "Luxemburgo",
       "malta": "Malta",
@@ -211,6 +215,7 @@ static const Map<String,dynamic> fr = {
       "ireland": "Irlande",
       "italy": "Italie",
       "latvia": "Lettonie",
+      "liechtenstein": "Liechtenstein",
       "lithuania": "Lituanie",
       "luxembourg": "Luxembourg",
       "malta": "Malte",
@@ -247,6 +252,7 @@ static const Map<String,dynamic> ru = {
       "ireland": "Ирландия",
       "italy": "Италия",
       "latvia": "Латвия",
+      "liechtenstein": "Лихтенштейн",
       "lithuania": "Литва",
       "luxembourg": "Люксембург",
       "malta": "Мальта",
@@ -283,6 +289,7 @@ static const Map<String,dynamic> en = {
       "ireland": "Ireland",
       "italy": "Italy",
       "latvia": "Latvia",
+      "liechtenstein": "Liechtenstein",
       "lithuania": "Lithuania",
       "luxembourg": "Luxembourg",
       "malta": "Malta",
@@ -319,6 +326,7 @@ static const Map<String,dynamic> it = {
       "ireland": "Irlanda",
       "italy": "Italia",
       "latvia": "Lettonia",
+      "liechtenstein": "Liechtenstein",
       "lithuania": "Lituania",
       "luxembourg": "Lussemburgo",
       "malta": "Malta",

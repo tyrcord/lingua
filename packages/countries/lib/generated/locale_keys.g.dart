@@ -17,6 +17,7 @@ abstract class CountriesLocaleKeys {
   static const countries_label_ireland = 'countries.label.ireland';
   static const countries_label_italy = 'countries.label.italy';
   static const countries_label_latvia = 'countries.label.latvia';
+  static const countries_label_liechtenstein = 'countries.label.liechtenstein';
   static const countries_label_lithuania = 'countries.label.lithuania';
   static const countries_label_luxembourg = 'countries.label.luxembourg';
   static const countries_label_malta = 'countries.label.malta';
