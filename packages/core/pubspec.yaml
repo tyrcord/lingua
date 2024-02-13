@@ -1,6 +1,6 @@
 dependencies:
   args: ^2.4.2
-  easy_localization: ^3.0.3
+  easy_localization: ^3.0.4
   flutter:
     sdk: flutter
   path: ^1.8.3
