@@ -5,6 +5,14 @@
       "percent": "Per cento",
       "percentage": "Percentuale"
     },
+    "months": {
+      "few": "{} mesi",
+      "many": "{} mesi",
+      "one": "{} mese",
+      "other": "{} mesi",
+      "two": "{} mesi",
+      "zero": "{} mese"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -29,21 +37,13 @@
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} anni, {months} mesi",
-      "many": "{years} anni, {months} mesi",
-      "one": "{years} anno, {months} mese",
-      "other": "{years} anni, {months} mesi",
-      "two": "{years} anni, {months} mesi",
-      "zero": "{years} anno, {months} mese"
-    },
     "years": {
-      "few": "{years} anni",
-      "many": "{years} anni",
-      "one": "{years} anno",
-      "other": "{years} anni",
-      "two": "{years} anni",
-      "zero": "{years} anno"
+      "few": "{} anni",
+      "many": "{} anni",
+      "one": "{} anno",
+      "other": "{} anni",
+      "two": "{} anni",
+      "zero": "{} anno"
     }
   }
 }

@@ -5,6 +5,14 @@
       "percent": "Проценты",
       "percentage": "Процент"
     },
+    "months": {
+      "few": "{} месяцев",
+      "many": "{} месяцев",
+      "one": "{} месяц",
+      "other": "{} месяцев",
+      "two": "{} месяца",
+      "zero": "{} месяц"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -29,21 +37,13 @@
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} года, {months} месяцев",
-      "many": "{years} лет, {months} месяцев",
-      "one": "{years} год, {months} месяц",
-      "other": "{years} лет, {months} месяцев",
-      "two": "{years} года, {months} месяца",
-      "zero": "{years} год, {months} месяц"
-    },
     "years": {
-      "few": "{years} года",
-      "many": "{years} лет",
-      "one": "{years} год",
-      "other": "{years} лет",
-      "two": "{years} года",
-      "zero": "{years} год"
+      "few": "{} года",
+      "many": "{} лет",
+      "one": "{} год",
+      "other": "{} лет",
+      "two": "{} года",
+      "zero": "{} год"
     }
   }
 }

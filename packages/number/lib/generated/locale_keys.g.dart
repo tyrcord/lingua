@@ -4,11 +4,11 @@ abstract class NumberLocaleKeys {
   static const number_label_amount = 'number.label.amount';
   static const number_label_percent = 'number.label.percent';
   static const number_label_percentage = 'number.label.percentage';
+  static const number_months = 'number.months';
   static const number_ordinal_short_first = 'number.ordinal.short.first';
   static const number_ordinal_short_others = 'number.ordinal.short.others';
   static const number_ordinal_short_second = 'number.ordinal.short.second';
   static const number_ordinal_short_third = 'number.ordinal.short.third';
-  static const number_yearMonth = 'number.yearMonth';
   static const number_years = 'number.years';
 
 }

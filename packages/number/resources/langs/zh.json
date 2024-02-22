@@ -5,6 +5,14 @@
       "percent": "百分",
       "percentage": "百分比"
     },
+    "months": {
+      "few": "{}个月",
+      "many": "{}个月",
+      "one": "{}个月",
+      "other": "{}个月",
+      "two": "{}个月",
+      "zero": "{}个月"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -29,21 +37,13 @@
         }
       }
     },
-    "yearMonth": {
-      "few": "{years}年, {months}个月",
-      "many": "{years}年, {months}个月",
-      "one": "{years}年, {months}个月",
-      "other": "{years}年, {months}个月",
-      "two": "{years}年, {months}个月",
-      "zero": "{years}年, {months}个月"
-    },
     "years": {
-      "few": "{years}年",
-      "many": "{years}年",
-      "one": "{years}年",
-      "other": "{years}年",
-      "two": "{years}年",
-      "zero": "{years}年"
+      "few": "{}年",
+      "many": "{}年",
+      "one": "{}年",
+      "other": "{}年",
+      "two": "{}年",
+      "zero": "{}年"
     }
   }
 }

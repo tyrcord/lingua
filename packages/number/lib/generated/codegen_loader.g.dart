@@ -18,6 +18,14 @@ class NumberCodegenLoader extends AssetLoader {
       "percent": "Por cento",
       "percentage": "Percentagem"
     },
+    "months": {
+      "few": "{} meses",
+      "many": "{} meses",
+      "one": "{} mês",
+      "other": "{} meses",
+      "two": "{} meses",
+      "zero": "{} mês"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -42,21 +50,13 @@ class NumberCodegenLoader extends AssetLoader {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} anos, {months} meses",
-      "many": "{years} anos, {months} meses",
-      "one": "{years} ano, {months} mês",
-      "other": "{years} anos, {months} meses",
-      "two": "{years} anos, {months} meses",
-      "zero": "{years} ano, {months} mês"
-    },
     "years": {
-      "few": "{years} anos",
-      "many": "{years} anos",
-      "one": "{years} ano",
-      "other": "{years} anos",
-      "two": "{years} anos",
-      "zero": "{years} ano"
+      "few": "{} anos",
+      "many": "{} anos",
+      "one": "{} ano",
+      "other": "{} anos",
+      "two": "{} anos",
+      "zero": "{} ano"
     }
   }
 };
@@ -67,6 +67,14 @@ static const Map<String,dynamic> es = {
       "percent": "Por ciento",
       "percentage": "Porcentaje"
     },
+    "months": {
+      "few": "{} meses",
+      "many": "{} meses",
+      "one": "{} mes",
+      "other": "{} meses",
+      "two": "{} meses",
+      "zero": "{} mes"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -91,21 +99,13 @@ static const Map<String,dynamic> es = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} años, {months} meses",
-      "many": "{years} años, {months} meses",
-      "one": "{years} año, {months} mes",
-      "other": "{years} años, {months} meses",
-      "two": "{years} años, {months} meses",
-      "zero": "{years} año, {months} mes"
-    },
     "years": {
-      "few": "{years} años",
-      "many": "{years} años",
-      "one": "{years} año",
-      "other": "{years} años",
-      "two": "{years} años",
-      "zero": "{years} año"
+      "few": "{} años",
+      "many": "{} años",
+      "one": "{} año",
+      "other": "{} años",
+      "two": "{} años",
+      "zero": "{} año"
     }
   }
 };
@@ -116,6 +116,14 @@ static const Map<String,dynamic> it = {
       "percent": "Per cento",
       "percentage": "Percentuale"
     },
+    "months": {
+      "few": "{} mesi",
+      "many": "{} mesi",
+      "one": "{} mese",
+      "other": "{} mesi",
+      "two": "{} mesi",
+      "zero": "{} mese"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -140,21 +148,13 @@ static const Map<String,dynamic> it = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} anni, {months} mesi",
-      "many": "{years} anni, {months} mesi",
-      "one": "{years} anno, {months} mese",
-      "other": "{years} anni, {months} mesi",
-      "two": "{years} anni, {months} mesi",
-      "zero": "{years} anno, {months} mese"
-    },
     "years": {
-      "few": "{years} anni",
-      "many": "{years} anni",
-      "one": "{years} anno",
-      "other": "{years} anni",
-      "two": "{years} anni",
-      "zero": "{years} anno"
+      "few": "{} anni",
+      "many": "{} anni",
+      "one": "{} anno",
+      "other": "{} anni",
+      "two": "{} anni",
+      "zero": "{} anno"
     }
   }
 };
@@ -164,6 +164,14 @@ static const Map<String,dynamic> fr = {
       "amount": "Montant",
       "percent": "Pour cent",
       "percentage": "Pourcentage"
+    },
+    "months": {
+      "few": "{} mois",
+      "many": "{} mois",
+      "one": "{} mois",
+      "other": "{} mois",
+      "two": "{} mois",
+      "zero": "{} mois"
     },
     "ordinal": {
       "short": {
@@ -189,21 +197,13 @@ static const Map<String,dynamic> fr = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} ans, {months} mois",
-      "many": "{years} ans, {months} mois",
-      "one": "{years} an, {months} mois",
-      "other": "{years} ans, {months} mois",
-      "two": "{years} ans, {months} mois",
-      "zero": "{years} an, {months} mois"
-    },
     "years": {
-      "few": "{years} ans",
-      "many": "{years} ans",
-      "one": "{years} an",
-      "other": "{years} ans",
-      "two": "{years} ans",
-      "zero": "{years} an"
+      "few": "{} ans",
+      "many": "{} ans",
+      "one": "{} an",
+      "other": "{} ans",
+      "two": "{} ans",
+      "zero": "{} an"
     }
   }
 };
@@ -214,6 +214,14 @@ static const Map<String,dynamic> de = {
       "percent": "Prozent",
       "percentage": "Prozentsatz"
     },
+    "months": {
+      "few": "{} Monate",
+      "many": "{} Monate",
+      "one": "{} Monat",
+      "other": "{} Monate",
+      "two": "{} Monate",
+      "zero": "{} Monat"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -238,21 +246,13 @@ static const Map<String,dynamic> de = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} Jahre, {months} Monate",
-      "many": "{years} Jahre, {months} Monate",
-      "one": "{years} Jahr, {months} Monat",
-      "other": "{years} Jahre, {months} Monate",
-      "two": "{years} Jahre, {months} Monate",
-      "zero": "{years} Jahr, {months} Monat"
-    },
     "years": {
-      "few": "{years} Jahre",
-      "many": "{years} Jahre",
-      "one": "{years} Jahr",
-      "other": "{years} Jahre",
-      "two": "{years} Jahre",
-      "zero": "{years} Jahr"
+      "few": "{} Jahre",
+      "many": "{} Jahre",
+      "one": "{} Jahr",
+      "other": "{} Jahre",
+      "two": "{} Jahre",
+      "zero": "{} Jahr"
     }
   }
 };
@@ -263,6 +263,14 @@ static const Map<String,dynamic> ja = {
       "percent": "パーセント",
       "percentage": "パーセンテージ"
     },
+    "months": {
+      "few": "{}ヶ月",
+      "many": "{}ヶ月",
+      "one": "{}ヶ月",
+      "other": "{}ヶ月",
+      "two": "{}ヶ月",
+      "zero": "{}ヶ月"
+    },
     "ordinal": {
       "short": {
         "first": {
@@ -287,21 +295,13 @@ static const Map<String,dynamic> ja = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years}年, {months}ヶ月",
-      "many": "{years}年, {months}ヶ月",
-      "one": "{years}年, {months}ヶ月",
-      "other": "{years}年, {months}ヶ月",
-      "two": "{years}年, {months}ヶ月",
-      "zero": "{years}年, {months}ヶ月"
-    },
     "years": {
-      "few": "{years}年",
-      "many": "{years}年",
-      "one": "{years}年",
-      "other": "{years}年",
-      "two": "{years}年",
-      "zero": "{years}年"
+      "few": "{}年",
+      "many": "{}年",
+      "one": "{}年",
+      "other": "{}年",
+      "two": "{}年",
+      "zero": "{}年"
     }
   }
 };
@@ -311,6 +311,14 @@ static const Map<String,dynamic> ru = {
       "amount": "Сумма",
       "percent": "Проценты",
       "percentage": "Процент"
+    },
+    "months": {
+      "few": "{} месяцев",
+      "many": "{} месяцев",
+      "one": "{} месяц",
+      "other": "{} месяцев",
+      "two": "{} месяца",
+      "zero": "{} месяц"
     },
     "ordinal": {
       "short": {
@@ -336,21 +344,13 @@ static const Map<String,dynamic> ru = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} года, {months} месяцев",
-      "many": "{years} лет, {months} месяцев",
-      "one": "{years} год, {months} месяц",
-      "other": "{years} лет, {months} месяцев",
-      "two": "{years} года, {months} месяца",
-      "zero": "{years} год, {months} месяц"
-    },
     "years": {
-      "few": "{years} года",
-      "many": "{years} лет",
-      "one": "{years} год",
-      "other": "{years} лет",
-      "two": "{years} года",
-      "zero": "{years} год"
+      "few": "{} года",
+      "many": "{} лет",
+      "one": "{} год",
+      "other": "{} лет",
+      "two": "{} года",
+      "zero": "{} год"
     }
   }
 };
@@ -360,6 +360,14 @@ static const Map<String,dynamic> en = {
       "amount": "Amount",
       "percent": "Percent",
       "percentage": "Percentage"
+    },
+    "months": {
+      "few": "{} months",
+      "many": "{} months",
+      "one": "{} month",
+      "other": "{} months",
+      "two": "{} months",
+      "zero": "{} month"
     },
     "ordinal": {
       "short": {
@@ -385,21 +393,13 @@ static const Map<String,dynamic> en = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years} years, {months} months",
-      "many": "{years} years, {months} months",
-      "one": "{years} year, {months} month",
-      "other": "{years} years, {months} months",
-      "two": "{years} years, {months} months",
-      "zero": "{years} year, {months} month"
-    },
     "years": {
-      "few": "{years} years",
-      "many": "{years} years",
-      "one": "{years} year",
-      "other": "{years} years",
-      "two": "{years} years",
-      "zero": "{years} year"
+      "few": "{} years",
+      "many": "{} years",
+      "one": "{} year",
+      "other": "{} years",
+      "two": "{} years",
+      "zero": "{} year"
     }
   }
 };
@@ -409,6 +409,14 @@ static const Map<String,dynamic> zh = {
       "amount": "金额",
       "percent": "百分",
       "percentage": "百分比"
+    },
+    "months": {
+      "few": "{}个月",
+      "many": "{}个月",
+      "one": "{}个月",
+      "other": "{}个月",
+      "two": "{}个月",
+      "zero": "{}个月"
     },
     "ordinal": {
       "short": {
@@ -434,21 +442,13 @@ static const Map<String,dynamic> zh = {
         }
       }
     },
-    "yearMonth": {
-      "few": "{years}年, {months}个月",
-      "many": "{years}年, {months}个月",
-      "one": "{years}年, {months}个月",
-      "other": "{years}年, {months}个月",
-      "two": "{years}年, {months}个月",
-      "zero": "{years}年, {months}个月"
-    },
     "years": {
-      "few": "{years}年",
-      "many": "{years}年",
-      "one": "{years}年",
-      "other": "{years}年",
-      "two": "{years}年",
-      "zero": "{years}年"
+      "few": "{}年",
+      "many": "{}年",
+      "one": "{}年",
+      "other": "{}年",
+      "two": "{}年",
+      "zero": "{}年"
     }
   }
 };
