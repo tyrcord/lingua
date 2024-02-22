@@ -31,3 +31,18 @@ String toOrdinal(int number, {String gender = LinguaLocalizationGender.male}) {
 
   return key.tr(namedArgs: {"num": number.toString()}, gender: gender);
 }
+
+String localizePeriod({int years = 0, int months = 0}) {
+  var localized = '';
+
+  if (years != 0) {
+    localized = NumberLocaleKeys.number_years.plural(years);
+  }
+
+  if (months != 0) {
+    localized += localized.isNotEmpty ? ', ' : '';
+    localized += NumberLocaleKeys.number_months.plural(months);
+  }
+
+  return localized;
+}
