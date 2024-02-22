@@ -1,3 +1,8 @@
+## 0.0.25
+
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+
 ## 0.0.24
 
  - **FEAT**: updated localization files.
