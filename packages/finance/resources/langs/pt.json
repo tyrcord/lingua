@@ -263,6 +263,11 @@
         "per_unit": "Desconto por unidade",
         "rate": "Taxa de desconto"
       },
+      "duration": {
+        "double": {
+          "investment": "Duração para duplicar o investimento"
+        }
+      },
       "duration_years": "Duração em anos",
       "earnings": "Ganhos",
       "effective_annual_rate": "Taxa anual efetiva",

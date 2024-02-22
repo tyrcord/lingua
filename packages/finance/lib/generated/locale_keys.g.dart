@@ -141,6 +141,7 @@ abstract class FinanceLocaleKeys {
   static const finance_label_discount_label = 'finance.label.discount.label';
   static const finance_label_discount_per_unit = 'finance.label.discount.per_unit';
   static const finance_label_discount_rate = 'finance.label.discount.rate';
+  static const finance_label_duration_double_investment = 'finance.label.duration.double.investment';
   static const finance_label_duration_years = 'finance.label.duration_years';
   static const finance_label_earnings = 'finance.label.earnings';
   static const finance_label_effective_annual_rate = 'finance.label.effective_annual_rate';

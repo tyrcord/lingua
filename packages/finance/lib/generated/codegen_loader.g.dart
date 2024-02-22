@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class FinanceCodegenLoader extends AssetLoader {
@@ -12,1672 +11,7 @@ class FinanceCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> zh = {
-  "finance": {
-    "disclaimer": {
-      "incorrect_results": "如果您认为结果不正确，可能是由于您的经纪人和您使用的金融工具的某些参数可能有所不同。如果需要，您可以在高级部分调整这些设置。",
-      "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅基于此信息进行交易或投资决策。",
-      "invest_warning": "请不要仅根据这些信息进行交易或投资。",
-      "trading": "金融市场对您的资本带来了重大风险。此应用程序提供的信息和结果纯粹是指示性的，不应被解释为建议或推荐。请确保验证这些结果，因为某些参数可能会根据您的经纪人或您使用的金融工具而有所不同，因此应用程序可能会产生不准确的信息。{company}对任何根据此信息或结果采取行动的人所造成的损失概不负责。"
-    },
-    "error": {
-      "close_price_between_low_high_price": "收盘价必须在最低价和最高价之间。",
-      "high_price_higher_low_price": "最高价必须超过最低价。",
-      "open_price_between_low_high_price": "开盘价必须在最低价和最高价之间。",
-      "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。",
-      "quote_unavailable": "无法检索{symbol}汇率。请稍后再试。"
-    },
-    "help": {
-      "account_balance": {
-        "example": "如果您为交易分配了 50,000 欧元，请输入 50,000 作为金额。",
-        "text": "请提供您当前可用资金的价值。"
-      },
-      "account_currency": {
-        "example": "例如，如果您的账户是基于美国的，您会在下拉菜单中选择'USD'。",
-        "instructions": "从下拉菜单中选择与您账户相关的货币。这是您的余额保持和交易处理的货币。"
-      },
-      "additional_contributions": {
-        "example": "如果您计划每月向账户存入500美元，您应输入500作为额外贡献。",
-        "text": "指定定期存入账户的额外金额。"
-      },
-      "additional_tax_rate": {
-        "example": "如果一个产品适用20%的增值税并增加了额外的2%特定或地方税，请输入2作为该税率。",
-        "text": "指的是在增值税之上应用的额外税款。"
-      },
-      "amount_at_risk": {
-        "example": "如果您的资本为 50,000 欧元，您计划冒险 1,000 欧元，请输入 1,000 作为金额。",
-        "text": "请以与您的资本相关的货币价值表示您希望在此交易中冒险的金额。"
-      },
-      "buying_expenses_per_unit": {
-        "example": "例如，如果每购买单位有5元的固定费用，您需要在此字段输入'5'。如果您支付2%的购买手续费，请输入'2'。不要包括百分比符号或货币符号，只输入数字。",
-        "instructions": "请输入每单位购买额外的费用或固定金额。这应该是除购买价格外的费用，可能包括手续费、税款或每单位收取的额外费用。如果是固定金额，它应该反映每单位的成本，不包括资产的基本价格。"
-      },
-      "buying_price": {
-        "example": "例如，如果您以15025元的价格购买了产品，请输入'15025'。",
-        "instructions": "请输入资产的购买价格。这应该是每单位的总成本，不包括任何额外费用，如手续费。"
-      },
-      "compound_frequency": {
-        "example": "如果利息每季度重新投资，您应输入'每季度'作为频率。",
-        "text": "指示利息重新投资的频率。"
-      },
-      "contribution_frequency": {
-        "example": "如果您每季度向账户投入，您应输入'每季度'作为频率。",
-        "text": "指定额外贡献到账户的频率。"
-      },
-      "discount_amount": {
-        "example": "如果一个产品原价为\u0024100，且你可以享受\u002420的折扣，请输入20作为折扣金额。",
-        "text": "代表从商品或服务的初始价格中减去的货币价值的减少。"
-      },
-      "discount_rate": {
-        "example": "如果一个产品的起始价格为\u0024100，且提供了20%的折扣，请输入20作为折扣率。",
-        "text": "代表应用于商品或服务初始价格的百分比减少。"
-      },
-      "duration_in_years": {
-        "example": "如果计算是为了5年的期间，您应输入5作为期间。",
-        "text": "代表金融计算基于的年限。"
-      },
-      "entry_fees": {
-        "example": "如果您的经纪人在开仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
-        "text": "请提供您的经纪人在开仓时收取的佣金百分比。"
-      },
-      "entry_price": {
-        "example": "如果您计划以当前价格购买，请指定此金额。但是，如果当前价格为 50 欧元/股，您计划以 55 欧元/股购买，请输入 55 作为值。",
-        "text": "请指定您计划进入市场的价格，无论是当前价格还是预期价格。"
-      },
-      "exit_fees": {
-        "example": "如果您的经纪人在平仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
-        "text": "请提供您的经纪人在平仓时收取的佣金百分比。"
-      },
-      "expected_sale_units": {
-        "example": "例如，如果您计划销售150个产品单位，请输入'150'。",
-        "instructions": "请输入您计划销售的单位数量。这个数字应代表您打算出售的单个单位的总数量，而不是资产的总价值。"
-      },
-      "financial_instrument": {
-        "example": "例如，如果您交易指数，您可以在下拉菜单中选择'指数'。",
-        "instructions": "从下拉菜单中选择您交易的金融工具类型。金融工具是可以交易或用于投资目的的资产。这可能包括股票、债券、衍生品、货币等。"
-      },
-      "investment_annual_contribution": {
-        "example": "例如，如果您计划每年向您的投资贡献10,000美元，请输入'10,000'。",
-        "instructions": "请输入您计划每年对您的投资贡献的金额。这可能是现金存款或其他投资形式。"
-      },
-      "investment_tax_rate": {
-        "example": "例如，如果您的适用税率是25%，请输入'25'。",
-        "instructions": "请输入适用于您的投资收入或资本增值的税率。这应以百分比表示。请确保使用与您所在税率区间相对应的税率或您报告收入类型的特定税率。"
-      },
-      "leverage": {
-        "example": "例如，如果您用1美元的资本借入额外的9美元，请选择'10:1'的杠杆。",
-        "instructions": "选择您交易的金融杠杆水平。"
-      },
-      "operating_expenses": {
-        "example": "例如，如果您的业务在租金上花费350000元，在公用事业上花费250000元，在薪资上花费1000000元，在其他行政费用上花费400000元，您需要加总这些数额并输入'2000000'。",
-        "instructions": "请输入业务的总运营费用。这包括租金、公用事业、薪资、维护和其他日常运营所需的行政费用。不要包括税款、利息支付或非运营费用。"
-      },
-      "position_size": {
-        "example": "例如，如果您正在交易某公司的100股股票，您会输入'100'。如果您在进行外汇交易并交易500单位，您会输入'500'。",
-        "instructions": "输入您持有或交易的金融工具的数量。头寸大小可能以股票、批次、合同或其他单位表示，具体取决于资产。您可以在输入字段旁边的下拉菜单中选择测量单位。"
-      },
-      "price_after_vat": {
-        "example": "如果一种产品税前价格为10美元，并且适用20%的增值税率，那么增值税后的价格将为12美元，请输入12作为值。",
-        "text": "指的是在添加增值税（VAT）后的产品或服务的总价格。这是消费者支付的零售价格。增值税是许多国家对商品和服务销唀征收的一种消费税。"
-      },
-      "price_before_vat": {
-        "example": "如果一个产品税前价格为\u002410且适用20%的增值税率，请输入10作为税前价值。",
-        "text": "指的是商品或服务在增值税（VAT）加成之前的价格。增值税是许多国家在销售商品和服务时征收的消费税。"
-      },
-      "rate_of_return": {
-        "example": "如果您预期每月回报率为2%，您应输入2作为回报率。",
-        "text": "象征着定义期间的回报率。"
-      },
-      "rate_of_return_frequency": {
-        "example": "如果回报率按月分配，您应选择'每月'作为频率。",
-        "text": "指定回报率分配的周期性。"
-      },
-      "risk": {
-        "example": "如果您同意冒险 1,000 欧元，这相当于您 50,000 欧元资本的 2%，请输入 2 作为值。",
-        "text": "请提供您希望在此交易中冒险的资本百分比。建议不要在单笔交易中冒险超过您资本的 2%。"
-      },
-      "risk_reward_ratio": {
-        "example": "如果您输入 2，这意味着您预计每冒险 1 美元，将获得 2 美元的潜在收益。",
-        "text": "请提供您愿意接受的此交易中风险金额和潜在收益之间的比率。"
-      },
-      "selling_expenses_per_unit": {
-        "example": "例如，如果每售出单位有3元的交易费用，您需要在此字段输入'3'。如果有基于销售价格1.5%的经纪人佣金，请输入'1.5'。不要包括百分比符号或货币符号，只输入数字。",
-        "instructions": "请输入与每单位销售相关的费用或额外收费，除了销售价格。这可以是一个具体的金额或一个百分比率。此数字应直接反映每单位销售商品的交易费用、佣金或其他费用，不应包括单位基础价格。"
-      },
-      "selling_price": {
-        "example": "例如，如果您以30050元的价格出售了产品，请输入'30050'。",
-        "instructions": "请输入资产的销售价格。这应是您每单位获得的全部金额，不计算任何交易费用或服务费。"
-      },
-      "slippage": {
-        "example": "如果您下达以当前价格 100 欧元购买股票的市场订单，但实际执行价格为 102 欧元，则此 2 欧元 (相当于原始价格的 2%) 差异称为“滑点”。在这种情况下，您需要输入 2 作为百分比。",
-        "text": "指的是交易预期价格和实际执行价格之间的差异。滑点在高波动时期使用市场订单时经常发生，也可能发生在执行大订单时，并且没有足够的交易量在所需的价格水平上。"
-      },
-      "starting_balance": {
-        "example": "如果您开始的财务计算以初始金额1,000美元为基础，您应输入1000作为起始余额。",
-        "text": "代表一段时期开始时账户中可用的初始金额。"
-      },
-      "stop_loss_price": {
-        "example": "如果您以 50 欧元购买了股票，并选择以 45 欧元设置止损单来保护您的头寸，请输入 45 作为值。",
-        "text": "请指定您将设置止损单以限制潜在损失的价格。"
-      },
-      "tax_rate": {
-        "example": "例如，如果您的业务在所有减免和优惠后处于25%的税率范围内，请在此字段输入'25'。不要包括百分比符号，只输入数字。",
-        "instructions": "请输入适用于您业务或资产的税率百分比。这个率由多个因素决定，包括收入水平、业务类型和司法管辖区。它代表您需要支付给政府的收入部分。确保这是一个有效税率，考虑到所有适用的减免和优惠。"
-      },
-      "tip_amount": {
-        "example": "如果你的账单是\u002420且你想给\u00245的小费，你应该输入5作为小费金额。",
-        "text": "代表为表达对高质量服务的感激而额外增加到账单上的金额。"
-      },
-      "tip_rate": {
-        "example": "如果你的账单是\u002450且你想给15%的小费，你应该输入15作为小费率。",
-        "text": "是总账单金额的百分比，作为小费额外给予，以示对高质量服务的感激。"
-      },
-      "vat_rate": {
-        "example": "如果一个产品税前价格为\u002410且适用的增值税率为20%，请将20作为税率值输入。",
-        "text": "指的是应用于商品或服务的增值税（VAT）的百分比。"
-      },
-      "withdrawals_amount": {
-        "example": "如果您计划每月从账户中提取200美元，您应输入200作为提款金额。",
-        "text": "指定定期从账户中提取的金额。"
-      },
-      "withdrawals_frequency": {
-        "example": "如果您每季度从账户中提款，您应输入'每季度'作为频率。",
-        "text": "指定从账户中提款的频率。"
-      }
-    },
-    "label": {
-      "account": {
-        "balance": "账户余额",
-        "currency": "账户货币",
-        "size": "账户规模"
-      },
-      "additional": {
-        "contributions": "附加贡献",
-        "metrics": "附加指标"
-      },
-      "additional_tax": {
-        "amount": "额外税额",
-        "rate": "额外税率",
-        "text": "额外税"
-      },
-      "after": {
-        "fee": {
-          "amount": "扣除费用后的金额",
-          "price": "扣除费用后的价格"
-        },
-        "vat": {
-          "amount": "增值税后金额",
-          "price": "增值税后价格"
-        }
-      },
-      "amount": {
-        "after_fee": "扣除费用后的金额",
-        "before_fee": "扣费前的金额",
-        "fee": "费用金额",
-        "text": "金额",
-        "type": "金额类型"
-      },
-      "amount_at_risk": "风险金额",
-      "annual_contribution": "年度贡献",
-      "average_annual_return": "年均回报",
-      "before": {
-        "fee": {
-          "amount": "费用前金额",
-          "price": "费用前价格"
-        },
-        "vat": {
-          "amount": "增值税前金额",
-          "price": "增值税前价格"
-        }
-      },
-      "bill": {
-        "amount": "账单金额",
-        "breakdown": "账单明细",
-        "rate": "账单税率",
-        "text": "账单"
-      },
-      "break_even": {
-        "price": "保本价格",
-        "units": "保本单位"
-      },
-      "breakdown": "细分",
-      "buy": {
-        "commission": "购买佣金",
-        "costs": "购买费用",
-        "costs_per_unit": "每单位购买费用",
-        "price": "购买价格",
-        "price_per_unit": "每单位购买价格"
-      },
-      "cashflow": "现金流",
-      "close_price": "收盘价",
-      "compound": {
-        "interest": "复合利息",
-        "text": "复合"
-      },
-      "compounding": {
-        "frequency": "复利频率",
-        "text": "复利"
-      },
-      "contribution_frequency": "投资频率",
-      "cost": {
-        "of": {
-          "goods": {
-            "sold": "已售商品成本"
-          },
-          "investment": "投资成本"
-        }
-      },
-      "costs": "成本",
-      "currencies": "货币",
-      "currency": "货币",
-      "deposits": "存款",
-      "discount": {
-        "amount": "折扣金额",
-        "label": "折扣",
-        "per_unit": "每单位折扣",
-        "rate": "折扣率"
-      },
-      "duration_years": "年份持续时间",
-      "earnings": "收益",
-      "effective_annual_rate": "有效年利率",
-      "ending": {
-        "balance": "结余",
-        "principal": "结余本金"
-      },
-      "entry": {
-        "fees": {
-          "amount": "入场费金额",
-          "text": "入场费"
-        },
-        "price": {
-          "at": "入场价格为",
-          "text": "入场价格",
-          "with_slippage": "带滑点的入场价格"
-        },
-        "text": "入场"
-      },
-      "exit": {
-        "fees": {
-          "amount": "退出费用金额",
-          "text": "退出费用"
-        },
-        "price": {
-          "at": "退出价格为",
-          "text": "退出价格",
-          "with_slippage": "带滑点的退出价格"
-        }
-      },
-      "expected_sale_units": "预期销售单位",
-      "extension": "扩展",
-      "fees": "费用",
-      "fibonacci": {
-        "level": "斐波那契水平",
-        "levels": "斐波那契水平"
-      },
-      "financial_instrument": "金融工具",
-      "fixed_costs": "固定成本",
-      "gain": "盈利",
-      "gain_per_trade": "每笔交易盈利",
-      "grand_total": "总计",
-      "gross": {
-        "income": "总收入",
-        "margin": "毛利率",
-        "profit": {
-          "margin": "毛利润率",
-          "text": "毛利润"
-        }
-      },
-      "high_price": "最高价",
-      "indices": "指数",
-      "initial_investment": "初始投资",
-      "interest_rate": "利率",
-      "involved_capital": "参与资本",
-      "last": {
-        "earnings": "最后收益"
-      },
-      "last_updated_on": "最后更新的汇率",
-      "leverage": "杠杆",
-      "loss": "亏损",
-      "loss_per_trade": "每笔交易亏损",
-      "low_price": "最低价",
-      "margin": "保证金",
-      "net": {
-        "buy_price": "净购买价格",
-        "income": "净收入",
-        "profit": {
-          "after_fee": "扣除费用后的净利润",
-          "before_fee": "扣除费用前的净利润",
-          "margin": "净利润率",
-          "text": "净利润"
-        }
-      },
-      "number": {
-        "of_trades": "交易次数",
-        "plus_currency": "{number}+种货币"
-      },
-      "open_price": "开盘价",
-      "operating": {
-        "expenses": "营业费用",
-        "income": "营业收入",
-        "margin": "营业利润率",
-        "profit": "营业利润"
-      },
-      "period": "时期",
-      "pivot_point": {
-        "camarilla": "Camarilla",
-        "demark": "DeMark",
-        "fibonacci": "斐波那契",
-        "method": "中枢点方法",
-        "standard": "标准",
-        "text": "中枢点",
-        "woodie": "Woodie"
-      },
-      "pivot_points": "枢轴点",
-      "position": {
-        "amount": "持仓金额",
-        "long": "多头",
-        "short": "空头",
-        "size": "持仓规模",
-        "text": "持仓"
-      },
-      "price": {
-        "a": "价格A",
-        "b": "价格B",
-        "base": "基本价格",
-        "breakdown": "价格细分",
-        "per_unit": "单价",
-        "per_unit_after_fee": "扣除费用后的单价",
-        "per_unit_before_fee": "扣费前的单价",
-        "text": "价格"
-      },
-      "primary_currency": "主要货币",
-      "profit": "利润",
-      "profit_and_loss": "利润和损失",
-      "profit_and_loss_overview": "损益总览",
-      "profit_or_loss": "利润或损失",
-      "purchase": {
-        "commission": "采购佣金",
-        "costs": "采购成本",
-        "costs_per_unit": "每单位收购成本",
-        "price": "采购价格",
-        "price_per_unit": "每单位采购价格"
-      },
-      "rate": "税率",
-      "rate_of_return": {
-        "all_time": "历史回报率",
-        "text": "回报率"
-      },
-      "real_time_quotes": "实时行情",
-      "regular_addition": "定期增加",
-      "required_margin": "所需保证金",
-      "resistance_level": "阻力位 {level}",
-      "resistances": "阻力",
-      "retained_earnings": "留存收益",
-      "retracement": "回撤",
-      "return_frequency": "回报频率",
-      "return_on_investment": "投资回报率",
-      "revenue": "收入",
-      "risk": {
-        "amount": "风险金额",
-        "effective": "有效风险",
-        "in_percentage": "百分比风险",
-        "ratio": "风险比率",
-        "reward": {
-          "ratio": "风险-回报比",
-          "text": "风险-回报"
-        },
-        "text": "风险",
-        "tolerated": "可容忍风险",
-        "type": "风险类型"
-      },
-      "sales": {
-        "commission": "销售佣金",
-        "costs": "销售成本",
-        "costs_per_unit": "每单位销售成本",
-        "price": "销售价格",
-        "price_per_unit": "每单位销售价格"
-      },
-      "secondary_currency": "次要货币",
-      "sell": {
-        "commission": "销售佣金",
-        "costs": "销售费用",
-        "costs_per_unit": "每单位销售费用",
-        "price": "销售价格",
-        "price_per_unit": "每单位销售价格"
-      },
-      "selling_expenses": "销售费用",
-      "selling_operating_expenses": "销售及运营费用",
-      "slippage": "滑点",
-      "starting": {
-        "balance": "初始余额",
-        "principal": "初始本金"
-      },
-      "stop_loss": {
-        "amount": "止损金额",
-        "at": "止损位置",
-        "in_percentage": {
-          "text": "百分比止损",
-          "with_slippage": "带滑点的百分比止损"
-        },
-        "price": {
-          "at": "止损位置",
-          "text": "止损",
-          "with_slippage": "滑点止损"
-        },
-        "text": "止损",
-        "type": "止损类型"
-      },
-      "stop_loss_take_profit": "止损/获利",
-      "subtotal": "小计",
-      "support_level": "支撑位 {level}",
-      "supports": "支撑",
-      "take_profit": {
-        "amount": "止盈金额",
-        "at": "止盈于",
-        "price": {
-          "after_fee": "扣除手续费后的利润",
-          "at": "止盈于",
-          "text": "止盈",
-          "with_slippage": "含滑点的止盈"
-        },
-        "text": "止盈",
-        "type": "获利类型"
-      },
-      "tax": {
-        "amount": "税额",
-        "exempt_amount_per_year": "免税金额每年",
-        "rate": "税率"
-      },
-      "taxes": "税",
-      "tip": {
-        "amount": "小费金额",
-        "rate": "小费率",
-        "text": "小费"
-      },
-      "total": {
-        "contributions": "总贡献",
-        "costs": {
-          "losing_position": "亏损头寸的总成本",
-          "profit_position": "盈利头寸的总成本",
-          "text": "总成本"
-        },
-        "deposits": "总存款",
-        "earnings": "总收益",
-        "expenses": "总支出",
-        "fee": "总费用",
-        "gain": "总盈利",
-        "loss": "总亏损",
-        "return": "总回报",
-        "revenue": "总收入",
-        "tax": "总税款",
-        "text": "总计",
-        "withdrawals": "总提款"
-      },
-      "trade": {
-        "size": {
-          "oz": "交易规模（盎司）",
-          "text": "交易规模",
-          "units": "交易规模（单位）"
-        }
-      },
-      "trend": {
-        "down": "下跌趋势",
-        "sideways": "横盘",
-        "text": "趋势",
-        "up": "上升趋势"
-      },
-      "user_currency": "用户货币",
-      "vat": {
-        "amount": "增值税金额",
-        "rate": "增值税率",
-        "text": "增值税"
-      },
-      "withdrawal": {
-        "amount": "提款金额",
-        "frequency": "提款频率",
-        "text": "提款"
-      },
-      "withdrawals": {
-        "amount": "提款总额",
-        "frequency": "提款频率",
-        "text": "提款总计"
-      }
-    },
-    "message": {
-      "last_updated_on": "{date}最后更新的汇率"
-    },
-    "select": {
-      "account_currency": "选择您的账户货币",
-      "compounding_frequency": "选择复利频率",
-      "contribution_frequency": "选择贡献频率",
-      "currency": "选择一种货币",
-      "interest_rate": "选择一个利率",
-      "leverage": "选择一个杠杆",
-      "pivot_point_method": "选择枢轴点方法",
-      "primary_currency": "选择一种主要货币",
-      "return_frequency": "选择回报频率",
-      "risk_type": "选择风险类型",
-      "secondary_currency": "选择一种次要货币",
-      "stop_loss_type": "选择止损类型",
-      "take_profit_type": "选择获利类型",
-      "tax_rate": "选择税率"
-    },
-    "warning": {
-      "risk_reward_ratio": "风险-回报比小于2。"
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "finance": {
-    "disclaimer": {
-      "incorrect_results": "結果が正しくないと思われる場合、特定のパラメータがブローカーや使用している金融商品によって異なる可能性があります。必要な場合は、詳細セクションでこれらの設定を調整できます。",
-      "intervening_markets": "金融市場への参加には、金融損失につながるリスクが伴います。この情報のみをもとに取引や投資の決定をしないでください。",
-      "invest_warning": "この情報だけに基づいて取引や投資を行わないでください。",
-      "trading": "金融市場は資本に大きなリスクを伴います。このアプリケーションによって提供される情報および結果は純粋に示唆的なものであり、アドバイスや推奨と解釈すべきではありません。ブローカーや使用する金融商品によって特定のパラメーターが異なる可能性があるため、これらの結果を確認してください。アプリケーションが不正確な情報を生成する可能性があります。{company}は、この情報または結果に基づいて行動する人が被る損失の責任を一切負いません。"
-    },
-    "error": {
-      "close_price_between_low_high_price": "終値は最低価格と最高価格の間である必要があります。",
-      "high_price_higher_low_price": "最高価格は最低価格を上回る必要があります。",
-      "open_price_between_low_high_price": "始値は最低価格と最高価格の間である必要があります。",
-      "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。",
-      "quote_unavailable": "{symbol}の為替レートを取得できません。後ほど再試行してください。"
-    },
-    "help": {
-      "account_balance": {
-        "example": "50,000 円をトレーディングに充当している場合、50,000 を金額として入力してください。",
-        "text": "利用可能な現在の資本の価値を指定してください。"
-      },
-      "account_currency": {
-        "example": "例えば、あなたの口座がアメリカに拠点を置いている場合、ドロップダウンメニューで 'USD' を選択します。",
-        "instructions": "ドロップダウンメニューのオプションから、あなたの口座に関連付けられた通貨を選択してください。これは、あなたの残高が保持され、取引が処理される通貨です。"
-      },
-      "additional_contributions": {
-        "example": "アカウントに毎月\u0024500を預ける予定の場合は、追加の貢献として500を入力してください。",
-        "text": "定期的な間隔でアカウントに預けられる追加の金額を指します。"
-      },
-      "additional_tax_rate": {
-        "example": "製品に20%のVATが適用され、追加の特定税または地方税が2%追加される場合、値として2を入力してください。",
-        "text": "VATの上に適用される追加の税を参照します。"
-      },
-      "amount_at_risk": {
-        "example": "資本が 50,000 円で、1,000 円をリスクにさらそうとしている場合は、1,000 を金額として入力してください。",
-        "text": "この取引でリスクにさらしたい金額を、資本に関連する金銭的価値で指定してください。"
-      },
-      "buying_expenses_per_unit": {
-        "example": "例えば、購入したユニットごとに5円の固定料金が課金される場合、このフィールドに'5'と入力します。一方、購入した各ユニットに対して2%の手数料を支払っている場合は、'2'と入力します。パーセンテージ記号「%」や通貨記号は付けずに数値のみを入力してください。",
-        "instructions": "購入した各ユニットにかかる追加の費用や固定額を入力してください。これは購入価格とは別で、手数料、税金、または単位あたりの追加コストとして課金されるパーセンテージです。固定額の場合、基本資産価格を除外した単位あたりのコストを反映する必要があります。"
-      },
-      "buying_price": {
-        "example": "例えば、製品を15,025円で購入した場合、'15025'と入力します。",
-        "instructions": "資産の購入価格を入力してください。これは、手数料などの追加料金を除いた、単位あたりの総コストです。"
-      },
-      "compound_frequency": {
-        "example": "利息が四半期ごとに再投資される場合は、頻度として'四半期ごと'を入力してください。",
-        "text": "利息が再投資される頻度を示します。"
-      },
-      "contribution_frequency": {
-        "example": "アカウントに四半期ごとに貢献する場合は、頻度として'四半期ごと'を入力してください。",
-        "text": "アカウントへの追加の貢献が行われる頻度を指定します。"
-      },
-      "discount_amount": {
-        "example": "製品がもともと\u0024100で販売されており、\u002420の割引が適用される場合、金額として20を入力してください。",
-        "text": "製品やサービスの初期価格から差し引かれる金額の削減を表します。"
-      },
-      "discount_rate": {
-        "example": "製品の開始価格が\u0024100で、20%の割引が提供される場合、値として20を示してください。",
-        "text": "製品やサービスの初期価格に適用される割引のパーセンテージを表します。"
-      },
-      "duration_in_years": {
-        "example": "計算が5年間の期間に対して行われる場合は、期間として5を入力してください。",
-        "text": "財務計算が基づく期間の長さを年単位で表します。"
-      },
-      "entry_fees": {
-        "example": "ポジションの開設時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
-        "text": "ブローカーがポジションの開設時に請求する手数料の割合を指定してください。"
-      },
-      "entry_price": {
-        "example": "現在の価格で購入する予定の場合は、この金額を指定してください。ただし、現在の価格が 50 円/株で、55 円/株で購入する予定の場合は、55 を値として入力してください。",
-        "text": "市場に参入する予定の価格を指定してください。これは、現在の価格または予想される価格のいずれかです。"
-      },
-      "exit_fees": {
-        "example": "ポジションの解 closure 時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
-        "text": "ブローカーがポジションの解 closure 時に請求する手数料の割合を指定してください。"
-      },
-      "expected_sale_units": {
-        "example": "例えば、製品150ユニットの販売を予定している場合、'150'と入力します。",
-        "instructions": "販売予定のユニット数を入力してください。この数値は、販売する予定の各ユニットの総数である必要があり、資産の総価値ではありません。"
-      },
-      "financial_instrument": {
-        "example": "例えば、インデックスを取引している場合、ドロップダウンメニューで 'インデックス' を選ぶことができます。",
-        "instructions": "ドロップダウンメニューから、取引している金融商品の種類を選択してください。金融商品とは、取引や投資目的で使用できる資産のことで、株式、債券、デリバティブ、通貨などが含まれます。"
-      },
-      "investment_annual_contribution": {
-        "example": "例えば、あなたの投資に対して年間10,000ドルの貢献を計画している場合は、「10,000」と入力してください。",
-        "instructions": "毎年あなたの投資に対して貢献する予定の金額を入力してください。これは現金預金または他の投資形態によるものかもしれません。"
-      },
-      "investment_tax_rate": {
-        "example": "例えば、適用される税率が25%である場合は、「25」と入力してください。",
-        "instructions": "投資所得またはキャピタルゲインに適用される税率を入力してください。これはパーセンテージで表されるべきです。あなたの税率区分に該当する税率、または報告する所得の種類に特有の税率を使用してください。"
-      },
-      "leverage": {
-        "example": "たとえば、あなたの資本の1ドルで追加の9ドルを借りる場合は、「10:1」のレバレッジを選択してください。",
-        "instructions": "取引のための金融レバレッジのレベルを選択してください。"
-      },
-      "operating_expenses": {
-        "example": "例えば、あなたの企業が家賃に35万円、公共料金に25万円、給与に100万円、その他の管理費用に40万円を支出している場合、これらの金額を合計して'2000000'と入力します。",
-        "instructions": "企業の運営にかかる総経費の金額を入力してください。これには、家賃、公共料金、給与、メンテナンス、および日常業務に必要なその他の管理費用が含まれます。税金、利息支払い、または非運営費用は含めないでください。"
-      },
-      "position_size": {
-        "example": "例えば、ある企業の株式100株を取引している場合、'100'と入力します。外国為替で500単位を取引している場合は、'500'と入力します。",
-        "instructions": "保有または取引している金融商品の数量を入力してください。ポジションサイズは、資産に応じて株式、ロット、契約、またはその他の単位で表される場合があります。入力フィールドの隣のドロップダウンメニューで測定単位を選択できます。"
-      },
-      "price_after_vat": {
-        "example": "商品が税抜きで10ドルの場合、消費税率が20％であれば、消費税込みの価格は12ドルになります。値として12を入力してください。",
-        "text": "付加価値税（VAT）を加算した後の商品またはサービスの総価格を指します。これは消費者が支払う小売価格です。VATは多くの国で商品やサービスの販売に適用される消費税です。"
-      },
-      "price_before_vat": {
-        "example": "製品が税抜きで\u002410であり、20%のVATが適用される場合、税抜きの値として10を入力してください。",
-        "text": "製品またはサービスの価格を付加価値税（VAT）の追加前に参照します。VATは、多くの国で商品やサービスが販売される際に課される消費税です。"
-      },
-      "rate_of_return": {
-        "example": "月に2％のリターンを見込む場合、リターン率として2を入力してください。",
-        "text": "定義された期間にわたるリターン率を象徴します。"
-      },
-      "rate_of_return_frequency": {
-        "example": "リターン率が毎月分配される場合は、頻度として'毎月'を選択してください。",
-        "text": "リターン率の分配の周期を指定します。"
-      },
-      "risk": {
-        "example": "50,000 円の資本で 1,000 円をリスクにさらすことに同意する場合は、2 を値として入力してください。これは、50,000 円の資本の 2% に相当します。",
-        "text": "この取引でリスクにさらしたい資本の割合を指定してください。 2% を超える資本を単一取引でリスクにさらすことは推奨されません。"
-      },
-      "risk_reward_ratio": {
-        "example": "2 を入力すると、1 ドルのリスクに対して 2 ドルの潜在的な利益を期待していることを意味します。",
-        "text": "この取引で受け入れるリスク額と潜在的な利益の比率を指定してください。"
-      },
-      "selling_expenses_per_unit": {
-        "example": "例えば、販売されたユニットごとに3円のトランザクション手数料が発生する場合、このフィールドに'3'と入力します。販売価格に基づいて1.5%のブローカー手数料が発生する場合は、'1.5'と入力します。パーセンテージ記号「%」や通貨記号は付けずに数値のみを入力してください。",
-        "instructions": "販売価格に加えて、各販売ユニットに関連する追加のコストや手数料を入力してください。これは特定の現金額やパーセンテージレートである場合があります。この数値は、トランザクション手数料、コミッション、または販売されたユニットごとに発生するその他の費用を直接反映する必要があり、ユニットの基本価格は含めないでください。"
-      },
-      "selling_price": {
-        "example": "例えば、製品を30,050円で売却した場合、'30050'と入力します。",
-        "instructions": "資産の販売価格を入力してください。これは、取引手数料やサービス料などを除いた、単位あたりの総受け取り額を反映する必要があります。"
-      },
-      "slippage": {
-        "example": "現在 100 円で取引されている株式を市場価格で購入する注文を placed した場合、取引が 102 円で実行された場合、この 2 円の差は「スリッページ」と呼ばれます。この場合、パーセンテージとして 2 を入力する必要があります。",
-        "text": "取引の expected 価格と実際に取引が実行された価格の差を参照します。スリッページは、市場のボラティリティが高い期間や、大口の注文が実行されていて、要求された価格レベルで十分な取引量がない場合によく発生します。"
-      },
-      "starting_balance": {
-        "example": "最初に\u00241,000の金額で財務計算を開始する場合は、開始残高として1000を入力してください。",
-        "text": "期間の始まりにおけるアカウント内の利用可能な初期金額を表します。"
-      },
-      "stop_loss_price": {
-        "example": "50 円で株式を購入した後、45 円の損失を防ぐためにストップロス注文を設定する場合、45 を値として入力してください。",
-        "text": "損失を最小限に抑えるためにストップロス注文を設定する価格を指定してください。"
-      },
-      "tax_rate": {
-        "example": "例えば、すべての控除と免除の後、あなたのビジネスが25%の税率ブラケットにある場合、このフィールドに'25'と入力します。パーセンテージ記号「%」は付けずに数値のみを入力してください。",
-        "instructions": "あなたのビジネスまたは資産に適用される税率のパーセンテージを入力してください。このレートは、収入のレベル、ビジネスの種類、管轄区域など、さまざまな要因によって決まります。政府に支払われる収入の一部を表しています。適用可能なすべての控除および免除を考慮に入れた実効税率であることを確認してください。"
-      },
-      "tip_amount": {
-        "example": "請求額が\u002420で、\u00245のチップを残したい場合、金額として5を入力する必要があります。",
-        "text": "品質の高いサービスに感謝を示すために、請求額に追加される金額としてのチップを表します。"
-      },
-      "tip_rate": {
-        "example": "請求額が\u002450で、15%のチップを残したい場合、値として15を入力する必要があります。",
-        "text": "品質の高いサービスに感謝を示すために、総請求額のパーセンテージとして追加されるチップです。"
-      },
-      "vat_rate": {
-        "example": "製品の税抜き価格が\u002410で、適用されるVATの税率が20%の場合、税率の値として20を入力してください。",
-        "text": "製品やサービスに適用される付加価値税（VAT）の割合を参照します。"
-      },
-      "withdrawals_amount": {
-        "example": "アカウントから毎月\u0024200を引き出す予定の場合は、引き出し金額として200を入力してください。",
-        "text": "アカウントから定期的に引き出される金額を指定します。"
-      },
-      "withdrawals_frequency": {
-        "example": "アカウントから四半期ごとに引き出しを行う場合は、頻度として'四半期ごと'を入力してください。",
-        "text": "アカウントから引き出しが行われる頻度を指定します。"
-      }
-    },
-    "label": {
-      "account": {
-        "balance": "口座残高",
-        "currency": "口座の通貨",
-        "size": "口座のサイズ"
-      },
-      "additional": {
-        "contributions": "追加の貢献",
-        "metrics": "追加のメトリクス"
-      },
-      "additional_tax": {
-        "amount": "追加税額",
-        "rate": "追加税率",
-        "text": "追加税"
-      },
-      "after": {
-        "fee": {
-          "amount": "手数料後の金額",
-          "price": "手数料後の価格"
-        },
-        "vat": {
-          "amount": "VAT適用後の金額",
-          "price": "VAT適用後の価格"
-        }
-      },
-      "amount": {
-        "after_fee": "手数料後の金額",
-        "before_fee": "手数料前の金額",
-        "fee": "手数料の金額",
-        "text": "金額",
-        "type": "金額の種類"
-      },
-      "amount_at_risk": "リスク金額",
-      "annual_contribution": "年間の貢献",
-      "average_annual_return": "平均年間利回り",
-      "before": {
-        "fee": {
-          "amount": "手数料前の金額",
-          "price": "手数料前の価格"
-        },
-        "vat": {
-          "amount": "VAT前の金額",
-          "price": "VAT前の価格"
-        }
-      },
-      "bill": {
-        "amount": "請求額",
-        "breakdown": "請求内訳",
-        "rate": "請求率",
-        "text": "請求"
-      },
-      "break_even": {
-        "price": "損益分岐点の価格",
-        "units": "損益分岐点のユニット"
-      },
-      "breakdown": "内訳",
-      "buy": {
-        "commission": "購入手数料",
-        "costs": "購入費用",
-        "costs_per_unit": "単位あたりの購入費用",
-        "price": "購入価格",
-        "price_per_unit": "単位あたりの購入価格"
-      },
-      "cashflow": "キャッシュフロー",
-      "close_price": "終値",
-      "compound": {
-        "interest": "複利",
-        "text": "複合"
-      },
-      "compounding": {
-        "frequency": "複利の頻度",
-        "text": "複利"
-      },
-      "contribution_frequency": "貢献頻度",
-      "cost": {
-        "of": {
-          "goods": {
-            "sold": "売上原価"
-          },
-          "investment": "投資コスト"
-        }
-      },
-      "costs": "コスト",
-      "currencies": "通貨",
-      "currency": "通貨",
-      "deposits": "預金",
-      "discount": {
-        "amount": "割引額",
-        "label": "割引",
-        "per_unit": "単位あたりの割引",
-        "rate": "割引率"
-      },
-      "duration_years": "年単位の期間",
-      "earnings": "収益",
-      "effective_annual_rate": "実効年率",
-      "ending": {
-        "balance": "最終残高",
-        "principal": "最終元本"
-      },
-      "entry": {
-        "fees": {
-          "amount": "入場料の金額",
-          "text": "参加費"
-        },
-        "price": {
-          "at": "参加価格（現在）",
-          "text": "参加価格",
-          "with_slippage": "スリッページを考慮した参加価格"
-        },
-        "text": "エントリー"
-      },
-      "exit": {
-        "fees": {
-          "amount": "出口手数料の金額",
-          "text": "退出費"
-        },
-        "price": {
-          "at": "退出価格（現在）",
-          "text": "退出価格",
-          "with_slippage": "スリッページを考慮した退出価格"
-        }
-      },
-      "expected_sale_units": "予想販売ユニット",
-      "extension": "延長",
-      "fees": "手数料",
-      "fibonacci": {
-        "level": "フィボナッチレベル",
-        "levels": "フィボナッチレベル"
-      },
-      "financial_instrument": "金融商品",
-      "fixed_costs": "固定コスト",
-      "gain": "利益",
-      "gain_per_trade": "トレードごとの利益",
-      "grand_total": "総計",
-      "gross": {
-        "income": "総収入",
-        "margin": "総利益率",
-        "profit": {
-          "margin": "総利益率",
-          "text": "総利益"
-        }
-      },
-      "high_price": "最高価格",
-      "indices": "インデックス",
-      "initial_investment": "初期投資",
-      "interest_rate": "利率",
-      "involved_capital": "関与する資本",
-      "last": {
-        "earnings": "最終収益"
-      },
-      "last_updated_on": "最後に更新されたレート",
-      "leverage": "レバレッジ",
-      "loss": "損失",
-      "loss_per_trade": "トレードごとの損失",
-      "low_price": "最低価格",
-      "margin": "証拠金",
-      "net": {
-        "buy_price": "純購入価格",
-        "income": "純収入",
-        "profit": {
-          "after_fee": "手数料後の純利益",
-          "before_fee": "手数料前の純利益",
-          "margin": "純利益率",
-          "text": "純利益"
-        }
-      },
-      "number": {
-        "of_trades": "トレード数",
-        "plus_currency": "{number}以上の通貨"
-      },
-      "open_price": "始値",
-      "operating": {
-        "expenses": "運営費",
-        "income": "営業収入",
-        "margin": "営業マージン",
-        "profit": "営業利益"
-      },
-      "period": "期間",
-      "pivot_point": {
-        "camarilla": "キャマリラ",
-        "demark": "デマーク",
-        "fibonacci": "フィボナッチ",
-        "method": "ピボットポイントメソッド",
-        "standard": "スタンダード",
-        "text": "ピボットポイント",
-        "woodie": "ウッディ"
-      },
-      "pivot_points": "ピボットポイント",
-      "position": {
-        "amount": "ポジションの金額",
-        "long": "ロング",
-        "short": "ショート",
-        "size": "ポジションサイズ",
-        "text": "ポジション"
-      },
-      "price": {
-        "a": "価格A",
-        "b": "価格B",
-        "base": "ベース価格",
-        "breakdown": "価格の内訳",
-        "per_unit": "ユニットごとの価格",
-        "per_unit_after_fee": "手数料後の単価",
-        "per_unit_before_fee": "手数料前の単価",
-        "text": "価格"
-      },
-      "primary_currency": "主要通貨",
-      "profit": "利益",
-      "profit_and_loss": "利益と損失",
-      "profit_and_loss_overview": "損益の概要",
-      "profit_or_loss": "利益または損失",
-      "purchase": {
-        "commission": "購入手数料",
-        "costs": "購入コスト",
-        "costs_per_unit": "単位あたりの取得コスト",
-        "price": "購入価格",
-        "price_per_unit": "単位あたりの購入価格"
-      },
-      "rate": "レート",
-      "rate_of_return": {
-        "all_time": "全期間のリターン率",
-        "text": "リターン率"
-      },
-      "real_time_quotes": "リアルタイムの見積もり",
-      "regular_addition": "定期的な追加",
-      "required_margin": "必要な証拠金",
-      "resistance_level": "抵抗レベル{level}",
-      "resistances": "レジスタンス",
-      "retained_earnings": "剰余金",
-      "retracement": "リトレースメント",
-      "return_frequency": "リターン頻度",
-      "return_on_investment": "投資利益率",
-      "revenue": "収益",
-      "risk": {
-        "amount": "リスク額",
-        "effective": "有効リスク",
-        "in_percentage": "パーセンテージ表示のリスク",
-        "ratio": "リスク比率",
-        "reward": {
-          "ratio": "リスクリワード比率",
-          "text": "リスクリワード"
-        },
-        "text": "リスク",
-        "tolerated": "許容リスク",
-        "type": "リスクタイプ"
-      },
-      "sales": {
-        "commission": "セールスコミッション",
-        "costs": "セールスコスト",
-        "costs_per_unit": "ユニットごとのセールスコスト",
-        "price": "販売価格",
-        "price_per_unit": "ユニットごとの販売価格"
-      },
-      "secondary_currency": "副次通貨",
-      "sell": {
-        "commission": "販売手数料",
-        "costs": "販売経費",
-        "costs_per_unit": "単位あたりの販売経費",
-        "price": "販売価格",
-        "price_per_unit": "単位あたりの販売価格"
-      },
-      "selling_expenses": "販売費",
-      "selling_operating_expenses": "販売および運営費用",
-      "slippage": "スリッページ",
-      "starting": {
-        "balance": "初期残高",
-        "principal": "初期元本"
-      },
-      "stop_loss": {
-        "amount": "ストップロス金額",
-        "at": "ストップロス位置",
-        "in_percentage": {
-          "text": "パーセンテージでのストップロス",
-          "with_slippage": "スリッページ付きパーセンテージでのストップロス"
-        },
-        "price": {
-          "at": "ストップロス位置",
-          "text": "ストップロス",
-          "with_slippage": "スリッページ付きストップロス"
-        },
-        "text": "ストップロス",
-        "type": "ストップロスタイプ"
-      },
-      "stop_loss_take_profit": "ストップロス/利益確定",
-      "subtotal": "小計",
-      "support_level": "サポートレベル{level}",
-      "supports": "サポート",
-      "take_profit": {
-        "amount": "利益確定額",
-        "at": "利益確定",
-        "price": {
-          "after_fee": "手数料後の利益確定",
-          "at": "利益確定",
-          "text": "利益確定",
-          "with_slippage": "スリッページを考慮した利益確定"
-        },
-        "text": "利益確定",
-        "type": "利益確定タイプ"
-      },
-      "tax": {
-        "amount": "税金金額",
-        "exempt_amount_per_year": "年間非課税金額",
-        "rate": "税率"
-      },
-      "taxes": "税金",
-      "tip": {
-        "amount": "チップの金額",
-        "rate": "チップのレート",
-        "text": "チップ"
-      },
-      "total": {
-        "contributions": "総拠出金",
-        "costs": {
-          "losing_position": "敗北したポジションの総コスト",
-          "profit_position": "勝利したポジションの総コスト",
-          "text": "総コスト"
-        },
-        "deposits": "総預金",
-        "earnings": "総収益",
-        "expenses": "総支出",
-        "fee": "合計手数料",
-        "gain": "総利益",
-        "loss": "総損失",
-        "return": "総収益",
-        "revenue": "総収入",
-        "tax": "合計税金",
-        "text": "合計",
-        "withdrawals": "総引き出し"
-      },
-      "trade": {
-        "size": {
-          "oz": "トレードサイズ（オンス）",
-          "text": "トレードサイズ",
-          "units": "トレードサイズ（ユニット）"
-        }
-      },
-      "trend": {
-        "down": "下降ト",
-        "sideways": "横ばい",
-        "text": "トレンド",
-        "up": "上昇ト"
-      },
-      "user_currency": "ユーザーの通貨",
-      "vat": {
-        "amount": "VATの金額",
-        "rate": "VATのレート",
-        "text": "VAT"
-      },
-      "withdrawal": {
-        "amount": "出金額",
-        "frequency": "出金頻度",
-        "text": "出金"
-      },
-      "withdrawals": {
-        "amount": "出金額合計",
-        "frequency": "出金の頻度",
-        "text": "出金合計"
-      }
-    },
-    "message": {
-      "last_updated_on": "{date}に最後に更新されたレート"
-    },
-    "select": {
-      "account_currency": "口座の通貨を選択してください",
-      "compounding_frequency": "複利頻度を選択してください",
-      "contribution_frequency": "拠出頻度を選択してください",
-      "currency": "通貨を選択してください",
-      "interest_rate": "利率を選択してください",
-      "leverage": "レバレッジを選択してください",
-      "pivot_point_method": "ピボットポイント方法を選択してください",
-      "primary_currency": "主要通貨を選択してください",
-      "return_frequency": "リターン頻度を選択してください",
-      "risk_type": "リスクタイプを選択してください",
-      "secondary_currency": "副次通貨を選択してください",
-      "stop_loss_type": "ストップロスタイプを選択してください",
-      "take_profit_type": "利益確定タイプを選択してください",
-      "tax_rate": "税率を選択してください"
-    },
-    "warning": {
-      "risk_reward_ratio": "リスクリワード比率が2未満です。"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "finance": {
-    "disclaimer": {
-      "incorrect_results": "Falls Sie der Meinung sind, dass die Ergebnisse inkorrekt sind, kann es sein, dass bestimmte Parameter je nach Ihrem Broker und den von Ihnen verwendeten Finanzinstrumenten abweichen. Wenn erforderlich, können Sie diese Einstellungen im erweiterten Bereich anpassen.",
-      "intervening_markets": "Die Teilnahme am Finanzmarkt birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich aufgrund dieser Informationen.",
-      "invest_warning": "Bitte handeln oder investieren Sie nicht ausschließlich aufgrund dieser Informationen.",
-      "trading": "Finanzmärkte bergen erhebliche Risiken für Ihr Kapital. Die von dieser Anwendung bereitgestellten Informationen und Ergebnisse sind rein indikativ und sollten nicht als Ratschlag oder Empfehlung interpretiert werden. Stellen Sie sicher, dass Sie diese Ergebnisse überprüfen, da bestimmte Parameter je nach Ihrem Broker oder den von Ihnen verwendeten Finanzinstrumenten variieren können und die Anwendung daher ungenaue Informationen liefern könnte. {company} lehnt jede Verantwortung für durch diese Informationen oder Ergebnisse entstandene Verluste ab."
-    },
-    "error": {
-      "close_price_between_low_high_price": "Der Schlusskurs muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
-      "high_price_higher_low_price": "Der höchste Preis muss über dem niedrigsten Preis liegen.",
-      "open_price_between_low_high_price": "Der Eröffnungspreis muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
-      "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut.",
-      "quote_unavailable": "Abruf des Wechselkurses für {symbol} nicht möglich. Bitte versuchen Sie es später erneut."
-    },
-    "help": {
-      "account_balance": {
-        "example": "Wenn Sie 50.000 € für den Handel bereitgestellt haben, geben Sie 50.000 als Betrag ein.",
-        "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
-      },
-      "account_currency": {
-        "example": "Wenn Ihr Konto beispielsweise in den Vereinigten Staaten basiert ist, würden Sie 'USD' aus dem Dropdown-Menü auswählen.",
-        "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
-      },
-      "additional_contributions": {
-        "example": "Wenn Sie planen, monatlich 500 \u0024 auf Ihr Konto einzuzahlen, sollten Sie 500 als zusätzlichen Beitrag eingeben.",
-        "text": "Bezieht sich auf zusätzliche Geldbeträge, die in regelmäßigen Abständen auf Ihr Konto eingezahlt werden."
-      },
-      "additional_tax_rate": {
-        "example": "Wenn ein Produkt einer 20% MwSt. Unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
-        "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. Angewendet wird."
-      },
-      "amount_at_risk": {
-        "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
-        "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, und geben Sie ihn in Geldwert relativ zu Ihrem Kapital an."
-      },
-      "buying_expenses_per_unit": {
-        "example": "Wenn Ihnen beispielsweise eine feste Gebühr von 5 \u0024 pro gekaufter Einheit berechnet wird, geben Sie bitte '5' in dieses Feld ein. Andererseits sollten Sie bei einer Provision von 2 % pro gekaufter Einheit '2' eingeben. Bitte beachten Sie, dass Sie nur die Ratennummer ohne das '%' -Symbol oder den Festbetrag ohne Währungssymbol eingeben.",
-        "instructions": "Geben Sie entweder den zusätzlichen Ausgabensatz oder den festen Geldbetrag an, der für jede gekaufte Einheit anfällt, getrennt vom Kaufpreis. Wenn es sich um einen Satz handelt, geben Sie den als Gebühr, Provision oder zusätzliche Kosten pro Einheit berechneten Prozentsatz an. Wenn es sich um einen Festbetrag handelt, stellen Sie sicher, dass er die Kosten pro Einheit widerspiegelt, ohne den eigentlichen Basispreis des Vermögenswerts."
-      },
-      "buying_price": {
-        "example": "Wenn Sie beispielsweise ein Produkt für 150,25 \u0024 gekauft haben, sollten Sie '150,25' eingeben.",
-        "instructions": "Geben Sie den Preis ein, zu dem Sie ein Vermögenswert erworben haben. Dies ist die gesamten Anschaffungskosten pro Einheit, ausgenommen damit verbundene Gebühren wie Provisionen."
-      },
-      "compound_frequency": {
-        "example": "Wenn Zinsen vierteljährlich reinvestiert werden, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
-        "text": "Gibt die Häufigkeit an, mit der Zinsen reinvestiert werden."
-      },
-      "contribution_frequency": {
-        "example": "Wenn Sie vierteljährlich zu Ihrem Konto beitragen, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
-        "text": "Bezeichnet die Häufigkeit, mit der zusätzliche Beiträge auf Ihr Konto geleistet werden."
-      },
-      "discount_amount": {
-        "example": "Wenn ein Produkt ursprünglich für 100 \u0024 verkauft wird und Sie Anspruch auf einen Rabatt von 20 \u0024 haben, geben Sie bitte 20 als den Betrag ein.",
-        "text": "Stellt die Reduzierung des Geldwerts dar, die vom ursprünglichen Preis eines Produkts oder einer Dienstleistung abgezogen wird."
-      },
-      "discount_rate": {
-        "example": "Wenn der Startpreis eines Produkts 100 \u0024 beträgt und ein Rabatt von 20% angeboten wird, geben Sie bitte 20 als den Wert an.",
-        "text": "Stellt die prozentuale Reduzierung dar, die auf den ursprünglichen Tarif eines Produkts oder einer Dienstleistung angewendet wird."
-      },
-      "duration_in_years": {
-        "example": "Wenn die Berechnung für einen Zeitraum von 5 Jahren durchgeführt wird, sollten Sie 5 als Dauer eingeben.",
-        "text": "Stellt die Dauer dar, ausgedrückt in Jahren, über die die finanzielle Berechnung basiert."
-      },
-      "entry_fees": {
-        "example": "Wenn Ihr Broker bei der Eröffnung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
-        "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Eröffnung einer Position berechnet."
-      },
-      "entry_price": {
-        "example": "Wenn Sie planen, zum aktuellen Preis zu kaufen, geben Sie diesen Betrag an. Wenn der aktuelle Preis jedoch 50 € pro Aktie beträgt und Sie planen, zu 55 € pro Aktie zu kaufen, geben Sie 55 als Wert ein.",
-        "text": "Geben Sie den Preis an, zu dem Sie planen, den Markt zu betreten, sei es der aktuelle Preis oder ein erwarteter Preis."
-      },
-      "exit_fees": {
-        "example": "Wenn Ihr Broker bei der Schließung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
-        "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Schließung einer Position berechnet."
-      },
-      "expected_sale_units": {
-        "example": "Wenn Sie beispielsweise 150 Einheiten eines Produkts verkaufen möchten, geben Sie bitte '150' ein.",
-        "instructions": "Geben Sie die Anzahl der Einheiten an, die Sie verkaufen möchten. Diese Zahl sollte die Gesamtmenge der einzelnen Einheiten darstellen, die Sie verkaufen möchten, nicht den gesamten kumulierten Wert der Vermögenswerte."
-      },
-      "financial_instrument": {
-        "example": "Wenn Sie beispielsweise mit Indizes handeln, könnten Sie 'Indizes' aus dem Dropdown-Menü auswählen.",
-        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. Gehören."
-      },
-      "investment_annual_contribution": {
-        "example": "Zum Beispiel, wenn Sie planen, jährlich 10.000 \u0024 zu Ihrer Anlage beizutragen, geben Sie bitte '10.000' ein.",
-        "instructions": "Geben Sie den Betrag ein, den Sie jedes Jahr zu Ihrer Anlage beitragen möchten. Dies könnte in Form von Bareinzahlungen oder anderen Anlageformen sein."
-      },
-      "investment_tax_rate": {
-        "example": "Zum Beispiel, wenn Ihr anwendbarer Steuersatz 25% beträgt, geben Sie bitte '25' ein.",
-        "instructions": "Geben Sie den Steuersatz ein, der auf Ihre Kapitalerträge oder Kapitalgewinne anwendbar ist. Dies sollte als Prozentsatz ausgedrückt werden. Stellen Sie sicher, dass Sie den Satz verwenden, der Ihrer Steuerklasse entspricht oder dem spezifischen Steuersatz für die Art des Einkommens, das Sie melden."
-      },
-      "leverage": {
-        "example": "Zum Beispiel, wenn Sie mit 1 Dollar Ihres Kapitals zusätzliche 9 Dollar leihen, wählen Sie den '10:1' Hebel.",
-        "instructions": "Wählen Sie das Niveau des finanziellen Hebels für Ihren Handel aus."
-      },
-      "operating_expenses": {
-        "example": "Wenn Ihr Unternehmen beispielsweise 3.500 \u0024 für Miete, 2.500 \u0024 für Nebenkosten, 10.000 \u0024 für Löhne und 4.000 \u0024 für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
-        "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."
-      },
-      "position_size": {
-        "example": "Wenn Sie beispielsweise 100 Aktien eines Unternehmens handeln, geben Sie '100' ein. Wenn Sie mit Forex handeln und 500 Einheiten handeln, geben Sie '500' ein.",
-        "instructions": "Geben Sie die Menge des Finanzinstruments ein, das Sie halten oder handeln. Die Positionsgröße kann in Aktien, Losen, Verträgen oder einer anderen Einheit sein, je nach Vermögenswert. Sie können die Maßeinheit aus dem Dropdown-Menü neben dem Eingabefeld auswählen."
-      },
-      "price_after_vat": {
-        "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20 % unterliegt, wäre der Preis nach Mehrwertsteuer 12 \u0024. Geben Sie 12 als Wert ein.",
-        "text": "Bezieht sich auf den Gesamtpreis eines Produkts oder einer Dienstleistung nach Hinzufügung der Mehrwertsteuer (MwSt.). Dies ist der Einzelhandelspreis, den Verbraucher zahlen. Die MwSt. Ist eine Verbrauchssteuer, die in vielen Ländern auf den Verkauf von Waren und Dienstleistungen angewendet wird."
-      },
-      "price_before_vat": {
-        "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
-        "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. Ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
-      },
-      "rate_of_return": {
-        "example": "Wenn Sie eine Rendite von 2% pro Monat erwarten, sollten Sie 2 als Rendite eingeben.",
-        "text": "Symbolisiert die Rendite über einen definierten Zeitraum."
-      },
-      "rate_of_return_frequency": {
-        "example": "Wenn die Rendite monatlich verteilt wird, sollten Sie 'Monatlich' als Frequenz auswählen.",
-        "text": "Bezeichnet die Periodizität der Renditeverteilung."
-      },
-      "risk": {
-        "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
-        "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2 % Ihres Kapitals bei einer einzigen Transaktion zu riskieren."
-      },
-      "risk_reward_ratio": {
-        "example": "Wenn Sie 2 eingeben, bedeutet dies, dass Sie für jeden Dollar, den Sie riskieren, einen potenziellen Gewinn von 2 Dollar erwarten.",
-        "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und dem potenziellen Gewinn an, den Sie für diese Transaktion bereit sind, zu akzeptieren."
-      },
-      "selling_expenses_per_unit": {
-        "example": "Wenn beispielsweise feste Transaktionsgebühren von 3 \u0024 pro verkaufter Einheit anfallen, geben Sie bitte '3' in dieses Feld ein. Wenn es eine Maklerprovision von 1,5 % auf den Verkaufspreis pro Einheit gibt, sollten Sie '1.5' eingeben. Denken Sie daran, nur die Rate ohne das '%' -Symbol oder nur den Geldbetrag ohne Währungssymbole einzugeben.",
-        "instructions": "Geben Sie die zusätzlichen Kosten oder Gebühren an, die mit jeder verkauften Einheit verbunden sind, getrennt vom Verkaufspreis. Dies kann ein bestimmter Geldbetrag oder ein Prozentsatz sein. Diese Zahl sollte nur Kosten widerspiegeln, die direkt mit dem Verkaufsprozess jeder Einheit zusammenhängen, wie Transaktionsgebühren, Provisionen oder sonstige Verkaufsgebühren pro Einheit, und nicht den Basispreis der Einheit beinhalten."
-      },
-      "selling_price": {
-        "example": "Wenn Sie beispielsweise ein Produkt für 300,50 \u0024 verkauft haben, geben Sie bitte '300,50' ein.",
-        "instructions": "Geben Sie den Preis an, zu dem Sie einen Vermögenswert verkauft haben. Dieser Betrag sollte den Gesamterlös pro Einheit darstellen, ohne Transaktionsgebühren wie Provisionen oder Servicegebühren."
-      },
-      "slippage": {
-        "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
-        "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
-      },
-      "starting_balance": {
-        "example": "Wenn Sie Ihre finanziellen Berechnungen mit einem Anfangsbetrag von 1.000 \u0024 beginnen, sollten Sie 1000 als Anfangssaldo eingeben.",
-        "text": "Stellt den anfänglichen Geldbetrag dar, der zu Beginn eines Zeitraums auf Ihrem Konto verfügbar ist."
-      },
-      "stop_loss_price": {
-        "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
-        "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
-      },
-      "tax_rate": {
-        "example": "Wenn Ihr Unternehmen beispielsweise nach allen Abzügen und Freibeträgen in eine Steuerklasse von 25 % fällt, würden Sie '25' in dieses Feld eingeben. Bitte beachten Sie, dass Sie nur die Prozentzahl ohne das '%' -Symbol eingeben sollten.",
-        "instructions": "Geben Sie den geltenden Steuersatz als Prozentsatz ein, dem Ihr Geschäft oder Vermögenswert unterliegt. Dieser Satz wird durch verschiedene Faktoren bestimmt, darunter Ihre Einkommensklasse, Geschäftstyp und Gerichtsbarkeit. Es stellt den Teil Ihrer Einnahmen dar, der an die Regierung gezahlt wird. Stellen Sie sicher, dass dies der effektive Steuersatz ist, unter Berücksichtigung aller geltenden Abzüge und Freibeträge."
-      },
-      "tip_amount": {
-        "example": "Wenn Ihre Rechnung 20 \u0024 beträgt und Sie ein Trinkgeld von 5 \u0024 hinterlassen möchten, sollten Sie 5 als den Betrag eingeben.",
-        "text": "Stellt einen zusätzlichen Geldbetrag dar, der einer Rechnung als Trinkgeld hinzugefügt wird, um Wertschätzung für einen qualitativ hochwertigen Service zu zeigen."
-      },
-      "tip_rate": {
-        "example": "Wenn Ihre Rechnung 50 \u0024 beträgt und Sie ein Trinkgeld von 15% hinterlassen möchten, sollten Sie 15 als den Wert eingeben.",
-        "text": "Es ist ein Prozentsatz des Gesamtrechnungsbetrags, der als Trinkgeld hinzugefügt wird, um Wertschätzung für einen qualitativ hochwertigen Service zu zeigen."
-      },
-      "vat_rate": {
-        "example": "Wenn der Vorsteuerpreis eines Produkts 10 \u0024 beträgt und der angewandte Mehrwertsteuersatz 20% beträgt, geben Sie bitte 20 als den Satzwert ein.",
-        "text": "Bezieht sich auf den Prozentsatz der Mehrwertsteuer (MwSt.), der auf ein Produkt oder eine Dienstleistung angewendet wird."
-      },
-      "withdrawals_amount": {
-        "example": "Wenn Sie planen, monatlich 200 \u0024 von Ihrem Konto abzuheben, sollten Sie 200 als Abhebungsbetrag eingeben.",
-        "text": "Gibt den Betrag an, der regelmäßig von Ihrem Konto abgehoben wird."
-      },
-      "withdrawals_frequency": {
-        "example": "Wenn Sie vierteljährlich von Ihrem Konto abheben, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
-        "text": "Bezeichnet die Häufigkeit, mit der Abhebungen von Ihrem Konto vorgenommen werden."
-      }
-    },
-    "label": {
-      "account": {
-        "balance": "Kontostand",
-        "currency": "Kontowährung",
-        "size": "Kontogröße"
-      },
-      "additional": {
-        "contributions": "Zusätzliche Beiträge",
-        "metrics": "Zusätzliche metriken"
-      },
-      "additional_tax": {
-        "amount": "Zusätzlicher steuerbetrag",
-        "rate": "Zusätzlicher steuersatz",
-        "text": "Zusätzliche steuern"
-      },
-      "after": {
-        "fee": {
-          "amount": "Betrag nach gebühren",
-          "price": "Preis nach gebühren"
-        },
-        "vat": {
-          "amount": "Betrag nach MwSt",
-          "price": "Preis nach MwSt"
-        }
-      },
-      "amount": {
-        "after_fee": "Betrag nach gebühren",
-        "before_fee": "Betrag vor gebühren",
-        "fee": "Gebührenbetrag",
-        "text": "Betrag",
-        "type": "Betragstyp"
-      },
-      "amount_at_risk": "Risikobetrag",
-      "annual_contribution": "Jährlicher beitrag",
-      "average_annual_return": "Durchschnittliche jährliche rendite",
-      "before": {
-        "fee": {
-          "amount": "Betrag vor gebühren",
-          "price": "Preis vor gebühren"
-        },
-        "vat": {
-          "amount": "Betrag vor MwSt",
-          "price": "Preis vor MwSt"
-        }
-      },
-      "bill": {
-        "amount": "Rechnungsbetrag",
-        "breakdown": "Rechnungsaufschlüsselung",
-        "rate": "Rechnungssatz",
-        "text": "Rechnung"
-      },
-      "break_even": {
-        "price": "Break-even-preis",
-        "units": "Break-even-einheiten"
-      },
-      "breakdown": "Aufschlüsselung",
-      "buy": {
-        "commission": "Kaufprovision",
-        "costs": "Kaufkosten",
-        "costs_per_unit": "Kaufkosten pro einheit",
-        "price": "Kaufpreis",
-        "price_per_unit": "Kaufpreis pro einheit"
-      },
-      "cashflow": "Cashflow",
-      "close_price": "Schlusskurs",
-      "compound": {
-        "interest": "Zinseszins",
-        "text": "Zusammengesetzt"
-      },
-      "compounding": {
-        "frequency": "Häufigkeit der Zinseszinsbildung",
-        "text": "Zinseszins"
-      },
-      "contribution_frequency": "Häufigkeit der Beiträge",
-      "cost": {
-        "of": {
-          "goods": {
-            "sold": "Kosten der verkauften waren"
-          },
-          "investment": "Kosten der investition"
-        }
-      },
-      "costs": "Kosten",
-      "currencies": "Währungen",
-      "currency": "Währung",
-      "deposits": "Einlagen",
-      "discount": {
-        "amount": "Rabattbetrag",
-        "label": "Rabatt",
-        "per_unit": "Rabatt pro einheit",
-        "rate": "Rabattsatz"
-      },
-      "duration_years": "Dauer in jahren",
-      "earnings": "Einnahmen",
-      "effective_annual_rate": "Effektiver Jahreszins",
-      "ending": {
-        "balance": "Endguthaben",
-        "principal": "Endkapital"
-      },
-      "entry": {
-        "fees": {
-          "amount": "Eintrittsgebühr betrag",
-          "text": "Einstiegsgebühren"
-        },
-        "price": {
-          "at": "Einstiegspreis bei",
-          "text": "Einstiegspreis",
-          "with_slippage": "Einstiegspreis mit schlupf"
-        },
-        "text": "Einstieg"
-      },
-      "exit": {
-        "fees": {
-          "amount": "Ausstiegsgebühr betrag",
-          "text": "Ausstiegsgebühren"
-        },
-        "price": {
-          "at": "Ausstiegspreis bei",
-          "text": "Ausstiegspreis",
-          "with_slippage": "Ausstiegspreis mit schlupf"
-        }
-      },
-      "expected_sale_units": "Erwartete verkaufseinheiten",
-      "extension": "Erweiterung",
-      "fees": "Gebühren",
-      "fibonacci": {
-        "level": "Fibonacci-level",
-        "levels": "Fibonacci-levels"
-      },
-      "financial_instrument": "Finanzinstrument",
-      "fixed_costs": "Fixkosten",
-      "gain": "Gewinn",
-      "gain_per_trade": "Gewinn pro trade",
-      "grand_total": "Gesamtsumme",
-      "gross": {
-        "income": "Bruttoeinkommen",
-        "margin": "Bruttomarge",
-        "profit": {
-          "margin": "Bruttogewinnmarge",
-          "text": "Bruttogewinn"
-        }
-      },
-      "high_price": "Höchstpreis",
-      "indices": "Indizes",
-      "initial_investment": "Erstinvestition",
-      "interest_rate": "Zinssatz",
-      "involved_capital": "Investiertes kapital",
-      "last": {
-        "earnings": "Letzte Erträge"
-      },
-      "last_updated_on": "Kurse zuletzt aktualisiert am",
-      "leverage": "Hebelwirkung",
-      "loss": "Verlust",
-      "loss_per_trade": "Verlust pro trade",
-      "low_price": "Tiefstpreis",
-      "margin": "Marge",
-      "net": {
-        "buy_price": "Netto-kaufpreis",
-        "income": "Nettoeinkommen",
-        "profit": {
-          "after_fee": "Nettogewinn nach gebühren",
-          "before_fee": "Nettogewinn vor gebühren",
-          "margin": "Nettogewinnmarge",
-          "text": "Nettogewinn"
-        }
-      },
-      "number": {
-        "of_trades": "Anzahl der trades",
-        "plus_currency": "{number}+ währungen"
-      },
-      "open_price": "Eröffnungspreis",
-      "operating": {
-        "expenses": "Betriebsausgaben",
-        "income": "Betriebseinkommen",
-        "margin": "Betriebsmarge",
-        "profit": "Betriebsgewinn"
-      },
-      "period": "Zeitraum",
-      "pivot_point": {
-        "camarilla": "Camarilla",
-        "demark": "DeMark",
-        "fibonacci": "Fibonacci",
-        "method": "Pivot-punkt-methode",
-        "standard": "Standard",
-        "text": "Pivot-punkt",
-        "woodie": "Woodie"
-      },
-      "pivot_points": "Pivot-punkte",
-      "position": {
-        "amount": "Positionsgröße",
-        "long": "Long",
-        "short": "Short",
-        "size": "Positionsumfang",
-        "text": "Position"
-      },
-      "price": {
-        "a": "Preis A",
-        "b": "Preis B",
-        "base": "Grundpreis",
-        "breakdown": "Preisaufschlüsselung",
-        "per_unit": "Preis pro einheit",
-        "per_unit_after_fee": "Preis pro einheit nach gebühren",
-        "per_unit_before_fee": "Preis pro einheit vor gebühren",
-        "text": "Preis"
-      },
-      "primary_currency": "Hauptwährung",
-      "profit": "Gewinn",
-      "profit_and_loss": "Gewinn und verlust",
-      "profit_and_loss_overview": "Übersicht über gewinn und verlust",
-      "profit_or_loss": "Gewinn oder verlust",
-      "purchase": {
-        "commission": "Ankaufsprovision",
-        "costs": "Ankaufskosten",
-        "costs_per_unit": "Erwerbskosten pro einheit",
-        "price": "Ankaufspreis",
-        "price_per_unit": "Ankaufspreis pro einheit"
-      },
-      "rate": "Satz",
-      "rate_of_return": {
-        "all_time": "Rendite über die gesamte Laufzeit",
-        "text": "Rendite"
-      },
-      "real_time_quotes": "Echtzeitkurse",
-      "regular_addition": "Regelmäßige hinzufügung",
-      "required_margin": "Erforderliche marge",
-      "resistance_level": "Widerstand {level}",
-      "resistances": "Widerstände",
-      "retained_earnings": "Retained earnings",
-      "retracement": "Retracement",
-      "return_frequency": "Renditehäufigkeit",
-      "return_on_investment": "Return on investment",
-      "revenue": "Einnahmen",
-      "risk": {
-        "amount": "Risikobetrag",
-        "effective": "Effektives risiko",
-        "in_percentage": "Risiko in prozent",
-        "ratio": "Risikoverhältnis",
-        "reward": {
-          "ratio": "Risiko-rendite-verhältnis",
-          "text": "Risiko-rendite"
-        },
-        "text": "Risiko",
-        "tolerated": "Akzeptiertes risiko",
-        "type": "Risikoart"
-      },
-      "sales": {
-        "commission": "Vertriebsprovision",
-        "costs": "Vertriebskosten",
-        "costs_per_unit": "Vertriebskosten pro einheit",
-        "price": "Vertriebspreis",
-        "price_per_unit": "Vertriebspreis pro einheit"
-      },
-      "secondary_currency": "Sekundärwährung",
-      "sell": {
-        "commission": "Verkaufsprovision",
-        "costs": "Verkaufskosten",
-        "costs_per_unit": "Verkaufskosten pro einheit",
-        "price": "Verkaufspreis",
-        "price_per_unit": "Verkaufspreis pro einheit"
-      },
-      "selling_expenses": "Verkaufskosten",
-      "selling_operating_expenses": "Verkaufs- und betriebskosten",
-      "slippage": "Slippage",
-      "starting": {
-        "balance": "Anfangsguthaben",
-        "principal": "Anfangskapital"
-      },
-      "stop_loss": {
-        "amount": "Stop-loss-betrag",
-        "at": "Stop-loss bei",
-        "in_percentage": {
-          "text": "Stop-loss in prozent",
-          "with_slippage": "Stop-loss in prozent mit slippage"
-        },
-        "price": {
-          "at": "Stop-loss bei",
-          "text": "Stop-loss",
-          "with_slippage": "Stop-loss mit slippage"
-        },
-        "text": "Stop-loss",
-        "type": "Stop-Loss-Typ"
-      },
-      "stop_loss_take_profit": "Stop-Loss/Take-Profit",
-      "subtotal": "Zwischensumme",
-      "support_level": "Unterstützung {level}",
-      "supports": "Unterstützungen",
-      "take_profit": {
-        "amount": "Take profit betrag",
-        "at": "Take profit bei",
-        "price": {
-          "after_fee": "Gewinnmitnahme nach gebühren",
-          "at": "Take profit bei",
-          "text": "Take profit",
-          "with_slippage": "Take profit mit slippage"
-        },
-        "text": "Take profit",
-        "type": "Gewinnmitnahme-Typ"
-      },
-      "tax": {
-        "amount": "Steuerbetrag",
-        "exempt_amount_per_year": "Steuerfreibetrag pro jahr",
-        "rate": "Steuersatz"
-      },
-      "taxes": "Steuern",
-      "tip": {
-        "amount": "Trinkgeld betrag",
-        "rate": "Trinkgeldsatz",
-        "text": "Trinkgeld"
-      },
-      "total": {
-        "contributions": "Total contributions",
-        "costs": {
-          "losing_position": "Gesamtkosten für eine verlustposition",
-          "profit_position": "Gesamtkosten für eine gewinnposition",
-          "text": "Gesamtkosten"
-        },
-        "deposits": "Gesamteinlagen",
-        "earnings": "Gesamteinnahmen",
-        "expenses": "Gesamtausgaben",
-        "fee": "Gesamtgebühren",
-        "gain": "Gesamtgewinn",
-        "loss": "Gesamtverlust",
-        "return": "Gesamtrendite",
-        "revenue": "Gesamteinnahmen",
-        "tax": "Gesamtsteuern",
-        "text": "Gesamt",
-        "withdrawals": "Gesamtabhebungen"
-      },
-      "trade": {
-        "size": {
-          "oz": "Handelsgröße (unzen)",
-          "text": "Handelsgröße",
-          "units": "Handelsgröße (einheiten)"
-        }
-      },
-      "trend": {
-        "down": "Abwärts",
-        "sideways": "Seitwärts",
-        "text": "Trend",
-        "up": "Aufwärts"
-      },
-      "user_currency": "Benutzerwährung",
-      "vat": {
-        "amount": "MwSt betrag",
-        "rate": "MwSt satz",
-        "text": "MwSt"
-      },
-      "withdrawal": {
-        "amount": "Auszahlungsbetrag",
-        "frequency": "Auszahlungshäufigkeit",
-        "text": "Auszahlung"
-      },
-      "withdrawals": {
-        "amount": "Betrag der Auszahlungen",
-        "frequency": "Häufigkeit der Auszahlungen",
-        "text": "Auszahlungen"
-      }
-    },
-    "message": {
-      "last_updated_on": "Rates last updated on {date}"
-    },
-    "select": {
-      "account_currency": "Wählen Sie Ihre Kontowährung",
-      "compounding_frequency": "Wählen Sie eine Zinseszinsfrequenz",
-      "contribution_frequency": "Wählen Sie eine Beitragsfrequenz",
-      "currency": "Wählen Sie eine Währung",
-      "interest_rate": "Wählen Sie einen Zinssatz",
-      "leverage": "Wählen Sie eine Hebelwirkung",
-      "pivot_point_method": "Wählen Sie eine Pivot-Punkt-Methode",
-      "primary_currency": "Wählen Sie eine Hauptwährung",
-      "return_frequency": "Wählen Sie eine Renditefrequenz",
-      "risk_type": "Wählen Sie einen Risikotyp",
-      "secondary_currency": "Wählen Sie eine Sekundärwährung",
-      "stop_loss_type": "Wählen Sie eine Stop-Loss-Art",
-      "take_profit_type": "Wählen Sie eine Gewinnmitnahmestrategie",
-      "tax_rate": "Wählen Sie einen Steuersatz"
-    },
-    "warning": {
-      "risk_reward_ratio": "Das Risiko-Rendite-Verhältnis ist geringer als 2."
-    }
-  }
-};
-static const Map<String,dynamic> pt = {
+  static const Map<String,dynamic> pt = {
   "finance": {
     "disclaimer": {
       "incorrect_results": "Se você acredita que os resultados estão incorretos, é possível que certos parâmetros possam variar com base na corretora e nos instrumentos financeiros que você está utilizando. Se necessário, você pode ajustar essas configurações na seção avançada.",
@@ -1941,6 +275,11 @@ static const Map<String,dynamic> pt = {
         "label": "Desconto",
         "per_unit": "Desconto por unidade",
         "rate": "Taxa de desconto"
+      },
+      "duration": {
+        "double": {
+          "investment": "Duração para duplicar o investimento"
+        }
       },
       "duration_years": "Duração em anos",
       "earnings": "Ganhos",
@@ -2497,6 +836,11 @@ static const Map<String,dynamic> es = {
         "per_unit": "Descuento por unidad",
         "rate": "Tasa de descuento"
       },
+      "duration": {
+        "double": {
+          "investment": "Duración para duplicar la inversión"
+        }
+      },
       "duration_years": "Duración en años",
       "earnings": "Ganancias",
       "effective_annual_rate": "Tasa anual efectiva",
@@ -2787,6 +1131,566 @@ static const Map<String,dynamic> es = {
     }
   }
 };
+static const Map<String,dynamic> it = {
+  "finance": {
+    "disclaimer": {
+      "incorrect_results": "Se ritieni che i risultati siano errati, è possibile che alcuni parametri possano variare in base al tuo broker e agli strumenti finanziari che stai utilizzando. Se necessario, puoi regolare queste impostazioni nella sezione avanzata.",
+      "intervening_markets": "Partecipare ai mercati finanziari comporta rischi che possono portare a perdite finanziarie. Si prega di non prendere decisioni di trading o di investimento basate esclusivamente su queste informazioni.",
+      "invest_warning": "Si prega di non effettuare operazioni o investimenti basandosi unicamente su queste informazioni.",
+      "trading": "I mercati finanziari comportano rischi significativi per il tuo capitale. Le informazioni e i risultati forniti da questa applicazione sono puramente indicativi e non dovrebbero essere interpretati come consigli o raccomandazioni. Assicurati di verificare questi risultati, poiché alcuni parametri possono variare a seconda del tuo broker o degli strumenti finanziari che utilizzi, e l'applicazione potrebbe quindi generare informazioni inesatte. {company} declina ogni responsabilità per perdite subite da qualsiasi persona che agisca sulla base di queste informazioni o risultati."
+    },
+    "error": {
+      "close_price_between_low_high_price": "Il prezzo di chiusura deve essere compreso tra il prezzo più basso e il prezzo più alto.",
+      "high_price_higher_low_price": "Il prezzo più alto deve superare il prezzo più basso.",
+      "open_price_between_low_high_price": "Il prezzo di apertura deve essere compreso tra il prezzo più basso e il prezzo più alto.",
+      "quote_refresh": "La quotazione dello strumento finanziario selezionato non può essere aggiornata. Riprova più tardi.",
+      "quote_unavailable": "Impossibile recuperare il tasso di cambio di {symbol}. Si prega di riprovare più tardi."
+    },
+    "help": {
+      "account_balance": {
+        "example": "Se hai stanziato 50.000 € per il trading, inserisci 50.000 come importo.",
+        "text": "Indica il valore attuale del tuo capitale disponibile."
+      },
+      "account_currency": {
+        "example": "Ad esempio, se il tuo conto è basato negli Stati Uniti, selezioneresti 'USD' dal menu a tendina.",
+        "instructions": "Seleziona la valuta associata al tuo conto dalle opzioni del menu a tendina. Questa è la valuta in cui viene mantenuto il tuo saldo e vengono elaborate le transazioni."
+      },
+      "additional_contributions": {
+        "example": "Se prevedi di depositare \u0024500 mensilmente nel tuo account, dovresti inserire 500 come contributo aggiuntivo.",
+        "text": "Si riferisce a importi aggiuntivi di denaro depositati nel tuo account a intervalli regolari."
+      },
+      "additional_tax_rate": {
+        "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
+        "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
+      },
+      "amount_at_risk": {
+        "example": "Se hai un capitale di 50.000 € e prevedi di rischiare 1.000 €, inserisci 1.000 come importo.",
+        "text": "Indica l'importo che vuoi rischiare per questa transazione, esprimendolo in valore monetario relativo al tuo capitale."
+      },
+      "buying_expenses_per_unit": {
+        "example": "Ad esempio, se ti viene addebitata una tassa fissa di €5 per unità acquistata, inserisci '5' in questo campo. Se, d'altra parte, paghi una commissione del 2% per ogni unità acquistata, dovresti inserire '2'. Inserisci solo la tariffa senza il simbolo '%' o l'importo fisso senza il simbolo della valuta.",
+        "instructions": "Inserisci la tariffa delle spese aggiuntive o l'importo fisso sostenuto per ogni unità acquistata, separato dal prezzo di acquisto. Se è una tariffa, specifica la percentuale addebitata come commissione, tassa o costi aggiuntivi per unità. Se è un importo fisso, assicurati che rifletta i costi per unità, escludendo il prezzo base dell'attivo stesso."
+      },
+      "buying_price": {
+        "example": "Ad esempio, se hai acquistato un prodotto per €150,25, dovresti inserire '150,25'.",
+        "instructions": "Inserisci il prezzo di acquisto dell'attivo. Questo è il costo totale per unità, esclusi oneri aggiuntivi come commissioni."
+      },
+      "compound_frequency": {
+        "example": "Se gli interessi sono reinvestiti trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Indica la frequenza con cui gli interessi vengono reinvestiti."
+      },
+      "contribution_frequency": {
+        "example": "Se contribuisci al tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Designa la frequenza con cui vengono effettuate contribuzioni aggiuntive al tuo account."
+      },
+      "discount_amount": {
+        "example": "Se un prodotto è originariamente venduto per \u0024100 e hai diritto a uno sconto di \u002420, inserisci 20 come importo.",
+        "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
+      },
+      "discount_rate": {
+        "example": "Se il prezzo iniziale di un prodotto è \u0024100 e viene offerto uno sconto del 20%, indica 20 come valore.",
+        "text": "Rappresenta la percentuale di riduzione applicata al prezzo iniziale di un prodotto o servizio."
+      },
+      "duration_in_years": {
+        "example": "Se il calcolo è fatto per un periodo di 5 anni, dovresti inserire 5 come durata.",
+        "text": "Rappresenta la durata, espressa in anni, su cui si basa il calcolo finanziario."
+      },
+      "entry_fees": {
+        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
+        "text": "Indica la percentuale della commissione che il tuo broker addebita all'apertura di una posizione."
+      },
+      "entry_price": {
+        "example": "Se prevedi di acquistare al prezzo corrente, indica questo importo. Tuttavia, se il prezzo corrente è di 50 € per azione e prevedi di acquistare a 55 € per azione, inserisci 55 come valore.",
+        "text": "Indica il prezzo al quale prevedi di entrare nel mercato, che si tratti del prezzo corrente o di uno previsto."
+      },
+      "exit_fees": {
+        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
+        "text": "Indica la percentuale della commissione che il tuo broker addebita alla chiusura di una posizione."
+      },
+      "expected_sale_units": {
+        "example": "Ad esempio, se prevedi di vendere 150 unità di un prodotto, inserisci '150'.",
+        "instructions": "Inserisci il numero di unità che prevedi di vendere. Questo numero dovrebbe rappresentare il totale delle singole unità che pianifichi di vendere, non il valore totale degli attivi."
+      },
+      "financial_instrument": {
+        "example": "Ad esempio, se fai trading sugli indici, potresti selezionare 'Indici' dal menu a tendina.",
+        "instructions": "Scegli il tipo di strumento finanziario con cui operi dalle opzioni del menu a tendina. Gli strumenti finanziari sono attivi che possono essere scambiati o utilizzati per scopi di investimento. Questi possono includere azioni, obbligazioni, derivati, valute, ecc."
+      },
+      "investment_annual_contribution": {
+        "example": "Ad esempio, se prevedi di contribuire annualmente \u002410,000 al tuo investimento, inserisci '10,000'.",
+        "instructions": "Inserisci l'importo che intendi contribuire ogni anno al tuo investimento. Questo potrebbe essere sotto forma di depositi in contanti o altre forme di investimento."
+      },
+      "investment_tax_rate": {
+        "example": "Ad esempio, se la tua aliquota fiscale applicabile è del 25%, inserisci '25'.",
+        "instructions": "Inserisci l'aliquota fiscale che si applica ai tuoi redditi di investimento o plusvalenze. Questo dovrebbe essere espresso in percentuale. Assicurati di utilizzare l'aliquota corrispondente al tuo scaglione fiscale o l'aliquota specifica per il tipo di reddito che stai dichiarando."
+      },
+      "leverage": {
+        "example": "Ad esempio, se con 1 dollaro del tuo capitale, prendi in prestito altri 9 dollari, scegli la leva '10:1'.",
+        "instructions": "Seleziona il livello di leva finanziaria per il tuo commercio."
+      },
+      "operating_expenses": {
+        "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
+        "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
+      },
+      "position_size": {
+        "example": "Ad esempio, se stai negoziando 100 azioni di un'azienda, inseriresti '100'. Se stai operando con il forex e scambiando 500 unità, inseriresti '500'.",
+        "instructions": "Inserisci la quantità dello strumento finanziario che stai mantenendo o negoziando. La dimensione della posizione potrebbe essere in azioni, lotti, contratti o un'altra unità, a seconda dell'attivo. Puoi selezionare l'unità di misura dal menu a tendina accanto al campo di inserimento."
+      },
+      "price_after_vat": {
+        "example": "Se un prodotto costa \u002410 prima delle tasse ed è soggetto a una tariffa IVA del 20%, il prezzo dopo l'IVA sarebbe di \u002412, inserire 12 come valore.",
+        "text": "Si riferisce al prezzo totale di un prodotto o servizio dopo l'aggiunta dell'imposta sul valore aggiunto (IVA). Questo è il prezzo al dettaglio che i consumatori pagano. L'IVA è un'imposta sul consumo che viene applicata alla vendita di beni e servizi in molti paesi."
+      },
+      "price_before_vat": {
+        "example": "Se un prodotto costa \u002410 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
+        "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
+      },
+      "rate_of_return": {
+        "example": "Se prevedi un ritorno del 2% al mese, dovresti inserire 2 come tasso di rendimento.",
+        "text": "Simboleggia il tasso di rendimento su un periodo definito."
+      },
+      "rate_of_return_frequency": {
+        "example": "Nei casi in cui il tasso di rendimento è distribuito mensilmente, dovresti selezionare 'Mensile' come frequenza.",
+        "text": "Designa la periodicità della distribuzione del tasso di rendimento."
+      },
+      "risk": {
+        "example": "Se sei disposto a rischiare 1.000 €, che equivale al 2% del tuo capitale di 50.000 €, inserisci 2 come valore.",
+        "text": "Indica la percentuale del tuo capitale che sei disposto a rischiare per questa transazione. Si consiglia di non rischiare più del 2% del proprio capitale in una singola transazione."
+      },
+      "risk_reward_ratio": {
+        "example": "Se inserisci 2, significa che per ogni euro che rischi, speri in un potenziale guadagno di 2 euro.",
+        "text": "Indica il rapporto tra l'importo del rischio e il possibile guadagno che sei disposto ad accettare per questa transazione."
+      },
+      "selling_expenses_per_unit": {
+        "example": "Ad esempio, se ci sono tariffe di transazione fisse di €3 per unità venduta, inserisci '3' in questo campo. Se c'è una commissione di intermediazione dell'1,5% sul prezzo di vendita per unità, dovresti inserire '1.5'. Ricorda di inserire solo la tariffa senza il simbolo '%' o l'importo in denaro senza simboli della valuta.",
+        "instructions": "Inserisci i costi aggiuntivi o le tariffe associate a ogni unità venduta, oltre al prezzo di vendita. Questo potrebbe essere un importo specifico di denaro o una tariffa percentuale. Questo numero dovrebbe riflettere solo i costi associati direttamente con il processo di vendita di ogni unità, come tariffe di transazione, commissioni o altri oneri per unità venduta, e non dovrebbe includere il prezzo base dell'unità."
+      },
+      "selling_price": {
+        "example": "Ad esempio, se hai venduto un prodotto per €300,50, inserisci '300,50'.",
+        "instructions": "Inserisci il prezzo di vendita dell'attivo. Questo dovrebbe riflettere l'importo totale ricevuto per unità, escludendo le spese di transazione come commissioni o tariffe di servizio."
+      },
+      "slippage": {
+        "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
+        "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
+      },
+      "starting_balance": {
+        "example": "Se inizi i tuoi calcoli finanziari con un importo iniziale di \u00241.000, dovresti inserire 1000 come saldo iniziale.",
+        "text": "Rappresenta l'importo iniziale di denaro disponibile nel tuo account all'inizio di un periodo."
+      },
+      "stop_loss_price": {
+        "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
+        "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
+      },
+      "tax_rate": {
+        "example": "Ad esempio, se il tuo business rientra in una fascia fiscale del 25% dopo tutte le deduzioni ed esenzioni, dovresti inserire '25' in questo campo. Nota che dovresti inserire solo il numero percentuale senza il simbolo '%'.",
+        "instructions": "Inserisci l'aliquota fiscale applicabile in percentuale a cui è soggetto il tuo business o attivo. Questa tariffa è determinata da vari fattori, incluso il tuo livello di reddito, il tipo di business e la giurisdizione. Rappresenta la parte dei tuoi redditi che viene pagata al governo. Assicurati che questa sia l'aliquota effettiva, tenendo conto di tutte le deduzioni e esenzioni applicabili."
+      },
+      "tip_amount": {
+        "example": "Se il tuo conto è di \u002420 e desideri lasciare una mancia di \u00245, dovresti inserire 5 come importo.",
+        "text": "Rappresenta un importo aggiuntivo di denaro, aggiunto a un conto come mancia, per mostrare apprezzamento per un servizio di qualità."
+      },
+      "tip_rate": {
+        "example": "Se il tuo conto è di \u002450 e desideri lasciare una mancia del 15%, dovresti inserire 15 come valore.",
+        "text": "È una percentuale dell'importo totale del conto, aggiunta come mancia, per mostrare apprezzamento per un servizio di qualità."
+      },
+      "vat_rate": {
+        "example": "Se il prezzo pre-tassa di un prodotto è \u002410 e l'aliquota IVA applicata è del 20%, inserisci 20 come valore dell'aliquota.",
+        "text": "Si riferisce alla percentuale dell'imposta sul valore aggiunto (IVA) applicata a un prodotto o servizio."
+      },
+      "withdrawals_amount": {
+        "example": "Se prevedi di prelevare \u0024200 mensilmente dal tuo account, dovresti inserire 200 come importo del prelievo.",
+        "text": "Specifica l'importo da prelevare periodicamente dal tuo account."
+      },
+      "withdrawals_frequency": {
+        "example": "Se effettui un prelievo dal tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
+        "text": "Designa la frequenza con cui vengono effettuati prelievi dal tuo account."
+      }
+    },
+    "label": {
+      "account": {
+        "balance": "Saldo conto",
+        "currency": "Valuta del conto",
+        "size": "Dimensione conto"
+      },
+      "additional": {
+        "contributions": "Contributi aggiuntivi",
+        "metrics": "Metriche aggiuntive"
+      },
+      "additional_tax": {
+        "amount": "Importo di tasse aggiuntive",
+        "rate": "Aliquota di tasse aggiuntive",
+        "text": "Tasse aggiuntive"
+      },
+      "after": {
+        "fee": {
+          "amount": "Importo dopo le commissioni",
+          "price": "Prezzo dopo le commissioni"
+        },
+        "vat": {
+          "amount": "Importo dopo l'IVA",
+          "price": "Prezzo dopo l'IVA"
+        }
+      },
+      "amount": {
+        "after_fee": "Importo dopo le commissioni",
+        "before_fee": "Importo prima delle commissioni",
+        "fee": "Importo delle commissioni",
+        "text": "Importo",
+        "type": "Tipo di importo"
+      },
+      "amount_at_risk": "Importo a rischio",
+      "annual_contribution": "Contributo annuale",
+      "average_annual_return": "Rendimento annuale medio",
+      "before": {
+        "fee": {
+          "amount": "Importo prima delle commissioni",
+          "price": "Prezzo prima delle commissioni"
+        },
+        "vat": {
+          "amount": "Importo prima dell'IVA",
+          "price": "Prezzo prima dell'IVA"
+        }
+      },
+      "bill": {
+        "amount": "Importo fattura",
+        "breakdown": "Dettaglio fattura",
+        "rate": "Tasso fattura",
+        "text": "Fattura"
+      },
+      "break_even": {
+        "price": "Prezzo di pareggio",
+        "units": "Unità di pareggio"
+      },
+      "breakdown": "Ripartizione",
+      "buy": {
+        "commission": "Commissione d'acquisto",
+        "costs": "Spese di acquisto",
+        "costs_per_unit": "Spese di acquisto per unità",
+        "price": "Prezzo d'acquisto",
+        "price_per_unit": "Prezzo d'acquisto per unità"
+      },
+      "cashflow": "Flusso di cassa",
+      "close_price": "Prezzo di chiusura",
+      "compound": {
+        "interest": "Interesse composto",
+        "text": "Composto"
+      },
+      "compounding": {
+        "frequency": "Frequenza di capitalizzazione",
+        "text": "Capitalizzazione"
+      },
+      "contribution_frequency": "Frequenza dei contributi",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Costo dei beni venduti"
+          },
+          "investment": "Costo dell'investimento"
+        }
+      },
+      "costs": "Costi",
+      "currencies": "Valute",
+      "currency": "Valuta",
+      "deposits": "Depositi",
+      "discount": {
+        "amount": "Importo dello sconto",
+        "label": "Sconto",
+        "per_unit": "Sconto per unità",
+        "rate": "Tasso di sconto"
+      },
+      "duration": {
+        "double": {
+          "investment": "Durata per raddoppiare l'investimento"
+        }
+      },
+      "duration_years": "Durata in anni",
+      "earnings": "Guadagni",
+      "effective_annual_rate": "Tasso annuo effettivo",
+      "ending": {
+        "balance": "Saldo finale",
+        "principal": "Capitale finale"
+      },
+      "entry": {
+        "fees": {
+          "amount": "Importo della tariffa d'ingresso",
+          "text": "Commissioni di ingresso"
+        },
+        "price": {
+          "at": "Prezzo di ingresso a",
+          "text": "Prezzo di ingresso",
+          "with_slippage": "Prezzo di ingresso con slippage"
+        },
+        "text": "Ingresso"
+      },
+      "exit": {
+        "fees": {
+          "amount": "Importo della tassa di uscita",
+          "text": "Commissioni di uscita"
+        },
+        "price": {
+          "at": "Prezzo di uscita a",
+          "text": "Prezzo di uscita",
+          "with_slippage": "Prezzo di uscita con slippage"
+        }
+      },
+      "expected_sale_units": "Unità di vendita previste",
+      "extension": "Estensione",
+      "fees": "Commissioni",
+      "fibonacci": {
+        "level": "Livello di fibonacci",
+        "levels": "Livelli di fibonacci"
+      },
+      "financial_instrument": "Strumento finanziario",
+      "fixed_costs": "Costi fissi",
+      "gain": "Guadagno",
+      "gain_per_trade": "Guadagno per operazione",
+      "grand_total": "Totale generale",
+      "gross": {
+        "income": "Reddito lordo",
+        "margin": "Margine lordo",
+        "profit": {
+          "margin": "Margine di utile lordo",
+          "text": "Utile lordo"
+        }
+      },
+      "high_price": "Prezzo più alto",
+      "indices": "Indici",
+      "initial_investment": "Investimento iniziale",
+      "interest_rate": "Tasso di interesse",
+      "involved_capital": "Capitale coinvolto",
+      "last": {
+        "earnings": "Ultimi guadagni"
+      },
+      "last_updated_on": "Tassi aggiornati l'ultima volta il",
+      "leverage": "Leverage",
+      "loss": "Perdita",
+      "loss_per_trade": "Perdita per operazione",
+      "low_price": "Prezzo più basso",
+      "margin": "Margine",
+      "net": {
+        "buy_price": "Prezzo di acquisto netto",
+        "income": "Reddito netto",
+        "profit": {
+          "after_fee": "Utile netto dopo le commissioni",
+          "before_fee": "Utile netto prima delle commissioni",
+          "margin": "Margine di utile netto",
+          "text": "Utile netto"
+        }
+      },
+      "number": {
+        "of_trades": "Numero di operazioni",
+        "plus_currency": "{number}+ valute"
+      },
+      "open_price": "Prezzo di apertura",
+      "operating": {
+        "expenses": "Spese operative",
+        "income": "Reddito operativo",
+        "margin": "Margine operativo",
+        "profit": "Profitto operativo"
+      },
+      "period": "Periodo",
+      "pivot_point": {
+        "camarilla": "Camarilla",
+        "demark": "DeMark",
+        "fibonacci": "Fibonacci",
+        "method": "Metodo del punto pivot",
+        "standard": "Standard",
+        "text": "Punto pivot",
+        "woodie": "Woodie"
+      },
+      "pivot_points": "Punti pivot",
+      "position": {
+        "amount": "Importo della posizione",
+        "long": "Lungo",
+        "short": "Corto",
+        "size": "Dimensione posizione",
+        "text": "Posizione"
+      },
+      "price": {
+        "a": "Prezzo A",
+        "b": "Prezzo B",
+        "base": "Prezzo di base",
+        "breakdown": "Scomposizione del prezzo",
+        "per_unit": "Prezzo per unità",
+        "per_unit_after_fee": "Prezzo per unità dopo le commissioni",
+        "per_unit_before_fee": "Prezzo per unità prima delle commissioni",
+        "text": "Prezzo"
+      },
+      "primary_currency": "Valuta principale",
+      "profit": "Profitto",
+      "profit_and_loss": "Profitto e perdita",
+      "profit_and_loss_overview": "Panoramica dei profitti e delle perdite",
+      "profit_or_loss": "Profitto o perdita",
+      "purchase": {
+        "commission": "Commissione d'acquisizione",
+        "costs": "Costi d'acquisizione",
+        "costs_per_unit": "Costi di acquisizione per unità",
+        "price": "Prezzo d'acquisizione",
+        "price_per_unit": "Prezzo d'acquisizione per unità"
+      },
+      "rate": "Tasso",
+      "rate_of_return": {
+        "all_time": "Tasso di rendimento complessivo",
+        "text": "Tasso di rendimento"
+      },
+      "real_time_quotes": "Quotazioni in tempo reale",
+      "regular_addition": "Aggiunta regolare",
+      "required_margin": "Margine richiesto",
+      "resistance_level": "Livello di resistenza {level}",
+      "resistances": "Resistenze",
+      "retained_earnings": "Utili non distribuiti",
+      "retracement": "Ritracimento",
+      "return_frequency": "Frequenza di rendimento",
+      "return_on_investment": "Rendimento dell'investimento",
+      "revenue": "Entrate",
+      "risk": {
+        "amount": "Importo a rischio",
+        "effective": "Rischio effettivo",
+        "in_percentage": "Rischio in percentuale",
+        "ratio": "Rapporto di rischio",
+        "reward": {
+          "ratio": "Rapporto rischio-rendimento",
+          "text": "Rischio-rendimento"
+        },
+        "text": "Rischio",
+        "tolerated": "Rischio tollerato",
+        "type": "Tipo di rischio"
+      },
+      "sales": {
+        "commission": "Commissione sulle vendite",
+        "costs": "Costi di vendita",
+        "costs_per_unit": "Costi di vendita per unità",
+        "price": "Prezzo di vendita",
+        "price_per_unit": "Prezzo di vendita per unità"
+      },
+      "secondary_currency": "Valuta secondaria",
+      "sell": {
+        "commission": "Commissione di vendita",
+        "costs": "Spese di vendita",
+        "costs_per_unit": "Spese di vendita per unità",
+        "price": "Prezzo di vendita",
+        "price_per_unit": "Prezzo di vendita per unità"
+      },
+      "selling_expenses": "Spese di vendita",
+      "selling_operating_expenses": "Spese di vendita e operative",
+      "slippage": "Slippage",
+      "starting": {
+        "balance": "Saldo iniziale",
+        "principal": "Capitale iniziale"
+      },
+      "stop_loss": {
+        "amount": "Importo stop loss",
+        "at": "Stop loss a",
+        "in_percentage": {
+          "text": "Stop loss in percentuale",
+          "with_slippage": "Stop loss in percentuale con slippage"
+        },
+        "price": {
+          "at": "Stop loss a",
+          "text": "Stop loss",
+          "with_slippage": "Stop loss con slippage"
+        },
+        "text": "Stop loss",
+        "type": "Tipo di stop loss"
+      },
+      "stop_loss_take_profit": "Stop Loss/Take Profit",
+      "subtotal": "Subtotale",
+      "support_level": "Livello di supporto {level}",
+      "supports": "Supporti",
+      "take_profit": {
+        "amount": "Importo del take profit",
+        "at": "Take profit a",
+        "price": {
+          "after_fee": "Presa di profitto dopo le commissioni",
+          "at": "Take profit a",
+          "text": "Take profit",
+          "with_slippage": "Take profit con slippage"
+        },
+        "text": "Take profit",
+        "type": "Tipo di presa di profitto"
+      },
+      "tax": {
+        "amount": "Importo delle tasse",
+        "exempt_amount_per_year": "Importo esentasse annuo",
+        "rate": "Aliquota fiscale"
+      },
+      "taxes": "Tasse",
+      "tip": {
+        "amount": "Importo della mancia",
+        "rate": "Tasso della mancia",
+        "text": "Mancia"
+      },
+      "total": {
+        "contributions": "Contributi totali",
+        "costs": {
+          "losing_position": "Costi totali per una posizione perdente",
+          "profit_position": "Costi totali per una posizione vincente",
+          "text": "Costi totali"
+        },
+        "deposits": "Depositi totali",
+        "earnings": "Guadagni totali",
+        "expenses": "Spese totali",
+        "fee": "Tariffe totali",
+        "gain": "Guadagno totale",
+        "loss": "Perdita totale",
+        "return": "Rendimento totale",
+        "revenue": "Ricavo totale",
+        "tax": "Tasse totali",
+        "text": "Totale",
+        "withdrawals": "Prelievi totali"
+      },
+      "trade": {
+        "size": {
+          "oz": "Dimensione del trade (oz)",
+          "text": "Dimensione del trade",
+          "units": "Dimensione del trade (unità)"
+        }
+      },
+      "trend": {
+        "down": "Negativo",
+        "sideways": "Laterale",
+        "text": "Tendenza",
+        "up": "Positivo"
+      },
+      "user_currency": "Valuta utente",
+      "vat": {
+        "amount": "Importo dell'IVA",
+        "rate": "Tasso dell'IVA",
+        "text": "IVA"
+      },
+      "withdrawal": {
+        "amount": "Importo del prelievo",
+        "frequency": "Frequenza di prelievo",
+        "text": "Prelievo"
+      },
+      "withdrawals": {
+        "amount": "Importo dei prelievi",
+        "frequency": "Frequenza dei prelievi",
+        "text": "Prelievi"
+      }
+    },
+    "message": {
+      "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"
+    },
+    "select": {
+      "account_currency": "Seleziona la valuta del tuo conto",
+      "compounding_frequency": "Seleziona una frequenza di capitalizzazione",
+      "contribution_frequency": "Seleziona una frequenza di contributo",
+      "currency": "Seleziona una valuta",
+      "interest_rate": "Seleziona un tasso di interesse",
+      "leverage": "Seleziona un leverage",
+      "pivot_point_method": "Seleziona un metodo di punto pivot",
+      "primary_currency": "Seleziona una valuta principale",
+      "return_frequency": "Seleziona una frequenza di rendimento",
+      "risk_type": "Seleziona un tipo di rischio",
+      "secondary_currency": "Seleziona una valuta secondaria",
+      "stop_loss_type": "Seleziona un tipo di stop loss",
+      "take_profit_type": "Seleziona un tipo di presa di profitto",
+      "tax_rate": "Seleziona una aliquota fiscale"
+    },
+    "warning": {
+      "risk_reward_ratio": "Il rapporto rischio-rendimento è inferiore a 2."
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "finance": {
     "disclaimer": {
@@ -3051,6 +1955,11 @@ static const Map<String,dynamic> fr = {
         "label": "Remise",
         "per_unit": "Remise par unité",
         "rate": "Taux de remise"
+      },
+      "duration": {
+        "double": {
+          "investment": "Durée pour doubler l'investissement"
+        }
       },
       "duration_years": "Durée en années",
       "earnings": "Revenus",
@@ -3342,6 +2251,1126 @@ static const Map<String,dynamic> fr = {
     }
   }
 };
+static const Map<String,dynamic> de = {
+  "finance": {
+    "disclaimer": {
+      "incorrect_results": "Falls Sie der Meinung sind, dass die Ergebnisse inkorrekt sind, kann es sein, dass bestimmte Parameter je nach Ihrem Broker und den von Ihnen verwendeten Finanzinstrumenten abweichen. Wenn erforderlich, können Sie diese Einstellungen im erweiterten Bereich anpassen.",
+      "intervening_markets": "Die Teilnahme am Finanzmarkt birgt Risiken, die zu finanziellen Verlusten führen können. Bitte treffen Sie keine Handels- oder Anlageentscheidungen ausschließlich aufgrund dieser Informationen.",
+      "invest_warning": "Bitte handeln oder investieren Sie nicht ausschließlich aufgrund dieser Informationen.",
+      "trading": "Finanzmärkte bergen erhebliche Risiken für Ihr Kapital. Die von dieser Anwendung bereitgestellten Informationen und Ergebnisse sind rein indikativ und sollten nicht als Ratschlag oder Empfehlung interpretiert werden. Stellen Sie sicher, dass Sie diese Ergebnisse überprüfen, da bestimmte Parameter je nach Ihrem Broker oder den von Ihnen verwendeten Finanzinstrumenten variieren können und die Anwendung daher ungenaue Informationen liefern könnte. {company} lehnt jede Verantwortung für durch diese Informationen oder Ergebnisse entstandene Verluste ab."
+    },
+    "error": {
+      "close_price_between_low_high_price": "Der Schlusskurs muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
+      "high_price_higher_low_price": "Der höchste Preis muss über dem niedrigsten Preis liegen.",
+      "open_price_between_low_high_price": "Der Eröffnungspreis muss zwischen dem niedrigsten und dem höchsten Preis liegen.",
+      "quote_refresh": "Das Angebot für das ausgewählte Finanzinstrument kann nicht aktualisiert werden. Bitte versuchen Sie es später erneut.",
+      "quote_unavailable": "Abruf des Wechselkurses für {symbol} nicht möglich. Bitte versuchen Sie es später erneut."
+    },
+    "help": {
+      "account_balance": {
+        "example": "Wenn Sie 50.000 € für den Handel bereitgestellt haben, geben Sie 50.000 als Betrag ein.",
+        "text": "Geben Sie den aktuellen Wert Ihres verfügbaren Kapitals an."
+      },
+      "account_currency": {
+        "example": "Wenn Ihr Konto beispielsweise in den Vereinigten Staaten basiert ist, würden Sie 'USD' aus dem Dropdown-Menü auswählen.",
+        "instructions": "Wählen Sie die mit Ihrem Konto verbundene Währung aus den Optionen des Dropdown-Menüs. Dies ist die Währung, in der Ihr Saldo geführt und Transaktionen verarbeitet werden."
+      },
+      "additional_contributions": {
+        "example": "Wenn Sie planen, monatlich 500 \u0024 auf Ihr Konto einzuzahlen, sollten Sie 500 als zusätzlichen Beitrag eingeben.",
+        "text": "Bezieht sich auf zusätzliche Geldbeträge, die in regelmäßigen Abständen auf Ihr Konto eingezahlt werden."
+      },
+      "additional_tax_rate": {
+        "example": "Wenn ein Produkt einer 20% MwSt. Unterliegt und eine zusätzliche spezifische oder lokale Steuer von 2% hinzugefügt wird, geben Sie 2 als den Wert ein.",
+        "text": "Bezieht sich auf eine zusätzliche Steuer, die zusätzlich zur MwSt. Angewendet wird."
+      },
+      "amount_at_risk": {
+        "example": "Wenn Sie ein Kapital von 50.000 € haben und planen, 1.000 € zu riskieren, geben Sie 1.000 als Betrag ein.",
+        "text": "Geben Sie den Betrag an, den Sie für diese Transaktion riskieren möchten, und geben Sie ihn in Geldwert relativ zu Ihrem Kapital an."
+      },
+      "buying_expenses_per_unit": {
+        "example": "Wenn Ihnen beispielsweise eine feste Gebühr von 5 \u0024 pro gekaufter Einheit berechnet wird, geben Sie bitte '5' in dieses Feld ein. Andererseits sollten Sie bei einer Provision von 2 % pro gekaufter Einheit '2' eingeben. Bitte beachten Sie, dass Sie nur die Ratennummer ohne das '%' -Symbol oder den Festbetrag ohne Währungssymbol eingeben.",
+        "instructions": "Geben Sie entweder den zusätzlichen Ausgabensatz oder den festen Geldbetrag an, der für jede gekaufte Einheit anfällt, getrennt vom Kaufpreis. Wenn es sich um einen Satz handelt, geben Sie den als Gebühr, Provision oder zusätzliche Kosten pro Einheit berechneten Prozentsatz an. Wenn es sich um einen Festbetrag handelt, stellen Sie sicher, dass er die Kosten pro Einheit widerspiegelt, ohne den eigentlichen Basispreis des Vermögenswerts."
+      },
+      "buying_price": {
+        "example": "Wenn Sie beispielsweise ein Produkt für 150,25 \u0024 gekauft haben, sollten Sie '150,25' eingeben.",
+        "instructions": "Geben Sie den Preis ein, zu dem Sie ein Vermögenswert erworben haben. Dies ist die gesamten Anschaffungskosten pro Einheit, ausgenommen damit verbundene Gebühren wie Provisionen."
+      },
+      "compound_frequency": {
+        "example": "Wenn Zinsen vierteljährlich reinvestiert werden, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Gibt die Häufigkeit an, mit der Zinsen reinvestiert werden."
+      },
+      "contribution_frequency": {
+        "example": "Wenn Sie vierteljährlich zu Ihrem Konto beitragen, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Bezeichnet die Häufigkeit, mit der zusätzliche Beiträge auf Ihr Konto geleistet werden."
+      },
+      "discount_amount": {
+        "example": "Wenn ein Produkt ursprünglich für 100 \u0024 verkauft wird und Sie Anspruch auf einen Rabatt von 20 \u0024 haben, geben Sie bitte 20 als den Betrag ein.",
+        "text": "Stellt die Reduzierung des Geldwerts dar, die vom ursprünglichen Preis eines Produkts oder einer Dienstleistung abgezogen wird."
+      },
+      "discount_rate": {
+        "example": "Wenn der Startpreis eines Produkts 100 \u0024 beträgt und ein Rabatt von 20% angeboten wird, geben Sie bitte 20 als den Wert an.",
+        "text": "Stellt die prozentuale Reduzierung dar, die auf den ursprünglichen Tarif eines Produkts oder einer Dienstleistung angewendet wird."
+      },
+      "duration_in_years": {
+        "example": "Wenn die Berechnung für einen Zeitraum von 5 Jahren durchgeführt wird, sollten Sie 5 als Dauer eingeben.",
+        "text": "Stellt die Dauer dar, ausgedrückt in Jahren, über die die finanzielle Berechnung basiert."
+      },
+      "entry_fees": {
+        "example": "Wenn Ihr Broker bei der Eröffnung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
+        "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Eröffnung einer Position berechnet."
+      },
+      "entry_price": {
+        "example": "Wenn Sie planen, zum aktuellen Preis zu kaufen, geben Sie diesen Betrag an. Wenn der aktuelle Preis jedoch 50 € pro Aktie beträgt und Sie planen, zu 55 € pro Aktie zu kaufen, geben Sie 55 als Wert ein.",
+        "text": "Geben Sie den Preis an, zu dem Sie planen, den Markt zu betreten, sei es der aktuelle Preis oder ein erwarteter Preis."
+      },
+      "exit_fees": {
+        "example": "Wenn Ihr Broker bei der Schließung einer Position 0,1 % des Gesamtwerts der Position berechnet, geben Sie 0,1 als Prozentsatz ein.",
+        "text": "Geben Sie den Prozentsatz der Gebühr an, die Ihr Broker bei der Schließung einer Position berechnet."
+      },
+      "expected_sale_units": {
+        "example": "Wenn Sie beispielsweise 150 Einheiten eines Produkts verkaufen möchten, geben Sie bitte '150' ein.",
+        "instructions": "Geben Sie die Anzahl der Einheiten an, die Sie verkaufen möchten. Diese Zahl sollte die Gesamtmenge der einzelnen Einheiten darstellen, die Sie verkaufen möchten, nicht den gesamten kumulierten Wert der Vermögenswerte."
+      },
+      "financial_instrument": {
+        "example": "Wenn Sie beispielsweise mit Indizes handeln, könnten Sie 'Indizes' aus dem Dropdown-Menü auswählen.",
+        "instructions": "Wählen Sie die Art des Finanzinstruments, mit dem Sie handeln, aus den Optionen des Dropdown-Menüs. Finanzinstrumente sind Vermögenswerte, die gehandelt oder zu Investitionszwecken genutzt werden können. Dazu können Aktien, Anleihen, Derivate, Währungen usw. Gehören."
+      },
+      "investment_annual_contribution": {
+        "example": "Zum Beispiel, wenn Sie planen, jährlich 10.000 \u0024 zu Ihrer Anlage beizutragen, geben Sie bitte '10.000' ein.",
+        "instructions": "Geben Sie den Betrag ein, den Sie jedes Jahr zu Ihrer Anlage beitragen möchten. Dies könnte in Form von Bareinzahlungen oder anderen Anlageformen sein."
+      },
+      "investment_tax_rate": {
+        "example": "Zum Beispiel, wenn Ihr anwendbarer Steuersatz 25% beträgt, geben Sie bitte '25' ein.",
+        "instructions": "Geben Sie den Steuersatz ein, der auf Ihre Kapitalerträge oder Kapitalgewinne anwendbar ist. Dies sollte als Prozentsatz ausgedrückt werden. Stellen Sie sicher, dass Sie den Satz verwenden, der Ihrer Steuerklasse entspricht oder dem spezifischen Steuersatz für die Art des Einkommens, das Sie melden."
+      },
+      "leverage": {
+        "example": "Zum Beispiel, wenn Sie mit 1 Dollar Ihres Kapitals zusätzliche 9 Dollar leihen, wählen Sie den '10:1' Hebel.",
+        "instructions": "Wählen Sie das Niveau des finanziellen Hebels für Ihren Handel aus."
+      },
+      "operating_expenses": {
+        "example": "Wenn Ihr Unternehmen beispielsweise 3.500 \u0024 für Miete, 2.500 \u0024 für Nebenkosten, 10.000 \u0024 für Löhne und 4.000 \u0024 für verschiedene Verwaltungsausgaben ausgegeben hat, würden Sie diese Beträge addieren und '20000' eingeben.",
+        "instructions": "Geben Sie den Gesamtbetrag der Ausgaben ein, die für die betrieblichen Aktivitäten Ihres Unternehmens angefallen sind. Hierzu gehören Kosten wie Miete, Nebenkosten, Löhne, Instandhaltung und andere Verwaltungsausgaben, die für den täglichen Betrieb notwendig sind. Steuern, Zinszahlungen oder andere nicht betriebliche Ausgaben sollten nicht einbezogen werden."
+      },
+      "position_size": {
+        "example": "Wenn Sie beispielsweise 100 Aktien eines Unternehmens handeln, geben Sie '100' ein. Wenn Sie mit Forex handeln und 500 Einheiten handeln, geben Sie '500' ein.",
+        "instructions": "Geben Sie die Menge des Finanzinstruments ein, das Sie halten oder handeln. Die Positionsgröße kann in Aktien, Losen, Verträgen oder einer anderen Einheit sein, je nach Vermögenswert. Sie können die Maßeinheit aus dem Dropdown-Menü neben dem Eingabefeld auswählen."
+      },
+      "price_after_vat": {
+        "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20 % unterliegt, wäre der Preis nach Mehrwertsteuer 12 \u0024. Geben Sie 12 als Wert ein.",
+        "text": "Bezieht sich auf den Gesamtpreis eines Produkts oder einer Dienstleistung nach Hinzufügung der Mehrwertsteuer (MwSt.). Dies ist der Einzelhandelspreis, den Verbraucher zahlen. Die MwSt. Ist eine Verbrauchssteuer, die in vielen Ländern auf den Verkauf von Waren und Dienstleistungen angewendet wird."
+      },
+      "price_before_vat": {
+        "example": "Wenn ein Produkt vor Steuern 10 \u0024 kostet und einem Mehrwertsteuersatz von 20% unterliegt, geben Sie 10 als Vorsteuerwert ein.",
+        "text": "Bezieht sich auf den Preis eines Produkts oder einer Dienstleistung vor Hinzufügung der Mehrwertsteuer (MwSt.). Die MwSt. Ist eine Verbrauchssteuer, die bei Verkauf von Produkten und Dienstleistungen in vielen Ländern erhoben wird."
+      },
+      "rate_of_return": {
+        "example": "Wenn Sie eine Rendite von 2% pro Monat erwarten, sollten Sie 2 als Rendite eingeben.",
+        "text": "Symbolisiert die Rendite über einen definierten Zeitraum."
+      },
+      "rate_of_return_frequency": {
+        "example": "Wenn die Rendite monatlich verteilt wird, sollten Sie 'Monatlich' als Frequenz auswählen.",
+        "text": "Bezeichnet die Periodizität der Renditeverteilung."
+      },
+      "risk": {
+        "example": "Wenn Sie bereit sind, 1.000 € zu riskieren, was 2 % Ihres Kapitals von 50.000 € entspricht, geben Sie 2 als Wert ein.",
+        "text": "Geben Sie den Prozentsatz Ihres Kapitals an, den Sie für diese Transaktion riskieren möchten. Es wird empfohlen, nicht mehr als 2 % Ihres Kapitals bei einer einzigen Transaktion zu riskieren."
+      },
+      "risk_reward_ratio": {
+        "example": "Wenn Sie 2 eingeben, bedeutet dies, dass Sie für jeden Dollar, den Sie riskieren, einen potenziellen Gewinn von 2 Dollar erwarten.",
+        "text": "Geben Sie das Verhältnis zwischen dem Risikobetrag und dem potenziellen Gewinn an, den Sie für diese Transaktion bereit sind, zu akzeptieren."
+      },
+      "selling_expenses_per_unit": {
+        "example": "Wenn beispielsweise feste Transaktionsgebühren von 3 \u0024 pro verkaufter Einheit anfallen, geben Sie bitte '3' in dieses Feld ein. Wenn es eine Maklerprovision von 1,5 % auf den Verkaufspreis pro Einheit gibt, sollten Sie '1.5' eingeben. Denken Sie daran, nur die Rate ohne das '%' -Symbol oder nur den Geldbetrag ohne Währungssymbole einzugeben.",
+        "instructions": "Geben Sie die zusätzlichen Kosten oder Gebühren an, die mit jeder verkauften Einheit verbunden sind, getrennt vom Verkaufspreis. Dies kann ein bestimmter Geldbetrag oder ein Prozentsatz sein. Diese Zahl sollte nur Kosten widerspiegeln, die direkt mit dem Verkaufsprozess jeder Einheit zusammenhängen, wie Transaktionsgebühren, Provisionen oder sonstige Verkaufsgebühren pro Einheit, und nicht den Basispreis der Einheit beinhalten."
+      },
+      "selling_price": {
+        "example": "Wenn Sie beispielsweise ein Produkt für 300,50 \u0024 verkauft haben, geben Sie bitte '300,50' ein.",
+        "instructions": "Geben Sie den Preis an, zu dem Sie einen Vermögenswert verkauft haben. Dieser Betrag sollte den Gesamterlös pro Einheit darstellen, ohne Transaktionsgebühren wie Provisionen oder Servicegebühren."
+      },
+      "slippage": {
+        "example": "Wenn Sie einen Marktauftrag zum Kauf einer Aktie erteilen, die derzeit 100 € kostet, aber die Ausführung zu 102 € erfolgt, entspricht dieser Unterschied von 2 €, der 2 % des ursprünglichen Preises entspricht, als 'Slippage'. In diesem Fall sollten Sie 2 als Prozentsatz eingeben.",
+        "text": "Bezieht sich auf den Unterschied zwischen dem erwarteten Preis einer Transaktion und dem Preis, zu dem die Transaktion tatsächlich ausgeführt wird. Slippage tritt häufig während Perioden hoher Volatilität auf, wenn Marktaufträge verwendet werden, oder es kann auch auftreten, wenn große Aufträge ausgeführt werden und nicht genügend Volumen auf dem gewählten Preisniveau vorhanden ist."
+      },
+      "starting_balance": {
+        "example": "Wenn Sie Ihre finanziellen Berechnungen mit einem Anfangsbetrag von 1.000 \u0024 beginnen, sollten Sie 1000 als Anfangssaldo eingeben.",
+        "text": "Stellt den anfänglichen Geldbetrag dar, der zu Beginn eines Zeitraums auf Ihrem Konto verfügbar ist."
+      },
+      "stop_loss_price": {
+        "example": "Wenn Sie eine Aktie zu 50 € gekauft haben und sich entschieden haben, Ihre Position mit einem Stop-Loss-Auftrag bei 45 € zu sichern, geben Sie 45 als Wert ein.",
+        "text": "Geben Sie den Preis an, zu dem Sie Ihren Stop-Loss-Auftrag setzen werden, um potenzielle Verluste zu begrenzen."
+      },
+      "tax_rate": {
+        "example": "Wenn Ihr Unternehmen beispielsweise nach allen Abzügen und Freibeträgen in eine Steuerklasse von 25 % fällt, würden Sie '25' in dieses Feld eingeben. Bitte beachten Sie, dass Sie nur die Prozentzahl ohne das '%' -Symbol eingeben sollten.",
+        "instructions": "Geben Sie den geltenden Steuersatz als Prozentsatz ein, dem Ihr Geschäft oder Vermögenswert unterliegt. Dieser Satz wird durch verschiedene Faktoren bestimmt, darunter Ihre Einkommensklasse, Geschäftstyp und Gerichtsbarkeit. Es stellt den Teil Ihrer Einnahmen dar, der an die Regierung gezahlt wird. Stellen Sie sicher, dass dies der effektive Steuersatz ist, unter Berücksichtigung aller geltenden Abzüge und Freibeträge."
+      },
+      "tip_amount": {
+        "example": "Wenn Ihre Rechnung 20 \u0024 beträgt und Sie ein Trinkgeld von 5 \u0024 hinterlassen möchten, sollten Sie 5 als den Betrag eingeben.",
+        "text": "Stellt einen zusätzlichen Geldbetrag dar, der einer Rechnung als Trinkgeld hinzugefügt wird, um Wertschätzung für einen qualitativ hochwertigen Service zu zeigen."
+      },
+      "tip_rate": {
+        "example": "Wenn Ihre Rechnung 50 \u0024 beträgt und Sie ein Trinkgeld von 15% hinterlassen möchten, sollten Sie 15 als den Wert eingeben.",
+        "text": "Es ist ein Prozentsatz des Gesamtrechnungsbetrags, der als Trinkgeld hinzugefügt wird, um Wertschätzung für einen qualitativ hochwertigen Service zu zeigen."
+      },
+      "vat_rate": {
+        "example": "Wenn der Vorsteuerpreis eines Produkts 10 \u0024 beträgt und der angewandte Mehrwertsteuersatz 20% beträgt, geben Sie bitte 20 als den Satzwert ein.",
+        "text": "Bezieht sich auf den Prozentsatz der Mehrwertsteuer (MwSt.), der auf ein Produkt oder eine Dienstleistung angewendet wird."
+      },
+      "withdrawals_amount": {
+        "example": "Wenn Sie planen, monatlich 200 \u0024 von Ihrem Konto abzuheben, sollten Sie 200 als Abhebungsbetrag eingeben.",
+        "text": "Gibt den Betrag an, der regelmäßig von Ihrem Konto abgehoben wird."
+      },
+      "withdrawals_frequency": {
+        "example": "Wenn Sie vierteljährlich von Ihrem Konto abheben, sollten Sie 'Vierteljährlich' als Frequenz eingeben.",
+        "text": "Bezeichnet die Häufigkeit, mit der Abhebungen von Ihrem Konto vorgenommen werden."
+      }
+    },
+    "label": {
+      "account": {
+        "balance": "Kontostand",
+        "currency": "Kontowährung",
+        "size": "Kontogröße"
+      },
+      "additional": {
+        "contributions": "Zusätzliche Beiträge",
+        "metrics": "Zusätzliche metriken"
+      },
+      "additional_tax": {
+        "amount": "Zusätzlicher steuerbetrag",
+        "rate": "Zusätzlicher steuersatz",
+        "text": "Zusätzliche steuern"
+      },
+      "after": {
+        "fee": {
+          "amount": "Betrag nach gebühren",
+          "price": "Preis nach gebühren"
+        },
+        "vat": {
+          "amount": "Betrag nach MwSt",
+          "price": "Preis nach MwSt"
+        }
+      },
+      "amount": {
+        "after_fee": "Betrag nach gebühren",
+        "before_fee": "Betrag vor gebühren",
+        "fee": "Gebührenbetrag",
+        "text": "Betrag",
+        "type": "Betragstyp"
+      },
+      "amount_at_risk": "Risikobetrag",
+      "annual_contribution": "Jährlicher beitrag",
+      "average_annual_return": "Durchschnittliche jährliche rendite",
+      "before": {
+        "fee": {
+          "amount": "Betrag vor gebühren",
+          "price": "Preis vor gebühren"
+        },
+        "vat": {
+          "amount": "Betrag vor MwSt",
+          "price": "Preis vor MwSt"
+        }
+      },
+      "bill": {
+        "amount": "Rechnungsbetrag",
+        "breakdown": "Rechnungsaufschlüsselung",
+        "rate": "Rechnungssatz",
+        "text": "Rechnung"
+      },
+      "break_even": {
+        "price": "Break-even-preis",
+        "units": "Break-even-einheiten"
+      },
+      "breakdown": "Aufschlüsselung",
+      "buy": {
+        "commission": "Kaufprovision",
+        "costs": "Kaufkosten",
+        "costs_per_unit": "Kaufkosten pro einheit",
+        "price": "Kaufpreis",
+        "price_per_unit": "Kaufpreis pro einheit"
+      },
+      "cashflow": "Cashflow",
+      "close_price": "Schlusskurs",
+      "compound": {
+        "interest": "Zinseszins",
+        "text": "Zusammengesetzt"
+      },
+      "compounding": {
+        "frequency": "Häufigkeit der Zinseszinsbildung",
+        "text": "Zinseszins"
+      },
+      "contribution_frequency": "Häufigkeit der Beiträge",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "Kosten der verkauften waren"
+          },
+          "investment": "Kosten der investition"
+        }
+      },
+      "costs": "Kosten",
+      "currencies": "Währungen",
+      "currency": "Währung",
+      "deposits": "Einlagen",
+      "discount": {
+        "amount": "Rabattbetrag",
+        "label": "Rabatt",
+        "per_unit": "Rabatt pro einheit",
+        "rate": "Rabattsatz"
+      },
+      "duration": {
+        "double": {
+          "investment": "Dauer, um die Investition zu verdoppeln"
+        }
+      },
+      "duration_years": "Dauer in jahren",
+      "earnings": "Einnahmen",
+      "effective_annual_rate": "Effektiver Jahreszins",
+      "ending": {
+        "balance": "Endguthaben",
+        "principal": "Endkapital"
+      },
+      "entry": {
+        "fees": {
+          "amount": "Eintrittsgebühr betrag",
+          "text": "Einstiegsgebühren"
+        },
+        "price": {
+          "at": "Einstiegspreis bei",
+          "text": "Einstiegspreis",
+          "with_slippage": "Einstiegspreis mit schlupf"
+        },
+        "text": "Einstieg"
+      },
+      "exit": {
+        "fees": {
+          "amount": "Ausstiegsgebühr betrag",
+          "text": "Ausstiegsgebühren"
+        },
+        "price": {
+          "at": "Ausstiegspreis bei",
+          "text": "Ausstiegspreis",
+          "with_slippage": "Ausstiegspreis mit schlupf"
+        }
+      },
+      "expected_sale_units": "Erwartete verkaufseinheiten",
+      "extension": "Erweiterung",
+      "fees": "Gebühren",
+      "fibonacci": {
+        "level": "Fibonacci-level",
+        "levels": "Fibonacci-levels"
+      },
+      "financial_instrument": "Finanzinstrument",
+      "fixed_costs": "Fixkosten",
+      "gain": "Gewinn",
+      "gain_per_trade": "Gewinn pro trade",
+      "grand_total": "Gesamtsumme",
+      "gross": {
+        "income": "Bruttoeinkommen",
+        "margin": "Bruttomarge",
+        "profit": {
+          "margin": "Bruttogewinnmarge",
+          "text": "Bruttogewinn"
+        }
+      },
+      "high_price": "Höchstpreis",
+      "indices": "Indizes",
+      "initial_investment": "Erstinvestition",
+      "interest_rate": "Zinssatz",
+      "involved_capital": "Investiertes kapital",
+      "last": {
+        "earnings": "Letzte Erträge"
+      },
+      "last_updated_on": "Kurse zuletzt aktualisiert am",
+      "leverage": "Hebelwirkung",
+      "loss": "Verlust",
+      "loss_per_trade": "Verlust pro trade",
+      "low_price": "Tiefstpreis",
+      "margin": "Marge",
+      "net": {
+        "buy_price": "Netto-kaufpreis",
+        "income": "Nettoeinkommen",
+        "profit": {
+          "after_fee": "Nettogewinn nach gebühren",
+          "before_fee": "Nettogewinn vor gebühren",
+          "margin": "Nettogewinnmarge",
+          "text": "Nettogewinn"
+        }
+      },
+      "number": {
+        "of_trades": "Anzahl der trades",
+        "plus_currency": "{number}+ währungen"
+      },
+      "open_price": "Eröffnungspreis",
+      "operating": {
+        "expenses": "Betriebsausgaben",
+        "income": "Betriebseinkommen",
+        "margin": "Betriebsmarge",
+        "profit": "Betriebsgewinn"
+      },
+      "period": "Zeitraum",
+      "pivot_point": {
+        "camarilla": "Camarilla",
+        "demark": "DeMark",
+        "fibonacci": "Fibonacci",
+        "method": "Pivot-punkt-methode",
+        "standard": "Standard",
+        "text": "Pivot-punkt",
+        "woodie": "Woodie"
+      },
+      "pivot_points": "Pivot-punkte",
+      "position": {
+        "amount": "Positionsgröße",
+        "long": "Long",
+        "short": "Short",
+        "size": "Positionsumfang",
+        "text": "Position"
+      },
+      "price": {
+        "a": "Preis A",
+        "b": "Preis B",
+        "base": "Grundpreis",
+        "breakdown": "Preisaufschlüsselung",
+        "per_unit": "Preis pro einheit",
+        "per_unit_after_fee": "Preis pro einheit nach gebühren",
+        "per_unit_before_fee": "Preis pro einheit vor gebühren",
+        "text": "Preis"
+      },
+      "primary_currency": "Hauptwährung",
+      "profit": "Gewinn",
+      "profit_and_loss": "Gewinn und verlust",
+      "profit_and_loss_overview": "Übersicht über gewinn und verlust",
+      "profit_or_loss": "Gewinn oder verlust",
+      "purchase": {
+        "commission": "Ankaufsprovision",
+        "costs": "Ankaufskosten",
+        "costs_per_unit": "Erwerbskosten pro einheit",
+        "price": "Ankaufspreis",
+        "price_per_unit": "Ankaufspreis pro einheit"
+      },
+      "rate": "Satz",
+      "rate_of_return": {
+        "all_time": "Rendite über die gesamte Laufzeit",
+        "text": "Rendite"
+      },
+      "real_time_quotes": "Echtzeitkurse",
+      "regular_addition": "Regelmäßige hinzufügung",
+      "required_margin": "Erforderliche marge",
+      "resistance_level": "Widerstand {level}",
+      "resistances": "Widerstände",
+      "retained_earnings": "Retained earnings",
+      "retracement": "Retracement",
+      "return_frequency": "Renditehäufigkeit",
+      "return_on_investment": "Return on investment",
+      "revenue": "Einnahmen",
+      "risk": {
+        "amount": "Risikobetrag",
+        "effective": "Effektives risiko",
+        "in_percentage": "Risiko in prozent",
+        "ratio": "Risikoverhältnis",
+        "reward": {
+          "ratio": "Risiko-rendite-verhältnis",
+          "text": "Risiko-rendite"
+        },
+        "text": "Risiko",
+        "tolerated": "Akzeptiertes risiko",
+        "type": "Risikoart"
+      },
+      "sales": {
+        "commission": "Vertriebsprovision",
+        "costs": "Vertriebskosten",
+        "costs_per_unit": "Vertriebskosten pro einheit",
+        "price": "Vertriebspreis",
+        "price_per_unit": "Vertriebspreis pro einheit"
+      },
+      "secondary_currency": "Sekundärwährung",
+      "sell": {
+        "commission": "Verkaufsprovision",
+        "costs": "Verkaufskosten",
+        "costs_per_unit": "Verkaufskosten pro einheit",
+        "price": "Verkaufspreis",
+        "price_per_unit": "Verkaufspreis pro einheit"
+      },
+      "selling_expenses": "Verkaufskosten",
+      "selling_operating_expenses": "Verkaufs- und betriebskosten",
+      "slippage": "Slippage",
+      "starting": {
+        "balance": "Anfangsguthaben",
+        "principal": "Anfangskapital"
+      },
+      "stop_loss": {
+        "amount": "Stop-loss-betrag",
+        "at": "Stop-loss bei",
+        "in_percentage": {
+          "text": "Stop-loss in prozent",
+          "with_slippage": "Stop-loss in prozent mit slippage"
+        },
+        "price": {
+          "at": "Stop-loss bei",
+          "text": "Stop-loss",
+          "with_slippage": "Stop-loss mit slippage"
+        },
+        "text": "Stop-loss",
+        "type": "Stop-Loss-Typ"
+      },
+      "stop_loss_take_profit": "Stop-Loss/Take-Profit",
+      "subtotal": "Zwischensumme",
+      "support_level": "Unterstützung {level}",
+      "supports": "Unterstützungen",
+      "take_profit": {
+        "amount": "Take profit betrag",
+        "at": "Take profit bei",
+        "price": {
+          "after_fee": "Gewinnmitnahme nach gebühren",
+          "at": "Take profit bei",
+          "text": "Take profit",
+          "with_slippage": "Take profit mit slippage"
+        },
+        "text": "Take profit",
+        "type": "Gewinnmitnahme-Typ"
+      },
+      "tax": {
+        "amount": "Steuerbetrag",
+        "exempt_amount_per_year": "Steuerfreibetrag pro jahr",
+        "rate": "Steuersatz"
+      },
+      "taxes": "Steuern",
+      "tip": {
+        "amount": "Trinkgeld betrag",
+        "rate": "Trinkgeldsatz",
+        "text": "Trinkgeld"
+      },
+      "total": {
+        "contributions": "Total contributions",
+        "costs": {
+          "losing_position": "Gesamtkosten für eine verlustposition",
+          "profit_position": "Gesamtkosten für eine gewinnposition",
+          "text": "Gesamtkosten"
+        },
+        "deposits": "Gesamteinlagen",
+        "earnings": "Gesamteinnahmen",
+        "expenses": "Gesamtausgaben",
+        "fee": "Gesamtgebühren",
+        "gain": "Gesamtgewinn",
+        "loss": "Gesamtverlust",
+        "return": "Gesamtrendite",
+        "revenue": "Gesamteinnahmen",
+        "tax": "Gesamtsteuern",
+        "text": "Gesamt",
+        "withdrawals": "Gesamtabhebungen"
+      },
+      "trade": {
+        "size": {
+          "oz": "Handelsgröße (unzen)",
+          "text": "Handelsgröße",
+          "units": "Handelsgröße (einheiten)"
+        }
+      },
+      "trend": {
+        "down": "Abwärts",
+        "sideways": "Seitwärts",
+        "text": "Trend",
+        "up": "Aufwärts"
+      },
+      "user_currency": "Benutzerwährung",
+      "vat": {
+        "amount": "MwSt betrag",
+        "rate": "MwSt satz",
+        "text": "MwSt"
+      },
+      "withdrawal": {
+        "amount": "Auszahlungsbetrag",
+        "frequency": "Auszahlungshäufigkeit",
+        "text": "Auszahlung"
+      },
+      "withdrawals": {
+        "amount": "Betrag der Auszahlungen",
+        "frequency": "Häufigkeit der Auszahlungen",
+        "text": "Auszahlungen"
+      }
+    },
+    "message": {
+      "last_updated_on": "Rates last updated on {date}"
+    },
+    "select": {
+      "account_currency": "Wählen Sie Ihre Kontowährung",
+      "compounding_frequency": "Wählen Sie eine Zinseszinsfrequenz",
+      "contribution_frequency": "Wählen Sie eine Beitragsfrequenz",
+      "currency": "Wählen Sie eine Währung",
+      "interest_rate": "Wählen Sie einen Zinssatz",
+      "leverage": "Wählen Sie eine Hebelwirkung",
+      "pivot_point_method": "Wählen Sie eine Pivot-Punkt-Methode",
+      "primary_currency": "Wählen Sie eine Hauptwährung",
+      "return_frequency": "Wählen Sie eine Renditefrequenz",
+      "risk_type": "Wählen Sie einen Risikotyp",
+      "secondary_currency": "Wählen Sie eine Sekundärwährung",
+      "stop_loss_type": "Wählen Sie eine Stop-Loss-Art",
+      "take_profit_type": "Wählen Sie eine Gewinnmitnahmestrategie",
+      "tax_rate": "Wählen Sie einen Steuersatz"
+    },
+    "warning": {
+      "risk_reward_ratio": "Das Risiko-Rendite-Verhältnis ist geringer als 2."
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
+  "finance": {
+    "disclaimer": {
+      "incorrect_results": "結果が正しくないと思われる場合、特定のパラメータがブローカーや使用している金融商品によって異なる可能性があります。必要な場合は、詳細セクションでこれらの設定を調整できます。",
+      "intervening_markets": "金融市場への参加には、金融損失につながるリスクが伴います。この情報のみをもとに取引や投資の決定をしないでください。",
+      "invest_warning": "この情報だけに基づいて取引や投資を行わないでください。",
+      "trading": "金融市場は資本に大きなリスクを伴います。このアプリケーションによって提供される情報および結果は純粋に示唆的なものであり、アドバイスや推奨と解釈すべきではありません。ブローカーや使用する金融商品によって特定のパラメーターが異なる可能性があるため、これらの結果を確認してください。アプリケーションが不正確な情報を生成する可能性があります。{company}は、この情報または結果に基づいて行動する人が被る損失の責任を一切負いません。"
+    },
+    "error": {
+      "close_price_between_low_high_price": "終値は最低価格と最高価格の間である必要があります。",
+      "high_price_higher_low_price": "最高価格は最低価格を上回る必要があります。",
+      "open_price_between_low_high_price": "始値は最低価格と最高価格の間である必要があります。",
+      "quote_refresh": "選択した金融商品の見積もりを更新できません。後でもう一度お試しください。",
+      "quote_unavailable": "{symbol}の為替レートを取得できません。後ほど再試行してください。"
+    },
+    "help": {
+      "account_balance": {
+        "example": "50,000 円をトレーディングに充当している場合、50,000 を金額として入力してください。",
+        "text": "利用可能な現在の資本の価値を指定してください。"
+      },
+      "account_currency": {
+        "example": "例えば、あなたの口座がアメリカに拠点を置いている場合、ドロップダウンメニューで 'USD' を選択します。",
+        "instructions": "ドロップダウンメニューのオプションから、あなたの口座に関連付けられた通貨を選択してください。これは、あなたの残高が保持され、取引が処理される通貨です。"
+      },
+      "additional_contributions": {
+        "example": "アカウントに毎月\u0024500を預ける予定の場合は、追加の貢献として500を入力してください。",
+        "text": "定期的な間隔でアカウントに預けられる追加の金額を指します。"
+      },
+      "additional_tax_rate": {
+        "example": "製品に20%のVATが適用され、追加の特定税または地方税が2%追加される場合、値として2を入力してください。",
+        "text": "VATの上に適用される追加の税を参照します。"
+      },
+      "amount_at_risk": {
+        "example": "資本が 50,000 円で、1,000 円をリスクにさらそうとしている場合は、1,000 を金額として入力してください。",
+        "text": "この取引でリスクにさらしたい金額を、資本に関連する金銭的価値で指定してください。"
+      },
+      "buying_expenses_per_unit": {
+        "example": "例えば、購入したユニットごとに5円の固定料金が課金される場合、このフィールドに'5'と入力します。一方、購入した各ユニットに対して2%の手数料を支払っている場合は、'2'と入力します。パーセンテージ記号「%」や通貨記号は付けずに数値のみを入力してください。",
+        "instructions": "購入した各ユニットにかかる追加の費用や固定額を入力してください。これは購入価格とは別で、手数料、税金、または単位あたりの追加コストとして課金されるパーセンテージです。固定額の場合、基本資産価格を除外した単位あたりのコストを反映する必要があります。"
+      },
+      "buying_price": {
+        "example": "例えば、製品を15,025円で購入した場合、'15025'と入力します。",
+        "instructions": "資産の購入価格を入力してください。これは、手数料などの追加料金を除いた、単位あたりの総コストです。"
+      },
+      "compound_frequency": {
+        "example": "利息が四半期ごとに再投資される場合は、頻度として'四半期ごと'を入力してください。",
+        "text": "利息が再投資される頻度を示します。"
+      },
+      "contribution_frequency": {
+        "example": "アカウントに四半期ごとに貢献する場合は、頻度として'四半期ごと'を入力してください。",
+        "text": "アカウントへの追加の貢献が行われる頻度を指定します。"
+      },
+      "discount_amount": {
+        "example": "製品がもともと\u0024100で販売されており、\u002420の割引が適用される場合、金額として20を入力してください。",
+        "text": "製品やサービスの初期価格から差し引かれる金額の削減を表します。"
+      },
+      "discount_rate": {
+        "example": "製品の開始価格が\u0024100で、20%の割引が提供される場合、値として20を示してください。",
+        "text": "製品やサービスの初期価格に適用される割引のパーセンテージを表します。"
+      },
+      "duration_in_years": {
+        "example": "計算が5年間の期間に対して行われる場合は、期間として5を入力してください。",
+        "text": "財務計算が基づく期間の長さを年単位で表します。"
+      },
+      "entry_fees": {
+        "example": "ポジションの開設時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
+        "text": "ブローカーがポジションの開設時に請求する手数料の割合を指定してください。"
+      },
+      "entry_price": {
+        "example": "現在の価格で購入する予定の場合は、この金額を指定してください。ただし、現在の価格が 50 円/株で、55 円/株で購入する予定の場合は、55 を値として入力してください。",
+        "text": "市場に参入する予定の価格を指定してください。これは、現在の価格または予想される価格のいずれかです。"
+      },
+      "exit_fees": {
+        "example": "ポジションの解 closure 時にブローカーが取引量の 0.1% を請求する場合は、0.1 をパーセンテージとして入力してください。",
+        "text": "ブローカーがポジションの解 closure 時に請求する手数料の割合を指定してください。"
+      },
+      "expected_sale_units": {
+        "example": "例えば、製品150ユニットの販売を予定している場合、'150'と入力します。",
+        "instructions": "販売予定のユニット数を入力してください。この数値は、販売する予定の各ユニットの総数である必要があり、資産の総価値ではありません。"
+      },
+      "financial_instrument": {
+        "example": "例えば、インデックスを取引している場合、ドロップダウンメニューで 'インデックス' を選ぶことができます。",
+        "instructions": "ドロップダウンメニューから、取引している金融商品の種類を選択してください。金融商品とは、取引や投資目的で使用できる資産のことで、株式、債券、デリバティブ、通貨などが含まれます。"
+      },
+      "investment_annual_contribution": {
+        "example": "例えば、あなたの投資に対して年間10,000ドルの貢献を計画している場合は、「10,000」と入力してください。",
+        "instructions": "毎年あなたの投資に対して貢献する予定の金額を入力してください。これは現金預金または他の投資形態によるものかもしれません。"
+      },
+      "investment_tax_rate": {
+        "example": "例えば、適用される税率が25%である場合は、「25」と入力してください。",
+        "instructions": "投資所得またはキャピタルゲインに適用される税率を入力してください。これはパーセンテージで表されるべきです。あなたの税率区分に該当する税率、または報告する所得の種類に特有の税率を使用してください。"
+      },
+      "leverage": {
+        "example": "たとえば、あなたの資本の1ドルで追加の9ドルを借りる場合は、「10:1」のレバレッジを選択してください。",
+        "instructions": "取引のための金融レバレッジのレベルを選択してください。"
+      },
+      "operating_expenses": {
+        "example": "例えば、あなたの企業が家賃に35万円、公共料金に25万円、給与に100万円、その他の管理費用に40万円を支出している場合、これらの金額を合計して'2000000'と入力します。",
+        "instructions": "企業の運営にかかる総経費の金額を入力してください。これには、家賃、公共料金、給与、メンテナンス、および日常業務に必要なその他の管理費用が含まれます。税金、利息支払い、または非運営費用は含めないでください。"
+      },
+      "position_size": {
+        "example": "例えば、ある企業の株式100株を取引している場合、'100'と入力します。外国為替で500単位を取引している場合は、'500'と入力します。",
+        "instructions": "保有または取引している金融商品の数量を入力してください。ポジションサイズは、資産に応じて株式、ロット、契約、またはその他の単位で表される場合があります。入力フィールドの隣のドロップダウンメニューで測定単位を選択できます。"
+      },
+      "price_after_vat": {
+        "example": "商品が税抜きで10ドルの場合、消費税率が20％であれば、消費税込みの価格は12ドルになります。値として12を入力してください。",
+        "text": "付加価値税（VAT）を加算した後の商品またはサービスの総価格を指します。これは消費者が支払う小売価格です。VATは多くの国で商品やサービスの販売に適用される消費税です。"
+      },
+      "price_before_vat": {
+        "example": "製品が税抜きで\u002410であり、20%のVATが適用される場合、税抜きの値として10を入力してください。",
+        "text": "製品またはサービスの価格を付加価値税（VAT）の追加前に参照します。VATは、多くの国で商品やサービスが販売される際に課される消費税です。"
+      },
+      "rate_of_return": {
+        "example": "月に2％のリターンを見込む場合、リターン率として2を入力してください。",
+        "text": "定義された期間にわたるリターン率を象徴します。"
+      },
+      "rate_of_return_frequency": {
+        "example": "リターン率が毎月分配される場合は、頻度として'毎月'を選択してください。",
+        "text": "リターン率の分配の周期を指定します。"
+      },
+      "risk": {
+        "example": "50,000 円の資本で 1,000 円をリスクにさらすことに同意する場合は、2 を値として入力してください。これは、50,000 円の資本の 2% に相当します。",
+        "text": "この取引でリスクにさらしたい資本の割合を指定してください。 2% を超える資本を単一取引でリスクにさらすことは推奨されません。"
+      },
+      "risk_reward_ratio": {
+        "example": "2 を入力すると、1 ドルのリスクに対して 2 ドルの潜在的な利益を期待していることを意味します。",
+        "text": "この取引で受け入れるリスク額と潜在的な利益の比率を指定してください。"
+      },
+      "selling_expenses_per_unit": {
+        "example": "例えば、販売されたユニットごとに3円のトランザクション手数料が発生する場合、このフィールドに'3'と入力します。販売価格に基づいて1.5%のブローカー手数料が発生する場合は、'1.5'と入力します。パーセンテージ記号「%」や通貨記号は付けずに数値のみを入力してください。",
+        "instructions": "販売価格に加えて、各販売ユニットに関連する追加のコストや手数料を入力してください。これは特定の現金額やパーセンテージレートである場合があります。この数値は、トランザクション手数料、コミッション、または販売されたユニットごとに発生するその他の費用を直接反映する必要があり、ユニットの基本価格は含めないでください。"
+      },
+      "selling_price": {
+        "example": "例えば、製品を30,050円で売却した場合、'30050'と入力します。",
+        "instructions": "資産の販売価格を入力してください。これは、取引手数料やサービス料などを除いた、単位あたりの総受け取り額を反映する必要があります。"
+      },
+      "slippage": {
+        "example": "現在 100 円で取引されている株式を市場価格で購入する注文を placed した場合、取引が 102 円で実行された場合、この 2 円の差は「スリッページ」と呼ばれます。この場合、パーセンテージとして 2 を入力する必要があります。",
+        "text": "取引の expected 価格と実際に取引が実行された価格の差を参照します。スリッページは、市場のボラティリティが高い期間や、大口の注文が実行されていて、要求された価格レベルで十分な取引量がない場合によく発生します。"
+      },
+      "starting_balance": {
+        "example": "最初に\u00241,000の金額で財務計算を開始する場合は、開始残高として1000を入力してください。",
+        "text": "期間の始まりにおけるアカウント内の利用可能な初期金額を表します。"
+      },
+      "stop_loss_price": {
+        "example": "50 円で株式を購入した後、45 円の損失を防ぐためにストップロス注文を設定する場合、45 を値として入力してください。",
+        "text": "損失を最小限に抑えるためにストップロス注文を設定する価格を指定してください。"
+      },
+      "tax_rate": {
+        "example": "例えば、すべての控除と免除の後、あなたのビジネスが25%の税率ブラケットにある場合、このフィールドに'25'と入力します。パーセンテージ記号「%」は付けずに数値のみを入力してください。",
+        "instructions": "あなたのビジネスまたは資産に適用される税率のパーセンテージを入力してください。このレートは、収入のレベル、ビジネスの種類、管轄区域など、さまざまな要因によって決まります。政府に支払われる収入の一部を表しています。適用可能なすべての控除および免除を考慮に入れた実効税率であることを確認してください。"
+      },
+      "tip_amount": {
+        "example": "請求額が\u002420で、\u00245のチップを残したい場合、金額として5を入力する必要があります。",
+        "text": "品質の高いサービスに感謝を示すために、請求額に追加される金額としてのチップを表します。"
+      },
+      "tip_rate": {
+        "example": "請求額が\u002450で、15%のチップを残したい場合、値として15を入力する必要があります。",
+        "text": "品質の高いサービスに感謝を示すために、総請求額のパーセンテージとして追加されるチップです。"
+      },
+      "vat_rate": {
+        "example": "製品の税抜き価格が\u002410で、適用されるVATの税率が20%の場合、税率の値として20を入力してください。",
+        "text": "製品やサービスに適用される付加価値税（VAT）の割合を参照します。"
+      },
+      "withdrawals_amount": {
+        "example": "アカウントから毎月\u0024200を引き出す予定の場合は、引き出し金額として200を入力してください。",
+        "text": "アカウントから定期的に引き出される金額を指定します。"
+      },
+      "withdrawals_frequency": {
+        "example": "アカウントから四半期ごとに引き出しを行う場合は、頻度として'四半期ごと'を入力してください。",
+        "text": "アカウントから引き出しが行われる頻度を指定します。"
+      }
+    },
+    "label": {
+      "account": {
+        "balance": "口座残高",
+        "currency": "口座の通貨",
+        "size": "口座のサイズ"
+      },
+      "additional": {
+        "contributions": "追加の貢献",
+        "metrics": "追加のメトリクス"
+      },
+      "additional_tax": {
+        "amount": "追加税額",
+        "rate": "追加税率",
+        "text": "追加税"
+      },
+      "after": {
+        "fee": {
+          "amount": "手数料後の金額",
+          "price": "手数料後の価格"
+        },
+        "vat": {
+          "amount": "VAT適用後の金額",
+          "price": "VAT適用後の価格"
+        }
+      },
+      "amount": {
+        "after_fee": "手数料後の金額",
+        "before_fee": "手数料前の金額",
+        "fee": "手数料の金額",
+        "text": "金額",
+        "type": "金額の種類"
+      },
+      "amount_at_risk": "リスク金額",
+      "annual_contribution": "年間の貢献",
+      "average_annual_return": "平均年間利回り",
+      "before": {
+        "fee": {
+          "amount": "手数料前の金額",
+          "price": "手数料前の価格"
+        },
+        "vat": {
+          "amount": "VAT前の金額",
+          "price": "VAT前の価格"
+        }
+      },
+      "bill": {
+        "amount": "請求額",
+        "breakdown": "請求内訳",
+        "rate": "請求率",
+        "text": "請求"
+      },
+      "break_even": {
+        "price": "損益分岐点の価格",
+        "units": "損益分岐点のユニット"
+      },
+      "breakdown": "内訳",
+      "buy": {
+        "commission": "購入手数料",
+        "costs": "購入費用",
+        "costs_per_unit": "単位あたりの購入費用",
+        "price": "購入価格",
+        "price_per_unit": "単位あたりの購入価格"
+      },
+      "cashflow": "キャッシュフロー",
+      "close_price": "終値",
+      "compound": {
+        "interest": "複利",
+        "text": "複合"
+      },
+      "compounding": {
+        "frequency": "複利の頻度",
+        "text": "複利"
+      },
+      "contribution_frequency": "貢献頻度",
+      "cost": {
+        "of": {
+          "goods": {
+            "sold": "売上原価"
+          },
+          "investment": "投資コスト"
+        }
+      },
+      "costs": "コスト",
+      "currencies": "通貨",
+      "currency": "通貨",
+      "deposits": "預金",
+      "discount": {
+        "amount": "割引額",
+        "label": "割引",
+        "per_unit": "単位あたりの割引",
+        "rate": "割引率"
+      },
+      "duration": {
+        "double": {
+          "investment": "投資を倍増させるまでの期間"
+        }
+      },
+      "duration_years": "年単位の期間",
+      "earnings": "収益",
+      "effective_annual_rate": "実効年率",
+      "ending": {
+        "balance": "最終残高",
+        "principal": "最終元本"
+      },
+      "entry": {
+        "fees": {
+          "amount": "入場料の金額",
+          "text": "参加費"
+        },
+        "price": {
+          "at": "参加価格（現在）",
+          "text": "参加価格",
+          "with_slippage": "スリッページを考慮した参加価格"
+        },
+        "text": "エントリー"
+      },
+      "exit": {
+        "fees": {
+          "amount": "出口手数料の金額",
+          "text": "退出費"
+        },
+        "price": {
+          "at": "退出価格（現在）",
+          "text": "退出価格",
+          "with_slippage": "スリッページを考慮した退出価格"
+        }
+      },
+      "expected_sale_units": "予想販売ユニット",
+      "extension": "延長",
+      "fees": "手数料",
+      "fibonacci": {
+        "level": "フィボナッチレベル",
+        "levels": "フィボナッチレベル"
+      },
+      "financial_instrument": "金融商品",
+      "fixed_costs": "固定コスト",
+      "gain": "利益",
+      "gain_per_trade": "トレードごとの利益",
+      "grand_total": "総計",
+      "gross": {
+        "income": "総収入",
+        "margin": "総利益率",
+        "profit": {
+          "margin": "総利益率",
+          "text": "総利益"
+        }
+      },
+      "high_price": "最高価格",
+      "indices": "インデックス",
+      "initial_investment": "初期投資",
+      "interest_rate": "利率",
+      "involved_capital": "関与する資本",
+      "last": {
+        "earnings": "最終収益"
+      },
+      "last_updated_on": "最後に更新されたレート",
+      "leverage": "レバレッジ",
+      "loss": "損失",
+      "loss_per_trade": "トレードごとの損失",
+      "low_price": "最低価格",
+      "margin": "証拠金",
+      "net": {
+        "buy_price": "純購入価格",
+        "income": "純収入",
+        "profit": {
+          "after_fee": "手数料後の純利益",
+          "before_fee": "手数料前の純利益",
+          "margin": "純利益率",
+          "text": "純利益"
+        }
+      },
+      "number": {
+        "of_trades": "トレード数",
+        "plus_currency": "{number}以上の通貨"
+      },
+      "open_price": "始値",
+      "operating": {
+        "expenses": "運営費",
+        "income": "営業収入",
+        "margin": "営業マージン",
+        "profit": "営業利益"
+      },
+      "period": "期間",
+      "pivot_point": {
+        "camarilla": "キャマリラ",
+        "demark": "デマーク",
+        "fibonacci": "フィボナッチ",
+        "method": "ピボットポイントメソッド",
+        "standard": "スタンダード",
+        "text": "ピボットポイント",
+        "woodie": "ウッディ"
+      },
+      "pivot_points": "ピボットポイント",
+      "position": {
+        "amount": "ポジションの金額",
+        "long": "ロング",
+        "short": "ショート",
+        "size": "ポジションサイズ",
+        "text": "ポジション"
+      },
+      "price": {
+        "a": "価格A",
+        "b": "価格B",
+        "base": "ベース価格",
+        "breakdown": "価格の内訳",
+        "per_unit": "ユニットごとの価格",
+        "per_unit_after_fee": "手数料後の単価",
+        "per_unit_before_fee": "手数料前の単価",
+        "text": "価格"
+      },
+      "primary_currency": "主要通貨",
+      "profit": "利益",
+      "profit_and_loss": "利益と損失",
+      "profit_and_loss_overview": "損益の概要",
+      "profit_or_loss": "利益または損失",
+      "purchase": {
+        "commission": "購入手数料",
+        "costs": "購入コスト",
+        "costs_per_unit": "単位あたりの取得コスト",
+        "price": "購入価格",
+        "price_per_unit": "単位あたりの購入価格"
+      },
+      "rate": "レート",
+      "rate_of_return": {
+        "all_time": "全期間のリターン率",
+        "text": "リターン率"
+      },
+      "real_time_quotes": "リアルタイムの見積もり",
+      "regular_addition": "定期的な追加",
+      "required_margin": "必要な証拠金",
+      "resistance_level": "抵抗レベル{level}",
+      "resistances": "レジスタンス",
+      "retained_earnings": "剰余金",
+      "retracement": "リトレースメント",
+      "return_frequency": "リターン頻度",
+      "return_on_investment": "投資利益率",
+      "revenue": "収益",
+      "risk": {
+        "amount": "リスク額",
+        "effective": "有効リスク",
+        "in_percentage": "パーセンテージ表示のリスク",
+        "ratio": "リスク比率",
+        "reward": {
+          "ratio": "リスクリワード比率",
+          "text": "リスクリワード"
+        },
+        "text": "リスク",
+        "tolerated": "許容リスク",
+        "type": "リスクタイプ"
+      },
+      "sales": {
+        "commission": "セールスコミッション",
+        "costs": "セールスコスト",
+        "costs_per_unit": "ユニットごとのセールスコスト",
+        "price": "販売価格",
+        "price_per_unit": "ユニットごとの販売価格"
+      },
+      "secondary_currency": "副次通貨",
+      "sell": {
+        "commission": "販売手数料",
+        "costs": "販売経費",
+        "costs_per_unit": "単位あたりの販売経費",
+        "price": "販売価格",
+        "price_per_unit": "単位あたりの販売価格"
+      },
+      "selling_expenses": "販売費",
+      "selling_operating_expenses": "販売および運営費用",
+      "slippage": "スリッページ",
+      "starting": {
+        "balance": "初期残高",
+        "principal": "初期元本"
+      },
+      "stop_loss": {
+        "amount": "ストップロス金額",
+        "at": "ストップロス位置",
+        "in_percentage": {
+          "text": "パーセンテージでのストップロス",
+          "with_slippage": "スリッページ付きパーセンテージでのストップロス"
+        },
+        "price": {
+          "at": "ストップロス位置",
+          "text": "ストップロス",
+          "with_slippage": "スリッページ付きストップロス"
+        },
+        "text": "ストップロス",
+        "type": "ストップロスタイプ"
+      },
+      "stop_loss_take_profit": "ストップロス/利益確定",
+      "subtotal": "小計",
+      "support_level": "サポートレベル{level}",
+      "supports": "サポート",
+      "take_profit": {
+        "amount": "利益確定額",
+        "at": "利益確定",
+        "price": {
+          "after_fee": "手数料後の利益確定",
+          "at": "利益確定",
+          "text": "利益確定",
+          "with_slippage": "スリッページを考慮した利益確定"
+        },
+        "text": "利益確定",
+        "type": "利益確定タイプ"
+      },
+      "tax": {
+        "amount": "税金金額",
+        "exempt_amount_per_year": "年間非課税金額",
+        "rate": "税率"
+      },
+      "taxes": "税金",
+      "tip": {
+        "amount": "チップの金額",
+        "rate": "チップのレート",
+        "text": "チップ"
+      },
+      "total": {
+        "contributions": "総拠出金",
+        "costs": {
+          "losing_position": "敗北したポジションの総コスト",
+          "profit_position": "勝利したポジションの総コスト",
+          "text": "総コスト"
+        },
+        "deposits": "総預金",
+        "earnings": "総収益",
+        "expenses": "総支出",
+        "fee": "合計手数料",
+        "gain": "総利益",
+        "loss": "総損失",
+        "return": "総収益",
+        "revenue": "総収入",
+        "tax": "合計税金",
+        "text": "合計",
+        "withdrawals": "総引き出し"
+      },
+      "trade": {
+        "size": {
+          "oz": "トレードサイズ（オンス）",
+          "text": "トレードサイズ",
+          "units": "トレードサイズ（ユニット）"
+        }
+      },
+      "trend": {
+        "down": "下降ト",
+        "sideways": "横ばい",
+        "text": "トレンド",
+        "up": "上昇ト"
+      },
+      "user_currency": "ユーザーの通貨",
+      "vat": {
+        "amount": "VATの金額",
+        "rate": "VATのレート",
+        "text": "VAT"
+      },
+      "withdrawal": {
+        "amount": "出金額",
+        "frequency": "出金頻度",
+        "text": "出金"
+      },
+      "withdrawals": {
+        "amount": "出金額合計",
+        "frequency": "出金の頻度",
+        "text": "出金合計"
+      }
+    },
+    "message": {
+      "last_updated_on": "{date}に最後に更新されたレート"
+    },
+    "select": {
+      "account_currency": "口座の通貨を選択してください",
+      "compounding_frequency": "複利頻度を選択してください",
+      "contribution_frequency": "拠出頻度を選択してください",
+      "currency": "通貨を選択してください",
+      "interest_rate": "利率を選択してください",
+      "leverage": "レバレッジを選択してください",
+      "pivot_point_method": "ピボットポイント方法を選択してください",
+      "primary_currency": "主要通貨を選択してください",
+      "return_frequency": "リターン頻度を選択してください",
+      "risk_type": "リスクタイプを選択してください",
+      "secondary_currency": "副次通貨を選択してください",
+      "stop_loss_type": "ストップロスタイプを選択してください",
+      "take_profit_type": "利益確定タイプを選択してください",
+      "tax_rate": "税率を選択してください"
+    },
+    "warning": {
+      "risk_reward_ratio": "リスクリワード比率が2未満です。"
+    }
+  }
+};
 static const Map<String,dynamic> ru = {
   "finance": {
     "disclaimer": {
@@ -3606,6 +3635,11 @@ static const Map<String,dynamic> ru = {
         "label": "Скидка",
         "per_unit": "Скидка за единицу",
         "rate": "Ставка скидки"
+      },
+      "duration": {
+        "double": {
+          "investment": "Срок удвоения инвестиций"
+        }
       },
       "duration_years": "Продолжительность в годах",
       "earnings": "Доходы",
@@ -4162,6 +4196,11 @@ static const Map<String,dynamic> en = {
         "per_unit": "Discount per unit",
         "rate": "Discount rate"
       },
+      "duration": {
+        "double": {
+          "investment": "Duration to double investment"
+        }
+      },
       "duration_years": "Duration in years",
       "earnings": "Earnings",
       "effective_annual_rate": "Effective annual rate",
@@ -4452,560 +4491,565 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> zh = {
   "finance": {
     "disclaimer": {
-      "incorrect_results": "Se ritieni che i risultati siano errati, è possibile che alcuni parametri possano variare in base al tuo broker e agli strumenti finanziari che stai utilizzando. Se necessario, puoi regolare queste impostazioni nella sezione avanzata.",
-      "intervening_markets": "Partecipare ai mercati finanziari comporta rischi che possono portare a perdite finanziarie. Si prega di non prendere decisioni di trading o di investimento basate esclusivamente su queste informazioni.",
-      "invest_warning": "Si prega di non effettuare operazioni o investimenti basandosi unicamente su queste informazioni.",
-      "trading": "I mercati finanziari comportano rischi significativi per il tuo capitale. Le informazioni e i risultati forniti da questa applicazione sono puramente indicativi e non dovrebbero essere interpretati come consigli o raccomandazioni. Assicurati di verificare questi risultati, poiché alcuni parametri possono variare a seconda del tuo broker o degli strumenti finanziari che utilizzi, e l'applicazione potrebbe quindi generare informazioni inesatte. {company} declina ogni responsabilità per perdite subite da qualsiasi persona che agisca sulla base di queste informazioni o risultati."
+      "incorrect_results": "如果您认为结果不正确，可能是由于您的经纪人和您使用的金融工具的某些参数可能有所不同。如果需要，您可以在高级部分调整这些设置。",
+      "intervening_markets": "参与金融市场存在风险，可能会导致财务损失。请不要仅基于此信息进行交易或投资决策。",
+      "invest_warning": "请不要仅根据这些信息进行交易或投资。",
+      "trading": "金融市场对您的资本带来了重大风险。此应用程序提供的信息和结果纯粹是指示性的，不应被解释为建议或推荐。请确保验证这些结果，因为某些参数可能会根据您的经纪人或您使用的金融工具而有所不同，因此应用程序可能会产生不准确的信息。{company}对任何根据此信息或结果采取行动的人所造成的损失概不负责。"
     },
     "error": {
-      "close_price_between_low_high_price": "Il prezzo di chiusura deve essere compreso tra il prezzo più basso e il prezzo più alto.",
-      "high_price_higher_low_price": "Il prezzo più alto deve superare il prezzo più basso.",
-      "open_price_between_low_high_price": "Il prezzo di apertura deve essere compreso tra il prezzo più basso e il prezzo più alto.",
-      "quote_refresh": "La quotazione dello strumento finanziario selezionato non può essere aggiornata. Riprova più tardi.",
-      "quote_unavailable": "Impossibile recuperare il tasso di cambio di {symbol}. Si prega di riprovare più tardi."
+      "close_price_between_low_high_price": "收盘价必须在最低价和最高价之间。",
+      "high_price_higher_low_price": "最高价必须超过最低价。",
+      "open_price_between_low_high_price": "开盘价必须在最低价和最高价之间。",
+      "quote_refresh": "无法更新所选金融工具的报价。请稍后重试。",
+      "quote_unavailable": "无法检索{symbol}汇率。请稍后再试。"
     },
     "help": {
       "account_balance": {
-        "example": "Se hai stanziato 50.000 € per il trading, inserisci 50.000 come importo.",
-        "text": "Indica il valore attuale del tuo capitale disponibile."
+        "example": "如果您为交易分配了 50,000 欧元，请输入 50,000 作为金额。",
+        "text": "请提供您当前可用资金的价值。"
       },
       "account_currency": {
-        "example": "Ad esempio, se il tuo conto è basato negli Stati Uniti, selezioneresti 'USD' dal menu a tendina.",
-        "instructions": "Seleziona la valuta associata al tuo conto dalle opzioni del menu a tendina. Questa è la valuta in cui viene mantenuto il tuo saldo e vengono elaborate le transazioni."
+        "example": "例如，如果您的账户是基于美国的，您会在下拉菜单中选择'USD'。",
+        "instructions": "从下拉菜单中选择与您账户相关的货币。这是您的余额保持和交易处理的货币。"
       },
       "additional_contributions": {
-        "example": "Se prevedi di depositare \u0024500 mensilmente nel tuo account, dovresti inserire 500 come contributo aggiuntivo.",
-        "text": "Si riferisce a importi aggiuntivi di denaro depositati nel tuo account a intervalli regolari."
+        "example": "如果您计划每月向账户存入500美元，您应输入500作为额外贡献。",
+        "text": "指定定期存入账户的额外金额。"
       },
       "additional_tax_rate": {
-        "example": "Se un prodotto è soggetto ad un'IVA del 20% e viene aggiunta una tassa specifica o locale aggiuntiva del 2%, inserisci 2 come valore.",
-        "text": "Si riferisce a una tassa aggiuntiva che viene applicata oltre all'IVA."
+        "example": "如果一个产品适用20%的增值税并增加了额外的2%特定或地方税，请输入2作为该税率。",
+        "text": "指的是在增值税之上应用的额外税款。"
       },
       "amount_at_risk": {
-        "example": "Se hai un capitale di 50.000 € e prevedi di rischiare 1.000 €, inserisci 1.000 come importo.",
-        "text": "Indica l'importo che vuoi rischiare per questa transazione, esprimendolo in valore monetario relativo al tuo capitale."
+        "example": "如果您的资本为 50,000 欧元，您计划冒险 1,000 欧元，请输入 1,000 作为金额。",
+        "text": "请以与您的资本相关的货币价值表示您希望在此交易中冒险的金额。"
       },
       "buying_expenses_per_unit": {
-        "example": "Ad esempio, se ti viene addebitata una tassa fissa di €5 per unità acquistata, inserisci '5' in questo campo. Se, d'altra parte, paghi una commissione del 2% per ogni unità acquistata, dovresti inserire '2'. Inserisci solo la tariffa senza il simbolo '%' o l'importo fisso senza il simbolo della valuta.",
-        "instructions": "Inserisci la tariffa delle spese aggiuntive o l'importo fisso sostenuto per ogni unità acquistata, separato dal prezzo di acquisto. Se è una tariffa, specifica la percentuale addebitata come commissione, tassa o costi aggiuntivi per unità. Se è un importo fisso, assicurati che rifletta i costi per unità, escludendo il prezzo base dell'attivo stesso."
+        "example": "例如，如果每购买单位有5元的固定费用，您需要在此字段输入'5'。如果您支付2%的购买手续费，请输入'2'。不要包括百分比符号或货币符号，只输入数字。",
+        "instructions": "请输入每单位购买额外的费用或固定金额。这应该是除购买价格外的费用，可能包括手续费、税款或每单位收取的额外费用。如果是固定金额，它应该反映每单位的成本，不包括资产的基本价格。"
       },
       "buying_price": {
-        "example": "Ad esempio, se hai acquistato un prodotto per €150,25, dovresti inserire '150,25'.",
-        "instructions": "Inserisci il prezzo di acquisto dell'attivo. Questo è il costo totale per unità, esclusi oneri aggiuntivi come commissioni."
+        "example": "例如，如果您以15025元的价格购买了产品，请输入'15025'。",
+        "instructions": "请输入资产的购买价格。这应该是每单位的总成本，不包括任何额外费用，如手续费。"
       },
       "compound_frequency": {
-        "example": "Se gli interessi sono reinvestiti trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
-        "text": "Indica la frequenza con cui gli interessi vengono reinvestiti."
+        "example": "如果利息每季度重新投资，您应输入'每季度'作为频率。",
+        "text": "指示利息重新投资的频率。"
       },
       "contribution_frequency": {
-        "example": "Se contribuisci al tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
-        "text": "Designa la frequenza con cui vengono effettuate contribuzioni aggiuntive al tuo account."
+        "example": "如果您每季度向账户投入，您应输入'每季度'作为频率。",
+        "text": "指定额外贡献到账户的频率。"
       },
       "discount_amount": {
-        "example": "Se un prodotto è originariamente venduto per \u0024100 e hai diritto a uno sconto di \u002420, inserisci 20 come importo.",
-        "text": "Rappresenta la riduzione del valore monetario che viene sottratta dal prezzo iniziale di un prodotto o servizio."
+        "example": "如果一个产品原价为\u0024100，且你可以享受\u002420的折扣，请输入20作为折扣金额。",
+        "text": "代表从商品或服务的初始价格中减去的货币价值的减少。"
       },
       "discount_rate": {
-        "example": "Se il prezzo iniziale di un prodotto è \u0024100 e viene offerto uno sconto del 20%, indica 20 come valore.",
-        "text": "Rappresenta la percentuale di riduzione applicata al prezzo iniziale di un prodotto o servizio."
+        "example": "如果一个产品的起始价格为\u0024100，且提供了20%的折扣，请输入20作为折扣率。",
+        "text": "代表应用于商品或服务初始价格的百分比减少。"
       },
       "duration_in_years": {
-        "example": "Se il calcolo è fatto per un periodo di 5 anni, dovresti inserire 5 come durata.",
-        "text": "Rappresenta la durata, espressa in anni, su cui si basa il calcolo finanziario."
+        "example": "如果计算是为了5年的期间，您应输入5作为期间。",
+        "text": "代表金融计算基于的年限。"
       },
       "entry_fees": {
-        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione all'apertura, inserisci 0,1 come percentuale.",
-        "text": "Indica la percentuale della commissione che il tuo broker addebita all'apertura di una posizione."
+        "example": "如果您的经纪人在开仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
+        "text": "请提供您的经纪人在开仓时收取的佣金百分比。"
       },
       "entry_price": {
-        "example": "Se prevedi di acquistare al prezzo corrente, indica questo importo. Tuttavia, se il prezzo corrente è di 50 € per azione e prevedi di acquistare a 55 € per azione, inserisci 55 come valore.",
-        "text": "Indica il prezzo al quale prevedi di entrare nel mercato, che si tratti del prezzo corrente o di uno previsto."
+        "example": "如果您计划以当前价格购买，请指定此金额。但是，如果当前价格为 50 欧元/股，您计划以 55 欧元/股购买，请输入 55 作为值。",
+        "text": "请指定您计划进入市场的价格，无论是当前价格还是预期价格。"
       },
       "exit_fees": {
-        "example": "Se il tuo broker addebita lo 0,1% del valore totale della posizione alla chiusura, inserisci 0,1 come percentuale.",
-        "text": "Indica la percentuale della commissione che il tuo broker addebita alla chiusura di una posizione."
+        "example": "如果您的经纪人在平仓时收取交易总价值的 0.1%，请输入 0.1 作为百分比。",
+        "text": "请提供您的经纪人在平仓时收取的佣金百分比。"
       },
       "expected_sale_units": {
-        "example": "Ad esempio, se prevedi di vendere 150 unità di un prodotto, inserisci '150'.",
-        "instructions": "Inserisci il numero di unità che prevedi di vendere. Questo numero dovrebbe rappresentare il totale delle singole unità che pianifichi di vendere, non il valore totale degli attivi."
+        "example": "例如，如果您计划销售150个产品单位，请输入'150'。",
+        "instructions": "请输入您计划销售的单位数量。这个数字应代表您打算出售的单个单位的总数量，而不是资产的总价值。"
       },
       "financial_instrument": {
-        "example": "Ad esempio, se fai trading sugli indici, potresti selezionare 'Indici' dal menu a tendina.",
-        "instructions": "Scegli il tipo di strumento finanziario con cui operi dalle opzioni del menu a tendina. Gli strumenti finanziari sono attivi che possono essere scambiati o utilizzati per scopi di investimento. Questi possono includere azioni, obbligazioni, derivati, valute, ecc."
+        "example": "例如，如果您交易指数，您可以在下拉菜单中选择'指数'。",
+        "instructions": "从下拉菜单中选择您交易的金融工具类型。金融工具是可以交易或用于投资目的的资产。这可能包括股票、债券、衍生品、货币等。"
       },
       "investment_annual_contribution": {
-        "example": "Ad esempio, se prevedi di contribuire annualmente \u002410,000 al tuo investimento, inserisci '10,000'.",
-        "instructions": "Inserisci l'importo che intendi contribuire ogni anno al tuo investimento. Questo potrebbe essere sotto forma di depositi in contanti o altre forme di investimento."
+        "example": "例如，如果您计划每年向您的投资贡献10,000美元，请输入'10,000'。",
+        "instructions": "请输入您计划每年对您的投资贡献的金额。这可能是现金存款或其他投资形式。"
       },
       "investment_tax_rate": {
-        "example": "Ad esempio, se la tua aliquota fiscale applicabile è del 25%, inserisci '25'.",
-        "instructions": "Inserisci l'aliquota fiscale che si applica ai tuoi redditi di investimento o plusvalenze. Questo dovrebbe essere espresso in percentuale. Assicurati di utilizzare l'aliquota corrispondente al tuo scaglione fiscale o l'aliquota specifica per il tipo di reddito che stai dichiarando."
+        "example": "例如，如果您的适用税率是25%，请输入'25'。",
+        "instructions": "请输入适用于您的投资收入或资本增值的税率。这应以百分比表示。请确保使用与您所在税率区间相对应的税率或您报告收入类型的特定税率。"
       },
       "leverage": {
-        "example": "Ad esempio, se con 1 dollaro del tuo capitale, prendi in prestito altri 9 dollari, scegli la leva '10:1'.",
-        "instructions": "Seleziona il livello di leva finanziaria per il tuo commercio."
+        "example": "例如，如果您用1美元的资本借入额外的9美元，请选择'10:1'的杠杆。",
+        "instructions": "选择您交易的金融杠杆水平。"
       },
       "operating_expenses": {
-        "example": "Ad esempio, se la tua azienda spende €3.500 per l'affitto, €2.500 per le utenze, €10.000 per gli stipendi e €4.000 in varie spese amministrative, dovresti sommare questi importi e inserire '20000'.",
-        "instructions": "Inserisci l'importo totale delle spese sostenute per le attività operative della tua azienda. Ciò include costi come affitto, utenze, stipendi, manutenzione e altre spese amministrative necessarie per l'operatività quotidiana. Non dovresti includere tasse, pagamenti degli interessi o altre spese non operative."
+        "example": "例如，如果您的业务在租金上花费350000元，在公用事业上花费250000元，在薪资上花费1000000元，在其他行政费用上花费400000元，您需要加总这些数额并输入'2000000'。",
+        "instructions": "请输入业务的总运营费用。这包括租金、公用事业、薪资、维护和其他日常运营所需的行政费用。不要包括税款、利息支付或非运营费用。"
       },
       "position_size": {
-        "example": "Ad esempio, se stai negoziando 100 azioni di un'azienda, inseriresti '100'. Se stai operando con il forex e scambiando 500 unità, inseriresti '500'.",
-        "instructions": "Inserisci la quantità dello strumento finanziario che stai mantenendo o negoziando. La dimensione della posizione potrebbe essere in azioni, lotti, contratti o un'altra unità, a seconda dell'attivo. Puoi selezionare l'unità di misura dal menu a tendina accanto al campo di inserimento."
+        "example": "例如，如果您正在交易某公司的100股股票，您会输入'100'。如果您在进行外汇交易并交易500单位，您会输入'500'。",
+        "instructions": "输入您持有或交易的金融工具的数量。头寸大小可能以股票、批次、合同或其他单位表示，具体取决于资产。您可以在输入字段旁边的下拉菜单中选择测量单位。"
       },
       "price_after_vat": {
-        "example": "Se un prodotto costa \u002410 prima delle tasse ed è soggetto a una tariffa IVA del 20%, il prezzo dopo l'IVA sarebbe di \u002412, inserire 12 come valore.",
-        "text": "Si riferisce al prezzo totale di un prodotto o servizio dopo l'aggiunta dell'imposta sul valore aggiunto (IVA). Questo è il prezzo al dettaglio che i consumatori pagano. L'IVA è un'imposta sul consumo che viene applicata alla vendita di beni e servizi in molti paesi."
+        "example": "如果一种产品税前价格为10美元，并且适用20%的增值税率，那么增值税后的价格将为12美元，请输入12作为值。",
+        "text": "指的是在添加增值税（VAT）后的产品或服务的总价格。这是消费者支付的零售价格。增值税是许多国家对商品和服务销唀征收的一种消费税。"
       },
       "price_before_vat": {
-        "example": "Se un prodotto costa \u002410 prima delle tasse e è soggetto ad un'aliquota IVA del 20%, inserisci 10 come valore pre-tassa.",
-        "text": "Si riferisce al prezzo di un prodotto o servizio prima dell'aggiunta dell'imposta sul valore aggiunto (IVA). L'IVA è una tassa sul consumo imposta quando i prodotti e i servizi vengono venduti in molti paesi."
+        "example": "如果一个产品税前价格为\u002410且适用20%的增值税率，请输入10作为税前价值。",
+        "text": "指的是商品或服务在增值税（VAT）加成之前的价格。增值税是许多国家在销售商品和服务时征收的消费税。"
       },
       "rate_of_return": {
-        "example": "Se prevedi un ritorno del 2% al mese, dovresti inserire 2 come tasso di rendimento.",
-        "text": "Simboleggia il tasso di rendimento su un periodo definito."
+        "example": "如果您预期每月回报率为2%，您应输入2作为回报率。",
+        "text": "象征着定义期间的回报率。"
       },
       "rate_of_return_frequency": {
-        "example": "Nei casi in cui il tasso di rendimento è distribuito mensilmente, dovresti selezionare 'Mensile' come frequenza.",
-        "text": "Designa la periodicità della distribuzione del tasso di rendimento."
+        "example": "如果回报率按月分配，您应选择'每月'作为频率。",
+        "text": "指定回报率分配的周期性。"
       },
       "risk": {
-        "example": "Se sei disposto a rischiare 1.000 €, che equivale al 2% del tuo capitale di 50.000 €, inserisci 2 come valore.",
-        "text": "Indica la percentuale del tuo capitale che sei disposto a rischiare per questa transazione. Si consiglia di non rischiare più del 2% del proprio capitale in una singola transazione."
+        "example": "如果您同意冒险 1,000 欧元，这相当于您 50,000 欧元资本的 2%，请输入 2 作为值。",
+        "text": "请提供您希望在此交易中冒险的资本百分比。建议不要在单笔交易中冒险超过您资本的 2%。"
       },
       "risk_reward_ratio": {
-        "example": "Se inserisci 2, significa che per ogni euro che rischi, speri in un potenziale guadagno di 2 euro.",
-        "text": "Indica il rapporto tra l'importo del rischio e il possibile guadagno che sei disposto ad accettare per questa transazione."
+        "example": "如果您输入 2，这意味着您预计每冒险 1 美元，将获得 2 美元的潜在收益。",
+        "text": "请提供您愿意接受的此交易中风险金额和潜在收益之间的比率。"
       },
       "selling_expenses_per_unit": {
-        "example": "Ad esempio, se ci sono tariffe di transazione fisse di €3 per unità venduta, inserisci '3' in questo campo. Se c'è una commissione di intermediazione dell'1,5% sul prezzo di vendita per unità, dovresti inserire '1.5'. Ricorda di inserire solo la tariffa senza il simbolo '%' o l'importo in denaro senza simboli della valuta.",
-        "instructions": "Inserisci i costi aggiuntivi o le tariffe associate a ogni unità venduta, oltre al prezzo di vendita. Questo potrebbe essere un importo specifico di denaro o una tariffa percentuale. Questo numero dovrebbe riflettere solo i costi associati direttamente con il processo di vendita di ogni unità, come tariffe di transazione, commissioni o altri oneri per unità venduta, e non dovrebbe includere il prezzo base dell'unità."
+        "example": "例如，如果每售出单位有3元的交易费用，您需要在此字段输入'3'。如果有基于销售价格1.5%的经纪人佣金，请输入'1.5'。不要包括百分比符号或货币符号，只输入数字。",
+        "instructions": "请输入与每单位销售相关的费用或额外收费，除了销售价格。这可以是一个具体的金额或一个百分比率。此数字应直接反映每单位销售商品的交易费用、佣金或其他费用，不应包括单位基础价格。"
       },
       "selling_price": {
-        "example": "Ad esempio, se hai venduto un prodotto per €300,50, inserisci '300,50'.",
-        "instructions": "Inserisci il prezzo di vendita dell'attivo. Questo dovrebbe riflettere l'importo totale ricevuto per unità, escludendo le spese di transazione come commissioni o tariffe di servizio."
+        "example": "例如，如果您以30050元的价格出售了产品，请输入'30050'。",
+        "instructions": "请输入资产的销售价格。这应是您每单位获得的全部金额，不计算任何交易费用或服务费。"
       },
       "slippage": {
-        "example": "Se effettui un ordine di mercato per acquistare un'azione che attualmente è quotata a 100 €, ma l'esecuzione avviene a 102 €, questa differenza di 2 €, che equivale al 2% del prezzo originale, è denominata 'slippage'. In questo caso, dovresti inserire 2 come percentuale.",
-        "text": "Si riferisce alla differenza tra il prezzo expected di una transazione e il prezzo al quale la transazione viene effettivamente eseguita. Lo slippage si verifica spesso durante i periodi di alta volatilità quando vengono utilizzati ordini di mercato, o può anche verificarsi quando vengono eseguiti ordini di grandi dimensioni e non vi è un volume sufficiente al livello di prezzo richiesto."
+        "example": "如果您下达以当前价格 100 欧元购买股票的市场订单，但实际执行价格为 102 欧元，则此 2 欧元 (相当于原始价格的 2%) 差异称为“滑点”。在这种情况下，您需要输入 2 作为百分比。",
+        "text": "指的是交易预期价格和实际执行价格之间的差异。滑点在高波动时期使用市场订单时经常发生，也可能发生在执行大订单时，并且没有足够的交易量在所需的价格水平上。"
       },
       "starting_balance": {
-        "example": "Se inizi i tuoi calcoli finanziari con un importo iniziale di \u00241.000, dovresti inserire 1000 come saldo iniziale.",
-        "text": "Rappresenta l'importo iniziale di denaro disponibile nel tuo account all'inizio di un periodo."
+        "example": "如果您开始的财务计算以初始金额1,000美元为基础，您应输入1000作为起始余额。",
+        "text": "代表一段时期开始时账户中可用的初始金额。"
       },
       "stop_loss_price": {
-        "example": "Se hai acquistato un'azione a 50 € e hai scelto di proteggere la tua posizione con un ordine di stop-loss a 45 €, inserisci 45 come valore.",
-        "text": "Indica il prezzo al quale imposterai il tuo ordine di stop-loss per limitare le potenziali perdite."
+        "example": "如果您以 50 欧元购买了股票，并选择以 45 欧元设置止损单来保护您的头寸，请输入 45 作为值。",
+        "text": "请指定您将设置止损单以限制潜在损失的价格。"
       },
       "tax_rate": {
-        "example": "Ad esempio, se il tuo business rientra in una fascia fiscale del 25% dopo tutte le deduzioni ed esenzioni, dovresti inserire '25' in questo campo. Nota che dovresti inserire solo il numero percentuale senza il simbolo '%'.",
-        "instructions": "Inserisci l'aliquota fiscale applicabile in percentuale a cui è soggetto il tuo business o attivo. Questa tariffa è determinata da vari fattori, incluso il tuo livello di reddito, il tipo di business e la giurisdizione. Rappresenta la parte dei tuoi redditi che viene pagata al governo. Assicurati che questa sia l'aliquota effettiva, tenendo conto di tutte le deduzioni e esenzioni applicabili."
+        "example": "例如，如果您的业务在所有减免和优惠后处于25%的税率范围内，请在此字段输入'25'。不要包括百分比符号，只输入数字。",
+        "instructions": "请输入适用于您业务或资产的税率百分比。这个率由多个因素决定，包括收入水平、业务类型和司法管辖区。它代表您需要支付给政府的收入部分。确保这是一个有效税率，考虑到所有适用的减免和优惠。"
       },
       "tip_amount": {
-        "example": "Se il tuo conto è di \u002420 e desideri lasciare una mancia di \u00245, dovresti inserire 5 come importo.",
-        "text": "Rappresenta un importo aggiuntivo di denaro, aggiunto a un conto come mancia, per mostrare apprezzamento per un servizio di qualità."
+        "example": "如果你的账单是\u002420且你想给\u00245的小费，你应该输入5作为小费金额。",
+        "text": "代表为表达对高质量服务的感激而额外增加到账单上的金额。"
       },
       "tip_rate": {
-        "example": "Se il tuo conto è di \u002450 e desideri lasciare una mancia del 15%, dovresti inserire 15 come valore.",
-        "text": "È una percentuale dell'importo totale del conto, aggiunta come mancia, per mostrare apprezzamento per un servizio di qualità."
+        "example": "如果你的账单是\u002450且你想给15%的小费，你应该输入15作为小费率。",
+        "text": "是总账单金额的百分比，作为小费额外给予，以示对高质量服务的感激。"
       },
       "vat_rate": {
-        "example": "Se il prezzo pre-tassa di un prodotto è \u002410 e l'aliquota IVA applicata è del 20%, inserisci 20 come valore dell'aliquota.",
-        "text": "Si riferisce alla percentuale dell'imposta sul valore aggiunto (IVA) applicata a un prodotto o servizio."
+        "example": "如果一个产品税前价格为\u002410且适用的增值税率为20%，请将20作为税率值输入。",
+        "text": "指的是应用于商品或服务的增值税（VAT）的百分比。"
       },
       "withdrawals_amount": {
-        "example": "Se prevedi di prelevare \u0024200 mensilmente dal tuo account, dovresti inserire 200 come importo del prelievo.",
-        "text": "Specifica l'importo da prelevare periodicamente dal tuo account."
+        "example": "如果您计划每月从账户中提取200美元，您应输入200作为提款金额。",
+        "text": "指定定期从账户中提取的金额。"
       },
       "withdrawals_frequency": {
-        "example": "Se effettui un prelievo dal tuo account trimestralmente, dovresti inserire 'Trimestrale' come frequenza.",
-        "text": "Designa la frequenza con cui vengono effettuati prelievi dal tuo account."
+        "example": "如果您每季度从账户中提款，您应输入'每季度'作为频率。",
+        "text": "指定从账户中提款的频率。"
       }
     },
     "label": {
       "account": {
-        "balance": "Saldo conto",
-        "currency": "Valuta del conto",
-        "size": "Dimensione conto"
+        "balance": "账户余额",
+        "currency": "账户货币",
+        "size": "账户规模"
       },
       "additional": {
-        "contributions": "Contributi aggiuntivi",
-        "metrics": "Metriche aggiuntive"
+        "contributions": "附加贡献",
+        "metrics": "附加指标"
       },
       "additional_tax": {
-        "amount": "Importo di tasse aggiuntive",
-        "rate": "Aliquota di tasse aggiuntive",
-        "text": "Tasse aggiuntive"
+        "amount": "额外税额",
+        "rate": "额外税率",
+        "text": "额外税"
       },
       "after": {
         "fee": {
-          "amount": "Importo dopo le commissioni",
-          "price": "Prezzo dopo le commissioni"
+          "amount": "扣除费用后的金额",
+          "price": "扣除费用后的价格"
         },
         "vat": {
-          "amount": "Importo dopo l'IVA",
-          "price": "Prezzo dopo l'IVA"
+          "amount": "增值税后金额",
+          "price": "增值税后价格"
         }
       },
       "amount": {
-        "after_fee": "Importo dopo le commissioni",
-        "before_fee": "Importo prima delle commissioni",
-        "fee": "Importo delle commissioni",
-        "text": "Importo",
-        "type": "Tipo di importo"
+        "after_fee": "扣除费用后的金额",
+        "before_fee": "扣费前的金额",
+        "fee": "费用金额",
+        "text": "金额",
+        "type": "金额类型"
       },
-      "amount_at_risk": "Importo a rischio",
-      "annual_contribution": "Contributo annuale",
-      "average_annual_return": "Rendimento annuale medio",
+      "amount_at_risk": "风险金额",
+      "annual_contribution": "年度贡献",
+      "average_annual_return": "年均回报",
       "before": {
         "fee": {
-          "amount": "Importo prima delle commissioni",
-          "price": "Prezzo prima delle commissioni"
+          "amount": "费用前金额",
+          "price": "费用前价格"
         },
         "vat": {
-          "amount": "Importo prima dell'IVA",
-          "price": "Prezzo prima dell'IVA"
+          "amount": "增值税前金额",
+          "price": "增值税前价格"
         }
       },
       "bill": {
-        "amount": "Importo fattura",
-        "breakdown": "Dettaglio fattura",
-        "rate": "Tasso fattura",
-        "text": "Fattura"
+        "amount": "账单金额",
+        "breakdown": "账单明细",
+        "rate": "账单税率",
+        "text": "账单"
       },
       "break_even": {
-        "price": "Prezzo di pareggio",
-        "units": "Unità di pareggio"
+        "price": "保本价格",
+        "units": "保本单位"
       },
-      "breakdown": "Ripartizione",
+      "breakdown": "细分",
       "buy": {
-        "commission": "Commissione d'acquisto",
-        "costs": "Spese di acquisto",
-        "costs_per_unit": "Spese di acquisto per unità",
-        "price": "Prezzo d'acquisto",
-        "price_per_unit": "Prezzo d'acquisto per unità"
+        "commission": "购买佣金",
+        "costs": "购买费用",
+        "costs_per_unit": "每单位购买费用",
+        "price": "购买价格",
+        "price_per_unit": "每单位购买价格"
       },
-      "cashflow": "Flusso di cassa",
-      "close_price": "Prezzo di chiusura",
+      "cashflow": "现金流",
+      "close_price": "收盘价",
       "compound": {
-        "interest": "Interesse composto",
-        "text": "Composto"
+        "interest": "复合利息",
+        "text": "复合"
       },
       "compounding": {
-        "frequency": "Frequenza di capitalizzazione",
-        "text": "Capitalizzazione"
+        "frequency": "复利频率",
+        "text": "复利"
       },
-      "contribution_frequency": "Frequenza dei contributi",
+      "contribution_frequency": "投资频率",
       "cost": {
         "of": {
           "goods": {
-            "sold": "Costo dei beni venduti"
+            "sold": "已售商品成本"
           },
-          "investment": "Costo dell'investimento"
+          "investment": "投资成本"
         }
       },
-      "costs": "Costi",
-      "currencies": "Valute",
-      "currency": "Valuta",
-      "deposits": "Depositi",
+      "costs": "成本",
+      "currencies": "货币",
+      "currency": "货币",
+      "deposits": "存款",
       "discount": {
-        "amount": "Importo dello sconto",
-        "label": "Sconto",
-        "per_unit": "Sconto per unità",
-        "rate": "Tasso di sconto"
+        "amount": "折扣金额",
+        "label": "折扣",
+        "per_unit": "每单位折扣",
+        "rate": "折扣率"
       },
-      "duration_years": "Durata in anni",
-      "earnings": "Guadagni",
-      "effective_annual_rate": "Tasso annuo effettivo",
+      "duration": {
+        "double": {
+          "investment": "投资翻倍的时间"
+        }
+      },
+      "duration_years": "年份持续时间",
+      "earnings": "收益",
+      "effective_annual_rate": "有效年利率",
       "ending": {
-        "balance": "Saldo finale",
-        "principal": "Capitale finale"
+        "balance": "结余",
+        "principal": "结余本金"
       },
       "entry": {
         "fees": {
-          "amount": "Importo della tariffa d'ingresso",
-          "text": "Commissioni di ingresso"
+          "amount": "入场费金额",
+          "text": "入场费"
         },
         "price": {
-          "at": "Prezzo di ingresso a",
-          "text": "Prezzo di ingresso",
-          "with_slippage": "Prezzo di ingresso con slippage"
+          "at": "入场价格为",
+          "text": "入场价格",
+          "with_slippage": "带滑点的入场价格"
         },
-        "text": "Ingresso"
+        "text": "入场"
       },
       "exit": {
         "fees": {
-          "amount": "Importo della tassa di uscita",
-          "text": "Commissioni di uscita"
+          "amount": "退出费用金额",
+          "text": "退出费用"
         },
         "price": {
-          "at": "Prezzo di uscita a",
-          "text": "Prezzo di uscita",
-          "with_slippage": "Prezzo di uscita con slippage"
+          "at": "退出价格为",
+          "text": "退出价格",
+          "with_slippage": "带滑点的退出价格"
         }
       },
-      "expected_sale_units": "Unità di vendita previste",
-      "extension": "Estensione",
-      "fees": "Commissioni",
+      "expected_sale_units": "预期销售单位",
+      "extension": "扩展",
+      "fees": "费用",
       "fibonacci": {
-        "level": "Livello di fibonacci",
-        "levels": "Livelli di fibonacci"
+        "level": "斐波那契水平",
+        "levels": "斐波那契水平"
       },
-      "financial_instrument": "Strumento finanziario",
-      "fixed_costs": "Costi fissi",
-      "gain": "Guadagno",
-      "gain_per_trade": "Guadagno per operazione",
-      "grand_total": "Totale generale",
+      "financial_instrument": "金融工具",
+      "fixed_costs": "固定成本",
+      "gain": "盈利",
+      "gain_per_trade": "每笔交易盈利",
+      "grand_total": "总计",
       "gross": {
-        "income": "Reddito lordo",
-        "margin": "Margine lordo",
+        "income": "总收入",
+        "margin": "毛利率",
         "profit": {
-          "margin": "Margine di utile lordo",
-          "text": "Utile lordo"
+          "margin": "毛利润率",
+          "text": "毛利润"
         }
       },
-      "high_price": "Prezzo più alto",
-      "indices": "Indici",
-      "initial_investment": "Investimento iniziale",
-      "interest_rate": "Tasso di interesse",
-      "involved_capital": "Capitale coinvolto",
+      "high_price": "最高价",
+      "indices": "指数",
+      "initial_investment": "初始投资",
+      "interest_rate": "利率",
+      "involved_capital": "参与资本",
       "last": {
-        "earnings": "Ultimi guadagni"
+        "earnings": "最后收益"
       },
-      "last_updated_on": "Tassi aggiornati l'ultima volta il",
-      "leverage": "Leverage",
-      "loss": "Perdita",
-      "loss_per_trade": "Perdita per operazione",
-      "low_price": "Prezzo più basso",
-      "margin": "Margine",
+      "last_updated_on": "最后更新的汇率",
+      "leverage": "杠杆",
+      "loss": "亏损",
+      "loss_per_trade": "每笔交易亏损",
+      "low_price": "最低价",
+      "margin": "保证金",
       "net": {
-        "buy_price": "Prezzo di acquisto netto",
-        "income": "Reddito netto",
+        "buy_price": "净购买价格",
+        "income": "净收入",
         "profit": {
-          "after_fee": "Utile netto dopo le commissioni",
-          "before_fee": "Utile netto prima delle commissioni",
-          "margin": "Margine di utile netto",
-          "text": "Utile netto"
+          "after_fee": "扣除费用后的净利润",
+          "before_fee": "扣除费用前的净利润",
+          "margin": "净利润率",
+          "text": "净利润"
         }
       },
       "number": {
-        "of_trades": "Numero di operazioni",
-        "plus_currency": "{number}+ valute"
+        "of_trades": "交易次数",
+        "plus_currency": "{number}+种货币"
       },
-      "open_price": "Prezzo di apertura",
+      "open_price": "开盘价",
       "operating": {
-        "expenses": "Spese operative",
-        "income": "Reddito operativo",
-        "margin": "Margine operativo",
-        "profit": "Profitto operativo"
+        "expenses": "营业费用",
+        "income": "营业收入",
+        "margin": "营业利润率",
+        "profit": "营业利润"
       },
-      "period": "Periodo",
+      "period": "时期",
       "pivot_point": {
         "camarilla": "Camarilla",
         "demark": "DeMark",
-        "fibonacci": "Fibonacci",
-        "method": "Metodo del punto pivot",
-        "standard": "Standard",
-        "text": "Punto pivot",
+        "fibonacci": "斐波那契",
+        "method": "中枢点方法",
+        "standard": "标准",
+        "text": "中枢点",
         "woodie": "Woodie"
       },
-      "pivot_points": "Punti pivot",
+      "pivot_points": "枢轴点",
       "position": {
-        "amount": "Importo della posizione",
-        "long": "Lungo",
-        "short": "Corto",
-        "size": "Dimensione posizione",
-        "text": "Posizione"
+        "amount": "持仓金额",
+        "long": "多头",
+        "short": "空头",
+        "size": "持仓规模",
+        "text": "持仓"
       },
       "price": {
-        "a": "Prezzo A",
-        "b": "Prezzo B",
-        "base": "Prezzo di base",
-        "breakdown": "Scomposizione del prezzo",
-        "per_unit": "Prezzo per unità",
-        "per_unit_after_fee": "Prezzo per unità dopo le commissioni",
-        "per_unit_before_fee": "Prezzo per unità prima delle commissioni",
-        "text": "Prezzo"
+        "a": "价格A",
+        "b": "价格B",
+        "base": "基本价格",
+        "breakdown": "价格细分",
+        "per_unit": "单价",
+        "per_unit_after_fee": "扣除费用后的单价",
+        "per_unit_before_fee": "扣费前的单价",
+        "text": "价格"
       },
-      "primary_currency": "Valuta principale",
-      "profit": "Profitto",
-      "profit_and_loss": "Profitto e perdita",
-      "profit_and_loss_overview": "Panoramica dei profitti e delle perdite",
-      "profit_or_loss": "Profitto o perdita",
+      "primary_currency": "主要货币",
+      "profit": "利润",
+      "profit_and_loss": "利润和损失",
+      "profit_and_loss_overview": "损益总览",
+      "profit_or_loss": "利润或损失",
       "purchase": {
-        "commission": "Commissione d'acquisizione",
-        "costs": "Costi d'acquisizione",
-        "costs_per_unit": "Costi di acquisizione per unità",
-        "price": "Prezzo d'acquisizione",
-        "price_per_unit": "Prezzo d'acquisizione per unità"
+        "commission": "采购佣金",
+        "costs": "采购成本",
+        "costs_per_unit": "每单位收购成本",
+        "price": "采购价格",
+        "price_per_unit": "每单位采购价格"
       },
-      "rate": "Tasso",
+      "rate": "税率",
       "rate_of_return": {
-        "all_time": "Tasso di rendimento complessivo",
-        "text": "Tasso di rendimento"
+        "all_time": "历史回报率",
+        "text": "回报率"
       },
-      "real_time_quotes": "Quotazioni in tempo reale",
-      "regular_addition": "Aggiunta regolare",
-      "required_margin": "Margine richiesto",
-      "resistance_level": "Livello di resistenza {level}",
-      "resistances": "Resistenze",
-      "retained_earnings": "Utili non distribuiti",
-      "retracement": "Ritracimento",
-      "return_frequency": "Frequenza di rendimento",
-      "return_on_investment": "Rendimento dell'investimento",
-      "revenue": "Entrate",
+      "real_time_quotes": "实时行情",
+      "regular_addition": "定期增加",
+      "required_margin": "所需保证金",
+      "resistance_level": "阻力位 {level}",
+      "resistances": "阻力",
+      "retained_earnings": "留存收益",
+      "retracement": "回撤",
+      "return_frequency": "回报频率",
+      "return_on_investment": "投资回报率",
+      "revenue": "收入",
       "risk": {
-        "amount": "Importo a rischio",
-        "effective": "Rischio effettivo",
-        "in_percentage": "Rischio in percentuale",
-        "ratio": "Rapporto di rischio",
+        "amount": "风险金额",
+        "effective": "有效风险",
+        "in_percentage": "百分比风险",
+        "ratio": "风险比率",
         "reward": {
-          "ratio": "Rapporto rischio-rendimento",
-          "text": "Rischio-rendimento"
+          "ratio": "风险-回报比",
+          "text": "风险-回报"
         },
-        "text": "Rischio",
-        "tolerated": "Rischio tollerato",
-        "type": "Tipo di rischio"
+        "text": "风险",
+        "tolerated": "可容忍风险",
+        "type": "风险类型"
       },
       "sales": {
-        "commission": "Commissione sulle vendite",
-        "costs": "Costi di vendita",
-        "costs_per_unit": "Costi di vendita per unità",
-        "price": "Prezzo di vendita",
-        "price_per_unit": "Prezzo di vendita per unità"
+        "commission": "销售佣金",
+        "costs": "销售成本",
+        "costs_per_unit": "每单位销售成本",
+        "price": "销售价格",
+        "price_per_unit": "每单位销售价格"
       },
-      "secondary_currency": "Valuta secondaria",
+      "secondary_currency": "次要货币",
       "sell": {
-        "commission": "Commissione di vendita",
-        "costs": "Spese di vendita",
-        "costs_per_unit": "Spese di vendita per unità",
-        "price": "Prezzo di vendita",
-        "price_per_unit": "Prezzo di vendita per unità"
+        "commission": "销售佣金",
+        "costs": "销售费用",
+        "costs_per_unit": "每单位销售费用",
+        "price": "销售价格",
+        "price_per_unit": "每单位销售价格"
       },
-      "selling_expenses": "Spese di vendita",
-      "selling_operating_expenses": "Spese di vendita e operative",
-      "slippage": "Slippage",
+      "selling_expenses": "销售费用",
+      "selling_operating_expenses": "销售及运营费用",
+      "slippage": "滑点",
       "starting": {
-        "balance": "Saldo iniziale",
-        "principal": "Capitale iniziale"
+        "balance": "初始余额",
+        "principal": "初始本金"
       },
       "stop_loss": {
-        "amount": "Importo stop loss",
-        "at": "Stop loss a",
+        "amount": "止损金额",
+        "at": "止损位置",
         "in_percentage": {
-          "text": "Stop loss in percentuale",
-          "with_slippage": "Stop loss in percentuale con slippage"
+          "text": "百分比止损",
+          "with_slippage": "带滑点的百分比止损"
         },
         "price": {
-          "at": "Stop loss a",
-          "text": "Stop loss",
-          "with_slippage": "Stop loss con slippage"
+          "at": "止损位置",
+          "text": "止损",
+          "with_slippage": "滑点止损"
         },
-        "text": "Stop loss",
-        "type": "Tipo di stop loss"
+        "text": "止损",
+        "type": "止损类型"
       },
-      "stop_loss_take_profit": "Stop Loss/Take Profit",
-      "subtotal": "Subtotale",
-      "support_level": "Livello di supporto {level}",
-      "supports": "Supporti",
+      "stop_loss_take_profit": "止损/获利",
+      "subtotal": "小计",
+      "support_level": "支撑位 {level}",
+      "supports": "支撑",
       "take_profit": {
-        "amount": "Importo del take profit",
-        "at": "Take profit a",
+        "amount": "止盈金额",
+        "at": "止盈于",
         "price": {
-          "after_fee": "Presa di profitto dopo le commissioni",
-          "at": "Take profit a",
-          "text": "Take profit",
-          "with_slippage": "Take profit con slippage"
+          "after_fee": "扣除手续费后的利润",
+          "at": "止盈于",
+          "text": "止盈",
+          "with_slippage": "含滑点的止盈"
         },
-        "text": "Take profit",
-        "type": "Tipo di presa di profitto"
+        "text": "止盈",
+        "type": "获利类型"
       },
       "tax": {
-        "amount": "Importo delle tasse",
-        "exempt_amount_per_year": "Importo esentasse annuo",
-        "rate": "Aliquota fiscale"
+        "amount": "税额",
+        "exempt_amount_per_year": "免税金额每年",
+        "rate": "税率"
       },
-      "taxes": "Tasse",
+      "taxes": "税",
       "tip": {
-        "amount": "Importo della mancia",
-        "rate": "Tasso della mancia",
-        "text": "Mancia"
+        "amount": "小费金额",
+        "rate": "小费率",
+        "text": "小费"
       },
       "total": {
-        "contributions": "Contributi totali",
+        "contributions": "总贡献",
         "costs": {
-          "losing_position": "Costi totali per una posizione perdente",
-          "profit_position": "Costi totali per una posizione vincente",
-          "text": "Costi totali"
+          "losing_position": "亏损头寸的总成本",
+          "profit_position": "盈利头寸的总成本",
+          "text": "总成本"
         },
-        "deposits": "Depositi totali",
-        "earnings": "Guadagni totali",
-        "expenses": "Spese totali",
-        "fee": "Tariffe totali",
-        "gain": "Guadagno totale",
-        "loss": "Perdita totale",
-        "return": "Rendimento totale",
-        "revenue": "Ricavo totale",
-        "tax": "Tasse totali",
-        "text": "Totale",
-        "withdrawals": "Prelievi totali"
+        "deposits": "总存款",
+        "earnings": "总收益",
+        "expenses": "总支出",
+        "fee": "总费用",
+        "gain": "总盈利",
+        "loss": "总亏损",
+        "return": "总回报",
+        "revenue": "总收入",
+        "tax": "总税款",
+        "text": "总计",
+        "withdrawals": "总提款"
       },
       "trade": {
         "size": {
-          "oz": "Dimensione del trade (oz)",
-          "text": "Dimensione del trade",
-          "units": "Dimensione del trade (unità)"
+          "oz": "交易规模（盎司）",
+          "text": "交易规模",
+          "units": "交易规模（单位）"
         }
       },
       "trend": {
-        "down": "Negativo",
-        "sideways": "Laterale",
-        "text": "Tendenza",
-        "up": "Positivo"
+        "down": "下跌趋势",
+        "sideways": "横盘",
+        "text": "趋势",
+        "up": "上升趋势"
       },
-      "user_currency": "Valuta utente",
+      "user_currency": "用户货币",
       "vat": {
-        "amount": "Importo dell'IVA",
-        "rate": "Tasso dell'IVA",
-        "text": "IVA"
+        "amount": "增值税金额",
+        "rate": "增值税率",
+        "text": "增值税"
       },
       "withdrawal": {
-        "amount": "Importo del prelievo",
-        "frequency": "Frequenza di prelievo",
-        "text": "Prelievo"
+        "amount": "提款金额",
+        "frequency": "提款频率",
+        "text": "提款"
       },
       "withdrawals": {
-        "amount": "Importo dei prelievi",
-        "frequency": "Frequenza dei prelievi",
-        "text": "Prelievi"
+        "amount": "提款总额",
+        "frequency": "提款频率",
+        "text": "提款总计"
       }
     },
     "message": {
-      "last_updated_on": "Tassi aggiornati l'ultima volta il {date}"
+      "last_updated_on": "{date}最后更新的汇率"
     },
     "select": {
-      "account_currency": "Seleziona la valuta del tuo conto",
-      "compounding_frequency": "Seleziona una frequenza di capitalizzazione",
-      "contribution_frequency": "Seleziona una frequenza di contributo",
-      "currency": "Seleziona una valuta",
-      "interest_rate": "Seleziona un tasso di interesse",
-      "leverage": "Seleziona un leverage",
-      "pivot_point_method": "Seleziona un metodo di punto pivot",
-      "primary_currency": "Seleziona una valuta principale",
-      "return_frequency": "Seleziona una frequenza di rendimento",
-      "risk_type": "Seleziona un tipo di rischio",
-      "secondary_currency": "Seleziona una valuta secondaria",
-      "stop_loss_type": "Seleziona un tipo di stop loss",
-      "take_profit_type": "Seleziona un tipo di presa di profitto",
-      "tax_rate": "Seleziona una aliquota fiscale"
+      "account_currency": "选择您的账户货币",
+      "compounding_frequency": "选择复利频率",
+      "contribution_frequency": "选择贡献频率",
+      "currency": "选择一种货币",
+      "interest_rate": "选择一个利率",
+      "leverage": "选择一个杠杆",
+      "pivot_point_method": "选择枢轴点方法",
+      "primary_currency": "选择一种主要货币",
+      "return_frequency": "选择回报频率",
+      "risk_type": "选择风险类型",
+      "secondary_currency": "选择一种次要货币",
+      "stop_loss_type": "选择止损类型",
+      "take_profit_type": "选择获利类型",
+      "tax_rate": "选择税率"
     },
     "warning": {
-      "risk_reward_ratio": "Il rapporto rischio-rendimento è inferiore a 2."
+      "risk_reward_ratio": "风险-回报比小于2。"
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "ja": ja, "de": de, "pt": pt, "es": es, "fr": fr, "ru": ru, "en": en, "it": it};
+static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "es": es, "it": it, "fr": fr, "de": de, "ja": ja, "ru": ru, "en": en, "zh": zh};
 }

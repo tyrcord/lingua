@@ -263,6 +263,11 @@
         "per_unit": "単位あたりの割引",
         "rate": "割引率"
       },
+      "duration": {
+        "double": {
+          "investment": "投資を倍増させるまでの期間"
+        }
+      },
       "duration_years": "年単位の期間",
       "earnings": "収益",
       "effective_annual_rate": "実効年率",

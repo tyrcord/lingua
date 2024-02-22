@@ -263,6 +263,11 @@
         "per_unit": "Remise par unité",
         "rate": "Taux de remise"
       },
+      "duration": {
+        "double": {
+          "investment": "Durée pour doubler l'investissement"
+        }
+      },
       "duration_years": "Durée en années",
       "earnings": "Revenus",
       "effective_annual_rate": "Taux annuel effectif",

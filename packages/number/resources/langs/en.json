@@ -28,6 +28,22 @@
           "other": "{num}rd"
         }
       }
+    },
+    "yearMonth": {
+      "few": "{years} years, {months} months",
+      "many": "{years} years, {months} months",
+      "one": "{years} year, {months} month",
+      "other": "{years} years, {months} months",
+      "two": "{years} years, {months} months",
+      "zero": "{years} year, {months} month"
+    },
+    "years": {
+      "few": "{years} years",
+      "many": "{years} years",
+      "one": "{years} year",
+      "other": "{years} years",
+      "two": "{years} years",
+      "zero": "{years} year"
     }
   }
 }

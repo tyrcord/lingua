@@ -263,6 +263,11 @@
         "per_unit": "Rabatt pro einheit",
         "rate": "Rabattsatz"
       },
+      "duration": {
+        "double": {
+          "investment": "Dauer, um die Investition zu verdoppeln"
+        }
+      },
       "duration_years": "Dauer in jahren",
       "earnings": "Einnahmen",
       "effective_annual_rate": "Effektiver Jahreszins",

@@ -28,6 +28,22 @@
           "other": "{номер}-е"
         }
       }
+    },
+    "yearMonth": {
+      "few": "{years} года, {months} месяцев",
+      "many": "{years} лет, {months} месяцев",
+      "one": "{years} год, {months} месяц",
+      "other": "{years} лет, {months} месяцев",
+      "two": "{years} года, {months} месяца",
+      "zero": "{years} год, {months} месяц"
+    },
+    "years": {
+      "few": "{years} года",
+      "many": "{years} лет",
+      "one": "{years} год",
+      "other": "{years} лет",
+      "two": "{years} года",
+      "zero": "{years} год"
     }
   }
 }
