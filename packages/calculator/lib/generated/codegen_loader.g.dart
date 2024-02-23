@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class CalculatorCodegenLoader extends AssetLoader {
@@ -18,6 +17,9 @@ class CalculatorCodegenLoader extends AssetLoader {
       "breakdown": "Desdobramento",
       "calculator": "Calculadora",
       "calculators": "Calculadoras",
+      "more": {
+        "results": "Mais Resultados"
+      },
       "results": "Resultados"
     },
     "title": {
@@ -32,6 +34,9 @@ static const Map<String,dynamic> es = {
       "breakdown": "Desglose",
       "calculator": "Calculadora",
       "calculators": "Calculadoras",
+      "more": {
+        "results": "Más Resultados"
+      },
       "results": "Resultados"
     },
     "title": {
@@ -46,6 +51,9 @@ static const Map<String,dynamic> it = {
       "breakdown": "Suddivisione",
       "calculator": "Calcolatrice",
       "calculators": "Calcolatrici",
+      "more": {
+        "results": "Altri Risultati"
+      },
       "results": "Risultati"
     },
     "title": {
@@ -60,6 +68,9 @@ static const Map<String,dynamic> fr = {
       "breakdown": "Répartition",
       "calculator": "Calculatrice",
       "calculators": "Calculatrices",
+      "more": {
+        "results": "Plus de Résultats"
+      },
       "results": "Résultats"
     },
     "title": {
@@ -74,6 +85,9 @@ static const Map<String,dynamic> de = {
       "breakdown": "Aufschlüsselung",
       "calculator": "Rechner",
       "calculators": "Rechner",
+      "more": {
+        "results": "Weitere Ergebnisse"
+      },
       "results": "Ergebnisse"
     },
     "title": {
@@ -88,6 +102,9 @@ static const Map<String,dynamic> ja = {
       "breakdown": "内訳",
       "calculator": "電卓",
       "calculators": "電卓",
+      "more": {
+        "results": "その他の結果"
+      },
       "results": "結果"
     },
     "title": {
@@ -102,6 +119,9 @@ static const Map<String,dynamic> ru = {
       "breakdown": "Разбивка",
       "calculator": "Калькулятор",
       "calculators": "Калькуляторы",
+      "more": {
+        "results": "Дополнительные результаты"
+      },
       "results": "Результаты"
     },
     "title": {
@@ -116,6 +136,9 @@ static const Map<String,dynamic> en = {
       "breakdown": "Breakdown",
       "calculator": "Calculator",
       "calculators": "Calculators",
+      "more": {
+        "results": "More Results"
+      },
       "results": "Results"
     },
     "title": {
@@ -130,6 +153,9 @@ static const Map<String,dynamic> zh = {
       "breakdown": "细分",
       "calculator": "计算器",
       "calculators": "计算器",
+      "more": {
+        "results": "更多结果"
+      },
       "results": "结果"
     },
     "title": {
