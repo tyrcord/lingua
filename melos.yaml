@@ -13,7 +13,6 @@ scripts:
     packageFilters:
       ignore:
         - lingua_apps
-        - lingua_core
         - lingua_calculator
         - lingua_finance
         - lingua_finance_forex

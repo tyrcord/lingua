@@ -51,7 +51,11 @@ class LinguaLoader extends AssetLoader {
   }
 
   @override
-  Future<Map<String, dynamic>> load(String path, Locale locale) {
-    return Future.value(mapLocales[locale.toString()]);
+  Future<Map<String, dynamic>> load(String path, Locale locale) async {
+    final translation = mapLocales[locale.toString()];
+
+    if (translation != null) return translation;
+
+    return {};
   }
 }
