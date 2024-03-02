@@ -1,6 +1,10 @@
+// Dart imports:
 import 'dart:ui';
 
+// Package imports:
 import 'package:flutter_test/flutter_test.dart';
+
+// Project imports:
 import 'package:lingua_core/generated/codegen_loader.g.dart';
 import 'package:lingua_core/lingua_core.dart';
 
