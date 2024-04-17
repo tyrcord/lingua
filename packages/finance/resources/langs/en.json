@@ -500,7 +500,13 @@
         "loss": "Total loss",
         "return": "Total return",
         "revenue": "Total revenue",
-        "tax": "Total taxes",
+        "tax": {
+          "amount": {
+            "paid": "Total tax amount paid",
+            "text": "Total tax amount"
+          },
+          "text": "Total tax"
+        },
         "text": "Total",
         "withdrawals": "Total withdrawals"
       },

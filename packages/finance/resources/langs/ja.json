@@ -500,7 +500,13 @@
         "loss": "総損失",
         "return": "総収益",
         "revenue": "総収入",
-        "tax": "合計税金",
+        "tax": {
+          "amount": {
+            "paid": "支払われた総税金額",
+            "text": "総税金額"
+          },
+          "text": "合計税金"
+        },
         "text": "合計",
         "withdrawals": "総引き出し"
       },

@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class HelpCodegenLoader extends AssetLoader {
@@ -12,66 +11,12 @@ class HelpCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> pt = {
+  static const Map<String,dynamic> zh = {
   "help": {
     "label": {
-      "instructions": "Instruções",
-      "manual": "Manual",
-      "manuals": "Manuais"
-    }
-  }
-};
-static const Map<String,dynamic> es = {
-  "help": {
-    "label": {
-      "instructions": "Instrucciones",
-      "manual": "Manual",
-      "manuals": "Manuales"
-    }
-  }
-};
-static const Map<String,dynamic> it = {
-  "help": {
-    "label": {
-      "instructions": "Istruzioni",
-      "manual": "Manuale",
-      "manuals": "Manuali"
-    }
-  }
-};
-static const Map<String,dynamic> fr = {
-  "help": {
-    "label": {
-      "instructions": "Instructions",
-      "manual": "Mode d'emploi",
-      "manuals": "Manuels"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "help": {
-    "label": {
-      "instructions": "Anweisungen",
-      "manual": "Handbuch",
-      "manuals": "Handbücher"
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "help": {
-    "label": {
-      "instructions": "指示",
-      "manual": "マニュアル",
-      "manuals": "マニュアル集"
-    }
-  }
-};
-static const Map<String,dynamic> ru = {
-  "help": {
-    "label": {
-      "instructions": "Инструкции",
-      "manual": "Руководство",
-      "manuals": "Руководства"
+      "instructions": "说明",
+      "manual": "手册",
+      "manuals": "手册"
     }
   }
 };
@@ -84,14 +29,68 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> zh = {
+static const Map<String,dynamic> it = {
   "help": {
     "label": {
-      "instructions": "说明",
-      "manual": "手册",
-      "manuals": "手册"
+      "instructions": "Istruzioni",
+      "manual": "Manuale",
+      "manuals": "Manuali"
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"pt": pt, "es": es, "it": it, "fr": fr, "de": de, "ja": ja, "ru": ru, "en": en, "zh": zh};
+static const Map<String,dynamic> de = {
+  "help": {
+    "label": {
+      "instructions": "Anweisungen",
+      "manual": "Handbuch",
+      "manuals": "Handbücher"
+    }
+  }
+};
+static const Map<String,dynamic> ru = {
+  "help": {
+    "label": {
+      "instructions": "Инструкции",
+      "manual": "Руководство",
+      "manuals": "Руководства"
+    }
+  }
+};
+static const Map<String,dynamic> es = {
+  "help": {
+    "label": {
+      "instructions": "Instrucciones",
+      "manual": "Manual",
+      "manuals": "Manuales"
+    }
+  }
+};
+static const Map<String,dynamic> fr = {
+  "help": {
+    "label": {
+      "instructions": "Instructions",
+      "manual": "Mode d'emploi",
+      "manuals": "Manuels"
+    }
+  }
+};
+static const Map<String,dynamic> ja = {
+  "help": {
+    "label": {
+      "instructions": "指示",
+      "manual": "マニュアル",
+      "manuals": "マニュアル集"
+    }
+  }
+};
+static const Map<String,dynamic> pt = {
+  "help": {
+    "label": {
+      "instructions": "Instruções",
+      "manual": "Manual",
+      "manuals": "Manuais"
+    }
+  }
+};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "en": en, "it": it, "de": de, "ru": ru, "es": es, "fr": fr, "ja": ja, "pt": pt};
 }

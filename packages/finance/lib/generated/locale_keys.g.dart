@@ -307,7 +307,9 @@ abstract class FinanceLocaleKeys {
   static const finance_label_total_loss = 'finance.label.total.loss';
   static const finance_label_total_return = 'finance.label.total.return';
   static const finance_label_total_revenue = 'finance.label.total.revenue';
-  static const finance_label_total_tax = 'finance.label.total.tax';
+  static const finance_label_total_tax_amount_paid = 'finance.label.total.tax.amount.paid';
+  static const finance_label_total_tax_amount_text = 'finance.label.total.tax.amount.text';
+  static const finance_label_total_tax_text = 'finance.label.total.tax.text';
   static const finance_label_total_text = 'finance.label.total.text';
   static const finance_label_total_withdrawals = 'finance.label.total.withdrawals';
   static const finance_label_trade_size_oz = 'finance.label.trade.size.oz';

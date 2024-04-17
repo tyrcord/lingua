@@ -500,7 +500,13 @@
         "loss": "Pérdida total",
         "return": "Retorno total",
         "revenue": "Ingresos totales",
-        "tax": "Impuestos totales",
+        "tax": {
+          "amount": {
+            "paid": "Cantidad total de impuestos pagados",
+            "text": "Cantidad total de impuestos"
+          },
+          "text": "Impuestos totales"
+        },
         "text": "Total",
         "withdrawals": "Retiros totales"
       },

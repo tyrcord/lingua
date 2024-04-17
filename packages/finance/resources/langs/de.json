@@ -500,7 +500,13 @@
         "loss": "Gesamtverlust",
         "return": "Gesamtrendite",
         "revenue": "Gesamteinnahmen",
-        "tax": "Gesamtsteuern",
+        "tax": {
+          "amount": {
+            "paid": "Bezahlter Gesamtsteuerbetrag",
+            "text": "Gesamtbetrag der Steuer"
+          },
+          "text": "Gesamtsteuern"
+        },
         "text": "Gesamt",
         "withdrawals": "Gesamtabhebungen"
       },

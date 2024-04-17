@@ -500,7 +500,13 @@
         "loss": "总亏损",
         "return": "总回报",
         "revenue": "总收入",
-        "tax": "总税款",
+        "tax": {
+          "amount": {
+            "paid": "支付的总税款金额",
+            "text": "总税款金额"
+          },
+          "text": "总税款"
+        },
         "text": "总计",
         "withdrawals": "总提款"
       },
