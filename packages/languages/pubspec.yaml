@@ -1,5 +1,5 @@
 dependencies:
-  easy_localization: ^3.0.4
+  easy_localization: ^3.0.5
   flutter:
     sdk: flutter
 description: Library for internal languages localization.
