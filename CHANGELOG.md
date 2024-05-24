@@ -3,6 +3,515 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-05-24
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_ad` - `v0.0.23`](#lingua_ad---v0023)
+ - [`lingua_apps` - `v0.0.17`](#lingua_apps---v0017)
+ - [`lingua_calculator` - `v0.0.13`](#lingua_calculator---v0013)
+ - [`lingua_core` - `v0.0.41`](#lingua_core---v0041)
+ - [`lingua_countries` - `v0.0.12`](#lingua_countries---v0012)
+ - [`lingua_finance` - `v0.0.38`](#lingua_finance---v0038)
+ - [`lingua_finance_dividend` - `v0.0.15`](#lingua_finance_dividend---v0015)
+ - [`lingua_finance_forex` - `v0.0.18`](#lingua_finance_forex---v0018)
+ - [`lingua_finance_instrument` - `v0.0.15`](#lingua_finance_instrument---v0015)
+ - [`lingua_finance_stock` - `v0.0.18`](#lingua_finance_stock---v0018)
+ - [`lingua_help` - `v0.0.16`](#lingua_help---v0016)
+ - [`lingua_languages` - `v0.0.14`](#lingua_languages---v0014)
+ - [`lingua_number` - `v0.0.17`](#lingua_number---v0017)
+ - [`lingua_onboarding` - `v0.0.23`](#lingua_onboarding---v0023)
+ - [`lingua_purchases` - `v0.0.27`](#lingua_purchases---v0027)
+ - [`lingua_settings` - `v0.0.22`](#lingua_settings---v0022)
+ - [`lingua_units` - `v0.0.14`](#lingua_units---v0014)
+
+---
+
+#### `lingua_ad` - `v0.0.23`
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update ad localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: add ad package.
+
+#### `lingua_apps` - `v0.0.17`
+
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add apps package.
+
+#### `lingua_calculator` - `v0.0.13`
+
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: add new packages.
+
+#### `lingua_core` - `v0.0.41`
+
+ - **FIX**: publish issue.
+ - **FIX**: escaping $ chars.
+ - **FIX**: escaping $ chars.
+ - **FIX**: wrong type.
+ - **FIX**: wrong default.
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add tests.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update core.
+ - **FEAT**: updated localization files.
+ - **FEAT**: add a default value for LinguaLoader.
+ - **FEAT**: update core.
+ - **FEAT**: update localization.
+ - **FEAT**: add helper.
+ - **FEAT**: escape special chars.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: add withLocales constructor.
+
+#### `lingua_countries` - `v0.0.12`
+
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update countries.
+ - **FEAT**: add lingua_countries.
+
+#### `lingua_finance` - `v0.0.38`
+
+ - **FIX**: publish issue.
+ - **FIX**: localization.
+ - **FIX**: localizations.
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update localization.
+ - **FEAT**: update localizations.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update finance localization.
+ - **FEAT**: update finance localization.
+ - **FEAT**: update finance localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance package.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update finance.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update localization.
+
+#### `lingua_finance_dividend` - `v0.0.15`
+
+ - **FIX**: typo.
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: add new packages.
+
+#### `lingua_finance_forex` - `v0.0.18`
+
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: update localization.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: add new packages.
+
+#### `lingua_finance_instrument` - `v0.0.15`
+
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance instrument localization.
+
+#### `lingua_finance_stock` - `v0.0.18`
+
+ - **FIX**: localizations.
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+
+#### `lingua_help` - `v0.0.16`
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: add help package.
+
+#### `lingua_languages` - `v0.0.14`
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance package.
+ - **FEAT**(languages): update localization.
+ - **FEAT**: add languages packages.
+
+#### `lingua_number` - `v0.0.17`
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: updated localization files.
+ - **FEAT**: added localizePeriod helper.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: add toOrdinal helper.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: add number package.
+
+#### `lingua_onboarding` - `v0.0.23`
+
+ - **FIX**: wrong localization.
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: typos.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update localization.
+ - **FEAT**: update onboarding localization.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update onboarding localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update onboarding.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update onboarding.
+ - **FEAT**: add finance package.
+ - **FEAT**: add more localization.
+
+#### `lingua_purchases` - `v0.0.27`
+
+ - **FIX**: add missing key.
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update purchases localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update purchases.
+ - **FEAT**: update localization.
+ - **FEAT**: update purchases.
+ - **FEAT**: update purchases.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add purchases package.
+
+#### `lingua_settings` - `v0.0.22`
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: typos.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add finance package.
+ - **FEAT**(settings): update localization.
+ - **FEAT**(settings): update localization.
+ - **FEAT**: add settings localizations.
+
+#### `lingua_units` - `v0.0.14`
+
+ - **FIX**: missing keys.
+ - **FIX**: localization.
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: add unit to LinguaUnits.
+ - **FEAT**: add localizeUnitSize helper.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: add new packages.
+
+
 ## 2024-03-01
 
 ### Changes
