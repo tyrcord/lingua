@@ -15,6 +15,107 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_ad` - `v0.0.24`](#lingua_ad---v0024)
+ - [`lingua_apps` - `v0.0.18`](#lingua_apps---v0018)
+ - [`lingua_calculator` - `v0.0.14`](#lingua_calculator---v0014)
+ - [`lingua_core` - `v0.0.42`](#lingua_core---v0042)
+ - [`lingua_countries` - `v0.0.13`](#lingua_countries---v0013)
+ - [`lingua_finance` - `v0.0.39`](#lingua_finance---v0039)
+ - [`lingua_finance_dividend` - `v0.0.16`](#lingua_finance_dividend---v0016)
+ - [`lingua_finance_forex` - `v0.0.19`](#lingua_finance_forex---v0019)
+ - [`lingua_finance_instrument` - `v0.0.16`](#lingua_finance_instrument---v0016)
+ - [`lingua_finance_stock` - `v0.0.19`](#lingua_finance_stock---v0019)
+ - [`lingua_help` - `v0.0.17`](#lingua_help---v0017)
+ - [`lingua_languages` - `v0.0.15`](#lingua_languages---v0015)
+ - [`lingua_number` - `v0.0.18`](#lingua_number---v0018)
+ - [`lingua_onboarding` - `v0.0.24`](#lingua_onboarding---v0024)
+ - [`lingua_purchases` - `v0.0.28`](#lingua_purchases---v0028)
+ - [`lingua_settings` - `v0.0.23`](#lingua_settings---v0023)
+ - [`lingua_units` - `v0.0.15`](#lingua_units---v0015)
+
+---
+
+#### `lingua_ad` - `v0.0.24`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_apps` - `v0.0.18`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_calculator` - `v0.0.14`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_core` - `v0.0.42`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_countries` - `v0.0.13`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_finance` - `v0.0.39`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_finance_dividend` - `v0.0.16`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_finance_forex` - `v0.0.19`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_finance_instrument` - `v0.0.16`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_finance_stock` - `v0.0.19`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_help` - `v0.0.17`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_languages` - `v0.0.15`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_number` - `v0.0.18`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_onboarding` - `v0.0.24`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_purchases` - `v0.0.28`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_settings` - `v0.0.23`
+
+ - **FEAT**: updated dependencies.
+
+#### `lingua_units` - `v0.0.15`
+
+ - **FEAT**: updated dependencies.
+
+
+## 2024-05-24
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_ad` - `v0.0.23`](#lingua_ad---v0023)
  - [`lingua_apps` - `v0.0.17`](#lingua_apps---v0017)
  - [`lingua_calculator` - `v0.0.13`](#lingua_calculator---v0013)

@@ -8,10 +8,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   import_sorter: ^4.6.0
-  lingua_core: ^0.0.41
+  lingua_core: ^0.0.42
 environment:
   flutter: '>=3.16.0'
   sdk: '>=3.2.0 <4.0.0'
 name: lingua_purchases
 repository: https://github.com/tyrcord/lingua/tree/main/packages/purchases
-version: 0.0.27
+version: 0.0.28

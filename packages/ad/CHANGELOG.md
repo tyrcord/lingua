@@ -1,3 +1,7 @@
+## 0.0.24
+
+ - **FEAT**: updated dependencies.
+
 ## 0.0.23
 
  - **FIX**: generate script.

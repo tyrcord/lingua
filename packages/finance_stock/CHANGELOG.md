@@ -1,3 +1,7 @@
+## 0.0.19
+
+ - **FEAT**: updated dependencies.
+
 ## 0.0.18
 
  - **FIX**: localizations.
