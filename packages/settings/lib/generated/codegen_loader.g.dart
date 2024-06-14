@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class SettingsCodegenLoader extends AssetLoader {
@@ -79,73 +78,6 @@ class SettingsCodegenLoader extends AssetLoader {
     }
   }
 };
-static const Map<String,dynamic> en = {
-  "settings": {
-    "disclaimer": {
-      "accept_risk": "You acknowledge and agree that the use of {appName} is at your own sole risk, and we disclaim any liability for losses or damages related to the use of the Service.",
-      "data": "Any data and information are provided \"as is\" for purely informational and educational purposes."
-    },
-    "label": {
-      "about": "About",
-      "app": {
-        "preferences": "Application preferences",
-        "settings": "Application settings"
-      },
-      "appearance": "Appearance",
-      "change": {
-        "language": "Change language",
-        "theme": "Change theme"
-      },
-      "customer_support": "Customer service",
-      "dark": "Dark",
-      "default": "Default",
-      "disclaimer": "Disclaimer",
-      "help_and_support": "Help & Support",
-      "homepage": "Home",
-      "language": "Language",
-      "languages": "Languages",
-      "legal": "Legal",
-      "light": "Light",
-      "preferences": "Preferences",
-      "privacy": {
-        "policy": "Privacy policy",
-        "preferences": "Privacy preferences",
-        "settings": "Privacy settings",
-        "text": "Privacy"
-      },
-      "rate_us": "Rate us",
-      "restore": {
-        "defaults": "Restore defaults",
-        "settings": "Restore settings"
-      },
-      "settings": "Settings",
-      "submit_bug_report": "Submit a bug report",
-      "system": "System",
-      "terms_of_service": "Terms of service",
-      "user_input": "User input",
-      "user_inputs": "User inputs",
-      "user_settings": "User settings",
-      "version": "Version: {version}"
-    },
-    "message": {
-      "last_modified": "Last modified: {date}",
-      "thanks_support": "Thanks for your support!"
-    },
-    "note": {
-      "appearance": "Personalize your experience by selecting a theme that suits your style.",
-      "change_later": "Note that you can always change it later.",
-      "restart_required": "Restart the app for the changes to take effect.",
-      "settings": "Enhance your experience by adjusting your preferences."
-    },
-    "question": {
-      "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
-      "do_you_like_our_app": "Are you enjoying our app?"
-    },
-    "select": {
-      "language": "Select the language you would like to use."
-    }
-  }
-};
 static const Map<String,dynamic> it = {
   "settings": {
     "disclaimer": {
@@ -210,73 +142,6 @@ static const Map<String,dynamic> it = {
     },
     "select": {
       "language": "Seleziona la lingua che desideri utilizzare."
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "settings": {
-    "disclaimer": {
-      "accept_risk": "Sie erkennen an und stimmen zu, dass die Nutzung von {appName} ausschließlich auf Ihr eigenes Risiko erfolgt und wir jegliche Haftung für Verluste oder Schäden im Zusammenhang mit der Nutzung des Dienstes ablehnen.",
-      "data": "Alle Daten und Informationen werden ausschließlich zu Informations- und Bildungszwecken bereitgestellt und gelten als \"wie sie sind\"."
-    },
-    "label": {
-      "about": "Über",
-      "app": {
-        "preferences": "App-einstellungen",
-        "settings": "App-einstellungen"
-      },
-      "appearance": "Erscheinungsbild",
-      "change": {
-        "language": "Sprache ändern",
-        "theme": "Thema ändern"
-      },
-      "customer_support": "Kundenservice",
-      "dark": "Dunkel",
-      "default": "Standard",
-      "disclaimer": "Haftungsausschluss",
-      "help_and_support": "Hilfe und support",
-      "homepage": "Startseite",
-      "language": "Sprache",
-      "languages": "Sprachen",
-      "legal": "Rechtliches",
-      "light": "Hell",
-      "preferences": "Einstellungen",
-      "privacy": {
-        "policy": "Datenschutzrichtlinie",
-        "preferences": "Datenschutzeinstellungen",
-        "settings": "Datenschutzkonfiguration",
-        "text": "Datenschutz"
-      },
-      "rate_us": "Bewerten sie uns",
-      "restore": {
-        "defaults": "Standardeinstellungen wiederherstellen",
-        "settings": "Einstellungen wiederherstellen"
-      },
-      "settings": "Einstellungen",
-      "submit_bug_report": "Fehlerbericht senden",
-      "system": "System",
-      "terms_of_service": "Nutzungsbedingungen",
-      "user_input": "Benutzereingabe",
-      "user_inputs": "Benutzereingaben",
-      "user_settings": "Benutzereinstellungen",
-      "version": "Version: {version}"
-    },
-    "message": {
-      "last_modified": "Zuletzt geändert: {date}",
-      "thanks_support": "Vielen Dank für Ihre Unterstützung!"
-    },
-    "note": {
-      "appearance": "Personalisieren Sie Ihr Erlebnis, indem Sie ein Design auswählen, das zu Ihrem Stil passt.",
-      "change_later": "Beachten Sie, dass Sie es jederzeit später ändern können.",
-      "restart_required": "Starten Sie die App neu, damit die Änderungen wirksam werden.",
-      "settings": "Verbessern Sie Ihr Erlebnis, indem Sie Ihre Einstellungen anpassen."
-    },
-    "question": {
-      "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
-      "do_you_like_our_app": "Gefällt Ihnen unsere App?"
-    },
-    "select": {
-      "language": "Wählen Sie die gewünschte Sprache aus."
     }
   }
 };
@@ -347,70 +212,204 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> de = {
   "settings": {
     "disclaimer": {
-      "accept_risk": "Usted reconoce y acepta que el uso de {appName} es bajo su propio riesgo, y renunciamos a cualquier responsabilidad por pérdidas o daños relacionados con el uso del servicio.",
-      "data": "Cualquier dato e información se proporcionan \"tal cual\" con fines puramente informativos y educativos."
+      "accept_risk": "Sie erkennen an und stimmen zu, dass die Nutzung von {appName} ausschließlich auf Ihr eigenes Risiko erfolgt und wir jegliche Haftung für Verluste oder Schäden im Zusammenhang mit der Nutzung des Dienstes ablehnen.",
+      "data": "Alle Daten und Informationen werden ausschließlich zu Informations- und Bildungszwecken bereitgestellt und gelten als \"wie sie sind\"."
     },
     "label": {
-      "about": "Acerca de",
+      "about": "Über",
       "app": {
-        "preferences": "Preferencias de la aplicación",
-        "settings": "Configuración de la aplicación"
+        "preferences": "App-einstellungen",
+        "settings": "App-einstellungen"
       },
-      "appearance": "Apariencia",
+      "appearance": "Erscheinungsbild",
       "change": {
-        "language": "Cambiar idioma",
-        "theme": "Cambiar tema"
+        "language": "Sprache ändern",
+        "theme": "Thema ändern"
       },
-      "customer_support": "Servicio al cliente",
-      "dark": "Oscuro",
-      "default": "Predeterminado",
+      "customer_support": "Kundenservice",
+      "dark": "Dunkel",
+      "default": "Standard",
+      "disclaimer": "Haftungsausschluss",
+      "help_and_support": "Hilfe und support",
+      "homepage": "Startseite",
+      "language": "Sprache",
+      "languages": "Sprachen",
+      "legal": "Rechtliches",
+      "light": "Hell",
+      "preferences": "Einstellungen",
+      "privacy": {
+        "policy": "Datenschutzrichtlinie",
+        "preferences": "Datenschutzeinstellungen",
+        "settings": "Datenschutzkonfiguration",
+        "text": "Datenschutz"
+      },
+      "rate_us": "Bewerten sie uns",
+      "restore": {
+        "defaults": "Standardeinstellungen wiederherstellen",
+        "settings": "Einstellungen wiederherstellen"
+      },
+      "settings": "Einstellungen",
+      "submit_bug_report": "Fehlerbericht senden",
+      "system": "System",
+      "terms_of_service": "Nutzungsbedingungen",
+      "user_input": "Benutzereingabe",
+      "user_inputs": "Benutzereingaben",
+      "user_settings": "Benutzereinstellungen",
+      "version": "Version: {version}"
+    },
+    "message": {
+      "last_modified": "Zuletzt geändert: {date}",
+      "thanks_support": "Vielen Dank für Ihre Unterstützung!"
+    },
+    "note": {
+      "appearance": "Personalisieren Sie Ihr Erlebnis, indem Sie ein Design auswählen, das zu Ihrem Stil passt.",
+      "change_later": "Beachten Sie, dass Sie es jederzeit später ändern können.",
+      "restart_required": "Starten Sie die App neu, damit die Änderungen wirksam werden.",
+      "settings": "Verbessern Sie Ihr Erlebnis, indem Sie Ihre Einstellungen anpassen."
+    },
+    "question": {
+      "do_you_enjoy_our_app": "Wenn Ihnen unsere App gefällt, würden Sie sich einen Moment Zeit nehmen, um sie zu bewerten?",
+      "do_you_like_our_app": "Gefällt Ihnen unsere App?"
+    },
+    "select": {
+      "language": "Wählen Sie die gewünschte Sprache aus."
+    }
+  }
+};
+static const Map<String,dynamic> pt = {
+  "settings": {
+    "disclaimer": {
+      "accept_risk": "Você reconhece e concorda que o uso de {appName} é de sua responsabilidade exclusiva, e não nos responsabilizamos por perdas ou danos relacionados ao uso do serviço.",
+      "data": "Quaisquer dados e informações são fornecidos \"como estão\" exclusivamente para fins informativos e educacionais."
+    },
+    "label": {
+      "about": "Sobre",
+      "app": {
+        "preferences": "Preferências do aplicativo",
+        "settings": "Configurações do aplicativo"
+      },
+      "appearance": "Aparência",
+      "change": {
+        "language": "Alterar idioma",
+        "theme": "Alterar tema"
+      },
+      "customer_support": "Atendimento ao cliente",
+      "dark": "Escuro",
+      "default": "Padrão",
       "disclaimer": "Aviso legal",
-      "help_and_support": "Ayuda y soporte",
-      "homepage": "Inicio",
+      "help_and_support": "Ajuda e suporte",
+      "homepage": "Página inicial",
       "language": "Idioma",
       "languages": "Idiomas",
       "legal": "Legal",
       "light": "Claro",
-      "preferences": "Preferencias",
+      "preferences": "Preferências",
       "privacy": {
-        "policy": "Política de privacidad",
-        "preferences": "Preferencias de privacidad",
-        "settings": "Configuración de privacidad",
-        "text": "Privacidad"
+        "policy": "Política de privacidade",
+        "preferences": "Preferências de privacidade",
+        "settings": "Configurações de privacidade",
+        "text": "Privacidade"
       },
-      "rate_us": "Califícanos",
+      "rate_us": "Avalie-nos",
       "restore": {
-        "defaults": "Restaurar valores predeterminados",
-        "settings": "Restaurar configuraciones"
+        "defaults": "Restaurar padrões",
+        "settings": "Restaurar configurações"
       },
-      "settings": "Configuración",
-      "submit_bug_report": "Enviar un informe de error",
+      "settings": "Configurações",
+      "submit_bug_report": "Enviar relatório de bug",
       "system": "Sistema",
-      "terms_of_service": "Términos de servicio",
-      "user_input": "Entrada de usuario",
-      "user_inputs": "Entradas de usuario",
-      "user_settings": "Configuración de usuario",
-      "version": "Versión: {version}"
+      "terms_of_service": "Termos de serviço",
+      "user_input": "Entrada do usuário",
+      "user_inputs": "Entradas do usuário",
+      "user_settings": "Configurações do usuário",
+      "version": "Versão: {version}"
     },
     "message": {
-      "last_modified": "Última modificación: {date}",
-      "thanks_support": "¡Gracias por su apoyo!"
+      "last_modified": "Última modificação: {date}",
+      "thanks_support": "Obrigado pelo seu apoio!"
     },
     "note": {
-      "appearance": "Personaliza tu experiencia seleccionando un tema que se adapte a tu estilo.",
-      "change_later": "Tenga en cuenta que siempre puede cambiarlo más tarde.",
-      "restart_required": "Reinicia la aplicación para que los cambios surtan efecto.",
-      "settings": "Mejore su experiencia ajustando sus preferencias."
+      "appearance": "Personalize sua experiência selecionando um tema que combine com seu estilo.",
+      "change_later": "Observe que você sempre pode alterá-lo posteriormente.",
+      "restart_required": "Reinicie o aplicativo para que as alterações tenham efeito.",
+      "settings": "Melhore sua experiência ajustando suas preferências."
     },
     "question": {
-      "do_you_enjoy_our_app": "Si encuentra útil nuestra aplicación, ¿estaría dispuesto a dedicar unos minutos para calificarla?",
-      "do_you_like_our_app": "¿Le gusta nuestra aplicación?"
+      "do_you_enjoy_our_app": "Se você achar nosso aplicativo útil, você estaria disposto a dedicar alguns momentos para avaliá-lo?",
+      "do_you_like_our_app": "Você está gostando do nosso aplicativo?"
     },
     "select": {
-      "language": "Seleccione el idioma que desea utilizar."
+      "language": "Selecione o idioma que você gostaria de usar."
+    }
+  }
+};
+static const Map<String,dynamic> en = {
+  "settings": {
+    "disclaimer": {
+      "accept_risk": "You acknowledge and agree that the use of {appName} is at your own sole risk, and we disclaim any liability for losses or damages related to the use of the Service.",
+      "data": "Any data and information are provided \"as is\" for purely informational and educational purposes."
+    },
+    "label": {
+      "about": "About",
+      "app": {
+        "preferences": "Application preferences",
+        "settings": "Application settings"
+      },
+      "appearance": "Appearance",
+      "change": {
+        "language": "Change language",
+        "theme": "Change theme"
+      },
+      "customer_support": "Customer service",
+      "dark": "Dark",
+      "default": "Default",
+      "disclaimer": "Disclaimer",
+      "help_and_support": "Help & Support",
+      "homepage": "Home",
+      "language": "Language",
+      "languages": "Languages",
+      "legal": "Legal",
+      "light": "Light",
+      "preferences": "Preferences",
+      "privacy": {
+        "policy": "Privacy policy",
+        "preferences": "Privacy preferences",
+        "settings": "Privacy settings",
+        "text": "Privacy"
+      },
+      "rate_us": "Rate us",
+      "restore": {
+        "defaults": "Restore defaults",
+        "settings": "Restore settings"
+      },
+      "settings": "Settings",
+      "submit_bug_report": "Submit a bug report",
+      "system": "System",
+      "terms_of_service": "Terms of service",
+      "user_input": "User input",
+      "user_inputs": "User inputs",
+      "user_settings": "User settings",
+      "version": "Version: {version}"
+    },
+    "message": {
+      "last_modified": "Last modified: {date}",
+      "thanks_support": "Thanks for your support!"
+    },
+    "note": {
+      "appearance": "Personalize your experience by selecting a theme that suits your style.",
+      "change_later": "Note that you can always change it later.",
+      "restart_required": "Restart the app for the changes to take effect.",
+      "settings": "Enhance your experience by adjusting your preferences."
+    },
+    "question": {
+      "do_you_enjoy_our_app": "If you find our app useful, would you be willing to take a few moments to rate it?",
+      "do_you_like_our_app": "Are you enjoying our app?"
+    },
+    "select": {
+      "language": "Select the language you would like to use."
     }
   }
 };
@@ -548,72 +547,72 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> pt = {
+static const Map<String,dynamic> es = {
   "settings": {
     "disclaimer": {
-      "accept_risk": "Você reconhece e concorda que o uso de {appName} é de sua responsabilidade exclusiva, e não nos responsabilizamos por perdas ou danos relacionados ao uso do serviço.",
-      "data": "Quaisquer dados e informações são fornecidos \"como estão\" exclusivamente para fins informativos e educacionais."
+      "accept_risk": "Usted reconoce y acepta que el uso de {appName} es bajo su propio riesgo, y renunciamos a cualquier responsabilidad por pérdidas o daños relacionados con el uso del servicio.",
+      "data": "Cualquier dato e información se proporcionan \"tal cual\" con fines puramente informativos y educativos."
     },
     "label": {
-      "about": "Sobre",
+      "about": "Acerca de",
       "app": {
-        "preferences": "Preferências do aplicativo",
-        "settings": "Configurações do aplicativo"
+        "preferences": "Preferencias de la aplicación",
+        "settings": "Configuración de la aplicación"
       },
-      "appearance": "Aparência",
+      "appearance": "Apariencia",
       "change": {
-        "language": "Alterar idioma",
-        "theme": "Alterar tema"
+        "language": "Cambiar idioma",
+        "theme": "Cambiar tema"
       },
-      "customer_support": "Atendimento ao cliente",
-      "dark": "Escuro",
-      "default": "Padrão",
+      "customer_support": "Servicio al cliente",
+      "dark": "Oscuro",
+      "default": "Predeterminado",
       "disclaimer": "Aviso legal",
-      "help_and_support": "Ajuda e suporte",
-      "homepage": "Página inicial",
+      "help_and_support": "Ayuda y soporte",
+      "homepage": "Inicio",
       "language": "Idioma",
       "languages": "Idiomas",
       "legal": "Legal",
       "light": "Claro",
-      "preferences": "Preferências",
+      "preferences": "Preferencias",
       "privacy": {
-        "policy": "Política de privacidade",
-        "preferences": "Preferências de privacidade",
-        "settings": "Configurações de privacidade",
-        "text": "Privacidade"
+        "policy": "Política de privacidad",
+        "preferences": "Preferencias de privacidad",
+        "settings": "Configuración de privacidad",
+        "text": "Privacidad"
       },
-      "rate_us": "Avalie-nos",
+      "rate_us": "Califícanos",
       "restore": {
-        "defaults": "Restaurar padrões",
-        "settings": "Restaurar configurações"
+        "defaults": "Restaurar valores predeterminados",
+        "settings": "Restaurar configuraciones"
       },
-      "settings": "Configurações",
-      "submit_bug_report": "Enviar relatório de bug",
+      "settings": "Configuración",
+      "submit_bug_report": "Enviar un informe de error",
       "system": "Sistema",
-      "terms_of_service": "Termos de serviço",
-      "user_input": "Entrada do usuário",
-      "user_inputs": "Entradas do usuário",
-      "user_settings": "Configurações do usuário",
-      "version": "Versão: {version}"
+      "terms_of_service": "Términos de servicio",
+      "user_input": "Entrada de usuario",
+      "user_inputs": "Entradas de usuario",
+      "user_settings": "Configuración de usuario",
+      "version": "Versión: {version}"
     },
     "message": {
-      "last_modified": "Última modificação: {date}",
-      "thanks_support": "Obrigado pelo seu apoio!"
+      "last_modified": "Última modificación: {date}",
+      "thanks_support": "¡Gracias por su apoyo!"
     },
     "note": {
-      "appearance": "Personalize sua experiência selecionando um tema que combine com seu estilo.",
-      "change_later": "Observe que você sempre pode alterá-lo posteriormente.",
-      "restart_required": "Reinicie o aplicativo para que as alterações tenham efeito.",
-      "settings": "Melhore sua experiência ajustando suas preferências."
+      "appearance": "Personaliza tu experiencia seleccionando un tema que se adapte a tu estilo.",
+      "change_later": "Tenga en cuenta que siempre puede cambiarlo más tarde.",
+      "restart_required": "Reinicia la aplicación para que los cambios surtan efecto.",
+      "settings": "Mejore su experiencia ajustando sus preferencias."
     },
     "question": {
-      "do_you_enjoy_our_app": "Se você achar nosso aplicativo útil, você estaria disposto a dedicar alguns momentos para avaliá-lo?",
-      "do_you_like_our_app": "Você está gostando do nosso aplicativo?"
+      "do_you_enjoy_our_app": "Si encuentra útil nuestra aplicación, ¿estaría dispuesto a dedicar unos minutos para calificarla?",
+      "do_you_like_our_app": "¿Le gusta nuestra aplicación?"
     },
     "select": {
-      "language": "Selecione o idioma que você gostaria de usar."
+      "language": "Seleccione el idioma que desea utilizar."
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "en": en, "it": it, "de": de, "ru": ru, "es": es, "fr": fr, "ja": ja, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "it": it, "ru": ru, "de": de, "pt": pt, "en": en, "fr": fr, "ja": ja, "es": es};
 }

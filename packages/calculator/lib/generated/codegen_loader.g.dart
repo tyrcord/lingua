@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class CalculatorCodegenLoader extends AssetLoader {
@@ -29,23 +28,6 @@ class CalculatorCodegenLoader extends AssetLoader {
     }
   }
 };
-static const Map<String,dynamic> en = {
-  "calculator": {
-    "label": {
-      "breakdown": "Breakdown",
-      "calculator": "Calculator",
-      "calculators": "Calculators",
-      "more": {
-        "results": "More Results"
-      },
-      "results": "Results"
-    },
-    "title": {
-      "instructions": "Instructions for using this Calculator",
-      "results": "Information regarding the results"
-    }
-  }
-};
 static const Map<String,dynamic> it = {
   "calculator": {
     "label": {
@@ -60,23 +42,6 @@ static const Map<String,dynamic> it = {
     "title": {
       "instructions": "Istruzioni per l'uso di questa Calcolatrice",
       "results": "Informazioni sui risultati"
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "calculator": {
-    "label": {
-      "breakdown": "Aufschlüsselung",
-      "calculator": "Rechner",
-      "calculators": "Rechner",
-      "more": {
-        "results": "Weitere Ergebnisse"
-      },
-      "results": "Ergebnisse"
-    },
-    "title": {
-      "instructions": "Anleitung zur Verwendung dieses Rechners",
-      "results": "Informationen zu den Ergebnissen"
     }
   }
 };
@@ -97,20 +62,54 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> de = {
   "calculator": {
     "label": {
-      "breakdown": "Desglose",
+      "breakdown": "Aufschlüsselung",
+      "calculator": "Rechner",
+      "calculators": "Rechner",
+      "more": {
+        "results": "Weitere Ergebnisse"
+      },
+      "results": "Ergebnisse"
+    },
+    "title": {
+      "instructions": "Anleitung zur Verwendung dieses Rechners",
+      "results": "Informationen zu den Ergebnissen"
+    }
+  }
+};
+static const Map<String,dynamic> pt = {
+  "calculator": {
+    "label": {
+      "breakdown": "Desdobramento",
       "calculator": "Calculadora",
       "calculators": "Calculadoras",
       "more": {
-        "results": "Más Resultados"
+        "results": "Mais Resultados"
       },
       "results": "Resultados"
     },
     "title": {
-      "instructions": "Instrucciones para utilizar esta Calculadora",
-      "results": "Información sobre los resultados"
+      "instructions": "Instruções para utilizar esta Calculadora",
+      "results": "Informações sobre os resultados"
+    }
+  }
+};
+static const Map<String,dynamic> en = {
+  "calculator": {
+    "label": {
+      "breakdown": "Breakdown",
+      "calculator": "Calculator",
+      "calculators": "Calculators",
+      "more": {
+        "results": "More Results"
+      },
+      "results": "Results"
+    },
+    "title": {
+      "instructions": "Instructions for using this Calculator",
+      "results": "Information regarding the results"
     }
   }
 };
@@ -148,22 +147,22 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> pt = {
+static const Map<String,dynamic> es = {
   "calculator": {
     "label": {
-      "breakdown": "Desdobramento",
+      "breakdown": "Desglose",
       "calculator": "Calculadora",
       "calculators": "Calculadoras",
       "more": {
-        "results": "Mais Resultados"
+        "results": "Más Resultados"
       },
       "results": "Resultados"
     },
     "title": {
-      "instructions": "Instruções para utilizar esta Calculadora",
-      "results": "Informações sobre os resultados"
+      "instructions": "Instrucciones para utilizar esta Calculadora",
+      "results": "Información sobre los resultados"
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "en": en, "it": it, "de": de, "ru": ru, "es": es, "fr": fr, "ja": ja, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "it": it, "ru": ru, "de": de, "pt": pt, "en": en, "fr": fr, "ja": ja, "es": es};
 }

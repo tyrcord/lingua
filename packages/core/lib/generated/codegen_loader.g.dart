@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class CoreCodegenLoader extends AssetLoader {
@@ -516,510 +515,6 @@ class CoreCodegenLoader extends AssetLoader {
     }
   }
 };
-static const Map<String,dynamic> en = {
-  "core": {
-    "error": {
-      "cannot_reach_server": "We apologize for the inconvenience, but there is currently a connection issue with the server. Please try again at a later time.",
-      "error_occurred": {
-        "exclamation": "An error has occurred!",
-        "please": "Apologies, an error has occurred. Please try again later."
-      },
-      "invalid": {
-        "data": {
-          "period": "Invalid data.",
-          "type": "Invalid data type."
-        },
-        "file_type": "Invalid file type."
-      },
-      "service": {
-        "unavailable": "The service is currently unavailable."
-      }
-    },
-    "help": {
-      "check_your_modem_and_router": "Check your modem and router.",
-      "ensure": {
-        "app_up_to_date": "Ensure the app is up to date.",
-        "internet_restrictions": "Ensure no firewall or network restrictions are preventing access to the service."
-      },
-      "issue_persist_contact_support": "If the issue persists, please contact our support team for assistance.",
-      "reconnect_to_your_wifi_network": "Reconnect to your Wi-Fi network.",
-      "restart_device_check_connection": "Restart your device and check your internet connection.",
-      "service": {
-        "not_available_current_location": "The service may not be available in your current location.",
-        "not_operational": "The service may not be operational at this time. Please verify its status or attempt to access it later."
-      },
-      "several_reasons": "There could be several reasons:"
-    },
-    "label": {
-      "accept": "Accept",
-      "accepted": "Accepted",
-      "active": "Active",
-      "add": "Add",
-      "advanced": "Advanced",
-      "all": {
-        "female": "All",
-        "male": "All",
-        "other": "All"
-      },
-      "annually": "Annually",
-      "approve": "Approve",
-      "approved": "Approved",
-      "at": "At",
-      "auto_save": "Auto-save",
-      "back": "Back",
-      "badge": "Badge",
-      "behavior": "Behavior",
-      "button": "Button",
-      "buy": "Buy",
-      "cancel": "Cancel",
-      "canceled": "Canceled",
-      "clear": {
-        "selection": "Clear selection",
-        "text": "Clear"
-      },
-      "close": {
-        "all": "Close all",
-        "others": "Close others",
-        "tab": "Close tab",
-        "text": "Close",
-        "window": "Close window"
-      },
-      "collapse": {
-        "all": "Collapse all",
-        "text": "Collapse"
-      },
-      "commercial": "Commercial",
-      "complete": "Complete",
-      "completed": "Completed",
-      "confirm": "Confirm",
-      "confirmation": "Confirmation",
-      "connected": "Connected",
-      "contact": {
-        "support": "Contact support",
-        "us": "Contact us"
-      },
-      "continue": "Continue",
-      "copy": "Copy",
-      "country": "Country",
-      "cut": "Cut",
-      "daily": "Daily",
-      "date": "Date",
-      "default": {
-        "text": "Default",
-        "values": "Default values"
-      },
-      "delete": "Delete",
-      "description": "Description",
-      "details": "Details",
-      "disabled": "Disabled",
-      "disapprove": "Disapprove",
-      "disapproved": "Disapproved",
-      "disconnected": "Disconnected",
-      "display": "Display",
-      "done": "Done",
-      "download": "Download",
-      "edit": "Edit",
-      "enabled": "Enabled",
-      "enter": {
-        "fullscreen": "Enter fullscreen",
-        "pip": "Enter picture-in-picture",
-        "text": "Enter"
-      },
-      "entries": "Entries",
-      "entry": "Entry",
-      "erase": {
-        "all": {
-          "content_and_settings": "Erase all content and settings"
-        }
-      },
-      "error": "Error",
-      "example": "Example",
-      "excluded": "Excluded",
-      "exit": {
-        "fullscreen": "Exit fullscreen",
-        "pip": "Exit picture-in-picture",
-        "text": "Exit"
-      },
-      "exotics": "Exotic",
-      "expand": {
-        "all": "Expand all",
-        "text": "Expand"
-      },
-      "expired": "Expired",
-      "export": {
-        "all": "Export all",
-        "as": "Export as",
-        "csv": "Export as CSV",
-        "excel": "Export as Excel",
-        "pdf": "Export as PDF",
-        "text": "Export"
-      },
-      "external": "External",
-      "fast_forward": "Fast forward",
-      "favorites": "Favorites",
-      "find": {
-        "and_replace": "Find and replace",
-        "next": "Find next",
-        "previous": "Find previous",
-        "text": "Find"
-      },
-      "follow_us": "Follow us",
-      "frame": "Frame",
-      "frequency": "Frequency",
-      "fullscreen": "Fullscreen",
-      "generate": "Generate",
-      "go": "Go",
-      "help": "Help",
-      "hidden": "Hidden",
-      "hint": "Hint",
-      "home": "Home",
-      "import": {
-        "all": "Import all",
-        "from": "Import from",
-        "text": "Import"
-      },
-      "in_progress": "In progress",
-      "inactive": "Inactive",
-      "included": "Included",
-      "incomplete": "Incomplete",
-      "info": "Info",
-      "inputs": "Inputs",
-      "install": "Install",
-      "internal": "Internal",
-      "internet_connection": "No internet connection",
-      "invalid": "Invalid",
-      "learn_more": "Learn more",
-      "loading": "Loading",
-      "local": "Local",
-      "locked": "Locked",
-      "loop": "Loop",
-      "majors": "Major",
-      "menu": "Menu",
-      "method": "Method",
-      "minors": "Minor",
-      "missing_rights": "Missing rights",
-      "monthly": "Monthly",
-      "mute": "Mute",
-      "name": "Name",
-      "new": {
-        "bookmark": "New bookmark",
-        "document": "New document",
-        "file": "New file",
-        "folder": "New folder",
-        "note": "New note",
-        "project": "New project",
-        "tab": "New tab",
-        "text": "New",
-        "window": "New window",
-        "workspace": "New workspace"
-      },
-      "next": {
-        "chapter": "Next chapter",
-        "page": "Next page",
-        "text": "Next",
-        "track": "Next track"
-      },
-      "no": "No",
-      "no_elements": "No elements",
-      "no_items": "No items",
-      "non_commercial": "Non-commercial",
-      "none": {
-        "female": "None",
-        "male": "None",
-        "other": "None"
-      },
-      "offline": "Offline",
-      "offline_mode": "Offline mode",
-      "ok": "OK",
-      "online": "Online",
-      "open": {
-        "all": "Open all",
-        "directory": "Open directory",
-        "file": "Open file",
-        "in_new": {
-          "tab": "Open in new tab",
-          "window": "Open in new window"
-        },
-        "text": "Open",
-        "url": "Open URL"
-      },
-      "operation": {
-        "canceled": "Operation canceled",
-        "completed": "Operation completed",
-        "failed": "Operation failed",
-        "in_progress": "Operation in progress",
-        "pending": "Operation pending",
-        "started": "Operation started",
-        "succeeded": "Operation succeeded",
-        "text": "Operation",
-        "timed_out": "Operation timed out"
-      },
-      "optional": "Optional",
-      "panel": "Panel",
-      "paste": "Paste",
-      "pause": "Pause",
-      "paused": "Paused",
-      "pending": "Pending",
-      "perform": "Perform",
-      "personal": "Personal",
-      "play": "Play",
-      "play_pause": "Play/Pause",
-      "previous": {
-        "chapter": "Previous chapter",
-        "page": "Previous page",
-        "text": "Previous",
-        "track": "Previous track"
-      },
-      "private": "Private",
-      "public": "Public",
-      "quantity": "Quantity",
-      "quarterly": "Quarterly",
-      "question": "Question",
-      "redo": "Redo",
-      "refresh": "Refresh",
-      "reject": "Reject",
-      "rejected": "Rejected",
-      "remote": "Remote",
-      "remove": "Remove",
-      "repeat": {
-        "all": "Repeat all",
-        "none": "Repeat none",
-        "one": "Repeat one",
-        "text": "Repeat"
-      },
-      "replace": {
-        "all": "Replace all",
-        "text": "Replace"
-      },
-      "replay": "Replay",
-      "report": {
-        "error": "Report an error",
-        "text": "Report"
-      },
-      "required": "Required",
-      "reset": {
-        "all": {
-          "content_settings": "Reset all content and settings"
-        },
-        "text": "Reset"
-      },
-      "results": "Results",
-      "resumed": "Resumed",
-      "retry": "Retry",
-      "rewind": "Rewind",
-      "rights_denied": "Rights denied",
-      "rights_granted": "Rights granted",
-      "save": {
-        "all": "Save all",
-        "and": {
-          "close": "Save and close",
-          "exit": "Save and exit"
-        },
-        "as": "Save as",
-        "text": "Save"
-      },
-      "saved": "Saved",
-      "search": "Search",
-      "select": {
-        "all": "Select all",
-        "none": "Select none",
-        "text": "Select"
-      },
-      "selection": "Selection",
-      "sell": "Sell",
-      "semi_annually": "Semi-annually",
-      "service_unavailable": "Service unavailable",
-      "share": {
-        "app": "Share this app",
-        "text": "Share"
-      },
-      "shuffle": "Shuffle",
-      "skip": {
-        "backward": "Skip backward",
-        "forward": "Skip forward",
-        "next": "Skip next",
-        "previous": "Skip previous",
-        "text": "Skip"
-      },
-      "stop": "Stop",
-      "submit": "Submit",
-      "success": "Success",
-      "sync": "Sync",
-      "synced": "Synced",
-      "template": "Template",
-      "time": {
-        "elapsed": "Time elapsed",
-        "remaining": "Time remaining",
-        "text": "Time"
-      },
-      "tip": "Tip",
-      "toggle": {
-        "all": "Toggle all",
-        "text": "Toggle"
-      },
-      "try": {
-        "again": "Try again",
-        "later": "Try later",
-        "text": "Try"
-      },
-      "undo": "Undo",
-      "uninstall": "Uninstall",
-      "unlocked": "Unlocked",
-      "unmute": "Unmute",
-      "unsync": "Unsync",
-      "unsynced": "Unsynced",
-      "update": "Update",
-      "upgrade": {
-        "now": "Upgrade now",
-        "text": "Upgrade"
-      },
-      "upload": "Upload",
-      "user_inputs": "User inputs",
-      "valid": "Valid",
-      "visible": "Visible",
-      "volume": "Volume",
-      "warning": "Warning",
-      "watch": {
-        "later": "Watch later",
-        "now": "Watch now",
-        "text": "Watch"
-      },
-      "website": "Website",
-      "weekly": "Weekly",
-      "yearly": "Yearly",
-      "yes": "Yes",
-      "yesterday": "Yesterday",
-      "zoom": {
-        "in": "Zoom in",
-        "out": "Zoom out",
-        "reset": "Reset zoom",
-        "text": "Zoom"
-      }
-    },
-    "message": {
-      "action": {
-        "canceled": "Action canceled.",
-        "completed": "Action completed."
-      },
-      "bugs_fixes_improvements": "Minor bug fixes and improvements.",
-      "checking_connection": "Checking connection...",
-      "congratulations": "Congratulations!",
-      "copied": "Copied!",
-      "copied_to_clipboard": "Copied to clipboard!",
-      "copied_value_to_clipboard": "Copied {value} to clipboard!",
-      "dark_mode_support": "Dark Mode support.",
-      "erase_all_content_and_settings_explanation": "This action will permanently delete all data from this app, including your personal settings, preferences, and saved information. This process is irreversible.",
-      "example": "Example:",
-      "failed_to": {
-        "generate": {
-          "csv": "A problem was encountered while creating the CSV file.",
-          "excel": "A problem was encountered while creating the Excel file.",
-          "file": "A problem was encountered while creating the file.",
-          "pdf": "A problem was encountered while creating the PDF file.",
-          "text": "A problem was encountered while creating the text file."
-        },
-        "load": {
-          "csv": "A problem was encountered while loading the CSV file.",
-          "data": "A problem was encountered while loading the data.",
-          "excel": "A problem was encountered while loading the Excel file.",
-          "file": "A problem was encountered while loading the file.",
-          "pdf": "A problem was encountered while loading the PDF file.",
-          "text": "A problem was encountered while loading the text file."
-        },
-        "perform": {
-          "action": "A problem was encountered while performing the action."
-        },
-        "save": {
-          "csv": "A problem was encountered while saving the CSV file.",
-          "data": "A problem was encountered while saving the data.",
-          "excel": "A problem was encountered while saving the Excel file.",
-          "file": "A problem was encountered while saving the file.",
-          "pdf": "A problem was encountered while saving the PDF file.",
-          "text": "A problem was encountered while saving the text file."
-        }
-      },
-      "finally": "Finally!",
-      "generating": {
-        "csv": "Generating CSV file...",
-        "excel": "Generating Excel file...",
-        "pdf": "Generating PDF file...",
-        "text": "Generation in progress..."
-      },
-      "have_wonderful_day": "Have a wonderful day!",
-      "last_updated_on": "Last updated on {date}",
-      "let_get_started": "Let's get started!",
-      "loading": {
-        "data": "Loading data...",
-        "pdf": "Loading PDF...",
-        "text": "Loading..."
-      },
-      "modern_design": "Modern Look.",
-      "no": {
-        "results_found": "No results found."
-      },
-      "no_favorites": "No favorites.",
-      "pdf_generated_by": "PDF generated by {app_name}",
-      "performing": "Performing...",
-      "please_wait": "Please wait...",
-      "processing": "Processing...",
-      "ready": {
-        "csv": "CSV file ready!",
-        "excel": "Excel file ready!",
-        "file": "File ready!",
-        "pdf": "PDF file ready!",
-        "text": "Ready!"
-      },
-      "require": {
-        "internet_connection": "An internet connection is required."
-      },
-      "saving": "Saving...",
-      "search": "Search...",
-      "searching": "Searching...",
-      "share": {
-        "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
-      },
-      "sorry": "Sorry...",
-      "success": "Success!",
-      "thank_you": "Thank you!",
-      "try": {
-        "steps_back_online": "Try these steps to get back online:"
-      },
-      "warning": "Warning!",
-      "welcome": "Welcome!",
-      "whats_new": "What's new?",
-      "whoops": "Whoops!"
-    },
-    "question": {
-      "are_you_sure": "Are you sure?",
-      "erase_all_content_and_settings": "Are you sure you want to erase all content and settings?",
-      "export": {
-        "data": {
-          "as": {
-            "csv": "Would you like to export this data as a CSV?",
-            "excel": "Would you like to export this data as an Excel file?",
-            "pdf": "Would you like to export this data as a PDF?",
-            "text": "Would you like to export this data?"
-          }
-        }
-      },
-      "generate": {
-        "data": {
-          "csv": "Would you like to generate a CSV version of this data?",
-          "excel": "Would you like to generate an Excel version of this data?",
-          "pdf": "Would you like to generate a PDF version of this data?"
-        }
-      }
-    },
-    "select": {
-      "country": "Select a country",
-      "frequency": "Select a frequency",
-      "method": "Select a method"
-    },
-    "warning": {
-      "offline": "The application is currently operating in offline mode, which means that the data may not be up to date"
-    }
-  }
-};
 static const Map<String,dynamic> it = {
   "core": {
     "error": {
@@ -1521,510 +1016,6 @@ static const Map<String,dynamic> it = {
     },
     "warning": {
       "offline": "L'applicazione è attualmente in modalità offline, il che significa che i dati potrebbero non essere aggiornati."
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "core": {
-    "error": {
-      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es gibt derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es später erneut.",
-      "error_occurred": {
-        "exclamation": "Ein Fehler ist aufgetreten!",
-        "please": "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
-      },
-      "invalid": {
-        "data": {
-          "period": "Ungültige Daten.",
-          "type": "Ungültiger Datentyp."
-        },
-        "file_type": "Ungültiger Dateityp."
-      },
-      "service": {
-        "unavailable": "Der Dienst ist derzeit nicht verfügbar."
-      }
-    },
-    "help": {
-      "check_your_modem_and_router": "Überprüfen Sie Ihr Modem und Ihren Router.",
-      "ensure": {
-        "app_up_to_date": "Stellen Sie sicher, dass die App auf dem neuesten Stand ist.",
-        "internet_restrictions": "Stellen Sie sicher, dass keine Firewall oder Netzwerkeinschränkungen den Zugriff auf den Dienst verhindern."
-      },
-      "issue_persist_contact_support": "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
-      "reconnect_to_your_wifi_network": "Verbinden Sie sich erneut mit Ihrem WLAN-Netzwerk.",
-      "restart_device_check_connection": "Starten Sie Ihr Gerät neu und überprüfen Sie Ihre Internetverbindung.",
-      "service": {
-        "not_available_current_location": "Der Dienst ist möglicherweise an Ihrem aktuellen Standort nicht verfügbar.",
-        "not_operational": "Der Dienst ist möglicherweise derzeit nicht in Betrieb. Bitte überprüfen Sie seinen Status oder versuchen Sie es später erneut."
-      },
-      "several_reasons": "Es könnte mehrere Gründe geben:"
-    },
-    "label": {
-      "accept": "Akzeptieren",
-      "accepted": "Akzeptiert",
-      "active": "Aktiv",
-      "add": "Hinzufügen",
-      "advanced": "Erweitert",
-      "all": {
-        "female": "Alle",
-        "male": "Alle",
-        "other": "Alle"
-      },
-      "annually": "Jährlich",
-      "approve": "Genehmigen",
-      "approved": "Genehmigt",
-      "at": "Bei",
-      "auto_save": "Automatisch speichern",
-      "back": "Zurück",
-      "badge": "Abzeichen",
-      "behavior": "Verhalten",
-      "button": "Knopf",
-      "buy": "Kaufen",
-      "cancel": "Abbrechen",
-      "canceled": "Abgebrochen",
-      "clear": {
-        "selection": "Auswahl löschen",
-        "text": "Löschen"
-      },
-      "close": {
-        "all": "Alle schließen",
-        "others": "Andere schließen",
-        "tab": "Tab schließen",
-        "text": "Schließen",
-        "window": "Fenster schließen"
-      },
-      "collapse": {
-        "all": "Alle zusammenklappen",
-        "text": "Zusammenklappen"
-      },
-      "commercial": "Kommerziell",
-      "complete": "Vollständig",
-      "completed": "Abgeschlossen",
-      "confirm": "Bestätigen",
-      "confirmation": "Bestätigung",
-      "connected": "Verbunden",
-      "contact": {
-        "support": "Support kontaktieren",
-        "us": "Kontaktieren sie uns"
-      },
-      "continue": "Weiter",
-      "copy": "Kopieren",
-      "country": "Land",
-      "cut": "Ausschneiden",
-      "daily": "Täglich",
-      "date": "Datum",
-      "default": {
-        "text": "Standard",
-        "values": "Standardwerte"
-      },
-      "delete": "Löschen",
-      "description": "Beschreibung",
-      "details": "Details",
-      "disabled": "Deaktiviert",
-      "disapprove": "Missbilligen",
-      "disapproved": "Missbilligt",
-      "disconnected": "Getrennt",
-      "display": "Anzeige",
-      "done": "Fertig",
-      "download": "Herunterladen",
-      "edit": "Bearbeiten",
-      "enabled": "Aktiviert",
-      "enter": {
-        "fullscreen": "Vollbildmodus betreten",
-        "pip": "Bild-in-bild betreten",
-        "text": "Betreten"
-      },
-      "entries": "Eingänge",
-      "entry": "Eingang",
-      "erase": {
-        "all": {
-          "content_and_settings": "Alle Inhalte und Einstellungen löschen"
-        }
-      },
-      "error": "Fehler",
-      "example": "Beispiel",
-      "excluded": "Ausgeschlossen",
-      "exit": {
-        "fullscreen": "Vollbild beenden",
-        "pip": "Bild-in-bild beenden",
-        "text": "Beenden"
-      },
-      "exotics": "Exotische",
-      "expand": {
-        "all": "Alle erweitern",
-        "text": "Erweitern"
-      },
-      "expired": "Abgelaufen",
-      "export": {
-        "all": "Alle exportieren",
-        "as": "Exportieren als",
-        "csv": "Als CSV exportieren",
-        "excel": "Als Excel exportieren",
-        "pdf": "Als PDF exportieren",
-        "text": "Exportieren"
-      },
-      "external": "Extern",
-      "fast_forward": "Vorwärts spulen",
-      "favorites": "Favoriten",
-      "find": {
-        "and_replace": "Suchen und ersetzen",
-        "next": "Nächste suchen",
-        "previous": "Vorherige suchen",
-        "text": "Suchen"
-      },
-      "follow_us": "Folgen sie uns",
-      "frame": "Rahmen",
-      "frequency": "Häufigkeit",
-      "fullscreen": "Vollbild",
-      "generate": "Generieren",
-      "go": "Gehe zu",
-      "help": "Hilfe",
-      "hidden": "Versteckt",
-      "hint": "Hinweis",
-      "home": "Startseite",
-      "import": {
-        "all": "Alle importieren",
-        "from": "Importieren von",
-        "text": "Importieren"
-      },
-      "in_progress": "In bearbeitung",
-      "inactive": "Inaktiv",
-      "included": "Inklusive",
-      "incomplete": "Unvollständig",
-      "info": "Info",
-      "inputs": "Eingaben",
-      "install": "Installieren",
-      "internal": "Intern",
-      "internet_connection": "Keine internetverbindung",
-      "invalid": "Ungültig",
-      "learn_more": "Weitere informationen",
-      "loading": "Wird geladen",
-      "local": "Lokal",
-      "locked": "Gesperrt",
-      "loop": "Schleife",
-      "majors": "Volljährige",
-      "menu": "Menü",
-      "method": "Methode",
-      "minors": "Minderjährige",
-      "missing_rights": "Fehlende rechte",
-      "monthly": "Monatlich",
-      "mute": "Stumm",
-      "name": "Name",
-      "new": {
-        "bookmark": "Neues lesezeichen",
-        "document": "Neues dokument",
-        "file": "Neue datei",
-        "folder": "Neuer ordner",
-        "note": "Neue notiz",
-        "project": "Neues projekt",
-        "tab": "Neuer tab",
-        "text": "Neu",
-        "window": "Neues fenster",
-        "workspace": "Neuer arbeitsbereich"
-      },
-      "next": {
-        "chapter": "Nächstes kapitel",
-        "page": "Nächste seite",
-        "text": "Nächste",
-        "track": "Nächster titel"
-      },
-      "no": "Nein",
-      "no_elements": "Keine elemente",
-      "no_items": "Keine artikel",
-      "non_commercial": "Nicht-kommerziell",
-      "none": {
-        "female": "Keine",
-        "male": "Keine",
-        "other": "Keine"
-      },
-      "offline": "Offline",
-      "offline_mode": "Offline-modus",
-      "ok": "OK",
-      "online": "Online",
-      "open": {
-        "all": "Alle öffnen",
-        "directory": "Verzeichnis öffnen",
-        "file": "Datei öffnen",
-        "in_new": {
-          "tab": "In neuem tab öffnen",
-          "window": "In neuem fenster öffnen"
-        },
-        "text": "Öffnen",
-        "url": "URL öffnen"
-      },
-      "operation": {
-        "canceled": "Vorgang abgebrochen",
-        "completed": "Vorgang abgeschlossen",
-        "failed": "Vorgang fehlgeschlagen",
-        "in_progress": "Vorgang in bearbeitung",
-        "pending": "Vorgang ausstehend",
-        "started": "Vorgang gestartet",
-        "succeeded": "Vorgang erfolgreich",
-        "text": "Vorgang",
-        "timed_out": "Vorgang abgelaufen"
-      },
-      "optional": "Optional",
-      "panel": "Panel",
-      "paste": "Einfügen",
-      "pause": "Pause",
-      "paused": "Pausiert",
-      "pending": "Ausstehend",
-      "perform": "Ausführen",
-      "personal": "Persönlich",
-      "play": "Wiedergabe",
-      "play_pause": "Wiedergabe/Pause",
-      "previous": {
-        "chapter": "Vorheriges kapitel",
-        "page": "Vorherige seite",
-        "text": "Vorherige",
-        "track": "Vorheriger titel"
-      },
-      "private": "Privat",
-      "public": "Öffentlich",
-      "quantity": "Menge",
-      "quarterly": "Vierteljährlich",
-      "question": "Frage",
-      "redo": "Wiederholen",
-      "refresh": "Aktualisieren",
-      "reject": "Ablehnen",
-      "rejected": "Abgelehnt",
-      "remote": "Fern",
-      "remove": "Entfernen",
-      "repeat": {
-        "all": "Alle wiederholen",
-        "none": "Keine wiederholung",
-        "one": "Einzelnes wiederholen",
-        "text": "Wiederholung"
-      },
-      "replace": {
-        "all": "Alle ersetzen",
-        "text": "Ersetzen"
-      },
-      "replay": "Erneut abspielen",
-      "report": {
-        "error": "Fehler melden",
-        "text": "Bericht"
-      },
-      "required": "Erforderlich",
-      "reset": {
-        "all": {
-          "content_settings": "Alle Inhalte und Einstellungen zurücksetzen"
-        },
-        "text": "Zurücksetzen"
-      },
-      "results": "Ergebnisse",
-      "resumed": "Fortgesetzt",
-      "retry": "Erneut versuchen",
-      "rewind": "Zurückspulen",
-      "rights_denied": "Rechte verweigert",
-      "rights_granted": "Rechte gewährt",
-      "save": {
-        "all": "Alle speichern",
-        "and": {
-          "close": "Speichern und schließen",
-          "exit": "Speichern und beenden"
-        },
-        "as": "Speichern als",
-        "text": "Speichern"
-      },
-      "saved": "Gespeichert",
-      "search": "Suche",
-      "select": {
-        "all": "Alle auswählen",
-        "none": "Keine auswählen",
-        "text": "Auswählen"
-      },
-      "selection": "Auswahl",
-      "sell": "Verkaufen",
-      "semi_annually": "Halbjährlich",
-      "service_unavailable": "Dienst nicht verfügbar",
-      "share": {
-        "app": "Diese app teilen",
-        "text": "Teilen"
-      },
-      "shuffle": "Zufällige wiedergabe",
-      "skip": {
-        "backward": "Rückwärts überspringen",
-        "forward": "Vorwärts überspringen",
-        "next": "Nächster überspringen",
-        "previous": "Vorheriger überspringen",
-        "text": "Überspringen"
-      },
-      "stop": "Stop",
-      "submit": "Senden",
-      "success": "Erfolg",
-      "sync": "Synchronisieren",
-      "synced": "Synchronisiert",
-      "template": "Vorlage",
-      "time": {
-        "elapsed": "Verstrichene zeit",
-        "remaining": "Verbleibende zeit",
-        "text": "Zeit"
-      },
-      "tip": "Tipp",
-      "toggle": {
-        "all": "Alle umschalten",
-        "text": "Umschalten"
-      },
-      "try": {
-        "again": "Erneut versuchen",
-        "later": "Später versuchen",
-        "text": "Versuchen"
-      },
-      "undo": "Rückgängig machen",
-      "uninstall": "Deinstallieren",
-      "unlocked": "Entsperrt",
-      "unmute": "Ton an",
-      "unsync": "Desynchronisieren",
-      "unsynced": "Nicht synchronisiert",
-      "update": "Aktualisieren",
-      "upgrade": {
-        "now": "Jetzt aktualisieren",
-        "text": "Aktualisieren"
-      },
-      "upload": "Hochladen",
-      "user_inputs": "Benutzereingaben",
-      "valid": "Gültig",
-      "visible": "Sichtbar",
-      "volume": "Lautstärke",
-      "warning": "Warnung",
-      "watch": {
-        "later": "Später ansehen",
-        "now": "Jetzt ansehen",
-        "text": "Ansehen"
-      },
-      "website": "Webseite",
-      "weekly": "Wöchentlich",
-      "yearly": "Jährlich",
-      "yes": "Ja",
-      "yesterday": "Gestern",
-      "zoom": {
-        "in": "Hineinzoomen",
-        "out": "Herauszoomen",
-        "reset": "Zoom zurücksetzen",
-        "text": "Zoom"
-      }
-    },
-    "message": {
-      "action": {
-        "canceled": "Aktion abgebrochen.",
-        "completed": "Aktion abgeschlossen."
-      },
-      "bugs_fixes_improvements": "Kleinere Fehlerbehebungen und Verbesserungen.",
-      "checking_connection": "Verbindungsprüfung...",
-      "congratulations": "Herzlichen Glückwunsch!",
-      "copied": "Kopiert!",
-      "copied_to_clipboard": "In die Zwischenablage kopiert!",
-      "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
-      "dark_mode_support": "Unterstützung für den Dunkelmodus.",
-      "erase_all_content_and_settings_explanation": "Diese Aktion wird alle Daten aus dieser App dauerhaft löschen, einschließlich Ihrer persönlichen Einstellungen, Vorlieben und gespeicherten Informationen. Dieser Vorgang ist nicht umkehrbar.",
-      "example": "Beispiel:",
-      "failed_to": {
-        "generate": {
-          "csv": "Beim Erstellen der CSV-Datei ist ein Problem aufgetreten.",
-          "excel": "Beim Erstellen der Excel-Datei ist ein Problem aufgetreten.",
-          "file": "Beim Erstellen der Datei ist ein Problem aufgetreten.",
-          "pdf": "Beim Erstellen der PDF-Datei ist ein Problem aufgetreten.",
-          "text": "Beim Erstellen der Textdatei ist ein Problem aufgetreten."
-        },
-        "load": {
-          "csv": "Beim Laden der CSV-Datei ist ein Problem aufgetreten.",
-          "data": "Beim Laden der Daten ist ein Problem aufgetreten.",
-          "excel": "Beim Laden der Excel-Datei ist ein Problem aufgetreten.",
-          "file": "Beim Laden der Datei ist ein Problem aufgetreten.",
-          "pdf": "Beim Laden der PDF-Datei ist ein Problem aufgetreten.",
-          "text": "Beim Laden der Textdatei ist ein Problem aufgetreten."
-        },
-        "perform": {
-          "action": "Beim Durchführen der Aktion ist ein Problem aufgetreten."
-        },
-        "save": {
-          "csv": "Beim Speichern der CSV-Datei ist ein Problem aufgetreten.",
-          "data": "Beim Speichern der Daten ist ein Problem aufgetreten.",
-          "excel": "Beim Speichern der Excel-Datei ist ein Problem aufgetreten.",
-          "file": "Beim Speichern der Datei ist ein Problem aufgetreten.",
-          "pdf": "Beim Speichern der PDF-Datei ist ein Problem aufgetreten.",
-          "text": "Beim Speichern der Textdatei ist ein Problem aufgetreten."
-        }
-      },
-      "finally": "Endlich!",
-      "generating": {
-        "csv": "CSV-Datei wird erstellt...",
-        "excel": "Excel-Datei wird erstellt...",
-        "pdf": "PDF-Datei wird erstellt...",
-        "text": "Erstellung läuft..."
-      },
-      "have_wonderful_day": "Einen wundervollen Tag!",
-      "last_updated_on": "Zuletzt aktualisiert am {date}",
-      "let_get_started": "Lassen Sie uns beginnen!",
-      "loading": {
-        "data": "Daten werden geladen...",
-        "pdf": "PDF wird geladen...",
-        "text": "Wird geladen..."
-      },
-      "modern_design": "Modernes Design.",
-      "no": {
-        "results_found": "Keine Ergebnisse gefunden."
-      },
-      "no_favorites": "Keine Favoriten.",
-      "pdf_generated_by": "PDF generiert von {app_name}",
-      "performing": "Wird durchgeführt...",
-      "please_wait": "Bitte warten...",
-      "processing": "Wird verarbeitet...",
-      "ready": {
-        "csv": "CSV-Datei fertig!",
-        "excel": "Excel-Datei fertig!",
-        "file": "Datei fertig!",
-        "pdf": "PDF-Datei fertig!",
-        "text": "Fertig!"
-      },
-      "require": {
-        "internet_connection": "Eine Internetverbindung wird benötigt."
-      },
-      "saving": "Speichern...",
-      "search": "Suche...",
-      "searching": "Suche läuft...",
-      "share": {
-        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
-      },
-      "sorry": "Entschuldigung...",
-      "success": "Erfolg!",
-      "thank_you": "Vielen Dank!",
-      "try": {
-        "steps_back_online": "Versuchen Sie diese Schritte, um wieder online zu gehen:"
-      },
-      "warning": "Achtung!",
-      "welcome": "Willkommen!",
-      "whats_new": "Was gibt's Neues?",
-      "whoops": "Hoppla!"
-    },
-    "question": {
-      "are_you_sure": "Sind Sie sicher?",
-      "erase_all_content_and_settings": "Sind Sie sicher, dass Sie alle Inhalte und Einstellungen löschen möchten?",
-      "export": {
-        "data": {
-          "as": {
-            "csv": "Möchten Sie diese Daten als CSV exportieren?",
-            "excel": "Möchten Sie diese Daten als Excel-Datei exportieren?",
-            "pdf": "Möchten Sie diese Daten als PDF exportieren?",
-            "text": "Möchten Sie diese Daten exportieren?"
-          }
-        }
-      },
-      "generate": {
-        "data": {
-          "csv": "Möchten Sie eine CSV-Version dieser Daten erstellen?",
-          "excel": "Möchten Sie eine Excel-Version dieser Daten erstellen?",
-          "pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
-        }
-      }
-    },
-    "select": {
-      "country": "Wählen Sie ein Land",
-      "frequency": "Wählen Sie eine Häufigkeit",
-      "method": "Wählen Sie eine Methode"
-    },
-    "warning": {
-      "offline": "Die Anwendung arbeitet derzeit im Offline-Modus. Die Daten sind möglicherweise nicht auf dem neuesten Stand."
     }
   }
 };
@@ -2532,138 +1523,642 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> de = {
   "core": {
     "error": {
-      "cannot_reach_server": "Nos disculpamos por las molestias, pero actualmente hay un problema de conexión con el servidor. Por favor, inténtelo de nuevo más tarde.",
+      "cannot_reach_server": "Wir entschuldigen uns für die Unannehmlichkeiten, aber es gibt derzeit ein Verbindungsproblem mit dem Server. Bitte versuchen Sie es später erneut.",
       "error_occurred": {
-        "exclamation": "¡Ha ocurrido un error!",
-        "please": "Disculpas, ha ocurrido un error. Por favor, inténtelo de nuevo más tarde."
+        "exclamation": "Ein Fehler ist aufgetreten!",
+        "please": "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
       },
       "invalid": {
         "data": {
-          "period": "Datos inválidos.",
-          "type": "Tipo de datos inválido."
+          "period": "Ungültige Daten.",
+          "type": "Ungültiger Datentyp."
         },
-        "file_type": "Tipo de archivo inválido."
+        "file_type": "Ungültiger Dateityp."
       },
       "service": {
-        "unavailable": "El servicio no está disponible en este momento."
+        "unavailable": "Der Dienst ist derzeit nicht verfügbar."
       }
     },
     "help": {
-      "check_your_modem_and_router": "Revise su módem y router.",
+      "check_your_modem_and_router": "Überprüfen Sie Ihr Modem und Ihren Router.",
       "ensure": {
-        "app_up_to_date": "Asegúrese de que la aplicación esté actualizada.",
-        "internet_restrictions": "Asegúrese de que no haya restricciones de firewall o de red que impidan el acceso al servicio."
+        "app_up_to_date": "Stellen Sie sicher, dass die App auf dem neuesten Stand ist.",
+        "internet_restrictions": "Stellen Sie sicher, dass keine Firewall oder Netzwerkeinschränkungen den Zugriff auf den Dienst verhindern."
       },
-      "issue_persist_contact_support": "Si el problema persiste, póngase en contacto con nuestro equipo de soporte.",
-      "reconnect_to_your_wifi_network": "Reconéctese a su red Wi-Fi.",
-      "restart_device_check_connection": "Reinicie su dispositivo y compruebe su conexión a Internet.",
+      "issue_persist_contact_support": "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
+      "reconnect_to_your_wifi_network": "Verbinden Sie sich erneut mit Ihrem WLAN-Netzwerk.",
+      "restart_device_check_connection": "Starten Sie Ihr Gerät neu und überprüfen Sie Ihre Internetverbindung.",
       "service": {
-        "not_available_current_location": "El servicio puede no estar disponible en su ubicación actual.",
-        "not_operational": "El servicio puede no estar operativo en este momento. Por favor, verifique su estado o intente acceder más tarde."
+        "not_available_current_location": "Der Dienst ist möglicherweise an Ihrem aktuellen Standort nicht verfügbar.",
+        "not_operational": "Der Dienst ist möglicherweise derzeit nicht in Betrieb. Bitte überprüfen Sie seinen Status oder versuchen Sie es später erneut."
       },
-      "several_reasons": "Podría haber varias razones:"
+      "several_reasons": "Es könnte mehrere Gründe geben:"
     },
     "label": {
-      "accept": "Aceptar",
-      "accepted": "Aceptado",
-      "active": "Activo",
-      "add": "Agregar",
-      "advanced": "Avanzado",
+      "accept": "Akzeptieren",
+      "accepted": "Akzeptiert",
+      "active": "Aktiv",
+      "add": "Hinzufügen",
+      "advanced": "Erweitert",
       "all": {
-        "female": "Todas",
+        "female": "Alle",
+        "male": "Alle",
+        "other": "Alle"
+      },
+      "annually": "Jährlich",
+      "approve": "Genehmigen",
+      "approved": "Genehmigt",
+      "at": "Bei",
+      "auto_save": "Automatisch speichern",
+      "back": "Zurück",
+      "badge": "Abzeichen",
+      "behavior": "Verhalten",
+      "button": "Knopf",
+      "buy": "Kaufen",
+      "cancel": "Abbrechen",
+      "canceled": "Abgebrochen",
+      "clear": {
+        "selection": "Auswahl löschen",
+        "text": "Löschen"
+      },
+      "close": {
+        "all": "Alle schließen",
+        "others": "Andere schließen",
+        "tab": "Tab schließen",
+        "text": "Schließen",
+        "window": "Fenster schließen"
+      },
+      "collapse": {
+        "all": "Alle zusammenklappen",
+        "text": "Zusammenklappen"
+      },
+      "commercial": "Kommerziell",
+      "complete": "Vollständig",
+      "completed": "Abgeschlossen",
+      "confirm": "Bestätigen",
+      "confirmation": "Bestätigung",
+      "connected": "Verbunden",
+      "contact": {
+        "support": "Support kontaktieren",
+        "us": "Kontaktieren sie uns"
+      },
+      "continue": "Weiter",
+      "copy": "Kopieren",
+      "country": "Land",
+      "cut": "Ausschneiden",
+      "daily": "Täglich",
+      "date": "Datum",
+      "default": {
+        "text": "Standard",
+        "values": "Standardwerte"
+      },
+      "delete": "Löschen",
+      "description": "Beschreibung",
+      "details": "Details",
+      "disabled": "Deaktiviert",
+      "disapprove": "Missbilligen",
+      "disapproved": "Missbilligt",
+      "disconnected": "Getrennt",
+      "display": "Anzeige",
+      "done": "Fertig",
+      "download": "Herunterladen",
+      "edit": "Bearbeiten",
+      "enabled": "Aktiviert",
+      "enter": {
+        "fullscreen": "Vollbildmodus betreten",
+        "pip": "Bild-in-bild betreten",
+        "text": "Betreten"
+      },
+      "entries": "Eingänge",
+      "entry": "Eingang",
+      "erase": {
+        "all": {
+          "content_and_settings": "Alle Inhalte und Einstellungen löschen"
+        }
+      },
+      "error": "Fehler",
+      "example": "Beispiel",
+      "excluded": "Ausgeschlossen",
+      "exit": {
+        "fullscreen": "Vollbild beenden",
+        "pip": "Bild-in-bild beenden",
+        "text": "Beenden"
+      },
+      "exotics": "Exotische",
+      "expand": {
+        "all": "Alle erweitern",
+        "text": "Erweitern"
+      },
+      "expired": "Abgelaufen",
+      "export": {
+        "all": "Alle exportieren",
+        "as": "Exportieren als",
+        "csv": "Als CSV exportieren",
+        "excel": "Als Excel exportieren",
+        "pdf": "Als PDF exportieren",
+        "text": "Exportieren"
+      },
+      "external": "Extern",
+      "fast_forward": "Vorwärts spulen",
+      "favorites": "Favoriten",
+      "find": {
+        "and_replace": "Suchen und ersetzen",
+        "next": "Nächste suchen",
+        "previous": "Vorherige suchen",
+        "text": "Suchen"
+      },
+      "follow_us": "Folgen sie uns",
+      "frame": "Rahmen",
+      "frequency": "Häufigkeit",
+      "fullscreen": "Vollbild",
+      "generate": "Generieren",
+      "go": "Gehe zu",
+      "help": "Hilfe",
+      "hidden": "Versteckt",
+      "hint": "Hinweis",
+      "home": "Startseite",
+      "import": {
+        "all": "Alle importieren",
+        "from": "Importieren von",
+        "text": "Importieren"
+      },
+      "in_progress": "In bearbeitung",
+      "inactive": "Inaktiv",
+      "included": "Inklusive",
+      "incomplete": "Unvollständig",
+      "info": "Info",
+      "inputs": "Eingaben",
+      "install": "Installieren",
+      "internal": "Intern",
+      "internet_connection": "Keine internetverbindung",
+      "invalid": "Ungültig",
+      "learn_more": "Weitere informationen",
+      "loading": "Wird geladen",
+      "local": "Lokal",
+      "locked": "Gesperrt",
+      "loop": "Schleife",
+      "majors": "Volljährige",
+      "menu": "Menü",
+      "method": "Methode",
+      "minors": "Minderjährige",
+      "missing_rights": "Fehlende rechte",
+      "monthly": "Monatlich",
+      "mute": "Stumm",
+      "name": "Name",
+      "new": {
+        "bookmark": "Neues lesezeichen",
+        "document": "Neues dokument",
+        "file": "Neue datei",
+        "folder": "Neuer ordner",
+        "note": "Neue notiz",
+        "project": "Neues projekt",
+        "tab": "Neuer tab",
+        "text": "Neu",
+        "window": "Neues fenster",
+        "workspace": "Neuer arbeitsbereich"
+      },
+      "next": {
+        "chapter": "Nächstes kapitel",
+        "page": "Nächste seite",
+        "text": "Nächste",
+        "track": "Nächster titel"
+      },
+      "no": "Nein",
+      "no_elements": "Keine elemente",
+      "no_items": "Keine artikel",
+      "non_commercial": "Nicht-kommerziell",
+      "none": {
+        "female": "Keine",
+        "male": "Keine",
+        "other": "Keine"
+      },
+      "offline": "Offline",
+      "offline_mode": "Offline-modus",
+      "ok": "OK",
+      "online": "Online",
+      "open": {
+        "all": "Alle öffnen",
+        "directory": "Verzeichnis öffnen",
+        "file": "Datei öffnen",
+        "in_new": {
+          "tab": "In neuem tab öffnen",
+          "window": "In neuem fenster öffnen"
+        },
+        "text": "Öffnen",
+        "url": "URL öffnen"
+      },
+      "operation": {
+        "canceled": "Vorgang abgebrochen",
+        "completed": "Vorgang abgeschlossen",
+        "failed": "Vorgang fehlgeschlagen",
+        "in_progress": "Vorgang in bearbeitung",
+        "pending": "Vorgang ausstehend",
+        "started": "Vorgang gestartet",
+        "succeeded": "Vorgang erfolgreich",
+        "text": "Vorgang",
+        "timed_out": "Vorgang abgelaufen"
+      },
+      "optional": "Optional",
+      "panel": "Panel",
+      "paste": "Einfügen",
+      "pause": "Pause",
+      "paused": "Pausiert",
+      "pending": "Ausstehend",
+      "perform": "Ausführen",
+      "personal": "Persönlich",
+      "play": "Wiedergabe",
+      "play_pause": "Wiedergabe/Pause",
+      "previous": {
+        "chapter": "Vorheriges kapitel",
+        "page": "Vorherige seite",
+        "text": "Vorherige",
+        "track": "Vorheriger titel"
+      },
+      "private": "Privat",
+      "public": "Öffentlich",
+      "quantity": "Menge",
+      "quarterly": "Vierteljährlich",
+      "question": "Frage",
+      "redo": "Wiederholen",
+      "refresh": "Aktualisieren",
+      "reject": "Ablehnen",
+      "rejected": "Abgelehnt",
+      "remote": "Fern",
+      "remove": "Entfernen",
+      "repeat": {
+        "all": "Alle wiederholen",
+        "none": "Keine wiederholung",
+        "one": "Einzelnes wiederholen",
+        "text": "Wiederholung"
+      },
+      "replace": {
+        "all": "Alle ersetzen",
+        "text": "Ersetzen"
+      },
+      "replay": "Erneut abspielen",
+      "report": {
+        "error": "Fehler melden",
+        "text": "Bericht"
+      },
+      "required": "Erforderlich",
+      "reset": {
+        "all": {
+          "content_settings": "Alle Inhalte und Einstellungen zurücksetzen"
+        },
+        "text": "Zurücksetzen"
+      },
+      "results": "Ergebnisse",
+      "resumed": "Fortgesetzt",
+      "retry": "Erneut versuchen",
+      "rewind": "Zurückspulen",
+      "rights_denied": "Rechte verweigert",
+      "rights_granted": "Rechte gewährt",
+      "save": {
+        "all": "Alle speichern",
+        "and": {
+          "close": "Speichern und schließen",
+          "exit": "Speichern und beenden"
+        },
+        "as": "Speichern als",
+        "text": "Speichern"
+      },
+      "saved": "Gespeichert",
+      "search": "Suche",
+      "select": {
+        "all": "Alle auswählen",
+        "none": "Keine auswählen",
+        "text": "Auswählen"
+      },
+      "selection": "Auswahl",
+      "sell": "Verkaufen",
+      "semi_annually": "Halbjährlich",
+      "service_unavailable": "Dienst nicht verfügbar",
+      "share": {
+        "app": "Diese app teilen",
+        "text": "Teilen"
+      },
+      "shuffle": "Zufällige wiedergabe",
+      "skip": {
+        "backward": "Rückwärts überspringen",
+        "forward": "Vorwärts überspringen",
+        "next": "Nächster überspringen",
+        "previous": "Vorheriger überspringen",
+        "text": "Überspringen"
+      },
+      "stop": "Stop",
+      "submit": "Senden",
+      "success": "Erfolg",
+      "sync": "Synchronisieren",
+      "synced": "Synchronisiert",
+      "template": "Vorlage",
+      "time": {
+        "elapsed": "Verstrichene zeit",
+        "remaining": "Verbleibende zeit",
+        "text": "Zeit"
+      },
+      "tip": "Tipp",
+      "toggle": {
+        "all": "Alle umschalten",
+        "text": "Umschalten"
+      },
+      "try": {
+        "again": "Erneut versuchen",
+        "later": "Später versuchen",
+        "text": "Versuchen"
+      },
+      "undo": "Rückgängig machen",
+      "uninstall": "Deinstallieren",
+      "unlocked": "Entsperrt",
+      "unmute": "Ton an",
+      "unsync": "Desynchronisieren",
+      "unsynced": "Nicht synchronisiert",
+      "update": "Aktualisieren",
+      "upgrade": {
+        "now": "Jetzt aktualisieren",
+        "text": "Aktualisieren"
+      },
+      "upload": "Hochladen",
+      "user_inputs": "Benutzereingaben",
+      "valid": "Gültig",
+      "visible": "Sichtbar",
+      "volume": "Lautstärke",
+      "warning": "Warnung",
+      "watch": {
+        "later": "Später ansehen",
+        "now": "Jetzt ansehen",
+        "text": "Ansehen"
+      },
+      "website": "Webseite",
+      "weekly": "Wöchentlich",
+      "yearly": "Jährlich",
+      "yes": "Ja",
+      "yesterday": "Gestern",
+      "zoom": {
+        "in": "Hineinzoomen",
+        "out": "Herauszoomen",
+        "reset": "Zoom zurücksetzen",
+        "text": "Zoom"
+      }
+    },
+    "message": {
+      "action": {
+        "canceled": "Aktion abgebrochen.",
+        "completed": "Aktion abgeschlossen."
+      },
+      "bugs_fixes_improvements": "Kleinere Fehlerbehebungen und Verbesserungen.",
+      "checking_connection": "Verbindungsprüfung...",
+      "congratulations": "Herzlichen Glückwunsch!",
+      "copied": "Kopiert!",
+      "copied_to_clipboard": "In die Zwischenablage kopiert!",
+      "copied_value_to_clipboard": "Kopiert {value} in die Zwischenablage!",
+      "dark_mode_support": "Unterstützung für den Dunkelmodus.",
+      "erase_all_content_and_settings_explanation": "Diese Aktion wird alle Daten aus dieser App dauerhaft löschen, einschließlich Ihrer persönlichen Einstellungen, Vorlieben und gespeicherten Informationen. Dieser Vorgang ist nicht umkehrbar.",
+      "example": "Beispiel:",
+      "failed_to": {
+        "generate": {
+          "csv": "Beim Erstellen der CSV-Datei ist ein Problem aufgetreten.",
+          "excel": "Beim Erstellen der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Erstellen der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Erstellen der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Erstellen der Textdatei ist ein Problem aufgetreten."
+        },
+        "load": {
+          "csv": "Beim Laden der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Laden der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Laden der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Laden der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Laden der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Laden der Textdatei ist ein Problem aufgetreten."
+        },
+        "perform": {
+          "action": "Beim Durchführen der Aktion ist ein Problem aufgetreten."
+        },
+        "save": {
+          "csv": "Beim Speichern der CSV-Datei ist ein Problem aufgetreten.",
+          "data": "Beim Speichern der Daten ist ein Problem aufgetreten.",
+          "excel": "Beim Speichern der Excel-Datei ist ein Problem aufgetreten.",
+          "file": "Beim Speichern der Datei ist ein Problem aufgetreten.",
+          "pdf": "Beim Speichern der PDF-Datei ist ein Problem aufgetreten.",
+          "text": "Beim Speichern der Textdatei ist ein Problem aufgetreten."
+        }
+      },
+      "finally": "Endlich!",
+      "generating": {
+        "csv": "CSV-Datei wird erstellt...",
+        "excel": "Excel-Datei wird erstellt...",
+        "pdf": "PDF-Datei wird erstellt...",
+        "text": "Erstellung läuft..."
+      },
+      "have_wonderful_day": "Einen wundervollen Tag!",
+      "last_updated_on": "Zuletzt aktualisiert am {date}",
+      "let_get_started": "Lassen Sie uns beginnen!",
+      "loading": {
+        "data": "Daten werden geladen...",
+        "pdf": "PDF wird geladen...",
+        "text": "Wird geladen..."
+      },
+      "modern_design": "Modernes Design.",
+      "no": {
+        "results_found": "Keine Ergebnisse gefunden."
+      },
+      "no_favorites": "Keine Favoriten.",
+      "pdf_generated_by": "PDF generiert von {app_name}",
+      "performing": "Wird durchgeführt...",
+      "please_wait": "Bitte warten...",
+      "processing": "Wird verarbeitet...",
+      "ready": {
+        "csv": "CSV-Datei fertig!",
+        "excel": "Excel-Datei fertig!",
+        "file": "Datei fertig!",
+        "pdf": "PDF-Datei fertig!",
+        "text": "Fertig!"
+      },
+      "require": {
+        "internet_connection": "Eine Internetverbindung wird benötigt."
+      },
+      "saving": "Speichern...",
+      "search": "Suche...",
+      "searching": "Suche läuft...",
+      "share": {
+        "invite": "Hey, ich habe diese erstaunliche App entdeckt, die dein Leben einfacher macht. Schau sie dir an!"
+      },
+      "sorry": "Entschuldigung...",
+      "success": "Erfolg!",
+      "thank_you": "Vielen Dank!",
+      "try": {
+        "steps_back_online": "Versuchen Sie diese Schritte, um wieder online zu gehen:"
+      },
+      "warning": "Achtung!",
+      "welcome": "Willkommen!",
+      "whats_new": "Was gibt's Neues?",
+      "whoops": "Hoppla!"
+    },
+    "question": {
+      "are_you_sure": "Sind Sie sicher?",
+      "erase_all_content_and_settings": "Sind Sie sicher, dass Sie alle Inhalte und Einstellungen löschen möchten?",
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Möchten Sie diese Daten als CSV exportieren?",
+            "excel": "Möchten Sie diese Daten als Excel-Datei exportieren?",
+            "pdf": "Möchten Sie diese Daten als PDF exportieren?",
+            "text": "Möchten Sie diese Daten exportieren?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Möchten Sie eine CSV-Version dieser Daten erstellen?",
+          "excel": "Möchten Sie eine Excel-Version dieser Daten erstellen?",
+          "pdf": "Möchten Sie eine PDF-Version dieser Daten erstellen?"
+        }
+      }
+    },
+    "select": {
+      "country": "Wählen Sie ein Land",
+      "frequency": "Wählen Sie eine Häufigkeit",
+      "method": "Wählen Sie eine Methode"
+    },
+    "warning": {
+      "offline": "Die Anwendung arbeitet derzeit im Offline-Modus. Die Daten sind möglicherweise nicht auf dem neuesten Stand."
+    }
+  }
+};
+static const Map<String,dynamic> pt = {
+  "core": {
+    "error": {
+      "cannot_reach_server": "Pedimos desculpa pelo incómodo, mas de momento há um problema de ligação com o servidor. Por favor, tente novamente mais tarde.",
+      "error_occurred": {
+        "exclamation": "Ocorreu um erro!",
+        "please": "Pedimos desculpa, ocorreu um erro. Por favor, tente novamente mais tarde."
+      },
+      "invalid": {
+        "data": {
+          "period": "Dados inválidos.",
+          "type": "Tipo de dados inválido."
+        },
+        "file_type": "Tipo de arquivo inválido."
+      },
+      "service": {
+        "unavailable": "O serviço está atualmente indisponível."
+      }
+    },
+    "help": {
+      "check_your_modem_and_router": "Verifique o seu modem e router.",
+      "ensure": {
+        "app_up_to_date": "Certifique-se de que a aplicação está atualizada.",
+        "internet_restrictions": "Certifique-se de que não existem restrições de firewall ou de rede a impedir o acesso ao serviço."
+      },
+      "issue_persist_contact_support": "Se o problema persistir, por favor contacte a nossa equipa de suporte.",
+      "reconnect_to_your_wifi_network": "Reconecte-se à sua rede Wi-Fi.",
+      "restart_device_check_connection": "Reinicie o seu dispositivo e verifique a sua ligação à internet.",
+      "service": {
+        "not_available_current_location": "O serviço pode não estar disponível na sua localização atual.",
+        "not_operational": "O serviço pode não estar operacional neste momento. Por favor, verifique o seu estado ou tente aceder mais tarde."
+      },
+      "several_reasons": "Poderá haver várias razões:"
+    },
+    "label": {
+      "accept": "Aceitar",
+      "accepted": "Aceito",
+      "active": "Ativo",
+      "add": "Adicionar",
+      "advanced": "Avançado",
+      "all": {
+        "female": "Todos",
         "male": "Todos",
         "other": "Todos"
       },
       "annually": "Anualmente",
-      "approve": "Aprobar",
-      "approved": "Aprobado",
-      "at": "En",
-      "auto_save": "Guardar automáticamente",
-      "back": "Volver",
-      "badge": "Insignia",
-      "behavior": "Comportamiento",
-      "button": "Botón",
+      "approve": "Aprovar",
+      "approved": "Aprovado",
+      "at": "Em",
+      "auto_save": "Salvar automaticamente",
+      "back": "Voltar",
+      "badge": "Distintivo",
+      "behavior": "Comportamento",
+      "button": "Botão",
       "buy": "Comprar",
       "cancel": "Cancelar",
       "canceled": "Cancelado",
       "clear": {
-        "selection": "Borrar selección",
-        "text": "Borrar"
+        "selection": "Limpar seleção",
+        "text": "Limpar"
       },
       "close": {
-        "all": "Cerrar todo",
-        "others": "Cerrar otros",
-        "tab": "Cerrar pestaña",
-        "text": "Cerrar",
-        "window": "Cerrar ventana"
+        "all": "Fechar tudo",
+        "others": "Fechar outros",
+        "tab": "Fechar aba",
+        "text": "Fechar",
+        "window": "Fechar janela"
       },
       "collapse": {
-        "all": "Colapsar todo",
-        "text": "Colapsar"
+        "all": "Recolher todos",
+        "text": "Recolher"
       },
       "commercial": "Comercial",
-      "complete": "Completado",
-      "completed": "Finalizado",
+      "complete": "Completo",
+      "completed": "Concluído",
       "confirm": "Confirmar",
-      "confirmation": "Confirmación",
+      "confirmation": "Confirmação",
       "connected": "Conectado",
       "contact": {
-        "support": "Contactar soporte",
-        "us": "Contáctenos"
+        "support": "Contactar suporte",
+        "us": "Contacte-nos"
       },
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",
-      "cut": "Cortar",
+      "cut": "Recortar",
       "daily": "Diariamente",
-      "date": "Fecha",
+      "date": "Data",
       "default": {
-        "text": "Predeterminado",
-        "values": "Valores predeterminados"
+        "text": "Padrão",
+        "values": "Valores padrão"
       },
-      "delete": "Eliminar",
-      "description": "Descripción",
-      "details": "Detalles",
-      "disabled": "Deshabilitado",
-      "disapprove": "Desaprobar",
-      "disapproved": "Desaprobado",
+      "delete": "Excluir",
+      "description": "Descrição",
+      "details": "Detalhes",
+      "disabled": "Desabilitado",
+      "disapprove": "Desaprovar",
+      "disapproved": "Desaprovado",
       "disconnected": "Desconectado",
-      "display": "Mostrar",
-      "done": "Hecho",
-      "download": "Descargar",
+      "display": "Exibição",
+      "done": "Concluído",
+      "download": "Baixar",
       "edit": "Editar",
       "enabled": "Habilitado",
       "enter": {
-        "fullscreen": "Entrar a pantalla completa",
-        "pip": "Entrar a imagen sobre imagen",
+        "fullscreen": "Entrar em tela inteira",
+        "pip": "Entrar em imagem dentro da imagem",
         "text": "Entrar"
       },
       "entries": "Entradas",
       "entry": "Entrada",
       "erase": {
         "all": {
-          "content_and_settings": "Borrar todo el contenido y ajustes"
+          "content_and_settings": "Apagar todo o conteúdo e definições"
         }
       },
-      "error": "Error",
-      "example": "Ejemplo",
-      "excluded": "Excluido",
+      "error": "Erro",
+      "example": "Exemplo",
+      "excluded": "Excluído",
       "exit": {
-        "fullscreen": "Salir de pantalla completa",
-        "pip": "Salir de imagen sobre imagen",
-        "text": "Salir"
+        "fullscreen": "Sair da tela inteira",
+        "pip": "Sair do modo imagem dentro da imagem",
+        "text": "Sair"
       },
       "exotics": "Exóticas",
       "expand": {
-        "all": "Expandir todo",
+        "all": "Expandir todos",
         "text": "Expandir"
       },
       "expired": "Expirado",
       "export": {
-        "all": "Exportar todo",
+        "all": "Exportar todos",
         "as": "Exportar como",
         "csv": "Exportar como CSV",
         "excel": "Exportar como Excel",
@@ -2671,368 +2166,872 @@ static const Map<String,dynamic> es = {
         "text": "Exportar"
       },
       "external": "Externo",
-      "fast_forward": "Avance rápido",
+      "fast_forward": "Avançar rapidamente",
       "favorites": "Favoritos",
       "find": {
-        "and_replace": "Buscar y reemplazar",
-        "next": "Buscar siguiente",
-        "previous": "Buscar anterior",
-        "text": "Buscar"
+        "and_replace": "Localizar e substituir",
+        "next": "Localizar próximo",
+        "previous": "Localizar anterior",
+        "text": "Localizar"
       },
-      "follow_us": "Síganos",
-      "frame": "Cuadro",
-      "frequency": "Frecuencia",
-      "fullscreen": "Pantalla completa",
-      "generate": "Generar",
+      "follow_us": "Siga-nos",
+      "frame": "Quadro",
+      "frequency": "Frequência",
+      "fullscreen": "Tela inteira",
+      "generate": "Gerar",
       "go": "Ir",
-      "help": "Ayuda",
+      "help": "Ajuda",
       "hidden": "Oculto",
-      "hint": "Pista",
-      "home": "Inicio",
+      "hint": "Sugestão",
+      "home": "Início",
       "import": {
-        "all": "Importar todo",
-        "from": "Importar desde",
+        "all": "Importar todos",
+        "from": "Importar de",
         "text": "Importar"
       },
-      "in_progress": "En progreso",
-      "inactive": "Inactivo",
-      "included": "Incluido",
+      "in_progress": "Em progresso",
+      "inactive": "Inativo",
+      "included": "Incluído",
       "incomplete": "Incompleto",
-      "info": "Información",
+      "info": "Informação",
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
-      "internet_connection": "Sin conexión a internet",
+      "internet_connection": "Sem conexão com a internet",
       "invalid": "Inválido",
-      "learn_more": "Más información",
-      "loading": "Cargando",
+      "learn_more": "Saiba mais",
+      "loading": "Carregando",
       "local": "Local",
       "locked": "Bloqueado",
-      "loop": "Repetición",
-      "majors": "Mayores",
-      "menu": "Menú",
+      "loop": "Repetir em loop",
+      "majors": "Maiores",
+      "menu": "Menu",
       "method": "Método",
       "minors": "Menores",
-      "missing_rights": "Derechos faltantes",
-      "monthly": "Mensualmente",
+      "missing_rights": "Direitos faltando",
+      "monthly": "Mensalmente",
       "mute": "Silenciar",
-      "name": "Nombre",
+      "name": "Nome",
       "new": {
-        "bookmark": "Nuevo marcador",
-        "document": "Nuevo documento",
-        "file": "Nuevo archivo",
-        "folder": "Nueva carpeta",
-        "note": "Nueva nota",
-        "project": "Nuevo proyecto",
-        "tab": "Nueva pestaña",
-        "text": "Nuevo",
-        "window": "Nueva ventana",
-        "workspace": "Nuevo espacio de trabajo"
+        "bookmark": "Novo favorito",
+        "document": "Novo documento",
+        "file": "Novo arquivo",
+        "folder": "Nova pasta",
+        "note": "Nova anotação",
+        "project": "Novo projeto",
+        "tab": "Nova aba",
+        "text": "Novo",
+        "window": "Nova janela",
+        "workspace": "Novo espaço de trabalho"
       },
       "next": {
-        "chapter": "Siguiente capítulo",
-        "page": "Página siguiente",
-        "text": "Siguiente",
-        "track": "Siguiente pista"
+        "chapter": "Próximo capítulo",
+        "page": "Próxima página",
+        "text": "Próximo",
+        "track": "Próxima faixa"
       },
-      "no": "No",
-      "no_elements": "Sin elementos",
-      "no_items": "Sin artículos",
-      "non_commercial": "No comercial",
+      "no": "Não",
+      "no_elements": "Sem elementos",
+      "no_items": "Sem itens",
+      "non_commercial": "Não-comercial",
       "none": {
-        "female": "Ninguna",
-        "male": "Ninguno",
-        "other": "Ninguno"
+        "female": "Nenhum",
+        "male": "Nenhum",
+        "other": "Nenhum"
       },
-      "offline": "Sin conexión",
-      "offline_mode": "Modo sin conexión",
+      "offline": "Offline",
+      "offline_mode": "Modo offline",
       "ok": "OK",
-      "online": "En línea",
+      "online": "Online",
       "open": {
-        "all": "Abrir todo",
-        "directory": "Abrir directorio",
-        "file": "Abrir archivo",
+        "all": "Abrir todos",
+        "directory": "Abrir diretório",
+        "file": "Abrir arquivo",
         "in_new": {
-          "tab": "Abrir en nueva pestaña",
-          "window": "Abrir en nueva ventana"
+          "tab": "Abrir em nova aba",
+          "window": "Abrir em nova janela"
         },
         "text": "Abrir",
         "url": "Abrir URL"
       },
       "operation": {
-        "canceled": "Operación cancelada",
-        "completed": "Operación completada",
-        "failed": "Operación fallida",
-        "in_progress": "Operación en progreso",
-        "pending": "Operación pendiente",
-        "started": "Operación iniciada",
-        "succeeded": "Operación exitosa",
-        "text": "Operación",
-        "timed_out": "Operación expirada"
+        "canceled": "Operação cancelada",
+        "completed": "Operação concluída",
+        "failed": "Operação falhou",
+        "in_progress": "Operação em progresso",
+        "pending": "Operação pendente",
+        "started": "Operação iniciada",
+        "succeeded": "Operação bem-sucedida",
+        "text": "Operação",
+        "timed_out": "Operação expirou"
       },
       "optional": "Opcional",
-      "panel": "Panel",
-      "paste": "Pegar",
+      "panel": "Painel",
+      "paste": "Colar",
       "pause": "Pausa",
       "paused": "Pausado",
-      "pending": "Pendiente",
+      "pending": "Pendente",
       "perform": "Realizar",
-      "personal": "Personal",
-      "play": "Reproducir",
-      "play_pause": "Reproducir/Pausar",
+      "personal": "Pessoal",
+      "play": "Reproduzir",
+      "play_pause": "Reproduzir/Pausar",
       "previous": {
         "chapter": "Capítulo anterior",
         "page": "Página anterior",
         "text": "Anterior",
-        "track": "Pista anterior"
+        "track": "Faixa anterior"
       },
       "private": "Privado",
       "public": "Público",
-      "quantity": "Cantidad",
+      "quantity": "Quantidade",
       "quarterly": "Trimestralmente",
-      "question": "Pregunta",
-      "redo": "Rehacer",
-      "refresh": "Actualizar",
-      "reject": "Rechazar",
-      "rejected": "Rechazado",
+      "question": "Questão",
+      "redo": "Refazer",
+      "refresh": "Atualizar",
+      "reject": "Rejeitar",
+      "rejected": "Rejeitado",
       "remote": "Remoto",
-      "remove": "Eliminar",
+      "remove": "Remover",
       "repeat": {
-        "all": "Repetir todo",
-        "none": "No repetir",
-        "one": "Repetir uno",
+        "all": "Repetir tudo",
+        "none": "Não repetir",
+        "one": "Repetir um",
         "text": "Repetir"
       },
       "replace": {
-        "all": "Reemplazar todo",
-        "text": "Reemplazar"
+        "all": "Substituir todos",
+        "text": "Substituir"
       },
       "replay": "Repetir",
       "report": {
-        "error": "Segnala un errore",
-        "text": "Informe"
+        "error": "Reportar um erro",
+        "text": "Relatório"
       },
-      "required": "Requerido",
+      "required": "Obrigatório",
       "reset": {
         "all": {
-          "content_settings": "Restablecer todos los contenidos y configuraciones"
+          "content_settings": "Redefinir todos os conteúdos e configurações"
         },
-        "text": "Restablecer"
+        "text": "Redefinir"
       },
       "results": "Resultados",
-      "resumed": "Reanudado",
-      "retry": "Reintentar",
-      "rewind": "Rebobinar",
-      "rights_denied": "Derechos denegados",
-      "rights_granted": "Derechos otorgados",
+      "resumed": "Retomado",
+      "retry": "Tentar novamente",
+      "rewind": "Retroceder",
+      "rights_denied": "Direitos negados",
+      "rights_granted": "Direitos concedidos",
       "save": {
-        "all": "Guardar todo",
+        "all": "Salvar todos",
         "and": {
-          "close": "Guardar y cerrar",
-          "exit": "Guardar y salir"
+          "close": "Salvar e fechar",
+          "exit": "Salvar e sair"
         },
-        "as": "Guardar como",
-        "text": "Guardar"
+        "as": "Salvar como",
+        "text": "Salvar"
       },
-      "saved": "Guardado",
-      "search": "Buscar",
+      "saved": "Salvo",
+      "search": "Pesquisar",
       "select": {
-        "all": "Seleccionar todo",
-        "none": "Seleccionar ninguno",
-        "text": "Seleccionar"
+        "all": "Selecionar tudo",
+        "none": "Desmarcar tudo",
+        "text": "Selecionar"
       },
-      "selection": "Selección",
+      "selection": "Seleção",
       "sell": "Vender",
       "semi_annually": "Semestralmente",
-      "service_unavailable": "Servicio no disponible",
+      "service_unavailable": "Serviço indisponível",
       "share": {
-        "app": "Compartir esta aplicación",
-        "text": "Compartir"
+        "app": "Compartilhar este aplicativo",
+        "text": "Compartilhar"
       },
-      "shuffle": "Reproducción aleatoria",
+      "shuffle": "Reprodução aleatória",
       "skip": {
-        "backward": "Saltar atrás",
-        "forward": "Saltar adelante",
-        "next": "Saltar siguiente",
-        "previous": "Saltar anterior",
-        "text": "Saltar"
+        "backward": "Retroceder",
+        "forward": "Avançar",
+        "next": "Pular para o próximo",
+        "previous": "Pular para o anterior",
+        "text": "Pular"
       },
-      "stop": "Detener",
+      "stop": "Parar",
       "submit": "Enviar",
-      "success": "Éxito",
+      "success": "Sucesso",
       "sync": "Sincronizar",
       "synced": "Sincronizado",
-      "template": "Plantilla",
+      "template": "Modelo",
       "time": {
-        "elapsed": "Tiempo transcurrido",
-        "remaining": "Tiempo restante",
-        "text": "Tiempo"
+        "elapsed": "Tempo decorrido",
+        "remaining": "Tempo restante",
+        "text": "Tempo"
       },
-      "tip": "Consejo",
+      "tip": "Dica",
       "toggle": {
-        "all": "Alternar todo",
+        "all": "Alternar todos",
         "text": "Alternar"
       },
       "try": {
-        "again": "Intentar de nuevo",
-        "later": "Intentar más tarde",
-        "text": "Intentar"
+        "again": "Tentar novamente",
+        "later": "Tentar mais tarde",
+        "text": "Tentar"
       },
-      "undo": "Deshacer",
+      "undo": "Desfazer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
-      "unmute": "Activar sonido",
-      "unsync": "Desincronizar",
-      "unsynced": "No sincronizado",
-      "update": "Actualizar",
+      "unmute": "Ativar som",
+      "unsync": "Dessincronizar",
+      "unsynced": "Não sincronizado",
+      "update": "Atualizar",
       "upgrade": {
-        "now": "Actualizar ahora",
-        "text": "Actualizar"
+        "now": "Atualizar agora",
+        "text": "Atualizar"
       },
-      "upload": "Subir",
-      "user_inputs": "Entradas del usuario",
+      "upload": "Carregar",
+      "user_inputs": "Entradas do usuário",
       "valid": "Válido",
-      "visible": "Visible",
-      "volume": "Volumen",
-      "warning": "Advertencia",
+      "visible": "Visível",
+      "volume": "Volume",
+      "warning": "Aviso",
       "watch": {
-        "later": "Ver más tarde",
-        "now": "Ver ahora",
-        "text": "Ver"
+        "later": "Assistir mais tarde",
+        "now": "Assistir agora",
+        "text": "Assistir"
       },
-      "website": "Sitio web",
+      "website": "Website",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
-      "yes": "Sí",
-      "yesterday": "Ayer",
+      "yes": "Sim",
+      "yesterday": "Ontem",
       "zoom": {
-        "in": "Acercar",
-        "out": "Alejar",
-        "reset": "Restablecer zoom",
+        "in": "Aumentar zoom",
+        "out": "Diminuir zoom",
+        "reset": "Redefinir zoom",
         "text": "Zoom"
       }
     },
     "message": {
       "action": {
-        "canceled": "Acción cancelada.",
-        "completed": "Acción completada."
+        "canceled": "Ação cancelada.",
+        "completed": "Ação concluída."
       },
-      "bugs_fixes_improvements": "Correcciones menores y mejoras.",
-      "checking_connection": "Comprobando conexión...",
-      "congratulations": "¡Felicidades!",
-      "copied": "¡Copiado!",
-      "copied_to_clipboard": "¡Copiado al portapapeles!",
-      "copied_value_to_clipboard": "¡Copiado {value} al portapapeles!",
-      "dark_mode_support": "Soporte para modo oscuro.",
-      "erase_all_content_and_settings_explanation": "Esta acción eliminará permanentemente todos los datos de esta aplicación, incluyendo sus ajustes personales, preferencias e información guardada. Este proceso es irreversible.",
-      "example": "Ejemplo:",
+      "bugs_fixes_improvements": "Correções de bugs menores e melhorias.",
+      "checking_connection": "Verificando conexão...",
+      "congratulations": "Parabéns!",
+      "copied": "Copiado!",
+      "copied_to_clipboard": "Copiado para a área de transferência!",
+      "copied_value_to_clipboard": "Copiado {value} para a área de transferência!",
+      "dark_mode_support": "Suporte ao modo escuro.",
+      "erase_all_content_and_settings_explanation": "Esta ação irá eliminar permanentemente todos os dados desta aplicação, incluindo as suas definições pessoais, preferências e informações guardadas. Este processo é irreversível.",
+      "example": "Exemplo:",
       "failed_to": {
         "generate": {
-          "csv": "Se encontró un problema al crear el archivo CSV.",
-          "excel": "Se encontró un problema al crear el archivo de Excel.",
-          "file": "Se encontró un problema al crear el archivo.",
-          "pdf": "Se encontró un problema al crear el archivo PDF.",
-          "text": "Se encontró un problema al crear el archivo de texto."
+          "csv": "Ocorreu um problema ao criar o ficheiro CSV.",
+          "excel": "Ocorreu um problema ao criar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao criar o ficheiro.",
+          "pdf": "Ocorreu um problema ao criar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao criar o ficheiro de texto."
         },
         "load": {
-          "csv": "Se encontró un problema al cargar el archivo CSV.",
-          "data": "Se encontró un problema al cargar los datos.",
-          "excel": "Se encontró un problema al cargar el archivo de Excel.",
-          "file": "Se encontró un problema al cargar el archivo.",
-          "pdf": "Se encontró un problema al cargar el archivo PDF.",
-          "text": "Se encontró un problema al cargar el archivo de texto."
+          "csv": "Ocorreu um problema ao carregar o ficheiro CSV.",
+          "data": "Ocorreu um problema ao carregar os dados.",
+          "excel": "Ocorreu um problema ao carregar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao carregar o ficheiro.",
+          "pdf": "Ocorreu um problema ao carregar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao carregar o ficheiro de texto."
         },
         "perform": {
-          "action": "Se encontró un problema al realizar la acción."
+          "action": "Ocorreu um problema ao realizar a ação."
         },
         "save": {
-          "csv": "Se encontró un problema al guardar el archivo CSV.",
-          "data": "Se encontró un problema al guardar los datos.",
-          "excel": "Se encontró un problema al guardar el archivo de Excel.",
-          "file": "Se encontró un problema al guardar el archivo.",
-          "pdf": "Se encontró un problema al guardar el archivo PDF.",
-          "text": "Se encontró un problema al guardar el archivo de texto."
+          "csv": "Ocorreu um problema ao guardar o ficheiro CSV.",
+          "data": "Ocorreu um problema ao guardar os dados.",
+          "excel": "Ocorreu um problema ao guardar o ficheiro Excel.",
+          "file": "Ocorreu um problema ao guardar o ficheiro.",
+          "pdf": "Ocorreu um problema ao guardar o ficheiro PDF.",
+          "text": "Ocorreu um problema ao guardar o ficheiro de texto."
         }
       },
-      "finally": "¡Por fin!",
+      "finally": "Finalmente!",
       "generating": {
-        "csv": "Generando archivo CSV...",
-        "excel": "Generando archivo Excel...",
-        "pdf": "Generando archivo PDF...",
-        "text": "Generación en curso..."
+        "csv": "A gerar ficheiro CSV...",
+        "excel": "A gerar ficheiro Excel...",
+        "pdf": "A gerar ficheiro PDF...",
+        "text": "Geração em progresso..."
       },
-      "have_wonderful_day": "¡Que tengas un día maravilloso!",
-      "last_updated_on": "Última actualización el {date}",
-      "let_get_started": "¡Empecemos!",
+      "have_wonderful_day": "Tenha um ótimo dia!",
+      "last_updated_on": "Última atualização em {date}",
+      "let_get_started": "Vamos começar!",
       "loading": {
-        "data": "Cargando datos...",
-        "pdf": "Cargando PDF...",
-        "text": "Cargando..."
+        "data": "Carregando dados...",
+        "pdf": "Carregando PDF...",
+        "text": "Carregando..."
       },
-      "modern_design": "Diseño moderno.",
+      "modern_design": "Visual moderno.",
       "no": {
-        "results_found": "No se encontraron resultados."
+        "results_found": "Nenhum resultado encontrado."
       },
-      "no_favorites": "No hay favoritos.",
-      "pdf_generated_by": "PDF generado por {app_name}",
-      "performing": "Realizando...",
-      "please_wait": "Por favor, espera...",
-      "processing": "Procesando...",
+      "no_favorites": "Sem favoritos.",
+      "pdf_generated_by": "PDF gerado por {app_name}",
+      "performing": "Executando...",
+      "please_wait": "Aguarde, por favor...",
+      "processing": "Processando...",
       "ready": {
-        "csv": "Archivo CSV listo!",
-        "excel": "Archivo Excel listo!",
-        "file": "Archivo listo!",
-        "pdf": "Archivo PDF listo!",
-        "text": "¡Listo!"
+        "csv": "Ficheiro CSV pronto!",
+        "excel": "Ficheiro Excel pronto!",
+        "file": "Ficheiro pronto!",
+        "pdf": "Ficheiro PDF pronto!",
+        "text": "Pronto!"
       },
       "require": {
-        "internet_connection": "Se requiere una conexión a Internet."
+        "internet_connection": "Uma conexão com a Internet é necessária."
       },
-      "saving": "Guardando...",
-      "search": "Buscar...",
-      "searching": "Buscando...",
+      "saving": "Salvando...",
+      "search": "Pesquisar...",
+      "searching": "Procurando...",
       "share": {
-        "invite": "¡Hola! He descubierto esta increíble aplicación que hará tu vida más fácil. ¡Échale un vistazo!"
+        "invite": "Oi, descobri este incrível aplicativo que vai facilitar a sua vida. Confira!"
       },
-      "sorry": "Lo siento...",
-      "success": "¡Éxito!",
-      "thank_you": "¡Gracias!",
+      "sorry": "Desculpe...",
+      "success": "Sucesso!",
+      "thank_you": "Obrigado!",
       "try": {
-        "steps_back_online": "Intente estos pasos para volver a conectarse:"
+        "steps_back_online": "Tente estes passos para voltar a ficar online:"
       },
-      "warning": "¡Advertencia!",
-      "welcome": "¡Bienvenido!",
-      "whats_new": "¿Qué hay de nuevo?",
-      "whoops": "¡Ups!"
+      "warning": "Aviso!",
+      "welcome": "Bem-vindo!",
+      "whats_new": "O que há de novo?",
+      "whoops": "Ops!"
     },
     "question": {
-      "are_you_sure": "¿Estás seguro?",
-      "erase_all_content_and_settings": "¿Está seguro de que quiere borrar todo el contenido y los ajustes?",
+      "are_you_sure": "Tem certeza?",
+      "erase_all_content_and_settings": "Tem a certeza de que quer apagar todo o conteúdo e definições?",
       "export": {
         "data": {
           "as": {
-            "csv": "¿Desea exportar estos datos en formato CSV?",
-            "excel": "¿Desea exportar estos datos en un archivo Excel?",
-            "pdf": "¿Desea exportar estos datos en formato PDF?",
-            "text": "¿Desea exportar estos datos?"
+            "csv": "Deseja exportar estes dados em formato CSV?",
+            "excel": "Deseja exportar estes dados num ficheiro Excel?",
+            "pdf": "Deseja exportar estes dados em formato PDF?",
+            "text": "Deseja exportar estes dados?"
           }
         }
       },
       "generate": {
         "data": {
-          "csv": "¿Desea generar una versión en CSV de estos datos?",
-          "excel": "¿Desea generar una versión en Excel de estos datos?",
-          "pdf": "¿Desea generar una versión en PDF de estos datos?"
+          "csv": "Gostaria de gerar uma versão em CSV destes dados?",
+          "excel": "Gostaria de gerar uma versão em Excel destes dados?",
+          "pdf": "Gostaria de gerar uma versão em PDF destes dados?"
         }
       }
     },
     "select": {
-      "country": "Seleccione un país",
-      "frequency": "Selecciona una frecuencia",
-      "method": "Selecciona un método"
+      "country": "Selecione um país",
+      "frequency": "Selecione uma frequência",
+      "method": "Selecione um método"
     },
     "warning": {
-      "offline": "La aplicación se encuentra en modo sin conexión, lo que significa que los datos pueden no estar actualizados."
+      "offline": "O aplicativo está atualmente operando no modo offline, o que significa que os dados podem não estar atualizados."
+    }
+  }
+};
+static const Map<String,dynamic> en = {
+  "core": {
+    "error": {
+      "cannot_reach_server": "We apologize for the inconvenience, but there is currently a connection issue with the server. Please try again at a later time.",
+      "error_occurred": {
+        "exclamation": "An error has occurred!",
+        "please": "Apologies, an error has occurred. Please try again later."
+      },
+      "invalid": {
+        "data": {
+          "period": "Invalid data.",
+          "type": "Invalid data type."
+        },
+        "file_type": "Invalid file type."
+      },
+      "service": {
+        "unavailable": "The service is currently unavailable."
+      }
+    },
+    "help": {
+      "check_your_modem_and_router": "Check your modem and router.",
+      "ensure": {
+        "app_up_to_date": "Ensure the app is up to date.",
+        "internet_restrictions": "Ensure no firewall or network restrictions are preventing access to the service."
+      },
+      "issue_persist_contact_support": "If the issue persists, please contact our support team for assistance.",
+      "reconnect_to_your_wifi_network": "Reconnect to your Wi-Fi network.",
+      "restart_device_check_connection": "Restart your device and check your internet connection.",
+      "service": {
+        "not_available_current_location": "The service may not be available in your current location.",
+        "not_operational": "The service may not be operational at this time. Please verify its status or attempt to access it later."
+      },
+      "several_reasons": "There could be several reasons:"
+    },
+    "label": {
+      "accept": "Accept",
+      "accepted": "Accepted",
+      "active": "Active",
+      "add": "Add",
+      "advanced": "Advanced",
+      "all": {
+        "female": "All",
+        "male": "All",
+        "other": "All"
+      },
+      "annually": "Annually",
+      "approve": "Approve",
+      "approved": "Approved",
+      "at": "At",
+      "auto_save": "Auto-save",
+      "back": "Back",
+      "badge": "Badge",
+      "behavior": "Behavior",
+      "button": "Button",
+      "buy": "Buy",
+      "cancel": "Cancel",
+      "canceled": "Canceled",
+      "clear": {
+        "selection": "Clear selection",
+        "text": "Clear"
+      },
+      "close": {
+        "all": "Close all",
+        "others": "Close others",
+        "tab": "Close tab",
+        "text": "Close",
+        "window": "Close window"
+      },
+      "collapse": {
+        "all": "Collapse all",
+        "text": "Collapse"
+      },
+      "commercial": "Commercial",
+      "complete": "Complete",
+      "completed": "Completed",
+      "confirm": "Confirm",
+      "confirmation": "Confirmation",
+      "connected": "Connected",
+      "contact": {
+        "support": "Contact support",
+        "us": "Contact us"
+      },
+      "continue": "Continue",
+      "copy": "Copy",
+      "country": "Country",
+      "cut": "Cut",
+      "daily": "Daily",
+      "date": "Date",
+      "default": {
+        "text": "Default",
+        "values": "Default values"
+      },
+      "delete": "Delete",
+      "description": "Description",
+      "details": "Details",
+      "disabled": "Disabled",
+      "disapprove": "Disapprove",
+      "disapproved": "Disapproved",
+      "disconnected": "Disconnected",
+      "display": "Display",
+      "done": "Done",
+      "download": "Download",
+      "edit": "Edit",
+      "enabled": "Enabled",
+      "enter": {
+        "fullscreen": "Enter fullscreen",
+        "pip": "Enter picture-in-picture",
+        "text": "Enter"
+      },
+      "entries": "Entries",
+      "entry": "Entry",
+      "erase": {
+        "all": {
+          "content_and_settings": "Erase all content and settings"
+        }
+      },
+      "error": "Error",
+      "example": "Example",
+      "excluded": "Excluded",
+      "exit": {
+        "fullscreen": "Exit fullscreen",
+        "pip": "Exit picture-in-picture",
+        "text": "Exit"
+      },
+      "exotics": "Exotic",
+      "expand": {
+        "all": "Expand all",
+        "text": "Expand"
+      },
+      "expired": "Expired",
+      "export": {
+        "all": "Export all",
+        "as": "Export as",
+        "csv": "Export as CSV",
+        "excel": "Export as Excel",
+        "pdf": "Export as PDF",
+        "text": "Export"
+      },
+      "external": "External",
+      "fast_forward": "Fast forward",
+      "favorites": "Favorites",
+      "find": {
+        "and_replace": "Find and replace",
+        "next": "Find next",
+        "previous": "Find previous",
+        "text": "Find"
+      },
+      "follow_us": "Follow us",
+      "frame": "Frame",
+      "frequency": "Frequency",
+      "fullscreen": "Fullscreen",
+      "generate": "Generate",
+      "go": "Go",
+      "help": "Help",
+      "hidden": "Hidden",
+      "hint": "Hint",
+      "home": "Home",
+      "import": {
+        "all": "Import all",
+        "from": "Import from",
+        "text": "Import"
+      },
+      "in_progress": "In progress",
+      "inactive": "Inactive",
+      "included": "Included",
+      "incomplete": "Incomplete",
+      "info": "Info",
+      "inputs": "Inputs",
+      "install": "Install",
+      "internal": "Internal",
+      "internet_connection": "No internet connection",
+      "invalid": "Invalid",
+      "learn_more": "Learn more",
+      "loading": "Loading",
+      "local": "Local",
+      "locked": "Locked",
+      "loop": "Loop",
+      "majors": "Major",
+      "menu": "Menu",
+      "method": "Method",
+      "minors": "Minor",
+      "missing_rights": "Missing rights",
+      "monthly": "Monthly",
+      "mute": "Mute",
+      "name": "Name",
+      "new": {
+        "bookmark": "New bookmark",
+        "document": "New document",
+        "file": "New file",
+        "folder": "New folder",
+        "note": "New note",
+        "project": "New project",
+        "tab": "New tab",
+        "text": "New",
+        "window": "New window",
+        "workspace": "New workspace"
+      },
+      "next": {
+        "chapter": "Next chapter",
+        "page": "Next page",
+        "text": "Next",
+        "track": "Next track"
+      },
+      "no": "No",
+      "no_elements": "No elements",
+      "no_items": "No items",
+      "non_commercial": "Non-commercial",
+      "none": {
+        "female": "None",
+        "male": "None",
+        "other": "None"
+      },
+      "offline": "Offline",
+      "offline_mode": "Offline mode",
+      "ok": "OK",
+      "online": "Online",
+      "open": {
+        "all": "Open all",
+        "directory": "Open directory",
+        "file": "Open file",
+        "in_new": {
+          "tab": "Open in new tab",
+          "window": "Open in new window"
+        },
+        "text": "Open",
+        "url": "Open URL"
+      },
+      "operation": {
+        "canceled": "Operation canceled",
+        "completed": "Operation completed",
+        "failed": "Operation failed",
+        "in_progress": "Operation in progress",
+        "pending": "Operation pending",
+        "started": "Operation started",
+        "succeeded": "Operation succeeded",
+        "text": "Operation",
+        "timed_out": "Operation timed out"
+      },
+      "optional": "Optional",
+      "panel": "Panel",
+      "paste": "Paste",
+      "pause": "Pause",
+      "paused": "Paused",
+      "pending": "Pending",
+      "perform": "Perform",
+      "personal": "Personal",
+      "play": "Play",
+      "play_pause": "Play/Pause",
+      "previous": {
+        "chapter": "Previous chapter",
+        "page": "Previous page",
+        "text": "Previous",
+        "track": "Previous track"
+      },
+      "private": "Private",
+      "public": "Public",
+      "quantity": "Quantity",
+      "quarterly": "Quarterly",
+      "question": "Question",
+      "redo": "Redo",
+      "refresh": "Refresh",
+      "reject": "Reject",
+      "rejected": "Rejected",
+      "remote": "Remote",
+      "remove": "Remove",
+      "repeat": {
+        "all": "Repeat all",
+        "none": "Repeat none",
+        "one": "Repeat one",
+        "text": "Repeat"
+      },
+      "replace": {
+        "all": "Replace all",
+        "text": "Replace"
+      },
+      "replay": "Replay",
+      "report": {
+        "error": "Report an error",
+        "text": "Report"
+      },
+      "required": "Required",
+      "reset": {
+        "all": {
+          "content_settings": "Reset all content and settings"
+        },
+        "text": "Reset"
+      },
+      "results": "Results",
+      "resumed": "Resumed",
+      "retry": "Retry",
+      "rewind": "Rewind",
+      "rights_denied": "Rights denied",
+      "rights_granted": "Rights granted",
+      "save": {
+        "all": "Save all",
+        "and": {
+          "close": "Save and close",
+          "exit": "Save and exit"
+        },
+        "as": "Save as",
+        "text": "Save"
+      },
+      "saved": "Saved",
+      "search": "Search",
+      "select": {
+        "all": "Select all",
+        "none": "Select none",
+        "text": "Select"
+      },
+      "selection": "Selection",
+      "sell": "Sell",
+      "semi_annually": "Semi-annually",
+      "service_unavailable": "Service unavailable",
+      "share": {
+        "app": "Share this app",
+        "text": "Share"
+      },
+      "shuffle": "Shuffle",
+      "skip": {
+        "backward": "Skip backward",
+        "forward": "Skip forward",
+        "next": "Skip next",
+        "previous": "Skip previous",
+        "text": "Skip"
+      },
+      "stop": "Stop",
+      "submit": "Submit",
+      "success": "Success",
+      "sync": "Sync",
+      "synced": "Synced",
+      "template": "Template",
+      "time": {
+        "elapsed": "Time elapsed",
+        "remaining": "Time remaining",
+        "text": "Time"
+      },
+      "tip": "Tip",
+      "toggle": {
+        "all": "Toggle all",
+        "text": "Toggle"
+      },
+      "try": {
+        "again": "Try again",
+        "later": "Try later",
+        "text": "Try"
+      },
+      "undo": "Undo",
+      "uninstall": "Uninstall",
+      "unlocked": "Unlocked",
+      "unmute": "Unmute",
+      "unsync": "Unsync",
+      "unsynced": "Unsynced",
+      "update": "Update",
+      "upgrade": {
+        "now": "Upgrade now",
+        "text": "Upgrade"
+      },
+      "upload": "Upload",
+      "user_inputs": "User inputs",
+      "valid": "Valid",
+      "visible": "Visible",
+      "volume": "Volume",
+      "warning": "Warning",
+      "watch": {
+        "later": "Watch later",
+        "now": "Watch now",
+        "text": "Watch"
+      },
+      "website": "Website",
+      "weekly": "Weekly",
+      "yearly": "Yearly",
+      "yes": "Yes",
+      "yesterday": "Yesterday",
+      "zoom": {
+        "in": "Zoom in",
+        "out": "Zoom out",
+        "reset": "Reset zoom",
+        "text": "Zoom"
+      }
+    },
+    "message": {
+      "action": {
+        "canceled": "Action canceled.",
+        "completed": "Action completed."
+      },
+      "bugs_fixes_improvements": "Minor bug fixes and improvements.",
+      "checking_connection": "Checking connection...",
+      "congratulations": "Congratulations!",
+      "copied": "Copied!",
+      "copied_to_clipboard": "Copied to clipboard!",
+      "copied_value_to_clipboard": "Copied {value} to clipboard!",
+      "dark_mode_support": "Dark Mode support.",
+      "erase_all_content_and_settings_explanation": "This action will permanently delete all data from this app, including your personal settings, preferences, and saved information. This process is irreversible.",
+      "example": "Example:",
+      "failed_to": {
+        "generate": {
+          "csv": "A problem was encountered while creating the CSV file.",
+          "excel": "A problem was encountered while creating the Excel file.",
+          "file": "A problem was encountered while creating the file.",
+          "pdf": "A problem was encountered while creating the PDF file.",
+          "text": "A problem was encountered while creating the text file."
+        },
+        "load": {
+          "csv": "A problem was encountered while loading the CSV file.",
+          "data": "A problem was encountered while loading the data.",
+          "excel": "A problem was encountered while loading the Excel file.",
+          "file": "A problem was encountered while loading the file.",
+          "pdf": "A problem was encountered while loading the PDF file.",
+          "text": "A problem was encountered while loading the text file."
+        },
+        "perform": {
+          "action": "A problem was encountered while performing the action."
+        },
+        "save": {
+          "csv": "A problem was encountered while saving the CSV file.",
+          "data": "A problem was encountered while saving the data.",
+          "excel": "A problem was encountered while saving the Excel file.",
+          "file": "A problem was encountered while saving the file.",
+          "pdf": "A problem was encountered while saving the PDF file.",
+          "text": "A problem was encountered while saving the text file."
+        }
+      },
+      "finally": "Finally!",
+      "generating": {
+        "csv": "Generating CSV file...",
+        "excel": "Generating Excel file...",
+        "pdf": "Generating PDF file...",
+        "text": "Generation in progress..."
+      },
+      "have_wonderful_day": "Have a wonderful day!",
+      "last_updated_on": "Last updated on {date}",
+      "let_get_started": "Let's get started!",
+      "loading": {
+        "data": "Loading data...",
+        "pdf": "Loading PDF...",
+        "text": "Loading..."
+      },
+      "modern_design": "Modern Look.",
+      "no": {
+        "results_found": "No results found."
+      },
+      "no_favorites": "No favorites.",
+      "pdf_generated_by": "PDF generated by {app_name}",
+      "performing": "Performing...",
+      "please_wait": "Please wait...",
+      "processing": "Processing...",
+      "ready": {
+        "csv": "CSV file ready!",
+        "excel": "Excel file ready!",
+        "file": "File ready!",
+        "pdf": "PDF file ready!",
+        "text": "Ready!"
+      },
+      "require": {
+        "internet_connection": "An internet connection is required."
+      },
+      "saving": "Saving...",
+      "search": "Search...",
+      "searching": "Searching...",
+      "share": {
+        "invite": "Hey, I've discovered this amazing app that will make your life easier. Check it out!"
+      },
+      "sorry": "Sorry...",
+      "success": "Success!",
+      "thank_you": "Thank you!",
+      "try": {
+        "steps_back_online": "Try these steps to get back online:"
+      },
+      "warning": "Warning!",
+      "welcome": "Welcome!",
+      "whats_new": "What's new?",
+      "whoops": "Whoops!"
+    },
+    "question": {
+      "are_you_sure": "Are you sure?",
+      "erase_all_content_and_settings": "Are you sure you want to erase all content and settings?",
+      "export": {
+        "data": {
+          "as": {
+            "csv": "Would you like to export this data as a CSV?",
+            "excel": "Would you like to export this data as an Excel file?",
+            "pdf": "Would you like to export this data as a PDF?",
+            "text": "Would you like to export this data?"
+          }
+        }
+      },
+      "generate": {
+        "data": {
+          "csv": "Would you like to generate a CSV version of this data?",
+          "excel": "Would you like to generate an Excel version of this data?",
+          "pdf": "Would you like to generate a PDF version of this data?"
+        }
+      }
+    },
+    "select": {
+      "country": "Select a country",
+      "frequency": "Select a frequency",
+      "method": "Select a method"
+    },
+    "warning": {
+      "offline": "The application is currently operating in offline mode, which means that the data may not be up to date"
     }
   }
 };
@@ -4044,138 +4043,138 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> pt = {
+static const Map<String,dynamic> es = {
   "core": {
     "error": {
-      "cannot_reach_server": "Pedimos desculpa pelo incómodo, mas de momento há um problema de ligação com o servidor. Por favor, tente novamente mais tarde.",
+      "cannot_reach_server": "Nos disculpamos por las molestias, pero actualmente hay un problema de conexión con el servidor. Por favor, inténtelo de nuevo más tarde.",
       "error_occurred": {
-        "exclamation": "Ocorreu um erro!",
-        "please": "Pedimos desculpa, ocorreu um erro. Por favor, tente novamente mais tarde."
+        "exclamation": "¡Ha ocurrido un error!",
+        "please": "Disculpas, ha ocurrido un error. Por favor, inténtelo de nuevo más tarde."
       },
       "invalid": {
         "data": {
-          "period": "Dados inválidos.",
-          "type": "Tipo de dados inválido."
+          "period": "Datos inválidos.",
+          "type": "Tipo de datos inválido."
         },
-        "file_type": "Tipo de arquivo inválido."
+        "file_type": "Tipo de archivo inválido."
       },
       "service": {
-        "unavailable": "O serviço está atualmente indisponível."
+        "unavailable": "El servicio no está disponible en este momento."
       }
     },
     "help": {
-      "check_your_modem_and_router": "Verifique o seu modem e router.",
+      "check_your_modem_and_router": "Revise su módem y router.",
       "ensure": {
-        "app_up_to_date": "Certifique-se de que a aplicação está atualizada.",
-        "internet_restrictions": "Certifique-se de que não existem restrições de firewall ou de rede a impedir o acesso ao serviço."
+        "app_up_to_date": "Asegúrese de que la aplicación esté actualizada.",
+        "internet_restrictions": "Asegúrese de que no haya restricciones de firewall o de red que impidan el acceso al servicio."
       },
-      "issue_persist_contact_support": "Se o problema persistir, por favor contacte a nossa equipa de suporte.",
-      "reconnect_to_your_wifi_network": "Reconecte-se à sua rede Wi-Fi.",
-      "restart_device_check_connection": "Reinicie o seu dispositivo e verifique a sua ligação à internet.",
+      "issue_persist_contact_support": "Si el problema persiste, póngase en contacto con nuestro equipo de soporte.",
+      "reconnect_to_your_wifi_network": "Reconéctese a su red Wi-Fi.",
+      "restart_device_check_connection": "Reinicie su dispositivo y compruebe su conexión a Internet.",
       "service": {
-        "not_available_current_location": "O serviço pode não estar disponível na sua localização atual.",
-        "not_operational": "O serviço pode não estar operacional neste momento. Por favor, verifique o seu estado ou tente aceder mais tarde."
+        "not_available_current_location": "El servicio puede no estar disponible en su ubicación actual.",
+        "not_operational": "El servicio puede no estar operativo en este momento. Por favor, verifique su estado o intente acceder más tarde."
       },
-      "several_reasons": "Poderá haver várias razões:"
+      "several_reasons": "Podría haber varias razones:"
     },
     "label": {
-      "accept": "Aceitar",
-      "accepted": "Aceito",
-      "active": "Ativo",
-      "add": "Adicionar",
-      "advanced": "Avançado",
+      "accept": "Aceptar",
+      "accepted": "Aceptado",
+      "active": "Activo",
+      "add": "Agregar",
+      "advanced": "Avanzado",
       "all": {
-        "female": "Todos",
+        "female": "Todas",
         "male": "Todos",
         "other": "Todos"
       },
       "annually": "Anualmente",
-      "approve": "Aprovar",
-      "approved": "Aprovado",
-      "at": "Em",
-      "auto_save": "Salvar automaticamente",
-      "back": "Voltar",
-      "badge": "Distintivo",
-      "behavior": "Comportamento",
-      "button": "Botão",
+      "approve": "Aprobar",
+      "approved": "Aprobado",
+      "at": "En",
+      "auto_save": "Guardar automáticamente",
+      "back": "Volver",
+      "badge": "Insignia",
+      "behavior": "Comportamiento",
+      "button": "Botón",
       "buy": "Comprar",
       "cancel": "Cancelar",
       "canceled": "Cancelado",
       "clear": {
-        "selection": "Limpar seleção",
-        "text": "Limpar"
+        "selection": "Borrar selección",
+        "text": "Borrar"
       },
       "close": {
-        "all": "Fechar tudo",
-        "others": "Fechar outros",
-        "tab": "Fechar aba",
-        "text": "Fechar",
-        "window": "Fechar janela"
+        "all": "Cerrar todo",
+        "others": "Cerrar otros",
+        "tab": "Cerrar pestaña",
+        "text": "Cerrar",
+        "window": "Cerrar ventana"
       },
       "collapse": {
-        "all": "Recolher todos",
-        "text": "Recolher"
+        "all": "Colapsar todo",
+        "text": "Colapsar"
       },
       "commercial": "Comercial",
-      "complete": "Completo",
-      "completed": "Concluído",
+      "complete": "Completado",
+      "completed": "Finalizado",
       "confirm": "Confirmar",
-      "confirmation": "Confirmação",
+      "confirmation": "Confirmación",
       "connected": "Conectado",
       "contact": {
-        "support": "Contactar suporte",
-        "us": "Contacte-nos"
+        "support": "Contactar soporte",
+        "us": "Contáctenos"
       },
       "continue": "Continuar",
       "copy": "Copiar",
       "country": "País",
-      "cut": "Recortar",
+      "cut": "Cortar",
       "daily": "Diariamente",
-      "date": "Data",
+      "date": "Fecha",
       "default": {
-        "text": "Padrão",
-        "values": "Valores padrão"
+        "text": "Predeterminado",
+        "values": "Valores predeterminados"
       },
-      "delete": "Excluir",
-      "description": "Descrição",
-      "details": "Detalhes",
-      "disabled": "Desabilitado",
-      "disapprove": "Desaprovar",
-      "disapproved": "Desaprovado",
+      "delete": "Eliminar",
+      "description": "Descripción",
+      "details": "Detalles",
+      "disabled": "Deshabilitado",
+      "disapprove": "Desaprobar",
+      "disapproved": "Desaprobado",
       "disconnected": "Desconectado",
-      "display": "Exibição",
-      "done": "Concluído",
-      "download": "Baixar",
+      "display": "Mostrar",
+      "done": "Hecho",
+      "download": "Descargar",
       "edit": "Editar",
       "enabled": "Habilitado",
       "enter": {
-        "fullscreen": "Entrar em tela inteira",
-        "pip": "Entrar em imagem dentro da imagem",
+        "fullscreen": "Entrar a pantalla completa",
+        "pip": "Entrar a imagen sobre imagen",
         "text": "Entrar"
       },
       "entries": "Entradas",
       "entry": "Entrada",
       "erase": {
         "all": {
-          "content_and_settings": "Apagar todo o conteúdo e definições"
+          "content_and_settings": "Borrar todo el contenido y ajustes"
         }
       },
-      "error": "Erro",
-      "example": "Exemplo",
-      "excluded": "Excluído",
+      "error": "Error",
+      "example": "Ejemplo",
+      "excluded": "Excluido",
       "exit": {
-        "fullscreen": "Sair da tela inteira",
-        "pip": "Sair do modo imagem dentro da imagem",
-        "text": "Sair"
+        "fullscreen": "Salir de pantalla completa",
+        "pip": "Salir de imagen sobre imagen",
+        "text": "Salir"
       },
       "exotics": "Exóticas",
       "expand": {
-        "all": "Expandir todos",
+        "all": "Expandir todo",
         "text": "Expandir"
       },
       "expired": "Expirado",
       "export": {
-        "all": "Exportar todos",
+        "all": "Exportar todo",
         "as": "Exportar como",
         "csv": "Exportar como CSV",
         "excel": "Exportar como Excel",
@@ -4183,370 +4182,370 @@ static const Map<String,dynamic> pt = {
         "text": "Exportar"
       },
       "external": "Externo",
-      "fast_forward": "Avançar rapidamente",
+      "fast_forward": "Avance rápido",
       "favorites": "Favoritos",
       "find": {
-        "and_replace": "Localizar e substituir",
-        "next": "Localizar próximo",
-        "previous": "Localizar anterior",
-        "text": "Localizar"
+        "and_replace": "Buscar y reemplazar",
+        "next": "Buscar siguiente",
+        "previous": "Buscar anterior",
+        "text": "Buscar"
       },
-      "follow_us": "Siga-nos",
-      "frame": "Quadro",
-      "frequency": "Frequência",
-      "fullscreen": "Tela inteira",
-      "generate": "Gerar",
+      "follow_us": "Síganos",
+      "frame": "Cuadro",
+      "frequency": "Frecuencia",
+      "fullscreen": "Pantalla completa",
+      "generate": "Generar",
       "go": "Ir",
-      "help": "Ajuda",
+      "help": "Ayuda",
       "hidden": "Oculto",
-      "hint": "Sugestão",
-      "home": "Início",
+      "hint": "Pista",
+      "home": "Inicio",
       "import": {
-        "all": "Importar todos",
-        "from": "Importar de",
+        "all": "Importar todo",
+        "from": "Importar desde",
         "text": "Importar"
       },
-      "in_progress": "Em progresso",
-      "inactive": "Inativo",
-      "included": "Incluído",
+      "in_progress": "En progreso",
+      "inactive": "Inactivo",
+      "included": "Incluido",
       "incomplete": "Incompleto",
-      "info": "Informação",
+      "info": "Información",
       "inputs": "Entradas",
       "install": "Instalar",
       "internal": "Interno",
-      "internet_connection": "Sem conexão com a internet",
+      "internet_connection": "Sin conexión a internet",
       "invalid": "Inválido",
-      "learn_more": "Saiba mais",
-      "loading": "Carregando",
+      "learn_more": "Más información",
+      "loading": "Cargando",
       "local": "Local",
       "locked": "Bloqueado",
-      "loop": "Repetir em loop",
-      "majors": "Maiores",
-      "menu": "Menu",
+      "loop": "Repetición",
+      "majors": "Mayores",
+      "menu": "Menú",
       "method": "Método",
       "minors": "Menores",
-      "missing_rights": "Direitos faltando",
-      "monthly": "Mensalmente",
+      "missing_rights": "Derechos faltantes",
+      "monthly": "Mensualmente",
       "mute": "Silenciar",
-      "name": "Nome",
+      "name": "Nombre",
       "new": {
-        "bookmark": "Novo favorito",
-        "document": "Novo documento",
-        "file": "Novo arquivo",
-        "folder": "Nova pasta",
-        "note": "Nova anotação",
-        "project": "Novo projeto",
-        "tab": "Nova aba",
-        "text": "Novo",
-        "window": "Nova janela",
-        "workspace": "Novo espaço de trabalho"
+        "bookmark": "Nuevo marcador",
+        "document": "Nuevo documento",
+        "file": "Nuevo archivo",
+        "folder": "Nueva carpeta",
+        "note": "Nueva nota",
+        "project": "Nuevo proyecto",
+        "tab": "Nueva pestaña",
+        "text": "Nuevo",
+        "window": "Nueva ventana",
+        "workspace": "Nuevo espacio de trabajo"
       },
       "next": {
-        "chapter": "Próximo capítulo",
-        "page": "Próxima página",
-        "text": "Próximo",
-        "track": "Próxima faixa"
+        "chapter": "Siguiente capítulo",
+        "page": "Página siguiente",
+        "text": "Siguiente",
+        "track": "Siguiente pista"
       },
-      "no": "Não",
-      "no_elements": "Sem elementos",
-      "no_items": "Sem itens",
-      "non_commercial": "Não-comercial",
+      "no": "No",
+      "no_elements": "Sin elementos",
+      "no_items": "Sin artículos",
+      "non_commercial": "No comercial",
       "none": {
-        "female": "Nenhum",
-        "male": "Nenhum",
-        "other": "Nenhum"
+        "female": "Ninguna",
+        "male": "Ninguno",
+        "other": "Ninguno"
       },
-      "offline": "Offline",
-      "offline_mode": "Modo offline",
+      "offline": "Sin conexión",
+      "offline_mode": "Modo sin conexión",
       "ok": "OK",
-      "online": "Online",
+      "online": "En línea",
       "open": {
-        "all": "Abrir todos",
-        "directory": "Abrir diretório",
-        "file": "Abrir arquivo",
+        "all": "Abrir todo",
+        "directory": "Abrir directorio",
+        "file": "Abrir archivo",
         "in_new": {
-          "tab": "Abrir em nova aba",
-          "window": "Abrir em nova janela"
+          "tab": "Abrir en nueva pestaña",
+          "window": "Abrir en nueva ventana"
         },
         "text": "Abrir",
         "url": "Abrir URL"
       },
       "operation": {
-        "canceled": "Operação cancelada",
-        "completed": "Operação concluída",
-        "failed": "Operação falhou",
-        "in_progress": "Operação em progresso",
-        "pending": "Operação pendente",
-        "started": "Operação iniciada",
-        "succeeded": "Operação bem-sucedida",
-        "text": "Operação",
-        "timed_out": "Operação expirou"
+        "canceled": "Operación cancelada",
+        "completed": "Operación completada",
+        "failed": "Operación fallida",
+        "in_progress": "Operación en progreso",
+        "pending": "Operación pendiente",
+        "started": "Operación iniciada",
+        "succeeded": "Operación exitosa",
+        "text": "Operación",
+        "timed_out": "Operación expirada"
       },
       "optional": "Opcional",
-      "panel": "Painel",
-      "paste": "Colar",
+      "panel": "Panel",
+      "paste": "Pegar",
       "pause": "Pausa",
       "paused": "Pausado",
-      "pending": "Pendente",
+      "pending": "Pendiente",
       "perform": "Realizar",
-      "personal": "Pessoal",
-      "play": "Reproduzir",
-      "play_pause": "Reproduzir/Pausar",
+      "personal": "Personal",
+      "play": "Reproducir",
+      "play_pause": "Reproducir/Pausar",
       "previous": {
         "chapter": "Capítulo anterior",
         "page": "Página anterior",
         "text": "Anterior",
-        "track": "Faixa anterior"
+        "track": "Pista anterior"
       },
       "private": "Privado",
       "public": "Público",
-      "quantity": "Quantidade",
+      "quantity": "Cantidad",
       "quarterly": "Trimestralmente",
-      "question": "Questão",
-      "redo": "Refazer",
-      "refresh": "Atualizar",
-      "reject": "Rejeitar",
-      "rejected": "Rejeitado",
+      "question": "Pregunta",
+      "redo": "Rehacer",
+      "refresh": "Actualizar",
+      "reject": "Rechazar",
+      "rejected": "Rechazado",
       "remote": "Remoto",
-      "remove": "Remover",
+      "remove": "Eliminar",
       "repeat": {
-        "all": "Repetir tudo",
-        "none": "Não repetir",
-        "one": "Repetir um",
+        "all": "Repetir todo",
+        "none": "No repetir",
+        "one": "Repetir uno",
         "text": "Repetir"
       },
       "replace": {
-        "all": "Substituir todos",
-        "text": "Substituir"
+        "all": "Reemplazar todo",
+        "text": "Reemplazar"
       },
       "replay": "Repetir",
       "report": {
-        "error": "Reportar um erro",
-        "text": "Relatório"
+        "error": "Segnala un errore",
+        "text": "Informe"
       },
-      "required": "Obrigatório",
+      "required": "Requerido",
       "reset": {
         "all": {
-          "content_settings": "Redefinir todos os conteúdos e configurações"
+          "content_settings": "Restablecer todos los contenidos y configuraciones"
         },
-        "text": "Redefinir"
+        "text": "Restablecer"
       },
       "results": "Resultados",
-      "resumed": "Retomado",
-      "retry": "Tentar novamente",
-      "rewind": "Retroceder",
-      "rights_denied": "Direitos negados",
-      "rights_granted": "Direitos concedidos",
+      "resumed": "Reanudado",
+      "retry": "Reintentar",
+      "rewind": "Rebobinar",
+      "rights_denied": "Derechos denegados",
+      "rights_granted": "Derechos otorgados",
       "save": {
-        "all": "Salvar todos",
+        "all": "Guardar todo",
         "and": {
-          "close": "Salvar e fechar",
-          "exit": "Salvar e sair"
+          "close": "Guardar y cerrar",
+          "exit": "Guardar y salir"
         },
-        "as": "Salvar como",
-        "text": "Salvar"
+        "as": "Guardar como",
+        "text": "Guardar"
       },
-      "saved": "Salvo",
-      "search": "Pesquisar",
+      "saved": "Guardado",
+      "search": "Buscar",
       "select": {
-        "all": "Selecionar tudo",
-        "none": "Desmarcar tudo",
-        "text": "Selecionar"
+        "all": "Seleccionar todo",
+        "none": "Seleccionar ninguno",
+        "text": "Seleccionar"
       },
-      "selection": "Seleção",
+      "selection": "Selección",
       "sell": "Vender",
       "semi_annually": "Semestralmente",
-      "service_unavailable": "Serviço indisponível",
+      "service_unavailable": "Servicio no disponible",
       "share": {
-        "app": "Compartilhar este aplicativo",
-        "text": "Compartilhar"
+        "app": "Compartir esta aplicación",
+        "text": "Compartir"
       },
-      "shuffle": "Reprodução aleatória",
+      "shuffle": "Reproducción aleatoria",
       "skip": {
-        "backward": "Retroceder",
-        "forward": "Avançar",
-        "next": "Pular para o próximo",
-        "previous": "Pular para o anterior",
-        "text": "Pular"
+        "backward": "Saltar atrás",
+        "forward": "Saltar adelante",
+        "next": "Saltar siguiente",
+        "previous": "Saltar anterior",
+        "text": "Saltar"
       },
-      "stop": "Parar",
+      "stop": "Detener",
       "submit": "Enviar",
-      "success": "Sucesso",
+      "success": "Éxito",
       "sync": "Sincronizar",
       "synced": "Sincronizado",
-      "template": "Modelo",
+      "template": "Plantilla",
       "time": {
-        "elapsed": "Tempo decorrido",
-        "remaining": "Tempo restante",
-        "text": "Tempo"
+        "elapsed": "Tiempo transcurrido",
+        "remaining": "Tiempo restante",
+        "text": "Tiempo"
       },
-      "tip": "Dica",
+      "tip": "Consejo",
       "toggle": {
-        "all": "Alternar todos",
+        "all": "Alternar todo",
         "text": "Alternar"
       },
       "try": {
-        "again": "Tentar novamente",
-        "later": "Tentar mais tarde",
-        "text": "Tentar"
+        "again": "Intentar de nuevo",
+        "later": "Intentar más tarde",
+        "text": "Intentar"
       },
-      "undo": "Desfazer",
+      "undo": "Deshacer",
       "uninstall": "Desinstalar",
       "unlocked": "Desbloqueado",
-      "unmute": "Ativar som",
-      "unsync": "Dessincronizar",
-      "unsynced": "Não sincronizado",
-      "update": "Atualizar",
+      "unmute": "Activar sonido",
+      "unsync": "Desincronizar",
+      "unsynced": "No sincronizado",
+      "update": "Actualizar",
       "upgrade": {
-        "now": "Atualizar agora",
-        "text": "Atualizar"
+        "now": "Actualizar ahora",
+        "text": "Actualizar"
       },
-      "upload": "Carregar",
-      "user_inputs": "Entradas do usuário",
+      "upload": "Subir",
+      "user_inputs": "Entradas del usuario",
       "valid": "Válido",
-      "visible": "Visível",
-      "volume": "Volume",
-      "warning": "Aviso",
+      "visible": "Visible",
+      "volume": "Volumen",
+      "warning": "Advertencia",
       "watch": {
-        "later": "Assistir mais tarde",
-        "now": "Assistir agora",
-        "text": "Assistir"
+        "later": "Ver más tarde",
+        "now": "Ver ahora",
+        "text": "Ver"
       },
-      "website": "Website",
+      "website": "Sitio web",
       "weekly": "Semanalmente",
       "yearly": "Anualmente",
-      "yes": "Sim",
-      "yesterday": "Ontem",
+      "yes": "Sí",
+      "yesterday": "Ayer",
       "zoom": {
-        "in": "Aumentar zoom",
-        "out": "Diminuir zoom",
-        "reset": "Redefinir zoom",
+        "in": "Acercar",
+        "out": "Alejar",
+        "reset": "Restablecer zoom",
         "text": "Zoom"
       }
     },
     "message": {
       "action": {
-        "canceled": "Ação cancelada.",
-        "completed": "Ação concluída."
+        "canceled": "Acción cancelada.",
+        "completed": "Acción completada."
       },
-      "bugs_fixes_improvements": "Correções de bugs menores e melhorias.",
-      "checking_connection": "Verificando conexão...",
-      "congratulations": "Parabéns!",
-      "copied": "Copiado!",
-      "copied_to_clipboard": "Copiado para a área de transferência!",
-      "copied_value_to_clipboard": "Copiado {value} para a área de transferência!",
-      "dark_mode_support": "Suporte ao modo escuro.",
-      "erase_all_content_and_settings_explanation": "Esta ação irá eliminar permanentemente todos os dados desta aplicação, incluindo as suas definições pessoais, preferências e informações guardadas. Este processo é irreversível.",
-      "example": "Exemplo:",
+      "bugs_fixes_improvements": "Correcciones menores y mejoras.",
+      "checking_connection": "Comprobando conexión...",
+      "congratulations": "¡Felicidades!",
+      "copied": "¡Copiado!",
+      "copied_to_clipboard": "¡Copiado al portapapeles!",
+      "copied_value_to_clipboard": "¡Copiado {value} al portapapeles!",
+      "dark_mode_support": "Soporte para modo oscuro.",
+      "erase_all_content_and_settings_explanation": "Esta acción eliminará permanentemente todos los datos de esta aplicación, incluyendo sus ajustes personales, preferencias e información guardada. Este proceso es irreversible.",
+      "example": "Ejemplo:",
       "failed_to": {
         "generate": {
-          "csv": "Ocorreu um problema ao criar o ficheiro CSV.",
-          "excel": "Ocorreu um problema ao criar o ficheiro Excel.",
-          "file": "Ocorreu um problema ao criar o ficheiro.",
-          "pdf": "Ocorreu um problema ao criar o ficheiro PDF.",
-          "text": "Ocorreu um problema ao criar o ficheiro de texto."
+          "csv": "Se encontró un problema al crear el archivo CSV.",
+          "excel": "Se encontró un problema al crear el archivo de Excel.",
+          "file": "Se encontró un problema al crear el archivo.",
+          "pdf": "Se encontró un problema al crear el archivo PDF.",
+          "text": "Se encontró un problema al crear el archivo de texto."
         },
         "load": {
-          "csv": "Ocorreu um problema ao carregar o ficheiro CSV.",
-          "data": "Ocorreu um problema ao carregar os dados.",
-          "excel": "Ocorreu um problema ao carregar o ficheiro Excel.",
-          "file": "Ocorreu um problema ao carregar o ficheiro.",
-          "pdf": "Ocorreu um problema ao carregar o ficheiro PDF.",
-          "text": "Ocorreu um problema ao carregar o ficheiro de texto."
+          "csv": "Se encontró un problema al cargar el archivo CSV.",
+          "data": "Se encontró un problema al cargar los datos.",
+          "excel": "Se encontró un problema al cargar el archivo de Excel.",
+          "file": "Se encontró un problema al cargar el archivo.",
+          "pdf": "Se encontró un problema al cargar el archivo PDF.",
+          "text": "Se encontró un problema al cargar el archivo de texto."
         },
         "perform": {
-          "action": "Ocorreu um problema ao realizar a ação."
+          "action": "Se encontró un problema al realizar la acción."
         },
         "save": {
-          "csv": "Ocorreu um problema ao guardar o ficheiro CSV.",
-          "data": "Ocorreu um problema ao guardar os dados.",
-          "excel": "Ocorreu um problema ao guardar o ficheiro Excel.",
-          "file": "Ocorreu um problema ao guardar o ficheiro.",
-          "pdf": "Ocorreu um problema ao guardar o ficheiro PDF.",
-          "text": "Ocorreu um problema ao guardar o ficheiro de texto."
+          "csv": "Se encontró un problema al guardar el archivo CSV.",
+          "data": "Se encontró un problema al guardar los datos.",
+          "excel": "Se encontró un problema al guardar el archivo de Excel.",
+          "file": "Se encontró un problema al guardar el archivo.",
+          "pdf": "Se encontró un problema al guardar el archivo PDF.",
+          "text": "Se encontró un problema al guardar el archivo de texto."
         }
       },
-      "finally": "Finalmente!",
+      "finally": "¡Por fin!",
       "generating": {
-        "csv": "A gerar ficheiro CSV...",
-        "excel": "A gerar ficheiro Excel...",
-        "pdf": "A gerar ficheiro PDF...",
-        "text": "Geração em progresso..."
+        "csv": "Generando archivo CSV...",
+        "excel": "Generando archivo Excel...",
+        "pdf": "Generando archivo PDF...",
+        "text": "Generación en curso..."
       },
-      "have_wonderful_day": "Tenha um ótimo dia!",
-      "last_updated_on": "Última atualização em {date}",
-      "let_get_started": "Vamos começar!",
+      "have_wonderful_day": "¡Que tengas un día maravilloso!",
+      "last_updated_on": "Última actualización el {date}",
+      "let_get_started": "¡Empecemos!",
       "loading": {
-        "data": "Carregando dados...",
-        "pdf": "Carregando PDF...",
-        "text": "Carregando..."
+        "data": "Cargando datos...",
+        "pdf": "Cargando PDF...",
+        "text": "Cargando..."
       },
-      "modern_design": "Visual moderno.",
+      "modern_design": "Diseño moderno.",
       "no": {
-        "results_found": "Nenhum resultado encontrado."
+        "results_found": "No se encontraron resultados."
       },
-      "no_favorites": "Sem favoritos.",
-      "pdf_generated_by": "PDF gerado por {app_name}",
-      "performing": "Executando...",
-      "please_wait": "Aguarde, por favor...",
-      "processing": "Processando...",
+      "no_favorites": "No hay favoritos.",
+      "pdf_generated_by": "PDF generado por {app_name}",
+      "performing": "Realizando...",
+      "please_wait": "Por favor, espera...",
+      "processing": "Procesando...",
       "ready": {
-        "csv": "Ficheiro CSV pronto!",
-        "excel": "Ficheiro Excel pronto!",
-        "file": "Ficheiro pronto!",
-        "pdf": "Ficheiro PDF pronto!",
-        "text": "Pronto!"
+        "csv": "Archivo CSV listo!",
+        "excel": "Archivo Excel listo!",
+        "file": "Archivo listo!",
+        "pdf": "Archivo PDF listo!",
+        "text": "¡Listo!"
       },
       "require": {
-        "internet_connection": "Uma conexão com a Internet é necessária."
+        "internet_connection": "Se requiere una conexión a Internet."
       },
-      "saving": "Salvando...",
-      "search": "Pesquisar...",
-      "searching": "Procurando...",
+      "saving": "Guardando...",
+      "search": "Buscar...",
+      "searching": "Buscando...",
       "share": {
-        "invite": "Oi, descobri este incrível aplicativo que vai facilitar a sua vida. Confira!"
+        "invite": "¡Hola! He descubierto esta increíble aplicación que hará tu vida más fácil. ¡Échale un vistazo!"
       },
-      "sorry": "Desculpe...",
-      "success": "Sucesso!",
-      "thank_you": "Obrigado!",
+      "sorry": "Lo siento...",
+      "success": "¡Éxito!",
+      "thank_you": "¡Gracias!",
       "try": {
-        "steps_back_online": "Tente estes passos para voltar a ficar online:"
+        "steps_back_online": "Intente estos pasos para volver a conectarse:"
       },
-      "warning": "Aviso!",
-      "welcome": "Bem-vindo!",
-      "whats_new": "O que há de novo?",
-      "whoops": "Ops!"
+      "warning": "¡Advertencia!",
+      "welcome": "¡Bienvenido!",
+      "whats_new": "¿Qué hay de nuevo?",
+      "whoops": "¡Ups!"
     },
     "question": {
-      "are_you_sure": "Tem certeza?",
-      "erase_all_content_and_settings": "Tem a certeza de que quer apagar todo o conteúdo e definições?",
+      "are_you_sure": "¿Estás seguro?",
+      "erase_all_content_and_settings": "¿Está seguro de que quiere borrar todo el contenido y los ajustes?",
       "export": {
         "data": {
           "as": {
-            "csv": "Deseja exportar estes dados em formato CSV?",
-            "excel": "Deseja exportar estes dados num ficheiro Excel?",
-            "pdf": "Deseja exportar estes dados em formato PDF?",
-            "text": "Deseja exportar estes dados?"
+            "csv": "¿Desea exportar estos datos en formato CSV?",
+            "excel": "¿Desea exportar estos datos en un archivo Excel?",
+            "pdf": "¿Desea exportar estos datos en formato PDF?",
+            "text": "¿Desea exportar estos datos?"
           }
         }
       },
       "generate": {
         "data": {
-          "csv": "Gostaria de gerar uma versão em CSV destes dados?",
-          "excel": "Gostaria de gerar uma versão em Excel destes dados?",
-          "pdf": "Gostaria de gerar uma versão em PDF destes dados?"
+          "csv": "¿Desea generar una versión en CSV de estos datos?",
+          "excel": "¿Desea generar una versión en Excel de estos datos?",
+          "pdf": "¿Desea generar una versión en PDF de estos datos?"
         }
       }
     },
     "select": {
-      "country": "Selecione um país",
-      "frequency": "Selecione uma frequência",
-      "method": "Selecione um método"
+      "country": "Seleccione un país",
+      "frequency": "Selecciona una frecuencia",
+      "method": "Selecciona un método"
     },
     "warning": {
-      "offline": "O aplicativo está atualmente operando no modo offline, o que significa que os dados podem não estar atualizados."
+      "offline": "La aplicación se encuentra en modo sin conexión, lo que significa que los datos pueden no estar actualizados."
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "en": en, "it": it, "de": de, "ru": ru, "es": es, "fr": fr, "ja": ja, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "it": it, "ru": ru, "de": de, "pt": pt, "en": en, "fr": fr, "ja": ja, "es": es};
 }

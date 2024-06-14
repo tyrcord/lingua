@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class FinanceDividendCodegenLoader extends AssetLoader {
@@ -86,80 +85,6 @@ class FinanceDividendCodegenLoader extends AssetLoader {
     "distribution_frequency": "选择分配频率"
   }
 };
-static const Map<String,dynamic> en = {
-  "dividend": {
-    "help": {
-      "dividend_payment_frequency": {
-        "example": "For example, choose 'Quarterly' if a company distributes dividends four times a year, or select 'Annually' if dividends are paid once a year.",
-        "instructions": "Select the frequency of dividend payments by the company. The options are 'Monthly', 'Quarterly', 'Semiannually', and 'Annually."
-      },
-      "dividend_reinvestment_plan": {
-        "example": "For example, if you are enrolled in a dividend reinvestment plan, enter 'Yes', otherwise enter 'No'.",
-        "instructions": "Specify whether you are participating in a Dividend Reinvestment Plan (DRIP) for this investment. DRIPs allow investors to reinvest their cash dividends into additional shares or fractional shares of the underlying stock."
-      },
-      "dividend_yield": {
-        "example": "For example, if the dividend yield of a stock is 3.5%, enter '3.5'.",
-        "instructions": "Enter the dividend yield of the stock. The dividend yield is expressed as a percentage and represents the ratio of a company's annual dividend compared to its share price."
-      },
-      "duration_in_years": {
-        "example": "For example, if you have held an investment for 5 years, enter '5'.",
-        "instructions": "Enter the total number of years you have held or plan to hold the investment."
-      },
-      "expected_annual_dividend_increase": {
-        "example": "For example, if you anticipate a 2% annual increase in dividends, enter '2'.",
-        "instructions": "Enter the expected annual percentage increase in dividends from your investments. This is an estimate of how much the dividend payouts are expected to grow each year."
-      },
-      "net_income": {
-        "example": "For example, if a company's net income for the year is \u00241.5 million, please enter '1,500,000'.",
-        "instructions": "Enter the net income of the company for a specified period. Net income is the profit of a company after all expenses and taxes have been deducted from total revenue."
-      },
-      "share_price": {
-        "example": "For example, if the current price of a company's stock is \u002450, please enter '50'.",
-        "instructions": "Enter the current price of the stock you are reviewing."
-      },
-      "shares_owned": {
-        "example": "For example, if you own 500 shares of a company, please enter '500'.",
-        "instructions": "Enter the total number of shares you currently own in the company."
-      },
-      "total_dividends": {
-        "example": "For example, if a company has paid out \u0024200,000 in dividends during a year, enter '200,000'.",
-        "instructions": "Enter the total amount of dividends distributed by a company."
-      }
-    },
-    "label": {
-      "annual": {
-        "dividend_income": "Annual dividend income",
-        "dividend_per_share": "Annual dividend per share",
-        "net_dividend_income": "Annual net dividend income"
-      },
-      "current_dividend_yield": "Current dividend yield",
-      "dividend": {
-        "amount": "Dividend amount",
-        "payment_frequency": "Dividend payment frequency",
-        "payout_ratio": "Dividend payout ratio",
-        "reinvestment": "Dividend reinvestment",
-        "reinvestment_plan": "Dividend reinvestment plan",
-        "text": "Dividend",
-        "yield": "Dividend yield"
-      },
-      "dividends": "Dividends",
-      "expected_annual_dividend_increase": "Expected annual dividend increase",
-      "gross_dividend_paid": "Gross dividend paid",
-      "high_dividend": "High dividend",
-      "low_dividend": "Low dividend",
-      "net_dividend_paid": "Net dividend paid",
-      "normal_dividend": "Normal dividend",
-      "total": {
-        "dividend_payments": "Total dividend payments",
-        "dividends": "Total dividends"
-      },
-      "unsustainable_high_dividend": "Unsustainable high dividend"
-    }
-  },
-  "select": {
-    "distribution_frequency": "Select a distribution frequency"
-  }
-};
 static const Map<String,dynamic> it = {
   "dividend": {
     "help": {
@@ -232,80 +157,6 @@ static const Map<String,dynamic> it = {
   },
   "select": {
     "distribution_frequency": "Seleziona una frequenza di distribuzione"
-  }
-};
-static const Map<String,dynamic> de = {
-  "dividend": {
-    "help": {
-      "dividend_payment_frequency": {
-        "example": "Zum Beispiel wählen Sie 'Vierteljährlich', wenn ein Unternehmen viermal im Jahr Dividenden ausschüttet, oder wählen Sie 'Jährlich', wenn Dividenden einmal im Jahr gezahlt werden.",
-        "instructions": "Wählen Sie die Häufigkeit der Dividendenzahlungen des Unternehmens. Die Optionen sind 'Monatlich', 'Vierteljährlich', 'Halbjährlich' und 'Jährlich'."
-      },
-      "dividend_reinvestment_plan": {
-        "example": "Zum Beispiel, wenn Sie an einem Dividenden-Reinvestitionsplan teilnehmen, geben Sie 'Ja' ein, andernfalls 'Nein'.",
-        "instructions": "Geben Sie an, ob Sie an einem Dividenden-Reinvestitionsplan (DRIP) für diese Anlage teilnehmen. DRIPs ermöglichen es Anlegern, ihre Bardividenden in zusätzliche Aktien oder Bruchteile von Aktien des zugrunde liegenden Unternehmens zu reinvestieren."
-      },
-      "dividend_yield": {
-        "example": "Zum Beispiel, wenn die Dividendenrendite einer Aktie 3,5% beträgt, geben Sie '3,5' ein.",
-        "instructions": "Geben Sie die Dividendenrendite der Aktie ein. Die Dividendenrendite wird als Prozentsatz ausgedrückt und stellt das Verhältnis der jährlichen Dividende eines Unternehmens im Vergleich zu seinem Aktienkurs dar."
-      },
-      "duration_in_years": {
-        "example": "Zum Beispiel, wenn Sie eine Anlage seit 5 Jahren halten, geben Sie '5' ein.",
-        "instructions": "Geben Sie die Gesamtanzahl der Jahre ein, die Sie die Anlage gehalten haben oder planen zu halten."
-      },
-      "expected_annual_dividend_increase": {
-        "example": "Zum Beispiel, wenn Sie eine jährliche Steigerung der Dividenden um 2% erwarten, geben Sie '2' ein.",
-        "instructions": "Geben Sie die erwartete jährliche prozentuale Steigerung der Dividenden aus Ihren Anlagen ein. Dies ist eine Schätzung, wie stark die Dividendenausschüttungen jedes Jahr wachsen werden."
-      },
-      "net_income": {
-        "example": "Zum Beispiel, wenn der Jahresnettoumsatz eines Unternehmens 1,5 Millionen Dollar beträgt, geben Sie bitte '1.500.000' ein.",
-        "instructions": "Geben Sie den Nettogewinn des Unternehmens für einen bestimmten Zeitraum ein. Der Nettogewinn ist der Gewinn eines Unternehmens, nachdem alle Ausgaben und Steuern vom Gesamtumsatz abgezogen wurden."
-      },
-      "share_price": {
-        "example": "Zum Beispiel, wenn der aktuelle Preis einer Unternehmensaktie 50\u0024 beträgt, geben Sie bitte '50' ein.",
-        "instructions": "Geben Sie den aktuellen Preis der Aktie ein, die Sie überprüfen."
-      },
-      "shares_owned": {
-        "example": "Zum Beispiel, wenn Sie 500 Aktien eines Unternehmens besitzen, geben Sie bitte '500' ein.",
-        "instructions": "Geben Sie die Gesamtanzahl der Aktien ein, die Sie derzeit an dem Unternehmen besitzen."
-      },
-      "total_dividends": {
-        "example": "Zum Beispiel, wenn ein Unternehmen im Laufe eines Jahres Dividenden in Höhe von 200.000\u0024 ausgeschüttet hat, geben Sie '200.000' ein.",
-        "instructions": "Geben Sie die Gesamtsumme der von einem Unternehmen ausgeschütteten Dividenden ein."
-      }
-    },
-    "label": {
-      "annual": {
-        "dividend_income": "Jährliches dividendeneinkommen",
-        "dividend_per_share": "Jährliche dividende pro aktie",
-        "net_dividend_income": "Jährliches nettodividendeneinkommen"
-      },
-      "current_dividend_yield": "Aktuelle dividendenrendite",
-      "dividend": {
-        "amount": "Dividendenhöhe",
-        "payment_frequency": "Dividendenzahlungshäufigkeit",
-        "payout_ratio": "Dividendenrendite",
-        "reinvestment": "Dividendenumlage",
-        "reinvestment_plan": "Dividendenumlageplan",
-        "text": "Dividende",
-        "yield": "Dividendenrendite"
-      },
-      "dividends": "Dividenden",
-      "expected_annual_dividend_increase": "Erwartete jährliche dividendenerhöhung",
-      "gross_dividend_paid": "Bruttoausgeschüttete dividende",
-      "high_dividend": "Hohe dividende",
-      "low_dividend": "Niedrige dividende",
-      "net_dividend_paid": "Nettoausgeschüttete dividende",
-      "normal_dividend": "Normale dividende",
-      "total": {
-        "dividend_payments": "Gesamte dividendenauszahlungen",
-        "dividends": "Gesamtdividenden"
-      },
-      "unsustainable_high_dividend": "Unnachhaltig hohe dividende"
-    }
-  },
-  "select": {
-    "distribution_frequency": "Wählen Sie eine Verteilungshäufigkeit aus"
   }
 };
 static const Map<String,dynamic> ru = {
@@ -382,78 +233,226 @@ static const Map<String,dynamic> ru = {
     "distribution_frequency": "Выберите частоту распределения"
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> de = {
   "dividend": {
     "help": {
       "dividend_payment_frequency": {
-        "example": "Por ejemplo, elija 'Trimestral' si una empresa distribuye dividendos cuatro veces al año, o seleccione 'Anual' si los dividendos se pagan una vez al año.",
-        "instructions": "Seleccione la frecuencia de los pagos de dividendos de la empresa. Las opciones son 'Mensual', 'Trimestral', 'Semestral' y 'Anual'."
+        "example": "Zum Beispiel wählen Sie 'Vierteljährlich', wenn ein Unternehmen viermal im Jahr Dividenden ausschüttet, oder wählen Sie 'Jährlich', wenn Dividenden einmal im Jahr gezahlt werden.",
+        "instructions": "Wählen Sie die Häufigkeit der Dividendenzahlungen des Unternehmens. Die Optionen sind 'Monatlich', 'Vierteljährlich', 'Halbjährlich' und 'Jährlich'."
       },
       "dividend_reinvestment_plan": {
-        "example": "Por ejemplo, si está inscrito en un plan de reinversión de dividendos, introduzca 'Sí', de lo contrario introduzca 'No'.",
-        "instructions": "Especifique si está participando en un Plan de Reversión de Dividendos (DRIP) para esta inversión. Los DRIP permiten a los inversores reinvertir sus dividendos en efectivo en acciones adicionales o fracciones de acciones de la acción subyacente."
+        "example": "Zum Beispiel, wenn Sie an einem Dividenden-Reinvestitionsplan teilnehmen, geben Sie 'Ja' ein, andernfalls 'Nein'.",
+        "instructions": "Geben Sie an, ob Sie an einem Dividenden-Reinvestitionsplan (DRIP) für diese Anlage teilnehmen. DRIPs ermöglichen es Anlegern, ihre Bardividenden in zusätzliche Aktien oder Bruchteile von Aktien des zugrunde liegenden Unternehmens zu reinvestieren."
       },
       "dividend_yield": {
-        "example": "Por ejemplo, si el rendimiento por dividendo de una acción es del 3.5%, introduzca '3.5'.",
-        "instructions": "Introduzca el rendimiento por dividendo de la acción. El rendimiento por dividendo se expresa como un porcentaje y representa la relación del dividendo anual de una empresa en comparación con su precio de acción."
+        "example": "Zum Beispiel, wenn die Dividendenrendite einer Aktie 3,5% beträgt, geben Sie '3,5' ein.",
+        "instructions": "Geben Sie die Dividendenrendite der Aktie ein. Die Dividendenrendite wird als Prozentsatz ausgedrückt und stellt das Verhältnis der jährlichen Dividende eines Unternehmens im Vergleich zu seinem Aktienkurs dar."
       },
       "duration_in_years": {
-        "example": "Por ejemplo, si ha mantenido una inversión durante 5 años, introduzca '5'.",
-        "instructions": "Introduzca el número total de años que ha mantenido o planea mantener la inversión."
+        "example": "Zum Beispiel, wenn Sie eine Anlage seit 5 Jahren halten, geben Sie '5' ein.",
+        "instructions": "Geben Sie die Gesamtanzahl der Jahre ein, die Sie die Anlage gehalten haben oder planen zu halten."
       },
       "expected_annual_dividend_increase": {
-        "example": "Por ejemplo, si anticipa un aumento anual del 2% en los dividendos, introduzca '2'.",
-        "instructions": "Introduzca el aumento porcentual anual esperado en los dividendos de sus inversiones. Esta es una estimación de cuánto se espera que crezcan los pagos de dividendos cada año."
+        "example": "Zum Beispiel, wenn Sie eine jährliche Steigerung der Dividenden um 2% erwarten, geben Sie '2' ein.",
+        "instructions": "Geben Sie die erwartete jährliche prozentuale Steigerung der Dividenden aus Ihren Anlagen ein. Dies ist eine Schätzung, wie stark die Dividendenausschüttungen jedes Jahr wachsen werden."
       },
       "net_income": {
-        "example": "Par exemple, si le revenu net d'une entreprise pour l'année est de 1,5 million de dollars, veuillez saisir '1 500 000'.",
-        "instructions": "Saisissez le revenu net de l'entreprise pour une période spécifiée. Le revenu net est le profit d'une entreprise après que toutes les dépenses et les taxes aient été déduites du revenu total."
+        "example": "Zum Beispiel, wenn der Jahresnettoumsatz eines Unternehmens 1,5 Millionen Dollar beträgt, geben Sie bitte '1.500.000' ein.",
+        "instructions": "Geben Sie den Nettogewinn des Unternehmens für einen bestimmten Zeitraum ein. Der Nettogewinn ist der Gewinn eines Unternehmens, nachdem alle Ausgaben und Steuern vom Gesamtumsatz abgezogen wurden."
       },
       "share_price": {
-        "example": "Por ejemplo, si el precio actual de una acción de una empresa es de 50\u0024, por favor introduzca '50'.",
-        "instructions": "Introduzca el precio actual de la acción que está revisando."
+        "example": "Zum Beispiel, wenn der aktuelle Preis einer Unternehmensaktie 50\u0024 beträgt, geben Sie bitte '50' ein.",
+        "instructions": "Geben Sie den aktuellen Preis der Aktie ein, die Sie überprüfen."
       },
       "shares_owned": {
-        "example": "Por ejemplo, si posee 500 acciones de una empresa, por favor introduzca '500'.",
-        "instructions": "Introduzca el número total de acciones que posee actualmente en la empresa."
+        "example": "Zum Beispiel, wenn Sie 500 Aktien eines Unternehmens besitzen, geben Sie bitte '500' ein.",
+        "instructions": "Geben Sie die Gesamtanzahl der Aktien ein, die Sie derzeit an dem Unternehmen besitzen."
       },
       "total_dividends": {
-        "example": "Por ejemplo, si una empresa ha pagado 200.000\u0024 en dividendos durante un año, introduzca '200.000'.",
-        "instructions": "Introduzca el importe total de los dividendos distribuidos por una empresa."
+        "example": "Zum Beispiel, wenn ein Unternehmen im Laufe eines Jahres Dividenden in Höhe von 200.000\u0024 ausgeschüttet hat, geben Sie '200.000' ein.",
+        "instructions": "Geben Sie die Gesamtsumme der von einem Unternehmen ausgeschütteten Dividenden ein."
       }
     },
     "label": {
       "annual": {
-        "dividend_income": "Ingresos anuales por dividendos",
-        "dividend_per_share": "Dividendo anual por acción",
-        "net_dividend_income": "Ingresos netos anuales por dividendos"
+        "dividend_income": "Jährliches dividendeneinkommen",
+        "dividend_per_share": "Jährliche dividende pro aktie",
+        "net_dividend_income": "Jährliches nettodividendeneinkommen"
       },
-      "current_dividend_yield": "Rendimiento actual de dividendos",
+      "current_dividend_yield": "Aktuelle dividendenrendite",
       "dividend": {
-        "amount": "Monto de dividendos",
-        "payment_frequency": "Frecuencia de pago de dividendos",
-        "payout_ratio": "Ratio de pago de dividendos",
-        "reinvestment": "Reinversión de dividendos",
-        "reinvestment_plan": "Plan de reinversión de dividendos",
-        "text": "Dividendo",
-        "yield": "Rendimiento de dividendos"
+        "amount": "Dividendenhöhe",
+        "payment_frequency": "Dividendenzahlungshäufigkeit",
+        "payout_ratio": "Dividendenrendite",
+        "reinvestment": "Dividendenumlage",
+        "reinvestment_plan": "Dividendenumlageplan",
+        "text": "Dividende",
+        "yield": "Dividendenrendite"
       },
-      "dividends": "Dividendos",
-      "expected_annual_dividend_increase": "Incremento anual de dividendos esperado",
-      "gross_dividend_paid": "Dividendos brutos pagados",
-      "high_dividend": "Dividendo alto",
-      "low_dividend": "Dividendo bajo",
-      "net_dividend_paid": "Dividendos netos pagados",
-      "normal_dividend": "Dividendo normal",
+      "dividends": "Dividenden",
+      "expected_annual_dividend_increase": "Erwartete jährliche dividendenerhöhung",
+      "gross_dividend_paid": "Bruttoausgeschüttete dividende",
+      "high_dividend": "Hohe dividende",
+      "low_dividend": "Niedrige dividende",
+      "net_dividend_paid": "Nettoausgeschüttete dividende",
+      "normal_dividend": "Normale dividende",
       "total": {
-        "dividend_payments": "Pagos totales de dividendos",
-        "dividends": "Dividendos totales"
+        "dividend_payments": "Gesamte dividendenauszahlungen",
+        "dividends": "Gesamtdividenden"
       },
-      "unsustainable_high_dividend": "Dividendo alto no sostenible"
+      "unsustainable_high_dividend": "Unnachhaltig hohe dividende"
     }
   },
   "select": {
-    "distribution_frequency": "Seleccione una frecuencia de distribución"
+    "distribution_frequency": "Wählen Sie eine Verteilungshäufigkeit aus"
+  }
+};
+static const Map<String,dynamic> pt = {
+  "dividend": {
+    "help": {
+      "dividend_payment_frequency": {
+        "example": "Por exemplo, escolha 'Trimestral' se uma empresa distribui dividendos quatro vezes por ano, ou selecione 'Anual' se os dividendos são pagos uma vez por ano.",
+        "instructions": "Selecione a frequência dos pagamentos de dividendos pela empresa. As opções são 'Mensal', 'Trimestral', 'Semestral' e 'Anual'."
+      },
+      "dividend_reinvestment_plan": {
+        "example": "Por exemplo, se está inscrito num plano de reinvestimento de dividendos, insira 'Sim', caso contrário insira 'Não'.",
+        "instructions": "Especifique se está a participar num Plano de Reinvestimento de Dividendos (DRIP) para este investimento. Os DRIP permitem aos investidores reinvestir os seus dividendos em dinheiro em ações adicionais ou frações de ações da ação subjacente."
+      },
+      "dividend_yield": {
+        "example": "Por exemplo, se o rendimento de dividendos de uma ação é de 3,5%, insira '3,5'.",
+        "instructions": "Insira o rendimento de dividendos da ação. O rendimento de dividendos é expresso em percentagem e representa a relação entre o dividendo anual de uma empresa comparado ao seu preço de ação."
+      },
+      "duration_in_years": {
+        "example": "Por exemplo, se manteve um investimento por 5 anos, insira '5'.",
+        "instructions": "Insira o número total de anos que manteve ou planeia manter o investimento."
+      },
+      "expected_annual_dividend_increase": {
+        "example": "Por exemplo, se antecipa um aumento anual de 2% nos dividendos, insira '2'.",
+        "instructions": "Insira o aumento percentual anual esperado nos dividendos dos seus investimentos. Esta é uma estimativa de quanto se espera que os pagamentos de dividendos cresçam a cada ano."
+      },
+      "net_income": {
+        "example": "Por exemplo, se o rendimento líquido de uma empresa for de 1,5 milhões de dólares no ano, por favor insira '1.500.000'.",
+        "instructions": "Insira o rendimento líquido da empresa para um período especificado. O rendimento líquido é o lucro de uma empresa após todas as despesas e impostos terem sido deduzidos da receita total."
+      },
+      "share_price": {
+        "example": "Por exemplo, se o preço atual de uma ação de uma empresa é 50\u0024, por favor, insira '50'.",
+        "instructions": "Insira o preço atual da ação que está a analisar."
+      },
+      "shares_owned": {
+        "example": "Por exemplo, se possui 500 ações de uma empresa, por favor insira '500'.",
+        "instructions": "Insira o número total de ações que possui atualmente na empresa."
+      },
+      "total_dividends": {
+        "example": "Por exemplo, se uma empresa pagou 200.000\u0024 em dividendos durante um ano, insira '200.000'.",
+        "instructions": "Insira o montante total de dividendos distribuídos por uma empresa."
+      }
+    },
+    "label": {
+      "annual": {
+        "dividend_income": "Rendimento anual de dividendos",
+        "dividend_per_share": "Dividendo anual por ação",
+        "net_dividend_income": "Rendimento líquido anual de dividendos"
+      },
+      "current_dividend_yield": "Rendimento atual de dividendos",
+      "dividend": {
+        "amount": "Valor do dividendo",
+        "payment_frequency": "Frequência de pagamento de dividendos",
+        "payout_ratio": "Taxa de pagamento de dividendos",
+        "reinvestment": "Reinvestimento de dividendos",
+        "reinvestment_plan": "Plano de reinvestimento de dividendos",
+        "text": "Dividendo",
+        "yield": "Rendimento de dividendos"
+      },
+      "dividends": "Dividendos",
+      "expected_annual_dividend_increase": "Aumento anual esperado de dividendos",
+      "gross_dividend_paid": "Dividendos brutos pagos",
+      "high_dividend": "Dividendo alto",
+      "low_dividend": "Dividendo baixo",
+      "net_dividend_paid": "Dividendos líquidos pagos",
+      "normal_dividend": "Dividendo normal",
+      "total": {
+        "dividend_payments": "Pagamentos totais de dividendos",
+        "dividends": "Total de dividendos"
+      },
+      "unsustainable_high_dividend": "Dividendo alto insustentável"
+    }
+  },
+  "select": {
+    "distribution_frequency": "Selecione uma frequência de distribuição"
+  }
+};
+static const Map<String,dynamic> en = {
+  "dividend": {
+    "help": {
+      "dividend_payment_frequency": {
+        "example": "For example, choose 'Quarterly' if a company distributes dividends four times a year, or select 'Annually' if dividends are paid once a year.",
+        "instructions": "Select the frequency of dividend payments by the company. The options are 'Monthly', 'Quarterly', 'Semiannually', and 'Annually."
+      },
+      "dividend_reinvestment_plan": {
+        "example": "For example, if you are enrolled in a dividend reinvestment plan, enter 'Yes', otherwise enter 'No'.",
+        "instructions": "Specify whether you are participating in a Dividend Reinvestment Plan (DRIP) for this investment. DRIPs allow investors to reinvest their cash dividends into additional shares or fractional shares of the underlying stock."
+      },
+      "dividend_yield": {
+        "example": "For example, if the dividend yield of a stock is 3.5%, enter '3.5'.",
+        "instructions": "Enter the dividend yield of the stock. The dividend yield is expressed as a percentage and represents the ratio of a company's annual dividend compared to its share price."
+      },
+      "duration_in_years": {
+        "example": "For example, if you have held an investment for 5 years, enter '5'.",
+        "instructions": "Enter the total number of years you have held or plan to hold the investment."
+      },
+      "expected_annual_dividend_increase": {
+        "example": "For example, if you anticipate a 2% annual increase in dividends, enter '2'.",
+        "instructions": "Enter the expected annual percentage increase in dividends from your investments. This is an estimate of how much the dividend payouts are expected to grow each year."
+      },
+      "net_income": {
+        "example": "For example, if a company's net income for the year is \u00241.5 million, please enter '1,500,000'.",
+        "instructions": "Enter the net income of the company for a specified period. Net income is the profit of a company after all expenses and taxes have been deducted from total revenue."
+      },
+      "share_price": {
+        "example": "For example, if the current price of a company's stock is \u002450, please enter '50'.",
+        "instructions": "Enter the current price of the stock you are reviewing."
+      },
+      "shares_owned": {
+        "example": "For example, if you own 500 shares of a company, please enter '500'.",
+        "instructions": "Enter the total number of shares you currently own in the company."
+      },
+      "total_dividends": {
+        "example": "For example, if a company has paid out \u0024200,000 in dividends during a year, enter '200,000'.",
+        "instructions": "Enter the total amount of dividends distributed by a company."
+      }
+    },
+    "label": {
+      "annual": {
+        "dividend_income": "Annual dividend income",
+        "dividend_per_share": "Annual dividend per share",
+        "net_dividend_income": "Annual net dividend income"
+      },
+      "current_dividend_yield": "Current dividend yield",
+      "dividend": {
+        "amount": "Dividend amount",
+        "payment_frequency": "Dividend payment frequency",
+        "payout_ratio": "Dividend payout ratio",
+        "reinvestment": "Dividend reinvestment",
+        "reinvestment_plan": "Dividend reinvestment plan",
+        "text": "Dividend",
+        "yield": "Dividend yield"
+      },
+      "dividends": "Dividends",
+      "expected_annual_dividend_increase": "Expected annual dividend increase",
+      "gross_dividend_paid": "Gross dividend paid",
+      "high_dividend": "High dividend",
+      "low_dividend": "Low dividend",
+      "net_dividend_paid": "Net dividend paid",
+      "normal_dividend": "Normal dividend",
+      "total": {
+        "dividend_payments": "Total dividend payments",
+        "dividends": "Total dividends"
+      },
+      "unsustainable_high_dividend": "Unsustainable high dividend"
+    }
+  },
+  "select": {
+    "distribution_frequency": "Select a distribution frequency"
   }
 };
 static const Map<String,dynamic> fr = {
@@ -604,79 +603,79 @@ static const Map<String,dynamic> ja = {
     "distribution_frequency": "配布頻度を選択してください"
   }
 };
-static const Map<String,dynamic> pt = {
+static const Map<String,dynamic> es = {
   "dividend": {
     "help": {
       "dividend_payment_frequency": {
-        "example": "Por exemplo, escolha 'Trimestral' se uma empresa distribui dividendos quatro vezes por ano, ou selecione 'Anual' se os dividendos são pagos uma vez por ano.",
-        "instructions": "Selecione a frequência dos pagamentos de dividendos pela empresa. As opções são 'Mensal', 'Trimestral', 'Semestral' e 'Anual'."
+        "example": "Por ejemplo, elija 'Trimestral' si una empresa distribuye dividendos cuatro veces al año, o seleccione 'Anual' si los dividendos se pagan una vez al año.",
+        "instructions": "Seleccione la frecuencia de los pagos de dividendos de la empresa. Las opciones son 'Mensual', 'Trimestral', 'Semestral' y 'Anual'."
       },
       "dividend_reinvestment_plan": {
-        "example": "Por exemplo, se está inscrito num plano de reinvestimento de dividendos, insira 'Sim', caso contrário insira 'Não'.",
-        "instructions": "Especifique se está a participar num Plano de Reinvestimento de Dividendos (DRIP) para este investimento. Os DRIP permitem aos investidores reinvestir os seus dividendos em dinheiro em ações adicionais ou frações de ações da ação subjacente."
+        "example": "Por ejemplo, si está inscrito en un plan de reinversión de dividendos, introduzca 'Sí', de lo contrario introduzca 'No'.",
+        "instructions": "Especifique si está participando en un Plan de Reversión de Dividendos (DRIP) para esta inversión. Los DRIP permiten a los inversores reinvertir sus dividendos en efectivo en acciones adicionales o fracciones de acciones de la acción subyacente."
       },
       "dividend_yield": {
-        "example": "Por exemplo, se o rendimento de dividendos de uma ação é de 3,5%, insira '3,5'.",
-        "instructions": "Insira o rendimento de dividendos da ação. O rendimento de dividendos é expresso em percentagem e representa a relação entre o dividendo anual de uma empresa comparado ao seu preço de ação."
+        "example": "Por ejemplo, si el rendimiento por dividendo de una acción es del 3.5%, introduzca '3.5'.",
+        "instructions": "Introduzca el rendimiento por dividendo de la acción. El rendimiento por dividendo se expresa como un porcentaje y representa la relación del dividendo anual de una empresa en comparación con su precio de acción."
       },
       "duration_in_years": {
-        "example": "Por exemplo, se manteve um investimento por 5 anos, insira '5'.",
-        "instructions": "Insira o número total de anos que manteve ou planeia manter o investimento."
+        "example": "Por ejemplo, si ha mantenido una inversión durante 5 años, introduzca '5'.",
+        "instructions": "Introduzca el número total de años que ha mantenido o planea mantener la inversión."
       },
       "expected_annual_dividend_increase": {
-        "example": "Por exemplo, se antecipa um aumento anual de 2% nos dividendos, insira '2'.",
-        "instructions": "Insira o aumento percentual anual esperado nos dividendos dos seus investimentos. Esta é uma estimativa de quanto se espera que os pagamentos de dividendos cresçam a cada ano."
+        "example": "Por ejemplo, si anticipa un aumento anual del 2% en los dividendos, introduzca '2'.",
+        "instructions": "Introduzca el aumento porcentual anual esperado en los dividendos de sus inversiones. Esta es una estimación de cuánto se espera que crezcan los pagos de dividendos cada año."
       },
       "net_income": {
-        "example": "Por exemplo, se o rendimento líquido de uma empresa for de 1,5 milhões de dólares no ano, por favor insira '1.500.000'.",
-        "instructions": "Insira o rendimento líquido da empresa para um período especificado. O rendimento líquido é o lucro de uma empresa após todas as despesas e impostos terem sido deduzidos da receita total."
+        "example": "Par exemple, si le revenu net d'une entreprise pour l'année est de 1,5 million de dollars, veuillez saisir '1 500 000'.",
+        "instructions": "Saisissez le revenu net de l'entreprise pour une période spécifiée. Le revenu net est le profit d'une entreprise après que toutes les dépenses et les taxes aient été déduites du revenu total."
       },
       "share_price": {
-        "example": "Por exemplo, se o preço atual de uma ação de uma empresa é 50\u0024, por favor, insira '50'.",
-        "instructions": "Insira o preço atual da ação que está a analisar."
+        "example": "Por ejemplo, si el precio actual de una acción de una empresa es de 50\u0024, por favor introduzca '50'.",
+        "instructions": "Introduzca el precio actual de la acción que está revisando."
       },
       "shares_owned": {
-        "example": "Por exemplo, se possui 500 ações de uma empresa, por favor insira '500'.",
-        "instructions": "Insira o número total de ações que possui atualmente na empresa."
+        "example": "Por ejemplo, si posee 500 acciones de una empresa, por favor introduzca '500'.",
+        "instructions": "Introduzca el número total de acciones que posee actualmente en la empresa."
       },
       "total_dividends": {
-        "example": "Por exemplo, se uma empresa pagou 200.000\u0024 em dividendos durante um ano, insira '200.000'.",
-        "instructions": "Insira o montante total de dividendos distribuídos por uma empresa."
+        "example": "Por ejemplo, si una empresa ha pagado 200.000\u0024 en dividendos durante un año, introduzca '200.000'.",
+        "instructions": "Introduzca el importe total de los dividendos distribuidos por una empresa."
       }
     },
     "label": {
       "annual": {
-        "dividend_income": "Rendimento anual de dividendos",
-        "dividend_per_share": "Dividendo anual por ação",
-        "net_dividend_income": "Rendimento líquido anual de dividendos"
+        "dividend_income": "Ingresos anuales por dividendos",
+        "dividend_per_share": "Dividendo anual por acción",
+        "net_dividend_income": "Ingresos netos anuales por dividendos"
       },
-      "current_dividend_yield": "Rendimento atual de dividendos",
+      "current_dividend_yield": "Rendimiento actual de dividendos",
       "dividend": {
-        "amount": "Valor do dividendo",
-        "payment_frequency": "Frequência de pagamento de dividendos",
-        "payout_ratio": "Taxa de pagamento de dividendos",
-        "reinvestment": "Reinvestimento de dividendos",
-        "reinvestment_plan": "Plano de reinvestimento de dividendos",
+        "amount": "Monto de dividendos",
+        "payment_frequency": "Frecuencia de pago de dividendos",
+        "payout_ratio": "Ratio de pago de dividendos",
+        "reinvestment": "Reinversión de dividendos",
+        "reinvestment_plan": "Plan de reinversión de dividendos",
         "text": "Dividendo",
-        "yield": "Rendimento de dividendos"
+        "yield": "Rendimiento de dividendos"
       },
       "dividends": "Dividendos",
-      "expected_annual_dividend_increase": "Aumento anual esperado de dividendos",
-      "gross_dividend_paid": "Dividendos brutos pagos",
+      "expected_annual_dividend_increase": "Incremento anual de dividendos esperado",
+      "gross_dividend_paid": "Dividendos brutos pagados",
       "high_dividend": "Dividendo alto",
-      "low_dividend": "Dividendo baixo",
-      "net_dividend_paid": "Dividendos líquidos pagos",
+      "low_dividend": "Dividendo bajo",
+      "net_dividend_paid": "Dividendos netos pagados",
       "normal_dividend": "Dividendo normal",
       "total": {
-        "dividend_payments": "Pagamentos totais de dividendos",
-        "dividends": "Total de dividendos"
+        "dividend_payments": "Pagos totales de dividendos",
+        "dividends": "Dividendos totales"
       },
-      "unsustainable_high_dividend": "Dividendo alto insustentável"
+      "unsustainable_high_dividend": "Dividendo alto no sostenible"
     }
   },
   "select": {
-    "distribution_frequency": "Selecione uma frequência de distribuição"
+    "distribution_frequency": "Seleccione una frecuencia de distribución"
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "en": en, "it": it, "de": de, "ru": ru, "es": es, "fr": fr, "ja": ja, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "it": it, "ru": ru, "de": de, "pt": pt, "en": en, "fr": fr, "ja": ja, "es": es};
 }

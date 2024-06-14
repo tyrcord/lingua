@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class AppsCodegenLoader extends AssetLoader {
@@ -60,54 +59,6 @@ class AppsCodegenLoader extends AssetLoader {
     }
   }
 };
-static const Map<String,dynamic> en = {
-  "apps": {
-    "div_qal": {
-      "intro": {
-        "description": "Embrace the power of compounding and see how reinvesting your dividends can significantly amplify your earnings over time.",
-        "title": "Maximizing Your Investment Returns!"
-      }
-    },
-    "expressions_quebecoises": {
-      "intro": {
-        "description": "Discover over 500 unique Quebecois expressions that await you!",
-        "title": "Let's embark on a journey of learning!"
-      }
-    },
-    "fx_pos_qal": {
-      "intro": {
-        "description": "This app will suggest you an optimal amount to invest in order to maximize your gains and minimize your losses.",
-        "title": "Let's focus on risk management rather than incurring losses!"
-      },
-      "promo": {
-        "comply_risk_management": "Easily respect your risk management",
-        "short": "Determining the size of your positions has never been easier!"
-      },
-      "store": {
-        "description": "The success of your future trades will largely depend on your ability to effectively manage risk. Indeed, it is essential not to risk all your capital on a single transaction. For this, it is important to calculate the size of your position before each trade. In order to help you not to relax your vigilance in risk management, our calculator is there to accompany you! Simply fill in the fields in our tool and it will suggest for you an optimal amount to invest in order to maximize your gains and minimize your losses.",
-        "promo": "You don't want to lose all your capital on a single transaction!"
-      }
-    },
-    "fx_qal": {
-      "intro": {
-        "description": "TThis application empowers you in risk management and decision-making through a comprehensive suite of straightforward and impactful tools.",
-        "title": "Let's focus on risk management rather than incurring losses!"
-      }
-    },
-    "pip_qal": {
-      "intro": {
-        "description": "This application is designed to assist you in determining the pip value for each of your trades.",
-        "title": "Let's focus on risk management rather than incurring losses!"
-      }
-    },
-    "profit_and_loss_qal": {
-      "intro": {
-        "description": "Our app enables you to promptly determine whether your income is sufficient to meet your expenses.",
-        "title": "Let's focus on minimizing losses and maximizing gains for optimal results!"
-      }
-    }
-  }
-};
 static const Map<String,dynamic> it = {
   "apps": {
     "div_qal": {
@@ -152,54 +103,6 @@ static const Map<String,dynamic> it = {
       "intro": {
         "description": "La nostra app ti consente di determinare rapidamente se il tuo reddito è sufficiente a coprire le tue spese.",
         "title": "Concentriamoci sulla riduzione delle perdite e sulla massimizzazione dei guadagni per risultati ottimali!"
-      }
-    }
-  }
-};
-static const Map<String,dynamic> de = {
-  "apps": {
-    "div_qal": {
-      "intro": {
-        "description": "Nutzen Sie die Kraft des Zinseszins und sehen Sie, wie das Reinvestieren Ihrer Dividenden Ihre Erträge im Laufe der Zeit erheblich steigern kann.",
-        "title": "Maximieren Sie Ihre Anlagerenditen!"
-      }
-    },
-    "expressions_quebecoises": {
-      "intro": {
-        "description": "Entdecken Sie über 500 einzigartige Quebecer Ausdrücke, die auf Sie warten!",
-        "title": "Begleiten Sie uns auf eine Reise des Lernens!"
-      }
-    },
-    "fx_pos_qal": {
-      "intro": {
-        "description": "Diese App schlägt Ihnen einen optimalen Betrag vor, um Ihre Gewinne zu maximieren und Verluste zu minimieren.",
-        "title": "Konzentrieren wir uns auf Risikomanagement anstatt Verluste einzufahren!"
-      },
-      "promo": {
-        "comply_risk_management": "Einfach Ihr Risikomanagement einhalten",
-        "short": "Die Bestimmung der Positionsgröße war noch nie so einfach!"
-      },
-      "store": {
-        "description": "Der Erfolg Ihrer zukünftigen Trades hängt weitgehend von Ihrer Fähigkeit ab, das Risiko effektiv zu managen. Es ist in der Tat wichtig, nicht das gesamte Kapital bei einer einzigen Transaktion zu riskieren. Dafür ist es wichtig, die Positionsgröße vor jedem Trade zu berechnen. Um Ihnen dabei zu helfen, Ihre Wachsamkeit im Risikomanagement nicht zu vernachlässigen, steht Ihnen unser Taschenrechner zur Seite! Füllen Sie einfach die Felder in unserem Tool aus, und es wird Ihnen einen optimalen Betrag vorschlagen, um Ihre Gewinne zu maximieren und Verluste zu minimieren.",
-        "promo": "Sie möchten nicht Ihr gesamtes Kapital bei einer einzigen Transaktion verlieren!"
-      }
-    },
-    "fx_qal": {
-      "intro": {
-        "description": "Diese Anwendung unterstützt Sie beim Risikomanagement und bei Entscheidungsprozessen durch eine umfassende Suite von einfachen und wirkungsvollen Tools.",
-        "title": "Konzentrieren wir uns auf Risikomanagement anstatt Verluste einzufahren!"
-      }
-    },
-    "pip_qal": {
-      "intro": {
-        "description": "Diese Anwendung ist darauf ausgelegt, Ihnen bei der Bestimmung des Pip-Werts für jeden Ihrer Trades zu helfen.",
-        "title": "Konzentrieren wir uns auf Risikomanagement anstatt Verluste einzufahren!"
-      }
-    },
-    "profit_and_loss_qal": {
-      "intro": {
-        "description": "Unsere App ermöglicht es Ihnen, schnell festzustellen, ob Ihr Einkommen ausreicht, um Ihre Ausgaben zu decken.",
-        "title": "Konzentrieren wir uns auf die Minimierung von Verlusten und die Maximierung von Gewinnen für optimale Ergebnisse!"
       }
     }
   }
@@ -252,50 +155,146 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> de = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Aproveche el poder del interés compuesto y vea cómo reinvertir sus dividendos puede amplificar significativamente sus ganancias con el tiempo.",
-        "title": "¡Maximizando sus rendimientos de inversión!"
+        "description": "Nutzen Sie die Kraft des Zinseszins und sehen Sie, wie das Reinvestieren Ihrer Dividenden Ihre Erträge im Laufe der Zeit erheblich steigern kann.",
+        "title": "Maximieren Sie Ihre Anlagerenditen!"
       }
     },
     "expressions_quebecoises": {
       "intro": {
-        "description": "¡Descubre más de 500 expresiones únicas de Quebec que te esperan!",
-        "title": "¡Embárcate en un viaje de aprendizaje!"
+        "description": "Entdecken Sie über 500 einzigartige Quebecer Ausdrücke, die auf Sie warten!",
+        "title": "Begleiten Sie uns auf eine Reise des Lernens!"
       }
     },
     "fx_pos_qal": {
       "intro": {
-        "description": "Esta aplicación te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
-        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+        "description": "Diese App schlägt Ihnen einen optimalen Betrag vor, um Ihre Gewinne zu maximieren und Verluste zu minimieren.",
+        "title": "Konzentrieren wir uns auf Risikomanagement anstatt Verluste einzufahren!"
       },
       "promo": {
-        "comply_risk_management": "Cumple fácilmente con la gestión de riesgos",
-        "short": "¡Determinar el tamaño de tus posiciones nunca ha sido tan fácil!"
+        "comply_risk_management": "Einfach Ihr Risikomanagement einhalten",
+        "short": "Die Bestimmung der Positionsgröße war noch nie so einfach!"
       },
       "store": {
-        "description": "El éxito de tus futuras operaciones dependerá en gran medida de tu capacidad para gestionar el riesgo de manera efectiva. De hecho, es esencial no arriesgar todo tu capital en una sola transacción. Para ello, es importante calcular el tamaño de tu posición antes de cada operación. ¡Nuestra calculadora está ahí para acompañarte y ayudarte a no descuidar la gestión del riesgo! Simplemente completa los campos de nuestra herramienta y te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
-        "promo": "¡No quieres perder todo tu capital en una sola transacción!"
+        "description": "Der Erfolg Ihrer zukünftigen Trades hängt weitgehend von Ihrer Fähigkeit ab, das Risiko effektiv zu managen. Es ist in der Tat wichtig, nicht das gesamte Kapital bei einer einzigen Transaktion zu riskieren. Dafür ist es wichtig, die Positionsgröße vor jedem Trade zu berechnen. Um Ihnen dabei zu helfen, Ihre Wachsamkeit im Risikomanagement nicht zu vernachlässigen, steht Ihnen unser Taschenrechner zur Seite! Füllen Sie einfach die Felder in unserem Tool aus, und es wird Ihnen einen optimalen Betrag vorschlagen, um Ihre Gewinne zu maximieren und Verluste zu minimieren.",
+        "promo": "Sie möchten nicht Ihr gesamtes Kapital bei einer einzigen Transaktion verlieren!"
       }
     },
     "fx_qal": {
       "intro": {
-        "description": "Esta aplicación te empodera en la gestión de riesgos y la toma de decisiones a través de una completa suite de herramientas sencillas e impactantes.",
-        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+        "description": "Diese Anwendung unterstützt Sie beim Risikomanagement und bei Entscheidungsprozessen durch eine umfassende Suite von einfachen und wirkungsvollen Tools.",
+        "title": "Konzentrieren wir uns auf Risikomanagement anstatt Verluste einzufahren!"
       }
     },
     "pip_qal": {
       "intro": {
-        "description": "Esta aplicación está diseñada para ayudarte a determinar el valor de un pip para cada una de tus operaciones.",
-        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+        "description": "Diese Anwendung ist darauf ausgelegt, Ihnen bei der Bestimmung des Pip-Werts für jeden Ihrer Trades zu helfen.",
+        "title": "Konzentrieren wir uns auf Risikomanagement anstatt Verluste einzufahren!"
       }
     },
     "profit_and_loss_qal": {
       "intro": {
-        "description": "Nuestra aplicación te permite determinar rápidamente si tus ingresos son suficientes para cubrir tus gastos.",
-        "title": "¡Enfoquémonos en minimizar las pérdidas y maximizar las ganancias para obtener resultados óptimos!"
+        "description": "Unsere App ermöglicht es Ihnen, schnell festzustellen, ob Ihr Einkommen ausreicht, um Ihre Ausgaben zu decken.",
+        "title": "Konzentrieren wir uns auf die Minimierung von Verlusten und die Maximierung von Gewinnen für optimale Ergebnisse!"
+      }
+    }
+  }
+};
+static const Map<String,dynamic> pt = {
+  "apps": {
+    "div_qal": {
+      "intro": {
+        "description": "Aproveite o poder da capitalização e veja como reinvestir os seus dividendos pode amplificar significativamente os seus rendimentos ao longo do tempo.",
+        "title": "Maximizar seus Retornos de Investimento!"
+      }
+    },
+    "expressions_quebecoises": {
+      "intro": {
+        "description": "Descubra mais de 500 expressões únicas do Quebec que estão esperando por você!",
+        "title": "Vamos embarcar em uma jornada de aprendizado!"
+      }
+    },
+    "fx_pos_qal": {
+      "intro": {
+        "description": "Este aplicativo sugere um valor ótimo para investir, a fim de maximizar seus ganhos e minimizar suas perdas.",
+        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+      },
+      "promo": {
+        "comply_risk_management": "Respeite facilmente seu gerenciamento de riscos",
+        "short": "Determinar o tamanho de suas posições nunca foi tão fácil!"
+      },
+      "store": {
+        "description": "O sucesso de suas futuras negociações dependerá em grande parte de sua capacidade de gerenciar o risco de forma eficaz. De fato, é essencial não arriscar todo o seu capital em uma única transação. Para isso, é importante calcular o tamanho de sua posição antes de cada negociação. Para ajudá-lo a não relaxar sua vigilância na gestão de riscos, nossa calculadora está lá para acompanhá-lo! Basta preencher os campos em nossa ferramenta e ela sugerirá um valor ótimo para investir, a fim de maximizar seus ganhos e minimizar suas perdas.",
+        "promo": "Você não quer perder todo o seu capital em uma única transação!"
+      }
+    },
+    "fx_qal": {
+      "intro": {
+        "description": "Este aplicativo capacita você na gestão de riscos e tomada de decisões por meio de um conjunto abrangente de ferramentas simples e impactantes.",
+        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+      }
+    },
+    "pip_qal": {
+      "intro": {
+        "description": "Este aplicativo foi desenvolvido para ajudá-lo a determinar o valor do pip para cada uma de suas negociações.",
+        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+      }
+    },
+    "profit_and_loss_qal": {
+      "intro": {
+        "description": "Nosso aplicativo permite que você determine rapidamente se sua renda é suficiente para cobrir suas despesas.",
+        "title": "Vamos focar na minimização de perdas e maximização de ganhos para resultados ótimos!"
+      }
+    }
+  }
+};
+static const Map<String,dynamic> en = {
+  "apps": {
+    "div_qal": {
+      "intro": {
+        "description": "Embrace the power of compounding and see how reinvesting your dividends can significantly amplify your earnings over time.",
+        "title": "Maximizing Your Investment Returns!"
+      }
+    },
+    "expressions_quebecoises": {
+      "intro": {
+        "description": "Discover over 500 unique Quebecois expressions that await you!",
+        "title": "Let's embark on a journey of learning!"
+      }
+    },
+    "fx_pos_qal": {
+      "intro": {
+        "description": "This app will suggest you an optimal amount to invest in order to maximize your gains and minimize your losses.",
+        "title": "Let's focus on risk management rather than incurring losses!"
+      },
+      "promo": {
+        "comply_risk_management": "Easily respect your risk management",
+        "short": "Determining the size of your positions has never been easier!"
+      },
+      "store": {
+        "description": "The success of your future trades will largely depend on your ability to effectively manage risk. Indeed, it is essential not to risk all your capital on a single transaction. For this, it is important to calculate the size of your position before each trade. In order to help you not to relax your vigilance in risk management, our calculator is there to accompany you! Simply fill in the fields in our tool and it will suggest for you an optimal amount to invest in order to maximize your gains and minimize your losses.",
+        "promo": "You don't want to lose all your capital on a single transaction!"
+      }
+    },
+    "fx_qal": {
+      "intro": {
+        "description": "TThis application empowers you in risk management and decision-making through a comprehensive suite of straightforward and impactful tools.",
+        "title": "Let's focus on risk management rather than incurring losses!"
+      }
+    },
+    "pip_qal": {
+      "intro": {
+        "description": "This application is designed to assist you in determining the pip value for each of your trades.",
+        "title": "Let's focus on risk management rather than incurring losses!"
+      }
+    },
+    "profit_and_loss_qal": {
+      "intro": {
+        "description": "Our app enables you to promptly determine whether your income is sufficient to meet your expenses.",
+        "title": "Let's focus on minimizing losses and maximizing gains for optimal results!"
       }
     }
   }
@@ -396,53 +395,53 @@ static const Map<String,dynamic> ja = {
     }
   }
 };
-static const Map<String,dynamic> pt = {
+static const Map<String,dynamic> es = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Aproveite o poder da capitalização e veja como reinvestir os seus dividendos pode amplificar significativamente os seus rendimentos ao longo do tempo.",
-        "title": "Maximizar seus Retornos de Investimento!"
+        "description": "Aproveche el poder del interés compuesto y vea cómo reinvertir sus dividendos puede amplificar significativamente sus ganancias con el tiempo.",
+        "title": "¡Maximizando sus rendimientos de inversión!"
       }
     },
     "expressions_quebecoises": {
       "intro": {
-        "description": "Descubra mais de 500 expressões únicas do Quebec que estão esperando por você!",
-        "title": "Vamos embarcar em uma jornada de aprendizado!"
+        "description": "¡Descubre más de 500 expresiones únicas de Quebec que te esperan!",
+        "title": "¡Embárcate en un viaje de aprendizaje!"
       }
     },
     "fx_pos_qal": {
       "intro": {
-        "description": "Este aplicativo sugere um valor ótimo para investir, a fim de maximizar seus ganhos e minimizar suas perdas.",
-        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+        "description": "Esta aplicación te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
+        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
       },
       "promo": {
-        "comply_risk_management": "Respeite facilmente seu gerenciamento de riscos",
-        "short": "Determinar o tamanho de suas posições nunca foi tão fácil!"
+        "comply_risk_management": "Cumple fácilmente con la gestión de riesgos",
+        "short": "¡Determinar el tamaño de tus posiciones nunca ha sido tan fácil!"
       },
       "store": {
-        "description": "O sucesso de suas futuras negociações dependerá em grande parte de sua capacidade de gerenciar o risco de forma eficaz. De fato, é essencial não arriscar todo o seu capital em uma única transação. Para isso, é importante calcular o tamanho de sua posição antes de cada negociação. Para ajudá-lo a não relaxar sua vigilância na gestão de riscos, nossa calculadora está lá para acompanhá-lo! Basta preencher os campos em nossa ferramenta e ela sugerirá um valor ótimo para investir, a fim de maximizar seus ganhos e minimizar suas perdas.",
-        "promo": "Você não quer perder todo o seu capital em uma única transação!"
+        "description": "El éxito de tus futuras operaciones dependerá en gran medida de tu capacidad para gestionar el riesgo de manera efectiva. De hecho, es esencial no arriesgar todo tu capital en una sola transacción. Para ello, es importante calcular el tamaño de tu posición antes de cada operación. ¡Nuestra calculadora está ahí para acompañarte y ayudarte a no descuidar la gestión del riesgo! Simplemente completa los campos de nuestra herramienta y te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
+        "promo": "¡No quieres perder todo tu capital en una sola transacción!"
       }
     },
     "fx_qal": {
       "intro": {
-        "description": "Este aplicativo capacita você na gestão de riscos e tomada de decisões por meio de um conjunto abrangente de ferramentas simples e impactantes.",
-        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+        "description": "Esta aplicación te empodera en la gestión de riesgos y la toma de decisiones a través de una completa suite de herramientas sencillas e impactantes.",
+        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
       }
     },
     "pip_qal": {
       "intro": {
-        "description": "Este aplicativo foi desenvolvido para ajudá-lo a determinar o valor do pip para cada uma de suas negociações.",
-        "title": "Vamos focar na gestão de riscos em vez de incorrer em perdas!"
+        "description": "Esta aplicación está diseñada para ayudarte a determinar el valor de un pip para cada una de tus operaciones.",
+        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
       }
     },
     "profit_and_loss_qal": {
       "intro": {
-        "description": "Nosso aplicativo permite que você determine rapidamente se sua renda é suficiente para cobrir suas despesas.",
-        "title": "Vamos focar na minimização de perdas e maximização de ganhos para resultados ótimos!"
+        "description": "Nuestra aplicación te permite determinar rápidamente si tus ingresos son suficientes para cubrir tus gastos.",
+        "title": "¡Enfoquémonos en minimizar las pérdidas y maximizar las ganancias para obtener resultados óptimos!"
       }
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "en": en, "it": it, "de": de, "ru": ru, "es": es, "fr": fr, "ja": ja, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "it": it, "ru": ru, "de": de, "pt": pt, "en": en, "fr": fr, "ja": ja, "es": es};
 }
