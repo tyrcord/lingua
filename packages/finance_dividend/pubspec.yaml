@@ -8,10 +8,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   import_sorter: ^4.6.0
-  lingua_core: ^0.0.42
+  lingua_core: ^0.0.43
 environment:
   flutter: '>=3.16.0'
   sdk: '>=3.2.0 <4.0.0'
 name: lingua_finance_dividend
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance_dividend
-version: 0.0.16
+version: 0.0.17

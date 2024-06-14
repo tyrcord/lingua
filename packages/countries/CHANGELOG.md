@@ -1,3 +1,21 @@
+## 0.0.14
+
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: update countries.
+ - **FEAT**: add lingua_countries.
+
 ## 0.0.13
 
  - **FEAT**: updated dependencies.

@@ -1,3 +1,61 @@
+## 0.0.43
+
+ - **FIX**: publish issue.
+ - **FIX**: escaping $ chars.
+ - **FIX**: escaping $ chars.
+ - **FIX**: wrong type.
+ - **FIX**: wrong default.
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add tests.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update core.
+ - **FEAT**: updated localization files.
+ - **FEAT**: add a default value for LinguaLoader.
+ - **FEAT**: update core.
+ - **FEAT**: update localization.
+ - **FEAT**: add helper.
+ - **FEAT**: escape special chars.
+ - **FEAT**: update localization.
+ - **FEAT**: updated localization files.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: add withLocales constructor.
+
 ## 0.0.42
 
  - **FEAT**: updated dependencies.

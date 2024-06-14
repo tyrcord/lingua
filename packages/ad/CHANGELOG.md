@@ -1,3 +1,38 @@
+## 0.0.25
+
+ - **FIX**: generate script.
+ - **FIX**: scripts.
+ - **FIX**: publish.
+ - **FIX**: publish.
+ - **FIX**: publish issue.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update ad localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: add ad package.
+
 ## 0.0.24
 
  - **FEAT**: updated dependencies.

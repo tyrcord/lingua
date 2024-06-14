@@ -1,3 +1,38 @@
+## 0.0.29
+
+ - **FIX**: add missing key.
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update localization.
+ - **FEAT**: clean up.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: update purchases localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: update purchases.
+ - **FEAT**: update localization.
+ - **FEAT**: update purchases.
+ - **FEAT**: update purchases.
+ - **FEAT**: add new packages.
+ - **FEAT**: update localization.
+ - **FEAT**: update localization.
+ - **FEAT**: add purchases package.
+
 ## 0.0.28
 
  - **FEAT**: updated dependencies.

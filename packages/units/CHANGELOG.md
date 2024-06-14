@@ -1,3 +1,26 @@
+## 0.0.16
+
+ - **FIX**: missing keys.
+ - **FIX**: localization.
+ - **FIX**: generate script.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated dependencies.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: updated localization files.
+ - **FEAT**: update dependencies.
+ - **FEAT**: update dependencies & env.
+ - **FEAT**: add unit to LinguaUnits.
+ - **FEAT**: add localizeUnitSize helper.
+ - **FEAT**: Ignores keys defining nested object.
+ - **FEAT**: minor improvements.
+ - **FEAT**: add new packages.
+
 ## 0.0.15
 
  - **FEAT**: updated dependencies.
