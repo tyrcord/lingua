@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`lingua_units` - `v0.0.17`](#lingua_units---v0017)
+
+---
+
+#### `lingua_units` - `v0.0.17`
+
+ - **FEAT**: updated dependencies.
+
+
+## 2024-06-14
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`lingua_ad` - `v0.0.25`](#lingua_ad---v0025)
  - [`lingua_apps` - `v0.0.19`](#lingua_apps---v0019)
  - [`lingua_calculator` - `v0.0.15`](#lingua_calculator---v0015)
