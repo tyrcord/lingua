@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class OnboardingCodegenLoader extends AssetLoader {
@@ -12,7 +11,74 @@ class OnboardingCodegenLoader extends AssetLoader {
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> zh = {
+  static const Map<String,dynamic> ja = {
+  "onboarding": {
+    "notifications": {
+      "action": "通知を許可する",
+      "denied": {
+        "description": "心配いりません！私たちはあなたの静けさを尊重することを確認します。",
+        "intro": "通知が無効になりました。",
+        "notes": "デバイスの設定でいつでも通知を有効にできることをご注意ください。"
+      },
+      "description": "関連性のある有用な通知のみをお送りすることをお約束します。",
+      "granted": {
+        "description": "私たちからのアップデートや通知を受け取ることができます。",
+        "intro": "通知が有効になりました。",
+        "notes": "デバイスの設定でこの設定を変更できることをご注意ください。"
+      },
+      "intro": "最新のアップデート、ニュース、重要な情報を常に受け取れます。",
+      "notes": "デバイスの設定で通知の設定をいつでも変更できることをご注意ください。",
+      "title": "通知"
+    },
+    "personalized_ads": {
+      "action": "パーソナライズされた広告を有効にする",
+      "denied": {
+        "description": "あなたの選択を尊重します。代わりに汎用的な広告を見ることになります。",
+        "intro": "パーソナライズされた広告は無効にされました。",
+        "notes": "デバイスの設定でいつでもトラッキングを有効にすることができることをご注意ください。"
+      },
+      "description": "私たちはあなたのプライバシーを尊重し、体験を向上させ広告を関連性のあるものとして表示するためだけに情報を使用することを約束します。",
+      "granted": {
+        "description": "あなたの興味に合わせた広告を見ることができます。",
+        "intro": "パーソナライズされた広告が有効にされました。",
+        "notes": "デバイスの設定でこの設定を変更することができることをご注意ください。"
+      },
+      "intro": "アプリケーションは、データ追跡の同意を求めます。これにより、お客様の興味に基づいたパーソナライズされた広告や、最適化されたユーザー体験を提供するのに役立ちます。広告は、私たちがコンテンツを無料で提供し続けることを可能にします。このアクセスを許可して、無料コンテンツのサポートを続けるようお願いいたします。",
+      "title": "パーソナライズされた広告"
+    },
+    "restore_premium": {
+      "action": "購入の復元",
+      "intro": "以前にプレミアム版を購入された場合、すべてのプレミアム機能に再アクセスするために購入を復元することをおすすめします。",
+      "notes": "いつでも購入を復元するオプションがあることにご注意ください。",
+      "title": "プレミアム機能の復元"
+    },
+    "user_country": {
+      "action": "あなたの国を選択してください",
+      "intro": "位置に基づいてコンテンツをカスタマイズするために、あなたの国を選択してください。",
+      "notes": "設定でいつでも国を変更するオプションがあることに注意してください。",
+      "title": "国"
+    },
+    "user_currency": {
+      "action": "通貨を選択する",
+      "intro": "価格を現地通貨で表示するために、お好みの通貨を選択してください。",
+      "notes": "設定でいつでも通貨を変更することができることにご注意ください。",
+      "title": "通貨"
+    },
+    "welcome_finance_traders": {
+      "description": "自信を持って安心して取引を行いましょう！",
+      "intro": "リスク管理ツールを使用して取引戦略を洗練させ、結果を最大化します。",
+      "title": "ようこそ、トレーダーの皆様"
+    },
+    "welcome_gain_loss_calculator": {
+      "intro": "潜在的な収益を一目で発見し、機会を最大限に活用するための情報に基づいた決定を行います。"
+    },
+    "welcome_vat": {
+      "description": "単に純額を入力し、レートを選択し、アプリケーションに残りを任せてください。",
+      "intro": "あなたの地域に特有のVATの金額を迅速かつ正確に定義してください。"
+    }
+  }
+};
+static const Map<String,dynamic> zh = {
   "onboarding": {
     "notifications": {
       "action": "允许通知",
@@ -76,6 +142,140 @@ class OnboardingCodegenLoader extends AssetLoader {
     "welcome_vat": {
       "description": "只需输入净额，选择您的费率，然后让应用程序完成剩下的工作。",
       "intro": "快速准确地定义您所在地区的增值税金额。"
+    }
+  }
+};
+static const Map<String,dynamic> es = {
+  "onboarding": {
+    "notifications": {
+      "action": "Permitir notificaciones",
+      "denied": {
+        "description": "¡No te preocupes! Nos aseguraremos de respetar tu tranquilidad.",
+        "intro": "Las notificaciones han sido desactivadas.",
+        "notes": "Recuerda que siempre puedes activar las notificaciones en la configuración de tu dispositivo."
+      },
+      "description": "Nos comprometemos a enviarle solo notificaciones relevantes y útiles.",
+      "granted": {
+        "description": "Ahora recibirá actualizaciones y notificaciones de nuestra parte.",
+        "intro": "Las notificaciones han sido activadas.",
+        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
+      },
+      "intro": "Mantente informado sobre las últimas actualizaciones, noticias e información importante.",
+      "notes": "Por favor, ten en cuenta que puedes cambiar tus preferencias de notificación en cualquier momento en la configuración de tu dispositivo.",
+      "title": "Notificaciones"
+    },
+    "personalized_ads": {
+      "action": "Habilitar anuncios personalizados",
+      "denied": {
+        "description": "Respetamos su elección. Verá anuncios genéricos en su lugar.",
+        "intro": "Los anuncios personalizados han sido desactivados.",
+        "notes": "Recuerda que siempre puedes habilitar el seguimiento en la configuración de tu dispositivo."
+      },
+      "description": "Respetamos su privacidad y nos comprometemos a utilizar su información solo con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
+      "granted": {
+        "description": "Verá anuncios adaptados a sus intereses.",
+        "intro": "Los anuncios personalizados han sido activados.",
+        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
+      },
+      "intro": "La aplicación solicitará su consentimiento para rastrear sus datos. Esto nos ayudará a proporcionarle anuncios personalizados basados en sus intereses, así como una experiencia de usuario optimizada. Los anuncios nos permiten mantener nuestro contenido gratuito. Le invitamos a permitir este acceso para seguir apoyando el contenido gratuito.",
+      "title": "Anuncios Personalizados"
+    },
+    "restore_premium": {
+      "action": "Restaurar compras",
+      "intro": "Si adquirió previamente la versión premium, le recomendamos restaurar sus compras para recuperar el acceso a todas las funciones premium.",
+      "notes": "Tenga en cuenta que tiene la opción de restaurar sus compras en cualquier momento.",
+      "title": "Restaurar funciones premium"
+    },
+    "user_country": {
+      "action": "Elige tu país",
+      "intro": "Selecciona tu país para personalizar el contenido según tu ubicación.",
+      "notes": "Ten en cuenta que tienes la opción de cambiar tu país en cualquier momento en la configuración.",
+      "title": "País"
+    },
+    "user_currency": {
+      "action": "Seleccione su moneda",
+      "intro": "Seleccione su moneda preferida para mostrar los precios en su moneda local.",
+      "notes": "Tenga en cuenta que tiene la opción de cambiar su moneda en cualquier momento en la configuración.",
+      "title": "Moneda"
+    },
+    "welcome_finance_traders": {
+      "description": "¡Tome el control y opere con confianza y tranquilidad!",
+      "intro": "Refine su estrategia de trading con nuestras herramientas de gestión de riesgos para maximizar sus resultados.",
+      "title": "¡Bienvenidos, Traders!"
+    },
+    "welcome_gain_loss_calculator": {
+      "intro": "Descubra sus ganancias potenciales de un vistazo y tome decisiones informadas para maximizar sus oportunidades."
+    },
+    "welcome_vat": {
+      "description": "Simplemente ingrese el monto neto, seleccione su tarifa y deje que la aplicación haga el resto.",
+      "intro": "Defina rápidamente y con precisión los montos del IVA específicos de su región."
+    }
+  }
+};
+static const Map<String,dynamic> de = {
+  "onboarding": {
+    "notifications": {
+      "action": "Benachrichtigungen zulassen",
+      "denied": {
+        "description": "Keine Sorge! Wir werden sicherstellen, dass Ihre Ruhe respektiert wird.",
+        "intro": "Benachrichtigungen wurden deaktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren können."
+      },
+      "description": "Wir verpflichten uns, Ihnen nur relevante und nützliche Benachrichtigungen zu senden.",
+      "granted": {
+        "description": "Sie erhalten jetzt Updates und Benachrichtigungen von uns.",
+        "intro": "Benachrichtigungen wurden aktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
+      },
+      "intro": "Bleiben Sie informiert über die neuesten Updates, Nachrichten und wichtigen Informationen.",
+      "notes": "Bitte beachten Sie, dass Sie Ihre Benachrichtigungspräferenzen jederzeit in Ihren Geräteeinstellungen ändern können.",
+      "title": "Benachrichtigungen"
+    },
+    "personalized_ads": {
+      "action": "Personalisierte Anzeigen aktivieren",
+      "denied": {
+        "description": "Wir respektieren Ihre Entscheidung. Sie werden stattdessen allgemeine Anzeigen sehen.",
+        "intro": "Personalisierte Werbung wurde deaktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren können."
+      },
+      "description": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Informationen ausschließlich zum Zweck der Verbesserung Ihres Erlebnisses und der Präsentation relevanter Anzeigen zu verwenden.",
+      "granted": {
+        "description": "Sie werden Anzeigen sehen, die auf Ihre Interessen zugeschnitten sind.",
+        "intro": "Personalisierte Werbung wurde aktiviert.",
+        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
+      },
+      "intro": "Die Anwendung wird Ihre Zustimmung zur Verfolgung Ihrer Daten anfordern. Dies wird uns helfen, Ihnen personalisierte Werbung basierend auf Ihren Interessen sowie eine optimierte Benutzererfahrung zu bieten. Werbung ermöglicht es uns, unsere Inhalte kostenlos zu halten. Wir bitten Sie, diesen Zugriff zu erlauben, um weiterhin kostenlose Inhalte zu unterstützen.",
+      "title": "Personalisierte Anzeigen"
+    },
+    "restore_premium": {
+      "action": "Käufe wiederherstellen",
+      "intro": "Wenn Sie zuvor die Premium-Version erworben haben, empfehlen wir Ihnen, Ihre Käufe wiederherzustellen, um Zugriff auf alle Premium-Funktionen zu erhalten.",
+      "notes": "Bitte beachten Sie, dass Sie jederzeit die Möglichkeit haben, Ihre Käufe wiederherzustellen.",
+      "title": "Premium-Funktionen wiederherstellen"
+    },
+    "user_country": {
+      "action": "Wählen Sie Ihr Land",
+      "intro": "Wählen Sie Ihr Land, um Inhalte an Ihren Standort anzupassen.",
+      "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihr Land jederzeit in den Einstellungen zu ändern.",
+      "title": "Land"
+    },
+    "user_currency": {
+      "action": "Wählen Sie Ihre Währung",
+      "intro": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
+      "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihre Währung jederzeit in den Einstellungen zu ändern.",
+      "title": "Währung"
+    },
+    "welcome_finance_traders": {
+      "description": "Nehmen Sie die Kontrolle und handeln Sie mit Vertrauen und Ruhe!",
+      "intro": "Verfeinern Sie Ihre Handelsstrategie mit unseren Risikomanagement-Tools, um Ihre Ergebnisse zu maximieren.",
+      "title": "Willkommen, Händler"
+    },
+    "welcome_gain_loss_calculator": {
+      "intro": "Entdecken Sie auf einen Blick Ihr mögliches Einkommen und treffen Sie fundierte Entscheidungen, um Ihre Chancen zu maximieren."
+    },
+    "welcome_vat": {
+      "description": "Geben Sie einfach den Nettobetrag ein, wählen Sie Ihren Satz und lassen Sie die Anwendung den Rest erledigen.",
+      "intro": "Definieren Sie schnell und genau die Mehrwertsteuerbeträge für Ihre Region."
     }
   }
 };
@@ -213,137 +413,70 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
-static const Map<String,dynamic> de = {
+static const Map<String,dynamic> fr = {
   "onboarding": {
     "notifications": {
-      "action": "Benachrichtigungen zulassen",
+      "action": "Autoriser les notifications",
       "denied": {
-        "description": "Keine Sorge! Wir werden sicherstellen, dass Ihre Ruhe respektiert wird.",
-        "intro": "Benachrichtigungen wurden deaktiviert.",
-        "notes": "Bitte beachten Sie, dass Sie Benachrichtigungen jederzeit in Ihren Geräteeinstellungen aktivieren können."
+        "description": "Pas de problème! Nous veillerons à ne pas perturber votre tranquillité.",
+        "intro": "Les notifications ont été désactivées.",
+        "notes": "Veuillez noter que vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
       },
-      "description": "Wir verpflichten uns, Ihnen nur relevante und nützliche Benachrichtigungen zu senden.",
+      "description": "Nous nous engageons à vous envoyer uniquement des notifications pertinentes et utiles.",
       "granted": {
-        "description": "Sie erhalten jetzt Updates und Benachrichtigungen von uns.",
-        "intro": "Benachrichtigungen wurden aktiviert.",
-        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
+        "description": "Vous recevrez désormais des mises à jour et des notifications de notre part.",
+        "intro": "Les notifications ont été activées.",
+        "notes": "Veuillez noter que vous pouvez modifier ce réglage dans les paramètres de votre appareil."
       },
-      "intro": "Bleiben Sie informiert über die neuesten Updates, Nachrichten und wichtigen Informationen.",
-      "notes": "Bitte beachten Sie, dass Sie Ihre Benachrichtigungspräferenzen jederzeit in Ihren Geräteeinstellungen ändern können.",
-      "title": "Benachrichtigungen"
+      "intro": "Restez informé des dernières mises à jour, actualités et informations importantes.",
+      "notes": "Veuillez noter que vous avez la possibilité de modifier vos préférences de notification à tout moment dans les paramètres de votre appareil.",
+      "title": "Notifications"
     },
     "personalized_ads": {
-      "action": "Personalisierte Anzeigen aktivieren",
+      "action": "Activer les publicités personnalisées",
       "denied": {
-        "description": "Wir respektieren Ihre Entscheidung. Sie werden stattdessen allgemeine Anzeigen sehen.",
-        "intro": "Personalisierte Werbung wurde deaktiviert.",
-        "notes": "Bitte beachten Sie, dass Sie das Tracking jederzeit in Ihren Geräteeinstellungen aktivieren können."
+        "description": "Nous respectons votre choix. Vous verrez des publicités génériques à la place.",
+        "intro": "Les publicités personnalisées ont été désactivées.",
+        "notes": "Veuillez noter que vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
       },
-      "description": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre Informationen ausschließlich zum Zweck der Verbesserung Ihres Erlebnisses und der Präsentation relevanter Anzeigen zu verwenden.",
+      "description": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
       "granted": {
-        "description": "Sie werden Anzeigen sehen, die auf Ihre Interessen zugeschnitten sind.",
-        "intro": "Personalisierte Werbung wurde aktiviert.",
-        "notes": "Bitte beachten Sie, dass Sie diese Einstellung in Ihren Geräteeinstellungen ändern können."
+        "description": "Vous verrez des publicités adaptées à vos intérêts.",
+        "intro": "Les annonces personnalisées ont été activées.",
+        "notes": "Veuillez noter que vous pouvez modifier ce paramètre dans les réglages de votre appareil."
       },
-      "intro": "Die Anwendung wird Ihre Zustimmung zur Verfolgung Ihrer Daten anfordern. Dies wird uns helfen, Ihnen personalisierte Werbung basierend auf Ihren Interessen sowie eine optimierte Benutzererfahrung zu bieten. Werbung ermöglicht es uns, unsere Inhalte kostenlos zu halten. Wir bitten Sie, diesen Zugriff zu erlauben, um weiterhin kostenlose Inhalte zu unterstützen.",
-      "title": "Personalisierte Anzeigen"
+      "intro": "L'application va solliciter votre consentement pour le suivi de vos données. Cela nous aidera à vous offrir des publicités personnalisées en fonction de vos centres d'intérêt, ainsi qu'une expérience utilisateur optimisée. Les publicités nous permettent de maintenir notre contenu gratuit. Nous vous invitons à autoriser cet accès pour continuer à soutenir le contenu gratuit.",
+      "title": "Publicités personnalisées"
     },
     "restore_premium": {
-      "action": "Käufe wiederherstellen",
-      "intro": "Wenn Sie zuvor die Premium-Version erworben haben, empfehlen wir Ihnen, Ihre Käufe wiederherzustellen, um Zugriff auf alle Premium-Funktionen zu erhalten.",
-      "notes": "Bitte beachten Sie, dass Sie jederzeit die Möglichkeit haben, Ihre Käufe wiederherzustellen.",
-      "title": "Premium-Funktionen wiederherstellen"
+      "action": "Restaurer les achats",
+      "intro": "Si vous avez précédemment acquis la version premium, nous vous recommandons de restaurer vos achats pour retrouver l'accès à toutes vos fonctionnalités premium.",
+      "notes": "Veuillez noter que vous avez la possibilité de restaurer vos achats à tout moment.",
+      "title": "Restaurer les fonctionnalités premium"
     },
     "user_country": {
-      "action": "Wählen Sie Ihr Land",
-      "intro": "Wählen Sie Ihr Land, um Inhalte an Ihren Standort anzupassen.",
-      "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihr Land jederzeit in den Einstellungen zu ändern.",
-      "title": "Land"
+      "action": "Choisissez votre pays",
+      "intro": "Sélectionnez votre pays afin de personnaliser le contenu en fonction de votre emplacement.",
+      "notes": "Veuillez noter que vous avez la possibilité de changer votre pays à tout moment dans les paramètres.",
+      "title": "Pays"
     },
     "user_currency": {
-      "action": "Wählen Sie Ihre Währung",
-      "intro": "Wählen Sie Ihre bevorzugte Währung, um Preise in Ihrer lokalen Währung anzuzeigen.",
-      "notes": "Bitte beachten Sie, dass Sie die Möglichkeit haben, Ihre Währung jederzeit in den Einstellungen zu ändern.",
-      "title": "Währung"
+      "action": "Choisissez votre devise",
+      "intro": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
+      "notes": "Veuillez noter que vous avez la possibilité de changer de devise à tout moment dans les paramètres.",
+      "title": "Devise"
     },
     "welcome_finance_traders": {
-      "description": "Nehmen Sie die Kontrolle und handeln Sie mit Vertrauen und Ruhe!",
-      "intro": "Verfeinern Sie Ihre Handelsstrategie mit unseren Risikomanagement-Tools, um Ihre Ergebnisse zu maximieren.",
-      "title": "Willkommen, Händler"
+      "description": "Prenez le contrôle et tradez avec confiance et sérénité !",
+      "intro": "Affinez votre stratégie de trading avec nos outils de gestion des risques pour maximiser vos résultats.",
+      "title": "Bienvenue, Traders"
     },
     "welcome_gain_loss_calculator": {
-      "intro": "Entdecken Sie auf einen Blick Ihr mögliches Einkommen und treffen Sie fundierte Entscheidungen, um Ihre Chancen zu maximieren."
+      "intro": "Découvrez vos gains potentiels en un coup d'œil et prenez des décisions éclairées pour maximiser vos opportunités."
     },
     "welcome_vat": {
-      "description": "Geben Sie einfach den Nettobetrag ein, wählen Sie Ihren Satz und lassen Sie die Anwendung den Rest erledigen.",
-      "intro": "Definieren Sie schnell und genau die Mehrwertsteuerbeträge für Ihre Region."
-    }
-  }
-};
-static const Map<String,dynamic> pt = {
-  "onboarding": {
-    "notifications": {
-      "action": "Permitir notificações",
-      "denied": {
-        "description": "Sem preocupações! Vamos garantir que respeitamos a sua tranquilidade.",
-        "intro": "Notificações foram desativadas.",
-        "notes": "Lembre-se de que você sempre pode ativar as notificações nas configurações do seu dispositivo."
-      },
-      "description": "Comprometemo-nos a enviar-lhe apenas notificações relevantes e úteis.",
-      "granted": {
-        "description": "Agora você receberá atualizações e notificações de nossa parte.",
-        "intro": "Notificações foram ativadas.",
-        "notes": "Por favor, note que você pode alterar esta configuração nas definições do seu dispositivo."
-      },
-      "intro": "Mantenha-se informado sobre as últimas atualizações, notícias e informações importantes.",
-      "notes": "Lembre-se de que você tem a opção de alterar suas preferências de notificação a qualquer momento nas configurações do seu dispositivo.",
-      "title": "Notificações"
-    },
-    "personalized_ads": {
-      "action": "Ativar anúncios personalizados",
-      "denied": {
-        "description": "Respeitamos sua escolha. Você verá anúncios genéricos em vez disso.",
-        "intro": "Anúncios personalizados foram desativados.",
-        "notes": "Lembre-se de que você sempre pode habilitar o rastreamento nas configurações do seu dispositivo."
-      },
-      "description": "Respeitamos sua privacidade e nos comprometemos a usar suas informações apenas para melhorar sua experiência e apresentar anúncios relevantes.",
-      "granted": {
-        "description": "Você verá anúncios adaptados aos seus interesses.",
-        "intro": "Anúncios personalizados foram ativados.",
-        "notes": "Por favor, note que você pode alterar esta configuração nas definições do seu dispositivo."
-      },
-      "intro": "A aplicação solicitará o seu consentimento para rastrear os seus dados. Isso nos ajudará a fornecer-lhe anúncios personalizados com base nos seus interesses, bem como uma experiência de utilizador otimizada. Os anúncios permitem-nos manter o nosso conteúdo gratuito. Convidamo-lo a permitir este acesso para continuar a apoiar o conteúdo gratuito.",
-      "title": "Anúncios Personalizados"
-    },
-    "restore_premium": {
-      "action": "Restaurar compras",
-      "intro": "Se você adquiriu anteriormente a versão premium, recomendamos que restaure suas compras para recuperar o acesso a todos os recursos premium.",
-      "notes": "Observe que você tem a opção de restaurar suas compras a qualquer momento.",
-      "title": "Restaurar recursos premium"
-    },
-    "user_country": {
-      "action": "Escolha o seu país",
-      "intro": "Selecione seu país para personalizar o conteúdo com base na sua localização.",
-      "notes": "Por favor, note que você tem a opção de alterar o seu país a qualquer momento nas configurações.",
-      "title": "País"
-    },
-    "user_currency": {
-      "action": "Escolha sua moeda",
-      "intro": "Selecione a moeda de sua preferência para exibir os preços em sua moeda local.",
-      "notes": "Observe que você tem a opção de alterar sua moeda a qualquer momento nas configurações.",
-      "title": "Moeda"
-    },
-    "welcome_finance_traders": {
-      "description": "Assuma o controle e negocie com confiança e paz de espírito!",
-      "intro": "Aperfeiçoe sua estratégia de negociação com nossas ferramentas de gestão de risco para maximizar seus resultados.",
-      "title": "Bem-vindos, Traders"
-    },
-    "welcome_gain_loss_calculator": {
-      "intro": "Descubra os seus ganhos potenciais num relance e tome decisões informadas para maximizar as suas oportunidades."
-    },
-    "welcome_vat": {
-      "description": "Simplesmente introduza o montante líquido, selecione a sua taxa e deixe a aplicação fazer o resto.",
-      "intro": "Defina rapidamente e com precisão os montantes de IVA específicos da sua região."
+      "description": "Entrez simplement le montant net, sélectionnez votre taux et laissez l'application faire le reste.",
+      "intro": "Définissez rapidement et avec précision les montants de TVA spécifiques à votre région."
     }
   }
 };
@@ -414,206 +547,72 @@ static const Map<String,dynamic> en = {
     }
   }
 };
-static const Map<String,dynamic> fr = {
+static const Map<String,dynamic> pt = {
   "onboarding": {
     "notifications": {
-      "action": "Autoriser les notifications",
+      "action": "Permitir notificações",
       "denied": {
-        "description": "Pas de problème! Nous veillerons à ne pas perturber votre tranquillité.",
-        "intro": "Les notifications ont été désactivées.",
-        "notes": "Veuillez noter que vous pouvez toujours activer les notifications dans les paramètres de votre appareil."
+        "description": "Sem preocupações! Vamos garantir que respeitamos a sua tranquilidade.",
+        "intro": "Notificações foram desativadas.",
+        "notes": "Lembre-se de que você sempre pode ativar as notificações nas configurações do seu dispositivo."
       },
-      "description": "Nous nous engageons à vous envoyer uniquement des notifications pertinentes et utiles.",
+      "description": "Comprometemo-nos a enviar-lhe apenas notificações relevantes e úteis.",
       "granted": {
-        "description": "Vous recevrez désormais des mises à jour et des notifications de notre part.",
-        "intro": "Les notifications ont été activées.",
-        "notes": "Veuillez noter que vous pouvez modifier ce réglage dans les paramètres de votre appareil."
+        "description": "Agora você receberá atualizações e notificações de nossa parte.",
+        "intro": "Notificações foram ativadas.",
+        "notes": "Por favor, note que você pode alterar esta configuração nas definições do seu dispositivo."
       },
-      "intro": "Restez informé des dernières mises à jour, actualités et informations importantes.",
-      "notes": "Veuillez noter que vous avez la possibilité de modifier vos préférences de notification à tout moment dans les paramètres de votre appareil.",
-      "title": "Notifications"
+      "intro": "Mantenha-se informado sobre as últimas atualizações, notícias e informações importantes.",
+      "notes": "Lembre-se de que você tem a opção de alterar suas preferências de notificação a qualquer momento nas configurações do seu dispositivo.",
+      "title": "Notificações"
     },
     "personalized_ads": {
-      "action": "Activer les publicités personnalisées",
+      "action": "Ativar anúncios personalizados",
       "denied": {
-        "description": "Nous respectons votre choix. Vous verrez des publicités génériques à la place.",
-        "intro": "Les publicités personnalisées ont été désactivées.",
-        "notes": "Veuillez noter que vous pouvez toujours activer le suivi dans les paramètres de votre appareil."
+        "description": "Respeitamos sua escolha. Você verá anúncios genéricos em vez disso.",
+        "intro": "Anúncios personalizados foram desativados.",
+        "notes": "Lembre-se de que você sempre pode habilitar o rastreamento nas configurações do seu dispositivo."
       },
-      "description": "Nous respectons votre vie privée et nous nous engageons à utiliser vos informations uniquement dans le but d'améliorer votre expérience et de présenter des publicités pertinentes.",
+      "description": "Respeitamos sua privacidade e nos comprometemos a usar suas informações apenas para melhorar sua experiência e apresentar anúncios relevantes.",
       "granted": {
-        "description": "Vous verrez des publicités adaptées à vos intérêts.",
-        "intro": "Les annonces personnalisées ont été activées.",
-        "notes": "Veuillez noter que vous pouvez modifier ce paramètre dans les réglages de votre appareil."
+        "description": "Você verá anúncios adaptados aos seus interesses.",
+        "intro": "Anúncios personalizados foram ativados.",
+        "notes": "Por favor, note que você pode alterar esta configuração nas definições do seu dispositivo."
       },
-      "intro": "L'application va solliciter votre consentement pour le suivi de vos données. Cela nous aidera à vous offrir des publicités personnalisées en fonction de vos centres d'intérêt, ainsi qu'une expérience utilisateur optimisée. Les publicités nous permettent de maintenir notre contenu gratuit. Nous vous invitons à autoriser cet accès pour continuer à soutenir le contenu gratuit.",
-      "title": "Publicités personnalisées"
-    },
-    "restore_premium": {
-      "action": "Restaurer les achats",
-      "intro": "Si vous avez précédemment acquis la version premium, nous vous recommandons de restaurer vos achats pour retrouver l'accès à toutes vos fonctionnalités premium.",
-      "notes": "Veuillez noter que vous avez la possibilité de restaurer vos achats à tout moment.",
-      "title": "Restaurer les fonctionnalités premium"
-    },
-    "user_country": {
-      "action": "Choisissez votre pays",
-      "intro": "Sélectionnez votre pays afin de personnaliser le contenu en fonction de votre emplacement.",
-      "notes": "Veuillez noter que vous avez la possibilité de changer votre pays à tout moment dans les paramètres.",
-      "title": "Pays"
-    },
-    "user_currency": {
-      "action": "Choisissez votre devise",
-      "intro": "Sélectionnez votre devise préférée pour afficher les prix dans votre devise locale.",
-      "notes": "Veuillez noter que vous avez la possibilité de changer de devise à tout moment dans les paramètres.",
-      "title": "Devise"
-    },
-    "welcome_finance_traders": {
-      "description": "Prenez le contrôle et tradez avec confiance et sérénité !",
-      "intro": "Affinez votre stratégie de trading avec nos outils de gestion des risques pour maximiser vos résultats.",
-      "title": "Bienvenue, Traders"
-    },
-    "welcome_gain_loss_calculator": {
-      "intro": "Découvrez vos gains potentiels en un coup d'œil et prenez des décisions éclairées pour maximiser vos opportunités."
-    },
-    "welcome_vat": {
-      "description": "Entrez simplement le montant net, sélectionnez votre taux et laissez l'application faire le reste.",
-      "intro": "Définissez rapidement et avec précision les montants de TVA spécifiques à votre région."
-    }
-  }
-};
-static const Map<String,dynamic> ja = {
-  "onboarding": {
-    "notifications": {
-      "action": "通知を許可する",
-      "denied": {
-        "description": "心配いりません！私たちはあなたの静けさを尊重することを確認します。",
-        "intro": "通知が無効になりました。",
-        "notes": "デバイスの設定でいつでも通知を有効にできることをご注意ください。"
-      },
-      "description": "関連性のある有用な通知のみをお送りすることをお約束します。",
-      "granted": {
-        "description": "私たちからのアップデートや通知を受け取ることができます。",
-        "intro": "通知が有効になりました。",
-        "notes": "デバイスの設定でこの設定を変更できることをご注意ください。"
-      },
-      "intro": "最新のアップデート、ニュース、重要な情報を常に受け取れます。",
-      "notes": "デバイスの設定で通知の設定をいつでも変更できることをご注意ください。",
-      "title": "通知"
-    },
-    "personalized_ads": {
-      "action": "パーソナライズされた広告を有効にする",
-      "denied": {
-        "description": "あなたの選択を尊重します。代わりに汎用的な広告を見ることになります。",
-        "intro": "パーソナライズされた広告は無効にされました。",
-        "notes": "デバイスの設定でいつでもトラッキングを有効にすることができることをご注意ください。"
-      },
-      "description": "私たちはあなたのプライバシーを尊重し、体験を向上させ広告を関連性のあるものとして表示するためだけに情報を使用することを約束します。",
-      "granted": {
-        "description": "あなたの興味に合わせた広告を見ることができます。",
-        "intro": "パーソナライズされた広告が有効にされました。",
-        "notes": "デバイスの設定でこの設定を変更することができることをご注意ください。"
-      },
-      "intro": "アプリケーションは、データ追跡の同意を求めます。これにより、お客様の興味に基づいたパーソナライズされた広告や、最適化されたユーザー体験を提供するのに役立ちます。広告は、私たちがコンテンツを無料で提供し続けることを可能にします。このアクセスを許可して、無料コンテンツのサポートを続けるようお願いいたします。",
-      "title": "パーソナライズされた広告"
-    },
-    "restore_premium": {
-      "action": "購入の復元",
-      "intro": "以前にプレミアム版を購入された場合、すべてのプレミアム機能に再アクセスするために購入を復元することをおすすめします。",
-      "notes": "いつでも購入を復元するオプションがあることにご注意ください。",
-      "title": "プレミアム機能の復元"
-    },
-    "user_country": {
-      "action": "あなたの国を選択してください",
-      "intro": "位置に基づいてコンテンツをカスタマイズするために、あなたの国を選択してください。",
-      "notes": "設定でいつでも国を変更するオプションがあることに注意してください。",
-      "title": "国"
-    },
-    "user_currency": {
-      "action": "通貨を選択する",
-      "intro": "価格を現地通貨で表示するために、お好みの通貨を選択してください。",
-      "notes": "設定でいつでも通貨を変更することができることにご注意ください。",
-      "title": "通貨"
-    },
-    "welcome_finance_traders": {
-      "description": "自信を持って安心して取引を行いましょう！",
-      "intro": "リスク管理ツールを使用して取引戦略を洗練させ、結果を最大化します。",
-      "title": "ようこそ、トレーダーの皆様"
-    },
-    "welcome_gain_loss_calculator": {
-      "intro": "潜在的な収益を一目で発見し、機会を最大限に活用するための情報に基づいた決定を行います。"
-    },
-    "welcome_vat": {
-      "description": "単に純額を入力し、レートを選択し、アプリケーションに残りを任せてください。",
-      "intro": "あなたの地域に特有のVATの金額を迅速かつ正確に定義してください。"
-    }
-  }
-};
-static const Map<String,dynamic> es = {
-  "onboarding": {
-    "notifications": {
-      "action": "Permitir notificaciones",
-      "denied": {
-        "description": "¡No te preocupes! Nos aseguraremos de respetar tu tranquilidad.",
-        "intro": "Las notificaciones han sido desactivadas.",
-        "notes": "Recuerda que siempre puedes activar las notificaciones en la configuración de tu dispositivo."
-      },
-      "description": "Nos comprometemos a enviarle solo notificaciones relevantes y útiles.",
-      "granted": {
-        "description": "Ahora recibirá actualizaciones y notificaciones de nuestra parte.",
-        "intro": "Las notificaciones han sido activadas.",
-        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
-      },
-      "intro": "Mantente informado sobre las últimas actualizaciones, noticias e información importante.",
-      "notes": "Por favor, ten en cuenta que puedes cambiar tus preferencias de notificación en cualquier momento en la configuración de tu dispositivo.",
-      "title": "Notificaciones"
-    },
-    "personalized_ads": {
-      "action": "Habilitar anuncios personalizados",
-      "denied": {
-        "description": "Respetamos su elección. Verá anuncios genéricos en su lugar.",
-        "intro": "Los anuncios personalizados han sido desactivados.",
-        "notes": "Recuerda que siempre puedes habilitar el seguimiento en la configuración de tu dispositivo."
-      },
-      "description": "Respetamos su privacidad y nos comprometemos a utilizar su información solo con el propósito de mejorar su experiencia y presentar anuncios relevantes.",
-      "granted": {
-        "description": "Verá anuncios adaptados a sus intereses.",
-        "intro": "Los anuncios personalizados han sido activados.",
-        "notes": "Recuerda que puedes cambiar esta configuración en los ajustes de tu dispositivo."
-      },
-      "intro": "La aplicación solicitará su consentimiento para rastrear sus datos. Esto nos ayudará a proporcionarle anuncios personalizados basados en sus intereses, así como una experiencia de usuario optimizada. Los anuncios nos permiten mantener nuestro contenido gratuito. Le invitamos a permitir este acceso para seguir apoyando el contenido gratuito.",
-      "title": "Anuncios Personalizados"
+      "intro": "A aplicação solicitará o seu consentimento para rastrear os seus dados. Isso nos ajudará a fornecer-lhe anúncios personalizados com base nos seus interesses, bem como uma experiência de utilizador otimizada. Os anúncios permitem-nos manter o nosso conteúdo gratuito. Convidamo-lo a permitir este acesso para continuar a apoiar o conteúdo gratuito.",
+      "title": "Anúncios Personalizados"
     },
     "restore_premium": {
       "action": "Restaurar compras",
-      "intro": "Si adquirió previamente la versión premium, le recomendamos restaurar sus compras para recuperar el acceso a todas las funciones premium.",
-      "notes": "Tenga en cuenta que tiene la opción de restaurar sus compras en cualquier momento.",
-      "title": "Restaurar funciones premium"
+      "intro": "Se você adquiriu anteriormente a versão premium, recomendamos que restaure suas compras para recuperar o acesso a todos os recursos premium.",
+      "notes": "Observe que você tem a opção de restaurar suas compras a qualquer momento.",
+      "title": "Restaurar recursos premium"
     },
     "user_country": {
-      "action": "Elige tu país",
-      "intro": "Selecciona tu país para personalizar el contenido según tu ubicación.",
-      "notes": "Ten en cuenta que tienes la opción de cambiar tu país en cualquier momento en la configuración.",
+      "action": "Escolha o seu país",
+      "intro": "Selecione seu país para personalizar o conteúdo com base na sua localização.",
+      "notes": "Por favor, note que você tem a opção de alterar o seu país a qualquer momento nas configurações.",
       "title": "País"
     },
     "user_currency": {
-      "action": "Seleccione su moneda",
-      "intro": "Seleccione su moneda preferida para mostrar los precios en su moneda local.",
-      "notes": "Tenga en cuenta que tiene la opción de cambiar su moneda en cualquier momento en la configuración.",
-      "title": "Moneda"
+      "action": "Escolha sua moeda",
+      "intro": "Selecione a moeda de sua preferência para exibir os preços em sua moeda local.",
+      "notes": "Observe que você tem a opção de alterar sua moeda a qualquer momento nas configurações.",
+      "title": "Moeda"
     },
     "welcome_finance_traders": {
-      "description": "¡Tome el control y opere con confianza y tranquilidad!",
-      "intro": "Refine su estrategia de trading con nuestras herramientas de gestión de riesgos para maximizar sus resultados.",
-      "title": "¡Bienvenidos, Traders!"
+      "description": "Assuma o controle e negocie com confiança e paz de espírito!",
+      "intro": "Aperfeiçoe sua estratégia de negociação com nossas ferramentas de gestão de risco para maximizar seus resultados.",
+      "title": "Bem-vindos, Traders"
     },
     "welcome_gain_loss_calculator": {
-      "intro": "Descubra sus ganancias potenciales de un vistazo y tome decisiones informadas para maximizar sus oportunidades."
+      "intro": "Descubra os seus ganhos potenciais num relance e tome decisões informadas para maximizar as suas oportunidades."
     },
     "welcome_vat": {
-      "description": "Simplemente ingrese el monto neto, seleccione su tarifa y deje que la aplicación haga el resto.",
-      "intro": "Defina rápidamente y con precisión los montos del IVA específicos de su región."
+      "description": "Simplesmente introduza o montante líquido, selecione a sua taxa e deixe a aplicação fazer o resto.",
+      "intro": "Defina rapidamente e com precisão os montantes de IVA específicos da sua região."
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"zh": zh, "it": it, "ru": ru, "de": de, "pt": pt, "en": en, "fr": fr, "ja": ja, "es": es};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
 }

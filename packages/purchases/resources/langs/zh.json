@@ -60,6 +60,7 @@
       "go_premium_description": "升级到高级版不仅支持持续开发，还能获得额外功能。",
       "have_not_acquired_premium_version": "您尚未购买高级版本。",
       "one_time_payment": "这是一次性付款，不会产生任何定期费用。",
+      "premium_upgrade_offer": "您还可以选择升级到高级版本以去除广告并获得所有功能的访问权限。",
       "premium_version_restored": "已成功恢复高级功能。",
       "purchase": {
         "cancelled": "购买已取消。",

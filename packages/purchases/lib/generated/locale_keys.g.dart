@@ -46,6 +46,7 @@ abstract class PurchasesLocaleKeys {
   static const purchases_message_go_premium_description = 'purchases.message.go_premium_description';
   static const purchases_message_have_not_acquired_premium_version = 'purchases.message.have_not_acquired_premium_version';
   static const purchases_message_one_time_payment = 'purchases.message.one_time_payment';
+  static const purchases_message_premium_upgrade_offer = 'purchases.message.premium_upgrade_offer';
   static const purchases_message_premium_version_restored = 'purchases.message.premium_version_restored';
   static const purchases_message_purchase_cancelled = 'purchases.message.purchase.cancelled';
   static const purchases_message_purchase_failed = 'purchases.message.purchase.failed';

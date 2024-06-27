@@ -60,6 +60,7 @@
       "go_premium_description": "プレミアム版にアップグレードすることで、継続的な開発をサポートするだけでなく、追加の機能にアクセスすることもできます。",
       "have_not_acquired_premium_version": "プレミアムバージョンを取得していません。",
       "one_time_payment": "これは一回限りの支払いで、定期的な請求は発生しません。",
+      "premium_upgrade_offer": "プレミアムバージョンを選択して広告を排除し、すべての機能にアクセスすることもできます。",
       "premium_version_restored": "プレミアム機能が正常に復元されました。",
       "purchase": {
         "cancelled": "購入がキャンセルされました。",
