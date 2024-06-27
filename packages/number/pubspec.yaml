@@ -2,7 +2,7 @@ dependencies:
   easy_localization: ^3.0.5
   flutter:
     sdk: flutter
-  lingua_core: ^0.0.43
+  lingua_core: ^0.0.44
 description: Library for internal numbers localization.
 dev_dependencies:
   flutter_lints: ^3.0.1
@@ -14,4 +14,4 @@ environment:
   sdk: '>=3.2.0 <4.0.0'
 name: lingua_number
 repository: https://github.com/tyrcord/lingua/tree/main/packages/number
-version: 0.0.19
+version: 0.0.20

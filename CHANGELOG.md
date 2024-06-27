@@ -3,6 +3,107 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-06-27
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`lingua_ad` - `v0.0.26`](#lingua_ad---v0026)
+ - [`lingua_apps` - `v0.0.20`](#lingua_apps---v0020)
+ - [`lingua_calculator` - `v0.0.16`](#lingua_calculator---v0016)
+ - [`lingua_core` - `v0.0.44`](#lingua_core---v0044)
+ - [`lingua_countries` - `v0.0.15`](#lingua_countries---v0015)
+ - [`lingua_finance` - `v0.0.41`](#lingua_finance---v0041)
+ - [`lingua_finance_dividend` - `v0.0.18`](#lingua_finance_dividend---v0018)
+ - [`lingua_finance_forex` - `v0.0.21`](#lingua_finance_forex---v0021)
+ - [`lingua_finance_instrument` - `v0.0.18`](#lingua_finance_instrument---v0018)
+ - [`lingua_finance_stock` - `v0.0.21`](#lingua_finance_stock---v0021)
+ - [`lingua_help` - `v0.0.19`](#lingua_help---v0019)
+ - [`lingua_languages` - `v0.0.17`](#lingua_languages---v0017)
+ - [`lingua_number` - `v0.0.20`](#lingua_number---v0020)
+ - [`lingua_onboarding` - `v0.0.26`](#lingua_onboarding---v0026)
+ - [`lingua_purchases` - `v0.0.30`](#lingua_purchases---v0030)
+ - [`lingua_settings` - `v0.0.25`](#lingua_settings---v0025)
+ - [`lingua_units` - `v0.0.18`](#lingua_units---v0018)
+
+---
+
+#### `lingua_ad` - `v0.0.26`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_apps` - `v0.0.20`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_calculator` - `v0.0.16`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_core` - `v0.0.44`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_countries` - `v0.0.15`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_finance` - `v0.0.41`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_finance_dividend` - `v0.0.18`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_finance_forex` - `v0.0.21`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_finance_instrument` - `v0.0.18`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_finance_stock` - `v0.0.21`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_help` - `v0.0.19`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_languages` - `v0.0.17`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_number` - `v0.0.20`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_onboarding` - `v0.0.26`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_purchases` - `v0.0.30`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_settings` - `v0.0.25`
+
+ - **FEAT**: updated localization files.
+
+#### `lingua_units` - `v0.0.18`
+
+ - **FEAT**: updated localization files.
+
+
 ## 2024-06-14
 
 ### Changes

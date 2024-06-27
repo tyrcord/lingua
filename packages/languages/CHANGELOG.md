@@ -1,3 +1,7 @@
+## 0.0.17
+
+ - **FEAT**: updated localization files.
+
 ## 0.0.16
 
  - **FIX**: generate script.

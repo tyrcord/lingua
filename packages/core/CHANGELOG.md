@@ -1,3 +1,7 @@
+## 0.0.44
+
+ - **FEAT**: updated localization files.
+
 ## 0.0.43
 
  - **FIX**: publish issue.

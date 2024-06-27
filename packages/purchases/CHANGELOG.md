@@ -1,3 +1,7 @@
+## 0.0.30
+
+ - **FEAT**: updated localization files.
+
 ## 0.0.29
 
  - **FIX**: add missing key.
