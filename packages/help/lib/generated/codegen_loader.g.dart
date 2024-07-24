@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class HelpCodegenLoader extends AssetLoader {
@@ -30,12 +29,12 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "help": {
     "label": {
-      "instructions": "Instrucciones",
-      "manual": "Manual",
-      "manuals": "Manuales"
+      "instructions": "Istruzioni",
+      "manual": "Manuale",
+      "manuals": "Manuali"
     }
   }
 };
@@ -48,12 +47,12 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "help": {
     "label": {
-      "instructions": "Istruzioni",
-      "manual": "Manuale",
-      "manuals": "Manuali"
+      "instructions": "Instructions",
+      "manual": "Manual",
+      "manuals": "Manuals"
     }
   }
 };
@@ -66,21 +65,21 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
+static const Map<String,dynamic> es = {
+  "help": {
+    "label": {
+      "instructions": "Instrucciones",
+      "manual": "Manual",
+      "manuals": "Manuales"
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "help": {
     "label": {
       "instructions": "Instructions",
       "manual": "Mode d'emploi",
       "manuals": "Manuels"
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "help": {
-    "label": {
-      "instructions": "Instructions",
-      "manual": "Manual",
-      "manuals": "Manuals"
     }
   }
 };
@@ -93,5 +92,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }

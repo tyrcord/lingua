@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class LanguagesCodegenLoader extends AssetLoader {
@@ -136,10 +135,10 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "languages": {
     "label": {
-      "english_or_french": "Inglés o francés"
+      "english_or_french": "Inglese o francese"
     },
     "locale": {
       "iso_639_1": {
@@ -260,10 +259,10 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "languages": {
     "label": {
-      "english_or_french": "Inglese o francese"
+      "english_or_french": "English or French"
     },
     "locale": {
       "iso_639_1": {
@@ -384,10 +383,10 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
-static const Map<String,dynamic> fr = {
+static const Map<String,dynamic> es = {
   "languages": {
     "label": {
-      "english_or_french": "Anglais ou français"
+      "english_or_french": "Inglés o francés"
     },
     "locale": {
       "iso_639_1": {
@@ -446,10 +445,10 @@ static const Map<String,dynamic> fr = {
     }
   }
 };
-static const Map<String,dynamic> en = {
+static const Map<String,dynamic> fr = {
   "languages": {
     "label": {
-      "english_or_french": "English or French"
+      "english_or_french": "Anglais ou français"
     },
     "locale": {
       "iso_639_1": {
@@ -570,5 +569,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }

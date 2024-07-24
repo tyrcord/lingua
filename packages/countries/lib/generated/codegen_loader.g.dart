@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class CountriesCodegenLoader extends AssetLoader {
@@ -86,40 +85,40 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "countries": {
     "label": {
       "austria": "Austria",
-      "belgium": "Bélgica",
+      "belgium": "Belgio",
       "bulgaria": "Bulgaria",
-      "croatia": "Croacia",
-      "cyprus": "Chipre",
-      "czech": "República Checa",
-      "denmark": "Dinamarca",
+      "croatia": "Croazia",
+      "cyprus": "Cipro",
+      "czech": "Repubblica Ceca",
+      "denmark": "Danimarca",
       "estonia": "Estonia",
       "finland": "Finlandia",
       "france": "Francia",
-      "germany": "Alemania",
+      "germany": "Germania",
       "greece": "Grecia",
-      "hungary": "Hungría",
+      "hungary": "Ungheria",
       "ireland": "Irlanda",
       "italy": "Italia",
-      "latvia": "Letonia",
+      "latvia": "Lettonia",
       "liechtenstein": "Liechtenstein",
       "lithuania": "Lituania",
-      "luxembourg": "Luxemburgo",
+      "luxembourg": "Lussemburgo",
       "malta": "Malta",
-      "monaco": "Mónaco",
-      "netherlands": "Países Bajos",
+      "monaco": "Monaco",
+      "netherlands": "Paesi Bassi",
       "poland": "Polonia",
-      "romania": "Rumania",
-      "slovakia": "Eslovaquia",
-      "slovenia": "Eslovenia",
-      "spain": "España",
-      "sweden": "Suecia",
-      "switzerland": "Suiza",
-      "uk": "Reino Unido",
-      "usa": "Estados Unidos"
+      "romania": "Romania",
+      "slovakia": "Slovacchia",
+      "slovenia": "Slovenia",
+      "spain": "Spagna",
+      "sweden": "Svezia",
+      "switzerland": "Svizzera",
+      "uk": "Regno Unito",
+      "usa": "Stati Uniti"
     }
   }
 };
@@ -160,40 +159,40 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "countries": {
     "label": {
       "austria": "Austria",
-      "belgium": "Belgio",
+      "belgium": "Belgium",
       "bulgaria": "Bulgaria",
-      "croatia": "Croazia",
-      "cyprus": "Cipro",
-      "czech": "Repubblica Ceca",
-      "denmark": "Danimarca",
+      "croatia": "Croatia",
+      "cyprus": "Cyprus",
+      "czech": "Czech Republic",
+      "denmark": "Denmark",
       "estonia": "Estonia",
-      "finland": "Finlandia",
-      "france": "Francia",
-      "germany": "Germania",
-      "greece": "Grecia",
-      "hungary": "Ungheria",
-      "ireland": "Irlanda",
-      "italy": "Italia",
-      "latvia": "Lettonia",
+      "finland": "Finland",
+      "france": "France",
+      "germany": "Germany",
+      "greece": "Greece",
+      "hungary": "Hungary",
+      "ireland": "Ireland",
+      "italy": "Italy",
+      "latvia": "Latvia",
       "liechtenstein": "Liechtenstein",
-      "lithuania": "Lituania",
-      "luxembourg": "Lussemburgo",
+      "lithuania": "Lithuania",
+      "luxembourg": "Luxembourg",
       "malta": "Malta",
       "monaco": "Monaco",
-      "netherlands": "Paesi Bassi",
-      "poland": "Polonia",
+      "netherlands": "Netherlands",
+      "poland": "Poland",
       "romania": "Romania",
-      "slovakia": "Slovacchia",
+      "slovakia": "Slovakia",
       "slovenia": "Slovenia",
-      "spain": "Spagna",
-      "sweden": "Svezia",
-      "switzerland": "Svizzera",
-      "uk": "Regno Unito",
-      "usa": "Stati Uniti"
+      "spain": "Spain",
+      "sweden": "Sweden",
+      "switzerland": "Switzerland",
+      "uk": "United Kingdom",
+      "usa": "United States"
     }
   }
 };
@@ -234,6 +233,43 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
+static const Map<String,dynamic> es = {
+  "countries": {
+    "label": {
+      "austria": "Austria",
+      "belgium": "Bélgica",
+      "bulgaria": "Bulgaria",
+      "croatia": "Croacia",
+      "cyprus": "Chipre",
+      "czech": "República Checa",
+      "denmark": "Dinamarca",
+      "estonia": "Estonia",
+      "finland": "Finlandia",
+      "france": "Francia",
+      "germany": "Alemania",
+      "greece": "Grecia",
+      "hungary": "Hungría",
+      "ireland": "Irlanda",
+      "italy": "Italia",
+      "latvia": "Letonia",
+      "liechtenstein": "Liechtenstein",
+      "lithuania": "Lituania",
+      "luxembourg": "Luxemburgo",
+      "malta": "Malta",
+      "monaco": "Mónaco",
+      "netherlands": "Países Bajos",
+      "poland": "Polonia",
+      "romania": "Rumania",
+      "slovakia": "Eslovaquia",
+      "slovenia": "Eslovenia",
+      "spain": "España",
+      "sweden": "Suecia",
+      "switzerland": "Suiza",
+      "uk": "Reino Unido",
+      "usa": "Estados Unidos"
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "countries": {
     "label": {
@@ -268,43 +304,6 @@ static const Map<String,dynamic> fr = {
       "switzerland": "Suisse",
       "uk": "Royaume-Uni",
       "usa": "États-Unis"
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "countries": {
-    "label": {
-      "austria": "Austria",
-      "belgium": "Belgium",
-      "bulgaria": "Bulgaria",
-      "croatia": "Croatia",
-      "cyprus": "Cyprus",
-      "czech": "Czech Republic",
-      "denmark": "Denmark",
-      "estonia": "Estonia",
-      "finland": "Finland",
-      "france": "France",
-      "germany": "Germany",
-      "greece": "Greece",
-      "hungary": "Hungary",
-      "ireland": "Ireland",
-      "italy": "Italy",
-      "latvia": "Latvia",
-      "liechtenstein": "Liechtenstein",
-      "lithuania": "Lithuania",
-      "luxembourg": "Luxembourg",
-      "malta": "Malta",
-      "monaco": "Monaco",
-      "netherlands": "Netherlands",
-      "poland": "Poland",
-      "romania": "Romania",
-      "slovakia": "Slovakia",
-      "slovenia": "Slovenia",
-      "spain": "Spain",
-      "sweden": "Sweden",
-      "switzerland": "Switzerland",
-      "uk": "United Kingdom",
-      "usa": "United States"
     }
   }
 };
@@ -345,5 +344,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }

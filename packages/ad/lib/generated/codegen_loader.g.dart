@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class AdCodegenLoader extends AssetLoader {
@@ -96,43 +95,43 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "ad": {
     "disclaimer": {
-      "user_tracking": "Este identificador se utilizará para sugerirle publicidad dirigida en función de sus intereses."
+      "user_tracking": "Questo identificatore verrà utilizzato per suggerirti pubblicità mirate in base ai tuoi interessi."
     },
     "error": {
-      "dimissed_ad": "Dado que cerró el anuncio antes de tiempo, no recibirá una recompensa. Por favor, inténtelo de nuevo más tarde.",
-      "failed_to_load_ad": "No se pudo cargar el anuncio. Por favor, inténtelo de nuevo más tarde.",
-      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde."
+      "dimissed_ad": "Poiché hai chiuso l'annuncio in anticipo, non riceverai una ricompensa. Si prega di riprovare più tardi.",
+      "failed_to_load_ad": "Impossibile caricare l'annuncio. Si prega di riprovare più tardi.",
+      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi."
     },
     "label": {
-      "ad": "Anuncio",
-      "advertisement": "Publicidad",
-      "no_ads_available": "No hay anuncios disponibles",
-      "personalized_ads": "Anuncios personalizados",
-      "sponsored": "Patrocinado",
-      "watch_ad": "Ver un anuncio"
+      "ad": "Annuncio",
+      "advertisement": "Pubblicità",
+      "no_ads_available": "Nessun annuncio disponibile",
+      "personalized_ads": "Pubblicità personalizzate",
+      "sponsored": "Sponsorizzato",
+      "watch_ad": "Guarda un annuncio"
     },
     "message": {
-      "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
+      "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
       "enjoy_your_reward": {
-        "csv": "¡Felicidades! Tu archivo CSV está listo. ¡Feliz lectura!",
-        "excel": "¡Felicidades! Tu archivo Excel está listo. ¡Feliz lectura!",
-        "pdf": "¡Felicidades! Tu archivo PDF está listo. ¡Feliz lectura!",
-        "text": "¡Disfruta tu recompensa!"
+        "csv": "Congratulazioni! Il tuo file CSV è pronto. Buona lettura!",
+        "excel": "Congratulazioni! Il tuo file Excel è pronto. Buona lettura!",
+        "pdf": "Congratulazioni! Il tuo file PDF è pronto. Buona lettura!",
+        "text": "Goditi il tuo premio!"
       },
-      "go_ad_free": "Elimina los anuncios",
-      "lucky_you": "¡Qué suerte tienes!",
-      "no_ads_now": "Por ahora no hay anuncios. ¡Disfruta la aplicación!",
-      "say_goodbye_to_ads": "¡Di adiós a los anuncios!",
+      "go_ad_free": "Passa all'esperienza senza annunci!",
+      "lucky_you": "Sei fortunato!",
+      "no_ads_now": "Nessuna pubblicità per ora. Goditi l'applicazione!",
+      "say_goodbye_to_ads": "Dì addio alla pubblicità!",
       "watch_ad": {
         "unlock": {
-          "csv": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos como CSV!",
-          "excel": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos en un archivo Excel!",
-          "feature": "¡Mira un anuncio corto para desbloquear esta función!",
-          "feature_plural": "¡Mira un anuncio corto para desbloquear estas funciones!",
-          "pdf": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos como PDF!"
+          "csv": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato CSV!",
+          "excel": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in un file Excel!",
+          "feature": "Guarda un breve annuncio per sbloccare questa funzione!",
+          "feature_plural": "Guarda un breve annuncio per sbloccare queste funzioni!",
+          "pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"
         }
       }
     }
@@ -180,43 +179,43 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "ad": {
     "disclaimer": {
-      "user_tracking": "Questo identificatore verrà utilizzato per suggerirti pubblicità mirate in base ai tuoi interessi."
+      "user_tracking": "This identifier will be used to suggest targeted advertising to you based on your interests."
     },
     "error": {
-      "dimissed_ad": "Poiché hai chiuso l'annuncio in anticipo, non riceverai una ricompensa. Si prega di riprovare più tardi.",
-      "failed_to_load_ad": "Impossibile caricare l'annuncio. Si prega di riprovare più tardi.",
-      "no_ads_available": "Al momento non ci sono annunci disponibili. Si prega di riprovare più tardi."
+      "dimissed_ad": "Since you dismissed the ad early, you will not receive a reward. Please try again later.",
+      "failed_to_load_ad": "Unable to load the ad. Please try again later.",
+      "no_ads_available": "Currently, there are no ads available. Please check back later."
     },
     "label": {
-      "ad": "Annuncio",
-      "advertisement": "Pubblicità",
-      "no_ads_available": "Nessun annuncio disponibile",
-      "personalized_ads": "Pubblicità personalizzate",
-      "sponsored": "Sponsorizzato",
-      "watch_ad": "Guarda un annuncio"
+      "ad": "Ad",
+      "advertisement": "Advertisement",
+      "no_ads_available": "No ads available",
+      "personalized_ads": "Personalized ads",
+      "sponsored": "Sponsored",
+      "watch_ad": "Watch an ad"
     },
     "message": {
-      "discover_other_app": "Dai un'occhiata alle nostre altre app gratuite!",
+      "discover_other_app": "Take a look at our other free apps!",
       "enjoy_your_reward": {
-        "csv": "Congratulazioni! Il tuo file CSV è pronto. Buona lettura!",
-        "excel": "Congratulazioni! Il tuo file Excel è pronto. Buona lettura!",
-        "pdf": "Congratulazioni! Il tuo file PDF è pronto. Buona lettura!",
-        "text": "Goditi il tuo premio!"
+        "csv": "Congratulations! Your CSV file is ready. Happy reading!",
+        "excel": "Congratulations! Your Excel file is ready. Happy reading!",
+        "pdf": "Congratulations! Your PDF file is ready. Happy reading!",
+        "text": "Enjoy your reward!"
       },
-      "go_ad_free": "Passa all'esperienza senza annunci!",
-      "lucky_you": "Sei fortunato!",
-      "no_ads_now": "Nessuna pubblicità per ora. Goditi l'applicazione!",
-      "say_goodbye_to_ads": "Dì addio alla pubblicità!",
+      "go_ad_free": "Go ad-free!",
+      "lucky_you": "Lucky you!",
+      "no_ads_now": "No advertisements for now. Enjoy the application!",
+      "say_goodbye_to_ads": "Say goodbye to ads!",
       "watch_ad": {
         "unlock": {
-          "csv": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato CSV!",
-          "excel": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in un file Excel!",
-          "feature": "Guarda un breve annuncio per sbloccare questa funzione!",
-          "feature_plural": "Guarda un breve annuncio per sbloccare queste funzioni!",
-          "pdf": "Guarda un breve annuncio per sbloccare la possibilità di esportare i tuoi dati in formato PDF!"
+          "csv": "Watch a short ad to unlock the ability to export your data as a CSV!",
+          "excel": "Watch a short ad to unlock the ability to export your data as an Excel file!",
+          "feature": "Watch a short ad to unlock this feature!",
+          "feature_plural": "Watch a short ad to unlock these features!",
+          "pdf": "Watch a short ad to unlock the ability to export your data as a PDF!"
         }
       }
     }
@@ -264,6 +263,48 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
+static const Map<String,dynamic> es = {
+  "ad": {
+    "disclaimer": {
+      "user_tracking": "Este identificador se utilizará para sugerirle publicidad dirigida en función de sus intereses."
+    },
+    "error": {
+      "dimissed_ad": "Dado que cerró el anuncio antes de tiempo, no recibirá una recompensa. Por favor, inténtelo de nuevo más tarde.",
+      "failed_to_load_ad": "No se pudo cargar el anuncio. Por favor, inténtelo de nuevo más tarde.",
+      "no_ads_available": "Actualmente no hay anuncios disponibles. Por favor, vuelva a comprobarlo más tarde."
+    },
+    "label": {
+      "ad": "Anuncio",
+      "advertisement": "Publicidad",
+      "no_ads_available": "No hay anuncios disponibles",
+      "personalized_ads": "Anuncios personalizados",
+      "sponsored": "Patrocinado",
+      "watch_ad": "Ver un anuncio"
+    },
+    "message": {
+      "discover_other_app": "¡Eche un vistazo a nuestras otras aplicaciones gratuitas!",
+      "enjoy_your_reward": {
+        "csv": "¡Felicidades! Tu archivo CSV está listo. ¡Feliz lectura!",
+        "excel": "¡Felicidades! Tu archivo Excel está listo. ¡Feliz lectura!",
+        "pdf": "¡Felicidades! Tu archivo PDF está listo. ¡Feliz lectura!",
+        "text": "¡Disfruta tu recompensa!"
+      },
+      "go_ad_free": "Elimina los anuncios",
+      "lucky_you": "¡Qué suerte tienes!",
+      "no_ads_now": "Por ahora no hay anuncios. ¡Disfruta la aplicación!",
+      "say_goodbye_to_ads": "¡Di adiós a los anuncios!",
+      "watch_ad": {
+        "unlock": {
+          "csv": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos como CSV!",
+          "excel": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos en un archivo Excel!",
+          "feature": "¡Mira un anuncio corto para desbloquear esta función!",
+          "feature_plural": "¡Mira un anuncio corto para desbloquear estas funciones!",
+          "pdf": "¡Vea un anuncio corto para desbloquear la capacidad de exportar sus datos como PDF!"
+        }
+      }
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "ad": {
     "disclaimer": {
@@ -301,48 +342,6 @@ static const Map<String,dynamic> fr = {
           "feature": "Regardez une courte publicité pour débloquer cette fonction!",
           "feature_plural": "Regardez une courte publicité pour débloquer ces fonctions!",
           "pdf": "Regardez une courte publicité pour débloquer la possibilité d'exporter vos données en PDF !"
-        }
-      }
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "ad": {
-    "disclaimer": {
-      "user_tracking": "This identifier will be used to suggest targeted advertising to you based on your interests."
-    },
-    "error": {
-      "dimissed_ad": "Since you dismissed the ad early, you will not receive a reward. Please try again later.",
-      "failed_to_load_ad": "Unable to load the ad. Please try again later.",
-      "no_ads_available": "Currently, there are no ads available. Please check back later."
-    },
-    "label": {
-      "ad": "Ad",
-      "advertisement": "Advertisement",
-      "no_ads_available": "No ads available",
-      "personalized_ads": "Personalized ads",
-      "sponsored": "Sponsored",
-      "watch_ad": "Watch an ad"
-    },
-    "message": {
-      "discover_other_app": "Take a look at our other free apps!",
-      "enjoy_your_reward": {
-        "csv": "Congratulations! Your CSV file is ready. Happy reading!",
-        "excel": "Congratulations! Your Excel file is ready. Happy reading!",
-        "pdf": "Congratulations! Your PDF file is ready. Happy reading!",
-        "text": "Enjoy your reward!"
-      },
-      "go_ad_free": "Go ad-free!",
-      "lucky_you": "Lucky you!",
-      "no_ads_now": "No advertisements for now. Enjoy the application!",
-      "say_goodbye_to_ads": "Say goodbye to ads!",
-      "watch_ad": {
-        "unlock": {
-          "csv": "Watch a short ad to unlock the ability to export your data as a CSV!",
-          "excel": "Watch a short ad to unlock the ability to export your data as an Excel file!",
-          "feature": "Watch a short ad to unlock this feature!",
-          "feature_plural": "Watch a short ad to unlock these features!",
-          "pdf": "Watch a short ad to unlock the ability to export your data as a PDF!"
         }
       }
     }
@@ -390,5 +389,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }

@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class AppsCodegenLoader extends AssetLoader {
@@ -108,50 +107,50 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Aproveche el poder del interés compuesto y vea cómo reinvertir sus dividendos puede amplificar significativamente sus ganancias con el tiempo.",
-        "title": "¡Maximizando sus rendimientos de inversión!"
+        "description": "Sfrutta la potenza dell'interesse composto e vedi come reinvestire i tuoi dividendi può amplificare significativamente i tuoi guadagni nel tempo.",
+        "title": "Massimizza i tuoi rendimenti sugli investimenti!"
       }
     },
     "expressions_quebecoises": {
       "intro": {
-        "description": "¡Descubre más de 500 expresiones únicas de Quebec que te esperan!",
-        "title": "¡Embárcate en un viaje de aprendizaje!"
+        "description": "Scopri oltre 500 espressioni uniche del Quebec che ti aspettano!",
+        "title": "Intraprendiamo un viaggio di apprendimento!"
       }
     },
     "fx_pos_qal": {
       "intro": {
-        "description": "Esta aplicación te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
-        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+        "description": "Questa app ti suggerirà un importo ottimale da investire per massimizzare i tuoi guadagni e ridurre al minimo le tue perdite.",
+        "title": "Concentriamoci sulla gestione del rischio piuttosto che subire perdite!"
       },
       "promo": {
-        "comply_risk_management": "Cumple fácilmente con la gestión de riesgos",
-        "short": "¡Determinar el tamaño de tus posiciones nunca ha sido tan fácil!"
+        "comply_risk_management": "Rispetta facilmente la gestione del rischio",
+        "short": "Determinare la dimensione delle tue posizioni non è mai stato così facile!"
       },
       "store": {
-        "description": "El éxito de tus futuras operaciones dependerá en gran medida de tu capacidad para gestionar el riesgo de manera efectiva. De hecho, es esencial no arriesgar todo tu capital en una sola transacción. Para ello, es importante calcular el tamaño de tu posición antes de cada operación. ¡Nuestra calculadora está ahí para acompañarte y ayudarte a no descuidar la gestión del riesgo! Simplemente completa los campos de nuestra herramienta y te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
-        "promo": "¡No quieres perder todo tu capital en una sola transacción!"
+        "description": "Il successo delle tue future operazioni dipenderà in gran parte dalla tua capacità di gestire il rischio in modo efficace. Infatti, è essenziale non rischiare tutto il tuo capitale in una singola transazione. Per questo, è importante calcolare la dimensione della tua posizione prima di ogni operazione. Per aiutarti a non abbassare la guardia nella gestione del rischio, il nostro calcolatore è lì per accompagnarti! Basta compilare i campi nel nostro strumento e ti suggerirà un importo ottimale da investire per massimizzare i tuoi guadagni e ridurre al minimo le tue perdite.",
+        "promo": "Non vuoi perdere tutto il tuo capitale in una singola transazione!"
       }
     },
     "fx_qal": {
       "intro": {
-        "description": "Esta aplicación te empodera en la gestión de riesgos y la toma de decisiones a través de una completa suite de herramientas sencillas e impactantes.",
-        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+        "description": "Questa applicazione ti permette di gestire il rischio e prendere decisioni attraverso un set completo di strumenti chiari e incisivi.",
+        "title": "Concentriamoci sulla gestione del rischio piuttosto che subire perdite!"
       }
     },
     "pip_qal": {
       "intro": {
-        "description": "Esta aplicación está diseñada para ayudarte a determinar el valor de un pip para cada una de tus operaciones.",
-        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+        "description": "Questa applicazione è progettata per aiutarti a determinare il valore di un pip per ogni tua operazione.",
+        "title": "Concentriamoci sulla gestione del rischio piuttosto che subire perdite!"
       }
     },
     "profit_and_loss_qal": {
       "intro": {
-        "description": "Nuestra aplicación te permite determinar rápidamente si tus ingresos son suficientes para cubrir tus gastos.",
-        "title": "¡Enfoquémonos en minimizar las pérdidas y maximizar las ganancias para obtener resultados óptimos!"
+        "description": "La nostra app ti consente di determinare rapidamente se il tuo reddito è sufficiente a coprire le tue spese.",
+        "title": "Concentriamoci sulla riduzione delle perdite e sulla massimizzazione dei guadagni per risultati ottimali!"
       }
     }
   }
@@ -204,50 +203,50 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "apps": {
     "div_qal": {
       "intro": {
-        "description": "Sfrutta la potenza dell'interesse composto e vedi come reinvestire i tuoi dividendi può amplificare significativamente i tuoi guadagni nel tempo.",
-        "title": "Massimizza i tuoi rendimenti sugli investimenti!"
+        "description": "Embrace the power of compounding and see how reinvesting your dividends can significantly amplify your earnings over time.",
+        "title": "Maximizing Your Investment Returns!"
       }
     },
     "expressions_quebecoises": {
       "intro": {
-        "description": "Scopri oltre 500 espressioni uniche del Quebec che ti aspettano!",
-        "title": "Intraprendiamo un viaggio di apprendimento!"
+        "description": "Discover over 500 unique Quebecois expressions that await you!",
+        "title": "Let's embark on a journey of learning!"
       }
     },
     "fx_pos_qal": {
       "intro": {
-        "description": "Questa app ti suggerirà un importo ottimale da investire per massimizzare i tuoi guadagni e ridurre al minimo le tue perdite.",
-        "title": "Concentriamoci sulla gestione del rischio piuttosto che subire perdite!"
+        "description": "This app will suggest you an optimal amount to invest in order to maximize your gains and minimize your losses.",
+        "title": "Let's focus on risk management rather than incurring losses!"
       },
       "promo": {
-        "comply_risk_management": "Rispetta facilmente la gestione del rischio",
-        "short": "Determinare la dimensione delle tue posizioni non è mai stato così facile!"
+        "comply_risk_management": "Easily respect your risk management",
+        "short": "Determining the size of your positions has never been easier!"
       },
       "store": {
-        "description": "Il successo delle tue future operazioni dipenderà in gran parte dalla tua capacità di gestire il rischio in modo efficace. Infatti, è essenziale non rischiare tutto il tuo capitale in una singola transazione. Per questo, è importante calcolare la dimensione della tua posizione prima di ogni operazione. Per aiutarti a non abbassare la guardia nella gestione del rischio, il nostro calcolatore è lì per accompagnarti! Basta compilare i campi nel nostro strumento e ti suggerirà un importo ottimale da investire per massimizzare i tuoi guadagni e ridurre al minimo le tue perdite.",
-        "promo": "Non vuoi perdere tutto il tuo capitale in una singola transazione!"
+        "description": "The success of your future trades will largely depend on your ability to effectively manage risk. Indeed, it is essential not to risk all your capital on a single transaction. For this, it is important to calculate the size of your position before each trade. In order to help you not to relax your vigilance in risk management, our calculator is there to accompany you! Simply fill in the fields in our tool and it will suggest for you an optimal amount to invest in order to maximize your gains and minimize your losses.",
+        "promo": "You don't want to lose all your capital on a single transaction!"
       }
     },
     "fx_qal": {
       "intro": {
-        "description": "Questa applicazione ti permette di gestire il rischio e prendere decisioni attraverso un set completo di strumenti chiari e incisivi.",
-        "title": "Concentriamoci sulla gestione del rischio piuttosto che subire perdite!"
+        "description": "TThis application empowers you in risk management and decision-making through a comprehensive suite of straightforward and impactful tools.",
+        "title": "Let's focus on risk management rather than incurring losses!"
       }
     },
     "pip_qal": {
       "intro": {
-        "description": "Questa applicazione è progettata per aiutarti a determinare il valore di un pip per ogni tua operazione.",
-        "title": "Concentriamoci sulla gestione del rischio piuttosto che subire perdite!"
+        "description": "This application is designed to assist you in determining the pip value for each of your trades.",
+        "title": "Let's focus on risk management rather than incurring losses!"
       }
     },
     "profit_and_loss_qal": {
       "intro": {
-        "description": "La nostra app ti consente di determinare rapidamente se il tuo reddito è sufficiente a coprire le tue spese.",
-        "title": "Concentriamoci sulla riduzione delle perdite e sulla massimizzazione dei guadagni per risultati ottimali!"
+        "description": "Our app enables you to promptly determine whether your income is sufficient to meet your expenses.",
+        "title": "Let's focus on minimizing losses and maximizing gains for optimal results!"
       }
     }
   }
@@ -300,6 +299,54 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
+static const Map<String,dynamic> es = {
+  "apps": {
+    "div_qal": {
+      "intro": {
+        "description": "Aproveche el poder del interés compuesto y vea cómo reinvertir sus dividendos puede amplificar significativamente sus ganancias con el tiempo.",
+        "title": "¡Maximizando sus rendimientos de inversión!"
+      }
+    },
+    "expressions_quebecoises": {
+      "intro": {
+        "description": "¡Descubre más de 500 expresiones únicas de Quebec que te esperan!",
+        "title": "¡Embárcate en un viaje de aprendizaje!"
+      }
+    },
+    "fx_pos_qal": {
+      "intro": {
+        "description": "Esta aplicación te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
+        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+      },
+      "promo": {
+        "comply_risk_management": "Cumple fácilmente con la gestión de riesgos",
+        "short": "¡Determinar el tamaño de tus posiciones nunca ha sido tan fácil!"
+      },
+      "store": {
+        "description": "El éxito de tus futuras operaciones dependerá en gran medida de tu capacidad para gestionar el riesgo de manera efectiva. De hecho, es esencial no arriesgar todo tu capital en una sola transacción. Para ello, es importante calcular el tamaño de tu posición antes de cada operación. ¡Nuestra calculadora está ahí para acompañarte y ayudarte a no descuidar la gestión del riesgo! Simplemente completa los campos de nuestra herramienta y te sugerirá la cantidad óptima para invertir con el fin de maximizar tus ganancias y minimizar tus pérdidas.",
+        "promo": "¡No quieres perder todo tu capital en una sola transacción!"
+      }
+    },
+    "fx_qal": {
+      "intro": {
+        "description": "Esta aplicación te empodera en la gestión de riesgos y la toma de decisiones a través de una completa suite de herramientas sencillas e impactantes.",
+        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+      }
+    },
+    "pip_qal": {
+      "intro": {
+        "description": "Esta aplicación está diseñada para ayudarte a determinar el valor de un pip para cada una de tus operaciones.",
+        "title": "¡Enfoquémonos en la gestión de riesgos en lugar de incurrir en pérdidas!"
+      }
+    },
+    "profit_and_loss_qal": {
+      "intro": {
+        "description": "Nuestra aplicación te permite determinar rápidamente si tus ingresos son suficientes para cubrir tus gastos.",
+        "title": "¡Enfoquémonos en minimizar las pérdidas y maximizar las ganancias para obtener resultados óptimos!"
+      }
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "apps": {
     "div_qal": {
@@ -344,54 +391,6 @@ static const Map<String,dynamic> fr = {
       "intro": {
         "description": "Notre application vous permet de déterminer rapidement si vos revenus sont suffisants pour couvrir vos dépenses.",
         "title": "Concentrons-nous sur la minimisation des pertes et la maximisation des gains pour des résultats optimaux !"
-      }
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "apps": {
-    "div_qal": {
-      "intro": {
-        "description": "Embrace the power of compounding and see how reinvesting your dividends can significantly amplify your earnings over time.",
-        "title": "Maximizing Your Investment Returns!"
-      }
-    },
-    "expressions_quebecoises": {
-      "intro": {
-        "description": "Discover over 500 unique Quebecois expressions that await you!",
-        "title": "Let's embark on a journey of learning!"
-      }
-    },
-    "fx_pos_qal": {
-      "intro": {
-        "description": "This app will suggest you an optimal amount to invest in order to maximize your gains and minimize your losses.",
-        "title": "Let's focus on risk management rather than incurring losses!"
-      },
-      "promo": {
-        "comply_risk_management": "Easily respect your risk management",
-        "short": "Determining the size of your positions has never been easier!"
-      },
-      "store": {
-        "description": "The success of your future trades will largely depend on your ability to effectively manage risk. Indeed, it is essential not to risk all your capital on a single transaction. For this, it is important to calculate the size of your position before each trade. In order to help you not to relax your vigilance in risk management, our calculator is there to accompany you! Simply fill in the fields in our tool and it will suggest for you an optimal amount to invest in order to maximize your gains and minimize your losses.",
-        "promo": "You don't want to lose all your capital on a single transaction!"
-      }
-    },
-    "fx_qal": {
-      "intro": {
-        "description": "TThis application empowers you in risk management and decision-making through a comprehensive suite of straightforward and impactful tools.",
-        "title": "Let's focus on risk management rather than incurring losses!"
-      }
-    },
-    "pip_qal": {
-      "intro": {
-        "description": "This application is designed to assist you in determining the pip value for each of your trades.",
-        "title": "Let's focus on risk management rather than incurring losses!"
-      }
-    },
-    "profit_and_loss_qal": {
-      "intro": {
-        "description": "Our app enables you to promptly determine whether your income is sufficient to meet your expenses.",
-        "title": "Let's focus on minimizing losses and maximizing gains for optimal results!"
       }
     }
   }
@@ -444,5 +443,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }

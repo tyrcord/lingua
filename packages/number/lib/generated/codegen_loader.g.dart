@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class NumberCodegenLoader extends AssetLoader {
@@ -110,52 +109,52 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "number": {
     "label": {
-      "amount": "Cantidad",
-      "percent": "Por ciento",
-      "percentage": "Porcentaje"
+      "amount": "Importo",
+      "percent": "Per cento",
+      "percentage": "Percentuale"
     },
     "months": {
-      "few": "{} meses",
-      "many": "{} meses",
-      "one": "{} mes",
-      "other": "{} meses",
-      "two": "{} meses",
-      "zero": "{} mes"
+      "few": "{} mesi",
+      "many": "{} mesi",
+      "one": "{} mese",
+      "other": "{} mesi",
+      "two": "{} mesi",
+      "zero": "{} mese"
     },
     "ordinal": {
       "short": {
         "first": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
+          "female": "{num}°",
+          "male": "{num}°",
+          "other": "{num}°"
         },
         "others": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
+          "female": "{num}°",
+          "male": "{num}°",
+          "other": "{num}°"
         },
         "second": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
+          "female": "{num}°",
+          "male": "{num}°",
+          "other": "{num}°"
         },
         "third": {
-          "female": "{num}.ª",
-          "male": "{num}.º",
-          "other": "{num}.º"
+          "female": "{num}°",
+          "male": "{num}°",
+          "other": "{num}°"
         }
       }
     },
     "years": {
-      "few": "{} años",
-      "many": "{} años",
-      "one": "{} año",
-      "other": "{} años",
-      "two": "{} años",
-      "zero": "{} año"
+      "few": "{} anni",
+      "many": "{} anni",
+      "one": "{} anno",
+      "other": "{} anni",
+      "two": "{} anni",
+      "zero": "{} anno"
     }
   }
 };
@@ -208,52 +207,52 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "number": {
     "label": {
-      "amount": "Importo",
-      "percent": "Per cento",
-      "percentage": "Percentuale"
+      "amount": "Amount",
+      "percent": "Percent",
+      "percentage": "Percentage"
     },
     "months": {
-      "few": "{} mesi",
-      "many": "{} mesi",
-      "one": "{} mese",
-      "other": "{} mesi",
-      "two": "{} mesi",
-      "zero": "{} mese"
+      "few": "{} months",
+      "many": "{} months",
+      "one": "{} month",
+      "other": "{} months",
+      "two": "{} months",
+      "zero": "{} month"
     },
     "ordinal": {
       "short": {
         "first": {
-          "female": "{num}°",
-          "male": "{num}°",
-          "other": "{num}°"
+          "female": "{num}st",
+          "male": "{num}st",
+          "other": "{num}st"
         },
         "others": {
-          "female": "{num}°",
-          "male": "{num}°",
-          "other": "{num}°"
+          "female": "{num}th",
+          "male": "{num}th",
+          "other": "{num}th"
         },
         "second": {
-          "female": "{num}°",
-          "male": "{num}°",
-          "other": "{num}°"
+          "female": "{num}nd",
+          "male": "{num}nd",
+          "other": "{num}nd"
         },
         "third": {
-          "female": "{num}°",
-          "male": "{num}°",
-          "other": "{num}°"
+          "female": "{num}rd",
+          "male": "{num}rd",
+          "other": "{num}rd"
         }
       }
     },
     "years": {
-      "few": "{} anni",
-      "many": "{} anni",
-      "one": "{} anno",
-      "other": "{} anni",
-      "two": "{} anni",
-      "zero": "{} anno"
+      "few": "{} years",
+      "many": "{} years",
+      "one": "{} year",
+      "other": "{} years",
+      "two": "{} years",
+      "zero": "{} year"
     }
   }
 };
@@ -306,6 +305,55 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
+static const Map<String,dynamic> es = {
+  "number": {
+    "label": {
+      "amount": "Cantidad",
+      "percent": "Por ciento",
+      "percentage": "Porcentaje"
+    },
+    "months": {
+      "few": "{} meses",
+      "many": "{} meses",
+      "one": "{} mes",
+      "other": "{} meses",
+      "two": "{} meses",
+      "zero": "{} mes"
+    },
+    "ordinal": {
+      "short": {
+        "first": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        },
+        "others": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        },
+        "second": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        },
+        "third": {
+          "female": "{num}.ª",
+          "male": "{num}.º",
+          "other": "{num}.º"
+        }
+      }
+    },
+    "years": {
+      "few": "{} años",
+      "many": "{} años",
+      "one": "{} año",
+      "other": "{} años",
+      "two": "{} años",
+      "zero": "{} año"
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "number": {
     "label": {
@@ -352,55 +400,6 @@ static const Map<String,dynamic> fr = {
       "other": "{} ans",
       "two": "{} ans",
       "zero": "{} an"
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "number": {
-    "label": {
-      "amount": "Amount",
-      "percent": "Percent",
-      "percentage": "Percentage"
-    },
-    "months": {
-      "few": "{} months",
-      "many": "{} months",
-      "one": "{} month",
-      "other": "{} months",
-      "two": "{} months",
-      "zero": "{} month"
-    },
-    "ordinal": {
-      "short": {
-        "first": {
-          "female": "{num}st",
-          "male": "{num}st",
-          "other": "{num}st"
-        },
-        "others": {
-          "female": "{num}th",
-          "male": "{num}th",
-          "other": "{num}th"
-        },
-        "second": {
-          "female": "{num}nd",
-          "male": "{num}nd",
-          "other": "{num}nd"
-        },
-        "third": {
-          "female": "{num}rd",
-          "male": "{num}rd",
-          "other": "{num}rd"
-        }
-      }
-    },
-    "years": {
-      "few": "{} years",
-      "many": "{} years",
-      "one": "{} year",
-      "other": "{} years",
-      "two": "{} years",
-      "zero": "{} year"
     }
   }
 };
@@ -453,5 +452,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }

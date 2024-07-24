@@ -240,6 +240,8 @@ abstract class FinanceLocaleKeys {
   static const finance_label_retained_earnings = 'finance.label.retained_earnings';
   static const finance_label_retracement = 'finance.label.retracement';
   static const finance_label_return_frequency = 'finance.label.return_frequency';
+  static const finance_label_return_on_capital = 'finance.label.return_on_capital';
+  static const finance_label_return_on_equity = 'finance.label.return_on_equity';
   static const finance_label_return_on_investment = 'finance.label.return_on_investment';
   static const finance_label_revenue = 'finance.label.revenue';
   static const finance_label_risk_amount = 'finance.label.risk.amount';

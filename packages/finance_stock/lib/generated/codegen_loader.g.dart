@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class FinanceStockCodegenLoader extends AssetLoader {
@@ -62,28 +61,28 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "stock": {
     "help": {
       "expected_annual_share_price_appreciation": {
-        "example": "Por ejemplo, si espera que el precio de la acción se aprecie anualmente en un 5%, introduzca '5'.",
-        "instructions": "Introduzca el aumento porcentual anual esperado en el precio de la acción de su inversión. Esta es una estimación de la tasa de crecimiento anual en el valor de las acciones."
+        "example": "Ad esempio, se ti aspetti che il prezzo delle azioni apprezzi del 5% annualmente, inserisci '5'.",
+        "instructions": "Inserisci l'aumento percentuale annuo previsto del prezzo delle azioni del tuo investimento. Questa è una stima del tasso di crescita annuale del valore delle azioni."
       },
       "slippage": {
-        "example": "Supongamos que pretendes ingresar al mercado colocando una orden de stop para comprar una acción a \u0024100 por acción. Sin embargo, debido a las condiciones del mercado y la disponibilidad limitada de vendedores, la orden se ejecuta a un precio ligeramente más alto de \u0024101 por acción. En tal escenario, la slippage sería del 1% ([\u0024101 - \u0024100] / \u0024100 * 100%). Por lo tanto, si anticipas una slippage del 1% al ingresar al mercado, por favor ingresa el valor 1.",
-        "text": "Representa la desviación esperada que puedes encontrar al ingresar o salir del mercado. Es común que los pedidos realizados con órdenes de stop o stop-loss no se ejecuten al precio indicado exactamente. La slippage, expresada como un porcentaje, considera las posibles desviaciones que pueden ocurrir tanto para tus precios de entrada como de salida."
+        "example": "Supponiamo che tu intenda entrare sul mercato inserendo un ordine di stop per acquistare un'azione a \u0024100 per azione. Tuttavia, a causa delle condizioni di mercato prevalenti e della disponibilità limitata di venditori, l'ordine viene eseguito a un prezzo leggermente più alto, a \u0024101 per azione. In uno scenario del genere, la slippage ammonta al 1% ([\u0024101 - \u0024100] / \u0024100 * 100%). Pertanto, se prevedi una slippage del 1% durante l'ingresso sul mercato, inserisci il valore 1.",
+        "text": "Rappresenta la deviazione attesa che potresti incontrare durante l'ingresso o l'uscita dal mercato. È comune che gli ordini effettuati con ordini di stop o stop loss non vengano eseguiti al prezzo indicato esattamente. La slippage, espressa come percentuale, considera le deviazioni potenziali che possono verificarsi sia per i prezzi di ingresso che di uscita."
       }
     },
     "label": {
-      "expected_annual_share_price_appreciation": "Apreciación anual esperada del precio de las acciones",
-      "number_of_shares": "Número de acciones",
-      "share_price": "Precio de la acción",
-      "share_price_appreciation": "Apreciación del precio de la acción",
-      "share_value_excluding_dividends": "Valor de la acción excluyendo dividendos",
-      "shares": "Participaciones",
-      "shares_owned": "Acciones poseídas",
-      "stock": "Acciones",
-      "stock_options": "Opciones sobre acciones"
+      "expected_annual_share_price_appreciation": "Apprezzamento annuale previsto del prezzo delle azioni",
+      "number_of_shares": "Numero di azioni",
+      "share_price": "Prezzo azione",
+      "share_price_appreciation": "Apprezzamento del prezzo dell'azione",
+      "share_value_excluding_dividends": "Valore dell'azione esclusi i dividendi",
+      "shares": "Quote",
+      "shares_owned": "Azioni possedute",
+      "stock": "Azioni",
+      "stock_options": "Opzioni su azioni"
     }
   }
 };
@@ -112,28 +111,28 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "stock": {
     "help": {
       "expected_annual_share_price_appreciation": {
-        "example": "Ad esempio, se ti aspetti che il prezzo delle azioni apprezzi del 5% annualmente, inserisci '5'.",
-        "instructions": "Inserisci l'aumento percentuale annuo previsto del prezzo delle azioni del tuo investimento. Questa è una stima del tasso di crescita annuale del valore delle azioni."
+        "example": "For example, if you expect the share price to appreciate by 5% annually, enter '5'.",
+        "instructions": "Enter the expected annual percentage increase in the share price of your investment. This is an estimate of the yearly growth rate in the value of the shares."
       },
       "slippage": {
-        "example": "Supponiamo che tu intenda entrare sul mercato inserendo un ordine di stop per acquistare un'azione a \u0024100 per azione. Tuttavia, a causa delle condizioni di mercato prevalenti e della disponibilità limitata di venditori, l'ordine viene eseguito a un prezzo leggermente più alto, a \u0024101 per azione. In uno scenario del genere, la slippage ammonta al 1% ([\u0024101 - \u0024100] / \u0024100 * 100%). Pertanto, se prevedi una slippage del 1% durante l'ingresso sul mercato, inserisci il valore 1.",
-        "text": "Rappresenta la deviazione attesa che potresti incontrare durante l'ingresso o l'uscita dal mercato. È comune che gli ordini effettuati con ordini di stop o stop loss non vengano eseguiti al prezzo indicato esattamente. La slippage, espressa come percentuale, considera le deviazioni potenziali che possono verificarsi sia per i prezzi di ingresso che di uscita."
+        "example": "Let's suppose you intend to enter the market by placing a stop order to buy a stock at \u0024100 per share. However, due to prevailing market conditions and the limited availability of sellers, the order ends up being executed at a slightly higher price of \u0024101 per share. In such a scenario, the slippage would amount to 1% ([\u0024101 - \u0024100] / \u0024100 * 100%). Therefore, if you anticipate a 1% slippage when entering the market, please enter the value 1",
+        "text": "Represents the expected deviation you may encounter when entering or exiting the market. It is common for orders placed with stop orders or stop losses to not be executed at the exact indicated price. Slippage, expressed as a percentage, considers the potential deviations that can occur for both your entry and exit prices."
       }
     },
     "label": {
-      "expected_annual_share_price_appreciation": "Apprezzamento annuale previsto del prezzo delle azioni",
-      "number_of_shares": "Numero di azioni",
-      "share_price": "Prezzo azione",
-      "share_price_appreciation": "Apprezzamento del prezzo dell'azione",
-      "share_value_excluding_dividends": "Valore dell'azione esclusi i dividendi",
-      "shares": "Quote",
-      "shares_owned": "Azioni possedute",
-      "stock": "Azioni",
-      "stock_options": "Opzioni su azioni"
+      "expected_annual_share_price_appreciation": "Expected annual share price appreciation",
+      "number_of_shares": "Number of shares",
+      "share_price": "Share price",
+      "share_price_appreciation": "Share price appreciation",
+      "share_value_excluding_dividends": "Share value excluding dividends",
+      "shares": "Shares",
+      "shares_owned": "Shares owned",
+      "stock": "Stock",
+      "stock_options": "Stock options"
     }
   }
 };
@@ -162,6 +161,31 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
+static const Map<String,dynamic> es = {
+  "stock": {
+    "help": {
+      "expected_annual_share_price_appreciation": {
+        "example": "Por ejemplo, si espera que el precio de la acción se aprecie anualmente en un 5%, introduzca '5'.",
+        "instructions": "Introduzca el aumento porcentual anual esperado en el precio de la acción de su inversión. Esta es una estimación de la tasa de crecimiento anual en el valor de las acciones."
+      },
+      "slippage": {
+        "example": "Supongamos que pretendes ingresar al mercado colocando una orden de stop para comprar una acción a \u0024100 por acción. Sin embargo, debido a las condiciones del mercado y la disponibilidad limitada de vendedores, la orden se ejecuta a un precio ligeramente más alto de \u0024101 por acción. En tal escenario, la slippage sería del 1% ([\u0024101 - \u0024100] / \u0024100 * 100%). Por lo tanto, si anticipas una slippage del 1% al ingresar al mercado, por favor ingresa el valor 1.",
+        "text": "Representa la desviación esperada que puedes encontrar al ingresar o salir del mercado. Es común que los pedidos realizados con órdenes de stop o stop-loss no se ejecuten al precio indicado exactamente. La slippage, expresada como un porcentaje, considera las posibles desviaciones que pueden ocurrir tanto para tus precios de entrada como de salida."
+      }
+    },
+    "label": {
+      "expected_annual_share_price_appreciation": "Apreciación anual esperada del precio de las acciones",
+      "number_of_shares": "Número de acciones",
+      "share_price": "Precio de la acción",
+      "share_price_appreciation": "Apreciación del precio de la acción",
+      "share_value_excluding_dividends": "Valor de la acción excluyendo dividendos",
+      "shares": "Participaciones",
+      "shares_owned": "Acciones poseídas",
+      "stock": "Acciones",
+      "stock_options": "Opciones sobre acciones"
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "stock": {
     "help": {
@@ -184,31 +208,6 @@ static const Map<String,dynamic> fr = {
       "shares_owned": "Actions possédées",
       "stock": "Actions",
       "stock_options": "Options sur actions"
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "stock": {
-    "help": {
-      "expected_annual_share_price_appreciation": {
-        "example": "For example, if you expect the share price to appreciate by 5% annually, enter '5'.",
-        "instructions": "Enter the expected annual percentage increase in the share price of your investment. This is an estimate of the yearly growth rate in the value of the shares."
-      },
-      "slippage": {
-        "example": "Let's suppose you intend to enter the market by placing a stop order to buy a stock at \u0024100 per share. However, due to prevailing market conditions and the limited availability of sellers, the order ends up being executed at a slightly higher price of \u0024101 per share. In such a scenario, the slippage would amount to 1% ([\u0024101 - \u0024100] / \u0024100 * 100%). Therefore, if you anticipate a 1% slippage when entering the market, please enter the value 1",
-        "text": "Represents the expected deviation you may encounter when entering or exiting the market. It is common for orders placed with stop orders or stop losses to not be executed at the exact indicated price. Slippage, expressed as a percentage, considers the potential deviations that can occur for both your entry and exit prices."
-      }
-    },
-    "label": {
-      "expected_annual_share_price_appreciation": "Expected annual share price appreciation",
-      "number_of_shares": "Number of shares",
-      "share_price": "Share price",
-      "share_price_appreciation": "Share price appreciation",
-      "share_value_excluding_dividends": "Share value excluding dividends",
-      "shares": "Shares",
-      "shares_owned": "Shares owned",
-      "stock": "Stock",
-      "stock_options": "Stock options"
     }
   }
 };
@@ -237,5 +236,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }

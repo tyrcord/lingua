@@ -1,7 +1,6 @@
-// Dart imports:
+
 import 'dart:ui';
 
-// Package imports:
 import 'package:easy_localization/easy_localization.dart' show AssetLoader;
 
 class CalculatorCodegenLoader extends AssetLoader {
@@ -46,20 +45,20 @@ static const Map<String,dynamic> zh = {
     }
   }
 };
-static const Map<String,dynamic> es = {
+static const Map<String,dynamic> it = {
   "calculator": {
     "label": {
-      "breakdown": "Desglose",
-      "calculator": "Calculadora",
-      "calculators": "Calculadoras",
+      "breakdown": "Suddivisione",
+      "calculator": "Calcolatrice",
+      "calculators": "Calcolatrici",
       "more": {
-        "results": "Más Resultados"
+        "results": "Altri Risultati"
       },
-      "results": "Resultados"
+      "results": "Risultati"
     },
     "title": {
-      "instructions": "Instrucciones para utilizar esta Calculadora",
-      "results": "Información sobre los resultados"
+      "instructions": "Istruzioni per l'uso di questa Calcolatrice",
+      "results": "Informazioni sui risultati"
     }
   }
 };
@@ -80,20 +79,20 @@ static const Map<String,dynamic> de = {
     }
   }
 };
-static const Map<String,dynamic> it = {
+static const Map<String,dynamic> en = {
   "calculator": {
     "label": {
-      "breakdown": "Suddivisione",
-      "calculator": "Calcolatrice",
-      "calculators": "Calcolatrici",
+      "breakdown": "Breakdown",
+      "calculator": "Calculator",
+      "calculators": "Calculators",
       "more": {
-        "results": "Altri Risultati"
+        "results": "More Results"
       },
-      "results": "Risultati"
+      "results": "Results"
     },
     "title": {
-      "instructions": "Istruzioni per l'uso di questa Calcolatrice",
-      "results": "Informazioni sui risultati"
+      "instructions": "Instructions for using this Calculator",
+      "results": "Information regarding the results"
     }
   }
 };
@@ -114,6 +113,23 @@ static const Map<String,dynamic> ru = {
     }
   }
 };
+static const Map<String,dynamic> es = {
+  "calculator": {
+    "label": {
+      "breakdown": "Desglose",
+      "calculator": "Calculadora",
+      "calculators": "Calculadoras",
+      "more": {
+        "results": "Más Resultados"
+      },
+      "results": "Resultados"
+    },
+    "title": {
+      "instructions": "Instrucciones para utilizar esta Calculadora",
+      "results": "Información sobre los resultados"
+    }
+  }
+};
 static const Map<String,dynamic> fr = {
   "calculator": {
     "label": {
@@ -128,23 +144,6 @@ static const Map<String,dynamic> fr = {
     "title": {
       "instructions": "Instructions pour utiliser cette Calculatrice",
       "results": "Informations concernant les résultats"
-    }
-  }
-};
-static const Map<String,dynamic> en = {
-  "calculator": {
-    "label": {
-      "breakdown": "Breakdown",
-      "calculator": "Calculator",
-      "calculators": "Calculators",
-      "more": {
-        "results": "More Results"
-      },
-      "results": "Results"
-    },
-    "title": {
-      "instructions": "Instructions for using this Calculator",
-      "results": "Information regarding the results"
     }
   }
 };
@@ -165,5 +164,5 @@ static const Map<String,dynamic> pt = {
     }
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "es": es, "de": de, "it": it, "ru": ru, "fr": fr, "en": en, "pt": pt};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ja": ja, "zh": zh, "it": it, "de": de, "en": en, "ru": ru, "es": es, "fr": fr, "pt": pt};
 }
