@@ -2,17 +2,17 @@ dependencies:
   easy_localization: ^3.0.7
   flutter:
     sdk: flutter
-  t_helpers: ^0.0.59
+  t_helpers: ^0.0.62
 description: Library for internal units localization.
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
   import_sorter: ^4.6.0
   lingua_core: ^0.0.45
 environment:
-  flutter: ">=3.24.0"
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0 <4.0.0"
 name: lingua_units
 repository: https://github.com/tyrcord/lingua/tree/main/packages/units
 version: 0.0.19

@@ -4,14 +4,14 @@ dependencies:
     sdk: flutter
 description: Library for internal finance forex localization.
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
   import_sorter: ^4.6.0
   lingua_core: ^0.0.45
 environment:
-  flutter: ">=3.24.0"
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0 <4.0.0"
 name: lingua_finance_forex
 repository: https://github.com/tyrcord/lingua/tree/main/packages/finance_forex
 version: 0.0.22

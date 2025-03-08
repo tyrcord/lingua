@@ -1,18 +1,18 @@
 dependencies:
-  args: ^2.5.0
+  args: ^2.6.0
   easy_localization: ^3.0.7
   flutter:
     sdk: flutter
-  path: ^1.9.0
+  path: ^1.9.1
 description: Library for internal localization.
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
   import_sorter: ^4.6.0
 environment:
-  flutter: ">=3.24.0"
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0 <4.0.0"
 name: lingua_core
 repository: https://github.com/tyrcord/lingua/tree/main/packages/core
 version: 0.0.45
