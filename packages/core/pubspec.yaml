@@ -15,4 +15,4 @@ environment:
   flutter: ">=3.29.0 <4.0.0"
 name: lingua_core
 repository: https://github.com/tyrcord/lingua/tree/main/packages/core
-version: 0.0.45
+version: 0.0.46
